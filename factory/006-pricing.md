@@ -1,0 +1,36 @@
+---
+title: Pricing & Models - Factory Documentation
+url: https://docs.factory.ai/pricing
+source: sitemap
+fetched_at: 2026-01-13T19:03:35.382430194-03:00
+rendered_js: false
+word_count: 182
+summary: This document outlines the subscription pricing tiers, token calculation rules, and specific cost multipliers for various AI models available on the Factory platform.
+tags:
+    - pricing
+    - subscription-plans
+    - token-billing
+    - model-costs
+    - usage-metrics
+category: reference
+---
+
+## Pricing Tiers
+
+Factory measures usage through Standard Tokens. Cached tokens are billed at one-tenth of a Standard Token (10 cached tokens = 1 Standard Token). We offer two subscription plans:
+
+PlanStandard Tokens / MonthPrice / Month**Free**BYOK$0**Pro**10 million (+10 million bonus tokens)$20**Max**100 million (+100 million bonus tokens)$200**Ultra**1 billion (+1 billion bonus tokens)$2,000
+
+Overage is billed at $2.70 per million Factory Standard Tokens.
+
+## Model Pricing
+
+Different models have different multipliers applied to calculate Standard Token usage.
+
+### Pricing Table
+
+ModelModel IDMultiplierDroid Core`glm-4.6`0.25×Claude Haiku 4.5`claude-haiku-4-5-20251001`0.4×GPT-5.1`gpt-5.1`0.5×GPT-5.1-Codex`gpt-5.1-codex`0.5×GPT-5.1-Codex-Max`gpt-5.1-codex-max`0.5×GPT-5.2`gpt-5.2`0.7×Gemini 3 Pro`gemini-3-pro-preview`0.8×Gemini 3 Flash`gemini-3-flash-preview`0.2×Claude Sonnet 4.5`claude-sonnet-4-5-20250929`1.2×Claude Opus 4.5`claude-opus-4-5-20251101`2×
+
+## Thinking About Tokens
+
+As a reference point, using GPT-5.1-Codex at its 0.5× multiplier alongside our typical cache ratio of 4–8× means your effective Standard Token usage goes dramatically further than raw on-demand calls. Switching to very expensive models frequently—or rotating models often enough to invalidate the cache—will lower that benefit, but most workloads see materially higher usage ceilings compared with buying capacity directly from individual model providers. Our aim is for you to run your workloads without worrying about token math; the plans are designed so common usage patterns outperform comparable direct offerings.

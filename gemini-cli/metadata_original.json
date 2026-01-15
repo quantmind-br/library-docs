@@ -1,0 +1,2317 @@
+{
+  "generated_at": "2026-01-13T19:15:45.010711813-03:00",
+  "source_url": "https://geminicli.com/",
+  "strategy": "crawler",
+  "total_documents": 138,
+  "documents": [
+    {
+      "file_path": "index.md",
+      "title": "Build, debug \u0026 deploy with AI",
+      "url": "https://geminicli.com/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:09.879891252-03:00",
+      "summary": "This document introduces Gemini CLI, a tool that allows users to query and edit codebases, generate applications, and automate workflows using AI directly from their terminal.",
+      "tags": [
+        "ai",
+        "terminal",
+        "code-generation",
+        "workflow-automation",
+        "cli"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs.md",
+      "title": "Welcome to Gemini CLI documentation",
+      "url": "https://geminicli.com/docs/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:11.77323481-03:00",
+      "summary": "This documentation provides a comprehensive guide to installing, using, and developing Gemini CLI, a command-line interface for interacting with Gemini models.",
+      "tags": [
+        "gemini-cli",
+        "command-line",
+        "ai-models",
+        "installation",
+        "usage",
+        "development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-changelogs.md",
+      "title": "Gemini CLI release notes",
+      "url": "https://geminicli.com/docs/changelogs/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:12.605766145-03:00",
+      "summary": "This document provides information on the release channels for Gemini CLI, including nightly, preview, and stable versions. It also details announcements and new features for various versions, such as improved model support, new extensions, and UI enhancements.",
+      "tags": [
+        "gemini-cli",
+        "release-notes",
+        "announcements",
+        "extensions",
+        "model-support",
+        "cli-updates"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-get-started-authentication.md",
+      "title": "Gemini CLI authentication setup",
+      "url": "https://geminicli.com/docs/get-started/authentication/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:13.793971022-03:00",
+      "summary": "This document explains how to authenticate with Gemini CLI, offering several methods based on user type and scenario, including Google account login, API keys, and Vertex AI authentication options.",
+      "tags": [
+        "gemini-cli",
+        "authentication",
+        "google-account",
+        "api-key",
+        "vertex-ai",
+        "gcloud"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-installation.md",
+      "title": "Gemini CLI installation, execution, and deployment",
+      "url": "https://geminicli.com/docs/get-started/installation/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:13.557552088-03:00",
+      "summary": "This document explains how to install and run the Gemini CLI, detailing different methods like standard installation, running in a sandbox via Docker/Podman, and execution from source or GitHub. It also covers the underlying deployment architecture including NPM packages, build processes, and the sandbox image.",
+      "tags": [
+        "gemini-cli",
+        "installation",
+        "docker",
+        "sandbox",
+        "source-code",
+        "github",
+        "deployment-architecture"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli.md",
+      "title": "Gemini CLI",
+      "url": "https://geminicli.com/docs/cli/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:14.235593003-03:00",
+      "summary": "This document provides an overview and links to detailed documentation for the Gemini CLI, covering its commands, customization options, advanced features, and non-interactive usage for automation.",
+      "tags": [
+        "gemini-cli",
+        "command-line-interface",
+        "automation",
+        "configuration",
+        "tutorials"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-examples.md",
+      "title": "Gemini CLI examples",
+      "url": "https://geminicli.com/docs/get-started/examples/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:15.074715951-03:00",
+      "summary": "This document provides examples of how to use Gemini CLI for various tasks, including renaming files based on content, explaining code repositories, combining spreadsheets, and writing unit tests.",
+      "tags": [
+        "gemini-cli",
+        "examples",
+        "file-operations",
+        "code-analysis",
+        "data-manipulation",
+        "testing"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-contributing.md",
+      "title": "How to contribute",
+      "url": "https://geminicli.com/docs/contributing/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:15.030087105-03:00",
+      "summary": "This document outlines the process for contributing to the Gemini CLI project, covering prerequisites, code and documentation contribution guidelines, and development setup.",
+      "tags": [
+        "contributing",
+        "code-contribution",
+        "pull-requests",
+        "development-setup",
+        "cla"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-gemini-3.md",
+      "title": "Gemini 3 Pro and Gemini 3 Flash on Gemini CLI",
+      "url": "https://geminicli.com/docs/get-started/gemini-3/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:14.849181762-03:00",
+      "summary": "This document explains how to enable and use Gemini 3 models (Pro and Flash) within the Gemini CLI, covering setup, usage limits, model routing, and specific instructions for Gemini Code Assist.",
+      "tags": [
+        "gemini-cli",
+        "gemini-3",
+        "model-selection",
+        "usage-limits",
+        "gemini-code-assist"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-cli-custom-commands.md",
+      "title": "Custom commands",
+      "url": "https://geminicli.com/docs/cli/custom-commands/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:15.644531336-03:00",
+      "summary": "This document explains how to create and manage custom commands in Gemini CLI using TOML files, covering file locations, naming conventions, argument handling, and shell command execution.",
+      "tags": [
+        "gemini-cli",
+        "custom-commands",
+        "toml",
+        "argument-handling",
+        "shell-commands"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-configuration.md",
+      "title": "Gemini CLI configuration",
+      "url": "https://geminicli.com/docs/get-started/configuration/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:15.355951166-03:00",
+      "summary": "This document explains how to configure the Gemini CLI, detailing the different configuration layers, file locations, and available settings within the `settings.json` file.",
+      "tags": [
+        "configuration",
+        "settings",
+        "gemini-cli",
+        "json-format",
+        "environment-variables"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-architecture.md",
+      "title": "Gemini CLI Architecture Overview",
+      "url": "https://geminicli.com/docs/architecture/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:15.581474595-03:00",
+      "summary": "This document explains the architecture of the Gemini CLI, detailing its core components: the CLI package for user interaction and the Core package for backend logic and API communication, along with the system's tool extensibility.",
+      "tags": [
+        "gemini-cli",
+        "architecture",
+        "cli-package",
+        "core-package",
+        "tools",
+        "api-communication"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-get-started.md",
+      "title": "Get started with Gemini CLI",
+      "url": "https://geminicli.com/docs/get-started/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:15.635809271-03:00",
+      "summary": "This document provides a quickstart guide to installing, authenticating, and configuring the Gemini CLI tool for command-line use. It explains how to get started with basic usage and points to further documentation for more advanced features.",
+      "tags": [
+        "gemini-cli",
+        "installation",
+        "authentication",
+        "configuration",
+        "command-line-tool"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-checkpointing.md",
+      "title": "Checkpointing",
+      "url": "https://geminicli.com/docs/cli/checkpointing/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:16.246706226-03:00",
+      "summary": "This document explains how to use the Gemini CLI's Checkpointing feature, which automatically saves your project's state before AI modifications and allows you to revert to a previous state using the `/restore` command.",
+      "tags": [
+        "checkpointing",
+        "gemini-cli",
+        "version-control",
+        "code-revert",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-sandbox.md",
+      "title": "Sandboxing in the Gemini CLI",
+      "url": "https://geminicli.com/docs/cli/sandbox/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:16.984210518-03:00",
+      "summary": "This document explains how to use sandboxing in the Gemini CLI to isolate AI operations from your host system, covering installation, different sandboxing methods like macOS Seatbelt and container-based solutions, and configuration options.",
+      "tags": [
+        "gemini-cli",
+        "sandboxing",
+        "security",
+        "docker",
+        "podman",
+        "macos-seatbelt",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-commands.md",
+      "title": "CLI commands",
+      "url": "https://geminicli.com/docs/cli/commands/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:16.958019997-03:00",
+      "summary": "This document describes the built-in commands for the Gemini CLI, categorized by their prefixes (`/`, `@`, `!`), and explains their functionalities and usage.",
+      "tags": [
+        "gemini-cli",
+        "commands",
+        "documentation",
+        "tutorial",
+        "usage"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-enterprise.md",
+      "title": "Gemini CLI for the enterprise",
+      "url": "https://geminicli.com/docs/cli/enterprise/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:17.342383979-03:00",
+      "summary": "This document explains how to configure Gemini CLI for enterprise environments using system-level settings, wrapper scripts, and tool restrictions to enhance security and manage user access.",
+      "tags": [
+        "enterprise-configuration",
+        "system-settings",
+        "security-best-practices",
+        "wrapper-script",
+        "tool-control"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-model.md",
+      "title": "Gemini CLI model selection (`/model` command)",
+      "url": "https://geminicli.com/docs/cli/model/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:17.456591068-03:00",
+      "summary": "This document explains how to use the /model command in Gemini CLI to select and configure the Gemini model used for your tasks, recommending the Auto setting for most users.",
+      "tags": [
+        "gemini-cli",
+        "model-selection",
+        "configuration",
+        "auto-model",
+        "pro-model",
+        "flash-model"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-session-management.md",
+      "title": "Session Management",
+      "url": "https://geminicli.com/docs/cli/session-management/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:17.50135542-03:00",
+      "summary": "This document explains how Gemini CLI automatically saves and manages conversation sessions, detailing how to resume, list, and delete sessions, as well as configure session retention policies.",
+      "tags": [
+        "gemini-cli",
+        "session-management",
+        "conversation-history",
+        "cli-commands",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-headless.md",
+      "title": "Headless mode",
+      "url": "https://geminicli.com/docs/cli/headless/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:17.533012625-03:00",
+      "summary": "This document explains how to use Gemini CLI in headless mode, allowing programmatic execution via command line scripts and automation tools. It covers basic usage, different output formats (text, JSON, streaming JSON), file redirection, and configuration options for scripting and CI/CD pipelines.",
+      "tags": [
+        "headless-mode",
+        "cli",
+        "automation",
+        "scripting",
+        "json-output",
+        "streaming-json"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-keyboard-shortcuts.md",
+      "title": "Gemini CLI keyboard shortcuts",
+      "url": "https://geminicli.com/docs/cli/keyboard-shortcuts/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:17.705835045-03:00",
+      "summary": "This document lists and explains the default keyboard shortcuts available in the Gemini CLI for various actions like text editing, history navigation, and UI control.",
+      "tags": [
+        "gemini-cli",
+        "keyboard-shortcuts",
+        "command-line-interface",
+        "editing",
+        "navigation",
+        "ui-control"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-skills.md",
+      "title": "Agent Skills",
+      "url": "https://geminicli.com/docs/cli/skills/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:17.623643399-03:00",
+      "summary": "This document explains Gemini CLI's Agent Skills feature, which allows extending the CLI's capabilities with specialized, on-demand expertise packaged as self-contained directories. It covers how skills are discovered, managed via interactive commands and terminal utilities, and structured with a `SKILL.md` file for metadata and instructions.",
+      "tags": [
+        "gemini-cli",
+        "agent-skills",
+        "cli-extensions",
+        "procedural-guidance",
+        "skill-discovery"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-tutorials.md",
+      "title": "Tutorials",
+      "url": "https://geminicli.com/docs/cli/tutorials/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:18.463273314-03:00",
+      "summary": "This tutorial explains how to set up a Model Context Protocol (MCP) server, using the GitHub MCP server as an example, and configure it within your Gemini CLI project settings.",
+      "tags": [
+        "gemini-cli",
+        "mcp-server",
+        "github-integration",
+        "docker",
+        "configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-cli-telemetry.md",
+      "title": "Observability with OpenTelemetry",
+      "url": "https://geminicli.com/docs/cli/telemetry/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:18.161873554-03:00",
+      "summary": "This document explains how to enable and configure OpenTelemetry for Gemini CLI to send telemetry data to Google Cloud or local files for observability, performance monitoring, and debugging.",
+      "tags": [
+        "opentelemetry",
+        "gemini-cli",
+        "telemetry",
+        "observability",
+        "google-cloud",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-settings.md",
+      "title": "Gemini CLI settings (`/settings` command)",
+      "url": "https://geminicli.com/docs/cli/settings/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:18.764006002-03:00",
+      "summary": "This document explains how to control Gemini CLI settings using the `/settings` command and details various configurable options for UI, output, IDE, model, context, tools, security, and experimental features.",
+      "tags": [
+        "gemini-cli",
+        "settings",
+        "configuration",
+        "ui",
+        "model",
+        "tools",
+        "security"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-themes.md",
+      "title": "Themes",
+      "url": "https://geminicli.com/docs/cli/themes/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:18.726145898-03:00",
+      "summary": "This document explains how to customize the appearance of the Gemini CLI by changing its color theme, either by selecting a pre-defined theme or by creating and loading custom themes from JSON files.",
+      "tags": [
+        "gemini-cli",
+        "theme-customization",
+        "color-themes",
+        "settings.json",
+        "cli-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-uninstall.md",
+      "title": "Uninstalling the CLI",
+      "url": "https://geminicli.com/docs/cli/uninstall/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:19.482805663-03:00",
+      "summary": "This document explains how to uninstall the Gemini CLI, providing distinct methods for users who installed it via npx versus a global npm installation.",
+      "tags": [
+        "uninstall",
+        "cli",
+        "npx",
+        "npm",
+        "gemini-cli",
+        "global-install"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-cli-token-caching.md",
+      "title": "Token caching and cost optimization",
+      "url": "https://geminicli.com/docs/cli/token-caching/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:19.587320378-03:00",
+      "summary": "This document explains how the Gemini CLI optimizes API costs by utilizing token caching for API key and Vertex AI users, and how to view usage statistics.",
+      "tags": [
+        "gemini-cli",
+        "token-caching",
+        "api-costs",
+        "vertex-ai",
+        "api-key-authentication",
+        "stats"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-cli-system-prompt.md",
+      "title": "System Prompt Override (GEMINI_SYSTEM_MD)",
+      "url": "https://geminicli.com/docs/cli/system-prompt/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:19.479703512-03:00",
+      "summary": "This document explains how to override the default system instructions for the Gemini CLI by using the GEMINI_SYSTEM_MD environment variable to point to a custom Markdown file.",
+      "tags": [
+        "gemini-cli",
+        "system-prompt",
+        "environment-variable",
+        "customization",
+        "markdown"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-memport.md",
+      "title": "Memory Import Processor",
+      "url": "https://geminicli.com/docs/core/memport/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.288628728-03:00",
+      "summary": "This document explains how to use the Memory Import Processor feature to modularize GEMINI.md files by importing content from other files using the @file.md syntax, including details on path formats, security, and debugging.",
+      "tags": [
+        "memory-import",
+        "gemini-md",
+        "modularization",
+        "file-imports",
+        "developer-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-web-fetch.md",
+      "title": "Web fetch tool (`web_fetch`)",
+      "url": "https://geminicli.com/docs/tools/web-fetch/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.447722151-03:00",
+      "summary": "This document explains how to use the `web_fetch` tool within the Gemini CLI to process information from one or more URLs provided in a natural language prompt.",
+      "tags": [
+        "gemini-cli",
+        "web-fetch",
+        "url-processing",
+        "natural-language-processing",
+        "information-extraction"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-tools.md",
+      "title": "Gemini CLI tools",
+      "url": "https://geminicli.com/docs/tools/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.59041373-03:00",
+      "summary": "This document explains how the Gemini CLI uses built-in tools to interact with the local environment, access information, and perform actions, detailing the process and security considerations involved.",
+      "tags": [
+        "gemini-cli",
+        "tools",
+        "local-interaction",
+        "security",
+        "sandboxing",
+        "file-system",
+        "shell-command"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-trusted-folders.md",
+      "title": "Trusted Folders",
+      "url": "https://geminicli.com/docs/cli/trusted-folders/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.386072769-03:00",
+      "summary": "This document explains the Trusted Folders feature in the Gemini CLI, which enhances security by requiring user approval for folders before the CLI loads project-specific configurations.",
+      "tags": [
+        "security",
+        "trusted-folders",
+        "gemini-cli",
+        "workspace-settings",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-shell.md",
+      "title": "Shell tool (`run_shell_command`)",
+      "url": "https://geminicli.com/docs/tools/shell/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.690604487-03:00",
+      "summary": "This document explains how to use the `run_shell_command` tool in the Gemini CLI for executing shell commands, including interactive sessions and command restrictions.",
+      "tags": [
+        "shell-command",
+        "gemini-cli",
+        "interactive-shell",
+        "command-execution",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core.md",
+      "title": "Gemini CLI core",
+      "url": "https://geminicli.com/docs/core/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.891914933-03:00",
+      "summary": "This document describes the core package of Gemini CLI, detailing its responsibilities such as interacting with the Gemini API, managing tools, handling prompt engineering, and managing session state. It also covers security considerations, chat history compression, and file/memory discovery services.",
+      "tags": [
+        "gemini-cli",
+        "core-package",
+        "api-interaction",
+        "tool-management",
+        "prompt-engineering",
+        "security",
+        "chat-history"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-policy-engine.md",
+      "title": "Policy engine",
+      "url": "https://geminicli.com/docs/core/policy-engine/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:20.888038745-03:00",
+      "summary": "This document explains how to use the Gemini CLI's policy engine to control tool execution through customizable rules, including defining conditions, decisions, and priority tiers.",
+      "tags": [
+        "gemini-cli",
+        "policy-engine",
+        "tool-execution",
+        "rules",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-file-system.md",
+      "title": "Gemini CLI file system tools",
+      "url": "https://geminicli.com/docs/tools/file-system/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:21.616050237-03:00",
+      "summary": "This document details the file system interaction tools available in the Gemini CLI, including functions for listing directories, reading and writing files, finding files with glob patterns, searching file content, and replacing text within files.",
+      "tags": [
+        "gemini-cli",
+        "file-system-tools",
+        "cli-commands",
+        "read-file",
+        "write-file",
+        "glob-search",
+        "text-replace"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-web-search.md",
+      "title": "Web search tool (`google_web_search`)",
+      "url": "https://geminicli.com/docs/tools/web-search/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:21.957704189-03:00",
+      "summary": "This document explains how to use the `google_web_search` tool to perform web searches via the Gemini API, detailing its arguments and providing usage examples.",
+      "tags": [
+        "google-web-search",
+        "gemini-api",
+        "web-search",
+        "tool-usage",
+        "cli"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-tools-todos.md",
+      "title": "Todo tool (`write_todos`)",
+      "url": "https://geminicli.com/docs/tools/todos/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:22.299272309-03:00",
+      "summary": "This document explains the `write_todos` tool in the Gemini CLI, which helps agents break down complex requests into manageable subtasks and track their progress.",
+      "tags": [
+        "gemini-cli",
+        "agent-tools",
+        "task-management",
+        "progress-tracking",
+        "todo-list"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-tools-memory.md",
+      "title": "Memory tool (`save_memory`)",
+      "url": "https://geminicli.com/docs/tools/memory/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:22.026433433-03:00",
+      "summary": "This document explains how to use the `save_memory` tool in the Gemini CLI to store and recall information across sessions by writing facts to a `GEMINI.md` file.",
+      "tags": [
+        "gemini-cli",
+        "save-memory",
+        "tool",
+        "cli-commands",
+        "persistence"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-tools-api.md",
+      "title": "Gemini CLI core: Tools API",
+      "url": "https://geminicli.com/docs/core/tools-api/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:22.233727312-03:00",
+      "summary": "This document explains the architecture and components of the Gemini CLI's tool system, including how tools are defined, registered, discovered, executed, and how their results are processed and displayed.",
+      "tags": [
+        "gemini-cli",
+        "tools",
+        "tool-definition",
+        "tool-registry",
+        "execution",
+        "discovery",
+        "api"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-extensions-extension-releasing.md",
+      "title": "Extension releasing",
+      "url": "https://geminicli.com/docs/extensions/extension-releasing/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:22.906100238-03:00",
+      "summary": "This document explains two methods for releasing extensions: via a Git repository or GitHub Releases, detailing how to manage release channels and package platform-specific archives.",
+      "tags": [
+        "extension-release",
+        "git-repository",
+        "github-releases",
+        "release-channels",
+        "platform-specific-archives"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-mcp-server.md",
+      "title": "MCP servers with the Gemini CLI",
+      "url": "https://geminicli.com/docs/tools/mcp-server/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:23.302624671-03:00",
+      "summary": "This document explains how to configure and use Model Context Protocol (MCP) servers with the Gemini CLI, detailing the integration architecture, resource handling, and setup process.",
+      "tags": [
+        "mcp",
+        "gemini-cli",
+        "configuration",
+        "server-setup",
+        "protocol-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-extensions-getting-started-extensions.md",
+      "title": "Getting started with Gemini CLI extensions",
+      "url": "https://geminicli.com/docs/extensions/getting-started-extensions/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:23.008970114-03:00",
+      "summary": "This guide explains how to create your first Gemini CLI extension, covering setup, adding custom tools and commands, and providing model context.",
+      "tags": [
+        "gemini-cli",
+        "extension-development",
+        "mcp-server",
+        "custom-commands",
+        "typescript"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-extensions.md",
+      "title": "Gemini CLI extensions",
+      "url": "https://geminicli.com/docs/extensions/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:23.250828679-03:00",
+      "summary": "This document explains how to manage Gemini CLI extensions, including installation, uninstallation, enabling/disabling, updating, and creating new extensions. It also details the structure and configuration options for the `gemini-extension.json` file.",
+      "tags": [
+        "gemini-cli",
+        "extensions",
+        "command-line-interface",
+        "package-management",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-npm.md",
+      "title": "Package overview",
+      "url": "https://geminicli.com/docs/npm/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.202727015-03:00",
+      "summary": "This document explains the structure and purpose of the monorepo containing the Gemini CLI packages, detailing the roles of `@google/gemini-cli` and `@google/gemini-cli-core`, and the benefits of using NPM Workspaces for managing them.",
+      "tags": [
+        "monorepo",
+        "npm-workspaces",
+        "cli",
+        "package-structure",
+        "gemini-api"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-ide-integration.md",
+      "title": "IDE integration",
+      "url": "https://geminicli.com/docs/ide-integration/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:23.70828775-03:00",
+      "summary": "This document explains how to integrate the Gemini CLI with your IDE for enhanced features like workspace context awareness and native diffing, covering installation, enabling/disabling, status checking, and troubleshooting common errors.",
+      "tags": [
+        "ide-integration",
+        "gemini-cli",
+        "vscode-extension",
+        "workspace-context",
+        "code-diffing",
+        "troubleshooting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks.md",
+      "title": "Gemini CLI hooks",
+      "url": "https://geminicli.com/docs/hooks/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:23.703315254-03:00",
+      "summary": "This document explains how to use Gemini CLI hooks, which are scripts that run at specific points in the agentic loop to customize behavior. It covers enabling hooks, security risks, available hook events, command hook communication, and input/output contracts for various events.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "agentic-loop",
+        "customization",
+        "security",
+        "event-driven"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-issue-and-pr-automation.md",
+      "title": "Automation and triage processes",
+      "url": "https://geminicli.com/docs/issue-and-pr-automation/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.376221177-03:00",
+      "summary": "This document explains the automated workflows used to triage issues and pull requests in a repository, detailing how bots label, test, and manage contributions for efficient integration.",
+      "tags": [
+        "automation",
+        "issue-triage",
+        "pull-request-workflow",
+        "ci-cd",
+        "repository-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks-writing-hooks.md",
+      "title": "Writing hooks for Gemini CLI",
+      "url": "https://geminicli.com/docs/hooks/writing-hooks/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.295388178-03:00",
+      "summary": "This guide explains how to create and configure custom hooks for the Gemini CLI to automate tasks, log events, and enhance workflows.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "automation",
+        "scripting",
+        "cli-tools"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks-best-practices.md",
+      "title": "Hooks on Gemini CLI: Best practices",
+      "url": "https://geminicli.com/docs/hooks/best-practices/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.394626138-03:00",
+      "summary": "This document provides best practices for developing and deploying hooks in Gemini CLI, covering security, performance, debugging, and privacy. It includes guidance on optimizing hook execution speed, caching results, using appropriate events and matchers, handling errors, testing, and documentation.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "performance-optimization",
+        "debugging",
+        "security",
+        "caching",
+        "testing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks-reference.md",
+      "title": "Hooks Reference",
+      "url": "https://geminicli.com/docs/hooks/reference/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.210038516-03:00",
+      "summary": "This document details the technical specifications for Gemini CLI hooks, explaining how they communicate with the CLI using JSON schemas, standard streams, and exit codes. It covers input and output schemas for various event types and defines the stable model API for LLM interactions.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "technical-specification",
+        "json-schema",
+        "communication-protocol",
+        "stable-model-api"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-releases.md",
+      "title": "Gemini CLI releases",
+      "url": "https://geminicli.com/docs/releases/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.173331859-03:00",
+      "summary": "This document explains the development and production release environments, including how code is promoted between nightly, preview, and stable channels. It also details the automated release process, the source of truth for versioning, and procedures for manual releases and tag changes.",
+      "tags": [
+        "release-management",
+        "dev-vs-prod",
+        "versioning",
+        "npm-registry",
+        "release-workflows",
+        "manual-release",
+        "tag-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-faq.md",
+      "title": "Frequently asked questions (FAQ)",
+      "url": "https://geminicli.com/docs/faq/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.829588611-03:00",
+      "summary": "This document addresses frequently asked questions and common issues related to the Gemini CLI, covering topics such as API errors, installation, platform-specific problems, configuration, and subscription benefits.",
+      "tags": [
+        "gemini-cli",
+        "faq",
+        "api-errors",
+        "configuration",
+        "installation",
+        "subscriptions"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-changelogs-releases.md",
+      "title": "Gemini CLI changelog",
+      "url": "https://geminicli.com/docs/changelogs/releases/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:24.529517609-03:00",
+      "summary": "This document outlines the release channels for the Gemini CLI, including nightly, preview, and stable versions, and details recent updates and fixes for the preview release.",
+      "tags": [
+        "gemini-cli",
+        "release-notes",
+        "changelog",
+        "stable-release",
+        "preview-release",
+        "nightly-release"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-integration-tests.md",
+      "title": "Integration tests",
+      "url": "https://geminicli.com/docs/integration-tests/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:25.298919477-03:00",
+      "summary": "This document explains how to build, run, and debug integration tests for the Gemini CLI, including options for running specific tests, regenerating model responses, and handling test output.",
+      "tags": [
+        "integration-tests",
+        "gemini-cli",
+        "test-runner",
+        "debugging",
+        "ci",
+        "linting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-troubleshooting.md",
+      "title": "Troubleshooting guide",
+      "url": "https://geminicli.com/docs/troubleshooting/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:25.112230421-03:00",
+      "summary": "This document provides solutions to common issues encountered with the Gemini CLI, covering authentication errors, general command errors, and debugging techniques. It also explains how to report new issues or find existing ones on GitHub.",
+      "tags": [
+        "gemini-cli",
+        "troubleshooting",
+        "debugging",
+        "authentication-errors",
+        "error-codes",
+        "github-issues"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-changelogs-latest.md",
+      "title": "Latest stable release: v0.22.0 - v0.22.5",
+      "url": "https://geminicli.com/docs/changelogs/latest/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:25.245299136-03:00",
+      "summary": "This document provides release notes for a new version of the Gemini CLI, detailing new features such as comprehensive quota visibility, improved CLI statistics, and multi-file drag \u0026 drop support, alongside various bug fixes and improvements.",
+      "tags": [
+        "release-notes",
+        "gemini-cli",
+        "quota-visibility",
+        "drag-and-drop",
+        "cli-improvements"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-ide-integration-ide-companion-spec.md",
+      "title": "Gemini CLI companion plugin: Interface specification",
+      "url": "https://geminicli.com/docs/ide-integration/ide-companion-spec/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:25.179948117-03:00",
+      "summary": "This document specifies the contract for building IDE companion plugins for Gemini CLI, enabling features like IDE mode, context awareness, and interactive code diffing.",
+      "tags": [
+        "gemini-cli",
+        "ide-plugin",
+        "companion-plugin",
+        "mcp",
+        "context-awareness",
+        "diffing-interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-architecture.md",
+      "title": "Gemini CLI Architecture Overview",
+      "url": "https://geminicli.com/docs/architecture",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:25.588129488-03:00",
+      "summary": "This document outlines the architecture of the Gemini CLI, detailing its main packages (CLI and Core), their respective purposes and functions, and how they interact with the Gemini API and external tools. It also describes the typical workflow of a user interaction with the CLI.",
+      "tags": [
+        "architecture",
+        "gemini-cli",
+        "cli-package",
+        "core-package",
+        "tools",
+        "api-interaction"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-changelogs-preview.md",
+      "title": "Preview release: Release v0.23.0-preview.0",
+      "url": "https://geminicli.com/docs/changelogs/preview/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:25.65950058-03:00",
+      "summary": "This document announces a preview release of the Gemini CLI, detailing the installation process and listing recent changes and bug fixes implemented by various contributors.",
+      "tags": [
+        "gemini-cli",
+        "preview-release",
+        "changelog",
+        "installation",
+        "bug-fixes",
+        "new-features"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started.md",
+      "title": "Get started with Gemini CLI",
+      "url": "https://geminicli.com/docs/get-started",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:26.199704102-03:00",
+      "summary": "This document provides a quickstart guide for installing, authenticating, configuring, and using the Gemini CLI, an AI-powered command-line tool.",
+      "tags": [
+        "gemini-cli",
+        "installation",
+        "authentication",
+        "configuration",
+        "command-line-tool"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-quota-and-pricing.md",
+      "title": "Gemini CLI: Quotas and pricing",
+      "url": "https://geminicli.com/docs/quota-and-pricing/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:26.33681982-03:00",
+      "summary": "This document details the various pricing tiers, free usage limits, and paid options for the Gemini CLI, explaining how different authentication methods affect quotas and costs. It covers free tiers for individual use, paid subscriptions for higher limits, and pay-as-you-go models for flexible professional use.",
+      "tags": [
+        "gemini-cli",
+        "pricing",
+        "quotas",
+        "authentication",
+        "api-key",
+        "vertex-ai",
+        "free-tier",
+        "paid-tier"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-tos-privacy.md",
+      "title": "Gemini CLI: License, Terms of Service, and Privacy Notices",
+      "url": "https://geminicli.com/docs/tos-privacy/",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:26.284533919-03:00",
+      "summary": "This document outlines the different authentication methods supported by the Gemini CLI, including Google account login and API key usage for various Google AI services, and specifies the applicable terms of service and privacy notices for each method. It also provides information on how to opt-out of usage statistics.",
+      "tags": [
+        "gemini-cli",
+        "authentication",
+        "api-key",
+        "google-account",
+        "terms-of-service",
+        "privacy-policy"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-gemini-3.md",
+      "title": "Gemini 3 Pro and Gemini 3 Flash on Gemini CLI",
+      "url": "https://geminicli.com/docs/get-started/gemini-3",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:26.701549397-03:00",
+      "summary": "This document explains how to enable and use Gemini 3 Pro and Gemini 3 Flash models within the Gemini CLI, covering setup, usage limits, routing options, and administrator configurations for Gemini Code Assist.",
+      "tags": [
+        "gemini-cli",
+        "gemini-3",
+        "configuration",
+        "usage-limits",
+        "model-routing",
+        "gemini-code-assist"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-get-started-examples.md",
+      "title": "Gemini CLI examples",
+      "url": "https://geminicli.com/docs/get-started/examples",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:27.392073868-03:00",
+      "summary": "This document provides examples of how to use Gemini CLI to perform various tasks, including renaming photos, explaining code repositories, combining spreadsheets, and writing unit tests.",
+      "tags": [
+        "gemini-cli",
+        "examples",
+        "code-explanation",
+        "data-manipulation",
+        "testing"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-cli.md",
+      "title": "Gemini CLI",
+      "url": "https://geminicli.com/docs/cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:27.464687655-03:00",
+      "summary": "This document provides a comprehensive reference for Gemini CLI, covering its commands, customization options, advanced features, and non-interactive usage for scripting and automation.",
+      "tags": [
+        "gemini-cli",
+        "command-line-interface",
+        "automation",
+        "scripting",
+        "configuration",
+        "advanced-features"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-get-started-configuration.md",
+      "title": "Gemini CLI configuration",
+      "url": "https://geminicli.com/docs/get-started/configuration",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:27.483730365-03:00",
+      "summary": "This document explains how to configure the Gemini CLI using various methods, including settings files, environment variables, and command-line arguments. It details the precedence of configuration layers and lists the available settings within the `settings.json` file.",
+      "tags": [
+        "configuration",
+        "settings-files",
+        "environment-variables",
+        "cli-options",
+        "gemini-cli"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-get-started-authentication.md",
+      "title": "Gemini CLI authentication setup",
+      "url": "https://geminicli.com/docs/get-started/authentication",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:28.146499611-03:00",
+      "summary": "This document explains how to authenticate with Google to use Gemini CLI, covering different user types and scenarios, including using Google accounts, Gemini API keys, and Vertex AI authentication methods.",
+      "tags": [
+        "gemini-cli",
+        "authentication",
+        "google-account",
+        "api-key",
+        "vertex-ai",
+        "google-cloud"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-installation.md",
+      "title": "Gemini CLI installation, execution, and deployment",
+      "url": "https://geminicli.com/docs/get-started/installation",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:27.881780479-03:00",
+      "summary": "This document explains how to install and run the Gemini CLI, detailing different methods like standard installation, sandbox execution, and running from source. It also provides an overview of the CLI's deployment architecture, including its NPM packages, build processes, and Docker sandbox image.",
+      "tags": [
+        "gemini-cli",
+        "installation",
+        "running-cli",
+        "sandbox",
+        "docker",
+        "npm",
+        "source-code",
+        "deployment-architecture"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-checkpointing.md",
+      "title": "Checkpointing",
+      "url": "https://geminicli.com/docs/cli/checkpointing",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:28.994239099-03:00",
+      "summary": "This document explains the Gemini CLI's Checkpointing feature, which automatically saves your project's state, including file snapshots and conversation history, before AI tools make modifications. It details how to enable the feature, how checkpoints are created, and how to use the `/restore` command to revert to a previous state.",
+      "tags": [
+        "gemini-cli",
+        "checkpointing",
+        "git-snapshot",
+        "conversation-history",
+        "restore-command",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-commands.md",
+      "title": "CLI commands",
+      "url": "https://geminicli.com/docs/cli/commands",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:29.215849676-03:00",
+      "summary": "This document describes the built-in commands for the Gemini CLI, which allow users to manage sessions, customize the interface, and control behavior. Commands are prefixed with '/', '@', or '!'.",
+      "tags": [
+        "gemini-cli",
+        "commands",
+        "cli-reference",
+        "session-management",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-telemetry.md",
+      "title": "Observability with OpenTelemetry",
+      "url": "https://geminicli.com/docs/cli/telemetry",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:29.658841987-03:00",
+      "summary": "This document explains how to enable and configure OpenTelemetry for Gemini CLI to send telemetry data to Google Cloud or local files. It covers prerequisites, direct export, collector-based export, and the various configuration options available.",
+      "tags": [
+        "opentelemetry",
+        "gemini-cli",
+        "telemetry",
+        "google-cloud",
+        "configuration",
+        "observability"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-custom-commands.md",
+      "title": "Custom commands",
+      "url": "https://geminicli.com/docs/cli/custom-commands",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:29.432932781-03:00",
+      "summary": "This document explains how to create and use custom commands in Gemini CLI, covering file locations, naming conventions, TOML format, and argument handling, including context-aware injection and shell command execution.",
+      "tags": [
+        "gemini-cli",
+        "custom-commands",
+        "toml-format",
+        "argument-handling",
+        "shell-commands"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-keyboard-shortcuts.md",
+      "title": "Gemini CLI keyboard shortcuts",
+      "url": "https://geminicli.com/docs/cli/keyboard-shortcuts",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:29.928431772-03:00",
+      "summary": "This document serves as a reference for the default keyboard shortcuts available in the Gemini CLI, covering actions for input editing, history navigation, UI control, and suggestions.",
+      "tags": [
+        "gemini-cli",
+        "keyboard-shortcuts",
+        "reference",
+        "command-line",
+        "editing",
+        "navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-enterprise.md",
+      "title": "Gemini CLI for the enterprise",
+      "url": "https://geminicli.com/docs/cli/enterprise",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:29.638233008-03:00",
+      "summary": "This document explains how to configure Gemini CLI for enterprise environments using system settings, wrapper scripts, and tool access controls to enforce security and management policies.",
+      "tags": [
+        "enterprise-deployment",
+        "configuration-management",
+        "security-best-practices",
+        "gemini-cli",
+        "system-settings",
+        "wrapper-script",
+        "tool-control"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-model.md",
+      "title": "Gemini CLI model selection (`/model` command)",
+      "url": "https://geminicli.com/docs/cli/model",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:29.776774748-03:00",
+      "summary": "This document explains how to use the `/model` command in Gemini CLI to select the appropriate Gemini model for your tasks, recommending the Auto setting for most users and detailing options like Pro and Flash for specific needs.",
+      "tags": [
+        "gemini-cli",
+        "model-selection",
+        "configuration",
+        "pro-model",
+        "flash-model",
+        "auto-model"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-trusted-folders.md",
+      "title": "Trusted Folders",
+      "url": "https://geminicli.com/docs/cli/trusted-folders",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:30.075462114-03:00",
+      "summary": "This document explains the Gemini CLI's Trusted Folders feature, a security setting that requires user approval for folders to ensure potentially malicious code is not executed. It covers how to enable the feature, the trust dialog options, the implications of untrusted workspaces, and how to manage trust settings.",
+      "tags": [
+        "gemini-cli",
+        "security",
+        "trusted-folders",
+        "workspace-settings",
+        "cli-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-settings.md",
+      "title": "Gemini CLI settings (`/settings` command)",
+      "url": "https://geminicli.com/docs/cli/settings",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:30.001264494-03:00",
+      "summary": "This document details the configuration settings for the Gemini CLI, explaining how to manage UI preferences, keybindings, accessibility, and other features through the `/settings` command or by directly editing the `settings.json` file.",
+      "tags": [
+        "gemini-cli",
+        "configuration",
+        "settings",
+        "ui-settings",
+        "cli-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-sandbox.md",
+      "title": "Sandboxing in the Gemini CLI",
+      "url": "https://geminicli.com/docs/cli/sandbox",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:30.349176758-03:00",
+      "summary": "This document explains how to use sandboxing features in the Gemini CLI to enhance security and isolation during AI operations, covering different sandboxing methods, configuration options, and troubleshooting tips.",
+      "tags": [
+        "gemini-cli",
+        "sandboxing",
+        "security",
+        "isolation",
+        "docker",
+        "macos-seatbelt",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-headless.md",
+      "title": "Headless mode",
+      "url": "https://geminicli.com/docs/cli/headless",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:30.101444751-03:00",
+      "summary": "This document explains how to use Gemini CLI in headless mode, allowing programmatic execution via command-line scripts and automation tools. It details various output formats including text, JSON, and streaming JSON, along with configuration options and practical examples for scripting and CI/CD integration.",
+      "tags": [
+        "headless-mode",
+        "cli",
+        "automation",
+        "scripting",
+        "json-output",
+        "streaming-json"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-token-caching.md",
+      "title": "Token caching and cost optimization",
+      "url": "https://geminicli.com/docs/cli/token-caching",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:30.639746745-03:00",
+      "summary": "This document explains how the Gemini CLI optimizes API costs by automatically caching tokens for API key and Vertex AI users. It details when token caching is available and how to view usage statistics.",
+      "tags": [
+        "gemini-cli",
+        "api-costs",
+        "token-caching",
+        "vertex-ai",
+        "api-key"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-cli-uninstall.md",
+      "title": "Uninstalling the CLI",
+      "url": "https://geminicli.com/docs/cli/uninstall",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:30.458834892-03:00",
+      "summary": "This document explains how to uninstall the gemini-cli tool, providing instructions for two different installation methods: using npx, which involves clearing the npx cache, and a global npm installation, which uses the standard npm uninstall command.",
+      "tags": [
+        "uninstall",
+        "gemini-cli",
+        "npx",
+        "npm",
+        "global-install",
+        "cache-clearing"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-memport.md",
+      "title": "Memory Import Processor",
+      "url": "https://geminicli.com/docs/core/memport",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:31.273675214-03:00",
+      "summary": "This document explains the Memory Import Processor feature, which allows modularizing GEMINI.md files by importing content from other files using @file.md syntax, supporting relative and absolute paths with safety features.",
+      "tags": [
+        "memory-import-processor",
+        "modularization",
+        "gemini.md",
+        "file-imports",
+        "path-resolution",
+        "circular-imports",
+        "file-security"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools.md",
+      "title": "Gemini CLI tools",
+      "url": "https://geminicli.com/docs/tools",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:31.119595468-03:00",
+      "summary": "This document explains how the Gemini CLI uses built-in tools to interact with a user's local environment, access information, and perform actions, detailing the workflow and security considerations.",
+      "tags": [
+        "gemini-cli",
+        "tools",
+        "local-environment",
+        "workflow",
+        "security",
+        "sandboxing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-file-system.md",
+      "title": "Gemini CLI file system tools",
+      "url": "https://geminicli.com/docs/tools/file-system",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:31.880655704-03:00",
+      "summary": "This document outlines the file system interaction tools available in the Gemini CLI, detailing their functionalities, parameters, behaviors, and expected outputs for operations like listing directories, reading and writing files, searching for files, and performing text replacements.",
+      "tags": [
+        "gemini-cli",
+        "file-system-tools",
+        "cli-commands",
+        "read-file",
+        "write-file",
+        "glob-search",
+        "text-replace"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-themes.md",
+      "title": "Themes",
+      "url": "https://geminicli.com/docs/cli/themes",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:31.799660137-03:00",
+      "summary": "This document explains how to customize the appearance of the Gemini CLI by selecting pre-defined themes or creating and loading custom color themes through configuration files.",
+      "tags": [
+        "gemini-cli",
+        "theme-customization",
+        "color-schemes",
+        "configuration",
+        "settings.json",
+        "custom-themes"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core.md",
+      "title": "Gemini CLI core",
+      "url": "https://geminicli.com/docs/core",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:32.326398659-03:00",
+      "summary": "This document explains the functionality of the Gemini CLI's core package, detailing its responsibilities in interacting with the Gemini API, managing tools, processing prompts, handling session state, and security considerations.",
+      "tags": [
+        "gemini-cli",
+        "core-package",
+        "gemini-api",
+        "prompt-engineering",
+        "tool-management",
+        "session-management",
+        "security",
+        "chat-history-compression"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-cli-tutorials.md",
+      "title": "Tutorials",
+      "url": "https://geminicli.com/docs/cli/tutorials",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:31.933600864-03:00",
+      "summary": "This document guides users through setting up a Model Context Protocol (MCP) server, using the GitHub MCP server as an example, to enable Gemini CLI to interact with GitHub repositories.",
+      "tags": [
+        "gemini-cli",
+        "mcp-server",
+        "github-integration",
+        "docker",
+        "configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-policy-engine.md",
+      "title": "Policy engine",
+      "url": "https://geminicli.com/docs/core/policy-engine",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:32.385728704-03:00",
+      "summary": "This document explains how to use the Gemini CLI's policy engine to control tool execution with rules based on tool name, arguments, and priority.",
+      "tags": [
+        "gemini-cli",
+        "policy-engine",
+        "tool-execution",
+        "rules",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-web-search.md",
+      "title": "Web search tool (`google_web_search`)",
+      "url": "https://geminicli.com/docs/tools/web-search",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:33.050448133-03:00",
+      "summary": "This document explains how to use the `google_web_search` tool to perform web searches using the Gemini API. It details the tool's arguments and provides an example of its usage.",
+      "tags": [
+        "google-web-search",
+        "gemini-api",
+        "web-search",
+        "tool-usage"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-tools-api.md",
+      "title": "Gemini CLI core: Tools API",
+      "url": "https://geminicli.com/docs/core/tools-api",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:32.771526328-03:00",
+      "summary": "This document explains the Gemini CLI's tool system, detailing how tools are defined, registered, discovered, and executed, and how they extend the model's capabilities. It covers the structure of tools and their results, as well as the workflow from model request to user display.",
+      "tags": [
+        "gemini-cli",
+        "tools",
+        "tool-definition",
+        "tool-registry",
+        "tool-execution",
+        "model-interaction"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-system-prompt.md",
+      "title": "System Prompt Override (GEMINI_SYSTEM_MD)",
+      "url": "https://geminicli.com/docs/cli/system-prompt",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:33.030482764-03:00",
+      "summary": "This document explains how to override the default system instructions for the Gemini CLI using the GEMINI_SYSTEM_MD environment variable, allowing for custom prompts and personas. It also details how to export the default prompt and discusses best practices for SYSTEM.md versus GEMINI.md files.",
+      "tags": [
+        "gemini-cli",
+        "system-prompt",
+        "environment-variable",
+        "customization",
+        "configuration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-tools-todos.md",
+      "title": "Todo tool (`write_todos`)",
+      "url": "https://geminicli.com/docs/tools/todos",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:33.556256767-03:00",
+      "summary": "This document explains the `write_todos` tool for the Gemini CLI, detailing its purpose, arguments, and how the agent uses it to break down complex requests into manageable subtasks for progress tracking and alignment.",
+      "tags": [
+        "gemini-cli",
+        "write-todos",
+        "agent-tools",
+        "task-management",
+        "progress-tracking"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-tools-shell.md",
+      "title": "Shell tool (`run_shell_command`)",
+      "url": "https://geminicli.com/docs/tools/shell",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:33.436332802-03:00",
+      "summary": "This document explains how to use the `run_shell_command` tool in the Gemini CLI to execute shell commands, including interactive ones, and how to configure its behavior and restrict command execution.",
+      "tags": [
+        "gemini-cli",
+        "shell-command",
+        "interactive-commands",
+        "configuration",
+        "command-restrictions"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-web-fetch.md",
+      "title": "Web fetch tool (`web_fetch`)",
+      "url": "https://geminicli.com/docs/tools/web-fetch",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:33.925571183-03:00",
+      "summary": "This document explains how to use the `web_fetch` tool within the Gemini CLI to process and extract information from web pages via natural language prompts.",
+      "tags": [
+        "gemini-cli",
+        "web-fetch",
+        "url-processing",
+        "natural-language-prompts",
+        "data-extraction"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-extensions.md",
+      "title": "Gemini CLI extensions",
+      "url": "https://geminicli.com/docs/extensions",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:33.804218018-03:00",
+      "summary": "This document explains how to use Gemini CLI extensions to add custom commands, MCP servers, and prompts to the CLI. It covers installing, uninstalling, disabling, enabling, and updating extensions, as well as creating and linking local extensions, and configuring extensions using `gemini-extension.json`.",
+      "tags": [
+        "gemini-cli",
+        "extensions",
+        "cli-commands",
+        "configuration",
+        "package-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tools-memory.md",
+      "title": "Memory tool (`save_memory`)",
+      "url": "https://geminicli.com/docs/tools/memory",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:34.209335757-03:00",
+      "summary": "This document explains how to use the `save_memory` tool in the Gemini CLI to store and recall information across sessions by appending it to a Markdown file.",
+      "tags": [
+        "gemini-cli",
+        "save-memory",
+        "tool",
+        "memory",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-tools-mcp-server.md",
+      "title": "MCP servers with the Gemini CLI",
+      "url": "https://geminicli.com/docs/tools/mcp-server",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:34.754216291-03:00",
+      "summary": "This document explains how to configure and use Model Context Protocol (MCP) servers with the Gemini CLI, covering server setup, core integration architecture, and resource management.",
+      "tags": [
+        "mcp",
+        "gemini-cli",
+        "configuration",
+        "server-setup",
+        "resource-management",
+        "tool-execution"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-extensions-getting-started-extensions.md",
+      "title": "Getting started with Gemini CLI extensions",
+      "url": "https://geminicli.com/docs/extensions/getting-started-extensions",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:34.967895793-03:00",
+      "summary": "This guide teaches you how to create your first Gemini CLI extension, covering setup, adding custom tools via an MCP server, defining custom commands, and providing model context with a GEMINI.md file.",
+      "tags": [
+        "gemini-cli",
+        "extension-development",
+        "mcp-server",
+        "custom-commands",
+        "model-context"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-hooks.md",
+      "title": "Gemini CLI hooks",
+      "url": "https://geminicli.com/docs/hooks",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:34.855523754-03:00",
+      "summary": "This document explains how to use hooks in Gemini CLI to intercept and customize agentic loop behavior by executing custom scripts or programs. It covers configuration, security risks, available hook events, and the input/output contract for command hooks.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "agentic-loop",
+        "customization",
+        "scripting",
+        "security"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-extensions-extension-releasing.md",
+      "title": "Extension releasing",
+      "url": "https://geminicli.com/docs/extensions/extension-releasing",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:35.744900935-03:00",
+      "summary": "This document outlines two primary methods for releasing Gemini CLI extensions: via a Git repository or through GitHub Releases, detailing the steps, best practices, and platform-specific considerations for each.",
+      "tags": [
+        "extension-release",
+        "git-repository",
+        "github-releases",
+        "cli-extensions",
+        "release-channels"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-ide-integration.md",
+      "title": "IDE integration",
+      "url": "https://geminicli.com/docs/ide-integration",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:35.306366315-03:00",
+      "summary": "This document explains how to integrate the Gemini CLI with IDEs like VS Code, enabling features such as workspace context awareness and native diffing. It covers installation, enabling/disabling the integration, checking status, and troubleshooting common connection and configuration errors.",
+      "tags": [
+        "gemini-cli",
+        "ide-integration",
+        "vs-code",
+        "workspace-context",
+        "diffing",
+        "troubleshooting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks-writing-hooks.md",
+      "title": "Writing hooks for Gemini CLI",
+      "url": "https://geminicli.com/docs/hooks/writing-hooks",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:35.950866963-03:00",
+      "summary": "This document guides users on creating and configuring hooks for Gemini CLI, demonstrating various use cases from simple logging to building a comprehensive workflow assistant with advanced features like RAG-based tool filtering and cross-session memory.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "customization",
+        "workflow-automation",
+        "rag",
+        "memory"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-hooks-best-practices.md",
+      "title": "Hooks on Gemini CLI: Best practices",
+      "url": "https://geminicli.com/docs/hooks/best-practices",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:36.250731678-03:00",
+      "summary": "This guide explains how to develop and deploy secure, performant, and debuggable hooks for Gemini CLI, covering optimization techniques, error handling, testing, and documentation.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "performance-optimization",
+        "debugging",
+        "security",
+        "caching",
+        "testing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-ide-integration-ide-companion-spec.md",
+      "title": "Gemini CLI companion plugin: Interface specification",
+      "url": "https://geminicli.com/docs/ide-integration/ide-companion-spec",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:36.358035539-03:00",
+      "summary": "This document specifies the contract for building IDE companion plugins that enable Gemini CLI's IDE mode, covering communication interfaces, context awareness, and diffing capabilities.",
+      "tags": [
+        "gemini-cli",
+        "ide-plugin",
+        "communication-protocol",
+        "mcp",
+        "context-awareness",
+        "diffing-interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-npm.md",
+      "title": "Package overview",
+      "url": "https://geminicli.com/docs/npm",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:36.279345302-03:00",
+      "summary": "This document describes the structure and purpose of a monorepo containing two main packages: `@google/gemini-cli` for the user interface and `@google/gemini-cli-core` for API interaction. It also explains how NPM Workspaces are used to manage these packages.",
+      "tags": [
+        "monorepo",
+        "npm-workspaces",
+        "cli",
+        "api-client",
+        "package-management"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-releases.md",
+      "title": "Gemini CLI releases",
+      "url": "https://geminicli.com/docs/releases",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:37.181604543-03:00",
+      "summary": "This document explains the differences between development and production environments for package releases, outlining the release cadence, promotion flow, and manual release procedures, including how to handle rollbacks and rollforwards.",
+      "tags": [
+        "release-management",
+        "dev-vs-prod",
+        "versioning",
+        "npm-packages",
+        "release-workflow",
+        "rollback",
+        "rollforward"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-integration-tests.md",
+      "title": "Integration tests",
+      "url": "https://geminicli.com/docs/integration-tests",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:36.808571058-03:00",
+      "summary": "This document explains how to build, run, and debug integration tests for the Gemini CLI, including running specific test files, regenerating model responses, and maintaining code quality through linting.",
+      "tags": [
+        "integration-tests",
+        "gemini-cli",
+        "test-runner",
+        "debugging",
+        "linting",
+        "continuous-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-issue-and-pr-automation.md",
+      "title": "Automation and triage processes",
+      "url": "https://geminicli.com/docs/issue-and-pr-automation",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:37.502278477-03:00",
+      "summary": "This document explains the automated workflows used to manage issues and pull requests in a repository, detailing how bots triage, label, and test contributions to ensure efficient integration and quality.",
+      "tags": [
+        "automation",
+        "issue-triage",
+        "pull-request",
+        "ci",
+        "github-actions",
+        "labeling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-faq.md",
+      "title": "Frequently asked questions (FAQ)",
+      "url": "https://geminicli.com/docs/faq",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:37.215887965-03:00",
+      "summary": "This document provides answers to frequently asked questions about using the Gemini CLI, covering topics like API errors, installation, platform-specific issues, configuration, and subscription benefits.",
+      "tags": [
+        "gemini-cli",
+        "faq",
+        "api-errors",
+        "configuration",
+        "subscriptions",
+        "troubleshooting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-quota-and-pricing.md",
+      "title": "Gemini CLI: Quotas and pricing",
+      "url": "https://geminicli.com/docs/quota-and-pricing",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:38.057872459-03:00",
+      "summary": "This document explains the different pricing tiers and usage quotas for the Gemini CLI, detailing free usage limits, paid subscription options, and pay-as-you-go models based on authentication methods.",
+      "tags": [
+        "gemini-cli",
+        "pricing",
+        "quotas",
+        "authentication",
+        "free-tier",
+        "paid-tier",
+        "pay-as-you-go"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-tos-privacy.md",
+      "title": "Gemini CLI: License, Terms of Service, and Privacy Notices",
+      "url": "https://geminicli.com/docs/tos-privacy",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:38.288233073-03:00",
+      "summary": "This document outlines the different authentication methods supported by the Gemini CLI and the associated Terms of Service and Privacy Notices for each method. It covers logging in with a Google account for Gemini Code Assist, using API keys for Gemini Developer API, and using API keys for Vertex AI GenAI API.",
+      "tags": [
+        "gemini-cli",
+        "authentication",
+        "terms-of-service",
+        "privacy-policy",
+        "api-key",
+        "google-account"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-changelogs.md",
+      "title": "Gemini CLI release notes",
+      "url": "https://geminicli.com/docs/changelogs",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:37.837810649-03:00",
+      "summary": "This document details the release channels for the Gemini CLI, including nightly, preview, and stable versions, and provides announcements for recent updates and new features, such as Gemini 3 support and various extensions.",
+      "tags": [
+        "gemini-cli",
+        "release-notes",
+        "changelog",
+        "extensions",
+        "gemini-3"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-troubleshooting.md",
+      "title": "Troubleshooting guide",
+      "url": "https://geminicli.com/docs/troubleshooting",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:38.268009534-03:00",
+      "summary": "This document provides troubleshooting steps and solutions for common errors encountered with the Gemini CLI, covering authentication, configuration, environment variables, and general debugging techniques.",
+      "tags": [
+        "debugging",
+        "troubleshooting",
+        "authentication-errors",
+        "environment-variables",
+        "gemini-cli",
+        "error-messages"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs.md",
+      "title": "Welcome to Gemini CLI documentation",
+      "url": "https://geminicli.com/docs",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:38.549901609-03:00",
+      "summary": "This document provides a comprehensive guide to Gemini CLI, detailing its installation, usage, architecture, and development. It covers various features like custom commands, extensions, and integration with IDEs, along with troubleshooting and policy information.",
+      "tags": [
+        "gemini-cli",
+        "command-line-interface",
+        "ai-tools",
+        "development-guide",
+        "cli-commands",
+        "extensions",
+        "integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-changelogs-latest.md",
+      "title": "Latest stable release: v0.22.0 - v0.22.5",
+      "url": "https://geminicli.com/docs/changelogs/latest",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:39.031430622-03:00",
+      "summary": "This document provides release notes for the latest stable version of the Gemini CLI, detailing new features such as comprehensive quota visibility, polished CLI statistics, and multi-file drag \u0026 drop support. It also lists various bug fixes and enhancements contributed by the community.",
+      "tags": [
+        "release-notes",
+        "gemini-cli",
+        "quota-visibility",
+        "drag-and-drop",
+        "cli-updates"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-quota-and-pricing.md",
+      "title": "Gemini CLI: Quotas and pricing",
+      "url": "https://geminicli.com/docs/quota-and-pricing#free-usage",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:39.607316121-03:00",
+      "summary": "This document explains the pricing and usage quotas for the Gemini CLI, detailing free tiers, paid subscriptions, and pay-as-you-go options based on different authentication methods.",
+      "tags": [
+        "gemini-cli",
+        "pricing",
+        "quotas",
+        "authentication",
+        "api-key",
+        "vertex-ai"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-changelogs-preview.md",
+      "title": "Preview release: Release v0.23.0-preview.0",
+      "url": "https://geminicli.com/docs/changelogs/preview",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:39.305172265-03:00",
+      "summary": "This document describes how to install the preview release of Gemini CLI, which includes new and experimental features, and lists recent updates and bug fixes.",
+      "tags": [
+        "gemini-cli",
+        "preview-release",
+        "installation",
+        "changelog",
+        "updates"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-integration-tests.md",
+      "title": "Integration tests",
+      "url": "https://geminicli.com/docs/integration-tests.md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:39.72592912-03:00",
+      "description": "This document provides information about the integration testing framework used in this project.",
+      "summary": "This document explains how to build, run, and debug integration tests for the Gemini CLI, including details on sandboxing, test output, and continuous integration.",
+      "tags": [
+        "integration-tests",
+        "gemini-cli",
+        "testing-framework",
+        "command-line-interface",
+        "ci-cd",
+        "debugging"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-gemini-md.md",
+      "title": "",
+      "url": "https://geminicli.com/docs/cli/gemini-md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:39.640565523-03:00",
+      "summary": "This document explains how to use the gemini-md command in the CLI tool, likely for generating markdown related to Gemini.",
+      "tags": [
+        "cli",
+        "gemini-md",
+        "documentation",
+        "markdown"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-session-management.md",
+      "title": "Session Management",
+      "url": "https://geminicli.com/docs/cli/session-management",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:40.172853772-03:00",
+      "summary": "This document explains how Gemini CLI automatically saves and manages conversation sessions, including how to resume, list, delete, and configure session retention policies.",
+      "tags": [
+        "session-management",
+        "conversation-history",
+        "cli-commands",
+        "configuration",
+        "session-retention"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-gemini-ignore.md",
+      "title": "",
+      "url": "https://geminicli.com/docs/cli/gemini-ignore",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:40.086436688-03:00",
+      "summary": "This document provides information on the gemini-ignore command in the CLI. It seems to be a redirect to the actual documentation page.",
+      "tags": [
+        "cli",
+        "gemini-ignore",
+        "documentation",
+        "redirect"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "docs-faq.md",
+      "title": "Frequently asked questions (FAQ)",
+      "url": "https://geminicli.com/docs/faq.md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:40.193215733-03:00",
+      "description": "This page provides answers to common questions and solutions to frequent problems encountered while using Gemini CLI.",
+      "summary": "This document provides answers to frequently asked questions about Gemini CLI, covering general issues, installation, platform-specific problems, configuration, and subscription-related inquiries.",
+      "tags": [
+        "faq",
+        "gemini-cli",
+        "troubleshooting",
+        "api-limits",
+        "configuration",
+        "installation",
+        "subscriptions"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-get-started-configuration.md",
+      "title": "Gemini CLI configuration",
+      "url": "https://geminicli.com/docs/get-started/configuration.md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:40.735627372-03:00",
+      "description": "\u003e **Note on configuration format, 9/17/25:** The format of the `settings.json` \u003e file has been updated to a new, more organized structure. \u003e \u003e - The new format will be supported in the stable release starting \u003e   **[09/10/25]**. \u003e - Automatic migration from the old format to the new format will b...",
+      "summary": "This document explains the configuration layers and settings files for the Gemini CLI, detailing how to customize its behavior using environment variables, command-line arguments, and JSON settings files.",
+      "tags": [
+        "gemini-cli",
+        "configuration",
+        "settings-files",
+        "environment-variables",
+        "command-line-arguments"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-commands.md",
+      "title": "CLI commands",
+      "url": "https://geminicli.com/docs/cli/commands.md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:41.036229455-03:00",
+      "description": "Gemini CLI supports several built-in commands to help you manage your session, customize the interface, and control its behavior. These commands are prefixed with a forward slash (`/`), an at symbol (`@`), or an exclamation mark (`!`).",
+      "summary": "This document outlines the various built-in commands supported by the Gemini CLI, which are used for managing sessions, customizing the interface, and controlling the CLI's behavior. Commands are prefixed with '/', '@', or '!'.",
+      "tags": [
+        "cli-commands",
+        "gemini-cli",
+        "command-reference",
+        "session-management",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-themes.md",
+      "title": "Themes",
+      "url": "https://geminicli.com/docs/cli/themes.md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:40.836841618-03:00",
+      "description": "Gemini CLI supports a variety of themes to customize its color scheme and appearance. You can change the theme to suit your preferences via the `/theme` command or `\"theme\":` configuration setting.",
+      "summary": "This document explains how to customize the appearance of the Gemini CLI using themes. It covers selecting from pre-defined themes, creating custom themes by defining colors in settings.json, and loading themes from external JSON files.",
+      "tags": [
+        "gemini-cli",
+        "themes",
+        "customization",
+        "configuration",
+        "settings.json",
+        "color-schemes"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-cli-authentication.md",
+      "title": "",
+      "url": "https://geminicli.com/docs/cli/authentication",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:41.746243946-03:00",
+      "summary": "This document redirects to the documentation for CLI authentication.",
+      "tags": [
+        "cli",
+        "authentication",
+        "documentation",
+        "redirect"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "docs-get-started-configuration-v1.md",
+      "title": "",
+      "url": "https://geminicli.com/docs/get-started/configuration-v1",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:41.574646252-03:00",
+      "summary": "This document provides instructions for configuring version 1 of the system.",
+      "tags": [
+        "configuration",
+        "version-1",
+        "setup"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-commands.md",
+      "title": "CLI commands",
+      "url": "https://geminicli.com/docs/cli/commands#memory",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:41.720757751-03:00",
+      "summary": "This document details the built-in commands available in the Gemini CLI, which are used for managing sessions, customizing the interface, and controlling behavior. Commands are prefixed with '/', '@', or '!' and include functionalities like filing bugs, managing chat history, clearing the screen, and handling extensions.",
+      "tags": [
+        "gemini-cli",
+        "commands",
+        "chat-management",
+        "session-control",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-tutorials-skills-getting-started.md",
+      "title": "",
+      "url": "https://geminicli.com/docs/cli/tutorials/skills-getting-started",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:41.732659483-03:00",
+      "summary": "This document serves as a redirect to a tutorial on getting started with skills using the CLI.",
+      "tags": [
+        "cli",
+        "tutorial",
+        "skills",
+        "getting-started",
+        "redirect"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-hooks-reference.md",
+      "title": "Hooks Reference",
+      "url": "https://geminicli.com/docs/hooks/reference",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:41.895239472-03:00",
+      "summary": "This document outlines the technical specifications for Gemini CLI hooks, detailing the communication protocol via standard streams and exit codes, and defining the JSON schemas for input and output data, along with event-specific fields.",
+      "tags": [
+        "cli-hooks",
+        "technical-specification",
+        "communication-protocol",
+        "json-schema",
+        "exit-codes",
+        "input-output"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-get-started-authentication.md",
+      "title": "Gemini CLI authentication setup",
+      "url": "https://geminicli.com/docs/get-started/authentication#persisting-environment-variables",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:42.569733504-03:00",
+      "summary": "This document explains how to authenticate with Gemini CLI, covering different user types and recommended methods like logging in with a Google account, using a Gemini API key, or authenticating with Vertex AI.",
+      "tags": [
+        "gemini-cli",
+        "authentication",
+        "google-account",
+        "api-key",
+        "vertex-ai",
+        "gcloud"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks-best-practices.md",
+      "title": "Hooks on Gemini CLI: Best practices",
+      "url": "https://geminicli.com/docs/hooks/best-practices#using-hooks-securely",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:42.633724424-03:00",
+      "summary": "This document provides a guide on developing and deploying hooks in Gemini CLI, covering best practices for security, performance, debugging, and privacy.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "performance-optimization",
+        "debugging",
+        "security",
+        "privacy"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-hooks-reference.md",
+      "title": "Hooks Reference",
+      "url": "https://geminicli.com/docs/hooks/reference#supported-events",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:42.969821586-03:00",
+      "summary": "This document details the technical specification for Gemini CLI hooks, outlining their communication protocol via standard input/output and exit codes, along with the JSON schemas for input and output data, and the stable model API.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "api-specification",
+        "json-schema",
+        "communication-protocol",
+        "exit-codes",
+        "stable-model-api"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-hooks-reference.md",
+      "title": "Hooks Reference",
+      "url": "https://geminicli.com/docs/hooks/reference#hook-definition",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:43.029002758-03:00",
+      "summary": "This document details the technical specification for Gemini CLI hooks, outlining their communication protocol via standard streams and exit codes, the JSON schemas for input and output, and the stable model API for interacting with language models.",
+      "tags": [
+        "gemini-cli",
+        "hooks",
+        "technical-specification",
+        "json-schema",
+        "communication-protocol",
+        "exit-codes",
+        "model-api"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-quota-and-pricing.md",
+      "title": "Gemini CLI: Quotas and pricing",
+      "url": "https://geminicli.com/docs/quota-and-pricing.md",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:43.575571397-03:00",
+      "description": "Gemini CLI offers a generous free tier that covers many individual developers' use cases. For enterprise or professional usage, or if you need higher limits, several options are available depending on your authentication account type.",
+      "summary": "This document explains the different quota and pricing tiers available for the Gemini CLI, including free usage, paid subscriptions, and pay-as-you-go options, based on authentication methods.",
+      "tags": [
+        "gemini-cli",
+        "quotas",
+        "pricing",
+        "free-tier",
+        "paid-tier",
+        "pay-as-you-go",
+        "authentication"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-extensions.md",
+      "title": "Gemini CLI extensions",
+      "url": "https://geminicli.com/docs/extensions#hooks",
+      "source": "crawler",
+      "fetched_at": "2026-01-13T19:15:43.736022049-03:00",
+      "summary": "This document explains how to manage Gemini CLI extensions, covering installation, uninstallation, enabling/disabling, updating, creating boilerplate extensions, linking local extensions, and the structure of the `gemini-extension.json` configuration file.",
+      "tags": [
+        "gemini-cli",
+        "extensions",
+        "cli-commands",
+        "extension-management",
+        "configuration"
+      ],
+      "category": "guide"
+    }
+  ]
+}

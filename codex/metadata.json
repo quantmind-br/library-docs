@@ -1,0 +1,869 @@
+{
+  "generated_at": "2026-01-13T19:00:01.064223516-03:00",
+  "source_url": "https://developers.openai.com/llms.txt",
+  "strategy": "llms",
+  "total_documents": 44,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-13T19:30:00Z",
+    "total_files": 44,
+    "categories": [
+      "Overview & Introduction",
+      "Quick Start",
+      "Authentication & Security",
+      "Configuration",
+      "CLI Usage",
+      "IDE Extension",
+      "Cloud",
+      "Integrations",
+      "Features & Workflows",
+      "Advanced Topics",
+      "Automation & CI/CD",
+      "Reference",
+      "Guides"
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "001-codex-llms.txt.md",
+      "original_file_path": "codex-llms.txt.md",
+      "title": "Codex",
+      "url": "https://developers.openai.com/codex/llms.txt",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:42.236477019-03:00",
+      "description": "> Build with the Codex CLI, IDE extension, and cloud automation to speed up development.",
+      "summary": "This document serves as a navigation hub or sitemap for Codex, a developer tool offering CLI, IDE, and cloud automation capabilities. It categorizes and links to comprehensive documentation regarding installation, configuration, integrations, and security.",
+      "tags": [
+        "codex",
+        "documentation",
+        "developer-tools",
+        "cli",
+        "ide",
+        "cloud-automation",
+        "navigation"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "002-codex-overview.md",
+      "original_file_path": "codex-overview.md",
+      "title": "Codex",
+      "url": "https://developers.openai.com/codex/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:55.246579057-03:00",
+      "description": "Codex is OpenAI's coding agent for software development and is included with ChatGPT Plus, Pro, Business, Edu, and Enterprise plans. It can help you:",
+      "summary": "Codex is an AI-powered coding agent from OpenAI that assists with software development tasks including writing code, understanding codebases, debugging, and automating workflows.",
+      "tags": [
+        "ai-coding-agent",
+        "code-review",
+        "debugging",
+        "code-generation",
+        "openai-codex",
+        "automation",
+        "software-development"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "003-codex-quickstart.md",
+      "original_file_path": "codex-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://developers.openai.com/codex/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:55.571164865-03:00",
+      "description": "Codex is included with ChatGPT Plus, Pro, Business, Edu, and Enterprise plans. Using Codex with your ChatGPT subscription gives you access to the latest Codex models and features.",
+      "summary": "This document provides a quickstart guide for accessing and installing Codex across different environments, including IDE extensions, the command line interface, and a cloud-based platform.",
+      "tags": [
+        "codex",
+        "quickstart",
+        "installation",
+        "setup",
+        "cli",
+        "ide",
+        "cloud"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "004-codex-auth.md",
+      "original_file_path": "codex-auth.md",
+      "title": "Authentication",
+      "url": "https://developers.openai.com/codex/auth.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:42.236835198-03:00",
+      "description": "Codex supports two ways to sign in when using OpenAI models:",
+      "summary": "Explains the authentication mechanisms available in Codex, including signing in with ChatGPT or API keys, securing cloud accounts with MFA, credential storage options, and methods for logging in on headless devices.",
+      "tags": [
+        "authentication",
+        "security",
+        "mfa",
+        "openai-api",
+        "cli-login",
+        "headless-login",
+        "credential-storage"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "005-codex-security.md",
+      "original_file_path": "codex-security.md",
+      "title": "Security",
+      "url": "https://developers.openai.com/codex/security.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:57.261479691-03:00",
+      "description": "Codex helps protect your code and data and reduces the risk of misuse.",
+      "summary": "This document outlines the security architecture of Codex, explaining how sandboxing and approval policies work together to restrict system access and prevent unauthorized actions across different operating systems.",
+      "tags": [
+        "security",
+        "sandboxing",
+        "access-control",
+        "network-permissions",
+        "os-level-security"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "006-codex-cloud-internet-access.md",
+      "original_file_path": "codex-cloud-internet-access.md",
+      "title": "Agent internet access",
+      "url": "https://developers.openai.com/codex/cloud/internet-access.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:44.884449264-03:00",
+      "description": "By default, Codex blocks internet access during the agent phase. Setup scripts still run with internet access so you can install dependencies. You can enable agent internet access per environment when you need it.",
+      "summary": "This document explains how to configure and manage internet access for agents in Codex, detailing the security risks associated with web access and how to restrict it using domain allowlists and HTTP method filters.",
+      "tags": [
+        "agent-configuration",
+        "security",
+        "network-access",
+        "domain-allowlist",
+        "prompt-injection"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "007-codex-config-basic.md",
+      "original_file_path": "codex-config-basic.md",
+      "title": "Basic Configuration",
+      "url": "https://developers.openai.com/codex/config-basic.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:46.376160774-03:00",
+      "description": "Codex reads local settings from `~/.codex/config.toml`. Use this file to change defaults (like the model), set approval and sandbox behavior, and configure MCP servers.",
+      "summary": "Explains how to manage Codex settings using the `config.toml` file, including setting defaults, using profiles, and toggling experimental features.",
+      "tags": [
+        "codex",
+        "configuration",
+        "toml",
+        "settings",
+        "feature-flags"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "008-codex-config-sample.md",
+      "original_file_path": "codex-config-sample.md",
+      "title": "Sample Configuration",
+      "url": "https://developers.openai.com/codex/config-sample.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:47.195727822-03:00",
+      "description": "Use this example configuration as a starting point. It includes most keys Codex reads from `config.toml`, along with defaults and short notes.",
+      "summary": "This document provides a comprehensive sample configuration file (config.toml) for the Codex CLI, detailing available keys, default values, and usage notes for customizing the tool's behavior, including model selection, authentication, and security policies.",
+      "tags": [
+        "codex-cli",
+        "config-toml",
+        "model-selection",
+        "sandbox-security",
+        "authentication"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "009-codex-config-reference.md",
+      "original_file_path": "codex-config-reference.md",
+      "title": "Configuration Reference",
+      "url": "https://developers.openai.com/codex/config-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:46.745512097-03:00",
+      "description": "Use this page as a searchable reference for Codex configuration files. For conceptual guidance and examples, start with [Basic Config](https://developers.openai.com/codex/config-basic) and [Advanced Config](https://developers.openai.com/codex/config-advanced).",
+      "summary": "This document provides a detailed reference for configuring the Codex application via the `config.toml` file, listing available options for models, sandboxing, notifications, MCP servers, and experimental features.",
+      "tags": [
+        "codex",
+        "configuration",
+        "reference",
+        "settings",
+        "sandbox",
+        "mcp",
+        "toml"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "010-codex-config-advanced.md",
+      "original_file_path": "codex-config-advanced.md",
+      "title": "Advanced Configuration",
+      "url": "https://developers.openai.com/codex/config-advanced.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:46.253986045-03:00",
+      "description": "Use these options when you need more control over providers, policies, and integrations. For a quick start, see [Basic Config](https://developers.openai.com/codex/config-basic).",
+      "summary": "This document details the advanced configuration options for the Codex CLI, including managing profiles, defining custom model providers, setting up approval policies, and configuring observability via OpenTelemetry.",
+      "tags": [
+        "codex-cli",
+        "configuration",
+        "profiles",
+        "model-providers",
+        "toml",
+        "security",
+        "otel"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "011-codex-ide-settings.md",
+      "original_file_path": "codex-ide-settings.md",
+      "title": "Codex IDE extension settings",
+      "url": "https://developers.openai.com/codex/ide/settings.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:52.229578279-03:00",
+      "description": "Use these settings to customize the Codex IDE extension.",
+      "summary": "Documentation for configuring the Codex IDE extension within the editor, covering how to change settings and a reference table of specific configuration options.",
+      "tags": [
+        "ide-extension",
+        "settings",
+        "configuration",
+        "vs-code",
+        "windows-subsystem-for-linux"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "012-codex-ide.md",
+      "original_file_path": "codex-ide.md",
+      "title": "Codex IDE extension",
+      "url": "https://developers.openai.com/codex/ide.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:50.492593785-03:00",
+      "description": "Codex is OpenAI's coding agent that can read, edit, and run code. It helps you build faster, squash bugs, and understand unfamiliar code. With the Codex VS Code extension, you can use Codex side by side in your IDE or delegate tasks to the cloud.",
+      "summary": "Explains how to install, configure, and use the Codex IDE extension for VS Code and compatible forks, covering setup, sidebar placement, authentication, and available features.",
+      "tags": [
+        "codex",
+        "vs-code",
+        "ide-setup",
+        "extension",
+        "ai-coding-agent",
+        "integration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "013-codex-guides-agents-md.md",
+      "original_file_path": "codex-guides-agents-md.md",
+      "title": "Custom instructions with AGENTS.md",
+      "url": "https://developers.openai.com/codex/guides/agents-md.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:49.509946681-03:00",
+      "description": "Codex reads `AGENTS.md` files before doing any work. By layering global guidance with project-specific overrides, you can start each task with consistent expectations, no matter which repository you open.",
+      "summary": "This document explains how to configure and customize instruction discovery for the Codex CLI tool, detailing the precedence order for `AGENTS.md` files, how to layer global and project-specific guidance, and how to troubleshoot common setup issues.",
+      "tags": [
+        "codex-cli",
+        "agents-md",
+        "configuration",
+        "instruction-discovery",
+        "project-setup"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "014-codex-mcp.md",
+      "original_file_path": "codex-mcp.md",
+      "title": "Model Context Protocol",
+      "url": "https://developers.openai.com/codex/mcp.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:53.625636492-03:00",
+      "description": "Model Context Protocol (MCP) connects models to tools and context. Use it to give Codex access to third-party documentation, or to let it interact with developer tools like your browser or Figma.",
+      "summary": "This document explains how to configure and connect Codex to Model Context Protocol (MCP) servers via CLI or config files to integrate tools and third-party documentation.",
+      "tags": [
+        "mcp",
+        "codex",
+        "configuration",
+        "stdio",
+        "http",
+        "integration",
+        "tools"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "015-codex-rules.md",
+      "original_file_path": "codex-rules.md",
+      "title": "Rules",
+      "url": "https://developers.openai.com/codex/rules.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:55.828541892-03:00",
+      "description": "Use rules to control which commands Codex can run outside the sandbox.",
+      "summary": "This guide explains how to configure and manage Codex execution rules using `.rules` files to control command permissions outside the sandbox.",
+      "tags": [
+        "codex",
+        "rules",
+        "starlark",
+        "sandbox",
+        "configuration",
+        "security",
+        "exec-policy"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "016-codex-integrations-slack.md",
+      "original_file_path": "codex-integrations-slack.md",
+      "title": "Use Codex in Slack",
+      "url": "https://developers.openai.com/codex/integrations/slack.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:53.15546297-03:00",
+      "description": "Use Codex in Slack to kick off coding tasks from channels and threads. Mention `@Codex` with a prompt, and Codex creates a cloud task and replies with the results.",
+      "summary": "Instructions for integrating OpenAI Codex with Slack to initiate coding tasks directly from channels, including setup procedures, usage details, and environment selection logic.",
+      "tags": [
+        "slack-integration",
+        "codex",
+        "cloud-tasks",
+        "github",
+        "configuration",
+        "security",
+        "enterprise"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "017-codex-cli.md",
+      "original_file_path": "codex-cli.md",
+      "title": "Codex CLI",
+      "url": "https://developers.openai.com/codex/cli.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:42.23659892-03:00",
+      "description": "Codex CLI is OpenAI's coding agent that you can run locally from your terminal. It can read, change, and run code on your machine in the selected directory. It's [open source](https://github.com/openai/codex) and built in Rust for speed and efficiency.",
+      "summary": "An overview of OpenAI's Codex CLI tool, explaining its capabilities for local code editing, interactive sessions, and terminal automation.",
+      "tags": [
+        "cli",
+        "openai",
+        "codex",
+        "agent",
+        "terminal",
+        "automation",
+        "rust"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "018-codex-cli-reference.md",
+      "original_file_path": "codex-cli-reference.md",
+      "title": "Command line options",
+      "url": "https://developers.openai.com/codex/cli/reference.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:44.604730442-03:00",
+      "description": "export const globalFlagOptions = [ { key: \"PROMPT\", type: \"string\", description: \"Optional text instruction to start the session. Omit to launch the TUI without a pre-filled message.\", }, { key: \"--image, -i\", type: \"path[,path...]\", description: \"Attach one or more image files to the initial pro...",
+      "summary": "This document serves as a reference guide for the Codex CLI, detailing global command line flags, available commands such as `codex apply` and `codex exec`, and specific options for non-interactive execution.",
+      "tags": [
+        "cli",
+        "command-line",
+        "codex",
+        "reference",
+        "options",
+        "flags",
+        "commands"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "019-codex-cli-features.md",
+      "original_file_path": "codex-cli-features.md",
+      "title": "Codex CLI features",
+      "url": "https://developers.openai.com/codex/cli/features.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:42.237037542-03:00",
+      "description": "Codex supports workflows beyond chat. Use this guide to learn what each one unlocks and when to use it.",
+      "summary": "This guide explains the various features and workflows of the Codex CLI, including interactive modes, conversation resumption, local code review, web search, automation scripting, and cloud integration.",
+      "tags": [
+        "cli-usage",
+        "automation",
+        "code-review",
+        "interactive-mode",
+        "workflow",
+        "terminal-ui",
+        "scripting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "020-codex-cli-slash-commands.md",
+      "original_file_path": "codex-cli-slash-commands.md",
+      "title": "Slash commands in Codex CLI",
+      "url": "https://developers.openai.com/codex/cli/slash-commands.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:44.641710711-03:00",
+      "description": "Slash commands give you fast, keyboard-first control over Codex. Type `/` in the composer to open the slash popup, choose a command, and Codex will perform actions such as switching models, adjusting approvals, or summarizing long conversations without leaving the terminal.",
+      "summary": "A guide explaining how to use built-in slash commands in the Codex CLI to control sessions, manage models, review changes, and generate configuration scaffolds.",
+      "tags": [
+        "codex-cli",
+        "slash-commands",
+        "terminal-interface",
+        "session-management",
+        "git-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "021-codex-ide-commands.md",
+      "original_file_path": "codex-ide-commands.md",
+      "title": "Codex IDE extension commands",
+      "url": "https://developers.openai.com/codex/ide/commands.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:51.413891444-03:00",
+      "description": "Use these commands to control Codex from the VS Code Command Palette. You can also bind them to keyboard shortcuts.",
+      "summary": "This document provides a reference for Codex IDE extension commands, listing their IDs, default key bindings, and instructions for assigning custom keyboard shortcuts.",
+      "tags": [
+        "ide-extension",
+        "vs-code",
+        "key-bindings",
+        "command-palette",
+        "codex-commands"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "022-codex-ide-features.md",
+      "original_file_path": "codex-ide-features.md",
+      "title": "Codex IDE extension features",
+      "url": "https://developers.openai.com/codex/ide/features.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:51.465290281-03:00",
+      "description": "The Codex IDE extension gives you access to Codex directly in VS Code, Cursor, Windsurf, and other VS Code-compatible editors. It uses the same agent as the Codex CLI and shares the same configuration.",
+      "summary": "Explains the features and capabilities of the Codex IDE extension for VS Code-compatible editors, including model selection, reasoning adjustment, approval modes, and cloud task delegation.",
+      "tags": [
+        "ide-extension",
+        "codex",
+        "cloud-delegation",
+        "model-switching",
+        "vs-code",
+        "ai-agents"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "023-codex-ide-slash-commands.md",
+      "original_file_path": "codex-ide-slash-commands.md",
+      "title": "Codex IDE extension slash commands",
+      "url": "https://developers.openai.com/codex/ide/slash-commands.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:52.295550626-03:00",
+      "description": "Slash commands let you control Codex without leaving the chat input. Use them to check status, switch between local and cloud mode, or send feedback.",
+      "summary": "This document lists and describes the available slash commands for the Codex IDE extension, which enable users to control settings, toggle modes, and access support features directly from the chat interface.",
+      "tags": [
+        "codex-ide",
+        "slash-commands",
+        "chat-interface",
+        "code-review",
+        "cloud-mode",
+        "local-mode"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "024-codex-cloud.md",
+      "original_file_path": "codex-cloud.md",
+      "title": "Codex web",
+      "url": "https://developers.openai.com/codex/cloud.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:44.855998452-03:00",
+      "description": "Codex is OpenAI's coding agent that can read, edit, and run code. It helps you build faster, fix bugs, and understand unfamiliar code. With Codex cloud, Codex can work on tasks in the background (including in parallel) using its own cloud environment.",
+      "summary": "An overview of Codex web, OpenAI's coding agent for background code execution and repository management, covering setup instructions and links to common workflows and configuration options.",
+      "tags": [
+        "codex",
+        "openai",
+        "github-integration",
+        "cloud-environments",
+        "code-automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "025-codex-cloud-environments.md",
+      "original_file_path": "codex-cloud-environments.md",
+      "title": "Cloud environments",
+      "url": "https://developers.openai.com/codex/cloud/environments.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:44.989405138-03:00",
+      "description": "Use environments to control what Codex installs and runs during cloud tasks. For example, you can add dependencies, install tools like linters and formatters, and set environment variables.",
+      "summary": "This guide explains how to configure and manage Codex cloud environments to control dependencies, tooling, and execution settings for automated tasks.",
+      "tags": [
+        "codex",
+        "environments",
+        "cloud-tasks",
+        "setup-scripts",
+        "configuration",
+        "container-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "026-codex-integrations-github.md",
+      "original_file_path": "codex-integrations-github.md",
+      "title": "Use Codex in GitHub",
+      "url": "https://developers.openai.com/codex/integrations/github.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:52.580677879-03:00",
+      "description": "Use Codex to review pull requests without leaving GitHub. Add a pull request comment with `@codex review`, and Codex replies with a standard GitHub code review.",
+      "summary": "Explains how to configure and use the Codex agent to perform automated code reviews directly within GitHub pull requests and customize review guidelines.",
+      "tags": [
+        "codex",
+        "github",
+        "code-review",
+        "pull-requests",
+        "automation",
+        "agents-md"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "027-codex-integrations-linear.md",
+      "original_file_path": "codex-integrations-linear.md",
+      "title": "Use Codex in Linear",
+      "url": "https://developers.openai.com/codex/integrations/linear.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:52.965244068-03:00",
+      "description": "Use Codex in Linear to delegate work from issues. Assign an issue to Codex or mention `@Codex` in a comment, and Codex creates a cloud task and replies with progress and results.",
+      "summary": "Explains how to integrate and use Codex within Linear to delegate issues, set up cloud tasks, configure automatic assignment via triage rules, and connect locally via the Model Context Protocol.",
+      "tags": [
+        "codex",
+        "linear-integration",
+        "automation",
+        "mcp",
+        "cloud-tasks",
+        "issue-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "028-codex-prompting.md",
+      "original_file_path": "codex-prompting.md",
+      "title": "Prompting",
+      "url": "https://developers.openai.com/codex/prompting.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:55.375333004-03:00",
+      "description": "You interact with Codex by sending prompts (user messages) that describe what you want it to do.",
+      "summary": "This document explains how to interact with the Codex agent through prompts, manage threads, and provide context for tasks.",
+      "tags": [
+        "codex",
+        "prompting",
+        "agent-interaction",
+        "context-management",
+        "local-vs-cloud"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "029-codex-custom-prompts.md",
+      "original_file_path": "codex-custom-prompts.md",
+      "title": "Custom Prompts",
+      "url": "https://developers.openai.com/codex/custom-prompts.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:47.605641654-03:00",
+      "description": "Custom prompts let you turn Markdown files into reusable prompts that you can invoke as slash commands in both the Codex CLI and the Codex IDE extension.",
+      "summary": "This guide explains how to create, configure, and manage custom Markdown prompts that can be invoked as slash commands within the Codex CLI and IDE extension.",
+      "tags": [
+        "codex",
+        "custom-prompts",
+        "slash-commands",
+        "markdown",
+        "productivity"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "030-codex-workflows.md",
+      "original_file_path": "codex-workflows.md",
+      "title": "Workflows",
+      "url": "https://developers.openai.com/codex/workflows.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:58.764362206-03:00",
+      "description": "Codex works best when you treat it like a teammate with explicit context and a clear definition of \"done.\" This page gives end-to-end workflow examples for the Codex IDE extension, the Codex CLI, and Codex cloud.",
+      "summary": "This document provides end-to-end workflow recipes and best practices for using the Codex IDE extension, CLI, and cloud features to accomplish tasks such as explaining codebases, fixing bugs, and prototyping UI.",
+      "tags": [
+        "codex",
+        "workflows",
+        "ide-extension",
+        "cli",
+        "debugging",
+        "testing",
+        "refactoring"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "031-codex-windows.md",
+      "original_file_path": "codex-windows.md",
+      "title": "Windows",
+      "url": "https://developers.openai.com/codex/windows.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:57.422319842-03:00",
+      "description": "The easiest way to use Codex on Windows is to [set up the IDE extension](https://developers.openai.com/codex/ide) or [install the CLI](https://developers.openai.com/codex/cli) and run it from PowerShell.",
+      "summary": "This document provides instructions and best practices for installing and running the Codex CLI and IDE agent on Windows, including setting up the Windows Subsystem for Linux (WSL2) and configuring the experimental Windows sandbox.",
+      "tags": [
+        "windows",
+        "wsl",
+        "installation",
+        "codex-cli",
+        "troubleshooting",
+        "vs-code",
+        "setup"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "032-codex-skills.md",
+      "original_file_path": "codex-skills.md",
+      "title": "Agent Skills",
+      "url": "https://developers.openai.com/codex/skills.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:57.306246017-03:00",
+      "description": "Use agent skills to extend Codex with task-specific capabilities. A skill packages instructions, resources, and optional scripts so Codex can follow a workflow reliably. You can share skills across teams or with the community. Skills build on the [open agent skills standard](https://agentskills.io).",
+      "summary": "Explains how to extend Codex using agent skills, including their definition, file structure, activation methods, storage locations with precedence rules, and procedures for creating or installing them.",
+      "tags": [
+        "codex",
+        "agent-skills",
+        "extensibility",
+        "automation",
+        "configuration",
+        "skills"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "033-codex-skills-create-skill.md",
+      "original_file_path": "codex-skills-create-skill.md",
+      "title": "Create skills",
+      "url": "https://developers.openai.com/codex/skills/create-skill.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:57.372337099-03:00",
+      "description": "[Skills](https://developers.openai.com/codex/skills) let teams capture institutional knowledge and turn it into reusable, shareable workflows. Skills help Codex behave consistently across users, repositories, and sessions, which is especially useful when you want standard conventions and checks a...",
+      "summary": "Explains how to create and manage Codex skills to capture institutional knowledge and enforce consistent workflows, including manual and automated creation methods, file format specifications, and troubleshooting tips.",
+      "tags": [
+        "codex",
+        "skills",
+        "workflow-automation",
+        "yaml-front-matter",
+        "best-practices",
+        "troubleshooting"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "034-codex-feature-maturity.md",
+      "original_file_path": "codex-feature-maturity.md",
+      "title": "Feature Maturity",
+      "url": "https://developers.openai.com/codex/feature-maturity.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:48.334295464-03:00",
+      "description": "Some Codex features ship behind a maturity label so you can understand how reliable each one is, what might change, and what level of support to expect.",
+      "summary": "This document explains the maturity levels used to classify Codex features, ranging from 'Under development' to 'Stable', to help users understand feature reliability and support expectations.",
+      "tags": [
+        "codex",
+        "feature-maturity",
+        "stability-levels",
+        "versioning",
+        "lifecycle"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "035-codex-noninteractive.md",
+      "original_file_path": "codex-noninteractive.md",
+      "title": "Non-interactive mode",
+      "url": "https://developers.openai.com/codex/noninteractive.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:53.994805578-03:00",
+      "description": "Non-interactive mode lets you run Codex from scripts (for example, continuous integration (CI) jobs) without opening the interactive TUI. You invoke it with `codex exec`.",
+      "summary": "This guide explains how to use the 'codex exec' command to run Codex in non-interactive mode within CI pipelines and automation scripts, covering syntax, permissions, JSON output formats, and GitHub Actions integration.",
+      "tags": [
+        "codex-cli",
+        "automation",
+        "ci-integration",
+        "jsonl-output",
+        "github-actions",
+        "command-line-interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "036-codex-github-action.md",
+      "original_file_path": "codex-github-action.md",
+      "title": "Codex GitHub Action",
+      "url": "https://developers.openai.com/codex/github-action.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:48.974003696-03:00",
+      "description": "Use the Codex GitHub Action (`openai/codex-action@v1`) to run Codex in CI/CD jobs, apply patches, or post reviews from a GitHub Actions workflow. The action installs the Codex CLI, starts the Responses API proxy when you provide an API key, and runs `codex exec` under the permissions you specify.",
+      "summary": "This document explains how to configure and use the Codex GitHub Action to automate code review tasks, execute prompts, and manage security privileges within CI/CD pipelines.",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "codex",
+        "automation",
+        "code-review",
+        "security",
+        "workflow-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "037-codex-guides-agents-sdk.md",
+      "original_file_path": "codex-guides-agents-sdk.md",
+      "title": "Use Codex with the Agents SDK",
+      "url": "https://developers.openai.com/codex/guides/agents-sdk.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:50.100102776-03:00",
+      "description": "You can run Codex as an MCP server and connect it from other MCP clients (for example, an agent built with the [OpenAI Agents SDK](https://openai.github.io/openai-agents-js/guides/mcp/)).",
+      "summary": "This guide explains how to run Codex CLI as a Model Context Protocol (MCP) server and integrate it with the OpenAI Agents SDK to build scalable, multi-agent software workflows.",
+      "tags": [
+        "codex-cli",
+        "mcp-server",
+        "openai-agents-sdk",
+        "multi-agent-workflows",
+        "python-integration",
+        "software-delivery"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "038-codex-models.md",
+      "original_file_path": "codex-models.md",
+      "title": "Codex Models",
+      "url": "https://developers.openai.com/codex/models.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:53.862871473-03:00",
+      "description": "<div class=\"not-prose grid gap-6 md:grid-cols-2 xl:grid-cols-3\"> <ModelDetails client:load name=\"gpt-5.2-codex\" slug=\"gpt-5.2-codex\" wallpaperUrl=\"/images/codex/gpt-5.2-codex.png\" description=\"Most advanced agentic coding model for real-world engineering.\" data={{ features: [ { title=\"Capability...",
+      "summary": "This document provides a comparative overview and specification of various Codex and GPT models, detailing their capabilities, speed, and supported features such as SDK, CLI, and API access.",
+      "tags": [
+        "codex",
+        "gpt-models",
+        "model-selection",
+        "ai-agents",
+        "machine-learning",
+        "sdk",
+        "api-access"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "039-codex-pricing.md",
+      "original_file_path": "codex-pricing.md",
+      "title": "Codex Pricing",
+      "url": "https://developers.openai.com/codex/pricing.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:55.341735507-03:00",
+      "description": "<div class=\"codex-pricing-grid\"> <PricingCard name=\"Plus\" subtitle=\"Power a few focused coding sessions each week.\" price=\"$20\" interval=\"/month\" ctaLabel=\"Get Plus\" ctaHref=\"https://chatgpt.com/explore/plus?utm_internal_source=openai_developers_codex\" >",
+      "summary": "This document details the pricing tiers, usage limits, and credit system for the Codex AI coding assistant across Plus, Pro, Business, Enterprise, and API access plans.",
+      "tags": [
+        "pricing",
+        "subscription-plans",
+        "usage-limits",
+        "credits",
+        "codex",
+        "api-pricing"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "040-codex-sdk.md",
+      "original_file_path": "codex-sdk.md",
+      "title": "Codex SDK",
+      "url": "https://developers.openai.com/codex/sdk.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:56.951671762-03:00",
+      "description": "If you use Codex through the Codex CLI, the IDE extension, or Codex Web, you can also control it programmatically.",
+      "summary": "Introduces the Codex SDK for programmatic control of Codex via TypeScript, detailing installation, basic usage for thread management, and use cases such as CI/CD integration and custom agent development.",
+      "tags": [
+        "codex-sdk",
+        "typescript",
+        "api-integration",
+        "node-js",
+        "cicd",
+        "software-development-kit"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "041-codex-open-source.md",
+      "original_file_path": "codex-open-source.md",
+      "title": "Open Source",
+      "url": "https://developers.openai.com/codex/open-source.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:54.475222744-03:00",
+      "description": "OpenAI develops key parts of Codex in the open. That work lives on GitHub so you can follow progress, report issues, and contribute improvements.",
+      "summary": "This document lists the open-source components of Codex, provides links to their GitHub repositories, and explains where to report bugs or request features.",
+      "tags": [
+        "open-source",
+        "github",
+        "repository-links",
+        "bug-reporting",
+        "codex-cli",
+        "codex-sdk"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "042-codex-enterprise.md",
+      "original_file_path": "codex-enterprise.md",
+      "title": "Enterprise administration",
+      "url": "https://developers.openai.com/codex/enterprise.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:47.961850478-03:00",
+      "description": "This guide is for ChatGPT Enterprise admins who want to set up Codex for their workspace.",
+      "summary": "Instructions for enterprise administrators to configure and manage Codex, including enabling local and cloud environments, setting up GitHub connectors, configuring role-based access controls, and managing security settings.",
+      "tags": [
+        "enterprise-administration",
+        "codex-cloud",
+        "security-configuration",
+        "github-connector",
+        "rbac",
+        "workspace-settings"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "043-codex-guides-build-ai-native-engineering-team.md",
+      "original_file_path": "codex-guides-build-ai-native-engineering-team.md",
+      "title": "Building an AI-Native Engineering Team",
+      "url": "https://developers.openai.com/codex/guides/build-ai-native-engineering-team.md",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:49.48194497-03:00",
+      "description": "AI models are rapidly expanding the range of tasks they can perform, with significant implications for engineering. Frontier systems now sustain multi-hour reasoning: as of August 2025, METR found that leading models could complete **2 hours and 17 minutes** of continuous work with roughly **50% ...",
+      "summary": "This guide examines the evolution of AI coding tools from autocomplete to autonomous agents, detailing how reasoning capabilities enable teams to delegate complex software development lifecycle tasks and transition to AI-native engineering organizations.",
+      "tags": [
+        "ai-agents",
+        "software-development",
+        "coding-tools",
+        "sdlc",
+        "engineering-teams",
+        "automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "044-codex-llms-full.txt.md",
+      "original_file_path": "codex-llms-full.txt.md",
+      "title": "Codex — full documentation",
+      "url": "https://developers.openai.com/codex/llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-01-13T18:59:42.239157563-03:00",
+      "description": "> Single-file Markdown export of Codex docs across CLI, IDE, cloud, and SDK.",
+      "summary": "This document explains authentication and security mechanisms for the Codex CLI, IDE, and cloud environments, including sign-in methods, credential storage, managed configurations, and headless device setup.",
+      "tags": [
+        "authentication",
+        "codex-cli",
+        "security",
+        "mfa",
+        "credentials",
+        "headless-login",
+        "openai"
+      ],
+      "category": "guide"
+    }
+  ]
+}

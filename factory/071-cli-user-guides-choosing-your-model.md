@@ -1,0 +1,82 @@
+---
+title: Choosing Your Model - Factory Documentation
+url: https://docs.factory.ai/cli/user-guides/choosing-your-model
+source: sitemap
+fetched_at: 2026-01-13T19:03:39.003861212-03:00
+rendered_js: false
+word_count: 711
+summary: A comparative guide that ranks and evaluates various AI models based on quality, cost, and speed to help users select the best option for specific development scenarios.
+tags:
+    - model-selection
+    - ai-models
+    - cli-tools
+    - benchmarking
+    - reasoning-effort
+    - optimization
+    - open-source
+category: guide
+---
+
+Model quality evolves quickly, and we tune the CLI defaults as the ecosystem shifts. Use this guide as a snapshot of how the major options compare today, and expect to revisit it as we publish updates. This guide was last updated on Thursday, December 4th 2025.
+
+* * *
+
+## 1 · Current stack rank (December 2025)
+
+RankModelWhy we reach for it1**Claude Opus 4.5 (default)**Highest quality-and-safety balance; current CLI default for both TUI and exec.2**GPT-5.1-Codex-Max**Fast coding loops with support up to **Extra High** reasoning; great for heavy implementation and debugging.3**Claude Sonnet 4.5**Strong daily driver with balanced cost/quality; great general-purpose choice when you don’t need Opus-level depth.4**GPT-5.1-Codex**Quick iteration with solid code quality at lower cost; bump reasoning when you need more depth.5**GPT-5.1**Good generalist, especially when you want OpenAI ergonomics with flexible reasoning effort.6**Claude Haiku 4.5**Fast, cost-efficient for routine tasks and high-volume automation.7**Gemini 3 Pro**Strong at mixed reasoning with Low/High settings; helpful for researchy flows with structured outputs.8**Gemini 3 Flash**Fast, cheap (0.2× multiplier) with full reasoning support; great for high-volume tasks where speed matters.9**Droid Core (GLM-4.6)**Open-source, 0.25× multiplier, great for bulk automation or air-gapped environments; note: no image support.
+
+* * *
+
+## 2 · Match the model to the job
+
+ScenarioRecommended model**Deep planning, architecture reviews, ambiguous product specs**Start with **Opus 4.5 (default)** for depth and safety. Use **Sonnet 4.5** when you want balanced cost/quality, or **Codex/Codex-Max** for faster iteration with reasoning.**Full-feature development, large refactors****Opus 4.5** for default depth and safety. **GPT-5.1-Codex-Max** when you need speed plus **Extra High** reasoning; **Sonnet 4.5** for balanced loops.**Repeatable edits, summarization, boilerplate generation****Haiku 4.5** or **Droid Core** for speed and cost. **GPT-5.1 / GPT-5.1-Codex** when you need higher quality or structured outputs.**CI/CD or automation loops**Favor **Haiku 4.5** or **Droid Core** for predictable, low-cost throughput. Use **Codex** or **Codex-Max** when automation needs stronger reasoning.**High-volume automation, frequent quick turns****Haiku 4.5** for speedy feedback. **Droid Core** when cost is critical or you need air-gapped deployment.
+
+Tip: you can swap models mid-session with `/model` or by toggling in the settings panel (`Shift+Tab` → **Settings**).
+
+* * *
+
+## 3 · Switching models mid-session
+
+- Use `/model` (or **Shift+Tab → Settings → Model**) to swap without losing your chat history.
+- If you change providers (e.g. Anthropic to OpenAI), the CLI converts the session transcript between Anthropic and OpenAI formats. The translation is lossy—provider-specific metadata is dropped—but we have not seen accuracy regressions in practice.
+- For the best context continuity, switch models at natural milestones: after a commit, once a PR lands, or when you abandon a failed approach and reset the plan.
+- If you flip back and forth rapidly, expect the assistant to spend a turn re-grounding itself; consider summarizing recent progress when you switch.
+
+* * *
+
+## 4 · Reasoning effort settings
+
+- **Opus / Sonnet / Haiku**: Off / Low / Medium / High (default: Off)
+- **GPT-5.1**: None / Low / Medium / High (default: None)
+- **GPT-5.1-Codex**: Low / Medium / High (default: Medium)
+- **GPT-5.1-Codex-Max**: Low / Medium / High / **Extra High** (default: Medium)
+- **GPT-5.2**: Low / Medium / High (default: Low)
+- **Gemini 3 Pro**: Low / High (default: High)
+- **Gemini 3 Flash**: Minimal / Low / Medium / High (default: High)
+- **Droid Core (GLM-4.6)**: None only (default: None; no image support)
+
+Reasoning effort increases latency and cost—start low for simple work and escalate as needed. **Extra High** is only available on GPT-5.1-Codex-Max.
+
+* * *
+
+## 5 · Bring Your Own Keys (BYOK)
+
+Factory ships with managed Anthropic and OpenAI access. If you prefer to run against your own accounts, BYOK is opt-in—see [Bring Your Own Keys](https://docs.factory.ai/cli/configuration/byok) for setup steps, supported providers, and billing notes.
+
+### Open-source models
+
+**Droid Core (GLM-4.6)** is an open-source alternative available in the CLI. It’s useful for:
+
+- **Air-gapped environments** where external API calls aren’t allowed
+- **Cost-sensitive projects** needing unlimited local inference
+- **Privacy requirements** where code cannot leave your infrastructure
+- **Experimentation** with open-source model capabilities
+
+**Note:** GLM-4.6 does not support image attachments. For image-based workflows, use Claude or GPT models. To use open-source models, you’ll need to configure them via BYOK with a local inference server (like Ollama) or a hosted provider. See [BYOK documentation](https://docs.factory.ai/cli/configuration/byok) for setup instructions.
+
+* * *
+
+## 6 · Keep notes on what works
+
+- Track high-impact workflows (e.g., spec generation vs. quick edits) and which combinations of model + reasoning effort feel best.
+- Ping the community or your Factory contact when you notice a model regression so we can benchmark and update this guidance quickly.

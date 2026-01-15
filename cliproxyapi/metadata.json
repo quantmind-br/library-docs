@@ -1,0 +1,1718 @@
+{
+  "generated_at": "2026-01-14T22:10:21.267305486-03:00",
+  "source_url": "https://help.router-for.me/",
+  "strategy": "crawler",
+  "total_documents": 90,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "CLIProxyAPI",
+      "url": "https://help.router-for.me/",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:51.577968724-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document describes an API service that is compatible with OpenAI, Gemini, and Claude models, supporting all their protocols through a single interface.",
+      "tags": [
+        "api-service",
+        "openai-compatible",
+        "gemini-compatible",
+        "claude-compatible",
+        "chat-completions",
+        "multi-model-access"
+      ],
+      "category": "api",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "046-cn.md",
+      "title": "CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:54.072385539-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document describes CLIProxyAPI, a service that provides a unified API endpoint for interacting with various large language models including OpenAI, Gemini, and Claude.",
+      "tags": [
+        "api-service",
+        "llm-integration",
+        "openai-api",
+        "gemini-api",
+        "claude-api",
+        "unified-api"
+      ],
+      "category": "api",
+      "original_file_path": "cn.md"
+    },
+    {
+      "file_path": "003-introduction-quick-start.md",
+      "title": "Quick Start | CLIProxyAPI",
+      "url": "https://help.router-for.me/introduction/quick-start",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:55.474670576-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides instructions on how to install and run the CLIProxyAPI on various operating systems including macOS, Linux, Windows, and via Docker, as well as how to build it from source.",
+      "tags": [
+        "installation",
+        "macos",
+        "linux",
+        "windows",
+        "docker",
+        "build-from-source"
+      ],
+      "category": "tutorial",
+      "original_file_path": "introduction-quick-start.md"
+    },
+    {
+      "file_path": "048-cn-introduction-quick-start.md",
+      "title": "\u5feb\u901f\u5f00\u59cb | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/introduction/quick-start",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:56.31667682-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides instructions on how to install and run the CLIProxyAPI tool on various operating systems including macOS, Linux, Windows, and via Docker, as well as how to compile it from source.",
+      "tags": [
+        "installation",
+        "macos",
+        "linux",
+        "windows",
+        "docker",
+        "source-build",
+        "cli-proxy-api"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-introduction-quick-start.md"
+    },
+    {
+      "file_path": "005-configuration-options.md",
+      "title": "Configuration Options | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/options",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:56.620978019-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document details the configuration options available for a proxy API, covering core settings, management API access, provider credential configurations for various AI models, and payload routing rules.",
+      "tags": [
+        "configuration",
+        "api-settings",
+        "provider-credentials",
+        "model-routing",
+        "proxy-api"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-options.md"
+    },
+    {
+      "file_path": "006-configuration-auth-dir.md",
+      "title": "Authentication Directory | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/auth-dir",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:56.916500644-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains the purpose and function of the `auth-dir` parameter, which specifies the directory for storing authentication tokens used by the application.",
+      "tags": [
+        "authentication",
+        "tokens",
+        "configuration",
+        "auth-dir",
+        "google-accounts"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-auth-dir.md"
+    },
+    {
+      "file_path": "002-introduction-what-is-cliproxyapi.md",
+      "title": "What is CLIProxyAPI? | CLIProxyAPI",
+      "url": "https://help.router-for.me/introduction/what-is-cliproxyapi",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:54.805198057-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "CLIProxyAPI acts as a proxy server, offering OpenAI, Gemini, Claude, and Codex compatible API interfaces for command-line interface usage, supporting multiple accounts and various model types.",
+      "tags": [
+        "cli",
+        "proxy-api",
+        "openai-compatible",
+        "gemini-api",
+        "claude-api",
+        "codex-api",
+        "multi-account"
+      ],
+      "category": "api",
+      "original_file_path": "introduction-what-is-cliproxyapi.md"
+    },
+    {
+      "file_path": "047-cn-introduction-what-is-cliproxyapi.md",
+      "title": "CLIProxyAPI\u662f\u4ec0\u4e48\uff1f | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/introduction/what-is-cliproxyapi",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:57.25539544-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document describes CLIProxyAPI, a proxy server that provides OpenAI/Gemini/Claude/Codex compatible API endpoints for command-line interfaces. It supports various models, multi-account management, and features like streaming responses and function calls.",
+      "tags": [
+        "cli-proxy",
+        "openai-api",
+        "gemini-api",
+        "claude-api",
+        "codex-api",
+        "llm-proxy"
+      ],
+      "category": "guide",
+      "original_file_path": "cn-introduction-what-is-cliproxyapi.md"
+    },
+    {
+      "file_path": "010-configuration-storage-s3.md",
+      "title": "Object Storage-backed Configuration and Token Store",
+      "url": "https://help.router-for.me/configuration/storage/s3",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:57.343925374-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure an object storage service, like S3, to store configuration and authentication records for a system. It details the necessary environment variables and the process by which the system interacts with the object storage.",
+      "tags": [
+        "object-storage",
+        "configuration",
+        "authentication",
+        "s3-compatible",
+        "environment-variables"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-storage-s3.md"
+    },
+    {
+      "file_path": "004-configuration-basic.md",
+      "title": "Basic Configuration | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/basic",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:57.531742643-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document details the configuration options for a server, including settings for host, port, TLS, remote management, authentication, API keys, proxy URLs, request retries, and specific provider integrations like Gemini, Codex, Claude, OpenAI-compatible, Vertex, and Amp.",
+      "tags": [
+        "configuration",
+        "server-settings",
+        "api-keys",
+        "providers",
+        "logging",
+        "proxy"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-basic.md"
+    },
+    {
+      "file_path": "017-configuration-provider-antigravity.md",
+      "title": "Antigravity (Antigravity via OAuth): | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/antigravity",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:57.678577346-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the cli-proxy-api tool for antigravity login, including details on the local OAuth callback port and an option to disable automatic browser opening.",
+      "tags": [
+        "cli-proxy-api",
+        "antigravity-login",
+        "oauth-callback",
+        "port-configuration",
+        "no-browser"
+      ],
+      "category": "api",
+      "original_file_path": "configuration-provider-antigravity.md"
+    },
+    {
+      "file_path": "009-configuration-storage-git.md",
+      "title": "Git-backed Configuration and Token Store",
+      "url": "https://help.router-for.me/configuration/storage/git",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:58.432747167-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure an application to use a Git repository for storing configuration files and authentication tokens, enabling centralized management and versioning.",
+      "tags": [
+        "git-backed-configuration",
+        "token-store",
+        "environment-variables",
+        "git-repository",
+        "centralized-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-storage-git.md"
+    },
+    {
+      "file_path": "014-configuration-provider-codex.md",
+      "title": "Codex (OpenAI via OAuth): | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/codex",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:58.729979006-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides instructions on how to log into the CLI proxy API using a bash command. It also mentions an option to prevent the browser from opening and specifies the local OAuth callback port.",
+      "tags": [
+        "cli-proxy-api",
+        "login",
+        "oauth",
+        "bash",
+        "command-line"
+      ],
+      "category": "tutorial",
+      "original_file_path": "configuration-provider-codex.md"
+    },
+    {
+      "file_path": "011-configuration-storage-pgsql.md",
+      "title": "PostgreSQL-backed Configuration and Token Store",
+      "url": "https://help.router-for.me/configuration/storage/pgsql",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:56.860716179-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure CLIProxyAPI to use a PostgreSQL database for persisting configuration and authentication data, detailing environment variables and the internal workings of this setup.",
+      "tags": [
+        "postgresql",
+        "configuration",
+        "token-store",
+        "cli-proxy-api",
+        "environment-variables",
+        "database-persistence"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-storage-pgsql.md"
+    },
+    {
+      "file_path": "018-configuration-provider-ai-studio.md",
+      "title": "AI Studio Instructions | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/ai-studio",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:59.39778873-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure the connection and authentication settings for the CLIProxyAPI service when integrating it with an AI Studio App.",
+      "tags": [
+        "aistudio-app",
+        "cliproxyapi",
+        "connection",
+        "authentication",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-provider-ai-studio.md"
+    },
+    {
+      "file_path": "012-configuration-provider-gemini-cli.md",
+      "title": "Gemini CLI (Gemini via OAuth):",
+      "url": "https://help.router-for.me/configuration/provider/gemini-cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:58.763657717-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to log in to the Gemini Code CLI using the proxy API, including how to specify a project ID and customize the login process.",
+      "tags": [
+        "cli",
+        "proxy-api",
+        "login",
+        "project-id",
+        "oauth-callback"
+      ],
+      "category": "api",
+      "original_file_path": "configuration-provider-gemini-cli.md"
+    },
+    {
+      "file_path": "020-configuration-provider-claude-code-compatibility.md",
+      "title": "Claude Code Compatibility Providers | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/claude-code-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:59.607522121-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure upstream Claude Code compatible providers using the `claude-api-key` setting, specifying API keys, base URLs, proxy URLs, and model mappings.",
+      "tags": [
+        "claude-api-key",
+        "configuration",
+        "api-key",
+        "base-url",
+        "models",
+        "provider-setup"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-provider-claude-code-compatibility.md"
+    },
+    {
+      "file_path": "007-configuration-hot-reloading.md",
+      "title": "Hot Reloading | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/hot-reloading",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:57.947262945-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how the server automatically reloads client configurations and settings when changes are detected in the config file or auth directory, allowing for dynamic updates without a server restart.",
+      "tags": [
+        "server-configuration",
+        "automatic-reload",
+        "client-settings",
+        "token-management",
+        "dynamic-updates"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-hot-reloading.md"
+    },
+    {
+      "file_path": "022-configuration-provider-openai-compatibility.md",
+      "title": "OpenAI Compatibility Providers | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/openai-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:59.766634088-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure upstream OpenAI-compatible providers, such as OpenRouter, using the `openai-compatibility` setting. It details the required fields like name, base-url, API key entries, and model mappings, including an example with per-key proxy configuration.",
+      "tags": [
+        "openai-compatibility",
+        "provider-configuration",
+        "api-keys",
+        "model-mapping",
+        "proxy-configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-provider-openai-compatibility.md"
+    },
+    {
+      "file_path": "021-configuration-provider-codex-compatibility.md",
+      "title": "Codex Compatibility Providers | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/codex-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:59.944666392-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure upstream Codex compatible providers by specifying their API key, base URL, and an optional proxy URL.",
+      "tags": [
+        "codex",
+        "api-key",
+        "configuration",
+        "provider",
+        "base-url",
+        "proxy-url"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-provider-codex-compatibility.md"
+    },
+    {
+      "file_path": "016-configuration-provider-iflow.md",
+      "title": "iFlow (iFlow via OAuth): | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/iflow",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:00.020010866-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides instructions on how to log in to the CLI proxy API using a bash command. It also explains an option to prevent a browser from opening and notes the default OAuth callback port.",
+      "tags": [
+        "cli-proxy-api",
+        "login",
+        "oauth",
+        "bash",
+        "command-line"
+      ],
+      "category": "api",
+      "original_file_path": "configuration-provider-iflow.md"
+    },
+    {
+      "file_path": "013-configuration-provider-claude-code.md",
+      "title": "Claude Code (Anthropic via OAuth):",
+      "url": "https://help.router-for.me/configuration/provider/claude-code",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:09:59.512815832-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the `cli-proxy-api` command to log in to Claude, including options to control browser behavior and the callback port.",
+      "tags": [
+        "cli",
+        "proxy-api",
+        "claude-login",
+        "oauth",
+        "command-line"
+      ],
+      "category": "guide",
+      "original_file_path": "configuration-provider-claude-code.md"
+    },
+    {
+      "file_path": "008-configuration-thinking.md",
+      "title": "Thinking Budgets via Model Name Parentheses",
+      "url": "https://help.router-for.me/configuration/thinking",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:00.060701568-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to append values in parentheses to a model name to control its thinking budget or reasoning effort, detailing accepted values and how they are applied by different providers.",
+      "tags": [
+        "model-configuration",
+        "thinking-budget",
+        "reasoning-effort",
+        "api-parameters",
+        "llm-control"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-thinking.md"
+    },
+    {
+      "file_path": "025-management-gui.md",
+      "title": "Desktop GUI | CLIProxyAPI",
+      "url": "https://help.router-for.me/management/gui",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:00.366010857-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document introduces EasyCLI, a cross-platform desktop GUI client designed to interact with the CLIProxyAPI.",
+      "tags": [
+        "gui-client",
+        "cli-proxy",
+        "desktop-application",
+        "cross-platform"
+      ],
+      "category": "concept",
+      "original_file_path": "management-gui.md"
+    },
+    {
+      "file_path": "015-configuration-provider-qwen-code.md",
+      "title": "Qwen (Qwen Chat via OAuth):",
+      "url": "https://help.router-for.me/configuration/provider/qwen-code",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:00.619827017-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to log in to Qwen Chat using the CLI proxy API, offering an option to avoid opening a browser and instead print a login URL.",
+      "tags": [
+        "cli-proxy-api",
+        "qwen-login",
+        "oauth",
+        "device-flow",
+        "login-url"
+      ],
+      "category": "tutorial",
+      "original_file_path": "configuration-provider-qwen-code.md"
+    },
+    {
+      "file_path": "023-management-api.md",
+      "title": "Management API | CLIProxyAPI",
+      "url": "https://help.router-for.me/management/api",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:00.605134748-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a configuration structure for setting up API keys and connection parameters for various AI models, including Gemini, Claude, Codex, and OpenAI-compatible services.",
+      "tags": [
+        "api-configuration",
+        "ai-models",
+        "gemini",
+        "claude",
+        "codex",
+        "openai",
+        "proxy-settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "management-api.md"
+    },
+    {
+      "file_path": "027-agent-client-claude-code.md",
+      "title": "Claude Code | CLIProxyAPI",
+      "url": "https://help.router-for.me/agent-client/claude-code",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:01.253904024-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure environment variables for the CLIProxyAPI server to use various models, including Gemini, OpenAI GPT, Claude, Qwen, and iFlow, for different API versions.",
+      "tags": [
+        "cli-proxy",
+        "api-configuration",
+        "environment-variables",
+        "model-selection",
+        "anthropic-api"
+      ],
+      "category": "configuration",
+      "original_file_path": "agent-client-claude-code.md"
+    },
+    {
+      "file_path": "024-management-webui.md",
+      "title": "Web UI | CLIProxyAPI",
+      "url": "https://help.router-for.me/management/webui",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:01.499077197-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use a custom web UI for the CLIProxyAPI management center, including how to host it on GitHub and configure the server to use it.",
+      "tags": [
+        "cli-proxy-api",
+        "management-center",
+        "custom-ui",
+        "web-ui",
+        "github-integration",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "management-webui.md"
+    },
+    {
+      "file_path": "019-configuration-provider-gemini-compatibility.md",
+      "title": "Gemini Compatibility Providers | CLIProxyAPI",
+      "url": "https://help.router-for.me/configuration/provider/gemini-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:01.482194219-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure upstream Gemini compatible providers using the `gemini-api-key` setting, detailing the required and optional parameters such as api-key, base-url, proxy-url, and headers.",
+      "tags": [
+        "configuration",
+        "gemini-api-key",
+        "provider-setup",
+        "api-key",
+        "base-url"
+      ],
+      "category": "configuration",
+      "original_file_path": "configuration-provider-gemini-compatibility.md"
+    },
+    {
+      "file_path": "029-agent-client-droid.md",
+      "title": "Factory Droid | CLIProxyAPI",
+      "url": "https://help.router-for.me/agent-client/droid",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:02.020216818-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure custom models for the CLIProxyAPI server by editing the `~/.factory/config.json` file.",
+      "tags": [
+        "cli-proxy",
+        "api-configuration",
+        "custom-models",
+        "json-config"
+      ],
+      "category": "configuration",
+      "original_file_path": "agent-client-droid.md"
+    },
+    {
+      "file_path": "028-agent-client-codex.md",
+      "title": "Codex | CLIProxyAPI",
+      "url": "https://help.router-for.me/agent-client/codex",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:01.874898716-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure the Codex CLIProxyAPI server by editing the `config.toml` and `auth.json` files, specifying model providers and API endpoints.",
+      "tags": [
+        "codex",
+        "cliproxyapi",
+        "configuration",
+        "toml",
+        "auth"
+      ],
+      "category": "configuration",
+      "original_file_path": "agent-client-codex.md"
+    },
+    {
+      "file_path": "030-agent-client-amp-cli.md",
+      "title": "Amp CLI | CLIProxyAPI",
+      "url": "https://help.router-for.me/agent-client/amp-cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:01.990535475-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to integrate Amp CLI and IDE extensions with CLIProxyAPI, allowing you to use your existing AI provider subscriptions (like Google, ChatGPT, and Claude) through a single proxy server. It details configuration, authentication, and security settings for managing AI model requests.",
+      "tags": [
+        "ampt-cli",
+        "ide-extensions",
+        "cliproxyapi",
+        "oauth",
+        "ai-providers",
+        "configuration",
+        "security"
+      ],
+      "category": "guide",
+      "original_file_path": "agent-client-amp-cli.md"
+    },
+    {
+      "file_path": "032-docker-docker-compose.md",
+      "title": "Run with Docker Compose | CLIProxyAPI",
+      "url": "https://help.router-for.me/docker/docker-compose",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:02.416171684-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides instructions on how to set up and run the CLIProxyAPI using Docker Compose, including cloning the repository, configuring the application, starting the service, authenticating with various providers, viewing logs, and stopping the application.",
+      "tags": [
+        "docker-compose",
+        "cli-proxy-api",
+        "setup",
+        "configuration",
+        "authentication",
+        "docker"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docker-docker-compose.md"
+    },
+    {
+      "file_path": "026-agent-client-gemini-cli.md",
+      "title": "Gemini CLI | CLIProxyAPI",
+      "url": "https://help.router-for.me/agent-client/gemini-cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:03.621596415-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure the CLIProxyAPI server for two authentication methods: Google OAuth and Gemini API key.",
+      "tags": [
+        "cliproxyapi",
+        "authentication",
+        "google-oauth",
+        "gemini-api-key",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "agent-client-gemini-cli.md"
+    },
+    {
+      "file_path": "033-hands-on-tutorial-0.md",
+      "title": "Zero: Detailed Configuration Explanation | CLIProxyAPI",
+      "url": "https://help.router-for.me/hands-on/tutorial-0",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:03.377755933-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains the various configuration items available in the CLIProxyAPI project's configuration file, providing details on their purpose and usage.",
+      "tags": [
+        "configuration",
+        "cli-proxy-api",
+        "settings",
+        "api-keys",
+        "remote-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "hands-on-tutorial-0.md"
+    },
+    {
+      "file_path": "034-hands-on-tutorial-1.md",
+      "title": "One: Project Introduction + Qwen Hands-on",
+      "url": "https://help.router-for.me/hands-on/tutorial-1",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:03.663414136-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document introduces CLIProxyAPI, an open-source AI proxy tool written in Go, and provides a hands-on tutorial for converting Qwen Code to an API Key on Windows.",
+      "tags": [
+        "ai-proxy",
+        "cli-proxy-api",
+        "qwen-code",
+        "api-key",
+        "tutorial",
+        "go"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-1.md"
+    },
+    {
+      "file_path": "031-docker-docker.md",
+      "title": "Run with Docker | CLIProxyAPI",
+      "url": "https://help.router-for.me/docker/docker",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:04.154441273-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides Docker commands to run the CLIProxyAPI, including instructions for logging in with various OAuth providers and starting the server.",
+      "tags": [
+        "docker",
+        "cli-proxy-api",
+        "oauth",
+        "login",
+        "server-start"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docker-docker.md"
+    },
+    {
+      "file_path": "038-hands-on-tutorial-5.md",
+      "title": "Five: Docker Server Deployment | CLIProxyAPI",
+      "url": "https://help.router-for.me/hands-on/tutorial-5",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:04.186162578-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to deploy the CLIProxyAPI on a server using Docker, covering environment preparation, service deployment, log viewing, OAuth authentication setup, and client usage.",
+      "tags": [
+        "docker",
+        "deployment",
+        "server",
+        "cliproxyapi",
+        "oauth",
+        "ssh-tunnel"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-5.md"
+    },
+    {
+      "file_path": "039-hands-on-tutorial-6.md",
+      "title": "Six: The Beginner's Favorite GUI",
+      "url": "https://help.router-for.me/hands-on/tutorial-6",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:05.490489135-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to enable and access the WebUI for CLIProxyAPI, a web-based management interface integrated into the main program starting from version 6.0.19.",
+      "tags": [
+        "webui",
+        "cli-proxy-api",
+        "configuration",
+        "remote-management",
+        "access"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-6.md"
+    },
+    {
+      "file_path": "035-hands-on-tutorial-2.md",
+      "title": "Two: Gemini CLI + Codex Hands-on",
+      "url": "https://help.router-for.me/hands-on/tutorial-2",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:05.582067524-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This tutorial explains how to configure and integrate Codex and Gemini CLI with the CLIProxyAPI tool. It provides step-by-step instructions for authorizing and authenticating with both services, including details on creating Google Cloud projects and enabling necessary APIs.",
+      "tags": [
+        "codex",
+        "gemini",
+        "cli",
+        "api-integration",
+        "authentication",
+        "authorization",
+        "google-cloud"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-2.md"
+    },
+    {
+      "file_path": "041-hands-on-tutorial-8.md",
+      "title": "Zero-Cost Deployment: HuggingFace (Database Storage)",
+      "url": "https://help.router-for.me/hands-on/tutorial-8",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:05.869216816-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document guides users on how to deploy CLIProxyAPI on HuggingFace by persisting configuration and authentication information using a PostgreSQL database. It details the steps for setting up a PostgreSQL instance with Railway and configuring the HuggingFace deployment with environment variables.",
+      "tags": [
+        "cli-proxy-api",
+        "huggingface",
+        "postgresql",
+        "deployment",
+        "persistence",
+        "configuration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-8.md"
+    },
+    {
+      "file_path": "036-hands-on-tutorial-3.md",
+      "title": "Three: NanoBanana Hands-on | CLIProxyAPI",
+      "url": "https://help.router-for.me/hands-on/tutorial-3",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:04.292211496-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to integrate Gemini Web's NanoBanana model with CLIProxyAPI by obtaining and configuring authentication cookies. It provides two methods for acquiring these cookies and details the verification steps required to use the NanoBanana model for image processing tasks.",
+      "tags": [
+        "gemini-web",
+        "nanobana-model",
+        "cliproxyapi",
+        "authentication",
+        "cookies",
+        "guide"
+      ],
+      "category": "guide",
+      "original_file_path": "hands-on-tutorial-3.md"
+    },
+    {
+      "file_path": "045-hands-on-tutorial-12.md",
+      "title": "AmpCode Usage Guide | CLIProxyAPI",
+      "url": "https://help.router-for.me/hands-on/tutorial-12",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:06.584906778-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure AmpCode to use custom models by integrating it with CLIProxyAPI, detailing the necessary configuration steps for both CLIProxyAPI and the AmpCode client (CLI and VSCode extension).",
+      "tags": [
+        "ampcode",
+        "cliproxyapi",
+        "custom-models",
+        "model-mapping",
+        "configuration",
+        "vscode-extension",
+        "cli-tool"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-12.md"
+    },
+    {
+      "file_path": "040-hands-on-tutorial-7.md",
+      "title": "Zero-Cost Deployment: ClawCloud (Built-in Storage)",
+      "url": "https://help.router-for.me/hands-on/tutorial-7",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:06.60362506-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This tutorial explains how to deploy the CLIProxyAPI on a container cloud platform, addressing challenges with configuration persistence and OAuth authentication. It guides users through the deployment process on ClawCloud Run, including setting up the application, managing local storage, and uploading configuration files. It also details how to use the EasyCLI tool for remote OAuth authentication.",
+      "tags": [
+        "cli-proxy-api",
+        "container-cloud",
+        "deployment",
+        "clawcloud-run",
+        "oauth-authentication",
+        "easy-cli",
+        "configuration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-7.md"
+    },
+    {
+      "file_path": "037-hands-on-tutorial-4.md",
+      "title": "Four: Relay Forwarding Integration | CLIProxyAPI",
+      "url": "https://help.router-for.me/hands-on/tutorial-4",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:05.347006639-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure CLIProxyAPI to integrate various AI relay services, including Claude, Codex, and OpenAI-compatible providers, by modifying the configuration file with their respective API keys and base URLs.",
+      "tags": [
+        "configuration",
+        "cli-proxy-api",
+        "ai-relay-services",
+        "api-keys",
+        "base-url",
+        "openai-compatibility"
+      ],
+      "category": "configuration",
+      "original_file_path": "hands-on-tutorial-4.md"
+    },
+    {
+      "file_path": "042-hands-on-tutorial-9.md",
+      "title": "Zero-Cost Deployment: Railway (Object Storage)",
+      "url": "https://help.router-for.me/hands-on/tutorial-9",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:05.874135804-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document guides users on deploying the CLIProxyAPI program using Railway and a ClawCloud S3 bucket. It covers creating an S3 bucket, configuring environment variables, and deploying the application either manually or via a Railway template.",
+      "tags": [
+        "deployment",
+        "railway",
+        "clawcloud",
+        "s3-bucket",
+        "docker",
+        "cli-proxy-api"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-9.md"
+    },
+    {
+      "file_path": "043-hands-on-tutorial-10.md",
+      "title": "Zero-Cost Deployment: Render (Git Storage)",
+      "url": "https://help.router-for.me/hands-on/tutorial-10",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:07.748943682-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a step-by-step guide on how to deploy the CLIProxyAPI on container services that lack persistent storage, such as Render's free plan, by utilizing a private GitHub repository for configuration and authentication files.",
+      "tags": [
+        "cli-proxy-api",
+        "render",
+        "persistent-storage",
+        "github-integration",
+        "deployment-guide",
+        "free-tier"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-10.md"
+    },
+    {
+      "file_path": "049-cn-configuration-basic.md",
+      "title": "\u57fa\u7840\u914d\u7f6e | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/basic",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:07.903335055-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document details the configuration options for the CLI Proxy API, including server binding, TLS settings, management API configurations, API keys for various providers (Gemini, Codex, Claude, OpenAI-compatible, Vertex), and advanced settings like proxy URLs, retry mechanisms, and model routing strategies.",
+      "tags": [
+        "configuration",
+        "api-keys",
+        "tls",
+        "proxy",
+        "model-routing",
+        "gemini",
+        "codex",
+        "claude",
+        "openai",
+        "vertex",
+        "amp"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-basic.md"
+    },
+    {
+      "file_path": "050-cn-configuration-options.md",
+      "title": "\u914d\u7f6e\u9009\u9879 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/options",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:07.893443528-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document details the configuration options for a CLI proxy API, covering basic settings, API management, quotas, provider credentials (Gemini, Codex, Claude, OpenAI-compatible, Vertex), Amp integration, OAuth model mappings, and payload rules.",
+      "tags": [
+        "configuration",
+        "cli-proxy-api",
+        "api-settings",
+        "provider-credentials",
+        "model-mapping"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-options.md"
+    },
+    {
+      "file_path": "044-hands-on-tutorial-11.md",
+      "title": "Zero-Cost Deployment (AIStudio Reverse Proxy)",
+      "url": "https://help.router-for.me/hands-on/tutorial-11",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:08.177257708-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to deploy AIStudioBuild as a WebSocket proxy for CLIProxyAPI, using Docker on HuggingFace or a personal server to overcome memory limitations and browser-based deployment issues.",
+      "tags": [
+        "aistudio",
+        "cli-proxy-api",
+        "websocket",
+        "docker",
+        "huggingface",
+        "deployment"
+      ],
+      "category": "tutorial",
+      "original_file_path": "hands-on-tutorial-11.md"
+    },
+    {
+      "file_path": "051-cn-configuration-auth-dir.md",
+      "title": "\u51ed\u8bc1\u76ee\u5f55 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/auth-dir",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:08.518085634-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains the `auth-dir` parameter, which specifies the location where Google account authentication tokens are stored in JSON files after running a login command.",
+      "tags": [
+        "authentication",
+        "credentials",
+        "auth-dir",
+        "token-storage",
+        "google-accounts"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-auth-dir.md"
+    },
+    {
+      "file_path": "054-cn-configuration-storage-git.md",
+      "title": "Git \u652f\u6301\u7684\u914d\u7f6e\u4e0e\u4ee4\u724c\u5b58\u50a8 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/storage/git",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:09.326146992-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure an application to use a Git repository as a backend for storing configuration files and authentication tokens, enabling centralized management and version control.",
+      "tags": [
+        "git-store",
+        "configuration",
+        "authentication",
+        "environment-variables",
+        "version-control"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-storage-git.md"
+    },
+    {
+      "file_path": "055-cn-configuration-storage-s3.md",
+      "title": "\u5bf9\u8c61\u5b58\u50a8\u9a71\u52a8\u7684\u914d\u7f6e\u4e0e\u4ee4\u724c\u5b58\u50a8 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/storage/s3",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:09.566654234-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure object storage, specifically S3-compatible storage, for hosting configuration and authentication data. It details the necessary environment variables and outlines the workflow for initialization, local mirroring, and bidirectional synchronization between local storage and the object store.",
+      "tags": [
+        "object-storage",
+        "s3-compatible",
+        "configuration",
+        "authentication",
+        "environment-variables",
+        "workflow"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-storage-s3.md"
+    },
+    {
+      "file_path": "056-cn-configuration-storage-pgsql.md",
+      "title": "PostgreSQL \u652f\u6301\u7684\u914d\u7f6e\u4e0e\u4ee4\u724c\u5b58\u50a8 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/storage/pgsql",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:09.628572069-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use PostgreSQL to store configuration and tokens in a hosted environment, detailing environment variables, the underlying mechanism, and the initialization and synchronization processes.",
+      "tags": [
+        "postgresql",
+        "configuration-storage",
+        "token-storage",
+        "hosted-environment",
+        "environment-variables",
+        "data-synchronization"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-storage-pgsql.md"
+    },
+    {
+      "file_path": "052-cn-configuration-hot-reloading.md",
+      "title": "\u70ed\u66f4\u65b0 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/hot-reloading",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:09.953570164-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how the service automatically reloads client configurations and tokens without requiring a restart. It monitors changes in configuration files and the auth-dir directory for hot updates.",
+      "tags": [
+        "hot-update",
+        "configuration-reload",
+        "client-tokens",
+        "service-restart",
+        "auth-dir"
+      ],
+      "category": "concept",
+      "original_file_path": "cn-configuration-hot-reloading.md"
+    },
+    {
+      "file_path": "057-cn-configuration-provider-gemini-cli.md",
+      "title": "Gemini CLI (Gemini OAuth \u767b\u5f55):",
+      "url": "https://help.router-for.me/cn/configuration/provider/gemini-cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:10.586907822-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to log in to the Gemini Code CLI using the `--login` command, with an option to specify a project ID and disable automatic browser opening.",
+      "tags": [
+        "cli",
+        "login",
+        "authentication",
+        "project-id",
+        "oauth"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-configuration-provider-gemini-cli.md"
+    },
+    {
+      "file_path": "058-cn-configuration-provider-claude-code.md",
+      "title": "Claude Code (Anthropic OAuth \u767b\u5f55):",
+      "url": "https://help.router-for.me/cn/configuration/provider/claude-code",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:10.6053241-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the `cli-proxy-api` command with the `--claude-login` option for authentication, and provides a flag to disable automatic browser opening.",
+      "tags": [
+        "cli-proxy-api",
+        "claude-login",
+        "authentication",
+        "oauth",
+        "command-line"
+      ],
+      "category": "reference",
+      "original_file_path": "cn-configuration-provider-claude-code.md"
+    },
+    {
+      "file_path": "062-cn-configuration-provider-antigravity.md",
+      "title": "\u53cd\u91cd\u529b (\u53cd\u91cd\u529b OAuth \u767b\u5f55): | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/antigravity",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:11.505666386-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the cli-proxy-api command with the --antigravity-login flag to initiate an OAuth login process, including how to specify the local OAuth callback port and prevent automatic browser opening.",
+      "tags": [
+        "cli-proxy-api",
+        "oauth-login",
+        "command-line-interface",
+        "local-port",
+        "browser-option"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-configuration-provider-antigravity.md"
+    },
+    {
+      "file_path": "063-cn-configuration-provider-ai-studio.md",
+      "title": "AI Studio \u4f7f\u7528\u8bf4\u660e | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/ai-studio",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:11.365188716-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure the AI Studio application to connect to the CLIProxyAPI service, including settings for remote connections and authentication.",
+      "tags": [
+        "aistudio",
+        "cliproxyapi",
+        "configuration",
+        "websocket",
+        "authentication",
+        "remote-connection"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-provider-ai-studio.md"
+    },
+    {
+      "file_path": "060-cn-configuration-provider-qwen-code.md",
+      "title": "Qwen (Qwen Chat OAuth \u767b\u5f55):",
+      "url": "https://help.router-for.me/cn/configuration/provider/qwen-code",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:11.692951909-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the Qwen Chat OAuth device login flow via the CLI proxy API, including an option to prevent automatic browser opening.",
+      "tags": [
+        "cli-proxy-api",
+        "qwen-chat",
+        "oauth",
+        "device-login",
+        "bash"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-configuration-provider-qwen-code.md"
+    },
+    {
+      "file_path": "059-cn-configuration-provider-codex.md",
+      "title": "Codex (OpenAI OAuth \u767b\u5f55): | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/codex",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:11.816063484-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the `cli-proxy-api` command with the `--codex-login` option, including how to prevent the browser from opening automatically and the local OAuth callback port.",
+      "tags": [
+        "cli-proxy-api",
+        "codex-login",
+        "oauth",
+        "command-line"
+      ],
+      "category": "reference",
+      "original_file_path": "cn-configuration-provider-codex.md"
+    },
+    {
+      "file_path": "066-cn-configuration-provider-codex-compatibility.md",
+      "title": "Codex \u517c\u5bb9\u4f9b\u5e94\u5546 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/codex-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:12.069688845-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure an upstream Codex-compatible provider using the `codex-api-key` setting, including the API key, base URL, and an optional proxy URL.",
+      "tags": [
+        "codex",
+        "api-key",
+        "configuration",
+        "provider",
+        "upstream",
+        "proxy"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-provider-codex-compatibility.md"
+    },
+    {
+      "file_path": "067-cn-configuration-provider-openai-compatibility.md",
+      "title": "OpenAI \u517c\u5bb9\u4f9b\u5e94\u5546 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/openai-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:12.267769569-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure an upstream OpenAI-compatible provider using the `openai-compatibility` setting, including details on specifying provider names, base URLs, API keys with optional proxy configurations, and model mappings.",
+      "tags": [
+        "openai-compatibility",
+        "upstream-provider",
+        "configuration",
+        "api-key",
+        "proxy-settings",
+        "model-mapping"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-provider-openai-compatibility.md"
+    },
+    {
+      "file_path": "061-cn-configuration-provider-iflow.md",
+      "title": "iFlow (iFlow OAuth \u767b\u5f55): | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/iflow",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:12.492598648-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use the `cli-proxy-api` command with the `--iflow-login` option for authentication, including how to prevent the browser from opening automatically and the default callback port.",
+      "tags": [
+        "cli-proxy-api",
+        "authentication",
+        "login",
+        "oauth",
+        "callback-port",
+        "bash"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-configuration-provider-iflow.md"
+    },
+    {
+      "file_path": "069-cn-management-webui.md",
+      "title": "Web UI | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/management/webui",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:12.660859297-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure and use a custom web UI for the CLI Proxy API Management Center, including disabling the default UI, specifying a custom UI from a GitHub repository, and the specifications for releasing a custom UI on GitHub.",
+      "tags": [
+        "cli-proxy",
+        "api-management",
+        "web-ui",
+        "customization",
+        "github-releases",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-management-webui.md"
+    },
+    {
+      "file_path": "065-cn-configuration-provider-claude-code-compatibility.md",
+      "title": "Claude Code \u517c\u5bb9\u4f9b\u5e94\u5546 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/claude-code-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:13.15610486-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure upstream Claude Code compatible providers using the `claude-api-key` setting, detailing the parameters for API keys, base URLs, proxy URLs, and model mappings.",
+      "tags": [
+        "claude-api-key",
+        "configuration",
+        "api-key",
+        "base-url",
+        "proxy-url",
+        "model-mapping"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-provider-claude-code-compatibility.md"
+    },
+    {
+      "file_path": "064-cn-configuration-provider-gemini-compatibility.md",
+      "title": "Gemini \u517c\u5bb9\u4f9b\u5e94\u5546 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/provider/gemini-compatibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:13.59459103-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure upstream Gemini-compatible providers using the `gemini-api-key` setting, detailing required and optional parameters like api-key, base-url, proxy-url, and headers.",
+      "tags": [
+        "gemini-api-key",
+        "configuration",
+        "api-key",
+        "base-url",
+        "proxy-url",
+        "headers"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-provider-gemini-compatibility.md"
+    },
+    {
+      "file_path": "071-cn-agent-client-gemini-cli.md",
+      "title": "Gemini CLI | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/agent-client/gemini-cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:13.855519023-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure and start the CLIProxyAPI server, detailing two authentication methods: Google OAuth and Gemini API Key.",
+      "tags": [
+        "cliproxyapi",
+        "authentication",
+        "google-oauth",
+        "gemini-api-key",
+        "configuration",
+        "environment-variables"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-agent-client-gemini-cli.md"
+    },
+    {
+      "file_path": "072-cn-agent-client-claude-code.md",
+      "title": "Claude Code | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/agent-client/claude-code",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:14.013777575-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to configure system environment variables to run the CLIProxyAPI server with different AI models, including Gemini, GPT, Claude, Qwen, and iFlow.",
+      "tags": [
+        "cli-proxy-api",
+        "environment-variables",
+        "configuration",
+        "ai-models",
+        "gemini",
+        "gpt",
+        "claude",
+        "qwen"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-agent-client-claude-code.md"
+    },
+    {
+      "file_path": "070-cn-management-gui.md",
+      "title": "\u684c\u9762\u5ba2\u6237\u7aef | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/management/gui",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:14.207875688-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document introduces EasyCLI, a cross-platform desktop client for CLIProxyAPI.",
+      "tags": [
+        "desktop-client",
+        "cli",
+        "proxy",
+        "api",
+        "cross-platform"
+      ],
+      "category": "reference",
+      "original_file_path": "cn-management-gui.md"
+    },
+    {
+      "file_path": "053-cn-configuration-thinking.md",
+      "title": "\u901a\u8fc7\u6a21\u578b\u540d\u62ec\u53f7\u8bbe\u7f6e\u601d\u8003\u91cf | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/configuration/thinking",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:14.40906402-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to control the thinking budget or reasoning level for models by appending values in parentheses to the model name. It details available values, application rules for different providers, and provides usage examples.",
+      "tags": [
+        "model-configuration",
+        "thinking-budget",
+        "reasoning-level",
+        "api-parameters",
+        "llm-control"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-configuration-thinking.md"
+    },
+    {
+      "file_path": "068-cn-management-api.md",
+      "title": "\u7ba1\u7406 API | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/management/api",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:14.523924232-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a JSON configuration example for setting up various API keys, proxy URLs, and model exclusions for services like Gemini, Claude, Codex, and OpenAI compatibility.",
+      "tags": [
+        "api-keys",
+        "configuration",
+        "json",
+        "proxy",
+        "models",
+        "gemini",
+        "claude",
+        "openai"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-management-api.md"
+    },
+    {
+      "file_path": "073-cn-agent-client-codex.md",
+      "title": "Codex | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/agent-client/codex",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:14.551821447-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to start the CLIProxyAPI server and configure the `config.toml` and `auth.json` files for its operation.",
+      "tags": [
+        "cliproxyapi",
+        "configuration",
+        "server-setup",
+        "toml",
+        "json",
+        "api"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-agent-client-codex.md"
+    },
+    {
+      "file_path": "077-cn-docker-docker-compose.md",
+      "title": "\u4f7f\u7528 Docker Compose \u8fd0\u884c | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/docker/docker-compose",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:14.923191514-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to use Docker Compose to set up and run the CLIProxyAPI, including cloning the repository, preparing configuration, starting the service, logging in with different AI models, and viewing logs.",
+      "tags": [
+        "docker-compose",
+        "cli-proxy-api",
+        "deployment",
+        "configuration",
+        "ai-models",
+        "containerization"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-docker-docker-compose.md"
+    },
+    {
+      "file_path": "076-cn-docker-docker.md",
+      "title": "\u4f7f\u7528 Docker \u8fd0\u884c | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/docker/docker",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:15.177233775-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides Docker commands to run a CLI proxy API, including instructions for logging in with various OAuth providers (Gemini, OpenAI, Claude, Qwen, iFlow, Antigravity) and starting the server.",
+      "tags": [
+        "docker",
+        "cli-proxy-api",
+        "oauth",
+        "gemini",
+        "openai",
+        "claude",
+        "qwen",
+        "iflow",
+        "antigravity",
+        "server"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-docker-docker.md"
+    },
+    {
+      "file_path": "074-cn-agent-client-droid.md",
+      "title": "Factory Droid | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/agent-client/droid",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:15.706529849-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document defines custom models for AI services, including model names, base URLs, API keys, and providers like OpenAI and Anthropic.",
+      "tags": [
+        "custom-models",
+        "ai-configuration",
+        "openai",
+        "anthropic",
+        "api-settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-agent-client-droid.md"
+    },
+    {
+      "file_path": "081-cn-hands-on-tutorial-3.md",
+      "title": "\u53c1\uff1aNanoBanana\u5b9e\u6218 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-3",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:16.001234125-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to integrate the Gemini Web NanoBanana model into CLIProxyAPI by obtaining and using authentication cookies. It provides two methods for acquiring these cookies and outlines the verification steps and important considerations for successful integration.",
+      "tags": [
+        "gemini-web",
+        "nanobanana",
+        "cliproxyapi",
+        "authentication",
+        "cookie-management",
+        "image-generation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-3.md"
+    },
+    {
+      "file_path": "079-cn-hands-on-tutorial-1.md",
+      "title": "\u58f9\uff1a\u9879\u76ee\u4ecb\u7ecd+Qwen\u5b9e\u6218 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-1",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:16.24270441-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document introduces CLIProxyAPI, an open-source AI proxy tool written in Go, that provides an OpenAI/Gemini/Claude/Codex compatible API endpoint for various AI models. It explains the tool's features, benefits, and provides a tutorial on how to convert Qwen Code to an API Key.",
+      "tags": [
+        "ai-proxy",
+        "cli-proxy-api",
+        "gemini",
+        "qwen-code",
+        "api-key",
+        "load-balancing"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-1.md"
+    },
+    {
+      "file_path": "080-cn-hands-on-tutorial-2.md",
+      "title": "\u8d30\uff1aGemini CLI+Codex\u5b9e\u6218 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-2",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:16.405892999-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This tutorial explains how to integrate Codex and Gemini CLI with CLIProxyAPI, building upon a previous setup for Qwen Code. It provides step-by-step instructions for configuring authentication for both models, including setting up a Google Cloud project for Gemini.",
+      "tags": [
+        "codex",
+        "gemini",
+        "cli-proxy-api",
+        "oauth",
+        "authentication",
+        "tutorial"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-2.md"
+    },
+    {
+      "file_path": "075-cn-agent-client-amp-cli.md",
+      "title": "Amp CLI | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/agent-client/amp-cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:16.47298767-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This guide explains how to integrate the CLIProxyAPI with the Amp CLI and Amp IDE extensions, allowing you to use existing Google, ChatGPT, or Claude subscriptions via OAuth within the Amp CLI.",
+      "tags": [
+        "amr-cli",
+        "cli-proxy-api",
+        "oauth",
+        "configuration",
+        "api-integration",
+        "llm-subscriptions"
+      ],
+      "category": "guide",
+      "original_file_path": "cn-agent-client-amp-cli.md"
+    },
+    {
+      "file_path": "078-cn-hands-on-tutorial-0.md",
+      "title": "\u96f6\uff1a\u914d\u7f6e\u8be6\u7ec6\u89e3\u8bf4 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-0",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:16.710488651-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a detailed configuration guide for the CLIProxyAPI, explaining various settings related to ports, remote management, authentication, logging, proxies, retries, model behavior, and API key management for different AI models.",
+      "tags": [
+        "configuration",
+        "cli-proxy-api",
+        "api-keys",
+        "remote-management",
+        "logging",
+        "proxy-settings",
+        "ai-models"
+      ],
+      "category": "configuration",
+      "original_file_path": "cn-hands-on-tutorial-0.md"
+    },
+    {
+      "file_path": "083-cn-hands-on-tutorial-5.md",
+      "title": "\u4f0d\uff1aDocker\u670d\u52a1\u5668\u90e8\u7f72 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-5",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:17.668517536-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to deploy the CLIProxyAPI on a server using Docker, including environment preparation, service deployment, log viewing, and OAuth authentication setup via SSH tunneling.",
+      "tags": [
+        "docker",
+        "deployment",
+        "server",
+        "cli-proxy-api",
+        "oauth",
+        "ssh-tunnel"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-5.md"
+    },
+    {
+      "file_path": "082-cn-hands-on-tutorial-4.md",
+      "title": "\u8086\uff1a\u4e2d\u8f6c\u8f6c\u53d1\u63a5\u5165\u7bc7 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-4",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:17.908568135-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This tutorial explains how to integrate various AI proxy services, including Claude and Codex, into the CLIProxyAPI by modifying its configuration file. It also covers how to configure services that are compatible with the OpenAI API.",
+      "tags": [
+        "cli-proxy-api",
+        "configuration",
+        "ai-proxy",
+        "claude",
+        "codex",
+        "openai-compatibility"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-4.md"
+    },
+    {
+      "file_path": "084-cn-hands-on-tutorial-6.md",
+      "title": "\u9646\uff1a\u65b0\u4eba\u6700\u7231GUI | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-6",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:18.26750625-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to enable and access the WebUI for CLIProxyAPI, which simplifies configuration and management. It details the necessary configuration changes and how to access the interface via a web browser.",
+      "tags": [
+        "cli-proxy-api",
+        "webui",
+        "configuration",
+        "remote-management",
+        "access"
+      ],
+      "category": "guide",
+      "original_file_path": "cn-hands-on-tutorial-6.md"
+    },
+    {
+      "file_path": "085-cn-hands-on-tutorial-7.md",
+      "title": "\u96f6\u6210\u672c\u90e8\u7f72\uff1aClawCloud (\u81ea\u5e26\u5b58\u50a8) | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-7",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:18.357233202-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a step-by-step tutorial on deploying the CLIProxyAPI on a container cloud platform, addressing challenges like configuration persistence and OAuth authentication. It also details how to use EasyCLI for remote OAuth authentication and verification.",
+      "tags": [
+        "container-cloud",
+        "deployment-tutorial",
+        "cli-proxy-api",
+        "oauth-authentication",
+        "easy-cli",
+        "configuration-persistence"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-7.md"
+    },
+    {
+      "file_path": "090-cn-hands-on-tutorial-12.md",
+      "title": "AmpCode\u98df\u7528\u6307\u5357 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-12",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:18.607471941-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document explains how to integrate AmpCode with CLIProxyAPI to use custom models within AmpCode. It covers configuration steps for both CLIProxyAPI and AmpCode clients (CLI and VSCode plugin), along with verification methods.",
+      "tags": [
+        "ampcode",
+        "cliproxyapi",
+        "custom-models",
+        "model-mapping",
+        "configuration",
+        "api-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-12.md"
+    },
+    {
+      "file_path": "086-cn-hands-on-tutorial-8.md",
+      "title": "\u96f6\u6210\u672c\u90e8\u7f72\uff1aHuggingFace (\u6570\u636e\u5e93\u5b58\u50a8) | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-8",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:19.050015998-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This tutorial explains how to persist configuration and authentication information for CLIProxyAPI using a PostgreSQL database and details the deployment process on HuggingFace.",
+      "tags": [
+        "postgresql",
+        "huggingface",
+        "deployment",
+        "cli-proxy-api",
+        "configuration",
+        "authentication"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-8.md"
+    },
+    {
+      "file_path": "088-cn-hands-on-tutorial-10.md",
+      "title": "\u96f6\u6210\u672c\u90e8\u7f72\uff1aRender (Git\u5b58\u50a8) | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-10",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:19.541334098-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a step-by-step guide on how to deploy the CLIProxyAPI on container services like Render's free plan, which lack persistent storage, by leveraging GitHub for persistent storage of configuration and authentication files.",
+      "tags": [
+        "cli-proxy-api",
+        "render",
+        "github",
+        "persistent-storage",
+        "deployment",
+        "guide",
+        "configuration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-10.md"
+    },
+    {
+      "file_path": "089-cn-hands-on-tutorial-11.md",
+      "title": "\u96f6\u6210\u672c\u90e8\u7f72AIStudio\u53cd\u4ee3 | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-11",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:20.001143076-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This tutorial explains how to deploy AIStudioBuild using Docker on HuggingFace or a self-hosted server to enable WebSocket connections with CLIProxyAPI, overcoming memory limitations of running headless browsers.",
+      "tags": [
+        "aistudiobuild",
+        "cli-proxy-api",
+        "websocket",
+        "docker",
+        "huggingface",
+        "deployment",
+        "headless-browser"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-11.md"
+    },
+    {
+      "file_path": "087-cn-hands-on-tutorial-9.md",
+      "title": "\u96f6\u6210\u672c\u90e8\u7f72\uff1aRailway (\u5bf9\u8c61\u5b58\u50a8) | CLIProxyAPI",
+      "url": "https://help.router-for.me/cn/hands-on/tutorial-9",
+      "source": "crawler",
+      "fetched_at": "2026-01-14T22:10:20.314949368-03:00",
+      "description": "Wrap Gemini CLI, ChatGPT Codex, Claude Code, Qwen Code, iFlow as an OpenAI/Gemini/Claude/Codex compatible API service, allowing you to enjoy the free Gemini 2.5 Pro, GPT 5, Claude, Qwen model through API",
+      "summary": "This document provides a tutorial on deploying the CLIProxyAPI program using Railway containers and ClawCloud S3 storage. It guides users through creating a ClawCloud bucket, configuring environment variables, and deploying the application on Railway, with options for both manual and template-based deployments.",
+      "tags": [
+        "railway",
+        "clawcloud",
+        "s3-storage",
+        "docker",
+        "deployment",
+        "cli-proxy-api"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cn-hands-on-tutorial-9.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-15T01:17:43.852141Z",
+    "total_files": 90,
+    "categories": [
+      "Introduction & Overview",
+      "Core Configuration",
+      "Provider Configuration",
+      "Compatibility Providers",
+      "Management Interfaces",
+      "Agent Client Integration",
+      "Docker Deployment",
+      "Hands-on Tutorials",
+      "Chinese Documentation"
+    ]
+  }
+}

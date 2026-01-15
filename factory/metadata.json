@@ -1,0 +1,1902 @@
+{
+  "generated_at": "2026-01-13T19:04:39.312427409-03:00",
+  "source_url": "https://docs.factory.ai/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 98,
+  "documents": [
+    {
+      "file_path": "142-api-reference-machine-templates-update-a-machine-template.md",
+      "title": "Update a machine template - Factory Documentation",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/update-a-machine-template",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:17.842969424-03:00",
+      "description": "Updates an existing machine template configuration.",
+      "summary": "Documentation for the API endpoint used to update machine templates, including authentication, body parameters, and response fields.",
+      "tags": [
+        "api",
+        "machine-templates",
+        "http-request",
+        "update-operation",
+        "configuration"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-update-a-machine-template.md"
+    },
+    {
+      "file_path": "141-api-reference-machine-templates-create-a-machine-template.md",
+      "title": "Create a machine template - Factory Documentation",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/create-a-machine-template",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:19.166728185-03:00",
+      "description": "Creates a new machine template with the specified repository and configuration.",
+      "summary": "Documentation for the API endpoint used to create a new machine template, specifying request body parameters and response structure.",
+      "tags": [
+        "api",
+        "factory-api",
+        "machine-templates",
+        "api-reference",
+        "environment-variables",
+        "authentication"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-create-a-machine-template.md"
+    },
+    {
+      "file_path": "140-api-reference-machine-templates-get-a-machine-template.md",
+      "title": "Get a machine template - Factory Documentation",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/get-a-machine-template",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:19.331828892-03:00",
+      "description": "Returns details of a specific machine template.",
+      "summary": "Defines the JSON schema for a template object, detailing properties for identification, repository configuration, build status, environment variables, and setup scripts.",
+      "tags": [
+        "json-schema",
+        "template-configuration",
+        "environment-variables",
+        "build-status",
+        "data-structure"
+      ],
+      "category": "reference",
+      "original_file_path": "api-reference-machine-templates-get-a-machine-template.md"
+    },
+    {
+      "file_path": "156-changelog-cli-updates.md",
+      "title": "CLI Updates - Factory Documentation",
+      "url": "https://docs.factory.ai/changelog/cli-updates",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:19.311348737-03:00",
+      "description": "Recent features and improvements to Factory CLI",
+      "summary": "A detailed changelog documenting new features, improvements, and bug fixes across multiple versions of the Droid CLI and application.",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "cli",
+        "version-history",
+        "update-log"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog-cli-updates.md"
+    },
+    {
+      "file_path": "143-api-reference-machine-templates-delete-a-machine-template.md",
+      "title": "Delete a machine template - Factory Documentation",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/delete-a-machine-template",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:19.143983639-03:00",
+      "description": "Permanently deletes a machine template and all associated resources.",
+      "summary": "This document outlines the API endpoint and request parameters required to delete a specific machine template using the Factory AI service.",
+      "tags": [
+        "api",
+        "delete-request",
+        "machine-templates",
+        "factory-ai",
+        "rest-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-delete-a-machine-template.md"
+    },
+    {
+      "file_path": "139-api-reference-machine-templates-list-machine-templates.md",
+      "title": "List machine templates - Factory Documentation",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/list-machine-templates",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:20.749625058-03:00",
+      "description": "Returns a paginated list of machine templates for the authenticated organization.",
+      "summary": "This document outlines the JSON schema for listing templates, including configuration details, build status, environment variables, and pagination metadata.",
+      "tags": [
+        "json-schema",
+        "template-management",
+        "pagination",
+        "environment-variables",
+        "build-status"
+      ],
+      "category": "reference",
+      "original_file_path": "api-reference-machine-templates-list-machine-templates.md"
+    },
+    {
+      "file_path": "049-enterprise-models-llm-gateways-and-integrations.md",
+      "title": "Models, LLM Gateways & Integrations - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/models-llm-gateways-and-integrations",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:22.985404645-03:00",
+      "description": "How Droids connect to your models, LLM gateways, MCP servers, droids, commands, and existing engineering tools.",
+      "summary": "This document explains the hierarchical configuration and security controls within the Factory platform, detailing how administrators manage model access, LLM gateways, MCP servers, and tool integrations across organization, project, and user levels.",
+      "tags": [
+        "model-management",
+        "llm-gateway",
+        "mcp-servers",
+        "byok",
+        "hierarchical-policy",
+        "droids",
+        "enterprise-security"
+      ],
+      "category": "configuration",
+      "original_file_path": "enterprise-models-llm-gateways-and-integrations.md"
+    },
+    {
+      "file_path": "060-cli-byok-ollama.md",
+      "title": "Ollama - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/ollama",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:23.37386809-03:00",
+      "description": "Run models locally on your hardware or use Ollama Cloud",
+      "summary": "Instructions for integrating local and cloud-hosted Ollama models into the Factory application, including configuration settings, hardware requirements, and troubleshooting steps.",
+      "tags": [
+        "ollama",
+        "local-models",
+        "custom-models",
+        "ai-integration",
+        "hardware-requirements"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-ollama.md"
+    },
+    {
+      "file_path": "080-cli-droid-exec-overview.md",
+      "title": "Droid Exec (Headless) - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/droid-exec/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:23.352777578-03:00",
+      "description": "Non-interactive execution mode for CI/CD pipelines and automation scripts.",
+      "summary": "Technical reference guide for Droid Exec, a headless CLI tool for automating tasks in CI/CD pipelines and scripts, detailing autonomy levels, execution modes, and security configurations.",
+      "tags": [
+        "cli",
+        "automation",
+        "cicd",
+        "security",
+        "headless-execution",
+        "workflow-automation"
+      ],
+      "category": "reference",
+      "original_file_path": "cli-droid-exec-overview.md"
+    },
+    {
+      "file_path": "041-cli-configuration-settings.md",
+      "title": "Settings - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/settings",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:23.222282588-03:00",
+      "description": "Configure how droid behaves and integrates with your workflow.",
+      "summary": "This document explains how to configure and customize the 'droid' CLI tool, detailing the location of the settings file, available parameters for models, autonomy, and UI behavior, and how to manage command allowlists and denylists.",
+      "tags": [
+        "cli-configuration",
+        "settings",
+        "model-selection",
+        "command-safety",
+        "user-preferences",
+        "ai-tools"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-configuration-settings.md"
+    },
+    {
+      "file_path": "051-cli-byok-overview.md",
+      "title": "Bring Your Own Key (BYOK) - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:23.31098483-03:00",
+      "description": "Connect your own API keys, use open source models, or run local models",
+      "summary": "Explains how to configure and use custom AI models within the Factory CLI by modifying the settings JSON file to define providers, API keys, and parameters.",
+      "tags": [
+        "factory-cli",
+        "custom-models",
+        "byok",
+        "api-configuration",
+        "model-providers"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-overview.md"
+    },
+    {
+      "file_path": "056-cli-byok-deepinfra.md",
+      "title": "DeepInfra - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/deepinfra",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:26.904723183-03:00",
+      "description": "Cost-effective inference for a wide variety of open-source models",
+      "summary": "This document explains how to integrate and configure DeepInfra as a provider for open-source model inference by adding custom model entries to the application settings.",
+      "tags": [
+        "deepinfra",
+        "custom-models",
+        "configuration",
+        "api-integration",
+        "open-source-models"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-deepinfra.md"
+    },
+    {
+      "file_path": "059-cli-byok-openrouter.md",
+      "title": "OpenRouter - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/openrouter",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:26.992501625-03:00",
+      "description": "Access models from multiple providers through a unified interface",
+      "summary": "This document explains how to configure and connect to the OpenRouter API to access various language models through the Factory interface.",
+      "tags": [
+        "openrouter",
+        "api-configuration",
+        "custom-models",
+        "model-provider",
+        "api-key"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-openrouter.md"
+    },
+    {
+      "file_path": "052-cli-byok-openai-anthropic.md",
+      "title": "OpenAI & Anthropic - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/openai-anthropic",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:27.393530143-03:00",
+      "description": "Use your own API keys for official OpenAI and Anthropic models",
+      "summary": "Instructions for configuring personal API keys to use official OpenAI and Anthropic models within the Factory application for cost tracking and billing transparency.",
+      "tags": [
+        "api-keys",
+        "custom-models",
+        "openai",
+        "anthropic",
+        "configuration",
+        "settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-openai-anthropic.md"
+    },
+    {
+      "file_path": "054-cli-byok-huggingface.md",
+      "title": "Hugging Face - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/huggingface",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:27.166436655-03:00",
+      "description": "Connect to models hosted on Hugging Face's Inference Providers",
+      "summary": "This document explains how to configure and integrate Hugging Face Inference Providers to access a wide variety of hosted large language models.",
+      "tags": [
+        "hugging-face",
+        "llm-integration",
+        "model-configuration",
+        "api-keys",
+        "inference-providers"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-huggingface.md"
+    },
+    {
+      "file_path": "053-cli-byok-google-gemini.md",
+      "title": "Google Gemini - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/google-gemini",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:27.357015529-03:00",
+      "description": "Access Google's Gemini models using your Gemini AI API key",
+      "summary": "Instructions for configuring and connecting to Google's Gemini AI models within the Factory application by adding specific model definitions to the settings file.",
+      "tags": [
+        "google-gemini",
+        "ai-models",
+        "factory-config",
+        "api-setup",
+        "multimodal-ai",
+        "settings-json"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-google-gemini.md"
+    },
+    {
+      "file_path": "057-cli-byok-fireworks.ai.md",
+      "title": "Fireworks AI - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/fireworks",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:29.491459757-03:00",
+      "description": "High-performance inference for open-source models with optimized serving",
+      "summary": "Instructions for integrating Fireworks AI's high-performance inference API into the Factory tool, including how to manually configure custom models via settings.json.",
+      "tags": [
+        "fireworks-ai",
+        "api-integration",
+        "model-configuration",
+        "inference-api",
+        "custom-models",
+        "json-config"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-fireworks.md"
+    },
+    {
+      "file_path": "055-cli-byok-groq.md",
+      "title": "Groq - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/groq",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:30.825518698-03:00",
+      "description": "Ultra-fast inference with Groq's LPU\u2122 Inference Engine",
+      "summary": "This document explains how to configure and integrate Groq's ultra-fast LPU inference engine as a custom model provider within the Factory application.",
+      "tags": [
+        "groq",
+        "model-configuration",
+        "api-integration",
+        "inference-engine",
+        "lpu",
+        "custom-models"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-groq.md"
+    },
+    {
+      "file_path": "058-cli-byok-baseten.md",
+      "title": "Baseten - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/byok/baseten",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:31.044956165-03:00",
+      "description": "Deploy and serve custom models with enterprise-grade infrastructure",
+      "summary": "This document explains how to configure and deploy custom machine learning models using Baseten's infrastructure within the Factory settings.",
+      "tags": [
+        "baseten",
+        "model-deployment",
+        "custom-models",
+        "api-configuration",
+        "ml-serving"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-baseten.md"
+    },
+    {
+      "file_path": "091-guides-power-user-setup-checklist.md",
+      "title": "Power User Setup Checklist - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/power-user/setup-checklist",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:31.394664749-03:00",
+      "description": "Complete checklist to configure Droid for maximum effectiveness with IDE integration, memory, skills, and automation.",
+      "summary": "A structured checklist for transforming a basic Droid installation into a fully optimized development environment, covering setup, memory management, rules, automation, and performance tuning.",
+      "tags": [
+        "droid-setup",
+        "development-environment",
+        "optimization",
+        "checklist",
+        "automation",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-setup-checklist.md"
+    },
+    {
+      "file_path": "095-guides-power-user-token-efficiency.md",
+      "title": "Token Efficiency Strategies - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/power-user/token-efficiency",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:31.483495465-03:00",
+      "description": "Reduce token usage while maintaining quality through project setup, model selection, and workflow optimization.",
+      "summary": "This guide explains how to optimize token usage and reduce costs when working with AI coding agents by improving project configuration, selecting appropriate models, and implementing efficient workflow patterns.",
+      "tags": [
+        "token-optimization",
+        "ai-agents",
+        "cost-management",
+        "project-setup",
+        "model-selection"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-token-efficiency.md"
+    },
+    {
+      "file_path": "093-guides-power-user-rules-conventions.md",
+      "title": "Rules and Conventions - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/power-user/rules-conventions",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:32.38542307-03:00",
+      "description": "Organize coding standards and team conventions so Droid follows them consistently across all work.",
+      "summary": "A guide to defining, organizing, and implementing coding standards rules within the Droid system to enforce consistent code style and patterns.",
+      "tags": [
+        "droid",
+        "coding-standards",
+        "rules",
+        "configuration",
+        "typescript",
+        "react",
+        "testing",
+        "conventions"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-rules-conventions.md"
+    },
+    {
+      "file_path": "092-guides-power-user-memory-management.md",
+      "title": "Memory and Context Management - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/power-user/memory-management",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:34.766511898-03:00",
+      "description": "Build persistent memory so Droid remembers your preferences, decisions, and project history across sessions.",
+      "summary": "This guide explains how to implement a persistent memory system for an AI agent using markdown files, AGENTS.md references, and Python hooks to store personal preferences, project context, and architectural decisions.",
+      "tags": [
+        "memory-system",
+        "agent-configuration",
+        "knowledge-base",
+        "python-hooks",
+        "project-management"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-memory-management.md"
+    },
+    {
+      "file_path": "006-pricing.md",
+      "title": "Pricing & Models - Factory Documentation",
+      "url": "https://docs.factory.ai/pricing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:35.382430194-03:00",
+      "description": "Model pricing in Standard Tokens",
+      "summary": "This document outlines the subscription pricing tiers, token calculation rules, and specific cost multipliers for various AI models available on the Factory platform.",
+      "tags": [
+        "pricing",
+        "subscription-plans",
+        "token-billing",
+        "model-costs",
+        "usage-metrics"
+      ],
+      "category": "reference",
+      "original_file_path": "pricing.md"
+    },
+    {
+      "file_path": "094-guides-power-user-prompt-crafting.md",
+      "title": "Prompt Crafting for Different Models - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/power-user/prompt-crafting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:34.791270742-03:00",
+      "description": "Model-specific prompting techniques to get better results from Claude, GPT, and other models.",
+      "summary": "A guide explaining model-specific prompting techniques for Claude, GPT, and Gemini, including instructions for creating custom prompt refiner skills and strategies for selecting the appropriate AI model for different tasks.",
+      "tags": [
+        "prompt-engineering",
+        "ai-models",
+        "claude",
+        "gpt",
+        "gemini",
+        "skills",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-prompt-crafting.md"
+    },
+    {
+      "file_path": "136-reference-cli-reference.md",
+      "title": "CLI Reference - Factory Documentation",
+      "url": "https://docs.factory.ai/reference/cli-reference",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:35.249967605-03:00",
+      "description": "Complete reference for droid command-line interface, including commands and flags",
+      "summary": "A comprehensive reference guide for the Droid CLI, covering installation, command syntax, operational modes (interactive and non-interactive), configuration flags, autonomy levels, and authentication.",
+      "tags": [
+        "cli-reference",
+        "command-line-interface",
+        "automation",
+        "authentication",
+        "configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "reference-cli-reference.md"
+    },
+    {
+      "file_path": "043-cli-configuration-custom-droids.md",
+      "title": "Custom Droids (Subagents) - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/custom-droids",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:36.045818197-03:00",
+      "description": "Create specialized subagents with their own prompts, tool access, and models that droid can delegate work to.",
+      "summary": "This guide explains how to create, configure, and manage custom droids, which are reusable subagents defined in Markdown files that carry their own system prompts, model preferences, and tooling policies for task delegation.",
+      "tags": [
+        "custom-droids",
+        "subagents",
+        "configuration",
+        "cli",
+        "agent-management",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-custom-droids.md"
+    },
+    {
+      "file_path": "128-web-agent-readiness-dashboard.md",
+      "title": "Readiness Dashboard - Factory Documentation",
+      "url": "https://docs.factory.ai/web/agent-readiness/dashboard",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:38.125017188-03:00",
+      "description": "Track and analyze your organization's Agent Readiness scores in the Factory app.",
+      "summary": "Explains how to use the Agent Readiness dashboard to track and analyze organization-wide readiness scores, including accessing the interface, viewing historical trends, and refreshing evaluations.",
+      "tags": [
+        "readiness-dashboard",
+        "analytics",
+        "scoring",
+        "repository-metrics",
+        "factory-cli"
+      ],
+      "category": "guide",
+      "original_file_path": "web-agent-readiness-dashboard.md"
+    },
+    {
+      "file_path": "011-web-getting-started-quickstart.md",
+      "title": "Quickstart - Factory Documentation",
+      "url": "https://docs.factory.ai/web/getting-started/quickstart",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:39.18511889-03:00",
+      "description": "Get up and running with the Factory App in 5 minutes",
+      "summary": "This document provides a quick start guide for installing the software, connecting it to a codebase, and using it for various development workflows such as feature development, bug fixing, and security auditing.",
+      "tags": [
+        "quickstart",
+        "installation",
+        "workflows",
+        "code-review",
+        "security-audit",
+        "development-tools"
+      ],
+      "category": "tutorial",
+      "original_file_path": "web-getting-started-quickstart.md"
+    },
+    {
+      "file_path": "071-cli-user-guides-choosing-your-model.md",
+      "title": "Choosing Your Model - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/user-guides/choosing-your-model",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:39.003861212-03:00",
+      "description": "Balance accuracy, speed, and cost by picking the right model and reasoning level for each CLI task.",
+      "summary": "A comparative guide that ranks and evaluates various AI models based on quality, cost, and speed to help users select the best option for specific development scenarios.",
+      "tags": [
+        "model-selection",
+        "ai-models",
+        "cli-tools",
+        "benchmarking",
+        "reasoning-effort",
+        "optimization",
+        "open-source"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-choosing-your-model.md"
+    },
+    {
+      "file_path": "002-web-getting-started-overview.md",
+      "title": "Overview - Factory Documentation",
+      "url": "https://docs.factory.ai/web/getting-started/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:39.242887696-03:00",
+      "description": "If it can be done on a computer, it can be done with a Droid.",
+      "summary": "This document outlines the key features and benefits of the Factory desktop application, including its native interface, local machine integration, and enterprise-grade security.",
+      "tags": [
+        "factory-app",
+        "desktop-client",
+        "enterprise-features",
+        "ai-assistant",
+        "integration"
+      ],
+      "category": "guide",
+      "original_file_path": "web-getting-started-overview.md"
+    },
+    {
+      "file_path": "122-enterprise-network-and-deployment.md",
+      "title": "Network & Deployment Configuration - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/network-and-deployment",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:39.872791659-03:00",
+      "description": "Reference architectures and network requirements for cloud, hybrid, and fully airgapped Droid deployments.",
+      "summary": "This document outlines the supported deployment patterns for Droid, including cloud-managed, hybrid enterprise, and fully airgapped configurations, along with their specific network requirements and security controls.",
+      "tags": [
+        "deployment",
+        "networking",
+        "security",
+        "airgap",
+        "proxies",
+        "enterprise",
+        "mTLS",
+        "containers"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-network-and-deployment.md"
+    },
+    {
+      "file_path": "077-cli-features-readiness-report.md",
+      "title": "Slash Command - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/features/readiness-report",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:40.740925003-03:00",
+      "description": "Evaluate your repository's autonomy maturity with the /readiness-report slash command.",
+      "summary": "Explains how to use the /readiness-report command to evaluate repository maturity against the Autonomy Maturity Model, interpret scoring, and implement actionable improvements.",
+      "tags": [
+        "slash-commands",
+        "repository-analysis",
+        "autonomy-maturity",
+        "code-quality",
+        "cli-tools",
+        "development-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-features-readiness-report.md"
+    },
+    {
+      "file_path": "103-guides-droid-exec-code-review.md",
+      "title": "Automated Code Review - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/code-review",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:42.987194933-03:00",
+      "description": "Set up automated pull request reviews using the Factory GitHub App",
+      "summary": "This guide explains how to configure and customize the Factory Droid GitHub App for automated code review, detailing the setup process, triggering mechanisms, and review scope.",
+      "tags": [
+        "github-app",
+        "code-review",
+        "automation",
+        "ci-cd",
+        "pull-request",
+        "droid-exec",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-droid-exec-code-review.md"
+    },
+    {
+      "file_path": "013-cli-getting-started-common-use-cases.md",
+      "title": "Common Use Cases - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/getting-started/common-use-cases",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:43.662034438-03:00",
+      "description": "Practical, day\u2011one workflows you can run in the interactive terminal UI.",
+      "summary": "This guide provides practical workflows and specific prompt examples for using Droid in real-world development tasks, such as codebase analysis, debugging, feature implementation, testing, and enterprise integration.",
+      "tags": [
+        "development-workflow",
+        "prompt-engineering",
+        "ai-assistant",
+        "debugging",
+        "code-review",
+        "refactoring",
+        "testing"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-common-use-cases.md"
+    },
+    {
+      "file_path": "078-cli-account-droid-shield.md",
+      "title": "Droid Shield - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/account/droid-shield",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:43.60417466-03:00",
+      "description": "Automatic secret detection to prevent accidental exposure of credentials in your git commits and pushes.",
+      "summary": "Explains the Droid Shield security feature that automatically scans git changes for potential secrets and credentials before commits or pushes to prevent accidental exposure.",
+      "tags": [
+        "security",
+        "git-integration",
+        "secret-scanning",
+        "credentials",
+        "droid-shield",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-account-droid-shield.md"
+    },
+    {
+      "file_path": "104-guides-droid-exec-github-actions.md",
+      "title": "GitHub Actions - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/github-actions",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:43.298859022-03:00",
+      "description": "Ready-to-use GitHub Actions workflows with droid exec.",
+      "summary": "This document provides three practical examples of using the droid CLI within GitHub Actions workflows to automate PR reviews, maintain documentation, and perform security audits.",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "automation",
+        "droid-cli",
+        "workflow",
+        "security",
+        "pr-review"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-github-actions.md"
+    },
+    {
+      "file_path": "012-cli-getting-started-quickstart.md",
+      "title": "Quickstart - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/getting-started/quickstart",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:44.502542707-03:00",
+      "description": "Get productive with droid in 5 minutes using the interactive terminal UI.",
+      "summary": "This quickstart guide instructs users on how to install and interact with the droid CLI to perform codebase analysis, implement changes, and manage version control.",
+      "tags": [
+        "quickstart",
+        "cli",
+        "ai-agent",
+        "git-integration",
+        "code-review",
+        "developer-tools"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cli-getting-started-quickstart.md"
+    },
+    {
+      "file_path": "137-reference-hooks-reference.md",
+      "title": "Hooks reference - Factory Documentation",
+      "url": "https://docs.factory.ai/reference/hooks-reference",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:47.025394987-03:00",
+      "description": "Reference documentation for implementing hooks in Droid",
+      "summary": "Explains how to configure and use Droid hooks to trigger custom bash commands in response to specific lifecycle events and tool interactions.",
+      "tags": [
+        "hooks",
+        "configuration",
+        "automation",
+        "events",
+        "plugins",
+        "json-config"
+      ],
+      "category": "configuration",
+      "original_file_path": "reference-hooks-reference.md"
+    },
+    {
+      "file_path": "046-cli-configuration-mcp.md",
+      "title": "Model Context Protocol (MCP) - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/mcp",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:48.738727227-03:00",
+      "description": "Connect your own tools with Model Context Protocol",
+      "summary": "A comprehensive guide on managing Model Context Protocol (MCP) servers in Droid, detailing methods for adding, configuring, and removing servers via the interactive UI, registry, or CLI commands.",
+      "tags": [
+        "mcp",
+        "server-management",
+        "droid",
+        "cli",
+        "configuration",
+        "oauth",
+        "stdio",
+        "http"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-mcp.md"
+    },
+    {
+      "file_path": "101-guides-building-droid-exec-tutorial.md",
+      "title": "Building Interactive Apps with Droid Exec - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/building/droid-exec-tutorial",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:47.930397496-03:00",
+      "description": "Learn how to build a chat with X feature using Droid Exec",
+      "summary": "This tutorial explains how to implement a 'chat with repo' feature using Factory's Droid Exec in headless mode, detailing the setup of streaming responses via Server-Sent Events for real-time codebase analysis.",
+      "tags": [
+        "factory-ai",
+        "droid-exec",
+        "server-sent-events",
+        "streaming-responses",
+        "codebase-chat",
+        "cli-automation",
+        "bun-runtime"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-building-droid-exec-tutorial.md"
+    },
+    {
+      "file_path": "045-cli-configuration-hooks-guide.md",
+      "title": "Hooks - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/hooks-guide",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:47.816341502-03:00",
+      "description": "Learn how to customize and extend Droid's behavior by registering shell commands",
+      "summary": "This guide explains how to configure and use Droid hooks to automate shell commands at specific lifecycle events, such as formatting code, sending notifications, or protecting sensitive files.",
+      "tags": [
+        "droid-hooks",
+        "lifecycle-events",
+        "automation",
+        "shell-commands",
+        "configuration",
+        "code-formatting",
+        "security"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-hooks-guide.md"
+    },
+    {
+      "file_path": "073-cli-user-guides-specification-mode.md",
+      "title": "Specification Mode - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/user-guides/specification-mode",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:49.557217244-03:00",
+      "description": "Turn plain-English specifications into production-ready code with automatic planning and review.",
+      "summary": "Explains Specification Mode, a feature that transforms feature descriptions into implementation plans through analysis and planning phases before code execution.",
+      "tags": [
+        "specification-mode",
+        "planning",
+        "workflow",
+        "cli",
+        "code-generation",
+        "security",
+        "autonomy-levels"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-specification-mode.md"
+    },
+    {
+      "file_path": "027-cli-configuration-skills.md",
+      "title": "Skills - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/skills",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:47.926906039-03:00",
+      "description": "Reusable capabilities that your AI agent invokes on demand.",
+      "summary": "This document explains the concept of 'Skills'\u2014reusable, model-invoked capabilities that bundle instructions, tools, and domain expertise for AI agents\u2014and details their structure, file format, discovery locations, and use cases in enterprise environments.",
+      "tags": [
+        "ai-agents",
+        "automation",
+        "enterprise-standards",
+        "agent-configuration",
+        "workflow-automation"
+      ],
+      "category": "concept",
+      "original_file_path": "cli-configuration-skills.md"
+    },
+    {
+      "file_path": "074-cli-user-guides-auto-run.md",
+      "title": "Auto-Run Mode - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/user-guides/auto-run",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:52.723528578-03:00",
+      "description": "Choose low, medium, or high autonomy so droid can execute work that matches your risk tolerance without repeated confirmations.",
+      "summary": "This document explains how to configure and use Auto-Run Mode to automate tool execution based on user-defined risk thresholds and autonomy levels.",
+      "tags": [
+        "automation",
+        "cli-features",
+        "risk-management",
+        "configuration",
+        "workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-auto-run.md"
+    },
+    {
+      "file_path": "075-cli-user-guides-implementing-large-features.md",
+      "title": "Implementing Large Features - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/user-guides/implementing-large-features",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:53.173439687-03:00",
+      "description": "A systematic approach to tackling complex, multi-phase development projects using specification planning and iterative implementation.",
+      "summary": "This guide explains a systematic workflow for managing large-scale software projects by breaking them down into manageable phases, utilizing specification mode for planning, and employing iterative implementation with validation.",
+      "tags": [
+        "project-planning",
+        "workflow",
+        "specification-mode",
+        "iterative-development",
+        "large-refactor",
+        "testing-strategy",
+        "feature-flags"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-implementing-large-features.md"
+    },
+    {
+      "file_path": "003-cli-getting-started-overview.md",
+      "title": "Overview - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/getting-started/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:53.296255091-03:00",
+      "description": "Meet `droid` \u2014 the power of Factory in your terminal",
+      "summary": "This document provides an overview of the Droid CLI, detailing its features for end-to-end development, deep codebase integration, and workflow automation within the Factory platform.",
+      "tags": [
+        "cli",
+        "ai-agent",
+        "developer-tools",
+        "workflow-automation",
+        "integration",
+        "enterprise"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-overview.md"
+    },
+    {
+      "file_path": "014-cli-getting-started-how-to-talk-to-a-droid.md",
+      "title": "How to Talk to a Droid - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/getting-started/how-to-talk-to-a-droid",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:52.883249447-03:00",
+      "description": "Proven techniques for writing prompts that get high-quality results from Factory's AI agents.",
+      "summary": "This guide provides practical patterns and principles for writing effective prompts and instructions for Droid, covering topics like explicit goal-setting, context management, and complex feature planning.",
+      "tags": [
+        "prompt-engineering",
+        "ai-collaboration",
+        "specification-mode",
+        "code-review",
+        "refactoring",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-how-to-talk-to-a-droid.md"
+    },
+    {
+      "file_path": "044-cli-configuration-custom-slash-commands.md",
+      "title": "Custom Slash Commands - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/custom-slash-commands",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:56.307115088-03:00",
+      "description": "Extend the CLI with reusable Markdown prompts or executable scripts that run from the chat input.",
+      "summary": "This document explains how to create, manage, and use custom slash commands to turn repeatable prompts or terminal scripts into executable shortcuts.",
+      "tags": [
+        "custom-commands",
+        "cli-configuration",
+        "markdown-templates",
+        "executable-scripts",
+        "productivity-shortcuts"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-custom-slash-commands.md"
+    },
+    {
+      "file_path": "072-cli-user-guides-become-a-power-user.md",
+      "title": "Become a Power User - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/user-guides/become-a-power-user",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:52.524057893-03:00",
+      "description": "Maximize Droid performance with IDE integration, smart planning, and project optimization.",
+      "summary": "This guide explains how to optimize an AI coding assistant named Droid using four specific power features to reduce token usage, minimize tool calls, and improve code quality.",
+      "tags": [
+        "ai-workflow",
+        "ide-plugin",
+        "code-specification",
+        "project-configuration",
+        "developer-tools",
+        "productivity-tips"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-become-a-power-user.md"
+    },
+    {
+      "file_path": "047-cli-configuration-mixed-models.md",
+      "title": "Mixed Models - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/mixed-models",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:57.694748627-03:00",
+      "description": "Use a different AI model for Specification Mode planning than your default model for maximum flexibility and optimization.",
+      "summary": "This guide explains how to configure and manage mixed models in the Droid CLI, allowing users to assign separate AI models for Specification Mode planning and standard coding sessions.",
+      "tags": [
+        "ai-configuration",
+        "model-selection",
+        "specification-mode",
+        "cli-setup",
+        "reasoning-effort"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-configuration-mixed-models.md"
+    },
+    {
+      "file_path": "042-cli-configuration-agents-md.md",
+      "title": "AGENTS.md - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/configuration/agents-md",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:58.33187773-03:00",
+      "description": "Teach agents everything they need to know about your project with a single Markdown file.",
+      "summary": "This document defines the AGENTS.md specification, a Markdown standard for providing AI coding agents with project context, build instructions, and architectural guidelines to improve their performance and compatibility across various tools.",
+      "tags": [
+        "ai-agents",
+        "markdown-specification",
+        "developer-workflow",
+        "code-generation",
+        "repository-conventions",
+        "build-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-agents-md.md"
+    },
+    {
+      "file_path": "015-cli-getting-started-video-walkthrough.md",
+      "title": "Video Walkthrough - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/getting-started/video-walkthrough",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:03:57.697234438-03:00",
+      "description": "A video tutorial covering installation, configuration, and all key features of the Droid CLI",
+      "summary": "Comprehensive guide for installing, configuring, and using the Droid CLI tool, covering interface navigation, autonomy modes, slash commands, and system integrations.",
+      "tags": [
+        "cli-installation",
+        "configuration",
+        "keyboard-shortcuts",
+        "autonomy-modes",
+        "mcp-integrations",
+        "custom-droids",
+        "byok-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-video-walkthrough.md"
+    },
+    {
+      "file_path": "026-cli-account-security.md",
+      "title": "Security - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/account/security",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:00.602492841-03:00",
+      "description": "How Factory CLI keeps your code and data secure with built-in protections and best practices.",
+      "summary": "This document outlines the security architecture and built-in protections of Factory CLI (Droid), highlighting features like encrypted authentication, access restrictions, and command approval.",
+      "tags": [
+        "security",
+        "factory-cli",
+        "permissions",
+        "enterprise-security",
+        "command-safety"
+      ],
+      "category": "concept",
+      "original_file_path": "cli-account-security.md"
+    },
+    {
+      "file_path": "123-enterprise-identity-sso-and-scim.md",
+      "title": "Identity, Domains, SSO, and SCIM - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/identity-sso-and-scim",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:02.187131472-03:00",
+      "description": "Enterprise identity management with Domain Managment, SSO/SAML authentication, and Directory Sync/SCIM provisioning",
+      "summary": "This guide explains how to configure and manage enterprise identity within Factory using WorkOS, covering domain verification, SSO/SAML integration, and automated user provisioning via Directory Sync.",
+      "tags": [
+        "sso",
+        "saml",
+        "scim",
+        "identity-management",
+        "domain-verification",
+        "provisioning",
+        "oidc"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-identity-sso-and-scim.md"
+    },
+    {
+      "file_path": "126-enterprise-usage-cost-and-analytics.md",
+      "title": "Usage, Cost & Productivity Analytics - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/usage-cost-and-analytics",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:02.462779321-03:00",
+      "description": "How to measure Droid adoption, control LLM spend, and understand impact using OpenTelemetry and optional Factory dashboards.",
+      "summary": "Explains how to monitor and manage Droid usage and costs using OpenTelemetry signals for observability or optional Factory cloud dashboards.",
+      "tags": [
+        "observability",
+        "opentelemetry",
+        "metrics",
+        "telemetry",
+        "enterprise",
+        "cost-management",
+        "analytics"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-usage-cost-and-analytics.md"
+    },
+    {
+      "file_path": "028-enterprise-identity-and-access.md",
+      "title": "Identity & Access Management - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/identity-and-access",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:02.422976164-03:00",
+      "description": "How Droids use org, project, and user identity to control who can run agents, where, and with which permissions.",
+      "summary": "Explains the identity and access management model for Droid, covering SSO integration, role-based permissions for administrators and developers, and how identity controls configuration policies and audit telemetry.",
+      "tags": [
+        "iam",
+        "rbac",
+        "sso",
+        "scim",
+        "identity-provider",
+        "access-control",
+        "security",
+        "telemetry"
+      ],
+      "category": "concept",
+      "original_file_path": "enterprise-identity-and-access.md"
+    },
+    {
+      "file_path": "124-enterprise-llm-safety-and-agent-controls.md",
+      "title": "LLM Safety & Agent Controls - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/llm-safety-and-agent-controls",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:02.425123324-03:00",
+      "description": "How Droids classify risk, enforce allow/deny policies, use Droid Shield, and integrate hooks and sandboxes to keep agents safe.",
+      "summary": "This document outlines the multi-layered security architecture for the Droid AI agent, detailing deterministic controls, command risk classification, allow/deny lists, secret scanning, programmable hooks, and sandboxing strategies to ensure safe operation in enterprise environments.",
+      "tags": [
+        "security-architecture",
+        "llm-safety",
+        "access-control",
+        "droid-agent",
+        "enterprise-compliance",
+        "sandboxing",
+        "risk-management",
+        "data-loss-prevention"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-llm-safety-and-agent-controls.md"
+    },
+    {
+      "file_path": "125-enterprise-privacy-and-data-flows.md",
+      "title": "Privacy, Data Flows & Governance - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/privacy-and-data-flows",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:04.550483229-03:00",
+      "description": "How code, prompts, and telemetry move in cloud, hybrid, and fully airgapped Droid deployments, and how to control those flows.",
+      "summary": "This document details the data flows, security architecture, and governance controls for Droid, focusing on code access, LLM traffic routing, telemetry emission, and data retention policies across different deployment environments.",
+      "tags": [
+        "security",
+        "data-privacy",
+        "governance",
+        "llm-integrations",
+        "observability",
+        "airgap",
+        "enterprise",
+        "telemetry"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-privacy-and-data-flows.md"
+    },
+    {
+      "file_path": "048-enterprise-hierarchical-settings-and-org-control.md",
+      "title": "Hierarchical Settings & Org Control - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/hierarchical-settings-and-org-control",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:05.014384263-03:00",
+      "description": "How org, project, folder, and user settings combine to control models, tools, safety policies, and telemetry for Droid.",
+      "summary": "Explains the four-level hierarchical settings system used by Factory to enforce consistent policies across organization, project, folder, and user environments.",
+      "tags": [
+        "configuration",
+        "hierarchy",
+        "policy-enforcement",
+        "settings-management",
+        "enterprise"
+      ],
+      "category": "reference",
+      "original_file_path": "enterprise-hierarchical-settings-and-org-control.md"
+    },
+    {
+      "file_path": "127-enterprise-compliance-audit-and-monitoring.md",
+      "title": "Compliance, Audit & Monitoring - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/compliance-audit-and-monitoring",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:06.828347367-03:00",
+      "description": "How Droids support SOC2, ISO 27001/42001, regulatory reviews, and continuous monitoring using OpenTelemetry and audit logs.",
+      "summary": "Explains how to integrate Droids into a security and compliance posture, detailing audit trails, OpenTelemetry telemetry, and configuration steps for regulatory adherence.",
+      "tags": [
+        "compliance",
+        "audit-logs",
+        "opentelemetry",
+        "security",
+        "siem-integration",
+        "droid-shield",
+        "regulatory",
+        "observability"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-compliance-audit-and-monitoring.md"
+    },
+    {
+      "file_path": "121-enterprise.md",
+      "title": "Enterprise with Droids - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:06.6713927-03:00",
+      "description": "How to deploy, secure, and operate Droids in the world\u2019s highest\u2011security environments.",
+      "summary": "This document outlines the deployment strategies, security controls, and governance features of the Droid agent runtime for high-security enterprise environments.",
+      "tags": [
+        "enterprise",
+        "security",
+        "deployment",
+        "airgap",
+        "observability",
+        "compliance",
+        "governance",
+        "access-control"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise.md"
+    },
+    {
+      "file_path": "102-guides-building-droid-vps-setup.md",
+      "title": "Deploy Droid on a VPS Server - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/building/droid-vps-setup",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:08.367593817-03:00",
+      "description": "Learn how to set up droid on a VPS for remote access and headless automation",
+      "summary": "This tutorial explains how to deploy the Factory CLI tool, Droid, on a Virtual Private Server (VPS) to enable remote AI-assisted system administration, headless automation, and mobile access.",
+      "tags": [
+        "vps",
+        "ssh",
+        "automation",
+        "droid-cli",
+        "remote-access",
+        "server-setup",
+        "docker",
+        "system-administration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-building-droid-vps-setup.md"
+    },
+    {
+      "file_path": "001-welcome.md",
+      "title": "Welcome to Factory - Factory Documentation",
+      "url": "https://docs.factory.ai/welcome",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:09.317409404-03:00",
+      "summary": "This document introduces Factory, an AI-native development platform that automates software tasks across the IDE and CI/CD pipeline using agentic Droids.",
+      "tags": [
+        "ai-development",
+        "ci-cd-automation",
+        "model-agnostic",
+        "enterprise-tools",
+        "ide-integration"
+      ],
+      "category": "other",
+      "original_file_path": "welcome.md"
+    },
+    {
+      "file_path": "157-changelog-1-10.md",
+      "title": "Factory Release 1.10 - Factory Documentation",
+      "url": "https://docs.factory.ai/changelog/1-10",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:09.105914541-03:00",
+      "description": "MCP Manager, custom completion sounds, and Droid hooks",
+      "summary": "This document details the new features in Droid 1.10, including a visual MCP Manager for external tool integration, customizable completion sounds, and experimental Droid hooks for programmatic lifecycle control.",
+      "tags": [
+        "mcp-manager",
+        "droid-hooks",
+        "custom-sounds",
+        "oauth-integration",
+        "shell-commands",
+        "version-1-10",
+        "automation"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog-1-10.md"
+    },
+    {
+      "file_path": "159-changelog-1-8.md",
+      "title": "Factory Release 1.8 - Factory Documentation",
+      "url": "https://docs.factory.ai/changelog/1-8",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:11.162043315-03:00",
+      "description": "Headless CLI, Slack and Linear integrations",
+      "summary": "This document outlines the new features in Factory 1.8, including Droid Exec for headless CLI automation, and enhanced integrations with Slack and Linear for delegating tasks directly from collaboration tools.",
+      "tags": [
+        "factory-1.8",
+        "droid-exec",
+        "slack-integration",
+        "linear-integration",
+        "automation",
+        "ci-cd",
+        "incident-response"
+      ],
+      "category": "release-notes",
+      "original_file_path": "changelog-1-8.md"
+    },
+    {
+      "file_path": "109-guides-hooks-session-automation.md",
+      "title": "Session Automation - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/session-automation",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:11.481358323-03:00",
+      "description": "Automate session setup with context loading, environment configuration, and dependency management",
+      "summary": "Explains how to configure SessionStart hooks in Droid to automatically load project context, set up development environments, and check dependencies when a session begins.",
+      "tags": [
+        "sessionstart-hooks",
+        "automation",
+        "environment-setup",
+        "project-context",
+        "dependencies",
+        "bash-scripting",
+        "development-workflow"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-hooks-session-automation.md"
+    },
+    {
+      "file_path": "061-guides-skills-product-management.md",
+      "title": "Product management AI skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/product-management",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:12.468705531-03:00",
+      "description": "A reusable skill for assisting with product management workflows including PRDs, feature analysis, roadmap planning, and user research synthesis.",
+      "summary": "This document explains how to set up and use a product management skill within the Factory framework to assist with writing PRDs, analyzing features, synthesizing research, and planning roadmaps directly within a development workflow.",
+      "tags": [
+        "product-management",
+        "factory",
+        "prd",
+        "ai-skills",
+        "roadmap-planning",
+        "feature-analysis"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-product-management.md"
+    },
+    {
+      "file_path": "110-guides-hooks-testing-automation.md",
+      "title": "Testing Automation - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/testing-automation",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:12.982862701-03:00",
+      "description": "Automate test execution, coverage tracking, and test result validation with hooks",
+      "summary": "This cookbook explains how to configure automated testing workflows for Droid, including auto-running tests after code modifications, enforcing minimum coverage thresholds, and requiring test files for new code.",
+      "tags": [
+        "testing-automation",
+        "code-coverage",
+        "hooks",
+        "continuous-integration",
+        "bash-scripting"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-testing-automation.md"
+    },
+    {
+      "file_path": "115-guides-hooks-logging-analytics.md",
+      "title": "Logging and Analytics - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/logging-analytics",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:14.77365611-03:00",
+      "description": "Track Droid usage, collect metrics, and analyze development patterns with hooks",
+      "summary": "This document teaches how to implement logging and analytics hooks within the Droid system to track usage metrics, session durations, and file modifications for development workflow insights.",
+      "tags": [
+        "analytics",
+        "logging",
+        "hooks",
+        "metrics",
+        "monitoring",
+        "sqlite",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-logging-analytics.md"
+    },
+    {
+      "file_path": "029-guides-power-user-evaluating-context-compression.md",
+      "title": "Evaluating Context Compression - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/power-user/evaluating-context-compression",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:15.185403239-03:00",
+      "description": "Summary of Factory Research\u2019s evaluation of context compression strategies for long-running AI agent sessions.",
+      "summary": "This document summarizes Factory Research's evaluation of context compression techniques for AI agents, finding that structured summarization retains more task-relevant information than SDK-native methods when measured by probe-based efficacy rather than token reduction.",
+      "tags": [
+        "ai-agents",
+        "context-compression",
+        "llm-evaluation",
+        "token-optimization",
+        "prompt-engineering",
+        "research-summary"
+      ],
+      "category": "concept",
+      "original_file_path": "guides-power-user-evaluating-context-compression.md"
+    },
+    {
+      "file_path": "114-guides-hooks-git-workflows.md",
+      "title": "Git Workflow Hooks - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/git-workflows",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:15.99746081-03:00",
+      "description": "Integrate hooks with Git for commit validation, branch protection, and automated workflows",
+      "summary": "A guide for implementing Git workflow automation using hooks to enforce commit message conventions, protect branches, validate branch naming, and generate changelogs.",
+      "tags": [
+        "git-hooks",
+        "workflow-automation",
+        "branch-protection",
+        "commit-validation",
+        "changelog-generation"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-git-workflows.md"
+    },
+    {
+      "file_path": "112-guides-hooks-code-validation.md",
+      "title": "Code Validation Hooks - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/code-validation",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:16.745478201-03:00",
+      "description": "Enforce code standards, security policies, and best practices automatically",
+      "summary": "This document provides a guide on implementing validation hooks to enforce security policies, code quality standards, and prevent unsafe operations before Droid makes changes.",
+      "tags": [
+        "validation-hooks",
+        "security",
+        "code-quality",
+        "bash-scripting",
+        "policy-enforcement",
+        "droid-automation",
+        "typescript",
+        "secret-scanning"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-code-validation.md"
+    },
+    {
+      "file_path": "113-guides-hooks-documentation-sync.md",
+      "title": "Documentation Sync - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/documentation-sync",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:17.391977059-03:00",
+      "description": "Keep documentation in sync with code changes automatically",
+      "summary": "This document teaches how to implement documentation automation workflows using hooks to generate API docs, sync code examples, validate OpenAPI specs, and ensure documentation remains consistent with code changes.",
+      "tags": [
+        "documentation",
+        "automation",
+        "hooks",
+        "api-docs",
+        "sync",
+        "openapi",
+        "validation",
+        "changelog"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-documentation-sync.md"
+    },
+    {
+      "file_path": "106-guides-droid-exec-refactor-imports.md",
+      "title": "Organize Imports - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/refactor-imports",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:19.135561385-03:00",
+      "description": "Automatically organize imports across your entire codebase using Droid Exec",
+      "summary": "This tutorial teaches how to use a bash script and Droid Exec to automatically refactor, group, and sort import statements across JavaScript and TypeScript files.",
+      "tags": [
+        "droid-exec",
+        "bash-scripting",
+        "refactoring",
+        "import-optimization",
+        "code-cleanup",
+        "es6-modules"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-refactor-imports.md"
+    },
+    {
+      "file_path": "111-guides-hooks-auto-formatting.md",
+      "title": "Auto-formatting Code - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/auto-formatting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:19.270137298-03:00",
+      "description": "Automatically format code after every file edit using hooks",
+      "summary": "This guide demonstrates how to configure a 'PostToolUse' hook in Droid to automatically run code formatters like Prettier, Black, and gofmt immediately after files are edited or written.",
+      "tags": [
+        "code-formatting",
+        "hooks",
+        "automation",
+        "prettier",
+        "linting",
+        "python",
+        "javascript"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-auto-formatting.md"
+    },
+    {
+      "file_path": "067-guides-skills-browser.md",
+      "title": "Browser automation skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/browser",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:19.790807461-03:00",
+      "description": "Minimal Chrome DevTools Protocol helpers that let Droids start Chrome, navigate tabs, evaluate JavaScript, take screenshots, and capture DOM metadata without building a full MCP server.",
+      "summary": "Documentation for a browser automation skill that provides executable scripts for controlling Chrome via the DevTools Protocol to perform navigation, JavaScript evaluation, screenshot capture, and DOM interaction.",
+      "tags": [
+        "browser-automation",
+        "chrome-devtools-protocol",
+        "puppeteer",
+        "web-scraping",
+        "dom-manipulation",
+        "qa-tools",
+        "local-development"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-browser.md"
+    },
+    {
+      "file_path": "062-guides-skills-ai-data-analyst.md",
+      "title": "AI data analyst skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/ai-data-analyst",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:20.454429722-03:00",
+      "description": "A reusable skill for performing comprehensive data analysis, visualization, and statistical modeling using code-interpreter style workflows.",
+      "summary": "Documentation for an AI data analyst skill that enables Droids to perform comprehensive data analysis, statistical modeling, and visualization using the local Python ecosystem.",
+      "tags": [
+        "data-analysis",
+        "python",
+        "visualization",
+        "statistical-modeling",
+        "skill-definition",
+        "reproducible-research"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-ai-data-analyst.md"
+    },
+    {
+      "file_path": "116-guides-hooks-notifications.md",
+      "title": "Custom Notifications - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/hooks/notifications",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:23.464162016-03:00",
+      "description": "Get notified when Droid needs attention using desktop alerts, sounds, Slack, and more",
+      "summary": "Explains how to configure and implement custom notification hooks for Droid to alert users via desktop notifications, sounds, Slack, email, and webhooks during specific session events.",
+      "tags": [
+        "notifications",
+        "hooks",
+        "slack",
+        "webhooks",
+        "automation",
+        "desktop-notifications",
+        "integration",
+        "email"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-notifications.md"
+    },
+    {
+      "file_path": "063-guides-skills-data-querying.md",
+      "title": "Internal data querying skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/data-querying",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:21.45980723-03:00",
+      "description": "A reusable skill for safely querying internal analytics and data services and producing shareable, reproducible artifacts.",
+      "summary": "This document provides a skill definition and implementation guide for configuring AI agents (Droids) to safely query internal data warehouses and reporting APIs, ensuring results are auditable and reproducible.",
+      "tags": [
+        "data-querying",
+        "internal-tools",
+        "sql",
+        "data-governance",
+        "factory-ai",
+        "analytics"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-data-querying.md"
+    },
+    {
+      "file_path": "064-guides-skills-frontend-ui-integration.md",
+      "title": "Frontend UI integration skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/frontend-ui-integration",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:24.182754899-03:00",
+      "description": "A reusable skill for implementing typed, tested frontend workflows against existing backend APIs in enterprise codebases.",
+      "summary": "This document provides the definition and setup instructions for a frontend skill designed to implement user-facing workflows in React applications that integrate with existing backend APIs.",
+      "tags": [
+        "frontend",
+        "react",
+        "typescript",
+        "ui-integration",
+        "skill-definition",
+        "testing",
+        "accessibility"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-frontend-ui-integration.md"
+    },
+    {
+      "file_path": "066-guides-skills-service-integration.md",
+      "title": "Service integration skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/service-integration",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:24.706165877-03:00",
+      "description": "A reusable skill for extending existing services and wiring integrations in complex enterprise codebases.",
+      "summary": "This document defines a skill for integrating or extending backend services within a shared monorepo, focusing on preserving ownership boundaries and maintaining reliability standards.",
+      "tags": [
+        "service-integration",
+        "monorepo",
+        "backend",
+        "contract-testing",
+        "observability",
+        "codebase-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-service-integration.md"
+    },
+    {
+      "file_path": "065-guides-skills-internal-tools.md",
+      "title": "Internal tools skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/internal-tools",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:24.336785544-03:00",
+      "description": "A reusable skill for building and extending internal tools that support engineers, operators, and support teams.",
+      "summary": "Defines a 'internal-tools' skill for Factory that guides the development of internal applications, emphasizing access controls, audit logging, and the safe handling of production-adjacent systems.",
+      "tags": [
+        "internal-tools",
+        "rbac",
+        "audit-logging",
+        "operational-safety",
+        "factory-automation",
+        "admin-panels"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-internal-tools.md"
+    },
+    {
+      "file_path": "016-integrations-github-app.md",
+      "title": "GitHub App - Factory Documentation",
+      "url": "https://docs.factory.ai/integrations/github-app",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:26.126853767-03:00",
+      "description": "Use the /install-gh-app command to set up Droid integration with your GitHub repositories",
+      "summary": "This guide explains how to use the /install-gh-app command to configure the Factory GitHub App, enabling automated code reviews and @droid interactions within GitHub Actions workflows.",
+      "tags": [
+        "github-app",
+        "code-review",
+        "github-actions",
+        "setup",
+        "automation",
+        "cli",
+        "permissions"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-github-app.md"
+    },
+    {
+      "file_path": "068-guides-skills-vibe-coding.md",
+      "title": "Vibe coding skill - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/skills/vibe-coding",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:27.269847599-03:00",
+      "description": "A reusable skill for rapidly prototyping and building modern web applications from scratch with a creative, experimental approach.",
+      "summary": "This document defines a custom skill for the Droids Factory framework that enables AI agents to rapidly prototype and build modern web applications locally, emulating hosted builders like Lovable or Bolt while maintaining full control over the environment.",
+      "tags": [
+        "web-development",
+        "vibe-coding",
+        "prototyping",
+        "framework-setup",
+        "factory-skill"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-vibe-coding.md"
+    },
+    {
+      "file_path": "019-integrations-linear.md",
+      "title": "Linear - Factory Documentation",
+      "url": "https://docs.factory.ai/integrations/linear",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:28.616426171-03:00",
+      "description": "Guide to connect Factory with your Linear workspace",
+      "summary": "This guide explains how to integrate the Factory platform with Linear, covering prerequisites, verification steps, best practices for security, and troubleshooting common issues.",
+      "tags": [
+        "integration",
+        "linear",
+        "factory",
+        "security",
+        "troubleshooting",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-linear.md"
+    },
+    {
+      "file_path": "017-integrations-ide-integrations.md",
+      "title": "IDE Integrations - Factory Documentation",
+      "url": "https://docs.factory.ai/integrations/ide-integrations",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:28.269068227-03:00",
+      "description": "Run droid directly inside your editor for richer context and a smoother workflow.",
+      "summary": "Explains how to install, configure, and troubleshoot Droid IDE extensions for Visual Studio Code and JetBrains, including features like diff viewing, diagnostic sharing, and context awareness.",
+      "tags": [
+        "ide-integration",
+        "vs-code",
+        "jetbrains",
+        "installation",
+        "troubleshooting",
+        "developer-tools",
+        "plugins"
+      ],
+      "category": "configuration",
+      "original_file_path": "integrations-ide-integrations.md"
+    },
+    {
+      "file_path": "005-leaderboards.md",
+      "title": "Leaderboards - Factory Documentation",
+      "url": "https://docs.factory.ai/leaderboards",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:28.902997292-03:00",
+      "description": "Benchmarks and evaluations for AI coding agents",
+      "summary": "This document serves as a performance report showcasing the results of the Factory AI coding agent across three specific industry benchmarks: Terminal Bench, Next.js Evals, and Agent Arena.",
+      "tags": [
+        "benchmarks",
+        "ai-agents",
+        "performance-metrics",
+        "leaderboard",
+        "code-generation",
+        "elo-rating",
+        "evaluation"
+      ],
+      "category": "other",
+      "original_file_path": "leaderboards.md"
+    },
+    {
+      "file_path": "018-integrations-slack.md",
+      "title": "Slack - Factory Documentation",
+      "url": "https://docs.factory.ai/integrations/slack",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:28.831170723-03:00",
+      "description": "Step-by-step guide to connect Factory with your Slack workspace",
+      "summary": "This guide explains how to integrate Factory with Slack to enable seamless interaction between the two platforms, including setup steps, verification procedures, and an overview of native tools for reading and posting messages.",
+      "tags": [
+        "slack-integration",
+        "factory",
+        "bot-setup",
+        "thread-context",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-slack.md"
+    },
+    {
+      "file_path": "107-guides-droid-exec-refactor-fix-lint.md",
+      "title": "Automated Lint Fixes - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/refactor-fix-lint",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:31.547236024-03:00",
+      "description": "Automatically fix ESLint violations across your codebase using Droid Exec",
+      "summary": "A guide and Bash script for using Droid Exec to automatically detect and fix missing middleware in Next.js API routes based on file path conventions.",
+      "tags": [
+        "nextjs",
+        "middleware",
+        "automation",
+        "eslint",
+        "bash-scripting",
+        "droid-exec"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-refactor-fix-lint.md"
+    },
+    {
+      "file_path": "108-guides-droid-exec-refactor-error-messages.md",
+      "title": "Improve Error Messages - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/refactor-error-messages",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:32.800769732-03:00",
+      "description": "Automatically improve Error messages across your entire codebase using Droid Exec",
+      "summary": "This tutorial provides a guide and a shell script for using Droid Exec to automatically refactor and improve ResponseError messages across a TypeScript codebase, making them more descriptive and user-friendly.",
+      "tags": [
+        "droid-exec",
+        "error-handling",
+        "refactoring",
+        "shell-script",
+        "typescript",
+        "automation",
+        "ux"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-refactor-error-messages.md"
+    },
+    {
+      "file_path": "158-changelog-1-9.md",
+      "title": "Factory Release 1.9 - Factory Documentation",
+      "url": "https://docs.factory.ai/changelog/1-9",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:32.602973552-03:00",
+      "description": "Mixed models, custom subagents, and GitHub PR reviews",
+      "summary": "This document details the new features in Factory 1.9, including mixed models for using different AI models per phase, customizable subagents for specialized workflows, and a GitHub App for automated PR reviews.",
+      "tags": [
+        "factory-1.9",
+        "mixed-models",
+        "custom-subagents",
+        "github-integration",
+        "pr-automation",
+        "ai-workflow"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog-1-9.md"
+    },
+    {
+      "file_path": "079-cli-account-droid-shield-plus.md",
+      "title": "Droid Shield Plus - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/account/droid-shield-plus",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:32.529609399-03:00",
+      "description": "AI-powered security scanning for prompt injection, secrets detection, and sensitive data protection. Enterprise feature powered by Palo Alto Networks Prisma AIRS.",
+      "summary": "Explains the features and functionality of Droid Shield Plus, an advanced AI-powered security layer that protects against prompt injection and data exposure.",
+      "tags": [
+        "security",
+        "ai-safety",
+        "data-loss-prevention",
+        "git-scanning",
+        "prompt-injection"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-account-droid-shield-plus.md"
+    },
+    {
+      "file_path": "138-reference-readiness-reports-api.md",
+      "title": "Readiness Reports API - Factory Documentation",
+      "url": "https://docs.factory.ai/reference/readiness-reports-api",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:32.823817172-03:00",
+      "description": "REST API reference for programmatic access to agent readiness reports.",
+      "summary": "This document outlines the Readiness Reports API, which enables developers to programmatically access organization-wide agent readiness evaluation data. It covers authentication procedures, endpoint details for retrieving reports, schema definitions for data objects, and pagination logic.",
+      "tags": [
+        "api",
+        "readiness-reports",
+        "factory-api",
+        "agent-evaluation",
+        "authentication",
+        "pagination",
+        "api-reference"
+      ],
+      "category": "api",
+      "original_file_path": "reference-readiness-reports-api.md"
+    },
+    {
+      "file_path": "050-enterprise-github-integration-security.md",
+      "title": "GitHub Integration Security - Factory Documentation",
+      "url": "https://docs.factory.ai/enterprise/github-integration-security",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:36.008310528-03:00",
+      "description": "Security architecture, data flows, and controls for the Factory Droid GitHub Action integration.",
+      "summary": "This document outlines the security architecture, data flows, access controls, and audit capabilities of the Factory Droid GitHub Action.",
+      "tags": [
+        "security",
+        "github-actions",
+        "permissions",
+        "data-privacy",
+        "audit-logging",
+        "api-key"
+      ],
+      "category": "configuration",
+      "original_file_path": "enterprise-github-integration-security.md"
+    },
+    {
+      "file_path": "004-web-agent-readiness-overview.md",
+      "title": "Overview - Factory Documentation",
+      "url": "https://docs.factory.ai/web/agent-readiness/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:36.120266661-03:00",
+      "summary": "This document outlines the Agent Readiness Model, a framework for measuring an organization's progression toward autonomous software development through five distinct levels of technical maturity.",
+      "tags": [
+        "agent-readiness",
+        "autonomous-development",
+        "software-maturity",
+        "technical-assessment",
+        "devops-automation"
+      ],
+      "category": "concept",
+      "original_file_path": "web-agent-readiness-overview.md"
+    },
+    {
+      "file_path": "076-cli-features-code-review.md",
+      "title": "Code Review - Factory Documentation",
+      "url": "https://docs.factory.ai/cli/features/code-review",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:36.867896024-03:00",
+      "description": "Use the /review command to analyze code changes with AI-powered review workflows",
+      "summary": "Explains the functionality and configuration of the /review command, an interactive CLI tool for performing AI-powered code analysis on branches, uncommitted changes, and specific commits.",
+      "tags": [
+        "code-review",
+        "cli",
+        "git",
+        "automation",
+        "workflows",
+        "bug-detection"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-features-code-review.md"
+    },
+    {
+      "file_path": "105-guides-droid-exec-document-automation.md",
+      "title": "Automated Documentation - Factory Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/document-automation",
+      "source": "sitemap",
+      "fetched_at": "2026-01-13T19:04:37.413835235-03:00",
+      "description": "Automatically update documentation when code changes using CI/CD workflows",
+      "summary": "This cookbook demonstrates how to automate documentation updates in GitHub Actions using Droid Exec to analyze code changes and create pull requests for review.",
+      "tags": [
+        "github-actions",
+        "droid-exec",
+        "automation",
+        "documentation",
+        "workflow",
+        "ci-cd"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-document-automation.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-13T22:06:51.226746Z",
+    "total_files": 98,
+    "categories": [
+      "api",
+      "concept",
+      "configuration",
+      "guide",
+      "other",
+      "reference",
+      "release-notes",
+      "tutorial"
+    ]
+  }
+}

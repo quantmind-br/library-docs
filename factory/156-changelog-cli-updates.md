@@ -1,0 +1,746 @@
+---
+title: CLI Updates - Factory Documentation
+url: https://docs.factory.ai/changelog/cli-updates
+source: sitemap
+fetched_at: 2026-01-13T19:03:19.311348737-03:00
+rendered_js: false
+word_count: 4376
+summary: A detailed changelog documenting new features, improvements, and bug fixes across multiple versions of the Droid CLI and application.
+tags:
+    - changelog
+    - release-notes
+    - cli
+    - version-history
+    - update-log
+category: reference
+---
+
+- [January 9](#january-9)
+- [January 8](#january-8)
+- [January 7](#january-7)
+- [January 6](#january-6)
+- [January 5](#january-5)
+- [December 30](#december-30)
+- [December 23](#december-23)
+- [December 19](#december-19)
+- [December 18](#december-18)
+- [December 17](#december-17)
+- [December 17](#december-17-2)
+- [December 13](#december-13)
+- [December 10](#december-10)
+- [December 8](#december-8)
+- [December 5](#december-5)
+- [December 4](#december-4)
+- [December 3](#december-3)
+- [December 2](#december-2)
+- [December 1](#december-1)
+- [November 28](#november-28)
+- [November 25](#november-25)
+- [November 24](#november-24)
+- [November 22](#november-22)
+- [November 21](#november-21)
+- [November 20](#november-20)
+- [November 19](#november-19)
+- [November 18](#november-18)
+- [November 14](#november-14)
+- [November 13](#november-13)
+- [November 12](#november-12)
+- [November 10](#november-10)
+- [November 7-8](#november-7-8)
+- [November 6](#november-6)
+- [November 5](#november-5)
+- [November 4](#november-4)
+- [November 1](#november-1)
+- [October 31](#october-31)
+- [October 30](#october-30)
+- [October 29](#october-29)
+- [October 28](#october-28)
+- [October 21-25](#october-21-25)
+- [October 14-20](#october-14-20)
+- [September 30 - October 13](#september-30-october-13)
+
+`v0.46.0`
+
+## New features
+
+- **`/create-skill` command** - Create custom skills directly from the CLI with guided flow
+- **Skills in exec mode** - Skill tool now enabled when running `droid exec`
+- **`/rename` command** - Rename sessions with a new slash command, plus auto-generated session names based on conversation content
+
+## Improvements
+
+- **PR overview in FetchUrl** - GitHub PR fetch results now include an overview section with files changed, comment counts, and table of contents
+- **Create-skill UX** - Improved create-skill flow with better guidance and examples
+- **Review branch fetch** - Git review now fetches current branch when opening instead of on mount
+
+## Bug fixes
+
+- **Background process output** - Output from background processes now properly piped to droid
+- **Cloud sync settings** - Fixed settings cloud sync with droid status tracking
+- **ESC cancel duplication** - Fixed queued messages being duplicated when pressing ESC to cancel
+
+`v0.45.0`
+
+## Bug fixes
+
+- **Ctrl+O detailed view** - Now shows full accumulated command output instead of truncated view
+- **File autocomplete** - Menu now closes properly on Ctrl+C
+- **MCP modal** - Fixed modal and status notification display issues
+- **Autonomy level** - Fixed autonomy level not being applied correctly
+
+`v0.44.0`
+
+## New features
+
+- **`/statusline` command** - Configure custom status line, can import PS1 from shell config
+- **Bulk MCP tool management** - Manage multiple MCP tools at once via ToolsOverviewView
+- **Auto-include Skill tool** - Custom droids (subagents) now automatically include the Skill tool
+
+## Improvements
+
+- **Expand diffs with Ctrl+O** - Tool confirmation prompts now support Ctrl+O to expand diffs
+
+## Bug fixes
+
+- **Session resume system info** - Session resume now shows correct/up-to-date system info and local date
+- **Model display alignment** - Fixed model display alignment in UI
+- **MCP project server config** - MCP tool modifications now work correctly for project-defined servers
+
+`v0.43.0`
+
+## Bug fixes
+
+- **Terminal panel display** - Fixed terminal being cut off when plan panel is shown
+- **Chat input width** - Chat input now extends to full terminal width
+- **Spec mode transitions** - `droid exec --use-spec` correctly exits spec mode after `ExitSpecMode`
+- **Default session settings** - Session defaults properly loaded from settings.json on each new session
+
+`v0.42.2`
+
+## Improvements
+
+- **GLM 4.7 support** - Updated GLM model deployments
+- **Gemini SDK upgrade** - Improved Gemini support
+- **Expandable tool results** - Tool results can now be expanded to show full details in Web/Desktop apps
+
+## Bug fixes
+
+- Fixed light mode color themes in expanded mode
+- Fixed memory leak from unbounded tool executions
+- Fixed GitHub app installation OAuth flow
+- Fixed dotenv loading order with settings
+- Fixed token usage not preserved across manual compaction
+- Fixed onboarding error when user has existing org (app)
+- Fixed users getting stuck in onboarding due to stage issues (app)
+- Fixed mobile onboarding layout (app)
+
+`v0.41.0`
+
+## New features
+
+- **`/wrapped` command** - Year-in-review stats showing your Droid usage, badges earned, model preferences, and session metrics (cli)
+- **Fast model switching** - Faster provider/model switches without LLM compaction (cli)
+- **Batched tool permissions** - Parallel tool calls now show single permission prompt (cli)
+- **Custom BYOK models** - Custom models now appear in model selector (cli)
+- **Auto-sync repos** - GitHub/GitLab repos sync when opening template modal (app)
+
+## Improvements
+
+- **PDF & text file uploads** - Attach PDFs and text files to chat in Web/Desktop apps (app)
+- **Send button** - Visual send button in session chat input (app)
+- **ASCII startup animation** - Animated Droid logo on CLI startup (configurable) (cli)
+- **Token multiplier display** - Shows Factory token rates in model descriptions (cli)
+
+## Bug fixes
+
+- Fixed users getting stuck in broken onboarding state (app)
+- Fixed CLI onboarding redirect for terminal-only users
+- Fixed missing repos in GitHub org management modal (app)
+- Fixed multi-option spec mode selection (cli)
+- Fixed catch-22 bug preventing subscription start (app)
+
+`v0.40.0`
+
+## New features
+
+- **Custom models from settings** - Load custom models directly from settings.json
+- **Parallel tool confirmations** - Single permission request for parallel tool calls instead of individual prompts
+- **Multi-option spec mode** - Spec mode can now present multiple implementation options for user selection
+- **Settings file watching** - Settings automatically reload when the settings file changes
+- **Token usage in exec mode** - Token usage is now displayed in exec streaming output
+- **Stop hook improvements** - Decision and reason support for Stop hook to match Claude code spec
+
+## Bug fixes
+
+- **Opus 4.5 model fix** - Fixed Opus 4.5 to work as an effort model with thinking guard improvements
+- **Tool completion fix** - Fixed issue where tools weren’t properly completed on new assistant messages
+- **Web search date fix** - Web search tool now includes dynamic date for more accurate results
+
+`v0.39.0`
+
+## New features
+
+- **Context utilization setting** - New setting to display token usage indicator in the status bar
+- **Custom Droids enabled by default** - Custom Droids feature is now available to all users without requiring opt-in
+
+## Bug fixes
+
+- **Grep tool fix** - Fixed pattern argument handling in the Grep tool
+- **BYOK Grok fix** - Fixed crash when using Grok models with thinking/reasoning streams
+- **Warmup improvements** - Added option to disable warmup requests and skip warmup for slash commands
+- **Non-git directory support** - Use current working directory as project directory when not in a git repository
+
+`v0.38.0`
+
+## Bug fixes
+
+- **GPT-5.2 improvements** - Fixed request parameters and reasoning effort options for better model performance
+- **Prevent .env auto-loading** - CLI no longer automatically loads `.env` files from the working directory in standalone builds, making behavior more predictable
+
+`v0.37.0`
+
+## Improvements
+
+- **Todo tool improvements** - Simplified todo format and refreshed UI for better reliability
+- **Chrome DevTools MCP server** - Added Chrome DevTools Protocol to the MCP registry
+- **Model cleanup** - Removed obsolete models
+
+## Bug fixes
+
+- Fixed API request handling for Codex models
+
+`v0.36.6`
+
+## New features
+
+- **Gemini 3 Flash model** - Added support for Gemini 3 Flash
+
+## Improvements
+
+- **Agent readiness signals** - Expanded agent readiness signals in readiness reports
+
+## Bug fixes
+
+- Fixed overly strict filtering by allowing common read-only `git` commands
+- Fixed copy/paste issues on WSL
+- Fixed repository deduplication in `/readiness` reports
+
+`v0.36.2`
+
+## New features
+
+- **GPT-5.2 model** - Added support for GPT-5.2 model
+- **MCP tool enable/disable** - Add ability to enable/disable individual MCP tools per server
+
+`v0.36.0`
+
+## New features
+
+- **MCP tools in droid creation** - MCP tools are now displayed during custom droid creation and edit flows
+
+## Bug fixes
+
+- Fixed droid deletion when filename doesn’t match metadata name
+- Standardized help text position and format in droid creation/edit flows
+- Add reasoning\_effort to stream-json system init event
+
+`v0.33.0`
+
+## Bug fixes
+
+- Fixed autonomy mode not being properly set on tool confirmations
+- Improved @-tagged file truncation by character count to prevent context overflow
+- Updated Opus 4.5 pricing with dismissable notice
+- Restored Figma MCP server to the registry
+
+`v0.32.0`
+
+## Bug fixes
+
+- Press ESC to close the expanded tool result view
+- Improved input box cursor up/down movement with wrapped lines
+- Fixed Windows pasting issues
+- Fixed `npm run format` conflict with legacy Windows format command in denylist
+- Fixed auth issues with Microsoft MCP servers
+- `/readiness` command is now enabled by default
+
+`v0.31.0`
+
+## New features
+
+- **GPT-5.1-Codex-Max model** - Added support for GPT-5.1-Codex-Max model
+- **Image compression** - Images are now compressed before upload to reduce bandwidth
+- **IDE auto-connect setting** - Added setting to automatically connect to IDE from external terminals
+- **Disable hooks flag** - Added `--no-hooks` flag to disable hooks execution
+
+## Bug fixes
+
+- Improved Droid docs search
+- Long Execute tool commands now truncated in the UI header
+- Fixed on-disk images not being cleared after upload
+- Fixed thinking level changing mid-conversation by locking it per agent turn
+- Fixed review preset items using incorrect color for non-selected items
+- Fixed input box handling of multi-width characters like CJK and emoji
+- Fixed left/right arrow key navigation when @ suggestion menu is open
+- Bundled code-signed ripgrep binary for improved security and reliability
+
+`v0.30.0`
+
+## New features
+
+- **Search hidden files** - Grep and Glob tools now include hidden files in search results
+- **Session search** - Added search functionality to the session selector for quickly finding sessions
+- **Image indicator** - User messages now display an image indicator when images are attached
+
+## Bug fixes
+
+- Fixed EPERM permission errors on certain file operations - Windows file rename retry logic
+- Fixed ESC key navigation in `/review` and `/bg-process` commands for Ghostty terminal
+- MCP registry updates
+
+`v0.28.1`
+
+## Improvements
+
+- **Certificate caching** - Certificates are now cached on startup for faster loading
+- **Image upload limits** - Conversation images are now limited to prevent 413 errors when uploading large images
+- **MCP registry helper** - Added note for STDIO servers in MCP registry explaining installation requirements
+
+## Bug fixes
+
+- Fixed invalid signature in thinking block after assistant message interrupt
+- Fixed settings menu not showing all options when loading asynchronously
+
+`v0.28.0`
+
+## New features
+
+- **Show all sessions** - View and manage all your sessions across directories
+- **Windowed slash command navigation** - Improved navigation in the slash command menu with windowed scrolling
+- **Improved thinking display** - Refactored thinking block rendering for better clarity
+- **Figma MCP server** - Added support for Figma MCP server integration
+
+## Bug fixes
+
+- Fixed detection of Cerebras-style context length exceeded errors
+- Fixed duplicate spec modes and double empty line above input
+- Added promo price label for Opus model
+- Fixed `/install-github-app` command issues
+
+`v0.27.4`
+
+## New features
+
+- **Interleaved thinking support** - Display multiple thinking blocks during streaming, including redacted thinking blocks with safety messages
+- **Show thinking setting** - Show AI thinking/reasoning on the main view, turn on/off in `/settings`
+- **Hooks always enabled** - The hooks feature is now permanently enabled and available via the `/hooks` command
+
+## Bug fixes
+
+- Fixed ESC/Q navigation in `/model` menus - pressing ESC or Q now properly navigates back to previous menu level instead of closing all menus
+- Fixed garbage characters appearing in prompt input caused by terminal response bytes leaking into stdin
+- Fixed reasoning effort display in spec mode to correctly reflect the actual reasoning effort being used
+- Fixed OpenAI chat completions streaming for tool calls
+- Improved Gemini’s usage of the todo tool with better prompting
+- Fixed model warmup for GLM-4.6
+- Fixed `/install-github-app` command issues
+
+`v0.27.2`
+
+## New features
+
+- **Project-level MCP configs** - Configure MCP servers at the project level using `.factory/mcp.json`
+- **`/ide` command** - New command to manage VS Code, Cursor, and Windsurf IDE integrations. Shows current extension version or prompts to install
+- **Extra args in custom models** - Pass additional arguments to custom model configurations e.g. service\_tier, temperature, top\_p, etc
+
+## Bug fixes
+
+- Fixed task tool infinite wait when running subagents
+- Fixed expanding tilde (~) paths when loading sessions
+- Improved `@` search rankings - exact filename matches now appear at the top with VSCode-style two-column display
+- Removed automatic creation of `.factory/skills` folders
+- Show compacting state when triggered
+- Consolidate markdown rendering (fixes missing character in spec mode)
+- Parallelize loading certificates on Windows
+
+`v0.27.1`
+
+## New features
+
+- **Improved rewind functionality** - new `/rewind` command, plus speed and UX improvements.
+- **`/install-github-app` command** - New command to install the Factory GitHub app directly from the CLI.
+- **Images in MCP tool responses** - MCP tools can now return images that are properly sent to the LLM.
+
+## Bug fixes
+
+- Upgraded to bun 1.3.3
+- Safer mechanism to check if ripgrep is installed
+- Fixed gpt-5.1-codex reasoning
+- Shift+Backspace deletes single characters like Backspace
+- Fix GLM4.6 as a spec mode model
+- Fix exitSpecMode prompt
+- Fix custom models for subdroids
+- Prevent console logs during startup
+- Fix spec mode for Gemini
+
+`v0.26.12`
+
+## New features
+
+- **`/review` command** that provides an interactive code review workflow. Review code changes in different ways: comparing against a base branch, reviewing specific commits, examining uncommitted changes, or providing custom review instructions.
+
+## Bug fixes
+
+- Gemini 3 Pro now uses the updated 0.8× pricing multiplier - replacing introductory pricing
+- MCP navigator now fills the terminal
+- Update routing for /resume to filter correctly to /sessions
+- Position cursor at start when navigating history
+- Make all views in the mcp navigator full width
+- Fixed garbled character rendering on Windows
+- Unify LLM retry logic and do more retries in exec mode
+- Removed the deprecated Figma MCP server
+
+`v0.26.10`
+
+## New features
+
+- **MCP Registry Expansion** - Added 30+ new MCP server integrations including development tools (Playwright, Braintrust, Honeycomb), databases (Supabase, MongoDB, Prisma, Neon), security scanning (Snyk, Semgrep), and more
+
+## Bug fixes
+
+- Fixed race conditions where model changes mid-turn
+- Fixed bug report command
+- Fixed support for duplicate model IDs in custom model configurations
+- Fix PowerShell command execution on Windows
+
+`v0.26.8`
+
+## New features
+
+- **Background Processes Support** - Added support for running and managing background processes in the CLI. Includes a new `bg-process` command to list, kill, and clean up processes, with persistent process state tracking.
+- **MCP Registry Search** - Added search functionality to the MCP registry list view (`/mcp`). Filter available MCP servers by typing directly in the list interface.
+
+## Bug fixes
+
+- Fixed race conditions and rendering issues when suspending/resuming the TUI (e.g., when opening an external editor).
+- Fixed circular dependency issues in grep tool logging.
+
+`v0.26.7`
+
+## New features
+
+- **Directory-Specific Sessions** - Sessions are now stored per directory and automatically switch to the correct working directory when loaded. The `/sessions` command shows only sessions created in your current directory plus favorited sessions
+- **MCP Image Support** - MCP tools can now return images that are sent to the LLM for analysis
+- **Custom Models for Subdroids** - Subdroids can now use custom models instead of inheriting from parent session
+
+## Bug fixes
+
+- Fixed console output issues in exec mode
+- Fixed spec mode for Gemini models
+- Fixed exit spec mode prompt behavior
+
+`v0.26.3`
+
+## New features
+
+- **Skills Enabled by Default** - Skills command now enabled for all users
+- **Claude Code Hooks Auto-Migration** - Automatically detects and imports hooks from Claude Code CLI with interactive prompts. Smart translation converts `bash_tool` to `Execute` and `CLAUDE_CWD` to `DROID_CWD`, preventing duplicates and tracking migration state
+- **@ Suggestions Improvements** - Now includes folders in addition to files with better UI and performance
+
+## Bug fixes
+
+- Fixed GLM4.6 configuration issues preventing it from working in spec mode
+- Fixed warmup API calls
+- Shift+Backspace now deletes single character like Backspace
+
+`v0.26.0`
+
+## New features
+
+- **Skills System** - Claude Code-compatible `.factory/skills` support for modular, prompt-based capabilities. Use the `/skills` command to manage skills and import from `.claude/skills` directories
+- **Session Favorites** - New `/favorite` command to pin/unpin sessions, keeping your active projects at the top of the session list
+- **Enhanced Bug Reporting** - The `/bug` command now zips session context, uploads it to Factory, and returns a shareable report ID automatically
+- **Cleaner Diff Viewer** - Improved UI with horizontal lines instead of borders
+
+## Bug fixes
+
+- Always prompt to accept or reject generated specs and pass the correct labels to the UI flow
+- `droid spec` now writes files to the expected default path without manual overrides
+- Fixed autonomy handling so MCP tools respect the configured confirmation level in every session
+- Better error handling in pre-update logic
+- Added Axiom MCP server to the registry
+
+`v0.25.0`
+
+## New features
+
+- **Enhanced Hooks System** - Added 7 new hook types for complete lifecycle control:
+  
+  - UserPromptSubmit - Modify or validate prompts before they’re sent to the agent
+  - Stop - Execute custom logic when the agent completes (e.g., metrics collection)
+  - SubagentStop - Track and log subagent task completion
+  - PreCompact - Run custom logic before conversation compaction (can block compaction if needed)
+  - SessionStart - Initialize sessions and inject environment variables
+  - SessionEnd - Cleanup tasks when sessions end (triggered on logout, quit, Ctrl+C)
+- **MCP Tool Autonomy Levels** - Granular control over MCP tool confirmations: low autonomy requires confirmation for read-only MCP tools, high autonomy requires confirmation for all MCP tool calls
+- **Execute Tool Streaming** - Long-running commands now display the last two non-empty lines of output in real-time. No more wondering if Droid is stuck or slow.
+
+## Bug fixes
+
+- Fixed paste handling in hooks UI - no more escape sequence artifacts when pasting commands
+- Fixed message ID alignment after conversation compaction
+- Fixed unfinished tool uses being cleared when switching providers to retry
+- Fixed markdown prompt usage for GPT models
+- Fixed /mcp rendering for narrow terminal windows
+- Fixed bracketed paste handling when suspending TUI
+- Authentication errors now appear directly in the CLI with clear error messages
+
+`v0.24.0`
+
+## New features
+
+- **Hooks** - Introduced a powerful hooks system allowing you to run custom scripts before/after tool executions with configurable exit codes for different behaviors (success, warning, block, abort) - \[Experimental - turn on in /settings]
+- **Interactive Spec Editing** - Added ability to interactively edit specs before execution
+- **Prompt Cache Warmup** - Added prompt-cache warmup while you’re typing for faster responses
+
+## Bug fixes
+
+- Fixed model switching to correctly handle conversation compaction when needed
+- Fixed spec mode tab cycling for reasoning levels
+- Fixed bracketed paste when suspending TUI
+- Corrected line numbers in ApplyPatch tool diff display
+- Eliminated race condition in ripgrep path resolution
+- Various agent loop stability improvements
+- Tool execution now correctly respects autonomy mode
+- Applied workaround for Figma MCP server compatibility
+
+`v0.23.0`
+
+## New features
+
+- **Markdown table rendering** - CLI now properly renders markdown tables for better display of structured data and documentation
+- **Pinned todo plans** - Pin important todo items to keep them visible and track tasks during long-running sessions
+- **MCP tool result formatting** - Improved formatting for MCP tool results with cleaner, more readable output
+
+## Bug fixes
+
+- Fixed thinking block support for chat completion APIs to enable extended reasoning in compatible models
+- Fixed issue with baseline versions reverting back to non-baseline builds on update
+- Fixed autonomy mode handling in `droid exec` command for more reliable execution
+- Restored Ctrl+T keyboard shortcut functionality on Windows
+
+`v0.22.14`
+
+## New features
+
+- **Tab to cycle reasoning levels** - Navigate through different reasoning levels using the Tab key for better control
+- **Expanded bash mode outputs** - Transcript view now expands and displays bash command outputs for better visibility
+
+## Bug fixes
+
+- Fixed MCP tool discovery for droid exec so tools appear correctly in —list-tools and pass validation
+- Fixed diff view to line wrap for better readability of long lines
+- Fixed OAuth refresh for MCP servers
+- Fixed markdown rendering bug in transcript view
+- Fixed message cancellation handling in TUI
+- Fixed prompt cache key handling in completions
+- Brought back Ctrl+T keyboard shortcut on Windows
+
+`v0.22.12`
+
+## New features
+
+- **Quit/exit aliases** - type ‘quit’ or ‘exit’ commands for exiting sessions
+
+## Bug fixes
+
+- Collect all AGENTS.md and CLAUDE.md files for system reminders
+- Fixed MCP server argument parsing when adding servers through the UI
+- Improved system diagnostics utilities for better troubleshooting
+- Cleaning and dynamic rendering of the pending tools to make it clear Droid is not stuck
+
+`v0.22.11`
+
+## New features
+
+- **Context7 MCP server** - Added Context7 MCP server to the MCP registry
+
+## Bug fixes
+
+- Improved droid exec run type tracking
+- Improved MCP client info handling
+
+`v0.22.10`
+
+## New features
+
+- **OAuth Discovery** - Automatically discover OAuth providers to streamline authentication setup for MCP
+- **OpenAI Reasoning Summaries** - Display OpenAI’s extended reasoning summaries in expanded session view
+
+## Bug fixes
+
+- Fixed copy-pasting behavior in terminal sessions
+- Improved timeout handling for more reliable operations
+- Enhanced Windows compatibility
+- Enable custom droids by default
+- Improved error logging and diagnostics
+
+`v0.22.9`
+
+## New features
+
+- **MCP Registry** - Added a curated selection of MCP servers for easy discovery and setup ![MCP Registry interface showing curated MCP servers](https://mintcdn.com/factory/g8HOmy6isliNA7ef/images/mcp-registry-2.gif?s=07ba446161ea8455ebc1e74351422266)
+- **Tool Permissions Support** - Implemented request tool permissions flow in stream-jsonrpc mode with support for multiple concurrent tool confirmations
+- **Session Resume** - Show resume command on exit (Ctrl+C or /quit) with new `-r, --resume` flag to continue sessions
+- **Thinking Traces Display** - Added UI component to show thinking blocks in expanded session view
+
+## Bug fixes
+
+- Fixed CLI completion sounds by extracting embedded sound files to host filesystem, making them accessible to external shell commands
+- Fixed tool use in user message after tool cancellation
+- Added baseline builds for x64 CPUs (pre-2013) that don’t support AVX2 SIMD instructions
+- Updated static split logic to use text messages as stable checkpoints, reducing flickering during rendering
+- Fixed storage and sending of Gemini thinking content from delta.extra\_content.google
+- Removed MultiEdit tool due to low success rate (~80%)
+- Added recovery from malformed optional arguments using optimistic JSON parsing
+
+`v0.22.7`
+
+## New features
+
+- **Reasoning field support in streaming responses** - Added support for displaying reasoning fields in chat completion streaming chunks for models that provide extended reasoning
+- **Import from Claude restored** - Re-enabled the “Import from Claude” option in the droids menu for easier conversation migration
+
+## Bug fixes
+
+- Fixed MCP status indicator to only show when MCP servers are actually configured
+- Fixed message list flickering
+- Added support for custom headers when adding MCP servers
+- Fixed sound files not being included in SEA binary releases
+- Fixed Ctrl+C interruption messages to only display to users and not appear in logs for cleaner output
+- Resolved issue where tool use would incorrectly appear in user messages after tool cancellation
+
+`v0.22.6`
+
+## New features
+
+- **MCP Revamp**: Complete overhaul of Model Context Protocol implementation ([docs updated](https://docs.factory.ai/cli/configuration/mcp))
+
+## Bug fixes
+
+- Fixed issue with OpenAI organization field
+- Restore Import (I) options in Droids (subagents) menu
+
+`v0.22.5`
+
+## Bug fixes
+
+- **Default Model Behavior**: Improved default model behavior
+
+`v0.22.4`
+
+## Bug fixes
+
+- **Restored Report Previews**: Re-enabled HTML preview for reliability reports so you can view them directly in the web
+- **Fixed —help text**: Running droid exec —help was previously giving incorrect info for using droid exec in streaming mode. This has now been updated to include the correct flag name with correct instructions.
+
+`v0.22.3`
+
+## New features and enhancements
+
+- **Detailed transcript view (Ctrl+O)**: Press Ctrl+O to view comprehensive tool execution details with complete breakdowns for all tool types including Execute, Edit, MultiEdit, Create, and more
+- **Customizable completion sounds**: Configure sound notifications when commands complete, with support for different sounds in focus mode and custom sound file paths
+- **Terminal setup support**: Added automated setup support for Warp, iTerm2, and macOS Terminal with automatic terminal indicators for improved integration
+- **PowerShell update**: Now uses `pwsh.exe` for better PowerShell compatibility and reliability on Windows systems
+- **Drag-and-drop image support**: Attach images to CLI sessions via drag-and-drop for easier multimodal interactions
+- **Custom models in subagents**: Added support for using custom models when executing subagents via Task tool
+- **Custom droid descriptions**: Moved custom droid descriptions to Task tool for better organization and usability
+- **`droid exec` custom model support**: Added support for custom models in droid exec sessions
+
+## Bug fixes and stability
+
+- Resolved issues with prompt caching to improve performance and reduce costs
+- Added model ID logging on CLI tool execution for better observability
+- Limited messages rendered in Ctrl+O view to improve performance with large transcripts
+- Fixed sound files not being included in SEA binary releases
+- Fixed readonly value change issues that caused unexpected behavior
+- Fixed ExitSpecMode flickering issues for smoother user experience
+- Removed duplicate custom models header in settings
+- Improved session persistence to legacy sessions to maintain backward compatibility
+- Fixed infinite render issues on Windows systems
+- Fixed 400 error handling and validation
+- Added model validation error messages for better debugging
+- Fixed certificate loading timing to occur after logging initialization
+
+`v0.21.3`
+
+## New features and enhancements
+
+- **MCP OAuth support**: Added OAuth authentication support for Model Context Protocol in TUI for secure server connections
+- **System certificates support**: Added support for loading system certificates on Windows and macOS, with additional Windows system certificates support
+- **Fuzzy search implementation**: New fuzzy search for improved CLI command and option discovery
+- **Rewind fork workflow**: Added ability to rewind and fork from previous points in conversation sessions
+- **Bug report enhancements**: Added version, OS, and shell information to bug reports for better troubleshooting
+- **Live updates for subagent tool**: Added real-time progress updates when using the Task tool
+- **Enhanced custom droid prompts**: Improved prompts to encourage more proactive usage of custom droids
+- **Droid Shield optional setting**: Made Droid Shield an optional configurable setting with toggle support
+
+## Bug fixes and stability
+
+- Added session\_id to stream-json output format for better tracking and debugging
+- Enhanced authentication flow for smoother onboarding
+- Streamlined first-run experience by removing redundant onboarding steps
+- Fixed OAuth callback server port collision issues that prevented authentication
+- Fixed certificate loading timing issues causing TLS errors
+- Improved error metadata logging for better debugging
+- Fixed terminal setup issues across different shell environments
+- Better error messages when ripgrep (rg) isn’t available in PATH
+- Improved handling of corrupted unicode normalization in file paths
+- Fixed impact level default value handling
+
+September 30 - October 13
+
+`v0.19.8`
+
+## New features and enhancements
+
+- **`droid exec` Slack integration**: Added `slack_post_message` tool to droid exec for posting updates to Slack channels
+- **`droid exec` streaming JSON input mode**: Added streaming JSON input mode for multi-turn exec sessions for better automation workflows
+- **`droid exec` tool configuration**: Added ability to enable/disable specific tools in droid exec sessions
+- **`droid exec` pre-created session IDs**: Added support for pre-created session IDs in droid exec for better session management
+- **Initial prompt support**: Added support for launching TUI with an initial prompt via command line
+- **GLM-4.6 support**: Added LLM proxy support for GLM-4.6 with Fireworks, Baseten, and DeepInfra providers
+- **Azure OpenAI for GPT-5**: Added Azure OpenAI support for GPT-5 Codex in TUI
+- **Custom droid generation**: Added auto-generation of custom droids using LLM for faster setup
+- **MCP streamable HTTP servers**: Added support for streamable HTTP MCP servers
+- **Model selector refresh**: Updated model selector UI with improved organization and image support warnings
+- **Tab key auto-complete**: Tab key now auto-completes custom commands without submitting for better UX
+
+## Bug fixes and stability
+
+- **`droid exec` session continuation fix**: Fixed droid exec to correctly continue an existing session instead of overwriting session data
+- Dynamic reasoning label for Codex models in UI
+- AGENTS.md source paths now shown in settings for better transparency
+- Better error messages when custom model JSON configuration is broken
+- Manual update instructions when auto-update isn’t available
+- Fixed task subagents to properly terminate on abort
+- Fixed file rename retry logic on Windows systems
+- Fixed backslash rendering issues on Windows
+- Major improvements to custom subagents reliability
+- Fixed task tool subagents prompt for better execution
+- Don’t stop agent on cancelled file edits in spec mode
+- Validated working directory exists before executing ripgrep
+- Fixed subagents to inherit model from TUI parent session
+- Truncated large MCP tool results to prevent context overflow
+- Fixed /cost command with Fireworks cached input
+- Added user-agent header to LLM requests for better tracking
+- Locked down file system permissions for better security
+- Fixed rendering for failed edit calls in spec mode
+- Fixed compaction logic and retry without tool results
+- Applied output transforms before compaction/caching
+- Persisted session’s token usage for accurate cost tracking
+- Fixed /new command to reset timer and sessionId properly
+- Fixed compaction retry without tool results
+- Fixed screenshot reading with unicode normalization fallback
+
+[Factory Release 1.10](https://docs.factory.ai/changelog/1-10)

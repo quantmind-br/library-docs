@@ -1,0 +1,1526 @@
+{
+  "generated_at": "2026-01-22T22:23:20.835653395-03:00",
+  "source_url": "https://gofastmcp.com/",
+  "strategy": "crawler",
+  "total_documents": 78,
+  "documents": [
+    {
+      "file_path": "001-getting-started-welcome.md",
+      "title": "Welcome to FastMCP 3.0! - FastMCP",
+      "url": "https://gofastmcp.com/getting-started/welcome",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:31.916421908-03:00",
+      "description": "The fast, Pythonic way to build MCP servers and clients.",
+      "summary": "This document introduces FastMCP, a Python framework for building Model Context Protocol (MCP) applications that simplifies connecting LLMs to tools and data through standardized abstractions.",
+      "tags": [
+        "fastmcp",
+        "model-context-protocol",
+        "mcp-server",
+        "python-framework",
+        "llm-integration"
+      ],
+      "category": "concept",
+      "original_file_path": "getting-started-welcome.md"
+    },
+    {
+      "file_path": "003-getting-started-quickstart.md",
+      "title": "Quickstart - FastMCP",
+      "url": "https://gofastmcp.com/getting-started/quickstart",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:40.014090542-03:00",
+      "summary": "This document provides a quickstart guide for creating a FastMCP server, registering tools, running it via various transports, and deploying it to the Prefect Horizon platform.",
+      "tags": [
+        "fastmcp",
+        "mcp-server",
+        "python",
+        "prefect-horizon",
+        "deployment",
+        "mcp-tooling"
+      ],
+      "category": "tutorial",
+      "original_file_path": "getting-started-quickstart.md"
+    },
+    {
+      "file_path": "061-development-upgrade-guide.md",
+      "title": "Upgrade Guide - FastMCP",
+      "url": "https://gofastmcp.com/development/upgrade-guide",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:40.967088206-03:00",
+      "description": "Migration instructions for upgrading between FastMCP versions",
+      "summary": "This document outlines the breaking changes, deprecated features, and necessary migration steps for upgrading between versions of the FastMCP framework.",
+      "tags": [
+        "fastmcp",
+        "migration-guide",
+        "breaking-changes",
+        "python",
+        "version-upgrade",
+        "api-updates"
+      ],
+      "category": "guide",
+      "original_file_path": "development-upgrade-guide.md"
+    },
+    {
+      "file_path": "008-servers-providers-overview.md",
+      "title": "Providers - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/overview",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:42.405076515-03:00",
+      "description": "How FastMCP sources tools, resources, and prompts",
+      "summary": "This document explains the component provider abstraction in FastMCP, detailing how they manage and aggregate tools, resources, and prompts from multiple sources.",
+      "tags": [
+        "fastmcp",
+        "component-providers",
+        "server-composition",
+        "proxying",
+        "transforms",
+        "mcp-server"
+      ],
+      "category": "concept",
+      "original_file_path": "servers-providers-overview.md"
+    },
+    {
+      "file_path": "004-servers-server.md",
+      "title": "The FastMCP Server - FastMCP",
+      "url": "https://gofastmcp.com/servers/server",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:40.950334335-03:00",
+      "description": "The core FastMCP server class for building MCP applications",
+      "summary": "This document explains the core FastMCP class used to build Model Context Protocol servers, including how to define tools, resources, and prompts while managing server lifecycle and transports.",
+      "tags": [
+        "fastmcp",
+        "mcp-server",
+        "python-api",
+        "tag-filtering",
+        "http-transport",
+        "resource-templates",
+        "server-orchestration"
+      ],
+      "category": "reference",
+      "original_file_path": "servers-server.md"
+    },
+    {
+      "file_path": "063-updates.md",
+      "title": "FastMCP Updates - FastMCP",
+      "url": "https://gofastmcp.com/updates",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:41.483858162-03:00",
+      "summary": "This release note details version 2.13 of FastMCP, focusing on production-ready features such as persistent storage backends, enhanced OAuth security, and response caching middleware.",
+      "tags": [
+        "fastmcp",
+        "release-notes",
+        "oauth-authentication",
+        "persistent-storage",
+        "caching-middleware",
+        "server-lifespan"
+      ],
+      "category": "reference",
+      "original_file_path": "updates.md"
+    },
+    {
+      "file_path": "018-servers-transforms-prompts-as-tools.md",
+      "title": "Prompts as Tools - FastMCP",
+      "url": "https://gofastmcp.com/servers/transforms/prompts-as-tools",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:44.750000336-03:00",
+      "description": "Expose prompts to tool-only clients",
+      "summary": "This document explains how to use the PromptsAsTools transform to expose MCP prompts as callable tools for clients that do not natively support the prompt protocol.",
+      "tags": [
+        "fastmcp",
+        "mcp-server",
+        "prompts-as-tools",
+        "python",
+        "interoperability",
+        "tool-calling"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-transforms-prompts-as-tools.md"
+    },
+    {
+      "file_path": "013-servers-providers-custom.md",
+      "title": "Custom Providers - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/custom",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:43.66484843-03:00",
+      "description": "Build providers that source components from any data source",
+      "summary": "This document explains how to create and register custom providers in FastMCP to dynamically source tools, resources, and prompts from external systems such as databases and APIs.",
+      "tags": [
+        "fastmcp",
+        "custom-providers",
+        "lifecycle-management",
+        "backend-integration",
+        "python-sdk",
+        "component-sourcing"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-providers-custom.md"
+    },
+    {
+      "file_path": "019-servers-transforms-resources-as-tools.md",
+      "title": "Resources as Tools - FastMCP",
+      "url": "https://gofastmcp.com/servers/transforms/resources-as-tools",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:45.971719023-03:00",
+      "description": "Expose resources to tool-only clients",
+      "summary": "This document explains how to use the ResourcesAsTools transform to expose Model Context Protocol (MCP) resources as tools, enabling access for clients that do not natively support resource protocols.",
+      "tags": [
+        "fastmcp",
+        "mcp-protocol",
+        "resources-as-tools",
+        "transforms",
+        "api-bridging",
+        "server-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-transforms-resources-as-tools.md"
+    },
+    {
+      "file_path": "011-servers-providers-proxy.md",
+      "title": "MCP Proxy Provider - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/proxy",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:43.527518668-03:00",
+      "description": "Source components from other MCP servers",
+      "summary": "This document explains how to use the Proxy Provider to integrate and expose components from external MCP servers, covering transport bridging, session isolation, and server aggregation.",
+      "tags": [
+        "fastmcp",
+        "mcp-proxy",
+        "transport-bridging",
+        "session-isolation",
+        "server-aggregation",
+        "mcp-protocol"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-providers-proxy.md"
+    },
+    {
+      "file_path": "015-servers-transforms-transforms.md",
+      "title": "Transforms Overview - FastMCP",
+      "url": "https://gofastmcp.com/servers/transforms/transforms",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:43.863961768-03:00",
+      "description": "Modify components as they flow through your server",
+      "summary": "This document explains how to use and implement transforms in FastMCP to modify tools, resources, and prompts as they flow between providers and clients.",
+      "tags": [
+        "fastmcp",
+        "transforms",
+        "middleware",
+        "namespace",
+        "tool-transformation",
+        "component-modification",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-transforms-transforms.md"
+    },
+    {
+      "file_path": "056-patterns-testing.md",
+      "title": "Testing your FastMCP Server - FastMCP",
+      "url": "https://gofastmcp.com/patterns/testing",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:50.85271189-03:00",
+      "description": "How to test your FastMCP server.",
+      "summary": "This document explains how to set up and write tests for FastMCP servers using Pytest and the FastMCP Client, including configuration for async testing and fixture usage.",
+      "tags": [
+        "fastmcp",
+        "pytest",
+        "testing",
+        "python",
+        "async-testing",
+        "mcp-server"
+      ],
+      "category": "tutorial",
+      "original_file_path": "patterns-testing.md"
+    },
+    {
+      "file_path": "002-getting-started-installation.md",
+      "title": "Installation - FastMCP",
+      "url": "https://gofastmcp.com/getting-started/installation",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:41.279233763-03:00",
+      "description": "Install FastMCP and verify your setup",
+      "summary": "This document provides comprehensive instructions for installing FastMCP, verifying the setup, and upgrading from previous versions or the official MCP SDK.",
+      "tags": [
+        "fastmcp",
+        "installation",
+        "python",
+        "upgrade-guide",
+        "dependency-management",
+        "versioning-policy"
+      ],
+      "category": "guide",
+      "original_file_path": "getting-started-installation.md"
+    },
+    {
+      "file_path": "064-v2-getting-started-welcome.md",
+      "title": "Welcome to FastMCP 2.0! - FastMCP",
+      "url": "https://gofastmcp.com/v2/getting-started/welcome",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:51.322043738-03:00",
+      "description": "The fast, Pythonic way to build MCP servers and clients.",
+      "summary": "This document introduces FastMCP, a Python framework for building Model Context Protocol (MCP) applications that connect LLMs to tools and data through resources, tools, and prompts.",
+      "tags": [
+        "fastmcp",
+        "model-context-protocol",
+        "python-framework",
+        "llm-tools",
+        "mcp-server",
+        "production-ready"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-getting-started-welcome.md"
+    },
+    {
+      "file_path": "030-clients-client.md",
+      "title": "The FastMCP Client - FastMCP",
+      "url": "https://gofastmcp.com/clients/client",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:48.5104376-03:00",
+      "description": "Programmatic client for interacting with MCP servers through a well-typed, Pythonic interface.",
+      "summary": "This document explains how to use the fastmcp.Client class to programmatically interact with Model Context Protocol (MCP) servers. It covers connection lifecycle management, transport mechanisms, and executing server operations such as tools, resources, and prompts.",
+      "tags": [
+        "mcp-client",
+        "fastmcp",
+        "python-sdk",
+        "connection-management",
+        "transport-layer",
+        "mcp-operations"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-client.md"
+    },
+    {
+      "file_path": "057-patterns-contrib.md",
+      "title": "Contrib Modules - FastMCP",
+      "url": "https://gofastmcp.com/patterns/contrib",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:53.087853675-03:00",
+      "description": "Community-contributed modules extending FastMCP",
+      "summary": "This document introduces the FastMCP contrib package, explaining how to use community-contributed modules and providing guidelines for submitting new extensions.",
+      "tags": [
+        "fastmcp",
+        "contrib-package",
+        "community-modules",
+        "extension-usage",
+        "contribution-guidelines"
+      ],
+      "category": "guide",
+      "original_file_path": "patterns-contrib.md"
+    },
+    {
+      "file_path": "051-deployment-running-server.md",
+      "title": "Running Your Server - FastMCP",
+      "url": "https://gofastmcp.com/deployment/running-server",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:50.912148766-03:00",
+      "description": "Learn how to run your FastMCP server locally for development and testing",
+      "summary": "This guide explains the different methods and transport protocols available for running FastMCP servers locally, including STDIO, HTTP, and the command-line interface.",
+      "tags": [
+        "fastmcp",
+        "mcp-server",
+        "stdio-transport",
+        "http-transport",
+        "python-cli",
+        "asyncio",
+        "local-development"
+      ],
+      "category": "guide",
+      "original_file_path": "deployment-running-server.md"
+    },
+    {
+      "file_path": "007-servers-prompts.md",
+      "title": "Prompts - FastMCP",
+      "url": "https://gofastmcp.com/servers/prompts",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:55.441920573-03:00",
+      "description": "Create reusable, parameterized prompt templates for MCP clients.",
+      "summary": "This document explains how to define, customize, and manage reusable message templates in FastMCP using the @mcp.prompt decorator. It covers parameter validation, return types like Message and PromptResult, and argument type handling for structured LLM interactions.",
+      "tags": [
+        "fastmcp",
+        "mcp-prompts",
+        "python-sdk",
+        "prompt-engineering",
+        "message-templates",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-prompts.md"
+    },
+    {
+      "file_path": "006-servers-resources.md",
+      "title": "Resources & Templates - FastMCP",
+      "url": "https://gofastmcp.com/servers/resources",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:56.357720078-03:00",
+      "description": "Expose data sources and dynamic content generators to your MCP client.",
+      "summary": "This document explains how to define and manage static and dynamic resources in FastMCP using decorators, classes, and URIs. It covers key concepts such as content types, visibility controls, asynchronous operations, and integration with the MCP context object.",
+      "tags": [
+        "fastmcp",
+        "mcp-resources",
+        "resource-templates",
+        "uri-handling",
+        "python-sdk",
+        "resource-management"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-resources.md"
+    },
+    {
+      "file_path": "023-servers-authorization.md",
+      "title": "Authorization - FastMCP",
+      "url": "https://gofastmcp.com/servers/authorization",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:41.246462921-03:00",
+      "description": "Control access to components using callable-based authorization checks that filter visibility and enforce permissions.",
+      "summary": "This document explains how to implement authorization in FastMCP using callable-based checks and middleware to control access to tools, resources, and prompts. It covers built-in authorization patterns, custom check creation, and the distinction between component-level filtering and server-wide enforcement.",
+      "tags": [
+        "fastmcp",
+        "authorization",
+        "middleware",
+        "auth-context",
+        "access-control",
+        "security",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-authorization.md"
+    },
+    {
+      "file_path": "020-servers-auth-authentication.md",
+      "title": "Authentication - FastMCP",
+      "url": "https://gofastmcp.com/servers/auth/authentication",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:56.893311826-03:00",
+      "description": "Secure your FastMCP server with flexible authentication patterns, from simple API keys to full OAuth 2.1 integration with external identity providers.",
+      "summary": "This document explains authentication patterns and implementation strategies for Model Context Protocol (MCP) servers, detailing the transition from token validation to full OAuth integration using FastMCP.",
+      "tags": [
+        "mcp-protocol",
+        "authentication",
+        "fastmcp",
+        "oauth-2-0",
+        "token-validation",
+        "identity-providers",
+        "dynamic-client-registration"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-auth-authentication.md"
+    },
+    {
+      "file_path": "062-changelog.md",
+      "title": "Changelog - FastMCP",
+      "url": "https://gofastmcp.com/changelog",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:54.465966844-03:00",
+      "summary": "This document announces the release of FastMCP v2.13.0, highlighting new features such as persistent storage backends, production-ready OAuth enhancements, and response caching middleware.",
+      "tags": [
+        "fastmcp",
+        "release-notes",
+        "oauth",
+        "caching",
+        "persistent-storage",
+        "mcp-protocol"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog.md"
+    },
+    {
+      "file_path": "046-integrations-azure.md",
+      "title": "Azure (Microsoft Entra ID) OAuth \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/azure",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:00.911602745-03:00",
+      "description": "Secure your FastMCP server with Azure/Microsoft Entra OAuth",
+      "summary": "This guide explains how to secure a FastMCP server using Azure OAuth and Microsoft Entra ID through the AzureProvider. It covers app registration, scope configuration, client authentication, and production setup for persistent token storage.",
+      "tags": [
+        "fastmcp",
+        "azure-oauth",
+        "microsoft-entra-id",
+        "authentication",
+        "security",
+        "python",
+        "jwt-validation",
+        "oauth-proxy"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-azure.md"
+    },
+    {
+      "file_path": "031-clients-transports.md",
+      "title": "Client Transports - FastMCP",
+      "url": "https://gofastmcp.com/clients/transports",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:48.530417417-03:00",
+      "description": "Configure how clients connect to and communicate with MCP servers.",
+      "summary": "This document explains how to configure and implement various transport layers for MCP clients, covering STDIO, HTTP, and in-memory connections along with advanced multi-server setups.",
+      "tags": [
+        "mcp",
+        "fastmcp",
+        "transport-layer",
+        "stdio-transport",
+        "http-transport",
+        "client-configuration",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-transports.md"
+    },
+    {
+      "file_path": "041-integrations-auth0.md",
+      "title": "Auth0 OAuth \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/auth0",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:59.585153506-03:00",
+      "description": "Secure your FastMCP server with Auth0 OAuth",
+      "summary": "This document explains how to secure a FastMCP server using Auth0 OAuth authentication, covering initial configuration, client testing, and production-ready persistent storage setup.",
+      "tags": [
+        "fastmcp",
+        "auth0",
+        "oauth",
+        "authentication",
+        "security",
+        "oidc",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-auth0.md"
+    },
+    {
+      "file_path": "060-development-releases.md",
+      "title": "Releases - FastMCP",
+      "url": "https://gofastmcp.com/development/releases#versioning-policy",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:04.364090785-03:00",
+      "description": "FastMCP versioning and release process",
+      "summary": "This document outlines FastMCP's versioning policy and release process, detailing how the project handles semantic versioning, breaking changes, and public API stability.",
+      "tags": [
+        "semantic-versioning",
+        "release-policy",
+        "fastmcp-updates",
+        "public-api",
+        "breaking-changes",
+        "version-management"
+      ],
+      "category": "guide",
+      "original_file_path": "development-releases.md"
+    },
+    {
+      "file_path": "021-servers-auth-token-verification.md",
+      "title": "Token Verification - FastMCP",
+      "url": "https://gofastmcp.com/servers/auth/token-verification#token-introspection-protocol",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:03.500219688-03:00",
+      "description": "Protect your server by validating bearer tokens issued by external systems.",
+      "summary": "This document explains how to implement token verification in FastMCP to validate bearer tokens from external identity providers. it covers various authentication strategies including JWT validation via JWKS, symmetric keys, and static public keys.",
+      "tags": [
+        "fastmcp",
+        "token-verification",
+        "jwt",
+        "authentication",
+        "authorization",
+        "security",
+        "bearer-token"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-auth-token-verification.md"
+    },
+    {
+      "file_path": "066-v2-getting-started-quickstart.md",
+      "title": "Quickstart - FastMCP",
+      "url": "https://gofastmcp.com/v2/getting-started/quickstart",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:05.522808288-03:00",
+      "summary": "This document provides a quickstart guide for creating, running, and calling a FastMCP server. It also explains how to deploy servers to the Prefect Horizon platform for managed hosting and observability.",
+      "tags": [
+        "fastmcp",
+        "mcp-server",
+        "python-sdk",
+        "http-transport",
+        "stdio-transport",
+        "deployment",
+        "prefect-horizon"
+      ],
+      "category": "tutorial",
+      "original_file_path": "v2-getting-started-quickstart.md"
+    },
+    {
+      "file_path": "042-integrations-authkit.md",
+      "title": "AuthKit \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/authkit",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:58.800166062-03:00",
+      "description": "Secure your FastMCP server with AuthKit by WorkOS",
+      "summary": "This guide explains how to secure a FastMCP server using WorkOS AuthKit for user authentication and Remote OAuth token validation.",
+      "tags": [
+        "fastmcp",
+        "workos",
+        "authkit",
+        "authentication",
+        "remote-oauth",
+        "security"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-authkit.md"
+    },
+    {
+      "file_path": "025-servers-middleware.md",
+      "title": "Middleware - FastMCP",
+      "url": "https://gofastmcp.com/servers/middleware",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:04.25291149-03:00",
+      "description": "Add cross-cutting functionality to your MCP server with middleware that intercepts and modifies requests and responses.",
+      "summary": "This document explains how to implement and manage middleware in FastMCP to handle cross-cutting concerns like logging, authentication, and request transformation across server operations.",
+      "tags": [
+        "fastmcp",
+        "middleware",
+        "python",
+        "request-pipeline",
+        "server-hooks",
+        "mcp-protocol"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-middleware.md"
+    },
+    {
+      "file_path": "068-v2-patterns-cli.md",
+      "title": "FastMCP CLI - FastMCP",
+      "url": "https://gofastmcp.com/v2/patterns/cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:08.455034768-03:00",
+      "description": "Learn how to use the FastMCP command-line interface",
+      "summary": "This document provides a comprehensive overview of the FastMCP command-line interface for managing, running, and developing MCP servers. It details command options, dependency management through uv, and various server entrypoint methods including factory functions and configuration files.",
+      "tags": [
+        "fastmcp",
+        "cli-reference",
+        "mcp-server",
+        "python",
+        "dependency-management",
+        "server-deployment",
+        "command-line-interface"
+      ],
+      "category": "reference",
+      "original_file_path": "v2-patterns-cli.md"
+    },
+    {
+      "file_path": "071-v2-patterns-decorating-methods.md",
+      "title": "Decorating Methods - FastMCP",
+      "url": "https://gofastmcp.com/v2/patterns/decorating-methods",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:06.62937573-03:00",
+      "description": "Properly use instance methods, class methods, and static methods with FastMCP decorators.",
+      "summary": "This guide explains the correct patterns for using FastMCP decorators with Python instance, class, and static methods to ensure proper parameter binding.",
+      "tags": [
+        "fastmcp",
+        "python-decorators",
+        "method-binding",
+        "tool-registration",
+        "instance-methods",
+        "class-methods"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-patterns-decorating-methods.md"
+    },
+    {
+      "file_path": "012-servers-providers-mounting.md",
+      "title": "Mounting Servers - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/mounting#mounting-external-servers",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:04.529431851-03:00",
+      "description": "Compose servers by mounting one inside another",
+      "summary": "This guide explains how to combine multiple FastMCP servers into a unified parent server using mounting and importing for modular application design. It details namespacing, proxying external servers, and managing component lifecycles to ensure scalable and organized server architectures.",
+      "tags": [
+        "fastmcp",
+        "server-mounting",
+        "modular-architecture",
+        "namespacing",
+        "proxy-mounting",
+        "server-composition",
+        "python-mcp"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-providers-mounting.md"
+    },
+    {
+      "file_path": "065-v2-getting-started-installation.md",
+      "title": "Installation - FastMCP",
+      "url": "https://gofastmcp.com/v2/getting-started/installation",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:06.975348706-03:00",
+      "summary": "This document provides instructions for installing, verifying, and upgrading FastMCP, along with details on its semantic versioning policy and contribution guidelines.",
+      "tags": [
+        "fastmcp",
+        "installation",
+        "python-sdk",
+        "versioning-policy",
+        "mcp-protocol",
+        "migration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-getting-started-installation.md"
+    },
+    {
+      "file_path": "026-servers-lifespan.md",
+      "title": "Lifespans - FastMCP",
+      "url": "https://gofastmcp.com/servers/lifespan",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:54.069300106-03:00",
+      "description": "Server-level setup and teardown with composable lifespans",
+      "summary": "This document explains how to use lifespans in FastMCP to manage server startup and shutdown logic and share global state across tools.",
+      "tags": [
+        "fastmcp",
+        "lifespan-events",
+        "server-lifecycle",
+        "context-management",
+        "fastapi-integration",
+        "python-async"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-lifespan.md"
+    },
+    {
+      "file_path": "049-integrations-scalekit.md",
+      "title": "Scalekit \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/scalekit",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:01.229622748-03:00",
+      "description": "Secure your FastMCP server with Scalekit",
+      "summary": "This document explains how to integrate Scalekit authentication into a FastMCP server using the ScalekitProvider and the Remote OAuth pattern for JWT validation.",
+      "tags": [
+        "fastmcp",
+        "scalekit",
+        "authentication",
+        "oauth-2-1",
+        "jwt-validation",
+        "remote-oauth",
+        "python-sdk",
+        "security"
+      ],
+      "category": "tutorial",
+      "original_file_path": "integrations-scalekit.md"
+    },
+    {
+      "file_path": "047-integrations-aws-cognito.md",
+      "title": "AWS Cognito OAuth \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/aws-cognito",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:01.602849487-03:00",
+      "description": "Secure your FastMCP server with AWS Cognito user pools",
+      "summary": "This guide explains how to secure FastMCP servers using AWS Cognito and the OAuth Proxy pattern for enterprise-grade authentication.",
+      "tags": [
+        "fastmcp",
+        "aws-cognito",
+        "oauth",
+        "authentication",
+        "security",
+        "jwt-validation",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-aws-cognito.md"
+    },
+    {
+      "file_path": "058-development-tests.md",
+      "title": "Tests - FastMCP",
+      "url": "https://gofastmcp.com/development/tests",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:50.254632255-03:00",
+      "description": "Testing patterns and requirements for FastMCP",
+      "summary": "This document provides comprehensive guidance on testing FastMCP applications, covering test organization, execution with pytest, and best practices for writing maintainable and effective test suites.",
+      "tags": [
+        "fastmcp",
+        "testing",
+        "pytest",
+        "unit-testing",
+        "integration-testing",
+        "mocking",
+        "python-development"
+      ],
+      "category": "guide",
+      "original_file_path": "development-tests.md"
+    },
+    {
+      "file_path": "059-development-contributing.md",
+      "title": "Contributing - FastMCP",
+      "url": "https://gofastmcp.com/development/contributing",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:50.930649984-03:00",
+      "description": "Development workflow for FastMCP contributors",
+      "summary": "This document outlines the formal contribution guidelines for FastMCP, detailing design principles, issue reporting protocols, and pull request requirements. It provides instructions for setting up the development environment and maintaining high standards for code quality and documentation.",
+      "tags": [
+        "contributing",
+        "development-standards",
+        "pull-requests",
+        "pythonic-code",
+        "testing-guidelines",
+        "open-source",
+        "fastmcp"
+      ],
+      "category": "guide",
+      "original_file_path": "development-contributing.md"
+    },
+    {
+      "file_path": "016-servers-transforms-namespace.md",
+      "title": "Namespace Transform - FastMCP",
+      "url": "https://gofastmcp.com/servers/transforms/namespace",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:46.110275161-03:00",
+      "description": "Prefix component names to prevent conflicts",
+      "summary": "Explains how to use the Namespace transform in FastMCP to prefix component names and prevent naming conflicts when composing multiple servers.",
+      "tags": [
+        "fastmcp",
+        "namespacing",
+        "server-composition",
+        "mcp-tools",
+        "resource-management"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-transforms-namespace.md"
+    },
+    {
+      "file_path": "053-deployment-server-configuration.md",
+      "title": "Project Configuration - FastMCP",
+      "url": "https://gofastmcp.com/deployment/server-configuration",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:48.789295998-03:00",
+      "description": "Use fastmcp.json for portable, declarative project configuration",
+      "summary": "This document explains how to use the fastmcp.json file for declarative configuration of FastMCP servers, covering its structure, environment management, and deployment settings.",
+      "tags": [
+        "fastmcp",
+        "fastmcp-json",
+        "configuration-management",
+        "python",
+        "server-deployment",
+        "json-schema",
+        "dependency-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "deployment-server-configuration.md"
+    },
+    {
+      "file_path": "005-servers-tools.md",
+      "title": "Tools - FastMCP",
+      "url": "https://gofastmcp.com/servers/tools#input-validation-modes",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:58.431219843-03:00",
+      "description": "Expose functions as executable capabilities for your MCP client.",
+      "summary": "This document explains how to define, configure, and register Python functions as tools within the FastMCP framework to enable LLM interaction with external systems. It covers tool decorators, type annotations, asynchronous execution, and input validation modes.",
+      "tags": [
+        "fastmcp",
+        "python",
+        "mcp-protocol",
+        "llm-tools",
+        "type-annotations",
+        "pydantic-validation"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-tools.md"
+    },
+    {
+      "file_path": "054-deployment-prefect-horizon.md",
+      "title": "Prefect Horizon - FastMCP",
+      "url": "https://gofastmcp.com/deployment/prefect-horizon",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:48.599153446-03:00",
+      "description": "The MCP platform from the FastMCP team",
+      "summary": "This guide explains how to deploy, manage, and test FastMCP servers using the Prefect Horizon platform. It covers the deployment workflow, server configuration, and the creation of unified agent interfaces.",
+      "tags": [
+        "prefect-horizon",
+        "fastmcp",
+        "mcp-server",
+        "deployment",
+        "server-management",
+        "authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "deployment-prefect-horizon.md"
+    },
+    {
+      "file_path": "009-servers-providers-local.md",
+      "title": "Local Provider - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/local",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:43.48877909-03:00",
+      "description": "The default provider for decorator-registered components",
+      "summary": "This document explains the LocalProvider mechanism in FastMCP for registering, managing, and sharing server-side components such as tools, resources, and prompts.",
+      "tags": [
+        "fastmcp",
+        "localprovider",
+        "component-registration",
+        "python-sdk",
+        "visibility-control",
+        "duplicate-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-providers-local.md"
+    },
+    {
+      "file_path": "028-servers-tasks.md",
+      "title": "Background Tasks - FastMCP",
+      "url": "https://gofastmcp.com/servers/tasks",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:03.273195827-03:00",
+      "description": "Run long-running operations asynchronously with progress tracking",
+      "summary": "This document explains how to implement and configure background tasks in FastMCP, covering execution modes, backend options, and progress reporting for long-running operations.",
+      "tags": [
+        "fastmcp",
+        "background-tasks",
+        "mcp-protocol",
+        "redis",
+        "task-scheduler",
+        "progress-reporting",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-tasks.md"
+    },
+    {
+      "file_path": "017-servers-transforms-tool-transformation.md",
+      "title": "Tool Transformation - FastMCP",
+      "url": "https://gofastmcp.com/servers/transforms/tool-transformation",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:46.093301142-03:00",
+      "description": "Modify tool schemas - rename, reshape arguments, and customize behavior",
+      "summary": "This document explains how to use tool transformations in FastMCP to modify tool schemas, rename arguments, and intercept execution. It covers both deferred transformations for mounted servers and immediate transformations for direct tool registration.",
+      "tags": [
+        "fastmcp",
+        "tool-transformation",
+        "mcp",
+        "python",
+        "schema-modification",
+        "api-design"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-transforms-tool-transformation.md"
+    },
+    {
+      "file_path": "027-servers-pagination.md",
+      "title": "Pagination - FastMCP",
+      "url": "https://gofastmcp.com/servers/pagination",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:55.340551571-03:00",
+      "description": "Control how servers return large lists of components to clients.",
+      "summary": "This document explains how to implement and manage pagination for tools, resources, and prompts within the FastMCP framework, covering both server-side configuration and client-side consumption.",
+      "tags": [
+        "mcp",
+        "fastmcp",
+        "pagination",
+        "api-design",
+        "server-configuration",
+        "cursor-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-pagination.md"
+    },
+    {
+      "file_path": "052-deployment-http.md",
+      "title": "HTTP Deployment - FastMCP",
+      "url": "https://gofastmcp.com/deployment/http#oauth-token-security",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:52.993469368-03:00",
+      "description": "Deploy your FastMCP server over HTTP for remote access",
+      "summary": "This document explains how to deploy FastMCP servers as remote HTTP services using either direct server runs or ASGI applications. It covers essential configuration for production environments, including security, health monitoring, and middleware integration.",
+      "tags": [
+        "fastmcp",
+        "remote-deployment",
+        "asgi",
+        "http-transport",
+        "cors",
+        "health-checks",
+        "server-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "deployment-http.md"
+    },
+    {
+      "file_path": "010-servers-providers-filesystem.md",
+      "title": "Filesystem Provider - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/filesystem",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:43.580568276-03:00",
+      "description": "Automatic component discovery from Python files",
+      "summary": "This document explains how to use the FileSystemProvider in FastMCP to automatically discover and register tools, resources, and prompts from a directory of Python files using standalone decorators.",
+      "tags": [
+        "fastmcp",
+        "filesystemprovider",
+        "tool-discovery",
+        "resource-registration",
+        "python",
+        "server-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-providers-filesystem.md"
+    },
+    {
+      "file_path": "045-integrations-github.md",
+      "title": "GitHub OAuth \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/github",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:01.970487863-03:00",
+      "description": "Secure your FastMCP server with GitHub OAuth",
+      "summary": "This guide explains how to secure a FastMCP server using GitHub OAuth authentication via the GitHubProvider and OAuth Proxy pattern. It covers configuration steps for development and production environments, including token management and client integration.",
+      "tags": [
+        "fastmcp",
+        "github-oauth",
+        "authentication",
+        "security",
+        "oauth-proxy",
+        "token-management",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-github.md"
+    },
+    {
+      "file_path": "055-patterns-cli.md",
+      "title": "FastMCP CLI - FastMCP",
+      "url": "https://gofastmcp.com/patterns/cli",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:53.538415295-03:00",
+      "description": "Learn how to use the FastMCP command-line interface",
+      "summary": "This document provides a comprehensive overview of the FastMCP command-line interface, detailing commands for running, developing, and installing MCP servers along with their associated options and entrypoints.",
+      "tags": [
+        "fastmcp-cli",
+        "mcp-server",
+        "command-line-interface",
+        "dependency-management",
+        "server-deployment",
+        "python-mcp"
+      ],
+      "category": "reference",
+      "original_file_path": "patterns-cli.md"
+    },
+    {
+      "file_path": "043-integrations-workos.md",
+      "title": "WorkOS \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/workos",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:59.064339887-03:00",
+      "description": "Authenticate FastMCP servers with WorkOS Connect",
+      "summary": "This document explains how to secure a FastMCP server using WorkOS Connect authentication via the OAuth Proxy pattern. It provides step-by-step instructions for development setup, client testing, and production-grade configuration with persistent token storage.",
+      "tags": [
+        "fastmcp",
+        "workos-connect",
+        "oauth-authentication",
+        "security-configuration",
+        "mcp-server",
+        "token-management"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-workos.md"
+    },
+    {
+      "file_path": "078-v2-updates.md",
+      "title": "FastMCP Updates - FastMCP",
+      "url": "https://gofastmcp.com/v2/updates",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:07.24374436-03:00",
+      "summary": "This document details the release of FastMCP 2.13, introducing persistent storage backends, enhanced OAuth security features, and response caching middleware to support production workloads.",
+      "tags": [
+        "fastmcp",
+        "release-notes",
+        "persistent-storage",
+        "oauth-authentication",
+        "response-caching",
+        "server-lifespan",
+        "pydantic-validation"
+      ],
+      "category": "other",
+      "original_file_path": "v2-updates.md"
+    },
+    {
+      "file_path": "014-servers-providers-skills.md",
+      "title": "Skills Provider - FastMCP",
+      "url": "https://gofastmcp.com/servers/providers/skills",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:45.95768086-03:00",
+      "description": "Expose agent skills as MCP resources",
+      "summary": "Explains how to expose and manage agent skill directories as MCP resources using FastMCP's Skill and SkillsDirectory providers.",
+      "tags": [
+        "fastmcp",
+        "mcp-resources",
+        "agent-skills",
+        "claude-code",
+        "cursor",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-providers-skills.md"
+    },
+    {
+      "file_path": "077-v2-changelog.md",
+      "title": "Changelog - FastMCP",
+      "url": "https://gofastmcp.com/v2/changelog",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:07.235208229-03:00",
+      "summary": "This document announces the release of FastMCP v2.13.0, detailing new features such as pluggable storage backends, hardened OAuth implementations, and response caching middleware.",
+      "tags": [
+        "fastmcp",
+        "release-notes",
+        "oauth",
+        "caching",
+        "persistent-storage",
+        "python"
+      ],
+      "category": "reference",
+      "original_file_path": "v2-changelog.md"
+    },
+    {
+      "file_path": "024-servers-visibility.md",
+      "title": "Component Visibility - FastMCP",
+      "url": "https://gofastmcp.com/servers/visibility",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:48.504097629-03:00",
+      "description": "Control which components are available to clients",
+      "summary": "This document explains how to dynamically manage the visibility and availability of FastMCP components at runtime using enable and disable methods. It covers global server-level configurations, provider-level overrides, and per-session access control for tools and resources.",
+      "tags": [
+        "fastmcp",
+        "dynamic-visibility",
+        "feature-flags",
+        "access-control",
+        "component-management",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-visibility.md"
+    },
+    {
+      "file_path": "044-integrations-google.md",
+      "title": "Google OAuth \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/google",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:59.410794787-03:00",
+      "description": "Secure your FastMCP server with Google OAuth",
+      "summary": "This document provides a comprehensive guide on implementing Google OAuth authentication for FastMCP servers using the GoogleProvider and OAuth Proxy pattern. It covers environment setup, server configuration, and production-ready persistent token storage.",
+      "tags": [
+        "fastmcp",
+        "google-oauth",
+        "authentication",
+        "security",
+        "python",
+        "mcp-server",
+        "oauth-proxy",
+        "token-storage"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-google.md"
+    },
+    {
+      "file_path": "048-integrations-descope.md",
+      "title": "Descope \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/descope",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:00.82710014-03:00",
+      "description": "Secure your FastMCP server with Descope",
+      "summary": "This guide explains how to secure a FastMCP server by integrating Descope authentication using the Remote OAuth pattern. It covers environment configuration, implementing the DescopeProvider for token validation, and testing protected server access.",
+      "tags": [
+        "fastmcp",
+        "descope",
+        "authentication",
+        "remote-oauth",
+        "security",
+        "jwt-validation",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-descope.md"
+    },
+    {
+      "file_path": "029-servers-icons.md",
+      "title": "Icons - FastMCP",
+      "url": "https://gofastmcp.com/servers/icons",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:21:56.581342833-03:00",
+      "description": "Add visual icons to your servers, tools, resources, and prompts",
+      "summary": "This document explains how to implement and use icons for MCP servers and individual components like tools and resources to enhance client user interfaces. It covers the Icon type specification, server-level icons, and the use of data URIs for embedded imagery.",
+      "tags": [
+        "mcp-protocol",
+        "icon-implementation",
+        "fastmcp",
+        "user-interface",
+        "data-uri",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-icons.md"
+    },
+    {
+      "file_path": "072-v2-patterns-tool-transformation.md",
+      "title": "Tool Transformation - FastMCP",
+      "url": "https://gofastmcp.com/v2/patterns/tool-transformation",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:06.998084384-03:00",
+      "description": "Create enhanced tool variants with modified schemas, argument mappings, and custom behavior.",
+      "summary": "This document explains how to use tool transformation in FastMCP to create enhanced versions of existing tools by modifying their metadata and argument properties. It covers the use of the Tool.from_tool method and ArgTransform class for adapting tools to specific LLM contexts.",
+      "tags": [
+        "fastmcp",
+        "tool-transformation",
+        "mcp-server",
+        "argument-modification",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-patterns-tool-transformation.md"
+    },
+    {
+      "file_path": "070-v2-patterns-contrib.md",
+      "title": "Contrib Modules - FastMCP",
+      "url": "https://gofastmcp.com/v2/patterns/contrib",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:58.956000475-03:00",
+      "description": "Community-contributed modules extending FastMCP",
+      "summary": "This document introduces the FastMCP contrib package, detailing how to access community-developed modules and the requirements for contributing new extensions.",
+      "tags": [
+        "fastmcp",
+        "contrib-package",
+        "community-extensions",
+        "module-usage",
+        "contribution-guide",
+        "extensibility"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-patterns-contrib.md"
+    },
+    {
+      "file_path": "069-v2-patterns-testing.md",
+      "title": "Testing your FastMCP Server - FastMCP",
+      "url": "https://gofastmcp.com/v2/patterns/testing",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:59.835594572-03:00",
+      "description": "How to test your FastMCP server.",
+      "summary": "This document provides a guide on testing FastMCP servers using Pytest and the FastMCP Client, covering environment setup, fixtures, and snapshot testing techniques.",
+      "tags": [
+        "fastmcp",
+        "pytest",
+        "testing",
+        "python",
+        "asyncio",
+        "mcp-server"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-patterns-testing.md"
+    },
+    {
+      "file_path": "040-clients-auth-bearer.md",
+      "title": "Bearer Token Authentication - FastMCP",
+      "url": "https://gofastmcp.com/clients/auth/bearer",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:01.899981719-03:00",
+      "description": "Authenticate your FastMCP client with a Bearer token.",
+      "summary": "This document explains how to configure bearer authentication for a FastMCP client using access tokens, the BearerAuth helper class, or custom transport headers.",
+      "tags": [
+        "bearer-authentication",
+        "fastmcp",
+        "security",
+        "jwt",
+        "client-configuration",
+        "api-keys"
+      ],
+      "category": "configuration",
+      "original_file_path": "clients-auth-bearer.md"
+    },
+    {
+      "file_path": "032-clients-tools.md",
+      "title": "Calling Tools - FastMCP",
+      "url": "https://gofastmcp.com/clients/tools",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:00.852041275-03:00",
+      "description": "Execute server-side tools and handle structured results.",
+      "summary": "This document explains how to execute server-side functions using the call_tool method, covering basic execution, structured result handling, and error management within the FastMCP framework.",
+      "tags": [
+        "fastmcp",
+        "tool-execution",
+        "mcp-client",
+        "error-handling",
+        "structured-data",
+        "asynchronous-functions"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-tools.md"
+    },
+    {
+      "file_path": "074-v2-development-contributing.md",
+      "title": "Contributing - FastMCP",
+      "url": "https://gofastmcp.com/v2/development/contributing",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:00.390363681-03:00",
+      "description": "Development workflow for FastMCP contributors",
+      "summary": "This guide outlines the mandatory processes and technical standards for contributing to the FastMCP framework, including issue creation, code quality requirements, and local development setup.",
+      "tags": [
+        "contributing-guide",
+        "pull-requests",
+        "development-standards",
+        "code-quality",
+        "issue-reporting",
+        "fastmcp"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-development-contributing.md"
+    },
+    {
+      "file_path": "073-v2-development-tests.md",
+      "title": "Tests - FastMCP",
+      "url": "https://gofastmcp.com/v2/development/tests",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:00.906229052-03:00",
+      "description": "Testing patterns and requirements for FastMCP",
+      "summary": "This document outlines the best practices and technical procedures for testing FastMCP applications, including test organization, execution with pytest, and the use of markers and in-memory transports.",
+      "tags": [
+        "fastmcp",
+        "testing",
+        "pytest",
+        "python",
+        "unit-testing",
+        "integration-testing",
+        "mocking"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-development-tests.md"
+    },
+    {
+      "file_path": "022-servers-auth-full-oauth-server.md",
+      "title": "Full OAuth Server - FastMCP",
+      "url": "https://gofastmcp.com/servers/auth/full-oauth-server",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:04.703047315-03:00",
+      "description": "Build a self-contained authentication system where your FastMCP server manages users, issues tokens, and validates them.",
+      "summary": "This document explains how to implement a Full OAuth Server pattern in FastMCP by subclassing the OAuthProvider class to handle the complete authentication lifecycle.",
+      "tags": [
+        "fastmcp",
+        "oauth-server",
+        "authentication",
+        "authorization",
+        "oauth-2-1",
+        "security"
+      ],
+      "category": "guide",
+      "original_file_path": "servers-auth-full-oauth-server.md"
+    },
+    {
+      "file_path": "034-clients-prompts.md",
+      "title": "Getting Prompts - FastMCP",
+      "url": "https://gofastmcp.com/clients/prompts",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:01.562439255-03:00",
+      "description": "Retrieve rendered message templates with automatic argument serialization.",
+      "summary": "This document explains how to retrieve and use reusable message templates (prompts) from MCP servers, including argument serialization, version management, and handling prompt results.",
+      "tags": [
+        "mcp-prompts",
+        "fastmcp",
+        "llm-interaction",
+        "python-sdk",
+        "argument-serialization",
+        "message-templates"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-prompts.md"
+    },
+    {
+      "file_path": "033-clients-resources.md",
+      "title": "Reading Resources - FastMCP",
+      "url": "https://gofastmcp.com/clients/resources",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:01.500875603-03:00",
+      "description": "Access static and templated data sources from MCP servers.",
+      "summary": "This document explains how to read static and dynamic resources from MCP servers using URIs, covering content types, templates, multi-server access, and versioning.",
+      "tags": [
+        "mcp-client",
+        "resource-handling",
+        "uri-templates",
+        "data-fetching",
+        "python-sdk",
+        "binary-data"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-resources.md"
+    },
+    {
+      "file_path": "075-v2-development-releases.md",
+      "title": "Releases - FastMCP",
+      "url": "https://gofastmcp.com/v2/development/releases",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:59.838548641-03:00",
+      "description": "FastMCP versioning and release process",
+      "summary": "This document outlines FastMCP's versioning strategy, detailing its pragmatic approach to semantic versioning, breaking change policies, and release procedures.",
+      "tags": [
+        "versioning",
+        "semantic-versioning",
+        "release-process",
+        "fastmcp",
+        "breaking-changes",
+        "api-stability"
+      ],
+      "category": "reference",
+      "original_file_path": "v2-development-releases.md"
+    },
+    {
+      "file_path": "039-clients-elicitation.md",
+      "title": "User Elicitation - FastMCP",
+      "url": "https://gofastmcp.com/clients/elicitation",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:00.972739747-03:00",
+      "description": "Handle server requests for structured user input.",
+      "summary": "This document explains how to implement elicitation in FastMCP to handle interactive user input requests from servers during tool execution. It details the setup of elicitation handlers, available response actions, and the automatic conversion of JSON schemas to Python dataclasses.",
+      "tags": [
+        "fastmcp",
+        "mcp-protocol",
+        "user-elicitation",
+        "python-sdk",
+        "interactive-tools",
+        "input-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-elicitation.md"
+    },
+    {
+      "file_path": "050-integrations-openai.md",
+      "title": "OpenAI API \ud83e\udd1d FastMCP - FastMCP",
+      "url": "https://gofastmcp.com/integrations/openai",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:04.805606181-03:00",
+      "description": "Connect FastMCP servers to the OpenAI API",
+      "summary": "This document provides a guide for integrating remote MCP servers with the OpenAI Responses API, covering server creation, deployment, and secure token-based authentication.",
+      "tags": [
+        "openai-api",
+        "mcp-server",
+        "fastmcp",
+        "tool-calling",
+        "python-sdk",
+        "authentication",
+        "remote-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-openai.md"
+    },
+    {
+      "file_path": "076-v2-development-upgrade-guide.md",
+      "title": "Upgrade Guide - FastMCP",
+      "url": "https://gofastmcp.com/v2/development/upgrade-guide",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:00.342086847-03:00",
+      "description": "Migration instructions for upgrading between FastMCP versions",
+      "summary": "This document provides migration instructions and explains breaking changes for upgrading between FastMCP versions 2.13.0 and 2.14.0.",
+      "tags": [
+        "fastmcp",
+        "migration-guide",
+        "breaking-changes",
+        "openapi-parser",
+        "oauth-security",
+        "versioning"
+      ],
+      "category": "guide",
+      "original_file_path": "v2-development-upgrade-guide.md"
+    },
+    {
+      "file_path": "036-clients-logging.md",
+      "title": "Server Logging - FastMCP",
+      "url": "https://gofastmcp.com/clients/logging",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:02.715709993-03:00",
+      "description": "Receive and handle log messages from MCP servers.",
+      "summary": "Explains how to capture and process log messages emitted by MCP servers using the FastMCP client's log handler functionality.",
+      "tags": [
+        "mcp-server",
+        "logging",
+        "fastmcp",
+        "log-handler",
+        "structured-logging",
+        "python-client"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-logging.md"
+    },
+    {
+      "file_path": "038-clients-sampling.md",
+      "title": "LLM Sampling - FastMCP",
+      "url": "https://gofastmcp.com/clients/sampling",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:01.926918304-03:00",
+      "description": "Handle server-initiated LLM completion requests.",
+      "summary": "This document explains how to implement and configure sampling handlers in FastMCP to allow servers to request LLM completions from a client.",
+      "tags": [
+        "fastmcp",
+        "mcp-protocol",
+        "llm-sampling",
+        "python-client",
+        "openai-integration",
+        "anthropic-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-sampling.md"
+    },
+    {
+      "file_path": "037-clients-progress.md",
+      "title": "Progress Monitoring - FastMCP",
+      "url": "https://gofastmcp.com/clients/progress",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:01.849736418-03:00",
+      "description": "Handle progress notifications from long-running server operations.",
+      "summary": "This document explains how to implement and use progress handlers in MCP clients to track the status of long-running operations. It covers both client-wide and per-call configuration options introduced in version 2.3.5.",
+      "tags": [
+        "mcp-protocol",
+        "fastmcp",
+        "progress-tracking",
+        "python-sdk",
+        "event-handlers",
+        "long-running-tasks"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-progress.md"
+    },
+    {
+      "file_path": "067-v2-servers-server.md",
+      "title": "The FastMCP Server - FastMCP",
+      "url": "https://gofastmcp.com/v2/servers/server",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:22:59.359208545-03:00",
+      "description": "The core FastMCP server class for building MCP applications with tools, resources, and prompts.",
+      "summary": "This document provides a comprehensive overview of the FastMCP server class, explaining how to instantiate, configure, and manage core components like tools, resources, and prompts. It also covers advanced capabilities including tag-based filtering, server composition, proxying, and deployment options.",
+      "tags": [
+        "fastmcp",
+        "mcp-server",
+        "python-sdk",
+        "server-configuration",
+        "api-integration",
+        "resource-management"
+      ],
+      "category": "reference",
+      "original_file_path": "v2-servers-server.md"
+    },
+    {
+      "file_path": "035-clients-roots.md",
+      "title": "Client Roots - FastMCP",
+      "url": "https://gofastmcp.com/clients/roots",
+      "source": "crawler",
+      "fetched_at": "2026-01-22T22:23:02.884905906-03:00",
+      "description": "Provide local context and resource boundaries to MCP servers.",
+      "summary": "This document explains how to configure static and dynamic roots in a fastmcp client to inform servers about accessible local resources.",
+      "tags": [
+        "fastmcp",
+        "roots",
+        "client-configuration",
+        "local-resources",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "clients-roots.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-22T22:25:45.073352Z",
+    "total_files": 78,
+    "categories": [
+      "Getting Started (001-003)",
+      "Server Core (004-007)",
+      "Server Providers (008-014)",
+      "Server Transforms (015-019)",
+      "Server Auth & Security (020-024)",
+      "Server Features (025-029)",
+      "Clients (030-040)",
+      "Integrations (041-050)",
+      "Deployment (051-054)",
+      "Patterns (055-057)",
+      "Development (058-061)",
+      "Changelog & Updates (062-063)",
+      "V2 Legacy (064-078)"
+    ]
+  }
+}

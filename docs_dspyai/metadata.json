@@ -1,0 +1,2576 @@
+{
+  "generated_at": "2026-01-23T08:04:34.02507557-03:00",
+  "source_url": "https://dspy.ai/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 135,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "DSPy",
+      "url": "https://dspy.ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:20.255047755-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document introduces DSPy, a declarative framework that enables developers to build modular AI systems by programming with structured modules rather than manually engineering prompts.",
+      "tags": [
+        "dspy-framework",
+        "ai-programming",
+        "language-models",
+        "prompt-optimization",
+        "modular-ai",
+        "rag-systems"
+      ],
+      "category": "guide",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "002-learn.md",
+      "title": "Learning DSPy - DSPy",
+      "url": "https://dspy.ai/learn/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:12.746214689-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines the iterative three-stage process for building AI systems with DSPy, covering programming, evaluation, and optimization.",
+      "tags": [
+        "dspy",
+        "ai-development",
+        "pipeline-design",
+        "evaluation-metrics",
+        "prompt-optimization",
+        "workflow"
+      ],
+      "category": "concept",
+      "original_file_path": "learn.md"
+    },
+    {
+      "file_path": "003-cheatsheet.md",
+      "title": "Cheatsheet - DSPy",
+      "url": "https://dspy.ai/cheatsheet/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:20.253894922-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a collection of quick-reference code snippets and frequent usage patterns for DSPy modules, metrics, evaluation, and optimizers.",
+      "tags": [
+        "dspy",
+        "python-library",
+        "llm-orchestration",
+        "prompt-optimization",
+        "machine-learning",
+        "code-snippets"
+      ],
+      "category": "reference",
+      "original_file_path": "cheatsheet.md"
+    },
+    {
+      "file_path": "004-faqs.md",
+      "title": "FAQ - DSPy",
+      "url": "https://dspy.ai/faqs/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:20.241807355-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides answers to frequently asked questions about the DSPy framework, highlighting its differences from other libraries and explaining core concepts like signatures, modules, and optimizers.",
+      "tags": [
+        "dspy",
+        "faq",
+        "framework-comparison",
+        "lm-optimization",
+        "dspy-compiler"
+      ],
+      "category": "reference",
+      "original_file_path": "faqs.md"
+    },
+    {
+      "file_path": "005-roadmap.md",
+      "title": "Roadmap - DSPy",
+      "url": "https://dspy.ai/roadmap/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:20.233362614-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines the technical roadmap and strategic goals for the DSPy framework as it transitions toward versions 2.5 and 3.0. It details plans for enhancing modular LM programming, improving prompt optimizers, and refining the core library's architectural abstractions.",
+      "tags": [
+        "dspy-framework",
+        "technical-roadmap",
+        "lm-programming",
+        "prompt-optimization",
+        "software-abstractions",
+        "open-source-development"
+      ],
+      "category": "other",
+      "original_file_path": "roadmap.md"
+    },
+    {
+      "file_path": "006-learn-programming-overview.md",
+      "title": "Programming Overview - DSPy",
+      "url": "https://dspy.ai/learn/programming/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:28.266946384-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines the programming philosophy of DSPy, emphasizing a modular approach to building LLM systems by separating task signatures from pipeline logic and optimization.",
+      "tags": [
+        "dspy",
+        "llm-programming",
+        "system-design",
+        "modular-ai",
+        "pipeline-optimization"
+      ],
+      "category": "concept",
+      "original_file_path": "learn-programming-overview.md"
+    },
+    {
+      "file_path": "007-learn-programming-language-models.md",
+      "title": "Language Models - DSPy",
+      "url": "https://dspy.ai/learn/programming/language_models/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:21.017746966-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to initialize and configure language models in DSPy, covering various providers, authentication methods, and global or contextual model management.",
+      "tags": [
+        "dspy",
+        "language-models",
+        "model-configuration",
+        "llm-providers",
+        "caching",
+        "api-authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-programming-language-models.md"
+    },
+    {
+      "file_path": "008-learn-programming-signatures.md",
+      "title": "Signatures - DSPy",
+      "url": "https://dspy.ai/learn/programming/signatures/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:30.04566268-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to use DSPy Signatures to declaratively define the input and output behavior of language model modules using inline strings or class-based structures.",
+      "tags": [
+        "dspy",
+        "signatures",
+        "prompt-optimization",
+        "llm-programming",
+        "declarative-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-programming-signatures.md"
+    },
+    {
+      "file_path": "009-learn-programming-modules.md",
+      "title": "Modules - DSPy",
+      "url": "https://dspy.ai/learn/programming/modules/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:27.075689517-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document introduces DSPy modules as the foundational building blocks for language model programs, explaining how to declare, configure, and execute various prompting techniques through a unified interface.",
+      "tags": [
+        "dspy",
+        "language-models",
+        "prompt-engineering",
+        "chain-of-thought",
+        "react-agent",
+        "signatures"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-programming-modules.md"
+    },
+    {
+      "file_path": "010-learn-programming-adapters.md",
+      "title": "Adapters - DSPy",
+      "url": "https://dspy.ai/learn/programming/adapters/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:20.394437802-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains the role of Adapters in the DSPy framework as the bridge between structured signatures and language model communication. It details how adapters handle prompt formatting, response parsing, and configuration within a DSPy workflow.",
+      "tags": [
+        "dspy-framework",
+        "dspy-adapters",
+        "prompt-formatting",
+        "structured-output",
+        "language-models",
+        "chat-adapter"
+      ],
+      "category": "concept",
+      "original_file_path": "learn-programming-adapters.md"
+    },
+    {
+      "file_path": "011-learn-programming-tools.md",
+      "title": "Tools - DSPy",
+      "url": "https://dspy.ai/learn/programming/tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:32.258755035-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to integrate external functions and APIs into DSPy workflows using automated reasoning with ReAct or manual tool management.",
+      "tags": [
+        "dspy",
+        "tool-use",
+        "react-agent",
+        "function-calling",
+        "llm-agents",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-programming-tools.md"
+    },
+    {
+      "file_path": "012-learn-programming-mcp.md",
+      "title": "MCP - DSPy",
+      "url": "https://dspy.ai/learn/programming/mcp/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:25.386976951-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to integrate the Model Context Protocol (MCP) with DSPy to provide standardized tools to agents via HTTP or Stdio servers. It provides instructions for installing the necessary dependencies and converting MCP tools into DSPy-compatible tools.",
+      "tags": [
+        "mcp",
+        "dspy",
+        "tool-integration",
+        "agents",
+        "react-agent",
+        "stdio-server",
+        "http-server"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-programming-mcp.md"
+    },
+    {
+      "file_path": "013-learn-programming-7-assertions.md",
+      "title": "DSPy Assertions - DSPy",
+      "url": "https://dspy.ai/learn/programming/7-assertions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:19.143842813-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the implementation of DSPy Assertions and Suggestions for enforcing computational constraints and enabling model self-refinement via backtracking. It explains the mechanics of dynamic signature modification and the differences between hard assertions and soft suggestions in LM pipelines.",
+      "tags": [
+        "dspy",
+        "assertions",
+        "backtracking",
+        "self-refinement",
+        "llm-constraints",
+        "validation"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-programming-7-assertions.md"
+    },
+    {
+      "file_path": "014-learn-evaluation-overview.md",
+      "title": "Evaluation Overview - DSPy",
+      "url": "https://dspy.ai/learn/evaluation/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:15.962185168-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines the systematic process for evaluating DSPy programs, covering dataset collection, metric definition, and iterative performance analysis.",
+      "tags": [
+        "dspy",
+        "evaluation",
+        "metrics",
+        "dataset-collection",
+        "model-iteration",
+        "performance-scoring"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-evaluation-overview.md"
+    },
+    {
+      "file_path": "015-learn-evaluation-data.md",
+      "title": "Data Handling - DSPy",
+      "url": "https://dspy.ai/learn/evaluation/data/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:13.364275044-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to use the DSPy Example class to represent data points, training sets, and test sets while distinguishing between inputs and labels.",
+      "tags": [
+        "dspy",
+        "machine-learning",
+        "data-structures",
+        "dataset-handling",
+        "example-class",
+        "input-keys"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-evaluation-data.md"
+    },
+    {
+      "file_path": "016-learn-evaluation-metrics.md",
+      "title": "Metrics - DSPy",
+      "url": "https://dspy.ai/learn/evaluation/metrics/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:14.963100578-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to define and implement automatic metrics in DSPy for evaluating and optimizing machine learning programs, covering both simple functions and complex AI-feedback metrics.",
+      "tags": [
+        "dspy",
+        "machine-learning",
+        "evaluation-metrics",
+        "ai-feedback",
+        "program-optimization",
+        "metric-definition"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-evaluation-metrics.md"
+    },
+    {
+      "file_path": "017-learn-optimization-overview.md",
+      "title": "Optimization Overview - DSPy",
+      "url": "https://dspy.ai/learn/optimization/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:18.835446119-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines the iterative workflow for using DSPy optimizers, providing guidance on data collection, dataset splitting strategies, and refining program components.",
+      "tags": [
+        "dspy",
+        "optimization",
+        "prompt-tuning",
+        "dataset-splitting",
+        "iterative-development",
+        "machine-learning"
+      ],
+      "category": "concept",
+      "original_file_path": "learn-optimization-overview.md"
+    },
+    {
+      "file_path": "018-learn-optimization-optimizers.md",
+      "title": "Optimizers - DSPy",
+      "url": "https://dspy.ai/learn/optimization/optimizers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:18.486616004-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides an overview of DSPy optimizers, which are algorithms designed to tune prompt instructions and language model weights to maximize program accuracy. It categorizes and describes available optimization methods for few-shot learning, instruction optimization, and model fine-tuning.",
+      "tags": [
+        "dspy-framework",
+        "prompt-optimization",
+        "few-shot-learning",
+        "hyperparameter-tuning",
+        "llm-weights",
+        "mipro-optimizer"
+      ],
+      "category": "reference",
+      "original_file_path": "learn-optimization-optimizers.md"
+    },
+    {
+      "file_path": "019-deep-dive-data-handling-examples.md",
+      "title": "Examples - DSPy",
+      "url": "https://dspy.ai/deep-dive/data-handling/examples/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:10.265470706-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to use the Example class in DSPy to manage data for training and evaluation, including methods for defining inputs and labels.",
+      "tags": [
+        "dspy",
+        "example-class",
+        "data-handling",
+        "dataset-management",
+        "machine-learning"
+      ],
+      "category": "reference",
+      "original_file_path": "deep-dive-data-handling-examples.md"
+    },
+    {
+      "file_path": "020-deep-dive-data-handling-built-in-datasets.md",
+      "title": "Built in datasets - DSPy",
+      "url": "https://dspy.ai/deep-dive/data-handling/built-in-datasets/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:08.862441175-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to utilize built-in datasets like HotPotQA in DSPy and provides a deep dive into the Dataset class mechanics for sampling and shuffling data. It demonstrates how to load datasets and convert them into standardized Example objects for use in training and evaluation.",
+      "tags": [
+        "dspy",
+        "data-handling",
+        "hotpotqa",
+        "example-objects",
+        "dataset-class",
+        "machine-learning"
+      ],
+      "category": "tutorial",
+      "original_file_path": "deep-dive-data-handling-built-in-datasets.md"
+    },
+    {
+      "file_path": "021-deep-dive-data-handling-loading-custom-data.md",
+      "title": "Loading custom data - DSPy",
+      "url": "https://dspy.ai/deep-dive/data-handling/loading-custom-data/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:12.697795869-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to create and load custom datasets in DSPy by converting raw data into Example objects using either standard Python logic or the built-in Dataset class.",
+      "tags": [
+        "dspy",
+        "data-loading",
+        "custom-datasets",
+        "python-pandas",
+        "dataset-class",
+        "machine-learning"
+      ],
+      "category": "guide",
+      "original_file_path": "deep-dive-data-handling-loading-custom-data.md"
+    },
+    {
+      "file_path": "022-tutorials.md",
+      "title": "Tutorials Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:32.743149346-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document serves as a comprehensive index for DSPy tutorials, organizing learning resources into application building, program optimization, and core development features. It provides links to practical guides on topics such as RAG systems, AI agents, and systematic performance tuning.",
+      "tags": [
+        "dspy-tutorials",
+        "ai-programming",
+        "prompt-optimization",
+        "rag-implementation",
+        "ai-agents",
+        "llm-development"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials.md"
+    },
+    {
+      "file_path": "023-tutorials-build-ai-program.md",
+      "title": "Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/build_ai_program/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:40.615154852-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a directory of hands-on tutorials for building production-ready AI applications using the DSPy framework's modular programming approach. It outlines various learning paths including RAG, agentic workflows, custom modules, and multimodal system development.",
+      "tags": [
+        "dspy",
+        "ai-programming",
+        "rag",
+        "ai-agents",
+        "modular-programming",
+        "machine-learning",
+        "llm-orchestration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-build-ai-program.md"
+    },
+    {
+      "file_path": "024-tutorials-rag.md",
+      "title": "Retrieval-Augmented Generation (RAG) - DSPy",
+      "url": "https://dspy.ai/tutorials/rag/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:18.750187698-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains the concepts of High Memory (HIGHMEM) and Low Memory (LOWMEM) in the Linux kernel, detailing their roles in memory mapping and addressing limitations on 32-bit systems.",
+      "tags": [
+        "linux-kernel",
+        "memory-management",
+        "highmem",
+        "lowmem",
+        "virtual-memory",
+        "kernel-space"
+      ],
+      "category": "concept",
+      "original_file_path": "tutorials-rag.md"
+    },
+    {
+      "file_path": "025-tutorials-agents.md",
+      "title": "Building RAG as Agent - DSPy",
+      "url": "https://dspy.ai/tutorials/agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:35.537360332-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines the structured interaction format and execution trace for an AI agent performing fact-checking via Wikipedia search and lookup tools.",
+      "tags": [
+        "ai-agent",
+        "wikipedia-api",
+        "fact-checking",
+        "trajectory-log",
+        "reasoning-trace",
+        "tool-calling"
+      ],
+      "category": "reference",
+      "original_file_path": "tutorials-agents.md"
+    },
+    {
+      "file_path": "026-tutorials-multihop-search.md",
+      "title": "Multi-Hop RAG - DSPy",
+      "url": "https://dspy.ai/tutorials/multihop_search/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:09.909686424-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines structured system instructions and few-shot examples for an AI tasked with claim verification, reasoning, and generating investigative queries.",
+      "tags": [
+        "claim-verification",
+        "fact-checking",
+        "prompt-engineering",
+        "few-shot-examples",
+        "structured-output",
+        "reasoning-tasks"
+      ],
+      "category": "other",
+      "original_file_path": "tutorials-multihop-search.md"
+    },
+    {
+      "file_path": "027-tutorials-custom-module.md",
+      "title": "Building AI Applications by Customizing DSPy Modules - DSPy",
+      "url": "https://dspy.ai/tutorials/custom_module/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:47.832200024-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains the rationale for customizing modules in DSPy, focusing on the transition from string-based prompting to structured AI programming using custom python logic.",
+      "tags": [
+        "dspy",
+        "module-customization",
+        "ai-programming",
+        "forward-method",
+        "llm-framework"
+      ],
+      "category": "concept",
+      "original_file_path": "tutorials-custom-module.md"
+    },
+    {
+      "file_path": "028-tutorials-conversation-history.md",
+      "title": "Managing Conversation History - DSPy",
+      "url": "https://dspy.ai/tutorials/conversation_history/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:46.089651317-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to use the dspy.History utility to manage multi-turn conversation context and maintain history within DSPy applications. It also covers the formatting of conversation history in few-shot examples for compatibility with large language models.",
+      "tags": [
+        "dspy",
+        "conversation-history",
+        "chatbot",
+        "multi-turn",
+        "few-shot-learning",
+        "llm-context"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-conversation-history.md"
+    },
+    {
+      "file_path": "029-tutorials-ai-text-game.md",
+      "title": "Building a Creative Text-Based AI Game - DSPy",
+      "url": "https://dspy.ai/tutorials/ai_text_game/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:37.018708069-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial demonstrates how to build a dynamic, AI-powered text adventure game using DSPy's modular programming approach for narrative generation, character interaction, and action resolution.",
+      "tags": [
+        "dspy",
+        "text-adventure-game",
+        "ai-storytelling",
+        "modular-programming",
+        "nlp",
+        "interactive-fiction"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-ai-text-game.md"
+    },
+    {
+      "file_path": "030-tutorials-audio.md",
+      "title": "Audio - DSPy",
+      "url": "https://dspy.ai/tutorials/audio/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:38.748700622-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines a structured system message template for generating detailed text-to-speech instructions that specify vocal tone and emotional style for AI synthesis models.",
+      "tags": [
+        "text-to-speech",
+        "openai-tts",
+        "prompt-engineering",
+        "voice-synthesis",
+        "emotional-modeling"
+      ],
+      "category": "configuration",
+      "original_file_path": "tutorials-audio.md"
+    },
+    {
+      "file_path": "031-tutorials-image-generation-prompting.md",
+      "title": "Image Generation Prompt iteration - DSPy",
+      "url": "https://dspy.ai/tutorials/image_generation_prompting/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:03.723283128-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines a structured workflow for evaluating image generation results against desired prompts, featuring iterative feedback and prompt refinement.",
+      "tags": [
+        "prompt-engineering",
+        "image-evaluation",
+        "feedback-loop",
+        "structured-data",
+        "iterative-refinement",
+        "ai-vision"
+      ],
+      "category": "guide",
+      "original_file_path": "tutorials-image-generation-prompting.md"
+    },
+    {
+      "file_path": "032-tutorials-llms-txt-generation.md",
+      "title": "Generating llms.txt - DSPy",
+      "url": "https://dspy.ai/tutorials/llms_txt_generation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:03.974204888-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to build a DSPy program that analyzes a GitHub repository's structure and content to automatically generate an llms.txt file for LLM-friendly documentation.",
+      "tags": [
+        "dspy",
+        "llms-txt",
+        "documentation-generation",
+        "repository-analysis",
+        "llm-automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-llms-txt-generation.md"
+    },
+    {
+      "file_path": "033-tutorials-real-world-examples.md",
+      "title": "Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/real_world_examples/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:20.659760188-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document serves as an index for practical tutorials demonstrating how to build production-ready AI systems and specialized agents using DSPy's modular programming approach.",
+      "tags": [
+        "dspy-framework",
+        "production-ai",
+        "ai-agents",
+        "llm-applications",
+        "text-processing",
+        "information-extraction"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-real-world-examples.md"
+    },
+    {
+      "file_path": "034-tutorials-customer-service-agent.md",
+      "title": "Building AI Agents with DSPy - DSPy",
+      "url": "https://dspy.ai/tutorials/customer_service_agent/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:48.205005662-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the system prompt, tool schemas, and structured interaction format for an AI airline customer service agent designed to manage flight bookings.",
+      "tags": [
+        "agent-prompting",
+        "tool-calling",
+        "json-schema",
+        "airline-agent",
+        "system-message"
+      ],
+      "category": "configuration",
+      "original_file_path": "tutorials-customer-service-agent.md"
+    },
+    {
+      "file_path": "035-tutorials-email-extraction.md",
+      "title": "Email Information Extraction - DSPy",
+      "url": "https://dspy.ai/tutorials/email_extraction/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:52.395697779-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to build a structured email processing pipeline using DSPy for classification, entity extraction, and automated action generation.",
+      "tags": [
+        "dspy",
+        "email-processing",
+        "entity-extraction",
+        "text-classification",
+        "structured-data",
+        "mlflow"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-email-extraction.md"
+    },
+    {
+      "file_path": "036-tutorials-entity-extraction.md",
+      "title": "Entity Extraction - DSPy",
+      "url": "https://dspy.ai/tutorials/entity_extraction/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:52.841439236-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines a structured prompt and few-shot examples for performing named entity recognition to extract specific individuals from tokenized text strings.",
+      "tags": [
+        "named-entity-recognition",
+        "ner",
+        "few-shot-prompting",
+        "nlp",
+        "token-extraction",
+        "prompt-engineering"
+      ],
+      "category": "reference",
+      "original_file_path": "tutorials-entity-extraction.md"
+    },
+    {
+      "file_path": "037-tutorials-classification.md",
+      "title": "Classification - DSPy",
+      "url": "https://dspy.ai/tutorials/classification/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:42.511488965-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a link and overview for a tutorial on using DSPy to categorize historical events through prompt optimization with small language models.",
+      "tags": [
+        "dspy",
+        "text-classification",
+        "prompt-optimization",
+        "tiny-lm",
+        "natural-language-processing"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-classification.md"
+    },
+    {
+      "file_path": "038-tutorials-classification-finetuning.md",
+      "title": "Classification Finetuning - DSPy",
+      "url": "https://dspy.ai/tutorials/classification_finetuning/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:45.907831464-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document outlines a system for classifying customer banking inquiries into predefined categories using structured reasoning and specific intent labels.",
+      "tags": [
+        "banking",
+        "intent-classification",
+        "customer-support",
+        "prompt-engineering",
+        "text-analysis"
+      ],
+      "category": "reference",
+      "original_file_path": "tutorials-classification-finetuning.md"
+    },
+    {
+      "file_path": "039-tutorials-yahoo-finance-react.md",
+      "title": "Financial Analysis with Yahoo Finance - DSPy",
+      "url": "https://dspy.ai/tutorials/yahoo_finance_react/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:29.110199015-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial demonstrates how to build a financial analysis agent using the DSPy ReAct framework integrated with LangChain's Yahoo Finance tools. It explains how to combine external tools and custom Python functions to perform real-time market news analysis and stock price comparisons.",
+      "tags": [
+        "dspy",
+        "react-agent",
+        "langchain-integration",
+        "financial-analysis",
+        "tools",
+        "python",
+        "yahoo-finance"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-yahoo-finance-react.md"
+    },
+    {
+      "file_path": "040-tutorials-mem0-react-agent.md",
+      "title": "Memory-Enabled ReAct Agents - DSPy",
+      "url": "https://dspy.ai/tutorials/mem0_react_agent/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:09.847807036-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to integrate Mem0 memory systems with DSPy's ReAct framework to build conversational agents that maintain context and remember user preferences across sessions.",
+      "tags": [
+        "dspy",
+        "mem0",
+        "react-agent",
+        "agentic-ai",
+        "long-term-memory",
+        "conversational-ai"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-mem0-react-agent.md"
+    },
+    {
+      "file_path": "041-tutorials-sample-code-generation.md",
+      "title": "Code Generation for Unfamiliar Libraries - DSPy",
+      "url": "https://dspy.ai/tutorials/sample_code_generation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:24.870047583-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial demonstrates how to build an automated code generation system using DSPy that fetches online documentation, analyzes library patterns, and produces functional code examples.",
+      "tags": [
+        "dspy",
+        "code-generation",
+        "documentation-parsing",
+        "web-scraping",
+        "python",
+        "llm-applications"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-sample-code-generation.md"
+    },
+    {
+      "file_path": "042-tutorials-core-development.md",
+      "title": "Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/core_development/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:46.781697685-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides an overview and index of advanced DSPy tutorials focused on core development tasks for building production-ready AI applications. It covers essential topics including deployment, performance optimization, data persistence, and system observability.",
+      "tags": [
+        "dspy",
+        "production-deployment",
+        "caching",
+        "asynchronous-programming",
+        "observability",
+        "data-persistence",
+        "model-optimization"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-core-development.md"
+    },
+    {
+      "file_path": "043-tutorials-deployment.md",
+      "title": "Deployment - DSPy",
+      "url": "https://dspy.ai/tutorials/deployment/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:52.070135255-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to deploy DSPy programs into production environments using FastAPI for lightweight REST APIs and MLflow for robust versioning and management.",
+      "tags": [
+        "dspy",
+        "deployment",
+        "fastapi",
+        "mlflow",
+        "rest-api",
+        "async-processing",
+        "streaming"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-deployment.md"
+    },
+    {
+      "file_path": "044-tutorials-cache.md",
+      "title": "Cache - DSPy",
+      "url": "https://dspy.ai/tutorials/cache/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:40.828263363-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains the architecture of DSPy's caching system and demonstrates how to enable, disable, and customize in-memory, on-disk, and provider-side caches.",
+      "tags": [
+        "dspy",
+        "caching",
+        "performance-optimization",
+        "cache-configuration",
+        "custom-cache",
+        "llm-ops"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-cache.md"
+    },
+    {
+      "file_path": "045-tutorials-async.md",
+      "title": "Async - DSPy",
+      "url": "https://dspy.ai/tutorials/async/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:37.323005523-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This guide explains how to implement asynchronous programming in DSPy using methods like acall and aforward to build high-performance, concurrent applications. It covers the integration of async tools and the creation of custom asynchronous modules for scalable production environments.",
+      "tags": [
+        "dspy",
+        "async-programming",
+        "concurrency",
+        "python-asyncio",
+        "scalability",
+        "asynchronous-io"
+      ],
+      "category": "guide",
+      "original_file_path": "tutorials-async.md"
+    },
+    {
+      "file_path": "046-tutorials-streaming.md",
+      "title": "Streaming - DSPy",
+      "url": "https://dspy.ai/tutorials/streaming/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:26.01867059-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to implement real-time output token and intermediate status streaming in DSPy programs using the streamify wrapper and StreamListener objects.",
+      "tags": [
+        "dspy",
+        "streaming",
+        "async-io",
+        "token-generation",
+        "python-sdk",
+        "llm-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "tutorials-streaming.md"
+    },
+    {
+      "file_path": "047-tutorials-saving.md",
+      "title": "Saving and Loading - DSPy",
+      "url": "https://dspy.ai/tutorials/saving/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:25.597405455-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to save and load DSPy programs by either persisting the state only or the entire program architecture. It provides guidance on using JSON and pickle formats, managing custom module dependencies, and ensuring version compatibility.",
+      "tags": [
+        "dspy-framework",
+        "serialization",
+        "model-saving",
+        "state-management",
+        "python-pickle",
+        "cloudpickle"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-saving.md"
+    },
+    {
+      "file_path": "048-tutorials-observability.md",
+      "title": "Debugging & Observability - DSPy",
+      "url": "https://dspy.ai/tutorials/observability/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:09.958263619-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to debug and monitor DSPy programs using the inspect_history utility and MLflow Tracing to improve system observability. It demonstrates how to diagnose issues in complex AI workflows and integrate external tools for better transparency and performance tracking.",
+      "tags": [
+        "dspy-debugging",
+        "observability",
+        "mlflow-tracing",
+        "inspect-history",
+        "llm-monitoring",
+        "agent-debugging",
+        "llmops"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-observability.md"
+    },
+    {
+      "file_path": "049-tutorials-mcp.md",
+      "title": "Use MCP in DSPy - DSPy",
+      "url": "https://dspy.ai/tutorials/mcp/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:07.38102566-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial explains how to integrate Model Context Protocol (MCP) tools into the DSPy framework by building and connecting a custom MCP server.",
+      "tags": [
+        "dspy",
+        "mcp",
+        "model-context-protocol",
+        "tool-use",
+        "python",
+        "llm-agents"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-mcp.md"
+    },
+    {
+      "file_path": "050-tutorials-optimize-ai-program.md",
+      "title": "Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/optimize_ai_program/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:13.249163297-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document serves as a directory for DSPy tutorials focused on optimizing AI programs, covering mathematical reasoning, model finetuning, tool integration, and agent performance.",
+      "tags": [
+        "dspy",
+        "ai-optimization",
+        "prompt-optimization",
+        "model-finetuning",
+        "large-language-models",
+        "agent-systems"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-optimize-ai-program.md"
+    },
+    {
+      "file_path": "051-tutorials-tool-use.md",
+      "title": "Advanced Tool Use - DSPy",
+      "url": "https://dspy.ai/tutorials/tool_use/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:28.440026046-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This tutorial demonstrates how to build and optimize a DSPy agent for complex tool-use tasks using the SIMBA optimizer and MLflow for experiment tracing.",
+      "tags": [
+        "dspy",
+        "mlflow",
+        "tool-use",
+        "prompt-optimization",
+        "llm-agents",
+        "react-pattern"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-tool-use.md"
+    },
+    {
+      "file_path": "052-tutorials-output-refinement-best-of-n-and-refine.md",
+      "title": "Output Refinement - DSPy",
+      "url": "https://dspy.ai/tutorials/output_refinement/best-of-n-and-refine/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:14.344673095-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to use the BestOfN and Refine modules in DSPy to improve prediction quality through multiple model calls and iterative feedback loops.",
+      "tags": [
+        "dspy",
+        "output-refinement",
+        "reward-functions",
+        "llm-optimization",
+        "best-of-n",
+        "iterative-feedback"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-output-refinement-best-of-n-and-refine.md"
+    },
+    {
+      "file_path": "053-tutorials-math.md",
+      "title": "Math Reasoning - DSPy",
+      "url": "https://dspy.ai/tutorials/math/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:04.295820393-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines a structured protocol and formatting convention for an AI system to solve mathematical problems using step-by-step reasoning.",
+      "tags": [
+        "prompt-engineering",
+        "mathematical-reasoning",
+        "structured-output",
+        "chain-of-thought",
+        "system-instructions"
+      ],
+      "category": "reference",
+      "original_file_path": "tutorials-math.md"
+    },
+    {
+      "file_path": "054-tutorials-program-of-thought.md",
+      "title": "Program Of Thought - DSPy",
+      "url": "https://dspy.ai/tutorials/program_of_thought/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:17.86053081-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines a structured interaction format for AI systems to generate reasoning and final answers based on provided context, Python code, and execution outputs.",
+      "tags": [
+        "prompt-engineering",
+        "structured-data",
+        "reasoning-framework",
+        "ai-integration",
+        "template-definition"
+      ],
+      "category": "reference",
+      "original_file_path": "tutorials-program-of-thought.md"
+    },
+    {
+      "file_path": "055-tutorials-optimizer-tracking.md",
+      "title": "Tracking DSPy Optimizers - DSPy",
+      "url": "https://dspy.ai/tutorials/optimizer_tracking/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:13.829252641-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to integrate MLflow with DSPy to monitor and analyze the optimization process, including tracking parameters, program states, and execution traces.",
+      "tags": [
+        "dspy",
+        "mlflow",
+        "optimization-tracking",
+        "autologging",
+        "observability",
+        "llmops"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-optimizer-tracking.md"
+    },
+    {
+      "file_path": "056-tutorials-games.md",
+      "title": "Finetuning Agents - DSPy",
+      "url": "https://dspy.ai/tutorials/games/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:54.59061028-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document contains a prediction record detailing a sequence of actions and environment observations for a text-based agent attempting a task in a simulated environment.",
+      "tags": [
+        "text-agent",
+        "action-trajectory",
+        "simulation-log",
+        "behavioral-trace",
+        "task-execution"
+      ],
+      "category": "other",
+      "original_file_path": "tutorials-games.md"
+    },
+    {
+      "file_path": "057-tutorials-papillon.md",
+      "title": "Privacy-Conscious Delegation - DSPy",
+      "url": "https://dspy.ai/tutorials/papillon/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:16.175344108-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document introduces an advanced tutorial on building multi-stage DSPy modules that integrate local language models, external tools, and custom evaluation judges for model optimization.",
+      "tags": [
+        "dspy",
+        "papillon",
+        "local-lm",
+        "multi-stage-modules",
+        "evaluation-metrics",
+        "optimization",
+        "teacher-student-model"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-papillon.md"
+    },
+    {
+      "file_path": "058-tutorials-gepa-ai-program.md",
+      "title": "Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/gepa_ai_program/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:55.087997591-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document introduces GEPA, a reflective prompt optimizer for DSPy that leverages model reflections and textual feedback to evolve prompt candidates. It provides a directory of tutorials demonstrating GEPA's application in areas such as mathematical reasoning, information extraction, and code safety.",
+      "tags": [
+        "dspy",
+        "gepa",
+        "prompt-optimization",
+        "reflective-evolution",
+        "llm-feedback",
+        "prompt-engineering"
+      ],
+      "category": "tutorial",
+      "original_file_path": "tutorials-gepa-ai-program.md"
+    },
+    {
+      "file_path": "059-tutorials-gepa-aime.md",
+      "title": "GEPA for AIME (Math) - DSPy",
+      "url": "https://dspy.ai/tutorials/gepa_aime/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:57.072895725-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document displays execution logs from a DSPy GEPA optimization run, showing the iterative process of refining a mathematical problem-solving prompt and evaluating its performance.",
+      "tags": [
+        "dspy",
+        "gepa",
+        "prompt-optimization",
+        "llm-evaluation",
+        "automated-prompt-engineering",
+        "math-problem-solving"
+      ],
+      "category": "other",
+      "original_file_path": "tutorials-gepa-aime.md"
+    },
+    {
+      "file_path": "060-tutorials-gepa-facilitysupportanalyzer.md",
+      "title": "GEPA for Structured Information Extraction for Enterprise Tasks - DSPy",
+      "url": "https://dspy.ai/tutorials/gepa_facilitysupportanalyzer/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:58.640107045-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document contains execution logs from a DSPy optimization session using the GEPA teleprompter to iteratively refine prompt instructions for classification modules.",
+      "tags": [
+        "dspy",
+        "gepa",
+        "prompt-optimization",
+        "teleprompt",
+        "llm-evaluation",
+        "natural-language-processing"
+      ],
+      "category": "other",
+      "original_file_path": "tutorials-gepa-facilitysupportanalyzer.md"
+    },
+    {
+      "file_path": "061-tutorials-gepa-papillon.md",
+      "title": "GEPA for Privacy-Conscious Delegation - DSPy",
+      "url": "https://dspy.ai/tutorials/gepa_papillon/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:59.265144749-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides execution logs for the DSPy GEPA teleprompter, detailing the iterative prompt optimization process and evaluation metrics for a privacy-preserving LLM request program.",
+      "tags": [
+        "dspy",
+        "gepa-teleprompter",
+        "prompt-optimization",
+        "llm-evaluation",
+        "privacy-preservation",
+        "machine-learning-logs"
+      ],
+      "category": "other",
+      "original_file_path": "tutorials-gepa-papillon.md"
+    },
+    {
+      "file_path": "062-tutorials-gepa-trusted-monitor.md",
+      "title": "GEPA for Code Backdoor Classification (AI control) - DSPy",
+      "url": "https://dspy.ai/tutorials/gepa_trusted_monitor/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:02.125333129-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "Execution logs and prompt optimization results for the DSPy GEPA optimizer applied to a code suspicion detection task. The document details the iterative evaluation process and the resulting refined instructions for identifying potential backdoors in code.",
+      "tags": [
+        "dspy",
+        "gepa-optimizer",
+        "prompt-engineering",
+        "code-security",
+        "automated-optimization",
+        "llm-metrics"
+      ],
+      "category": "other",
+      "original_file_path": "tutorials-gepa-trusted-monitor.md"
+    },
+    {
+      "file_path": "063-tutorials-rl-ai-program.md",
+      "title": "Overview - DSPy",
+      "url": "https://dspy.ai/tutorials/rl_ai_program/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:20.735188215-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document introduces experimental reinforcement learning techniques for optimizing DSPy programs, focusing on multi-hop reasoning and privacy-conscious delegation.",
+      "tags": [
+        "dspy",
+        "reinforcement-learning",
+        "optimization",
+        "multi-hop-reasoning",
+        "privacy-conscious-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "tutorials-rl-ai-program.md"
+    },
+    {
+      "file_path": "064-tutorials-rl-multihop.md",
+      "title": "RL for Multi-Hop Research - DSPy",
+      "url": "https://dspy.ai/tutorials/rl_multihop/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:21.138446603-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document demonstrates how to configure and execute the ArborGRPO compiler to optimize a research program using specific training hyperparameters and hardware allocations. It provides a detailed example of setting up LoRA configurations, training arguments, and the compilation process.",
+      "tags": [
+        "arbor-grpo",
+        "lora-config",
+        "model-optimization",
+        "distributed-training",
+        "hyperparameter-tuning",
+        "machine-learning"
+      ],
+      "category": "configuration",
+      "original_file_path": "tutorials-rl-multihop.md"
+    },
+    {
+      "file_path": "065-tutorials-rl-papillon.md",
+      "title": "RL for Privacy-Conscious Delegation - DSPy",
+      "url": "https://dspy.ai/tutorials/rl_papillon/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:04:23.736161583-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document demonstrates how to configure and execute the compilation process for a PAPILLON model using the ArborGRPO compiler. It details training hyperparameters, LoRA settings, and hardware resource allocation for model optimization.",
+      "tags": [
+        "papillon",
+        "arborgrpo",
+        "model-optimization",
+        "lora-config",
+        "training-parameters",
+        "gpu-allocation"
+      ],
+      "category": "configuration",
+      "original_file_path": "tutorials-rl-papillon.md"
+    },
+    {
+      "file_path": "066-production.md",
+      "title": "DSPy in Production - DSPy",
+      "url": "https://dspy.ai/production/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:32.352032512-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides an overview of the tools and features available for deploying, monitoring, and scaling DSPy programs in production environments.",
+      "tags": [
+        "production-deployment",
+        "observability",
+        "mlflow-integration",
+        "scalability",
+        "reproducibility",
+        "llm-ops"
+      ],
+      "category": "guide",
+      "original_file_path": "production.md"
+    },
+    {
+      "file_path": "067-community-community-resources.md",
+      "title": "Community Resources - DSPy",
+      "url": "https://dspy.ai/community/community-resources/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:06.907970607-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "A curated collection of community-contributed tutorials, blog posts, videos, and podcasts for learning and implementing the DSPy framework.",
+      "tags": [
+        "dspy",
+        "community-resources",
+        "tutorials",
+        "llm-pipelines",
+        "prompt-optimization",
+        "ai-agents"
+      ],
+      "category": "other",
+      "original_file_path": "community-community-resources.md"
+    },
+    {
+      "file_path": "068-community-use-cases.md",
+      "title": "Use Cases - DSPy",
+      "url": "https://dspy.ai/community/use-cases/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:07.872780402-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a comprehensive list of real-world use cases, research papers, and open-source projects that demonstrate the practical application of the DSPy framework in production and academic settings.",
+      "tags": [
+        "dspy",
+        "use-cases",
+        "case-studies",
+        "llm-optimization",
+        "nlp-research",
+        "industry-applications"
+      ],
+      "category": "reference",
+      "original_file_path": "community-use-cases.md"
+    },
+    {
+      "file_path": "069-community-how-to-contribute.md",
+      "title": "Contributing - DSPy",
+      "url": "https://dspy.ai/community/how-to-contribute/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:08.073874489-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document invites community involvement in the DSPy project and directs potential contributors to the official contribution guidelines.",
+      "tags": [
+        "dspy",
+        "community-contributions",
+        "open-source",
+        "contributing-guide",
+        "developer-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "community-how-to-contribute.md"
+    },
+    {
+      "file_path": "070-api.md",
+      "title": "API Reference - DSPy",
+      "url": "https://dspy.ai/api/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:20.240029909-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document serves as the landing page for the DSPy API reference, providing an overview of the framework's classes, modules, and functions.",
+      "tags": [
+        "dspy",
+        "api-reference",
+        "documentation",
+        "python-library"
+      ],
+      "category": "api",
+      "original_file_path": "api.md"
+    },
+    {
+      "file_path": "071-api-models-LM.md",
+      "title": "LM - DSPy",
+      "url": "https://dspy.ai/api/models/LM/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:42.137682665-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the initialization method for language model instances within the DSPy framework, detailing parameters for model configuration, caching, and execution. It includes specialized logic for handling parameters like temperature and token limits for specific reasoning model families.",
+      "tags": [
+        "dspy",
+        "language-models",
+        "api-reference",
+        "llm-configuration",
+        "python-sdk",
+        "model-initialization"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-LM.md"
+    },
+    {
+      "file_path": "072-api-models-Embedder.md",
+      "title": "Embedder - DSPy",
+      "url": "https://dspy.ai/api/models/Embedder/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:41.365693679-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "A guide to using the Embedder component in DSPy for generating text embeddings to facilitate retrieval and vector-based operations in language model pipelines.",
+      "tags": [
+        "DSPy",
+        "embeddings",
+        "NLP",
+        "vector-search"
+      ],
+      "category": "guide",
+      "original_file_path": "api-models-Embedder.md"
+    },
+    {
+      "file_path": "073-api-adapters-Adapter.md",
+      "title": "Adapter - DSPy",
+      "url": "https://dspy.ai/api/adapters/Adapter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:26.892763155-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The dspy.Adapter class serves as the interface layer between DSPy modules and Language Models, handling prompt formatting, output parsing, and the integration of native LM features.",
+      "tags": [
+        "dspy",
+        "adapter",
+        "prompt-formatting",
+        "output-parsing",
+        "api-reference",
+        "language-models"
+      ],
+      "category": "api",
+      "original_file_path": "api-adapters-Adapter.md"
+    },
+    {
+      "file_path": "074-api-adapters-ChatAdapter.md",
+      "title": "ChatAdapter - DSPy",
+      "url": "https://dspy.ai/api/adapters/ChatAdapter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:28.0401671-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the ChatAdapter class in DSPy, which formats signatures into structured chat messages for language models and provides automatic fallback to JSON formatting.",
+      "tags": [
+        "dspy",
+        "chat-adapter",
+        "language-models",
+        "prompt-engineering",
+        "json-fallback",
+        "function-calling"
+      ],
+      "category": "api",
+      "original_file_path": "api-adapters-ChatAdapter.md"
+    },
+    {
+      "file_path": "075-api-adapters-JSONAdapter.md",
+      "title": "JSONAdapter - DSPy",
+      "url": "https://dspy.ai/api/adapters/JSONAdapter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:28.441705136-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a technical specification of the JSONAdapter class in DSPy, which handles structured JSON interactions and native function calling with language models.",
+      "tags": [
+        "dspy",
+        "json-adapter",
+        "structured-output",
+        "api-reference",
+        "llm-integration"
+      ],
+      "category": "api",
+      "original_file_path": "api-adapters-JSONAdapter.md"
+    },
+    {
+      "file_path": "076-api-adapters-TwoStepAdapter.md",
+      "title": "TwoStepAdapter - DSPy",
+      "url": "https://dspy.ai/api/adapters/TwoStepAdapter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:29.448825883-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the TwoStepAdapter class in DSPy, which uses a primary model for natural language generation and a secondary smaller model to extract structured data from that response.",
+      "tags": [
+        "dspy",
+        "adapter",
+        "two-step-adapter",
+        "structured-output",
+        "data-extraction",
+        "reasoning-models"
+      ],
+      "category": "api",
+      "original_file_path": "api-adapters-TwoStepAdapter.md"
+    },
+    {
+      "file_path": "077-api-signatures-Signature.md",
+      "title": "Signature - DSPy",
+      "url": "https://dspy.ai/api/signatures/Signature/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:45.542983346-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides an API reference for the programmatic methods used to manage and manipulate dspy.Signature classes, including adding, removing, and comparing fields.",
+      "tags": [
+        "dspy",
+        "signatures",
+        "api-reference",
+        "python-library",
+        "field-manipulation",
+        "llm-programming"
+      ],
+      "category": "api",
+      "original_file_path": "api-signatures-Signature.md"
+    },
+    {
+      "file_path": "078-api-signatures-InputField.md",
+      "title": "InputField - DSPy",
+      "url": "https://dspy.ai/api/signatures/InputField/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:43.551860095-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the InputField function in DSPy, which is used to declare input parameters within a signature using Pydantic field logic.",
+      "tags": [
+        "dspy",
+        "input-field",
+        "signatures",
+        "python-api",
+        "pydantic-fields"
+      ],
+      "category": "api",
+      "original_file_path": "api-signatures-InputField.md"
+    },
+    {
+      "file_path": "079-api-signatures-OutputField.md",
+      "title": "OutputField - DSPy",
+      "url": "https://dspy.ai/api/signatures/OutputField/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:44.979898796-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the OutputField function in the DSPy framework, which is used to specify output components within signatures by wrapping Pydantic fields.",
+      "tags": [
+        "dspy",
+        "output-field",
+        "signatures",
+        "python-api",
+        "pydantic-integration"
+      ],
+      "category": "api",
+      "original_file_path": "api-signatures-OutputField.md"
+    },
+    {
+      "file_path": "080-api-modules-Module.md",
+      "title": "Module - DSPy",
+      "url": "https://dspy.ai/api/modules/Module/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:49.001863795-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a technical reference for the dspy.Module class, detailing its core methods for synchronous and asynchronous execution, parallel batch processing, and state management.",
+      "tags": [
+        "dspy",
+        "python-api",
+        "parallel-processing",
+        "api-reference",
+        "module-primitives",
+        "state-management"
+      ],
+      "category": "reference",
+      "original_file_path": "api-modules-Module.md"
+    },
+    {
+      "file_path": "081-api-modules-Predict.md",
+      "title": "Predict - DSPy",
+      "url": "https://dspy.ai/api/modules/Predict/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:57.844870123-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the dspy.Predict module, a fundamental component for mapping inputs to outputs using language models through signatures and configurable parameters.",
+      "tags": [
+        "dspy",
+        "llm-orchestration",
+        "python-api",
+        "predict-module",
+        "async-support",
+        "batch-processing"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-Predict.md"
+    },
+    {
+      "file_path": "082-api-modules-ChainOfThought.md",
+      "title": "ChainOfThought - DSPy",
+      "url": "https://dspy.ai/api/modules/ChainOfThought/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:43.90388754-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the ChainOfThought class, a module designed to perform step-by-step reasoning for task prediction within the DSPy framework. It covers initialization with signatures, asynchronous execution, and parallel batch processing capabilities.",
+      "tags": [
+        "dspy",
+        "chain-of-thought",
+        "reasoning",
+        "python-api",
+        "batch-processing",
+        "prediction"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-ChainOfThought.md"
+    },
+    {
+      "file_path": "083-api-modules-ReAct.md",
+      "title": "ReAct - DSPy",
+      "url": "https://dspy.ai/api/modules/ReAct/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:01.350902531-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the implementation and initialization of the ReAct module in DSPy, a paradigm for building tool-using agents that interleave reasoning with action.",
+      "tags": [
+        "dspy",
+        "react-agent",
+        "tool-use",
+        "signature-polymorphism",
+        "agentic-workflows",
+        "llm-reasoning"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-ReAct.md"
+    },
+    {
+      "file_path": "084-api-modules-CodeAct.md",
+      "title": "CodeAct - DSPy",
+      "url": "https://dspy.ai/api/modules/CodeAct/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:47.82408454-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the technical specification for the CodeAct module, a component that enables iterative task-solving by combining a code interpreter with external function calls.",
+      "tags": [
+        "dspy",
+        "codeact",
+        "code-interpreter",
+        "tool-use",
+        "agent-architecture",
+        "python-execution"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-CodeAct.md"
+    },
+    {
+      "file_path": "085-api-modules-ProgramOfThought.md",
+      "title": "ProgramOfThought - DSPy",
+      "url": "https://dspy.ai/api/modules/ProgramOfThought/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:00.779638403-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the ProgramOfThought module in DSPy, which enables language models to solve problems by iteratively generating and executing Python code.",
+      "tags": [
+        "dspy",
+        "program-of-thought",
+        "python-interpreter",
+        "code-generation",
+        "module-reference"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-ProgramOfThought.md"
+    },
+    {
+      "file_path": "086-api-modules-BestOfN.md",
+      "title": "BestOfN - DSPy",
+      "url": "https://dspy.ai/api/modules/BestOfN/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:42.501062759-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The BestOfN module executes a specified sub-module multiple times to identify the prediction that best satisfies a reward function or exceeds a defined threshold. It provides a structured way to optimize model outputs through repeated sampling and scoring logic.",
+      "tags": [
+        "dspy",
+        "best-of-n",
+        "prediction-optimization",
+        "reward-function",
+        "python-sdk",
+        "llm-sampling"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-BestOfN.md"
+    },
+    {
+      "file_path": "087-api-modules-Refine.md",
+      "title": "Refine - DSPy",
+      "url": "https://dspy.ai/api/modules/Refine/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:02.67768759-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The dspy.Refine module iteratively executes a specified DSPy module up to a maximum number of attempts to find a prediction that satisfies a reward-based threshold. It aims to improve prediction quality by leveraging multiple rollouts and automated feedback generation.",
+      "tags": [
+        "dspy",
+        "refinement",
+        "module-api",
+        "reward-function",
+        "iterative-refinement",
+        "llm-optimization"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-Refine.md"
+    },
+    {
+      "file_path": "088-api-modules-MultiChainComparison.md",
+      "title": "MultiChainComparison - DSPy",
+      "url": "https://dspy.ai/api/modules/MultiChainComparison/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:50.054506538-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The MultiChainComparison module in DSPy is designed to holistically compare multiple reasoning attempts and generate a refined, accurate rationale using a specialized signature.",
+      "tags": [
+        "dspy",
+        "multi-chain-comparison",
+        "reasoning-refinement",
+        "llm-modules",
+        "api-reference"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-MultiChainComparison.md"
+    },
+    {
+      "file_path": "089-api-modules-Parallel.md",
+      "title": "Parallel - DSPy",
+      "url": "https://dspy.ai/api/modules/Parallel/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:50.851581098-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the dspy.Parallel class, a module designed to facilitate the multi-threaded execution of DSPy tasks over collections of examples with configurable error handling and timeouts.",
+      "tags": [
+        "dspy",
+        "parallel-execution",
+        "multithreading",
+        "python-api",
+        "batch-processing",
+        "concurrency"
+      ],
+      "category": "api",
+      "original_file_path": "api-modules-Parallel.md"
+    },
+    {
+      "file_path": "090-api-primitives-Example.md",
+      "title": "Example - DSPy",
+      "url": "https://dspy.ai/api/primitives/Example/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:34.826443986-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document details the dspy.Example class, a flexible data container used for training and evaluation data within the DSPy framework, including its methods for input/output separation and serialization.",
+      "tags": [
+        "dspy",
+        "example-class",
+        "data-management",
+        "api-reference",
+        "training-data",
+        "serialization"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-Example.md"
+    },
+    {
+      "file_path": "091-api-primitives-Prediction.md",
+      "title": "Prediction - DSPy",
+      "url": "https://dspy.ai/api/primitives/Prediction/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:39.39782139-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the Prediction class in DSPy, which stores module outputs and supports scoring-based comparison and arithmetic operations.",
+      "tags": [
+        "dspy",
+        "prediction-class",
+        "module-outputs",
+        "api-reference",
+        "machine-learning"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-Prediction.md"
+    },
+    {
+      "file_path": "092-api-primitives-History.md",
+      "title": "History - DSPy",
+      "url": "https://dspy.ai/api/primitives/History/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:37.169129087-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the dspy.History class, which is used to represent and manage conversation history within dspy signatures and predictive models.",
+      "tags": [
+        "dspy",
+        "conversation-history",
+        "signature-fields",
+        "prompt-engineering",
+        "language-models"
+      ],
+      "category": "reference",
+      "original_file_path": "api-primitives-History.md"
+    },
+    {
+      "file_path": "093-api-primitives-Tool.md",
+      "title": "Tool - DSPy",
+      "url": "https://dspy.ai/api/primitives/Tool/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:39.465736386-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The Tool class in DSPy facilitates the conversion of Python functions into tool-calling components for LLMs by automatically inferring schemas or accepting manual configurations.",
+      "tags": [
+        "dspy",
+        "tool-calling",
+        "function-calling",
+        "llm-integration",
+        "python-api",
+        "metadata-inference"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-Tool.md"
+    },
+    {
+      "file_path": "094-api-primitives-ToolCalls.md",
+      "title": "ToolCalls - DSPy",
+      "url": "https://dspy.ai/api/primitives/ToolCalls/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:42.111124272-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a technical reference for the ToolCalls class and its base type in DSPy, detailing methods for managing tool execution, signature adaptation, and LM response parsing.",
+      "tags": [
+        "dspy",
+        "tool-calling",
+        "llm-integration",
+        "python-api",
+        "type-adaptation",
+        "signature-handling"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-ToolCalls.md"
+    },
+    {
+      "file_path": "095-api-primitives-Image.md",
+      "title": "Image - DSPy",
+      "url": "https://dspy.ai/api/primitives/Image/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:38.212830055-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the dspy.Image class, a primitive type for handling image data from various sources such as URLs, local paths, bytes, and PIL instances within the DSPy framework.",
+      "tags": [
+        "dspy",
+        "image-handling",
+        "multimodal",
+        "python-api",
+        "type-system",
+        "data-uri"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-Image.md"
+    },
+    {
+      "file_path": "096-api-primitives-Audio.md",
+      "title": "Audio - DSPy",
+      "url": "https://dspy.ai/api/primitives/Audio/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:32.218276044-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the API reference for the dspy.Audio class, detailing methods for creating, formatting, and adapting audio data for integration with language models.",
+      "tags": [
+        "dspy",
+        "audio-processing",
+        "multimodal-llm",
+        "api-reference",
+        "data-types",
+        "python-library"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-Audio.md"
+    },
+    {
+      "file_path": "097-api-primitives-Code.md",
+      "title": "Code - DSPy",
+      "url": "https://dspy.ai/api/primitives/Code/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:32.65584301-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the dspy.Code primitive, a specialized type in DSPy used for code generation and analysis within signatures.",
+      "tags": [
+        "dspy",
+        "code-generation",
+        "code-analysis",
+        "primitives",
+        "signatures",
+        "api-reference"
+      ],
+      "category": "api",
+      "original_file_path": "api-primitives-Code.md"
+    },
+    {
+      "file_path": "098-api-tools-ColBERTv2.md",
+      "title": "ColBERTv2 - DSPy",
+      "url": "https://dspy.ai/api/tools/ColBERTv2/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:46.389584013-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the dspy.ColBERTv2 class, a wrapper for performing information retrieval via a ColBERTv2 server.",
+      "tags": [
+        "dspy",
+        "colbertv2",
+        "information-retrieval",
+        "api-wrapper",
+        "search-engine"
+      ],
+      "category": "api",
+      "original_file_path": "api-tools-ColBERTv2.md"
+    },
+    {
+      "file_path": "099-api-tools-Embeddings.md",
+      "title": "Embeddings - DSPy",
+      "url": "https://dspy.ai/api/tools/Embeddings/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:47.602532321-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the API reference for the dspy.Embeddings class, which manages corpus vectorization, FAISS indexing, and similarity-based retrieval.",
+      "tags": [
+        "dspy",
+        "embeddings",
+        "retriever",
+        "faiss",
+        "vector-search",
+        "semantic-search"
+      ],
+      "category": "api",
+      "original_file_path": "api-tools-Embeddings.md"
+    },
+    {
+      "file_path": "100-api-tools-PythonInterpreter.md",
+      "title": "PythonInterpreter - DSPy",
+      "url": "https://dspy.ai/api/tools/PythonInterpreter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:48.363188163-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document details the dspy.PythonInterpreter class, which provides a secure, sandboxed environment for executing Python code using Deno and Pyodide. It outlines configuration options for host isolation, including filesystem access, network permissions, and the integration of host-side tools.",
+      "tags": [
+        "dspy",
+        "python-interpreter",
+        "sandboxing",
+        "pyodide",
+        "deno",
+        "secure-execution",
+        "code-interpreter"
+      ],
+      "category": "api",
+      "original_file_path": "api-tools-PythonInterpreter.md"
+    },
+    {
+      "file_path": "101-api-evaluation-Evaluate.md",
+      "title": "Evaluate - DSPy",
+      "url": "https://dspy.ai/api/evaluation/Evaluate/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:32.358475425-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the primary evaluation interface for DSPy programs, detailing parameters for metrics, datasets, and execution settings such as parallel threads and result visualization.",
+      "tags": [
+        "dspy",
+        "evaluation",
+        "python-api",
+        "metrics",
+        "parallel-execution",
+        "machine-learning"
+      ],
+      "category": "api",
+      "original_file_path": "api-evaluation-Evaluate.md"
+    },
+    {
+      "file_path": "102-api-evaluation-EvaluationResult.md",
+      "title": "EvaluationResult - DSPy",
+      "url": "https://dspy.ai/api/evaluation/EvaluationResult/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:33.772793741-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document specifies the dspy.evaluate.EvaluationResult class, which encapsulates the aggregate score and individual results from an evaluation run. It details the class's attributes and methods for accessing predictions, calculating LM usage, and converting data to serializable formats.",
+      "tags": [
+        "dspy",
+        "evaluation-result",
+        "api-reference",
+        "machine-learning-metrics",
+        "python-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-evaluation-EvaluationResult.md"
+    },
+    {
+      "file_path": "103-api-evaluation-SemanticF1.md",
+      "title": "SemanticF1 - DSPy",
+      "url": "https://dspy.ai/api/evaluation/SemanticF1/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:34.303960871-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the SemanticF1 class in DSPy, which evaluates predictions by calculating semantic recall and precision using language model modules.",
+      "tags": [
+        "dspy",
+        "semantic-f1",
+        "evaluation-metrics",
+        "nlp-evaluation",
+        "automated-grading",
+        "parallel-processing"
+      ],
+      "category": "api",
+      "original_file_path": "api-evaluation-SemanticF1.md"
+    },
+    {
+      "file_path": "104-api-evaluation-CompleteAndGrounded.md",
+      "title": "CompleteAndGrounded - DSPy",
+      "url": "https://dspy.ai/api/evaluation/CompleteAndGrounded/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:29.22430118-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the API reference for the CompleteAndGrounded class in DSPy, which automates the evaluation of answer completeness and groundedness using chain-of-thought modules.",
+      "tags": [
+        "dspy",
+        "evaluation",
+        "api-reference",
+        "chain-of-thought",
+        "groundedness",
+        "answer-completeness",
+        "python-module"
+      ],
+      "category": "api",
+      "original_file_path": "api-evaluation-CompleteAndGrounded.md"
+    },
+    {
+      "file_path": "105-api-evaluation-answer-exact-match.md",
+      "title": "answer_exact_match - DSPy",
+      "url": "https://dspy.ai/api/evaluation/answer_exact_match/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:35.822731188-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the answer_exact_match function in DSPy, which evaluates whether a predicted answer matches ground truth references using exact match or an F1-score threshold.",
+      "tags": [
+        "dspy",
+        "evaluation-metrics",
+        "exact-match",
+        "f1-score",
+        "nlp-validation"
+      ],
+      "category": "api",
+      "original_file_path": "api-evaluation-answer-exact-match.md"
+    },
+    {
+      "file_path": "106-api-evaluation-answer-passage-match.md",
+      "title": "answer_passage_match - DSPy",
+      "url": "https://dspy.ai/api/evaluation/answer_passage_match/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:36.180534447-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the answer_passage_match function, an evaluation metric used to determine if any retrieved context passage contains the expected answer string.",
+      "tags": [
+        "dspy",
+        "evaluation-metrics",
+        "retrieval",
+        "nlp",
+        "answer-matching"
+      ],
+      "category": "api",
+      "original_file_path": "api-evaluation-answer-passage-match.md"
+    },
+    {
+      "file_path": "107-api-optimizers-LabeledFewShot.md",
+      "title": "LabeledFewShot - DSPy",
+      "url": "https://dspy.ai/api/optimizers/LabeledFewShot/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:21.023046773-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a technical specification for the LabeledFewShot teleprompter class in DSPy, which assigns a fixed number of labeled examples from a training set to a model's predictors.",
+      "tags": [
+        "dspy",
+        "labeled-few-shot",
+        "teleprompter",
+        "few-shot-learning",
+        "machine-learning-optimization"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-LabeledFewShot.md"
+    },
+    {
+      "file_path": "108-api-optimizers-BootstrapFewShot.md",
+      "title": "BootstrapFewShot - DSPy",
+      "url": "https://dspy.ai/api/optimizers/BootstrapFewShot/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:07.000787259-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The dspy.BootstrapFewShot document provides an API reference for an optimizer class that automates the creation of prompt demonstrations through a combination of labeled examples and bootstrapped traces.",
+      "tags": [
+        "dspy",
+        "bootstrap-few-shot",
+        "teleprompter",
+        "prompt-optimization",
+        "few-shot-learning",
+        "api-reference"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-BootstrapFewShot.md"
+    },
+    {
+      "file_path": "109-api-optimizers-BootstrapFewShotWithRandomSearch.md",
+      "title": "BootstrapFewShotWithRandomSearch - DSPy",
+      "url": "https://dspy.ai/api/optimizers/BootstrapFewShotWithRandomSearch/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:08.876361819-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This method implements a compilation process that generates and evaluates multiple DSPy program candidates using various few-shot strategies and random seeds to find the best performing version.",
+      "tags": [
+        "dspy",
+        "program-optimization",
+        "few-shot-learning",
+        "bootstrap-few-shot",
+        "model-evaluation",
+        "hyperparameter-search"
+      ],
+      "category": "reference",
+      "original_file_path": "api-optimizers-BootstrapFewShotWithRandomSearch.md"
+    },
+    {
+      "file_path": "110-api-optimizers-BootstrapRS.md",
+      "title": "BootstrapRS - DSPy",
+      "url": "https://dspy.ai/api/optimizers/BootstrapRS/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:09.477566988-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This documentation specifies that dspy.BootstrapRS is an alias for the BootstrapFewShotWithRandomSearch optimizer within the DSPy framework.",
+      "tags": [
+        "dspy",
+        "optimizer",
+        "bootstrap-rs",
+        "random-search",
+        "api-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "api-optimizers-BootstrapRS.md"
+    },
+    {
+      "file_path": "111-api-optimizers-BootstrapFinetune.md",
+      "title": "BootstrapFinetune - DSPy",
+      "url": "https://dspy.ai/api/optimizers/BootstrapFinetune/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:08.877569505-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the API reference for the BootstrapFinetune class, a DSPy optimizer designed to bootstrap training data and fine-tune language models within a program.",
+      "tags": [
+        "dspy",
+        "optimizer",
+        "bootstrap-finetune",
+        "fine-tuning",
+        "language-models",
+        "teleprompter"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-BootstrapFinetune.md"
+    },
+    {
+      "file_path": "112-api-optimizers-KNN.md",
+      "title": "KNN - DSPy",
+      "url": "https://dspy.ai/api/optimizers/KNN/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:20.01859344-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides a technical specification for the dspy.KNN class, which retrieves the most similar training examples using vector embeddings and k-nearest neighbors logic.",
+      "tags": [
+        "dspy",
+        "knn-retriever",
+        "vector-embeddings",
+        "similarity-search",
+        "nearest-neighbor",
+        "data-retrieval"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-KNN.md"
+    },
+    {
+      "file_path": "113-api-optimizers-KNNFewShot.md",
+      "title": "KNNFewShot - DSPy",
+      "url": "https://dspy.ai/api/optimizers/KNNFewShot/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:20.157727022-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains the KNNFewShot optimizer in DSPy, which dynamically retrieves relevant training examples using k-nearest neighbors to serve as demonstrations during module inference.",
+      "tags": [
+        "dspy",
+        "knn-few-shot",
+        "teleprompter",
+        "few-shot-learning",
+        "optimization",
+        "vector-search",
+        "prompt-engineering"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-KNNFewShot.md"
+    },
+    {
+      "file_path": "114-api-optimizers-COPRO.md",
+      "title": "COPRO - DSPy",
+      "url": "https://dspy.ai/api/optimizers/COPRO/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:13.866785685-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains the implementation of an iterative prompt optimization algorithm that refines instructions and output prefixes for language model predictors by evaluating candidate versions against a training dataset.",
+      "tags": [
+        "dspy",
+        "prompt-optimization",
+        "machine-learning",
+        "automated-prompt-engineering",
+        "program-compilation",
+        "nlp"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-COPRO.md"
+    },
+    {
+      "file_path": "115-api-optimizers-MIPROv2.md",
+      "title": "MIPROv2 - DSPy",
+      "url": "https://dspy.ai/api/optimizers/MIPROv2/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:21.635478323-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the compile method for a prompt optimizer, detailing the process of bootstrapping few-shot examples and proposing instructions to optimize a student program.",
+      "tags": [
+        "dspy",
+        "prompt-optimization",
+        "mipro-optimizer",
+        "few-shot-learning",
+        "machine-learning-pipelines",
+        "hyperparameter-tuning"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-MIPROv2.md"
+    },
+    {
+      "file_path": "116-api-optimizers-SIMBA.md",
+      "title": "SIMBA - DSPy",
+      "url": "https://dspy.ai/api/optimizers/SIMBA/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:26.010101771-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the implementation of the compile method for the SIMBA optimizer, which improves DSPy modules by sampling program trajectories and applying optimization strategies based on performance scores.",
+      "tags": [
+        "dspy",
+        "simba-optimizer",
+        "module-optimization",
+        "trajectory-sampling",
+        "automated-prompt-engineering",
+        "machine-learning"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-SIMBA.md"
+    },
+    {
+      "file_path": "117-api-optimizers-InferRules.md",
+      "title": "InferRules - DSPy",
+      "url": "https://dspy.ai/api/optimizers/InferRules/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:14.737484834-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document provides the API reference for dspy.InferRules, an optimizer that enhances DSPy programs by inducing natural language rules from examples and refining predictor instructions.",
+      "tags": [
+        "dspy",
+        "optimizer",
+        "infer-rules",
+        "teleprompter",
+        "prompt-optimization",
+        "signature-refinement",
+        "machine-learning"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-InferRules.md"
+    },
+    {
+      "file_path": "118-api-optimizers-BetterTogether.md",
+      "title": "BetterTogether - DSPy",
+      "url": "https://dspy.ai/api/optimizers/BetterTogether/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:04.887231898-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the BetterTogether class in DSPy, an experimental optimizer that coordinates sequential prompt and weight optimization strategies for LLM programs.",
+      "tags": [
+        "dspy",
+        "optimizer",
+        "teleprompter",
+        "prompt-optimization",
+        "fine-tuning",
+        "machine-learning",
+        "llm-optimization"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-BetterTogether.md"
+    },
+    {
+      "file_path": "119-api-optimizers-Ensemble.md",
+      "title": "Ensemble - DSPy",
+      "url": "https://dspy.ai/api/optimizers/Ensemble/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:14.726852713-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The dspy.Ensemble class is a teleprompter that combines multiple DSPy programs into a single ensembled module, optionally using a reduction function to process outputs.",
+      "tags": [
+        "dspy",
+        "ensemble",
+        "teleprompter",
+        "api-reference",
+        "machine-learning",
+        "program-compilation"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-Ensemble.md"
+    },
+    {
+      "file_path": "120-api-optimizers-GEPA-overview.md",
+      "title": "1. GEPA Overview - DSPy",
+      "url": "https://dspy.ai/api/optimizers/GEPA/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:27.397736651-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "dspy.GEPA is a reflective prompt optimizer that evolves textual components using Genetic-Pareto algorithms and textual feedback to improve system performance. It leverages execution traces and reflection models to identify and fix bottlenecks in prompts through iterative evolution.",
+      "tags": [
+        "gepa",
+        "prompt-optimization",
+        "reflective-learning",
+        "genetic-algorithm",
+        "pareto-optimization",
+        "dspy-optimizers"
+      ],
+      "category": "api",
+      "original_file_path": "api-optimizers-GEPA-overview.md"
+    },
+    {
+      "file_path": "121-api-optimizers-GEPA-GEPA-Advanced.md",
+      "title": "2. GEPA Advanced - DSPy",
+      "url": "https://dspy.ai/api/optimizers/GEPA/GEPA_Advanced/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:26.641832494-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document explains how to customize and implement instruction proposers within the dspy.GEPA optimizer for advanced prompt refinement and multi-modal handling.",
+      "tags": [
+        "dspy",
+        "gepa",
+        "instruction-proposer",
+        "prompt-optimization",
+        "llm-reflection",
+        "advanced-features"
+      ],
+      "category": "guide",
+      "original_file_path": "api-optimizers-GEPA-GEPA-Advanced.md"
+    },
+    {
+      "file_path": "122-api-utils-configure-cache.md",
+      "title": "configure_cache - DSPy",
+      "url": "https://dspy.ai/api/utils/configure_cache/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:58.594548712-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the dspy.configure_cache function, which is used to manage settings for on-disk and in-memory caching within the DSPy framework.",
+      "tags": [
+        "dspy",
+        "cache-management",
+        "disk-cache",
+        "memory-cache",
+        "api-configuration",
+        "optimization"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-configure-cache.md"
+    },
+    {
+      "file_path": "123-api-utils-asyncify.md",
+      "title": "asyncify - DSPy",
+      "url": "https://dspy.ai/api/utils/asyncify/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:54.928650357-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "Explains how to use the dspy.asyncify function to wrap DSPy programs for asynchronous execution while maintaining thread-local configuration.",
+      "tags": [
+        "dspy",
+        "async-await",
+        "concurrency",
+        "api-reference",
+        "thread-context"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-asyncify.md"
+    },
+    {
+      "file_path": "124-api-utils-streamify.md",
+      "title": "streamify - DSPy",
+      "url": "https://dspy.ai/api/utils/streamify/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:05.744429125-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This function wraps a DSPy program to enable incremental streaming of outputs and status messages instead of returning results all at once.",
+      "tags": [
+        "dspy",
+        "streaming",
+        "async-programming",
+        "status-messages",
+        "stream-listeners",
+        "output-buffering"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-streamify.md"
+    },
+    {
+      "file_path": "125-api-utils-StreamListener.md",
+      "title": "StreamListener - DSPy",
+      "url": "https://dspy.ai/api/utils/StreamListener/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:54.32739626-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "The StreamListener class provides a mechanism to monitor and capture real-time streaming output from specific signature fields within DSPy predictors across multiple adapter formats.",
+      "tags": [
+        "dspy",
+        "streaming",
+        "stream-listener",
+        "llm-output",
+        "api-reference",
+        "data-extraction"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-StreamListener.md"
+    },
+    {
+      "file_path": "126-api-utils-StatusMessage.md",
+      "title": "StatusMessage - DSPy",
+      "url": "https://dspy.ai/api/utils/StatusMessage/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:49.585960346-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the StatusMessage dataclass, which is used to wrap message strings for status streaming within the DSPy framework.",
+      "tags": [
+        "dspy",
+        "python",
+        "streaming",
+        "dataclass",
+        "api-reference",
+        "status-updates"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-StatusMessage.md"
+    },
+    {
+      "file_path": "127-api-utils-StatusMessageProvider.md",
+      "title": "StatusMessageProvider - DSPy",
+      "url": "https://dspy.ai/api/utils/StatusMessageProvider/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:53.271672582-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the StatusMessageProvider base class used for creating and customizing status message streaming during various stages of DSPy program execution.",
+      "tags": [
+        "dspy",
+        "streaming",
+        "status-messages",
+        "api-reference",
+        "observability",
+        "customization"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-StatusMessageProvider.md"
+    },
+    {
+      "file_path": "128-api-utils-enable-logging.md",
+      "title": "enable_logging - DSPy",
+      "url": "https://dspy.ai/api/utils/enable_logging/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:01.659570868-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the enable_logging function in DSPy, which activates the logging stream to emit event logs from internal APIs.",
+      "tags": [
+        "dspy",
+        "logging",
+        "event-logging",
+        "python-utilities",
+        "debugging"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-enable-logging.md"
+    },
+    {
+      "file_path": "129-api-utils-disable-logging.md",
+      "title": "disable_logging - DSPy",
+      "url": "https://dspy.ai/api/utils/disable_logging/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:00.179469143-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "Explains how to disable the internal DSPy event logging stream to silence all subsequent event logs from the library.",
+      "tags": [
+        "dspy",
+        "logging",
+        "event-logs",
+        "utilities",
+        "configuration"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-disable-logging.md"
+    },
+    {
+      "file_path": "130-api-utils-enable-litellm-logging.md",
+      "title": "enable_litellm_logging - DSPy",
+      "url": "https://dspy.ai/api/utils/enable_litellm_logging/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:01.552798467-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This utility function enables detailed logging for LiteLLM within the DSPy framework by setting the log level to DEBUG and unsuppressing debug information.",
+      "tags": [
+        "dspy",
+        "litellm",
+        "logging",
+        "debugging",
+        "api-utility"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-enable-litellm-logging.md"
+    },
+    {
+      "file_path": "131-api-utils-disable-litellm-logging.md",
+      "title": "disable_litellm_logging - DSPy",
+      "url": "https://dspy.ai/api/utils/disable_litellm_logging/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:02:59.122982864-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the dspy.disable_litellm_logging function, which suppresses debug information and sets the LiteLLM logging level to error-only.",
+      "tags": [
+        "dspy",
+        "litellm",
+        "logging",
+        "configuration",
+        "debugging"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-disable-litellm-logging.md"
+    },
+    {
+      "file_path": "132-api-utils-inspect-history.md",
+      "title": "inspect_history - DSPy",
+      "url": "https://dspy.ai/api/utils/inspect_history/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:03.923615227-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document describes the inspect_history utility in DSPy, which allows users to view the global history of interactions across all language models.",
+      "tags": [
+        "dspy",
+        "inspect-history",
+        "lm-history",
+        "debugging",
+        "llm-tracking"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-inspect-history.md"
+    },
+    {
+      "file_path": "133-api-utils-load.md",
+      "title": "load - DSPy",
+      "url": "https://dspy.ai/api/utils/load/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:03:04.691181198-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the dspy.load function, which is used to deserialize and load saved DSPy modules from a specified path using cloudpickle.",
+      "tags": [
+        "dspy",
+        "model-loading",
+        "serialization",
+        "cloudpickle",
+        "python-api",
+        "module-persistence"
+      ],
+      "category": "api",
+      "original_file_path": "api-utils-load.md"
+    },
+    {
+      "file_path": "134-api-experimental-Citations.md",
+      "title": "Citations - DSPy",
+      "url": "https://dspy.ai/api/experimental/Citations/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:38.126649149-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "This document defines the dspy.experimental.Citations class, which provides a structured way to handle and extract source-referenced citations from language model responses. It includes utilities for parsing native LM citation features, managing quoted text, and converting citation data between formats.",
+      "tags": [
+        "dspy-framework",
+        "citation-extraction",
+        "language-models",
+        "source-attribution",
+        "anthropic-citations",
+        "data-parsing"
+      ],
+      "category": "api",
+      "original_file_path": "api-experimental-Citations.md"
+    },
+    {
+      "file_path": "135-api-experimental-Document.md",
+      "title": "Document - DSPy",
+      "url": "https://dspy.ai/api/experimental/Document/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-23T08:01:40.541290738-03:00",
+      "description": "The framework for programming\u2014rather than prompting\u2014language models.",
+      "summary": "Defines the experimental Document class in DSPy, which facilitates providing structured text content and metadata for citation-enabled language model interactions.",
+      "tags": [
+        "dspy",
+        "citations",
+        "document-class",
+        "experimental-feature",
+        "metadata"
+      ],
+      "category": "api",
+      "original_file_path": "api-experimental-Document.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-23T12:51:41Z",
+    "total_files": 135,
+    "categories": [
+      "Introduction & Overview (001-005)",
+      "Programming Fundamentals (006-013)",
+      "Evaluation (014-016)",
+      "Optimization (017-018)",
+      "Data Handling Deep Dive (019-021)",
+      "Tutorials - Building AI Programs (022-032)",
+      "Tutorials - Real World Examples (033-041)",
+      "Tutorials - Core Development (042-049)",
+      "Tutorials - Optimization (050-057)",
+      "Tutorials - GEPA (058-062)",
+      "Tutorials - Reinforcement Learning (063-065)",
+      "Production & Community (066-069)",
+      "API Reference - Overview (070)",
+      "API Reference - Models (071-072)",
+      "API Reference - Adapters (073-076)",
+      "API Reference - Signatures (077-079)",
+      "API Reference - Modules (080-089)",
+      "API Reference - Primitives (090-097)",
+      "API Reference - Tools (098-100)",
+      "API Reference - Evaluation (101-106)",
+      "API Reference - Optimizers (107-121)",
+      "API Reference - Utilities (122-133)",
+      "API Reference - Experimental (134-135)"
+    ]
+  }
+}

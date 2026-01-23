@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-01-19T12:50:12.266954156-03:00",
+  "source_url": "https://github.com/charmbracelet/crush",
+  "strategy": "git",
+  "total_documents": 4,
+  "documents": [
+    {
+      "file_path": "001-README.md",
+      "original_file_path": "README.md",
+      "title": "README",
+      "url": "https://github.com/charmbracelet/crush/blob/main/README.md",
+      "source": "git",
+      "fetched_at": "2026-01-19T12:50:02.971031873-03:00",
+      "summary": "Crush is a terminal-based tool that integrates with Large Language Models (LLMs), allowing users to interact with their code, tools, and workflows directly within their terminal. It supports multiple LLM providers, flexible session management, and Language Server Protocol (LSP) enhancements for an integrated coding experience.",
+      "tags": [
+        "llm",
+        "terminal",
+        "coding-assistant",
+        "lsp",
+        "developer-tool",
+        "integration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "002-CRUSH.md",
+      "original_file_path": "CRUSH.md",
+      "title": "CRUSH",
+      "url": "https://github.com/charmbracelet/crush/blob/main/CRUSH.md",
+      "source": "git",
+      "fetched_at": "2026-01-19T12:50:02.971007327-03:00",
+      "summary": "This document outlines the development workflow, code style guidelines, and best practices for contributing to the Crush project, including build commands, linting, testing, and commit conventions.",
+      "tags": [
+        "development-guide",
+        "code-style",
+        "testing",
+        "git-commits",
+        "go-programming"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-LICENSE.md",
+      "original_file_path": "LICENSE.md",
+      "title": "LICENSE",
+      "url": "https://github.com/charmbracelet/crush/blob/main/LICENSE.md",
+      "source": "git",
+      "fetched_at": "2026-01-19T12:50:02.97100922-03:00",
+      "summary": "This document outlines the Functional Source License (FSL-1.1-MIT), detailing terms for using, copying, modifying, and distributing software, along with a future grant of an MIT license.",
+      "tags": [
+        "license",
+        "fsl-1.1-mit",
+        "terms-and-conditions",
+        "future-license",
+        "mit-license"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "004-CLA.md",
+      "original_file_path": "CLA.md",
+      "title": "CLA",
+      "url": "https://github.com/charmbracelet/crush/blob/main/CLA.md",
+      "source": "git",
+      "fetched_at": "2026-01-19T12:50:02.97100898-03:00",
+      "summary": "This document outlines the terms and conditions for contributing to open source projects managed by Charmbracelet, Inc. It details the necessary Contributor License Agreement (CLA) required to protect both contributors and the company, and defines the rights granted for submitted contributions.",
+      "tags": [
+        "cla",
+        "contributor-license-agreement",
+        "open-source",
+        "intellectual-property",
+        "licensing",
+        "contributions"
+      ],
+      "category": "guide"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-19T12:50:00Z",
+    "total_files": 4,
+    "files_renamed": 4,
+    "categories": [
+      "Introduction & Overview",
+      "Development Guide",
+      "Legal & Meta"
+    ]
+  }
+}

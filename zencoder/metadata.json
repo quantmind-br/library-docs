@@ -1,0 +1,1702 @@
+{
+  "generated_at": "2026-01-23T09:29:36.91839527-03:00",
+  "source_url": "https://docs.zencoder.ai/sitemap.xm",
+  "strategy": "crawler",
+  "total_documents": 89,
+  "documents": [
+    {
+      "file_path": "088-sitemap.xm.md",
+      "title": "Page Not Found",
+      "url": "https://docs.zencoder.ai/sitemap.xm",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:27:50.971350724-03:00",
+      "summary": "This document serves as a navigational index for the Zenflow app documentation, linking to resources for setup, agent orchestration, and workflow management.",
+      "tags": [
+        "zenflow-app",
+        "agent-orchestration",
+        "workflow-automation",
+        "system-integrations",
+        "documentation-index"
+      ],
+      "category": "guide",
+      "original_file_path": "sitemap.xm.md"
+    },
+    {
+      "file_path": "002-get-started-quickstart.md",
+      "title": "Quickstart - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/get-started/quickstart",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:00.865930226-03:00",
+      "description": "Welcome to Zencoder! This guide will have you up and running with your AI coding assistant in under 5 minutes. By the end, you'll have Zencoder installed, connected to your project, and ready to help you code faster.",
+      "summary": "This document provides comprehensive instructions for installing Zencoder across various platforms, setting up custom AI agents and Zen Rules, and navigating model selection and shortcuts.",
+      "tags": [
+        "zencoder-setup",
+        "ide-integration",
+        "ai-agents",
+        "zen-rules",
+        "installation-guide",
+        "keyboard-shortcuts",
+        "model-comparison"
+      ],
+      "category": "guide",
+      "original_file_path": "get-started-quickstart.md"
+    },
+    {
+      "file_path": "001-get-started-introduction.md",
+      "title": "Introduction - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/get-started/introduction",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:27:59.87706494-03:00",
+      "description": "Zencoder is an AI coding agent helpings developers write, analyze, and optimize code in their IDEs",
+      "summary": "This document introduces Zencoder, an AI-powered coding assistant that integrates with IDEs to automate development tasks using specialized agents and codebase analysis.",
+      "tags": [
+        "ai-coding-assistant",
+        "ide-integration",
+        "code-automation",
+        "repo-grokking",
+        "agentic-pipeline",
+        "developer-productivity"
+      ],
+      "category": "concept",
+      "original_file_path": "get-started-introduction.md"
+    },
+    {
+      "file_path": "004-get-started-subscription.md",
+      "title": "Subscriptions - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/get-started/subscription",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:02.37126944-03:00",
+      "description": "Zencoder offers flexible subscription plans designed to fit a range of development needs, from individuals to teams.",
+      "summary": "This document outlines Zencoder's subscription plans, feature comparisons, AI model options, and dynamic seat allocation mechanics for users and administrators.",
+      "tags": [
+        "pricing-plans",
+        "subscription-tiers",
+        "ai-usage-limits",
+        "seat-allocation",
+        "feature-comparison",
+        "zencoder-billing"
+      ],
+      "category": "reference",
+      "original_file_path": "get-started-subscription.md"
+    },
+    {
+      "file_path": "075-changelog-home.md",
+      "title": "Product Updates - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/home",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:27:59.900032622-03:00",
+      "description": "Follow the ongoing evolution of our AI coding assistant",
+      "summary": "This document provides a chronological record of monthly product updates and feature releases for the Zencoder AI coding companion throughout 2025.",
+      "tags": [
+        "changelog",
+        "product-updates",
+        "release-notes",
+        "zencoder-ai",
+        "feature-history",
+        "ai-development-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog-home.md"
+    },
+    {
+      "file_path": "003-get-started-basic-concepts.md",
+      "title": "Core Concepts - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/get-started/basic-concepts",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:02.507174426-03:00",
+      "description": "Learn the key concepts that power Zencoder\u2014from Agents and Repo Grokking to the Model Context Protocol. Understanding these fundamentals will help you work more effectively with AI-assisted coding.",
+      "summary": "This document provides a comprehensive overview of Zencoder's core technologies, specialized AI agents, and developer-focused features like code generation and testing. It explains the foundational Repo Grokking and Agentic Pipeline technologies alongside various integration options for popular IDEs and third-party tools.",
+      "tags": [
+        "zencoder",
+        "repo-grokking",
+        "agentic-pipeline",
+        "ai-coding-assistant",
+        "ide-integration",
+        "software-testing",
+        "code-automation",
+        "mcp"
+      ],
+      "category": "concept",
+      "original_file_path": "get-started-basic-concepts.md"
+    },
+    {
+      "file_path": "051-learn-enterprise-best-practices-overview.md",
+      "title": "Enterprise Best Practices Overview - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/overview",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:00.05719949-03:00",
+      "summary": "This overview outlines the core practice areas for high-performing engineering organizations to adopt AI coding, including security, automation, and performance measurement. It serves as a navigational hub for detailed enterprise playbooks designed to maximize the value of Zencoder.",
+      "tags": [
+        "ai-coding",
+        "enterprise-best-practices",
+        "software-delivery",
+        "security-compliance",
+        "ci-cd-automation",
+        "roi-measurement"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-overview.md"
+    },
+    {
+      "file_path": "038-zenflow-orchestrating-agents.md",
+      "title": "Orchestrating Agents in Zenflow - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/zenflow/orchestrating-agents",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:03.004008883-03:00",
+      "description": "Coordinate workflows, verification, and parallel execution across Zenflow.",
+      "summary": "This document explains the Zenflow orchestration architecture, detailing how projects, tasks, and subtasks structure AI agent workflows for reliable software engineering.",
+      "tags": [
+        "zenflow",
+        "ai-orchestration",
+        "multi-agent-systems",
+        "workflow-management",
+        "task-automation",
+        "agent-verification"
+      ],
+      "category": "concept",
+      "original_file_path": "zenflow-orchestrating-agents.md"
+    },
+    {
+      "file_path": "031-features-universal-cli-platform.md",
+      "title": "Universal AI Platform - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/universal-cli-platform",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:04.864607181-03:00",
+      "description": "Unifying the world's most popular AI coding CLIs with Zencoder directly in your IDE",
+      "summary": "This document introduces Zencoder, a platform that bridges the gap between AI CLI tools and IDEs, enabling developers to use existing AI subscriptions within a unified enterprise environment.",
+      "tags": [
+        "ai-coding-tools",
+        "ide-integration",
+        "cli-platform",
+        "enterprise-software",
+        "software-development",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "features-universal-cli-platform.md"
+    },
+    {
+      "file_path": "014-features-qa-agent.md",
+      "title": "Ask Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/qa-agent",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:06.859658156-03:00",
+      "description": "AI Code-aware chat interface for quick questions and simple tasks",
+      "summary": "This document introduces the Ask Agent, an AI-powered tool for querying codebases, debugging errors, and generating simple code snippets using context-aware technology.",
+      "tags": [
+        "ask-agent",
+        "code-explanation",
+        "debugging",
+        "repo-grokking",
+        "ai-assistant",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "features-qa-agent.md"
+    },
+    {
+      "file_path": "035-features-integrations-and-mcp.md",
+      "title": "Integrations and MCP - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/integrations-and-mcp",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:07.569444669-03:00",
+      "description": "Connect Zencoder with your tools and workflows through multiple integration paths",
+      "summary": "This document outlines the three primary integration paths for Zencoder, including native integrations, a browser extension, and support for the Model Context Protocol (MCP) to connect with external data sources.",
+      "tags": [
+        "zencoder-integration",
+        "jira-integration",
+        "chrome-extension",
+        "model-context-protocol",
+        "developer-workflow",
+        "agent-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "features-integrations-and-mcp.md"
+    },
+    {
+      "file_path": "036-zenflow-quickstart.md",
+      "title": "Quickstart and Core Concepts - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/zenflow/quickstart",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:01.851577239-03:00",
+      "description": "Go from idea to verified, production-ready code within minutes.",
+      "summary": "This document provides an introductory guide to Zenflow, detailing the onboarding process, project hierarchy, and how to use AI agents for automated code generation.",
+      "tags": [
+        "zenflow-onboarding",
+        "ai-agents",
+        "quickstart-guide",
+        "software-development",
+        "workflow-automation",
+        "project-management"
+      ],
+      "category": "tutorial",
+      "original_file_path": "zenflow-quickstart.md"
+    },
+    {
+      "file_path": "072-faq-plans.md",
+      "title": "Pricing & Plans - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/faq/plans",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:01.712524743-03:00",
+      "description": "Frequently asked questions about Zencoder pricing plans, features, and usage limits.",
+      "summary": "This document outlines Zencoder's subscription plans, the Premium LLM Call pricing model, and daily usage limits. It explains how to monitor consumption and provides strategies for optimizing AI resource usage.",
+      "tags": [
+        "zencoder-pricing",
+        "subscription-plans",
+        "llm-calls",
+        "usage-limits",
+        "billing-model",
+        "account-management"
+      ],
+      "category": "guide",
+      "original_file_path": "faq-plans.md"
+    },
+    {
+      "file_path": "006-technologies-repo-grokking.md",
+      "title": "Repo Grokking\u2122 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/technologies/repo-grokking",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:06.224612306-03:00",
+      "description": "Deep codebase understanding that scales from complex mono repos to distributed microservices and multi-repos",
+      "summary": "This document introduces Zencoder's Repo Grokking capabilities, explaining how its AI systems analyze and understand complex production repositories through context orchestration and multi-repository indexing.",
+      "tags": [
+        "codebase-intelligence",
+        "repo-grokking",
+        "ai-coding-agents",
+        "context-orchestration",
+        "multi-repository-indexing"
+      ],
+      "category": "concept",
+      "original_file_path": "technologies-repo-grokking.md"
+    },
+    {
+      "file_path": "010-features-ai-agents.md",
+      "title": "AI Agents - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/ai-agents",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:07.321521631-03:00",
+      "description": "Use prebuilt or create custom AI agents (we also call them Zen Agents) that can be called for selected code or entire files directly in your IDE",
+      "summary": "This document explains how to use, manage, and contribute to Zencoder AI Agents to automate development tasks and maintain coding standards within an IDE.",
+      "tags": [
+        "ai-agents",
+        "zencoder",
+        "ide-extension",
+        "developer-workflow",
+        "agents-marketplace",
+        "custom-agents"
+      ],
+      "category": "guide",
+      "original_file_path": "features-ai-agents.md"
+    },
+    {
+      "file_path": "039-zenflow-personas-and-use-cases.md",
+      "title": "Personas and Use Cases - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/zenflow/personas-and-use-cases",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:04.849295707-03:00",
+      "description": "See how different builders guide Zenflow from idea to verified output.",
+      "summary": "This document outlines user personas and sample workflows for both professional and junior developers using Zenflow's automated agent orchestration.",
+      "tags": [
+        "zenflow",
+        "developer-personas",
+        "workflow-automation",
+        "agent-orchestration",
+        "software-development-lifecycle",
+        "user-journeys"
+      ],
+      "category": "guide",
+      "original_file_path": "zenflow-personas-and-use-cases.md"
+    },
+    {
+      "file_path": "033-rules-context-zen-rules.md",
+      "title": "Zen Rules - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/rules-context/zen-rules",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:11.861718446-03:00",
+      "description": "Create custom context and instructions for your AI agents with project-specific markdown rules that enhance code understanding and consistency.",
+      "summary": "Explains how to use and configure Zen Rules to provide hierarchical project context and coding standards for Zencoder's AI agents.",
+      "tags": [
+        "zencoder",
+        "zen-rules",
+        "ai-configuration",
+        "context-management",
+        "coding-standards",
+        "markdown-files"
+      ],
+      "category": "guide",
+      "original_file_path": "rules-context-zen-rules.md"
+    },
+    {
+      "file_path": "015-features-repo-info-agent.md",
+      "title": "Repo-Info Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/repo-info-agent",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:09.937890341-03:00",
+      "description": "Context management agent that generates and maintains comprehensive project snapshots for enhanced coding agent performance",
+      "summary": "This document explains the functionality and usage of the Zencoder Repo-Info Agent, which maintains a comprehensive project structure snapshot to provide persistent contextual awareness for AI coding agents.",
+      "tags": [
+        "zencoder",
+        "repo-info-agent",
+        "context-management",
+        "project-structure",
+        "developer-workflow",
+        "configuration-management"
+      ],
+      "category": "guide",
+      "original_file_path": "features-repo-info-agent.md"
+    },
+    {
+      "file_path": "016-features-web-dev-agent.md",
+      "title": "Web Dev Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/web-dev-agent",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:09.736353412-03:00",
+      "description": "Purpose-built agent for modern web development workflows, from design to production-ready UI",
+      "summary": "This document introduces Zencoder's Web Dev Agent, explaining its specialized capabilities for design-to-code conversion and its automated browser feedback loop for UI development.",
+      "tags": [
+        "web-dev-agent",
+        "zencoder",
+        "design-to-code",
+        "browser-automation",
+        "playwright",
+        "ui-testing",
+        "frontend-development"
+      ],
+      "category": "concept",
+      "original_file_path": "features-web-dev-agent.md"
+    },
+    {
+      "file_path": "084-changelog-november-2025.md",
+      "title": "November 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/november-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:17.041819085-03:00",
+      "description": "Custom model support, LoC metrics, ZenCLI milestone, and dynamic model switching",
+      "summary": "This document outlines the November 2025 product updates for Zencoder, detailing new features such as custom model support, developer productivity metrics, and dynamic model switching within IDE plugins.",
+      "tags": [
+        "product-updates",
+        "custom-models",
+        "analytics-api",
+        "ide-plugins",
+        "performance-optimization",
+        "model-management",
+        "zencoder"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-november-2025.md"
+    },
+    {
+      "file_path": "020-features-code-repair.md",
+      "title": "Code Repair - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/code-repair",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:15.970886449-03:00",
+      "description": "AI-Powered Code Repair with Zencoder",
+      "summary": "This document introduces Zencoder's AI-driven code repair feature, which automatically identifies and fixes syntax, logical, and structural errors to improve code quality.",
+      "tags": [
+        "zencoder",
+        "ai-code-repair",
+        "automated-debugging",
+        "code-optimization",
+        "error-correction"
+      ],
+      "category": "concept",
+      "original_file_path": "features-code-repair.md"
+    },
+    {
+      "file_path": "021-features-debugging.md",
+      "title": "Debugging Code Errors - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/debugging",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:17.76091067-03:00",
+      "description": "AI code debugging with Zencoder",
+      "summary": "This document introduces Zencoder's Debugging Agent and explains how it assists developers in identifying and resolving code errors to maintain quality.",
+      "tags": [
+        "zencoder",
+        "debugging",
+        "error-resolution",
+        "code-quality",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "features-debugging.md"
+    },
+    {
+      "file_path": "076-changelog-march-2025.md",
+      "title": "March 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/march-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:20.161108524-03:00",
+      "description": "A month of building and refinement with new integrations, Coffee Mode, and enhanced coding and testing capabilities",
+      "summary": "This document outlines the product updates and feature releases for March, highlighting the general availability of the Coding Agent and new third-party integrations. It details improvements to AI-assisted development tools, including unit testing enhancements, custom agent support, and user experience refinements.",
+      "tags": [
+        "product-updates",
+        "coding-agent",
+        "ai-assistant",
+        "mcp-support",
+        "jira-integration",
+        "unit-testing",
+        "software-development",
+        "changelog"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-march-2025.md"
+    },
+    {
+      "file_path": "037-zenflow-integrations-and-settings.md",
+      "title": "Integrations and Settings - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/zenflow/integrations-and-settings",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:04.154110504-03:00",
+      "description": "Configure preferences, projects, integrations, and agents across Zenflow.",
+      "summary": "This document provides a guide for configuring Zenflow workspace preferences, project-level automation, and specific AI agent settings.",
+      "tags": [
+        "workspace-configuration",
+        "project-setup",
+        "ai-agent-settings",
+        "github-integration",
+        "mcp-servers",
+        "workflow-automation"
+      ],
+      "category": "configuration",
+      "original_file_path": "zenflow-integrations-and-settings.md"
+    },
+    {
+      "file_path": "083-changelog-october-2025.md",
+      "title": "October 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/october-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:21.058920141-03:00",
+      "description": "Clipboard image pasting, and extensive stability improvements across both platforms",
+      "summary": "This document details the October 2025 product updates for Zencoder, highlighting new features such as Haiku 4.5 model support, clipboard image pasting, and various stability improvements across IDE platforms.",
+      "tags": [
+        "product-updates",
+        "release-notes",
+        "ai-integration",
+        "ide-extension",
+        "feature-enhancements",
+        "bug-fixes"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog-october-2025.md"
+    },
+    {
+      "file_path": "022-features-documentation.md",
+      "title": "Documentation and Docstrings - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/documentation",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:15.490218064-03:00",
+      "description": "Generate docstrings and documentation for your code with Zencoder",
+      "summary": "This guide explains how to use Zencoder to generate in-code docstrings and external documentation through code lenses and direct prompting in various IDEs.",
+      "tags": [
+        "zencoder",
+        "documentation-generation",
+        "docstrings",
+        "vs-code",
+        "jetbrains",
+        "ai-coding-assistant"
+      ],
+      "category": "guide",
+      "original_file_path": "features-documentation.md"
+    },
+    {
+      "file_path": "017-features-code-completion.md",
+      "title": "Code Completion - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/code-completion",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:15.756335676-03:00",
+      "description": "Using Zencoder for AI-powered code-completion and suggestions",
+      "summary": "This document provides instructions on how to use and customize Zencoder's AI-powered code completion features within VS Code and JetBrains IDEs. It covers configuration settings, multi-line suggestion behavior, and best practices for optimizing suggestion accuracy.",
+      "tags": [
+        "zencoder",
+        "code-completion",
+        "vs-code",
+        "jetbrains",
+        "ai-assisted-coding",
+        "ide-configuration",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "features-code-completion.md"
+    },
+    {
+      "file_path": "085-changelog-december-2025.md",
+      "title": "December 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/december-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:20.355658182-03:00",
+      "description": "Spec-driven development workflows, enhanced markdown support, and major stability improvements",
+      "summary": "This document outlines the product updates for December 2025, detailing new features such as Spec-Driven Development workflows, enhanced markdown support, and Model Context Protocol configurations.",
+      "tags": [
+        "product-updates",
+        "release-notes",
+        "spec-driven-development",
+        "markdown-support",
+        "model-context-protocol",
+        "platform-stability",
+        "ide-plugins"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog-december-2025.md"
+    },
+    {
+      "file_path": "066-get-started-community-support.md",
+      "title": "Community and Support - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/get-started/community-support#share-your-feedback",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:20.912490395-03:00",
+      "description": "Connect with the Zencoder community, share feedback, and get help when you need it",
+      "summary": "This document outlines the benefits of joining the Zencoder community, establishes conduct guidelines for members, and explains the process for providing product feedback.",
+      "tags": [
+        "zencoder-community",
+        "community-guidelines",
+        "developer-support",
+        "feedback-submission",
+        "community-standards"
+      ],
+      "category": "other",
+      "original_file_path": "get-started-community-support.md"
+    },
+    {
+      "file_path": "044-learn-10x-engineer-module-02.md",
+      "title": "Module 2: Deep Codebase Understanding - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-02",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:29.721437337-03:00",
+      "summary": "This document outlines how to scale agent capabilities by configuring the Multi Repo Search tool for cross-repository awareness and optimizing performance through specific model selection and custom API key integration.",
+      "tags": [
+        "multi-repo-search",
+        "agent-configuration",
+        "github-integration",
+        "model-tuning",
+        "api-keys",
+        "zencoder-dashboard"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-10x-engineer-module-02.md"
+    },
+    {
+      "file_path": "019-features-code-refactoring.md",
+      "title": "Refactor Code - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/code-refactoring",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:15.00143395-03:00",
+      "description": "AI code refactoring with Zencoder",
+      "summary": "This document provides step-by-step instructions on using the Zencoder AI-powered Refactoring Agent to improve code structure, readability, and maintainability.",
+      "tags": [
+        "zencoder",
+        "code-refactoring",
+        "ai-tools",
+        "code-quality",
+        "software-maintenance"
+      ],
+      "category": "tutorial",
+      "original_file_path": "features-code-refactoring.md"
+    },
+    {
+      "file_path": "079-changelog-june-2025.md",
+      "title": "June 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/june-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:22.582444657-03:00",
+      "description": "Zentester platform launch, new pricing model, /repo-info agent, image prompts in VS Code, and comprehensive platform improvements",
+      "summary": "This document details the June 2025 platform updates for Zencoder and Zentester, including the launch of an E2E testing agent, a new LLM call-based pricing model, and enhanced IDE features.",
+      "tags": [
+        "release-notes",
+        "zentester-platform",
+        "e2e-testing",
+        "llm-usage",
+        "ide-integration",
+        "automated-testing"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-june-2025.md"
+    },
+    {
+      "file_path": "043-learn-10x-engineer-module-01.md",
+      "title": "Module 1: Foundations - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-01",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:30.407077818-03:00",
+      "summary": "This module provides a comprehensive guide to setting up an AI-assisted development environment using Zencoder tools to build, style, and test a productivity tracker application.",
+      "tags": [
+        "zencoder",
+        "ai-assisted-development",
+        "react",
+        "vite",
+        "unit-testing",
+        "e2e-testing",
+        "workflow-automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "learn-10x-engineer-module-01.md"
+    },
+    {
+      "file_path": "049-learn-10x-engineer-module-07.md",
+      "title": "Module 7: Working at an Organization - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-07",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:31.390870795-03:00",
+      "summary": "This document explains how to set up Jira integrations, manage organization-wide custom agents, and configure multi-repository search within Zencoder to enhance team collaboration.",
+      "tags": [
+        "zencoder",
+        "jira-integration",
+        "custom-agents",
+        "multi-repo-search",
+        "collaboration",
+        "organization-management"
+      ],
+      "category": "tutorial",
+      "original_file_path": "learn-10x-engineer-module-07.md"
+    },
+    {
+      "file_path": "062-user-guides-tutorials-generate-codebase-diagrams.md",
+      "title": "Generate codebase architecture diagrams with Mermaid - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/tutorials/generate-codebase-diagrams",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:00.357321884-03:00",
+      "description": "Learn how to use Zencoder to create detailed Mermaid diagrams that visualize your repository structure, dependencies, and relationships",
+      "summary": "This tutorial explains how to use Zencoder's repository analysis capabilities to generate and refine Mermaid architecture diagrams for codebase documentation.",
+      "tags": [
+        "zencoder",
+        "mermaid-diagrams",
+        "codebase-visualization",
+        "software-architecture",
+        "documentation-automation",
+        "repo-grokking"
+      ],
+      "category": "tutorial",
+      "original_file_path": "user-guides-tutorials-generate-codebase-diagrams.md"
+    },
+    {
+      "file_path": "048-learn-10x-engineer-module-06.md",
+      "title": "Module 6: Complex Use Cases - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-06",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:33.848275384-03:00",
+      "summary": "This document outlines advanced AI agent workflows for modernizing legacy Java codebases and converting Figma designs into production code using the Model Context Protocol.",
+      "tags": [
+        "ai-agents",
+        "java-migration",
+        "figma-mcp",
+        "design-to-code",
+        "workflow-automation",
+        "model-context-protocol",
+        "software-modernization"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-10x-engineer-module-06.md"
+    },
+    {
+      "file_path": "041-zenflow-task-types.md",
+      "title": "Task Types and Custom Workflows - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/zenflow/task-types#custom-workflows",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:34.411582159-03:00",
+      "description": "Choose the right Zenflow workflow for each project.",
+      "summary": "This document explains the process of creating and managing tasks in Zenflow, detailing the use of Git worktrees for workspace isolation and how to configure custom task workflows using markdown templates.",
+      "tags": [
+        "zenflow",
+        "task-management",
+        "git-worktrees",
+        "workflow-configuration",
+        "parallel-execution",
+        "custom-workflows"
+      ],
+      "category": "guide",
+      "original_file_path": "zenflow-task-types.md"
+    },
+    {
+      "file_path": "050-learn-10x-engineer-module-08.md",
+      "title": "Module 8: How to Drive AI Adoption - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-08",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:32.478867438-03:00",
+      "summary": "This document outlines strategic approaches for scaling AI coding tool adoption across engineering organizations through change management, champion programs, and data-driven analytics.",
+      "tags": [
+        "ai-adoption",
+        "change-management",
+        "engineering-leadership",
+        "developer-productivity",
+        "usage-analytics",
+        "organizational-strategy"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-10x-engineer-module-08.md"
+    },
+    {
+      "file_path": "023-features-e2e-testing.md",
+      "title": "E2E Testing Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/e2e-testing",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:07.582670915-03:00",
+      "description": "Automated end-to-end (E2E) testing capabilities for comprehensive web application testing. Currently in beta.",
+      "summary": "This document provides an overview of the E2E Testing Agent, a Playwright-based tool within the Zentester platform designed for automating end-to-end web application testing and CI/CD integration.",
+      "tags": [
+        "e2e-testing",
+        "playwright",
+        "zentester",
+        "automated-testing",
+        "ci-cd-integration",
+        "web-application-testing"
+      ],
+      "category": "guide",
+      "original_file_path": "features-e2e-testing.md"
+    },
+    {
+      "file_path": "081-changelog-august-2025.md",
+      "title": "August 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/august-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:18.103152204-03:00",
+      "description": "Analytics Dashboard for team insights, Web Dev Agent, enhanced model selection with GPT-5, Zen Rules improvements, remote MCP support for JetBrains, and major documentation updates",
+      "summary": "This document outlines the August feature releases and platform improvements for Zencoder, detailing new tools like the Analytics Dashboard and Web Dev Agent alongside enhanced model selection and documentation updates.",
+      "tags": [
+        "zencoder",
+        "product-updates",
+        "analytics-dashboard",
+        "web-dev-agent",
+        "ai-coding",
+        "developer-tools",
+        "model-selection"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-august-2025.md"
+    },
+    {
+      "file_path": "011-features-autonomous-agents-configuration.md",
+      "title": "Configuration - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/autonomous-agents-configuration",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:13.207469611-03:00",
+      "description": "Set up triggers and credentials for hands-free automation workflows",
+      "summary": "This document provides instructions for setting up autonomous runs via CI/CD platform triggers or webhooks, covering configuration, troubleshooting, and security best practices.",
+      "tags": [
+        "autonomous-runs",
+        "ci-cd-integration",
+        "webhook-triggers",
+        "zencoder-configuration",
+        "automation-security",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "features-autonomous-agents-configuration.md"
+    },
+    {
+      "file_path": "063-user-guides-tutorials-oss-contributor-tutorial.md",
+      "title": "Contributing to Open Source with OSS Contributor Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/tutorials/oss-contributor-tutorial",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:40.77136946-03:00",
+      "description": "Learn how to use the OSS Contributor agent to seamlessly contribute to open source projects, from finding issues to submitting professional pull requests",
+      "summary": "This tutorial explains how to use the OSS Contributor agent to streamline open source contributions, covering repository setup, issue discovery, and professional pull request submission.",
+      "tags": [
+        "oss-contribution",
+        "zencoder",
+        "ai-agents",
+        "github-cli",
+        "open-source",
+        "git-workflow",
+        "pull-request"
+      ],
+      "category": "tutorial",
+      "original_file_path": "user-guides-tutorials-oss-contributor-tutorial.md"
+    },
+    {
+      "file_path": "057-learn-enterprise-best-practices-team-collaboration-zen-agents.md",
+      "title": "Team Collaboration and Knowledge Sharing with Zen Agents - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/team-collaboration-zen-agents",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:27.940893595-03:00",
+      "summary": "This document explains the concept of Zen Agents as customizable AI copilots and provides instructions for utilizing the Agents Library to automate and scale engineering workflows.",
+      "tags": [
+        "zen-agents",
+        "workflow-automation",
+        "custom-agents",
+        "zencoder",
+        "engineering-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-team-collaboration-zen-agents.md"
+    },
+    {
+      "file_path": "042-learn-10x-engineer-course-overview.md",
+      "title": "The 10x Engineer - Professional AI Certificate - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/course-overview",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:28.035022271-03:00",
+      "summary": "This document outlines an eight-module certificate program designed to help engineers plan, automate, and scale their development workflows using Zencoder. It covers foundational setup, custom workflows, autonomous agents, and strategies for organization-wide AI adoption.",
+      "tags": [
+        "10x-engineer",
+        "zencoder-ai",
+        "workflow-automation",
+        "ai-engineering",
+        "developer-productivity",
+        "software-development-lifecycle"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-10x-engineer-course-overview.md"
+    },
+    {
+      "file_path": "069-user-guides-troubleshooting-openai-byok-issues.md",
+      "title": "OpenAI BYOK Issues - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/troubleshooting/openai-byok-issues",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:42.71644963-03:00",
+      "description": "Troubleshooting GPT-5 access errors when using your own OpenAI API key",
+      "summary": "This document provides troubleshooting steps and configuration instructions for users experiencing issues using their own OpenAI API keys with GPT-5 models in Zencoder. It explains how to verify OpenAI organization requirements and usage tiers to ensure proper model access.",
+      "tags": [
+        "openai-api",
+        "gpt-5",
+        "zencoder",
+        "troubleshooting",
+        "api-configuration",
+        "usage-tier",
+        "organization-verification"
+      ],
+      "category": "guide",
+      "original_file_path": "user-guides-troubleshooting-openai-byok-issues.md"
+    },
+    {
+      "file_path": "052-learn-enterprise-best-practices-ai-coding-foundations.md",
+      "title": "AI Coding Foundations and the Zencoder Difference - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/ai-coding-foundations",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:23.158086338-03:00",
+      "summary": "This document outlines strategic approaches for collaborating with AI in software engineering, focusing on the pair programming mindset and methodologies like Spec Driven Development and Test Driven Development.",
+      "tags": [
+        "ai-pair-programming",
+        "spec-driven-development",
+        "test-driven-development",
+        "software-engineering",
+        "developer-workflow",
+        "prompt-engineering"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-ai-coding-foundations.md"
+    },
+    {
+      "file_path": "073-faq-privacy.md",
+      "title": "Privacy & Ethics - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/faq/privacy",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:33.391911732-03:00",
+      "description": "Zencoder is committed to protecting your data and ensuring a secure and ethical AI experience.",
+      "summary": "This document outlines Zencoder's security and privacy framework, detailing data protection measures, enterprise-grade access controls, and internal security practices.",
+      "tags": [
+        "security",
+        "data-privacy",
+        "encryption",
+        "compliance",
+        "access-control",
+        "enterprise-governance"
+      ],
+      "category": "concept",
+      "original_file_path": "faq-privacy.md"
+    },
+    {
+      "file_path": "028-features-multi-repo.md",
+      "title": "Multi-Repository Search - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/multi-repo",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:14.32549948-03:00",
+      "description": "Index and search across multiple repositories to enable AI agents to understand and work with complex multi-repo architectures",
+      "summary": "This document provides instructions for setting up and utilizing Multi-Repository Search to allow Zencoder AI agents to index and search across multiple codebase repositories. It details the administrative setup process, VCS connection configuration, repository indexing, and best practices for cross-repo queries.",
+      "tags": [
+        "multi-repo-search",
+        "vcs-integration",
+        "repository-indexing",
+        "ai-agents",
+        "codebase-search",
+        "access-control"
+      ],
+      "category": "guide",
+      "original_file_path": "features-multi-repo.md"
+    },
+    {
+      "file_path": "029-features-private-deployments.md",
+      "title": "Private Deployments - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/private-deployments",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:11.979890342-03:00",
+      "description": "Keep Zencoder inside infrastructure you control",
+      "summary": "This document explains the benefits and configuration steps for setting up a private Zencoder deployment to ensure data remains within a self-managed network boundary.",
+      "tags": [
+        "private-deployment",
+        "security-configuration",
+        "on-premise",
+        "data-privacy",
+        "network-isolation",
+        "custom-models"
+      ],
+      "category": "guide",
+      "original_file_path": "features-private-deployments.md"
+    },
+    {
+      "file_path": "054-learn-enterprise-best-practices-enterprise-security-compliance-deployment.md",
+      "title": "Enterprise Security, Compliance, and Deployment - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/enterprise-security-compliance-deployment",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:22.711941879-03:00",
+      "summary": "This document outlines Zencoder's security compliance standards, data privacy architecture, and administrative procedures for team management and billing. It provides instructions for configuring SSO, managing user roles, and monitoring organization-wide AI usage and costs.",
+      "tags": [
+        "security-compliance",
+        "user-management",
+        "data-privacy",
+        "sso-configuration",
+        "rbac",
+        "billing-management",
+        "ai-governance"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-enterprise-security-compliance-deployment.md"
+    },
+    {
+      "file_path": "068-user-guides-known-issues-vscode-gray-screen.md",
+      "title": "VS Code Gray Screen Issue - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/known-issues/vscode-gray-screen",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:42.749966068-03:00",
+      "description": "Resolving the gray screen display issue in Zencoder chat for VS Code",
+      "summary": "This document provides troubleshooting steps and workarounds for resolving a visual glitch where the Zencoder chat panel in VS Code appears as a gray, unresponsive screen.",
+      "tags": [
+        "zencoder",
+        "vs-code",
+        "troubleshooting",
+        "gray-screen",
+        "extension-fix",
+        "ide-support"
+      ],
+      "category": "guide",
+      "original_file_path": "user-guides-known-issues-vscode-gray-screen.md"
+    },
+    {
+      "file_path": "007-features-agents-overview.md",
+      "title": "Agents Overview - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/agents-overview",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:07.855603181-03:00",
+      "description": "Discover and access all AI agents available in Zencoder - from core development agents to custom AI assistants",
+      "summary": "This document introduces Zencoder's core and custom AI agents, outlining their specialized roles in automating tasks such as code generation, testing, and repository analysis.",
+      "tags": [
+        "ai-agents",
+        "code-generation",
+        "software-testing",
+        "developer-tools",
+        "zencoder"
+      ],
+      "category": "guide",
+      "original_file_path": "features-agents-overview.md"
+    },
+    {
+      "file_path": "070-user-guides-troubleshooting-windows-cli-installation.md",
+      "title": "CLI Installation Issues on Windows - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/troubleshooting/windows-cli-installation",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:34.944954127-03:00",
+      "description": "Troubleshooting failed installations of Claude Code and Codex on Windows",
+      "summary": "This document provides troubleshooting steps to resolve PowerShell execution policy errors encountered when installing AI CLI tools on Windows systems.",
+      "tags": [
+        "windows",
+        "powershell",
+        "troubleshooting",
+        "installation-error",
+        "cli",
+        "execution-policy"
+      ],
+      "category": "guide",
+      "original_file_path": "user-guides-troubleshooting-windows-cli-installation.md"
+    },
+    {
+      "file_path": "056-learn-enterprise-best-practices-measuring-success.md",
+      "title": "Measuring Success and Driving Adoption - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/measuring-success",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:25.56642497-03:00",
+      "summary": "This document outlines strategies for successfully implementing AI coding tools within engineering teams, focusing on overcoming cultural resistance, utilizing pilot programs, and providing sequential training.",
+      "tags": [
+        "ai-adoption",
+        "software-engineering",
+        "change-management",
+        "pilot-programs",
+        "developer-productivity",
+        "training-strategies"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-measuring-success.md"
+    },
+    {
+      "file_path": "060-learn-spec-driven-development-what-is-sdd.md",
+      "title": "What is SDD - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/spec-driven-development/what-is-sdd",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:25.672166427-03:00",
+      "summary": "This document introduces Spec-Driven Development (SDD), a methodology that uses detailed technical blueprints to guide AI agents and reduce errors during the software development process.",
+      "tags": [
+        "spec-driven-development",
+        "ai-agents",
+        "software-design",
+        "prompt-engineering",
+        "development-workflows",
+        "sdd"
+      ],
+      "category": "concept",
+      "original_file_path": "learn-spec-driven-development-what-is-sdd.md"
+    },
+    {
+      "file_path": "013-features-custom-agents.md",
+      "title": "Custom Agents - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/custom-agents",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:18.096745772-03:00",
+      "description": "Create personalized, context-aware assistants to automate specialized tasks and enhance your development workflow",
+      "summary": "This document introduces Zencoder\u2019s Custom Agents, which are personalized, context-aware assistants designed to automate repetitive development tasks and improve workflow efficiency.",
+      "tags": [
+        "zencoder",
+        "custom-agents",
+        "ai-assistants",
+        "automation",
+        "workflow-optimization",
+        "developer-tools"
+      ],
+      "category": "concept",
+      "original_file_path": "features-custom-agents.md"
+    },
+    {
+      "file_path": "008-features-home.md",
+      "title": "Overview - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/home",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:09.802568329-03:00",
+      "description": "A practical guide to Zencoder features for developers",
+      "summary": "This document provides an overview of Zencoder's AI-powered development tools, detailing how to use integrated IDE workflows and specialized agents for coding, debugging, and documentation.",
+      "tags": [
+        "zencoder",
+        "ai-coding-assistant",
+        "ide-integration",
+        "developer-workflow",
+        "custom-workflows",
+        "ai-agents",
+        "code-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "features-home.md"
+    },
+    {
+      "file_path": "071-faq-geographic-restrictions.md",
+      "title": "Export Control & Geographic Restrictions - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/faq/geographic-restrictions",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:34.964587376-03:00",
+      "description": "Information about Zencoder service availability based on U.S. export control and economic sanctions laws.",
+      "summary": "This document outlines Zencoder's compliance with U.S. export control and economic sanctions laws, providing a list of restricted regions and access policies.",
+      "tags": [
+        "compliance",
+        "export-control",
+        "sanctions",
+        "geographic-restrictions",
+        "restricted-regions",
+        "legal-compliance"
+      ],
+      "category": "guide",
+      "original_file_path": "faq-geographic-restrictions.md"
+    },
+    {
+      "file_path": "045-learn-10x-engineer-module-03.md",
+      "title": "Module 3: Custom Workflows - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-03",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:31.863328283-03:00",
+      "summary": "This module explains how to customize AI agents by configuring global instructions, managing Zencoder rules, creating custom agent roles, and integrating MCP tools.",
+      "tags": [
+        "agent-configuration",
+        "zencoder-rules",
+        "custom-agents",
+        "mcp-tools",
+        "workflow-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "learn-10x-engineer-module-03.md"
+    },
+    {
+      "file_path": "009-features-autonomous-agents-overview.md",
+      "title": "Overview - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/autonomous-agents-overview",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:08.839223387-03:00",
+      "description": "See how Zencoder\u2019s always-on agents plan, execute, and verify work without a human in the loop",
+      "summary": "This document introduces Zencoder's Autonomous Agents, explaining how they automate repository tasks and respond to events like pull requests or webhooks. It highlights key use cases including continuous maintenance, automated reviews, and release readiness.",
+      "tags": [
+        "zencoder",
+        "autonomous-agents",
+        "ci-cd",
+        "automation",
+        "pull-request-review",
+        "repository-management"
+      ],
+      "category": "concept",
+      "original_file_path": "features-autonomous-agents-overview.md"
+    },
+    {
+      "file_path": "040-zenflow-support-and-troubleshooting.md",
+      "title": "Support and Troubleshooting - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/zenflow/support-and-troubleshooting",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:04.089719681-03:00",
+      "description": "Get help with Zenflow app issues and access debugging information.",
+      "summary": "This document outlines the process for contacting Zenflow support, specifying the location of local log files and the necessary details required for troubleshooting technical issues.",
+      "tags": [
+        "zenflow-support",
+        "troubleshooting",
+        "log-files",
+        "error-reporting",
+        "technical-assistance",
+        "bug-submission"
+      ],
+      "category": "guide",
+      "original_file_path": "zenflow-support-and-troubleshooting.md"
+    },
+    {
+      "file_path": "027-features-models.md",
+      "title": "Models - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/models",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:13.330646032-03:00",
+      "description": "Choose which LLM powers your chat, understand cost multipliers, and optionally bring your own API key",
+      "summary": "This document explains how to use the Zencoder model selector to switch between various LLMs and manage usage costs through plan-based entitlements and multipliers.",
+      "tags": [
+        "model-selector",
+        "llm-options",
+        "zencoder-pricing",
+        "byok",
+        "usage-multipliers",
+        "anthropic",
+        "openai",
+        "model-switching"
+      ],
+      "category": "guide",
+      "original_file_path": "features-models.md"
+    },
+    {
+      "file_path": "018-features-code-generation.md",
+      "title": "Generate New Code - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/code-generation",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:15.567137752-03:00",
+      "description": "AI code generation with Zencoder",
+      "summary": "This document introduces Zencoder, an AI-powered code generation tool that helps developers automate tasks and create custom code snippets directly within their IDE. It highlights the platform's benefits, including time efficiency, precision, and enhanced developer creativity.",
+      "tags": [
+        "ai-code-generation",
+        "developer-productivity",
+        "ide-integration",
+        "automated-coding",
+        "software-development"
+      ],
+      "category": "concept",
+      "original_file_path": "features-code-generation.md"
+    },
+    {
+      "file_path": "059-learn-spec-driven-development-specs-library.md",
+      "title": "Specs Library - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/spec-driven-development/specs-library",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:29.79075515-03:00",
+      "summary": "This document provides a collection of real-world project specifications and their corresponding final products to demonstrate how detailed blueprints drive successful product launches.",
+      "tags": [
+        "product-specifications",
+        "spec-driven-development",
+        "project-management",
+        "case-studies",
+        "development-workflow"
+      ],
+      "category": "reference",
+      "original_file_path": "learn-spec-driven-development-specs-library.md"
+    },
+    {
+      "file_path": "047-learn-10x-engineer-module-05.md",
+      "title": "Module 5: Spec Driven Development - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-05",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:30.888445569-03:00",
+      "summary": "Teaches the Spec-Driven Development workflow where developers create detailed specifications and use AI agents to research, plan, and execute code implementations via test-driven cycles.",
+      "tags": [
+        "spec-driven-development",
+        "ai-agents",
+        "test-driven-development",
+        "project-planning",
+        "software-engineering-workflow"
+      ],
+      "category": "tutorial",
+      "original_file_path": "learn-10x-engineer-module-05.md"
+    },
+    {
+      "file_path": "025-features-analytics.md",
+      "title": "Analytics Dashboard - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/analytics",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:14.05580779-03:00",
+      "description": "Track usage patterns and monitor team engagement with Zencoder across your organization",
+      "summary": "This document explains how organizational administrators can use the Zencoder Analytics dashboard to monitor team engagement, track usage trends, and analyze developer activity metrics. It provides instructions for interpreting dashboard components, exporting data for custom reporting, and implementing best practices for resource optimization.",
+      "tags": [
+        "zencoder-analytics",
+        "usage-metrics",
+        "admin-dashboard",
+        "developer-productivity",
+        "data-export",
+        "user-engagement"
+      ],
+      "category": "guide",
+      "original_file_path": "features-analytics.md"
+    },
+    {
+      "file_path": "078-changelog-may-2025.md",
+      "title": "May 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/may-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:23.325449785-03:00",
+      "description": "Introducing Zen Agents platform with MCP Library and Marketplace for discovering and sharing AI agents and tools",
+      "summary": "This document outlines the May 2025 launch of the Zen Agents platform, providing details on new features like the MCP Library, Agent Marketplace, and collaborative tools for development teams.",
+      "tags": [
+        "zen-agents",
+        "mcp-library",
+        "ai-agents",
+        "release-notes",
+        "model-context-protocol",
+        "ide-integration"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-may-2025.md"
+    },
+    {
+      "file_path": "034-features-integration.md",
+      "title": "IDE Integration - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/integration",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:08.733506447-03:00",
+      "description": "How to integrate Zencoder with your IDE",
+      "summary": "This document provides an overview and installation instructions for integrating Zencoder with popular Integrated Development Environments, including Visual Studio Code, JetBrains IDEs, and Android Studio.",
+      "tags": [
+        "ide-integration",
+        "visual-studio-code",
+        "jetbrains",
+        "android-studio",
+        "plugins",
+        "installation-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "features-integration.md"
+    },
+    {
+      "file_path": "053-learn-enterprise-best-practices-ci-cd-automation.md",
+      "title": "CI/CD Automation and Autonomous Agents - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/ci-cd-automation",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:27.821791528-03:00",
+      "summary": "This document explains how the Zencoder multi-repo tool provides AI agents with cross-repository context and outlines the steps for configuring and using it within an IDE.",
+      "tags": [
+        "multi-repo",
+        "zencoder",
+        "ai-agents",
+        "code-indexing",
+        "repository-management",
+        "git-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-ci-cd-automation.md"
+    },
+    {
+      "file_path": "074-faq-refund-policy.md",
+      "title": "Refund Policy - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/faq/refund-policy",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:32.335893135-03:00",
+      "description": "Frequently asked questions about Zencoder refund policies, cancellations, and subscription management.",
+      "summary": "This document outlines Zencoder's policies regarding refunds, subscription cancellations, free trials, and account changes.",
+      "tags": [
+        "refund-policy",
+        "subscription-billing",
+        "free-trial",
+        "billing-faq",
+        "zencoder-terms"
+      ],
+      "category": "other",
+      "original_file_path": "faq-refund-policy.md"
+    },
+    {
+      "file_path": "046-learn-10x-engineer-module-04.md",
+      "title": "Module 4: Automations with Remote Agents - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/10x-engineer/module-04",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:32.59748087-03:00",
+      "summary": "This document explains how to automate software development workflows by integrating Jira triggers with GitHub Actions and Zencoder agents to implement code fixes and peer reviews.",
+      "tags": [
+        "zencoder",
+        "github-actions",
+        "jira-automation",
+        "autonomous-agents",
+        "webhook-integration",
+        "ci-cd"
+      ],
+      "category": "tutorial",
+      "original_file_path": "learn-10x-engineer-module-04.md"
+    },
+    {
+      "file_path": "086-features-ide-integrations.md",
+      "title": "Page Not Found",
+      "url": "https://docs.zencoder.ai/features/ide-integrations",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:18.584769606-03:00",
+      "summary": "This document serves as a high-level navigation index for the Zenflow application documentation, detailing core concepts, agent orchestration, and workflow integration.",
+      "tags": [
+        "zenflow-app",
+        "workflow-orchestration",
+        "agent-management",
+        "zencoder-ai",
+        "automation-workflows"
+      ],
+      "category": "guide",
+      "original_file_path": "features-ide-integrations.md"
+    },
+    {
+      "file_path": "030-features-skills.md",
+      "title": "Skills - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/skills",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:12.60946391-03:00",
+      "description": "Give agents new capabilities and expertise through reusable instruction packages",
+      "summary": "This document explains how to use and create Skills in Zencoder to provide agents with specialized procedural knowledge, scripts, and organizational context.",
+      "tags": [
+        "agent-skills",
+        "zencoder",
+        "automation-workflows",
+        "procedural-knowledge",
+        "workspace-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "features-skills.md"
+    },
+    {
+      "file_path": "012-features-coding-agent.md",
+      "title": "Coding Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/coding-agent#enabling-the-coding-agent",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:44.001192293-03:00",
+      "description": "Multi-file, multi-language code generation and modification with deep codebase understanding",
+      "summary": "This document introduces the Zencoder Coding Agent, explaining its core functionalities for code generation and refactoring while detailing how to access and utilize its capabilities.",
+      "tags": [
+        "coding-agent",
+        "zencoder",
+        "code-refactoring",
+        "repo-grokking",
+        "agentic-pipeline",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "features-coding-agent.md"
+    },
+    {
+      "file_path": "080-changelog-july-2025.md",
+      "title": "July 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/july-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:20.1843051-03:00",
+      "description": "Multi-Repository Search launch, Zen Rules for project-specific AI instructions, enhanced Repo-Info Agent, Q&A Agent, and major platform improvements",
+      "summary": "This document outlines major updates to the Zencoder platform, specifically introducing multi-repository search, project-specific Zen Rules, and enhanced AI agents for codebase analysis and testing.",
+      "tags": [
+        "product-updates",
+        "multi-repo-search",
+        "zen-rules",
+        "ai-agents",
+        "code-analysis",
+        "release-notes"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-july-2025.md"
+    },
+    {
+      "file_path": "032-features-custom-models-configuration.md",
+      "title": "Configuration - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/custom-models-configuration",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:10.743737238-03:00",
+      "description": "Connect custom models and BYOM endpoints with settings.json",
+      "summary": "This document explains how to integrate custom third-party, local, or VPC model providers into Zencoder using global or project-specific settings.json configurations.",
+      "tags": [
+        "zencoder",
+        "custom-models",
+        "configuration",
+        "settings-json",
+        "model-providers",
+        "byom"
+      ],
+      "category": "configuration",
+      "original_file_path": "features-custom-models-configuration.md"
+    },
+    {
+      "file_path": "065-user-guides-tutorials-spec-driven-development-guide.md",
+      "title": "A Practical Guide to Spec-Driven Development - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/tutorials/spec-driven-development-guide",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:42.623502791-03:00",
+      "summary": "This document introduces Spec-Driven Development (SDD), a methodology for improving AI coding agent output by using detailed upfront specifications and structured planning. It provides a practical framework for moving beyond basic prompting to build complex, production-ready systems.",
+      "tags": [
+        "spec-driven-development",
+        "ai-coding-agents",
+        "software-methodology",
+        "prompt-engineering",
+        "system-design",
+        "technical-documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "user-guides-tutorials-spec-driven-development-guide.md"
+    },
+    {
+      "file_path": "005-technologies-agentic-pipeline.md",
+      "title": "Agentic Pipeline - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/technologies/agentic-pipeline",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:05.76485506-03:00",
+      "description": "Explore Zencoder's intelligent workflow system that coordinates specialized AI agents",
+      "summary": "This document introduces the Agentic Pipeline, an orchestration system designed to coordinate specialized AI agents for automated code generation, validation, and error correction.",
+      "tags": [
+        "agentic-pipeline",
+        "ai-orchestration",
+        "code-generation",
+        "automated-validation",
+        "error-detection",
+        "agent-workflows"
+      ],
+      "category": "concept",
+      "original_file_path": "technologies-agentic-pipeline.md"
+    },
+    {
+      "file_path": "082-changelog-september-2025.md",
+      "title": "September 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/september-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:20.582256118-03:00",
+      "description": "Universal AI Platform, Sonnet 4.5 Parallel Thinking, Expanded CLI Support, and comprehensive troubleshooting improvements",
+      "summary": "This document outlines the September 2025 product updates for Zencoder, featuring the Universal AI Platform launch, new AI model support, and expanded troubleshooting resources.",
+      "tags": [
+        "product-updates",
+        "release-notes",
+        "ai-models",
+        "ide-integration",
+        "troubleshooting",
+        "zencoder"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-september-2025.md"
+    },
+    {
+      "file_path": "055-learn-enterprise-best-practices-integration-ecosystem.md",
+      "title": "Integration Ecosystem - Connecting Your Development Workflow - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/enterprise-best-practices/integration-ecosystem",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:25.043007172-03:00",
+      "summary": "This document explains how to integrate and manage Model Context Protocol (MCP) servers within Zencoder, covering library installation, custom configurations, and agent-specific inheritance rules.",
+      "tags": [
+        "mcp",
+        "zencoder",
+        "agent-configuration",
+        "tool-integration",
+        "authentication",
+        "custom-mcp"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-enterprise-best-practices-integration-ecosystem.md"
+    },
+    {
+      "file_path": "067-user-guides-known-issues.md",
+      "title": "Known problems and solutions - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/known-issues",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:42.520964139-03:00",
+      "description": "Solutions for common and known issues and problems with Zencoder",
+      "summary": "This document provides a starting point for troubleshooting known Zencoder issues and instructions on how to report new problems to support.",
+      "tags": [
+        "zencoder",
+        "troubleshooting",
+        "issue-reporting",
+        "error-resolution",
+        "customer-support"
+      ],
+      "category": "reference",
+      "original_file_path": "user-guides-known-issues.md"
+    },
+    {
+      "file_path": "087-features-universal-ai-platform.md",
+      "title": "Page Not Found",
+      "url": "https://docs.zencoder.ai/features/universal-ai-platform",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:18.023723354-03:00",
+      "summary": "This document serves as a navigation index for the Zenflow app documentation, providing links to core concepts, agent orchestration, and system configurations.",
+      "tags": [
+        "zenflow-app",
+        "agent-orchestration",
+        "workflow-management",
+        "task-types",
+        "system-integrations"
+      ],
+      "category": "guide",
+      "original_file_path": "features-universal-ai-platform.md"
+    },
+    {
+      "file_path": "026-features-analytics-api.md",
+      "title": "Analytics API - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/analytics-api",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:13.072845069-03:00",
+      "description": "Ingest user analytics data directly into your existing analytics platform",
+      "summary": "This document provides a technical guide to the Zencoder Analytics API, covering authentication via OAuth 2.0 and instructions for programmatically retrieving usage data.",
+      "tags": [
+        "zencoder-api",
+        "analytics-data",
+        "oauth-2-0",
+        "rest-api",
+        "usage-tracking",
+        "authentication"
+      ],
+      "category": "api",
+      "original_file_path": "features-analytics-api.md"
+    },
+    {
+      "file_path": "061-user-guides-tutorials-figma-to-code-tutorial.md",
+      "title": "Convert Figma Designs to Code with Zencoder - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/tutorials/figma-to-code-tutorial",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:45.092914502-03:00",
+      "description": "Use Figma MCP to generate React components from your designs with Zencoder",
+      "summary": "Explains how to integrate Figma with Zencoder using the Model Context Protocol (MCP) to automate the conversion of designs into production-ready React and Tailwind CSS code.",
+      "tags": [
+        "figma-mcp",
+        "design-to-code",
+        "zencoder",
+        "react",
+        "tailwind-css",
+        "model-context-protocol"
+      ],
+      "category": "guide",
+      "original_file_path": "user-guides-tutorials-figma-to-code-tutorial.md"
+    },
+    {
+      "file_path": "089-technologiesagentic-pipeline.md",
+      "title": "Page Not Found",
+      "url": "https://docs.zencoder.ai/technologiesagentic-pipeline",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:16.407392346-03:00",
+      "summary": "This document provides a navigation index for the Zenflow app documentation, covering setup, task types, agent orchestration, and integrations.",
+      "tags": [
+        "zenflow",
+        "workflow-automation",
+        "agent-orchestration",
+        "zencoder-ai",
+        "documentation-index"
+      ],
+      "category": "guide",
+      "original_file_path": "technologiesagentic-pipeline.md"
+    },
+    {
+      "file_path": "024-features-unit-testing.md",
+      "title": "Unit Test Agent - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/features/unit-testing",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:11.053852906-03:00",
+      "description": "AI Unit Tests Using the Coding Agent",
+      "summary": "This document introduces Zencoder's AI-powered Unit Testing Agent and the Zentester platform, explaining how they automate the creation of unit test cases to improve software reliability.",
+      "tags": [
+        "unit-testing",
+        "ai-automation",
+        "zencoder",
+        "zentester",
+        "software-testing",
+        "test-generation"
+      ],
+      "category": "guide",
+      "original_file_path": "features-unit-testing.md"
+    },
+    {
+      "file_path": "058-learn-spec-driven-development-specathon-challenge.md",
+      "title": "Specathon.com Challenge - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/learn/spec-driven-development/specathon-challenge",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:29.191799259-03:00",
+      "summary": "This document outlines the submission requirements, checklist, and instructions for participants entering the Specathon.com challenge.",
+      "tags": [
+        "specathon-challenge",
+        "submission-guidelines",
+        "zencoder",
+        "developer-contest",
+        "technical-documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "learn-spec-driven-development-specathon-challenge.md"
+    },
+    {
+      "file_path": "064-user-guides-tutorials-render-deployment-tutorial.md",
+      "title": "Deploy Production Apps with Render + Zencoder - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/user-guides/tutorials/render-deployment-tutorial",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:43.587231035-03:00",
+      "description": "Build, test, and deploy production-ready applications using Zencoder and Render.com through seamless MCP integration",
+      "summary": "This tutorial explains how to build and deploy an Express.js API to Render using Zencoder and the Render MCP integration to manage infrastructure directly through an IDE.",
+      "tags": [
+        "zencoder",
+        "render-platform",
+        "mcp-protocol",
+        "express-js",
+        "deployment-automation",
+        "postgresql",
+        "node-js"
+      ],
+      "category": "tutorial",
+      "original_file_path": "user-guides-tutorials-render-deployment-tutorial.md"
+    },
+    {
+      "file_path": "077-changelog-april-2025.md",
+      "title": "April 2025 - Zencoder Docs",
+      "url": "https://docs.zencoder.ai/changelog/april-2025",
+      "source": "crawler",
+      "fetched_at": "2026-01-23T09:28:19.118623236-03:00",
+      "description": "Enhanced tooling capabilities, new Bash tool, Requirements tool, and significant UX improvements",
+      "summary": "This document highlights the April product updates for Zencoder, detailing new features such as the Bash tool, Requirements tool, and various chat and search enhancements.",
+      "tags": [
+        "release-notes",
+        "product-updates",
+        "zencoder",
+        "coding-agent",
+        "ide-extension",
+        "developer-experience"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-april-2025.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-23T09:52:49.331201Z",
+    "total_files": 89,
+    "categories": [
+      "Introduction",
+      "Quickstart",
+      "Core Concepts",
+      "Technologies",
+      "Features Overview",
+      "Features - Agents",
+      "Features - Coding",
+      "Features - Testing",
+      "Features - Other",
+      "Configuration",
+      "Integrations",
+      "Zenflow",
+      "Learning - 10x Engineer",
+      "Learning - Enterprise",
+      "Learning - SDD",
+      "Tutorials",
+      "Troubleshooting",
+      "FAQ",
+      "Changelog",
+      "Other"
+    ]
+  }
+}

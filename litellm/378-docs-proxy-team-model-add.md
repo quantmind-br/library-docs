@@ -1,0 +1,91 @@
+---
+title: ✨ Allow Teams to Add Models | liteLLM
+url: https://docs.litellm.ai/docs/proxy/team_model_add
+source: sitemap
+fetched_at: 2026-01-21T19:53:47.310624336-03:00
+rendered_js: false
+word_count: 55
+summary: This document explains how to allow teams to register their own custom models and API keys using the model creation endpoint and team-specific identifiers.
+tags:
+    - model-management
+    - team-configuration
+    - api-integration
+    - custom-models
+    - litellm-proxy
+    - model-routing
+category: guide
+---
+
+Allow team to add a their own models/key for that project - so any OpenAI call they make uses their OpenAI key.
+
+Useful for teams that want to call their own finetuned models.
+
+## Specify Team ID in `/model/add` endpoint[​](#specify-team-id-in-modeladd-endpoint "Direct link to specify-team-id-in-modeladd-endpoint")
+
+```
+curl -L -X POST 'http://0.0.0.0:4000/model/new' \
+-H 'Authorization: Bearer sk-******2ql3-sm28WU0tTAmA' \ # 👈 Team API Key (has same 'team_id' as below)
+-H 'Content-Type: application/json' \
+-d '{
+  "model_name": "my-team-model", # 👈 Call LiteLLM with this model name
+  "litellm_params": {
+    "model": "openai/gpt-4o",
+    "custom_llm_provider": "openai",
+    "api_key": "******ccb07",
+    "api_base": "https://my-endpoint-sweden-berri992.openai.azure.com",
+    "api_version": "2023-12-01-preview"
+  },
+  "model_info": {
+    "team_id": "e59e2671-a064-436a-a0fa-16ae96e5a0a1" # 👈 Specify the team ID it belongs to
+  }
+}'
+
+```
+
+## Test it\![​](#test-it "Direct link to Test it!")
+
+```
+curl -L -X POST 'http://0.0.0.0:4000/v1/chat/completions' \
+-H 'Content-Type: application/json' \
+-H 'Authorization: Bearer sk-******2ql3-sm28WU0tTAmA' \ # 👈 Team API Key
+-d '{
+  "model": "my-team-model", # 👈 team model name
+  "messages": [
+    {
+      "role": "user",
+      "content": "What's the weather like in Boston today?"
+    }
+  ]
+}'
+
+```
+
+## Debugging[​](#debugging "Direct link to Debugging")
+
+### 'model\_name' not found[​](#model_name-not-found "Direct link to 'model_name' not found")
+
+Check if model alias exists in team table.
+
+```
+curl -L -X GET 'http://localhost:4000/team/info?team_id=e59e2671-a064-436a-a0fa-16ae96e5a0a1' \
+-H 'Authorization: Bearer sk-******2ql3-sm28WU0tTAmA' \
+```
+
+**Expected Response:**
+
+```
+{
+{
+"team_id":"e59e2671-a064-436a-a0fa-16ae96e5a0a1",
+"team_info":{
+        ...,
+"litellm_model_table":{
+"model_aliases":{
+"my-team-model": # 👈 public model name "model_name_e59e2671-a064-436a-a0fa-16ae96e5a0a1_e81c9286-2195-4bd9-81e1-cf393788a1a0" 👈 internally generated model name (used to ensure uniqueness)
+},
+"created_by":"default_user_id",
+"updated_by":"default_user_id"
+}
+},
+}
+```

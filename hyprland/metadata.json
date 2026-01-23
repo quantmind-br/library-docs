@@ -1,0 +1,1765 @@
+{
+  "generated_at": "2026-01-22T22:16:40.158356296-03:00",
+  "source_url": "https://wiki.hypr.land/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 92,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-22T22:19:13.725743",
+    "total_files": 92,
+    "categories": [
+      "Introduction & Overview",
+      "Getting Started",
+      "Configuration Basics",
+      "Core Configuration",
+      "Layouts",
+      "Visual & Animations",
+      "Advanced Configuration",
+      "IPC & Automation",
+      "Useful Utilities",
+      "Hypr Ecosystem",
+      "Plugins",
+      "Nix Integration",
+      "Hardware Support",
+      "Troubleshooting",
+      "Contributing"
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "049-Hypr-Ecosystem-hyprpaper.md",
+      "title": "hyprpaper",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprpaper/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:43.664275073-03:00",
+      "description": "hyprpaper is a fast, IPC-controlled wallpaper utility for Hyprland.\nInstallation Arch pacman -S hyprpaper openSUSE zypper install hyprpaper Fedora sudo dnf install hyprpaper Configuration The config file is located at ~/.config/hypr/hyprpaper.conf. It is not required.",
+      "summary": "This document provides instructions on installing, configuring, and managing hyprpaper, an IPC-controlled wallpaper utility for the Hyprland compositor.",
+      "tags": [
+        "hyprpaper",
+        "hyprland",
+        "wallpaper-management",
+        "linux-desktop",
+        "ipc-control",
+        "configuration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "Hypr-Ecosystem-hyprpaper.md"
+    },
+    {
+      "file_path": "073-Plugins-Development-Getting-Started.md",
+      "title": "Getting started",
+      "url": "https://wiki.hypr.land/Plugins/Development/Getting-Started/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:43.665538476-03:00",
+      "description": "This page documents the basics of making your own Hyprland plugin from scratch.\nHow do plugins work? Plugins are basically dynamic objects loaded by Hyprland. They have (almost) full access to every part of Hyprland\u2019s internal process, and as such, can modify and change way more than a script.\nPrerequisites In order to write a Hyprland plugin, you will need:\nKnowledge of C++ The ability to read A rough understanding of the Hyprland internals (you can learn this alongside your development work) Making your first plugin Open your favorite code editor.",
+      "summary": "This document provides a foundational guide for creating Hyprland plugins using C++, covering prerequisites, project structure, and the plugin lifecycle.",
+      "tags": [
+        "hyprland",
+        "plugin-development",
+        "cpp",
+        "wayland-compositor",
+        "linux-desktop"
+      ],
+      "category": "tutorial",
+      "original_file_path": "Plugins-Development-Getting-Started.md"
+    },
+    {
+      "file_path": "007-Getting-Started-Installation.md",
+      "title": "Installation",
+      "url": "https://wiki.hypr.land/Getting-Started/Installation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:44.021198729-03:00",
+      "description": "Warning\nHyprland is not meant to be a full and user-friendly Desktop Environment. In a nutshell, it\u2019s a set of tools to allow you to create your own Desktop Environment.",
+      "summary": "This document provides comprehensive instructions for installing the Hyprland tiling Wayland compositor, covering distribution compatibility, package management, manual compilation with CMake, and virtual machine setup.",
+      "tags": [
+        "hyprland-installation",
+        "wayland-compositor",
+        "build-instructions",
+        "linux-distributions",
+        "system-dependencies",
+        "virtual-machine-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "Getting-Started-Installation.md"
+    },
+    {
+      "file_path": "035-Useful-Utilities-Must-have.md",
+      "title": "Must have",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Must-have/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:43.840883893-03:00",
+      "description": "This page documents software that is strongly recommended to have running for a smooth Hyprland experience.\nDEs like Plasma or GNOME will take care of this automatically. Hyprland will not, as you might want to use something else.\nA notification daemon Starting method: Automatically, via D-Bus activation, when a notification is emitted. Alternatively, exec-once entry inside hyprland.conf can be used. The latter might be preferable, if there are several notification daemons installed on your system.",
+      "summary": "This document outlines the essential background services and third-party software recommended to ensure a fully functional and stable Hyprland desktop environment.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "linux-setup",
+        "pipewire",
+        "xdg-desktop-portal",
+        "notification-daemon",
+        "system-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-Must-have.md"
+    },
+    {
+      "file_path": "078-Nix-Hyprland-on-NixOS.md",
+      "title": "Hyprland on NixOS",
+      "url": "https://wiki.hypr.land/Nix/Hyprland-on-NixOS/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:44.01751331-03:00",
+      "description": "The NixOS module enables critical components needed to run Hyprland properly, such as polkit, xdg-desktop-portal-hyprland, graphics drivers, fonts, dconf, xwayland, and adding a proper Desktop Entry to your Display Manager.\nMake sure to check out the options of the NixOS module.\nWarning",
+      "summary": "This document explains how to enable and configure the Hyprland window manager on NixOS using the official NixOS and Home Manager modules.",
+      "tags": [
+        "nixos",
+        "hyprland",
+        "home-manager",
+        "wayland",
+        "desktop-session",
+        "window-manager"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix-Hyprland-on-NixOS.md"
+    },
+    {
+      "file_path": "071-Plugins-Using-Plugins.md",
+      "title": "Using plugins",
+      "url": "https://wiki.hypr.land/Plugins/Using-Plugins/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:51.319275097-03:00",
+      "description": "This page will tell you how to use plugins.\nDisclaimers Warning\nPlugins are written in C++ and will run as a part of Hyprland.\nMake sure to always read the source code of the plugins you are going to use and to trust the source.\nWriting a plugin to wipe your computer is easy.",
+      "summary": "This document provides instructions on how to acquire, install, and manage plugins for Hyprland using the official hyprpm manager or manual methods.",
+      "tags": [
+        "hyprland",
+        "plugins",
+        "hyprpm",
+        "plugin-management",
+        "window-manager",
+        "linux-desktop"
+      ],
+      "category": "guide",
+      "original_file_path": "Plugins-Using-Plugins.md"
+    },
+    {
+      "file_path": "011-Configuring-Start.md",
+      "title": "Start",
+      "url": "https://wiki.hypr.land/Configuring/Start/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:50.405268481-03:00",
+      "description": "The config is located in $XDG_CONFIG_HOME/hypr/hyprland.conf. In most cases, that maps to ~/.config/hypr/hyprland.conf.\nYou can tell Hyprland to use a specific configuration file by using the --config (or -c) argument.\nHyprland will automatically generate an example config for you if you don\u2019t have one. You can find an example config here.\nBy removing the line containing autogenerated=1 you\u2019ll remove the yellow warning.\nThe config is reloaded the moment you save it. However, you can use hyprctl reload to reload the config manually.",
+      "summary": "This document explains how to locate, edit, and manage the Hyprland configuration file, including syntax basics and reloading instructions.",
+      "tags": [
+        "hyprland",
+        "configuration",
+        "window-manager",
+        "hyprland-conf",
+        "dotfiles",
+        "linux-setup"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Start.md"
+    },
+    {
+      "file_path": "006-Getting-Started.md",
+      "title": "Getting Started",
+      "url": "https://wiki.hypr.land/Getting-Started/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:53.254922383-03:00",
+      "description": "If you are coming to Hyprland for the first time, read the Installation page.\nAfter you\u2019ve installed Hyprland, read the Master tutorial.",
+      "summary": "This document provides initial steps for new Hyprland users, directing them to the installation guide and master tutorial.",
+      "tags": [
+        "hyprland",
+        "getting-started",
+        "installation",
+        "linux",
+        "window-manager"
+      ],
+      "category": "guide",
+      "original_file_path": "Getting-Started.md"
+    },
+    {
+      "file_path": "004-version-selector.md",
+      "title": "Version selector \u2699\ufe0f",
+      "url": "https://wiki.hypr.land/version-selector/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:51.496429209-03:00",
+      "description": "Select your preferred wiki version below:\nLatest Git v0.53.0 v0.52.0 v0.51.0 v0.50.0 v0.49.0 v0.48.0 v0.47.0 v0.46.2 v0.46.1 v0.46.0 v0.45.2 v0.45.1 v0.45.0 v0.44.1 v0.44.0 v0.43.0 v0.42.0 v0.41.2 v0.41.1 v0.41.0 v0.40.0 v0.39.0 v0.38.0 v0.37.0 v0.36.0 v0.35.0 v0.34.0 v0.33.1 v0.33.0 v0.32.2 v0.32.1 v0.32.0 v0.31.0 v0.30.0 v0.29.1 v0.29.0 v0.28.0 v0.27.2 v0.27.1 v0.27.0 v0.26.0 v0.25.0 v0.24.1 v0.24.0 v0.23.0beta v0.22.0beta v0.21.0beta v0.20.1beta v0.20.0beta v0.19.2beta v0.19.1beta v0.19.0beta v0.18.0beta v0.17.0beta v0.16.0beta",
+      "summary": "This document provides a selection interface for accessing different versions of the Hyprland wiki, spanning from early beta releases to the latest development build.",
+      "tags": [
+        "hyprland",
+        "wiki-versions",
+        "version-selector",
+        "documentation-archives",
+        "release-history"
+      ],
+      "category": "other",
+      "original_file_path": "version-selector.md"
+    },
+    {
+      "file_path": "072-Plugins-Development.md",
+      "title": "Development",
+      "url": "https://wiki.hypr.land/Plugins/Development/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:51.540389887-03:00",
+      "description": "This section describes the process of developing plugins for Hyprland. It is indented to be read by developers, not end users.\nGetting started Plugin guidelines Event list Advanced",
+      "summary": "This document provides an overview and structural links for developers interested in creating and managing plugins for the Hyprland compositor.",
+      "tags": [
+        "hyprland",
+        "plugin-development",
+        "developer-guide",
+        "compositor"
+      ],
+      "category": "guide",
+      "original_file_path": "Plugins-Development.md"
+    },
+    {
+      "file_path": "079-Nix-Hyprland-on-Home-Manager.md",
+      "title": "Hyprland on Home Manager",
+      "url": "https://wiki.hypr.land/Nix/Hyprland-on-Home-Manager/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:56.336783026-03:00",
+      "description": "For a list of available options, check the Home Manager options.\nWarning\nRequired:\nNixOS Module: enables critical components needed to run Hyprland properly.\nWithout this, you may have issues with missing session files in your Display Manager. Optional:",
+      "summary": "This document provides instructions for installing and configuring the Hyprland window manager using NixOS and Home Manager modules. It covers declarative configuration, plugin integration, and troubleshooting common environment and theming issues.",
+      "tags": [
+        "nixos",
+        "home-manager",
+        "hyprland",
+        "wayland",
+        "declarative-config",
+        "troubleshooting",
+        "systemd"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix-Hyprland-on-Home-Manager.md"
+    },
+    {
+      "file_path": "052-Hypr-Ecosystem-hyprpicker.md",
+      "title": "hyprpicker",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprpicker/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:56.510308827-03:00",
+      "description": "hyprpicker is a neat utility for picking a color from your screen on Hyprland.\nConfiguration Doesn\u2019t require configuration, only launch flags:\nFlag Description Args -a | --autocopy Automatically copies the output to the clipboard (requires wl-clipboard) none -f | --format= Specifies the output format cmyk | hex | rgb | hsl | hsv -n | --no-fancy Disables the \u201cfancy\u201d (aka. colored) outputting none -h | --help Shows the help message none -r | --render-inactive Render (freeze) inactive displays none -z | --no-zoom Disable the zoom lens none -q | --quiet Disable most logs (leaves errors) none -v | --verbose Enable more logs none -t | --no-fractional Disable fractional scaling support none -d | --disable-hex-preview Disable live preview of Hex code none -l | --lowercase-hex Outputs the hexcode in lowercase none -V | --version Print version info none",
+      "summary": "This document outlines the command-line flags and configuration options for hyprpicker, a color picker utility specifically built for the Hyprland Wayland compositor.",
+      "tags": [
+        "hyprpicker",
+        "hyprland",
+        "wayland",
+        "color-picker",
+        "command-line-tool",
+        "linux"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-hyprpicker.md"
+    },
+    {
+      "file_path": "008-Getting-Started-Master-Tutorial.md",
+      "title": "Master tutorial",
+      "url": "https://wiki.hypr.land/Getting-Started/Master-Tutorial/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:58.198479019-03:00",
+      "description": "If you are coming to Hyprland for the first time, this is the main tutorial to read.\nThis tutorial covers everything you need to get things going. It links to other pages where necessary.\nInstall Hyprland See Installation and come back here once you have successfully installed Hyprland.\nInstall kitty (default terminal emulator). This is available in most distros' repositories.\nNvidia? Note",
+      "summary": "This document serves as the primary introductory tutorial for new Hyprland users, covering installation, hardware-specific setup, and initial configuration of the compositor.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "installation-guide",
+        "window-manager",
+        "linux-desktop",
+        "getting-started"
+      ],
+      "category": "tutorial",
+      "original_file_path": "Getting-Started-Master-Tutorial.md"
+    },
+    {
+      "file_path": "074-Plugins-Development-Plugin-Guidelines.md",
+      "title": "Plugin guidelines",
+      "url": "https://wiki.hypr.land/Plugins/Development/Plugin-Guidelines/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:14:58.373164756-03:00",
+      "description": "This page documents the recommended guidelines for making a stable and neat plugin.\nMaking your plugin compatible with hyprpm In order for your plugin to be installable by hyprpm, you need a manifest.\nhyprpm will parse hyprload manifests just fine, but it\u2019s recommended to use the more powerful hyprpm manifest.\nMake a file in the root of your repository called hyprpm.toml.\nRepository metadata At the beginning, put some metadata about your plugin:",
+      "summary": "This document outlines the best practices and technical requirements for developing stable Hyprland plugins, including hyprpm manifest configuration and API usage guidelines.",
+      "tags": [
+        "hyprland",
+        "plugin-development",
+        "hyprpm",
+        "api-guidelines",
+        "manifest-toml",
+        "version-pinning"
+      ],
+      "category": "guide",
+      "original_file_path": "Plugins-Development-Plugin-Guidelines.md"
+    },
+    {
+      "file_path": "037-Useful-Utilities-Status-Bars.md",
+      "title": "Status bars",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Status-Bars/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:01.202833652-03:00",
+      "description": "Simple status bars Typically you\u2019ll be able to configure the order and style of widgets with little to no coding skill.\nWaybar Waybar is a GTK status bar made specifically for wlroots compositors and supports Hyprland by default. To use it, it\u2019s recommended to use your distro\u2019s package.\nTo start configuring, copy the configuration files from /etc/xdg/waybar/ into ~/.config/waybar/.\nTo use the workspaces module, replace all the occurrences of sway/workspaces with hyprland/workspaces. Additionally replace all occurrences of sway/mode with hyprland/submap",
+      "summary": "This document provides an overview and setup instructions for various status bars and widget systems compatible with the Hyprland compositor. It covers configuration steps, feature comparisons, and troubleshooting for popular tools like Waybar, Eww, and AGS.",
+      "tags": [
+        "hyprland",
+        "status-bar",
+        "waybar",
+        "desktop-shell",
+        "widgets",
+        "linux-customization",
+        "wayland-compositor"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-Status-Bars.md"
+    },
+    {
+      "file_path": "013-Configuring-Variables.md",
+      "title": "Variables",
+      "url": "https://wiki.hypr.land/Configuring/Variables/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:01.390417354-03:00",
+      "description": "For basic syntax info, see Configuring Hyprland.\nThis page documents all the \u201coptions\u201d of Hyprland. For binds, monitors, animations, etc. see the sidebar. For anything else, see Keywords.\nPlease keep in mind some options that are layout-specific will be documented in the layout pages and not here. (See the Sidebar for Dwindle and Master layouts)\nVariable types type description int integer bool boolean, true or false (yes or no, on or off, 0 or 1) - any numerical value that is not 0 or 1 will cause undefined behavior. float floating point number color color (see hint below for color info) vec2 vector with 2 float values, separated by a space (e.g. 0 0 or -10.9 99.1) MOD a string modmask (e.g. SUPER or SUPERSHIFT or SUPER + SHIFT or SUPER and SHIFT or CTRL_SHIFT or empty for none. You are allowed to put any separators you please except for a ,) str a string gradient a gradient, in the form of color color ... [angle] where color is a color (see above) and angle is an angle in degrees, in the format of 123deg e.g. 45deg (e.g. rgba(11ee11ff) rgba(1111eeff) 45deg) Angle is optional and will default to 0deg font_weight an integer between 100 and 1000, or one of the following presets: thin ultralight light semilight book normal medium semibold bold ultrabold heavy ultraheavy Colors",
+      "summary": "This document provides a comprehensive reference of all configuration options and variables for the Hyprland Wayland compositor, covering data types, general window behavior, and aesthetic decorations.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "configuration-options",
+        "window-manager",
+        "ui-customization",
+        "desktop-environment"
+      ],
+      "category": "reference",
+      "original_file_path": "Configuring-Variables.md"
+    },
+    {
+      "file_path": "083-Nix-Cachix.md",
+      "title": "Cachix",
+      "url": "https://wiki.hypr.land/Nix/Cachix/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:02.340721756-03:00",
+      "description": "Note\nThis page only applies to the flake package.\nYou can safely skip this if you use the Nixpkgs package.\nThe Hyprland flake is not built by Hydra, so it is not cached in cache.nixos.org, like the rest of Nixpkgs.",
+      "summary": "This document explains how to use the Hyprland Cachix binary cache to speed up installation and avoid rebuilding the Hyprland flake and its dependencies.",
+      "tags": [
+        "hyprland",
+        "nix-flakes",
+        "cachix",
+        "binary-cache",
+        "performance-optimization",
+        "nixos"
+      ],
+      "category": "configuration",
+      "original_file_path": "Nix-Cachix.md"
+    },
+    {
+      "file_path": "075-Plugins-Development-Event-list.md",
+      "title": "Event list",
+      "url": "https://wiki.hypr.land/Plugins/Development/Event-list/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:04.056553381-03:00",
+      "description": "These are all the events that can be listened to using Event Hooks.\nComplete list Note\nM: means std::unordered_map<std::string, std::any> following props are members.\nname description argument(s) cancellable tick fired on a tick, meaning once per (1000 / highestMonitorHz) ms nullptr \u2715 activeWindow fired on active window change PHLWINDOW \u2715 keyboardFocus fired on keyboard focus change. Contains the newly focused surface SP<CWLSurfaceResource> \u2715 moveWorkspace fired when a workspace changes its monitor std::vector<std::any>{PHLWORKSPACE, PHLMONITOR} \u2715 focusedMon fired on monitor focus change PHLMONITOR \u2715 moveWindow fired when a window changes workspace std::vector<std::any>{PHLWINDOW, PHLWORKSPACE} \u2715 openLayer fired when a LS is mapped PHLLS \u2715 closeLayer fired when a LS is unmapped PHLLS \u2715 openWindow fired when a window is mapped PHLWINDOW \u2715 closeWindow fired when a window is unmapped PHLWINDOW \u2715 windowUpdateRules fired when a window\u2019s rules are updated PHLWINDOW \u2715 urgent fired when a window requests urgent PHLWINDOW \u2715 preMonitorAdded fired when a monitor is plugged in, before Hyprland handles it PHLMONITOR \u2715 monitorAdded fired when a monitor is plugged in, after Hyprland has handled it PHLMONITOR \u2715 preMonitorRemoved fired when a monitor is unplugged, before Hyprland handles it PHLMONITOR \u2715 monitorRemoved fired when a monitor is unplugged, after Hypralnd has handled it PHLMONITOR \u2715 createWorkspace fired when a workspace is created PHLWORKSPACE \u2715 destroyWorkspace fired when a workspace is destroyed PHLWORKSPACE \u2715 fullscreen fired when a window changes fullscreen state PHLWINDOW \u2715 changeFloatingMode fired when a window changes float state PHLWINDOW \u2715 workspace fired on a workspace change (only ones explicitly requested by a user) PHLWORKSPACE \u2715 submap fired on a submap change std::string \u2715 mouseMove fired when the cursor moves. Param is coords. const Vector2D \u2714 mouseButton fired on a mouse button press IPointer::SButtonEvent \u2714 mouseAxis fired on a mouse axis event M: event:IPointer::SAxisEvent \u2714 touchDown fired on a touch down event ITouch::SDownEvent \u2714 touchUp fired on a touch up event ITouch::SUpEvent \u2714 touchMove fired on a touch motion event ITouch::SMotionEvent \u2714 activeLayout fired on a keyboard layout change. String pointer temporary, not guaranteed after execution of the handler finishes. std::vector<std::any>{SP<IKeyboard>, std::string} \u2715 preRender fired before a frame for a monitor is about to be rendered PHLMONITOR \u2715 screencast fired when the screencopy state of a client changes. Keep in mind there might be multiple separate clients. std::vector<uint64_t>{state, framesInHalfSecond, owner} \u2715 render fired at various stages of rendering to allow your plugin to render stuff. See src/SharedDefs.hpp for a list with explanations eRenderStage \u2715 windowtitle emitted when a window title changes. PHLWINDOW \u2715 configReloaded emitted after the config is reloaded nullptr \u2715 preConfigReload emitted before a config reload nullptr \u2715 keyPress emitted on a key press M: event:IKeyboard::SButtonEvent, keyboard:SP<IKeyboard> \u2714 pin emitted when a window is pinned or unpinned PHLWINDOW \u2715 swipeBegin emitted when a touchpad swipe is commenced IPointer::SSwipeBeginEvent \u2714 swipeUpdate emitted when a touchpad swipe is updated IPointer::SSwipeUpdateEvent \u2714 swipeEnd emitted when a touchpad swipe is ended IPointer::SSwipeEndEvent \u2714",
+      "summary": "This document provides a comprehensive list of available event hooks for monitoring system, window, and input changes, including their descriptions and argument types.",
+      "tags": [
+        "hyprland",
+        "event-hooks",
+        "plugin-development",
+        "api-reference",
+        "window-management",
+        "input-handling"
+      ],
+      "category": "reference",
+      "original_file_path": "Plugins-Development-Event-list.md"
+    },
+    {
+      "file_path": "010-Configuring.md",
+      "title": "Configuring",
+      "url": "https://wiki.hypr.land/Configuring/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:03.881110451-03:00",
+      "description": "This section is all about the configuring (aka ricing) of your Hyprland experience. It links to other pages where necessary, and will walk you through:\nThe config file Every option and function in it Extending functionality via scripts Some uncommon tips and tricks (e.g. switching layouts, disabling keybinds on-demand, etc) It also contains some sample configurations you can take inspiration from.\nStart with the Start Page.",
+      "summary": "This document serves as a high-level introduction to configuring and customizing the Hyprland compositor, including its configuration file, scripting possibilities, and advanced ricing techniques.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "configuration",
+        "window-manager",
+        "ricing",
+        "linux-desktop"
+      ],
+      "category": "guide",
+      "original_file_path": "Configuring.md"
+    },
+    {
+      "file_path": "039-Useful-Utilities-Wallpapers.md",
+      "title": "Wallpapers",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Wallpapers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:09.208170544-03:00",
+      "description": "Launch your wallpaper utility with exec-once =.\nhyprpaper Straight from our oven, hyprpaper is a wallpaper utility from the Hypr Development team. See its usage and config here.\nswaybg Great utility if all you want is one simple static wallpaper. Get it here.\nwpaperd A slightly more advanced wallpaper daemon with automatic wallpaper changing options and other fancy stuff. GitHub.",
+      "summary": "This document lists and briefly describes several wallpaper utilities compatible with Wayland and Hyprland, ranging from simple static background tools to advanced animated and video wallpaper managers.",
+      "tags": [
+        "wayland",
+        "hyprland",
+        "wallpaper-utilities",
+        "desktop-customization",
+        "hyprpaper",
+        "linux-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "Useful-Utilities-Wallpapers.md"
+    },
+    {
+      "file_path": "048-Hypr-Ecosystem-hyprlauncher.md",
+      "title": "hyprlauncher",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprlauncher/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:07.463429494-03:00",
+      "description": "hyprlauncher is a multipurpose and versatile launcher / picker for hyprland. It\u2019s fast, simple, and provides various modules.\nUsage Hyprlauncher is always a daemon. Launching it spawns a daemon that will listen to requests. If launched with hyprlauncher -d, it will not open a window for the first launch.\nTo open hyprlauncher, just bind hyprlauncher to a key.\nConfiguration Theming Theme follows your hyprtoolkit theme.",
+      "summary": "This document introduces hyprlauncher, a daemon-based multipurpose launcher for Hyprland, detailing its installation, execution, and extensive configuration options.",
+      "tags": [
+        "hyprlauncher",
+        "hyprland",
+        "app-launcher",
+        "linux-wm",
+        "configuration-guide",
+        "desktop-finder"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hyprlauncher.md"
+    },
+    {
+      "file_path": "076-Plugins-Development-Advanced.md",
+      "title": "Advanced",
+      "url": "https://wiki.hypr.land/Plugins/Development/Advanced/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:10.406758341-03:00",
+      "description": "This page documents a few advanced things about the Hyprland Plugin API.\nAccessing private members If you need access to a private member of a Hyprland class, you can surround includes with a macro which will change the visibility to public. Note that some Hyprland files include the STL which may end up breaking if you attempt this. If you encounter this issue, make sure to include the offending STL import before the section where you include the Hyprland file.",
+      "summary": "This document provides technical instructions for advanced Hyprland plugin development, covering private member access, function hooking, and custom configuration management.",
+      "tags": [
+        "hyprland",
+        "plugin-development",
+        "cpp-api",
+        "function-hooks",
+        "config-management"
+      ],
+      "category": "guide",
+      "original_file_path": "Plugins-Development-Advanced.md"
+    },
+    {
+      "file_path": "012-Configuring-Keywords.md",
+      "title": "Keywords",
+      "url": "https://wiki.hypr.land/Configuring/Keywords/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:07.791599058-03:00",
+      "description": "Keywords are not variables, but \u201ccommands\u201d for more advanced configuring. On this page, you will be presented with some that do not deserve their own page.\nSee the sidebar for more keywords to control binds, animations, monitors, et cetera.\nWarning",
+      "summary": "This document explains how to use advanced configuration keywords in Hyprland to manage command execution, multi-file sourcing, per-device input settings, and environment variables.",
+      "tags": [
+        "hyprland",
+        "configuration-keywords",
+        "shell-scripts",
+        "per-device-input",
+        "environment-variables",
+        "window-manager"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Keywords.md"
+    },
+    {
+      "file_path": "009-Getting-Started-Preconfigured-setups.md",
+      "title": "Preconfigured setups",
+      "url": "https://wiki.hypr.land/Getting-Started/Preconfigured-setups/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:07.814599042-03:00",
+      "description": "Don\u2019t want to spend days tinkering with Hyprland to get it just right from scratch, but you\u2019d rather start from a DE-like setting? You\u2019ve found the right place.\nHere are a few options to consider:\nML4W ML4W or My Linux 4 Work, is a great DE-like experience out-of-the-box made by Stephan Raabe.\nIt includes simple gui settings apps, pre-configured feature-rich panels, a welcome app, and more.",
+      "summary": "This document provides a curated list of popular pre-configured dotfile repositories for the Hyprland window manager to help users achieve a desktop-like experience without manual configuration.",
+      "tags": [
+        "hyprland",
+        "dotfiles",
+        "linux-customization",
+        "window-manager",
+        "desktop-environment"
+      ],
+      "category": "reference",
+      "original_file_path": "Getting-Started-Preconfigured-setups.md"
+    },
+    {
+      "file_path": "047-Hypr-Ecosystem.md",
+      "title": "Hypr Ecosystem",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:14.136725484-03:00",
+      "description": "This wiki section hosts docs for various hypr* projects.\nNote\nThese docs always target the latest -git branch of respective apps.\nWiki Pages Check out the wiki pages for each app, or their GitHub repo.",
+      "summary": "An introductory landing page for the hypr* project wiki, clarifying that the documentation targets the latest development versions of the software.",
+      "tags": [
+        "hypr-projects",
+        "documentation",
+        "git-branch",
+        "linux-desktop",
+        "wiki"
+      ],
+      "category": "other",
+      "original_file_path": "Hypr-Ecosystem.md"
+    },
+    {
+      "file_path": "051-Hypr-Ecosystem-hypridle.md",
+      "title": "hypridle",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hypridle/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:15.505722501-03:00",
+      "description": "hypridle is Hyprland\u2019s idle management daemon.\nConfiguration Configuration is done via the config file at ~/.config/hypr/hypridle.conf.\nA config file is required; hypridle won\u2019t run without one.\nTo run hypridle at startup, edit hyprland.conf and add: exec-once = hypridle.\nIf Hyprland is started with uwsm, you can use systemctl --user enable --now hypridle.service.\nGeneral Variables in the general category:\nVariable Description Type Default lock_cmd command to run when receiving a dbus lock event (e.g. loginctl lock-session) string empty unlock_cmd command to run when receiving a dbus unlock event (e.g. loginctl unlock-session) string empty on_lock_cmd command to run when the session gets locked by a lock screen app string empty on_unlock_cmd command to run when the session gets unlocked by a lock screen app string empty before_sleep_cmd command to run when receiving a dbus prepare_sleep event string empty after_sleep_cmd command to run when receiving a dbus post prepare_sleep event string empty ignore_dbus_inhibit whether to ignore dbus-sent idle inhibit events (e.g. from firefox) bool false ignore_systemd_inhibit whether to ignore systemd-inhibit --what=idle inhibitors bool false ignore_wayland_inhibit whether to ignore Wayland protocol idle inhibitors bool false inhibit_sleep sleep inhibition mode: 0: disable 1: normal 2: auto 3: lock notify int 2 Note",
+      "summary": "This document provides a configuration guide for hypridle, Hyprland's idle management daemon, detailing general settings, sleep inhibition, and idle listener setup.",
+      "tags": [
+        "hypridle",
+        "hyprland",
+        "idle-management",
+        "configuration-guide",
+        "linux-desktop",
+        "power-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hypridle.md"
+    },
+    {
+      "file_path": "040-Useful-Utilities-Screen-Sharing.md",
+      "title": "Screen sharing",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Screen-Sharing/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:16.920474794-03:00",
+      "description": "Screensharing is done through PipeWire on Wayland.\nPrerequisites Make sure you have pipewire, wireplumber and xdg-desktop-portal-hyprland installed, enabled and running if you don\u2019t have them yet.\nEnsure that the bitdepth set in your configuration matches that of your physical monitor. See Monitors.\nScreensharing Read this amazing gist by Bruno Ancona Sala for a great tutorial.\nXWayland If your screensharing application is running under XWayland (like Discord or Skype), it can only see other XWayland windows and cannot share an entire screen or a Wayland window.",
+      "summary": "This document provides instructions for setting up screensharing on Hyprland using PipeWire and outlines workarounds for XWayland application limitations.",
+      "tags": [
+        "screensharing",
+        "hyprland",
+        "wayland",
+        "pipewire",
+        "xwayland",
+        "xdg-desktop-portal"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-Screen-Sharing.md"
+    },
+    {
+      "file_path": "080-Nix-Hyprland-on-other-distros.md",
+      "title": "Hyprland on Other Distros",
+      "url": "https://wiki.hypr.land/Nix/Hyprland-on-other-distros/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:15.679904184-03:00",
+      "description": "If you use Nix on distros other than NixOS, you can still use Hyprland.\nThe best option for advanced users would be through Home Manager.\nHowever, for most people, Home Manager is too complicated and not worth it outside NixOS. In those cases, Hyprland can be installed as a normal package.\nFirst, install nix with your system\u2019s package manager (usually just called nix), then enable flakes, by adding this to /etc/nix/nix.conf or ~/.config/nix/nix.conf:",
+      "summary": "This document provides instructions for installing and running Hyprland on non-NixOS Linux distributions using the Nix package manager and nixGL for graphics support.",
+      "tags": [
+        "hyprland",
+        "nix",
+        "nixgl",
+        "linux-installation",
+        "flakes",
+        "package-management"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix-Hyprland-on-other-distros.md"
+    },
+    {
+      "file_path": "014-Configuring-Monitors.md",
+      "title": "Monitors",
+      "url": "https://wiki.hypr.land/Configuring/Monitors/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:16.748912942-03:00",
+      "description": "General The general config of a monitor looks like this:\nmonitor = name, resolution, position, scale A common example:\nmonitor = DP-1, 1920x1080@144, 0x0, 1 This will make the monitor on DP-1 a 1920x1080 display, at 144Hz, 0x0 off from the top left corner, with a scale of 1 (unscaled).",
+      "summary": "This document provides a comprehensive guide to configuring display outputs in Hyprland, covering layout positioning, resolution, scaling, and advanced features like HDR and VRR. It explains the syntax for monitor rules, including coordinate systems, special values, and hardware-specific overrides.",
+      "tags": [
+        "hyprland",
+        "monitor-configuration",
+        "display-settings",
+        "wayland-compositor",
+        "multi-monitor",
+        "hdr-support",
+        "screen-rotation"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Monitors.md"
+    },
+    {
+      "file_path": "015-Configuring-Binds.md",
+      "title": "Binds",
+      "url": "https://wiki.hypr.land/Configuring/Binds/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:20.689305882-03:00",
+      "description": "Basic bind = MODS, key, dispatcher, params for example,\nbind = SUPER_SHIFT, Q, exec, firefox will bind opening Firefox to SUPER + SHIFT + Q",
+      "summary": "This document provides a comprehensive guide to configuring key and mouse bindings in Hyprland, detailing syntax, dispatcher flags, and specialized input handling.",
+      "tags": [
+        "hyprland",
+        "keybindings",
+        "configuration",
+        "wayland",
+        "input-handling",
+        "window-manager"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Binds.md"
+    },
+    {
+      "file_path": "082-Nix-Options-Overrides.md",
+      "title": "Options & Overrides",
+      "url": "https://wiki.hypr.land/Nix/Options-Overrides/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:22.552733517-03:00",
+      "description": "You can override the package through the .override or .overrideAttrs mechanisms.\nThis is easily achievable on NixOS or Home Manager.\nPackage options These are the default options that the Hyprland package is built with.\nThese can be changed by setting the appropriate option to true or false.\nPackage (pkgs.hyprland.override { # or inputs.hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland enableXWayland = true; # whether to enable XWayland withSystemd = true; # whether to build with systemd support }) NixOS & HM modules { programs.hyprland = { # or wayland.windowManager.hyprland enable = true; xwayland.enable = true; }; } Options descriptions XWayland XWayland is enabled by default in the Nix package.\nYou can disable it either in the package itself, or through the module options.",
+      "summary": "This document explains how to customize and override the Hyprland package on Nix, NixOS, and Home Manager using various build options and override mechanisms.",
+      "tags": [
+        "nix",
+        "nixos",
+        "hyprland",
+        "home-manager",
+        "package-overrides",
+        "xwayland",
+        "nix-repl"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix-Options-Overrides.md"
+    },
+    {
+      "file_path": "050-Hypr-Ecosystem-hyprlock.md",
+      "title": "hyprlock",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprlock/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:20.864769843-03:00",
+      "description": "hyprlock is a simple, yet fast, multi-threaded and GPU-accelerated screen lock for Hyprland.\nWarning\nHyprlock does not automatically create a config, and without one, hyprlock will not render anything.\nBut even without a config, your session will get locked and thus Hyprland will cover your session with a black screen.\nYou can unlock normally by typing your password followed by hitting Enter, but you won\u2019t have any visual feedback.",
+      "summary": "This document provides a comprehensive guide to configuring and using hyprlock, a multi-threaded and GPU-accelerated screen locker for Hyprland.",
+      "tags": [
+        "hyprlock",
+        "hyprland",
+        "screen-locker",
+        "wayland",
+        "linux-configuration",
+        "pam-authentication",
+        "widget-system"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hyprlock.md"
+    },
+    {
+      "file_path": "038-Useful-Utilities-App-Launchers.md",
+      "title": "App launchers",
+      "url": "https://wiki.hypr.land/Useful-Utilities/App-Launchers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:25.639714937-03:00",
+      "description": "Hyprlauncher Hyprlauncher is a first-party multipurpose and versatile launcher / picker for Hyprland. See its usage and config here.\nWofi Wofi is a GTK-based customizable launcher for Wayland. SourceHut.\nRofi Rofi, a window switcher, application launcher and dmenu replacement. supports Wayland since 2025. GitHub.\nbemenu bemenu is a Wayland-native replacement for dmenu. GitHub.\nHyprTile HyprTile is a Mega-Launcher for Hyprland. Tiny in size, easy to use with nifty features like app grid, very flexible per app configuration, integrated music search, notes system, screenshot and screenrecording for full screen or selected area, system monitor, volume control, starfield background and very nice optics. A ton of features still to come. Everything so simple, you don\u2019t need a man page.",
+      "summary": "This document lists and briefly describes various application launchers and command runners compatible with the Hyprland compositor and Wayland environments.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "application-launchers",
+        "command-runners",
+        "linux-utilities"
+      ],
+      "category": "reference",
+      "original_file_path": "Useful-Utilities-App-Launchers.md"
+    },
+    {
+      "file_path": "034-Useful-Utilities.md",
+      "title": "Useful Utilities",
+      "url": "https://wiki.hypr.land/Useful-Utilities/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:22.731371639-03:00",
+      "description": "This category is dedicated to short tutorials on how to get useful utilities for Hyprland working.\nList of Pages Must-Have\nHypr Ecosystem\nStatus Bars\nApp Launchers\nWallpapers\nScreen Sharing\nApp Clients\nColor Pickers\nClipboard Managers\nHyprland Desktop Portal\nFile Managers\nOther\nSystemd startup",
+      "summary": "This document serves as a directory of tutorials and recommended utilities for the Hyprland window manager, covering essential desktop components like status bars and app launchers.",
+      "tags": [
+        "hyprland",
+        "wayland-utilities",
+        "status-bars",
+        "app-launchers",
+        "desktop-environment",
+        "linux-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities.md"
+    },
+    {
+      "file_path": "081-Nix-Plugins.md",
+      "title": "Plugins",
+      "url": "https://wiki.hypr.land/Nix/Plugins/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:26.429162209-03:00",
+      "description": "Hyprland plugins are managed differently on Nix than on other distros.\nThe most notable change is that hyprpm is unsupported, but we have our own way of building and managing plugins.\nWarning",
+      "summary": "This document explains how to manage and build Hyprland plugins on Nix systems, covering usage from Nixpkgs, flake integration, and the mkHyprlandPlugin utility.",
+      "tags": [
+        "hyprland",
+        "nix",
+        "nixos",
+        "plugins",
+        "flakes",
+        "mk-hyprland-plugin"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix-Plugins.md"
+    },
+    {
+      "file_path": "016-Configuring-Dispatchers.md",
+      "title": "Dispatchers",
+      "url": "https://wiki.hypr.land/Configuring/Dispatchers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:26.146532572-03:00",
+      "description": "Please keep in mind some layout-specific dispatchers will be listed in the layout pages (See the sidebar).\nParameter explanation Param type Description window a window. Any of the following: class regex (by default, optionally class:), initialclass: initial class regex, title: title regex, initialtitle initial title regex, tag: window tag regex, pid: the pid, address: the address, activewindow an active window, floating the first floating window on the current workspace, tiled the first tiled window on the current workspace workspace see below. direction l r u d left right up down monitor One of: direction, ID, name, current, relative (e.g. +1 or -1) resizeparams relative pixel delta vec2 (e.g. 10 -10), optionally a percentage of the window size (e.g. 20 25%) or exact followed by an exact vec2 (e.g. exact 1280 720), optionally a percentage of the screen size (e.g. exact 50% 50%) floatvalue a relative float delta (e.g -0.2 or +0.2) or exact followed by a the exact float value (e.g. exact 0.5) zheight top or bottom mod SUPER, SUPER_ALT, etc. key g, code:42, 42 or mouse clicks (mouse:272) List of Dispatchers Dispatcher Description Params exec executes a shell command command (supports rules, see below) execr executes a raw shell command (does not support rules) command pass passes the key (with mods) to a specified window. Can be used as a workaround to global keybinds not working on Wayland. window sendshortcut sends specified keys (with mods) to an optionally specified window. Can be used like pass mod, key[, window] sendkeystate Send a key with specific state (down/repeat/up) to a specified window (window must keep focus for events to continue). mod, key, state, window killactive closes (not kills) the active window none forcekillactive kills the active window none closewindow closes a specified window window killwindow kills a specified window window signal sends a signal to the active window signal signalwindow sends a signal to a specified window window,signal, e.g.class:Alacritty,9 workspace changes the workspace workspace movetoworkspace moves the focused window to a workspace workspace OR workspace,window for a specific window movetoworkspacesilent same as above, but doesn\u2019t switch to the workspace workspace OR workspace,window for a specific window togglefloating toggles the current window\u2019s floating state left empty / active for current, or window for a specific window setfloating sets the current window\u2019s floating state to true left empty / active for current, or window for a specific window settiled sets the current window\u2019s floating state to false left empty / active for current, or window for a specific window fullscreen sets the focused window\u2019s fullscreen mode mode action, where mode can be 0 - fullscreen (takes your entire screen) or 1 - maximize (keeps gaps and bar(s)), while action is optional and can be toggle (default), set or unset. fullscreenstate sets the focused window\u2019s fullscreen mode and the one sent to the client internal client action, where internal (the hyprland window) and client (the application) can be -1 - current, 0 - none, 1 - maximize, 2 - fullscreen, 3 - maximize and fullscreen. action is optional and can be toggle (default) or set. dpms sets all monitors\u2019 DPMS status. Do not use with a keybind directly. on, off, or toggle. For specific monitor add monitor name after a space forceidle sets elapsed time for all idle timers, ignoring idle inhibitors. Timers return to normal behavior upon the next activity. Do not use with a keybind directly. floatvalue (number of seconds) pin pins a window (i.e. show it on all workspaces) note: floating only left empty / active for current, or window for a specific window movefocus moves the focus in a direction direction movewindow moves the active window in a direction or to a monitor. For floating windows, moves the window to the screen edge in that direction direction or mon: and a monitor, optionally followed by a space and silent to prevent the focus from moving with the window swapwindow swaps the active window with another window in the given direction or with a specific window direction or window centerwindow center the active window note: floating only none (for monitor center) or 1 (to respect monitor reserved area) resizeactive resizes the active window resizeparams moveactive moves the active window resizeparams resizewindowpixel resizes a selected window resizeparams,window, e.g. 100 100,^(kitty)$ movewindowpixel moves a selected window resizeparams,window cyclenext focuses the next window (on a workspace, if visible is not provided) none (for next) or prev (for previous) additionally tiled for only tiled, floating for only floating. prev tiled is ok. visible for all monitors cycling. visible prev floating is ok. if hist arg provided - focus order will depends on focus history. All other modifiers is also working for it, visible next floating hist is ok. swapnext swaps the focused window with the next window on a workspace none (for next) or prev (for previous) tagwindow apply tag to current or the first window matching tag [window], e.g. +code ^(foot)$, music focuswindow focuses the first window matching window focusmonitor focuses a monitor monitor splitratio changes the split ratio floatvalue movecursortocorner moves the cursor to the corner of the active window direction, 0 - 3, bottom left - 0, bottom right - 1, top right - 2, top left - 3 movecursor moves the cursor to a specified position x y renameworkspace rename a workspace id name, e.g. 2 work exit exits the compositor with no questions asked. It\u2019s recommended to use hyprshutdown instead of this. none forcerendererreload forces the renderer to reload all resources and outputs none movecurrentworkspacetomonitor Moves the active workspace to a monitor monitor focusworkspaceoncurrentmonitor Focuses the requested workspace on the current monitor, swapping the current workspace to a different monitor if necessary. If you want XMonad/Qtile-style workspace switching, replace workspace in your config with this. workspace moveworkspacetomonitor Moves a workspace to a monitor workspace and a monitor separated by a space swapactiveworkspaces Swaps the active workspaces between two monitors two monitors separated by a space bringactivetotop Deprecated in favor of alterzorder. Brings the current window to the top of the stack none alterzorder Modify the window stack order of the active or specified window. Note: this cannot be used to move a floating window behind a tiled one. zheight[,window] togglespecialworkspace toggles a special workspace on/off none (for the first) or name for named (name has to be a special workspace\u2019s name) focusurgentorlast Focuses the urgent window or the last window none togglegroup toggles the current active window into a group none changegroupactive switches to the next window in a group. b - back, f - forward, or index start at 1 focuscurrentorlast Switch focus from current to previously focused window none lockgroups Locks the groups (all groups will not accept new windows) lock for locking, unlock for unlocking, toggle for toggle lockactivegroup Lock the focused group (the current group will not accept new windows or be moved to other groups) lock for locking, unlock for unlocking, toggle for toggle moveintogroup Moves the active window into a group in a specified direction. No-op if there is no group in the specified direction. direction moveoutofgroup Moves the active window out of a group. No-op if not in a group left empty / active for current, or window for a specific window movewindoworgroup Behaves as moveintogroup if there is a group in the given direction. Behaves as moveoutofgroup if there is no group in the given direction relative to the active group. Otherwise behaves like movewindow. direction movegroupwindow Swaps the active window with the next or previous in a group b for back, anything else for forward denywindowfromgroup Prohibit the active window from becoming or being inserted into group on, off or, toggle setignoregrouplock Temporarily enable or disable binds:ignore_group_lock on, off, or toggle global Executes a Global Shortcut using the GlobalShortcuts portal. See here name submap Change the current mapping group. See Submaps reset or name event Emits a custom event to socket2 in the form of custom>>yourdata the data to send setprop Sets a window property window property value toggleswallow If a window is swallowed by the focused window, unswallows it. Execute again to swallow it back none Warning",
+      "summary": "This document provides a comprehensive technical reference for dispatchers and their parameters used to control windows, workspaces, and system actions within the Hyprland compositor.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "window-management",
+        "dispatchers",
+        "workspace-control",
+        "command-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "Configuring-Dispatchers.md"
+    },
+    {
+      "file_path": "070-Plugins.md",
+      "title": "Plugins",
+      "url": "https://wiki.hypr.land/Plugins/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:27.683163091-03:00",
+      "description": "Plugins allow users to add extra functionality to Hyprland.\nUsing plugins Plugin development",
+      "summary": "This document introduces the Hyprland plugin system, providing entry points for both utilizing existing plugins and developing new ones to extend functionality.",
+      "tags": [
+        "hyprland",
+        "plugins",
+        "plugin-development",
+        "system-extension",
+        "customization"
+      ],
+      "category": "guide",
+      "original_file_path": "Plugins.md"
+    },
+    {
+      "file_path": "041-Useful-Utilities-App-Clients.md",
+      "title": "App clients",
+      "url": "https://wiki.hypr.land/Useful-Utilities/App-Clients/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:30.596610796-03:00",
+      "description": "Some clients are known for being a massive pain under Wayland. Here are great replacements for them:\nDiscord WebCord is a Discord client based on the latest Electron, with support for the Wayland Ozone platform, as well as PipeWire screensharing. It has tons of great features and tries not to infringe on the Discord ToS.\nVesktop Like WebCord, Vesktop is a custom Discord client with improved performance and Wayland support. It also has built-in screen sharing, and in addition has support for plugins and custom themes. Vesktop even supports proper audio sharing when you screen share. Note that Vesktop relies on Vencord, a custom Discord client mod, which violates Discord\u2019s terms of service. Use at your own risk.",
+      "summary": "This document recommends alternative Discord and Matrix clients that provide better performance and compatibility for Linux users on the Wayland display protocol.",
+      "tags": [
+        "wayland",
+        "linux-desktop",
+        "discord-alternatives",
+        "matrix-clients",
+        "electron-compatibility",
+        "pipewire-screensharing"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-App-Clients.md"
+    },
+    {
+      "file_path": "084-Nix-Contributing-and-Debugging.md",
+      "title": "Contributing and Debugging",
+      "url": "https://wiki.hypr.land/Nix/Contributing-and-Debugging/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:31.518348632-03:00",
+      "description": "Everything needed to build and debug Hyprland and other hyprwm programs is included inside the provided devShells.\nTo use it in the cloned repo, simply run nix develop.\nBuild in debug mode A debug build is already provided through hyprland.packages.${pkgs.stdenv.hostPlatform.system}.hyprland-debug.\nMost hyprwm apps also provide their own -debug versions. For those that don\u2019t, one can build the debug version from the CLI by using overrideAttrs with cmakeBuildType = \"Debug\"; or mesonBuildType = \"debug\";, depending on the program.",
+      "summary": "This document provides instructions for building, debugging, and troubleshooting Hyprland and related hyprwm programs within a Nix-based development environment.",
+      "tags": [
+        "nix",
+        "hyprland",
+        "debugging",
+        "compilation",
+        "development-shell",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix-Contributing-and-Debugging.md"
+    },
+    {
+      "file_path": "077-Nix.md",
+      "title": "Nix",
+      "url": "https://wiki.hypr.land/Nix/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:32.625525569-03:00",
+      "description": "To install Hyprland on NixOS, we provide a NixOS and a Home Manager module.\nWarning\nRequired:\nNixOS Module: enables critical components needed to run Hyprland properly.\nWithout this, you may have issues with missing session files in your Display Manager. Optional:",
+      "summary": "This document outlines the installation process for Hyprland on NixOS using the required NixOS module and the optional Home Manager module for declarative configuration.",
+      "tags": [
+        "nixos",
+        "hyprland",
+        "home-manager",
+        "installation",
+        "window-manager",
+        "linux-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "Nix.md"
+    },
+    {
+      "file_path": "017-Configuring-Window-Rules.md",
+      "title": "Window Rules",
+      "url": "https://wiki.hypr.land/Configuring/Window-Rules/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:32.813314929-03:00",
+      "description": "Warning\nRules are evaluated top to bottom, so the order they\u2019re written in does matter! More info in Notes\nWindow Rules You can set window rules to achieve different window behaviors based on their properties.",
+      "summary": "This document provides a comprehensive guide to configuring window rules in Hyprland, detailing the syntax for property matching and the application of static and dynamic effects.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "configuration-syntax",
+        "wayland",
+        "window-rules",
+        "regex-matching"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Window-Rules.md"
+    },
+    {
+      "file_path": "064-Hypr-Ecosystem-xdg-desktop-portal-hyprland.md",
+      "title": "xdg-desktop-portal-hyprland",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/xdg-desktop-portal-hyprland/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:34.482721053-03:00",
+      "description": "An XDG Desktop Portal is a program that lets other applications communicate with the compositor through D-Bus.\nA portal implements certain functionalities, such as opening file pickers or screen sharing.\nxdg-desktop-portal-hyprland is Hyprland\u2019s xdg-desktop-portal implementation. It allows for screensharing, global shortcuts, etc.\nNote",
+      "summary": "This document explains how to install, configure, and troubleshoot xdg-desktop-portal-hyprland (XDPH) to enable screensharing and other portal functionalities in Hyprland.",
+      "tags": [
+        "hyprland",
+        "xdg-desktop-portal",
+        "screensharing",
+        "wayland",
+        "linux-desktop",
+        "configuration",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "Hypr-Ecosystem-xdg-desktop-portal-hyprland.md"
+    },
+    {
+      "file_path": "042-Useful-Utilities-Color-Pickers.md",
+      "title": "Color pickers",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Color-Pickers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:35.206610873-03:00",
+      "description": "Color pickers are useful for quickly grabbing a color of something on your screen.\nIt\u2019s preferred using hyprwm\u2019s own solution, which, so far, seems to be the only one that doesn\u2019t suck.\nHyprpicker Dead simple to use. Launch, click, and you\u2019re done. Also see its wiki page. GitHub",
+      "summary": "This document introduces hyprpicker, a color picker utility for the Hyprland ecosystem, highlighting its simplicity and providing links to its official documentation.",
+      "tags": [
+        "hyprpicker",
+        "hyprland",
+        "color-picker",
+        "wayland",
+        "linux-utility"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-Color-Pickers.md"
+    },
+    {
+      "file_path": "085-Nvidia.md",
+      "title": "Nvidia",
+      "url": "https://wiki.hypr.land/Nvidia/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:37.030861404-03:00",
+      "description": "Foreword There is no official Hyprland support for Nvidia hardware. However, many people have had success with the instructions on this page. Please read everything in FULL before asking for help.\nThere are three potential setups you can have with driver setup on Nvidia.\nEntirely proprietary Nvidia drivers, often referred to as \u201cProprietary Drivers\u201d Entirely proprietary Nvidia drivers, except with the open source kernel modules, referred to as \u201cOpen Drivers\u201d. Nouveau open source drivers. A clean-room implementation of Nvidia drivers, referred to simply as \u201cNouveau\u201d, and not to be confused with the \u201cOpen Drivers\u201d. For maximum performance and support with newer cards, running either of the first two setups is recommended as it contains some vital optimisations and power management support for newer GPUs.",
+      "summary": "This document provides comprehensive instructions and troubleshooting steps for configuring Nvidia drivers to work with the Hyprland window manager.",
+      "tags": [
+        "nvidia-drivers",
+        "hyprland-setup",
+        "wayland-compatibility",
+        "linux-graphics",
+        "kernel-mode-setting",
+        "troubleshooting-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "Nvidia.md"
+    },
+    {
+      "file_path": "018-Configuring-Workspace-Rules.md",
+      "title": "Workspace Rules",
+      "url": "https://wiki.hypr.land/Configuring/Workspace-Rules/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:37.210921619-03:00",
+      "description": "You can set workspace rules to achieve workspace-specific behaviors. For instance, you can define a workspace where all windows are drawn without borders or gaps.\nFor layout-specific rules, see the specific layout page. For example: Master Layout->Workspace Rules.\nWorkspace selectors Workspaces that have already been created can be targeted by workspace selectors, e.g. r[2-4] w[t1].\nSelectors have props separated by a space. No spaces are allowed inside props themselves.",
+      "summary": "This document explains how to define and apply specific rules to Hyprland workspaces using selectors and various configuration parameters like gaps, borders, and monitor bindings.",
+      "tags": [
+        "hyprland",
+        "workspace-rules",
+        "wayland",
+        "window-management",
+        "configuration",
+        "selectors"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Workspace-Rules.md"
+    },
+    {
+      "file_path": "021-Configuring-Animations.md",
+      "title": "Animations",
+      "url": "https://wiki.hypr.land/Configuring/Animations/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:39.357751119-03:00",
+      "description": "General Animations are declared with the animation keyword.\nanimation = NAME, ONOFF, SPEED, CURVE [,STYLE] ONOFF use 0 to disable, 1 to enable. Note: if it\u2019s 0, you can omit further args.",
+      "summary": "Provides instructions on declaring and configuring animations and B\u00e9zier curves, including syntax for speed, styles, and animation inheritance.",
+      "tags": [
+        "hyprland",
+        "animation-config",
+        "bezier-curves",
+        "ui-styling",
+        "desktop-environment"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Animations.md"
+    },
+    {
+      "file_path": "043-Useful-Utilities-Clipboard-Managers.md",
+      "title": "Clipboard Managers",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Clipboard-Managers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:39.533261536-03:00",
+      "description": "Starting method: manual (exec-once)\nClipboard Managers provide a convenient way to organize and access previously copied content, including both text and images.\nSome common ones include:\ncliphist - Utilizes Wayland with wl-clipboard and can store text, images and any binary data.\nclipman - Utilizes Wayland with wl-clipboard support and stores text only.\nclipvault - Utilizes Wayland with wl-clipboard and can store text, images and any binary data.\nAlternative to cliphist with a couple extra features (e.g. max age for entries, min/max entry length).",
+      "summary": "This document outlines various clipboard managers compatible with Hyprland and provides setup instructions for integrating them into a Wayland-based workflow.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "clipboard-manager",
+        "configuration",
+        "linux-customization",
+        "window-management"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-Clipboard-Managers.md"
+    },
+    {
+      "file_path": "056-Hypr-Ecosystem-hyprsysteminfo.md",
+      "title": "hyprsysteminfo",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprsysteminfo/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:42.144423531-03:00",
+      "description": "hyprsysteminfo is a small GUI application to display your system information, as well as easily copy the hyprland version or system info to your clipboard.",
+      "summary": "This document describes hyprsysteminfo, a graphical tool used for viewing and copying system information and Hyprland version details.",
+      "tags": [
+        "hyprland",
+        "system-info",
+        "gui-utility",
+        "clipboard-management",
+        "linux-desktop"
+      ],
+      "category": "other",
+      "original_file_path": "Hypr-Ecosystem-hyprsysteminfo.md"
+    },
+    {
+      "file_path": "033-IPC.md",
+      "title": "IPC",
+      "url": "https://wiki.hypr.land/IPC/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:42.382210084-03:00",
+      "description": "Hyprland exposes 2 UNIX Sockets, for controlling / getting info about Hyprland via code / bash utilities.\nHyprland Instance Signature (HIS) echo $HYPRLAND_INSTANCE_SIGNATURE $XDG_RUNTIME_DIR/hypr/[HIS]/.socket.sock Used for hyprctl-like requests. See the Hyprctl page for commands.",
+      "summary": "This document describes Hyprland's UNIX sockets used for controlling the compositor via commands and monitoring real-time system events.",
+      "tags": [
+        "hyprland",
+        "unix-sockets",
+        "ipc",
+        "event-handling",
+        "window-management"
+      ],
+      "category": "api",
+      "original_file_path": "IPC.md"
+    },
+    {
+      "file_path": "087-Crashes-and-Bugs.md",
+      "title": "Crashes and Bugs",
+      "url": "https://wiki.hypr.land/Crashes-and-Bugs/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:44.693058516-03:00",
+      "description": "Getting the log Firstly, make sure you have enabled logs in the Hyprland config. Set debug:disable_logs to false.\nIf you are in a TTY, and the Hyprland session that crashed was the last one you launched, the log can be printed with\ncat $XDG_RUNTIME_DIR/hypr/$(ls -t $XDG_RUNTIME_DIR/hypr/ | head -n 1)/hyprland.log if you are in a Hyprland session, and you want the log of the last session, use",
+      "summary": "This document provides comprehensive instructions for diagnosing and troubleshooting Hyprland crashes, including how to collect logs, generate crash reports, perform debug stacktraces, and use git bisect to identify bugs.",
+      "tags": [
+        "hyprland",
+        "debugging",
+        "troubleshooting",
+        "crash-reporting",
+        "wayland",
+        "linux-logs",
+        "git-bisect"
+      ],
+      "category": "guide",
+      "original_file_path": "Crashes-and-Bugs.md"
+    },
+    {
+      "file_path": "044-Useful-Utilities-File-Managers.md",
+      "title": "File Managers",
+      "url": "https://wiki.hypr.land/Useful-Utilities/File-Managers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:45.481098836-03:00",
+      "description": "GUI dolphin: File manager by KDE. nautilus: File manager by Gnome. nautilus-admin-gtk4: Open files with elevated privileges. nautilus-image-converter: Resize and rotate images. nautilus-open-any-terminal: Open terminals in selected directory. nemo: File manager by Cinnamon. nemo-fileroller: File archiver extension. nemo-terminal: Embedded terminal window. pcmanfm-qt: File manager by LXQt. pcmanfm: File manager by LXDE. thunar: File manager by XFCE. TUI lf: A filemanager heavily inspired by ranger written in Go. nnn: n\u00b3 The Unorthodox terminal file manager. ranger: A VIM-inspired filemanager for the console. superfile: Pretty fancy and modern terminal file manager. yazi: Blazing fast terminal file manager written in Rust, based on async I/O.",
+      "summary": "This document provides a curated list of graphical and terminal-based file managers available for Linux, including popular desktop environment defaults and specialized TUI tools.",
+      "tags": [
+        "file-managers",
+        "linux-software",
+        "gui",
+        "tui",
+        "productivity",
+        "system-utilities"
+      ],
+      "category": "reference",
+      "original_file_path": "Useful-Utilities-File-Managers.md"
+    },
+    {
+      "file_path": "022-Configuring-Gestures.md",
+      "title": "Gestures",
+      "url": "https://wiki.hypr.land/Configuring/Gestures/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:46.164757234-03:00",
+      "description": "General Hyprland supports 1:1 gestures for the trackpad for some operations. The basic syntax looks like this:\ngesture = fingers, direction, action, options Various actions may have their own options, or none. You can drop the options altogether and end on the action arg if the action takes none.",
+      "summary": "This document outlines the syntax and configuration for implementing 1:1 trackpad gestures in Hyprland, covering directions, actions, and optional flags.",
+      "tags": [
+        "hyprland",
+        "trackpad-gestures",
+        "input-configuration",
+        "swipe-actions",
+        "window-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Gestures.md"
+    },
+    {
+      "file_path": "053-Hypr-Ecosystem-hyprsunset.md",
+      "title": "hyprsunset",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprsunset/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:47.840317148-03:00",
+      "description": "hyprsunset is a small utility to provide a blue light filter for your system.\nThis method is preferred to screen shaders as it will not be captured via recording / screenshots.\nhyprsunset also provides a gamma filter, which can be used to adjust perceived display brightness on monitors that do not support software control, or to reduce perceived brightness below the monitor\u2019s minimum.\nWarning",
+      "summary": "hyprsunset is a system utility for Hyprland that provides a blue light filter and gamma adjustment through time-based profiles, CLI arguments, and IPC.",
+      "tags": [
+        "hyprland",
+        "hyprsunset",
+        "blue-light-filter",
+        "gamma-adjustment",
+        "wayland-utility",
+        "eye-care"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hyprsunset.md"
+    },
+    {
+      "file_path": "086-FAQ.md",
+      "title": "FAQ",
+      "url": "https://wiki.hypr.land/FAQ/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:48.745370894-03:00",
+      "description": "Symbol lookup errors If you are getting an error like:\n<app>: symbol lookup error: <app>: undefined symbol: <symbol> or\n<app>: error while loading shared libraries: <lib>: cannot open shared object file: No such file or directory. or sometimes without errors, just crashing at start / randomly",
+      "summary": "This document provides troubleshooting solutions and answers to common questions regarding the installation, configuration, and usage of the Hyprland Wayland compositor.",
+      "tags": [
+        "hyprland",
+        "troubleshooting",
+        "wayland",
+        "linux-desktop",
+        "configuration-guide",
+        "faq"
+      ],
+      "category": "guide",
+      "original_file_path": "FAQ.md"
+    },
+    {
+      "file_path": "054-Hypr-Ecosystem-hyprpolkitagent.md",
+      "title": "hyprpolkitagent",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprpolkitagent/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:49.282619661-03:00",
+      "description": "hyprpolkitagent is a polkit authentication daemon. It is required for GUI applications to be able to request elevated privileges.\nIf it\u2019s not available in your distro\u2019s repositories, you can either build it from source or use a different agent, e.g. KDE\u2019s one.\nUsage Add exec-once = systemctl --user start hyprpolkitagent to your Hyprland config and restart hyprland. (obviously change that to whatever you are using if you are not using the hypr one)",
+      "summary": "This document explains how to install and configure hyprpolkitagent, an authentication daemon used by GUI applications to request elevated privileges in Hyprland.",
+      "tags": [
+        "hyprland",
+        "polkit",
+        "authentication",
+        "systemd",
+        "configuration",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "Hypr-Ecosystem-hyprpolkitagent.md"
+    },
+    {
+      "file_path": "046-Useful-Utilities-Other.md",
+      "title": "Other",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Other/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:49.560159398-03:00",
+      "description": "Here you will find links to some other projects that may not fit into any of the above categories.\nWorkspace management hyprsome by sopa0: Awesome-like workspaces for Hyprland.\nKeyboard layout management hyprland-per-window-layout by MahouShoujoMivutilde and coffebar: Per window keyboard layouts for Hyprland.\nEditor support for config files HyprLS by gwennlbh: A LSP server to provide auto-completion and more for Hyprland\u2019s configuration files in neovim, VS Code & others",
+      "summary": "This document provides a curated list of third-party tools and community projects that extend Hyprland's functionality, including utilities for workspace management, keyboard layouts, and hardware settings.",
+      "tags": [
+        "hyprland",
+        "wayland-utilities",
+        "workspace-management",
+        "ipc-wrapper",
+        "screen-shaders",
+        "wireless-settings",
+        "mounting-tools"
+      ],
+      "category": "other",
+      "original_file_path": "Useful-Utilities-Other.md"
+    },
+    {
+      "file_path": "027-Configuring-Tearing.md",
+      "title": "Tearing",
+      "url": "https://wiki.hypr.land/Configuring/Tearing/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:51.336880545-03:00",
+      "description": "Screen tearing is used to reduce latency and/or jitter in games.\nEnabling tearing To enable tearing:\nSet general:allow_tearing to true. This is a \u201cmaster toggle\u201d Add an immediate windowrule to your game of choice. This makes sure that Hyprland will tear it. Warning",
+      "summary": "This document provides instructions on how to enable screen tearing in Hyprland for reduced gaming latency and outlines common troubleshooting steps for graphical issues.",
+      "tags": [
+        "hyprland",
+        "screen-tearing",
+        "gaming-optimization",
+        "linux-compositor",
+        "latency-reduction",
+        "window-rules"
+      ],
+      "category": "guide",
+      "original_file_path": "Configuring-Tearing.md"
+    },
+    {
+      "file_path": "005-Connect.md",
+      "title": "Connect",
+      "url": "https://wiki.hypr.land/Connect/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:55.642680123-03:00",
+      "description": "These are the links to official Hyprland-related spaces or profiles:\nProfiles Twitter: twitter.com/hyprwm\nSpaces Discord: discord.gg/hQ9XvMUjjr Matrix: #hyprland:matrix.vaxry.net\nOther hyprland.org git instance: code.hyprland.org Hyprland website: hyprland.org",
+      "summary": "This document provides a collection of official links to Hyprland's social media profiles, community chat spaces, and web resources.",
+      "tags": [
+        "hyprland",
+        "community-links",
+        "social-media",
+        "discord",
+        "matrix",
+        "official-resources"
+      ],
+      "category": "reference",
+      "original_file_path": "Connect.md"
+    },
+    {
+      "file_path": "019-Configuring-Dwindle-Layout.md",
+      "title": "Dwindle Layout",
+      "url": "https://wiki.hypr.land/Configuring/Dwindle-Layout/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:55.817519164-03:00",
+      "description": "Dwindle is a BSPWM-like layout, where every window on a workspace is a member of a binary tree.\nQuirks Dwindle splits are NOT PERMANENT. The split is determined dynamically with the W/H ratio of the parent node. If W > H, it\u2019s side-by-side. If H > W, it\u2019s top-and-bottom. You can make them permanent by enabling preserve_split.\nConfig category name: dwindle\nname description type default pseudotile enable pseudotiling. Pseudotiled windows retain their floating size when tiled. bool false force_split 0 -> split follows mouse, 1 -> always split to the left (new = left or top) 2 -> always split to the right (new = right or bottom) int 0 preserve_split if enabled, the split (side/top) will not change regardless of what happens to the container. bool false smart_split if enabled, allows a more precise control over the window split direction based on the cursor\u2019s position. The window is conceptually divided into four triangles, and cursor\u2019s triangle determines the split direction. This feature also turns on preserve_split. bool false smart_resizing if enabled, resizing direction will be determined by the mouse\u2019s position on the window (nearest to which corner). Else, it is based on the window\u2019s tiling position. bool true permanent_direction_override if enabled, makes the preselect direction persist until either this mode is turned off, another direction is specified, or a non-direction is specified (anything other than l,r,u/t,d/b) bool false special_scale_factor specifies the scale factor of windows on the special workspace [0 - 1] float 1 split_width_multiplier specifies the auto-split width multiplier. Multiplying window size is useful on widescreen monitors where window W > H even after several splits. float 1.0 use_active_for_splits whether to prefer the active window or the mouse position for splits bool true default_split_ratio the default split ratio on window open. 1 means even 50/50 split. [0.1 - 1.9] float 1.0 split_bias specifies which window will receive the split ratio. 0 -> directional (the top or left window), 1 -> the current window int 0 precise_mouse_move bindm movewindow will drop the window more precisely depending on where your mouse is. bool false single_window_aspect_ratio whenever only a single window is shown on a screen, add padding so that it conforms to the specified aspect ratio. A value like 4 3 on a 16:9 screen will make it a 4:3 window in the middle with padding to the sides. Vec2D 0 0 single_window_aspect_ratio_tolerance sets a tolerance for single_window_aspect_ratio, so that if the padding that would have been added is smaller than the specified fraction of the height or width of the screen, it will not attempt to adjust the window size [0 - 1] int 0.1 Bind Dispatchers dispatcher description params pseudo toggles the given window\u2019s pseudo mode left empty / active for current, or window for a specific window Layout messages Dispatcher layoutmsg params:",
+      "summary": "This document provides a detailed reference for the Dwindle window layout, explaining its binary tree structure and configuration options. It covers settings for split behavior, tiling logic, and layout-specific dispatchers for window management.",
+      "tags": [
+        "window-management",
+        "dwindle-layout",
+        "tiling-window-manager",
+        "configuration-reference",
+        "window-tiling",
+        "layout-logic"
+      ],
+      "category": "reference",
+      "original_file_path": "Configuring-Dwindle-Layout.md"
+    },
+    {
+      "file_path": "062-Hypr-Ecosystem-hyprland-qt-support.md",
+      "title": "hyprland-qt-support",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprland-qt-support/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:55.998712001-03:00",
+      "description": "hyprland-qt-support provides a QML style for hypr* qt6 apps.\nConfiguration The config file is located in ~/.config/hypr/application-style.conf.\nVariable Description Type Default roundness How much to round UI elements. int [0 .. 3] 1 border_width How wide the border should be around UI elements. int [0 - 3] 1 reduce_motion Reduce motion of elements (transitions, hover effects, etc). bool false",
+      "summary": "This document explains how to configure the QML style for Hyprland-based Qt6 applications, detailing the available styling variables and configuration file location.",
+      "tags": [
+        "hyprland",
+        "qt6",
+        "qml-style",
+        "configuration",
+        "ui-customization",
+        "hyprland-qt-support"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hyprland-qt-support.md"
+    },
+    {
+      "file_path": "036-Useful-Utilities-Hypr-Ecosystem.md",
+      "title": "Hypr Ecosystem",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Hypr-Ecosystem/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:55.995667997-03:00",
+      "description": "The hypr ecosystem is a collection of apps developed by HyprWM, that are designed for Hyprland and to integrate with it as nicely as possible.\nSee Hypr Ecosystem.",
+      "summary": "This document introduces the Hypr ecosystem, a collection of applications developed by HyprWM specifically designed for seamless integration with the Hyprland tiling window manager.",
+      "tags": [
+        "hyprwm",
+        "hyprland",
+        "hypr-ecosystem",
+        "linux-desktop",
+        "window-manager"
+      ],
+      "category": "concept",
+      "original_file_path": "Useful-Utilities-Hypr-Ecosystem.md"
+    },
+    {
+      "file_path": "045-Useful-Utilities-Systemd-start.md",
+      "title": "Systemd startup",
+      "url": "https://wiki.hypr.land/Useful-Utilities/Systemd-start/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:15:58.456667998-03:00",
+      "description": "UWSM Universal Wayland Session Manager wraps standalone Wayland compositors into a set of Systemd units and provides robust session management including environment, XDG autostart support, bi-directional binding with login session, and clean shutdown. Please note uwsm is for advanced users and has its issues and additional quirks.\nInstallation Arch uwsm is available in Arch official repositories.",
+      "summary": "This document explains how to integrate and use the Universal Wayland Session Manager (UWSM) with Hyprland to manage sessions, environments, and application lifecycles via Systemd.",
+      "tags": [
+        "hyprland",
+        "uwsm",
+        "session-management",
+        "systemd",
+        "wayland",
+        "linux-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "Useful-Utilities-Systemd-start.md"
+    },
+    {
+      "file_path": "088-Contributing-and-Debugging.md",
+      "title": "Contributing and Debugging",
+      "url": "https://wiki.hypr.land/Contributing-and-Debugging/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:01.423321446-03:00",
+      "description": "PR, code styling and code FAQs are here\nFor issues, please see the guidelines\nBuild in debug mode Required packages See manual build for deps.\nRecommended, CMake Install the VSCode C/C++ and CMake Tools extensions and use that.\nI\u2019ve attached a example/launch.json that you can copy to your .vscode/ folder in the repo root.\nWith that, you can build in debug, go to the debugging tab and hit (gdb) Launch.",
+      "summary": "This document provides instructions for developers to build Hyprland in debug mode and set up a nested development environment for testing. It also covers tools for debugging crashes, formatting code, and accessing system logs.",
+      "tags": [
+        "building-hyprland",
+        "debugging",
+        "development-environment",
+        "linux",
+        "wayland",
+        "gdb",
+        "nix",
+        "code-formatting"
+      ],
+      "category": "guide",
+      "original_file_path": "Contributing-and-Debugging.md"
+    },
+    {
+      "file_path": "061-Hypr-Ecosystem-hyprqt6engine.md",
+      "title": "hyprqt6engine",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprqt6engine/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:02.60830139-03:00",
+      "description": "hyprqt6engine provides a theme for QT6 apps. It\u2019s a replacement for qt6ct, compatible with KDE Apps / KColorScheme.\nUsage Install, then set QT_QPA_PLATFORMTHEME=hyprqt6engine.\nYou can set this as env= in Hyprland, or in /etc/environment for setting it system-wide.\nConfiguration The config file is located in ~/.config/hypr/hyprqt6engine.conf.\nTheme category theme:\nVariable Description Type Default color_scheme The full path to a color scheme. Can be a qt6ct theme, or a KColorScheme. Leave empty for defaults. string empty icon_theme Name of an icon theme to use. string empty style Widget style to use, e.g. Fusion or kvantum-dark. string Fusion font_fixed Font family for the fixed width font. string monospace font_fixed_size Font size for the fixed width font. int 11 font Font family for the regular font. string Sans Serif font_size Font size for the regular font. int 11 Misc category misc:",
+      "summary": "This document explains how to install and configure the hyprqt6engine theme engine for QT6 applications, providing a guide for setting environment variables and customizing theme settings.",
+      "tags": [
+        "hyprland",
+        "qt6",
+        "theming",
+        "linux-customization",
+        "hyprqt6engine",
+        "configuration-guide"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hyprqt6engine.md"
+    },
+    {
+      "file_path": "024-Configuring-Permissions.md",
+      "title": "Permissions",
+      "url": "https://wiki.hypr.land/Configuring/Permissions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:04.079979737-03:00",
+      "description": "If you have hyprland-guiutils installed, you can make use of Hyprland\u2019s built-in permission system.\nFor now, it only has a few permissions, but it might include more in the future.\nPermissions Permissions work a bit like Android ones. If an app tries to do something sensitive with the compositor (Hyprland), Hyprland will pop up a notification asking you if you want to let it do that.",
+      "summary": "This document explains how to configure and manage Hyprland's built-in permission system to control application access to sensitive features like screen capture and plugin loading.",
+      "tags": [
+        "hyprland",
+        "security",
+        "permissions",
+        "screen-capture",
+        "wayland",
+        "system-configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Permissions.md"
+    },
+    {
+      "file_path": "057-Hypr-Ecosystem-hyprpwcenter.md",
+      "title": "hyprpwcenter",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprpwcenter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:03.618917468-03:00",
+      "description": "hyprpwcenter is a GUI control center for pipewire. It allows to look and configure nodes, outputs, and adjust the pw graph.",
+      "summary": "This document introduces hyprpwcenter, a graphical interface for managing PipeWire nodes, outputs, and connection graphs.",
+      "tags": [
+        "pipewire",
+        "gui",
+        "audio-control",
+        "linux-audio",
+        "node-configuration",
+        "hyprwm"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-hyprpwcenter.md"
+    },
+    {
+      "file_path": "020-Configuring-Master-Layout.md",
+      "title": "Master Layout",
+      "url": "https://wiki.hypr.land/Configuring/Master-Layout/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:03.444342181-03:00",
+      "description": "The master layout makes one (or more) window(s) be the \u201cmaster\u201d, taking (by default) the left part of the screen, and tiles the rest on the right. You can change the orientation on a per-workspace basis if you want to use anything other than the default left/right split.\nConfig category name master\nname description type default allow_small_split enable adding additional master windows in a horizontal split style bool false special_scale_factor the scale of the special workspace windows. [0.0 - 1.0] float 1 mfact the size as a percentage of the master window, for example mfact = 0.70 would mean 70% of the screen will be the master window, and 30% the slave [0.0 - 1.0] floatvalue 0.55 new_status master: new window becomes master; slave: new windows are added to slave stack; inherit: inherit from focused window string slave new_on_top whether a newly open window should be on the top of the stack bool false new_on_active before, after: place new window relative to the focused window; none: place new window according to the value of new_on_top. string none orientation default placement of the master area, can be left, right, top, bottom or center string left slave_count_for_center_master when using orientation=center, make the master window centered only when at least this many slave windows are open. (Set 0 to always_center_master) int 2 center_master_fallback Set fallback for center master when slaves are less than slave_count_for_center_master, can be left ,right ,top ,bottom string left smart_resizing if enabled, resizing direction will be determined by the mouse\u2019s position on the window (nearest to which corner). Else, it is based on the window\u2019s tiling position. bool true drop_at_cursor when enabled, dragging and dropping windows will put them at the cursor position. Otherwise, when dropped at the stack side, they will go to the top/bottom of the stack depending on new_on_top. bool true always_keep_position whether to keep the master window in its configured position when there are no slave windows bool false Dispatchers layoutmsg commands:",
+      "summary": "This document provides a comprehensive technical reference for configuring and controlling the master window layout, detailing available settings, dispatcher commands, and workspace rules.",
+      "tags": [
+        "window-management",
+        "master-layout",
+        "tiling-wm",
+        "configuration",
+        "layout-commands"
+      ],
+      "category": "reference",
+      "original_file_path": "Configuring-Master-Layout.md"
+    },
+    {
+      "file_path": "055-Hypr-Ecosystem-hyprshutdown.md",
+      "title": "hyprshutdown",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprshutdown/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:07.724219769-03:00",
+      "description": "hyprshutdown is a graceful shutdown utility. It opens a GUI and gracefully asks apps to exit, then quits Hyprland. It\u2019s the recommended way to exit hyprland, as otherwise (e.g. dispatch exit) apps will die instead of exiting.\nTips and tricks If you want to shut the system down, or reboot, instead of logging out, you can do things like this:\nhyprshutdown -t 'Shutting down...' --post-cmd 'shutdown -P 0' hyprshutdown -t 'Restarting...' --post-cmd 'reboot'",
+      "summary": "This document introduces hyprshutdown, a graceful shutdown utility for Hyprland that allows applications to exit properly before quitting the window manager.",
+      "tags": [
+        "hyprland",
+        "hyprshutdown",
+        "window-manager",
+        "shutdown-utility",
+        "linux-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "Hypr-Ecosystem-hyprshutdown.md"
+    },
+    {
+      "file_path": "032-Configuring-Using-hyprctl.md",
+      "title": "Using hyprctl",
+      "url": "https://wiki.hypr.land/Configuring/Using-hyprctl/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:08.144657498-03:00",
+      "description": "hyprctl is a utility for controlling some parts of the compositor from a CLI or a script. It should automatically be installed along with Hyprland.\nWarning\nhyprctl calls will be dispatched by the compositor synchronously, meaning any spam of the utility will cause slowdowns. It\u2019s recommended to use --batch for many control calls, and limiting the amount of info calls.",
+      "summary": "This document explains how to use the hyprctl utility to control the Hyprland compositor via the command line or scripts, covering command dispatching, configuration reloading, and system information retrieval.",
+      "tags": [
+        "hyprland",
+        "hyprctl",
+        "wayland",
+        "cli-tool",
+        "ipc",
+        "compositor-control",
+        "window-management"
+      ],
+      "category": "reference",
+      "original_file_path": "Configuring-Using-hyprctl.md"
+    },
+    {
+      "file_path": "031-Configuring-Expanding-functionality.md",
+      "title": "Expanding functionality",
+      "url": "https://wiki.hypr.land/Configuring/Expanding-functionality/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:10.061346188-03:00",
+      "description": "Hyprland exposes two powerful sockets for you to use.\nThe first, socket1, can be fully controlled with hyprctl, see its usage here.\nThe second, socket2, sends events for certain changes / actions and can be used to react to different events. See its description here.\nExample script This bash script will change the outer gaps to 20 if the currently focused monitor is DP-1, and 30 otherwise.",
+      "summary": "This document explains the functionality of Hyprland's two IPC sockets, detailing how to control the compositor via socket1 and react to system events using socket2.",
+      "tags": [
+        "hyprland",
+        "ipc",
+        "sockets",
+        "event-handling",
+        "hyprctl",
+        "bash"
+      ],
+      "category": "guide",
+      "original_file_path": "Configuring-Expanding-functionality.md"
+    },
+    {
+      "file_path": "025-Configuring-XWayland.md",
+      "title": "XWayland",
+      "url": "https://wiki.hypr.land/Configuring/XWayland/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:10.238433526-03:00",
+      "description": "XWayland is the bridging mechanism between legacy Xorg programs and Wayland compositors.\nHiDPI XWayland XWayland currently looks pixelated on HiDPI screens, due to Xorg\u2019s inability to scale.\nThis problem is mitigated by the xwayland:force_zero_scaling option, which forces XWayland windows not to be scaled.\nThis will get rid of the pixelated look, but will not scale applications properly. To do this, each toolkit has its own mechanism.",
+      "summary": "This document explains how XWayland manages legacy Xorg applications, specifically detailing HiDPI scaling workarounds and Unix domain socket configuration.",
+      "tags": [
+        "xwayland",
+        "hidpi",
+        "scaling",
+        "unix-domain-sockets",
+        "linux",
+        "hyprland-config"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-XWayland.md"
+    },
+    {
+      "file_path": "026-Configuring-Multi-GPU.md",
+      "title": "Multi-GPU",
+      "url": "https://wiki.hypr.land/Configuring/Multi-GPU/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:12.27639772-03:00",
+      "description": "General If your host machine uses multiple GPUs, you may want to use one GPU for rendering all the elements for Hyprland including windows, animations, and another for hardware acceleration for certain applications, etc.\nThis setup is very common in the likes of gaming laptops, GPU-passthrough (without VFIO) capable hosts, and if you have multiple GPUs in general.\nDetecting GPUs For this case, the writer is taking the example of their laptop.",
+      "summary": "Explains how to detect, prioritize, and configure multiple GPUs for Hyprland using environment variables and persistent udev symlinks.",
+      "tags": [
+        "hyprland",
+        "multi-gpu",
+        "hardware-acceleration",
+        "linux-configuration",
+        "udev-rules",
+        "gpu-selection"
+      ],
+      "category": "guide",
+      "original_file_path": "Configuring-Multi-GPU.md"
+    },
+    {
+      "file_path": "029-Configuring-Uncommon-tips-tricks.md",
+      "title": "Uncommon tips & tricks",
+      "url": "https://wiki.hypr.land/Configuring/Uncommon-tips--tricks/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:14.113833587-03:00",
+      "description": "Switchable keyboard layouts The easiest way to accomplish this is to set this using XKB settings, for example:\ninput { kb_layout = us,cz kb_variant = ,qwerty kb_options = grp:alt_shift_toggle } Variants are set per layout.",
+      "summary": "This document provides a collection of advanced configuration techniques and scripts for Hyprland, covering keyboard layouts, window management, and custom keybind behaviors.",
+      "tags": [
+        "hyprland",
+        "keybindings",
+        "window-management",
+        "scripts",
+        "configuration-hacks",
+        "xkb"
+      ],
+      "category": "guide",
+      "original_file_path": "Configuring-Uncommon-tips-tricks.md"
+    },
+    {
+      "file_path": "023-Configuring-Environment-variables.md",
+      "title": "Environment variables",
+      "url": "https://wiki.hypr.land/Configuring/Environment-variables/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:11.327302702-03:00",
+      "description": "Note\nuwsm users should avoid placing environment variables in the hyprland.conf file.\nInstead, use ~/.config/uwsm/env for theming, xcursor, Nvidia and toolkit variables, and ~/.config/uwsm/env-hyprland for HYPR* and AQ_* variables.\nThe format is export KEY=VAL.",
+      "summary": "This document provides a comprehensive reference for environment variables used in Hyprland, including configuration for toolkits, NVIDIA hardware, XDG specifications, and system integration.",
+      "tags": [
+        "hyprland",
+        "environment-variables",
+        "wayland",
+        "nvidia-configuration",
+        "linux-desktop",
+        "uwsm",
+        "toolkit-backends"
+      ],
+      "category": "reference",
+      "original_file_path": "Configuring-Environment-variables.md"
+    },
+    {
+      "file_path": "028-Configuring-Performance.md",
+      "title": "Performance",
+      "url": "https://wiki.hypr.land/Configuring/Performance/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:16.755017695-03:00",
+      "description": "This page documents known tricks and fixes to boost performance if by any chance you stumble upon problems or you do not care that much about animations.\nFractional scaling Wayland fractional scaling is a lot better than before, but it is not perfect. Some applications do not support it yet or the support is experimental at best. If you have problems with your graphics card having high usage or Hyprland feeling laggy, try setting the scaling to integer numbers such as 1 or 2 like in this example monitor=,preferred,auto,2.",
+      "summary": "This document provides troubleshooting tips and optimization techniques to improve system performance, reduce power consumption, and resolve graphical issues in Hyprland.",
+      "tags": [
+        "hyprland",
+        "performance-optimization",
+        "power-management",
+        "troubleshooting",
+        "wayland",
+        "graphics-scaling"
+      ],
+      "category": "guide",
+      "original_file_path": "Configuring-Performance.md"
+    },
+    {
+      "file_path": "030-Configuring-Example-configurations.md",
+      "title": "Example configurations",
+      "url": "https://wiki.hypr.land/Configuring/Example-configurations/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:14.308855397-03:00",
+      "description": "This page houses links to a few repositories with beautiful Hyprland configurations for you to get inspired from or learn how to configure Hyprland from a more tangible example.\nWarning\nThese configurations are popular and have many people using them. PRs that add more configurations will not be merged.",
+      "summary": "A collection of high-quality community configuration repositories for the Hyprland window manager to serve as inspiration and learning resources.",
+      "tags": [
+        "hyprland",
+        "configuration",
+        "dotfiles",
+        "window-manager",
+        "linux-desktop",
+        "community-examples"
+      ],
+      "category": "configuration",
+      "original_file_path": "Configuring-Example-configurations.md"
+    },
+    {
+      "file_path": "060-Hypr-Ecosystem-hyprtoolkit-development.md",
+      "title": "Development",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprtoolkit/development/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:17.68934713-03:00",
+      "description": "Hyprtoolkit is a pure C++ toolkit. It relies on modern C++ in the Hyprland style (with hyprutils, etc).\nIt\u2019s recommended you are familiar with C++ before developing an app.\nGetting Started If you prefer living off of examples, see the tests/ directory in the hyprtoolkit repo.\nStart by creating a backend and opening a window:\n// in this example we are doing this to skip Hyprtoolkit:: using namespace Hyprtoolkit; auto backend = CBackend::create(); auto window = CWindowBuilder::begin()->appTitle(\"Hello\")->appClass(\"hyprtoolkit\")->commence(); this will create (but not yet open) a window handle for you.",
+      "summary": "This document provides an introductory guide to Hyprtoolkit, a modern C++ retained-mode UI toolkit, covering window initialization, the layout system, and element management.",
+      "tags": [
+        "hyprtoolkit",
+        "cpp-toolkit",
+        "ui-development",
+        "hyprland",
+        "layout-system",
+        "retained-mode"
+      ],
+      "category": "guide",
+      "original_file_path": "Hypr-Ecosystem-hyprtoolkit-development.md"
+    },
+    {
+      "file_path": "059-Hypr-Ecosystem-hyprtoolkit.md",
+      "title": "hyprtoolkit",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprtoolkit/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:19.497006222-03:00",
+      "description": "hyprtoolkit is a GUI toolkit for developing applications that run natively on Wayland.\nIt\u2019s specifically made for Hyprland\u2019s needs, but will generally run on any Wayland compositor that supports modern standards.\nFor developer docs, see development\nConfiguration The general toolkit config is at ~/.config/hypr/hyprtoolkit.conf.\nIt contains theming and some minor adjustments and supports the same color options as hyprland.\nVariable Description Type Default background Background color. color 0xFF181818 base Base color. color 0xFF202020 text Text color. color 0xFFDADADA alternate_base Alternative base color. color 0xFF272727 bright_text Bright text color. color 0xFFFFDEDE accent Accent color. color 0xFF00FFCC accent_secondary Secondary accent color. color 0xFF0099F0 h1_size Font size for H1. int 19 h2_size Font size for H2. int 15 h3_size Font size for H3. int 13 font_size Font size for regular text elements. int 11 small_font_size Font size for small text elements. int 10 icon_theme Name of the icon theme to use, empty for \u201cthe first found\u201d. string empty font_family Name of the font family to use. string Sans Serif font_family_monospace Name of the monospace font family to use. string monospace rounding_large Big rounding in logical px int 10 rounding_small Small rounding in logical px int 5",
+      "summary": "This document introduces hyprtoolkit, a native Wayland GUI toolkit, and provides a detailed reference for its configuration variables and theming options.",
+      "tags": [
+        "hyprtoolkit",
+        "wayland",
+        "gui-toolkit",
+        "theming",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "configuration",
+      "original_file_path": "Hypr-Ecosystem-hyprtoolkit.md"
+    },
+    {
+      "file_path": "058-Hypr-Ecosystem-hyprcursor.md",
+      "title": "hyprcursor",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprcursor/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:19.673872665-03:00",
+      "description": "hyprcursor is a new cursor theme format that has many advantages over the widely used xcursor.\nHyprcursor Themes You will need to obtain those yourself. If you are on the Discord server, see #hyprcursor-themes.\nPut your theme(s) in ~/.local/share/icons or ~/.icons\nWarning",
+      "summary": "This document explains how to install, configure, and troubleshoot the hyprcursor theme format for use with Hyprland and other Wayland applications.",
+      "tags": [
+        "hyprland",
+        "hyprcursor",
+        "cursor-themes",
+        "wayland-configuration",
+        "xcursor-fallback",
+        "linux-desktop"
+      ],
+      "category": "guide",
+      "original_file_path": "Hypr-Ecosystem-hyprcursor.md"
+    },
+    {
+      "file_path": "066-Hypr-Ecosystem-hyprutils.md",
+      "title": "hyprutils",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprutils/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:21.646415924-03:00",
+      "description": "hyprutils is a library providing shared implementations of commonly used types across the hypr* ecosystem.",
+      "summary": "This document introduces hyprutils, a library that provides shared implementations of common types for use across the Hypr ecosystem.",
+      "tags": [
+        "hyprutils",
+        "hyprland",
+        "shared-library",
+        "utility-library"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-hyprutils.md"
+    },
+    {
+      "file_path": "065-Hypr-Ecosystem-hyprlang.md",
+      "title": "hyprlang",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprlang/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:21.998009046-03:00",
+      "description": "hyprlang is a library that implements parsing for the hypr configuration language.\nSyntax Line Style Every config line is a command followed by a value.\nCOMMAND = VALUE The command can be a variable, or a special keyword (those are defined by the app you are using).",
+      "summary": "This document outlines the syntax and functional features of the hyprlang configuration language, providing details on variable definitions, categories, and arithmetic operations.",
+      "tags": [
+        "hyprlang",
+        "syntax-guide",
+        "configuration-language",
+        "variables",
+        "arithmetic-operations",
+        "conditional-logic"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-hyprlang.md"
+    },
+    {
+      "file_path": "068-Hypr-Ecosystem-aquamarine.md",
+      "title": "aquamarine",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/aquamarine/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:23.832294135-03:00",
+      "description": "aquamarine is a very light linux rendering backend library.\nIt is not a replacement or competitor to any other wayland compositor library (e.g. wlroots, libweston), instead implementing only the low-level KMS/DRM/etc rendering backends.\nConfiguration Configuration options are passed via environment variables starting with AQ_ to an app that uses aquamarine, e.g. Hyprland.\nVariables Name Description AQ_TRACE Enables trace (very, very verbose) logging. AQ_DRM_DEVICES A colon-separated list of DRM devices (aka. GPUs) to use. The first will be used as primary. Example: /dev/dri/card1:/dev/dri/card0. AQ_NO_MODIFIERS Disables modifiers for DRM buffers. AQ_MGPU_NO_EXPLICIT Disables passing of explicit fences for multi-gpu scanouts AQ_NO_ATOMIC (HEAVILY NOT RECOMMENDED) Disable atomic modesetting. Documentation Documentation will come soon.",
+      "summary": "This document introduces Aquamarine, a lightweight Linux rendering backend library, and details its configuration options via environment variables.",
+      "tags": [
+        "linux-rendering",
+        "kms-drm",
+        "graphics-backend",
+        "environment-variables",
+        "aquamarine"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-aquamarine.md"
+    },
+    {
+      "file_path": "069-Hypr-Ecosystem-hyprwayland-scanner.md",
+      "title": "hyprwayland-scanner",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprwayland-scanner/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:23.58178528-03:00",
+      "description": "hyprwayland-scanner, also called hw-s, is a utility to generate sources and headers for wayland protocol specifications.\nIt is similar to wayland-scanner, but instead of C, it generates neat and safe C++ implementations.",
+      "summary": "hyprwayland-scanner is a utility designed to generate C++ header and source files from Wayland protocol specifications. It serves as a modern, safe C++ alternative to the traditional C-based wayland-scanner tool.",
+      "tags": [
+        "hyprwayland-scanner",
+        "wayland",
+        "cpp",
+        "code-generation",
+        "hyprwm",
+        "wayland-protocols"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-hyprwayland-scanner.md"
+    },
+    {
+      "file_path": "067-Hypr-Ecosystem-hyprgraphics.md",
+      "title": "hyprgraphics",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprgraphics/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:25.389392987-03:00",
+      "description": "hyprgraphics is a library providing shared implementations of some utilities relating to graphics and resources, like loading images or color calculations.",
+      "summary": "This document introduces hyprgraphics, a library providing shared graphics utilities for image loading and color calculations.",
+      "tags": [
+        "graphics-library",
+        "image-loading",
+        "color-calculations",
+        "utilities",
+        "hyprwm"
+      ],
+      "category": "reference",
+      "original_file_path": "Hypr-Ecosystem-hyprgraphics.md"
+    },
+    {
+      "file_path": "063-Hypr-Ecosystem-hyprland-guiutils.md",
+      "title": "hyprland-guiutils",
+      "url": "https://wiki.hypr.land/Hypr-Ecosystem/hyprland-guiutils/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:26.668715962-03:00",
+      "description": "Hyprland GUI utilities (successor to hyprland-qtutils)",
+      "summary": "This document identifies the Hyprland GUI utilities repository, which provides a suite of graphical tools and serves as the official successor to hyprland-qtutils.",
+      "tags": [
+        "hyprland",
+        "gui-utilities",
+        "wayland",
+        "linux-desktop",
+        "system-tools"
+      ],
+      "category": "other",
+      "original_file_path": "Hypr-Ecosystem-hyprland-guiutils.md"
+    },
+    {
+      "file_path": "001-index.md",
+      "title": "Hyprland Wiki",
+      "url": "https://wiki.hypr.land/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:28.119120152-03:00",
+      "description": "The documentation for Hyprland.",
+      "summary": "This document serves as an introductory landing page for the Hyprland Wiki, explaining documentation versioning and basic concepts regarding Wayland compositors.",
+      "tags": [
+        "hyprland",
+        "wayland",
+        "wiki-introduction",
+        "documentation-versioning",
+        "linux-desktop"
+      ],
+      "category": "other",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "089-Contributing-and-Debugging-Issue-Guidelines.md",
+      "title": "Issue Guidelines",
+      "url": "https://wiki.hypr.land/Contributing-and-Debugging/Issue-Guidelines/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:29.568107241-03:00",
+      "description": "Due to the influx of low quality or incomprehensible issues, we prefer to begin possible bug reports or feature requests as discussions, and elevate them to issues if they can be confirmed by a member to be relevant, and once enough information about the problem has been gathered.\nWhy?",
+      "summary": "This document outlines the procedural guidelines for reporting bugs and requesting features, emphasizing a discussion-first workflow to streamline project maintenance.",
+      "tags": [
+        "issue-guidelines",
+        "bug-reporting",
+        "feature-requests",
+        "community-standards",
+        "contribution-workflow",
+        "hyprland"
+      ],
+      "category": "guide",
+      "original_file_path": "Contributing-and-Debugging-Issue-Guidelines.md"
+    },
+    {
+      "file_path": "090-Contributing-and-Debugging-PR-Guidelines.md",
+      "title": "PR Guidelines",
+      "url": "https://wiki.hypr.land/Contributing-and-Debugging/PR-Guidelines/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:29.572143642-03:00",
+      "description": "PR Requirements Clean, not hacky code Described changes and why they were there Following the style (see below) Code Style Please read this if you are submitting a PR, in order to minimize the amount of style nits received, and save the time for the maintainers.\nBefore you submit Make sure you ran clang-format: clang-format -i src/**/*{cpp,hpp}",
+      "summary": "This document outlines the mandatory code style, technical requirements, and submission standards for contributors submitting pull requests to the project.",
+      "tags": [
+        "coding-standards",
+        "style-guide",
+        "contributing-guidelines",
+        "cpp-development",
+        "naming-conventions",
+        "pull-requests"
+      ],
+      "category": "guide",
+      "original_file_path": "Contributing-and-Debugging-PR-Guidelines.md"
+    },
+    {
+      "file_path": "092-Contributing-and-Debugging-Translations.md",
+      "title": "Translations",
+      "url": "https://wiki.hypr.land/Contributing-and-Debugging/Translations/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:32.541131325-03:00",
+      "description": "Some parts of the Hyprland ecosystem are localized. More and more are getting localization frameworks. This is a short page showing how to contribute translations to Hyprland apps.\nFind the translation file Here you\u2019ll find a list of translation files for hyprapps ready to translate:\nhyprland hyprlauncher hyprpwcenter more are coming, this list will be updated\nTranslate Translations are in C++, but they are straightforward, and don\u2019t require much expertise. You submit a translation via a traditional MR on Github.",
+      "summary": "This document provides instructions on how to contribute translations to the Hyprland ecosystem, covering file locations, translation syntax, and language fallback mechanisms.",
+      "tags": [
+        "hyprland",
+        "localization",
+        "translation",
+        "i18n",
+        "contributing",
+        "cpp"
+      ],
+      "category": "guide",
+      "original_file_path": "Contributing-and-Debugging-Translations.md"
+    },
+    {
+      "file_path": "091-Contributing-and-Debugging-Tests.md",
+      "title": "Tests",
+      "url": "https://wiki.hypr.land/Contributing-and-Debugging/Tests/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:32.364215314-03:00",
+      "description": "Hyprland and some other projects under the hypr* umbrella have tests that try to catch bugs and regressions before code is merged.\nBuilding in Debug will by default build tests.\nRunning tests GTests GTests are GoogleTests that are unit tests. These tests simply check how some elements behave when they can run on their own.\nIn all hypr* projects, GTests are ran by ctest. Run:",
+      "summary": "This document provides instructions on how to run, write, and submit unit and functional tests for the Hyprland ecosystem using GTest and hyprtester. It also covers generating coverage reports to identify untested code paths and ensure software stability.",
+      "tags": [
+        "hyprland",
+        "testing",
+        "gtest",
+        "hyprtester",
+        "unit-testing",
+        "integration-testing",
+        "code-coverage"
+      ],
+      "category": "guide",
+      "original_file_path": "Contributing-and-Debugging-Tests.md"
+    },
+    {
+      "file_path": "002-categories.md",
+      "title": "Categories",
+      "url": "https://wiki.hypr.land/categories/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:34.983663083-03:00",
+      "description": "The documentation for Hyprland.",
+      "summary": "This document defines the classification system and organizational taxonomies used to group items or data within the platform.",
+      "tags": [
+        "categories",
+        "classification",
+        "taxonomy",
+        "organization",
+        "data-structure"
+      ],
+      "category": "concept",
+      "original_file_path": "categories.md"
+    },
+    {
+      "file_path": "003-tags.md",
+      "title": "Tags",
+      "url": "https://wiki.hypr.land/tags/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:16:35.159297398-03:00",
+      "description": "The documentation for Hyprland.",
+      "summary": "This document serves as a brief heading or placeholder for information regarding tags and metadata labeling.",
+      "tags": [
+        "tags",
+        "metadata",
+        "labeling",
+        "organization"
+      ],
+      "category": "concept",
+      "original_file_path": "tags.md"
+    }
+  ]
+}

@@ -1,0 +1,2903 @@
+{
+  "generated_at": "2026-01-22T22:26:31.945986339-03:00",
+  "source_url": "https://ai.pydantic.dev/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 151,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "Pydantic AI",
+      "url": "https://ai.pydantic.dev/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.258251273-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Pydantic AI is a Python framework for building production-grade Generative AI agents and workflows using Pydantic for validation and type safety. It provides a model-agnostic environment with built-in observability, durable execution, and support for complex agentic patterns.",
+      "tags": [
+        "pydantic-ai",
+        "agent-framework",
+        "python",
+        "generative-ai",
+        "llm-orchestration",
+        "type-safety",
+        "observability"
+      ],
+      "category": "guide",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "065-a2a.md",
+      "title": "Agent2Agent (A2A) - Pydantic AI",
+      "url": "https://ai.pydantic.dev/a2a/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.683573526-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document introduces the Agent2Agent (A2A) Protocol and the FastA2A library, explaining how to implement interoperable AI agent communication in Python and expose Pydantic AI agents as A2A-compliant servers.",
+      "tags": [
+        "a2a-protocol",
+        "fasta2a",
+        "pydantic-ai",
+        "ai-agents",
+        "interoperability",
+        "python",
+        "asgi"
+      ],
+      "category": "guide",
+      "original_file_path": "a2a.md"
+    },
+    {
+      "file_path": "008-builtin-tools.md",
+      "title": "Built-in Tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/builtin-tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.833564995-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to use native built-in tools provided by LLM providers within Pydantic AI, including details on tool types, provider support, and dynamic configuration.",
+      "tags": [
+        "pydantic-ai",
+        "built-in-tools",
+        "agent-capabilities",
+        "dynamic-configuration",
+        "llm-providers",
+        "web-search"
+      ],
+      "category": "guide",
+      "original_file_path": "builtin-tools.md"
+    },
+    {
+      "file_path": "003-agents.md",
+      "title": "Agents - Pydantic AI",
+      "url": "https://ai.pydantic.dev/agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.921838634-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document introduces the Agent class as the primary interface for Pydantic AI, detailing its core components such as instructions, tools, and dependency types. It explains the conceptual framework of agents and outlines the various synchronous and asynchronous methods for executing them.",
+      "tags": [
+        "pydantic-ai",
+        "agent-interface",
+        "llm-integration",
+        "type-safety",
+        "structured-output",
+        "async-runtime"
+      ],
+      "category": "concept",
+      "original_file_path": "agents.md"
+    },
+    {
+      "file_path": "147-changelog.md",
+      "title": "Upgrade Guide - Pydantic AI",
+      "url": "https://ai.pydantic.dev/changelog/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.670865318-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document outlines the breaking changes and migration requirements for Pydantic AI across various versions to help developers upgrade their applications to V1 and beyond.",
+      "tags": [
+        "pydantic-ai",
+        "breaking-changes",
+        "migration-guide",
+        "changelog",
+        "api-stability",
+        "version-history"
+      ],
+      "category": "reference",
+      "original_file_path": "changelog.md"
+    },
+    {
+      "file_path": "009-common-tools.md",
+      "title": "Common Tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/common-tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:18.148422069-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to install and integrate native web search tools, such as DuckDuckGo and Tavily, into Pydantic AI agents to enable real-time information retrieval.",
+      "tags": [
+        "pydantic-ai",
+        "web-search",
+        "duckduckgo",
+        "tavily",
+        "agent-tools",
+        "search-api"
+      ],
+      "category": "guide",
+      "original_file_path": "common-tools.md"
+    },
+    {
+      "file_path": "069-cli.md",
+      "title": "Clai - Pydantic AI",
+      "url": "https://ai.pydantic.dev/cli/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:17.687799755-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to install and use the Pydantic AI CLI (clai) to interact with AI agents via terminal or a web-based chat interface. It covers configuration, command-line options, and programmatic integration with custom agents.",
+      "tags": [
+        "pydantic-ai",
+        "cli",
+        "ai-agents",
+        "clai",
+        "web-ui",
+        "interactive-chat"
+      ],
+      "category": "guide",
+      "original_file_path": "cli.md"
+    },
+    {
+      "file_path": "149-contributing.md",
+      "title": "Contributing - Pydantic AI",
+      "url": "https://ai.pydantic.dev/contributing/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:19.25420845-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions and guidelines for contributing to the Pydantic AI project, including environment setup, testing procedures, and specific criteria for submitting new models.",
+      "tags": [
+        "contributing-guide",
+        "pydantic-ai",
+        "developer-setup",
+        "testing",
+        "model-integration",
+        "open-source"
+      ],
+      "category": "guide",
+      "original_file_path": "contributing.md"
+    },
+    {
+      "file_path": "004-dependencies.md",
+      "title": "Dependencies - Pydantic AI",
+      "url": "https://ai.pydantic.dev/dependencies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:21.208355336-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to use Pydantic AI's dependency injection system to pass type-safe data and services to agents, tools, and prompts. It covers defining dependencies with dataclasses and accessing them through the RunContext object during execution.",
+      "tags": [
+        "dependency-injection",
+        "pydantic-ai",
+        "type-safety",
+        "run-context",
+        "python-agent"
+      ],
+      "category": "guide",
+      "original_file_path": "dependencies.md"
+    },
+    {
+      "file_path": "010-deferred-tools.md",
+      "title": "Deferred Tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/deferred-tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:21.272622632-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to implement deferred tools in Pydantic AI for scenarios requiring human approval or external execution before completing a tool call. It details the workflow of using DeferredToolRequests and DeferredToolResults to persist agent state across multiple runs.",
+      "tags": [
+        "pydantic-ai",
+        "deferred-tools",
+        "human-in-the-loop",
+        "tool-execution",
+        "agent-run-lifecycle",
+        "asynchronous-execution"
+      ],
+      "category": "guide",
+      "original_file_path": "deferred-tools.md"
+    },
+    {
+      "file_path": "017-embeddings.md",
+      "title": "Embeddings - Pydantic AI",
+      "url": "https://ai.pydantic.dev/embeddings/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:23.776555908-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to use the Pydantic AI embedding interface to generate vector representations of text, manage different providers, and handle embedding results for tasks like semantic search and RAG.",
+      "tags": [
+        "pydantic-ai",
+        "embeddings",
+        "vector-embeddings",
+        "semantic-search",
+        "rag",
+        "openai",
+        "google-gemini"
+      ],
+      "category": "guide",
+      "original_file_path": "embeddings.md"
+    },
+    {
+      "file_path": "016-direct.md",
+      "title": "Direct Model Requests - Pydantic AI",
+      "url": "https://ai.pydantic.dev/direct/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:23.428404725-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The direct module provides low-level, imperative functions for making synchronous and asynchronous requests to LLMs with minimal abstraction. It is designed for scenarios requiring granular control over model interactions and custom implementations outside of the higher-level Agent API.",
+      "tags": [
+        "pydantic-ai",
+        "llm-api",
+        "direct-module",
+        "streaming-requests",
+        "tool-calling",
+        "opentelemetry",
+        "async-programming"
+      ],
+      "category": "api",
+      "original_file_path": "direct.md"
+    },
+    {
+      "file_path": "042-evals.md",
+      "title": "Pydantic Evals - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:26.472148955-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Pydantic Evals is a code-first framework for systematically evaluating AI systems through datasets, experiments, and various scoring evaluators. It enables developers to test LLM outputs and agent behaviors using a structured Python-based data model.",
+      "tags": [
+        "pydantic-evals",
+        "llm-evaluation",
+        "ai-testing",
+        "experiment-tracking",
+        "evaluator-framework",
+        "python-evals"
+      ],
+      "category": "guide",
+      "original_file_path": "evals.md"
+    },
+    {
+      "file_path": "064-gateway.md",
+      "title": "Pydantic AI Gateway - Pydantic AI",
+      "url": "https://ai.pydantic.dev/gateway/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:28.00145802-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document introduces the Pydantic AI Gateway, a unified interface for managing multiple LLM providers with features like centralized API key management, cost tracking, and observability. It provides instructions for account setup, provider configuration, and integration with various AI SDKs.",
+      "tags": [
+        "pydantic-ai",
+        "ai-gateway",
+        "llm-infrastructure",
+        "api-management",
+        "cost-monitoring",
+        "multi-provider"
+      ],
+      "category": "guide",
+      "original_file_path": "gateway.md"
+    },
+    {
+      "file_path": "036-graph.md",
+      "title": "Overview - Pydantic AI",
+      "url": "https://ai.pydantic.dev/graph/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:28.774628238-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document introduces pydantic-graph, a type-safe library for building asynchronous graphs and finite state machines to model and control complex workflows in Python.",
+      "tags": [
+        "pydantic-graph",
+        "state-machine",
+        "python",
+        "type-hints",
+        "asynchronous-programming",
+        "workflow-automation"
+      ],
+      "category": "concept",
+      "original_file_path": "graph.md"
+    },
+    {
+      "file_path": "013-input.md",
+      "title": "Image, Audio, Video & Document Input - Pydantic AI",
+      "url": "https://ai.pydantic.dev/input/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:29.0300498-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to provide multimodal inputs such as images, audio, video, and documents to LLMs using Pydantic AI. It details how to handle both URL-based and local binary content across different model providers.",
+      "tags": [
+        "pydantic-ai",
+        "multimodal-input",
+        "binary-content",
+        "image-processing",
+        "llm-integration",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "input.md"
+    },
+    {
+      "file_path": "150-help.md",
+      "title": "Getting Help - Pydantic AI",
+      "url": "https://ai.pydantic.dev/help/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:28.863620872-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document outlines the available support channels and community resources for users seeking help with Pydantic AI, specifically highlighting Slack and GitHub Issues.",
+      "tags": [
+        "community-support",
+        "help-resources",
+        "slack-channel",
+        "github-issues",
+        "pydantic-ai"
+      ],
+      "category": "other",
+      "original_file_path": "help.md"
+    },
+    {
+      "file_path": "002-install.md",
+      "title": "Installation - Pydantic AI",
+      "url": "https://ai.pydantic.dev/install/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:33.509665559-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides comprehensive instructions for installing the Pydantic AI library, detailing full, slim, and model-specific installation methods using pip and uv.",
+      "tags": [
+        "installation",
+        "pydantic-ai",
+        "python-package",
+        "pip",
+        "uv",
+        "dependencies",
+        "slim-install"
+      ],
+      "category": "guide",
+      "original_file_path": "install.md"
+    },
+    {
+      "file_path": "066-multi-agent-applications.md",
+      "title": "Multi-Agent Patterns - Pydantic AI",
+      "url": "https://ai.pydantic.dev/multi-agent-applications/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:35.077950618-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Explains how to coordinate multiple agents in Pydantic AI applications, with a detailed focus on agent delegation through tool calls and managing shared dependencies.",
+      "tags": [
+        "multi-agent",
+        "agent-delegation",
+        "pydantic-ai",
+        "usage-tracking",
+        "dependencies"
+      ],
+      "category": "guide",
+      "original_file_path": "multi-agent-applications.md"
+    },
+    {
+      "file_path": "067-logfire.md",
+      "title": "Debugging & Monitoring with Pydantic Logfire - Pydantic AI",
+      "url": "https://ai.pydantic.dev/logfire/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:33.514051045-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate and use Pydantic Logfire with Pydantic AI to provide observability, tracing, and performance monitoring for LLM applications.",
+      "tags": [
+        "pydantic-ai",
+        "logfire",
+        "observability",
+        "opentelemetry",
+        "tracing",
+        "python",
+        "monitoring"
+      ],
+      "category": "guide",
+      "original_file_path": "logfire.md"
+    },
+    {
+      "file_path": "005-message-history.md",
+      "title": "Messages and chat history - Pydantic AI",
+      "url": "https://ai.pydantic.dev/message-history/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:34.924488263-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to access and retrieve message history from Pydantic AI agent runs using RunResult and StreamedRunResult objects. It describes methods for extracting complete conversation logs or run-specific messages in both object and JSON formats.",
+      "tags": [
+        "pydantic-ai",
+        "message-history",
+        "agent-run",
+        "run-result",
+        "streamed-run-result",
+        "conversation-tracking"
+      ],
+      "category": "guide",
+      "original_file_path": "message-history.md"
+    },
+    {
+      "file_path": "068-testing.md",
+      "title": "Testing - Pydantic AI",
+      "url": "https://ai.pydantic.dev/testing/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:39.4972012-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains strategies and tools for unit testing Pydantic AI applications, focusing on the use of TestModel and FunctionModel to mock LLM responses. It demonstrates how to override agent configurations and block accidental real-world model requests to ensure efficient and reliable testing.",
+      "tags": [
+        "unit-testing",
+        "pydantic-ai",
+        "pytest",
+        "test-model",
+        "mocking",
+        "agent-override"
+      ],
+      "category": "guide",
+      "original_file_path": "testing.md"
+    },
+    {
+      "file_path": "014-output.md",
+      "title": "Output - Pydantic AI",
+      "url": "https://ai.pydantic.dev/output/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:35.900257233-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to define and handle agent outputs, including structured data validation using Pydantic models and type-safe result wrappers.",
+      "tags": [
+        "pydantic-ai",
+        "structured-output",
+        "agent-run-result",
+        "type-checking",
+        "data-validation",
+        "llm-responses"
+      ],
+      "category": "guide",
+      "original_file_path": "output.md"
+    },
+    {
+      "file_path": "018-retries.md",
+      "title": "HTTP Request Retries - Pydantic AI",
+      "url": "https://ai.pydantic.dev/retries/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:39.767435105-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to implement and configure retry functionality in Pydantic AI using custom HTTP transports and the tenacity library. It details strategies for handling transient network failures, rate limits, and server errors through asynchronous and synchronous transport classes.",
+      "tags": [
+        "pydantic-ai",
+        "tenacity",
+        "retry-logic",
+        "error-handling",
+        "httpx",
+        "rate-limiting"
+      ],
+      "category": "guide",
+      "original_file_path": "retries.md"
+    },
+    {
+      "file_path": "012-third-party-tools.md",
+      "title": "Third-Party Tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/third-party-tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:42.097219429-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate third-party tool ecosystems like LangChain and ACI.dev into Pydantic AI agents using dedicated adapters and toolsets.",
+      "tags": [
+        "pydantic-ai",
+        "langchain-integration",
+        "aci-dev",
+        "toolsets",
+        "mcp-client",
+        "external-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "third-party-tools.md"
+    },
+    {
+      "file_path": "015-thinking.md",
+      "title": "Thinking - Pydantic AI",
+      "url": "https://ai.pydantic.dev/thinking/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:40.140050714-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to enable and configure reasoning or 'thinking' capabilities for various LLM providers within the Pydantic AI framework.",
+      "tags": [
+        "pydantic-ai",
+        "llm-reasoning",
+        "model-configuration",
+        "openai",
+        "anthropic",
+        "google-gemini",
+        "aws-bedrock"
+      ],
+      "category": "guide",
+      "original_file_path": "thinking.md"
+    },
+    {
+      "file_path": "006-tools.md",
+      "title": "Function Tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:45.615603247-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to use function tools in Pydantic AI to enable models to perform actions and retrieve information through decorators and toolsets. It details various registration methods and distinguishes function tools from related concepts like RAG and structured outputs.",
+      "tags": [
+        "pydantic-ai",
+        "function-tools",
+        "tool-registration",
+        "agent-context",
+        "toolsets",
+        "llm-actions"
+      ],
+      "category": "guide",
+      "original_file_path": "tools.md"
+    },
+    {
+      "file_path": "011-tools-advanced.md",
+      "title": "Advanced Tool Features - Pydantic AI",
+      "url": "https://ai.pydantic.dev/tools-advanced/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:45.146348321-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains advanced tool functionalities in Pydantic AI, focusing on multi-modal return types, the ToolReturn class for complex context management, and dynamic tool schema generation.",
+      "tags": [
+        "pydantic-ai",
+        "tool-calling",
+        "multi-modal",
+        "metadata",
+        "python",
+        "agent-framework",
+        "function-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "tools-advanced.md"
+    },
+    {
+      "file_path": "007-toolsets.md",
+      "title": "Toolsets - Pydantic AI",
+      "url": "https://ai.pydantic.dev/toolsets/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:46.652667541-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to use toolsets in Pydantic AI to organize, reuse, and dynamically manage collections of tools for AI agents.",
+      "tags": [
+        "pydantic-ai",
+        "toolsets",
+        "agent-configuration",
+        "function-toolset",
+        "dynamic-tools",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "toolsets.md"
+    },
+    {
+      "file_path": "148-version-policy.md",
+      "title": "Version policy - Pydantic AI",
+      "url": "https://ai.pydantic.dev/version-policy/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:47.609170091-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document outlines the versioning policy for Pydantic AI, detailing rules for breaking changes, beta feature stability, and the lifecycle for supporting Python versions.",
+      "tags": [
+        "version-policy",
+        "backward-compatibility",
+        "breaking-changes",
+        "beta-features",
+        "python-support",
+        "release-lifecycle"
+      ],
+      "category": "reference",
+      "original_file_path": "version-policy.md"
+    },
+    {
+      "file_path": "151-troubleshooting.md",
+      "title": "Troubleshooting - Pydantic AI",
+      "url": "https://ai.pydantic.dev/troubleshooting/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:47.583881013-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Provides solutions for common errors in Pydantic AI, covering issues with Jupyter event loops, API key configuration, and HTTPX request monitoring.",
+      "tags": [
+        "pydantic-ai",
+        "troubleshooting",
+        "error-handling",
+        "jupyter-notebook",
+        "api-configuration",
+        "httpx"
+      ],
+      "category": "guide",
+      "original_file_path": "troubleshooting.md"
+    },
+    {
+      "file_path": "085-api-agent.md",
+      "title": "pydantic_ai.agent - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/agent/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:53.170564096-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This reference defines the Agent dataclass, which serves as the primary interface for configuring and managing structured conversations with Large Language Models.",
+      "tags": [
+        "pydantic-ai",
+        "llm-agent",
+        "python-api",
+        "structured-output",
+        "agent-dependencies"
+      ],
+      "category": "api",
+      "original_file_path": "api-agent.md"
+    },
+    {
+      "file_path": "107-api-ag-ui.md",
+      "title": "pydantic_ai.ag_ui - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/ag_ui/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:51.740773709-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the AGUIApp class, an ASGI application based on Starlette that serves Pydantic AI agents using the AG-UI protocol.",
+      "tags": [
+        "pydantic-ai",
+        "asgi-application",
+        "starlette",
+        "ag-ui",
+        "ai-agents",
+        "streaming-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-ag-ui.md"
+    },
+    {
+      "file_path": "070-web.md",
+      "title": "Web Chat UI - Pydantic AI",
+      "url": "https://ai.pydantic.dev/web/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:51.277733399-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to set up and configure the Pydantic AI built-in web chat interface to interact with agents via a browser using the Agent.to_web method. It covers installation, model configuration, tool integration, and reserved API routes.",
+      "tags": [
+        "pydantic-ai",
+        "web-ui",
+        "agent-to-web",
+        "asgi",
+        "starlette",
+        "uvicorn"
+      ],
+      "category": "guide",
+      "original_file_path": "web.md"
+    },
+    {
+      "file_path": "102-api-builtin-tools.md",
+      "title": "pydantic_ai.builtin_tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/builtin_tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:54.541229068-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the base classes and specific implementations for built-in tools in PydanticAI, such as web search capabilities and aspect ratio configurations.",
+      "tags": [
+        "pydantic-ai",
+        "builtin-tools",
+        "web-search",
+        "agent-framework",
+        "python-api"
+      ],
+      "category": "reference",
+      "original_file_path": "api-builtin-tools.md"
+    },
+    {
+      "file_path": "103-api-common-tools.md",
+      "title": "pydantic_ai.common_tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/common_tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:55.579831131-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides an API reference for the DuckDuckGo and Exa search tools integrated into Pydantic AI for web search and data retrieval.",
+      "tags": [
+        "pydantic-ai",
+        "duckduckgo-search",
+        "exa-search",
+        "api-reference",
+        "web-scraping",
+        "python-library"
+      ],
+      "category": "api",
+      "original_file_path": "api-common-tools.md"
+    },
+    {
+      "file_path": "096-api-direct.md",
+      "title": "pydantic_ai.direct - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/direct/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:58.031863551-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the methods for making direct, imperative requests to language models with minimal abstraction using PydanticAI. It details both asynchronous and synchronous functions for interacting with LLMs while maintaining a consistent API across different model providers.",
+      "tags": [
+        "pydantic-ai",
+        "llm-requests",
+        "api-reference",
+        "asynchronous-programming",
+        "synchronous-programming",
+        "python-api",
+        "model-integration"
+      ],
+      "category": "api",
+      "original_file_path": "api-direct.md"
+    },
+    {
+      "file_path": "097-api-embeddings.md",
+      "title": "pydantic_ai.embeddings - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/embeddings/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:58.467889238-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the abstract base class for embedding models, providing the standard interface and utility methods required to implement custom embedding providers.",
+      "tags": [
+        "embedding-model",
+        "abstract-base-class",
+        "pydantic-ai",
+        "text-embeddings",
+        "python-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-embeddings.md"
+    },
+    {
+      "file_path": "104-api-ext.md",
+      "title": "pydantic_ai.ext - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/ext/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:02.21007201-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Provides an API reference for functions and classes that integrate external tools from LangChain and ACI.dev into the Pydantic AI framework.",
+      "tags": [
+        "pydantic-ai",
+        "langchain",
+        "aci-dev",
+        "tool-integration",
+        "python-api",
+        "ext-langchain",
+        "ext-aci"
+      ],
+      "category": "api",
+      "original_file_path": "api-ext.md"
+    },
+    {
+      "file_path": "094-api-exceptions.md",
+      "title": "pydantic_ai.exceptions - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/exceptions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:00.860452845-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the custom exception classes used in the Pydantic AI framework to manage tool retries, deferred calls, human-in-the-loop approvals, and runtime errors.",
+      "tags": [
+        "pydantic-ai",
+        "error-handling",
+        "exceptions",
+        "tool-calling",
+        "python-api",
+        "agent-framework"
+      ],
+      "category": "reference",
+      "original_file_path": "api-exceptions.md"
+    },
+    {
+      "file_path": "105-api-durable-exec.md",
+      "title": "pydantic_ai.durable_exec - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/durable_exec/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:58.861049642-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The TemporalAgent class wraps a standard agent to enable durable execution within Temporal workflows by offloading model requests and tool calls to Temporal activities.",
+      "tags": [
+        "temporal",
+        "durable-execution",
+        "pydantic-ai",
+        "agent-wrapper",
+        "workflow-orchestration",
+        "temporal-activities"
+      ],
+      "category": "api",
+      "original_file_path": "api-durable-exec.md"
+    },
+    {
+      "file_path": "106-api-fasta2a.md",
+      "title": "fasta2a - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/fasta2a/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:04.275005426-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines the core FastA2A application class and the Broker abstract base class for building AI agent-to-agent interfaces using Starlette.",
+      "tags": [
+        "fasta2a",
+        "python",
+        "starlette",
+        "agent-to-agent",
+        "task-management",
+        "api-reference"
+      ],
+      "category": "api",
+      "original_file_path": "api-fasta2a.md"
+    },
+    {
+      "file_path": "090-api-output.md",
+      "title": "pydantic_ai.output - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/output/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:07.152208801-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines classes and type variables for controlling and customizing the structured output format of agent runs using tool-based or native model capabilities.",
+      "tags": [
+        "pydantic-ai",
+        "structured-outputs",
+        "llm-agents",
+        "python-api",
+        "data-validation"
+      ],
+      "category": "api",
+      "original_file_path": "api-output.md"
+    },
+    {
+      "file_path": "101-api-format-prompt.md",
+      "title": "pydantic_ai.format_prompt - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/format_prompt/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:04.713167752-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Documentation for the format_as_xml function which serializes Python objects, including Pydantic models and dataclasses, into XML to improve readability for Large Language Models.",
+      "tags": [
+        "python",
+        "xml-serialization",
+        "pydantic",
+        "llm-formatting",
+        "data-conversion"
+      ],
+      "category": "api",
+      "original_file_path": "api-format-prompt.md"
+    },
+    {
+      "file_path": "091-api-messages.md",
+      "title": "pydantic_ai.messages - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/messages/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:07.611682162-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the ModelResponse data structure used to represent and manage LLM outputs, including text content, tool calls, media parts, and cost calculations.",
+      "tags": [
+        "llm-responses",
+        "pydantic-ai",
+        "api-reference",
+        "data-models",
+        "observability",
+        "cost-calculation"
+      ],
+      "category": "reference",
+      "original_file_path": "api-messages.md"
+    },
+    {
+      "file_path": "100-api-profiles.md",
+      "title": "pydantic_ai.profiles - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/profiles/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:09.992252023-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the OpenAIModelProfile dataclass used to configure settings and compatibility flags for OpenAI and OpenAI-compatible chat models.",
+      "tags": [
+        "pydantic-ai",
+        "openai-model-profile",
+        "llm-configuration",
+        "api-compatibility",
+        "model-settings"
+      ],
+      "category": "api",
+      "original_file_path": "api-profiles.md"
+    },
+    {
+      "file_path": "098-api-mcp.md",
+      "title": "pydantic_ai.mcp - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/mcp/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:07.966215189-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the base class for integrating agents with Model Context Protocol (MCP) servers, facilitating tool registration, connection lifecycle management, and resource discovery.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "agent-integration",
+        "python-sdk",
+        "tool-management",
+        "server-communication"
+      ],
+      "category": "api",
+      "original_file_path": "api-mcp.md"
+    },
+    {
+      "file_path": "099-api-providers.md",
+      "title": "pydantic_ai.providers - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/providers/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:11.08491635-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the BedrockProvider class for interacting with AWS Bedrock, covering client initialization, authentication methods, and model profile mapping.",
+      "tags": [
+        "aws-bedrock",
+        "python",
+        "api-client",
+        "boto3",
+        "llm-integration",
+        "authentication"
+      ],
+      "category": "api",
+      "original_file_path": "api-providers.md"
+    },
+    {
+      "file_path": "087-api-result.md",
+      "title": "pydantic_ai.result - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/result/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:11.842554728-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines the StreamedRunResult class for handling and iterating over streamed responses from AI agents, providing tools to access message history and validate structured output in real-time.",
+      "tags": [
+        "pydantic-ai",
+        "streaming-api",
+        "async-python",
+        "structured-output",
+        "ai-agent",
+        "message-history"
+      ],
+      "category": "api",
+      "original_file_path": "api-result.md"
+    },
+    {
+      "file_path": "095-api-retries.md",
+      "title": "pydantic_ai.retries - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/retries/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:14.309296288-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines utilities for implementing retry logic in HTTP requests using the tenacity library, including configuration schemas and custom transport wrappers for Pydantic AI.",
+      "tags": [
+        "pydantic-ai",
+        "tenacity",
+        "retry-logic",
+        "http-transport",
+        "error-handling",
+        "python-library"
+      ],
+      "category": "api",
+      "original_file_path": "api-retries.md"
+    },
+    {
+      "file_path": "086-api-run.md",
+      "title": "pydantic_ai.run - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/run/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:16.054780092-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The AgentRun class provides a stateful and async-iterable interface for managing and inspecting the execution of an AI agent, allowing users to iterate through graph nodes and access run results.",
+      "tags": [
+        "pydantic-ai",
+        "agent-run",
+        "async-iterator",
+        "state-management",
+        "message-history",
+        "graph-execution"
+      ],
+      "category": "api",
+      "original_file_path": "api-run.md"
+    },
+    {
+      "file_path": "092-api-settings.md",
+      "title": "pydantic_ai.settings - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/settings/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:16.661890143-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the ModelSettings TypedDict, which provides common configuration parameters such as temperature, token limits, and penalties for various LLM providers.",
+      "tags": [
+        "pydantic-ai",
+        "llm-configuration",
+        "model-settings",
+        "api-reference",
+        "python"
+      ],
+      "category": "api",
+      "original_file_path": "api-settings.md"
+    },
+    {
+      "file_path": "088-api-tools.md",
+      "title": "pydantic_ai.tools - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:17.266474858-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the Tool class in Pydantic AI, which encapsulates Python functions for use by AI agents with support for custom schemas, execution constraints, and human-in-the-loop approval.",
+      "tags": [
+        "pydantic-ai",
+        "tool-definition",
+        "function-calling",
+        "agent-framework",
+        "api-reference",
+        "json-schema"
+      ],
+      "category": "api",
+      "original_file_path": "api-tools.md"
+    },
+    {
+      "file_path": "089-api-toolsets.md",
+      "title": "pydantic_ai.toolsets - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/toolsets/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:19.039554155-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the FunctionToolset class, which allows Python functions to be registered and managed as tools for AI agents with support for retries, timeouts, and automated schema generation.",
+      "tags": [
+        "pydantic-ai",
+        "function-tools",
+        "agent-framework",
+        "python-api",
+        "tool-management",
+        "json-schema"
+      ],
+      "category": "api",
+      "original_file_path": "api-toolsets.md"
+    },
+    {
+      "file_path": "093-api-usage.md",
+      "title": "pydantic_ai.usage - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/usage/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:19.99159039-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines the UsageLimits class for managing and enforcing constraints on API requests, token consumption, and tool calls in LLM interactions.",
+      "tags": [
+        "pydantic-ai",
+        "usage-limits",
+        "token-counting",
+        "llm-monitoring",
+        "python-api",
+        "rate-limiting"
+      ],
+      "category": "api",
+      "original_file_path": "api-usage.md"
+    },
+    {
+      "file_path": "110-api-models-anthropic.md",
+      "title": "pydantic_ai.models.anthropic - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/anthropic/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:21.702362405-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the AnthropicModel class, which provides an interface to the Anthropic API for interacting with Claude models using an asynchronous Python client.",
+      "tags": [
+        "anthropic-api",
+        "claude-models",
+        "python-client",
+        "llm-integration",
+        "async-programming"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-anthropic.md"
+    },
+    {
+      "file_path": "108-api-models-base.md",
+      "title": "pydantic_ai.models - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/base/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:22.984689233-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines a Python type alias containing a comprehensive list of supported large language model identifiers from various providers used for type validation.",
+      "tags": [
+        "llm-models",
+        "python-typing",
+        "model-registry",
+        "type-alias",
+        "api-integration",
+        "model-identifiers"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-base.md"
+    },
+    {
+      "file_path": "112-api-models-bedrock.md",
+      "title": "pydantic_ai.models.bedrock - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/bedrock/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:23.383090074-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Implementation of the BedrockConverseModel class which provides a structured interface for interacting with AWS Bedrock models via the Converse API.",
+      "tags": [
+        "aws-bedrock",
+        "bedrock-converse-api",
+        "python-sdk",
+        "llm-integration",
+        "token-counting",
+        "tool-calling"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-bedrock.md"
+    },
+    {
+      "file_path": "118-api-models-cerebras.md",
+      "title": "pydantic_ai.models.cerebras - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/cerebras/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:24.997127587-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the technical reference for Cerebras model integration, detailing the model classes, settings, and type definitions used for OpenAI-compatible inference.",
+      "tags": [
+        "pydantic-ai",
+        "cerebras",
+        "llm-integration",
+        "openai-compatible",
+        "inference-api",
+        "model-settings"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-cerebras.md"
+    },
+    {
+      "file_path": "121-api-models-fallback.md",
+      "title": "pydantic_ai.models.fallback - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/fallback/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:26.126605548-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The FallbackModel class implements a failover mechanism that attempts to use alternative models sequentially when a primary model request encounters specific errors.",
+      "tags": [
+        "fallback-models",
+        "error-handling",
+        "llm-integration",
+        "failover-logic",
+        "async-request"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-fallback.md"
+    },
+    {
+      "file_path": "122-api-models-function.md",
+      "title": "pydantic_ai.models.function - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/function/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:28.355157856-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The FunctionModel class implements a model provider controlled by local Python functions, supporting both standard and streamed requests.",
+      "tags": [
+        "python",
+        "function-model",
+        "asynchronous-programming",
+        "streaming-responses",
+        "model-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-function.md"
+    },
+    {
+      "file_path": "115-api-models-cohere.md",
+      "title": "pydantic_ai.models.cohere - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/cohere/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:25.267322298-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Implementation of the CohereModel class for integrating the Cohere API into a model framework, handling message mapping, chat requests, and response processing.",
+      "tags": [
+        "cohere-api",
+        "python-sdk",
+        "model-integration",
+        "async-client",
+        "llm-interface"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-cohere.md"
+    },
+    {
+      "file_path": "111-api-models-google.md",
+      "title": "pydantic_ai.models.google - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/google/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:29.208868723-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the GoogleModel class, which provides a Python interface for interacting with Google's Gemini generative AI models via the Generative Language and Vertex AI APIs.",
+      "tags": [
+        "google-gemini",
+        "vertex-ai",
+        "python-sdk",
+        "llm-integration",
+        "api-client",
+        "token-counting"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-google.md"
+    },
+    {
+      "file_path": "114-api-models-groq.md",
+      "title": "pydantic_ai.models.groq - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/groq/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:30.683960081-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the GroqModel class, which provides an interface for interacting with the Groq API to perform text generation, streaming, and tool calls.",
+      "tags": [
+        "groq",
+        "python-sdk",
+        "llm-integration",
+        "api-client",
+        "streaming-responses",
+        "tool-calling"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-groq.md"
+    },
+    {
+      "file_path": "116-api-models-huggingface.md",
+      "title": "pydantic_ai.models.huggingface - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/huggingface/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:33.423032479-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the HuggingFaceModel class, which provides an interface for interacting with Hugging Face Inference Providers using an asynchronous client.",
+      "tags": [
+        "hugging-face",
+        "inference-api",
+        "async-programming",
+        "llm-integration",
+        "python-client"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-huggingface.md"
+    },
+    {
+      "file_path": "125-api-models-instrumented.md",
+      "title": "pydantic_ai.models.instrumented - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/instrumented/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:34.014456012-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the InstrumentationSettings class, which provides configuration options for monitoring Pydantic AI agents and models using OpenTelemetry.",
+      "tags": [
+        "pydantic-ai",
+        "opentelemetry",
+        "instrumentation",
+        "monitoring",
+        "observability",
+        "tracing",
+        "python"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-instrumented.md"
+    },
+    {
+      "file_path": "126-api-models-mcp-sampling.md",
+      "title": "pydantic_ai.models.mcp_sampling - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/mcp-sampling/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:34.520248987-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the MCPSamplingModel and MCPSamplingModelSettings classes, which enable MCP servers to request model interactions by calling back to the connected MCP client. It details the session management, preference configurations, and fallback parameters required for Model Context Protocol sampling.",
+      "tags": [
+        "mcp-sampling",
+        "model-context-protocol",
+        "pydantic-ai",
+        "python-sdk",
+        "model-integration"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-mcp-sampling.md"
+    },
+    {
+      "file_path": "109-api-models-openai.md",
+      "title": "pydantic_ai.models.openai - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/openai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:36.807767355-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines a Python class for interacting with the OpenAI Responses API, providing support for both standard and streamed requests along with built-in tool integration.",
+      "tags": [
+        "openai-api",
+        "python-sdk",
+        "llm-integration",
+        "async-io",
+        "openai-responses"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-openai.md"
+    },
+    {
+      "file_path": "113-api-models-mistral.md",
+      "title": "pydantic_ai.models.mistral - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/mistral/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:35.484262336-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the MistralModel class, which provides an interface for interacting with Mistral AI models using the Mistral Python client. It supports both synchronous and streaming requests, including message mapping, tool definitions, and response processing.",
+      "tags": [
+        "mistral-ai",
+        "python-sdk",
+        "llm-integration",
+        "api-client",
+        "streaming-responses",
+        "pydantic-ai"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-mistral.md"
+    },
+    {
+      "file_path": "117-api-models-openrouter.md",
+      "title": "pydantic_ai.models.openrouter - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/openrouter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:39.425270997-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the Python type hints and configuration schemas used for interacting with OpenRouter, covering provider lists, routing preferences, and reasoning token settings.",
+      "tags": [
+        "openrouter",
+        "pydantic-ai",
+        "api-reference",
+        "python-types",
+        "llm-providers",
+        "configuration-schema"
+      ],
+      "category": "reference",
+      "original_file_path": "api-models-openrouter.md"
+    },
+    {
+      "file_path": "120-api-models-outlines.md",
+      "title": "pydantic_ai.models.outlines - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/outlines/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:40.557555818-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the OutlinesModel class, which integrates the Outlines library to provide structured text generation capabilities across various backends. It includes factory methods for initializing models from Hugging Face, Llama.cpp, MLX, and SGLang.",
+      "tags": [
+        "outlines-library",
+        "hugging-face",
+        "llama-cpp",
+        "mlx",
+        "sglang",
+        "structured-generation",
+        "model-integration"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-outlines.md"
+    },
+    {
+      "file_path": "123-api-models-test.md",
+      "title": "pydantic_ai.models.test - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/test/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:42.82839677-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the TestModel class, a mock model implementation used for testing AI agents by simulating tool calls and deterministic responses.",
+      "tags": [
+        "python",
+        "testing",
+        "mock-model",
+        "ai-agents",
+        "pydantic-ai",
+        "unit-testing"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-test.md"
+    },
+    {
+      "file_path": "139-api-pydantic-evals-dataset.md",
+      "title": "pydantic_evals.dataset - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_evals/dataset/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:43.731334517-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the Dataset class, which facilitates organizing collections of test cases and evaluating them against task functions using custom evaluators. It includes methods for concurrent execution, retry management, and generating detailed evaluation reports.",
+      "tags": [
+        "pydantic-evals",
+        "test-automation",
+        "dataset-management",
+        "concurrency-control",
+        "python-api",
+        "evaluation-metrics"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-evals-dataset.md"
+    },
+    {
+      "file_path": "124-api-models-wrapper.md",
+      "title": "pydantic_ai.models.wrapper - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/wrapper/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:43.387390946-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the WrapperModel base class, which provides a structural foundation for wrapping and delegating operations to an underlying model instance.",
+      "tags": [
+        "python",
+        "model-wrapper",
+        "delegation-pattern",
+        "api-design",
+        "asynchronous-methods"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-wrapper.md"
+    },
+    {
+      "file_path": "119-api-models-xai.md",
+      "title": "pydantic_ai.models.xai - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/models/xai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:43.768033193-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the XaiModel class, which implements the integration between Pydantic AI and the xAI SDK for interacting with Grok models. It details how system prompts, user messages, and tool calls are mapped to the xAI API format.",
+      "tags": [
+        "xai",
+        "pydantic-ai",
+        "python",
+        "grok",
+        "api-integration",
+        "tool-calling"
+      ],
+      "category": "api",
+      "original_file_path": "api-models-xai.md"
+    },
+    {
+      "file_path": "140-api-pydantic-evals-evaluators.md",
+      "title": "pydantic_evals.evaluators - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_evals/evaluators/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:45.915299865-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines the abstract base Evaluator class for implementing custom task performance assessments with support for both synchronous and asynchronous execution.",
+      "tags": [
+        "pydantic-evals",
+        "evaluator-base-class",
+        "asynchronous-execution",
+        "serialization",
+        "python-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-evals-evaluators.md"
+    },
+    {
+      "file_path": "141-api-pydantic-evals-generation.md",
+      "title": "pydantic_evals.generation - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_evals/generation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:49.210846763-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This module provides utilities and an asynchronous function to generate structured evaluation datasets by using LLMs to produce realistic test cases that match specific Pydantic schemas.",
+      "tags": [
+        "pydantic-evals",
+        "dataset-generation",
+        "synthetic-data",
+        "test-data",
+        "llm-automation",
+        "python-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-evals-generation.md"
+    },
+    {
+      "file_path": "143-api-pydantic-evals-otel.md",
+      "title": "pydantic_evals.otel - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_evals/otel/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:49.626907381-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines the SpanNode class for representing and querying hierarchical trace spans in a tree structure. It provides utilities for tree traversal, relationship management, and attribute-based searching.",
+      "tags": [
+        "distributed-tracing",
+        "python-api",
+        "span-tree",
+        "opentelemetry",
+        "data-structures"
+      ],
+      "category": "reference",
+      "original_file_path": "api-pydantic-evals-otel.md"
+    },
+    {
+      "file_path": "142-api-pydantic-evals-reporting.md",
+      "title": "pydantic_evals.reporting - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_evals/reporting/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:51.316506557-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Defines the EvaluationReport class for aggregating, summarizing, and rendering results from model evaluation experiments, including support for performance metrics and console output.",
+      "tags": [
+        "python",
+        "model-evaluation",
+        "reporting",
+        "rich-console",
+        "experiment-tracking",
+        "dataclass"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-evals-reporting.md"
+    },
+    {
+      "file_path": "132-api-pydantic-graph-beta.md",
+      "title": "pydantic_graph.beta - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:51.754908552-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the GraphBuilder class, providing a fluent interface for constructing executable graph workflows with typed state, dependencies, and input/output validation.",
+      "tags": [
+        "graph-builder",
+        "workflow-engine",
+        "python-api",
+        "typed-state",
+        "node-routing",
+        "async-workflows"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta.md"
+    },
+    {
+      "file_path": "137-api-pydantic-graph-beta-decision.md",
+      "title": "pydantic_graph.beta.decision - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta_decision/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:52.365909909-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The DecisionBranchBuilder class provides a fluent API for defining decision branches in a graph, allowing for type-safe routing, data transformation, and parallel execution path configuration.",
+      "tags": [
+        "pydantic-graph",
+        "graph-builder",
+        "fluent-api",
+        "python-api",
+        "decision-logic",
+        "type-safety"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta-decision.md"
+    },
+    {
+      "file_path": "134-api-pydantic-graph-beta-graph-builder.md",
+      "title": "pydantic_graph.beta.graph_builder - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta_graph_builder/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:56.61623204-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "The document defines the GraphBuilder class, a fluent interface for constructing executable graph-based workflows with typed state, dependencies, and input/output validation.",
+      "tags": [
+        "graph-builder",
+        "workflow-orchestration",
+        "python-api",
+        "type-safety",
+        "dependency-injection",
+        "asynchronous-programming"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta-graph-builder.md"
+    },
+    {
+      "file_path": "133-api-pydantic-graph-beta-graph.md",
+      "title": "pydantic_graph.beta.graph - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta_graph/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:54.886757863-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the core Graph class used to represent and execute structured workflows with typed inputs, outputs, state, and dependencies.",
+      "tags": [
+        "graph-execution",
+        "workflow-engine",
+        "python-api",
+        "mermaid-diagrams",
+        "state-management",
+        "type-safety"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta-graph.md"
+    },
+    {
+      "file_path": "138-api-pydantic-graph-beta-join.md",
+      "title": "pydantic_graph.beta.join - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta_join/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:56.866974572-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the Join class, which is used to synchronize and aggregate parallel execution paths within a graph using reducer functions.",
+      "tags": [
+        "pydantic-graph",
+        "parallel-execution",
+        "reducer-functions",
+        "data-aggregation",
+        "graph-nodes"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta-join.md"
+    },
+    {
+      "file_path": "136-api-pydantic-graph-beta-node.md",
+      "title": "pydantic_graph.beta.node - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta_node/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:24:58.866871231-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the fundamental node types for constructing and executing graphs, including entry points, terminal nodes, and fork nodes for parallel execution.",
+      "tags": [
+        "pydantic-graph",
+        "node-types",
+        "graph-execution",
+        "parallel-execution",
+        "data-flow",
+        "python-typing"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta-node.md"
+    },
+    {
+      "file_path": "135-api-pydantic-graph-beta-step.md",
+      "title": "pydantic_graph.beta.step - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/beta_step/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:00.099190805-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the core abstractions and protocols for step-based graph execution in pydantic-graph, including step contexts, function interfaces, and streaming components.",
+      "tags": [
+        "pydantic-graph",
+        "graph-execution",
+        "step-functions",
+        "python-api",
+        "async-programming",
+        "state-management"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-beta-step.md"
+    },
+    {
+      "file_path": "131-api-pydantic-graph-exceptions.md",
+      "title": "pydantic_graph.exceptions - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/exceptions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:02.103404395-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the custom exception classes for the pydantic-graph library, covering errors related to graph setup, building, validation, and runtime execution.",
+      "tags": [
+        "pydantic-graph",
+        "python",
+        "exceptions",
+        "error-handling",
+        "api-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "api-pydantic-graph-exceptions.md"
+    },
+    {
+      "file_path": "127-api-pydantic-graph-graph.md",
+      "title": "pydantic_graph - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/graph/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:02.730893709-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the Graph class in the pydantic-graph library, which manages a collection of nodes and their execution flow for stateful workflows. It covers graph initialization, state and dependency management, and methods for running graphs both asynchronously and synchronously.",
+      "tags": [
+        "pydantic-graph",
+        "python",
+        "workflow-orchestration",
+        "state-management",
+        "graph-execution",
+        "async-programming"
+      ],
+      "category": "reference",
+      "original_file_path": "api-pydantic-graph-graph.md"
+    },
+    {
+      "file_path": "129-api-pydantic-graph-mermaid.md",
+      "title": "pydantic_graph.mermaid - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/mermaid/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:03.397650267-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides technical documentation for generating Mermaid state diagrams and images from graph structures, including detailed function signatures and configuration options.",
+      "tags": [
+        "pydantic-graph",
+        "mermaid-js",
+        "state-diagram",
+        "visualization",
+        "graph-rendering",
+        "python-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-mermaid.md"
+    },
+    {
+      "file_path": "128-api-pydantic-graph-nodes.md",
+      "title": "pydantic_graph.nodes - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/nodes/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:04.972585218-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the core API components for pydantic-graph, specifically the BaseNode abstract class and the GraphRunContext used to manage state and dependencies during graph execution.",
+      "tags": [
+        "pydantic-graph",
+        "python",
+        "graph-execution",
+        "api-reference",
+        "state-management",
+        "async-programming"
+      ],
+      "category": "api",
+      "original_file_path": "api-pydantic-graph-nodes.md"
+    },
+    {
+      "file_path": "130-api-pydantic-graph-persistence.md",
+      "title": "pydantic_graph.persistence - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/pydantic_graph/persistence/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:04.800305915-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the FileStatePersistence class for storing and managing graph run states and node snapshots in JSON files. It provides mechanisms for state serialization, execution recording, and file-based locking to ensure data integrity during concurrent access.",
+      "tags": [
+        "pydantic-graph",
+        "state-persistence",
+        "file-storage",
+        "json-serialization",
+        "snapshot-management",
+        "concurrency-control"
+      ],
+      "category": "reference",
+      "original_file_path": "api-pydantic-graph-persistence.md"
+    },
+    {
+      "file_path": "145-api-ui-ag-ui.md",
+      "title": "pydantic_ai.ui.ag_ui - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/ui/ag_ui/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:08.558735674-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the AGUIApp class, an ASGI application based on Starlette for serving Pydantic AI agents via the AG-UI protocol.",
+      "tags": [
+        "pydantic-ai",
+        "asgi",
+        "starlette",
+        "ag-ui",
+        "agent-deployment",
+        "python-library"
+      ],
+      "category": "api",
+      "original_file_path": "api-ui-ag-ui.md"
+    },
+    {
+      "file_path": "146-api-ui-vercel-ai.md",
+      "title": "pydantic_ai.ui.vercel_ai - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/ui/vercel_ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:11.152021255-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the VercelAIAdapter class, which facilitates integration between the Vercel AI protocol and Pydantic AI by transforming message formats and handling event streams.",
+      "tags": [
+        "vercel-ai",
+        "pydantic-ai",
+        "ui-adapter",
+        "message-transformation",
+        "protocol-bridge",
+        "python-sdk"
+      ],
+      "category": "reference",
+      "original_file_path": "api-ui-vercel-ai.md"
+    },
+    {
+      "file_path": "144-api-ui-base.md",
+      "title": "pydantic_ai.ui - Pydantic AI",
+      "url": "https://ai.pydantic.dev/api/ui/base/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:10.446770929-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document defines the `UIAdapter` abstract base class, which facilitates the integration of Pydantic AI agents with frontend protocols by transforming inputs, messages, and event streams.",
+      "tags": [
+        "pydantic-ai",
+        "ui-adapter",
+        "event-streaming",
+        "message-transformation",
+        "api-integration",
+        "async-iterator"
+      ],
+      "category": "api",
+      "original_file_path": "api-ui-base.md"
+    },
+    {
+      "file_path": "057-durable-execution-overview.md",
+      "title": "Overview - Pydantic AI",
+      "url": "https://ai.pydantic.dev/durable_execution/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:12.68373077-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how Pydantic AI supports durable execution to create fault-tolerant, long-running agents that persist progress across failures and restarts.",
+      "tags": [
+        "durable-execution",
+        "pydantic-ai",
+        "fault-tolerance",
+        "temporal",
+        "dbos",
+        "prefect"
+      ],
+      "category": "concept",
+      "original_file_path": "durable-execution-overview.md"
+    },
+    {
+      "file_path": "059-durable-execution-dbos.md",
+      "title": "DBOS - Pydantic AI",
+      "url": "https://ai.pydantic.dev/durable_execution/dbos/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:11.755661095-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This guide explains how to integrate Pydantic AI agents with DBOS to provide durable execution and state checkpointing for long-running workflows. It covers wrapping agents with DBOSAgent to ensure automatic recovery from failures using database-backed persistence.",
+      "tags": [
+        "dbos",
+        "pydantic-ai",
+        "durable-execution",
+        "python",
+        "workflow-management",
+        "agent-persistence"
+      ],
+      "category": "guide",
+      "original_file_path": "durable-execution-dbos.md"
+    },
+    {
+      "file_path": "060-durable-execution-prefect.md",
+      "title": "Prefect - Pydantic AI",
+      "url": "https://ai.pydantic.dev/durable_execution/prefect/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:13.673734073-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate Prefect with Pydantic AI to enable durable execution, providing transactional semantics, automatic retries, and task caching for agentic workflows.",
+      "tags": [
+        "prefect",
+        "durable-execution",
+        "workflow-orchestration",
+        "pydantic-ai",
+        "idempotency",
+        "task-management",
+        "error-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "durable-execution-prefect.md"
+    },
+    {
+      "file_path": "044-evals-core-concepts.md",
+      "title": "Core Concepts - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/core-concepts/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:17.624229035-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains the core components and architectural workflow of Pydantic Evals, including how to define datasets, test cases, and run evaluation experiments.",
+      "tags": [
+        "pydantic-evals",
+        "llm-evaluation",
+        "testing-framework",
+        "ai-benchmarking",
+        "data-validation"
+      ],
+      "category": "concept",
+      "original_file_path": "evals-core-concepts.md"
+    },
+    {
+      "file_path": "058-durable-execution-temporal.md",
+      "title": "Temporal - Pydantic AI",
+      "url": "https://ai.pydantic.dev/durable_execution/temporal/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:17.483057994-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate Pydantic AI agents with Temporal to achieve durable execution, allowing long-running agentic workflows to recover from failures and resume state. It describes the architecture of workflows and activities and how to wrap agents for fault-tolerant execution.",
+      "tags": [
+        "temporal",
+        "durable-execution",
+        "pydantic-ai",
+        "workflow-orchestration",
+        "fault-tolerance",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "durable-execution-temporal.md"
+    },
+    {
+      "file_path": "046-evals-evaluators-built-in.md",
+      "title": "Built-in Evaluators - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/evaluators/built-in/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:18.828351648-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document details the built-in evaluators provided by Pydantic Evals for verifying model outputs through comparisons, type checks, performance metrics, and LLM-based judgments.",
+      "tags": [
+        "pydantic-evals",
+        "evaluators",
+        "llm-judge",
+        "model-evaluation",
+        "performance-testing",
+        "type-validation"
+      ],
+      "category": "reference",
+      "original_file_path": "evals-evaluators-built-in.md"
+    },
+    {
+      "file_path": "047-evals-evaluators-custom.md",
+      "title": "Custom Evaluators - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/evaluators/custom/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:21.011195571-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This guide explains how to implement custom evaluators in the pydantic-evals framework by subclassing the base Evaluator class and utilizing the execution context. It covers defining parameters, handling various return types like boolean flags and numeric scores, and implementing complex evaluation logic.",
+      "tags": [
+        "pydantic-evals",
+        "custom-evaluators",
+        "llm-evaluation",
+        "python-testing",
+        "evaluation-metrics",
+        "dataclasses"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-evaluators-custom.md"
+    },
+    {
+      "file_path": "043-evals-quick-start.md",
+      "title": "Quick Start - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/quick-start/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:18.219846638-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Pydantic Evals is a framework for systematically testing and evaluating AI systems using structured datasets, evaluators, and automated reporting. It supports deterministic checks, LLM-based judging, and performance monitoring to track changes and ensure system reliability.",
+      "tags": [
+        "pydantic-evals",
+        "ai-evaluation",
+        "llm-testing",
+        "benchmarking",
+        "llm-judge",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-quick-start.md"
+    },
+    {
+      "file_path": "048-evals-evaluators-llm-judge.md",
+      "title": "LLM Judge - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/evaluators/llm-judge/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:23.231105193-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides a detailed overview of the LLMJudge evaluator in pydantic-evals, explaining how to use LLMs to assess subjective output qualities through rubrics, scoring, and context integration.",
+      "tags": [
+        "pydantic-evals",
+        "llm-judge",
+        "ai-evaluation",
+        "rubrics",
+        "rag-groundedness",
+        "model-evaluation"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-evaluators-llm-judge.md"
+    },
+    {
+      "file_path": "045-evals-evaluators-overview.md",
+      "title": "Overview - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/evaluators/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:24.683730899-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains the core components of Pydantic Evals known as evaluators, which are used to analyze and score task outputs through deterministic checks, LLM-based judgment, or custom logic. It details the different result types, such as assertions and scores, and provides guidance on combining multiple evaluation strategies.",
+      "tags": [
+        "pydantic-evals",
+        "llm-evaluation",
+        "llm-as-a-judge",
+        "deterministic-evaluators",
+        "custom-evaluators",
+        "performance-monitoring"
+      ],
+      "category": "concept",
+      "original_file_path": "evals-evaluators-overview.md"
+    },
+    {
+      "file_path": "049-evals-evaluators-span-based.md",
+      "title": "Span-Based - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/evaluators/span-based/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:25.721965741-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to evaluate AI system behavior by analyzing internal execution paths using OpenTelemetry spans captured via Logfire. It provides guidance on using evaluators to verify tool usage, performance metrics, and complex agent logic.",
+      "tags": [
+        "span-based-evaluation",
+        "pydantic-evals",
+        "logfire",
+        "opentelemetry",
+        "ai-observability",
+        "evaluation-metrics"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-evaluators-span-based.md"
+    },
+    {
+      "file_path": "050-evals-examples-simple-validation.md",
+      "title": "Simple Validation - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/examples/simple-validation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:27.990828422-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides a practical example of using the pydantic-evals library to perform deterministic validation and performance benchmarking on a Python function.",
+      "tags": [
+        "pydantic-evals",
+        "validation",
+        "unit-testing",
+        "benchmarking",
+        "python",
+        "data-science"
+      ],
+      "category": "tutorial",
+      "original_file_path": "evals-examples-simple-validation.md"
+    },
+    {
+      "file_path": "051-evals-how-to-concurrency.md",
+      "title": "Concurrency & Performance - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/how-to/concurrency/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:28.166189361-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to control parallel execution of evaluation cases using the max_concurrency parameter to manage rate limits, resource constraints, and debugging.",
+      "tags": [
+        "pydantic-evals",
+        "concurrency-control",
+        "rate-limiting",
+        "parallel-execution",
+        "performance-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-how-to-concurrency.md"
+    },
+    {
+      "file_path": "052-evals-how-to-dataset-management.md",
+      "title": "Dataset Management - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/how-to/dataset-management/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:29.359798388-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to manage evaluation datasets using pydantic-evals, covering manual creation, serialization to YAML and JSON, loading from various formats, and automated generation via LLMs.",
+      "tags": [
+        "pydantic-evals",
+        "dataset-management",
+        "evaluations",
+        "serialization",
+        "data-generation",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-how-to-dataset-management.md"
+    },
+    {
+      "file_path": "053-evals-how-to-dataset-serialization.md",
+      "title": "Dataset Serialization - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/how-to/dataset-serialization/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:31.362863417-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to serialize and deserialize datasets using YAML and JSON formats, including automatic JSON schema generation for IDE support and handling custom evaluators.",
+      "tags": [
+        "pydantic-evals",
+        "serialization",
+        "yaml",
+        "json",
+        "json-schema",
+        "ide-integration",
+        "data-persistence"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-how-to-dataset-serialization.md"
+    },
+    {
+      "file_path": "055-evals-how-to-metrics-attributes.md",
+      "title": "Metrics & Attributes - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/how-to/metrics-attributes/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:33.125559992-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Explains how to record and use custom numeric metrics and qualitative attributes during task execution to enhance evaluation insights and reporting.",
+      "tags": [
+        "pydantic-evals",
+        "metrics",
+        "attributes",
+        "evaluation",
+        "data-tracking",
+        "evaluator-context"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-how-to-metrics-attributes.md"
+    },
+    {
+      "file_path": "056-evals-how-to-retry-strategies.md",
+      "title": "Retry Strategies - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/how-to/retry-strategies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:33.745406755-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to implement automatic retry logic for tasks and evaluators using the Tenacity library to handle transient failures like rate limits and network timeouts.",
+      "tags": [
+        "pydantic-evals",
+        "tenacity",
+        "error-handling",
+        "retries",
+        "rate-limiting",
+        "exponential-backoff"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-how-to-retry-strategies.md"
+    },
+    {
+      "file_path": "054-evals-how-to-logfire-integration.md",
+      "title": "Logfire Integration - Pydantic AI",
+      "url": "https://ai.pydantic.dev/evals/how-to/logfire-integration/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:32.082456462-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This guide explains how to integrate Pydantic Evals with Pydantic Logfire to visualize, analyze, and debug evaluation results using OpenTelemetry traces. It covers installation, configuration, and best practices for monitoring evaluation performance.",
+      "tags": [
+        "pydantic-evals",
+        "pydantic-logfire",
+        "opentelemetry",
+        "observability",
+        "tracing",
+        "debugging"
+      ],
+      "category": "guide",
+      "original_file_path": "evals-how-to-logfire-integration.md"
+    },
+    {
+      "file_path": "083-examples-ag-ui.md",
+      "title": "Agent User Interaction (AG-UI) - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/ag-ui/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:35.160510581-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides a setup guide and code examples for integrating Pydantic AI agents with the AG-UI Dojo frontend to demonstrate agentic chat and generative UI features.",
+      "tags": [
+        "pydantic-ai",
+        "ag-ui",
+        "ai-agents",
+        "generative-ui",
+        "python",
+        "agentic-chat",
+        "frontend-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-ag-ui.md"
+    },
+    {
+      "file_path": "073-examples-bank-support.md",
+      "title": "Bank support - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/bank-support/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:36.302260589-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "A comprehensive example demonstrating how to build a bank support agent using Pydantic AI, covering dynamic system prompts, structured outputs, and tool integration.",
+      "tags": [
+        "pydantic-ai",
+        "python",
+        "structured-output",
+        "tool-calling",
+        "system-prompts",
+        "dependency-injection"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-bank-support.md"
+    },
+    {
+      "file_path": "075-examples-chat-app.md",
+      "title": "Chat App with FastAPI - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/chat-app/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:38.220231308-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to build a real-time chat application using FastAPI and Pydantic AI, featuring streaming responses and persistent conversation history stored in SQLite.",
+      "tags": [
+        "fastapi",
+        "pydantic-ai",
+        "streaming",
+        "sqlite",
+        "llm-agent",
+        "asynchronous-programming"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-chat-app.md"
+    },
+    {
+      "file_path": "079-examples-flight-booking.md",
+      "title": "Flight booking - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/flight-booking/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:38.909160374-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates a multi-agent orchestration flow where specialized agents delegate tasks to each other, perform structured data extraction, and use procedural validation.",
+      "tags": [
+        "pydantic-ai",
+        "multi-agent",
+        "agent-delegation",
+        "structured-outputs",
+        "output-validation",
+        "usage-limits"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-flight-booking.md"
+    },
+    {
+      "file_path": "074-examples-pydantic-model.md",
+      "title": "Pydantic Model - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/pydantic-model/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:41.499765031-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to use Pydantic AI to extract structured data from text input and map it directly to a Pydantic model using the Agent's output_type parameter.",
+      "tags": [
+        "pydantic-ai",
+        "structured-output",
+        "pydantic-model",
+        "python-sdk",
+        "llm-agent",
+        "data-extraction"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-pydantic-model.md"
+    },
+    {
+      "file_path": "078-examples-data-analyst.md",
+      "title": "Data Analyst - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/data-analyst/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:38.364213679-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to use agent dependencies in Pydantic AI to share state and tool outputs across a workflow. It specifically illustrates a data analysis use case where large DataFrames are handled via references rather than passing raw row data to the LLM.",
+      "tags": [
+        "pydantic-ai",
+        "agent-dependencies",
+        "data-analysis",
+        "tool-calling",
+        "state-management",
+        "python"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-data-analyst.md"
+    },
+    {
+      "file_path": "080-examples-question-graph.md",
+      "title": "Question Graph - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/question-graph/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:41.530803934-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to build an interactive AI-driven question and evaluation system using pydantic-graph and pydantic-ai. It showcases multi-node state management, agent orchestration, and file-based state persistence in a graph-based workflow.",
+      "tags": [
+        "pydantic-graph",
+        "pydantic-ai",
+        "agent-orchestration",
+        "state-management",
+        "persistence",
+        "workflow-automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-question-graph.md"
+    },
+    {
+      "file_path": "071-examples-setup.md",
+      "title": "Setup - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/setup/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:46.208293633-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions for installing dependencies, configuring environment variables, and running the provided example code for the Pydantic AI library.",
+      "tags": [
+        "pydantic-ai",
+        "example-usage",
+        "environment-setup",
+        "installation-guide",
+        "llm-configuration",
+        "python-development"
+      ],
+      "category": "guide",
+      "original_file_path": "examples-setup.md"
+    },
+    {
+      "file_path": "076-examples-rag.md",
+      "title": "RAG - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/rag/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:43.594003252-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides a comprehensive example of implementing Retrieval-Augmented Generation (RAG) using PydanticAI and pgvector to build a document-aware chat agent.",
+      "tags": [
+        "pydantic-ai",
+        "rag",
+        "pgvector",
+        "vector-search",
+        "openai-embeddings",
+        "postgresql",
+        "llm-agent"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-rag.md"
+    },
+    {
+      "file_path": "081-examples-stream-markdown.md",
+      "title": "Stream markdown - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/stream-markdown/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:49.715095433-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to stream markdown text responses from a Pydantic AI agent and render them in real-time within a terminal using the rich library.",
+      "tags": [
+        "pydantic-ai",
+        "streaming",
+        "markdown",
+        "rich-library",
+        "asynchronous-programming",
+        "terminal-ui"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-stream-markdown.md"
+    },
+    {
+      "file_path": "077-examples-sql-gen.md",
+      "title": "SQL Generation - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/sql-gen/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:48.073339309-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to build a Pydantic AI agent that generates and validates PostgreSQL SQL queries based on natural language input using dynamic prompts and structured output.",
+      "tags": [
+        "pydantic-ai",
+        "sql-generation",
+        "postgresql",
+        "output-validation",
+        "structured-output",
+        "agent-dependencies"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-sql-gen.md"
+    },
+    {
+      "file_path": "084-examples-slack-lead-qualifier.md",
+      "title": "Slack Lead Qualifier with Modal - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/slack-lead-qualifier/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:47.633334356-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides a step-by-step tutorial on building and deploying an AI-powered Slack lead qualifier agent using Pydantic AI, Modal, and Logfire. It explains how to automate user research, send real-time analysis to Slack channels, and manage infrastructure through serverless Python functions.",
+      "tags": [
+        "pydantic-ai",
+        "modal-deployment",
+        "slack-integration",
+        "ai-agents",
+        "lead-qualification",
+        "serverless-functions",
+        "observability"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-slack-lead-qualifier.md"
+    },
+    {
+      "file_path": "082-examples-stream-whales.md",
+      "title": "Stream whales - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/stream-whales/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:51.202713702-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document demonstrates how to implement and validate streaming structured outputs from an LLM using Pydantic AI and Python's asynchronous capabilities.",
+      "tags": [
+        "pydantic-ai",
+        "streaming-output",
+        "structured-data",
+        "real-time-validation",
+        "python-asyncio",
+        "llm-agents"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-stream-whales.md"
+    },
+    {
+      "file_path": "072-examples-weather-agent.md",
+      "title": "Weather agent - Pydantic AI",
+      "url": "https://ai.pydantic.dev/examples/weather-agent/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:52.030477294-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides a practical implementation guide for creating AI agents capable of sequential tool usage and dependency management using the Pydantic AI framework. It explains how to integrate external APIs, handle asynchronous requests, and monitor agent performance.",
+      "tags": [
+        "pydantic-ai",
+        "tool-calling",
+        "agent-dependencies",
+        "async-python",
+        "llm-agents",
+        "api-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "examples-weather-agent.md"
+    },
+    {
+      "file_path": "037-graph-beta.md",
+      "title": "Getting Started - Pydantic AI",
+      "url": "https://ai.pydantic.dev/graph/beta/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:54.302679825-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document introduces the beta graph API in pydantic-graph, explaining how to use the builder pattern to construct complex workflows featuring parallel execution, conditional branching, and data aggregation.",
+      "tags": [
+        "pydantic-graph",
+        "graph-api",
+        "parallel-execution",
+        "asynchronous-programming",
+        "workflow-automation",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "graph-beta.md"
+    },
+    {
+      "file_path": "041-graph-beta-joins.md",
+      "title": "Joins & Reducers - Pydantic AI",
+      "url": "https://ai.pydantic.dev/graph/beta/joins/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:55.124783796-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how join nodes in Pydantic Graph synchronize and aggregate results from parallel execution paths using reducer functions. It covers the creation of join nodes and the application of built-in reducers for common data operations.",
+      "tags": [
+        "pydantic-graph",
+        "parallel-execution",
+        "join-nodes",
+        "reducers",
+        "data-aggregation",
+        "graph-builder"
+      ],
+      "category": "guide",
+      "original_file_path": "graph-beta-joins.md"
+    },
+    {
+      "file_path": "039-graph-beta-decisions.md",
+      "title": "Decisions - Pydantic AI",
+      "url": "https://ai.pydantic.dev/graph/beta/decisions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:54.773586034-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to implement conditional branching in graphs using decision nodes, covering type matching, union types, and custom matchers.",
+      "tags": [
+        "pydantic-graph",
+        "decision-nodes",
+        "conditional-branching",
+        "type-matching",
+        "graph-routing",
+        "logic-flow"
+      ],
+      "category": "guide",
+      "original_file_path": "graph-beta-decisions.md"
+    },
+    {
+      "file_path": "040-graph-beta-parallel.md",
+      "title": "Parallel Execution - Pydantic AI",
+      "url": "https://ai.pydantic.dev/graph/beta/parallel/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:57.740262395-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to implement parallel execution in the Pydantic Graph beta API using broadcasting and mapping techniques. It details how to fan out data to multiple steps or iterate over collections for concurrent processing.",
+      "tags": [
+        "pydantic-graph",
+        "parallel-execution",
+        "broadcasting",
+        "mapping",
+        "async-iterables",
+        "graph-orchestration"
+      ],
+      "category": "guide",
+      "original_file_path": "graph-beta-parallel.md"
+    },
+    {
+      "file_path": "038-graph-beta-steps.md",
+      "title": "Steps - Pydantic AI",
+      "url": "https://ai.pydantic.dev/graph/beta/steps/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:25:59.956160926-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to define and use steps as the fundamental units of work in a graph, covering step creation, state management, dependency injection, and customization.",
+      "tags": [
+        "pydantic-graph",
+        "python",
+        "asynchronous",
+        "state-management",
+        "dependency-injection",
+        "graph-builder",
+        "step-context"
+      ],
+      "category": "guide",
+      "original_file_path": "graph-beta-steps.md"
+    },
+    {
+      "file_path": "033-mcp-client.md",
+      "title": "Client - Pydantic AI",
+      "url": "https://ai.pydantic.dev/mcp/client/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:01.042263821-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate Pydantic AI agents with MCP (Model Context Protocol) servers to utilize external tools via various transport methods.",
+      "tags": [
+        "pydantic-ai",
+        "mcp-client",
+        "model-context-protocol",
+        "tool-calling",
+        "http-transport",
+        "stdio-transport",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "mcp-client.md"
+    },
+    {
+      "file_path": "034-mcp-server.md",
+      "title": "Server - Pydantic AI",
+      "url": "https://ai.pydantic.dev/mcp/server/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:02.974962192-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate Pydantic AI agents into Model Context Protocol (MCP) servers and clients, including how to implement MCP sampling for delegating LLM calls back to the client.",
+      "tags": [
+        "pydantic-ai",
+        "mcp-server",
+        "mcp-client",
+        "mcp-sampling",
+        "python-sdk",
+        "llm-integration",
+        "model-context-protocol"
+      ],
+      "category": "tutorial",
+      "original_file_path": "mcp-server.md"
+    },
+    {
+      "file_path": "032-mcp-overview.md",
+      "title": "Overview - Pydantic AI",
+      "url": "https://ai.pydantic.dev/mcp/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:01.561874995-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how Pydantic AI integrates with the Model Context Protocol (MCP), outlining different methods for agents to connect with MCP servers as clients or tools.",
+      "tags": [
+        "model-context-protocol",
+        "mcp",
+        "pydantic-ai",
+        "ai-agents",
+        "mcp-client",
+        "mcp-server"
+      ],
+      "category": "concept",
+      "original_file_path": "mcp-overview.md"
+    },
+    {
+      "file_path": "035-mcp-fastmcp-client.md",
+      "title": "FastMCP Client - Pydantic AI",
+      "url": "https://ai.pydantic.dev/mcp/fastmcp-client/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:01.280463143-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate FastMCP with Pydantic AI using the FastMCPToolset, covering installation, initialization from various sources, and agent configuration.",
+      "tags": [
+        "fastmcp",
+        "pydantic-ai",
+        "toolsets",
+        "mcp-server",
+        "mcp-client",
+        "python",
+        "ai-agents"
+      ],
+      "category": "tutorial",
+      "original_file_path": "mcp-fastmcp-client.md"
+    },
+    {
+      "file_path": "023-models-bedrock.md",
+      "title": "Bedrock - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/bedrock/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:05.987834722-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate and configure AWS Bedrock models within the Pydantic AI framework, covering installation, environment setup, and advanced prompt caching strategies.",
+      "tags": [
+        "aws-bedrock",
+        "pydantic-ai",
+        "llm-integration",
+        "prompt-caching",
+        "python-sdk",
+        "model-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "models-bedrock.md"
+    },
+    {
+      "file_path": "021-models-anthropic.md",
+      "title": "Anthropic - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/anthropic/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:04.518687548-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "Provides comprehensive instructions for integrating Anthropic Claude models with Pydantic AI, including installation, cloud provider setup, and prompt caching configurations.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "pydantic-ai",
+        "aws-bedrock",
+        "vertex-ai",
+        "prompt-caching",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "models-anthropic.md"
+    },
+    {
+      "file_path": "029-models-cerebras.md",
+      "title": "Cerebras - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/cerebras/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:08.960770274-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to install and configure Cerebras models within the PydanticAI framework, including environment variable setup and custom provider initialization.",
+      "tags": [
+        "pydantic-ai",
+        "cerebras",
+        "model-configuration",
+        "api-integration",
+        "python-library"
+      ],
+      "category": "configuration",
+      "original_file_path": "models-cerebras.md"
+    },
+    {
+      "file_path": "026-models-cohere.md",
+      "title": "Cohere - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/cohere/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:09.515123312-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to install and configure Cohere models for use with PydanticAI, covering authentication, environment variables, and custom provider setup.",
+      "tags": [
+        "cohere",
+        "pydantic-ai",
+        "installation",
+        "configuration",
+        "llm",
+        "api-authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "models-cohere.md"
+    },
+    {
+      "file_path": "022-models-google.md",
+      "title": "Google - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/google/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:09.405764245-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions for installing, configuring, and using the GoogleModel in Pydantic AI to access Gemini models via the Generative Language and Vertex AI APIs.",
+      "tags": [
+        "google-genai",
+        "gemini",
+        "vertex-ai",
+        "pydantic-ai",
+        "multimodal",
+        "gcp-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "models-google.md"
+    },
+    {
+      "file_path": "025-models-groq.md",
+      "title": "Groq - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/groq/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:12.151089941-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions for installing, configuring, and using Groq models within the Pydantic AI framework, including API key setup and custom provider initialization.",
+      "tags": [
+        "groq",
+        "pydantic-ai",
+        "python",
+        "installation",
+        "api-key",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "models-groq.md"
+    },
+    {
+      "file_path": "024-models-mistral.md",
+      "title": "Mistral - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/mistral/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:14.415362933-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to install and configure Mistral models for use with Pydantic AI, covering installation, API key setup, and model initialization.",
+      "tags": [
+        "pydantic-ai",
+        "mistral-ai",
+        "python-setup",
+        "api-configuration",
+        "llm-integration"
+      ],
+      "category": "configuration",
+      "original_file_path": "models-mistral.md"
+    },
+    {
+      "file_path": "027-models-huggingface.md",
+      "title": "Hugging Face - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/huggingface/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:14.088480276-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to integrate Hugging Face models with PydanticAI, covering installation, authentication, and advanced provider configuration.",
+      "tags": [
+        "pydantic-ai",
+        "hugging-face",
+        "llm-integration",
+        "inference-providers",
+        "python-library",
+        "model-hosting"
+      ],
+      "category": "guide",
+      "original_file_path": "models-huggingface.md"
+    },
+    {
+      "file_path": "028-models-openrouter.md",
+      "title": "OpenRouter - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/openrouter/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:15.802375281-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions for installing and configuring OpenRouter models within the PydanticAI framework, covering authentication, app attribution, and custom model settings.",
+      "tags": [
+        "pydantic-ai",
+        "openrouter",
+        "model-configuration",
+        "installation",
+        "python-sdk",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "models-openrouter.md"
+    },
+    {
+      "file_path": "020-models-openai.md",
+      "title": "OpenAI - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/openai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:16.037873971-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions for installing and configuring OpenAI and Azure OpenAI models within the Pydantic AI framework, including details on the Chat and Responses APIs.",
+      "tags": [
+        "pydantic-ai",
+        "openai",
+        "azure-openai",
+        "llm-integration",
+        "python-sdk",
+        "model-configuration",
+        "ai-agents"
+      ],
+      "category": "guide",
+      "original_file_path": "models-openai.md"
+    },
+    {
+      "file_path": "031-models-outlines.md",
+      "title": "Outlines - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/outlines/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:19.580568379-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to install, initialize, and run Outlines models within the Pydantic AI framework, focusing on structured output and multimodal capabilities.",
+      "tags": [
+        "pydantic-ai",
+        "outlines",
+        "structured-output",
+        "multimodal",
+        "installation",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "models-outlines.md"
+    },
+    {
+      "file_path": "030-models-xai.md",
+      "title": "xAI - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/xai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:21.47048357-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document provides instructions for installing and configuring xAI models within the Pydantic AI framework, including API key setup and model initialization techniques.",
+      "tags": [
+        "pydantic-ai",
+        "xai-model",
+        "python-sdk",
+        "api-configuration",
+        "environment-variables"
+      ],
+      "category": "guide",
+      "original_file_path": "models-xai.md"
+    },
+    {
+      "file_path": "062-ui-ag-ui.md",
+      "title": "AG-UI - Pydantic AI",
+      "url": "https://ai.pydantic.dev/ui/ag-ui/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:21.602882219-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to implement the Agent-User Interaction (AG-UI) Protocol within Pydantic AI to standardize communication between AI agents and frontend applications. It details installation steps and provides multiple methods for handling streamed events using adapters and ASGI applications.",
+      "tags": [
+        "pydantic-ai",
+        "ag-ui-protocol",
+        "fastapi",
+        "agent-interaction",
+        "streaming-events",
+        "asgi",
+        "ai-agents"
+      ],
+      "category": "guide",
+      "original_file_path": "ui-ag-ui.md"
+    },
+    {
+      "file_path": "061-ui-overview.md",
+      "title": "Overview - Pydantic AI",
+      "url": "https://ai.pydantic.dev/ui/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:22.141704945-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to stream real-time agent events to frontends using UI event stream protocols like AG-UI and Vercel AI through the UIAdapter interface. It provides implementation details for Starlette-based frameworks like FastAPI as well as advanced usage for other web frameworks.",
+      "tags": [
+        "pydantic-ai",
+        "ui-event-streams",
+        "streaming-responses",
+        "fastapi",
+        "ag-ui",
+        "vercel-ai-protocol",
+        "server-sent-events"
+      ],
+      "category": "guide",
+      "original_file_path": "ui-overview.md"
+    },
+    {
+      "file_path": "063-ui-vercel-ai.md",
+      "title": "Vercel AI - Pydantic AI",
+      "url": "https://ai.pydantic.dev/ui/vercel-ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:24.067730173-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document explains how to use Pydantic AI's VercelAIAdapter to integrate with the Vercel AI Data Stream Protocol for streaming agent events to frontends.",
+      "tags": [
+        "pydantic-ai",
+        "vercel-ai-sdk",
+        "data-stream-protocol",
+        "fastapi",
+        "streaming-events",
+        "server-sent-events"
+      ],
+      "category": "guide",
+      "original_file_path": "ui-vercel-ai.md"
+    },
+    {
+      "file_path": "019-models-overview.md",
+      "title": "Overview - Pydantic AI",
+      "url": "https://ai.pydantic.dev/models/overview/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:26:21.563779972-03:00",
+      "description": "GenAI Agent Framework, the Pydantic way",
+      "summary": "This document outlines the supported LLM providers for Pydantic AI and explains core concepts such as models, providers, and profiles for agent integration. It also provides instructions for implementing custom models and configuring fallback mechanisms to ensure model resilience.",
+      "tags": [
+        "model-providers",
+        "pydantic-ai",
+        "llm-integration",
+        "custom-models",
+        "fallback-model",
+        "openai-compatibility"
+      ],
+      "category": "reference",
+      "original_file_path": "models-overview.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-23T01:28:48.165606+00:00",
+    "total_files": 151,
+    "categories": [
+      "01-Introduction & Overview",
+      "02-Installation",
+      "03-Core Concepts",
+      "04-Tools",
+      "05-Input & Output",
+      "06-Models Overview",
+      "07-Model Providers",
+      "08-MCP (Model Context Protocol)",
+      "09-Pydantic Graph",
+      "10-Graph Beta API",
+      "11-Pydantic Evals",
+      "12-Durable Execution",
+      "13-UI Integration",
+      "14-Guides & Features",
+      "15-Examples",
+      "16-API Reference: Core",
+      "17-API Reference: Models",
+      "18-API Reference: Graph",
+      "19-API Reference: Evals",
+      "20-API Reference: UI",
+      "21-Reference & Meta"
+    ]
+  }
+}

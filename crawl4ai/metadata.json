@@ -1,0 +1,1524 @@
+{
+  "generated_at": "2026-01-22T22:23:29.602165619-03:00",
+  "source_url": "https://docs.crawl4ai.com/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 78,
+  "documents": [
+    {
+      "file_path": "054-complete-sdk-reference.md",
+      "title": "\ud83d\udcda Complete SDK Reference - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/complete-sdk-reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:46.814836654-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides comprehensive instructions for installing, diagnosing, and getting started with Crawl4AI, an asynchronous web crawling and data extraction library. It covers environment setup, basic configuration, and initial patterns for content processing and markdown generation.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "python-library",
+        "installation-guide",
+        "async-crawler",
+        "content-extraction",
+        "playwright"
+      ],
+      "category": "guide",
+      "original_file_path": "complete-sdk-reference.md"
+    },
+    {
+      "file_path": "044-advanced-crawl-dispatcher.md",
+      "title": "Crawl Dispatcher - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/crawl-dispatcher/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:46.356215102-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document announces the upcoming Crawl Dispatcher module for Crawl4AI, which is designed to manage thousands of simultaneous crawling tasks with high-performance resource management and real-time monitoring.",
+      "tags": [
+        "crawl-dispatcher",
+        "web-crawling",
+        "scalability",
+        "real-time-monitoring",
+        "resource-management",
+        "performance-optimization"
+      ],
+      "category": "concept",
+      "original_file_path": "advanced-crawl-dispatcher.md"
+    },
+    {
+      "file_path": "043-advanced-adaptive-strategies.md",
+      "title": "Adaptive Strategies - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/adaptive-strategies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:46.364924052-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains advanced adaptive crawling strategies, detailing the mathematical scoring systems, link ranking algorithms, and configuration patterns for various domains.",
+      "tags": [
+        "adaptive-crawling",
+        "crawling-strategy",
+        "scoring-algorithms",
+        "configuration-tuning",
+        "link-ranking",
+        "performance-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-adaptive-strategies.md"
+    },
+    {
+      "file_path": "030-advanced-advanced-features.md",
+      "title": "Overview - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/advanced-features/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:46.368677281-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to implement advanced features in Crawl4AI, including proxy usage, capturing screenshots and PDFs, managing SSL certificates, and handling session persistence.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "proxy-configuration",
+        "pdf-generation",
+        "screenshot-capture",
+        "ssl-certificates",
+        "session-management",
+        "playwright-python"
+      ],
+      "category": "tutorial",
+      "original_file_path": "advanced-advanced-features.md"
+    },
+    {
+      "file_path": "001-index.md",
+      "title": "Home - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:46.364038901-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces Crawl4AI, an open-source web crawler and scraper designed to extract and process web content into clean, LLM-friendly formats for RAG pipelines and AI agents.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "web-scraping",
+        "llm-friendly",
+        "open-source",
+        "data-extraction",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "040-advanced-file-downloading.md",
+      "title": "File Downloading - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/file-downloading/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:52.436167549-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This guide explains how to enable and manage file downloads in Crawl4AI, including setting download paths and triggering downloads via JavaScript execution.",
+      "tags": [
+        "crawl4ai",
+        "file-downloads",
+        "browser-configuration",
+        "web-scraping",
+        "automation",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-file-downloading.md"
+    },
+    {
+      "file_path": "031-advanced-hooks-auth.md",
+      "title": "Hooks & Auth - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/hooks-auth/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:52.729650443-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the lifecycle hooks available in Crawl4AI's AsyncWebCrawler, detailing how to implement custom logic for authentication, route filtering, and browser configuration at specific points in the crawling pipeline.",
+      "tags": [
+        "crawl4ai",
+        "asyncwebcrawler",
+        "hooks",
+        "authentication",
+        "browser-lifecycle",
+        "event-handling",
+        "middleware"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-hooks-auth.md"
+    },
+    {
+      "file_path": "033-advanced-identity-based-crawling.md",
+      "title": "Identity Based Crawling - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/identity-based-crawling/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:54.696375551-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This tutorial explains how to manage digital identities in Crawl4AI using Managed Browsers for persistent sessions and Magic Mode for simplified human-like automation. It provides instructions for setting up user data directories to maintain logins and bypass bot detection mechanisms.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "managed-browsers",
+        "playwright",
+        "persistent-profiles",
+        "bot-evasion",
+        "automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "advanced-identity-based-crawling.md"
+    },
+    {
+      "file_path": "037-advanced-lazy-loading.md",
+      "title": "Lazy Loading - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/lazy-loading/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:56.213988452-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to configure the crawler to handle lazy-loaded images by using parameters like wait_for_images, scan_full_page, and scroll_delay to ensure all media is captured.",
+      "tags": [
+        "lazy-loading",
+        "image-extraction",
+        "web-crawling",
+        "scrolling-behavior",
+        "media-handling",
+        "crawl4ai-config"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-lazy-loading.md"
+    },
+    {
+      "file_path": "041-advanced-network-console-capture.md",
+      "title": "Network & Console Capture - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/network-console-capture/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:56.996829377-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to configure and use Crawl4AI to capture network requests and browser console messages for debugging, security analysis, and performance monitoring.",
+      "tags": [
+        "crawl4ai",
+        "network-requests",
+        "console-messages",
+        "debugging",
+        "web-crawling",
+        "network-analysis"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-network-console-capture.md"
+    },
+    {
+      "file_path": "039-advanced-multi-url-crawling.md",
+      "title": "URL Crawling - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/multi-url-crawling/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:57.007273333-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "Explains advanced multi-URL crawling in Crawl4AI using dispatchers for rate limiting, memory management, and concurrent task control.",
+      "tags": [
+        "crawl4ai",
+        "multi-url-crawling",
+        "concurrency-control",
+        "rate-limiting",
+        "memory-adaptive-dispatcher",
+        "web-scraping"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-multi-url-crawling.md"
+    },
+    {
+      "file_path": "042-advanced-pdf-parsing.md",
+      "title": "PDF Parsing - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/pdf-parsing/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:21:58.902474535-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document details how to use specialized PDF crawling and scraping strategies within the Crawl4AI framework to extract text, metadata, and images from PDF files.",
+      "tags": [
+        "crawl4ai",
+        "pdf-processing",
+        "web-scraping",
+        "content-extraction",
+        "python-api",
+        "asynchronous-crawling"
+      ],
+      "category": "reference",
+      "original_file_path": "advanced-pdf-parsing.md"
+    },
+    {
+      "file_path": "035-advanced-proxy-security.md",
+      "title": "Proxy & Security - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/proxy-security/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:00.358374059-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This guide explains how to configure and manage proxies in Crawl4AI, covering authentication, rotation strategies, and security features like SSL certificate analysis.",
+      "tags": [
+        "proxy-configuration",
+        "web-crawling",
+        "ssl-certificates",
+        "proxy-rotation",
+        "security-best-practices",
+        "crawl4ai"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-proxy-security.md"
+    },
+    {
+      "file_path": "032-advanced-session-management.md",
+      "title": "Session Management - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/session-management/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:00.635723723-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to use session management in Crawl4AI to maintain state across sequential web crawling requests and handle complex dynamic content. It covers session initialization, browser tab reuse, and advanced techniques like custom execution hooks and integrated JavaScript waiting logic.",
+      "tags": [
+        "crawl4ai",
+        "session-management",
+        "web-crawling",
+        "dynamic-content",
+        "javascript-execution",
+        "browser-automation",
+        "sequential-workflows"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-session-management.md"
+    },
+    {
+      "file_path": "036-advanced-ssl-certificate.md",
+      "title": "SSL Certificate - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/ssl-certificate/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:02.620137148-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "Technical reference for the SSLCertificate class in Crawl4AI, detailing methods for fetching, inspecting, and exporting SSL certificate data in formats like PEM, DER, and JSON.",
+      "tags": [
+        "ssl-certificate",
+        "crawl4ai",
+        "tls-handling",
+        "certificate-export",
+        "python-library",
+        "metadata-extraction"
+      ],
+      "category": "reference",
+      "original_file_path": "advanced-ssl-certificate.md"
+    },
+    {
+      "file_path": "034-advanced-undetected-browser.md",
+      "title": "Undetected Browser - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/undetected-browser/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:03.559070685-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to use Stealth Mode and Undetected Browser Mode in Crawl4AI to bypass anti-bot detection systems during web crawling. It provides comparison tables, configuration guides, and code examples for implementing these features.",
+      "tags": [
+        "anti-bot",
+        "stealth-mode",
+        "undetected-browser",
+        "web-crawling",
+        "playwright",
+        "browser-fingerprinting",
+        "crawler-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-undetected-browser.md"
+    },
+    {
+      "file_path": "038-advanced-virtual-scroll.md",
+      "title": "Virtual Scroll - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/advanced/virtual-scroll/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:04.461725457-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to use Crawl4AI's Virtual Scroll feature to capture content from websites that use windowed rendering to replace DOM elements during scrolling. It provides configuration parameters, usage examples for social media platforms, and a comparison with standard full-page scanning.",
+      "tags": [
+        "crawl4ai",
+        "virtual-scrolling",
+        "web-scraping",
+        "infinite-scroll",
+        "python-crawler",
+        "dom-manipulation"
+      ],
+      "category": "guide",
+      "original_file_path": "advanced-virtual-scroll.md"
+    },
+    {
+      "file_path": "046-api-adaptive-crawler.md",
+      "title": "AdaptiveCrawler - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/adaptive-crawler/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:06.744580178-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a technical reference for the AdaptiveCrawler class, detailing its methods, properties, and configuration for intelligent, query-driven web crawling.",
+      "tags": [
+        "web-crawling",
+        "python-api",
+        "adaptive-crawler",
+        "asynchronous-programming",
+        "knowledge-base",
+        "search-query"
+      ],
+      "category": "api",
+      "original_file_path": "api-adaptive-crawler.md"
+    },
+    {
+      "file_path": "048-api-arun-many.md",
+      "title": "arun_many() - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/arun_many/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:08.331594441-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a detailed technical reference for the arun_many function, which enables concurrent and batch crawling of multiple URLs with support for dispatchers and streaming results.",
+      "tags": [
+        "batch-crawling",
+        "concurrency",
+        "async-generator",
+        "python-api",
+        "web-scraping",
+        "memory-adaptive"
+      ],
+      "category": "api",
+      "original_file_path": "api-arun-many.md"
+    },
+    {
+      "file_path": "045-api-async-webcrawler.md",
+      "title": "AsyncWebCrawler - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/async-webcrawler/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:08.95361227-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the core AsyncWebCrawler class in Crawl4AI, covering its lifecycle management, browser configuration, and methods for executing single or batch asynchronous crawls.",
+      "tags": [
+        "asyncwebcrawler",
+        "web-scraping",
+        "python-api",
+        "browser-configuration",
+        "async-io",
+        "crawl4ai"
+      ],
+      "category": "reference",
+      "original_file_path": "api-async-webcrawler.md"
+    },
+    {
+      "file_path": "053-api-c4a-script-reference.md",
+      "title": "Script Reference - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/c4a-script-reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:10.131352146-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a comprehensive API reference for C4A-Script, detailing commands for browser navigation, element synchronization, and simulated user interactions.",
+      "tags": [
+        "c4a-script",
+        "api-reference",
+        "web-automation",
+        "browser-navigation",
+        "interaction-simulation"
+      ],
+      "category": "reference",
+      "original_file_path": "api-c4a-script-reference.md"
+    },
+    {
+      "file_path": "050-api-crawl-result.md",
+      "title": "CrawlResult - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/crawl-result/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:12.745783773-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a detailed reference for the CrawlResult class, outlining the data structure and fields returned after a web crawl operation in the Crawl4AI framework.",
+      "tags": [
+        "crawl4ai",
+        "crawlresult",
+        "api-reference",
+        "web-scraping",
+        "python-models",
+        "data-extraction"
+      ],
+      "category": "reference",
+      "original_file_path": "api-crawl-result.md"
+    },
+    {
+      "file_path": "047-api-arun.md",
+      "title": "arun() - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/arun/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:07.783833142-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the CrawlerRunConfig model used in Crawl4AI's arun() method, providing a detailed breakdown of parameters for content processing, session management, and anti-bot features.",
+      "tags": [
+        "crawl4ai",
+        "crawler-run-config",
+        "web-scraping",
+        "python-async",
+        "content-extraction",
+        "session-management",
+        "anti-bot"
+      ],
+      "category": "reference",
+      "original_file_path": "api-arun.md"
+    },
+    {
+      "file_path": "049-api-digest.md",
+      "title": "digest() - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/digest/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:14.294464173-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a technical specification for the digest() method, explaining how to use it for intelligent, query-guided web crawling and information extraction.",
+      "tags": [
+        "web-crawling",
+        "python-api",
+        "adaptive-crawler",
+        "async-await",
+        "information-retrieval",
+        "link-analysis"
+      ],
+      "category": "api",
+      "original_file_path": "api-digest.md"
+    },
+    {
+      "file_path": "052-api-strategies.md",
+      "title": "Strategies - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/api/strategies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:15.346793989-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a technical API reference for implementing various data extraction and text chunking strategies within the Crawl4AI framework. It details configuration parameters for LLM-based, regex, cosine similarity, and CSS-selector-based extraction methods.",
+      "tags": [
+        "crawl4ai",
+        "extraction-strategy",
+        "chunking-strategy",
+        "llm-extraction",
+        "regex-extraction",
+        "web-scraping",
+        "api-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "api-strategies.md"
+    },
+    {
+      "file_path": "051-api-parameters.md",
+      "title": "Browser, Crawler & LLM Config",
+      "url": "https://docs.crawl4ai.com/api/parameters/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:15.352399203-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a detailed technical reference for the BrowserConfig and CrawlerRunConfig classes, outlining the parameters used to control browser behavior and crawl execution settings.",
+      "tags": [
+        "crawl4ai",
+        "browser-configuration",
+        "crawler-settings",
+        "web-scraping",
+        "python-library",
+        "api-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "api-parameters.md"
+    },
+    {
+      "file_path": "055-apps.md",
+      "title": "Demo Apps - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/apps/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:18.837426591-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces the Crawl4AI Apps Hub, a collection of interactive visual tools and editors designed to simplify web scraping, automation script creation, and monitoring.",
+      "tags": [
+        "crawl4ai",
+        "interactive-tools",
+        "visual-programming",
+        "web-scraping",
+        "browser-automation",
+        "llm-context"
+      ],
+      "category": "guide",
+      "original_file_path": "apps.md"
+    },
+    {
+      "file_path": "057-apps-llmtxt-build.md",
+      "title": "Build - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/apps/llmtxt/build/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:19.045276594-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a detailed prompt for an AI coding assistant to develop an interactive HTML/JavaScript tool for selecting and combining Crawl4AI documentation components into a single Markdown context file.",
+      "tags": [
+        "crawl4ai",
+        "llm-context",
+        "markdown-generation",
+        "ai-assistant-tools",
+        "web-development",
+        "context-builder"
+      ],
+      "category": "guide",
+      "original_file_path": "apps-llmtxt-build.md"
+    },
+    {
+      "file_path": "056-apps-llmtxt-why.md",
+      "title": "Supercharging Your AI Assistant: My Journey to Better LLM Contexts for crawl4ai",
+      "url": "https://docs.crawl4ai.com/apps/llmtxt/why/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:20.439275024-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains a modular documentation strategy for crawl4ai designed to improve AI coding assistant performance by organizing context into memory, reasoning, and example files.",
+      "tags": [
+        "llm-context",
+        "crawl4ai",
+        "documentation-strategy",
+        "ai-coding-assistants",
+        "modular-docs"
+      ],
+      "category": "concept",
+      "original_file_path": "apps-llmtxt-why.md"
+    },
+    {
+      "file_path": "003-basic-installation.md",
+      "title": "Installation \ud83d\udcbb - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/basic/installation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:21.807194355-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides comprehensive instructions for installing Crawl4AI, covering various setup options including basic, feature-specific, and development installations using pip and system dependencies.",
+      "tags": [
+        "installation",
+        "crawl4ai",
+        "setup-guide",
+        "python-package",
+        "playwright",
+        "web-crawling"
+      ],
+      "category": "guide",
+      "original_file_path": "basic-installation.md"
+    },
+    {
+      "file_path": "061-blog-articles-adaptive-crawling-revolution.md",
+      "title": "Adaptive Crawling: Building Dynamic Knowledge That Grows on Demand",
+      "url": "https://docs.crawl4ai.com/blog/articles/adaptive-crawling-revolution/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:24.056038288-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces adaptive crawling, a paradigm shift in web scraping that uses information theory and statistical metrics to intelligently acquire relevant data while minimizing computational costs.",
+      "tags": [
+        "adaptive-crawling",
+        "web-scraping",
+        "information-theory",
+        "data-extraction",
+        "information-gain",
+        "efficiency-optimization"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-articles-adaptive-crawling-revolution.md"
+    },
+    {
+      "file_path": "060-blog.md",
+      "title": "Blog Home - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/blog/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:22.681754996-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "The Crawl4AI blog provides technical articles and comprehensive release notes documenting the evolution of the web crawling library. It outlines key improvements in areas such as adaptive crawling, LLM extraction, and Docker deployment strategies.",
+      "tags": [
+        "crawl4ai-updates",
+        "release-notes",
+        "web-scraping",
+        "llm-integration",
+        "docker-deployment",
+        "webhooks",
+        "changelog"
+      ],
+      "category": "other",
+      "original_file_path": "blog.md"
+    },
+    {
+      "file_path": "064-blog-articles-dockerize-hooks.md",
+      "title": "Dockerize hooks - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/blog/articles/dockerize_hooks/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:24.60975175-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines planned enhancements for Crawl4AI, focusing on event-driven streams and interactive hooks that enable real-time monitoring and dynamic control during the crawling process.",
+      "tags": [
+        "crawl4ai",
+        "event-streams",
+        "web-crawling",
+        "interactive-hooks",
+        "real-time-data",
+        "server-sent-events"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-articles-dockerize-hooks.md"
+    },
+    {
+      "file_path": "063-blog-articles-virtual-scroll-revolution.md",
+      "title": "Solving the Virtual Scroll Puzzle: How Crawl4AI Captures What Others Miss",
+      "url": "https://docs.crawl4ai.com/blog/articles/virtual-scroll-revolution/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:27.361197567-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the technical challenges of scraping websites with virtual scrolling and provides a guide on using Crawl4AI to capture dynamic content that replaces existing DOM elements.",
+      "tags": [
+        "web-scraping",
+        "virtual-scroll",
+        "crawl4ai",
+        "dom-manipulation",
+        "data-extraction",
+        "python-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-articles-virtual-scroll-revolution.md"
+    },
+    {
+      "file_path": "062-blog-articles-llm-context-revolution.md",
+      "title": "The LLM Context Protocol: Why Your AI Assistant Needs Memory, Reasoning, and Examples",
+      "url": "https://docs.crawl4ai.com/blog/articles/llm-context-revolution/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:26.490419751-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces the LLM Context Protocol, a three-pillar framework consisting of Memory, Reasoning, and Examples designed to improve how AI assistants understand and generate code for software libraries.",
+      "tags": [
+        "llm-context-protocol",
+        "ai-documentation",
+        "developer-experience",
+        "crawl4ai",
+        "context-engineering",
+        "software-architecture"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-articles-llm-context-revolution.md"
+    },
+    {
+      "file_path": "078-blog-releases-0.4.0.md",
+      "title": "Release Summary for Version 0.4.0 (December 1, 2024)",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.4.0/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:28.921703719-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the updates in version 0.4.0, focusing on new content filtering strategies like PruningContentFilter and improvements to thread safety and user-agent generation.",
+      "tags": [
+        "release-notes",
+        "content-filtering",
+        "thread-safety",
+        "user-agent-generation",
+        "web-crawling",
+        "bm25-algorithm"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-0.4.0.md"
+    },
+    {
+      "file_path": "076-blog-releases-0.4.2.md",
+      "title": "0.4.2 - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.4.2/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:31.526377184-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the major updates in Crawl4AI version 0.4.2, focusing on improved configuration management, session handling, and advanced page capture features.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "browser-config",
+        "session-management",
+        "screenshot-optimization",
+        "pdf-export"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-releases-0.4.2.md"
+    },
+    {
+      "file_path": "073-blog-releases-0.6.0.md",
+      "title": "Crawl4AI v0.6.0 Release Notes - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.6.0/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:32.860200063-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document announces the release of Crawl4AI v0.6.0, detailing new features such as geo-aware crawling, browser pooling, real-time streaming via MCP API, and significant architectural improvements.",
+      "tags": [
+        "release-notes",
+        "web-scraping",
+        "browser-automation",
+        "crawler-configuration",
+        "performance-optimization",
+        "mcp-api"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-0.6.0.md"
+    },
+    {
+      "file_path": "077-blog-releases-0.4.1.md",
+      "title": "Release Summary for Version 0.4.1 (December 8, 2024): Major Efficiency Boosts with New Features!",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.4.1/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:30.914482519-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the version 0.4.1 updates for Crawl4AI, introducing features for handling lazy-loaded images, text-only crawling, and session management to improve scraping efficiency.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "browser-automation",
+        "performance-optimization",
+        "lazy-loading",
+        "python",
+        "scraping-tool"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-releases-0.4.1.md"
+    },
+    {
+      "file_path": "074-blog-releases-0.5.0.md",
+      "title": "Crawl4AI v0.5.0 Release Notes - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.5.0/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:32.857044421-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document details the major updates and breaking changes in Crawl4AI v0.5.0, including new deep crawling strategies, memory-adaptive dispatching, and Docker deployment options.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "deep-crawling",
+        "docker-deployment",
+        "memory-management",
+        "python-library",
+        "cli-tool"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-releases-0.5.0.md"
+    },
+    {
+      "file_path": "072-blog-releases-0.7.0.md",
+      "title": "\ud83d\ude80 Crawl4AI v0.7.0: The Adaptive Intelligence Update",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.7.0/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:36.931140467-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces the key features of Crawl4AI v0.7.0, highlighting new capabilities for adaptive crawling, virtual scroll handling, and intelligent link analysis.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "adaptive-crawling",
+        "virtual-scroll",
+        "link-analysis",
+        "automation",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-releases-0.7.0.md"
+    },
+    {
+      "file_path": "071-blog-releases-0.7.1.md",
+      "title": "\ud83d\udee0\ufe0f Crawl4AI v0.7.1: Minor Cleanup Update",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.7.1/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:39.636910243-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the maintenance updates in crawl4ai version 0.7.1, including the removal of unused code and significant documentation improvements.",
+      "tags": [
+        "crawl4ai",
+        "release-notes",
+        "maintenance-update",
+        "documentation-update",
+        "stealth-configuration"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-0.7.1.md"
+    },
+    {
+      "file_path": "070-blog-releases-0.7.2.md",
+      "title": "\ud83d\ude80 Crawl4AI v0.7.2: CI/CD & Dependency Optimization Update",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.7.2/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:39.714481971-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the updates in Crawl4AI version 0.7.2, specifically the implementation of automated CI/CD pipelines and the optimization of package dependencies for a lighter installation.",
+      "tags": [
+        "release-notes",
+        "cicd",
+        "github-actions",
+        "docker",
+        "dependency-management",
+        "crawl4ai"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-0.7.2.md"
+    },
+    {
+      "file_path": "067-blog-releases-0.7.6.md",
+      "title": "Crawl4AI v0.7.6 Release Notes - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.7.6/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:40.35059287-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This release announcement introduces the webhook infrastructure for Crawl4AI v0.7.6, detailing how to implement real-time notifications for crawling and LLM extraction jobs within the Docker job queue API.",
+      "tags": [
+        "crawl4ai",
+        "webhooks",
+        "docker-api",
+        "asynchronous-processing",
+        "job-queue",
+        "llm-extraction",
+        "real-time-notifications"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-releases-0.7.6.md"
+    },
+    {
+      "file_path": "069-blog-releases-0.7.3.md",
+      "title": "\ud83d\ude80 Crawl4AI v0.7.3: The Multi-Config Intelligence Update",
+      "url": "https://docs.crawl4ai.com/blog/releases/0.7.3/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:40.142467529-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document announces the release of Crawl4AI v0.7.3, highlighting new features like URL-specific configurations and flexible Docker-based LLM provider settings. It details improvements in crawling logic, stability, and documentation aimed at production environments.",
+      "tags": [
+        "crawl4ai",
+        "release-notes",
+        "web-scraping",
+        "docker-config",
+        "multi-url-crawl",
+        "llm-extraction"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-0.7.3.md"
+    },
+    {
+      "file_path": "068-blog-releases-v0.7.5.md",
+      "title": "\ud83d\ude80 Crawl4AI v0.7.5: The Docker Hooks & Security Update",
+      "url": "https://docs.crawl4ai.com/blog/releases/v0.7.5/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:44.938157086-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces the new features of Crawl4AI v0.7.5, specifically focusing on the Docker Hooks System for pipeline customization and enhanced LLM integration capabilities.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "docker-hooks",
+        "llm-integration",
+        "python-api",
+        "pipeline-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-releases-v0.7.5.md"
+    },
+    {
+      "file_path": "075-blog-releases-v0.4.3b1.md",
+      "title": "Crawl4AI 0.4.3: Major Performance Boost & LLM Integration",
+      "url": "https://docs.crawl4ai.com/blog/releases/v0.4.3b1/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:43.997102442-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the features and performance enhancements in Crawl4AI 0.4.3, focusing on memory-adaptive dispatching, LLM-powered extraction, and increased scraping efficiency.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "llm-integration",
+        "performance-optimization",
+        "memory-management",
+        "data-extraction"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-v0.4.3b1.md"
+    },
+    {
+      "file_path": "066-blog-releases-v0.7.7.md",
+      "title": "\ud83d\ude80 Crawl4AI v0.7.7: The Self-Hosting & Monitoring Update",
+      "url": "https://docs.crawl4ai.com/blog/releases/v0.7.7/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:46.968923097-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces the v0.7.7 update of Crawl4AI, focusing on transition to a self-hosting platform with integrated real-time monitoring, REST APIs, and enhanced browser pool management.",
+      "tags": [
+        "crawl4ai",
+        "self-hosting",
+        "docker",
+        "monitoring",
+        "observability",
+        "web-scraping",
+        "api-integration",
+        "devops"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-releases-v0.7.7.md"
+    },
+    {
+      "file_path": "065-blog-releases-v0.7.8.md",
+      "title": "Crawl4AI v0.7.8: Stability & Bug Fix Release",
+      "url": "https://docs.crawl4ai.com/blog/releases/v0.7.8/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:48.690766405-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "Details the stability improvements and bug fixes introduced in Crawl4AI v0.7.8, covering Docker deployments, LLM extraction strategies, and dependency updates.",
+      "tags": [
+        "crawl4ai",
+        "release-notes",
+        "docker",
+        "llm-extraction",
+        "bug-fixes",
+        "python"
+      ],
+      "category": "other",
+      "original_file_path": "blog-releases-v0.7.8.md"
+    },
+    {
+      "file_path": "015-core-adaptive-crawling.md",
+      "title": "Adaptive Crawling - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/adaptive-crawling/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:50.701402938-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the concept and implementation of Adaptive Crawling, a technique for intelligently stopping web crawls once sufficient information has been gathered based on statistical or semantic metrics.",
+      "tags": [
+        "adaptive-crawling",
+        "web-scraping",
+        "crawl4ai",
+        "information-retrieval",
+        "semantic-search",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "core-adaptive-crawling.md"
+    },
+    {
+      "file_path": "025-core-ask-ai.md",
+      "title": "Ask AI - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/ask-ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:51.196610721-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document contains no content and appears to be an empty placeholder or invalid input.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "other",
+      "original_file_path": "core-ask-ai.md"
+    },
+    {
+      "file_path": "002-branding.md",
+      "title": "Brand Book - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/branding/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:50.452467272-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document outlines the visual identity and design system for Crawl4AI, detailing color palettes, typography, and UI components to ensure a consistent terminal-inspired aesthetic.",
+      "tags": [
+        "brand-guidelines",
+        "design-system",
+        "terminal-aesthetic",
+        "ui-components",
+        "typography",
+        "css-variables"
+      ],
+      "category": "reference",
+      "original_file_path": "branding.md"
+    },
+    {
+      "file_path": "007-core-browser-crawler-config.md",
+      "title": "Browser, Crawler & LLM Config",
+      "url": "https://docs.crawl4ai.com/core/browser-crawler-config/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:54.407202087-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides an overview of the core configuration classes in Crawl4AI, detailing how to customize browser behavior and crawling operations via BrowserConfig and CrawlerRunConfig. It covers essential parameters for browser initialization, stealth modes, proxies, and interaction strategies.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "browser-configuration",
+        "python-library",
+        "crawler-settings",
+        "data-extraction"
+      ],
+      "category": "configuration",
+      "original_file_path": "core-browser-crawler-config.md"
+    },
+    {
+      "file_path": "021-core-c4a-script.md",
+      "title": "Script - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/c4a-script/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:55.834954358-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces C4A-Script, a human-readable domain-specific language designed for simplifying web automation, UI testing, and interactive demo creation through text commands or a visual Blockly editor.",
+      "tags": [
+        "web-automation",
+        "dsl",
+        "browser-automation",
+        "ui-testing",
+        "blockly",
+        "workflow-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "core-c4a-script.md"
+    },
+    {
+      "file_path": "022-core-cli.md",
+      "title": "Command Line Interface - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/cli/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:56.667671676-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a comprehensive guide to using the Crawl4AI CLI, detailing its installation, configuration options, and advanced features like LLM-powered extraction and content filtering.",
+      "tags": [
+        "crawl4ai-cli",
+        "web-crawling",
+        "data-extraction",
+        "llm-integration",
+        "command-line-tool",
+        "browser-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "core-cli.md"
+    },
+    {
+      "file_path": "009-core-cache-modes.md",
+      "title": "Cache Modes - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/cache-modes/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:56.454809365-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the transition from boolean cache flags to the new CacheMode enum system in Crawl4AI version 0.5.0, providing migration patterns and code examples.",
+      "tags": [
+        "crawl4ai",
+        "caching-system",
+        "migration-guide",
+        "cache-mode",
+        "python-library",
+        "web-crawling"
+      ],
+      "category": "guide",
+      "original_file_path": "core-cache-modes.md"
+    },
+    {
+      "file_path": "010-core-content-selection.md",
+      "title": "Content Selection - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/content-selection/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:22:56.732639753-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides instructions on how to use CrawlerRunConfig to select specific web content, exclude unwanted elements, and filter links or media during the crawling process.",
+      "tags": [
+        "crawl4ai",
+        "content-filtering",
+        "css-selectors",
+        "web-scraping",
+        "data-refinement",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "core-content-selection.md"
+    },
+    {
+      "file_path": "008-core-crawler-result.md",
+      "title": "Crawler Result - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/crawler-result/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:01.907062223-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides a comprehensive overview of the CrawlResult object and its associated data models, detailing the various output fields, HTML variants, and markdown generation options available after a crawl.",
+      "tags": [
+        "crawl-result",
+        "data-models",
+        "markdown-generation",
+        "structured-extraction",
+        "html-processing",
+        "crawl4ai"
+      ],
+      "category": "reference",
+      "original_file_path": "core-crawler-result.md"
+    },
+    {
+      "file_path": "020-core-examples.md",
+      "title": "Code Examples - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/examples/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:02.78574048-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "A comprehensive directory of example scripts and tutorials showcasing Crawl4AI's capabilities, from basic web crawling to advanced features like anti-bot stealth and LLM-based extraction. It serves as a practical resource for developers to find code implementations for various web scraping and automation use cases.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping-examples",
+        "data-extraction",
+        "browser-automation",
+        "stealth-mode",
+        "async-crawling",
+        "automation-scripts"
+      ],
+      "category": "reference",
+      "original_file_path": "core-examples.md"
+    },
+    {
+      "file_path": "017-core-fit-markdown.md",
+      "title": "Fit Markdown - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/fit-markdown/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:02.794647833-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to use content filters like Pruning and BM25 in Crawl4AI to generate concise 'Fit Markdown' by removing irrelevant web page elements.",
+      "tags": [
+        "crawl4ai",
+        "markdown-generation",
+        "content-filtering",
+        "pruning-filter",
+        "bm25-filter",
+        "web-scraping"
+      ],
+      "category": "guide",
+      "original_file_path": "core-fit-markdown.md"
+    },
+    {
+      "file_path": "018-core-link-media.md",
+      "title": "Link & Media - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/link-media/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:05.86885884-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This tutorial explains how to extract, filter, and score internal and external links while managing media extraction settings like image exclusion in Crawl4AI.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "link-extraction",
+        "media-handling",
+        "image-filtering",
+        "python-async",
+        "relevance-scoring"
+      ],
+      "category": "tutorial",
+      "original_file_path": "core-link-media.md"
+    },
+    {
+      "file_path": "014-core-deep-crawling.md",
+      "title": "Deep Crawling - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/deep-crawling/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:02.794705753-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This tutorial explains how to implement and configure multi-page deep crawling using search strategies, result streaming, and advanced filtering techniques to explore websites effectively.",
+      "tags": [
+        "deep-crawling",
+        "web-scraping",
+        "crawl4ai",
+        "bfs-strategy",
+        "dfs-strategy",
+        "content-filtering",
+        "async-crawler",
+        "best-first-search"
+      ],
+      "category": "tutorial",
+      "original_file_path": "core-deep-crawling.md"
+    },
+    {
+      "file_path": "024-core-llmtxt.md",
+      "title": "Llmtxt - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/llmtxt/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:08.304095958-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document appears to be empty or contains no content to analyze.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "other",
+      "original_file_path": "core-llmtxt.md"
+    },
+    {
+      "file_path": "004-core-installation.md",
+      "title": "Installation - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/installation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:04.912913474-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides comprehensive instructions for installing Crawl4AI, covering core setup, diagnostic tools, and optional advanced feature configurations for specialized tasks.",
+      "tags": [
+        "installation",
+        "crawl4ai-setup",
+        "environment-configuration",
+        "web-crawling",
+        "python-package",
+        "dependency-management"
+      ],
+      "category": "guide",
+      "original_file_path": "core-installation.md"
+    },
+    {
+      "file_path": "012-core-local-files.md",
+      "title": "Local Files & Raw HTML",
+      "url": "https://docs.crawl4ai.com/core/local-files/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:09.529588577-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to utilize Crawl4AI's prefix-based input system to process web URLs, local files, and raw HTML content.",
+      "tags": [
+        "crawl4ai",
+        "web-crawling",
+        "html-parsing",
+        "python-library",
+        "input-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "core-local-files.md"
+    },
+    {
+      "file_path": "011-core-page-interaction.md",
+      "title": "Page Interaction - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/page-interaction/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.036654211-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to use Crawl4AI to interact with dynamic webpages through JavaScript execution, wait conditions, and session management.",
+      "tags": [
+        "crawl4ai",
+        "javascript-execution",
+        "dynamic-content",
+        "web-scraping",
+        "session-management",
+        "wait-conditions",
+        "form-interaction"
+      ],
+      "category": "guide",
+      "original_file_path": "core-page-interaction.md"
+    },
+    {
+      "file_path": "016-core-markdown-generation.md",
+      "title": "Markdown Generation - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/markdown-generation/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.039493181-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to configure and use the Default Markdown Generator in Crawl4AI to transform web content into structured markdown while applying filters and source selection.",
+      "tags": [
+        "markdown-generation",
+        "crawl4ai",
+        "content-filtering",
+        "html-to-markdown",
+        "web-scraping",
+        "configuration-options"
+      ],
+      "category": "tutorial",
+      "original_file_path": "core-markdown-generation.md"
+    },
+    {
+      "file_path": "005-core-quickstart.md",
+      "title": "Quick Start - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/quickstart/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:11.705698433-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This tutorial provides an introductory guide to using Crawl4AI, covering basic asynchronous crawling, markdown generation with content filters, and structured data extraction using CSS selectors and LLMs.",
+      "tags": [
+        "web-crawling",
+        "web-scraping",
+        "asynchronous-crawling",
+        "data-extraction",
+        "markdown-generation",
+        "llm-integration",
+        "python-library"
+      ],
+      "category": "tutorial",
+      "original_file_path": "core-quickstart.md"
+    },
+    {
+      "file_path": "023-core-self-hosting.md",
+      "title": "Hosting Guide - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/self-hosting/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:13.394363132-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document provides comprehensive instructions and options for self-hosting the Crawl4AI web crawling infrastructure using Docker, Docker Compose, and manual builds. It covers installation methods, environment configuration for LLMs, Model Context Protocol support, and monitoring options.",
+      "tags": [
+        "self-hosting",
+        "docker",
+        "crawl4ai",
+        "web-crawling",
+        "deployment",
+        "containerization",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "core-self-hosting.md"
+    },
+    {
+      "file_path": "006-core-simple-crawling.md",
+      "title": "Simple Crawling - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/simple-crawling/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:14.743669269-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This guide introduces the fundamentals of web crawling using Crawl4AI, covering crawler setup, configuration management, and the processing of extraction results.",
+      "tags": [
+        "web-crawling",
+        "crawl4ai",
+        "python",
+        "asynchronous",
+        "web-scraping",
+        "data-extraction"
+      ],
+      "category": "tutorial",
+      "original_file_path": "core-simple-crawling.md"
+    },
+    {
+      "file_path": "019-core-table-extraction.md",
+      "title": "Table Extraction Strategies - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/table_extraction/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:15.696528557-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the strategy-based table extraction system in Crawl4AI v0.7.3+, detailing how to implement default, LLM-powered, and custom extraction methods while maintaining backward compatibility.",
+      "tags": [
+        "crawl4ai",
+        "table-extraction",
+        "web-scraping",
+        "data-extraction",
+        "strategy-pattern",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "core-table-extraction.md"
+    },
+    {
+      "file_path": "013-core-url-seeding.md",
+      "title": "URL Seeding - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/core/url-seeding/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:18.688295667-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This guide explains the differences between deep crawling and URL seeding for web discovery, providing implementation details and configuration options for the crawl4ai library.",
+      "tags": [
+        "web-crawling",
+        "url-seeding",
+        "deep-crawling",
+        "crawl4ai",
+        "data-extraction",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "core-url-seeding.md"
+    },
+    {
+      "file_path": "028-extraction-chunking.md",
+      "title": "Chunking - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/extraction/chunking/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:18.981876516-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explores various text chunking strategies and their implementations to facilitate efficient content retrieval in NLP and retrieval-augmented generation systems.",
+      "tags": [
+        "chunking-strategies",
+        "nlp",
+        "rag-systems",
+        "text-processing",
+        "cosine-similarity",
+        "text-segmentation",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "extraction-chunking.md"
+    },
+    {
+      "file_path": "026-extraction-no-llm-strategies.md",
+      "title": "Free Strategies - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/extraction/no-llm-strategies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:22.190358965-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to perform structured data extraction in Crawl4AI using CSS and XPath selectors without the need for large language models.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "json-extraction",
+        "css-selectors",
+        "xpath",
+        "structured-data"
+      ],
+      "category": "guide",
+      "original_file_path": "extraction-no-llm-strategies.md"
+    },
+    {
+      "file_path": "027-extraction-llm-strategies.md",
+      "title": "LLM Strategies - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/extraction/llm-strategies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:20.50160507-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains how to implement LLM-based extraction strategies in Crawl4AI to parse complex or unstructured web content using provider-agnostic models via LiteLLM. It covers configuration parameters, chunking mechanisms for large documents, and how to integrate these strategies into the crawler's runtime configuration.",
+      "tags": [
+        "crawl4ai",
+        "llm-extraction",
+        "litellm",
+        "web-scraping",
+        "data-extraction",
+        "pydantic-schema"
+      ],
+      "category": "guide",
+      "original_file_path": "extraction-llm-strategies.md"
+    },
+    {
+      "file_path": "029-extraction-clustring-strategies.md",
+      "title": "Clustering Strategies - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/extraction/clustring-strategies/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:19.448191823-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the Cosine Strategy in Crawl4AI, a method for extracting web content based on semantic similarity and vector clustering rather than structural patterns. It details configuration parameters, usage patterns, and best practices for semantic content identification.",
+      "tags": [
+        "crawl4ai",
+        "cosine-strategy",
+        "semantic-extraction",
+        "web-scraping",
+        "vector-embeddings",
+        "content-clustering"
+      ],
+      "category": "reference",
+      "original_file_path": "extraction-clustring-strategies.md"
+    },
+    {
+      "file_path": "058-migration-webscraping-strategy-migration.md",
+      "title": "WebScrapingStrategy Migration Guide - Crawl4AI Documentation (v0.7.x)",
+      "url": "https://docs.crawl4ai.com/migration/webscraping-strategy-migration/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:25.713252302-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document explains the transition of Crawl4AI's scraping architecture from BeautifulSoup to an LXML-based implementation, detailing backward compatibility and performance improvements.",
+      "tags": [
+        "crawl4ai",
+        "web-scraping",
+        "lxml-integration",
+        "migration-guide",
+        "performance-optimization",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "migration-webscraping-strategy-migration.md"
+    },
+    {
+      "file_path": "059-migration-table-extraction-v073.md",
+      "title": "Migration Guide: Table Extraction v0.7.3",
+      "url": "https://docs.crawl4ai.com/migration/table_extraction_v073/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-22T22:23:24.366292893-03:00",
+      "description": "\ud83d\ude80\ud83e\udd16 Crawl4AI, Open-source LLM-Friendly Web Crawler & Scraper",
+      "summary": "This document introduces the Table Extraction Strategy Pattern in Crawl4AI v0.7.3, detailing the modular architecture for table processing and how to implement custom or default extraction strategies.",
+      "tags": [
+        "crawl4ai",
+        "table-extraction",
+        "strategy-pattern",
+        "web-scraping",
+        "python-library",
+        "backward-compatibility"
+      ],
+      "category": "guide",
+      "original_file_path": "migration-table-extraction-v073.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-23T01:25:20.845633Z",
+    "total_files": 78,
+    "categories": [
+      "Introduction & Overview",
+      "Installation & Quick Start",
+      "Core Fundamentals",
+      "Markdown & Content Processing",
+      "Scripting & CLI",
+      "Extraction Strategies",
+      "Advanced Features",
+      "API Reference",
+      "Apps & Demo Tools",
+      "Migration Guides",
+      "Blog Articles",
+      "Release Notes"
+    ]
+  }
+}

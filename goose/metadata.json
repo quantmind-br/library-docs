@@ -1,0 +1,2555 @@
+{
+  "generated_at": "2026-01-22T22:16:31.423358811-03:00",
+  "source_url": "https://block.github.io/goose/",
+  "strategy": "github_pages",
+  "total_documents": 134,
+  "documents": [
+    {
+      "file_path": "001-goose-docs-quickstart.md",
+      "title": "Quickstart | goose",
+      "url": "https://block.github.io/goose/docs/quickstart",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:02.701343844-03:00",
+      "description": "goose is an extensible open source AI agent that enhances your software development by automating coding tasks.",
+      "summary": "This tutorial provides a quickstart guide for goose, an open-source AI agent, covering installation, LLM provider configuration, and the creation of a web-based application.",
+      "tags": [
+        "ai-agent",
+        "software-automation",
+        "goose-cli",
+        "goose-desktop",
+        "llm-configuration",
+        "mcp-extensions"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-quickstart.md"
+    },
+    {
+      "file_path": "002-goose-docs-category-getting-started.md",
+      "title": "Getting Started | goose",
+      "url": "https://block.github.io/goose/docs/category/getting-started",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:10.564188804-03:00",
+      "description": "Get up to speed quickly with goose",
+      "summary": "This document introduces goose extensions and explains how they can be used to extend functionality, integrate with external tools, and access additional resources.",
+      "tags": [
+        "goose",
+        "extensions",
+        "integrations",
+        "add-ons",
+        "extensibility"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-category-getting-started.md"
+    },
+    {
+      "file_path": "003-goose-docs-category-architecture-overview.md",
+      "title": "Architecture Overview | goose",
+      "url": "https://block.github.io/goose/docs/category/architecture-overview",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:10.577699458-03:00",
+      "description": "Extend goose functionalities with extensions and custom configurations",
+      "summary": "This document describes the architectural framework of goose, explaining how it transforms standard LLM text interactions into a functional AI agent through tool integrations.",
+      "tags": [
+        "ai-agent",
+        "goose-architecture",
+        "llm",
+        "tool-integration",
+        "open-source"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-category-architecture-overview.md"
+    },
+    {
+      "file_path": "004-goose-docs-category-guides.md",
+      "title": "Guides | goose",
+      "url": "https://block.github.io/goose/docs/category/guides",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:10.578245603-03:00",
+      "description": "Learn essential tips and recommendations for using goose",
+      "summary": "A comprehensive index of guides for the goose AI development tool, covering project management, CLI operations, security permissions, and advanced configurations like MCP integration.",
+      "tags": [
+        "goose-ai",
+        "cli-commands",
+        "project-management",
+        "mcp-integration",
+        "ai-development",
+        "configuration-management",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-category-guides.md"
+    },
+    {
+      "file_path": "005-goose-docs-category-mcp-servers.md",
+      "title": "MCP Servers | goose",
+      "url": "https://block.github.io/goose/docs/category/mcp-servers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:10.584044003-03:00",
+      "description": "How to integrate and use MCP servers as goose extensions",
+      "summary": "This document explains how to use the Extension Manager to dynamically discover, enable, and disable extensions during Goose sessions via the Model Context Protocol.",
+      "tags": [
+        "goose",
+        "extensions",
+        "extension-manager",
+        "mcp",
+        "dynamic-discovery"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-category-mcp-servers.md"
+    },
+    {
+      "file_path": "006-goose-docs-category-tutorials.md",
+      "title": "Tutorials | goose",
+      "url": "https://block.github.io/goose/docs/category/tutorials",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:10.568570201-03:00",
+      "description": "How to use goose in various ways",
+      "summary": "This guide explains how to configure isolated development environments using the Container Use MCP and goose to ensure development tasks are restricted to specific containers and git branches.",
+      "tags": [
+        "goose",
+        "container-use-mcp",
+        "isolated-environments",
+        "containerization",
+        "development-workflow"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-category-tutorials.md"
+    },
+    {
+      "file_path": "007-goose-docs-getting-started-installation.md",
+      "title": "Install goose | goose",
+      "url": "https://block.github.io/goose/docs/getting-started/installation",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:22.808916518-03:00",
+      "description": "Choose to install the Desktop and/or CLI version of goose:",
+      "summary": "This document provides instructions for installing the goose Desktop and CLI applications, configuring LLM providers, and managing session settings across various operating systems.",
+      "tags": [
+        "installation",
+        "goose-desktop",
+        "goose-cli",
+        "llm-configuration",
+        "macos",
+        "linux",
+        "windows",
+        "setup-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-getting-started-installation.md"
+    },
+    {
+      "file_path": "008-goose-docs-getting-started-providers.md",
+      "title": "Configure LLM Provider | goose",
+      "url": "https://block.github.io/goose/docs/getting-started/providers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:25.762788519-03:00",
+      "description": "goose is compatible with a wide range of LLM providers, allowing you to choose and integrate your preferred model.",
+      "summary": "This document provides a comprehensive list of supported LLM providers and models for goose, detailing required environment variables and configuration parameters for each. It covers cloud-based APIs, local model runners, and pass-through CLI providers to help users select and integrate their preferred AI backend.",
+      "tags": [
+        "llm-providers",
+        "model-selection",
+        "api-configuration",
+        "cloud-ai",
+        "local-llm",
+        "environment-variables",
+        "integration-guide"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-getting-started-providers.md"
+    },
+    {
+      "file_path": "009-goose-docs-getting-started-using-extensions.md",
+      "title": "Using Extensions | goose",
+      "url": "https://block.github.io/goose/docs/getting-started/using-extensions",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:25.883351987-03:00",
+      "description": "Extensions are add-ons that provide a way to extend the functionality of goose by connecting with applications and tools you already use in your workflow. These extensions can be used to add new features, access data and resources, or integrate with other systems.",
+      "summary": "This document explains how to use and manage extensions in goose, covering built-in tools, installation of custom MCP servers, and various configuration methods.",
+      "tags": [
+        "goose-ai",
+        "model-context-protocol",
+        "extension-management",
+        "mcp-servers",
+        "software-integration",
+        "configuration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-getting-started-using-extensions.md"
+    },
+    {
+      "file_path": "010-goose-docs-goose-architecture.md",
+      "title": "goose Architecture | goose",
+      "url": "https://block.github.io/goose/docs/goose-architecture",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:26.976774255-03:00",
+      "description": "goose, an open source AI Agent, builds upon the basic interaction framework of Large Language Models (LLMs), which primarily functions as a text-based conversational interface. It processes text input and generates text output. This \"text in, text out\" approach is enhanced with tool integrations, which allows the AI agent to complete tasks, creating goose.",
+      "summary": "This document explains the architectural components, interactive loop, and tool integration framework of the goose AI agent, including its use of the Model Context Protocol.",
+      "tags": [
+        "ai-agent",
+        "mcp-protocol",
+        "interactive-loop",
+        "token-management",
+        "error-handling",
+        "llm-integration"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-goose-architecture.md"
+    },
+    {
+      "file_path": "011-goose-docs-goose-architecture-extensions-design.md",
+      "title": "Extensions Design | goose",
+      "url": "https://block.github.io/goose/docs/goose-architecture/extensions-design",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:28.48690887-03:00",
+      "description": "This document describes the design and implementation of the Extensions framework in goose, which enables AI agents to interact with different extensions through a unified tool-based interface.",
+      "summary": "This document outlines the design and implementation of the goose Extensions framework, which enables AI agents to interact with external tools through a standardized Rust-based interface.",
+      "tags": [
+        "goose-ai",
+        "extensions-framework",
+        "ai-agents",
+        "tool-calling",
+        "rust-development",
+        "software-architecture"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-goose-architecture-extensions-design.md"
+    },
+    {
+      "file_path": "012-goose-docs-goose-architecture-error-handling.md",
+      "title": "Error Handling | goose",
+      "url": "https://block.github.io/goose/docs/goose-architecture/error-handling",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:28.363310145-03:00",
+      "description": "Error handling is a key performance-driving part of goose. There are many ways that the non-determinism",
+      "summary": "This document explains the two primary types of error handling in the Goose framework, focusing on how system failures and agent-specific tool errors are processed and surfaced for model recovery.",
+      "tags": [
+        "error-handling",
+        "llm-agents",
+        "goose-framework",
+        "tool-use",
+        "rust-development"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-goose-architecture-error-handling.md"
+    },
+    {
+      "file_path": "013-goose-docs-guides-context-engineering.md",
+      "title": "Context Engineering | goose",
+      "url": "https://block.github.io/goose/docs/guides/context-engineering",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:40.788389337-03:00",
+      "description": "Provide goose with the knowledge, preferences, and workflows it needs to work effectively",
+      "summary": "This document introduces context engineering for goose, outlining various methods like goosehints, skills, and memory extensions to provide the AI with persistent background knowledge and workflows.",
+      "tags": [
+        "context-engineering",
+        "goose-ai",
+        "configuration",
+        "workflow-optimization",
+        "ai-instructions",
+        "memory-management"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-context-engineering.md"
+    },
+    {
+      "file_path": "014-goose-docs-guides-context-engineering-using-goosehints.md",
+      "title": "Providing Hints to goose | goose",
+      "url": "https://block.github.io/goose/docs/guides/context-engineering/using-goosehints",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:42.801461178-03:00",
+      "description": ".goosehints is a text file used to provide additional context about your project and improve the communication with goose. The use of .goosehints ensures that goose understands your requirements better and can execute tasks more effectively.",
+      "summary": "This document explains how to use .goosehints files to provide persistent context and custom instructions to the goose developer tool. It covers the setup of global and local hint files, hierarchical loading logic, and strategies for optimizing AI communication.",
+      "tags": [
+        "goosehints",
+        "ai-context",
+        "configuration-files",
+        "developer-workflow",
+        "custom-instructions",
+        "project-management"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-context-engineering-using-goosehints.md"
+    },
+    {
+      "file_path": "015-goose-docs-guides-context-engineering-using-skills.md",
+      "title": "Using Skills | goose",
+      "url": "https://block.github.io/goose/docs/guides/context-engineering/using-skills",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:43.730010935-03:00",
+      "description": "Skills are reusable sets of instructions and resources that teach goose how to perform specific tasks. A skill can range from a simple checklist to a detailed workflow with domain expertise, and can include supporting files like scripts or templates. Example use cases include deployment procedures, code review checklists, and API integration guides.",
+      "summary": "This document explains how to create and manage Skills in Goose, which are reusable sets of instructions and resources for specific workflows. It covers file structure, storage locations, and best practices for implementing custom task-based automation.",
+      "tags": [
+        "goose-ai",
+        "skills",
+        "workflow-automation",
+        "project-configuration",
+        "ai-instructions",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-context-engineering-using-skills.md"
+    },
+    {
+      "file_path": "016-goose-docs-guides-context-engineering-slash-commands.md",
+      "title": "Custom Slash Commands | goose",
+      "url": "https://block.github.io/goose/docs/guides/context-engineering/slash-commands",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:41.782665847-03:00",
+      "description": "Create custom shortcuts to quickly apply reusable instructions in any goose chat session",
+      "summary": "This document explains how to create and use custom slash commands as shortcuts to trigger specific recipes within chat sessions. It details how to invoke commands, pass parameters, and how the model processes recipe instructions as context.",
+      "tags": [
+        "goose",
+        "slash-commands",
+        "custom-shortcuts",
+        "recipes",
+        "workflow-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-context-engineering-slash-commands.md"
+    },
+    {
+      "file_path": "017-goose-docs-guides-sessions.md",
+      "title": "Managing Sessions | goose",
+      "url": "https://block.github.io/goose/docs/guides/sessions",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:24.603364983-03:00",
+      "description": "Manage your session lifecycle and ongoing interactions with goose",
+      "summary": "This document provides six essential tips and best practices for maximizing productivity and effectiveness when working with the goose AI agent.",
+      "tags": [
+        "goose-ai",
+        "productivity-tips",
+        "prompt-engineering",
+        "workflow-optimization",
+        "ai-agent"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-sessions.md"
+    },
+    {
+      "file_path": "018-goose-docs-guides-sessions-session-management.md",
+      "title": "Session Management | goose",
+      "url": "https://block.github.io/goose/docs/guides/sessions/session-management",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:28.589695022-03:00",
+      "description": "A session is a single, continuous interaction between you and goose, providing a space to ask questions and prompt action. This guide covers how to manage the session lifecycle.",
+      "summary": "This document provides instructions for managing the full session lifecycle in goose, covering how to start, name, search, resume, and delete sessions across desktop and CLI interfaces.",
+      "tags": [
+        "session-management",
+        "goose-desktop",
+        "goose-cli",
+        "workflow-automation",
+        "search-functionality",
+        "keyboard-shortcuts"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-sessions-session-management.md"
+    },
+    {
+      "file_path": "019-goose-docs-guides-sessions-in-session-actions.md",
+      "title": "In-Session Actions | goose",
+      "url": "https://block.github.io/goose/docs/guides/sessions/in-session-actions",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:25.850794091-03:00",
+      "description": "goose provides features you can use to manage conversations and share information during sessions.",
+      "summary": "This document explains how to manage and control AI sessions in goose through message editing, task queuing, and interruptions. It provides instructions for refining conversation history, chaining prompts for complex tasks, and redirecting the AI's workflow.",
+      "tags": [
+        "conversation-management",
+        "message-editing",
+        "task-queuing",
+        "prompt-chaining",
+        "workflow-control",
+        "session-forking"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-sessions-in-session-actions.md"
+    },
+    {
+      "file_path": "020-goose-docs-guides-sessions-smart-context-management.md",
+      "title": "Smart Context Management | goose",
+      "url": "https://block.github.io/goose/docs/guides/sessions/smart-context-management",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:29.499655086-03:00",
+      "description": "When working with Large Language Models (LLMs), there are limits to how much conversation history they can process at once. goose provides smart context management features to help handle context and conversation limits so you can maintain productive sessions. Here are some key concepts:",
+      "summary": "This document explains how goose manages LLM context windows and conversation history through automatic compaction, manual strategies, and turn limits. It provides instructions for configuring these limits to maintain long-running sessions and prevent resource exhaustion.",
+      "tags": [
+        "context-management",
+        "llm-tokens",
+        "auto-compaction",
+        "session-limits",
+        "goose-configuration",
+        "conversation-history"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-sessions-smart-context-management.md"
+    },
+    {
+      "file_path": "021-goose-docs-guides-recipes.md",
+      "title": "Recipes | goose",
+      "url": "https://block.github.io/goose/docs/guides/recipes",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:14.543372363-03:00",
+      "description": "Reusable and shareable AI workflows",
+      "summary": "This document serves as a central directory for Goose recipes, which are reusable workflows that package extensions, prompts, and settings for consistent task execution. It provides links to technical references, tutorials for subrecipes and parallel processing, and tools for generating and sharing recipes.",
+      "tags": [
+        "goose-recipes",
+        "workflow-automation",
+        "subrecipes",
+        "agentic-workflows",
+        "developer-productivity",
+        "recipe-management"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-recipes.md"
+    },
+    {
+      "file_path": "022-goose-docs-guides-recipes-recipe-reference.md",
+      "title": "Recipe Reference Guide | goose",
+      "url": "https://block.github.io/goose/docs/guides/recipes/recipe-reference",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:14.567929105-03:00",
+      "description": "Complete technical reference for creating and customizing recipes in goose",
+      "summary": "This document defines the core schema and configuration specifications for goose recipes, including detailed field definitions for activities, extensions, and parameters.",
+      "tags": [
+        "goose-recipes",
+        "configuration-schema",
+        "extension-configuration",
+        "model-context-protocol",
+        "parameter-substitution",
+        "automation-workflows"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-guides-recipes-recipe-reference.md"
+    },
+    {
+      "file_path": "023-goose-docs-guides-recipes-session-recipes.md",
+      "title": "Shareable Recipes | goose",
+      "url": "https://block.github.io/goose/docs/guides/recipes/session-recipes",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:15.637868605-03:00",
+      "description": "Share a goose session setup (including tools, goals, and instructions) as a reusable recipe that others can launch with a single click",
+      "summary": "This document provides instructions on how to create, edit, share, and schedule reusable recipes in goose to automate and replicate specific agent workflows and tool configurations.",
+      "tags": [
+        "goose-recipes",
+        "workflow-automation",
+        "recipe-management",
+        "scheduling",
+        "agent-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-recipes-session-recipes.md"
+    },
+    {
+      "file_path": "024-goose-docs-guides-recipes-storing-recipes.md",
+      "title": "Saving Recipes | goose",
+      "url": "https://block.github.io/goose/docs/guides/recipes/storing-recipes",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:16.972215306-03:00",
+      "description": "This guide covers storing, organizing, and finding goose recipes when you need to access them again later.",
+      "summary": "This guide explains how to manage, store, and access recipes within goose using both the Desktop UI and CLI. It covers storage locations, file formats, and procedures for importing and using saved recipes.",
+      "tags": [
+        "goose-recipes",
+        "recipe-management",
+        "desktop-ui",
+        "cli",
+        "configuration",
+        "data-storage"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-recipes-storing-recipes.md"
+    },
+    {
+      "file_path": "025-goose-docs-guides-recipes-subrecipes.md",
+      "title": "Subrecipes For Specialized Tasks | goose",
+      "url": "https://block.github.io/goose/docs/guides/recipes/subrecipes",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:17.672125224-03:00",
+      "description": "Learn how a recipe can use subrecipes to perform specific tasks",
+      "summary": "This document explains how to use subrecipes to create modular, reusable components and multi-step workflows within the Goose framework. It details configuration, parameter passing, and best practices for implementing isolated sub-tasks.",
+      "tags": [
+        "sub-recipes",
+        "workflow-automation",
+        "goose-recipes",
+        "modular-design",
+        "parameter-passing",
+        "configuration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-recipes-subrecipes.md"
+    },
+    {
+      "file_path": "026-goose-docs-guides-managing-tools.md",
+      "title": "Managing Tools | goose",
+      "url": "https://block.github.io/goose/docs/guides/managing-tools",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:03.509791319-03:00",
+      "description": "Control and configure the tools and extensions that power your goose workflows",
+      "summary": "This document provides a visual overview of the Model Context Protocol (MCP) ecosystem, explaining the relationships between AI agents, tools, and models through diagrams and analogies.",
+      "tags": [
+        "mcp-ecosystem",
+        "ai-agents",
+        "model-context-protocol",
+        "visual-guide",
+        "tool-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-managing-tools.md"
+    },
+    {
+      "file_path": "027-goose-docs-guides-managing-tools-code-mode.md",
+      "title": "Code Mode | goose",
+      "url": "https://block.github.io/goose/docs/guides/managing-tools/code-mode",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:07.175579176-03:00",
+      "description": "Understanding how Code Mode handles tool discovery and tool calling",
+      "summary": "This document explains Code Mode, a method for programmatically interacting with MCP tools to improve context window efficiency and enable batched tool execution.",
+      "tags": [
+        "mcp",
+        "code-mode",
+        "tool-calling",
+        "context-window",
+        "meta-tools",
+        "programmatic-execution"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-guides-managing-tools-code-mode.md"
+    },
+    {
+      "file_path": "028-goose-docs-guides-managing-tools-tool-permissions.md",
+      "title": "Managing Tool Permissions | goose",
+      "url": "https://block.github.io/goose/docs/guides/managing-tools/tool-permissions",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:07.365215885-03:00",
+      "description": "Tool permissions provide fine-grained control over how goose uses different tools within extensions. This guide will help you understand and configure these permissions effectively.",
+      "summary": "This document explains how to configure and manage fine-grained tool permissions in goose to override default behaviors for specific extension tools.",
+      "tags": [
+        "goose",
+        "tool-permissions",
+        "access-control",
+        "configuration",
+        "extension-management"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-managing-tools-tool-permissions.md"
+    },
+    {
+      "file_path": "029-goose-docs-guides-managing-tools-adjust-tool-output.md",
+      "title": "Adjusting Tool Output Verbosity | goose",
+      "url": "https://block.github.io/goose/docs/guides/managing-tools/adjust-tool-output",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:05.315981656-03:00",
+      "description": "Response Styles customize how tool interactions are displayed in the goose Desktop chat window.",
+      "summary": "This document explains how to configure the display style of tool interactions in the goose Desktop chat window, allowing users to choose between detailed and concise views.",
+      "tags": [
+        "goose-desktop",
+        "chat-settings",
+        "response-styles",
+        "tool-calls",
+        "ui-preferences"
+      ],
+      "category": "configuration",
+      "original_file_path": "goose-docs-guides-managing-tools-adjust-tool-output.md"
+    },
+    {
+      "file_path": "030-goose-docs-guides-interactive-chat.md",
+      "title": "Rich Interactive Chat with MCP Apps and MCP-UI | goose",
+      "url": "https://block.github.io/goose/docs/guides/interactive-chat",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:56.420046109-03:00",
+      "description": "Build interactive UI applications that render inside goose Desktop using MCP Apps and MCP-UI",
+      "summary": "This document introduces goose Desktop's support for interactive graphical interfaces and provides a curated list of resources regarding the MCP Apps and MCP-UI specifications.",
+      "tags": [
+        "goose-desktop",
+        "mcp-apps",
+        "mcp-ui",
+        "interactive-ui",
+        "ai-agents",
+        "graphical-interface"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-guides-interactive-chat.md"
+    },
+    {
+      "file_path": "031-goose-docs-guides-interactive-chat-mcp-ui.md",
+      "title": "Using MCP Apps and MCP-UI | goose",
+      "url": "https://block.github.io/goose/docs/guides/interactive-chat/mcp-ui",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:58.319556925-03:00",
+      "description": "Learn how goose renders interactive UI components from MCP Apps and MCP-UI extensions",
+      "summary": "This document introduces interactive user experiences in goose Desktop using MCP Apps and MCP-UI, explaining how developers can build graphical, clickable elements for dynamic interactions.",
+      "tags": [
+        "goose-desktop",
+        "mcp-apps",
+        "mcp-ui",
+        "interactive-ui",
+        "extension-development",
+        "user-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-interactive-chat-mcp-ui.md"
+    },
+    {
+      "file_path": "032-goose-docs-guides-security.md",
+      "title": "Staying Safe with goose | goose",
+      "url": "https://block.github.io/goose/docs/guides/security",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:22.362181024-03:00",
+      "description": "Keep your goose workflows safe with built-in security features and best practices",
+      "summary": "This document provides resources and best practices for securing AI workflows with goose, focusing on prompt injection detection and Model Context Protocol (MCP) security.",
+      "tags": [
+        "security",
+        "ai-safety",
+        "prompt-injection",
+        "model-context-protocol",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-security.md"
+    },
+    {
+      "file_path": "033-goose-docs-guides-security-prompt-injection-detection.md",
+      "title": "Prompt Injection Detection | goose",
+      "url": "https://block.github.io/goose/docs/guides/security/prompt-injection-detection",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:22.661093676-03:00",
+      "description": "Protect your workflow by detecting potentially harmful commands before they run.",
+      "summary": "This document explains how goose detects and prevents prompt injection attacks by scanning tool calls for risky patterns and allowing users to configure security thresholds.",
+      "tags": [
+        "prompt-injection",
+        "security-features",
+        "ai-safety",
+        "threat-detection",
+        "goose-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-security-prompt-injection-detection.md"
+    },
+    {
+      "file_path": "034-goose-docs-guides-mcp-elicitation.md",
+      "title": "MCP Elicitation | goose",
+      "url": "https://block.github.io/goose/docs/guides/mcp-elicitation",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:08.438122575-03:00",
+      "description": "How extensions can request structured information from you during a task",
+      "summary": "This document explains the MCP Elicitation feature in goose, which enables extensions to request specific information from users through interactive forms instead of making assumptions.",
+      "tags": [
+        "mcp-elicitation",
+        "goose",
+        "model-context-protocol",
+        "user-input",
+        "extension-development"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-guides-mcp-elicitation.md"
+    },
+    {
+      "file_path": "035-goose-docs-guides-mcp-sampling.md",
+      "title": "MCP Sampling Extensions | goose",
+      "url": "https://block.github.io/goose/docs/guides/mcp-sampling",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:10.286304959-03:00",
+      "description": "Transforms MCP servers into intelligent agents that can think, analyze, and make decisions using goose's AI",
+      "summary": "This document explains how MCP Sampling allows goose extensions to leverage the host's AI capabilities for contextual analysis and intelligent decision-making. It details the mechanism of sampling requests and provides use cases for creating more sophisticated AI-driven tools.",
+      "tags": [
+        "mcp-sampling",
+        "model-context-protocol",
+        "goose-ai",
+        "extension-development",
+        "agentic-capabilities"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-guides-mcp-sampling.md"
+    },
+    {
+      "file_path": "036-goose-docs-guides-acp-clients.md",
+      "title": "Using goose in ACP Clients | goose",
+      "url": "https://block.github.io/goose/docs/guides/acp-clients",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:33.417267248-03:00",
+      "description": "Client applications that support the Agent Client Protocol (ACP) can connect natively to goose. This integration allows you to seamlessly interact with goose directly from the client.",
+      "summary": "This document explains how to integrate the goose AI agent with client applications using the Agent Client Protocol (ACP) for native connectivity and tool usage.",
+      "tags": [
+        "agent-client-protocol",
+        "acp",
+        "goose-cli",
+        "zed-editor",
+        "integration",
+        "mcp-servers"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-acp-clients.md"
+    },
+    {
+      "file_path": "037-goose-docs-guides-allowlist.md",
+      "title": "goose Extension Allowlist | goose",
+      "url": "https://block.github.io/goose/docs/guides/allowlist",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:34.197503244-03:00",
+      "description": "goose is an extensible framework that, by default, allows you to install any MCP server. However, you may want stricter controls on which MCP servers can be installed as extensions (e.g. in a corporate setting).",
+      "summary": "This guide explains how to implement and configure an allowlist to restrict which MCP server extensions can be installed in goose for enhanced security and administrative control. It covers YAML configuration, environment variable setup, and best practices for managing safe extensions.",
+      "tags": [
+        "goose",
+        "mcp-server",
+        "allowlist",
+        "security-controls",
+        "extension-management",
+        "configuration-guide",
+        "yaml-config"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-allowlist.md"
+    },
+    {
+      "file_path": "038-goose-docs-guides-cli-providers.md",
+      "title": "CLI Providers | goose",
+      "url": "https://block.github.io/goose/docs/guides/cli-providers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:35.083510518-03:00",
+      "description": "Use Claude Code, Codex, Cursor Agent, or Gemini CLI subscriptions in goose",
+      "summary": "This document explains how to integrate and configure pass-through CLI providers like Claude Code, OpenAI Codex, and Gemini CLI within the goose interface to enable session management and unified workflows.",
+      "tags": [
+        "goose-ai",
+        "cli-providers",
+        "session-management",
+        "configuration",
+        "integration",
+        "claude-code",
+        "openai-codex",
+        "gemini-cli"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-cli-providers.md"
+    },
+    {
+      "file_path": "039-goose-docs-guides-codebase-analysis.md",
+      "title": "Codebase Analysis | goose",
+      "url": "https://block.github.io/goose/docs/guides/codebase-analysis",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:35.658748969-03:00",
+      "description": "Understand codebases with semantic analysis and call graphs",
+      "summary": "This document explains how to use the analyze tool in the Goose Developer extension to explore code structure, inspect file details, and track symbol usage across a project.",
+      "tags": [
+        "goose-mcp",
+        "developer-extension",
+        "code-analysis",
+        "symbol-tracking",
+        "static-analysis",
+        "developer-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-guides-codebase-analysis.md"
+    },
+    {
+      "file_path": "040-goose-docs-guides-config-files.md",
+      "title": "Configuration Files | goose",
+      "url": "https://block.github.io/goose/docs/guides/config-files",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:38.127123643-03:00",
+      "description": "goose uses YAML configuration files to manage settings and extensions. The primary config file is located at:",
+      "summary": "This document explains how to use YAML files to manage goose settings, including LLM providers, tool permissions, and extension configurations. It provides a complete reference for global settings, file locations, and configuration precedence across different operating systems.",
+      "tags": [
+        "goose-ai",
+        "yaml-configuration",
+        "llm-settings",
+        "extension-management",
+        "environment-variables",
+        "configuration-reference"
+      ],
+      "category": "configuration",
+      "original_file_path": "goose-docs-guides-config-files.md"
+    },
+    {
+      "file_path": "041-goose-docs-guides-creating-plans.md",
+      "title": "Creating Plans Before Working | goose",
+      "url": "https://block.github.io/goose/docs/guides/creating-plans",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:44.72280613-03:00",
+      "description": "Starting a project without a clear plan is like building a house without a blueprint. It can lead to:",
+      "summary": "This document explains how to use the goose planning mode to break down projects into actionable steps and provides instructions for configuring specific LLM models for the planning phase.",
+      "tags": [
+        "goose-cli",
+        "planning-mode",
+        "configuration",
+        "environment-variables",
+        "model-switching",
+        "project-management"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-creating-plans.md"
+    },
+    {
+      "file_path": "042-goose-docs-guides-enhanced-code-editing.md",
+      "title": "Enhanced Code Editing with AI Models | goose",
+      "url": "https://block.github.io/goose/docs/guides/enhanced-code-editing",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:47.210450505-03:00",
+      "description": "Use AI models to intelligently apply code changes",
+      "summary": "This document explains how to enable and configure AI-powered code editing in the Goose Developer extension using environment variables and OpenAI-compatible APIs to enhance the str_replace tool.",
+      "tags": [
+        "goose-extension",
+        "ai-code-editing",
+        "str-replace",
+        "environment-variables",
+        "llm-integration",
+        "developer-tools"
+      ],
+      "category": "configuration",
+      "original_file_path": "goose-docs-guides-enhanced-code-editing.md"
+    },
+    {
+      "file_path": "043-goose-docs-guides-environment-variables.md",
+      "title": "Environment Variables | goose",
+      "url": "https://block.github.io/goose/docs/guides/environment-variables",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:49.003573938-03:00",
+      "description": "goose supports various environment variables that allow you to customize its behavior. This guide provides a comprehensive list of available environment variables grouped by their functionality.",
+      "summary": "This document provides a comprehensive reference for environment variables used to configure goose, including model providers, lead-worker patterns, and session management settings.",
+      "tags": [
+        "environment-variables",
+        "configuration",
+        "goose",
+        "llm-providers",
+        "session-management",
+        "retry-logic"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-guides-environment-variables.md"
+    },
+    {
+      "file_path": "044-goose-docs-guides-file-management.md",
+      "title": "File Access and Management | goose",
+      "url": "https://block.github.io/goose/docs/guides/file-management",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:51.21771714-03:00",
+      "description": "Efficiently find and reference files in goose Desktop and follow best practices for safe file operations",
+      "summary": "This guide explains how to efficiently search for and reference files using goose Desktop's fuzzy search feature and outlines best practices for safe file management.",
+      "tags": [
+        "goose-desktop",
+        "file-management",
+        "fuzzy-search",
+        "version-control",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-file-management.md"
+    },
+    {
+      "file_path": "045-goose-docs-guides-goose-cli-commands.md",
+      "title": "CLI Commands | goose",
+      "url": "https://block.github.io/goose/docs/guides/goose-cli-commands",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:51.679372663-03:00",
+      "description": "goose provides a command-line interface (CLI) with several commands for managing sessions, configurations and extensions. This guide covers all available CLI commands and interactive session features.",
+      "summary": "This guide provides a comprehensive overview of the goose command-line interface, detailing flag naming conventions and commands for session lifecycle management and configuration.",
+      "tags": [
+        "goose-cli",
+        "command-line-interface",
+        "session-management",
+        "cli-commands",
+        "configuration",
+        "interactive-sessions"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-guides-goose-cli-commands.md"
+    },
+    {
+      "file_path": "046-goose-docs-guides-goose-permissions.md",
+      "title": "goose Permission Modes | goose",
+      "url": "https://block.github.io/goose/docs/guides/goose-permissions",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:52.074327788-03:00",
+      "description": "goose\u2019s permissions determine how much autonomy it has when modifying files, using extensions, and performing automated actions. By selecting a permission mode, you have full control over how goose interacts with your development environment.",
+      "summary": "This document outlines the four permission modes in goose that manage its level of autonomy for file modifications and tool usage. It provides guidance on choosing and configuring the right mode for different development workflows and security needs.",
+      "tags": [
+        "goose",
+        "permission-modes",
+        "autonomy-levels",
+        "security-configuration",
+        "tool-permissions",
+        "ai-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-goose-permissions.md"
+    },
+    {
+      "file_path": "047-goose-docs-guides-handling-llm-rate-limits-with-goose.md",
+      "title": "Set LLM Rate Limits | goose",
+      "url": "https://block.github.io/goose/docs/guides/handling-llm-rate-limits-with-goose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:54.752527811-03:00",
+      "description": "Rate limiting is the process of restricting the number of requests a user or application can send to an LLM API within a specific timeframe. LLM providers enforce this with the purpose of managing resources and preventing abuse.",
+      "summary": "This document explains the concept of rate limiting in LLM APIs and provides guidance on managing request limits using specific providers like Tetrate and OpenRouter.",
+      "tags": [
+        "rate-limiting",
+        "llm-api",
+        "api-management",
+        "openrouter",
+        "tetrate-agent-router",
+        "resource-allocation"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-handling-llm-rate-limits-with-goose.md"
+    },
+    {
+      "file_path": "048-goose-docs-guides-logs.md",
+      "title": "goose Logging System | goose",
+      "url": "https://block.github.io/goose/docs/guides/logs",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:59.879655926-03:00",
+      "description": "goose uses a unified storage system for conversations and interactions. All conversations and interactions (both CLI and Desktop) are stored locally in the following locations:",
+      "summary": "This document outlines the local storage architecture for goose, detailing where session records, command history, and system logs are stored across different operating systems.",
+      "tags": [
+        "storage-locations",
+        "session-management",
+        "log-files",
+        "data-privacy",
+        "cross-platform"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-guides-logs.md"
+    },
+    {
+      "file_path": "049-goose-docs-guides-managing-projects.md",
+      "title": "Managing Projects | goose",
+      "url": "https://block.github.io/goose/docs/guides/managing-projects",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:00.594683181-03:00",
+      "description": "goose Projects automatically track your working directories and associated sessions, making it easy to resume work across multiple codebases with full context preservation.",
+      "summary": "This document explains how goose Projects track working directories and sessions to facilitate seamless context preservation and workflow resumption across multiple codebases.",
+      "tags": [
+        "goose-cli",
+        "project-management",
+        "context-preservation",
+        "session-tracking",
+        "developer-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-managing-projects.md"
+    },
+    {
+      "file_path": "050-goose-docs-guides-multi-model.md",
+      "title": "Multi-Model Configuration | goose",
+      "url": "https://block.github.io/goose/docs/guides/multi-model",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:11.423078181-03:00",
+      "description": "Approaches for configuring model-switching behavior to optimize for cost, performance, and results.",
+      "summary": "This document outlines strategies and resources for utilizing multiple models within goose sessions, covering lead/worker configurations and planning modes to optimize AI agent performance.",
+      "tags": [
+        "multi-model",
+        "lead-worker",
+        "ai-agents",
+        "task-planning",
+        "model-optimization",
+        "goose-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-multi-model.md"
+    },
+    {
+      "file_path": "051-goose-docs-guides-running-tasks.md",
+      "title": "Running Tasks | goose",
+      "url": "https://block.github.io/goose/docs/guides/running-tasks",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:22.213764372-03:00",
+      "description": "When working with the goose CLI, you can pass files and instructions to the goose run command to execute tasks and workflows. This could be a simple one-liner command or a complex set of instructions stored in a file.",
+      "summary": "This document explains how to use the goose run command to execute tasks via the CLI, covering instruction methods, session management, and configuration options.",
+      "tags": [
+        "goose-cli",
+        "command-line",
+        "task-execution",
+        "session-management",
+        "automation",
+        "cli-reference"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-running-tasks.md"
+    },
+    {
+      "file_path": "052-goose-docs-guides-subagents.md",
+      "title": "Subagents | goose",
+      "url": "https://block.github.io/goose/docs/guides/subagents",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:30.818898927-03:00",
+      "description": "Subagents are independent instances that execute tasks while keeping your main conversation clean and focused. They bring process isolation and context preservation by offloading work to separate instances. Think of them as temporary assistants that handle specific jobs without cluttering your chat with tool execution details.",
+      "summary": "This document explains how to use and configure subagents in goose to delegate tasks, manage process isolation, and perform parallel operations using internal recipes or external agents.",
+      "tags": [
+        "subagents",
+        "process-isolation",
+        "parallel-tasks",
+        "goose-configuration",
+        "agent-recipes",
+        "internal-subagents",
+        "external-subagents"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-subagents.md"
+    },
+    {
+      "file_path": "053-goose-docs-guides-terminal-integration.md",
+      "title": "Terminal Integration | goose",
+      "url": "https://block.github.io/goose/docs/guides/terminal-integration",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:30.594747588-03:00",
+      "description": "Talk to goose directly from your shell prompt. Instead of switching to a separate REPL session, stay in your terminal and call goose when you need it.",
+      "summary": "This document provides instructions for integrating the goose assistant into terminal environments, including setup for various shells, usage commands, and session management.",
+      "tags": [
+        "terminal-integration",
+        "cli-tools",
+        "shell-configuration",
+        "goose-ai",
+        "session-management",
+        "command-line-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-terminal-integration.md"
+    },
+    {
+      "file_path": "054-goose-docs-guides-tips.md",
+      "title": "Quick goose Tips | goose",
+      "url": "https://block.github.io/goose/docs/guides/tips",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:32.418973118-03:00",
+      "description": "Best practices for working with goose",
+      "summary": "This document provides a comprehensive set of best practices and feature overviews for effectively using the goose AI agent, covering session management, extensions, and workflow optimization.",
+      "tags": [
+        "ai-agent",
+        "workflow-automation",
+        "mcp-extensions",
+        "prompt-engineering",
+        "session-management",
+        "llm-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-tips.md"
+    },
+    {
+      "file_path": "055-goose-docs-guides-updating-goose.md",
+      "title": "Updating goose | goose",
+      "url": "https://block.github.io/goose/docs/guides/updating-goose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:34.914826225-03:00",
+      "description": "The goose CLI and desktop apps are under active and continuous development. To get the newest features and fixes, you should periodically update your goose client using the following instructions.",
+      "summary": "This document provides instructions for updating the goose CLI and desktop applications to the latest version across macOS, Linux, and Windows systems.",
+      "tags": [
+        "goose-cli",
+        "goose-desktop",
+        "software-updates",
+        "installation-guide",
+        "macos",
+        "linux",
+        "windows"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-updating-goose.md"
+    },
+    {
+      "file_path": "056-goose-docs-guides-using-gooseignore.md",
+      "title": "Prevent goose from Accessing Files | goose",
+      "url": "https://block.github.io/goose/docs/guides/using-gooseignore",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:36.95310531-03:00",
+      "description": ".gooseignore is a text file that defines patterns for files and directories that goose will not access. This means goose cannot read, modify, delete, or run shell commands on these files when using the Developer extension's tools.",
+      "summary": "This document explains how to use .gooseignore files to restrict the goose Developer extension from accessing, modifying, or executing commands on specific files and directories.",
+      "tags": [
+        "gooseignore",
+        "file-exclusion",
+        "configuration",
+        "developer-extension",
+        "access-control"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-guides-using-gooseignore.md"
+    },
+    {
+      "file_path": "057-goose-docs-mcp-developer-mcp.md",
+      "title": "Developer Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/developer-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:03.447168249-03:00",
+      "description": "Use Developer MCP Server as a goose Extension",
+      "summary": "This document explains how to enable, use, and secure the Developer extension for goose, which automates file editing and shell command execution.",
+      "tags": [
+        "goose-extension",
+        "developer-tools",
+        "automation",
+        "access-control",
+        "shell-execution",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-developer-mcp.md"
+    },
+    {
+      "file_path": "058-goose-docs-mcp-extension-manager-mcp.md",
+      "title": "Extension Manager | goose",
+      "url": "https://block.github.io/goose/docs/mcp/extension-manager-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:08.17079055-03:00",
+      "description": "Dynamically discover, enable, and disable extensions during goose sessions",
+      "summary": "This document explains how the Extension Manager for goose enables dynamic discovery and management of extensions to optimize tool selection and performance during active sessions.",
+      "tags": [
+        "extension-manager",
+        "goose-ai",
+        "tool-selection",
+        "performance-optimization",
+        "dynamic-extensions",
+        "resource-management"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-extension-manager-mcp.md"
+    },
+    {
+      "file_path": "059-goose-docs-mcp-memory-mcp.md",
+      "title": "Memory Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/memory-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:26.175138873-03:00",
+      "description": "Use Memory MCP Server as a goose Extension",
+      "summary": "This document explains how to enable and use the Memory extension in goose to store, retrieve, and manage persistent information such as project-specific standards and custom configurations.",
+      "tags": [
+        "goose-ai",
+        "memory-extension",
+        "mcp-server",
+        "knowledge-management",
+        "configuration-guide",
+        "persistent-storage"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-memory-mcp.md"
+    },
+    {
+      "file_path": "060-goose-docs-mcp-skills-mcp.md",
+      "title": "Skills Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/skills-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:48.83346019-03:00",
+      "description": "Load reusable instruction sets that teach goose specific workflows",
+      "summary": "This document outlines the mandatory safe deployment procedure and checklist required for moving code from a feature branch to a production environment.",
+      "tags": [
+        "deployment-workflow",
+        "production-release",
+        "devops-checklists",
+        "continuous-delivery",
+        "deployment-safety"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-skills-mcp.md"
+    },
+    {
+      "file_path": "061-goose-docs-mcp-todo-mcp.md",
+      "title": "Todo Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/todo-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:57.038317587-03:00",
+      "description": "Breaks complex work into trackable steps to help goose stay organized",
+      "summary": "This document explains how to enable and use the Todo extension in Goose to organize complex tasks through automated checklist creation and progress tracking.",
+      "tags": [
+        "goose-ai",
+        "todo-extension",
+        "task-management",
+        "workflow-automation",
+        "productivity-tools"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-todo-mcp.md"
+    },
+    {
+      "file_path": "062-goose-docs-mcp-tutorial-mcp.md",
+      "title": "Tutorial Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/tutorial-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:57.504412171-03:00",
+      "description": "Learn how to use goose's built-in Tutorial extension for guided learning",
+      "summary": "This document explains how to use the built-in Tutorial extension in goose to access interactive, step-by-step guidance and hands-on practice for learning goose features.",
+      "tags": [
+        "goose-ai",
+        "interactive-learning",
+        "tutorial-extension",
+        "onboarding",
+        "mcp-protocol"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-tutorial-mcp.md"
+    },
+    {
+      "file_path": "063-goose-docs-mcp-computer-controller-mcp.md",
+      "title": "Computer Controller Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/computer-controller-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:54.893620986-03:00",
+      "description": "Use Computer Controller MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to enable and use the built-in Computer Controller extension for Goose to automate system tasks, web interactions, and file management.",
+      "tags": [
+        "goose-extension",
+        "computer-controller",
+        "automation",
+        "mcp-server",
+        "system-automation",
+        "workflow-automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-computer-controller-mcp.md"
+    },
+    {
+      "file_path": "064-goose-docs-mcp-goose-docs-mcp.md",
+      "title": "goose Docs Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/goose-docs-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:18.444934385-03:00",
+      "description": "Add goose Docs MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to install and configure the goose Docs MCP Server extension to enable goose to access and answer questions about its own documentation.",
+      "tags": [
+        "goose",
+        "mcp-server",
+        "extension-installation",
+        "documentation",
+        "git-mcp"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-goose-docs-mcp.md"
+    },
+    {
+      "file_path": "065-goose-docs-mcp-agentql-mcp.md",
+      "title": "AgentQL Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/agentql-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:37.545304819-03:00",
+      "description": "Add AgentQL MCP Server as a goose Extension",
+      "summary": "This tutorial demonstrates how to integrate the AgentQL MCP Server as a goose extension to extract and transform unstructured web content into structured JSON data.",
+      "tags": [
+        "agentql",
+        "mcp-server",
+        "goose-extension",
+        "web-extraction",
+        "data-transformation",
+        "structured-data"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-agentql-mcp.md"
+    },
+    {
+      "file_path": "066-goose-docs-mcp-alby-mcp.md",
+      "title": "Alby Bitcoin Payments Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/alby-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:37.554856677-03:00",
+      "description": "Connect goose to your Bitcoin Lightning Wallet",
+      "summary": "This tutorial explains how to integrate and configure the Alby Bitcoin Payments MCP Server as an extension for the goose AI agent. It covers setting up NWC connections for both desktop and CLI environments to enable Lightning Network transactions.",
+      "tags": [
+        "bitcoin-lightning",
+        "alby",
+        "mcp-server",
+        "goose-extension",
+        "nwc",
+        "crypto-payments"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-alby-mcp.md"
+    },
+    {
+      "file_path": "067-goose-docs-mcp-apify-mcp.md",
+      "title": "Apify Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/apify-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:40.405116746-03:00",
+      "description": "Add Apify MCP server as a goose Extension",
+      "summary": "This document explains how to integrate the Apify MCP server with the goose extension to perform web scraping and data extraction using Apify Actors.",
+      "tags": [
+        "apify",
+        "mcp-server",
+        "goose-extension",
+        "web-scraping",
+        "data-extraction",
+        "ai-tools"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-apify-mcp.md"
+    },
+    {
+      "file_path": "068-goose-docs-mcp-asana-mcp.md",
+      "title": "Asana Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/asana-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:41.020665402-03:00",
+      "description": "Add Asana MCP Server as a goose Extension",
+      "summary": "This tutorial provides step-by-step instructions for installing and configuring the Asana MCP server as a goose extension to enable AI-driven task automation and project tracking.",
+      "tags": [
+        "goose-extension",
+        "asana-integration",
+        "mcp-server",
+        "task-automation",
+        "project-management"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-asana-mcp.md"
+    },
+    {
+      "file_path": "069-goose-docs-mcp-autovisualiser-mcp.md",
+      "title": "Auto Visualiser Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/autovisualiser-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:43.672309748-03:00",
+      "description": "Add automatic data visualization to goose",
+      "summary": "This document demonstrates how to use various data visualization techniques, such as treemaps and radar charts, to analyze quarterly sales performance and identify business trends.",
+      "tags": [
+        "data-visualization",
+        "sales-analysis",
+        "business-intelligence",
+        "treemap",
+        "radar-chart",
+        "sankey-diagram"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-autovisualiser-mcp.md"
+    },
+    {
+      "file_path": "070-goose-docs-mcp-blender-mcp.md",
+      "title": "Blender Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/blender-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:46.049750594-03:00",
+      "description": "Add Blender MCP Server as a goose Extension",
+      "summary": "This document provides a step-by-step walkthrough for creating a stylized campfire scene in Blender, covering basic modeling, material application, and lighting setup.",
+      "tags": [
+        "blender",
+        "3d-modeling",
+        "lighting",
+        "cycles-renderer",
+        "scene-composition",
+        "blender-materials"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-blender-mcp.md"
+    },
+    {
+      "file_path": "071-goose-docs-mcp-browserbase-mcp.md",
+      "title": "Browserbase Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/browserbase-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:45.374634888-03:00",
+      "description": "Add Browserbase MCP Server as a goose Extension for Web Automation",
+      "summary": "This document provides instructions for integrating the Browserbase MCP Server as a goose extension to enable automated browser interactions, navigation, and web scraping.",
+      "tags": [
+        "browserbase",
+        "mcp-server",
+        "goose-extension",
+        "browser-automation",
+        "web-scraping",
+        "model-context-protocol"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-browserbase-mcp.md"
+    },
+    {
+      "file_path": "072-goose-docs-mcp-chatrecall-mcp.md",
+      "title": "Chat Recall Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/chatrecall-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:46.556757417-03:00",
+      "description": "Search conversation history and load session summaries across all your goose sessions",
+      "summary": "This document summarizes recent developer sessions focused on resolving failing database migrations and planning new schema updates for a production environment.",
+      "tags": [
+        "database-migration",
+        "schema-updates",
+        "sql-debugging",
+        "backend-development",
+        "production-deployment"
+      ],
+      "category": "other",
+      "original_file_path": "goose-docs-mcp-chatrecall-mcp.md"
+    },
+    {
+      "file_path": "073-goose-docs-mcp-chrome-devtools-mcp.md",
+      "title": "Chrome DevTools Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/chrome-devtools-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:49.078107829-03:00",
+      "description": "Add Chrome DevTools MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the Chrome DevTools MCP Server with goose to enable automated web performance testing and browser debugging.",
+      "tags": [
+        "chrome-devtools",
+        "mcp-server",
+        "goose",
+        "browser-automation",
+        "performance-testing",
+        "debugging"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-chrome-devtools-mcp.md"
+    },
+    {
+      "file_path": "074-goose-docs-mcp-cloudinary-asset-management-mcp.md",
+      "title": "Cloudinary Asset Management Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/cloudinary-asset-management-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:51.118963094-03:00",
+      "description": "Add Cloudinary Asset Management MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the Cloudinary Asset Management MCP Server with goose to automate image searching and complex visual transformations using natural language.",
+      "tags": [
+        "cloudinary",
+        "mcp-server",
+        "goose-extension",
+        "image-processing",
+        "automation",
+        "image-transformation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-cloudinary-asset-management-mcp.md"
+    },
+    {
+      "file_path": "075-goose-docs-mcp-code-execution-mcp.md",
+      "title": "Code Execution Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/code-execution-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:52.402006173-03:00",
+      "description": "Execute JavaScript code to interact with multiple MCP tools",
+      "summary": "This document explains how to automate the creation of a LOG.md file that captures git branch details, recent commit history, and the project version from package.json.",
+      "tags": [
+        "git-metadata",
+        "automation",
+        "logging",
+        "package-json",
+        "version-tracking",
+        "git-history"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-code-execution-mcp.md"
+    },
+    {
+      "file_path": "076-goose-docs-mcp-cognee-mcp.md",
+      "title": "Cognee Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/cognee-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:52.662418127-03:00",
+      "description": "Add Cognee MCP Server as a goose Extension",
+      "summary": "This tutorial provides instructions for integrating the Cognee MCP Server with the goose CLI to provide AI agents with knowledge graph memory capabilities.",
+      "tags": [
+        "goose-cli",
+        "cognee",
+        "mcp-server",
+        "knowledge-graph",
+        "ai-extensions",
+        "configuration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-cognee-mcp.md"
+    },
+    {
+      "file_path": "077-goose-docs-mcp-container-use-mcp.md",
+      "title": "Container Use Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/container-use-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:55.383756349-03:00",
+      "description": "Use Container-Use MCP as a goose Extension",
+      "summary": "This tutorial explains how to integrate the Container Use MCP Server with the goose AI agent to enable automated tasks and code modifications within isolated Docker environments.",
+      "tags": [
+        "goose-ai",
+        "mcp-server",
+        "container-use",
+        "docker",
+        "isolated-environments",
+        "automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-container-use-mcp.md"
+    },
+    {
+      "file_path": "078-goose-docs-mcp-context7-mcp.md",
+      "title": "Context7 Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/context7-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:58.471929173-03:00",
+      "description": "Add Context7 MCP Server as a goose Extension",
+      "summary": "This document evaluates and compares core architectural choices for web development, specifically focusing on the benefits of the Next.js App Router, Prisma ORM, and NextAuth.js integration.",
+      "tags": [
+        "nextjs",
+        "app-router",
+        "prisma",
+        "nextauth",
+        "orm",
+        "server-components",
+        "web-architecture"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-context7-mcp.md"
+    },
+    {
+      "file_path": "079-goose-docs-mcp-council-of-mine-mcp.md",
+      "title": "Council of Mine Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/council-of-mine-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:14:58.549773925-03:00",
+      "description": "Add Council of Mine MCP Server as a goose Extension",
+      "summary": "This document outlines the results of a workflow test for the Council of Mine extension, demonstrating its capability to facilitate multi-perspective debates among AI agents and synthesize voting outcomes.",
+      "tags": [
+        "council-of-mine",
+        "ai-personalities",
+        "multi-agent-systems",
+        "test-results",
+        "debate-workflow"
+      ],
+      "category": "other",
+      "original_file_path": "goose-docs-mcp-council-of-mine-mcp.md"
+    },
+    {
+      "file_path": "080-goose-docs-mcp-datahub-mcp.md",
+      "title": "DataHub Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/datahub-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:00.274949056-03:00",
+      "description": "Add DataHub MCP Server as a goose Extension",
+      "summary": "This document provides instructions for integrating the DataHub MCP Server with goose to enable AI-driven data discovery and metadata exploration. It covers environment setup, installation, and practical usage examples for data lineage and SQL generation.",
+      "tags": [
+        "datahub",
+        "mcp-server",
+        "goose-extension",
+        "data-lineage",
+        "metadata-management",
+        "ai-agents"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-datahub-mcp.md"
+    },
+    {
+      "file_path": "081-goose-docs-mcp-dev.to-mcp.md",
+      "title": "Dev.to Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/dev.to-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:00.897189393-03:00",
+      "description": "Add Dev.to MCP Server as a goose Extension",
+      "summary": "This document describes the creation and features of a responsive HTML landing page that aggregates recent JavaScript articles from Dev.to to provide a curated learning experience.",
+      "tags": [
+        "javascript",
+        "dev-to",
+        "frontend-development",
+        "content-aggregation",
+        "responsive-design",
+        "learning-platform"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-dev.to-mcp.md"
+    },
+    {
+      "file_path": "082-goose-docs-mcp-elevenlabs-mcp.md",
+      "title": "ElevenLabs Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/elevenlabs-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:06.464423828-03:00",
+      "description": "Add ElevenLabs MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the ElevenLabs MCP Server into goose to enable AI voice generation, cloning, and text-to-speech features.",
+      "tags": [
+        "elevenlabs",
+        "goose",
+        "mcp-server",
+        "text-to-speech",
+        "voice-synthesis",
+        "ai-audio"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-elevenlabs-mcp.md"
+    },
+    {
+      "file_path": "083-goose-docs-mcp-fetch-mcp.md",
+      "title": "Fetch Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/fetch-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:10.448847003-03:00",
+      "description": "Add Fetch MCP Server as a goose Extension",
+      "summary": "This document provides instructions on installing and configuring the Fetch MCP Server extension for goose to enable web content retrieval and processing capabilities.",
+      "tags": [
+        "goose",
+        "mcp-server",
+        "web-fetching",
+        "extension-setup",
+        "api-integration",
+        "uvx"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-fetch-mcp.md"
+    },
+    {
+      "file_path": "084-goose-docs-mcp-figma-mcp.md",
+      "title": "Figma Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/figma-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:10.443031671-03:00",
+      "description": "Add Figma Dev Mode MCP Server as a goose Extension",
+      "summary": "This document provides instructions for integrating the Figma Dev Mode MCP Server with goose to enable design interaction and automated code generation from Figma files.",
+      "tags": [
+        "figma",
+        "mcp-server",
+        "goose-extension",
+        "design-to-code",
+        "frontend-development",
+        "react",
+        "automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-figma-mcp.md"
+    },
+    {
+      "file_path": "085-goose-docs-mcp-filesystem-mcp.md",
+      "title": "Filesystem Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/filesystem-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:11.6209776-03:00",
+      "description": "Add Filesystem MCP Server as goose Extension",
+      "summary": "This document explains how to integrate and configure the Filesystem MCP server as an extension for goose to enable automated file management and code analysis.",
+      "tags": [
+        "goose",
+        "model-context-protocol",
+        "filesystem-mcp",
+        "extension-setup",
+        "file-management",
+        "code-analysis"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-filesystem-mcp.md"
+    },
+    {
+      "file_path": "086-goose-docs-mcp-firecrawl-mcp.md",
+      "title": "Firecrawl Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/firecrawl-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:13.460762604-03:00",
+      "description": "Add Firecrawl MCP Server as a goose Extension",
+      "summary": "This document explains how to set up and use the Firecrawl MCP Server as a goose extension to provide AI agents with advanced web scraping, crawling, and search capabilities. It demonstrates how the server enables agents to gather and synthesize information from multiple web sources automatically.",
+      "tags": [
+        "firecrawl",
+        "mcp-server",
+        "web-scraping",
+        "ai-agents",
+        "goose-extension",
+        "web-crawling",
+        "information-retrieval"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-firecrawl-mcp.md"
+    },
+    {
+      "file_path": "087-goose-docs-mcp-github-mcp.md",
+      "title": "GitHub Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/github-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:15.725535134-03:00",
+      "description": "Add GitHub MCP Server as a goose Extension",
+      "summary": "This document provides instructions for integrating and configuring the GitHub MCP Server extension within goose to enable automated repository management and file operations.",
+      "tags": [
+        "github-integration",
+        "mcp-server",
+        "goose-extension",
+        "repository-management",
+        "configuration-guide",
+        "automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-github-mcp.md"
+    },
+    {
+      "file_path": "088-goose-docs-mcp-gitmcp-mcp.md",
+      "title": "GitMCP Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/gitmcp-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:17.540673064-03:00",
+      "description": "Add Git MCP Server as a goose Extension",
+      "summary": "This document provides a comprehensive overview of OpenAI's Whisper model, detailing its installation, model variants, and practical usage for speech-to-text and translation tasks.",
+      "tags": [
+        "speech-to-text",
+        "openai-whisper",
+        "transcription",
+        "audio-processing",
+        "machine-learning",
+        "python-library"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-gitmcp-mcp.md"
+    },
+    {
+      "file_path": "089-goose-docs-mcp-gotohuman-mcp.md",
+      "title": "gotoHuman Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/gotohuman-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:19.369548077-03:00",
+      "description": "Add gotoHuman MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the gotoHuman MCP Server with goose to implement human-in-the-loop approval steps within AI-driven workflows.",
+      "tags": [
+        "gotohuman",
+        "goose-ai",
+        "mcp-server",
+        "human-in-the-loop",
+        "workflow-automation",
+        "approval-workflow"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-gotohuman-mcp.md"
+    },
+    {
+      "file_path": "090-goose-docs-mcp-i-ching-mcp.md",
+      "title": "I Ching Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/i-ching-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:21.653341687-03:00",
+      "description": "Add I Ching MCP Server as a goose Extension",
+      "summary": "This document provides strategic guidance for a product roadmap decision based on an I Ching reading, focusing on team alignment and steady execution. It interprets specific hexagrams to offer advice on navigating complex professional challenges through collaboration and consistency.",
+      "tags": [
+        "i-ching",
+        "product-roadmap",
+        "strategic-guidance",
+        "team-collaboration",
+        "decision-making",
+        "leadership"
+      ],
+      "category": "other",
+      "original_file_path": "goose-docs-mcp-i-ching-mcp.md"
+    },
+    {
+      "file_path": "091-goose-docs-mcp-jetbrains-mcp.md",
+      "title": "JetBrains Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/jetbrains-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:23.2075062-03:00",
+      "description": "Use JetBrains MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate JetBrains IDEs with Goose using a dedicated extension to perform project-aware code refactoring and modernization tasks.",
+      "tags": [
+        "jetbrains-extension",
+        "ide-integration",
+        "java-modernization",
+        "refactoring",
+        "goose-ai",
+        "code-editor"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-jetbrains-mcp.md"
+    },
+    {
+      "file_path": "092-goose-docs-mcp-knowledge-graph-mcp.md",
+      "title": "Knowledge Graph Memory Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/knowledge-graph-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:23.622111244-03:00",
+      "description": "Add Knowledge Graph Memory MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate and configure the Knowledge Graph Memory MCP Server extension in goose to enable persistent, relationship-based data analysis and pattern detection across sessions.",
+      "tags": [
+        "goose-ai",
+        "mcp-server",
+        "knowledge-graph",
+        "persistent-memory",
+        "configuration-guide",
+        "ai-extensions"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-knowledge-graph-mcp.md"
+    },
+    {
+      "file_path": "093-goose-docs-mcp-mbot-mcp.md",
+      "title": "mbot Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/mbot-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:24.050648131-03:00",
+      "description": "Control a MakeBlock mbot2 rover through MQTT and MCP as a goose Extension",
+      "summary": "This tutorial explains how to configure and use the MQTT MCP server to control a MakeBlock mbot2 rover through the Goose CLI extension.",
+      "tags": [
+        "mbot2",
+        "mqtt",
+        "mcp-server",
+        "robotics",
+        "goose-cli",
+        "iot",
+        "automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-mbot-mcp.md"
+    },
+    {
+      "file_path": "094-goose-docs-mcp-mongodb-mcp.md",
+      "title": "MongoDB Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/mongodb-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:28.040767064-03:00",
+      "description": "Add MongoDB MCP Server as a goose Extension",
+      "summary": "This document explains how to integrate and use the MongoDB MCP Server extension with goose to manage databases and perform operations using natural language.",
+      "tags": [
+        "mongodb",
+        "mcp-server",
+        "goose",
+        "database-administration",
+        "natural-language-queries"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-mongodb-mcp.md"
+    },
+    {
+      "file_path": "095-goose-docs-mcp-nano-banana-mcp.md",
+      "title": "Nano Banana Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/nano-banana-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:31.277579535-03:00",
+      "description": "Add Nano Banana MCP Server as a goose Extension",
+      "summary": "This document illustrates the output and feedback loop of an AI image generation process, including the user prompt, visual analysis of the result, and file storage confirmation.",
+      "tags": [
+        "image-generation",
+        "ai-prompting",
+        "multimodal-ai",
+        "output-logging",
+        "digital-asset-creation"
+      ],
+      "category": "other",
+      "original_file_path": "goose-docs-mcp-nano-banana-mcp.md"
+    },
+    {
+      "file_path": "096-goose-docs-mcp-neon-mcp.md",
+      "title": "Neon Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/neon-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:31.125861742-03:00",
+      "description": "Add Neon MCP Server as a goose Extension",
+      "summary": "This document provides instructions for integrating the Neon MCP Server with the goose extension to manage Neon Postgres projects, branches, and databases using AI agents. It covers both remote and local configuration methods along with practical usage examples for database interaction.",
+      "tags": [
+        "neon-postgres",
+        "mcp-server",
+        "goose-extension",
+        "database-management",
+        "ai-agents",
+        "postgresql-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-neon-mcp.md"
+    },
+    {
+      "file_path": "097-goose-docs-mcp-netlify-mcp.md",
+      "title": "Netlify Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/netlify-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:32.383368533-03:00",
+      "description": "Add Netlify MCP Server as a goose Extension",
+      "summary": "This document provides a confirmation of a successful web application deployment to Netlify, including site details, asset summaries, and instructions for future updates.",
+      "tags": [
+        "netlify-deployment",
+        "web-hosting",
+        "deployment-summary",
+        "frontend-development",
+        "continuous-deployment"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-mcp-netlify-mcp.md"
+    },
+    {
+      "file_path": "098-goose-docs-mcp-nostrbook-mcp.md",
+      "title": "Nostrbook Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/nostrbook-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:33.173393259-03:00",
+      "description": "Add Nostrbook MCP Server as a goose Extension",
+      "summary": "This document explains how to integrate the Nostrbook MCP server into the goose environment and provides a detailed guide on implementing NIP-61 Nutzaps for Bitcoin micropayments.",
+      "tags": [
+        "nostr",
+        "mcp-server",
+        "goose-ai",
+        "nip-61",
+        "nutzaps",
+        "decentralized-protocol",
+        "cashu"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-nostrbook-mcp.md"
+    },
+    {
+      "file_path": "099-goose-docs-mcp-openmetadata-mcp.md",
+      "title": "OpenMetadata Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/openmetadata-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:34.636742188-03:00",
+      "description": "Add OpenMetadata MCP Server as a goose Extension",
+      "summary": "This document explains how the OpenMetadata MCP Server extension enables natural language interactions for managing metadata, glossaries, and data lineage within the goose agent.",
+      "tags": [
+        "openmetadata",
+        "mcp-server",
+        "goose",
+        "data-lineage",
+        "metadata-management",
+        "ai-agent"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-mcp-openmetadata-mcp.md"
+    },
+    {
+      "file_path": "100-goose-docs-mcp-pdf-mcp.md",
+      "title": "PDF Reader Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/pdf-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:38.331366052-03:00",
+      "description": "Add PDF Reader MCP Server as a goose Extension",
+      "summary": "This document provides a detailed evaluation of a software engineering candidate's resume against specific technical and leadership requirements. It includes categorical scoring for backend development, system design, cloud infrastructure, and leadership to determine the candidate's fit for a role.",
+      "tags": [
+        "resume-evaluation",
+        "candidate-assessment",
+        "technical-recruitment",
+        "hiring-criteria",
+        "engineering-leadership",
+        "talent-acquisition"
+      ],
+      "category": "other",
+      "original_file_path": "goose-docs-mcp-pdf-mcp.md"
+    },
+    {
+      "file_path": "101-goose-docs-mcp-pieces-mcp.md",
+      "title": "Pieces for Developers Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/pieces-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:40.662329821-03:00",
+      "description": "Add Pieces for Developers MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the Pieces for Developers MCP Server with the Goose CLI to access and interact with stored long-term memory data.",
+      "tags": [
+        "mcp-server",
+        "pieces-for-developers",
+        "goose-cli",
+        "long-term-memory",
+        "extension-integration",
+        "ai-productivity"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-pieces-mcp.md"
+    },
+    {
+      "file_path": "102-goose-docs-mcp-playwright-mcp.md",
+      "title": "Playwright Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/playwright-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:41.056000191-03:00",
+      "description": "Add Playwright MCP Server as a goose Extension for Modern Web Testing",
+      "summary": "This tutorial explains how to integrate the Playwright MCP Server as a goose extension to perform cross-browser testing and automated web interactions.",
+      "tags": [
+        "playwright",
+        "mcp-server",
+        "goose-extension",
+        "cross-browser-testing",
+        "web-automation",
+        "test-generation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-playwright-mcp.md"
+    },
+    {
+      "file_path": "103-goose-docs-mcp-prompts-chat-mcp.md",
+      "title": "prompts.chat Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/prompts-chat-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:41.202010893-03:00",
+      "description": "Add prompts.chat MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the prompts.chat MCP Server as an extension in goose to search and utilize a library of AI prompts.",
+      "tags": [
+        "goose-extension",
+        "prompts-chat",
+        "mcp-server",
+        "ai-prompts",
+        "installation-guide"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-prompts-chat-mcp.md"
+    },
+    {
+      "file_path": "104-goose-docs-mcp-reddit-mcp.md",
+      "title": "Reddit Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/reddit-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:42.441821896-03:00",
+      "description": "Add Reddit MCP Server as a goose Extension",
+      "summary": "This document provides a tutorial on building a personalized social media feed by fetching and displaying threads from specific subreddits using JavaScript.",
+      "tags": [
+        "reddit-api",
+        "javascript",
+        "web-development",
+        "data-fetching",
+        "frontend-design"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-reddit-mcp.md"
+    },
+    {
+      "file_path": "105-goose-docs-mcp-repomix-mcp.md",
+      "title": "Repomix Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/repomix-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:47.134033921-03:00",
+      "description": "Add Repomix MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the Repomix MCP Server with the goose AI agent to enable automated repository packing and codebase analysis while optimizing for LLM context limits.",
+      "tags": [
+        "goose-extension",
+        "repomix",
+        "mcp-server",
+        "codebase-analysis",
+        "repository-packing",
+        "token-optimization"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-repomix-mcp.md"
+    },
+    {
+      "file_path": "106-goose-docs-mcp-rube-mcp.md",
+      "title": "Rube Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/rube-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:46.619463594-03:00",
+      "description": "Add Rube as a goose Extension to connect with 500+ apps",
+      "summary": "This tutorial explains how to integrate Rube as a goose extension, allowing users to connect with over 500 applications through a unified OAuth flow.",
+      "tags": [
+        "goose-extension",
+        "rube-app",
+        "oauth-authentication",
+        "workflow-automation",
+        "app-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-rube-mcp.md"
+    },
+    {
+      "file_path": "107-goose-docs-mcp-selenium-mcp.md",
+      "title": "Selenium Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/selenium-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:48.932290853-03:00",
+      "description": "Add Selenium MCP Server as a goose Extension",
+      "summary": "This document explains how to integrate the Selenium MCP Server with goose to automate web browser interactions and generate test automation scripts.",
+      "tags": [
+        "selenium",
+        "mcp-server",
+        "goose-extension",
+        "browser-automation",
+        "test-automation"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-selenium-mcp.md"
+    },
+    {
+      "file_path": "108-goose-docs-mcp-square-mcp.md",
+      "title": "Square MCP Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/square-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:49.876389946-03:00",
+      "description": "Add the Square API as a goose Extension",
+      "summary": "This document provides instructions for setting up and using the Square MCP server with the goose AI agent to automate Square seller account tasks.",
+      "tags": [
+        "square-mcp",
+        "mcp-server",
+        "goose-ai",
+        "square-api",
+        "automation",
+        "configuration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-square-mcp.md"
+    },
+    {
+      "file_path": "109-goose-docs-mcp-sugar-mcp.md",
+      "title": "Sugar Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/sugar-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:52.470232881-03:00",
+      "description": "Add Sugar MCP Server as a goose Extension",
+      "summary": "This document explains how to integrate and use the Sugar MCP Server with the goose extension to delegate development tasks to an autonomous AI system.",
+      "tags": [
+        "goose-extension",
+        "sugar-mcp",
+        "autonomous-development",
+        "ai-task-delegation",
+        "mcp-server-configuration",
+        "sugar-cli"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-sugar-mcp.md"
+    },
+    {
+      "file_path": "110-goose-docs-mcp-supabase-mcp.md",
+      "title": "Supabase Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/supabase-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:54.059600043-03:00",
+      "description": "Add Supabase MCP Server as a goose Extension",
+      "summary": "This document outlines the database schema for a project, detailing table structures, column definitions, row counts, and relational foreign keys.",
+      "tags": [
+        "database-schema",
+        "postgresql",
+        "row-level-security",
+        "table-definitions",
+        "metadata"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-mcp-supabase-mcp.md"
+    },
+    {
+      "file_path": "111-goose-docs-mcp-tavily-mcp.md",
+      "title": "Tavily Web Search Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/tavily-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:56.932913916-03:00",
+      "description": "Add Tavily MCP Server as a goose Extension",
+      "summary": "This tutorial explains how to integrate the Tavily Web Search MCP server as an extension for goose Desktop and CLI to enable AI-powered web searching. It covers the required environment variables, installation steps, and provides examples of using search capabilities within goose.",
+      "tags": [
+        "goose-ai",
+        "tavily-search",
+        "mcp-server",
+        "web-search",
+        "extension-configuration",
+        "api-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-tavily-mcp.md"
+    },
+    {
+      "file_path": "112-goose-docs-mcp-vercel-mcp.md",
+      "title": "Vercel Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/vercel-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:15:58.398072305-03:00",
+      "description": "Add Vercel MCP Server as a goose Extension for managing your deployments",
+      "summary": "This document provides instructions for integrating the Vercel MCP server into goose to manage Vercel projects and monitor deployment status through an AI agent.",
+      "tags": [
+        "vercel",
+        "mcp-server",
+        "goose-extension",
+        "project-management",
+        "deployment-tracking",
+        "ai-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-mcp-vercel-mcp.md"
+    },
+    {
+      "file_path": "113-goose-docs-mcp-youtube-transcript-mcp.md",
+      "title": "YouTube Transcript Extension | goose",
+      "url": "https://block.github.io/goose/docs/mcp/youtube-transcript-mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:00.339574645-03:00",
+      "description": "Add YouTube Transcript MCP Server as a goose Extension for accessing YouTube video transcripts",
+      "summary": "This document provides a transcript for a specific YouTube video and includes contextual information regarding its content and cultural significance.",
+      "tags": [
+        "video-transcript",
+        "youtube-content",
+        "music-lyrics",
+        "meme-culture",
+        "automated-transcription"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-mcp-youtube-transcript-mcp.md"
+    },
+    {
+      "file_path": "114-goose-docs-tutorials-custom-extensions.md",
+      "title": "Building Custom Extensions | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/custom-extensions",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:13.248177146-03:00",
+      "description": "Create your own custom MCP Server to use as a goose extension",
+      "summary": "This guide provides step-by-step instructions for extending goose functionality by building custom MCP servers using the Python SDK.",
+      "tags": [
+        "goose",
+        "mcp",
+        "python-sdk",
+        "custom-extensions",
+        "mcp-server",
+        "model-context-protocol"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-custom-extensions.md"
+    },
+    {
+      "file_path": "115-goose-docs-tutorials-building-mcp-apps.md",
+      "title": "Building MCP Apps | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/building-mcp-apps",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:09.925984401-03:00",
+      "description": "Create interactive UI applications that render inside goose Desktop",
+      "summary": "This tutorial explains how to build and integrate interactive MCP Apps into the goose chat interface using Node.js and the Model Context Protocol.",
+      "tags": [
+        "mcp-apps",
+        "model-context-protocol",
+        "goose-desktop",
+        "node-js",
+        "javascript",
+        "extension-development",
+        "interactive-ui"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-building-mcp-apps.md"
+    },
+    {
+      "file_path": "116-goose-docs-tutorials-recipes-tutorial.md",
+      "title": "Recipes | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/recipes-tutorial",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:24.688539411-03:00",
+      "description": "Learn how to create and use goose recipes with this comprehensive tutorial covering prompts, parameters, and MCP servers",
+      "summary": "This document explains how to create, configure, and use Goose recipes to automate tasks, covering extensions, parameters, and AI model settings.",
+      "tags": [
+        "goose-ai",
+        "goose-recipes",
+        "prompt-engineering",
+        "mcp-extensions",
+        "automation",
+        "yaml-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-recipes-tutorial.md"
+    },
+    {
+      "file_path": "117-goose-docs-tutorials-subrecipes-in-parallel.md",
+      "title": "Running Subrecipes In Parallel | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/subrecipes-in-parallel",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:26.963330758-03:00",
+      "description": "Run multiple subrecipes instances concurrently with real-time progress tracking",
+      "summary": "This document explains how to execute goose subrecipes concurrently using isolated worker processes to optimize batch operations and complex workflows. It details configuration settings, prompting techniques for parallel execution, and methods for monitoring progress via the CLI.",
+      "tags": [
+        "goose-recipes",
+        "parallel-processing",
+        "subrecipes",
+        "concurrency",
+        "workflow-optimization",
+        "cli-dashboard"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-subrecipes-in-parallel.md"
+    },
+    {
+      "file_path": "118-goose-docs-tutorials-lead-worker.md",
+      "title": "Lead/Worker Multi-Model Setup | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/lead-worker",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:19.855427299-03:00",
+      "description": "Enable multi-model functionality by pairing LLMs to complete your tasks",
+      "summary": "This document explains the lead/worker model configuration in goose, which optimizes AI workflows by pairing a high-reasoning lead model for planning with a fast worker model for execution.",
+      "tags": [
+        "goose-ai",
+        "model-optimization",
+        "lead-worker-mode",
+        "configuration-guide",
+        "ai-orchestration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-lead-worker.md"
+    },
+    {
+      "file_path": "119-goose-docs-tutorials-ralph-loop.md",
+      "title": "Ralph Loop | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/ralph-loop",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:21.414550911-03:00",
+      "description": "Run goose in a loop with fresh context per iteration and cross-model review",
+      "summary": "This document explains the Ralph Loop, an iterative development pattern for AI agents that utilizes fresh context and cross-model review to complete complex tasks. It provides a step-by-step tutorial on configuring the worker and reviewer models and running the process via the goose CLI.",
+      "tags": [
+        "ralph-loop",
+        "goose-ai",
+        "iterative-development",
+        "agentic-workflows",
+        "cross-model-review",
+        "ai-coding"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-ralph-loop.md"
+    },
+    {
+      "file_path": "120-goose-docs-tutorials-rpi.md",
+      "title": "Research \u2192 Plan \u2192 Implement Pattern | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/rpi",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:24.891139742-03:00",
+      "description": "How to use RPI, a context engineering technique, on complex software projects",
+      "summary": "This tutorial introduces the RPI (Research, Plan, Implement) workflow for AI coding agents, explaining how to handle complex codebase changes through structured research and planning phases.",
+      "tags": [
+        "ai-agents",
+        "rpi-workflow",
+        "software-development",
+        "goose-ai",
+        "codebase-management",
+        "coding-assistants"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-rpi.md"
+    },
+    {
+      "file_path": "121-goose-docs-tutorials-plan-feature-devcontainer-setup.md",
+      "title": "Planning Complex Tasks | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/plan-feature-devcontainer-setup",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:19.916153597-03:00",
+      "description": "Learn how to use goose's Plan feature to break down complex tasks into manageable, executable steps.",
+      "summary": "This tutorial demonstrates how to use the goose Plan feature to decompose complex technical tasks into systematic, step-by-step execution roadmaps. It guides users through brainstorming, planning, and implementing a GitHub Codespaces development environment with Docker and automated API testing.",
+      "tags": [
+        "goose-ai",
+        "project-planning",
+        "github-codespaces",
+        "docker-setup",
+        "devcontainers",
+        "task-management"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-plan-feature-devcontainer-setup.md"
+    },
+    {
+      "file_path": "122-goose-docs-tutorials-benchmarking.md",
+      "title": "Benchmarking with goose | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/benchmarking",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:08.454844647-03:00",
+      "description": "The goose benchmarking system allows you to evaluate goose performance on complex tasks with one or more system",
+      "summary": "This document provides instructions on using the goose benchmarking system to evaluate performance through the goose bench command and JSON configurations. It details how to set up models, manage environment inclusions, and utilize tool shimming for non-tool-capable models.",
+      "tags": [
+        "goose-bench",
+        "benchmarking",
+        "performance-evaluation",
+        "configuration-management",
+        "tool-shimming",
+        "system-evaluation"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-benchmarking.md"
+    },
+    {
+      "file_path": "123-goose-docs-tutorials-cicd.md",
+      "title": "CI/CD Environments | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/cicd",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:10.214846935-03:00",
+      "description": "Set up goose in your CI/CD pipeline to automate tasks",
+      "summary": "This document explains how to integrate the goose CLI into CI/CD pipelines, focusing on setting up GitHub Actions for automated pull request summaries and code reviews.",
+      "tags": [
+        "goose-cli",
+        "ci-cd",
+        "github-actions",
+        "automation",
+        "code-review",
+        "devops"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-cicd.md"
+    },
+    {
+      "file_path": "124-goose-docs-tutorials-headless-goose.md",
+      "title": "Using goose in Headless Mode for Automation | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/headless-goose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:16.093572425-03:00",
+      "description": "goose Headless Mode",
+      "summary": "This document explains how to use goose in headless mode to automate engineering workflows in non-interactive environments such as CI/CD pipelines and servers.",
+      "tags": [
+        "headless-mode",
+        "automation",
+        "ci-cd",
+        "workflow-automation",
+        "cli-tool",
+        "batch-processing"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-headless-goose.md"
+    },
+    {
+      "file_path": "125-goose-docs-tutorials-goose-in-docker.md",
+      "title": "Building goose in Docker | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/goose-in-docker",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:14.882055683-03:00",
+      "description": "There are various scenarios where you might want to build goose in Docker. If the instructions below do not meet your needs, please contact us by replying to our discussion topic.",
+      "summary": "This document provides instructions for building and running goose within a Docker container to ensure security, portability, and environmental consistency. It covers modifying configuration files, setting environment variables for API keys, and managing extensions within the containerized environment.",
+      "tags": [
+        "docker",
+        "containerization",
+        "goose-cli",
+        "deployment",
+        "environment-setup",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-goose-in-docker.md"
+    },
+    {
+      "file_path": "126-goose-docs-tutorials-isolated-development-environments.md",
+      "title": "Isolated Development Environments | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/isolated-development-environments",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:17.726894828-03:00",
+      "description": "This guide shows you how to set up isolated development environments using the Container Use MCP with goose. With this setup, your development work will be isolated to both git branches and containers, allowing you to experiment freely without affecting your main system state.",
+      "summary": "This guide explains how to configure and use the Container Use Model Context Protocol (MCP) with goose to create isolated, containerized development environments. It covers installation, configuration, and workflows for safely experimenting with code and dependencies.",
+      "tags": [
+        "goose-mcp",
+        "containerization",
+        "docker",
+        "development-environments",
+        "isolated-workspace",
+        "dagger"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-tutorials-isolated-development-environments.md"
+    },
+    {
+      "file_path": "127-goose-docs-tutorials-langfuse.md",
+      "title": "Observability with Langfuse | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/langfuse",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:19.146337629-03:00",
+      "description": "Integrate goose with Langfuse to observe performance",
+      "summary": "This tutorial explains how to integrate goose with Langfuse for monitoring and debugging LLM agent performance through environment variables.",
+      "tags": [
+        "goose",
+        "langfuse",
+        "llm-monitoring",
+        "observability",
+        "agent-telemetry",
+        "integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-langfuse.md"
+    },
+    {
+      "file_path": "128-goose-docs-tutorials-advanced-cognee-usage.md",
+      "title": "Advanced Cognee Usage with goose | goose",
+      "url": "https://block.github.io/goose/docs/tutorials/advanced-cognee-usage",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:08.127231732-03:00",
+      "description": "Advanced patterns for using Cognee knowledge graph with goose for enhanced memory and automation",
+      "summary": "This document provides advanced instructions for integrating the Cognee extension with goose, focusing on knowledge graph optimization, automated memory management, and specialized search strategies.",
+      "tags": [
+        "cognee",
+        "goose-mcp",
+        "knowledge-graph",
+        "memory-management",
+        "automation-strategies",
+        "performance-optimization"
+      ],
+      "category": "tutorial",
+      "original_file_path": "goose-docs-tutorials-advanced-cognee-usage.md"
+    },
+    {
+      "file_path": "129-goose-docs-experimental.md",
+      "title": "Experimental | goose",
+      "url": "https://block.github.io/goose/docs/experimental",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:18.683970127-03:00",
+      "description": "Experimental and radically unstable, but lot's of fun.",
+      "summary": "This document introduces the experimental features and ongoing development projects within the Goose open-source ecosystem, explaining their status and providing avenues for feedback.",
+      "tags": [
+        "goose-ai",
+        "experimental-features",
+        "open-source",
+        "product-updates",
+        "ai-automation"
+      ],
+      "category": "concept",
+      "original_file_path": "goose-docs-experimental.md"
+    },
+    {
+      "file_path": "130-goose-docs-experimental-mobile-access.md",
+      "title": "Mobile Access via Secure Tunneling | goose",
+      "url": "https://block.github.io/goose/docs/experimental/mobile-access",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:18.826593599-03:00",
+      "description": "Enable remote access to goose from mobile devices using secure tunneling.",
+      "summary": "This document provides instructions for setting up and using the experimental mobile access feature to connect an iOS device to goose Desktop via a secure tunnel.",
+      "tags": [
+        "mobile-access",
+        "ios-app",
+        "remote-access",
+        "secure-tunneling",
+        "goose-desktop",
+        "setup-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-experimental-mobile-access.md"
+    },
+    {
+      "file_path": "131-goose-docs-experimental-ollama.md",
+      "title": "Ollama Tool Shim | goose",
+      "url": "https://block.github.io/goose/docs/experimental/ollama",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:19.239626486-03:00",
+      "description": "The Ollama tool shim enables tool calling capabilities for language models that don't natively support tool calling (like DeepSeek).",
+      "summary": "This document explains how to use the experimental Ollama tool shim to enable tool-calling capabilities for models that do not natively support them.",
+      "tags": [
+        "ollama",
+        "tool-calling",
+        "tool-shim",
+        "configuration",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-experimental-ollama.md"
+    },
+    {
+      "file_path": "132-goose-docs-experimental-vs-code-extension.md",
+      "title": "goose for VS Code Extension | goose",
+      "url": "https://block.github.io/goose/docs/experimental/vs-code-extension",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:13:19.746325226-03:00",
+      "description": "The goose for VS Code extension lets you interact with goose directly within VS Code.",
+      "summary": "This guide explains how to install and use the goose extension for VS Code, covering setup requirements, code context sharing, and core features of the AI-powered chat interface.",
+      "tags": [
+        "vscode-extension",
+        "goose-ai",
+        "installation-guide",
+        "developer-tools",
+        "ai-assistant",
+        "context-sharing"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-experimental-vs-code-extension.md"
+    },
+    {
+      "file_path": "133-goose-docs-troubleshooting.md",
+      "title": "Troubleshooting | goose",
+      "url": "https://block.github.io/goose/docs/troubleshooting",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:04.684997955-03:00",
+      "description": "Get help, report issues, and troubleshoot common problems with goose.",
+      "summary": "This document provides a directory of support resources for goose, including diagnostic tools, troubleshooting guides, log access instructions, and community support channels.",
+      "tags": [
+        "troubleshooting",
+        "support",
+        "debugging",
+        "bug-reporting",
+        "community",
+        "logs",
+        "diagnostics"
+      ],
+      "category": "reference",
+      "original_file_path": "goose-docs-troubleshooting.md"
+    },
+    {
+      "file_path": "134-goose-docs-troubleshooting-diagnostics-and-reporting.md",
+      "title": "Diagnostics and Reporting | goose",
+      "url": "https://block.github.io/goose/docs/troubleshooting/diagnostics-and-reporting",
+      "source": "github_pages",
+      "fetched_at": "2026-01-22T22:16:06.296640755-03:00",
+      "description": "Use built-in diagnostics, report bugs, and request new features with goose's integrated support tools.",
+      "summary": "This guide explains how to use goose's support features, including generating diagnostic bundles, reporting bugs, and requesting new features.",
+      "tags": [
+        "troubleshooting",
+        "diagnostics",
+        "bug-reporting",
+        "feature-requests",
+        "support-tools",
+        "error-recovery"
+      ],
+      "category": "guide",
+      "original_file_path": "goose-docs-troubleshooting-diagnostics-and-reporting.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-23T01:20:52.200109Z",
+    "total_files": 134,
+    "categories": [
+      "Quickstart & Overview (001-006)",
+      "Getting Started (007-009)",
+      "Architecture (010-012)",
+      "Context Engineering (013-016)",
+      "Sessions (017-020)",
+      "Recipes (021-025)",
+      "Managing Tools (026-029)",
+      "Interactive Chat (030-031)",
+      "Security (032-033)",
+      "MCP Features (034-035)",
+      "Guides - Core (036-056)",
+      "MCP Extensions - Built-in (057-064)",
+      "MCP Extensions - Third Party (065-113)",
+      "Tutorials (114-128)",
+      "Experimental (129-132)",
+      "Troubleshooting (133-134)"
+    ]
+  }
+}

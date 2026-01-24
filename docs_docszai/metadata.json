@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-01-24T11:21:26.392007778-03:00",
+  "source_url": "https://docs.z.ai/llms.txt",
+  "strategy": "llms",
+  "total_documents": 10,
+  "documents": [
+    {
+      "file_path": "guides-audio-glm-asr-2512.md",
+      "title": "GLM-ASR-2512 - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/audio/glm-asr-2512",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:24.063141032-03:00"
+    },
+    {
+      "file_path": "devpack-tool-cline.md",
+      "title": "Cline",
+      "url": "https://docs.z.ai/devpack/tool/cline.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:24.609223412-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "guides-tools-web-search.md",
+      "title": "Web Search - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/tools/web-search",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:24.065840429-03:00"
+    },
+    {
+      "file_path": "guides-image-glm-image.md",
+      "title": "GLM-Image - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/image/glm-image",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:24.054843112-03:00"
+    },
+    {
+      "file_path": "guides-image-glm-image.md",
+      "title": "GLM-Image - Overview - Z.AI DEVELOPER DOCUMENT",
+      "url": "https://docs.z.ai/guides/image/glm-image",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:24.043771163-03:00"
+    },
+    {
+      "file_path": "devpack-tool-cursor.md",
+      "title": "Cursor",
+      "url": "https://docs.z.ai/devpack/tool/cursor.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:26.09453984-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "devpack-tool-crush.md",
+      "title": "Crush",
+      "url": "https://docs.z.ai/devpack/tool/crush.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:26.212853622-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "devpack-tool-eigent.md",
+      "title": "Eigent",
+      "url": "https://docs.z.ai/devpack/tool/eigent.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:26.275889976-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "devpack-tool-droid.md",
+      "title": "Factory Droid",
+      "url": "https://docs.z.ai/devpack/tool/droid.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:26.306226233-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "devpack-tool-goose.md",
+      "title": "Goose",
+      "url": "https://docs.z.ai/devpack/tool/goose.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T11:21:26.391881599-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    }
+  ]
+}

@@ -2,16 +2,16 @@
 title: Accordions
 url: https://docs.docker.com/contribute/components/accordions/
 source: llms
-fetched_at: 2026-01-24T14:01:47.344860731-03:00
+fetched_at: 2026-01-24T14:06:31.956419357-03:00
 rendered_js: false
 word_count: 23
-summary: This document introduces an interactive Docker assistant that provides help with commands, troubleshooting, concepts, and best practices.
+summary: This document introduces an interactive assistant designed to provide real-time support for Docker-related commands, concepts, and troubleshooting.
 tags:
     - docker
-    - ai-assistant
     - containerization
-    - troubleshooting
     - developer-tools
+    - troubleshooting
+    - devops
 category: other
 ---
 

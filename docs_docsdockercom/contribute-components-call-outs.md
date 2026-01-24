@@ -2,17 +2,17 @@
 title: Callouts
 url: https://docs.docker.com/contribute/components/call-outs/
 source: llms
-fetched_at: 2026-01-24T14:01:47.324785083-03:00
+fetched_at: 2026-01-24T14:06:32.020484212-03:00
 rendered_js: false
 word_count: 472
-summary: This document explains how to implement alerts and summary bars in documentation, including configuration steps for feature attributes and markdown formatting for callouts.
+summary: This document explains how to implement and format callouts, alerts, and feature summary bars within documentation using specific markdown syntax and configuration files.
 tags:
-    - documentation-components
+    - documentation-formatting
     - markdown-syntax
-    - shortcodes
     - callouts
+    - alerts
     - summary-bars
-    - content-guidelines
+    - shortcodes
 category: guide
 ---
 

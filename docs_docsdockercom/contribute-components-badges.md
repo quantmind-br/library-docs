@@ -2,16 +2,16 @@
 title: Badges
 url: https://docs.docker.com/contribute/components/badges/
 source: llms
-fetched_at: 2026-01-24T14:01:47.360681743-03:00
+fetched_at: 2026-01-24T14:06:31.944775117-03:00
 rendered_js: false
 word_count: 23
-summary: This document introduces an interactive support tool designed to help users with Docker-related queries, including commands, troubleshooting, and best practices.
+summary: This document introduces an AI assistant capable of providing support for Docker commands, concepts, troubleshooting, and best practices.
 tags:
     - docker
-    - containerization
-    - technical-support
-    - devops
+    - ai-assistant
     - troubleshooting
+    - containers
+    - devops
 category: other
 ---
 

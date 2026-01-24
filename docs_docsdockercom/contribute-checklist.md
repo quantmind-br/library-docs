@@ -2,16 +2,17 @@
 title: Writing checklist
 url: https://docs.docker.com/contribute/checklist/
 source: llms
-fetched_at: 2026-01-24T14:01:47.343865226-03:00
+fetched_at: 2026-01-24T14:06:31.933336866-03:00
 rendered_js: false
 word_count: 324
-summary: This document provides a checklist and stylistic guidelines for creating clear, consistent, and effective technical documentation for Docker.
+summary: This document provides a checklist for contributors to ensure Docker documentation is clear, consistent, and follows established style and formatting standards.
 tags:
+    - documentation-style
     - technical-writing
-    - style-guide
-    - docker-docs
     - content-guidelines
-    - documentation-standards
+    - docker-docs
+    - grammar-and-punctuation
+    - formatting-guide
 category: guide
 ---
 

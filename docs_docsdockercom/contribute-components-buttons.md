@@ -2,16 +2,16 @@
 title: Buttons
 url: https://docs.docker.com/contribute/components/buttons/
 source: llms
-fetched_at: 2026-01-24T14:01:47.274394302-03:00
+fetched_at: 2026-01-24T14:06:31.979578654-03:00
 rendered_js: false
 word_count: 23
-summary: This document introduces an interactive Docker assistant designed to answer questions regarding commands, concepts, troubleshooting, and best practices.
+summary: This document introduces an interactive AI assistant designed to provide instant support for Docker commands, concepts, troubleshooting, and best practices.
 tags:
     - docker
-    - containerization
-    - devops
     - ai-assistant
     - troubleshooting
+    - containerization
+    - devops
 category: other
 ---
 

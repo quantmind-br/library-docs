@@ -1,0 +1,98 @@
+---
+title: Service bindings - HTTP · Cloudflare Workers docs
+url: https://developers.cloudflare.com/workers/runtime-apis/bindings/service-bindings/http/index.md
+source: llms
+fetched_at: 2026-01-24T15:32:16.537852592-03:00
+rendered_js: false
+word_count: 91
+summary: This document explains how to use Service bindings in Cloudflare Workers to enable communication between Workers via the fetch API.
+tags:
+    - cloudflare-workers
+    - service-bindings
+    - fetch-api
+    - wrangler-config
+    - request-forwarding
+category: guide
+---
+
+Worker A that declares a Service binding to Worker B can forward a [`Request`](https://developers.cloudflare.com/workers/runtime-apis/request/) object to Worker B, by calling the `fetch()` method that is exposed on the binding object.
+
+For example, consider the following Worker that implements a [`fetch()` handler](https://developers.cloudflare.com/workers/runtime-apis/handlers/fetch/):
+
+* wrangler.jsonc
+
+  ```jsonc
+  {
+    "$schema": "./node_modules/wrangler/config-schema.json",
+    "name": "worker_b",
+    "main": "./src/workerB.js"
+  }
+  ```
+
+* wrangler.toml
+
+  ```toml
+  name = "worker_b"
+  main = "./src/workerB.js"
+  ```
+
+```js
+export default {
+  async fetch(request, env, ctx) {
+    return new Response("Hello World!");
+  }
+}
+```
+
+The following Worker declares a binding to the Worker above:
+
+* wrangler.jsonc
+
+  ```jsonc
+  {
+    "$schema": "./node_modules/wrangler/config-schema.json",
+    "name": "worker_a",
+    "main": "./src/workerA.js",
+    "services": [
+      {
+        "binding": "WORKER_B",
+        "service": "worker_b"
+      }
+    ]
+  }
+  ```
+
+* wrangler.toml
+
+  ```toml
+  name = "worker_a"
+  main = "./src/workerA.js"
+  services = [
+    { binding = "WORKER_B", service = "worker_b" }
+  ]
+  ```
+
+And then can forward a request to it:
+
+```js
+export default {
+  async fetch(request, env) {
+    return await env.WORKER_B.fetch(request);
+  },
+};
+```
+
+Note
+
+If you construct a new request manually, rather than forwarding an existing one, ensure that you provide a valid and fully-qualified URL with a hostname. For example:
+
+```js
+export default {
+  async fetch(request, env) {
+    // provide a valid URL
+    let newRequest = new Request("https://valid-url.com", { method: "GET" });
+    let response = await env.WORKER_B.fetch(newRequest);
+    return response;
+  }
+};
+```

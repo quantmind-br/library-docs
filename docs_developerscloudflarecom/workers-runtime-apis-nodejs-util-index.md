@@ -1,0 +1,126 @@
+---
+title: util · Cloudflare Workers docs
+url: https://developers.cloudflare.com/workers/runtime-apis/nodejs/util/index.md
+source: llms
+fetched_at: 2026-01-24T15:30:45.269450593-03:00
+rendered_js: false
+word_count: 207
+summary: This document explains how to use Node.js-compatible utility APIs, such as promisify, callbackify, and type checking, within Cloudflare Workers using the nodejs_compat flag.
+tags:
+    - cloudflare-workers
+    - nodejs-compatibility
+    - node-util
+    - promisify
+    - callbackify
+    - type-checking
+    - mimetype
+category: api
+---
+
+Note
+
+To enable built-in Node.js APIs and polyfills, add the nodejs\_compat compatibility flag to your [Wrangler configuration file](https://developers.cloudflare.com/workers/wrangler/configuration/). This also enables nodejs\_compat\_v2 as long as your compatibility date is 2024-09-23 or later. [Learn more about the Node.js compatibility flag and v2](https://developers.cloudflare.com/workers/configuration/compatibility-flags/#nodejs-compatibility-flag).
+
+## promisify/callbackify
+
+The `promisify` and `callbackify` APIs in Node.js provide a means of bridging between a Promise-based programming model and a callback-based model.
+
+The `promisify` method allows taking a Node.js-style callback function and converting it into a Promise-returning async function:
+
+```js
+import { promisify } from "node:util";
+
+
+function foo(args, callback) {
+  try {
+    callback(null, 1);
+  } catch (err) {
+    // Errors are emitted to the callback via the first argument.
+    callback(err);
+  }
+}
+
+
+const promisifiedFoo = promisify(foo);
+await promisifiedFoo(args);
+```
+
+Similarly to `promisify`, `callbackify` converts a Promise-returning async function into a Node.js-style callback function:
+
+```js
+import { callbackify } from 'node:util';
+
+
+async function foo(args) {
+  throw new Error('boom');
+}
+
+
+const callbackifiedFoo = callbackify(foo);
+
+
+callbackifiedFoo(args, (err, value) => {
+  if (err) throw err;
+});
+```
+
+`callbackify` and `promisify` make it easy to handle all of the challenges that come with bridging between callbacks and promises.
+
+Refer to the [Node.js documentation for `callbackify`](https://nodejs.org/dist/latest-v19.x/docs/api/util.html#utilcallbackifyoriginal) and [Node.js documentation for `promisify`](https://nodejs.org/dist/latest-v19.x/docs/api/util.html#utilpromisifyoriginal) for more information.
+
+## util.types
+
+The `util.types` API provides a reliable and efficient way of checking that values are instances of various built-in types.
+
+```js
+import { types } from "node:util";
+
+
+types.isAnyArrayBuffer(new ArrayBuffer()); // Returns true
+types.isAnyArrayBuffer(new SharedArrayBuffer()); // Returns true
+types.isArrayBufferView(new Int8Array()); // true
+types.isArrayBufferView(Buffer.from("hello world")); // true
+types.isArrayBufferView(new DataView(new ArrayBuffer(16))); // true
+types.isArrayBufferView(new ArrayBuffer()); // false
+function foo() {
+  types.isArgumentsObject(arguments); // Returns true
+}
+types.isAsyncFunction(function foo() {}); // Returns false
+types.isAsyncFunction(async function foo() {}); // Returns true
+// .. and so on
+```
+
+Warning
+
+The Workers implementation currently does not provide implementations of the `util.types.isExternal()`, `util.types.isProxy()`, `util.types.isKeyObject()`, or `util.type.isWebAssemblyCompiledModule()` APIs.
+
+For more about `util.types`, refer to the [Node.js documentation for `util.types`](https://nodejs.org/dist/latest-v19.x/docs/api/util.html#utiltypes).
+
+## util.MIMEType
+
+`util.MIMEType` provides convenience methods that allow you to more easily work with and manipulate [MIME types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types). For example:
+
+```js
+import { MIMEType } from "node:util";
+
+
+const myMIME = new MIMEType("text/javascript;key=value");
+
+
+console.log(myMIME.type);
+// Prints: text
+
+
+console.log(myMIME.essence);
+// Prints: text/javascript
+
+
+console.log(myMIME.subtype);
+// Prints: javascript
+
+
+console.log(String(myMIME));
+// Prints: application/javascript;key=value
+```
+
+For more about `util.MIMEType`, refer to the [Node.js documentation for `util.MIMEType`](https://nodejs.org/api/util.html#class-utilmimetype).

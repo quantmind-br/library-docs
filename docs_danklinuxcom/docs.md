@@ -1,0 +1,194 @@
+---
+title: Welcome | Dank Linux
+url: https://danklinux.com/docs/
+source: sitemap
+fetched_at: 2026-01-24T13:32:55.068407847-03:00
+rendered_js: false
+word_count: 1203
+summary: This document introduces Dank Linux and its integrated suite of desktop tools, explaining the installation process and the advantages of its unified shell environment over traditional Wayland setups.
+tags:
+    - dank-linux
+    - desktop-shell
+    - wayland
+    - linux-distribution
+    - quickshell
+    - system-monitoring
+    - automation
+category: guide
+---
+
+```
+██████╗  █████╗ ███╗   ██╗██╗  ██╗    ██╗     ██╗███╗   ██╗██╗   ██╗██╗  ██╗
+██╔══██╗██╔══██╗████╗  ██║██║ ██╔╝    ██║     ██║████╗  ██║██║   ██║╚██╗██╔╝
+██║  ██║███████║██╔██╗ ██║█████╔╝     ██║     ██║██╔██╗ ██║██║   ██║ ╚███╔╝
+██║  ██║██╔══██║██║╚██╗██║██╔═██╗     ██║     ██║██║╚██╗██║██║   ██║ ██╔██╗
+██████╔╝██║  ██║██║ ╚████║██║  ██╗    ███████╗██║██║ ╚████║╚██████╔╝██╔╝ ██╗
+╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝    ╚══════╝╚═╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝
+```
+
+## Quick Start[​](#quick-start "Direct link to Quick Start")
+
+*This will set up Dank Linux on your system, including all dependencies, the DankMaterialShell™, and default compositor and terminal configurations.*
+
+```
+curl-fsSL https://install.danklinux.com |sh
+```
+
+Supports Arch Linux + Derivatives, Fedora + Derivatives, Ubuntu, Debian, openSUSE, and Gentoo.
+
+![DankDash Overview](https://danklinux.com/img/dankdashlight.png)![DankDash Overview](https://danklinux.com/img/dankdash.png)
+
+DankMaterialShell's DankDash with a Suite of DankBar Widgets
+
+## The Suite[​](#the-suite "Direct link to The Suite")
+
+- [**DankMaterialShell**](https://danklinux.com/docs/dankmaterialshell/overview) - A feature-rich desktop shell built with [Quickshell](https://quickshell.org/) and [Go](https://golang.org/).
+- [**dgop**](https://danklinux.com/docs/dgop/) - A stateless, cursor-based system and process monitoring tool with a tui, cli, and REST API.
+- [**dsearch**](https://danklinux.com/docs/danksearch/) - Extremely fast, configurable, zero-dependency indexed filesystem search service.
+- [**dankinstall**](https://danklinux.com/docs/dankinstall/) - An automated installer and management tool for the entire Dank Linux suite
+- **dcal (in development)** - A calendar application that integrates with online and local calendars.
+
+## Batteries Included[​](#batteries-included "Direct link to Batteries Included")
+
+The age of assembling your desktop from dozens of separate tools and spending hours trying to make it feel cohesive is over. While traditional Wayland setups require you to hunt down, configure, and maintain a sprawling collection of utilities, Dank Linux delivers everything in one cohesive package with minimal dependencies.
+
+### The Traditional Way: Package Hunting Simulator[​](#the-traditional-way-package-hunting-simulator "Direct link to The Traditional Way: Package Hunting Simulator")
+
+A typical Hyprland, niri, Sway, MangoWC, dwl, labwc, or generic Wayland setup forces you to learn about and configure a dozen or more separate tools, such as:
+
+- **Status Bar**: waybar, eww, or custom scripts
+- **Notifications**: mako, swaync, or dunst
+- **App Launcher**: rofi, wofi, fuzzel, or tofi
+- **Screen Locking**: swaylock, hyprlock, or gtklock
+- **Idle Management**: swayidle, hypridle
+- **System Tools**: htop, btop, nm-applet, blueman, pavucontrol
+- **Audio Control**: pavucontrol, pamixer scripts
+- **Brightness Control**: brightnessctl with custom bindings
+- **Clipboard Manager**: clipman, cliphist, or wl-clipboard scripts
+- **Wallpaper Management**: swaybg, swww, hyprpaper, or wpaperd
+- **Theming**: manually configuring gtk, qt, various apps, bars, compositor gaps and colors
+- **Power Management**: custom scripts or additional daemons
+- **Greeter**: gdm, sddm, lightdm, greetd
+
+Each tool has its own configuration format, its own quirks, and its own dependencies. You'll spend hours writing glue scripts, debugging integration issues, and discovering missing functionality at the worst possible moments.
+
+### With preconfigured "dotfiles"[​](#with-preconfigured-dotfiles 'Direct link to With preconfigured "dotfiles"')
+
+Preconfigured "dotfiles" are often shared so others can replicate a working setup, but they come with their own challenges:
+
+- **Intrusive Configurations**: They often change a lot of various configuration files on your system, making it hard to track and revert changes.
+  
+  - **DMS** does not modify *any* user configurations nor require it, everything is self-contained.
+- **Compatibility**: Your system may differ in subtle ways that break the setup.
+- **Complexity**: Understanding and adapting someone else's configuration can be daunting.
+- **Preferences**: They may not align with your personal preferences or workflow needs.
+
+*Note:* The community does an **incredible** job at sharing incredibly unique setups, and we highly encourage exploring those! They can provide incredibly unique things that dms cannot, but they are just often very opinionated and touch a lot of system configurations - while dms doesn't.
+
+### The Dank Way: Completely Integrated[​](#the-dank-way-completely-integrated "Direct link to The Dank Way: Completely Integrated")
+
+![Control Center](https://danklinux.com/img/cclight.png)![Control Center](https://danklinux.com/img/cc.png)
+
+Control Center with system controls and quick settings
+
+Dank Linux replaces this fragmented ecosystem with **DankMaterialShell** - a single, integrated solution built with [Quickshell](https://quickshell.org) and [Go](https://go.dev):
+
+- ✅ **Full Desktop Shell** - Complete panels, widgets, and system integrations
+- ✅ **Unified Configuration** - One consistent approach, not 15 different syntaxes
+- ✅ **Intelligent Search** - `danksearch` for blazingly-fast file indexing & search
+- ✅ **System Monitoring** - `dgop` provides comprehensive system insights without additional tools, persistent daemons, or long-running samplers preventing CPU sleep states.
+- ✅ **Dynamic Theming** - Automatic color generation with `matugen`, applied everywhere
+- ✅ **All Essentials Included** - Notifications, app launcher, system tray, media controls, and more
+- ✅ **Comprehensive Plugin System** - Comprehensive plugin system allows limitless possibilities for new widgets and launcher functions.
+- ✅ **Smart Defaults** - Works beautifully out of the box, customizable when you want it
+
+No more late-night debugging sessions because you forgot to install a clipboard manager. No more manually syncing color schemes across a dozen config files.
+
+**One install. One shell. Everything works.**
+
+That's Dank Linux - we've already done the integration work so you can focus on using your desktop, not building it.
+
+### Pre-configured Images[​](#pre-configured-images "Direct link to Pre-configured Images")
+
+Want even less setup? Some distributions ship with DankMaterialShell pre-configured:
+
+- [![](https://danklinux.com/img/z.svg) **Zirconium**](https://github.com/zirconium-dev/zirconium/) - A Fedora-based immutable OS with niri + DMS, optimized for container-focused development
+
+## Beautiful by Default[​](#beautiful-by-default "Direct link to Beautiful by Default")
+
+![Desktop Overview](https://danklinux.com/img/desktoplight.png)![Desktop Overview](https://danklinux.com/img/desktop.png)
+
+Full desktop view with terminal, launcher, and system monitoring
+
+DankMaterialShell provides a stunning desktop experience right out of the box:
+
+- **Dozens of Customizable Widgets**: Extendable launcher, workspace switcher, media player, clock, weather, system tray, notifications, lock screen, greeter, network integration, bluetooth integration, and more.
+- **Dynamic Theming**: Automatic color schemes applied across the desktop.
+- **Smooth Animations**: Polished transitions and effects throughout the desktop
+- **Material Design**: Modern, clean aesthetics inspired by Material Design 3
+
+## Innovating Solutions[​](#innovating-solutions "Direct link to Innovating Solutions")
+
+Dank Linux is engineering solutions to problems that have never been solved before in the Linux space.
+
+### dgop - first-of-its-kind Stateless System & Process Status Tool[​](#dgop---first-of-its-kind-stateless-system--process-status-tool "Direct link to dgop - first-of-its-kind Stateless System & Process Status Tool")
+
+Before dgop, if you wanted to measure CPU usage - for example, you either had to:
+
+1. Collect samples over a substantial time period, say 1-5 seconds, and then calculate the difference between the samples to get an average CPU usage over that time, or:
+2. Use a persistent daemon that continuously samples and stores system metrics on-disk or in-memory, which can consume resources and complicate system design.
+
+Both approaches have significant drawbacks, including delayed responsiveness, increased resource consumption, and added complexity.
+
+With dgop, this problem is solved using a novel, cursor-based sampling technique:
+
+1. Request CPU percentage, receive baseline values with a `cursor`
+2. Request CPU percentage again, whenever you want, passing the previous `cursor` and you will receive the CPU, process, and system metrics calculated over the exact time since the last request - instantaneously.
+
+This approach is also used for other time-based metrics, such as disk thoroughput and network usage.
+
+dgop also provides a top-like TUI, advanced CLI, and a fully-documented OpenAPI 3.1 REST API for programmatic access - with "meta" commands that allow you to mix and match any type of metrics you want.
+
+![DGOP Preview](https://danklinux.com/img/dgoplight.png)![DGOP Preview](https://danklinux.com/img/dgop.png)
+
+dgop tui interface
+
+### danksearch - Blazingly Fast Filesystem Search[​](#danksearch---blazingly-fast-filesystem-search "Direct link to danksearch - Blazingly Fast Filesystem Search")
+
+Traditional filesystem search tools usually come as part of the [KDE](https://kde.org/) or [GNOME](https://www.gnome.org/) desktop environments. They require many dependencies, are hard to configure, difficult to search in a programmatic way, and often users opt to just disable them.
+
+DankSearch is a zero-dependency, blazingly-fast, fully configurable in 1 file, indexed filesystem search service that works as a standalone tool.
+
+- **Zero Dependencies**: Written in Go, runs anywhere
+- **Configurable**: One simple configuration file, populated with sensible defaults.
+- **Fast Indexing**: Index tens of thousands of files in minutes.
+- **Index Synching**: Automatically keeps the index up to date with filesystem changes.
+- **Advanced Search**: Full text search, regex, fuzzy matching, extension filters, metadata searching, etc.
+- **Programmatic Access**: Provides a fully documented OpenAPI 3.1 spec REST API for easy integration with other tools and scripts, as well as a CLI for direct use.
+
+![DankSearch](https://danklinux.com/img/dsearchlight.png)![DankSearch](https://danklinux.com/img/dsearch.png)
+
+DankSearch file search interface
+
+## Open Source[​](#open-source "Direct link to Open Source")
+
+Dank Linux and all its components are open source and MIT-licensed.
+
+Source code:
+
+- [DankMaterialShell/dms](https://github.com/AvengeMedia/DankMaterialShell)
+- [DankMaterialShell/dms backend (core) + dankinstall](https://github.com/AvengeMedia/DankMaterialShell/core)
+- [dms first-party plugins](https://github.com/AvengeMedia/dms-plugins)
+- [dgop GitHub](https://github.com/AvengeMedia/dgop)
+- [danksearch GitHub](https://github.com/AvengeMedia/danksearch)
+
+## Get Started[​](#get-started "Direct link to Get Started")
+
+Ready to dive in? Head over to the [Getting Started](https://danklinux.com/docs/getting-started) guide to begin your Dank Linux journey!
+
+- **GitHub**: [github.com/AvengeMedia](https://github.com/AvengeMedia)
+- **Discord**: `DankMaterialShell` has a subsection on the niri discord server, keep relevant discussions in the relevant `#dms-*` channels.
+  
+  - [niri discord](https://discord.gg/ppWTpKmPgT)
+- **Documentation**: You're already here!
+- **Support Development**: [Ko-fi](https://ko-fi.com/danklinux) - Tip us if you'd like to support the project!

@@ -2,9 +2,18 @@
 title: Dank Linux Blog | Dank Linux
 url: https://danklinux.com/blog
 source: sitemap
-fetched_at: 2026-01-24T13:31:53.27952093-03:00
+fetched_at: 2026-01-24T13:32:41.820976116-03:00
 rendered_js: false
 word_count: 75
+summary: This document announces the 1.0 release of DankMaterialShell (DMS), a desktop shell for Wayland compositors built with Quickshell and Go.
+tags:
+    - dms
+    - desktop-shell
+    - wayland
+    - quickshell
+    - linux-desktop
+    - release-announcement
+category: other
 ---
 
 ## DMS 1.0

@@ -5,7 +5,87 @@
   "total_documents": 117,
   "documents": [
     {
-      "file_path": "docs-quickstart.md",
+      "file_path": "001-docs-actions-introduction.md",
+      "title": "GPT Actions",
+      "url": "https://platform.openai.com/docs/actions/introduction.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:11.858724419-03:00",
+      "description": "GPT Actions ===========",
+      "summary": "This document introduces GPT Actions, explaining how they enable Custom GPTs to interact with external services through RESTful APIs using natural language and function calling.",
+      "tags": [
+        "gpt-actions",
+        "api-integration",
+        "custom-gpts",
+        "function-calling",
+        "rest-api",
+        "third-party-apps"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-actions-introduction.md",
+      "detected_category": "Introduction & Overview"
+    },
+    {
+      "file_path": "002-docs-bots.md",
+      "title": "Overview of OpenAI Crawlers",
+      "url": "https://platform.openai.com/docs/bots.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:35.304402906-03:00",
+      "description": "Overview of OpenAI Crawlers ===========================",
+      "summary": "This document provides an overview of OpenAI's web crawlers and user agents, explaining their specific functions and how webmasters can manage them through robots.txt configurations.",
+      "tags": [
+        "openai-crawlers",
+        "gptbot",
+        "oai-searchbot",
+        "robots-txt",
+        "web-crawling",
+        "user-agents"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-bots.md",
+      "detected_category": "Introduction & Overview"
+    },
+    {
+      "file_path": "003-docs-actions-getting-started.md",
+      "title": "Getting started with GPT Actions",
+      "url": "https://platform.openai.com/docs/actions/getting-started.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:17.268417638-03:00",
+      "description": "Getting started with GPT Actions ================================",
+      "summary": "This document provides a step-by-step guide for creating and testing GPT Actions, covering Open API schema generation, authentication setup, and debugging procedures.",
+      "tags": [
+        "gpt-actions",
+        "openapi-schema",
+        "custom-gpts",
+        "api-integration",
+        "oauth-authentication",
+        "debugging"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-actions-getting-started.md",
+      "detected_category": "Introduction & Overview"
+    },
+    {
+      "file_path": "004-docs-guides-evaluation-getting-started.md",
+      "title": "Getting started with datasets",
+      "url": "https://platform.openai.com/docs/guides/evaluation-getting-started.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:19.86552375-03:00",
+      "description": "Getting started with datasets =============================",
+      "summary": "This guide provides instructions on using the OpenAI Datasets feature to create, manage, and evaluate prompts through manual annotations and automated graders. It explains the workflow for testing model outputs against specified criteria to ensure reliable application performance.",
+      "tags": [
+        "openai-datasets",
+        "prompt-engineering",
+        "model-evaluation",
+        "data-annotation",
+        "automated-graders",
+        "llm-testing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-evaluation-getting-started.md",
+      "detected_category": "Introduction & Overview"
+    },
+    {
+      "file_path": "005-docs-quickstart.md",
       "title": "Developer quickstart",
       "url": "https://platform.openai.com/docs/quickstart.md",
       "source": "llms",
@@ -22,1730 +102,12 @@
         "python",
         "developer-tools"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-quickstart.md",
+      "detected_category": "Introduction & Overview"
     },
     {
-      "file_path": "docs-sitemap.xml.md",
-      "title": "Platform docs sitemap",
-      "url": "https://platform.openai.com/docs/sitemap.xml",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:32.801646104-03:00",
-      "summary": "This document provides a comprehensive index of the OpenAI developer platform documentation, including API references, implementation guides, and model capabilities.",
-      "tags": [
-        "openai-platform",
-        "api-reference",
-        "developer-guides",
-        "ai-models",
-        "documentation-index",
-        "machine-learning"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-llms.txt.md",
-      "title": "OpenAI Platform Docs",
-      "url": "https://platform.openai.com/docs/llms.txt",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:32.629690208-03:00",
-      "description": "\u003e Developer documentation for the OpenAI Platform (https://platform.openai.com/docs).",
-      "summary": "This document serves as a central index and navigation hub for the OpenAI Platform, providing structured links to developer guides, core concepts, agent development resources, and API documentation.",
-      "tags": [
-        "openai-platform",
-        "developer-resources",
-        "api-index",
-        "ai-agents",
-        "llm-tools",
-        "prompt-engineering"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-pricing.md",
-      "title": "Pricing",
-      "url": "https://platform.openai.com/docs/pricing.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:37.453109894-03:00",
-      "description": "Pricing =======",
-      "summary": "This document provides a comprehensive breakdown of pricing for various AI models and services, detailing token-based costs across different processing tiers, modalities, and built-in tools.",
-      "tags": [
-        "model-pricing",
-        "token-costs",
-        "api-usage",
-        "fine-tuning-rates",
-        "batch-processing",
-        "multimodal-pricing"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-static-api-definition.yaml.md",
-      "title": "openapi: 3.1.0",
-      "url": "https://platform.openai.com/docs/static/api-definition.yaml",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:33.812253294-03:00",
-      "description": "openapi: 3.1.0 info: title: OpenAI API description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details. version: 2.3.0 termsOfService: https://openai.com/policies/terms-of-use contact: name: OpenAI Support url: https://help.openai.com/ license: name: M...",
-      "summary": "This document defines the OpenAPI specification for the OpenAI REST API, providing a technical reference for endpoints, parameters, and response structures. It covers core functionalities including assistants, chat completions, embeddings, and fine-tuning services.",
-      "tags": [
-        "openai-api",
-        "openapi-specification",
-        "rest-api",
-        "machine-learning",
-        "api-reference",
-        "llm-integration"
-      ],
-      "category": "api"
-    },
-    {
-      "file_path": "docs-llms-full.txt.md",
-      "title": "OpenAI Platform Docs - full documentation",
-      "url": "https://platform.openai.com/docs/llms-full.txt",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:33.394400162-03:00",
-      "description": "\u003e Single-file Markdown export of the OpenAI Platform documentation.",
-      "summary": "This document provides a comprehensive overview of GPT Actions, detailing how to build integrations with third-party APIs and configure various authentication methods such as API keys and OAuth.",
-      "tags": [
-        "gpt-actions",
-        "api-integration",
-        "authentication",
-        "oauth",
-        "custom-gpts",
-        "openai-platform"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-libraries.md",
-      "title": "Libraries",
-      "url": "https://platform.openai.com/docs/libraries.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:38.69321822-03:00",
-      "description": "Libraries =========",
-      "summary": "This document provides instructions for setting up a development environment and installing official OpenAI SDKs for various programming languages to interact with the OpenAI API.",
-      "tags": [
-        "openai-api",
-        "sdk-installation",
-        "environment-setup",
-        "api-key-configuration",
-        "python-sdk",
-        "javascript-sdk",
-        "developer-tools"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-latest-model.md",
-      "title": "Using GPT-5.2",
-      "url": "https://platform.openai.com/docs/guides/latest-model.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:46.886245753-03:00",
-      "description": "Using GPT-5.2 =============",
-      "summary": "This document provides an overview of the GPT-5.2 model family, explaining its core features, model variants, and API configuration parameters such as reasoning effort and verbosity.",
-      "tags": [
-        "gpt-5-2",
-        "ai-models",
-        "api-configuration",
-        "reasoning-effort",
-        "tool-calling",
-        "model-variants"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-docs-mcp.md",
-      "title": "Docs MCP",
-      "url": "https://platform.openai.com/docs/docs-mcp.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:39.30344902-03:00",
-      "description": "Docs MCP ========",
-      "summary": "This document provides instructions for connecting to the OpenAI developer documentation MCP server to access and search API documentation directly within IDEs and tools like Codex, VS Code, and Cursor.",
-      "tags": [
-        "openai",
-        "mcp-server",
-        "developer-docs",
-        "model-context-protocol",
-        "codex",
-        "vs-code",
-        "cursor"
-      ],
-      "category": "configuration"
-    },
-    {
-      "file_path": "docs-guides-images-vision.md",
-      "title": "Images and vision",
-      "url": "https://platform.openai.com/docs/guides/images-vision.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:59.367989579-03:00",
-      "description": "Images and vision =================",
-      "summary": "This document provides an overview of how to generate, edit, and analyze images using OpenAI's multimodal models and vision capabilities through various API endpoints.",
-      "tags": [
-        "openai-api",
-        "image-generation",
-        "computer-vision",
-        "gpt-vision",
-        "multimodal",
-        "dall-e",
-        "image-analysis"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-code-generation.md",
-      "title": "Code generation",
-      "url": "https://platform.openai.com/docs/guides/code-generation.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:58.709119709-03:00",
-      "description": "Code generation ===============",
-      "summary": "This guide provides an overview of how to use OpenAI Codex and specialized models for code generation, reviewing, and editing across various platforms. It explains the differences between using out-of-the-box coding agents and integrating codex-specific models directly into applications via SDKs and APIs.",
-      "tags": [
-        "openai-codex",
-        "code-generation",
-        "ai-coding-agents",
-        "gpt-5-1-codex-max",
-        "software-engineering",
-        "api-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-text.md",
-      "title": "Text generation",
-      "url": "https://platform.openai.com/docs/guides/text.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:12:48.837353788-03:00",
-      "description": "Text generation ===============",
-      "summary": "This document provides a comprehensive guide on using the OpenAI Responses API to generate text, covering implementation across various SDKs and best practices for prompt engineering.",
-      "tags": [
-        "openai-api",
-        "text-generation",
-        "prompt-engineering",
-        "responses-api",
-        "sdk-examples",
-        "llm-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-audio.md",
-      "title": "Audio and speech",
-      "url": "https://platform.openai.com/docs/guides/audio.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:00.347198428-03:00",
-      "description": "Audio and speech ================",
-      "summary": "This document provides an overview of the OpenAI API's audio and speech capabilities, including speech-to-text, text-to-speech, and real-time audio processing. It guides developers in selecting the appropriate API for building voice agents and multimodal applications based on latency and control requirements.",
-      "tags": [
-        "openai-api",
-        "speech-to-text",
-        "text-to-speech",
-        "voice-agents",
-        "realtime-api",
-        "audio-processing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-structured-outputs.md",
-      "title": "Structured model outputs",
-      "url": "https://platform.openai.com/docs/guides/structured-outputs.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:02.494465808-03:00",
-      "description": "Structured model outputs ========================",
-      "summary": "This document explains how to use Structured Outputs to ensure model-generated responses strictly adhere to a provided JSON schema for reliable data extraction and type-safety.",
-      "tags": [
-        "structured-outputs",
-        "json-schema",
-        "openai-api",
-        "type-safety",
-        "pydantic",
-        "zod",
-        "data-extraction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-function-calling.md",
-      "title": "Function calling",
-      "url": "https://platform.openai.com/docs/guides/function-calling.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:05.250487204-03:00",
-      "description": "Function calling ================",
-      "summary": "This document explains how to enable OpenAI models to interface with external systems and data through function calling and custom tools.",
-      "tags": [
-        "openai-api",
-        "function-calling",
-        "tool-calling",
-        "json-schema",
-        "llm-integration",
-        "external-tools"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-migrate-to-responses.md",
-      "title": "Migrate to the Responses API",
-      "url": "https://platform.openai.com/docs/guides/migrate-to-responses.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:06.454704393-03:00",
-      "description": "Migrate to the Responses API ============================",
-      "summary": "This document provides a comprehensive guide for migrating from the Chat Completions API to the Responses API, detailing technical benefits, structural changes, and implementation differences.",
-      "tags": [
-        "migration-guide",
-        "responses-api",
-        "chat-completions",
-        "api-integration",
-        "agentic-workflows",
-        "multimodal-api"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-agents.md",
-      "title": "Agents",
-      "url": "https://platform.openai.com/docs/guides/agents.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:06.508035462-03:00",
-      "description": "Agents ======",
-      "summary": "This document provides an overview of AgentKit, a modular toolkit for building, deploying, and optimizing AI agent workflows using OpenAI models and developer tools. It outlines the process of designing workflows with Agent Builder, integrating UI components via ChatKit, and improving performance through evaluation frameworks.",
-      "tags": [
-        "agents",
-        "agentkit",
-        "ai-workflows",
-        "agent-builder",
-        "chatkit",
-        "llm-optimization",
-        "openai-sdk"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-agent-builder.md",
-      "title": "Agent Builder",
-      "url": "https://platform.openai.com/docs/guides/agent-builder.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:06.982523132-03:00",
-      "description": "Agent Builder",
-      "summary": "This document introduces Agent Builder, a visual canvas for designing, testing, and deploying multi-step agent workflows using modular nodes and integrated tools.",
-      "tags": [
-        "agent-builder",
-        "workflow-automation",
-        "chatkit",
-        "agents-sdk",
-        "visual-programming",
-        "agent-deployment"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-node-reference.md",
-      "title": "Node reference",
-      "url": "https://platform.openai.com/docs/guides/node-reference.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:09.028005494-03:00",
-      "description": "Node reference",
-      "summary": "This document provides a comprehensive overview of the different node types available in Agent Builder for constructing and configuring agentic workflows.",
-      "tags": [
-        "agent-builder",
-        "workflow-design",
-        "node-reference",
-        "logic-nodes",
-        "ai-agents",
-        "tool-integration"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-guides-chatkit.md",
-      "title": "ChatKit",
-      "url": "https://platform.openai.com/docs/guides/chatkit.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:11.947188537-03:00",
-      "description": "ChatKit =======",
-      "summary": "This document provides a comprehensive guide for implementing ChatKit to create and customize embeddable chat interfaces for AI agents. It details both recommended hosted integrations and advanced custom infrastructure setups using React and Python SDKs.",
-      "tags": [
-        "chatkit",
-        "ai-agents",
-        "embeddable-ui",
-        "openai-sdk",
-        "react-integration",
-        "frontend-development"
-      ],
-      "category": "tutorial"
-    },
-    {
-      "file_path": "docs-guides-chatkit-themes.md",
-      "title": "Theming and customization in ChatKit",
-      "url": "https://platform.openai.com/docs/guides/chatkit-themes.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:13.020457115-03:00",
-      "description": "Theming and customization in ChatKit ====================================",
-      "summary": "This document provides instructions on how to customize the ChatKit user interface, covering visual themes, component behavior, and the configuration of advanced features like file attachments and entity mentions.",
-      "tags": [
-        "chatkit",
-        "ui-customization",
-        "theming",
-        "react-integration",
-        "configuration-options",
-        "frontend-development"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-agent-builder-safety.md",
-      "title": "Safety in building agents",
-      "url": "https://platform.openai.com/docs/guides/agent-builder-safety.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:09.857596913-03:00",
-      "description": "Safety in building agents",
-      "summary": "This document outlines best practices for identifying and mitigating security risks such as prompt injections and data leakage when developing AI agents. It provides specific strategies including the use of structured outputs, guardrails, and human-in-the-loop approvals to ensure agent safety.",
-      "tags": [
-        "agent-security",
-        "prompt-injection",
-        "data-privacy",
-        "risk-mitigation",
-        "guardrails",
-        "agent-builder"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-agents-sdk.md",
-      "title": "Agents SDK",
-      "url": "https://platform.openai.com/docs/guides/agents-sdk.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:12.273050378-03:00",
-      "description": "Agents SDK ==========",
-      "summary": "This document introduces the OpenAI Agents SDK for Python and TypeScript, providing resources for building agentic applications that feature multi-agent handoffs, tool usage, and result streaming.",
-      "tags": [
-        "openai-agents-sdk",
-        "agentic-ai",
-        "python-sdk",
-        "typescript-sdk",
-        "ai-orchestration",
-        "multi-agent-systems"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-agent-evals.md",
-      "title": "Agent evals",
-      "url": "https://platform.openai.com/docs/guides/agent-evals.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:32.715567355-03:00",
-      "description": "Agent evals ===========",
-      "summary": "This document provides an overview of tools and methodologies for measuring and improving the performance and consistency of AI agents on the OpenAI Platform.",
-      "tags": [
-        "agent-evaluations",
-        "openai-platform",
-        "trace-grading",
-        "model-testing",
-        "performance-metrics",
-        "iterative-improvement"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-trace-grading.md",
-      "title": "Trace grading",
-      "url": "https://platform.openai.com/docs/guides/trace-grading.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:36.243842677-03:00",
-      "description": "Trace grading =============",
-      "summary": "This document explains how to use trace grading and evaluations to assess agent performance by analyzing logs of decisions, tool calls, and reasoning steps.",
-      "tags": [
-        "trace-grading",
-        "agent-evaluation",
-        "performance-monitoring",
-        "error-identification",
-        "trace-evals",
-        "workflow-logs"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-chatkit-widgets.md",
-      "title": "ChatKit widgets",
-      "url": "https://platform.openai.com/docs/guides/chatkit-widgets.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:18.018595465-03:00",
-      "description": "ChatKit widgets ===============",
-      "summary": "This document provides a technical overview and property reference for ChatKit widgets, covering design tools, asset management, and action handling on the server.",
-      "tags": [
-        "chatkit",
-        "ui-components",
-        "widget-builder",
-        "event-handling",
-        "interactive-cards",
-        "api-reference"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-guides-voice-agents.md",
-      "title": "Voice agents",
-      "url": "https://platform.openai.com/docs/guides/voice-agents.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:37.70461038-03:00",
-      "description": "Voice agents ============",
-      "summary": "This document explains how to design and build voice agents using OpenAI's speech-to-speech and chained architectures, covering transport protocols and effective prompting strategies.",
-      "tags": [
-        "voice-agents",
-        "openai-api",
-        "realtime-api",
-        "speech-to-speech",
-        "webrtc",
-        "websockets",
-        "prompt-engineering",
-        "agents-sdk"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-chatkit-actions.md",
-      "title": "Actions in ChatKit",
-      "url": "https://platform.openai.com/docs/guides/chatkit-actions.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:28.403655439-03:00",
-      "description": "Actions in ChatKit ==================",
-      "summary": "This document explains how to trigger and handle actions in ChatKit to facilitate asynchronous interactions, manage server-side side effects, and build interactive forms within a chat interface.",
-      "tags": [
-        "chatkit-sdk",
-        "event-handling",
-        "server-side-actions",
-        "client-side-handling",
-        "widget-interactions",
-        "form-validation",
-        "type-safety"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools.md",
-      "title": "Using tools",
-      "url": "https://platform.openai.com/docs/guides/tools.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:40.975903401-03:00",
-      "description": "Using tools ===========",
-      "summary": "This document explains how to extend model capabilities by integrating tools such as web search, file search, function calling, and remote MCP servers.",
-      "tags": [
-        "tool-use",
-        "function-calling",
-        "web-search",
-        "file-search",
-        "mcp-server",
-        "api-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-connectors-mcp.md",
-      "title": "Connectors and MCP servers",
-      "url": "https://platform.openai.com/docs/guides/tools-connectors-mcp.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:41.936861192-03:00",
-      "description": "Connectors and MCP servers",
-      "summary": "This document explains how to extend model capabilities by integrating remote MCP servers and OpenAI-maintained connectors using the Responses API. It details the implementation process, including server configuration, authentication, and handling tool execution workflows.",
-      "tags": [
-        "mcp",
-        "model-context-protocol",
-        "openai-api",
-        "connectors",
-        "external-tools",
-        "responses-api",
-        "tool-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-code-interpreter.md",
-      "title": "Code Interpreter",
-      "url": "https://platform.openai.com/docs/guides/tools-code-interpreter.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:44.614195978-03:00",
-      "description": "Code Interpreter ================",
-      "summary": "This document explains how to use the Code Interpreter tool to enable models to execute Python code in sandboxed environments for tasks like data analysis and file processing. It provides instructions on managing containers, memory limits, and handling generated files through the API.",
-      "tags": [
-        "code-interpreter",
-        "python-sandbox",
-        "data-analysis",
-        "container-management",
-        "api-integration",
-        "file-processing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-web-search.md",
-      "title": "Web search",
-      "url": "https://platform.openai.com/docs/guides/tools-web-search.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:44.060511163-03:00",
-      "description": "Web search ==========",
-      "summary": "This document explains how to enable and configure the web search tool in OpenAI models to retrieve real-time information with sourced citations. It covers search methodologies including non-reasoning, agentic, and deep research, as well as implementation details for domain filtering and handling output annotations.",
-      "tags": [
-        "web-search",
-        "openai-api",
-        "responses-api",
-        "agentic-search",
-        "deep-research",
-        "tool-calling",
-        "citations",
-        "domain-filtering"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-file-search.md",
-      "title": "File search",
-      "url": "https://platform.openai.com/docs/guides/tools-file-search.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:45.638208237-03:00",
-      "description": "File search ===========",
-      "summary": "This document explains how to use the File search tool to augment model responses with information from uploaded files via vector stores and semantic search.",
-      "tags": [
-        "file-search",
-        "vector-stores",
-        "semantic-search",
-        "openai-api",
-        "retrieval-augmented-generation",
-        "knowledge-base"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-custom-chatkit.md",
-      "title": "Advanced integrations with ChatKit",
-      "url": "https://platform.openai.com/docs/guides/custom-chatkit.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:32.640746931-03:00",
-      "description": "Advanced integrations with ChatKit ==================================",
-      "summary": "This document explains how to implement a self-hosted ChatKit integration to maintain full control over infrastructure, including server setup, data storage, and interactive widget implementation.",
-      "tags": [
-        "chatkit",
-        "self-hosting",
-        "python-sdk",
-        "server-integration",
-        "custom-infrastructure",
-        "interactive-widgets"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-retrieval.md",
-      "title": "Retrieval",
-      "url": "https://platform.openai.com/docs/guides/retrieval.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:47.544695142-03:00",
-      "description": "Retrieval =========",
-      "summary": "This document explains how to use the Retrieval API to perform semantic searches and manage data using vector stores. It details the processes of uploading files, executing natural language queries, and applying attribute filters for refined results.",
-      "tags": [
-        "retrieval-api",
-        "semantic-search",
-        "vector-stores",
-        "attribute-filtering",
-        "query-rewriting",
-        "data-indexing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-local-shell.md",
-      "title": "Local shell",
-      "url": "https://platform.openai.com/docs/guides/tools-local-shell.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:50.216743724-03:00",
-      "description": "Local shell ===========",
-      "summary": "This document explains how to integrate and use the local shell tool to allow agents to execute commands in a local terminal environment. It details the integration workflow and provides security best practices for safe implementation.",
-      "tags": [
-        "local-shell",
-        "codex-mini-latest",
-        "agent-tools",
-        "responses-api",
-        "shell-integration",
-        "security-best-practices"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-image-generation.md",
-      "title": "Image generation",
-      "url": "https://platform.openai.com/docs/guides/tools-image-generation.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:50.022714995-03:00",
-      "description": "Image generation ================",
-      "summary": "This document provides instructions and code examples for using the image generation tool to create and edit images, including multi-turn conversational editing and output configuration.",
-      "tags": [
-        "image-generation",
-        "image-editing",
-        "gpt-image",
-        "multi-turn-editing",
-        "api-usage",
-        "prompt-optimization"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-computer-use.md",
-      "title": "Computer use",
-      "url": "https://platform.openai.com/docs/guides/tools-computer-use.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:50.165259676-03:00",
-      "description": "Computer use ============",
-      "summary": "This document explains how to build agents that control computer interfaces using the Computer-Using Agent (CUA) model and the Responses API.",
-      "tags": [
-        "openai-cua",
-        "computer-use",
-        "agent-automation",
-        "browser-automation",
-        "docker",
-        "sandboxed-environment"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-apply-patch.md",
-      "title": "Apply patch",
-      "url": "https://platform.openai.com/docs/guides/tools-apply-patch.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:13:58.886301312-03:00",
-      "description": "Apply patch ===========",
-      "summary": "This document explains how to implement the apply_patch tool to enable models to perform structured file operations like creating, updating, and deleting code via diffs.",
-      "tags": [
-        "gpt-5-1",
-        "apply-patch",
-        "code-editing",
-        "structured-diffs",
-        "tool-calling",
-        "agentic-workflows"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-conversation-state.md",
-      "title": "Conversation state",
-      "url": "https://platform.openai.com/docs/guides/conversation-state.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:06.666813375-03:00",
-      "description": "Conversation state ==================",
-      "summary": "This document explains various methods for managing conversation state and context in multi-turn interactions, including manual message passing and the Conversations API. It provides guidance on preserving information across requests while considering context window limits and data retention.",
-      "tags": [
-        "conversation-state",
-        "multi-turn-conversations",
-        "context-management",
-        "openai-api",
-        "state-management",
-        "api-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-streaming-responses.md",
-      "title": "Streaming API responses",
-      "url": "https://platform.openai.com/docs/guides/streaming-responses.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:08.069417889-03:00",
-      "description": "Streaming API responses =======================",
-      "summary": "This guide explains how to implement streaming for API responses using server-sent events to receive model outputs incrementally. It covers enabling the streaming feature, handling semantic lifecycle events, and provides implementation examples across various SDKs.",
-      "tags": [
-        "openai-api",
-        "streaming-responses",
-        "server-sent-events",
-        "real-time-data",
-        "event-handling",
-        "sdk-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-background.md",
-      "title": "Background mode",
-      "url": "https://platform.openai.com/docs/guides/background.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:07.836095433-03:00",
-      "description": "Background mode ===============",
-      "summary": "This document explains how to execute long-running asynchronous tasks using background mode, including methods for polling status, cancelling requests, and streaming results. It also details compatibility with data retention policies and specific technical limitations for background processing.",
-      "tags": [
-        "background-mode",
-        "asynchronous-tasks",
-        "polling-api",
-        "streaming-responses",
-        "openai-api",
-        "long-running-processes"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-webhooks.md",
-      "title": "Webhooks",
-      "url": "https://platform.openai.com/docs/guides/webhooks.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:12.171217996-03:00",
-      "description": "Webhooks ========",
-      "summary": "This document explains how to configure and implement webhooks to receive real-time notifications for OpenAI API events, covering endpoint creation, server-side handling, and security verification.",
-      "tags": [
-        "webhooks",
-        "real-time-notifications",
-        "api-integration",
-        "webhook-signatures",
-        "event-driven",
-        "security-verification",
-        "server-side-implementation"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-prompt-caching.md",
-      "title": "Prompt caching",
-      "url": "https://platform.openai.com/docs/guides/prompt-caching.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:14.148014905-03:00",
-      "description": "Prompt caching ==============",
-      "summary": "This document explains OpenAI's prompt caching feature, which reduces latency and costs by automatically reusing processed prompt prefixes. It provides instructions on structuring prompts for optimal cache hits, configuring retention policies, and monitoring cache usage.",
-      "tags": [
-        "prompt-caching",
-        "openai-api",
-        "latency-optimization",
-        "cost-reduction",
-        "token-management",
-        "performance-tuning"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-pdf-files.md",
-      "title": "File inputs",
-      "url": "https://platform.openai.com/docs/guides/pdf-files.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:13.518960349-03:00",
-      "description": "File inputs ===========",
-      "summary": "This document explains how to provide PDF files as input to OpenAI vision-capable models using external URLs, file uploads, or Base64-encoded data.",
-      "tags": [
-        "pdf-input",
-        "openai-api",
-        "vision-models",
-        "file-upload",
-        "base64-encoding",
-        "multimodal"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-prompting.md",
-      "title": "Prompting",
-      "url": "https://platform.openai.com/docs/guides/prompting.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:14.118901204-03:00",
-      "description": "Prompting =========",
-      "summary": "This document explains how to create, manage, and version reusable prompt objects within the OpenAI ecosystem for consistent performance across APIs and SDKs. It provides instructions for using the prompt dashboard, versioning systems, and integrating stored prompts into API calls.",
-      "tags": [
-        "prompt-management",
-        "openai-api",
-        "prompt-versioning",
-        "prompt-engineering",
-        "api-integration",
-        "prompt-variables"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-tools-shell.md",
-      "title": "Shell",
-      "url": "https://platform.openai.com/docs/guides/tools-shell.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:03.412627992-03:00",
-      "description": "Shell =====",
-      "summary": "This document explains how to integrate the shell tool with the Responses API to enable models to propose and execute command-line instructions. It details the request-response lifecycle, command execution requirements, and security best practices for sandboxing shell environments.",
-      "tags": [
-        "shell-tool",
-        "responses-api",
-        "command-execution",
-        "tool-calling",
-        "sandboxing",
-        "agentic-workflows",
-        "system-interaction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-prompt-engineering.md",
-      "title": "Prompt engineering",
-      "url": "https://platform.openai.com/docs/guides/prompt-engineering.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:18.00932759-03:00",
-      "description": "Prompt engineering ==================",
-      "summary": "This document explains how to use prompt engineering strategies and the OpenAI API to generate text, covering model selection, message roles, and instruction-following techniques.",
-      "tags": [
-        "prompt-engineering",
-        "openai-api",
-        "text-generation",
-        "model-selection",
-        "llm-best-practices",
-        "message-roles"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-reasoning.md",
-      "title": "Reasoning models",
-      "url": "https://platform.openai.com/docs/guides/reasoning.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:18.593950891-03:00",
-      "description": "Reasoning models ================",
-      "summary": "This document explains how to utilize reasoning models to solve complex problems by managing reasoning effort, understanding hidden reasoning tokens, and optimizing context window usage via the Responses API.",
-      "tags": [
-        "reasoning-models",
-        "gpt-5",
-        "responses-api",
-        "reasoning-tokens",
-        "token-management",
-        "context-window"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-reasoning-best-practices.md",
-      "title": "Reasoning best practices",
-      "url": "https://platform.openai.com/docs/guides/reasoning-best-practices.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:18.782433107-03:00",
-      "description": "Reasoning best practices ========================",
-      "summary": "This document explains the differences between OpenAI's reasoning and GPT model families, providing strategic guidance on selecting the appropriate model based on task complexity, cost, and accuracy requirements. It outlines practical best practices for using reasoning models in scenarios such as navigating ambiguity, analyzing dense datasets, and orchestration of multi-step agentic workflows.",
-      "tags": [
-        "reasoning-models",
-        "o-series",
-        "gpt-4o",
-        "model-selection",
-        "agentic-planning",
-        "ai-strategy",
-        "best-practices"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-prompt-optimizer.md",
-      "title": "Prompt optimizer",
-      "url": "https://platform.openai.com/docs/guides/prompt-optimizer.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:24.184366822-03:00",
-      "description": "Prompt optimizer ================",
-      "summary": "This document explains how to use the prompt optimizer tool to automatically refine prompts by leveraging datasets, human annotations, and automated evaluation graders.",
-      "tags": [
-        "prompt-optimization",
-        "prompt-engineering",
-        "evaluation-tools",
-        "dataset-management",
-        "llm-testing",
-        "graders"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-evaluation-getting-started.md",
-      "title": "Getting started with datasets",
-      "url": "https://platform.openai.com/docs/guides/evaluation-getting-started.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:19.86552375-03:00",
-      "description": "Getting started with datasets =============================",
-      "summary": "This guide provides instructions on using the OpenAI Datasets feature to create, manage, and evaluate prompts through manual annotations and automated graders. It explains the workflow for testing model outputs against specified criteria to ensure reliable application performance.",
-      "tags": [
-        "openai-datasets",
-        "prompt-engineering",
-        "model-evaluation",
-        "data-annotation",
-        "automated-graders",
-        "llm-testing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-evals.md",
-      "title": "Working with evals",
-      "url": "https://platform.openai.com/docs/guides/evals.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:24.160548383-03:00",
-      "description": "Working with evals ==================",
-      "summary": "This document explains how to programmatically configure, run, and analyze model evaluations using the Evals API to ensure outputs meet specific style and content criteria. It covers the process of defining tasks, setting up test data schemas, and implementing grading criteria to improve LLM reliability.",
-      "tags": [
-        "evals",
-        "llm-testing",
-        "openai-api",
-        "model-evaluation",
-        "prompt-engineering",
-        "automated-grading"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-external-models.md",
-      "title": "Evaluate external models",
-      "url": "https://platform.openai.com/docs/guides/external-models.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:25.869506045-03:00",
-      "description": "Evaluate external models ========================",
-      "summary": "This document explains how to evaluate non-OpenAI models using the OpenAI Platform, covering the configuration of third-party models and custom API endpoints.",
-      "tags": [
-        "model-evaluation",
-        "external-models",
-        "third-party-providers",
-        "custom-endpoints",
-        "openai-platform",
-        "inference-testing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime.md",
-      "title": "Realtime API",
-      "url": "https://platform.openai.com/docs/guides/realtime.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:37.106408494-03:00",
-      "description": "Realtime API ============",
-      "summary": "Overview of the Realtime API for building low-latency multimodal LLM applications, detailing connection methods like WebRTC and WebSocket along with migration steps from beta to GA.",
-      "tags": [
-        "realtime-api",
-        "multimodal-llm",
-        "webrtc",
-        "websocket",
-        "voice-agents",
-        "speech-to-speech",
-        "audio-transcription"
-      ],
-      "category": "api"
-    },
-    {
-      "file_path": "docs-guides-evaluation-best-practices.md",
-      "title": "Evaluation best practices",
-      "url": "https://platform.openai.com/docs/guides/evaluation-best-practices.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:31.557290011-03:00",
-      "description": "Evaluation best practices =========================",
-      "summary": "This document outlines best practices for designing and implementing evaluation frameworks to measure and improve the performance of Generative AI applications in production environments.",
-      "tags": [
-        "evaluations",
-        "llm-performance",
-        "ai-testing",
-        "best-practices",
-        "model-optimization",
-        "automated-metrics",
-        "dataset-curation"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-sip.md",
-      "title": "Realtime API with SIP",
-      "url": "https://platform.openai.com/docs/guides/realtime-sip.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:47.887327812-03:00",
-      "description": "Realtime API with SIP =====================",
-      "summary": "This document explains how to integrate phone calls with the Realtime API using the SIP protocol, covering call handling procedures like accepting, rejecting, and transferring calls via webhooks and REST endpoints.",
-      "tags": [
-        "realtime-api",
-        "sip",
-        "telephony",
-        "webhooks",
-        "call-management",
-        "voice-ai",
-        "websockets"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-webrtc.md",
-      "title": "Realtime API with WebRTC",
-      "url": "https://platform.openai.com/docs/guides/realtime-webrtc.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:38.447507439-03:00",
-      "description": "Realtime API with WebRTC ========================",
-      "summary": "This guide explains how to connect to the OpenAI Realtime API using WebRTC, detailing methods for session initialization via a unified interface or ephemeral tokens.",
-      "tags": [
-        "realtime-api",
-        "webrtc",
-        "openai",
-        "javascript",
-        "node-js",
-        "speech-to-speech",
-        "client-side-authentication"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-models-prompting.md",
-      "title": "Using realtime models",
-      "url": "https://platform.openai.com/docs/guides/realtime-models-prompting.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:49.759262475-03:00",
-      "description": "Using realtime models =====================",
-      "summary": "This document provides instructions and best practices for implementing and optimizing real-time speech-to-speech models, covering session configuration, API integration, and specialized prompting techniques.",
-      "tags": [
-        "gpt-realtime",
-        "speech-to-speech",
-        "real-time-api",
-        "prompt-engineering",
-        "session-management",
-        "webrtc",
-        "websockets"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-conversations.md",
-      "title": "Realtime conversations",
-      "url": "https://platform.openai.com/docs/guides/realtime-conversations.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:52.199442124-03:00",
-      "description": "Realtime conversations ======================",
-      "summary": "This document explains how to manage stateful speech-to-speech and text-based interactions using the Realtime API, covering session lifecycles, event flows, and media handling via WebRTC or WebSockets.",
-      "tags": [
-        "realtime-api",
-        "webrtc",
-        "websockets",
-        "speech-to-speech",
-        "event-handling",
-        "session-management",
-        "text-generation"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-server-controls.md",
-      "title": "Webhooks and server-side controls",
-      "url": "https://platform.openai.com/docs/guides/realtime-server-controls.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:52.061523945-03:00",
-      "description": "Webhooks and server-side controls =================================",
-      "summary": "This document explains how to implement sideband control channels using WebRTC or SIP to manage Realtime API sessions securely from an application server.",
-      "tags": [
-        "realtime-api",
-        "webhooks",
-        "webrtc",
-        "sip",
-        "server-side-logic",
-        "websockets"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-costs.md",
-      "title": "Managing costs",
-      "url": "https://platform.openai.com/docs/guides/realtime-costs.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:54.057637454-03:00",
-      "description": "Managing costs ==============",
-      "summary": "This guide explains the billing structure of the Realtime API across different modalities and provides strategies for cost optimization through prompt caching and truncation management.",
-      "tags": [
-        "realtime-api",
-        "cost-management",
-        "token-usage",
-        "prompt-caching",
-        "truncation",
-        "audio-tokens"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-transcription.md",
-      "title": "Realtime transcription",
-      "url": "https://platform.openai.com/docs/guides/realtime-transcription.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:54.72313393-03:00",
-      "description": "Realtime transcription ======================",
-      "summary": "Explains how to configure and use the Realtime API for real-time audio transcription, covering session setup, event handling, and voice activity detection.",
-      "tags": [
-        "realtime-api",
-        "audio-transcription",
-        "websockets",
-        "webrtc",
-        "speech-to-text",
-        "voice-activity-detection",
-        "noise-reduction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-model-optimization.md",
-      "title": "Model optimization",
-      "url": "https://platform.openai.com/docs/guides/model-optimization.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:55.545829187-03:00",
-      "description": "Model optimization ==================",
-      "summary": "This guide outlines the iterative workflow for optimizing AI model performance through a combination of systematic evaluations, prompt engineering, and various fine-tuning techniques.",
-      "tags": [
-        "model-optimization",
-        "prompt-engineering",
-        "fine-tuning",
-        "evals",
-        "openai-platform",
-        "model-performance"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-realtime-websocket.md",
-      "title": "Realtime API with WebSocket",
-      "url": "https://platform.openai.com/docs/guides/realtime-websocket.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:44.586191468-03:00",
-      "description": "Realtime API with WebSocket ===========================",
-      "summary": "This guide explains how to connect to the OpenAI Realtime API via WebSockets for server-to-server applications, detailing authentication and event-driven communication.",
-      "tags": [
-        "openai-realtime-api",
-        "websocket-integration",
-        "server-to-server",
-        "realtime-data",
-        "node-js",
-        "python",
-        "event-handling"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-vision-fine-tuning.md",
-      "title": "Vision fine-tuning",
-      "url": "https://platform.openai.com/docs/guides/vision-fine-tuning.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:58.806083063-03:00",
-      "description": "Vision fine-tuning ==================",
-      "summary": "This guide explains how to perform supervised fine-tuning on vision models using image inputs, covering data formatting, technical requirements, and safety moderation policies.",
-      "tags": [
-        "vision-fine-tuning",
-        "image-understanding",
-        "supervised-fine-tuning",
-        "data-preparation",
-        "safety-moderation",
-        "machine-learning"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-supervised-fine-tuning.md",
-      "title": "Supervised fine-tuning",
-      "url": "https://platform.openai.com/docs/guides/supervised-fine-tuning.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:57.789227408-03:00",
-      "description": "Supervised fine-tuning ======================",
-      "summary": "This document explains how to perform supervised fine-tuning on OpenAI models, detailing the process of dataset creation, data formatting, and performance evaluation.",
-      "tags": [
-        "supervised-fine-tuning",
-        "dataset-preparation",
-        "jsonl-format",
-        "llm-customization",
-        "model-training",
-        "openai-api"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-direct-preference-optimization.md",
-      "title": "Direct preference optimization",
-      "url": "https://platform.openai.com/docs/guides/direct-preference-optimization.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:14:59.46266082-03:00",
-      "description": "Direct preference optimization ==============================",
-      "summary": "This document explains how to use Direct Preference Optimization (DPO) to fine-tune models using comparative human preferences, covering data preparation, job creation, and safety evaluation.",
-      "tags": [
-        "direct-preference-optimization",
-        "fine-tuning",
-        "model-alignment",
-        "openai-api",
-        "machine-learning",
-        "preference-learning"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-reinforcement-fine-tuning.md",
-      "title": "Reinforcement fine-tuning",
-      "url": "https://platform.openai.com/docs/guides/reinforcement-fine-tuning.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:00.682697232-03:00",
-      "description": "Reinforcement fine-tuning =========================",
-      "summary": "This document explains Reinforcement Fine-Tuning (RFT), a method for optimizing reasoning models using programmable graders and reward signals to align outputs with domain-specific requirements. It outlines the technical workflow, provides criteria for when to use RFT, and includes a practical example of implementing custom graders.",
-      "tags": [
-        "reinforcement-fine-tuning",
-        "rft",
-        "model-optimization",
-        "openai-o-series",
-        "graders",
-        "reward-signals",
-        "reasoning-models"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-image-generation.md",
-      "title": "Image generation",
-      "url": "https://platform.openai.com/docs/guides/image-generation.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:15.999349352-03:00",
-      "description": "Image generation ================",
-      "summary": "This document explains how to use the OpenAI Image and Responses APIs to generate, edit, and create variations of images using GPT Image and DALL-E models.",
-      "tags": [
-        "image-generation",
-        "image-editing",
-        "openai-api",
-        "dall-e",
-        "gpt-image",
-        "multi-turn-editing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-rft-use-cases.md",
-      "title": "Reinforcement fine-tuning use cases",
-      "url": "https://platform.openai.com/docs/guides/rft-use-cases.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:05.833202464-03:00",
-      "description": "Reinforcement fine-tuning use cases ===================================",
-      "summary": "This document explores common use cases and best practices for reinforcement fine-tuning (RFT), highlighting its effectiveness in improving model performance for tasks with verifiable outcomes like code generation and fact extraction.",
-      "tags": [
-        "reinforcement-fine-tuning",
-        "rft",
-        "model-training",
-        "code-generation",
-        "data-extraction",
-        "agentic-workflows",
-        "llm-optimization"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-video-generation.md",
-      "title": "Video generation with Sora",
-      "url": "https://platform.openai.com/docs/guides/video-generation.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:18.622110258-03:00",
-      "description": "Video generation with Sora ==========================",
-      "summary": "This document explains how to use the Sora Video API to programmatically generate, monitor, and manage high-quality videos from text prompts. It covers model selection, asynchronous processing via polling or webhooks, and content safety restrictions.",
-      "tags": [
-        "sora",
-        "video-generation",
-        "text-to-video",
-        "openai-api",
-        "asynchronous-processing",
-        "webhooks",
-        "generative-ai"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-fine-tuning-best-practices.md",
-      "title": "Fine-tuning best practices",
-      "url": "https://platform.openai.com/docs/guides/fine-tuning-best-practices.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:09.61270364-03:00",
-      "description": "Fine-tuning best practices ==========================",
-      "summary": "This document provides actionable strategies for improving fine-tuned model performance by iterating on data quality, quantity, and hyperparameters. It outlines best practices for dataset construction, including formatting, diversity, and the use of training versus testing sets.",
-      "tags": [
-        "fine-tuning",
-        "data-quality",
-        "hyperparameters",
-        "model-optimization",
-        "training-strategies",
-        "dataset-management"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-text-to-speech.md",
-      "title": "Text to speech",
-      "url": "https://platform.openai.com/docs/guides/text-to-speech.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:20.928405255-03:00",
-      "description": "Text to speech ==============",
-      "summary": "This document provides a comprehensive guide on using the Audio API's speech endpoint to convert text into lifelike spoken audio across multiple languages and formats.",
-      "tags": [
-        "text-to-speech",
-        "audio-api",
-        "speech-synthesis",
-        "streaming-audio",
-        "voice-options",
-        "openai-tts"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-graders.md",
-      "title": "Graders",
-      "url": "https://platform.openai.com/docs/guides/graders.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:14.501330785-03:00",
-      "description": "Graders =======",
-      "summary": "This document explains how to use graders to evaluate model performance during evaluations and fine-tuning, covering various grader types, templating syntax, and configuration methods.",
-      "tags": [
-        "model-evaluation",
-        "reinforcement-fine-tuning",
-        "graders-api",
-        "text-similarity",
-        "string-comparison",
-        "automated-grading"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-deep-research.md",
-      "title": "Deep research",
-      "url": "https://platform.openai.com/docs/guides/deep-research.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:24.766397437-03:00",
-      "description": "Deep research =============",
-      "summary": "This document explains how to use deep research models for complex analysis tasks through the Responses API, including configuration of tools and long-running background tasks.",
-      "tags": [
-        "o3-deep-research",
-        "responses-api",
-        "background-mode",
-        "web-search",
-        "file-search",
-        "data-analysis"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-speech-to-text.md",
-      "title": "Speech to text",
-      "url": "https://platform.openai.com/docs/guides/speech-to-text.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:21.950927643-03:00",
-      "description": "Speech to text ==============",
-      "summary": "This document explains how to use the Audio API to convert audio files into text through transcription and translation. It details model options, speaker diarization techniques, and supported file formats for processing audio data.",
-      "tags": [
-        "speech-to-text",
-        "audio-api",
-        "transcription",
-        "translation",
-        "whisper-model",
-        "speaker-diarization",
-        "audio-processing"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-embeddings.md",
-      "title": "Vector embeddings",
-      "url": "https://platform.openai.com/docs/guides/embeddings.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:26.168262367-03:00",
-      "description": "Vector embeddings =================",
-      "summary": "This document provides an overview of vector embeddings, explaining how to use OpenAI models to convert text into numerical vectors for applications like search and clustering. It covers model selection, API implementation, and techniques for reducing embedding dimensions while maintaining performance.",
-      "tags": [
-        "vector-embeddings",
-        "openai-api",
-        "semantic-search",
-        "text-representation",
-        "dimensionality-reduction",
-        "machine-learning"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-production-best-practices.md",
-      "title": "Production best practices",
-      "url": "https://platform.openai.com/docs/guides/production-best-practices.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:27.777273436-03:00",
-      "description": "Production best practices =========================",
-      "summary": "This document outlines comprehensive strategies and best practices for transitioning AI applications from prototype to production, focusing on security, organizational management, and architectural scaling. It provides guidance on managing API keys, billing limits, and optimizing system performance.",
-      "tags": [
-        "production-readiness",
-        "api-security",
-        "scalability",
-        "latency-optimization",
-        "billing-management",
-        "infrastructure-design"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-moderation.md",
-      "title": "Moderation",
-      "url": "https://platform.openai.com/docs/guides/moderation.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:27.298426387-03:00",
-      "description": "Moderation ==========",
-      "summary": "This document explains how to use the moderation API to identify and filter harmful content in text and images using various classification models.",
-      "tags": [
-        "moderation-api",
-        "content-safety",
-        "image-moderation",
-        "text-moderation",
-        "multi-modal",
-        "api-integration",
-        "content-filtering"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-priority-processing.md",
-      "title": "Priority processing",
-      "url": "https://platform.openai.com/docs/guides/priority-processing.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:31.159054634-03:00",
-      "description": "Priority processing ===================",
-      "summary": "This document explains how to enable and configure Priority processing to achieve lower and more consistent latency for API requests. It covers implementation through request parameters or project settings, along with rate limits and usage considerations.",
-      "tags": [
-        "priority-processing",
-        "latency-optimization",
-        "api-configuration",
-        "service-tiers",
-        "rate-limits",
-        "performance-tuning"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-latency-optimization.md",
-      "title": "Latency optimization",
-      "url": "https://platform.openai.com/docs/guides/latency-optimization.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:29.965020485-03:00",
-      "description": "Latency optimization ====================",
-      "summary": "This guide outlines seven core principles and practical techniques for reducing latency in large language model applications, ranging from prompt engineering to architectural adjustments.",
-      "tags": [
-        "latency-optimization",
-        "llm-performance",
-        "inference-speed",
-        "token-management",
-        "parallelization",
-        "streaming",
-        "model-efficiency"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-cost-optimization.md",
-      "title": "Cost optimization",
-      "url": "https://platform.openai.com/docs/guides/cost-optimization.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:32.775020697-03:00",
-      "description": "Cost optimization =================",
-      "summary": "This document outlines various strategies and tools for reducing costs and latency when using OpenAI models, such as optimizing token usage and utilizing the Batch API or flex processing.",
-      "tags": [
-        "cost-optimization",
-        "latency-optimization",
-        "batch-api",
-        "flex-processing",
-        "token-usage"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-batch.md",
-      "title": "Batch API",
-      "url": "https://platform.openai.com/docs/guides/batch.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:33.265680265-03:00",
-      "description": "Batch API =========",
-      "summary": "This document explains how to use the OpenAI Batch API to process large groups of requests asynchronously with reduced costs and higher rate limits.",
-      "tags": [
-        "batch-api",
-        "asynchronous-processing",
-        "cost-optimization",
-        "rate-limits",
-        "jsonl-format",
-        "api-workflow"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-flex-processing.md",
-      "title": "Flex processing",
-      "url": "https://platform.openai.com/docs/guides/flex-processing.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:35.694103997-03:00",
-      "description": "Flex processing",
-      "summary": "This document introduces Flex processing, a cost-saving service tier for API requests that offers lower pricing in exchange for slower response times and reduced availability. it provides guidance on configuring the service_tier parameter, adjusting request timeouts, and handling resource unavailable errors.",
-      "tags": [
-        "openai-api",
-        "flex-processing",
-        "cost-optimization",
-        "error-handling",
-        "api-configuration",
-        "service-tier"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-predicted-outputs.md",
-      "title": "Predicted Outputs",
-      "url": "https://platform.openai.com/docs/guides/predicted-outputs.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:30.52497276-03:00",
-      "description": "Predicted Outputs =================",
-      "summary": "This document explains how to use the Predicted Outputs feature to reduce API latency by providing expected response content in the request. It covers implementation via the prediction parameter, streaming support, and interpreting token usage metrics for optimized performance.",
-      "tags": [
-        "openai-api",
-        "latency-optimization",
-        "predicted-outputs",
-        "chat-completions",
-        "performance-tuning",
-        "token-usage"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-safety-best-practices.md",
-      "title": "Safety best practices",
-      "url": "https://platform.openai.com/docs/guides/safety-best-practices.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:53.077492804-03:00",
-      "description": "Safety best practices =====================",
-      "summary": "This document outlines strategic recommendations and technical measures for ensuring the safety and security of AI applications, including content moderation, adversarial testing, and human oversight. It provides guidance on mitigating risks like prompt injection and offensive outputs through prompt engineering and input constraints.",
-      "tags": [
-        "safety-best-practices",
-        "content-moderation",
-        "adversarial-testing",
-        "red-teaming",
-        "prompt-engineering",
-        "human-in-the-loop",
-        "security-measures"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-safety-checks.md",
-      "title": "Safety checks",
-      "url": "https://platform.openai.com/docs/guides/safety-checks.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:52.823814033-03:00",
-      "description": "Safety checks =============",
-      "summary": "This guide explains OpenAI's safety classification system for GPT-5 and subsequent models, detailing how developers can implement safety identifiers to manage individual user violations and protect organization-level access.",
-      "tags": [
-        "gpt-5",
-        "safety-checks",
-        "safety-identifier",
-        "api-safety",
-        "policy-enforcement",
-        "risk-mitigation"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-optimizing-llm-accuracy.md",
-      "title": "Optimizing LLM Accuracy",
-      "url": "https://platform.openai.com/docs/guides/optimizing-llm-accuracy.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:49.440885067-03:00",
-      "description": "Optimizing LLM Accuracy =======================",
-      "summary": "This document provides a framework and mental model for optimizing LLM performance through prompt engineering, RAG, and fine-tuning. It explains how to choose between context optimization and behavioral optimization to achieve production-ready accuracy.",
-      "tags": [
-        "llm-optimization",
-        "prompt-engineering",
-        "rag",
-        "fine-tuning",
-        "accuracy",
-        "model-behavior"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-assistants-migration.md",
-      "title": "Assistants migration guide",
-      "url": "https://platform.openai.com/docs/assistants/migration.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:55.459708726-03:00",
-      "description": "Assistants migration guide ==========================",
-      "summary": "This document provides instructions for transitioning from the deprecated Assistants API to the newer Responses API, explaining how to map legacy objects like threads and runs to their modern equivalents. It outlines key architectural differences and provides practical migration steps for developers.",
-      "tags": [
-        "assistants-api",
-        "responses-api",
-        "api-migration",
-        "openai-api",
-        "deprecation-guide"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-rbac.md",
-      "title": "Manage permissions in the OpenAI platform",
-      "url": "https://platform.openai.com/docs/guides/rbac.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:57.979305355-03:00",
-      "description": "Manage permissions in the OpenAI platform =========================================",
-      "summary": "This document provides a comprehensive overview and setup instructions for implementing role-based access control (RBAC) within the OpenAI platform. It explains how to manage permissions across organizations and projects using roles, groups, and specific access levels for both the API and Dashboard.",
-      "tags": [
-        "rbac",
-        "access-control",
-        "openai-platform",
-        "user-management",
-        "permissions",
-        "identity-management",
-        "project-security"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-your-data.md",
-      "title": "Data controls in the OpenAI platform",
-      "url": "https://platform.openai.com/docs/guides/your-data.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:56.437401762-03:00",
-      "description": "Data controls in the OpenAI platform ====================================",
-      "summary": "This document explains how OpenAI handles user data within its API platform, detailing data storage types, retention policies, and configuration options for Zero Data Retention and Modified Abuse Monitoring.",
-      "tags": [
-        "openai-api",
-        "data-privacy",
-        "data-retention",
-        "compliance",
-        "security-controls",
-        "abuse-monitoring",
-        "zero-data-retention"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-mcp.md",
-      "title": "Building MCP servers for ChatGPT and API integrations",
-      "url": "https://platform.openai.com/docs/mcp.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:04.358751941-03:00",
-      "description": "Building MCP servers for ChatGPT and API integrations =====================================================",
-      "summary": "This document explains how to build a remote Model Context Protocol (MCP) server to integrate private data sources with ChatGPT and the OpenAI API. It outlines the requirements for implementing search and fetch tools to enable deep research and data retrieval capabilities.",
-      "tags": [
-        "model-context-protocol",
-        "mcp-server",
-        "chatgpt-connectors",
-        "fastmcp",
-        "openai-api",
-        "vector-store"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-rate-limits.md",
-      "title": "Rate limits",
-      "url": "https://platform.openai.com/docs/guides/rate-limits.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:15:59.118634633-03:00",
-      "description": "Rate limits ===========",
-      "summary": "This document explains the purpose and functionality of API rate limits, detailing the various metrics used to measure usage and providing strategies for mitigating errors.",
-      "tags": [
-        "rate-limiting",
-        "api-best-practices",
-        "error-mitigation",
-        "usage-tiers",
-        "exponential-backoff",
-        "api-headers"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-deprecations.md",
-      "title": "Deprecations",
-      "url": "https://platform.openai.com/docs/deprecations.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:03.868833034-03:00",
-      "description": "Deprecations ============",
-      "summary": "This document provides a comprehensive timeline of OpenAI model and API deprecations, detailing shutdown dates and recommended migration paths for developers. It defines the terminology used for model lifecycles and lists specific replacements for retired endpoints.",
-      "tags": [
-        "model-deprecation",
-        "api-lifecycle",
-        "migration-guide",
-        "openai-models",
-        "versioning",
-        "shutdown-schedule"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-actions-actions-library.md",
+      "file_path": "006-docs-actions-actions-library.md",
       "title": "GPT Actions library",
       "url": "https://platform.openai.com/docs/actions/actions-library.md",
       "source": "llms",
@@ -1760,64 +122,32 @@
         "openapi-schema",
         "oauth-authentication"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-actions-actions-library.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-guides-developer-mode.md",
-      "title": "ChatGPT Developer mode",
-      "url": "https://platform.openai.com/docs/guides/developer-mode.md",
+      "file_path": "007-docs-actions-authentication.md",
+      "title": "GPT Action authentication",
+      "url": "https://platform.openai.com/docs/actions/authentication.md",
       "source": "llms",
-      "fetched_at": "2026-01-24T16:16:09.722703294-03:00",
-      "description": "ChatGPT Developer mode ======================",
-      "summary": "This document explains how to enable and use ChatGPT Developer mode to connect Model Context Protocol (MCP) servers for advanced tool integration and custom app creation.",
-      "tags": [
-        "chatgpt-developer-mode",
-        "mcp-protocol",
-        "tool-integration",
-        "app-configuration",
-        "api-access",
-        "developer-tools"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-actions-introduction.md",
-      "title": "GPT Actions",
-      "url": "https://platform.openai.com/docs/actions/introduction.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:11.858724419-03:00",
-      "description": "GPT Actions ===========",
-      "summary": "This document introduces GPT Actions, explaining how they enable Custom GPTs to interact with external services through RESTful APIs using natural language and function calling.",
+      "fetched_at": "2026-01-24T16:16:23.894663784-03:00",
+      "description": "GPT Action authentication =========================",
+      "summary": "This document explains the available authentication methods for GPT Actions, including no authentication, API keys, and OAuth. It provides guidance on configuring security schemas and troubleshooting common integration issues like redirect URLs.",
       "tags": [
         "gpt-actions",
-        "api-integration",
-        "custom-gpts",
-        "function-calling",
-        "rest-api",
-        "third-party-apps"
+        "authentication",
+        "oauth",
+        "api-key-security",
+        "configuration",
+        "api-integration"
       ],
-      "category": "concept"
+      "category": "guide",
+      "original_file_path": "docs-actions-authentication.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-actions-getting-started.md",
-      "title": "Getting started with GPT Actions",
-      "url": "https://platform.openai.com/docs/actions/getting-started.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:17.268417638-03:00",
-      "description": "Getting started with GPT Actions ================================",
-      "summary": "This document provides a step-by-step guide for creating and testing GPT Actions, covering Open API schema generation, authentication setup, and debugging procedures.",
-      "tags": [
-        "gpt-actions",
-        "openapi-schema",
-        "custom-gpts",
-        "api-integration",
-        "oauth-authentication",
-        "debugging"
-      ],
-      "category": "tutorial"
-    },
-    {
-      "file_path": "docs-actions-data-retrieval.md",
+      "file_path": "008-docs-actions-data-retrieval.md",
       "title": "Data retrieval with GPT Actions",
       "url": "https://platform.openai.com/docs/actions/data-retrieval.md",
       "source": "llms",
@@ -1834,10 +164,12 @@
         "middleware",
         "openapi-spec"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-actions-data-retrieval.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-actions-production.md",
+      "file_path": "009-docs-actions-production.md",
       "title": "Production notes on GPT Actions",
       "url": "https://platform.openai.com/docs/actions/production.md",
       "source": "llms",
@@ -1852,10 +184,12 @@
         "rate-limiting",
         "api-timeouts"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-actions-production.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-actions-sending-files.md",
+      "file_path": "010-docs-actions-sending-files.md",
       "title": "Sending and returning files with GPT Actions",
       "url": "https://platform.openai.com/docs/actions/sending-files.md",
       "source": "llms",
@@ -1871,97 +205,31 @@
         "base64-encoding",
         "file-transfer"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-actions-sending-files.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-actions-authentication.md",
-      "title": "GPT Action authentication",
-      "url": "https://platform.openai.com/docs/actions/authentication.md",
+      "file_path": "011-docs-assistants-migration.md",
+      "title": "Assistants migration guide",
+      "url": "https://platform.openai.com/docs/assistants/migration.md",
       "source": "llms",
-      "fetched_at": "2026-01-24T16:16:23.894663784-03:00",
-      "description": "GPT Action authentication =========================",
-      "summary": "This document explains the available authentication methods for GPT Actions, including no authentication, API keys, and OAuth. It provides guidance on configuring security schemas and troubleshooting common integration issues like redirect URLs.",
+      "fetched_at": "2026-01-24T16:15:55.459708726-03:00",
+      "description": "Assistants migration guide ==========================",
+      "summary": "This document provides instructions for transitioning from the deprecated Assistants API to the newer Responses API, explaining how to map legacy objects like threads and runs to their modern equivalents. It outlines key architectural differences and provides practical migration steps for developers.",
       "tags": [
-        "gpt-actions",
-        "authentication",
-        "oauth",
-        "api-key-security",
-        "configuration",
-        "api-integration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-bots.md",
-      "title": "Overview of OpenAI Crawlers",
-      "url": "https://platform.openai.com/docs/bots.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:35.304402906-03:00",
-      "description": "Overview of OpenAI Crawlers ===========================",
-      "summary": "This document provides an overview of OpenAI's web crawlers and user agents, explaining their specific functions and how webmasters can manage them through robots.txt configurations.",
-      "tags": [
-        "openai-crawlers",
-        "gptbot",
-        "oai-searchbot",
-        "robots-txt",
-        "web-crawling",
-        "user-agents"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-concepts.md",
-      "title": "Key concepts",
-      "url": "https://platform.openai.com/docs/concepts.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:37.088729186-03:00",
-      "description": "Key concepts ============",
-      "summary": "This document introduces fundamental concepts for working with the OpenAI API, including text generation models, embeddings, and the role of tokens.",
-      "tags": [
+        "assistants-api",
+        "responses-api",
+        "api-migration",
         "openai-api",
-        "text-generation",
-        "embeddings",
-        "tokens",
-        "gpt-models",
-        "data-privacy"
+        "deprecation-guide"
       ],
-      "category": "concept"
+      "category": "guide",
+      "original_file_path": "docs-assistants-migration.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-gpts-release-notes.md",
-      "title": "GPT Release Notes",
-      "url": "https://platform.openai.com/docs/gpts/release-notes.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:37.060906974-03:00",
-      "description": "GPT Release Notes =================",
-      "summary": "This document provides a chronological record of updates and new feature releases for OpenAI GPTs and the GPT Store.",
-      "tags": [
-        "gpt-release-notes",
-        "openai-gpts",
-        "gpt-store",
-        "feature-updates",
-        "product-changelog"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "docs-guides-custom-grammars.md",
-      "title": "Custom grammars",
-      "url": "https://platform.openai.com/docs/guides/custom-grammars.md",
-      "source": "llms",
-      "fetched_at": "2026-01-24T16:16:38.547982836-03:00",
-      "description": "Custom grammars ===============",
-      "summary": "This document provides instructions on how to define custom grammar constraints to control and structure the format of model outputs.",
-      "tags": [
-        "custom-grammars",
-        "output-constraints",
-        "structured-outputs",
-        "model-configuration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "docs-guides-advanced-usage.md",
+      "file_path": "012-docs-guides-advanced-usage.md",
       "title": "Advanced usage",
       "url": "https://platform.openai.com/docs/guides/advanced-usage.md",
       "source": "llms",
@@ -1976,10 +244,351 @@
         "deterministic-outputs",
         "api-parameters"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-guides-advanced-usage.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-guides-custom-tools.md",
+      "file_path": "013-docs-guides-agent-builder-safety.md",
+      "title": "Safety in building agents",
+      "url": "https://platform.openai.com/docs/guides/agent-builder-safety.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:09.857596913-03:00",
+      "description": "Safety in building agents",
+      "summary": "This document outlines best practices for identifying and mitigating security risks such as prompt injections and data leakage when developing AI agents. It provides specific strategies including the use of structured outputs, guardrails, and human-in-the-loop approvals to ensure agent safety.",
+      "tags": [
+        "agent-security",
+        "prompt-injection",
+        "data-privacy",
+        "risk-mitigation",
+        "guardrails",
+        "agent-builder"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-agent-builder-safety.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "014-docs-guides-agent-builder.md",
+      "title": "Agent Builder",
+      "url": "https://platform.openai.com/docs/guides/agent-builder.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:06.982523132-03:00",
+      "description": "Agent Builder",
+      "summary": "This document introduces Agent Builder, a visual canvas for designing, testing, and deploying multi-step agent workflows using modular nodes and integrated tools.",
+      "tags": [
+        "agent-builder",
+        "workflow-automation",
+        "chatkit",
+        "agents-sdk",
+        "visual-programming",
+        "agent-deployment"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-agent-builder.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "015-docs-guides-agent-evals.md",
+      "title": "Agent evals",
+      "url": "https://platform.openai.com/docs/guides/agent-evals.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:32.715567355-03:00",
+      "description": "Agent evals ===========",
+      "summary": "This document provides an overview of tools and methodologies for measuring and improving the performance and consistency of AI agents on the OpenAI Platform.",
+      "tags": [
+        "agent-evaluations",
+        "openai-platform",
+        "trace-grading",
+        "model-testing",
+        "performance-metrics",
+        "iterative-improvement"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-agent-evals.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "016-docs-guides-agents-sdk.md",
+      "title": "Agents SDK",
+      "url": "https://platform.openai.com/docs/guides/agents-sdk.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:12.273050378-03:00",
+      "description": "Agents SDK ==========",
+      "summary": "This document introduces the OpenAI Agents SDK for Python and TypeScript, providing resources for building agentic applications that feature multi-agent handoffs, tool usage, and result streaming.",
+      "tags": [
+        "openai-agents-sdk",
+        "agentic-ai",
+        "python-sdk",
+        "typescript-sdk",
+        "ai-orchestration",
+        "multi-agent-systems"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-agents-sdk.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "017-docs-guides-agents.md",
+      "title": "Agents",
+      "url": "https://platform.openai.com/docs/guides/agents.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:06.508035462-03:00",
+      "description": "Agents ======",
+      "summary": "This document provides an overview of AgentKit, a modular toolkit for building, deploying, and optimizing AI agent workflows using OpenAI models and developer tools. It outlines the process of designing workflows with Agent Builder, integrating UI components via ChatKit, and improving performance through evaluation frameworks.",
+      "tags": [
+        "agents",
+        "agentkit",
+        "ai-workflows",
+        "agent-builder",
+        "chatkit",
+        "llm-optimization",
+        "openai-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-agents.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "018-docs-guides-audio.md",
+      "title": "Audio and speech",
+      "url": "https://platform.openai.com/docs/guides/audio.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:00.347198428-03:00",
+      "description": "Audio and speech ================",
+      "summary": "This document provides an overview of the OpenAI API's audio and speech capabilities, including speech-to-text, text-to-speech, and real-time audio processing. It guides developers in selecting the appropriate API for building voice agents and multimodal applications based on latency and control requirements.",
+      "tags": [
+        "openai-api",
+        "speech-to-text",
+        "text-to-speech",
+        "voice-agents",
+        "realtime-api",
+        "audio-processing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-audio.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "019-docs-guides-background.md",
+      "title": "Background mode",
+      "url": "https://platform.openai.com/docs/guides/background.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:07.836095433-03:00",
+      "description": "Background mode ===============",
+      "summary": "This document explains how to execute long-running asynchronous tasks using background mode, including methods for polling status, cancelling requests, and streaming results. It also details compatibility with data retention policies and specific technical limitations for background processing.",
+      "tags": [
+        "background-mode",
+        "asynchronous-tasks",
+        "polling-api",
+        "streaming-responses",
+        "openai-api",
+        "long-running-processes"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-background.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "020-docs-guides-batch.md",
+      "title": "Batch API",
+      "url": "https://platform.openai.com/docs/guides/batch.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:33.265680265-03:00",
+      "description": "Batch API =========",
+      "summary": "This document explains how to use the OpenAI Batch API to process large groups of requests asynchronously with reduced costs and higher rate limits.",
+      "tags": [
+        "batch-api",
+        "asynchronous-processing",
+        "cost-optimization",
+        "rate-limits",
+        "jsonl-format",
+        "api-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-batch.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "021-docs-guides-chatkit-actions.md",
+      "title": "Actions in ChatKit",
+      "url": "https://platform.openai.com/docs/guides/chatkit-actions.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:28.403655439-03:00",
+      "description": "Actions in ChatKit ==================",
+      "summary": "This document explains how to trigger and handle actions in ChatKit to facilitate asynchronous interactions, manage server-side side effects, and build interactive forms within a chat interface.",
+      "tags": [
+        "chatkit-sdk",
+        "event-handling",
+        "server-side-actions",
+        "client-side-handling",
+        "widget-interactions",
+        "form-validation",
+        "type-safety"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-chatkit-actions.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "022-docs-guides-chatkit-themes.md",
+      "title": "Theming and customization in ChatKit",
+      "url": "https://platform.openai.com/docs/guides/chatkit-themes.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:13.020457115-03:00",
+      "description": "Theming and customization in ChatKit ====================================",
+      "summary": "This document provides instructions on how to customize the ChatKit user interface, covering visual themes, component behavior, and the configuration of advanced features like file attachments and entity mentions.",
+      "tags": [
+        "chatkit",
+        "ui-customization",
+        "theming",
+        "react-integration",
+        "configuration-options",
+        "frontend-development"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-chatkit-themes.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "023-docs-guides-chatkit-widgets.md",
+      "title": "ChatKit widgets",
+      "url": "https://platform.openai.com/docs/guides/chatkit-widgets.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:18.018595465-03:00",
+      "description": "ChatKit widgets ===============",
+      "summary": "This document provides a technical overview and property reference for ChatKit widgets, covering design tools, asset management, and action handling on the server.",
+      "tags": [
+        "chatkit",
+        "ui-components",
+        "widget-builder",
+        "event-handling",
+        "interactive-cards",
+        "api-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-guides-chatkit-widgets.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "024-docs-guides-chatkit.md",
+      "title": "ChatKit",
+      "url": "https://platform.openai.com/docs/guides/chatkit.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:11.947188537-03:00",
+      "description": "ChatKit =======",
+      "summary": "This document provides a comprehensive guide for implementing ChatKit to create and customize embeddable chat interfaces for AI agents. It details both recommended hosted integrations and advanced custom infrastructure setups using React and Python SDKs.",
+      "tags": [
+        "chatkit",
+        "ai-agents",
+        "embeddable-ui",
+        "openai-sdk",
+        "react-integration",
+        "frontend-development"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-guides-chatkit.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "025-docs-guides-code-generation.md",
+      "title": "Code generation",
+      "url": "https://platform.openai.com/docs/guides/code-generation.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:58.709119709-03:00",
+      "description": "Code generation ===============",
+      "summary": "This guide provides an overview of how to use OpenAI Codex and specialized models for code generation, reviewing, and editing across various platforms. It explains the differences between using out-of-the-box coding agents and integrating codex-specific models directly into applications via SDKs and APIs.",
+      "tags": [
+        "openai-codex",
+        "code-generation",
+        "ai-coding-agents",
+        "gpt-5-1-codex-max",
+        "software-engineering",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-code-generation.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "026-docs-guides-conversation-state.md",
+      "title": "Conversation state",
+      "url": "https://platform.openai.com/docs/guides/conversation-state.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:06.666813375-03:00",
+      "description": "Conversation state ==================",
+      "summary": "This document explains various methods for managing conversation state and context in multi-turn interactions, including manual message passing and the Conversations API. It provides guidance on preserving information across requests while considering context window limits and data retention.",
+      "tags": [
+        "conversation-state",
+        "multi-turn-conversations",
+        "context-management",
+        "openai-api",
+        "state-management",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-conversation-state.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "027-docs-guides-cost-optimization.md",
+      "title": "Cost optimization",
+      "url": "https://platform.openai.com/docs/guides/cost-optimization.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:32.775020697-03:00",
+      "description": "Cost optimization =================",
+      "summary": "This document outlines various strategies and tools for reducing costs and latency when using OpenAI models, such as optimizing token usage and utilizing the Batch API or flex processing.",
+      "tags": [
+        "cost-optimization",
+        "latency-optimization",
+        "batch-api",
+        "flex-processing",
+        "token-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-cost-optimization.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "028-docs-guides-custom-chatkit.md",
+      "title": "Advanced integrations with ChatKit",
+      "url": "https://platform.openai.com/docs/guides/custom-chatkit.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:32.640746931-03:00",
+      "description": "Advanced integrations with ChatKit ==================================",
+      "summary": "This document explains how to implement a self-hosted ChatKit integration to maintain full control over infrastructure, including server setup, data storage, and interactive widget implementation.",
+      "tags": [
+        "chatkit",
+        "self-hosting",
+        "python-sdk",
+        "server-integration",
+        "custom-infrastructure",
+        "interactive-widgets"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-custom-chatkit.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "029-docs-guides-custom-grammars.md",
+      "title": "Custom grammars",
+      "url": "https://platform.openai.com/docs/guides/custom-grammars.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:38.547982836-03:00",
+      "description": "Custom grammars ===============",
+      "summary": "This document provides instructions on how to define custom grammar constraints to control and structure the format of model outputs.",
+      "tags": [
+        "custom-grammars",
+        "output-constraints",
+        "structured-outputs",
+        "model-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-custom-grammars.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "030-docs-guides-custom-tools.md",
       "title": "Custom tools",
       "url": "https://platform.openai.com/docs/guides/custom-tools.md",
       "source": "llms",
@@ -1992,10 +601,92 @@
         "extensibility",
         "tool-building"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-guides-custom-tools.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-guides-error-codes.md",
+      "file_path": "031-docs-guides-deep-research.md",
+      "title": "Deep research",
+      "url": "https://platform.openai.com/docs/guides/deep-research.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:24.766397437-03:00",
+      "description": "Deep research =============",
+      "summary": "This document explains how to use deep research models for complex analysis tasks through the Responses API, including configuration of tools and long-running background tasks.",
+      "tags": [
+        "o3-deep-research",
+        "responses-api",
+        "background-mode",
+        "web-search",
+        "file-search",
+        "data-analysis"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-deep-research.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "032-docs-guides-developer-mode.md",
+      "title": "ChatGPT Developer mode",
+      "url": "https://platform.openai.com/docs/guides/developer-mode.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:09.722703294-03:00",
+      "description": "ChatGPT Developer mode ======================",
+      "summary": "This document explains how to enable and use ChatGPT Developer mode to connect Model Context Protocol (MCP) servers for advanced tool integration and custom app creation.",
+      "tags": [
+        "chatgpt-developer-mode",
+        "mcp-protocol",
+        "tool-integration",
+        "app-configuration",
+        "api-access",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-developer-mode.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "033-docs-guides-direct-preference-optimization.md",
+      "title": "Direct preference optimization",
+      "url": "https://platform.openai.com/docs/guides/direct-preference-optimization.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:59.46266082-03:00",
+      "description": "Direct preference optimization ==============================",
+      "summary": "This document explains how to use Direct Preference Optimization (DPO) to fine-tune models using comparative human preferences, covering data preparation, job creation, and safety evaluation.",
+      "tags": [
+        "direct-preference-optimization",
+        "fine-tuning",
+        "model-alignment",
+        "openai-api",
+        "machine-learning",
+        "preference-learning"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-direct-preference-optimization.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "034-docs-guides-embeddings.md",
+      "title": "Vector embeddings",
+      "url": "https://platform.openai.com/docs/guides/embeddings.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:26.168262367-03:00",
+      "description": "Vector embeddings =================",
+      "summary": "This document provides an overview of vector embeddings, explaining how to use OpenAI models to convert text into numerical vectors for applications like search and clustering. It covers model selection, API implementation, and techniques for reducing embedding dimensions while maintaining performance.",
+      "tags": [
+        "vector-embeddings",
+        "openai-api",
+        "semantic-search",
+        "text-representation",
+        "dimensionality-reduction",
+        "machine-learning"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-embeddings.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "035-docs-guides-error-codes.md",
       "title": "Error codes",
       "url": "https://platform.openai.com/docs/guides/error-codes.md",
       "source": "llms",
@@ -2010,28 +701,275 @@
         "rate-limits",
         "http-status-codes"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-guides-error-codes.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-guides-prompt-generation.md",
-      "title": "Prompt generation",
-      "url": "https://platform.openai.com/docs/guides/prompt-generation.md",
+      "file_path": "036-docs-guides-evals.md",
+      "title": "Working with evals",
+      "url": "https://platform.openai.com/docs/guides/evals.md",
       "source": "llms",
-      "fetched_at": "2026-01-24T16:16:44.799133736-03:00",
-      "description": "Prompt generation =================",
-      "summary": "This document explains how to use the Generate feature in the Playground to create prompts and schemas from task descriptions. It details the underlying meta-prompts and best practices used to produce effective system instructions for text and audio models.",
+      "fetched_at": "2026-01-24T16:14:24.160548383-03:00",
+      "description": "Working with evals ==================",
+      "summary": "This document explains how to programmatically configure, run, and analyze model evaluations using the Evals API to ensure outputs meet specific style and content criteria. It covers the process of defining tasks, setting up test data schemas, and implementing grading criteria to improve LLM reliability.",
       "tags": [
-        "playground",
+        "evals",
+        "llm-testing",
+        "openai-api",
+        "model-evaluation",
         "prompt-engineering",
-        "meta-prompts",
-        "schema-generation",
-        "openai-playground",
-        "system-prompts"
+        "automated-grading"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-guides-evals.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-guides-model-selection.md",
+      "file_path": "037-docs-guides-evaluation-best-practices.md",
+      "title": "Evaluation best practices",
+      "url": "https://platform.openai.com/docs/guides/evaluation-best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:31.557290011-03:00",
+      "description": "Evaluation best practices =========================",
+      "summary": "This document outlines best practices for designing and implementing evaluation frameworks to measure and improve the performance of Generative AI applications in production environments.",
+      "tags": [
+        "evaluations",
+        "llm-performance",
+        "ai-testing",
+        "best-practices",
+        "model-optimization",
+        "automated-metrics",
+        "dataset-curation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-evaluation-best-practices.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "038-docs-guides-external-models.md",
+      "title": "Evaluate external models",
+      "url": "https://platform.openai.com/docs/guides/external-models.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:25.869506045-03:00",
+      "description": "Evaluate external models ========================",
+      "summary": "This document explains how to evaluate non-OpenAI models using the OpenAI Platform, covering the configuration of third-party models and custom API endpoints.",
+      "tags": [
+        "model-evaluation",
+        "external-models",
+        "third-party-providers",
+        "custom-endpoints",
+        "openai-platform",
+        "inference-testing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-external-models.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "039-docs-guides-fine-tuning-best-practices.md",
+      "title": "Fine-tuning best practices",
+      "url": "https://platform.openai.com/docs/guides/fine-tuning-best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:09.61270364-03:00",
+      "description": "Fine-tuning best practices ==========================",
+      "summary": "This document provides actionable strategies for improving fine-tuned model performance by iterating on data quality, quantity, and hyperparameters. It outlines best practices for dataset construction, including formatting, diversity, and the use of training versus testing sets.",
+      "tags": [
+        "fine-tuning",
+        "data-quality",
+        "hyperparameters",
+        "model-optimization",
+        "training-strategies",
+        "dataset-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-fine-tuning-best-practices.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "040-docs-guides-flex-processing.md",
+      "title": "Flex processing",
+      "url": "https://platform.openai.com/docs/guides/flex-processing.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:35.694103997-03:00",
+      "description": "Flex processing",
+      "summary": "This document introduces Flex processing, a cost-saving service tier for API requests that offers lower pricing in exchange for slower response times and reduced availability. it provides guidance on configuring the service_tier parameter, adjusting request timeouts, and handling resource unavailable errors.",
+      "tags": [
+        "openai-api",
+        "flex-processing",
+        "cost-optimization",
+        "error-handling",
+        "api-configuration",
+        "service-tier"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-flex-processing.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "041-docs-guides-function-calling.md",
+      "title": "Function calling",
+      "url": "https://platform.openai.com/docs/guides/function-calling.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:05.250487204-03:00",
+      "description": "Function calling ================",
+      "summary": "This document explains how to enable OpenAI models to interface with external systems and data through function calling and custom tools.",
+      "tags": [
+        "openai-api",
+        "function-calling",
+        "tool-calling",
+        "json-schema",
+        "llm-integration",
+        "external-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-function-calling.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "042-docs-guides-graders.md",
+      "title": "Graders",
+      "url": "https://platform.openai.com/docs/guides/graders.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:14.501330785-03:00",
+      "description": "Graders =======",
+      "summary": "This document explains how to use graders to evaluate model performance during evaluations and fine-tuning, covering various grader types, templating syntax, and configuration methods.",
+      "tags": [
+        "model-evaluation",
+        "reinforcement-fine-tuning",
+        "graders-api",
+        "text-similarity",
+        "string-comparison",
+        "automated-grading"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-graders.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "043-docs-guides-image-generation.md",
+      "title": "Image generation",
+      "url": "https://platform.openai.com/docs/guides/image-generation.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:15.999349352-03:00",
+      "description": "Image generation ================",
+      "summary": "This document explains how to use the OpenAI Image and Responses APIs to generate, edit, and create variations of images using GPT Image and DALL-E models.",
+      "tags": [
+        "image-generation",
+        "image-editing",
+        "openai-api",
+        "dall-e",
+        "gpt-image",
+        "multi-turn-editing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-image-generation.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "044-docs-guides-images-vision.md",
+      "title": "Images and vision",
+      "url": "https://platform.openai.com/docs/guides/images-vision.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:59.367989579-03:00",
+      "description": "Images and vision =================",
+      "summary": "This document provides an overview of how to generate, edit, and analyze images using OpenAI's multimodal models and vision capabilities through various API endpoints.",
+      "tags": [
+        "openai-api",
+        "image-generation",
+        "computer-vision",
+        "gpt-vision",
+        "multimodal",
+        "dall-e",
+        "image-analysis"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-images-vision.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "045-docs-guides-latency-optimization.md",
+      "title": "Latency optimization",
+      "url": "https://platform.openai.com/docs/guides/latency-optimization.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:29.965020485-03:00",
+      "description": "Latency optimization ====================",
+      "summary": "This guide outlines seven core principles and practical techniques for reducing latency in large language model applications, ranging from prompt engineering to architectural adjustments.",
+      "tags": [
+        "latency-optimization",
+        "llm-performance",
+        "inference-speed",
+        "token-management",
+        "parallelization",
+        "streaming",
+        "model-efficiency"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-latency-optimization.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "046-docs-guides-latest-model.md",
+      "title": "Using GPT-5.2",
+      "url": "https://platform.openai.com/docs/guides/latest-model.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:46.886245753-03:00",
+      "description": "Using GPT-5.2 =============",
+      "summary": "This document provides an overview of the GPT-5.2 model family, explaining its core features, model variants, and API configuration parameters such as reasoning effort and verbosity.",
+      "tags": [
+        "gpt-5-2",
+        "ai-models",
+        "api-configuration",
+        "reasoning-effort",
+        "tool-calling",
+        "model-variants"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-latest-model.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "047-docs-guides-migrate-to-responses.md",
+      "title": "Migrate to the Responses API",
+      "url": "https://platform.openai.com/docs/guides/migrate-to-responses.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:06.454704393-03:00",
+      "description": "Migrate to the Responses API ============================",
+      "summary": "This document provides a comprehensive guide for migrating from the Chat Completions API to the Responses API, detailing technical benefits, structural changes, and implementation differences.",
+      "tags": [
+        "migration-guide",
+        "responses-api",
+        "chat-completions",
+        "api-integration",
+        "agentic-workflows",
+        "multimodal-api"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-migrate-to-responses.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "048-docs-guides-model-optimization.md",
+      "title": "Model optimization",
+      "url": "https://platform.openai.com/docs/guides/model-optimization.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:55.545829187-03:00",
+      "description": "Model optimization ==================",
+      "summary": "This guide outlines the iterative workflow for optimizing AI model performance through a combination of systematic evaluations, prompt engineering, and various fine-tuning techniques.",
+      "tags": [
+        "model-optimization",
+        "prompt-engineering",
+        "fine-tuning",
+        "evals",
+        "openai-platform",
+        "model-performance"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-model-optimization.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "049-docs-guides-model-selection.md",
       "title": "Model selection",
       "url": "https://platform.openai.com/docs/guides/model-selection.md",
       "source": "llms",
@@ -2046,10 +984,418 @@
         "model-distillation",
         "accuracy-metrics"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-guides-model-selection.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-guides-realtime-vad.md",
+      "file_path": "050-docs-guides-moderation.md",
+      "title": "Moderation",
+      "url": "https://platform.openai.com/docs/guides/moderation.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:27.298426387-03:00",
+      "description": "Moderation ==========",
+      "summary": "This document explains how to use the moderation API to identify and filter harmful content in text and images using various classification models.",
+      "tags": [
+        "moderation-api",
+        "content-safety",
+        "image-moderation",
+        "text-moderation",
+        "multi-modal",
+        "api-integration",
+        "content-filtering"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-moderation.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "051-docs-guides-node-reference.md",
+      "title": "Node reference",
+      "url": "https://platform.openai.com/docs/guides/node-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:09.028005494-03:00",
+      "description": "Node reference",
+      "summary": "This document provides a comprehensive overview of the different node types available in Agent Builder for constructing and configuring agentic workflows.",
+      "tags": [
+        "agent-builder",
+        "workflow-design",
+        "node-reference",
+        "logic-nodes",
+        "ai-agents",
+        "tool-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-guides-node-reference.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "052-docs-guides-optimizing-llm-accuracy.md",
+      "title": "Optimizing LLM Accuracy",
+      "url": "https://platform.openai.com/docs/guides/optimizing-llm-accuracy.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:49.440885067-03:00",
+      "description": "Optimizing LLM Accuracy =======================",
+      "summary": "This document provides a framework and mental model for optimizing LLM performance through prompt engineering, RAG, and fine-tuning. It explains how to choose between context optimization and behavioral optimization to achieve production-ready accuracy.",
+      "tags": [
+        "llm-optimization",
+        "prompt-engineering",
+        "rag",
+        "fine-tuning",
+        "accuracy",
+        "model-behavior"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-optimizing-llm-accuracy.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "053-docs-guides-pdf-files.md",
+      "title": "File inputs",
+      "url": "https://platform.openai.com/docs/guides/pdf-files.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:13.518960349-03:00",
+      "description": "File inputs ===========",
+      "summary": "This document explains how to provide PDF files as input to OpenAI vision-capable models using external URLs, file uploads, or Base64-encoded data.",
+      "tags": [
+        "pdf-input",
+        "openai-api",
+        "vision-models",
+        "file-upload",
+        "base64-encoding",
+        "multimodal"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-pdf-files.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "054-docs-guides-predicted-outputs.md",
+      "title": "Predicted Outputs",
+      "url": "https://platform.openai.com/docs/guides/predicted-outputs.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:30.52497276-03:00",
+      "description": "Predicted Outputs =================",
+      "summary": "This document explains how to use the Predicted Outputs feature to reduce API latency by providing expected response content in the request. It covers implementation via the prediction parameter, streaming support, and interpreting token usage metrics for optimized performance.",
+      "tags": [
+        "openai-api",
+        "latency-optimization",
+        "predicted-outputs",
+        "chat-completions",
+        "performance-tuning",
+        "token-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-predicted-outputs.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "055-docs-guides-priority-processing.md",
+      "title": "Priority processing",
+      "url": "https://platform.openai.com/docs/guides/priority-processing.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:31.159054634-03:00",
+      "description": "Priority processing ===================",
+      "summary": "This document explains how to enable and configure Priority processing to achieve lower and more consistent latency for API requests. It covers implementation through request parameters or project settings, along with rate limits and usage considerations.",
+      "tags": [
+        "priority-processing",
+        "latency-optimization",
+        "api-configuration",
+        "service-tiers",
+        "rate-limits",
+        "performance-tuning"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-priority-processing.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "056-docs-guides-production-best-practices.md",
+      "title": "Production best practices",
+      "url": "https://platform.openai.com/docs/guides/production-best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:27.777273436-03:00",
+      "description": "Production best practices =========================",
+      "summary": "This document outlines comprehensive strategies and best practices for transitioning AI applications from prototype to production, focusing on security, organizational management, and architectural scaling. It provides guidance on managing API keys, billing limits, and optimizing system performance.",
+      "tags": [
+        "production-readiness",
+        "api-security",
+        "scalability",
+        "latency-optimization",
+        "billing-management",
+        "infrastructure-design"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-production-best-practices.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "057-docs-guides-prompt-caching.md",
+      "title": "Prompt caching",
+      "url": "https://platform.openai.com/docs/guides/prompt-caching.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:14.148014905-03:00",
+      "description": "Prompt caching ==============",
+      "summary": "This document explains OpenAI's prompt caching feature, which reduces latency and costs by automatically reusing processed prompt prefixes. It provides instructions on structuring prompts for optimal cache hits, configuring retention policies, and monitoring cache usage.",
+      "tags": [
+        "prompt-caching",
+        "openai-api",
+        "latency-optimization",
+        "cost-reduction",
+        "token-management",
+        "performance-tuning"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-prompt-caching.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "058-docs-guides-prompt-engineering.md",
+      "title": "Prompt engineering",
+      "url": "https://platform.openai.com/docs/guides/prompt-engineering.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:18.00932759-03:00",
+      "description": "Prompt engineering ==================",
+      "summary": "This document explains how to use prompt engineering strategies and the OpenAI API to generate text, covering model selection, message roles, and instruction-following techniques.",
+      "tags": [
+        "prompt-engineering",
+        "openai-api",
+        "text-generation",
+        "model-selection",
+        "llm-best-practices",
+        "message-roles"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-prompt-engineering.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "059-docs-guides-prompt-generation.md",
+      "title": "Prompt generation",
+      "url": "https://platform.openai.com/docs/guides/prompt-generation.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:44.799133736-03:00",
+      "description": "Prompt generation =================",
+      "summary": "This document explains how to use the Generate feature in the Playground to create prompts and schemas from task descriptions. It details the underlying meta-prompts and best practices used to produce effective system instructions for text and audio models.",
+      "tags": [
+        "playground",
+        "prompt-engineering",
+        "meta-prompts",
+        "schema-generation",
+        "openai-playground",
+        "system-prompts"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-prompt-generation.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "060-docs-guides-prompt-optimizer.md",
+      "title": "Prompt optimizer",
+      "url": "https://platform.openai.com/docs/guides/prompt-optimizer.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:24.184366822-03:00",
+      "description": "Prompt optimizer ================",
+      "summary": "This document explains how to use the prompt optimizer tool to automatically refine prompts by leveraging datasets, human annotations, and automated evaluation graders.",
+      "tags": [
+        "prompt-optimization",
+        "prompt-engineering",
+        "evaluation-tools",
+        "dataset-management",
+        "llm-testing",
+        "graders"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-prompt-optimizer.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "061-docs-guides-prompting.md",
+      "title": "Prompting",
+      "url": "https://platform.openai.com/docs/guides/prompting.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:14.118901204-03:00",
+      "description": "Prompting =========",
+      "summary": "This document explains how to create, manage, and version reusable prompt objects within the OpenAI ecosystem for consistent performance across APIs and SDKs. It provides instructions for using the prompt dashboard, versioning systems, and integrating stored prompts into API calls.",
+      "tags": [
+        "prompt-management",
+        "openai-api",
+        "prompt-versioning",
+        "prompt-engineering",
+        "api-integration",
+        "prompt-variables"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-prompting.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "062-docs-guides-rate-limits.md",
+      "title": "Rate limits",
+      "url": "https://platform.openai.com/docs/guides/rate-limits.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:59.118634633-03:00",
+      "description": "Rate limits ===========",
+      "summary": "This document explains the purpose and functionality of API rate limits, detailing the various metrics used to measure usage and providing strategies for mitigating errors.",
+      "tags": [
+        "rate-limiting",
+        "api-best-practices",
+        "error-mitigation",
+        "usage-tiers",
+        "exponential-backoff",
+        "api-headers"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-rate-limits.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "063-docs-guides-rbac.md",
+      "title": "Manage permissions in the OpenAI platform",
+      "url": "https://platform.openai.com/docs/guides/rbac.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:57.979305355-03:00",
+      "description": "Manage permissions in the OpenAI platform =========================================",
+      "summary": "This document provides a comprehensive overview and setup instructions for implementing role-based access control (RBAC) within the OpenAI platform. It explains how to manage permissions across organizations and projects using roles, groups, and specific access levels for both the API and Dashboard.",
+      "tags": [
+        "rbac",
+        "access-control",
+        "openai-platform",
+        "user-management",
+        "permissions",
+        "identity-management",
+        "project-security"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-rbac.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "064-docs-guides-realtime-conversations.md",
+      "title": "Realtime conversations",
+      "url": "https://platform.openai.com/docs/guides/realtime-conversations.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:52.199442124-03:00",
+      "description": "Realtime conversations ======================",
+      "summary": "This document explains how to manage stateful speech-to-speech and text-based interactions using the Realtime API, covering session lifecycles, event flows, and media handling via WebRTC or WebSockets.",
+      "tags": [
+        "realtime-api",
+        "webrtc",
+        "websockets",
+        "speech-to-speech",
+        "event-handling",
+        "session-management",
+        "text-generation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-conversations.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "065-docs-guides-realtime-costs.md",
+      "title": "Managing costs",
+      "url": "https://platform.openai.com/docs/guides/realtime-costs.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:54.057637454-03:00",
+      "description": "Managing costs ==============",
+      "summary": "This guide explains the billing structure of the Realtime API across different modalities and provides strategies for cost optimization through prompt caching and truncation management.",
+      "tags": [
+        "realtime-api",
+        "cost-management",
+        "token-usage",
+        "prompt-caching",
+        "truncation",
+        "audio-tokens"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-costs.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "066-docs-guides-realtime-models-prompting.md",
+      "title": "Using realtime models",
+      "url": "https://platform.openai.com/docs/guides/realtime-models-prompting.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:49.759262475-03:00",
+      "description": "Using realtime models =====================",
+      "summary": "This document provides instructions and best practices for implementing and optimizing real-time speech-to-speech models, covering session configuration, API integration, and specialized prompting techniques.",
+      "tags": [
+        "gpt-realtime",
+        "speech-to-speech",
+        "real-time-api",
+        "prompt-engineering",
+        "session-management",
+        "webrtc",
+        "websockets"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-models-prompting.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "067-docs-guides-realtime-server-controls.md",
+      "title": "Webhooks and server-side controls",
+      "url": "https://platform.openai.com/docs/guides/realtime-server-controls.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:52.061523945-03:00",
+      "description": "Webhooks and server-side controls =================================",
+      "summary": "This document explains how to implement sideband control channels using WebRTC or SIP to manage Realtime API sessions securely from an application server.",
+      "tags": [
+        "realtime-api",
+        "webhooks",
+        "webrtc",
+        "sip",
+        "server-side-logic",
+        "websockets"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-server-controls.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "068-docs-guides-realtime-sip.md",
+      "title": "Realtime API with SIP",
+      "url": "https://platform.openai.com/docs/guides/realtime-sip.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:47.887327812-03:00",
+      "description": "Realtime API with SIP =====================",
+      "summary": "This document explains how to integrate phone calls with the Realtime API using the SIP protocol, covering call handling procedures like accepting, rejecting, and transferring calls via webhooks and REST endpoints.",
+      "tags": [
+        "realtime-api",
+        "sip",
+        "telephony",
+        "webhooks",
+        "call-management",
+        "voice-ai",
+        "websockets"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-sip.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "069-docs-guides-realtime-transcription.md",
+      "title": "Realtime transcription",
+      "url": "https://platform.openai.com/docs/guides/realtime-transcription.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:54.72313393-03:00",
+      "description": "Realtime transcription ======================",
+      "summary": "Explains how to configure and use the Realtime API for real-time audio transcription, covering session setup, event handling, and voice activity detection.",
+      "tags": [
+        "realtime-api",
+        "audio-transcription",
+        "websockets",
+        "webrtc",
+        "speech-to-text",
+        "voice-activity-detection",
+        "noise-reduction"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-transcription.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "070-docs-guides-realtime-vad.md",
       "title": "Voice activity detection (VAD)",
       "url": "https://platform.openai.com/docs/guides/realtime-vad.md",
       "source": "llms",
@@ -2064,45 +1410,731 @@
         "audio-processing",
         "session-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-vad.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-supported-countries.md",
-      "title": "Supported countries and territories",
-      "url": "https://platform.openai.com/docs/supported-countries.md",
+      "file_path": "071-docs-guides-realtime-webrtc.md",
+      "title": "Realtime API with WebRTC",
+      "url": "https://platform.openai.com/docs/guides/realtime-webrtc.md",
       "source": "llms",
-      "fetched_at": "2026-01-24T16:16:47.024748881-03:00",
-      "description": "Supported countries and territories ===================================",
-      "summary": "This document lists the specific countries and territories where access to the API services is officially supported and permitted. It outlines the geographic availability of the platform and the potential consequences of accessing services from unsupported regions.",
+      "fetched_at": "2026-01-24T16:14:38.447507439-03:00",
+      "description": "Realtime API with WebRTC ========================",
+      "summary": "This guide explains how to connect to the OpenAI Realtime API using WebRTC, detailing methods for session initialization via a unified interface or ephemeral tokens.",
       "tags": [
-        "geographic-availability",
-        "api-access",
-        "service-restrictions",
-        "regional-support",
-        "compliance"
+        "realtime-api",
+        "webrtc",
+        "openai",
+        "javascript",
+        "node-js",
+        "speech-to-speech",
+        "client-side-authentication"
       ],
-      "category": "reference"
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-webrtc.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-tutorials.md",
-      "title": "Tutorials",
-      "url": "https://platform.openai.com/docs/tutorials.md",
+      "file_path": "072-docs-guides-realtime-websocket.md",
+      "title": "Realtime API with WebSocket",
+      "url": "https://platform.openai.com/docs/guides/realtime-websocket.md",
       "source": "llms",
-      "fetched_at": "2026-01-24T16:16:48.427420533-03:00",
-      "description": "Tutorials =========",
-      "summary": "This document provides a collection of step-by-step tutorials for building AI applications using OpenAI's API, including projects for website question-answering and meeting transcription.",
+      "fetched_at": "2026-01-24T16:14:44.586191468-03:00",
+      "description": "Realtime API with WebSocket ===========================",
+      "summary": "This guide explains how to connect to the OpenAI Realtime API via WebSockets for server-to-server applications, detailing authentication and event-driven communication.",
+      "tags": [
+        "openai-realtime-api",
+        "websocket-integration",
+        "server-to-server",
+        "realtime-data",
+        "node-js",
+        "python",
+        "event-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-realtime-websocket.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "073-docs-guides-realtime.md",
+      "title": "Realtime API",
+      "url": "https://platform.openai.com/docs/guides/realtime.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:37.106408494-03:00",
+      "description": "Realtime API ============",
+      "summary": "Overview of the Realtime API for building low-latency multimodal LLM applications, detailing connection methods like WebRTC and WebSocket along with migration steps from beta to GA.",
+      "tags": [
+        "realtime-api",
+        "multimodal-llm",
+        "webrtc",
+        "websocket",
+        "voice-agents",
+        "speech-to-speech",
+        "audio-transcription"
+      ],
+      "category": "api",
+      "original_file_path": "docs-guides-realtime.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "074-docs-guides-reasoning-best-practices.md",
+      "title": "Reasoning best practices",
+      "url": "https://platform.openai.com/docs/guides/reasoning-best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:18.782433107-03:00",
+      "description": "Reasoning best practices ========================",
+      "summary": "This document explains the differences between OpenAI's reasoning and GPT model families, providing strategic guidance on selecting the appropriate model based on task complexity, cost, and accuracy requirements. It outlines practical best practices for using reasoning models in scenarios such as navigating ambiguity, analyzing dense datasets, and orchestration of multi-step agentic workflows.",
+      "tags": [
+        "reasoning-models",
+        "o-series",
+        "gpt-4o",
+        "model-selection",
+        "agentic-planning",
+        "ai-strategy",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-reasoning-best-practices.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "075-docs-guides-reasoning.md",
+      "title": "Reasoning models",
+      "url": "https://platform.openai.com/docs/guides/reasoning.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:18.593950891-03:00",
+      "description": "Reasoning models ================",
+      "summary": "This document explains how to utilize reasoning models to solve complex problems by managing reasoning effort, understanding hidden reasoning tokens, and optimizing context window usage via the Responses API.",
+      "tags": [
+        "reasoning-models",
+        "gpt-5",
+        "responses-api",
+        "reasoning-tokens",
+        "token-management",
+        "context-window"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-reasoning.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "076-docs-guides-reinforcement-fine-tuning.md",
+      "title": "Reinforcement fine-tuning",
+      "url": "https://platform.openai.com/docs/guides/reinforcement-fine-tuning.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:00.682697232-03:00",
+      "description": "Reinforcement fine-tuning =========================",
+      "summary": "This document explains Reinforcement Fine-Tuning (RFT), a method for optimizing reasoning models using programmable graders and reward signals to align outputs with domain-specific requirements. It outlines the technical workflow, provides criteria for when to use RFT, and includes a practical example of implementing custom graders.",
+      "tags": [
+        "reinforcement-fine-tuning",
+        "rft",
+        "model-optimization",
+        "openai-o-series",
+        "graders",
+        "reward-signals",
+        "reasoning-models"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-reinforcement-fine-tuning.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "077-docs-guides-retrieval.md",
+      "title": "Retrieval",
+      "url": "https://platform.openai.com/docs/guides/retrieval.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:47.544695142-03:00",
+      "description": "Retrieval =========",
+      "summary": "This document explains how to use the Retrieval API to perform semantic searches and manage data using vector stores. It details the processes of uploading files, executing natural language queries, and applying attribute filters for refined results.",
+      "tags": [
+        "retrieval-api",
+        "semantic-search",
+        "vector-stores",
+        "attribute-filtering",
+        "query-rewriting",
+        "data-indexing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-retrieval.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "078-docs-guides-rft-use-cases.md",
+      "title": "Reinforcement fine-tuning use cases",
+      "url": "https://platform.openai.com/docs/guides/rft-use-cases.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:05.833202464-03:00",
+      "description": "Reinforcement fine-tuning use cases ===================================",
+      "summary": "This document explores common use cases and best practices for reinforcement fine-tuning (RFT), highlighting its effectiveness in improving model performance for tasks with verifiable outcomes like code generation and fact extraction.",
+      "tags": [
+        "reinforcement-fine-tuning",
+        "rft",
+        "model-training",
+        "code-generation",
+        "data-extraction",
+        "agentic-workflows",
+        "llm-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-rft-use-cases.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "079-docs-guides-safety-best-practices.md",
+      "title": "Safety best practices",
+      "url": "https://platform.openai.com/docs/guides/safety-best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:53.077492804-03:00",
+      "description": "Safety best practices =====================",
+      "summary": "This document outlines strategic recommendations and technical measures for ensuring the safety and security of AI applications, including content moderation, adversarial testing, and human oversight. It provides guidance on mitigating risks like prompt injection and offensive outputs through prompt engineering and input constraints.",
+      "tags": [
+        "safety-best-practices",
+        "content-moderation",
+        "adversarial-testing",
+        "red-teaming",
+        "prompt-engineering",
+        "human-in-the-loop",
+        "security-measures"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-safety-best-practices.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "080-docs-guides-safety-checks.md",
+      "title": "Safety checks",
+      "url": "https://platform.openai.com/docs/guides/safety-checks.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:52.823814033-03:00",
+      "description": "Safety checks =============",
+      "summary": "This guide explains OpenAI's safety classification system for GPT-5 and subsequent models, detailing how developers can implement safety identifiers to manage individual user violations and protect organization-level access.",
+      "tags": [
+        "gpt-5",
+        "safety-checks",
+        "safety-identifier",
+        "api-safety",
+        "policy-enforcement",
+        "risk-mitigation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-safety-checks.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "081-docs-guides-speech-to-text.md",
+      "title": "Speech to text",
+      "url": "https://platform.openai.com/docs/guides/speech-to-text.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:21.950927643-03:00",
+      "description": "Speech to text ==============",
+      "summary": "This document explains how to use the Audio API to convert audio files into text through transcription and translation. It details model options, speaker diarization techniques, and supported file formats for processing audio data.",
+      "tags": [
+        "speech-to-text",
+        "audio-api",
+        "transcription",
+        "translation",
+        "whisper-model",
+        "speaker-diarization",
+        "audio-processing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-speech-to-text.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "082-docs-guides-streaming-responses.md",
+      "title": "Streaming API responses",
+      "url": "https://platform.openai.com/docs/guides/streaming-responses.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:08.069417889-03:00",
+      "description": "Streaming API responses =======================",
+      "summary": "This guide explains how to implement streaming for API responses using server-sent events to receive model outputs incrementally. It covers enabling the streaming feature, handling semantic lifecycle events, and provides implementation examples across various SDKs.",
       "tags": [
         "openai-api",
-        "tutorials",
-        "embeddings",
-        "whisper",
-        "gpt-4",
-        "app-development"
+        "streaming-responses",
+        "server-sent-events",
+        "real-time-data",
+        "event-handling",
+        "sdk-integration"
       ],
-      "category": "tutorial"
+      "category": "guide",
+      "original_file_path": "docs-guides-streaming-responses.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-tutorials-meeting-minutes.md",
+      "file_path": "083-docs-guides-structured-outputs.md",
+      "title": "Structured model outputs",
+      "url": "https://platform.openai.com/docs/guides/structured-outputs.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:02.494465808-03:00",
+      "description": "Structured model outputs ========================",
+      "summary": "This document explains how to use Structured Outputs to ensure model-generated responses strictly adhere to a provided JSON schema for reliable data extraction and type-safety.",
+      "tags": [
+        "structured-outputs",
+        "json-schema",
+        "openai-api",
+        "type-safety",
+        "pydantic",
+        "zod",
+        "data-extraction"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-structured-outputs.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "084-docs-guides-supervised-fine-tuning.md",
+      "title": "Supervised fine-tuning",
+      "url": "https://platform.openai.com/docs/guides/supervised-fine-tuning.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:57.789227408-03:00",
+      "description": "Supervised fine-tuning ======================",
+      "summary": "This document explains how to perform supervised fine-tuning on OpenAI models, detailing the process of dataset creation, data formatting, and performance evaluation.",
+      "tags": [
+        "supervised-fine-tuning",
+        "dataset-preparation",
+        "jsonl-format",
+        "llm-customization",
+        "model-training",
+        "openai-api"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-supervised-fine-tuning.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "085-docs-guides-text-to-speech.md",
+      "title": "Text to speech",
+      "url": "https://platform.openai.com/docs/guides/text-to-speech.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:20.928405255-03:00",
+      "description": "Text to speech ==============",
+      "summary": "This document provides a comprehensive guide on using the Audio API's speech endpoint to convert text into lifelike spoken audio across multiple languages and formats.",
+      "tags": [
+        "text-to-speech",
+        "audio-api",
+        "speech-synthesis",
+        "streaming-audio",
+        "voice-options",
+        "openai-tts"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-text-to-speech.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "086-docs-guides-text.md",
+      "title": "Text generation",
+      "url": "https://platform.openai.com/docs/guides/text.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:48.837353788-03:00",
+      "description": "Text generation ===============",
+      "summary": "This document provides a comprehensive guide on using the OpenAI Responses API to generate text, covering implementation across various SDKs and best practices for prompt engineering.",
+      "tags": [
+        "openai-api",
+        "text-generation",
+        "prompt-engineering",
+        "responses-api",
+        "sdk-examples",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-text.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "087-docs-guides-tools-apply-patch.md",
+      "title": "Apply patch",
+      "url": "https://platform.openai.com/docs/guides/tools-apply-patch.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:58.886301312-03:00",
+      "description": "Apply patch ===========",
+      "summary": "This document explains how to implement the apply_patch tool to enable models to perform structured file operations like creating, updating, and deleting code via diffs.",
+      "tags": [
+        "gpt-5-1",
+        "apply-patch",
+        "code-editing",
+        "structured-diffs",
+        "tool-calling",
+        "agentic-workflows"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-apply-patch.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "088-docs-guides-tools-code-interpreter.md",
+      "title": "Code Interpreter",
+      "url": "https://platform.openai.com/docs/guides/tools-code-interpreter.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:44.614195978-03:00",
+      "description": "Code Interpreter ================",
+      "summary": "This document explains how to use the Code Interpreter tool to enable models to execute Python code in sandboxed environments for tasks like data analysis and file processing. It provides instructions on managing containers, memory limits, and handling generated files through the API.",
+      "tags": [
+        "code-interpreter",
+        "python-sandbox",
+        "data-analysis",
+        "container-management",
+        "api-integration",
+        "file-processing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-code-interpreter.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "089-docs-guides-tools-computer-use.md",
+      "title": "Computer use",
+      "url": "https://platform.openai.com/docs/guides/tools-computer-use.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:50.165259676-03:00",
+      "description": "Computer use ============",
+      "summary": "This document explains how to build agents that control computer interfaces using the Computer-Using Agent (CUA) model and the Responses API.",
+      "tags": [
+        "openai-cua",
+        "computer-use",
+        "agent-automation",
+        "browser-automation",
+        "docker",
+        "sandboxed-environment"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-computer-use.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "090-docs-guides-tools-connectors-mcp.md",
+      "title": "Connectors and MCP servers",
+      "url": "https://platform.openai.com/docs/guides/tools-connectors-mcp.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:41.936861192-03:00",
+      "description": "Connectors and MCP servers",
+      "summary": "This document explains how to extend model capabilities by integrating remote MCP servers and OpenAI-maintained connectors using the Responses API. It details the implementation process, including server configuration, authentication, and handling tool execution workflows.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "openai-api",
+        "connectors",
+        "external-tools",
+        "responses-api",
+        "tool-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-connectors-mcp.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "091-docs-guides-tools-file-search.md",
+      "title": "File search",
+      "url": "https://platform.openai.com/docs/guides/tools-file-search.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:45.638208237-03:00",
+      "description": "File search ===========",
+      "summary": "This document explains how to use the File search tool to augment model responses with information from uploaded files via vector stores and semantic search.",
+      "tags": [
+        "file-search",
+        "vector-stores",
+        "semantic-search",
+        "openai-api",
+        "retrieval-augmented-generation",
+        "knowledge-base"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-file-search.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "092-docs-guides-tools-image-generation.md",
+      "title": "Image generation",
+      "url": "https://platform.openai.com/docs/guides/tools-image-generation.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:50.022714995-03:00",
+      "description": "Image generation ================",
+      "summary": "This document provides instructions and code examples for using the image generation tool to create and edit images, including multi-turn conversational editing and output configuration.",
+      "tags": [
+        "image-generation",
+        "image-editing",
+        "gpt-image",
+        "multi-turn-editing",
+        "api-usage",
+        "prompt-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-image-generation.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "093-docs-guides-tools-local-shell.md",
+      "title": "Local shell",
+      "url": "https://platform.openai.com/docs/guides/tools-local-shell.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:50.216743724-03:00",
+      "description": "Local shell ===========",
+      "summary": "This document explains how to integrate and use the local shell tool to allow agents to execute commands in a local terminal environment. It details the integration workflow and provides security best practices for safe implementation.",
+      "tags": [
+        "local-shell",
+        "codex-mini-latest",
+        "agent-tools",
+        "responses-api",
+        "shell-integration",
+        "security-best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-local-shell.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "094-docs-guides-tools-shell.md",
+      "title": "Shell",
+      "url": "https://platform.openai.com/docs/guides/tools-shell.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:03.412627992-03:00",
+      "description": "Shell =====",
+      "summary": "This document explains how to integrate the shell tool with the Responses API to enable models to propose and execute command-line instructions. It details the request-response lifecycle, command execution requirements, and security best practices for sandboxing shell environments.",
+      "tags": [
+        "shell-tool",
+        "responses-api",
+        "command-execution",
+        "tool-calling",
+        "sandboxing",
+        "agentic-workflows",
+        "system-interaction"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-shell.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "095-docs-guides-tools-web-search.md",
+      "title": "Web search",
+      "url": "https://platform.openai.com/docs/guides/tools-web-search.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:44.060511163-03:00",
+      "description": "Web search ==========",
+      "summary": "This document explains how to enable and configure the web search tool in OpenAI models to retrieve real-time information with sourced citations. It covers search methodologies including non-reasoning, agentic, and deep research, as well as implementation details for domain filtering and handling output annotations.",
+      "tags": [
+        "web-search",
+        "openai-api",
+        "responses-api",
+        "agentic-search",
+        "deep-research",
+        "tool-calling",
+        "citations",
+        "domain-filtering"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools-web-search.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "096-docs-guides-tools.md",
+      "title": "Using tools",
+      "url": "https://platform.openai.com/docs/guides/tools.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:40.975903401-03:00",
+      "description": "Using tools ===========",
+      "summary": "This document explains how to extend model capabilities by integrating tools such as web search, file search, function calling, and remote MCP servers.",
+      "tags": [
+        "tool-use",
+        "function-calling",
+        "web-search",
+        "file-search",
+        "mcp-server",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-tools.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "097-docs-guides-trace-grading.md",
+      "title": "Trace grading",
+      "url": "https://platform.openai.com/docs/guides/trace-grading.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:36.243842677-03:00",
+      "description": "Trace grading =============",
+      "summary": "This document explains how to use trace grading and evaluations to assess agent performance by analyzing logs of decisions, tool calls, and reasoning steps.",
+      "tags": [
+        "trace-grading",
+        "agent-evaluation",
+        "performance-monitoring",
+        "error-identification",
+        "trace-evals",
+        "workflow-logs"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-trace-grading.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "098-docs-guides-video-generation.md",
+      "title": "Video generation with Sora",
+      "url": "https://platform.openai.com/docs/guides/video-generation.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:18.622110258-03:00",
+      "description": "Video generation with Sora ==========================",
+      "summary": "This document explains how to use the Sora Video API to programmatically generate, monitor, and manage high-quality videos from text prompts. It covers model selection, asynchronous processing via polling or webhooks, and content safety restrictions.",
+      "tags": [
+        "sora",
+        "video-generation",
+        "text-to-video",
+        "openai-api",
+        "asynchronous-processing",
+        "webhooks",
+        "generative-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-video-generation.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "099-docs-guides-vision-fine-tuning.md",
+      "title": "Vision fine-tuning",
+      "url": "https://platform.openai.com/docs/guides/vision-fine-tuning.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:58.806083063-03:00",
+      "description": "Vision fine-tuning ==================",
+      "summary": "This guide explains how to perform supervised fine-tuning on vision models using image inputs, covering data formatting, technical requirements, and safety moderation policies.",
+      "tags": [
+        "vision-fine-tuning",
+        "image-understanding",
+        "supervised-fine-tuning",
+        "data-preparation",
+        "safety-moderation",
+        "machine-learning"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-vision-fine-tuning.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "100-docs-guides-voice-agents.md",
+      "title": "Voice agents",
+      "url": "https://platform.openai.com/docs/guides/voice-agents.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:13:37.70461038-03:00",
+      "description": "Voice agents ============",
+      "summary": "This document explains how to design and build voice agents using OpenAI's speech-to-speech and chained architectures, covering transport protocols and effective prompting strategies.",
+      "tags": [
+        "voice-agents",
+        "openai-api",
+        "realtime-api",
+        "speech-to-speech",
+        "webrtc",
+        "websockets",
+        "prompt-engineering",
+        "agents-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-voice-agents.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "101-docs-guides-webhooks.md",
+      "title": "Webhooks",
+      "url": "https://platform.openai.com/docs/guides/webhooks.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:14:12.171217996-03:00",
+      "description": "Webhooks ========",
+      "summary": "This document explains how to configure and implement webhooks to receive real-time notifications for OpenAI API events, covering endpoint creation, server-side handling, and security verification.",
+      "tags": [
+        "webhooks",
+        "real-time-notifications",
+        "api-integration",
+        "webhook-signatures",
+        "event-driven",
+        "security-verification",
+        "server-side-implementation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-webhooks.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "102-docs-guides-your-data.md",
+      "title": "Data controls in the OpenAI platform",
+      "url": "https://platform.openai.com/docs/guides/your-data.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:15:56.437401762-03:00",
+      "description": "Data controls in the OpenAI platform ====================================",
+      "summary": "This document explains how OpenAI handles user data within its API platform, detailing data storage types, retention policies, and configuration options for Zero Data Retention and Modified Abuse Monitoring.",
+      "tags": [
+        "openai-api",
+        "data-privacy",
+        "data-retention",
+        "compliance",
+        "security-controls",
+        "abuse-monitoring",
+        "zero-data-retention"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-guides-your-data.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "103-docs-libraries.md",
+      "title": "Libraries",
+      "url": "https://platform.openai.com/docs/libraries.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:38.69321822-03:00",
+      "description": "Libraries =========",
+      "summary": "This document provides instructions for setting up a development environment and installing official OpenAI SDKs for various programming languages to interact with the OpenAI API.",
+      "tags": [
+        "openai-api",
+        "sdk-installation",
+        "environment-setup",
+        "api-key-configuration",
+        "python-sdk",
+        "javascript-sdk",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-libraries.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "104-docs-llms-full.txt.md",
+      "title": "OpenAI Platform Docs - full documentation",
+      "url": "https://platform.openai.com/docs/llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:33.394400162-03:00",
+      "description": "> Single-file Markdown export of the OpenAI Platform documentation.",
+      "summary": "This document provides a comprehensive overview of GPT Actions, detailing how to build integrations with third-party APIs and configure various authentication methods such as API keys and OAuth.",
+      "tags": [
+        "gpt-actions",
+        "api-integration",
+        "authentication",
+        "oauth",
+        "custom-gpts",
+        "openai-platform"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-llms-full.txt.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "105-docs-mcp.md",
+      "title": "Building MCP servers for ChatGPT and API integrations",
+      "url": "https://platform.openai.com/docs/mcp.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:04.358751941-03:00",
+      "description": "Building MCP servers for ChatGPT and API integrations =====================================================",
+      "summary": "This document explains how to build a remote Model Context Protocol (MCP) server to integrate private data sources with ChatGPT and the OpenAI API. It outlines the requirements for implementing search and fetch tools to enable deep research and data retrieval capabilities.",
+      "tags": [
+        "model-context-protocol",
+        "mcp-server",
+        "chatgpt-connectors",
+        "fastmcp",
+        "openai-api",
+        "vector-store"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-mcp.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "106-docs-tutorials-meeting-minutes.md",
       "title": "Meeting minutes",
       "url": "https://platform.openai.com/docs/tutorials/meeting-minutes.md",
       "source": "llms",
@@ -2117,10 +2149,12 @@
         "python",
         "meeting-minutes"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-tutorials-meeting-minutes.md",
+      "detected_category": "Tutorials & How-To"
     },
     {
-      "file_path": "docs-tutorials-web-qa-embeddings.md",
+      "file_path": "107-docs-tutorials-web-qa-embeddings.md",
       "title": "Web QA with embeddings",
       "url": "https://platform.openai.com/docs/tutorials/web-qa-embeddings.md",
       "source": "llms",
@@ -2135,7 +2169,219 @@
         "question-answering",
         "vector-search"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-tutorials-web-qa-embeddings.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "108-docs-tutorials.md",
+      "title": "Tutorials",
+      "url": "https://platform.openai.com/docs/tutorials.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:48.427420533-03:00",
+      "description": "Tutorials =========",
+      "summary": "This document provides a collection of step-by-step tutorials for building AI applications using OpenAI's API, including projects for website question-answering and meeting transcription.",
+      "tags": [
+        "openai-api",
+        "tutorials",
+        "embeddings",
+        "whisper",
+        "gpt-4",
+        "app-development"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-tutorials.md",
+      "detected_category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "109-docs-concepts.md",
+      "title": "Key concepts",
+      "url": "https://platform.openai.com/docs/concepts.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:37.088729186-03:00",
+      "description": "Key concepts ============",
+      "summary": "This document introduces fundamental concepts for working with the OpenAI API, including text generation models, embeddings, and the role of tokens.",
+      "tags": [
+        "openai-api",
+        "text-generation",
+        "embeddings",
+        "tokens",
+        "gpt-models",
+        "data-privacy"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-concepts.md",
+      "detected_category": "Concepts & Fundamentals"
+    },
+    {
+      "file_path": "110-docs-docs-mcp.md",
+      "title": "Docs MCP",
+      "url": "https://platform.openai.com/docs/docs-mcp.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:39.30344902-03:00",
+      "description": "Docs MCP ========",
+      "summary": "This document provides instructions for connecting to the OpenAI developer documentation MCP server to access and search API documentation directly within IDEs and tools like Codex, VS Code, and Cursor.",
+      "tags": [
+        "openai",
+        "mcp-server",
+        "developer-docs",
+        "model-context-protocol",
+        "codex",
+        "vs-code",
+        "cursor"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-docs-mcp.md",
+      "detected_category": "Configuration & Settings"
+    },
+    {
+      "file_path": "111-docs-deprecations.md",
+      "title": "Deprecations",
+      "url": "https://platform.openai.com/docs/deprecations.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:03.868833034-03:00",
+      "description": "Deprecations ============",
+      "summary": "This document provides a comprehensive timeline of OpenAI model and API deprecations, detailing shutdown dates and recommended migration paths for developers. It defines the terminology used for model lifecycles and lists specific replacements for retired endpoints.",
+      "tags": [
+        "model-deprecation",
+        "api-lifecycle",
+        "migration-guide",
+        "openai-models",
+        "versioning",
+        "shutdown-schedule"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-deprecations.md",
+      "detected_category": "API & Reference"
+    },
+    {
+      "file_path": "112-docs-gpts-release-notes.md",
+      "title": "GPT Release Notes",
+      "url": "https://platform.openai.com/docs/gpts/release-notes.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:37.060906974-03:00",
+      "description": "GPT Release Notes =================",
+      "summary": "This document provides a chronological record of updates and new feature releases for OpenAI GPTs and the GPT Store.",
+      "tags": [
+        "gpt-release-notes",
+        "openai-gpts",
+        "gpt-store",
+        "feature-updates",
+        "product-changelog"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-gpts-release-notes.md",
+      "detected_category": "API & Reference"
+    },
+    {
+      "file_path": "113-docs-llms.txt.md",
+      "title": "OpenAI Platform Docs",
+      "url": "https://platform.openai.com/docs/llms.txt",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:32.629690208-03:00",
+      "description": "> Developer documentation for the OpenAI Platform (https://platform.openai.com/docs).",
+      "summary": "This document serves as a central index and navigation hub for the OpenAI Platform, providing structured links to developer guides, core concepts, agent development resources, and API documentation.",
+      "tags": [
+        "openai-platform",
+        "developer-resources",
+        "api-index",
+        "ai-agents",
+        "llm-tools",
+        "prompt-engineering"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-llms.txt.md",
+      "detected_category": "API & Reference"
+    },
+    {
+      "file_path": "114-docs-pricing.md",
+      "title": "Pricing",
+      "url": "https://platform.openai.com/docs/pricing.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:37.453109894-03:00",
+      "description": "Pricing =======",
+      "summary": "This document provides a comprehensive breakdown of pricing for various AI models and services, detailing token-based costs across different processing tiers, modalities, and built-in tools.",
+      "tags": [
+        "model-pricing",
+        "token-costs",
+        "api-usage",
+        "fine-tuning-rates",
+        "batch-processing",
+        "multimodal-pricing"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-pricing.md",
+      "detected_category": "API & Reference"
+    },
+    {
+      "file_path": "115-docs-sitemap.xml.md",
+      "title": "Platform docs sitemap",
+      "url": "https://platform.openai.com/docs/sitemap.xml",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:32.801646104-03:00",
+      "summary": "This document provides a comprehensive index of the OpenAI developer platform documentation, including API references, implementation guides, and model capabilities.",
+      "tags": [
+        "openai-platform",
+        "api-reference",
+        "developer-guides",
+        "ai-models",
+        "documentation-index",
+        "machine-learning"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-sitemap.xml.md",
+      "detected_category": "API & Reference"
+    },
+    {
+      "file_path": "116-docs-static-api-definition.yaml.md",
+      "title": "openapi: 3.1.0",
+      "url": "https://platform.openai.com/docs/static/api-definition.yaml",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:12:33.812253294-03:00",
+      "description": "openapi: 3.1.0 info: title: OpenAI API description: The OpenAI REST API. Please see https://platform.openai.com/docs/api-reference for more details. version: 2.3.0 termsOfService: https://openai.com/policies/terms-of-use contact: name: OpenAI Support url: https://help.openai.com/ license: name: M...",
+      "summary": "This document defines the OpenAPI specification for the OpenAI REST API, providing a technical reference for endpoints, parameters, and response structures. It covers core functionalities including assistants, chat completions, embeddings, and fine-tuning services.",
+      "tags": [
+        "openai-api",
+        "openapi-specification",
+        "rest-api",
+        "machine-learning",
+        "api-reference",
+        "llm-integration"
+      ],
+      "category": "api",
+      "original_file_path": "docs-static-api-definition.yaml.md",
+      "detected_category": "API & Reference"
+    },
+    {
+      "file_path": "117-docs-supported-countries.md",
+      "title": "Supported countries and territories",
+      "url": "https://platform.openai.com/docs/supported-countries.md",
+      "source": "llms",
+      "fetched_at": "2026-01-24T16:16:47.024748881-03:00",
+      "description": "Supported countries and territories ===================================",
+      "summary": "This document lists the specific countries and territories where access to the API services is officially supported and permitted. It outlines the geographic availability of the platform and the potential consequences of accessing services from unsupported regions.",
+      "tags": [
+        "geographic-availability",
+        "api-access",
+        "service-restrictions",
+        "regional-support",
+        "compliance"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-supported-countries.md",
+      "detected_category": "API & Reference"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-24T16:19:55.535426",
+    "total_files": 117,
+    "categories": [
+      "API & Reference",
+      "Concepts & Fundamentals",
+      "Configuration & Settings",
+      "Introduction & Overview",
+      "Tutorials & How-To"
+    ]
+  }
 }

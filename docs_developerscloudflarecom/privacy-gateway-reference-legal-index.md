@@ -1,0 +1,36 @@
+---
+title: Legal · Cloudflare Privacy Gateway docs
+url: https://developers.cloudflare.com/privacy-gateway/reference/legal/index.md
+source: llms
+fetched_at: 2026-01-24T15:19:53.20601013-03:00
+rendered_js: false
+word_count: 234
+summary: This document explains Cloudflare’s Privacy Gateway service, which implements the Oblivious HTTP (OHTTP) standard to protect client privacy by acting as a secure relay between users and application backends.
+tags:
+    - privacy-gateway
+    - oblivious-http
+    - ohttp
+    - data-privacy
+    - cloudflare-network
+    - network-security
+category: concept
+---
+
+Privacy Gateway is a managed gateway service deployed on Cloudflare’s global network that implements the Oblivious HTTP IETF standard to improve client privacy when connecting to an application backend.
+
+OHTTP introduces a trusted third party (Cloudflare in this case), called a relay, between client and server. The relay’s purpose is to forward requests from client to server, and likewise to forward responses from server to client. These messages are encrypted between client and server such that the relay learns nothing of the application data, beyond the server the client is interacting with.
+
+The Privacy Gateway service follows [Cloudflare’s privacy policy](https://www.cloudflare.com/privacypolicy/).
+
+## What Cloudflare sees
+
+While Cloudflare will never see the contents of the encrypted application HTTP request proxied through the Privacy Gateway service – because the client will first connect to the OHTTP relay server operated in Cloudflare’s global network– Cloudflare will see the following information: the connecting device’s IP address, the application service they are using, including its DNS name and IP address, and metadata associated with the request, including the type of browser, device operating system, hardware configuration, and timestamp of the request ("Privacy Gateway Logs").
+
+## What Cloudflare stores
+
+Cloudflare retains the Privacy Gateway Logs information for the most recent quarter plus one month (approximately 124 days).
+
+## What Privacy Gateway customers see
+
+* The application content of requests.
+* The IP address and associated metadata of the Cloudflare Privacy Gateway server the request came from.

@@ -1,0 +1,55 @@
+---
+title: Query rewriting · Cloudflare AI Search docs
+url: https://developers.cloudflare.com/ai-search/configuration/query-rewriting/index.md
+source: llms
+fetched_at: 2026-01-24T14:00:21.219293541-03:00
+rendered_js: false
+word_count: 327
+summary: Explains how query rewriting uses Large Language Models to transform user queries into optimized search terms for improved vector retrieval accuracy.
+tags:
+    - query-rewriting
+    - ai-search
+    - vector-search
+    - llm
+    - semantic-search
+    - search-optimization
+category: concept
+---
+
+Query rewriting is an optional step in the AI Search pipeline that improves retrieval quality by transforming the original user query into a more effective search query.
+
+Instead of embedding the raw user input directly, AI Search can use a large language model (LLM) to rewrite the query based on a system prompt. The rewritten query is then used to perform the vector search.
+
+## Why use query rewriting?
+
+The wording of a user’s question may not match how your documents are written. Query rewriting helps bridge this gap by:
+
+* Rephrasing informal or vague queries into precise, information-dense terms
+* Adding synonyms or related keywords
+* Removing filler words or irrelevant details
+* Incorporating domain-specific terminology
+
+This leads to more relevant vector matches which improves the accuracy of the final generated response.
+
+## Example
+
+**Original query:** `how do i make this work when my api call keeps failing?`
+
+**Rewritten query:** `API call failure troubleshooting authentication headers rate limiting network timeout 500 error`
+
+In this example, the original query is conversational and vague. The rewritten version extracts the core problem (API call failure) and expands it with relevant technical terms and likely causes. These terms are much more likely to appear in documentation or logs, improving semantic matching during vector search.
+
+## How it works
+
+If query rewriting is enabled, AI Search performs the following:
+
+1. Sends the **original user query** and the **query rewrite system prompt** to the configured LLM
+2. Receives the **rewritten query** from the model
+3. Embeds the rewritten query using the selected embedding model
+4. Performs vector search in your AI Search's Vectorize index
+
+For details on how to guide model behavior during this step, see the [system prompt](https://developers.cloudflare.com/ai-search/configuration/system-prompt/) documentation.
+
+Note
+
+All AI Search requests are routed through [AI Gateway](https://developers.cloudflare.com/ai-gateway/) and logged there. If you do not select an AI Gateway during setup, AI Search creates a default gateway for your instance. You can view query rewrites, embeddings, text generation, and other model calls in the AI Gateway logs for monitoring and debugging.

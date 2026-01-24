@@ -1,0 +1,89 @@
+---
+title: Reranking · Cloudflare AI Search docs
+url: https://developers.cloudflare.com/ai-search/configuration/reranking/index.md
+source: llms
+fetched_at: 2026-01-24T14:00:23.163933675-03:00
+rendered_js: false
+word_count: 262
+summary: This document explains how to enable and configure reranking in AI Search to improve retrieval accuracy by reordering results based on semantic relevance using a secondary model.
+tags:
+    - ai-search
+    - reranking
+    - search-optimization
+    - rag
+    - configuration
+    - semantic-relevance
+category: configuration
+---
+
+Reranking can help improve the quality of AI Search results by reordering retrieved documents based on semantic relevance to the user’s query. It applies a secondary model after retrieval to "rerank" the top results before they are outputted.
+
+## How it works
+
+By default, reranking is **disabled** for all AI Search instances. You can enable it during creation or later from the settings page.
+
+When enabled, AI Search will:
+
+1. Retrieve a set of relevant results from your index, constrained by your `max_num_of_results` and `score_threshold` parameters.
+2. Pass those results through a [reranking model](https://developers.cloudflare.com/ai-search/configuration/models/supported-models/).
+3. Return the reranked results, which the text generation model can use for answer generation.
+
+Reranking helps improve accuracy, especially for large or noisy datasets where vector similarity alone may not produce the optimal ordering.
+
+## Configuration
+
+You can configure reranking in several ways:
+
+### Configure via API
+
+When you make a `/search` or `/ai-search` request using the [Workers Binding](https://developers.cloudflare.com/ai-search/usage/workers-binding/) or [REST API](https://developers.cloudflare.com/ai-search/usage/rest-api/), you can:
+
+* Enable or disable reranking per request
+* Specify the reranking model
+
+For example:
+
+```javascript
+const answer = await env.AI.autorag("my-autorag").aiSearch({
+  query: "How do I train a llama to deliver coffee?",
+  model: "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+  reranking: {
+    enabled: true,
+    model: "@cf/baai/bge-reranker-base"
+  }
+});
+```
+
+### Configure in dashboard for new AI Search
+
+When creating a new RAG in the dashboard:
+
+1. Go to **AI Search** in the Cloudflare dashboard.
+
+   [Go to **AI Search**](https://dash.cloudflare.com/?to=/:account/ai/ai-search)
+
+2. Select **Create** > **Get started**.
+
+3. In the **Retrieval configuration** step, open the **Reranking** dropdown.
+
+4. Toggle **Reranking** on.
+
+5. Select the reranking model.
+
+6. Complete your setup.
+
+### Configure in dashboard for existing AI Search
+
+To update reranking for an existing instance:
+
+1. Go to **AI Search** in the Cloudflare dashboard.
+
+   [Go to **AI Search**](https://dash.cloudflare.com/?to=/:account/ai/ai-search)
+
+2. Select an existing AI Search instance.
+
+3. Go to the **Settings** tab.
+
+4. Under **Reranking**, toggle reranking on.
+
+5. Select the reranking model.

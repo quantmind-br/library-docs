@@ -1,0 +1,22 @@
+---
+title: docker scout version
+url: https://docs.docker.com/reference/cli/docker/scout/version/
+source: llms
+fetched_at: 2026-01-24T14:40:37.022292116-03:00
+rendered_js: false
+word_count: 23
+summary: This document introduces an interactive assistant designed to provide real-time help with Docker commands, concepts, and troubleshooting.
+tags:
+    - docker
+    - containerization
+    - troubleshooting
+    - docker-commands
+    - devops
+category: other
+---
+
+### Ask me about Docker
+
+Get instant answers to your Docker questions. I can help with commands, concepts, troubleshooting, and best practices.
+
+Try asking:

@@ -1,0 +1,596 @@
+{
+  "generated_at": "2026-01-24T15:53:18.627332541-03:00",
+  "source_url": "https://zellij.dev/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 33,
+  "documents": [
+    {
+      "file_path": "news.md",
+      "title": "News",
+      "url": "https://zellij.dev/news/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:38.102657476-03:00",
+      "description": "A terminal workspace with batteries included",
+      "summary": "This document provides a chronological list of release notes and major feature announcements for the Zellij terminal multiplexer from 2022 to 2025.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "release-notes",
+        "changelog",
+        "software-updates"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "news-colliding-keybinds-plugin-manager.md",
+      "title": "Zellij 0.41.0: Solutions for Colliding Keybindings, Plugin Manager, new UI",
+      "url": "https://zellij.dev/news/colliding-keybinds-plugin-manager/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:38.110499028-03:00",
+      "description": "A solution for the colliding keybindings problem, a new plugin manager and UI, reloading configuration at runtime and a new setup wizard.",
+      "summary": "This document announces the release of Zellij version 0.41.0, detailing new features such as non-colliding keybinding presets, runtime configuration updates, and expanded plugin APIs. It highlights user interface improvements, the addition of a setup wizard, and support for the Kitty keyboard protocol.",
+      "tags": [
+        "zellij",
+        "release-notes",
+        "terminal-multiplexer",
+        "keybindings",
+        "plugin-api",
+        "configuration",
+        "terminal-emulator"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "index.md",
+      "title": "Zellij",
+      "url": "https://zellij.dev/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:37.958714811-03:00",
+      "description": "A terminal workspace with batteries included",
+      "summary": "This document introduces Zellij, a terminal workspace environment, and provides instructions for trying it out immediately via a shell script without installation.",
+      "tags": [
+        "terminal-workspace",
+        "zellij",
+        "cli-tool",
+        "terminal-multiplexer",
+        "quick-start"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "news-stacked-resize-pinned-panes.md",
+      "title": "Zellij 0.42.0: Stacked Resize, Pinned Floating Panes, New Theme Spec",
+      "url": "https://zellij.dev/news/stacked-resize-pinned-panes/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:38.101371391-03:00",
+      "description": "Stacked resize, pinned floating panes, new theme definition spec and new Rust plugin APIs",
+      "summary": "This document highlights the features and improvements in the Zellij 0.42.0 release, including stacked pane resizing, pinned floating panes, and a new theme definition specification. It also details significant updates to the Rust plugin SDK, such as dynamic host folder mounting and enhanced mouse interaction support.",
+      "tags": [
+        "zellij-release",
+        "terminal-multiplexer",
+        "rust-sdk",
+        "window-management",
+        "theme-specification",
+        "plugin-api"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-web-client-multiple-pane-actions.md",
+      "title": "Zellij 0.43.0: web client, multiple pane actions, compact-bar tooltips",
+      "url": "https://zellij.dev/news/web-client-multiple-pane-actions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:38.102472666-03:00",
+      "description": "Share sessions in the browser, perform bulk operations on multiple panes, toggle tooltips in the compact-bar...",
+      "summary": "This document announces the release of Zellij version 0.43.0, highlighting new features such as web client integration, multi-pane selection, and expanded Rust plugin APIs.",
+      "tags": [
+        "zellij",
+        "release-notes",
+        "terminal-multiplexer",
+        "web-client",
+        "rust-api",
+        "pane-management"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-welcome-screen-pipes-filepicker.md",
+      "title": "Zellij 0.40.0: Welcome Screen, Filepicker, Pipes, Plugin Aliases",
+      "url": "https://zellij.dev/news/welcome-screen-pipes-filepicker/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:42.457516286-03:00",
+      "description": "A new welcome screen to facilitate session management, a new filepicker, a powerful new concept called pipes and lots of long awaited features",
+      "summary": "This document announces the release of Zellij 0.40.0, detailing major new features such as the welcome screen, a redesigned filepicker, inter-plugin communication pipes, and performance optimizations.",
+      "tags": [
+        "zellij-release",
+        "terminal-multiplexer",
+        "plugin-system",
+        "command-line-interface",
+        "session-management",
+        "performance-updates"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-session-resurrection-ui-components.md",
+      "title": "Zellij 0.39.0: Session Resurrection, Cross-Language UI Components, load Plugins from the Web",
+      "url": "https://zellij.dev/news/session-resurrection-ui-components/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:42.908567161-03:00",
+      "description": "This release includes a new built-in plugin to navigate across sessions, configurable plugins, a plugin permission system and much more!",
+      "summary": "This document announces new features for the Zellij terminal multiplexer, including session resurrection, cross-language UI components for plugins, web-based plugin loading, and the ability to rename sessions.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "session-management",
+        "plugin-development",
+        "ui-components",
+        "release-notes"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-session-manager-protobuffs.md",
+      "title": "Zellij 0.38.0: including a session-manager, plugin infrastructure improvements and an end to offensive session names",
+      "url": "https://zellij.dev/news/session-manager-protobuffs/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:43.280864047-03:00",
+      "description": "This release includes a new built-in plugin to navigate across sessions, configurable plugins, a plugin permission system and much more!",
+      "summary": "This document outlines new features and technical improvements in the Zellij terminal multiplexer, including a built-in session manager and significant updates to the plugin architecture.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "session-management",
+        "plugin-system",
+        "webassembly",
+        "protocol-buffers",
+        "release-notes"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-new-plugin-system.md",
+      "title": "Build Zellij WebAssembly (Rust) Plugins for your Terminal",
+      "url": "https://zellij.dev/news/new-plugin-system/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:43.300324885-03:00",
+      "description": "Wouldn't it be cool to be able to develop terminal applets like UI components?",
+      "summary": "This document introduces the overhauled Zellij WebAssembly plugin system and the zellij-tile Rust SDK for building terminal applets. It outlines core plugin capabilities like UI rendering and workspace management while providing resources for developers to begin building their own plugins.",
+      "tags": [
+        "zellij",
+        "webassembly",
+        "rust-sdk",
+        "terminal-multiplexer",
+        "plugin-development",
+        "wasm-plugins"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "news-stacked-panes-swap-layouts.md",
+      "title": "Zellij 0.35.1 Stacked Panes and Swap Layouts",
+      "url": "https://zellij.dev/news/stacked-panes-swap-layouts/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:45.437116743-03:00",
+      "description": "This new version comes with some great new UI/UX features and extra functionality",
+      "summary": "This document introduces the new features of Zellij version 0.35.1, focusing on stacked panes, automatic swap layouts, and the inclusion of floating panes in layout files.",
+      "tags": [
+        "zellij",
+        "release-notes",
+        "terminal-multiplexer",
+        "stacked-panes",
+        "swap-layouts",
+        "window-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "news-edit-scrollback-compact.md",
+      "title": "Zellij 0.30.0: use your $EDITOR to search and save your scrollback",
+      "url": "https://zellij.dev/news/edit-scrollback-compact/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:49.000728941-03:00",
+      "description": "The latest Zellij version introduces the ability to edit your scrollback with your $EDITOR, a compact layout and much more!",
+      "summary": "This document announces the release of Zellij 0.30.0, highlighting new features such as scrollback editing in external editors, a compact UI layout, and integrated usage tips.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "release-notes",
+        "cli-tools",
+        "terminal-ui",
+        "open-source"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-sixel-search-statusbar.md",
+      "title": "Zellij 0.31.0: Sixel support, search panes and custom status-bar keybindings",
+      "url": "https://zellij.dev/news/sixel-search-statusbar/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:48.775876614-03:00",
+      "description": "We just released a significant version of Zellij with lots of highly anticipated features!",
+      "summary": "This release announcement details the major features introduced in Zellij 0.31.0, including Sixel graphics support, a new search mode for pane scrollback, and dynamic status-bar shortcuts for custom configurations.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "release-notes",
+        "sixel-graphics",
+        "scrollback-search",
+        "custom-keybindings"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-floating-panes-tmux-mode.md",
+      "title": "Zellij 0.25.0: floating panes, tmux mode and more!",
+      "url": "https://zellij.dev/news/floating-panes-tmux-mode/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:49.606335382-03:00",
+      "description": "The latest Zellij version introduces floating panes you can move with your mouse, a built-in tmux mode to help those migrating and much more!",
+      "summary": "This document announces the release of Zellij version 0.25.0, detailing new features such as floating panes, a built-in Tmux compatibility mode, and system clipboard integration.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "release-notes",
+        "floating-panes",
+        "tmux-compatibility",
+        "clipboard-integration"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-config-command-layouts.md",
+      "title": "Zellij 0.32.0: YAML =\u003e KDL, Control Zellij through the CLI, Command Panes and a new Layout System",
+      "url": "https://zellij.dev/news/config-command-layouts/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:48.323843849-03:00",
+      "description": "We just released a significant version of Zellij with lots of highly anticipated features!",
+      "summary": "Describes the new features in Zellij 0.32.0, specifically the migration to the KDL configuration language and the introduction of advanced CLI controls and layout capabilities.",
+      "tags": [
+        "zellij-release",
+        "terminal-multiplexer",
+        "kdl-config",
+        "command-panes",
+        "cli-actions",
+        "terminal-layouts"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "news-multiplayer-sessions.md",
+      "title": "Share your Terminal with Multiple Cursors",
+      "url": "https://zellij.dev/news/multiplayer-sessions/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:53.59370962-03:00",
+      "description": "The latest Zellij version introduces multiplayer sessions, allowing multiple users to connect to the same Zellij session, each with their own cursor.",
+      "summary": "This document introduces the multiplayer collaboration features in Zellij 0.23.0 and provides instructions for setting up shared terminal sessions for pair programming and remote assistance.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "pair-programming",
+        "collaboration",
+        "remote-access",
+        "session-sharing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "news-new-ui.md",
+      "title": "Zellij 0.16.0: new UI, many bugfixes and more!",
+      "url": "https://zellij.dev/news/new-ui/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:54.447039056-03:00",
+      "description": "Updates and a walkthrough through some of the many improvements in Zellij's latest release",
+      "summary": "This document announces the release of Zellij version 0.16.0, detailing new features such as the pane frame UI, updated keybindings, and improvements to the resizing algorithm and layout templates.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "release-notes",
+        "pane-management",
+        "ui-updates",
+        "keybindings",
+        "layout-templates"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "tutorials-colliding-keybindings.md",
+      "title": "Dealing with Colliding Keyboard Shortcuts",
+      "url": "https://zellij.dev/tutorials/colliding-keybindings/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:57.061035884-03:00",
+      "description": "How to quickly solve the issue of Zellij intercepting keys while still maintaining peak efficiency in one's workflow",
+      "summary": "This tutorial explains how to resolve keyboard shortcut conflicts between Zellij and the applications running inside it by using the Unlock-First preset and customizing keybindings.",
+      "tags": [
+        "zellij",
+        "keybindings",
+        "keyboard-shortcuts",
+        "terminal-multiplexer",
+        "configuration",
+        "user-interface"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "categories.md",
+      "title": "Categories",
+      "url": "https://zellij.dev/categories/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:58.754356753-03:00",
+      "description": "A terminal workspace with batteries included",
+      "summary": "This document contains no content and provides no information to summarize.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "news-beta.md",
+      "title": "Zellij: a Rusty terminal workspace releases a beta",
+      "url": "https://zellij.dev/news/beta/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:56.04219401-03:00",
+      "description": "After long months of work by a dedicated team of enthusiasts, today we are proud to announce the release of the beta version of Zellij",
+      "summary": "This announcement introduces the beta release of Zellij, a terminal workspace and multiplexer written in Rust that features a user-friendly UI, WebAssembly plugins, and a custom layout engine.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "rust",
+        "wasm-plugins",
+        "command-line",
+        "beta-release"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "tutorials-basic-functionality.md",
+      "title": "Basic Development with Zellij",
+      "url": "https://zellij.dev/tutorials/basic-functionality/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:58.732880257-03:00",
+      "description": "How to use Zellij as a powerful engine for terminal development",
+      "summary": "This document provides an overview and tutorial for using Zellij, a terminal workspace, focusing on UI navigation, pane management, and editing command scrollback.",
+      "tags": [
+        "zellij",
+        "terminal-workspace",
+        "pane-management",
+        "keyboard-shortcuts",
+        "floating-panes",
+        "scrollback-editing"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-layouts.md",
+      "title": "Using Layouts for Personal Automation",
+      "url": "https://zellij.dev/tutorials/layouts/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:52:59.778196453-03:00",
+      "description": "How to create and use Zellij layouts to automate tasks and workflows",
+      "summary": "This tutorial explains how to create and customize Zellij layouts using KDL to automate terminal workflows, manage panes, and integrate plugins.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "layout-configuration",
+        "kdl-language",
+        "workflow-automation",
+        "pane-management"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-developing-a-rust-plugin.md",
+      "title": "Developing a Zellij plugin using Rust",
+      "url": "https://zellij.dev/tutorials/developing-a-rust-plugin/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:01.844541285-03:00",
+      "description": "A walkthrough of creating a Zellij plugin from start to end",
+      "summary": "This tutorial provides a step-by-step guide to developing a Rust-based plugin for the Zellij terminal multiplexer, covering scaffolding, UI rendering, and state management.",
+      "tags": [
+        "zellij",
+        "rust",
+        "plugin-development",
+        "wasm",
+        "terminal-multiplexer",
+        "ui-rendering",
+        "scaffolding"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-web-client.md",
+      "title": "The Zellij Web Client - Share Sessions in the Browser",
+      "url": "https://zellij.dev/tutorials/web-client/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:01.926464777-03:00",
+      "description": "How to share Zellij sessions in the browser, making the terminal emulator optional",
+      "summary": "This document provides instructions on setting up and using the Zellij Web Client to access terminal sessions through a web browser. It covers starting the server, managing authentication tokens, and configuring HTTPS for secure remote access.",
+      "tags": [
+        "zellij",
+        "web-client",
+        "terminal-multiplexer",
+        "remote-access",
+        "session-sharing",
+        "authentication",
+        "https-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-stacked-resize.md",
+      "title": "Stacked Resize and Pinned Floating Panes",
+      "url": "https://zellij.dev/tutorials/stacked-resize/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:02.22350648-03:00",
+      "description": "How to use stacked resize and pinned floating panes in Zellij",
+      "summary": "This tutorial explains how to manage complex terminal layouts in Zellij using the stacked resize and pinned floating panes features. It provides a step-by-step workflow for organizing multiple panes and maintaining visibility of background tasks while focusing on specific windows.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "stacked-resize",
+        "floating-panes",
+        "pane-management",
+        "productivity-tools",
+        "workflow-optimization"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "about.md",
+      "title": "About Zellij",
+      "url": "https://zellij.dev/about/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:04.534410463-03:00",
+      "description": "Zellij is a workspace aimed at developers, ops-oriented people and anyone who loves the terminal. Similar programs are sometimes called \u0026ldquo;Terminal Multiplexers\u0026rdquo;.\nZellij is designed around the philosophy that one must not sacrifice simplicity for power, taking pride in its great experience out of the box as well as the advanced features it places at its users' fingertips.\nZellij is geared toward beginner and power users alike - allowing deep customizability, personal automation through layouts, true multiplayer collaboration, unique UX features such as floating and stacked panes, and a plugin system allowing one to create plugins in any language that compiles to WebAssembly.",
+      "summary": "This document introduces Zellij, a terminal workspace and multiplexer that emphasizes a balance between simplicity and powerful features like custom layouts and WebAssembly plugins.",
+      "tags": [
+        "terminal-multiplexer",
+        "cli-tools",
+        "zellij",
+        "developer-experience",
+        "webassembly",
+        "terminal-workspace"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "tutorials-filepicker.md",
+      "title": "The Zellij Filepicker",
+      "url": "https://zellij.dev/tutorials/filepicker/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:04.363100334-03:00",
+      "description": "How to use Zellij to manage your sessions in the terminal",
+      "summary": "This tutorial provides instructions for using and configuring the Zellij filepicker, also known as Strider, to navigate filesystems and integrate with other terminal commands. It covers setup via keybindings, CLI usage, and creating IDE-like layouts.",
+      "tags": [
+        "zellij",
+        "file-navigation",
+        "strider-plugin",
+        "terminal-productivity",
+        "keybindings",
+        "cli-tools",
+        "workflow"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-session-management.md",
+      "title": "Session Management with Zellij",
+      "url": "https://zellij.dev/tutorials/session-management/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:06.71471873-03:00",
+      "description": "How to use Zellij to manage your sessions in the terminal",
+      "summary": "This tutorial explains how to use Zellij's welcome screen and session manager to organize terminal workflows, switch between contexts, and resurrect previous sessions.",
+      "tags": [
+        "zellij",
+        "session-management",
+        "terminal-multiplexer",
+        "workflow-optimization",
+        "terminal-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "screencasts.md",
+      "title": "Screencasts \u0026 Tutorials",
+      "url": "https://zellij.dev/screencasts/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:06.853583398-03:00",
+      "description": "Basic Functionality (Floating Panes + Command Panes + Scrollback Editing): Here we demonstrate some of the more basic functionality of Zellij and how to use it for everyday tasks.\n  Stacked Resizes and Pinned Floating Panes: Here we demonstrate some of the more basic functionality of Zellij and how to use it for everyday tasks.\n  Layouts: This tutorial walks you through creating Zellij layouts to automate tasks and workflows.",
+      "summary": "This document provides a collection of tutorial links and descriptions for Zellij, covering core features such as pane management, session handling, layouts, and plugin development.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "pane-management",
+        "session-management",
+        "plugin-development",
+        "layouts",
+        "rust"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "screenshots.md",
+      "title": "Screenshots",
+      "url": "https://zellij.dev/screenshots/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:06.98969916-03:00",
+      "description": "Default interface with a few panes and tabs  Zellij with the Strider plugin Strider is a ranger clone and comes built-in with Zellij. To run, load its layout with:\nzellij --layout strider\n Basic multiplexer functionality demonstration",
+      "summary": "This document introduces the Zellij terminal multiplexer by showcasing its default interface, the built-in Strider file explorer plugin, and basic multiplexing functionality.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "strider-plugin",
+        "cli-tools",
+        "terminal-layout",
+        "terminal-interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "tags.md",
+      "title": "Tags",
+      "url": "https://zellij.dev/tags/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:10.038695501-03:00",
+      "description": "A terminal workspace with batteries included",
+      "summary": "The provided document is empty and contains no descriptive content or technical information.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "series.md",
+      "title": "Series",
+      "url": "https://zellij.dev/series/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:09.300071616-03:00",
+      "description": "A terminal workspace with batteries included",
+      "summary": "The provided document is empty and contains no text or information to extract.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "unspecified"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "tutorials.md",
+      "title": "Tutorials",
+      "url": "https://zellij.dev/tutorials/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:12.730118863-03:00",
+      "description": "A terminal workspace with batteries included",
+      "summary": "This document provides an index of tutorials for the Zellij terminal workspace covering topics such as session management, layouts, and plugin development.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "session-management",
+        "plugin-development",
+        "layout-configuration",
+        "cli-tools"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "roadmap.md",
+      "title": "Zellij Roadmap",
+      "url": "https://zellij.dev/roadmap/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T15:53:14.30296834-03:00",
+      "description": "Presented here is the project roadmap, divided into three main sections.\nThese are issues that are either being actively worked on or are planned for the near future.\nEach issue links to our repository where you can find further details about it.",
+      "summary": "This document outlines the project roadmap, detailing active and planned development issues and providing links to the repository for further information.",
+      "tags": [
+        "project-roadmap",
+        "development-status",
+        "issue-tracking",
+        "project-planning"
+      ],
+      "category": "reference"
+    }
+  ]
+}

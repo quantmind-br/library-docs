@@ -5,12 +5,12 @@
   "total_documents": 88,
   "documents": [
     {
-      "file_path": "api-reference-api-code.md",
+      "file_path": "012-api-reference-api-code.md",
       "title": "Errors",
       "url": "https://docs.z.ai/api-reference/api-code.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:04.646860206-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive reference of HTTP status codes and internal business error codes for the Z.AI API, including detailed reasons and recommended solutions for troubleshooting.",
       "tags": [
         "error-codes",
@@ -20,15 +20,16 @@
         "error-handling",
         "z-ai"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "api-reference-api-code.md"
     },
     {
-      "file_path": "api-reference-agents-agent-conversation.md",
+      "file_path": "027-api-reference-agents-agent-conversation.md",
       "title": "Conversation History",
       "url": "https://docs.z.ai/api-reference/agents/agent-conversation.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:04.654697398-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the API specification for the conversation history endpoint, specifically detailing how to query interaction logs for the slides_glm_agent.",
       "tags": [
         "api-specification",
@@ -37,15 +38,16 @@
         "openapi-schema",
         "z-ai-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-agents-agent-conversation.md"
     },
     {
-      "file_path": "api-reference-agents-file-upload.md",
+      "file_path": "028-api-reference-agents-file-upload.md",
       "title": "File Upload",
       "url": "https://docs.z.ai/api-reference/agents/file-upload.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:04.64361328-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document describes the Z.AI File Upload API, which allows users to upload auxiliary files like glossaries and terminology lists to support translation services.",
       "tags": [
         "file-upload",
@@ -55,15 +57,16 @@
         "file-management",
         "auxiliary-files"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-agents-file-upload.md"
     },
     {
-      "file_path": "api-reference-agents-get-async-result.md",
+      "file_path": "029-api-reference-agents-get-async-result.md",
       "title": "Retrieve Result",
       "url": "https://docs.z.ai/api-reference/agents/get-async-result.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:04.652173335-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document defines the API specification for the Retrieve Result endpoint, which allows users to query the status and outcome of asynchronous agent requests.",
       "tags": [
         "api-reference",
@@ -72,15 +75,16 @@
         "agent-results",
         "endpoint-specification"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-agents-get-async-result.md"
     },
     {
-      "file_path": "api-reference-agents-agent.md",
+      "file_path": "026-api-reference-agents-agent.md",
       "title": "Agent Chat",
       "url": "https://docs.z.ai/api-reference/agents/agent.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:04.650858118-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides technical specifications and an OpenAPI definition for accessing Z.AI chat agents, including services for translation, video generation, and slide creation. It details the request formats and response schemas for integrating these AI-driven capabilities via a unified API endpoint.",
       "tags": [
         "openapi-spec",
@@ -91,15 +95,16 @@
         "api-documentation",
         "rest-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-agents-agent.md"
     },
     {
-      "file_path": "api-reference-image-generate-image.md",
+      "file_path": "041-api-reference-image-generate-image.md",
       "title": "Generate Image",
       "url": "https://docs.z.ai/api-reference/image/generate-image.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:10.206013552-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the technical specification for the image generation API endpoint, detailing how to create high-quality images from text prompts using GLM-Image models.",
       "tags": [
         "image-generation",
@@ -109,10 +114,11 @@
         "openapi",
         "content-filter"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-image-generate-image.md"
     },
     {
-      "file_path": "guides-audio-glm-asr-2512.md",
+      "file_path": "096-guides-audio-glm-asr-2512.md",
       "title": "GLM-ASR-2512 - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/guides/audio/glm-asr-2512",
       "source": "llms",
@@ -126,15 +132,16 @@
         "curl",
         "api-integration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "guides-audio-glm-asr-2512.md"
     },
     {
-      "file_path": "api-reference-audio-audio-transcriptions.md",
+      "file_path": "036-api-reference-audio-audio-transcriptions.md",
       "title": "Audio Transcriptions",
       "url": "https://docs.z.ai/api-reference/audio/audio-transcriptions.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:09.616874647-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the API specification for transcribing audio files into text using the GLM-ASR-2512 model, supporting both synchronous and real-time streaming modes.",
       "tags": [
         "audio-transcription",
@@ -144,15 +151,16 @@
         "streaming-data",
         "openapi"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-audio-audio-transcriptions.md"
     },
     {
-      "file_path": "api-reference-image-generate-image-async.md",
+      "file_path": "042-api-reference-image-generate-image-async.md",
       "title": "Generate Image(Async)",
       "url": "https://docs.z.ai/api-reference/image/generate-image-async.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:12.005216421-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the API specification for asynchronously generating high-quality images from text prompts using the GLM-Image model.",
       "tags": [
         "image-generation",
@@ -161,10 +169,11 @@
         "text-to-image",
         "openapi-spec"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-image-generate-image-async.md"
     },
     {
-      "file_path": "guides-image-glm-image.md",
+      "file_path": "101-guides-image-glm-image.md",
       "title": "GLM-Image - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/guides/image/glm-image",
       "source": "llms",
@@ -178,15 +187,16 @@
         "java",
         "api-integration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "guides-image-glm-image.md"
     },
     {
-      "file_path": "api-reference-image-get-image-status.md",
+      "file_path": "043-api-reference-image-get-image-status.md",
       "title": "Retrieve Result",
       "url": "https://docs.z.ai/api-reference/image/get-image-status.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:16.358459992-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the API specification for an endpoint used to query the status and retrieve results of asynchronous tasks such as video and image generation.",
       "tags": [
         "z-ai-api",
@@ -196,15 +206,16 @@
         "rest-api",
         "task-status"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-image-get-image-status.md"
     },
     {
-      "file_path": "api-reference-llm-chat-completion.md",
+      "file_path": "021-api-reference-llm-chat-completion.md",
       "title": "Chat Completion",
       "url": "https://docs.z.ai/api-reference/llm/chat-completion.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:16.946822802-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the OpenAPI specification for the Z.AI Chat Completion API, detailing how to generate AI responses using multimodal inputs and configurable parameters. It explains support for text, vision, and tool-use capabilities in both streaming and non-streaming modes.",
       "tags": [
         "chat-completion",
@@ -215,15 +226,16 @@
         "function-calling",
         "api-endpoint"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-llm-chat-completion.md"
     },
     {
-      "file_path": "api-reference-introduction.md",
+      "file_path": "011-api-reference-introduction.md",
       "title": "Introduction",
       "url": "https://docs.z.ai/api-reference/introduction.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:16.504686348-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides an introduction to the Z.AI platform's RESTful API, detailing endpoint configurations, Bearer token authentication, and implementation examples using various native and third-party SDKs.",
       "tags": [
         "z-ai-api",
@@ -233,10 +245,11 @@
         "api-playground",
         "http-bearer"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-introduction.md"
     },
     {
-      "file_path": "api-reference-rate-limit.md",
+      "file_path": "013-api-reference-rate-limit.md",
       "title": "Rate Limits",
       "url": "https://docs.z.ai/api-reference/rate-limit.md",
       "source": "llms",
@@ -247,15 +260,16 @@
         "no-content",
         "null-data"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "api-reference-rate-limit.md"
     },
     {
-      "file_path": "api-reference-tools-tokenizer.md",
+      "file_path": "061-api-reference-tools-tokenizer.md",
       "title": "Tokenizer",
       "url": "https://docs.z.ai/api-reference/tools/tokenizer.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:21.374624087-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the technical specification for the Z.AI Tokenizer API, which allows developers to calculate token counts for text, images, and video to assist with cost estimation and context management.",
       "tags": [
         "tokenizer-api",
@@ -264,15 +278,16 @@
         "openapi-spec",
         "usage-tracking"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-tools-tokenizer.md"
     },
     {
-      "file_path": "api-reference-tools-web-reader.md",
+      "file_path": "063-api-reference-tools-web-reader.md",
       "title": "Web Reader",
       "url": "https://docs.z.ai/api-reference/tools/web-reader.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:21.638073204-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document defines the OpenAPI specification for the Web Reader API, which allows users to parse and extract content from a specific URL into formats like markdown or text.",
       "tags": [
         "web-reader",
@@ -282,15 +297,16 @@
         "web-scraping",
         "markdown-conversion"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-tools-web-reader.md"
     },
     {
-      "file_path": "api-reference-tools-web-search.md",
+      "file_path": "062-api-reference-tools-web-search.md",
       "title": "Web Search",
       "url": "https://docs.z.ai/api-reference/tools/web-search.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:21.586833748-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides the OpenAPI specification for a specialized Web Search API designed to return search results optimized for processing by large language models.",
       "tags": [
         "web-search",
@@ -300,10 +316,11 @@
         "api-endpoints",
         "search-integration"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-tools-web-search.md"
     },
     {
-      "file_path": "guides-tools-web-search.md",
+      "file_path": "136-guides-tools-web-search.md",
       "title": "Web Search - Overview - Z.AI DEVELOPER DOCUMENT",
       "url": "https://docs.z.ai/guides/tools/web-search",
       "source": "llms",
@@ -317,15 +334,16 @@
         "central-banking",
         "global-finance"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-tools-web-search.md"
     },
     {
-      "file_path": "api-reference-video-generate-video.md",
+      "file_path": "051-api-reference-video-generate-video.md",
       "title": "Generate Video(Async)",
       "url": "https://docs.z.ai/api-reference/video/generate-video.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:22.252507735-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document specifies the OpenAPI definition for an asynchronous video generation endpoint using CogVideoX and Vidu models. It describes parameters for generating videos from text prompts, images, or frame sequences, including settings for resolution and quality.",
       "tags": [
         "video-generation",
@@ -336,15 +354,16 @@
         "text-to-video",
         "image-to-video"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-video-generate-video.md"
     },
     {
-      "file_path": "api-reference-video-get-video-status.md",
+      "file_path": "052-api-reference-video-get-video-status.md",
       "title": "Retrieve Result",
       "url": "https://docs.z.ai/api-reference/video/get-video-status.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:26.220407716-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document defines the API endpoint used to retrieve the status and results of asynchronous tasks such as image and video generation. It details the request parameters, authentication requirements, and response schemas for tracking processing progress.",
       "tags": [
         "api-reference",
@@ -355,15 +374,16 @@
         "openapi",
         "rest-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "api-reference-video-get-video-status.md"
     },
     {
-      "file_path": "devpack-credit-campaign-rules.md",
+      "file_path": "174-devpack-credit-campaign-rules.md",
       "title": "Invite Friends, Get Credits",
       "url": "https://docs.z.ai/devpack/credit-campaign-rules.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:26.335009823-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document outlines the rules and incentive structures for the Z.ai referral program, detailing how users can earn platform credits and discounts by inviting friends.",
       "tags": [
         "referral-program",
@@ -373,15 +393,16 @@
         "campaign-rules",
         "z-ai-platform"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-credit-campaign-rules.md"
     },
     {
-      "file_path": "devpack-extension-usage-query-plugin.md",
+      "file_path": "182-devpack-extension-usage-query-plugin.md",
       "title": "Usage Query Plugin",
       "url": "https://docs.z.ai/devpack/extension/usage-query-plugin.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:28.190536177-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides instructions for installing and using the glm-plan-usage plugin within Claude Code to monitor GLM Coding Plan quota and usage statistics.",
       "tags": [
         "claude-code",
@@ -390,15 +411,16 @@
         "plugin-installation",
         "quota-management"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-extension-usage-query-plugin.md"
     },
     {
-      "file_path": "devpack-extension-coding-tool-helper.md",
+      "file_path": "181-devpack-extension-coding-tool-helper.md",
       "title": "Coding Tool Helper",
       "url": "https://docs.z.ai/devpack/extension/coding-tool-helper.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:27.440213691-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides instructions for installing and using the Coding Tool Helper CLI to manage, configure, and integrate AI coding tools like Claude Code with GLM coding plans.",
       "tags": [
         "cli-assistant",
@@ -409,15 +431,16 @@
         "configuration-guide",
         "troubleshooting"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-extension-coding-tool-helper.md"
     },
     {
-      "file_path": "devpack-faq.md",
+      "file_path": "173-devpack-faq.md",
       "title": "FAQs",
       "url": "https://docs.z.ai/devpack/faq.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:28.297183698-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides answers to frequently asked questions regarding the GLM Coding Plan, covering subscription tiers, usage quotas, supported AI models, and billing management.",
       "tags": [
         "glm-coding-plan",
@@ -426,15 +449,16 @@
         "ai-coding-tools",
         "billing-faq"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "devpack-faq.md"
     },
     {
-      "file_path": "devpack-mcp-search-mcp-server.md",
+      "file_path": "187-devpack-mcp-search-mcp-server.md",
       "title": "Web Search MCP Server",
       "url": "https://docs.z.ai/devpack/mcp/search-mcp-server.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:32.250393641-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides instructions for installing and configuring the Z.AI Web Search MCP Server to enable real-time search capabilities in MCP-compatible coding agents like Claude Code and Cline.",
       "tags": [
         "mcp-server",
@@ -445,15 +469,16 @@
         "cline",
         "api-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-mcp-search-mcp-server.md"
     },
     {
-      "file_path": "devpack-mcp-reader-mcp-server.md",
+      "file_path": "186-devpack-mcp-reader-mcp-server.md",
       "title": "Web Reader MCP Server",
       "url": "https://docs.z.ai/devpack/mcp/reader-mcp-server.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:31.431031679-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces the Web Reader MCP Server, a tool that enables MCP-compatible clients to extract full-page content and structured data from the web. It provides comprehensive installation instructions, client configurations, and troubleshooting steps for seamless integration.",
       "tags": [
         "mcp-server",
@@ -463,15 +488,16 @@
         "claude-code",
         "structured-data"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-mcp-reader-mcp-server.md"
     },
     {
-      "file_path": "devpack-mcp-zread-mcp-server.md",
+      "file_path": "189-devpack-mcp-zread-mcp-server.md",
       "title": "Zread MCP Server",
       "url": "https://docs.z.ai/devpack/mcp/zread-mcp-server.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:32.807215779-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive overview of the Zread MCP Server, explaining its features, available tools, and detailed installation steps for various AI clients to access GitHub repository data.",
       "tags": [
         "mcp-server",
@@ -481,15 +507,16 @@
         "model-context-protocol",
         "documentation-search"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-mcp-zread-mcp-server.md"
     },
     {
-      "file_path": "devpack-mcp-vision-mcp-server.md",
+      "file_path": "188-devpack-mcp-vision-mcp-server.md",
       "title": "Vision MCP Server",
       "url": "https://docs.z.ai/devpack/mcp/vision-mcp-server.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:32.601846764-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive guide for installing and configuring the Vision MCP Server to enable Z.AI GLM-4.6V vision capabilities in MCP-compatible clients. It covers setup instructions for various coding agents, environment variable configuration, and the specific visual analysis tools available.",
       "tags": [
         "vision-mcp-server",
@@ -500,15 +527,16 @@
         "ai-integration",
         "node-js"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-mcp-vision-mcp-server.md"
     },
     {
-      "file_path": "devpack-overview.md",
+      "file_path": "171-devpack-overview.md",
       "title": "Overview",
       "url": "https://docs.z.ai/devpack/overview.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:33.945484943-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides an overview of the GLM Coding Plan, detailing how developers can integrate GLM-4.7 into various AI-powered coding tools. It covers subscription tiers, usage limits, core features like vision and web search, and instructions for managing billing and model configuration.",
       "tags": [
         "glm-coding-plan",
@@ -519,15 +547,16 @@
         "ide-integration",
         "usage-limits"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-overview.md"
     },
     {
-      "file_path": "devpack-quick-start.md",
+      "file_path": "172-devpack-quick-start.md",
       "title": "Quick Start",
       "url": "https://docs.z.ai/devpack/quick-start.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:37.156941096-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This quick start guide explains how to set up the GLM Coding Plan, including account registration, API key generation, and model configuration for various coding tools.",
       "tags": [
         "glm-coding-plan",
@@ -537,15 +566,16 @@
         "glm-4-7",
         "zai-platform"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-quick-start.md"
     },
     {
-      "file_path": "devpack-tool-claude.md",
+      "file_path": "196-devpack-tool-claude.md",
       "title": "Claude Code",
       "url": "https://docs.z.ai/devpack/tool/claude.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:37.577170344-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides instructions for installing Claude Code and configuring it to operate with the GLM Coding Plan using the Z.AI platform. It covers environment variable setup, model mapping adjustments, and CLI initialization for agentic coding.",
       "tags": [
         "claude-code",
@@ -555,15 +585,16 @@
         "agentic-coding",
         "api-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-claude.md"
     },
     {
-      "file_path": "devpack-tool-cursor.md",
+      "file_path": "199-devpack-tool-cursor.md",
       "title": "Cursor",
       "url": "https://docs.z.ai/devpack/tool/cursor.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:42.187098684-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides step-by-step instructions for integrating GLM-4.7 models into the Cursor IDE using the OpenAI API protocol and a dedicated coding API endpoint.",
       "tags": [
         "cursor-ide",
@@ -573,15 +604,16 @@
         "code-generation",
         "ai-coding-assistant"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-tool-cursor.md"
     },
     {
-      "file_path": "devpack-tool-claude-for-ide.md",
+      "file_path": "197-devpack-tool-claude-for-ide.md",
       "title": "Claude Code IDE Plugin",
       "url": "https://docs.z.ai/devpack/tool/claude-for-ide.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:38.037814506-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides step-by-step instructions for installing and configuring the Claude Code IDE plugin for VS Code and JetBrains, including integration with the GLM Coding Plan.",
       "tags": [
         "claude-code",
@@ -591,15 +623,16 @@
         "glm-coding-plan",
         "installation-guide"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-tool-claude-for-ide.md"
     },
     {
-      "file_path": "devpack-tool-droid.md",
+      "file_path": "201-devpack-tool-droid.md",
       "title": "Factory Droid",
       "url": "https://docs.z.ai/devpack/tool/droid.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:43.099024047-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive guide for installing Factory Droid and configuring it to use Z.AI's GLM models via custom API settings. It details installation steps, model configuration, and key features such as specification mode and IDE integration.",
       "tags": [
         "factory-droid",
@@ -610,15 +643,16 @@
         "byok",
         "api-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-droid.md"
     },
     {
-      "file_path": "devpack-tool-cline.md",
+      "file_path": "198-devpack-tool-cline.md",
       "title": "Cline",
       "url": "https://docs.z.ai/devpack/tool/cline.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:38.97736035-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a step-by-step guide for integrating the GLM Coding Plan with the Cline VS Code extension to facilitate AI-assisted code generation and file management. It details the specific configuration requirements, including API endpoints and model settings, needed to optimize the plugin for coding tasks.",
       "tags": [
         "cline",
@@ -629,15 +663,16 @@
         "code-generation",
         "api-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-tool-cline.md"
     },
     {
-      "file_path": "devpack-tool-eigent.md",
+      "file_path": "202-devpack-tool-eigent.md",
       "title": "Eigent",
       "url": "https://docs.z.ai/devpack/tool/eigent.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:47.266535395-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides instructions for installing the Eigent desktop agent and configuring it to use Z.ai's GLM coding models via the dedicated Coding API.",
       "tags": [
         "eigent",
@@ -647,15 +682,16 @@
         "desktop-agent",
         "ai-coding-assistant"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-eigent.md"
     },
     {
-      "file_path": "devpack-tool-crush.md",
+      "file_path": "200-devpack-tool-crush.md",
       "title": "Crush",
       "url": "https://docs.z.ai/devpack/tool/crush.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:40.916238741-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a step-by-step guide for installing the Crush AI coding agent and configuring it to use the GLM Coding Plan via the Z.AI API.",
       "tags": [
         "crush-ai",
@@ -665,15 +701,16 @@
         "cli-tools",
         "configuration-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-crush.md"
     },
     {
-      "file_path": "devpack-tool-goose.md",
+      "file_path": "203-devpack-tool-goose.md",
       "title": "Goose",
       "url": "https://docs.z.ai/devpack/tool/goose.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:49.111444876-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides step-by-step instructions for integrating the Goose AI agent with GLM models using the Z.ai API through an Anthropic-compatible provider configuration.",
       "tags": [
         "goose-desktop",
@@ -683,15 +720,16 @@
         "mcp-protocol",
         "configuration-guide"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-tool-goose.md"
     },
     {
-      "file_path": "devpack-tool-kilo.md",
+      "file_path": "204-devpack-tool-kilo.md",
       "title": "Kilo Code",
       "url": "https://docs.z.ai/devpack/tool/kilo.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:50.426960074-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a step-by-step guide for installing and configuring the Kilo Code VS Code extension to use the GLM Coding Plan and MCP servers.",
       "tags": [
         "vs-code-extension",
@@ -700,15 +738,16 @@
         "api-configuration",
         "mcp-integration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "devpack-tool-kilo.md"
     },
     {
-      "file_path": "devpack-tool-opencode.md",
+      "file_path": "205-devpack-tool-opencode.md",
       "title": "Open Code",
       "url": "https://docs.z.ai/devpack/tool/opencode.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:51.503848079-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides instructions for integrating Z.AI GLM models with the OpenCode CLI, covering installation, authentication, and usage within IDEs and GitHub workflows.",
       "tags": [
         "opencode-cli",
@@ -718,15 +757,16 @@
         "vscode-extension",
         "cli-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-opencode.md"
     },
     {
-      "file_path": "devpack-tool-roo.md",
+      "file_path": "206-devpack-tool-roo.md",
       "title": "Roo Code",
       "url": "https://docs.z.ai/devpack/tool/roo.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:54.481729493-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides instructions for installing and configuring the Roo Code VS Code plugin to work with the GLM Coding Plan for AI-assisted development.",
       "tags": [
         "roo-code",
@@ -735,15 +775,16 @@
         "api-setup",
         "ai-coding"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-roo.md"
     },
     {
-      "file_path": "devpack-tool-others.md",
+      "file_path": "208-devpack-tool-others.md",
       "title": "Other Tools",
       "url": "https://docs.z.ai/devpack/tool/others.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:51.915393563-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide explains how to integrate GLM-4.7 models into third-party developer tools by configuring the OpenAI-compatible API endpoint and API keys. It provides specific setup instructions for applications like Cursor and other platforms that support custom base URLs.",
       "tags": [
         "glm-4-7",
@@ -753,15 +794,16 @@
         "z-ai-coding",
         "developer-tools"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-others.md"
     },
     {
-      "file_path": "devpack-tool-trae.md",
+      "file_path": "207-devpack-tool-trae.md",
       "title": "TRAE",
       "url": "https://docs.z.ai/devpack/tool/trae.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:54.721122492-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a step-by-step guide for integrating GLM-4.7 and the GLM Coding Plan into the TRAE IDE. It explains how to install the software, configure the Z.AI API provider, and troubleshoot common connection issues.",
       "tags": [
         "trae-ide",
@@ -771,15 +813,16 @@
         "coding-assistant",
         "ide-setup"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "devpack-tool-trae.md"
     },
     {
-      "file_path": "guides-agents-slide.md",
+      "file_path": "146-guides-agents-slide.md",
       "title": "GLM Slide/Poster Agent(beta)",
       "url": "https://docs.z.ai/guides/agents/slide.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:56.2809235-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces the GLM Slide/Poster Agent, an AI-powered tool that converts natural language instructions into professional slides and posters through integrated information retrieval and visual layout design.",
       "tags": [
         "glm-agent",
@@ -789,15 +832,16 @@
         "ai-tools",
         "visual-design"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-agents-slide.md"
     },
     {
-      "file_path": "guides-agents-translation.md",
+      "file_path": "147-guides-agents-translation.md",
       "title": "Translation Agent",
       "url": "https://docs.z.ai/guides/agents/translation.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:56.782417444-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces an AI-powered translation agent that utilizes six specialized strategies and terminology customization to provide accurate multilingual localization across 40+ languages. It explains the core features, professional translation modes, and target applications for individual and enterprise users.",
       "tags": [
         "translation-agent",
@@ -807,15 +851,16 @@
         "terminology-management",
         "translation-accuracy"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-agents-translation.md"
     },
     {
-      "file_path": "guides-agents-video-template.md",
+      "file_path": "148-guides-agents-video-template.md",
       "title": "Video Effect Template Agent",
       "url": "https://docs.z.ai/guides/agents/video-template.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:59.042069248-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides an overview and instructional guide for using AI-powered video templates to generate professional special effects videos from single image uploads. It outlines core features, specific template requirements, and usage scenarios for creators and agencies.",
       "tags": [
         "video-generation",
@@ -826,15 +871,16 @@
         "content-creation",
         "ai-video"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-agents-video-template.md"
     },
     {
-      "file_path": "guides-capabilities-cache.md",
+      "file_path": "126-guides-capabilities-cache.md",
       "title": "Context Caching",
       "url": "https://docs.z.ai/guides/capabilities/cache.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:59.166883184-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains the context caching mechanism which automatically identifies and reuses repeated context to reduce token costs and improve response latency in LLM applications.",
       "tags": [
         "context-caching",
@@ -844,15 +890,16 @@
         "zai-api",
         "llm-performance"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-capabilities-cache.md"
     },
     {
-      "file_path": "guides-capabilities-function-calling.md",
+      "file_path": "122-guides-capabilities-function-calling.md",
       "title": "Function Calling",
       "url": "https://docs.z.ai/guides/capabilities/function-calling.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:22:59.939302864-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains how to implement function calling with AI models to enable interaction with external systems and real-time data retrieval. It covers parameter definitions, response structures, and practical implementation using the Python SDK.",
       "tags": [
         "function-calling",
@@ -862,15 +909,16 @@
         "llm-tools",
         "external-functions"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-capabilities-function-calling.md"
     },
     {
-      "file_path": "guides-capabilities-stream-tool.md",
+      "file_path": "127-guides-capabilities-stream-tool.md",
       "title": "Tool Streaming Output",
       "url": "https://docs.z.ai/guides/capabilities/stream-tool.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:02.422451554-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains how to configure and handle streaming outputs for tool calls and model reasoning using the Z.ai SDK to reduce latency and provide real-time feedback.",
       "tags": [
         "tool-calling",
@@ -880,15 +928,16 @@
         "api-integration",
         "real-time-feedback"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "guides-capabilities-stream-tool.md"
     },
     {
-      "file_path": "guides-capabilities-struct-output.md",
+      "file_path": "123-guides-capabilities-struct-output.md",
       "title": "Structured Output",
       "url": "https://docs.z.ai/guides/capabilities/struct-output.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:04.101677928-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains how to configure and implement structured output in JSON mode to ensure AI model responses conform to specific data formats and schemas for reliable programmatic processing.",
       "tags": [
         "structured-output",
@@ -898,15 +947,16 @@
         "python-sdk",
         "data-extraction"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-capabilities-struct-output.md"
     },
     {
-      "file_path": "guides-capabilities-streaming.md",
+      "file_path": "121-guides-capabilities-streaming.md",
       "title": "Streaming Messages",
       "url": "https://docs.z.ai/guides/capabilities/streaming.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:03.245814612-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains how to implement streaming messages to enable real-time response generation using Server-Sent Events (SSE). It details the core parameters, response formats, and provides implementation examples using cURL and the Python SDK.",
       "tags": [
         "streaming-messages",
@@ -916,15 +966,16 @@
         "python-sdk",
         "llm-streaming"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-capabilities-streaming.md"
     },
     {
-      "file_path": "guides-capabilities-thinking.md",
+      "file_path": "124-guides-capabilities-thinking.md",
       "title": "Deep Thinking",
       "url": "https://docs.z.ai/guides/capabilities/thinking.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:04.339014626-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains how to implement and configure the Deep Thinking feature to enable advanced chain-of-thought reasoning and multi-step logic in GLM models.",
       "tags": [
         "deep-thinking",
@@ -935,15 +986,16 @@
         "python-sdk",
         "llm-inference"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-capabilities-thinking.md"
     },
     {
-      "file_path": "guides-capabilities-thinking-mode.md",
+      "file_path": "125-guides-capabilities-thinking-mode.md",
       "title": "Thinking Mode",
       "url": "https://docs.z.ai/guides/capabilities/thinking-mode.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:05.536190016-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains the various thinking modes in GLM-4.7, including interleaved and preserved reasoning, and details how to configure them via the API for enhanced tool-calling and conversation continuity.",
       "tags": [
         "glm-4-7",
@@ -953,15 +1005,16 @@
         "tool-calling",
         "preserved-thinking"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-capabilities-thinking-mode.md"
     },
     {
-      "file_path": "guides-develop-http-introduction.md",
+      "file_path": "156-guides-develop-http-introduction.md",
       "title": "HTTP API Calls",
       "url": "https://docs.z.ai/guides/develop/http/introduction.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:08.641035758-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a technical overview and implementation guide for interacting with Z.AI's RESTful HTTP API, including authentication strategies and multi-language code examples.",
       "tags": [
         "http-api",
@@ -972,15 +1025,16 @@
         "streaming",
         "integration"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "guides-develop-http-introduction.md"
     },
     {
-      "file_path": "guides-develop-java-introduction.md",
+      "file_path": "158-guides-develop-java-introduction.md",
       "title": "Official Java SDK",
       "url": "https://docs.z.ai/guides/develop/java/introduction.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:08.385521709-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive guide for the official Z.AI Java SDK, detailing installation, environment requirements, and basic implementation for chat-based AI services.",
       "tags": [
         "java-sdk",
@@ -991,15 +1045,16 @@
         "chat-completion",
         "streaming-api"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-develop-java-introduction.md"
     },
     {
-      "file_path": "guides-develop-langchain-introduction.md",
+      "file_path": "160-guides-develop-langchain-introduction.md",
       "title": "LangChain Integration",
       "url": "https://docs.z.ai/guides/develop/langchain/introduction.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:08.755608674-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive guide for integrating Z.AI language models with the LangChain framework, detailing installation, configuration, and advanced implementation patterns.",
       "tags": [
         "langchain",
@@ -1010,15 +1065,16 @@
         "ai-agents",
         "streaming-output"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-develop-langchain-introduction.md"
     },
     {
-      "file_path": "guides-develop-openai-python.md",
+      "file_path": "159-guides-develop-openai-python.md",
       "title": "OpenAI Python SDK",
       "url": "https://docs.z.ai/guides/develop/openai/python.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:10.465752103-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document explains how to integrate the OpenAI Python SDK with Z.AI's model services by modifying the API key and base URL. It covers installation, environment setup, and implementation examples for chat completions, streaming, and advanced features like function calling.",
       "tags": [
         "openai-sdk",
@@ -1029,15 +1085,16 @@
         "chat-completions",
         "function-calling"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-develop-openai-python.md"
     },
     {
-      "file_path": "guides-develop-python-introduction.md",
+      "file_path": "157-guides-develop-python-introduction.md",
       "title": "Official Python SDK",
       "url": "https://docs.z.ai/guides/develop/python/introduction.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:10.99911173-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document serves as the official introduction and quick-start guide for the Z.AI Python SDK, covering installation, environment setup, and implementation of core AI features like chat completions and streaming.",
       "tags": [
         "python-sdk",
@@ -1047,15 +1104,16 @@
         "developer-tools",
         "api-client"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-develop-python-introduction.md"
     },
     {
-      "file_path": "guides-image-cogview-4.md",
+      "file_path": "102-guides-image-cogview-4.md",
       "title": "CogView-4",
       "url": "https://docs.z.ai/guides/image/cogview-4.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:14.162695454-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces CogView-4, an open-source bilingual text-to-image model by Z.AI that supports variable resolutions and prompt lengths.",
       "tags": [
         "cogview-4",
@@ -1066,15 +1124,16 @@
         "open-source",
         "computer-vision"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "guides-image-cogview-4.md"
     },
     {
-      "file_path": "guides-llm-glm-4.5.md",
+      "file_path": "073-guides-llm-glm-4.5.md",
       "title": "GLM-4.5",
       "url": "https://docs.z.ai/guides/llm/glm-4.5.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:14.15096251-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive overview of the GLM-4.5 model series, detailing their architecture, reasoning capabilities, and specialized features for agent-oriented applications.",
       "tags": [
         "glm-4-5",
@@ -1084,15 +1143,16 @@
         "reasoning-models",
         "model-specifications"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-llm-glm-4.5.md"
     },
     {
-      "file_path": "guides-llm-glm-4-32b-0414-128k.md",
+      "file_path": "074-guides-llm-glm-4-32b-0414-128k.md",
       "title": "GLM-4-32B-0414-128K",
       "url": "https://docs.z.ai/guides/llm/glm-4-32b-0414-128k.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:13.927092145-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides an overview of the GLM-4-32B-0414-128K language model, detailing its technical specifications, capabilities, and quick-start implementation guides.",
       "tags": [
         "glm-4",
@@ -1103,15 +1163,16 @@
         "text-generation",
         "ai-model-specs"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-llm-glm-4-32b-0414-128k.md"
     },
     {
-      "file_path": "guides-llm-glm-4.7.md",
+      "file_path": "071-guides-llm-glm-4.7.md",
       "title": "GLM-4.7",
       "url": "https://docs.z.ai/guides/llm/glm-4.7.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:16.671877909-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive overview of the GLM-4.7 model series, detailing technical specifications, core capabilities like function calling and context caching, and diverse practical applications.",
       "tags": [
         "glm-4-7",
@@ -1121,15 +1182,16 @@
         "agent-tasks",
         "model-overview"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-llm-glm-4.7.md"
     },
     {
-      "file_path": "guides-llm-glm-4.6.md",
+      "file_path": "072-guides-llm-glm-4.6.md",
       "title": "GLM-4.6",
       "url": "https://docs.z.ai/guides/llm/glm-4.6.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:14.686526089-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces the GLM-4.6 model, highlighting its enhancements in coding, reasoning, and long-context processing while providing quick-start instructions for API integration.",
       "tags": [
         "glm-4-6",
@@ -1140,15 +1202,16 @@
         "long-context",
         "ai-agents"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-llm-glm-4.6.md"
     },
     {
-      "file_path": "guides-overview-migrate-to-glm-new.md",
+      "file_path": "005-guides-overview-migrate-to-glm-new.md",
       "title": "Migrate to GLM-4.7",
       "url": "https://docs.z.ai/guides/overview/migrate-to-glm-new.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:19.394850166-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides comprehensive instructions and code examples for migrating applications from legacy models to GLM-4.7, highlighting changes in sampling parameters, streaming tool calls, and deep thinking capabilities.",
       "tags": [
         "glm-4-7",
@@ -1158,15 +1221,16 @@
         "deep-thinking",
         "llm-parameters"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-overview-migrate-to-glm-new.md"
     },
     {
-      "file_path": "guides-overview-concept-param.md",
+      "file_path": "003-guides-overview-concept-param.md",
       "title": "Core Parameters",
       "url": "https://docs.z.ai/guides/overview/concept-param.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:19.147485957-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a detailed overview of the core configuration parameters used to control large language model outputs, including sampling methods, token limits, and reasoning modes.",
       "tags": [
         "llm-parameters",
@@ -1176,15 +1240,16 @@
         "chain-of-thought",
         "api-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-overview-concept-param.md"
     },
     {
-      "file_path": "guides-overview-pricing.md",
+      "file_path": "004-guides-overview-pricing.md",
       "title": "Pricing",
       "url": "https://docs.z.ai/guides/overview/pricing.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:21.222009002-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document outlines the pricing structure for Z.AI's suite of AI models, including text, image, video, and audio generation services.",
       "tags": [
         "pricing",
@@ -1194,15 +1259,16 @@
         "model-fees",
         "billing"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-overview-pricing.md"
     },
     {
-      "file_path": "guides-overview-overview.md",
+      "file_path": "001-guides-overview-overview.md",
       "title": "Overview",
       "url": "https://docs.z.ai/guides/overview/overview.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:20.762718887-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive overview of the Z.AI model ecosystem, detailing the features and performance metrics of various text, vision, image, and video generation models. It serves as a central reference to help users identify the most suitable models and tools for their specific tasks.",
       "tags": [
         "z-ai-models",
@@ -1213,15 +1279,16 @@
         "model-capabilities",
         "model-matrix"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-overview-overview.md"
     },
     {
-      "file_path": "guides-overview-quick-start.md",
+      "file_path": "002-guides-overview-quick-start.md",
       "title": "Quick Start",
       "url": "https://docs.z.ai/guides/overview/quick-start.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:21.938886269-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides a step-by-step introduction to getting started with the Z.AI Open Platform, covering API key acquisition, model selection, and initial implementation using SDKs or HTTP requests.",
       "tags": [
         "quick-start",
@@ -1232,15 +1299,16 @@
         "glm-models",
         "api-key"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "guides-overview-quick-start.md"
     },
     {
-      "file_path": "guides-tools-stream-tool.md",
+      "file_path": "137-guides-tools-stream-tool.md",
       "title": "Stream Tool Call",
       "url": "https://docs.z.ai/guides/tools/stream-tool.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:24.683600114-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "Explains how to implement the Stream Tool Call feature in Z.ai's GLM-4.6 model to enable real-time access to reasoning processes, response content, and tool invocation parameters.",
       "tags": [
         "zai-platform",
@@ -1251,15 +1319,16 @@
         "python-sdk",
         "real-time-feedback"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-tools-stream-tool.md"
     },
     {
-      "file_path": "guides-video-cogvideox-3.md",
+      "file_path": "111-guides-video-cogvideox-3.md",
       "title": "CogVideoX-3",
       "url": "https://docs.z.ai/guides/video/cogvideox-3.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:24.77433865-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides an overview of CogVideoX-3, a video generation model that creates high-definition videos from text, images, or start-and-end frames with improved stability and physical simulation.",
       "tags": [
         "cogvideox-3",
@@ -1269,15 +1338,16 @@
         "ai-model",
         "creative-tools"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "guides-video-cogvideox-3.md"
     },
     {
-      "file_path": "guides-video-vidu2.md",
+      "file_path": "113-guides-video-vidu2.md",
       "title": "Vidu 2",
       "url": "https://docs.z.ai/guides/video/vidu2.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:27.790256161-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces Vidu 2, a high-speed video generation model specializing in image-to-video and keyframe-based creation with enhanced consistency and cost-efficiency.",
       "tags": [
         "vidu-2",
@@ -1288,15 +1358,16 @@
         "computer-vision",
         "e-commerce"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "guides-video-vidu2.md"
     },
     {
-      "file_path": "guides-video-vidu-q1.md",
+      "file_path": "112-guides-video-vidu-q1.md",
       "title": "Vidu Q1",
       "url": "https://docs.z.ai/guides/video/vidu-q1.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:25.777522282-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document introduces the Vidu Q1 video generation model, outlining its technical specifications, multi-modal generation capabilities, and practical applications in industries like film and advertising.",
       "tags": [
         "vidu-q1",
@@ -1307,15 +1378,16 @@
         "computer-vision",
         "api-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-video-vidu-q1.md"
     },
     {
-      "file_path": "guides-vlm-autoglm-phone-multilingual.md",
+      "file_path": "088-guides-vlm-autoglm-phone-multilingual.md",
       "title": "AutoGLM-Phone-Multilingual",
       "url": "https://docs.z.ai/guides/vlm/autoglm-phone-multilingual.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:28.170308513-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "AutoGLM-Phone-Multilingual is a vision-language framework that enables automated control of Android devices through natural language processing and multimodal screen understanding. This document provides an overview of the system's capabilities, supported applications, and technical requirements for environment setup and deployment.",
       "tags": [
         "autoglm",
@@ -1325,15 +1397,16 @@
         "adb-control",
         "mobile-assistant"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "guides-vlm-autoglm-phone-multilingual.md"
     },
     {
-      "file_path": "guides-vlm-glm-4.5v.md",
+      "file_path": "087-guides-vlm-glm-4.5v.md",
       "title": "GLM-4.5V",
       "url": "https://docs.z.ai/guides/vlm/glm-4.5v.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:30.919223025-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a technical overview of GLM-4.5V, a multimodal visual reasoning model, detailing its capabilities, pricing, and API integration steps.",
       "tags": [
         "glm-4-5v",
@@ -1343,15 +1416,16 @@
         "vlm",
         "api-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-vlm-glm-4.5v.md"
     },
     {
-      "file_path": "guides-vlm-glm-4.6v.md",
+      "file_path": "086-guides-vlm-glm-4.6v.md",
       "title": "GLM-4.6V",
       "url": "https://docs.z.ai/guides/vlm/glm-4.6v.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:31.27190965-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides an overview of the GLM-4.6V multimodal model series, detailing its 128k context window, native tool-calling capabilities, and performance in visual reasoning and long-context processing.",
       "tags": [
         "multimodal-llm",
@@ -1361,15 +1435,16 @@
         "long-context",
         "video-analysis"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "guides-vlm-glm-4.6v.md"
     },
     {
-      "file_path": "help-faq.md",
+      "file_path": "231-help-faq.md",
       "title": "FAQ",
       "url": "https://docs.z.ai/help/faq.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:32.276093546-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document addresses frequently asked questions regarding GLM-4.5, including details on its caching mechanism, billing delays, rate limits, and payment troubleshooting.",
       "tags": [
         "faq",
@@ -1379,15 +1454,16 @@
         "rate-limits",
         "payment-processing"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "help-faq.md"
     },
     {
-      "file_path": "legal-agreement-privacy-policy.md",
+      "file_path": "237-legal-agreement-privacy-policy.md",
       "title": "Privacy Policy",
       "url": "https://docs.z.ai/legal-agreement/privacy-policy.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:33.529713833-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document outlines how Z.ai collects, processes, and protects personal data from individual users interacting with its websites, applications, and services. It details the specific types of data collected directly from users, automatically through usage, and via third-party sources.",
       "tags": [
         "privacy-policy",
@@ -1398,15 +1474,16 @@
         "compliance",
         "information-security"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "legal-agreement-privacy-policy.md"
     },
     {
-      "file_path": "legal-agreement-subscription-terms.md",
+      "file_path": "238-legal-agreement-subscription-terms.md",
       "title": "Subscriptions, Fees, and Payment",
       "url": "https://docs.z.ai/legal-agreement/subscription-terms.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:34.036725619-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document outlines the terms and conditions regarding billing, subscriptions, and payment for Z.ai services, including specific usage restrictions for coding plans. It provides detailed information on automatic renewals, cancellation procedures, and user compliance requirements.",
       "tags": [
         "billing-terms",
@@ -1415,15 +1492,16 @@
         "payment-processing",
         "user-compliance"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "legal-agreement-subscription-terms.md"
     },
     {
-      "file_path": "legal-agreement-terms-of-use.md",
+      "file_path": "236-legal-agreement-terms-of-use.md",
       "title": "Terms of Use",
       "url": "https://docs.z.ai/legal-agreement/terms-of-use.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:36.5160927-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document outlines the legal terms, user responsibilities, and prohibited activities governing the access and use of Z.ai services and API platforms.",
       "tags": [
         "terms-of-use",
@@ -1433,15 +1511,16 @@
         "prohibited-activities",
         "data-security"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "legal-agreement-terms-of-use.md"
     },
     {
-      "file_path": "release-notes-new-released.md",
+      "file_path": "241-release-notes-new-released.md",
       "title": "New Released",
       "url": "https://docs.z.ai/release-notes/new-released.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:36.278774471-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a chronological log of updates and new releases for Z.AI's suite of models, covering advancements in large language models, vision, audio, and multimodal agents.",
       "tags": [
         "z-ai",
@@ -1451,15 +1530,16 @@
         "multimodal-ai",
         "changelog"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "release-notes-new-released.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-gemini.md",
+      "file_path": "218-scenario-example-develop-tools-gemini.md",
       "title": "Gemini CLI",
       "url": "https://docs.z.ai/scenario-example/develop-tools/gemini.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:41.74277015-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides step-by-step instructions for installing and configuring a customized version of the Gemini CLI to access Z.AI GLM models. It covers repository setup, environment variable configuration, and terminal-based installation for Node.js environments.",
       "tags": [
         "gemini-cli",
@@ -1470,15 +1550,16 @@
         "node-js",
         "cli-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "scenario-example-develop-tools-gemini.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-gork.md",
+      "file_path": "219-scenario-example-develop-tools-gork.md",
       "title": "Grok CLI",
       "url": "https://docs.z.ai/scenario-example/develop-tools/gork.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:41.929368673-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides step-by-step instructions for installing, configuring, and using the Grok CLI tool to interact with Z.AI's GLM models.",
       "tags": [
         "grok-cli",
@@ -1488,15 +1569,16 @@
         "cli-installation",
         "environment-setup"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "scenario-example-develop-tools-gork.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-kilo.md",
+      "file_path": "220-scenario-example-develop-tools-kilo.md",
       "title": "Kilo Code",
       "url": "https://docs.z.ai/scenario-example/develop-tools/kilo.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:44.789279515-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides step-by-step instructions for installing and configuring the Kilo Code VS Code plugin to integrate Z.AI's GLM models for AI-assisted development.",
       "tags": [
         "vs-code",
@@ -1507,15 +1589,16 @@
         "plugin-configuration",
         "ai-coding-assistant"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "scenario-example-develop-tools-kilo.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-claude.md",
+      "file_path": "216-scenario-example-develop-tools-claude.md",
       "title": "Claude Code",
       "url": "https://docs.z.ai/scenario-example/develop-tools/claude.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:39.430120137-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive guide for integrating Z.AI's GLM-4.7 series models into Claude Code using an Anthropic API-compatible endpoint.",
       "tags": [
         "claude-code",
@@ -1525,15 +1608,16 @@
         "environment-variables",
         "llm-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "scenario-example-develop-tools-claude.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-cline.md",
+      "file_path": "217-scenario-example-develop-tools-cline.md",
       "title": "Cline",
       "url": "https://docs.z.ai/scenario-example/develop-tools/cline.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:39.471600017-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides instructions for installing and configuring the Cline VS Code extension to use Z.AI's GLM models via an OpenAI-compatible API. It covers plugin setup, API parameter configuration, and integration with additional MCP servers for enhanced functionality.",
       "tags": [
         "cline",
@@ -1543,15 +1627,16 @@
         "coding-assistant",
         "z-ai"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "scenario-example-develop-tools-cline.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-n8n.md",
+      "file_path": "221-scenario-example-develop-tools-n8n.md",
       "title": "n8n Workflow",
       "url": "https://docs.z.ai/scenario-example/develop-tools/n8n.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:46.835510991-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides step-by-step instructions for integrating Z.AI GLM models into n8n workflows using the OpenAI node. It covers API key acquisition, credential setup, and workflow execution to automate AI-driven tasks.",
       "tags": [
         "n8n-integration",
@@ -1561,15 +1646,16 @@
         "api-configuration",
         "low-code"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "scenario-example-develop-tools-n8n.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-roo.md",
+      "file_path": "223-scenario-example-develop-tools-roo.md",
       "title": "Roo Code",
       "url": "https://docs.z.ai/scenario-example/develop-tools/roo.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:50.344272424-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This guide provides step-by-step instructions for installing and configuring the Roo Code VS Code plugin with the Z.AI GLM model for AI-powered coding assistance.",
       "tags": [
         "roo-code",
@@ -1580,15 +1666,16 @@
         "api-configuration",
         "coding-assistant"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "scenario-example-develop-tools-roo.md"
     },
     {
-      "file_path": "scenario-example-develop-tools-opencode.md",
+      "file_path": "222-scenario-example-develop-tools-opencode.md",
       "title": "OpenCode",
       "url": "https://docs.z.ai/scenario-example/develop-tools/opencode.md",
       "source": "llms",
       "fetched_at": "2026-01-24T11:23:47.918175174-03:00",
-      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://docs.z.ai/llms.txt \u003e Use this file to discover all available pages before exploring further.",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.z.ai/llms.txt > Use this file to discover all available pages before exploring further.",
       "summary": "This document provides a comprehensive guide for installing and configuring the OpenCode AI coding agent to work with Z.AI GLM models across CLI, IDE, and GitHub environments.",
       "tags": [
         "opencode",
@@ -1599,7 +1686,31 @@
         "github-workflow",
         "configuration-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "scenario-example-develop-tools-opencode.md"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-24T14:39:15.597384Z",
+    "total_files": 88,
+    "categories": [
+      "Overview & Introduction",
+      "API Reference",
+      "LLM Models",
+      "Vision Language Models",
+      "Audio",
+      "Image Generation",
+      "Video Generation",
+      "Capabilities & Features",
+      "Tools",
+      "Agents",
+      "SDK & Development",
+      "DevPack",
+      "Scenario Examples",
+      "Help & FAQ",
+      "Legal",
+      "Release Notes"
+    ]
+  }
 }

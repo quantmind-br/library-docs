@@ -2,9 +2,18 @@
 title: IDE
 url: https://opencode.ai/docs/ide
 source: sitemap
-fetched_at: 2026-01-24T22:47:44.453703652-03:00
+fetched_at: 2026-01-24T22:48:22.586709765-03:00
 rendered_js: false
 word_count: 251
+summary: This document provides instructions for installing and using the OpenCode integration within IDEs like VS Code and Cursor, including keyboard shortcuts and troubleshooting steps.
+tags:
+    - opencode
+    - ide-integration
+    - vscode-extension
+    - keyboard-shortcuts
+    - installation-guide
+    - troubleshooting
+category: guide
 ---
 
 OpenCode integrates with VS Code, Cursor, or any IDE that supports a terminal. Just run `opencode` in the terminal to get started.

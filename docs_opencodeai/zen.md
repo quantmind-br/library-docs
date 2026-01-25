@@ -2,9 +2,19 @@
 title: A curated set of reliable optimized models for coding agents
 url: https://opencode.ai/zen
 source: sitemap
-fetched_at: 2026-01-24T22:47:44.483069584-03:00
+fetched_at: 2026-01-24T22:48:22.97871923-03:00
 rendered_js: false
 word_count: 316
+summary: Zen is a platform providing a curated selection of AI models specifically benchmarked and optimized for coding agents, featuring pay-as-you-go pricing and privacy-focused hosting.
+tags:
+    - coding-agents
+    - ai-models
+    - benchmarking
+    - llm-hosting
+    - developer-tools
+    - opencode-zen
+    - pay-as-you-go
+category: concept
 ---
 
 ![zen logo light](data:image/svg+xml,%3csvg%20width='84'%20height='30'%20viewBox='0%200%2084%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M24%2024H6V18H18V12H24V24ZM6%2018H0V12H6V18Z'%20fill='%23CFCECD'/%3e%3cpath%20d='M6%2024H24V30H0V18H6V24ZM18%2018H6V12H18V18ZM24%2012H18V6H0V0H24V12Z'%20fill='%23211E1E'/%3e%3cpath%20d='M54%2018V24H36V18H54Z'%20fill='%23CFCECD'/%3e%3cpath%20d='M54%2018H36V24H54V30H30V0H54V18ZM36%2012H48V6H36V12Z'%20fill='%23211E1E'/%3e%3cpath%20d='M78%2030H66V12H78V30Z'%20fill='%23CFCECD'/%3e%3cpath%20d='M78%206H66V30H60V0H78V6ZM84%2030H78V6H84V30Z'%20fill='%23211E1E'/%3e%3c/svg%3e)![zen logo dark](data:image/svg+xml,%3csvg%20width='84'%20height='30'%20viewBox='0%200%2084%2030'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M24%2024H6V18H18V12H24V24ZM6%2018H0V12H6V18Z'%20fill='%234B4646'/%3e%3cpath%20d='M6%2024H24V30H0V18H6V24ZM18%2018H6V12H18V18ZM24%2012H18V6H0V0H24V12Z'%20fill='%23F1ECEC'/%3e%3cpath%20d='M54%2018V24H36V18H54Z'%20fill='%234B4646'/%3e%3cpath%20d='M54%2018H36V24H54V30H30V0H54V18ZM36%2012H48V6H36V12Z'%20fill='%23F1ECEC'/%3e%3cpath%20d='M78%2030H66V12H78V30Z'%20fill='%234B4646'/%3e%3cpath%20d='M78%206H66V30H60V0H78V6ZM84%2030H78V6H84V30Z'%20fill='%23F1ECEC'/%3e%3c/svg%3e)

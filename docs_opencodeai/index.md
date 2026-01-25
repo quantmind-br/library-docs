@@ -2,9 +2,18 @@
 title: The open source AI coding agent
 url: https://opencode.ai/
 source: sitemap
-fetched_at: 2026-01-24T22:47:44.507475363-03:00
+fetched_at: 2026-01-24T22:48:23.303479619-03:00
 rendered_js: false
 word_count: 255
+summary: This document introduces OpenCode, an open-source AI coding agent that supports multiple LLM providers and editors to assist developers while maintaining data privacy.
+tags:
+    - ai-coding-assistant
+    - open-source
+    - llm-integration
+    - developer-tools
+    - privacy-focused
+    - ide-extension
+category: concept
 ---
 
 Free models included or connect any model from any provider, including Claude, GPT, Gemini and more.

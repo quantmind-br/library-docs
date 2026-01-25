@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-01-24T22:47:49.87183529-03:00",
+  "source_url": "https://opencode.ai/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 15,
+  "documents": [
+    {
+      "file_path": "brand.md",
+      "title": "OpenCode | Brand",
+      "url": "https://opencode.ai/brand",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:44.517837917-03:00",
+      "description": "OpenCode - The open source coding agent.",
+      "summary": "This document provides resources and design assets to assist users in correctly applying the OpenCode visual brand identity.",
+      "tags": [
+        "brand-guidelines",
+        "opencode",
+        "visual-identity",
+        "brand-assets",
+        "marketing-resources"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "enterprise.md",
+      "title": "Enterprise solutions for your organisation",
+      "url": "https://opencode.ai/enterprise",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:44.55065767-03:00",
+      "description": "OpenCode - The open source coding agent."
+    },
+    {
+      "file_path": "docs-ide.md",
+      "title": "IDE",
+      "url": "https://opencode.ai/docs/ide",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:44.453703652-03:00",
+      "description": "The OpenCode extension for VS Code, Cursor, and other IDEs"
+    },
+    {
+      "file_path": "zen.md",
+      "title": "A curated set of reliable optimized models for coding agents",
+      "url": "https://opencode.ai/zen",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:44.483069584-03:00",
+      "description": "OpenCode - The open source coding agent."
+    },
+    {
+      "file_path": "index.md",
+      "title": "The open source AI coding agent",
+      "url": "https://opencode.ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:44.507475363-03:00",
+      "description": "OpenCode - The open source coding agent."
+    },
+    {
+      "file_path": "docs-enterprise.md",
+      "title": "Enterprise",
+      "url": "https://opencode.ai/docs/enterprise",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.101458925-03:00",
+      "description": "Using OpenCode securely in your organization."
+    },
+    {
+      "file_path": "docs-1-0.md",
+      "title": "Migrating to 1.0",
+      "url": "https://opencode.ai/docs/1-0",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.162988568-03:00",
+      "description": "What's new in OpenCode 1.0."
+    },
+    {
+      "file_path": "docs-sdk.md",
+      "title": "SDK",
+      "url": "https://opencode.ai/docs/sdk",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.17609025-03:00",
+      "description": "Type-safe JS client for opencode server."
+    },
+    {
+      "file_path": "docs-github.md",
+      "title": "GitHub",
+      "url": "https://opencode.ai/docs/github",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.278935535-03:00",
+      "description": "Use OpenCode in GitHub issues and pull-requests."
+    },
+    {
+      "file_path": "docs-tui.md",
+      "title": "TUI",
+      "url": "https://opencode.ai/docs/tui",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.338756031-03:00",
+      "description": "Using the OpenCode terminal user interface."
+    },
+    {
+      "file_path": "docs-modes.md",
+      "title": "Modes",
+      "url": "https://opencode.ai/docs/modes",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.356511586-03:00",
+      "description": "Different modes for different use cases."
+    },
+    {
+      "file_path": "docs-providers.md",
+      "title": "Providers",
+      "url": "https://opencode.ai/docs/providers",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.482155707-03:00",
+      "description": "Using any LLM provider in OpenCode."
+    },
+    {
+      "file_path": "docs-plugins.md",
+      "title": "Plugins",
+      "url": "https://opencode.ai/docs/plugins",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.512931689-03:00",
+      "description": "Write your own plugins to extend OpenCode."
+    },
+    {
+      "file_path": "docs-agents.md",
+      "title": "Agents",
+      "url": "https://opencode.ai/docs/agents",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.700094763-03:00",
+      "description": "Configure and use specialized agents."
+    },
+    {
+      "file_path": "docs-custom-tools.md",
+      "title": "Custom Tools",
+      "url": "https://opencode.ai/docs/custom-tools",
+      "source": "sitemap",
+      "fetched_at": "2026-01-24T22:47:49.871622457-03:00",
+      "description": "Create tools the LLM can call in opencode."
+    }
+  ]
+}

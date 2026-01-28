@@ -3,247 +3,24 @@
   "source_url": "https://moonshotai.github.io/kimi-cli/",
   "strategy": "github_pages",
   "total_documents": 26,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-01-28T14:59:22-03:00",
+    "total_files": 26,
+    "categories": [
+      "Getting Started",
+      "Core Guides",
+      "Configuration",
+      "Customization",
+      "Reference",
+      "FAQ & Support",
+      "Release Notes"
+    ]
+  },
   "documents": [
     {
-      "file_path": "kimi-cli-en-reference-kimi-command.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-command.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:09.940549064-03:00",
-      "summary": "This document provides a comprehensive reference for the kimi command, detailing its command-line options, configuration flags, and subcommands for the Kimi Code CLI.",
-      "tags": [
-        "kimi-cli",
-        "command-line-reference",
-        "cli-options",
-        "session-management",
-        "agent-configuration",
-        "terminal-tools"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-reference-kimi-mcp.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-mcp.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:10.065252765-03:00",
-      "summary": "This document provides a technical reference for the kimi mcp command-line interface, detailing the subcommands available for managing Model Context Protocol server configurations and authentication.",
-      "tags": [
-        "kimi-cli",
-        "mcp",
-        "model-context-protocol",
-        "cli-reference",
-        "server-management",
-        "oauth-flow",
-        "configuration"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-reference-kimi-info.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-info.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:09.947442039-03:00",
-      "summary": "This document provides a reference for the 'kimi info' subcommand, which displays version, protocol, and runtime information for the Kimi Code CLI.",
-      "tags": [
-        "kimi-cli",
-        "cli-reference",
-        "version-info",
-        "system-metadata",
-        "command-line"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-reference-kimi-term.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-term.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:09.939186059-03:00",
-      "summary": "This document provides a reference for the `kimi term` subcommand, which launches the Toad graphical terminal interface for the Kimi Code CLI. It explains how the interface connects to the ACP backend and details its configuration options and system requirements.",
-      "tags": [
-        "kimi-cli",
-        "terminal-ui",
-        "toad-interface",
-        "command-line-interface",
-        "acp-protocol",
-        "textual-ui"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-reference-kimi-acp.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-acp.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:10.925370822-03:00",
-      "summary": "This document describes the kimi acp subcommand, which initializes a multi-session Agent Client Protocol (ACP) server for IDE integrations and custom client development.",
-      "tags": [
-        "kimi-code-cli",
-        "acp-server",
-        "agent-client-protocol",
-        "ide-integration",
-        "cli-reference"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-customization-skills.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/customization/skills.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:14.853676352-03:00",
-      "summary": "This document explains how to extend Kimi Code CLI capabilities using Agent Skills, covering directory structures, skill discovery priorities, and the creation of automated flow-based workflows.",
-      "tags": [
-        "kimi-cli",
-        "agent-skills",
-        "customization",
-        "workflow-automation",
-        "configuration",
-        "skill-development"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-customization-agents.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/customization/agents.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:15.202850948-03:00",
-      "summary": "An instruction manual for a metadata extraction system requiring output in a specific JSON format.",
-      "tags": [
-        "metadata",
-        "JSON",
-        "extraction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-guides-use-cases.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/guides/use-cases.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:16.159174158-03:00",
-      "summary": "Metadata extraction instructions for analyzing documents and generating JSON output.",
-      "tags": [
-        "metadata",
-        "json",
-        "extraction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-release-notes-breaking-changes.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/release-notes/breaking-changes.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:15.259843979-03:00",
-      "summary": "Guidelines for a metadata extraction system to produce JSON-formatted summaries, tags, and categories for analyzed documents.",
-      "tags": [
-        "metadata",
-        "JSON",
-        "extraction",
-        "guidelines"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-release-notes-changelog.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/release-notes/changelog.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:15.415742268-03:00",
-      "summary": "A guide for extracting specific metadata fields into a structured JSON format including summary, tags, and category.",
-      "tags": [
-        "metadata",
-        "JSON",
-        "extraction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-configuration-overrides.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/overrides.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:27.659938611-03:00",
-      "summary": "This document outlines the hierarchy and methods for overriding Kimi Code CLI settings using environment variables, command-line flags, and configuration files.",
-      "tags": [
-        "configuration-priority",
-        "cli-flags",
-        "environment-variables",
-        "kimi-code-cli",
-        "config-management"
-      ],
-      "category": "configuration"
-    },
-    {
-      "file_path": "kimi-cli-en-configuration-config-files.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/config-files.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:19.872328514-03:00",
-      "summary": "A system instruction for extracting metadata from documents into a specific JSON structure including summary, tags, and category.",
-      "tags": [
-        "metadata",
-        "JSON",
-        "extraction"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-configuration-data-locations.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/data-locations.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:28.82094792-03:00",
-      "summary": "This document outlines the file structure and storage locations for Kimi Code CLI data, including configuration files, session history, and logs.",
-      "tags": [
-        "data-storage",
-        "file-structure",
-        "configuration-files",
-        "session-management",
-        "cli-logs",
-        "data-cleanup"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-faq.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/faq.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:29.691551853-03:00",
-      "summary": "This document provides troubleshooting solutions and answers to common issues encountered when installing, configuring, and using the Kimi Code CLI.",
-      "tags": [
-        "troubleshooting",
-        "kimi-cli",
-        "installation",
-        "authentication",
-        "mcp-protocol",
-        "cli-configuration"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-configuration-env-vars.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/env-vars.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:29.486445444-03:00",
-      "summary": "This document lists and explains the environment variables supported by Kimi Code CLI for overriding configuration files and controlling runtime behavior.",
-      "tags": [
-        "kimi-code-cli",
-        "environment-variables",
-        "configuration-overrides",
-        "api-settings",
-        "cli-configuration"
-      ],
-      "category": "configuration"
-    },
-    {
-      "file_path": "kimi-cli-en-guides-getting-started.md",
+      "file_path": "001-kimi-cli-en-guides-getting-started.md",
+      "original_file_path": "kimi-cli-en-guides-getting-started.md",
       "title": "",
       "url": "https://moonshotai.github.io/kimi-cli/en/guides/getting-started.md",
       "source": "github_pages",
@@ -260,23 +37,8 @@
       "category": "guide"
     },
     {
-      "file_path": "kimi-cli-en-guides-integrations.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/guides/integrations.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:33.299142572-03:00",
-      "summary": "This document explains how to integrate Kimi Code CLI with other tools, focusing specifically on the installation and usage of the Zsh plugin for quick terminal access.",
-      "tags": [
-        "kimi-cli",
-        "zsh",
-        "shell-integration",
-        "oh-my-zsh",
-        "plugin-installation"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-guides-interaction.md",
+      "file_path": "002-kimi-cli-en-guides-interaction.md",
+      "original_file_path": "kimi-cli-en-guides-interaction.md",
       "title": "",
       "url": "https://moonshotai.github.io/kimi-cli/en/guides/interaction.md",
       "source": "github_pages",
@@ -294,60 +56,8 @@
       "category": "guide"
     },
     {
-      "file_path": "kimi-cli-en-customization-mcp.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/customization/mcp.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:35.01311283-03:00",
-      "summary": "This guide explains how to integrate and manage Model Context Protocol (MCP) servers in Kimi Code CLI to extend AI capabilities with external tools and data sources.",
-      "tags": [
-        "mcp",
-        "model-context-protocol",
-        "kimi-code-cli",
-        "server-management",
-        "oauth",
-        "security",
-        "configuration"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-reference-keyboard.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/keyboard.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:34.608213761-03:00",
-      "summary": "This document provides a comprehensive reference of keyboard shortcuts and operational controls for the Kimi Code CLI shell mode, covering mode switching, input management, and command execution.",
-      "tags": [
-        "kimi-cli",
-        "keyboard-shortcuts",
-        "cli-reference",
-        "shell-mode",
-        "agent-mode",
-        "terminal-navigation"
-      ],
-      "category": "reference"
-    },
-    {
-      "file_path": "kimi-cli-en-customization-print-mode.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/customization/print-mode.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:37.104806338-03:00",
-      "summary": "This document explains how to use the non-interactive print mode in Kimi Code CLI for scripting, automation, and programmatic integration using text and JSON formats.",
-      "tags": [
-        "kimi-cli",
-        "automation",
-        "scripting",
-        "json-format",
-        "non-interactive",
-        "command-line",
-        "ci-cd"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "kimi-cli-en-guides-sessions.md",
+      "file_path": "003-kimi-cli-en-guides-sessions.md",
+      "original_file_path": "kimi-cli-en-guides-sessions.md",
       "title": "",
       "url": "https://moonshotai.github.io/kimi-cli/en/guides/sessions.md",
       "source": "github_pages",
@@ -363,41 +73,25 @@
       "category": "guide"
     },
     {
-      "file_path": "kimi-cli-en-configuration-providers.md",
+      "file_path": "004-kimi-cli-en-guides-integrations.md",
+      "original_file_path": "kimi-cli-en-guides-integrations.md",
       "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/providers.md",
+      "url": "https://moonshotai.github.io/kimi-cli/en/guides/integrations.md",
       "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:37.62067901-03:00",
-      "summary": "This document explains how to configure LLM platforms and model capabilities for Kimi Code CLI using the interactive setup command or manual configuration files.",
-      "tags": [
-        "kimi-code-cli",
-        "llm-providers",
-        "configuration",
-        "model-capabilities",
-        "api-setup",
-        "thinking-mode"
-      ],
-      "category": "configuration"
-    },
-    {
-      "file_path": "kimi-cli-en-reference-slash-commands.md",
-      "title": "",
-      "url": "https://moonshotai.github.io/kimi-cli/en/reference/slash-commands.md",
-      "source": "github_pages",
-      "fetched_at": "2026-01-28T07:56:39.681270427-03:00",
-      "summary": "This document provides a comprehensive reference for the built-in slash commands used to control sessions, configuration, and debugging within the Kimi Code CLI.",
+      "fetched_at": "2026-01-28T07:56:33.299142572-03:00",
+      "summary": "This document explains how to integrate Kimi Code CLI with other tools, focusing specifically on the installation and usage of the Zsh plugin for quick terminal access.",
       "tags": [
         "kimi-cli",
-        "slash-commands",
-        "cli-reference",
-        "session-management",
-        "agent-skills",
-        "configuration"
+        "zsh",
+        "shell-integration",
+        "oh-my-zsh",
+        "plugin-installation"
       ],
-      "category": "reference"
+      "category": "guide"
     },
     {
-      "file_path": "kimi-cli-en-guides-ides.md",
+      "file_path": "005-kimi-cli-en-guides-ides.md",
+      "original_file_path": "kimi-cli-en-guides-ides.md",
       "title": "",
       "url": "https://moonshotai.github.io/kimi-cli/en/guides/ides.md",
       "source": "github_pages",
@@ -415,7 +109,179 @@
       "category": "guide"
     },
     {
-      "file_path": "kimi-cli-en-customization-wire-mode.md",
+      "file_path": "006-kimi-cli-en-guides-use-cases.md",
+      "original_file_path": "kimi-cli-en-guides-use-cases.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/guides/use-cases.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:16.159174158-03:00",
+      "summary": "Metadata extraction instructions for analyzing documents and generating JSON output.",
+      "tags": [
+        "metadata",
+        "json",
+        "extraction"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-kimi-cli-en-configuration-config-files.md",
+      "original_file_path": "kimi-cli-en-configuration-config-files.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/config-files.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:19.872328514-03:00",
+      "summary": "A system instruction for extracting metadata from documents into a specific JSON structure including summary, tags, and category.",
+      "tags": [
+        "metadata",
+        "JSON",
+        "extraction"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "008-kimi-cli-en-configuration-env-vars.md",
+      "original_file_path": "kimi-cli-en-configuration-env-vars.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/env-vars.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:29.486445444-03:00",
+      "summary": "This document lists and explains the environment variables supported by Kimi Code CLI for overriding configuration files and controlling runtime behavior.",
+      "tags": [
+        "kimi-code-cli",
+        "environment-variables",
+        "configuration-overrides",
+        "api-settings",
+        "cli-configuration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "009-kimi-cli-en-configuration-overrides.md",
+      "original_file_path": "kimi-cli-en-configuration-overrides.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/overrides.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:27.659938611-03:00",
+      "summary": "This document outlines the hierarchy and methods for overriding Kimi Code CLI settings using environment variables, command-line flags, and configuration files.",
+      "tags": [
+        "configuration-priority",
+        "cli-flags",
+        "environment-variables",
+        "kimi-code-cli",
+        "config-management"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "010-kimi-cli-en-configuration-providers.md",
+      "original_file_path": "kimi-cli-en-configuration-providers.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/providers.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:37.62067901-03:00",
+      "summary": "This document explains how to configure LLM platforms and model capabilities for Kimi Code CLI using the interactive setup command or manual configuration files.",
+      "tags": [
+        "kimi-code-cli",
+        "llm-providers",
+        "configuration",
+        "model-capabilities",
+        "api-setup",
+        "thinking-mode"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "011-kimi-cli-en-configuration-data-locations.md",
+      "original_file_path": "kimi-cli-en-configuration-data-locations.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/configuration/data-locations.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:28.82094792-03:00",
+      "summary": "This document outlines the file structure and storage locations for Kimi Code CLI data, including configuration files, session history, and logs.",
+      "tags": [
+        "data-storage",
+        "file-structure",
+        "configuration-files",
+        "session-management",
+        "cli-logs",
+        "data-cleanup"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "012-kimi-cli-en-customization-agents.md",
+      "original_file_path": "kimi-cli-en-customization-agents.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/customization/agents.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:15.202850948-03:00",
+      "summary": "An instruction manual for a metadata extraction system requiring output in a specific JSON format.",
+      "tags": [
+        "metadata",
+        "JSON",
+        "extraction"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "013-kimi-cli-en-customization-skills.md",
+      "original_file_path": "kimi-cli-en-customization-skills.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/customization/skills.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:14.853676352-03:00",
+      "summary": "This document explains how to extend Kimi Code CLI capabilities using Agent Skills, covering directory structures, skill discovery priorities, and the creation of automated flow-based workflows.",
+      "tags": [
+        "kimi-cli",
+        "agent-skills",
+        "customization",
+        "workflow-automation",
+        "configuration",
+        "skill-development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "014-kimi-cli-en-customization-mcp.md",
+      "original_file_path": "kimi-cli-en-customization-mcp.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/customization/mcp.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:35.01311283-03:00",
+      "summary": "This guide explains how to integrate and manage Model Context Protocol (MCP) servers in Kimi Code CLI to extend AI capabilities with external tools and data sources.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "kimi-code-cli",
+        "server-management",
+        "oauth",
+        "security",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "015-kimi-cli-en-customization-print-mode.md",
+      "original_file_path": "kimi-cli-en-customization-print-mode.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/customization/print-mode.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:37.104806338-03:00",
+      "summary": "This document explains how to use the non-interactive print mode in Kimi Code CLI for scripting, automation, and programmatic integration using text and JSON formats.",
+      "tags": [
+        "kimi-cli",
+        "automation",
+        "scripting",
+        "json-format",
+        "non-interactive",
+        "command-line",
+        "ci-cd"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "016-kimi-cli-en-customization-wire-mode.md",
+      "original_file_path": "kimi-cli-en-customization-wire-mode.md",
       "title": "",
       "url": "https://moonshotai.github.io/kimi-cli/en/customization/wire-mode.md",
       "source": "github_pages",
@@ -430,6 +296,180 @@
         "cli-customization"
       ],
       "category": "reference"
+    },
+    {
+      "file_path": "017-kimi-cli-en-reference-keyboard.md",
+      "original_file_path": "kimi-cli-en-reference-keyboard.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/keyboard.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:34.608213761-03:00",
+      "summary": "This document provides a comprehensive reference of keyboard shortcuts and operational controls for the Kimi Code CLI shell mode, covering mode switching, input management, and command execution.",
+      "tags": [
+        "kimi-cli",
+        "keyboard-shortcuts",
+        "cli-reference",
+        "shell-mode",
+        "agent-mode",
+        "terminal-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "018-kimi-cli-en-reference-slash-commands.md",
+      "original_file_path": "kimi-cli-en-reference-slash-commands.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/slash-commands.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:39.681270427-03:00",
+      "summary": "This document provides a comprehensive reference for the built-in slash commands used to control sessions, configuration, and debugging within the Kimi Code CLI.",
+      "tags": [
+        "kimi-cli",
+        "slash-commands",
+        "cli-reference",
+        "session-management",
+        "agent-skills",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "019-kimi-cli-en-reference-kimi-command.md",
+      "original_file_path": "kimi-cli-en-reference-kimi-command.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-command.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:09.940549064-03:00",
+      "summary": "This document provides a comprehensive reference for the kimi command, detailing its command-line options, configuration flags, and subcommands for the Kimi Code CLI.",
+      "tags": [
+        "kimi-cli",
+        "command-line-reference",
+        "cli-options",
+        "session-management",
+        "agent-configuration",
+        "terminal-tools"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "020-kimi-cli-en-reference-kimi-info.md",
+      "original_file_path": "kimi-cli-en-reference-kimi-info.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-info.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:09.947442039-03:00",
+      "summary": "This document provides a reference for the 'kimi info' subcommand, which displays version, protocol, and runtime information for the Kimi Code CLI.",
+      "tags": [
+        "kimi-cli",
+        "cli-reference",
+        "version-info",
+        "system-metadata",
+        "command-line"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "021-kimi-cli-en-reference-kimi-term.md",
+      "original_file_path": "kimi-cli-en-reference-kimi-term.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-term.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:09.939186059-03:00",
+      "summary": "This document provides a reference for the `kimi term` subcommand, which launches the Toad graphical terminal interface for the Kimi Code CLI. It explains how the interface connects to the ACP backend and details its configuration options and system requirements.",
+      "tags": [
+        "kimi-cli",
+        "terminal-ui",
+        "toad-interface",
+        "command-line-interface",
+        "acp-protocol",
+        "textual-ui"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "022-kimi-cli-en-reference-kimi-mcp.md",
+      "original_file_path": "kimi-cli-en-reference-kimi-mcp.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-mcp.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:10.065252765-03:00",
+      "summary": "This document provides a technical reference for the kimi mcp command-line interface, detailing the subcommands available for managing Model Context Protocol server configurations and authentication.",
+      "tags": [
+        "kimi-cli",
+        "mcp",
+        "model-context-protocol",
+        "cli-reference",
+        "server-management",
+        "oauth-flow",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "023-kimi-cli-en-reference-kimi-acp.md",
+      "original_file_path": "kimi-cli-en-reference-kimi-acp.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/reference/kimi-acp.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:10.925370822-03:00",
+      "summary": "This document describes the kimi acp subcommand, which initializes a multi-session Agent Client Protocol (ACP) server for IDE integrations and custom client development.",
+      "tags": [
+        "kimi-code-cli",
+        "acp-server",
+        "agent-client-protocol",
+        "ide-integration",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "024-kimi-cli-en-faq.md",
+      "original_file_path": "kimi-cli-en-faq.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/faq.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:29.691551853-03:00",
+      "summary": "This document provides troubleshooting solutions and answers to common issues encountered when installing, configuring, and using the Kimi Code CLI.",
+      "tags": [
+        "troubleshooting",
+        "kimi-cli",
+        "installation",
+        "authentication",
+        "mcp-protocol",
+        "cli-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "025-kimi-cli-en-release-notes-breaking-changes.md",
+      "original_file_path": "kimi-cli-en-release-notes-breaking-changes.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/release-notes/breaking-changes.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:15.259843979-03:00",
+      "summary": "Guidelines for a metadata extraction system to produce JSON-formatted summaries, tags, and categories for analyzed documents.",
+      "tags": [
+        "metadata",
+        "JSON",
+        "extraction",
+        "guidelines"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "026-kimi-cli-en-release-notes-changelog.md",
+      "original_file_path": "kimi-cli-en-release-notes-changelog.md",
+      "title": "",
+      "url": "https://moonshotai.github.io/kimi-cli/en/release-notes/changelog.md",
+      "source": "github_pages",
+      "fetched_at": "2026-01-28T07:56:15.415742268-03:00",
+      "summary": "A guide for extracting specific metadata fields into a structured JSON format including summary, tags, and category.",
+      "tags": [
+        "metadata",
+        "JSON",
+        "extraction"
+      ],
+      "category": "guide"
     }
   ]
 }

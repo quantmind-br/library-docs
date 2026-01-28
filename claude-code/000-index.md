@@ -2,7 +2,7 @@
 description: Auto-generated documentation index
 generated: 2026-01-28T05:28:18.518Z
 source: https://code.claude.com/docs/llms.txt
-total_docs: 51
+total_docs: 52
 categories: 8
 ---
 
@@ -15,7 +15,7 @@ categories: 8
 |----------|-------|
 | **Source** | https://code.claude.com/docs/llms.txt |
 | **Generated** | 2026-01-28T05:28:18.518Z |
-| **Total Documents** | 51 |
+| **Total Documents** | 52 |
 | **Strategy** | Universal Category Detection |
 
 ---
@@ -104,7 +104,7 @@ categories: 8
 |---|------|-------|---------|----------|
 | 047 | `047-docs-en-plugins-reference.md` | Plugins reference | This document provides comprehensive technical specifications for the Claude Code plugin system, ... | claude-code, plugin-development, hooks, mcp-servers, lsp-protocol, technical-reference |
 
-### 8. API & Reference (048-051)
+### 8. API & Reference (048-052)
 
 | # | File | Title | Summary | Keywords |
 |---|------|-------|---------|----------|
@@ -112,6 +112,7 @@ categories: 8
 | 049 | `049-docs-en-cli-reference.md` | CLI reference | This document provides a comprehensive technical reference for the Claude Code command-line inter... | cli-reference, claude-code, command-line-interface, terminal-commands, cli-flags, configuration |
 | 050 | `050-docs-en-hooks.md` | Hooks reference | This document provides a detailed reference for implementing and configuring hooks in Claude Code... | claude-code, hooks, automation, configuration, plugins, tool-execution |
 | 051 | `051-docs-en-legal-and-compliance.md` | Legal and compliance | This document outlines the legal agreements, healthcare compliance certifications, and security r... | legal-agreements, compliance, healthcare-baa, security-policy, claude-code, vulnerability-reporting |
+| 052 | `052-claude-code-env-vars.md` | Environment Variables Reference | Comprehensive reference of all environment variables accepted by Claude Code, organized by category. | environment-variables, configuration, reference, claude-code |
 
 ---
 

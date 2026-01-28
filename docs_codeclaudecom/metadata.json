@@ -1,167 +1,255 @@
 {
-  "generated_at": "2026-01-28T02:20:48.211280756-03:00",
+  "generated_at": "2026-01-28T02:22:51.34459693-03:00",
   "source_url": "https://code.claude.com/docs/llms.txt",
   "strategy": "llms",
-  "total_documents": 20,
+  "total_documents": 31,
   "documents": [
     {
-      "file_path": "docs-en-checkpointing.md",
-      "title": "Checkpointing",
-      "url": "https://code.claude.com/docs/en/checkpointing.md",
+      "file_path": "docs-en-hooks-guide.md",
+      "title": "Get started with Claude Code hooks",
+      "url": "https://code.claude.com/docs/en/hooks-guide.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:41.443603901-03:00",
+      "fetched_at": "2026-01-28T02:22:35.607739856-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-analytics.md",
-      "title": "Analytics",
-      "url": "https://code.claude.com/docs/en/analytics.md",
+      "file_path": "docs-en-jetbrains.md",
+      "title": "JetBrains IDEs",
+      "url": "https://code.claude.com/docs/en/jetbrains.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:41.444707354-03:00",
+      "fetched_at": "2026-01-28T02:22:35.592597837-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-best-practices.md",
-      "title": "Best Practices for Claude Code",
-      "url": "https://code.claude.com/docs/en/best-practices.md",
+      "file_path": "docs-en-interactive-mode.md",
+      "title": "Interactive mode",
+      "url": "https://code.claude.com/docs/en/interactive-mode.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:41.447464963-03:00",
+      "fetched_at": "2026-01-28T02:22:35.588149623-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-amazon-bedrock.md",
-      "title": "Claude Code on Amazon Bedrock",
-      "url": "https://code.claude.com/docs/en/amazon-bedrock.md",
+      "file_path": "docs-en-iam.md",
+      "title": "Identity and Access Management",
+      "url": "https://code.claude.com/docs/en/iam.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:41.440407691-03:00",
+      "fetched_at": "2026-01-28T02:22:35.593746905-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-changelog.md",
-      "title": "Changelog",
-      "url": "https://code.claude.com/docs/en/changelog.md",
+      "file_path": "docs-en-how-claude-code-works.md",
+      "title": "How Claude Code works",
+      "url": "https://code.claude.com/docs/en/how-claude-code-works.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:41.930827238-03:00",
-      "description": "\u003c!DOCTYPE html\u003e \u003chtml lang=\"en\""
-    },
-    {
-      "file_path": "docs-en-cli-reference.md",
-      "title": "CLI reference",
-      "url": "https://code.claude.com/docs/en/cli-reference.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:20:44.376859484-03:00",
+      "fetched_at": "2026-01-28T02:22:35.592442472-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-claude-code-on-the-web.md",
-      "title": "Claude Code on the web",
-      "url": "https://code.claude.com/docs/en/claude-code-on-the-web.md",
+      "file_path": "docs-en-legal-and-compliance.md",
+      "title": "Legal and compliance",
+      "url": "https://code.claude.com/docs/en/legal-and-compliance.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:44.383503352-03:00",
+      "fetched_at": "2026-01-28T02:22:37.886052252-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-common-workflows.md",
-      "title": "Common workflows",
-      "url": "https://code.claude.com/docs/en/common-workflows.md",
+      "file_path": "docs-en-llm-gateway.md",
+      "title": "LLM gateway configuration",
+      "url": "https://code.claude.com/docs/en/llm-gateway.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:44.393957225-03:00",
+      "fetched_at": "2026-01-28T02:22:37.920310887-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-chrome.md",
-      "title": "Use Claude Code with Chrome (beta)",
-      "url": "https://code.claude.com/docs/en/chrome.md",
+      "file_path": "docs-en-mcp.md",
+      "title": "Connect Claude Code to tools via MCP",
+      "url": "https://code.claude.com/docs/en/mcp.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:44.509643178-03:00",
+      "fetched_at": "2026-01-28T02:22:37.923059639-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-costs.md",
-      "title": "Manage costs effectively",
-      "url": "https://code.claude.com/docs/en/costs.md",
+      "file_path": "docs-en-memory.md",
+      "title": "Manage Claude's memory",
+      "url": "https://code.claude.com/docs/en/memory.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:44.892397287-03:00",
+      "fetched_at": "2026-01-28T02:22:38.102165126-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-desktop.md",
-      "title": "Claude Code on desktop",
-      "url": "https://code.claude.com/docs/en/desktop.md",
+      "file_path": "docs-en-microsoft-foundry.md",
+      "title": "Claude Code on Microsoft Foundry",
+      "url": "https://code.claude.com/docs/en/microsoft-foundry.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:46.642212064-03:00",
+      "fetched_at": "2026-01-28T02:22:38.145110131-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-discover-plugins.md",
-      "title": "Discover and install prebuilt plugins through marketplaces",
-      "url": "https://code.claude.com/docs/en/discover-plugins.md",
+      "file_path": "docs-en-model-config.md",
+      "title": "Model configuration",
+      "url": "https://code.claude.com/docs/en/model-config.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:46.845193236-03:00",
+      "fetched_at": "2026-01-28T02:22:40.12762393-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-data-usage.md",
-      "title": "Data usage",
-      "url": "https://code.claude.com/docs/en/data-usage.md",
+      "file_path": "docs-en-network-config.md",
+      "title": "Enterprise network configuration",
+      "url": "https://code.claude.com/docs/en/network-config.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:46.630531926-03:00",
+      "fetched_at": "2026-01-28T02:22:40.210162644-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-devcontainer.md",
-      "title": "Development containers",
-      "url": "https://code.claude.com/docs/en/devcontainer.md",
+      "file_path": "docs-en-monitoring-usage.md",
+      "title": "Monitoring",
+      "url": "https://code.claude.com/docs/en/monitoring-usage.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:46.660502526-03:00",
+      "fetched_at": "2026-01-28T02:22:40.263389403-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-features-overview.md",
-      "title": "Extend Claude Code",
-      "url": "https://code.claude.com/docs/en/features-overview.md",
+      "file_path": "docs-en-overview.md",
+      "title": "Claude Code overview",
+      "url": "https://code.claude.com/docs/en/overview.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:47.15161937-03:00",
+      "fetched_at": "2026-01-28T02:22:40.393412288-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-github-actions.md",
-      "title": "Claude Code GitHub Actions",
-      "url": "https://code.claude.com/docs/en/github-actions.md",
+      "file_path": "docs-en-output-styles.md",
+      "title": "Output styles",
+      "url": "https://code.claude.com/docs/en/output-styles.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:48.14320409-03:00",
+      "fetched_at": "2026-01-28T02:22:40.39877705-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-gitlab-ci-cd.md",
-      "title": "Claude Code GitLab CI/CD",
-      "url": "https://code.claude.com/docs/en/gitlab-ci-cd.md",
+      "file_path": "docs-en-plugin-marketplaces.md",
+      "title": "Create and distribute a plugin marketplace",
+      "url": "https://code.claude.com/docs/en/plugin-marketplaces.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:48.144814283-03:00",
+      "fetched_at": "2026-01-28T02:22:42.378107016-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-google-vertex-ai.md",
-      "title": "Claude Code on Google Vertex AI",
-      "url": "https://code.claude.com/docs/en/google-vertex-ai.md",
+      "file_path": "docs-en-plugins.md",
+      "title": "Create plugins",
+      "url": "https://code.claude.com/docs/en/plugins.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:48.145063736-03:00",
+      "fetched_at": "2026-01-28T02:22:42.464297003-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-headless.md",
-      "title": "Run Claude Code programmatically",
-      "url": "https://code.claude.com/docs/en/headless.md",
+      "file_path": "docs-en-plugins-reference.md",
+      "title": "Plugins reference",
+      "url": "https://code.claude.com/docs/en/plugins-reference.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:48.208135703-03:00",
+      "fetched_at": "2026-01-28T02:22:42.522279108-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     },
     {
-      "file_path": "docs-en-hooks.md",
-      "title": "Hooks reference",
-      "url": "https://code.claude.com/docs/en/hooks.md",
+      "file_path": "docs-en-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://code.claude.com/docs/en/quickstart.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:20:48.211147073-03:00",
+      "fetched_at": "2026-01-28T02:22:42.654570424-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-sandboxing.md",
+      "title": "Sandboxing",
+      "url": "https://code.claude.com/docs/en/sandboxing.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:42.664671706-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-security.md",
+      "title": "Security",
+      "url": "https://code.claude.com/docs/en/security.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:44.629914436-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-settings.md",
+      "title": "Claude Code settings",
+      "url": "https://code.claude.com/docs/en/settings.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:44.731924107-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-setup.md",
+      "title": "Set up Claude Code",
+      "url": "https://code.claude.com/docs/en/setup.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:44.775223403-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-skills.md",
+      "title": "Extend Claude with skills",
+      "url": "https://code.claude.com/docs/en/skills.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:44.922094251-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-slack.md",
+      "title": "Claude Code in Slack",
+      "url": "https://code.claude.com/docs/en/slack.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:44.9354112-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-statusline.md",
+      "title": "Status line configuration",
+      "url": "https://code.claude.com/docs/en/statusline.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:46.885300734-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-sub-agents.md",
+      "title": "Create custom subagents",
+      "url": "https://code.claude.com/docs/en/sub-agents.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:46.992025936-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-terminal-config.md",
+      "title": "Optimize your terminal setup",
+      "url": "https://code.claude.com/docs/en/terminal-config.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:47.039409997-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-third-party-integrations.md",
+      "title": "Enterprise deployment overview",
+      "url": "https://code.claude.com/docs/en/third-party-integrations.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:47.202330565-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-troubleshooting.md",
+      "title": "Troubleshooting",
+      "url": "https://code.claude.com/docs/en/troubleshooting.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:47.202972903-03:00",
+      "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
+    },
+    {
+      "file_path": "docs-en-vs-code.md",
+      "title": "Use Claude Code in VS Code",
+      "url": "https://code.claude.com/docs/en/vs-code.md",
+      "source": "llms",
+      "fetched_at": "2026-01-28T02:22:49.149696457-03:00",
       "description": "\u003e ## Documentation Index \u003e Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt \u003e Use this file to discover all available pages before exploring further."
     }
   ]

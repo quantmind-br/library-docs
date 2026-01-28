@@ -1,0 +1,891 @@
+{
+  "generated_at": "2026-01-28T16:02:55.139142823-03:00",
+  "source_url": "https://docs.mitmproxy.org/stable/",
+  "strategy": "crawler",
+  "total_documents": 53,
+  "documents": [
+    {
+      "file_path": "stable.md",
+      "title": "Introduction",
+      "url": "https://docs.mitmproxy.org/stable/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:39.29836311-03:00",
+      "summary": "mitmproxy is an intercepting proxy tool for HTTP/1, HTTP/2, and WebSockets with multiple interfaces including console, web-based, and command-line versions.",
+      "tags": [
+        "http-proxy",
+        "https-interception",
+        "network-debugging",
+        "traffic-analysis",
+        "ssl-tls",
+        "websockets",
+        "reverse-proxy"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-overview-getting-started.md",
+      "title": "Getting Started",
+      "url": "https://docs.mitmproxy.org/stable/overview/getting-started/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:45.19047833-03:00",
+      "summary": "This guide explains how to install and configure mitmproxy tools to intercept and inspect web traffic, including setting up a browser proxy and installing the certificate authority.",
+      "tags": [
+        "proxy-interception",
+        "traffic-inspection",
+        "tls-interception",
+        "browser-configuration",
+        "certificate-installation"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-overview-installation.md",
+      "title": "Installation",
+      "url": "https://docs.mitmproxy.org/stable/overview/installation/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:46.090052897-03:00",
+      "summary": "This document provides detailed installation instructions for mitmproxy across different operating systems, including macOS, Linux, and Windows, along with advanced installation methods.",
+      "tags": [
+        "installation",
+        "macos",
+        "linux",
+        "windows",
+        "setup",
+        "binary-packages",
+        "docker"
+      ],
+      "category": "installation"
+    },
+    {
+      "file_path": "stable-web-tutorials-web-01-user-interface.md",
+      "title": "User Interface",
+      "url": "https://docs.mitmproxy.org/stable/web-tutorials/web-01-user-interface/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:47.923017484-03:00",
+      "summary": "This document provides a comprehensive navigation guide for mitmproxy documentation, including installation, tutorials, core concepts, addon development, API reference, and how-to guides.",
+      "tags": [
+        "proxy-tool",
+        "network-analysis",
+        "http-debugging",
+        "api-documentation",
+        "tls-interception",
+        "traffic-interception"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-overview-features.md",
+      "title": "Features",
+      "url": "https://docs.mitmproxy.org/stable/overview/features/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:46.73463491-03:00",
+      "summary": "This guide explains various mitmproxy features for modifying HTTP requests and responses, including features that allow controlling cache behavior, blocking specific requests, redirecting to local files, replacing URLs, and modifying message bodies.",
+      "tags": [
+        "mitmproxy",
+        "http",
+        "proxy",
+        "request-modification",
+        "response-modification",
+        "traffic-filtering",
+        "flow-control"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "stable-mitmproxytutorial-modifyrequests.md",
+      "title": "Modify Requests",
+      "url": "https://docs.mitmproxy.org/stable/mitmproxytutorial-modifyrequests/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:56.685304854-03:00",
+      "summary": "This tutorial demonstrates how to modify intercepted HTTP requests in mitmproxy before forwarding them to their destination.",
+      "tags": [
+        "mitmproxy",
+        "request-modification",
+        "http-interception",
+        "cli-tutorial"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-mitmproxytutorial-replayrequests.md",
+      "title": "Replay Requests",
+      "url": "https://docs.mitmproxy.org/stable/mitmproxytutorial-replayrequests/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:55.146593206-03:00",
+      "summary": "This tutorial explains how to replay previous client requests using mitmproxy's client-side replay functionality.",
+      "tags": [
+        "mitmproxy",
+        "client-side-replay",
+        "request-replay",
+        "tutorial"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-concepts-how-mitmproxy-works.md",
+      "title": "How mitmproxy works",
+      "url": "https://docs.mitmproxy.org/stable/concepts/how-mitmproxy-works/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:02.114531474-03:00",
+      "summary": "This document explains mitmproxy's proxy mechanism in detail, covering explicit HTTP and HTTPS proxying, TLS interception techniques, and the challenges of transparent proxying.",
+      "tags": [
+        "mitmproxy",
+        "proxy",
+        "tls-interception",
+        "ssl",
+        "network-security",
+        "http-proxy",
+        "certificate-authority"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-mitmproxytutorial-userinterface.md",
+      "title": "User Interface",
+      "url": "https://docs.mitmproxy.org/stable/mitmproxytutorial-userinterface/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:52.015827579-03:00",
+      "summary": "This tutorial introduces the mitmproxy user interface, covering the default flow list view, navigation using arrow keys, viewing flow details with ENTER, switching between panes, and executing commands directly through the command prompt.",
+      "tags": [
+        "mitmproxy",
+        "user-interface",
+        "navigation",
+        "keyboard-shortcuts",
+        "command-prompt",
+        "flow-details"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-concepts-options.md",
+      "title": "Options",
+      "url": "https://docs.mitmproxy.org/stable/concepts/options/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:05.181747274-03:00",
+      "summary": "This document explains how to configure mitmproxy using YAML configuration files, command-line options, and interactive editors, covering all available runtime options and their defaults.",
+      "tags": [
+        "mitmproxy",
+        "configuration",
+        "yaml",
+        "command-line",
+        "options",
+        "runtime-behavior"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-addons-options.md",
+      "title": "Custom Options",
+      "url": "https://docs.mitmproxy.org/stable/addons/options/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:10.674453478-03:00",
+      "summary": "This document teaches mitmproxy addon developers how to declare, configure, and handle custom options for their addons.",
+      "tags": [
+        "mitmproxy",
+        "addon-development",
+        "configuration",
+        "options",
+        "developer-guide",
+        "programming"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-web-tutorials-web-02-intercepting-traffic.md",
+      "title": "Intercept Traffic",
+      "url": "https://docs.mitmproxy.org/stable/web-tutorials/web-02-intercepting-traffic/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:48.219409219-03:00",
+      "summary": "Tutorial showing how to intercept and monitor network traffic in various applications and environments",
+      "tags": [
+        "networking",
+        "debugging",
+        "security",
+        "interception",
+        "monitoring"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-web-tutorials-web-05-replaying-flows.md",
+      "title": "Replay Flows",
+      "url": "https://docs.mitmproxy.org/stable/web-tutorials/web-05-replaying-flows/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:53.822285785-03:00",
+      "summary": "This document provides a comprehensive navigation guide to mitmproxy documentation covering installation, tutorials for web UI and CLI, core concepts, addon development, API reference, and practical how-to guides.",
+      "tags": [
+        "mitmproxy",
+        "proxy",
+        "network-tool",
+        "documentation",
+        "tutorial",
+        "api-reference",
+        "addons"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-http.md",
+      "title": "mitmproxy.http",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/http.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:26.280976246-03:00",
+      "summary": "This document defines the Headers class and MessageData dataclass used for representing HTTP messages in mitmproxy, including header management and serialization functionality.",
+      "tags": [
+        "http-headers",
+        "python-dataclass",
+        "serialization",
+        "mitmproxy",
+        "http-message"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-flow.md",
+      "title": "mitmproxy.flow",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/flow.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:22.484066843-03:00",
+      "summary": "Defines base classes for network flow objects in mitmproxy, including the Flow base class and Error class with serialization, replay, and backup functionality.",
+      "tags": [
+        "mitmproxy",
+        "flow-management",
+        "serialization",
+        "network-traffic",
+        "http",
+        "tcp",
+        "udp",
+        "error-handling"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-addons-commands.md",
+      "title": "Custom Commands",
+      "url": "https://docs.mitmproxy.org/stable/addons/commands/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:11.934623923-03:00",
+      "summary": "This document explains how to create and use custom commands in mitmproxy addons, including defining commands with decorators, specifying argument types, and working with flow selectors.",
+      "tags": [
+        "mitmproxy",
+        "addons",
+        "commands",
+        "flow-handling",
+        "api-reference",
+        "keybindings",
+        "type-checking"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-howto-transparent.md",
+      "title": "Transparent Proxying",
+      "url": "https://docs.mitmproxy.org/stable/howto/transparent/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:33.449247935-03:00",
+      "summary": "Guide explaining how to implement transparent proxying for network traffic routing",
+      "tags": [
+        "proxying",
+        "network",
+        "routing",
+        "networking",
+        "sysadmin"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-tutorials-highscores.md",
+      "title": "Setting highscores on Apple GameCenter",
+      "url": "https://docs.mitmproxy.org/stable/tutorials/highscores/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:40.929648821-03:00",
+      "summary": "This tutorial demonstrates how to use mitmproxy to intercept and modify Apple Game Center score submissions by configuring a proxy and editing request data.",
+      "tags": [
+        "mitmproxy",
+        "game-center",
+        "network-interception",
+        "http-interception",
+        "tutorial",
+        "cheat",
+        "apple-games"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-concepts-certificates.md",
+      "title": "Certificates",
+      "url": "https://docs.mitmproxy.org/stable/concepts/certificates/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:03.51865963-03:00",
+      "summary": "Collection of digital and printed certificates documenting professional achievements and qualifications",
+      "tags": [
+        "certificates",
+        "credentials",
+        "achieved",
+        "professional",
+        "documents"
+      ],
+      "category": "documents"
+    },
+    {
+      "file_path": "stable-howto-install-system-trusted-ca-android.md",
+      "title": "System CA on Android Emulator",
+      "url": "https://docs.mitmproxy.org/stable/howto/install-system-trusted-ca-android/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:39.028269899-03:00",
+      "summary": "This guide explains how to install the mitmproxy CA certificate into the Android emulator's system certificate store to enable SSL inspection on applications that ignore user-provided certificates.",
+      "tags": [
+        "mitmproxy",
+        "android",
+        "certificate-installation",
+        "system-certificate",
+        "android-emulator",
+        "ssl-inspection"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-proxy-context.md",
+      "title": "mitmproxy.proxy.context",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/proxy/context.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:23.753861345-03:00",
+      "summary": "This document defines the Context class for the mitmproxy proxy core, which provides access to client connections, server connections, options, and protocol layer stacks for each protocol layer.",
+      "tags": [
+        "mitmproxy",
+        "proxy",
+        "context",
+        "layer-stack",
+        "python-class"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-contentviews.md",
+      "title": "mitmproxy.contentviews",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/contentviews.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:19.185800139-03:00",
+      "summary": "This document provides the Contentview API for formatting, decoding, highlighting, and reencoding data in mitmproxy, including custom contentview registration and syntax highlighting support.",
+      "tags": [
+        "api",
+        "content-view",
+        "data-formatting",
+        "syntax-highlighting",
+        "websocket",
+        "customization"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "stable-addons-contentviews.md",
+      "title": "Custom Contentviews",
+      "url": "https://docs.mitmproxy.org/stable/addons/contentviews/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:12.495441617-03:00",
+      "summary": "This guide explains how to create custom content views in mitmproxy for pretty-printing binary message data and implementing interactive content editing capabilities.",
+      "tags": [
+        "mitmproxy",
+        "contentviews",
+        "addon-development",
+        "pretty-print",
+        "custom-view",
+        "binary-data",
+        "interactive-editing"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-net-server-spec.md",
+      "title": "mitmproxy.net.server_spec",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/net/server_spec.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:25.549027047-03:00",
+      "summary": "Provides a ServerSpec type and parse function for parsing server mode specifications like http://example.com or example.org:443.",
+      "tags": [
+        "server-spec",
+        "parsing",
+        "proxy",
+        "http",
+        "validation",
+        "scheme",
+        "host",
+        "port"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-mitmproxytutorial-whatsnext.md",
+      "title": "What's Next",
+      "url": "https://docs.mitmproxy.org/stable/mitmproxytutorial-whatsnext/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:58.547868218-03:00",
+      "summary": "Explores future trends and directions, offering insights into upcoming developments and strategic planning.",
+      "tags": [
+        "future",
+        "strategy",
+        "trends"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-mitmproxytutorial-interceptrequests.md",
+      "title": "Intercept Requests",
+      "url": "https://docs.mitmproxy.org/stable/mitmproxytutorial-interceptrequests/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:54.73950668-03:00",
+      "summary": "Tutorial demonstrating how to intercept and modify HTTP requests using browser developer tools and programming techniques.",
+      "tags": [
+        "network",
+        "developer-tools",
+        "debugging",
+        "request-interception",
+        "browser",
+        "http"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-tcp.md",
+      "title": "mitmproxy.tcp",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/tcp.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:28.8218602-03:00",
+      "summary": "mitmproxy's TCP interception module for monitoring and modifying TCP traffic",
+      "tags": [
+        "network",
+        "tcp",
+        "proxy",
+        "security",
+        "monitoring"
+      ],
+      "category": "networking"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-coretypes-multidict.md",
+      "title": "mitmproxy.coretypes.multidict",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/coretypes/multidict.html#_MultiDict",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:00:09.348179493-03:00",
+      "summary": "This document defines an abstract base class and concrete implementations for a MultiDict data structure that supports multiple values per key, commonly used for HTTP headers.",
+      "tags": [
+        "multidict",
+        "data-structure",
+        "abstract-base-class",
+        "http-headers",
+        "mutable-mapping",
+        "python"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-proxy-server-hooks.md",
+      "title": "mitmproxy.proxy.server_hooks",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/proxy/server_hooks.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:27.300051743-03:00",
+      "summary": "Defines event hooks for tracking client and server connection states in mitmproxy proxy server.",
+      "tags": [
+        "proxy-events",
+        "connection-hooks",
+        "mitmproxy",
+        "server-events",
+        "client-events",
+        "event-handling"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-howto-kubernetes.md",
+      "title": "Kubernetes Services",
+      "url": "https://docs.mitmproxy.org/stable/howto/kubernetes/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:35.231455011-03:00"
+    },
+    {
+      "file_path": "stable-concepts-modes.md",
+      "title": "Proxy Modes",
+      "url": "https://docs.mitmproxy.org/stable/concepts/modes/#local-capture",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:00:20.003867617-03:00",
+      "summary": "This guide explains how to configure mitmproxy's different proxy modes including regular proxy, local capture, WireGuard, reverse proxy, and advanced modes.",
+      "tags": [
+        "proxy-modes",
+        "mitmproxy",
+        "network-traffic",
+        "vpn",
+        "transparent-proxying",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-howto-ignore-domains.md",
+      "title": "Ignoring Domains",
+      "url": "https://docs.mitmproxy.org/stable/howto/ignore-domains/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:36.346456435-03:00",
+      "summary": "This guide explains how to configure the ignore_hosts option in mitmproxy to exempt specific domains from interception, covering its use for certificate pinning and traffic filtering.",
+      "tags": [
+        "mitmproxy",
+        "ignore-hosts",
+        "certificate-pinning",
+        "traffic-filtering",
+        "proxy-config",
+        "regex"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-certs.md",
+      "title": "mitmproxy.certs",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/certs.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:17.703674074-03:00",
+      "summary": "This document defines a certificate class for handling TLS certificates in the mitmproxy tool, providing methods for parsing, validating, and serializing X.509 certificates.",
+      "tags": [
+        "tls-certificates",
+        "x509",
+        "cryptography",
+        "tls",
+        "ssl",
+        "mitmproxy",
+        "ssl-cert"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-addons-overview.md",
+      "title": "Overview",
+      "url": "https://docs.mitmproxy.org/stable/addons/overview/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:06.872123775-03:00",
+      "summary": "This document explains mitmproxy's addon mechanism and how to create custom addons using events, options, and commands.",
+      "tags": [
+        "mitmproxy",
+        "addons",
+        "event-handling",
+        "scripting",
+        "http-proxy"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-api-events.md",
+      "title": "Event Hooks",
+      "url": "https://docs.mitmproxy.org/stable/api/events.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:10.152921077-03:00",
+      "summary": "This document explains the available event hooks in mitmproxy addons, detailing how to hook into internal mechanisms and manage various network flows.",
+      "tags": [
+        "mitmproxy",
+        "addons",
+        "event-hooks",
+        "lifecycle-events",
+        "proxy",
+        "http",
+        "tls",
+        "network"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-websocket.md",
+      "title": "mitmproxy.websocket",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/websocket.html#WebSocketData",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:48.689882394-03:00",
+      "summary": "Library for handling WebSocket traffic through mitmproxy, enabling inspection and manipulation of WebSocket connections",
+      "tags": [
+        "websocket",
+        "mitmproxy",
+        "proxy",
+        "protocol",
+        "interception"
+      ],
+      "category": "library"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-connection.md",
+      "title": "mitmproxy.connection",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/connection.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:18.570427381-03:00",
+      "summary": "Provides core connection classes and utilities for intercepting and inspecting network traffic in mitmproxy, including client and server connection handling, TLS analysis, and tunneling support.",
+      "tags": [
+        "network",
+        "security",
+        "proxy",
+        "tls",
+        "connection",
+        "mitmproxy"
+      ],
+      "category": "documentation"
+    },
+    {
+      "file_path": "stable-web-tutorials-web-03-analysing-flows.md",
+      "title": "Analyze Flows",
+      "url": "https://docs.mitmproxy.org/stable/web-tutorials/web-03-analysing-flows/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:50.231299779-03:00",
+      "summary": "Comprehensive documentation portal covering mitmproxy installation, tutorials, core concepts, addon development, API reference, and HOWTO guides for network interception and manipulation.",
+      "tags": [
+        "proxy",
+        "network-interception",
+        "ssl-tls",
+        "mitmproxy",
+        "network-tunneling",
+        "api-reference",
+        "addon-development",
+        "network-debugging"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-tls.md",
+      "title": "mitmproxy.tls",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/tls.html#TlsData",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:00:44.259739585-03:00",
+      "summary": "This document defines a ClientHello class for parsing TLS and DTLS ClientHello messages, along with data classes for TLS-related event hooks in mitmproxy.",
+      "tags": [
+        "tls",
+        "clienthello",
+        "dtls",
+        "mitmproxy",
+        "ssl",
+        "protocol-parsing",
+        "network-encryption"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-web-tutorials-web-04-modifying-requests.md",
+      "title": "Modify Requests",
+      "url": "https://docs.mitmproxy.org/stable/web-tutorials/web-04-modifying-requests/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:58:51.074984751-03:00",
+      "summary": "Instructions for modifying HTTP requests, including parameters, headers, and data manipulation.",
+      "tags": [
+        "http",
+        "requests",
+        "modification",
+        "api",
+        "backend"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-udp.md",
+      "title": "mitmproxy.udp",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/udp.html#UDPMessage",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:00:21.172763776-03:00",
+      "summary": "This document defines UDPFlow and UDPMessage classes for representing UDP sessions and datagrams in mitmproxy.",
+      "tags": [
+        "udp",
+        "protocol",
+        "datagram",
+        "connection",
+        "flow",
+        "serialization"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-addonmanager.md",
+      "title": "mitmproxy.addonmanager",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/addonmanager.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:15.866616824-03:00",
+      "summary": "This document defines the addon management system for mitmproxy, including classes and functions for loading, registering, and managing addons within the proxy framework.",
+      "tags": [
+        "addon-manager",
+        "plugin-system",
+        "lifecycle-events",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-addons-api-changelog.md",
+      "title": "API Changelog",
+      "url": "https://docs.mitmproxy.org/stable/addons/api-changelog/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:15.474045961-03:00",
+      "summary": "This document outlines breaking changes in the mitmproxy addon API across different versions, including deprecated logging systems, renamed classes, and modified connection event hooks.",
+      "tags": [
+        "mitmproxy",
+        "api-changelog",
+        "breaking-changes",
+        "addon-api",
+        "deprecation",
+        "migration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-addons-examples.md",
+      "title": "Examples",
+      "url": "https://docs.mitmproxy.org/stable/addons/examples/#contentview",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:01:07.070268008-03:00",
+      "summary": "This document provides example scripts and implementations for creating mitmproxy addons, demonstrating various capabilities like HTTP manipulation, command handling, flow processing, and more.",
+      "tags": [
+        "mitmproxy",
+        "addons",
+        "examples",
+        "http",
+        "websocket",
+        "command-interface",
+        "scripting",
+        "proxy"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-proxy-mode-specs.md",
+      "title": "mitmproxy.proxy.mode_specs",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/proxy/mode_specs.html#ProxyMode",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:00:46.466096465-03:00",
+      "summary": "This module defines and parses proxy mode specifications for mitmproxy, supporting modes like regular, reverse, and socks5 with configurable listen addresses and ports.",
+      "tags": [
+        "mitmproxy",
+        "proxy",
+        "mode-spec",
+        "tcp-connection",
+        "proxy-configuration",
+        "mode-parsing"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "stable-concepts-filters.md",
+      "title": "Filter expressions",
+      "url": "https://docs.mitmproxy.org/stable/concepts/filters/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:06.529831914-03:00",
+      "summary": "A technical guide explaining filter expressions for data processing and conditional logic implementation",
+      "tags": [
+        "filter",
+        "expressions",
+        "logic",
+        "data-processing",
+        "conditionals"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-howto-transparent-vms.md",
+      "title": "Transparently Proxying VMs",
+      "url": "https://docs.mitmproxy.org/stable/howto/transparent-vms/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:37.789733992-03:00",
+      "summary": "This guide explains how to configure transparent proxying with mitmproxy by setting up a proxy virtual machine, configuring DHCP and DNS with dnsmasq, redirecting traffic using iptables, and running mitmproxy in transparent mode.",
+      "tags": [
+        "mitmproxy",
+        "transparent-proxying",
+        "virtual-machine",
+        "dnsmasq",
+        "dhcp",
+        "iptables",
+        "network-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-api-mitmproxy-dns.md",
+      "title": "mitmproxy.dns",
+      "url": "https://docs.mitmproxy.org/stable/api/mitmproxy/dns.html",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:20.6975052-03:00",
+      "summary": "Defines data classes and utility functions for DNS resource record parsing, serialization, and creation in the mitmproxy project.",
+      "tags": [
+        "dns",
+        "resource-records",
+        "serialization",
+        "mitmproxy",
+        "python",
+        "network"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "dev-howto-transparent.md",
+      "title": "/howto/transparent/",
+      "url": "https://docs.mitmproxy.org/dev/howto-transparent/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T16:01:17.716701412-03:00",
+      "summary": "This document is empty and contains no content for metadata extraction.",
+      "tags": [
+        "empty",
+        "no-content"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "stable-tutorials-client-replay.md",
+      "title": "Client playback: a 30 second example",
+      "url": "https://docs.mitmproxy.org/stable/tutorials/client-replay/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:40.15701056-03:00",
+      "summary": "This tutorial demonstrates how to use mitmproxy's client replay feature to automate wireless network logins by recording and replaying login requests.",
+      "tags": [
+        "mitmproxy",
+        "client-replay",
+        "authentication",
+        "automation",
+        "wireless-network",
+        "network-login"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "stable-howto-wireshark-tls.md",
+      "title": "Wireshark and SSL/TLS",
+      "url": "https://docs.mitmproxy.org/stable/howto/wireshark-tls/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:35.917615412-03:00",
+      "summary": "A comprehensive guide to using Wireshark for capturing and analyzing SSL/TLS encrypted network traffic, including methods for decrypting HTTPS communications through certificate configuration and man-in-the-middle techniques.",
+      "tags": [
+        "network-analysis",
+        "security",
+        "encryption",
+        "protocol-analysis",
+        "packet-capture"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-concepts-commands.md",
+      "title": "Commands",
+      "url": "https://docs.mitmproxy.org/stable/concepts/commands/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:06.850596632-03:00",
+      "summary": "Commands for a text editor",
+      "tags": [
+        "editor",
+        "text manipulation",
+        "navigational",
+        "user interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "stable-concepts-protocols.md",
+      "title": "Protocols",
+      "url": "https://docs.mitmproxy.org/stable/concepts/protocols/",
+      "source": "crawler",
+      "fetched_at": "2026-01-28T15:59:08.410715479-03:00",
+      "summary": "Protocols section explains established procedures and guidelines for system operations and communication standards.",
+      "tags": [
+        "procedures",
+        "guidelines",
+        "operations",
+        "standards"
+      ],
+      "category": "guidelines"
+    }
+  ]
+}

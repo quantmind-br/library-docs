@@ -1,3 +1,17 @@
+---
+title: Claude Code Environment Variables Reference
+url: 
+source: local-analysis
+fetched_at: 2026-01-28T02:26:06.433657892-03:00
+summary: Comprehensive reference of all environment variables accepted by Claude Code, organized by category (Authentication, Cloud Providers, Telemetry, etc.).
+tags:
+    - environment-variables
+    - configuration
+    - reference
+    - claude-code
+category: reference
+---
+
 # Claude Code Environment Variables Reference
 
 Based on the analysis of the documentation, here is a comprehensive list of all environment variables accepted by Claude Code, organized by category.

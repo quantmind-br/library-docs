@@ -2,7 +2,7 @@
   "generated_at": "2026-01-28T02:26:06.433657892-03:00",
   "source_url": "https://code.claude.com/docs/llms.txt",
   "strategy": "llms",
-  "total_documents": 51,
+  "total_documents": 52,
   "documents": [
     {
       "file_path": "001-docs-en-overview.md",
@@ -1025,12 +1025,30 @@
       "category": "reference",
       "original_file_path": "docs-en-legal-and-compliance.md",
       "_assigned_category": "API & Reference"
+    },
+    {
+      "file_path": "052-claude-code-env-vars.md",
+      "title": "Claude Code Environment Variables Reference",
+      "url": "",
+      "source": "local-analysis",
+      "fetched_at": "2026-01-28T02:26:06.433657892-03:00",
+      "description": "Comprehensive reference of all environment variables accepted by Claude Code.",
+      "summary": "Comprehensive reference of all environment variables accepted by Claude Code, organized by category (Authentication, Cloud Providers, Telemetry, etc.).",
+      "tags": [
+        "environment-variables",
+        "configuration",
+        "reference",
+        "claude-code"
+      ],
+      "category": "reference",
+      "original_file_path": "CLAUDE_CODE_ENV_VARS.md",
+      "_assigned_category": "API & Reference"
     }
   ],
   "organization": {
     "method": "sequential-numbering",
     "organized_at": "2026-01-28T05:28:18.518Z",
-    "total_files": 51,
+    "total_files": 52,
     "categories": [
       "Introduction & Overview",
       "Quick Start & Installation",

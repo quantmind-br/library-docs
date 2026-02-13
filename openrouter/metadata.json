@@ -5,7 +5,7 @@
   "total_documents": 178,
   "documents": [
     {
-      "file_path": "docs-guides-overview-models.md",
+      "file_path": "051-free-models-playground.md",
       "title": "Models",
       "url": "https://openrouter.ai/docs/guides/overview/models.mdx",
       "source": "llms",
@@ -20,10 +20,11 @@
         "pricing-structure",
         "api-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "001-activity-export.md"
     },
     {
-      "file_path": "docs-quickstart.md",
+      "file_path": "045-enterprise-quickstart.md",
       "title": "Quickstart",
       "url": "https://openrouter.ai/docs/quickstart.mdx",
       "source": "llms",
@@ -39,10 +40,11 @@
         "chat-completions",
         "ai-models"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "002-agentic-usage.md"
     },
     {
-      "file_path": "docs-guides-overview-principles.md",
+      "file_path": "106-principles.md",
       "title": "Principles",
       "url": "https://openrouter.ai/docs/guides/overview/principles.mdx",
       "source": "llms",
@@ -57,10 +59,11 @@
         "price-optimization",
         "high-availability"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "003-anthropic-agent-sdk.md"
     },
     {
-      "file_path": "docs-guides-overview-multimodal-overview.md",
+      "file_path": "090-multimodal-audio.md",
       "title": "Multimodal Capabilities",
       "url": "https://openrouter.ai/docs/guides/overview/multimodal/overview.mdx",
       "source": "llms",
@@ -76,10 +79,11 @@
         "openrouter-api",
         "file-encoding"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "004-anthropic-messages.md"
     },
     {
-      "file_path": "docs-guides-overview-multimodal-image-generation.md",
+      "file_path": "062-image-generation.md",
       "title": "Image Generation",
       "url": "https://openrouter.ai/docs/guides/overview/multimodal/image-generation.mdx",
       "source": "llms",
@@ -95,10 +99,11 @@
         "image-config",
         "ai-models"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "005-api-embeddings.md"
     },
     {
-      "file_path": "docs-guides-overview-multimodal-images.md",
+      "file_path": "006-api-errors-debugging.md",
       "title": "Image Inputs",
       "url": "https://openrouter.ai/docs/guides/overview/multimodal/images.mdx",
       "source": "llms",
@@ -113,10 +118,11 @@
         "base64-encoding",
         "api-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "006-api-errors-debugging.md"
     },
     {
-      "file_path": "docs-guides-overview-multimodal-pdfs.md",
+      "file_path": "007-api-key-rotation.md",
       "title": "PDF Inputs",
       "url": "https://openrouter.ai/docs/guides/overview/multimodal/pdfs.mdx",
       "source": "llms",
@@ -131,10 +137,11 @@
         "api-integration",
         "file-parser"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "007-api-key-rotation.md"
     },
     {
-      "file_path": "docs-guides-overview-multimodal-videos.md",
+      "file_path": "008-api-limits.md",
       "title": "Video Inputs",
       "url": "https://openrouter.ai/docs/guides/overview/multimodal/videos.mdx",
       "source": "llms",
@@ -149,10 +156,11 @@
         "base64-encoding",
         "video-processing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "008-api-limits.md"
     },
     {
-      "file_path": "docs-guides-overview-multimodal-audio.md",
+      "file_path": "009-api-parameters.md",
       "title": "Audio Inputs",
       "url": "https://openrouter.ai/docs/guides/overview/multimodal/audio.mdx",
       "source": "llms",
@@ -166,10 +174,11 @@
         "base64-encoding",
         "api-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "009-api-parameters.md"
     },
     {
-      "file_path": "docs-guides-overview-auth-oauth.md",
+      "file_path": "097-oauth-pkce.md",
       "title": "OAuth PKCE",
       "url": "https://openrouter.ai/docs/guides/overview/auth/oauth.mdx",
       "source": "llms",
@@ -185,10 +194,11 @@
         "user-auth",
         "api-keys"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "010-api-reference-overview.md"
     },
     {
-      "file_path": "docs-guides-overview-auth-management-api-keys.md",
+      "file_path": "083-management-api-keys.md",
       "title": "Management API Keys",
       "url": "https://openrouter.ai/docs/guides/overview/auth/management-api-keys.mdx",
       "source": "llms",
@@ -203,10 +213,11 @@
         "rest-api",
         "administrative-operations"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "011-api-streaming.md"
     },
     {
-      "file_path": "docs-guides-overview-auth-byok.md",
+      "file_path": "025-byok.md",
       "title": "BYOK",
       "url": "https://openrouter.ai/docs/guides/overview/auth/byok.mdx",
       "source": "llms",
@@ -222,10 +233,11 @@
         "provider-routing",
         "rate-limits"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "012-app-attribution.md"
     },
     {
-      "file_path": "docs-guides-overview-report-feedback.md",
+      "file_path": "126-report-feedback.md",
       "title": "Report Feedback",
       "url": "https://openrouter.ai/docs/guides/overview/report-feedback.mdx",
       "source": "llms",
@@ -240,10 +252,11 @@
         "activity-page",
         "troubleshooting"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "013-arize-community.md"
     },
     {
-      "file_path": "docs-guides-routing-model-fallbacks.md",
+      "file_path": "087-model-fallbacks.md",
       "title": "Model Fallbacks",
       "url": "https://openrouter.ai/docs/guides/routing/model-fallbacks.mdx",
       "source": "llms",
@@ -258,10 +271,11 @@
         "api-routing",
         "openrouter"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "014-arize-phoenix.md"
     },
     {
-      "file_path": "docs-faq.md",
+      "file_path": "015-authentication.md",
       "title": "Frequently Asked Questions",
       "url": "https://openrouter.ai/docs/faq.mdx",
       "source": "llms",
@@ -277,10 +291,11 @@
         "byok",
         "routing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "015-authentication.md"
     },
     {
-      "file_path": "docs-guides-routing-provider-selection.md",
+      "file_path": "109-provider-routing.md",
       "title": "Provider Routing",
       "url": "https://openrouter.ai/docs/guides/routing/provider-selection.mdx",
       "source": "llms",
@@ -295,10 +310,11 @@
         "performance-optimization",
         "data-residency"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "016-auto-router.md"
     },
     {
-      "file_path": "docs-guides-routing-model-variants-free.md",
+      "file_path": "053-free-variant.md",
       "title": "Free Variant",
       "url": "https://openrouter.ai/docs/guides/routing/model-variants/free.mdx",
       "source": "llms",
@@ -312,10 +328,11 @@
         "api-usage",
         "rate-limits"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "017-awesome-openrouter.md"
     },
     {
-      "file_path": "docs-guides-routing-model-variants-extended.md",
+      "file_path": "048-extended-variant.md",
       "title": "Extended Variant",
       "url": "https://openrouter.ai/docs/guides/routing/model-variants/extended.mdx",
       "source": "llms",
@@ -329,10 +346,11 @@
         "extended-context",
         "routing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "018-body-builder.md"
     },
     {
-      "file_path": "docs-guides-routing-model-variants-exacto.md",
+      "file_path": "046-exacto-variant.md",
       "title": "Exacto Variant",
       "url": "https://openrouter.ai/docs/guides/routing/model-variants/exacto.mdx",
       "source": "llms",
@@ -347,10 +365,11 @@
         "provider-selection",
         "agentic-workflows"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "019-braintrust.md"
     },
     {
-      "file_path": "docs-guides-routing-model-variants-thinking.md",
+      "file_path": "139-thinking-variant.md",
       "title": "Thinking Variant",
       "url": "https://openrouter.ai/docs/guides/routing/model-variants/thinking.mdx",
       "source": "llms",
@@ -365,10 +384,11 @@
         "chain-of-thought",
         "ai-inference"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "020-broadcast-overview.md"
     },
     {
-      "file_path": "docs-guides-routing-model-variants-online.md",
+      "file_path": "098-online-variant.md",
       "title": "Online Variant",
       "url": "https://openrouter.ai/docs/guides/routing/model-variants/online.mdx",
       "source": "llms",
@@ -382,10 +402,11 @@
         "real-time-data",
         "api-plugins"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "021-bulk-assign-keys.md"
     },
     {
-      "file_path": "docs-guides-routing-model-variants-nitro.md",
+      "file_path": "096-nitro-variant.md",
       "title": "Nitro Variant",
       "url": "https://openrouter.ai/docs/guides/routing/model-variants/nitro.mdx",
       "source": "llms",
@@ -400,10 +421,11 @@
         "inference-speed",
         "api-optimization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "022-bulk-assign-members.md"
     },
     {
-      "file_path": "docs-guides-routing-routers-auto-router.md",
+      "file_path": "016-auto-router.md",
       "title": "Auto Router",
       "url": "https://openrouter.ai/docs/guides/routing/routers/auto-router.mdx",
       "source": "llms",
@@ -418,10 +440,11 @@
         "llm-orchestration",
         "api-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "023-bulk-unassign-keys.md"
     },
     {
-      "file_path": "docs-guides-routing-routers-body-builder.md",
+      "file_path": "018-body-builder.md",
       "title": "Body Builder",
       "url": "https://openrouter.ai/docs/guides/routing/routers/body-builder.mdx",
       "source": "llms",
@@ -436,10 +459,11 @@
         "developer-tools",
         "api-automation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "024-bulk-unassign-members.md"
     },
     {
-      "file_path": "docs-guides-routing-routers-free-models-router.md",
+      "file_path": "052-free-models-router.md",
       "title": "Free Models Router",
       "url": "https://openrouter.ai/docs/guides/routing/routers/free-models-router.mdx",
       "source": "llms",
@@ -454,15 +478,16 @@
         "api-integration",
         "llm-access"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "025-byok.md"
     },
     {
-      "file_path": "docs-guides-features-tool-calling.md",
-      "title": "Tool \u0026 Function Calling",
+      "file_path": "132-responses-api-tool-calling.md",
+      "title": "Tool & Function Calling",
       "url": "https://openrouter.ai/docs/guides/features/tool-calling.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:14:04.076468-03:00",
-      "description": "title: Tool \u0026 Function Calling subtitle: Use tools in your prompts headline: Tool \u0026 Function Calling | Use Tools with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/features/tool-calling](https://openrouter.ai/docs/guides/features/tool-calling)' 'og:site\\_name': OpenRouter Document...",
+      "description": "title: Tool & Function Calling subtitle: Use tools in your prompts headline: Tool & Function Calling | Use Tools with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/features/tool-calling](https://openrouter.ai/docs/guides/features/tool-calling)' 'og:site\\_name': OpenRouter Document...",
       "summary": "This document explains how to implement tool and function calling via OpenRouter, detailing the three-step process for requesting tool execution, running code locally, and returning results to supported models.",
       "tags": [
         "openrouter",
@@ -472,10 +497,11 @@
         "external-tools",
         "json-schema"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "026-chat-completion.md"
     },
     {
-      "file_path": "docs-guides-features-plugins-overview.md",
+      "file_path": "103-plugins-overview.md",
       "title": "Plugins",
       "url": "https://openrouter.ai/docs/guides/features/plugins/overview.mdx",
       "source": "llms",
@@ -491,10 +517,11 @@
         "llm-capabilities",
         "json-repair"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "027-claude-code.md"
     },
     {
-      "file_path": "docs-guides-features-presets.md",
+      "file_path": "105-presets.md",
       "title": "Presets",
       "url": "https://openrouter.ai/docs/guides/features/presets.mdx",
       "source": "llms",
@@ -509,10 +536,11 @@
         "api-integration",
         "provider-routing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "028-claude-migration-guide.md"
     },
     {
-      "file_path": "docs-guides-features-plugins-web-search.md",
+      "file_path": "133-responses-api-web-search.md",
       "title": "Web Search",
       "url": "https://openrouter.ai/docs/guides/features/plugins/web-search.mdx",
       "source": "llms",
@@ -528,10 +556,11 @@
         "search-citations",
         "real-time-data"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "029-clickhouse.md"
     },
     {
-      "file_path": "docs-guides-features-plugins-response-healing.md",
+      "file_path": "127-response-healing.md",
       "title": "Response Healing",
       "url": "https://openrouter.ai/docs/guides/features/plugins/response-healing.mdx",
       "source": "llms",
@@ -546,10 +575,11 @@
         "api-plugins",
         "json-validation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "030-comet-opik.md"
     },
     {
-      "file_path": "docs-guides-features-structured-outputs.md",
+      "file_path": "137-structured-outputs.md",
       "title": "Structured Outputs",
       "url": "https://openrouter.ai/docs/guides/features/structured-outputs.mdx",
       "source": "llms",
@@ -564,10 +594,11 @@
         "api-integration",
         "response-formatting"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "031-create-api-key.md"
     },
     {
-      "file_path": "docs-guides-features-message-transforms.md",
+      "file_path": "086-message-transforms.md",
       "title": "Message Transforms",
       "url": "https://openrouter.ai/docs/guides/features/message-transforms.mdx",
       "source": "llms",
@@ -582,10 +613,11 @@
         "context-management",
         "token-limits"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "032-create-auth-code.md"
     },
     {
-      "file_path": "docs-guides-features-zero-completion-insurance.md",
+      "file_path": "177-zero-completion-insurance.md",
       "title": "Zero Completion Insurance",
       "url": "https://openrouter.ai/docs/guides/features/zero-completion-insurance.mdx",
       "source": "llms",
@@ -600,10 +632,11 @@
         "zero-token-responses",
         "error-handling"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "033-create-coinbase-charge.md"
     },
     {
-      "file_path": "docs-guides-features-zdr.md",
+      "file_path": "178-zero-data-retention.md",
       "title": "Zero Data Retention",
       "url": "https://openrouter.ai/docs/guides/features/zdr.mdx",
       "source": "llms",
@@ -617,10 +650,11 @@
         "api-parameters",
         "provider-policies"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "034-create-embeddings.md"
     },
     {
-      "file_path": "docs-app-attribution.md",
+      "file_path": "012-app-attribution.md",
       "title": "App Attribution",
       "url": "https://openrouter.ai/docs/app-attribution.mdx",
       "source": "llms",
@@ -634,10 +668,11 @@
         "usage-analytics",
         "developer-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "035-create-guardrail.md"
     },
     {
-      "file_path": "docs-guides-features-guardrails.md",
+      "file_path": "061-guardrails.md",
       "title": "Guardrails",
       "url": "https://openrouter.ai/docs/guides/features/guardrails.mdx",
       "source": "llms",
@@ -653,10 +688,11 @@
         "openrouter",
         "api-keys"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "036-create-response.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-overview.md",
+      "file_path": "020-broadcast-overview.md",
       "title": "Broadcast",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/overview.mdx",
       "source": "llms",
@@ -671,10 +707,11 @@
         "monitoring",
         "llm-analytics"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "037-crypto-api.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-arize.md",
+      "file_path": "013-arize-community.md",
       "title": "Arize AI",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/arize.mdx",
       "source": "llms",
@@ -689,10 +726,11 @@
         "monitoring",
         "api-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "038-data-collection.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-braintrust.md",
+      "file_path": "019-braintrust.md",
       "title": "Braintrust",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/braintrust.mdx",
       "source": "llms",
@@ -707,10 +745,11 @@
         "llm-monitoring",
         "integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "039-datadog.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-clickhouse.md",
+      "file_path": "029-clickhouse.md",
       "title": "ClickHouse",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/clickhouse.mdx",
       "source": "llms",
@@ -725,10 +764,11 @@
         "database-integration",
         "telemetry"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "040-delete-api-key.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-opik.md",
+      "file_path": "030-comet-opik.md",
       "title": "Comet Opik",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/opik.mdx",
       "source": "llms",
@@ -744,10 +784,11 @@
         "metadata-management",
         "broadcast-feature"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "041-delete-guardrail.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-datadog.md",
+      "file_path": "039-datadog.md",
       "title": "Datadog",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/datadog.mdx",
       "source": "llms",
@@ -762,10 +803,11 @@
         "monitoring",
         "integration-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "042-devtools.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-langfuse.md",
+      "file_path": "065-langfuse-community.md",
       "title": "Langfuse",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/langfuse.mdx",
       "source": "llms",
@@ -781,10 +823,11 @@
         "integration",
         "metadata"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "043-distillation.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-langsmith.md",
+      "file_path": "067-langsmith.md",
       "title": "LangSmith",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/langsmith.mdx",
       "source": "llms",
@@ -800,10 +843,11 @@
         "monitoring",
         "llm-ops"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "044-effect-ai-sdk.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-grafana.md",
+      "file_path": "060-grafana-cloud.md",
       "title": "Grafana Cloud",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/grafana.mdx",
       "source": "llms",
@@ -819,10 +863,11 @@
         "traceql",
         "otlp-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "045-enterprise-quickstart.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-newrelic.md",
+      "file_path": "095-new-relic.md",
       "title": "New Relic",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/newrelic.mdx",
       "source": "llms",
@@ -837,10 +882,11 @@
         "monitoring",
         "openrouter"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "046-exacto-variant.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-otel-collector.md",
+      "file_path": "101-opentelemetry-collector.md",
       "title": "OpenTelemetry Collector",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/otel-collector.mdx",
       "source": "llms",
@@ -855,10 +901,11 @@
         "observability",
         "api-monitoring"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "047-exchange-auth-code.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-posthog.md",
+      "file_path": "104-posthog.md",
       "title": "PostHog",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/posthog.mdx",
       "source": "llms",
@@ -873,10 +920,11 @@
         "trace-broadcasting",
         "integration-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "048-extended-variant.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-sentry.md",
+      "file_path": "135-sentry.md",
       "title": "Sentry",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/sentry.mdx",
       "source": "llms",
@@ -892,10 +940,11 @@
         "llm-monitoring",
         "broadcast"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "049-faq.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-s3.md",
+      "file_path": "134-s3-storage.md",
       "title": "S3 / S3-Compatible",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/s3.mdx",
       "source": "llms",
@@ -911,10 +960,11 @@
         "cloud-storage",
         "metadata-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "050-frameworks-integrations.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-snowflake.md",
+      "file_path": "136-snowflake.md",
       "title": "Snowflake",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/snowflake.mdx",
       "source": "llms",
@@ -930,10 +980,11 @@
         "integration",
         "analytics"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "051-free-models-playground.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-webhook.md",
+      "file_path": "174-webhook.md",
       "title": "Webhook",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/webhook.mdx",
       "source": "llms",
@@ -949,10 +1000,11 @@
         "api-integration",
         "monitoring"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "052-free-models-router.md"
     },
     {
-      "file_path": "docs-guides-privacy-data-collection.md",
+      "file_path": "038-data-collection.md",
       "title": "Data Collection",
       "url": "https://openrouter.ai/docs/guides/privacy/data-collection.mdx",
       "source": "llms",
@@ -966,16 +1018,17 @@
         "user-data-policy",
         "metadata-tracking"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "053-free-variant.md"
     },
     {
-      "file_path": "docs-guides-features-broadcast-weave.md",
-      "title": "W\u0026B Weave",
+      "file_path": "172-weave.md",
+      "title": "W&B Weave",
       "url": "https://openrouter.ai/docs/guides/features/broadcast/weave.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:14:52.192521-03:00",
-      "description": "title: W\\\u0026B Weave subtitle: Send traces to W\\\u0026B Weave headline: Broadcast to W\\\u0026B Weave | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/weave](https://openrouter.ai/docs/guides/features/broadcast/weave)' 'og:site\\_name': OpenRouter Documentation 'o...",
-      "summary": "This document provides instructions for connecting OpenRouter to Weights \u0026 Biases Weave to automatically capture and analyze LLM request traces. It covers setup steps, metadata configuration, and privacy options for observability.",
+      "description": "title: W\\&B Weave subtitle: Send traces to W\\&B Weave headline: Broadcast to W\\&B Weave | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/weave](https://openrouter.ai/docs/guides/features/broadcast/weave)' 'og:site\\_name': OpenRouter Documentation 'o...",
+      "summary": "This document provides instructions for connecting OpenRouter to Weights & Biases Weave to automatically capture and analyze LLM request traces. It covers setup steps, metadata configuration, and privacy options for observability.",
       "tags": [
         "openrouter",
         "weights-and-biases",
@@ -984,10 +1037,11 @@
         "llm-tracing",
         "integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "054-get-api-key.md"
     },
     {
-      "file_path": "docs-guides-privacy-logging.md",
+      "file_path": "082-logging.md",
       "title": "Logging",
       "url": "https://openrouter.ai/docs/guides/privacy/logging.mdx",
       "source": "llms",
@@ -1003,10 +1057,11 @@
         "eu-data-residency",
         "compliance"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "055-get-credits.md"
     },
     {
-      "file_path": "docs-guides-best-practices-latency-and-performance.md",
+      "file_path": "068-latency-performance.md",
       "title": "Latency and Performance",
       "url": "https://openrouter.ai/docs/guides/best-practices/latency-and-performance.mdx",
       "source": "llms",
@@ -1022,10 +1077,11 @@
         "openrouter",
         "routing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "056-get-current-key.md"
     },
     {
-      "file_path": "docs-guides-best-practices-prompt-caching.md",
+      "file_path": "107-prompt-caching.md",
       "title": "Prompt Caching",
       "url": "https://openrouter.ai/docs/guides/best-practices/prompt-caching.mdx",
       "source": "llms",
@@ -1040,10 +1096,11 @@
         "anthropic-claude",
         "performance-tuning"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "057-get-generation.md"
     },
     {
-      "file_path": "docs-guides-best-practices-uptime-optimization.md",
+      "file_path": "168-uptime-optimization.md",
       "title": "Uptime Optimization",
       "url": "https://openrouter.ai/docs/guides/best-practices/uptime-optimization.mdx",
       "source": "llms",
@@ -1058,10 +1115,11 @@
         "service-reliability",
         "openrouter"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "058-get-guardrail.md"
     },
     {
-      "file_path": "docs-guides-guides-free-models-router-playground.md",
+      "file_path": "070-list-embeddings-models.md",
       "title": "Free Models Router",
       "url": "https://openrouter.ai/docs/guides/guides/free-models-router-playground.mdx",
       "source": "llms",
@@ -1076,10 +1134,11 @@
         "chat-playground",
         "api-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "059-get-user-activity.md"
     },
     {
-      "file_path": "docs-guides-best-practices-reasoning-tokens.md",
+      "file_path": "125-reasoning-tokens.md",
       "title": "Reasoning Tokens",
       "url": "https://openrouter.ai/docs/guides/best-practices/reasoning-tokens.mdx",
       "source": "llms",
@@ -1094,10 +1153,11 @@
         "ai-models",
         "api-parameters"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "060-grafana-cloud.md"
     },
     {
-      "file_path": "docs-guides-guides-api-key-rotation.md",
+      "file_path": "007-api-key-rotation.md",
       "title": "API Key Rotation",
       "url": "https://openrouter.ai/docs/guides/guides/api-key-rotation.mdx",
       "source": "llms",
@@ -1112,10 +1172,11 @@
         "byok",
         "authentication"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "061-guardrails.md"
     },
     {
-      "file_path": "docs-enterprise-quickstart.md",
+      "file_path": "124-quickstart.md",
       "title": "Enterprise Quickstart",
       "url": "https://openrouter.ai/docs/enterprise-quickstart.mdx",
       "source": "llms",
@@ -1131,10 +1192,11 @@
         "observability",
         "usage-tracking"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "062-image-generation.md"
     },
     {
-      "file_path": "docs-guides-guides-crypto-api.md",
+      "file_path": "037-crypto-api.md",
       "title": "Crypto API",
       "url": "https://openrouter.ai/docs/guides/guides/crypto-api.mdx",
       "source": "llms",
@@ -1149,10 +1211,11 @@
         "evm-chains",
         "billing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "063-infisical.md"
     },
     {
-      "file_path": "docs-guides-guides-claude-code-integration.md",
+      "file_path": "027-claude-code.md",
       "title": "Claude Code",
       "url": "https://openrouter.ai/docs/guides/guides/claude-code-integration.mdx",
       "source": "llms",
@@ -1167,10 +1230,11 @@
         "cost-management",
         "github-actions"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "064-langchain.md"
     },
     {
-      "file_path": "docs-guides-guides-mcp-servers.md",
+      "file_path": "085-mcp-servers.md",
       "title": "Using MCP Servers with OpenRouter",
       "url": "https://openrouter.ai/docs/guides/guides/mcp-servers.mdx",
       "source": "llms",
@@ -1185,11 +1249,12 @@
         "model-context-protocol",
         "llm-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "065-langfuse-community.md"
     },
     {
-      "file_path": "docs-guides-guides-openclaw-integration.md",
-      "title": "OpenClaw 🦞",
+      "file_path": "100-openclaw.md",
+      "title": "OpenClaw \ud83e\udd9e",
       "url": "https://openrouter.ai/docs/guides/guides/openclaw-integration.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:15:18.45657-03:00",
@@ -1203,10 +1268,11 @@
         "configuration-guide",
         "messaging-platforms"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "066-langfuse.md"
     },
     {
-      "file_path": "docs-use-cases-organization-management.md",
+      "file_path": "102-organization-management.md",
       "title": "Organization Management",
       "url": "https://openrouter.ai/docs/use-cases/organization-management.mdx",
       "source": "llms",
@@ -1222,10 +1288,11 @@
         "billing-administration",
         "usage-analytics"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "067-langsmith.md"
     },
     {
-      "file_path": "docs-guides-guides-for-providers.md",
+      "file_path": "108-provider-integration.md",
       "title": "Provider Integration",
       "url": "https://openrouter.ai/docs/guides/guides/for-providers.mdx",
       "source": "llms",
@@ -1240,10 +1307,11 @@
         "api-implementation",
         "pricing-tiers"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "068-latency-performance.md"
     },
     {
-      "file_path": "docs-guides-guides-usage-accounting.md",
+      "file_path": "169-usage-accounting.md",
       "title": "Usage Accounting",
       "url": "https://openrouter.ai/docs/guides/guides/usage-accounting.mdx",
       "source": "llms",
@@ -1258,10 +1326,11 @@
         "caching",
         "api-metadata"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "069-list-api-keys.md"
     },
     {
-      "file_path": "docs-guides-guides-activity-export.md",
+      "file_path": "001-activity-export.md",
       "title": "Activity Export",
       "url": "https://openrouter.ai/docs/guides/guides/activity-export.mdx",
       "source": "llms",
@@ -1276,10 +1345,11 @@
         "analytics",
         "data-export"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "070-list-embeddings-models.md"
     },
     {
-      "file_path": "docs-guides-guides-user-tracking.md",
+      "file_path": "170-user-tracking.md",
       "title": "User Tracking",
       "url": "https://openrouter.ai/docs/guides/guides/user-tracking.mdx",
       "source": "llms",
@@ -1294,10 +1364,11 @@
         "caching",
         "api-parameters"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "071-list-endpoints-zdr.md"
     },
     {
-      "file_path": "docs-guides-guides-distillation.md",
+      "file_path": "043-distillation.md",
       "title": "Distillation",
       "url": "https://openrouter.ai/docs/guides/guides/distillation.mdx",
       "source": "llms",
@@ -1313,10 +1384,11 @@
         "model-filtering",
         "machine-learning"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "072-list-endpoints.md"
     },
     {
-      "file_path": "docs-guides-guides-model-migrations-claude-4-6-opus.md",
+      "file_path": "028-claude-migration-guide.md",
       "title": "Claude 4.6 Opus Migration Guide",
       "url": "https://openrouter.ai/docs/guides/guides/model-migrations/claude-4-6-opus.mdx",
       "source": "llms",
@@ -1331,10 +1403,11 @@
         "api-configuration",
         "ai-models"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "073-list-guardrail-key-assignments.md"
     },
     {
-      "file_path": "docs-guides-community-awesome-openrouter.md",
+      "file_path": "017-awesome-openrouter.md",
       "title": "Awesome OpenRouter",
       "url": "https://openrouter.ai/docs/guides/community/awesome-openrouter.mdx",
       "source": "llms",
@@ -1349,15 +1422,16 @@
         "open-source",
         "contribution-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "074-list-guardrail-member-assignments.md"
     },
     {
-      "file_path": "docs-guides-community-frameworks-and-integrations-overview.md",
+      "file_path": "050-frameworks-integrations.md",
       "title": "Frameworks and Integrations Overview",
       "url": "https://openrouter.ai/docs/guides/community/frameworks-and-integrations-overview.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:15:33.254945-03:00",
-      "description": "title: Frameworks and Integrations Overview subtitle: Using OpenRouter with Popular Frameworks and Integrations headline: Frameworks and Integrations | OpenRouter SDK and Library Support canonical-url: \u003e- [https://openrouter.ai/docs/guides/community/frameworks-and-integrations-overview](https://o...",
+      "description": "title: Frameworks and Integrations Overview subtitle: Using OpenRouter with Popular Frameworks and Integrations headline: Frameworks and Integrations | OpenRouter SDK and Library Support canonical-url: >- [https://openrouter.ai/docs/guides/community/frameworks-and-integrations-overview](https://o...",
       "summary": "This document provides a directory of supported AI frameworks, SDKs, and third-party tools that integrate with OpenRouter. It serves as a central hub for finding documentation on connecting OpenRouter to popular development environments like LangChain, Vercel AI SDK, and various coding assistants.",
       "tags": [
         "sdk-integration",
@@ -1367,10 +1441,11 @@
         "openrouter-ecosystem",
         "library-compatibility"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "075-list-guardrails.md"
     },
     {
-      "file_path": "docs-guides-community-effect-ai-sdk.md",
+      "file_path": "044-effect-ai-sdk.md",
       "title": "Effect AI SDK",
       "url": "https://openrouter.ai/docs/guides/community/effect-ai-sdk.mdx",
       "source": "llms",
@@ -1385,10 +1460,11 @@
         "sdk-setup",
         "streaming-api"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "076-list-key-assignments.md"
     },
     {
-      "file_path": "docs-guides-community-arize.md",
+      "file_path": "014-arize-phoenix.md",
       "title": "Arize",
       "url": "https://openrouter.ai/docs/guides/community/arize.mdx",
       "source": "llms",
@@ -1404,10 +1480,11 @@
         "monitoring",
         "openai-sdk"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "077-list-member-assignments.md"
     },
     {
-      "file_path": "docs-guides-community-langchain.md",
+      "file_path": "064-langchain.md",
       "title": "LangChain",
       "url": "https://openrouter.ai/docs/guides/community/langchain.mdx",
       "source": "llms",
@@ -1422,10 +1499,11 @@
         "llm-integration",
         "chat-models"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "078-list-models-user.md"
     },
     {
-      "file_path": "docs-guides-community-livekit.md",
+      "file_path": "081-livekit.md",
       "title": "LiveKit",
       "url": "https://openrouter.ai/docs/guides/community/livekit.mdx",
       "source": "llms",
@@ -1440,10 +1518,11 @@
         "llm-integration",
         "model-routing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "079-list-models.md"
     },
     {
-      "file_path": "docs-guides-community-langfuse.md",
+      "file_path": "066-langfuse.md",
       "title": "Langfuse",
       "url": "https://openrouter.ai/docs/guides/community/langfuse.mdx",
       "source": "llms",
@@ -1459,10 +1538,11 @@
         "llm-monitoring",
         "integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "080-list-providers.md"
     },
     {
-      "file_path": "docs-guides-community-mastra.md",
+      "file_path": "084-mastra.md",
       "title": "Mastra",
       "url": "https://openrouter.ai/docs/guides/community/mastra.mdx",
       "source": "llms",
@@ -1478,10 +1558,11 @@
         "llm-integration",
         "node-js"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "081-livekit.md"
     },
     {
-      "file_path": "docs-guides-community-openai-sdk.md",
+      "file_path": "099-openai-sdk.md",
       "title": "OpenAI SDK",
       "url": "https://openrouter.ai/docs/guides/community/openai-sdk.mdx",
       "source": "llms",
@@ -1496,10 +1577,11 @@
         "integration",
         "api-client"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "082-logging.md"
     },
     {
-      "file_path": "docs-guides-community-anthropic-agent-sdk.md",
+      "file_path": "003-anthropic-agent-sdk.md",
       "title": "Anthropic Agent SDK",
       "url": "https://openrouter.ai/docs/guides/community/anthropic-agent-sdk.mdx",
       "source": "llms",
@@ -1514,10 +1596,11 @@
         "typescript",
         "integration-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "083-management-api-keys.md"
     },
     {
-      "file_path": "docs-guides-community-pydantic-ai.md",
+      "file_path": "084-mastra.md",
       "title": "PydanticAI",
       "url": "https://openrouter.ai/docs/guides/community/pydantic-ai.mdx",
       "source": "llms",
@@ -1531,10 +1614,11 @@
         "llm-integration",
         "openai-compatibility"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "084-mastra.md"
     },
     {
-      "file_path": "docs-guides-community-tanstack-ai.md",
+      "file_path": "138-tanstack-ai.md",
       "title": "TanStack AI",
       "url": "https://openrouter.ai/docs/guides/community/tanstack-ai.mdx",
       "source": "llms",
@@ -1549,10 +1633,11 @@
         "llm-routing",
         "ai-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "085-mcp-servers.md"
     },
     {
-      "file_path": "docs-guides-community-vercel-ai-sdk.md",
+      "file_path": "171-vercel-ai-sdk.md",
       "title": "Vercel AI SDK",
       "url": "https://openrouter.ai/docs/guides/community/vercel-ai-sdk.mdx",
       "source": "llms",
@@ -1567,10 +1652,11 @@
         "typescript",
         "ai-sdk-provider"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "086-message-transforms.md"
     },
     {
-      "file_path": "docs-guides-community-xcode.md",
+      "file_path": "175-xcode.md",
       "title": "Xcode",
       "url": "https://openrouter.ai/docs/guides/community/xcode.mdx",
       "source": "llms",
@@ -1585,15 +1671,16 @@
         "ai-coding-assistant",
         "llm-provider"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "087-model-fallbacks.md"
     },
     {
-      "file_path": "docs-guides-community-zapier.md",
+      "file_path": "176-zapier.md",
       "title": "Zapier",
       "url": "https://openrouter.ai/docs/guides/community/zapier.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:15:57.753094-03:00",
-      "description": "title: Zapier subtitle: Build AI automations with OpenRouter \u0026 Zapier headline: Zapier Integration | OpenRouter AI Automations 'og:site\\_name': OpenRouter Documentation 'og:title': Zapier Integration - OpenRouter AI Automations 'og:description': \u003e- Build powerful AI automations by connecting Open...",
+      "description": "title: Zapier subtitle: Build AI automations with OpenRouter & Zapier headline: Zapier Integration | OpenRouter AI Automations 'og:site\\_name': OpenRouter Documentation 'og:title': Zapier Integration - OpenRouter AI Automations 'og:description': >- Build powerful AI automations by connecting Open...",
       "summary": "This document explains how to integrate OpenRouter with Zapier to build no-code AI automations using over 300 different models.",
       "tags": [
         "zapier-integration",
@@ -1602,10 +1689,11 @@
         "workflow-automation",
         "openrouter-api"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "088-models-count.md"
     },
     {
-      "file_path": "docs-guides-community-infisical.md",
+      "file_path": "063-infisical.md",
       "title": "Infisical",
       "url": "https://openrouter.ai/docs/guides/community/infisical.mdx",
       "source": "llms",
@@ -1620,10 +1708,11 @@
         "security",
         "key-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "089-models.md"
     },
     {
-      "file_path": "docs-api-reference-overview.md",
+      "file_path": "005-api-embeddings.md",
       "title": "API Reference",
       "url": "https://openrouter.ai/docs/api/reference/overview.mdx",
       "source": "llms",
@@ -1639,10 +1728,11 @@
         "json-schema",
         "api-headers"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "090-multimodal-audio.md"
     },
     {
-      "file_path": "docs-api-reference-embeddings.md",
+      "file_path": "034-create-embeddings.md",
       "title": "Embeddings",
       "url": "https://openrouter.ai/docs/api/reference/embeddings.mdx",
       "source": "llms",
@@ -1658,10 +1748,11 @@
         "batch-processing",
         "text-representation"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "091-multimodal-images.md"
     },
     {
-      "file_path": "docs-api-reference-streaming.md",
+      "file_path": "011-api-streaming.md",
       "title": "Streaming",
       "url": "https://openrouter.ai/docs/api/reference/streaming.mdx",
       "source": "llms",
@@ -1675,10 +1766,11 @@
         "real-time-responses",
         "stream-cancellation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "092-multimodal-overview.md"
     },
     {
-      "file_path": "docs-api-reference-limits.md",
+      "file_path": "008-api-limits.md",
       "title": "Limits",
       "url": "https://openrouter.ai/docs/api/reference/limits.mdx",
       "source": "llms",
@@ -1692,10 +1784,11 @@
         "openrouter-api",
         "free-tier-limits"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "093-multimodal-pdfs.md"
     },
     {
-      "file_path": "docs-api-reference-authentication.md",
+      "file_path": "015-authentication.md",
       "title": "Authentication",
       "url": "https://openrouter.ai/docs/api/reference/authentication.mdx",
       "source": "llms",
@@ -1711,10 +1804,11 @@
         "oauth",
         "sdk-integration"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "094-multimodal-videos.md"
     },
     {
-      "file_path": "docs-api-reference-parameters.md",
+      "file_path": "009-api-parameters.md",
       "title": "Parameters",
       "url": "https://openrouter.ai/docs/api/reference/parameters.mdx",
       "source": "llms",
@@ -1729,10 +1823,11 @@
         "model-inference",
         "token-generation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "095-new-relic.md"
     },
     {
-      "file_path": "docs-api-reference-errors-and-debugging.md",
+      "file_path": "006-api-errors-debugging.md",
       "title": "Errors and Debugging",
       "url": "https://openrouter.ai/docs/api/reference/errors-and-debugging.mdx",
       "source": "llms",
@@ -1748,10 +1843,11 @@
         "openrouter-api",
         "moderation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "096-nitro-variant.md"
     },
     {
-      "file_path": "docs-api-reference-responses-overview.md",
+      "file_path": "121-py-responses.md",
       "title": "Responses API Beta",
       "url": "https://openrouter.ai/docs/api/reference/responses/overview.mdx",
       "source": "llms",
@@ -1767,10 +1863,11 @@
         "tool-calling",
         "web-search"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "097-oauth-pkce.md"
     },
     {
-      "file_path": "docs-api-reference-responses-basic-usage.md",
+      "file_path": "128-responses-api-basic-usage.md",
       "title": "Basic Usage",
       "url": "https://openrouter.ai/docs/api/reference/responses/basic-usage.mdx",
       "source": "llms",
@@ -1785,10 +1882,11 @@
         "streaming",
         "rest-api"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "098-online-variant.md"
     },
     {
-      "file_path": "docs-api-reference-responses-reasoning.md",
+      "file_path": "131-responses-api-reasoning.md",
       "title": "Reasoning",
       "url": "https://openrouter.ai/docs/api/reference/responses/reasoning.mdx",
       "source": "llms",
@@ -1803,10 +1901,11 @@
         "effort-levels",
         "model-configuration"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "099-openai-sdk.md"
     },
     {
-      "file_path": "docs-api-reference-responses-tool-calling.md",
+      "file_path": "140-tool-calling.md",
       "title": "Tool Calling",
       "url": "https://openrouter.ai/docs/api/reference/responses/tool-calling.mdx",
       "source": "llms",
@@ -1821,10 +1920,11 @@
         "api-beta",
         "openai-format"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "100-openclaw.md"
     },
     {
-      "file_path": "docs-api-reference-responses-error-handling.md",
+      "file_path": "129-responses-api-error-handling.md",
       "title": "Error Handling",
       "url": "https://openrouter.ai/docs/api/reference/responses/error-handling.mdx",
       "source": "llms",
@@ -1839,10 +1939,11 @@
         "beta-features",
         "status-codes"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "101-opentelemetry-collector.md"
     },
     {
-      "file_path": "docs-api-reference-responses-web-search.md",
+      "file_path": "173-web-search.md",
       "title": "Web Search",
       "url": "https://openrouter.ai/docs/api/reference/responses/web-search.mdx",
       "source": "llms",
@@ -1857,10 +1958,11 @@
         "api-beta",
         "information-retrieval"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "102-organization-management.md"
     },
     {
-      "file_path": "docs-sdks-agentic-usage.md",
+      "file_path": "002-agentic-usage.md",
       "title": "Agentic Usage",
       "url": "https://openrouter.ai/docs/sdks/agentic-usage.mdx",
       "source": "llms",
@@ -1875,10 +1977,11 @@
         "sdk-integration",
         "typescript"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "103-plugins-overview.md"
     },
     {
-      "file_path": "docs-sdks-dev-tools-devtools.md",
+      "file_path": "042-devtools.md",
       "title": "DevTools",
       "url": "https://openrouter.ai/docs/sdks/dev-tools/devtools.mdx",
       "source": "llms",
@@ -1894,10 +1997,11 @@
         "request-visualization",
         "developer-tools"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "104-posthog.md"
     },
     {
-      "file_path": "docs-sdks-typescript-overview.md",
+      "file_path": "165-typescript-sdk.md",
       "title": "TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/overview.mdx",
       "source": "llms",
@@ -1912,15 +2016,16 @@
         "ai-integration",
         "api-client"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "105-presets.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-overview.md",
+      "file_path": "144-ts-call-model-overview.md",
       "title": "Call Model (Typescript)",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/overview.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:34.337557-03:00",
-      "description": "title: Call Model (Typescript) subtitle: \u003e- A unified API for calling any LLM with automatic tool execution and multiple consumption patterns headline: Call Model Overview (Typescript) | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/overview](https://openro...",
+      "description": "title: Call Model (Typescript) subtitle: >- A unified API for calling any LLM with automatic tool execution and multiple consumption patterns headline: Call Model Overview (Typescript) | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/overview](https://openro...",
       "summary": "This document provides an overview of the callModel function in the OpenRouter TypeScript SDK, detailing how to interact with LLMs through a unified API that supports text generation, streaming, and automated tool execution.",
       "tags": [
         "openrouter-sdk",
@@ -1930,10 +2035,11 @@
         "tool-calling",
         "structured-outputs"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "106-principles.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-working-with-items.md",
+      "file_path": "164-ts-working-with-items.md",
       "title": "Working with Items",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/working-with-items.mdx",
       "source": "llms",
@@ -1948,15 +2054,16 @@
         "state-management",
         "typescript-sdk"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "107-prompt-caching.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-api-reference.md",
+      "file_path": "010-api-reference-overview.md",
       "title": "API Reference",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/api-reference.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:37.489814-03:00",
-      "description": "title: API Reference subtitle: \u003e- Complete reference for the callModel API, ModelResult class, tool types, and helper functions. headline: API Reference | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/api-reference](https://openrouter.ai/docs/sdks/typescrip...",
+      "description": "title: API Reference subtitle: >- Complete reference for the callModel API, ModelResult class, tool types, and helper functions. headline: API Reference | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/api-reference](https://openrouter.ai/docs/sdks/typescrip...",
       "summary": "This document provides a technical specification for the OpenRouter SDK, detailing the callModel function, ModelResult class, and various configuration types for model interactions.",
       "tags": [
         "openrouter-sdk",
@@ -1966,10 +2073,11 @@
         "ai-integration",
         "streaming-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "108-provider-integration.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-dynamic-parameters.md",
+      "file_path": "147-ts-dynamic-parameters.md",
       "title": "Dynamic Parameters",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/dynamic-parameters.mdx",
       "source": "llms",
@@ -1984,15 +2092,16 @@
         "async-functions",
         "context-awareness"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "109-provider-routing.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-next-turn-params.md",
+      "file_path": "154-ts-next-turn-params.md",
       "title": "Next Turn Params",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/next-turn-params.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:41.925481-03:00",
-      "description": "title: Next Turn Params subtitle: \u003e- Build encapsulated, context-aware tools with `nextTurnParams`. Create skills systems, plugins, and adaptive multi-turn agents. headline: Next Turn Params | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/next-turn-params](...",
+      "description": "title: Next Turn Params subtitle: >- Build encapsulated, context-aware tools with `nextTurnParams`. Create skills systems, plugins, and adaptive multi-turn agents. headline: Next Turn Params | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/next-turn-params](...",
       "summary": "This document explains how to use the nextTurnParams feature in the OpenRouter SDK to create tools that can dynamically modify model instructions, parameters, and context for subsequent conversation turns.",
       "tags": [
         "openrouter-sdk",
@@ -2002,15 +2111,16 @@
         "context-injection",
         "ai-development"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "110-py-analytics.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-stop-conditions.md",
+      "file_path": "159-ts-stop-conditions.md",
       "title": "Stop Conditions",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/stop-conditions.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:42.326461-03:00",
-      "description": "title: Stop Conditions subtitle: \u003e- Control multi-turn execution with `stopWhen`. Use built-in helpers or custom conditions to stop by step count, tool calls, cost, or tokens. headline: Stop Conditions | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/stop-co...",
+      "description": "title: Stop Conditions subtitle: >- Control multi-turn execution with `stopWhen`. Use built-in helpers or custom conditions to stop by step count, tool calls, cost, or tokens. headline: Stop Conditions | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/stop-co...",
       "summary": "This document explains how to use stop conditions in the OpenRouter SDK to manage multi-turn execution via built-in helpers or custom logic based on costs, tokens, and tool calls.",
       "tags": [
         "openrouter-sdk",
@@ -2020,15 +2130,16 @@
         "tool-calling",
         "cost-control"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "111-py-apikeys.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-streaming.md",
+      "file_path": "160-ts-streaming.md",
       "title": "Streaming",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/streaming.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:44.214051-03:00",
-      "description": "title: Streaming subtitle: \u003e- Stream responses in real-time with multiple consumption patterns. All streams are built on a reusable stream architecture that supports concurrent consumers. headline: Streaming | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/s...",
+      "description": "title: Streaming subtitle: >- Stream responses in real-time with multiple consumption patterns. All streams are built on a reusable stream architecture that supports concurrent consumers. headline: Streaming | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/s...",
       "summary": "This document explains how to implement real-time response streaming using the OpenRouter TypeScript SDK, covering various methods for handling text, reasoning, and tool calls. It provides guidance on different consumption patterns, including the recommended item-based streaming approach for structured output access.",
       "tags": [
         "openrouter-sdk",
@@ -2039,15 +2150,16 @@
         "reasoning-streaming",
         "api-client"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "112-py-chat.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-text-generation.md",
+      "file_path": "161-ts-text-generation.md",
       "title": "Text Generation",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/text-generation.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:47.216864-03:00",
-      "description": "title: Text Generation subtitle: \u003e- Generate text with callModel using various input formats and model configurations. Supports multiple consumption patterns including text, streaming, and structured output. headline: Text Generation | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sd...",
+      "description": "title: Text Generation subtitle: >- Generate text with callModel using various input formats and model configurations. Supports multiple consumption patterns including text, streaming, and structured output. headline: Text Generation | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sd...",
       "summary": "This document explains how to use the callModel function in the OpenRouter TypeScript SDK to generate text, covering input formats, model selection, response handling, and configuration parameters.",
       "tags": [
         "openrouter-sdk",
@@ -2057,15 +2169,16 @@
         "multimodal",
         "error-handling"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "113-py-credits.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-message-formats.md",
+      "file_path": "152-ts-message-formats.md",
       "title": "Message Formats",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/message-formats.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:47.405327-03:00",
-      "description": "title: Message Formats subtitle: \u003e- The OpenRouter SDK provides helper functions to convert between popular message formats. This makes it easy to migrate existing code or integrate with different APIs. headline: Message Formats | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/ty...",
+      "description": "title: Message Formats subtitle: >- The OpenRouter SDK provides helper functions to convert between popular message formats. This makes it easy to migrate existing code or integrate with different APIs. headline: Message Formats | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/ty...",
       "summary": "This document explains how to use OpenRouter SDK helper functions to convert message formats between OpenAI, Anthropic Claude, and OpenRouter for seamless integration and migration.",
       "tags": [
         "openrouter-sdk",
@@ -2075,15 +2188,16 @@
         "data-conversion",
         "typescript-sdk"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "114-py-embeddings.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-tools.md",
+      "file_path": "162-ts-tools.md",
       "title": "Tools",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/tools.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:50.139075-03:00",
-      "description": "title: Tools subtitle: \u003e- Create type-safe tools with Zod schemas and automatic execution. Supports regular tools, generator tools with progress, manual tools, and automatic multi-turn execution. headline: Tools | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-mod...",
+      "description": "title: Tools subtitle: >- Create type-safe tools with Zod schemas and automatic execution. Supports regular tools, generator tools with progress, manual tools, and automatic multi-turn execution. headline: Tools | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-mod...",
       "summary": "This document explains how to create and manage type-safe tools within the OpenRouter SDK using Zod schemas for validation and automatic execution. It covers various tool types, including regular, generator, and manual tools, along with type inference and conversation context integration.",
       "tags": [
         "openrouter-sdk",
@@ -2093,15 +2207,16 @@
         "type-safety",
         "llm-tools"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "115-py-endpoints.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-examples-weather-tool.md",
+      "file_path": "163-ts-weather-tool.md",
       "title": "Weather Tool",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/examples/weather-tool.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:52.342564-03:00",
-      "description": "title: Weather Tool subtitle: \u003e- A complete weather tool demonstrating external API integration, proper validation, and error handling. headline: Weather Tool Example | OpenRouter SDK canonical-url: \u003e- [https://openrouter.ai/docs/sdks/typescript/call-model/tool-examples/weather-tool](https://open...",
+      "description": "title: Weather Tool subtitle: >- A complete weather tool demonstrating external API integration, proper validation, and error handling. headline: Weather Tool Example | OpenRouter SDK canonical-url: >- [https://openrouter.ai/docs/sdks/typescript/call-model/tool-examples/weather-tool](https://open...",
       "summary": "This document provides a comprehensive guide on building custom tools for the OpenRouter SDK, illustrating external API integration, Zod schema validation, and robust error handling through a practical weather tool example.",
       "tags": [
         "openrouter-sdk",
@@ -2112,15 +2227,16 @@
         "error-handling",
         "weather-api"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "116-py-generations.md"
     },
     {
-      "file_path": "docs-sdks-typescript-call-model-examples-skills-loader.md",
+      "file_path": "158-ts-skills-loader.md",
       "title": "Skills Loader",
       "url": "https://openrouter.ai/docs/sdks/typescript/call-model/examples/skills-loader.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:16:55.596455-03:00",
-      "description": "title: Skills Loader subtitle: \u003e- A complete implementation of a skills system similar to Claude Code, demonstrating the power of `nextTurnParams` for context injection. headline: Skills Loader Example | OpenRouter SDK canonical-url: \u003e- [https://openrouter.ai/docs/sdks/typescript/call-model/tool-...",
+      "description": "title: Skills Loader subtitle: >- A complete implementation of a skills system similar to Claude Code, demonstrating the power of `nextTurnParams` for context injection. headline: Skills Loader Example | OpenRouter SDK canonical-url: >- [https://openrouter.ai/docs/sdks/typescript/call-model/tool-...",
       "summary": "This document demonstrates how to implement a modular skills system using the OpenRouter SDK's nextTurnParams for dynamic context injection and specialized tool management.",
       "tags": [
         "openrouter-sdk",
@@ -2130,10 +2246,11 @@
         "next-turn-params",
         "skills-system"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "117-py-guardrails.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-analytics.md",
+      "file_path": "110-py-analytics.md",
       "title": "Analytics - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/analytics.mdx",
       "source": "llms",
@@ -2148,10 +2265,11 @@
         "user-activity",
         "error-handling"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "118-py-models.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-apikeys.md",
+      "file_path": "111-py-apikeys.md",
       "title": "APIKeys - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/apikeys.mdx",
       "source": "llms",
@@ -2166,10 +2284,11 @@
         "api-reference",
         "sdk-methods"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "119-py-oauth.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-chat.md",
+      "file_path": "026-chat-completion.md",
       "title": "Chat - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/chat.mdx",
       "source": "llms",
@@ -2183,10 +2302,11 @@
         "api-reference",
         "error-handling"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "120-py-providers.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-credits.md",
+      "file_path": "055-get-credits.md",
       "title": "Credits - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/credits.mdx",
       "source": "llms",
@@ -2202,10 +2322,11 @@
         "crypto-payments",
         "sdk-documentation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "121-py-responses.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-embeddings.md",
+      "file_path": "114-py-embeddings.md",
       "title": "Embeddings - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/embeddings.mdx",
       "source": "llms",
@@ -2220,10 +2341,11 @@
         "text-embeddings",
         "sdk"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "122-pydantic-ai.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-generations.md",
+      "file_path": "116-py-generations.md",
       "title": "Generations - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/generations.mdx",
       "source": "llms",
@@ -2238,10 +2360,11 @@
         "metadata",
         "get-generation"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "123-python-sdk.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-endpoints.md",
+      "file_path": "071-list-endpoints-zdr.md",
       "title": "Endpoints - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/endpoints.mdx",
       "source": "llms",
@@ -2255,10 +2378,11 @@
         "sdk-reference",
         "zdr-preview"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "124-quickstart.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-guardrails.md",
+      "file_path": "075-list-guardrails.md",
       "title": "Guardrails - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/guardrails.mdx",
       "source": "llms",
@@ -2273,10 +2397,11 @@
         "content-moderation",
         "sdk-methods"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "125-reasoning-tokens.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-models-models.md",
+      "file_path": "078-list-models-user.md",
       "title": "Models - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/models/models.mdx",
       "source": "llms",
@@ -2290,10 +2415,11 @@
         "models",
         "ai-integration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "126-report-feedback.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-oauth.md",
+      "file_path": "119-py-oauth.md",
       "title": "OAuth - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/oauth.mdx",
       "source": "llms",
@@ -2309,10 +2435,11 @@
         "api-keys",
         "sdk-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "127-response-healing.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-providers.md",
+      "file_path": "080-list-providers.md",
       "title": "Providers - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/providers.mdx",
       "source": "llms",
@@ -2326,10 +2453,11 @@
         "api-reference",
         "sdk-methods"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "128-responses-api-basic-usage.md"
     },
     {
-      "file_path": "docs-sdks-typescript-api-reference-responses.md",
+      "file_path": "129-responses-api-error-handling.md",
       "title": "Beta.Responses - TypeScript SDK",
       "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/responses.mdx",
       "source": "llms",
@@ -2344,10 +2472,11 @@
         "beta-features",
         "error-handling"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "129-responses-api-error-handling.md"
     },
     {
-      "file_path": "docs-sdks-python-overview.md",
+      "file_path": "123-python-sdk.md",
       "title": "Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/overview.mdx",
       "source": "llms",
@@ -2362,10 +2491,11 @@
         "asyncio",
         "pydantic"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "130-responses-api-overview.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-analytics.md",
+      "file_path": "141-ts-analytics.md",
       "title": "Analytics - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/analytics.mdx",
       "source": "llms",
@@ -2380,10 +2510,11 @@
         "api-reference",
         "activity-monitoring"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "131-responses-api-reasoning.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-chat.md",
+      "file_path": "112-py-chat.md",
       "title": "Chat - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/chat.mdx",
       "source": "llms",
@@ -2397,10 +2528,11 @@
         "chat-completions",
         "sdk-documentation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "132-responses-api-tool-calling.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-apikeys.md",
+      "file_path": "143-ts-apikeys.md",
       "title": "APIKeys - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/apikeys.mdx",
       "source": "llms",
@@ -2415,10 +2547,11 @@
         "api-reference",
         "authentication"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "133-responses-api-web-search.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-credits.md",
+      "file_path": "113-py-credits.md",
       "title": "Credits - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/credits.mdx",
       "source": "llms",
@@ -2433,10 +2566,11 @@
         "coinbase",
         "cryptocurrency-payments"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "134-s3-storage.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-embeddings.md",
+      "file_path": "148-ts-embeddings.md",
       "title": "Embeddings - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/embeddings.mdx",
       "source": "llms",
@@ -2450,10 +2584,11 @@
         "api-reference",
         "text-embeddings"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "135-sentry.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-endpoints.md",
+      "file_path": "072-list-endpoints.md",
       "title": "Endpoints - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/endpoints.mdx",
       "source": "llms",
@@ -2468,10 +2603,11 @@
         "zdr-endpoints",
         "ai-models"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "136-snowflake.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-generations.md",
+      "file_path": "150-ts-generations.md",
       "title": "Generations - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/generations.mdx",
       "source": "llms",
@@ -2486,10 +2622,11 @@
         "metadata-retrieval",
         "error-handling"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "137-structured-outputs.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-guardrails.md",
+      "file_path": "117-py-guardrails.md",
       "title": "Guardrails - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/guardrails.mdx",
       "source": "llms",
@@ -2504,10 +2641,11 @@
         "usage-limits",
         "access-control"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "138-tanstack-ai.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-models-models.md",
+      "file_path": "079-list-models.md",
       "title": "Models - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/models/models.mdx",
       "source": "llms",
@@ -2522,10 +2660,11 @@
         "model-discovery",
         "llm-integration"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "139-thinking-variant.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-oauth.md",
+      "file_path": "155-ts-oauth.md",
       "title": "OAuth - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/oauth.mdx",
       "source": "llms",
@@ -2540,10 +2679,11 @@
         "api-keys",
         "openrouter"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "140-tool-calling.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-responses.md",
+      "file_path": "130-responses-api-overview.md",
       "title": "Responses - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/responses.mdx",
       "source": "llms",
@@ -2558,10 +2698,11 @@
         "ai-integration",
         "beta-feature"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "141-ts-analytics.md"
     },
     {
-      "file_path": "docs-sdks-python-api-reference-providers.md",
+      "file_path": "120-py-providers.md",
       "title": "Providers - Python SDK",
       "url": "https://openrouter.ai/docs/sdks/python/api-reference/providers.mdx",
       "source": "llms",
@@ -2575,10 +2716,11 @@
         "list-providers",
         "provider-information"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "142-ts-api-reference.md"
     },
     {
-      "file_path": "docs-api-api-reference-responses-create-responses.md",
+      "file_path": "036-create-response.md",
       "title": "Create a response",
       "url": "https://openrouter.ai/docs/api/api-reference/responses/create-responses.mdx",
       "source": "llms",
@@ -2593,10 +2735,11 @@
         "http-post",
         "json-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "143-ts-apikeys.md"
     },
     {
-      "file_path": "docs-api-api-reference-o-auth-exchange-auth-code-for-api-key.md",
+      "file_path": "047-exchange-auth-code.md",
       "title": "Exchange authorization code for API key",
       "url": "https://openrouter.ai/docs/api/api-reference/o-auth/exchange-auth-code-for-api-key.mdx",
       "source": "llms",
@@ -2611,10 +2754,11 @@
         "authorization-code",
         "rest-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "144-ts-call-model-overview.md"
     },
     {
-      "file_path": "docs-api-api-reference-o-auth-create-auth-keys-code.md",
+      "file_path": "032-create-auth-code.md",
       "title": "Create authorization code",
       "url": "https://openrouter.ai/docs/api/api-reference/o-auth/create-auth-keys-code.mdx",
       "source": "llms",
@@ -2629,10 +2773,11 @@
         "api-key-generation",
         "authentication"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "145-ts-chat.md"
     },
     {
-      "file_path": "docs-api-api-reference-anthropic-messages-create-messages.md",
+      "file_path": "031-create-api-key.md",
       "title": "Create a message",
       "url": "https://openrouter.ai/docs/api/api-reference/anthropic-messages/create-messages.mdx",
       "source": "llms",
@@ -2647,10 +2792,11 @@
         "messaging",
         "openapi-specification"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "146-ts-credits.md"
     },
     {
-      "file_path": "docs-api-api-reference-analytics-get-user-activity.md",
+      "file_path": "059-get-user-activity.md",
       "title": "Get user activity grouped by endpoint",
       "url": "https://openrouter.ai/docs/api/api-reference/analytics/get-user-activity.mdx",
       "source": "llms",
@@ -2665,10 +2811,11 @@
         "endpoint-analytics",
         "management-key"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "147-ts-dynamic-parameters.md"
     },
     {
-      "file_path": "docs-api-api-reference-credits-get-credits.md",
+      "file_path": "054-get-api-key.md",
       "title": "Get remaining credits",
       "url": "https://openrouter.ai/docs/api/api-reference/credits/get-credits.mdx",
       "source": "llms",
@@ -2682,10 +2829,11 @@
         "rest-endpoint",
         "management-key"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "148-ts-embeddings.md"
     },
     {
-      "file_path": "docs-api-api-reference-embeddings-create-embeddings.md",
+      "file_path": "149-ts-endpoints.md",
       "title": "Submit an embedding request",
       "url": "https://openrouter.ai/docs/api/api-reference/embeddings/create-embeddings.mdx",
       "source": "llms",
@@ -2700,10 +2848,11 @@
         "openapi-specification",
         "machine-learning"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "149-ts-endpoints.md"
     },
     {
-      "file_path": "docs-api-api-reference-embeddings-list-embeddings-models.md",
+      "file_path": "069-list-api-keys.md",
       "title": "List all embeddings models",
       "url": "https://openrouter.ai/docs/api/api-reference/embeddings/list-embeddings-models.mdx",
       "source": "llms",
@@ -2718,10 +2867,11 @@
         "model-discovery",
         "machine-learning"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "150-ts-generations.md"
     },
     {
-      "file_path": "docs-api-api-reference-credits-create-coinbase-charge.md",
+      "file_path": "033-create-coinbase-charge.md",
       "title": "Create a Coinbase charge for crypto payment",
       "url": "https://openrouter.ai/docs/api/api-reference/credits/create-coinbase-charge.mdx",
       "source": "llms",
@@ -2736,10 +2886,11 @@
         "blockchain",
         "web3-integration"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "151-ts-guardrails.md"
     },
     {
-      "file_path": "docs-api-api-reference-models-list-models-count.md",
+      "file_path": "088-models-count.md",
       "title": "Get total count of available models",
       "url": "https://openrouter.ai/docs/api/api-reference/models/list-models-count.mdx",
       "source": "llms",
@@ -2753,11 +2904,12 @@
         "api-documentation",
         "developer-tools"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "152-ts-message-formats.md"
     },
     {
-      "file_path": "docs-api-api-reference-generations-get-generation.md",
-      "title": "Get request \u0026 usage metadata for a generation",
+      "file_path": "057-get-generation.md",
+      "title": "Get request & usage metadata for a generation",
       "url": "https://openrouter.ai/docs/api/api-reference/generations/get-generation.mdx",
       "source": "llms",
       "fetched_at": "2026-02-13T15:17:56.574803-03:00",
@@ -2771,10 +2923,11 @@
         "token-usage",
         "openapi-specification"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "153-ts-models.md"
     },
     {
-      "file_path": "docs-api-api-reference-models-get-models.md",
+      "file_path": "073-list-guardrail-key-assignments.md",
       "title": "List all models and their properties",
       "url": "https://openrouter.ai/docs/api/api-reference/models/get-models.mdx",
       "source": "llms",
@@ -2789,10 +2942,11 @@
         "pricing-details",
         "ai-models"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "154-ts-next-turn-params.md"
     },
     {
-      "file_path": "docs-api-api-reference-endpoints-list-endpoints-zdr.md",
+      "file_path": "115-py-endpoints.md",
       "title": "Preview the impact of ZDR on the available endpoints",
       "url": "https://openrouter.ai/docs/api/api-reference/endpoints/list-endpoints-zdr.mdx",
       "source": "llms",
@@ -2807,10 +2961,11 @@
         "model-pricing",
         "provider-data"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "155-ts-oauth.md"
     },
     {
-      "file_path": "docs-api-api-reference-endpoints-list-endpoints.md",
+      "file_path": "074-list-guardrail-member-assignments.md",
       "title": "List all endpoints for a model",
       "url": "https://openrouter.ai/docs/api/api-reference/endpoints/list-endpoints.mdx",
       "source": "llms",
@@ -2825,10 +2980,11 @@
         "openapi-spec",
         "pricing-data"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "156-ts-providers.md"
     },
     {
-      "file_path": "docs-api-api-reference-models-list-models-user.md",
+      "file_path": "076-list-key-assignments.md",
       "title": "List models filtered by user provider preferences, privacy settings, and guardrails",
       "url": "https://openrouter.ai/docs/api/api-reference/models/list-models-user.mdx",
       "source": "llms",
@@ -2843,10 +2999,11 @@
         "privacy-settings",
         "api-reference"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "157-ts-responses.md"
     },
     {
-      "file_path": "docs-api-api-reference-providers-list-providers.md",
+      "file_path": "077-list-member-assignments.md",
       "title": "List all providers",
       "url": "https://openrouter.ai/docs/api/api-reference/providers/list-providers.mdx",
       "source": "llms",
@@ -2860,10 +3017,11 @@
         "http-get",
         "rest-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "158-ts-skills-loader.md"
     },
     {
-      "file_path": "docs-api-api-reference-api-keys-list.md",
+      "file_path": "021-bulk-assign-keys.md",
       "title": "List API keys",
       "url": "https://openrouter.ai/docs/api/api-reference/api-keys/list.mdx",
       "source": "llms",
@@ -2877,10 +3035,11 @@
         "endpoint-reference",
         "authentication"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "159-ts-stop-conditions.md"
     },
     {
-      "file_path": "docs-api-api-reference-api-keys-create-keys.md",
+      "file_path": "035-create-guardrail.md",
       "title": "Create a new API key",
       "url": "https://openrouter.ai/docs/api/api-reference/api-keys/create-keys.mdx",
       "source": "llms",
@@ -2895,10 +3054,11 @@
         "spending-limits",
         "bearer-token"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "160-ts-streaming.md"
     },
     {
-      "file_path": "docs-api-api-reference-api-keys-update-keys.md",
+      "file_path": "166-update-api-key.md",
       "title": "Update an API key",
       "url": "https://openrouter.ai/docs/api/api-reference/api-keys/update-keys.mdx",
       "source": "llms",
@@ -2912,10 +3072,11 @@
         "patch-endpoint",
         "spending-limits"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "161-ts-text-generation.md"
     },
     {
-      "file_path": "docs-api-api-reference-api-keys-get-key.md",
+      "file_path": "056-get-current-key.md",
       "title": "Get a single API key",
       "url": "https://openrouter.ai/docs/api/api-reference/api-keys/get-key.mdx",
       "source": "llms",
@@ -2930,10 +3091,11 @@
         "management-api",
         "endpoint-reference"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "162-ts-tools.md"
     },
     {
-      "file_path": "docs-api-api-reference-api-keys-delete-keys.md",
+      "file_path": "040-delete-api-key.md",
       "title": "Delete an API key",
       "url": "https://openrouter.ai/docs/api/api-reference/api-keys/delete-keys.mdx",
       "source": "llms",
@@ -2948,10 +3110,11 @@
         "authentication",
         "endpoint-reference"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "163-ts-weather-tool.md"
     },
     {
-      "file_path": "docs-api-api-reference-api-keys-get-current-key.md",
+      "file_path": "058-get-guardrail.md",
       "title": "Get current API key",
       "url": "https://openrouter.ai/docs/api/api-reference/api-keys/get-current-key.mdx",
       "source": "llms",
@@ -2966,10 +3129,11 @@
         "authentication",
         "rate-limits"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "164-ts-working-with-items.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-list-guardrails.md",
+      "file_path": "151-ts-guardrails.md",
       "title": "List guardrails",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrails.mdx",
       "source": "llms",
@@ -2984,10 +3148,11 @@
         "authentication",
         "pagination"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "165-typescript-sdk.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-create-guardrail.md",
+      "file_path": "041-delete-guardrail.md",
       "title": "Create a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/create-guardrail.mdx",
       "source": "llms",
@@ -3002,10 +3167,11 @@
         "model-filtering",
         "data-retention"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "166-update-api-key.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-get-guardrail.md",
+      "file_path": "167-update-guardrail.md",
       "title": "Get a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/get-guardrail.mdx",
       "source": "llms",
@@ -3019,10 +3185,11 @@
         "rest-api",
         "endpoint-reference"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "167-update-guardrail.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-delete-guardrail.md",
+      "file_path": "168-uptime-optimization.md",
       "title": "Delete a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/delete-guardrail.mdx",
       "source": "llms",
@@ -3036,10 +3203,11 @@
         "management-api",
         "api-reference"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "168-uptime-optimization.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-update-guardrail.md",
+      "file_path": "169-usage-accounting.md",
       "title": "Update a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/update-guardrail.mdx",
       "source": "llms",
@@ -3054,10 +3222,11 @@
         "usage-limits",
         "patch-request"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "169-usage-accounting.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-list-key-assignments.md",
+      "file_path": "170-user-tracking.md",
       "title": "List all key assignments",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-key-assignments.mdx",
       "source": "llms",
@@ -3072,10 +3241,11 @@
         "rest-endpoint",
         "authentication"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "170-user-tracking.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-list-member-assignments.md",
+      "file_path": "171-vercel-ai-sdk.md",
       "title": "List all member assignments",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-member-assignments.mdx",
       "source": "llms",
@@ -3089,10 +3259,11 @@
         "rest-api",
         "authentication"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "171-vercel-ai-sdk.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-list-guardrail-key-assignments.md",
+      "file_path": "172-weave.md",
       "title": "List key assignments for a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrail-key-assignments.mdx",
       "source": "llms",
@@ -3106,10 +3277,11 @@
         "key-management",
         "authentication"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "172-weave.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-bulk-assign-keys-to-guardrail.md",
+      "file_path": "022-bulk-assign-members.md",
       "title": "Bulk assign keys to a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-assign-keys-to-guardrail.mdx",
       "source": "llms",
@@ -3123,10 +3295,11 @@
         "bulk-operations",
         "authentication"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "173-web-search.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-bulk-assign-members-to-guardrail.md",
+      "file_path": "024-bulk-unassign-members.md",
       "title": "Bulk assign members to a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-assign-members-to-guardrail.mdx",
       "source": "llms",
@@ -3140,10 +3313,11 @@
         "member-management",
         "management-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "174-webhook.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-list-guardrail-member-assignments.md",
+      "file_path": "175-xcode.md",
       "title": "List member assignments for a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrail-member-assignments.mdx",
       "source": "llms",
@@ -3157,10 +3331,11 @@
         "api-reference",
         "management-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "175-xcode.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-bulk-unassign-keys-from-guardrail.md",
+      "file_path": "023-bulk-unassign-keys.md",
       "title": "Bulk unassign keys from a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-unassign-keys-from-guardrail.mdx",
       "source": "llms",
@@ -3175,10 +3350,11 @@
         "key-management",
         "management-api"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "176-zapier.md"
     },
     {
-      "file_path": "docs-api-api-reference-guardrails-bulk-unassign-members-from-guardrail.md",
+      "file_path": "177-zero-completion-insurance.md",
       "title": "Bulk unassign members from a guardrail",
       "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-unassign-members-from-guardrail.mdx",
       "source": "llms",
@@ -3192,10 +3368,11 @@
         "organization-members",
         "openrouter"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "177-zero-completion-insurance.md"
     },
     {
-      "file_path": "docs-api-api-reference-chat-send-chat-completion-request.md",
+      "file_path": "145-ts-chat.md",
       "title": "Create a chat completion",
       "url": "https://openrouter.ai/docs/api/api-reference/chat/send-chat-completion-request.mdx",
       "source": "llms",
@@ -3210,7 +3387,31 @@
         "openapi-specification",
         "json-schema"
       ],
-      "category": "api"
+      "category": "api",
+      "original_file_path": "178-zero-data-retention.md"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-13T18:39:52.346854Z",
+    "total_files": 178,
+    "categories": [
+      "Introduction & Quickstart",
+      "Concepts & Overview",
+      "Multimodal Capabilities",
+      "Authentication & Security",
+      "Routing & Fallbacks",
+      "Model Variants",
+      "Features",
+      "Broadcast / Observability",
+      "Privacy & Data",
+      "Best Practices",
+      "Use Cases & Guides",
+      "Community & Integrations",
+      "SDKs",
+      "API Reference",
+      "Responses API",
+      "Full API Endpoints"
+    ]
+  }
 }

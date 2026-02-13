@@ -1,0 +1,3216 @@
+{
+  "generated_at": "2026-02-13T15:18:42.716285-03:00",
+  "source_url": "https://openrouter.ai/docs/llms.txt",
+  "strategy": "llms",
+  "total_documents": 178,
+  "documents": [
+    {
+      "file_path": "docs-guides-overview-models.md",
+      "title": "Models",
+      "url": "https://openrouter.ai/docs/guides/overview/models.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:12.820912-03:00",
+      "description": "title: Models subtitle: One API for hundreds of models headline: OpenRouter Models | Access 400+ AI Models Through One API canonical-url: '[https://openrouter.ai/docs/guides/overview/models](https://openrouter.ai/docs/guides/overview/models)' 'og:site\\_name': OpenRouter Documentation 'og:title': ...",
+      "summary": "This document explains the standardized schema and metadata fields for the OpenRouter Models API, providing details on how to programmatically access information for over 400 AI models.",
+      "tags": [
+        "openrouter-api",
+        "llm-models",
+        "api-schema",
+        "model-metadata",
+        "pricing-structure",
+        "api-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://openrouter.ai/docs/quickstart.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:12.669081-03:00",
+      "description": "title: Quickstart subtitle: Get started with OpenRouter slug: quickstart headline: OpenRouter Quickstart Guide | Developer Documentation canonical-url: '[https://openrouter.ai/docs/quickstart](https://openrouter.ai/docs/quickstart)' 'og:site\\_name': OpenRouter Documentation 'og:title': OpenRouter...",
+      "summary": "This document provides instructions and code examples for getting started with OpenRouter's unified API using its official SDK, direct HTTP requests, or the OpenAI SDK. It covers installation, authentication, and making initial chat completion requests across multiple AI models.",
+      "tags": [
+        "openrouter-api",
+        "sdk-integration",
+        "quickstart",
+        "typescript",
+        "python",
+        "chat-completions",
+        "ai-models"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-guides-overview-principles.md",
+      "title": "Principles",
+      "url": "https://openrouter.ai/docs/guides/overview/principles.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:13.052986-03:00",
+      "description": "title: Principles subtitle: Core principles and values of OpenRouter headline: Principles | OpenRouter's Core Values and Mission canonical-url: '[https://openrouter.ai/docs/guides/overview/principles](https://openrouter.ai/docs/guides/overview/principles)' 'og:site\\_name': OpenRouter Documentatio...",
+      "summary": "This document outlines the core mission and guiding principles of OpenRouter, detailing its focus on price optimization, API standardization, and high availability for multi-model AI deployment.",
+      "tags": [
+        "openrouter",
+        "ai-infrastructure",
+        "multi-model",
+        "api-standardization",
+        "price-optimization",
+        "high-availability"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-guides-overview-multimodal-overview.md",
+      "title": "Multimodal Capabilities",
+      "url": "https://openrouter.ai/docs/guides/overview/multimodal/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:19.341353-03:00",
+      "description": "title: Multimodal Capabilities subtitle: 'Send images, PDFs, audio, and video to OpenRouter models' headline: OpenRouter Multimodal | Complete Documentation canonical-url: '[https://openrouter.ai/docs/guides/overview/multimodal/overview](https://openrouter.ai/docs/guides/overview/multimodal/overv...",
+      "summary": "This document provides an overview of OpenRouter's multimodal capabilities, explaining how to send images, PDFs, audio, and video to supported AI models via a unified API.",
+      "tags": [
+        "multimodal-api",
+        "image-processing",
+        "pdf-handling",
+        "audio-analysis",
+        "video-capabilities",
+        "openrouter-api",
+        "file-encoding"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-multimodal-image-generation.md",
+      "title": "Image Generation",
+      "url": "https://openrouter.ai/docs/guides/overview/multimodal/image-generation.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:21.196415-03:00",
+      "description": "title: Image Generation subtitle: How to generate images with OpenRouter models headline: OpenRouter Image Generation | Complete Documentation canonical-url: '[https://openrouter.ai/docs/guides/overview/multimodal/image-generation](https://openrouter.ai/docs/guides/overview/multimodal/image-gener...",
+      "summary": "This guide explains how to generate images using OpenRouter's API, covering model discovery, request parameters, and advanced configuration for aspect ratios and image quality.",
+      "tags": [
+        "openrouter",
+        "image-generation",
+        "api-reference",
+        "multimodal",
+        "text-to-image",
+        "image-config",
+        "ai-models"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-multimodal-images.md",
+      "title": "Image Inputs",
+      "url": "https://openrouter.ai/docs/guides/overview/multimodal/images.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:19.95321-03:00",
+      "description": "title: Image Inputs subtitle: How to send images to OpenRouter models headline: OpenRouter Image Inputs | Complete Documentation canonical-url: '[https://openrouter.ai/docs/guides/overview/multimodal/images](https://openrouter.ai/docs/guides/overview/multimodal/images)' 'og:site\\_name': OpenRoute...",
+      "summary": "This document explains how to send images to multimodal vision models via the OpenRouter API using both public URLs and base64-encoded data strings. It outlines the specific request structure for the chat completions endpoint and provides implementation examples in Python and TypeScript.",
+      "tags": [
+        "openrouter-api",
+        "multimodal",
+        "image-inputs",
+        "vision-models",
+        "base64-encoding",
+        "api-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-multimodal-pdfs.md",
+      "title": "PDF Inputs",
+      "url": "https://openrouter.ai/docs/guides/overview/multimodal/pdfs.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:25.503671-03:00",
+      "description": "title: PDF Inputs subtitle: How to send PDFs to OpenRouter models headline: OpenRouter PDF Inputs | Complete Documentation canonical-url: '[https://openrouter.ai/docs/guides/overview/multimodal/pdfs](https://openrouter.ai/docs/guides/overview/multimodal/pdfs)' 'og:site\\_name': OpenRouter Document...",
+      "summary": "This document explains how to send PDF documents to models via the OpenRouter API using direct URLs or base64-encoded data. it details how to configure various processing engines like Mistral OCR and native file support through the plugin system.",
+      "tags": [
+        "openrouter",
+        "pdf-processing",
+        "multimodal",
+        "ocr",
+        "api-integration",
+        "file-parser"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-multimodal-videos.md",
+      "title": "Video Inputs",
+      "url": "https://openrouter.ai/docs/guides/overview/multimodal/videos.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:27.595841-03:00",
+      "description": "title: Video Inputs subtitle: How to send video files to OpenRouter models headline: OpenRouter Video Inputs | Complete Documentation canonical-url: '[https://openrouter.ai/docs/guides/overview/multimodal/videos](https://openrouter.ai/docs/guides/overview/multimodal/videos)' 'og:site\\_name': Open...",
+      "summary": "This document explains how to send video files to compatible models via the OpenRouter API using direct URLs or base64-encoded data URLs.",
+      "tags": [
+        "openrouter",
+        "video-input",
+        "multimodal",
+        "api-integration",
+        "base64-encoding",
+        "video-processing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-multimodal-audio.md",
+      "title": "Audio Inputs",
+      "url": "https://openrouter.ai/docs/guides/overview/multimodal/audio.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:27.106356-03:00",
+      "description": "title: Audio Inputs subtitle: How to send audio files to OpenRouter models headline: OpenRouter Audio Inputs | Complete Documentation canonical-url: '[https://openrouter.ai/docs/guides/overview/multimodal/audio](https://openrouter.ai/docs/guides/overview/multimodal/audio)' 'og:site\\_name': OpenRo...",
+      "summary": "This guide explains how to send base64-encoded audio files to speech-capable models using the OpenRouter API.",
+      "tags": [
+        "openrouter",
+        "audio-input",
+        "multimodal",
+        "base64-encoding",
+        "api-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-auth-oauth.md",
+      "title": "OAuth PKCE",
+      "url": "https://openrouter.ai/docs/guides/overview/auth/oauth.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:31.332192-03:00",
+      "description": "title: OAuth PKCE subtitle: Connect your users to OpenRouter headline: OAuth PKCE | Secure Authentication for OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/overview/auth/oauth](https://openrouter.ai/docs/guides/overview/auth/oauth)' 'og:site\\_name': OpenRouter Documentation 'og:ti...",
+      "summary": "This document provides a step-by-step guide for implementing secure user authentication with OpenRouter using the OAuth PKCE flow. It explains how to authorize users, exchange codes for API keys, and maintain security through code challenges.",
+      "tags": [
+        "oauth-pkce",
+        "authentication",
+        "openrouter-api",
+        "security",
+        "authorization-code-flow",
+        "user-auth",
+        "api-keys"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-auth-management-api-keys.md",
+      "title": "Management API Keys",
+      "url": "https://openrouter.ai/docs/guides/overview/auth/management-api-keys.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:33.573258-03:00",
+      "description": "title: Management API Keys subtitle: Manage API keys programmatically headline: Management API Keys | Programmatic Control of OpenRouter API Keys canonical-url: '[https://openrouter.ai/docs/guides/overview/auth/management-api-keys](https://openrouter.ai/docs/guides/overview/auth/management-api-ke...",
+      "summary": "This document explains how to programmatically create, manage, and monitor OpenRouter API keys using dedicated administrative endpoints and Management API keys.",
+      "tags": [
+        "openrouter",
+        "api-key-management",
+        "programmatic-access",
+        "key-rotation",
+        "rest-api",
+        "administrative-operations"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-auth-byok.md",
+      "title": "BYOK",
+      "url": "https://openrouter.ai/docs/guides/overview/auth/byok.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:33.530865-03:00",
+      "description": "title: BYOK subtitle: Bring your own provider API keys headline: BYOK | Use Your Own Provider Keys with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/overview/auth/byok](https://openrouter.ai/docs/guides/overview/auth/byok)' 'og:site\\_name': OpenRouter Documentation 'og:title': BY...",
+      "summary": "This document explains how users can integrate their own AI provider API keys with OpenRouter to manage rate limits and costs directly while using the platform's unified interface. It details configuration steps for providers like Azure and AWS Bedrock and outlines the priority and fallback logic for BYOK routing.",
+      "tags": [
+        "openrouter",
+        "byok",
+        "api-keys",
+        "azure-ai",
+        "aws-bedrock",
+        "provider-routing",
+        "rate-limits"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-overview-report-feedback.md",
+      "title": "Report Feedback",
+      "url": "https://openrouter.ai/docs/guides/overview/report-feedback.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:38.730614-03:00",
+      "description": "title: Report Feedback headline: Report Feedback | Submit Bug Reports on OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/report-feedback](https://openrouter.ai/docs/guides/guides/report-feedback)' 'og:site\\_name': OpenRouter Documentation 'og:title': Report Feedback - Submit ...",
+      "summary": "This guide explains how to report bugs and provide feedback on AI generations using OpenRouter's Chatroom and Activity features.",
+      "tags": [
+        "openrouter",
+        "bug-reporting",
+        "user-feedback",
+        "ai-generations",
+        "activity-page",
+        "troubleshooting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-fallbacks.md",
+      "title": "Model Fallbacks",
+      "url": "https://openrouter.ai/docs/guides/routing/model-fallbacks.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:40.382489-03:00",
+      "description": "title: Model Fallbacks subtitle: Automatic failover between models headline: Model Fallbacks | Reliable AI with Automatic Failover canonical-url: '[https://openrouter.ai/docs/guides/routing/model-fallbacks](https://openrouter.ai/docs/guides/routing/model-fallbacks)' 'og:site\\_name': OpenRouter Do...",
+      "summary": "This document explains how to implement automatic model fallbacks on OpenRouter to ensure request reliability when primary models encounter errors, rate limits, or downtime.",
+      "tags": [
+        "model-fallbacks",
+        "failover",
+        "error-handling",
+        "high-availability",
+        "api-routing",
+        "openrouter"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-faq.md",
+      "title": "Frequently Asked Questions",
+      "url": "https://openrouter.ai/docs/faq.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:37.335317-03:00",
+      "description": "title: Frequently Asked Questions subtitle: Common questions about OpenRouter slug: faq headline: OpenRouter FAQ | Developer Documentation canonical-url: '[https://openrouter.ai/docs/faq](https://openrouter.ai/docs/faq)' 'og:site\\_name': OpenRouter Documentation 'og:title': OpenRouter FAQ 'og:des...",
+      "summary": "This document provides answers to common questions regarding OpenRouter's unified API, including account setup, pricing structures, model access, and technical features.",
+      "tags": [
+        "faq",
+        "openrouter",
+        "billing",
+        "model-variants",
+        "llm-api",
+        "byok",
+        "routing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-provider-selection.md",
+      "title": "Provider Routing",
+      "url": "https://openrouter.ai/docs/guides/routing/provider-selection.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:44.607579-03:00",
+      "description": "title: Provider Routing subtitle: Route requests to the best provider headline: Provider Routing | Intelligent Multi-Provider Request Routing canonical-url: '[https://openrouter.ai/docs/guides/routing/provider-selection](https://openrouter.ai/docs/guides/routing/provider-selection)' 'og:site\\_nam...",
+      "summary": "This guide explains how to customize request routing across different AI model providers using OpenRouter's provider object. It covers default load balancing strategies and advanced options for optimizing cost, performance, and reliability.",
+      "tags": [
+        "provider-routing",
+        "openrouter",
+        "load-balancing",
+        "api-configuration",
+        "performance-optimization",
+        "data-residency"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-variants-free.md",
+      "title": "Free Variant",
+      "url": "https://openrouter.ai/docs/guides/routing/model-variants/free.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:46.246818-03:00",
+      "description": "title: Free Variant subtitle: 'Access free models with the :free variant' headline: Free Variant | Free Model Access canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/free](https://openrouter.ai/docs/guides/routing/model-variants/free)' 'og:site\\_name': OpenRouter Document...",
+      "summary": "This document explains how to access cost-free versions of models on OpenRouter by appending the :free suffix to model identifiers.",
+      "tags": [
+        "openrouter",
+        "free-models",
+        "model-variants",
+        "api-usage",
+        "rate-limits"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-variants-extended.md",
+      "title": "Extended Variant",
+      "url": "https://openrouter.ai/docs/guides/routing/model-variants/extended.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:47.606741-03:00",
+      "description": "title: Extended Variant subtitle: 'Extended context windows with :extended' headline: Extended Variant | Extended Context Windows canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/extended](https://openrouter.ai/docs/guides/routing/model-variants/extended)' 'og:site\\_name'...",
+      "summary": "This document explains how to use the :extended variant suffix on OpenRouter to access model versions with larger context windows. It provides instructions on appending the suffix to model IDs to handle longer inputs and conversation histories.",
+      "tags": [
+        "openrouter",
+        "model-variants",
+        "context-window",
+        "extended-context",
+        "routing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-variants-exacto.md",
+      "title": "Exacto Variant",
+      "url": "https://openrouter.ai/docs/guides/routing/model-variants/exacto.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:49.925212-03:00",
+      "description": "title: Exacto Variant subtitle: Route requests through OpenRouter-curated providers headline: Exacto Variant | Curated provider routing for consistent quality canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/exacto](https://openrouter.ai/docs/guides/routing/model-variants...",
+      "summary": "This document explains how to use OpenRouter's Exacto model variant to route requests through curated providers optimized for tool-calling accuracy and reliable performance.",
+      "tags": [
+        "openrouter",
+        "model-variants",
+        "tool-calling",
+        "routing-strategy",
+        "provider-selection",
+        "agentic-workflows"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-variants-thinking.md",
+      "title": "Thinking Variant",
+      "url": "https://openrouter.ai/docs/guides/routing/model-variants/thinking.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:51.073237-03:00",
+      "description": "title: Thinking Variant subtitle: 'Enable extended reasoning with :thinking' headline: Thinking Variant | Extended Reasoning canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/thinking](https://openrouter.ai/docs/guides/routing/model-variants/thinking)' 'og:site\\_name': Ope...",
+      "summary": "This document explains how to use the :thinking model variant on OpenRouter to enable extended reasoning and chain-of-thought capabilities for complex problem-solving.",
+      "tags": [
+        "openrouter",
+        "model-variants",
+        "thinking-variant",
+        "extended-reasoning",
+        "chain-of-thought",
+        "ai-inference"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-variants-online.md",
+      "title": "Online Variant",
+      "url": "https://openrouter.ai/docs/guides/routing/model-variants/online.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:52.621244-03:00",
+      "description": "title: Online Variant subtitle: 'Real-time web search with :online' headline: Online Variant | Real-Time Web Search canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/online](https://openrouter.ai/docs/guides/routing/model-variants/online)' 'og:site\\_name': OpenRouter Docum...",
+      "summary": "This document explains how to use the :online model variant to enable real-time web search capabilities for models on OpenRouter.",
+      "tags": [
+        "openrouter",
+        "web-search",
+        "model-variants",
+        "real-time-data",
+        "api-plugins"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-model-variants-nitro.md",
+      "title": "Nitro Variant",
+      "url": "https://openrouter.ai/docs/guides/routing/model-variants/nitro.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:54.969117-03:00",
+      "description": "title: Nitro Variant subtitle: 'High-speed model inference with :nitro' headline: Nitro Variant | High-Speed Inference canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/nitro](https://openrouter.ai/docs/guides/routing/model-variants/nitro)' 'og:site\\_name': OpenRouter Docu...",
+      "summary": "This document explains how to use the :nitro variant alias to prioritize high-throughput providers for faster model inference on OpenRouter.",
+      "tags": [
+        "openrouter",
+        "nitro-variant",
+        "throughput",
+        "model-routing",
+        "inference-speed",
+        "api-optimization"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-routers-auto-router.md",
+      "title": "Auto Router",
+      "url": "https://openrouter.ai/docs/guides/routing/routers/auto-router.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:55.760301-03:00",
+      "description": "title: Auto Router subtitle: Automatically select the best model for your prompt headline: Auto Router | Smart AI Model Selection canonical-url: '[https://openrouter.ai/docs/guides/routing/routers/auto-router](https://openrouter.ai/docs/guides/routing/routers/auto-router)' 'og:site\\_name': OpenRo...",
+      "summary": "This document explains how to implement OpenRouter's Auto Router feature to dynamically select the most suitable AI model for a specific prompt based on performance and task requirements. It provides instructions for usage via API, response handling, and configuring specific model filters through plugins.",
+      "tags": [
+        "openrouter",
+        "auto-router",
+        "model-selection",
+        "dynamic-routing",
+        "llm-orchestration",
+        "api-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-routers-body-builder.md",
+      "title": "Body Builder",
+      "url": "https://openrouter.ai/docs/guides/routing/routers/body-builder.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:13:58.194481-03:00",
+      "description": "title: Body Builder subtitle: Generate multiple parallel API requests from natural language headline: Body Builder | Multi-Model Request Generation canonical-url: '[https://openrouter.ai/docs/guides/routing/routers/body-builder](https://openrouter.ai/docs/guides/routing/routers/body-builder)' 'og...",
+      "summary": "This document explains how to use Body Builder, a tool that converts natural language prompts into multiple structured API requests for running tasks across different models in parallel.",
+      "tags": [
+        "openrouter-api",
+        "request-generation",
+        "multi-model-execution",
+        "parallel-processing",
+        "developer-tools",
+        "api-automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-routing-routers-free-models-router.md",
+      "title": "Free Models Router",
+      "url": "https://openrouter.ai/docs/guides/routing/routers/free-models-router.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:00.475777-03:00",
+      "description": "title: Free Models Router subtitle: Get free AI inference by routing to available free models headline: Free Models Router | Zero-Cost AI Inference canonical-url: '[https://openrouter.ai/docs/guides/routing/routers/free-router](https://openrouter.ai/docs/guides/routing/routers/free-router)' 'og:s...",
+      "summary": "This guide explains how to use the Free Models Router to automatically access zero-cost AI inference by routing requests to available free models based on required capabilities.",
+      "tags": [
+        "openrouter",
+        "ai-inference",
+        "free-models",
+        "model-routing",
+        "api-integration",
+        "llm-access"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-tool-calling.md",
+      "title": "Tool \u0026 Function Calling",
+      "url": "https://openrouter.ai/docs/guides/features/tool-calling.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:04.076468-03:00",
+      "description": "title: Tool \u0026 Function Calling subtitle: Use tools in your prompts headline: Tool \u0026 Function Calling | Use Tools with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/features/tool-calling](https://openrouter.ai/docs/guides/features/tool-calling)' 'og:site\\_name': OpenRouter Document...",
+      "summary": "This document explains how to implement tool and function calling via OpenRouter, detailing the three-step process for requesting tool execution, running code locally, and returning results to supported models.",
+      "tags": [
+        "openrouter",
+        "tool-calling",
+        "function-calling",
+        "llm-api",
+        "external-tools",
+        "json-schema"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-plugins-overview.md",
+      "title": "Plugins",
+      "url": "https://openrouter.ai/docs/guides/features/plugins/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:05.266577-03:00",
+      "description": "title: Plugins subtitle: Extend model capabilities with OpenRouter plugins headline: Plugins | Extend AI Model Capabilities canonical-url: '[https://openrouter.ai/docs/guides/features/plugins](https://openrouter.ai/docs/guides/features/plugins)' 'og:site\\_name': OpenRouter Documentation 'og:title...",
+      "summary": "This document explains how to extend AI model capabilities using OpenRouter plugins, providing instructions for enabling features like web search and response healing through API requests or global account settings.",
+      "tags": [
+        "openrouter-plugins",
+        "web-search",
+        "pdf-processing",
+        "response-healing",
+        "api-integration",
+        "llm-capabilities",
+        "json-repair"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-presets.md",
+      "title": "Presets",
+      "url": "https://openrouter.ai/docs/guides/features/presets.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:02.109571-03:00",
+      "description": "title: Presets subtitle: Manage your LLM configurations headline: Presets | Configuration Management for AI Models canonical-url: '[https://openrouter.ai/docs/guides/features/presets](https://openrouter.ai/docs/guides/features/presets)' 'og:site\\_name': OpenRouter Documentation 'og:title': Preset...",
+      "summary": "This guide describes how to manage LLM configurations using OpenRouter presets to decouple model settings and prompts from application code. It covers preset creation, provider routing, and the various methods for referencing these configurations through the API.",
+      "tags": [
+        "openrouter",
+        "llm-presets",
+        "configuration-management",
+        "system-prompts",
+        "api-integration",
+        "provider-routing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-plugins-web-search.md",
+      "title": "Web Search",
+      "url": "https://openrouter.ai/docs/guides/features/plugins/web-search.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:08.969194-03:00",
+      "description": "title: Web Search subtitle: Model-agnostic grounding headline: Web Search | Add Real-time Web Data to AI Model Responses canonical-url: '[https://openrouter.ai/docs/guides/features/plugins/web-search](https://openrouter.ai/docs/guides/features/plugins/web-search)' 'og:site\\_name': OpenRouter Docu...",
+      "summary": "This document explains how to enable and configure real-time web search grounding for AI models via OpenRouter using the web plugin or online model variants.",
+      "tags": [
+        "openrouter",
+        "web-search",
+        "ai-grounding",
+        "api-integration",
+        "exa-search",
+        "search-citations",
+        "real-time-data"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-plugins-response-healing.md",
+      "title": "Response Healing",
+      "url": "https://openrouter.ai/docs/guides/features/plugins/response-healing.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:10.397483-03:00",
+      "description": "title: Response Healing subtitle: Automatically fix malformed JSON responses headline: Response Healing | Validate and Repair AI Model Responses canonical-url: '[https://openrouter.ai/docs/guides/features/plugins/response-healing](https://openrouter.ai/docs/guides/features/plugins/response-healin...",
+      "summary": "This document explains OpenRouter's Response Healing plugin, which automatically detects and repairs malformed JSON responses from AI models. It provides technical details on how to implement the plugin to fix syntax errors, extract JSON from markdown, and handle formatting issues.",
+      "tags": [
+        "openrouter",
+        "json-repair",
+        "response-healing",
+        "llm-outputs",
+        "api-plugins",
+        "json-validation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-structured-outputs.md",
+      "title": "Structured Outputs",
+      "url": "https://openrouter.ai/docs/guides/features/structured-outputs.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:11.589522-03:00",
+      "description": "title: Structured Outputs subtitle: Return structured data from your models headline: Structured Outputs | Enforce JSON Schema in OpenRouter API Responses canonical-url: '[https://openrouter.ai/docs/guides/features/structured-outputs](https://openrouter.ai/docs/guides/features/structured-outputs)...",
+      "summary": "This document explains how to use structured outputs on OpenRouter to enforce JSON Schema validation, ensuring AI models return consistent and type-safe data. It provides technical details on request parameters, model compatibility, and implementation across various programming languages.",
+      "tags": [
+        "openrouter",
+        "structured-outputs",
+        "json-schema",
+        "type-safety",
+        "api-integration",
+        "response-formatting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-message-transforms.md",
+      "title": "Message Transforms",
+      "url": "https://openrouter.ai/docs/guides/features/message-transforms.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:14.1302-03:00",
+      "description": "title: Message Transforms subtitle: Transform prompt messages headline: Message Transforms | Pre-process AI Model Inputs with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/features/message-transforms](https://openrouter.ai/docs/guides/features/message-transforms)' 'og:site\\_name':...",
+      "summary": "This document explains how to use message transforms, specifically middle-out compression, to optimize prompts and manage context window limits on OpenRouter.",
+      "tags": [
+        "openrouter",
+        "message-transforms",
+        "middle-out-compression",
+        "prompt-optimization",
+        "context-management",
+        "token-limits"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-zero-completion-insurance.md",
+      "title": "Zero Completion Insurance",
+      "url": "https://openrouter.ai/docs/guides/features/zero-completion-insurance.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:15.982814-03:00",
+      "description": "title: Zero Completion Insurance subtitle: OpenRouter will not charge you for zero token responses headline: Zero Completion Insurance | No Charge for Zero Token Responses canonical-url: '[https://openrouter.ai/docs/guides/features/zero-completion-insurance](https://openrouter.ai/docs/guides/feat...",
+      "summary": "This guide explains OpenRouter's zero completion insurance policy, which protects users from being charged for API requests that result in failed or empty responses.",
+      "tags": [
+        "openrouter",
+        "billing-policy",
+        "cost-protection",
+        "api-usage",
+        "zero-token-responses",
+        "error-handling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-zdr.md",
+      "title": "Zero Data Retention",
+      "url": "https://openrouter.ai/docs/guides/features/zdr.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:16.911764-03:00",
+      "description": "title: Zero Data Retention subtitle: How OpenRouter gives you control over your data headline: Zero Data Retention | How OpenRouter gives you control over your data canonical-url: '[https://openrouter.ai/docs/guides/features/zdr](https://openrouter.ai/docs/guides/features/zdr)' 'og:site\\_name': O...",
+      "summary": "This document explains OpenRouter's Zero Data Retention (ZDR) features, detailing how users can control data privacy through account-wide settings and per-request API parameters.",
+      "tags": [
+        "data-privacy",
+        "zero-data-retention",
+        "data-security",
+        "api-parameters",
+        "provider-policies"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-app-attribution.md",
+      "title": "App Attribution",
+      "url": "https://openrouter.ai/docs/app-attribution.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:20.035295-03:00",
+      "description": "title: App Attribution subtitle: Get your app featured in OpenRouter rankings and analytics slug: app-attribution headline: App Attribution | OpenRouter Documentation canonical-url: '[https://openrouter.ai/docs/app-attribution](https://openrouter.ai/docs/app-attribution)' 'og:site\\_name': OpenRou...",
+      "summary": "This guide explains how to attribute API usage to specific applications using HTTP headers to gain visibility in OpenRouter rankings and access detailed usage analytics.",
+      "tags": [
+        "openrouter",
+        "app-attribution",
+        "api-headers",
+        "usage-analytics",
+        "developer-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-guardrails.md",
+      "title": "Guardrails",
+      "url": "https://openrouter.ai/docs/guides/features/guardrails.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:20.641736-03:00",
+      "description": "title: Guardrails subtitle: Control spending and model access for your organization headline: Guardrails | OpenRouter Organization Controls canonical-url: '[https://openrouter.ai/docs/guides/features/guardrails](https://openrouter.ai/docs/guides/features/guardrails)' 'og:site\\_name': OpenRouter D...",
+      "summary": "This document explains how to use OpenRouter guardrails to manage spending limits, restrict model and provider access, and enforce data privacy policies for organization members and API keys.",
+      "tags": [
+        "guardrails",
+        "budget-management",
+        "access-control",
+        "data-privacy",
+        "organization-settings",
+        "openrouter",
+        "api-keys"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-overview.md",
+      "title": "Broadcast",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:23.380866-03:00",
+      "description": "title: Broadcast subtitle: Send traces to external observability platforms headline: Broadcast | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast](https://openrouter.ai/docs/guides/features/broadcast)' 'og:site\\_name': OpenRouter Documentation 'og:tit...",
+      "summary": "This document explains how to use the Broadcast feature to automatically send LLM request traces and telemetry data from OpenRouter to external observability platforms. It covers setup procedures, supported destinations, and methods for enriching trace data with custom metadata.",
+      "tags": [
+        "observability",
+        "traces",
+        "telemetry",
+        "openrouter-api",
+        "monitoring",
+        "llm-analytics"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-arize.md",
+      "title": "Arize AI",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/arize.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:25.231983-03:00",
+      "description": "title: Arize AI subtitle: Send traces to Arize AI headline: Broadcast to Arize AI | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/arize](https://openrouter.ai/docs/guides/features/broadcast/arize)' 'og:site\\_name': OpenRouter Documentation 'og:titl...",
+      "summary": "This guide provides instructions for connecting OpenRouter to Arize AI to enable automated request tracing and observability. It details the setup process, configuration of API keys, and how to use custom metadata for advanced monitoring.",
+      "tags": [
+        "arize-ai",
+        "openrouter",
+        "observability",
+        "tracing",
+        "monitoring",
+        "api-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-braintrust.md",
+      "title": "Braintrust",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/braintrust.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:26.092671-03:00",
+      "description": "title: Braintrust subtitle: Send traces to Braintrust headline: Broadcast to Braintrust | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/braintrust](https://openrouter.ai/docs/guides/features/broadcast/braintrust)' 'og:site\\_name': OpenRouter Docume...",
+      "summary": "This guide explains how to integrate OpenRouter with Braintrust to automatically broadcast LLM request traces for monitoring and evaluation. It covers the setup process, configuration of API keys, and handling of custom metadata.",
+      "tags": [
+        "openrouter",
+        "braintrust",
+        "observability",
+        "tracing",
+        "llm-monitoring",
+        "integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-clickhouse.md",
+      "title": "ClickHouse",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/clickhouse.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:29.692057-03:00",
+      "description": "title: ClickHouse subtitle: Send traces to ClickHouse headline: Broadcast to ClickHouse | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/clickhouse](https://openrouter.ai/docs/guides/features/broadcast/clickhouse)' 'og:site\\_name': OpenRouter Docume...",
+      "summary": "This guide provides instructions for integrating ClickHouse with OpenRouter to stream request traces for high-performance analytics and monitoring.",
+      "tags": [
+        "clickhouse",
+        "openrouter",
+        "observability",
+        "data-analytics",
+        "database-integration",
+        "telemetry"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-opik.md",
+      "title": "Comet Opik",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/opik.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:31.036873-03:00",
+      "description": "title: Comet Opik subtitle: Send traces to Comet Opik headline: Broadcast to Comet Opik | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/opik](https://openrouter.ai/docs/guides/features/broadcast/opik)' 'og:site\\_name': OpenRouter Documentation 'og:...",
+      "summary": "This document provides instructions for integrating OpenRouter with Comet Opik to enable automatic tracing and monitoring of LLM requests. It covers credential setup, broadcast configuration, and the use of custom metadata for organizing evaluations.",
+      "tags": [
+        "openrouter",
+        "comet-opik",
+        "observability",
+        "llm-tracing",
+        "integration-guide",
+        "metadata-management",
+        "broadcast-feature"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-datadog.md",
+      "title": "Datadog",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/datadog.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:31.740486-03:00",
+      "description": "title: Datadog subtitle: Send traces to Datadog headline: Datadog Broadcast | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/datadog](https://openrouter.ai/docs/guides/features/broadcast/datadog)' 'og:site\\_name': OpenRouter Documentation 'og:title'...",
+      "summary": "This document provides instructions for integrating Datadog LLM Observability with OpenRouter to monitor performance and evaluate application quality. It covers API key configuration, custom metadata mapping, and privacy mode settings.",
+      "tags": [
+        "datadog",
+        "llm-observability",
+        "openrouter-broadcast",
+        "tracing",
+        "monitoring",
+        "integration-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-langfuse.md",
+      "title": "Langfuse",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/langfuse.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:36.332009-03:00",
+      "description": "title: Langfuse subtitle: Send traces to Langfuse headline: Broadcast to Langfuse | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/langfuse](https://openrouter.ai/docs/guides/features/broadcast/langfuse)' 'og:site\\_name': OpenRouter Documentation 'o...",
+      "summary": "This guide provides step-by-step instructions for connecting Langfuse to OpenRouter to automatically send and manage LLM request traces for monitoring and debugging.",
+      "tags": [
+        "langfuse",
+        "observability",
+        "tracing",
+        "openrouter",
+        "llm-monitoring",
+        "integration",
+        "metadata"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-langsmith.md",
+      "title": "LangSmith",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/langsmith.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:36.911551-03:00",
+      "description": "title: LangSmith subtitle: Send traces to LangSmith headline: Broadcast to LangSmith | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/langsmith](https://openrouter.ai/docs/guides/features/broadcast/langsmith)' 'og:site\\_name': OpenRouter Documentati...",
+      "summary": "This document provides a step-by-step guide for integrating LangSmith with OpenRouter to automatically broadcast request traces for debugging, monitoring, and performance analysis.",
+      "tags": [
+        "langsmith",
+        "openrouter",
+        "observability",
+        "tracing",
+        "opentelemetry",
+        "monitoring",
+        "llm-ops"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-grafana.md",
+      "title": "Grafana Cloud",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/grafana.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:35.997683-03:00",
+      "description": "title: Grafana Cloud subtitle: Send traces to Grafana Cloud headline: Broadcast to Grafana Cloud | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/grafana](https://openrouter.ai/docs/guides/features/broadcast/grafana)' 'og:site\\_name': OpenRouter Doc...",
+      "summary": "This guide provides instructions for connecting Grafana Cloud to OpenRouter to enable distributed tracing and observability via the OTLP standard.",
+      "tags": [
+        "grafana-cloud",
+        "open-telemetry",
+        "distributed-tracing",
+        "observability",
+        "monitoring",
+        "traceql",
+        "otlp-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-newrelic.md",
+      "title": "New Relic",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/newrelic.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:40.853955-03:00",
+      "description": "title: New Relic subtitle: Send traces to New Relic headline: Broadcast to New Relic | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/newrelic](https://openrouter.ai/docs/guides/features/broadcast/newrelic)' 'og:site\\_name': OpenRouter Documentation...",
+      "summary": "This guide explains how to integrate OpenRouter with New Relic to automatically broadcast request traces for monitoring and observability. It covers the step-by-step configuration process, including license key setup and custom metadata mapping.",
+      "tags": [
+        "observability",
+        "new-relic",
+        "distributed-tracing",
+        "telemetry",
+        "monitoring",
+        "openrouter"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-otel-collector.md",
+      "title": "OpenTelemetry Collector",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/otel-collector.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:41.899678-03:00",
+      "description": "title: OpenTelemetry Collector subtitle: Send traces to any OpenTelemetry-compatible backend headline: Broadcast to OpenTelemetry Collector | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/otel-collector](https://openrouter.ai/docs/guides/features/b...",
+      "summary": "This document provides instructions for configuring OpenRouter to broadcast traces to OpenTelemetry-compatible backends using the OTLP protocol.",
+      "tags": [
+        "openrouter",
+        "opentelemetry",
+        "otlp",
+        "distributed-tracing",
+        "observability",
+        "api-monitoring"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-posthog.md",
+      "title": "PostHog",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/posthog.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:41.854683-03:00",
+      "description": "title: PostHog subtitle: Send traces to PostHog headline: Broadcast to PostHog | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/posthog](https://openrouter.ai/docs/guides/features/broadcast/posthog)' 'og:site\\_name': OpenRouter Documentation 'og:tit...",
+      "summary": "This document provides instructions for integrating PostHog with OpenRouter to broadcast LLM request traces for analytics and monitoring. It covers API key configuration, metadata mapping for custom traces, and managing data privacy settings.",
+      "tags": [
+        "posthog",
+        "openrouter",
+        "observability",
+        "llm-analytics",
+        "trace-broadcasting",
+        "integration-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-sentry.md",
+      "title": "Sentry",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/sentry.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:46.649705-03:00",
+      "description": "title: Sentry subtitle: Send traces to Sentry headline: Broadcast to Sentry | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/sentry](https://openrouter.ai/docs/guides/features/broadcast/sentry)' 'og:site\\_name': OpenRouter Documentation 'og:title': ...",
+      "summary": "This guide provides step-by-step instructions for integrating Sentry with OpenRouter to automatically broadcast and monitor LLM request traces using OTLP endpoints. It details the configuration process, supported metadata fields, and privacy settings for observability.",
+      "tags": [
+        "sentry",
+        "openrouter",
+        "observability",
+        "tracing",
+        "opentelemetry",
+        "llm-monitoring",
+        "broadcast"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-s3.md",
+      "title": "S3 / S3-Compatible",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/s3.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:45.617945-03:00",
+      "description": "title: S3 / S3-Compatible subtitle: Send traces to Amazon S3 or S3-compatible storage headline: Broadcast to S3 | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/s3](https://openrouter.ai/docs/guides/features/broadcast/s3)' 'og:site\\_name': OpenRoute...",
+      "summary": "This document provides instructions for integrating OpenRouter with Amazon S3 or S3-compatible storage to automatically store request traces. It covers credential setup, bucket configuration, path templates, and the handling of custom metadata.",
+      "tags": [
+        "amazon-s3",
+        "openrouter-observability",
+        "cloudflare-r2",
+        "data-broadcast",
+        "trace-logging",
+        "cloud-storage",
+        "metadata-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-snowflake.md",
+      "title": "Snowflake",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/snowflake.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:47.708289-03:00",
+      "description": "title: Snowflake subtitle: Send traces to Snowflake headline: Broadcast to Snowflake | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/snowflake](https://openrouter.ai/docs/guides/features/broadcast/snowflake)' 'og:site\\_name': OpenRouter Documentati...",
+      "summary": "This document provides step-by-step instructions for integrating OpenRouter with Snowflake to stream, store, and analyze request traces for observability and business intelligence.",
+      "tags": [
+        "openrouter",
+        "snowflake",
+        "data-warehouse",
+        "observability",
+        "tracing",
+        "integration",
+        "analytics"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-webhook.md",
+      "title": "Webhook",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/webhook.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:52.549977-03:00",
+      "description": "title: Webhook subtitle: Send traces to any HTTP endpoint headline: Broadcast to Webhook | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/webhook](https://openrouter.ai/docs/guides/features/broadcast/webhook)' 'og:site\\_name': OpenRouter Documentati...",
+      "summary": "This guide explains how to configure and use webhooks to broadcast OpenRouter request traces to any HTTP endpoint in OTLP format for custom observability.",
+      "tags": [
+        "openrouter",
+        "webhooks",
+        "observability",
+        "otlp",
+        "traces",
+        "api-integration",
+        "monitoring"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-privacy-data-collection.md",
+      "title": "Data Collection",
+      "url": "https://openrouter.ai/docs/guides/privacy/data-collection.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:52.676135-03:00",
+      "description": "title: Data Collection subtitle: What data OpenRouter collects headline: Data Collection | OpenRouter Privacy canonical-url: '[https://openrouter.ai/docs/guides/privacy/data-collection](https://openrouter.ai/docs/guides/privacy/data-collection)' 'og:site\\_name': OpenRouter Documentation 'og:title...",
+      "summary": "This document explains OpenRouter's data handling practices, detailing how prompts, responses, and request metadata are stored or processed based on user settings.",
+      "tags": [
+        "openrouter-privacy",
+        "data-collection",
+        "prompt-retention",
+        "user-data-policy",
+        "metadata-tracking"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-features-broadcast-weave.md",
+      "title": "W\u0026B Weave",
+      "url": "https://openrouter.ai/docs/guides/features/broadcast/weave.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:52.192521-03:00",
+      "description": "title: W\\\u0026B Weave subtitle: Send traces to W\\\u0026B Weave headline: Broadcast to W\\\u0026B Weave | OpenRouter Observability canonical-url: '[https://openrouter.ai/docs/guides/features/broadcast/weave](https://openrouter.ai/docs/guides/features/broadcast/weave)' 'og:site\\_name': OpenRouter Documentation 'o...",
+      "summary": "This document provides instructions for connecting OpenRouter to Weights \u0026 Biases Weave to automatically capture and analyze LLM request traces. It covers setup steps, metadata configuration, and privacy options for observability.",
+      "tags": [
+        "openrouter",
+        "weights-and-biases",
+        "weave",
+        "observability",
+        "llm-tracing",
+        "integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-privacy-logging.md",
+      "title": "Logging",
+      "url": "https://openrouter.ai/docs/guides/privacy/logging.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:57.914884-03:00",
+      "description": "title: Logging subtitle: Provider logging and data retention policies headline: Logging | Provider Data Retention canonical-url: '[https://openrouter.ai/docs/guides/privacy/logging](https://openrouter.ai/docs/guides/privacy/logging)' 'og:site\\_name': OpenRouter Documentation 'og:title': Logging -...",
+      "summary": "This document explains how OpenRouter manages AI provider logging and data retention policies, including how users can configure privacy settings to opt out of data training or restrict routing to specific providers.",
+      "tags": [
+        "data-retention",
+        "logging-policy",
+        "data-privacy",
+        "provider-routing",
+        "training-opt-out",
+        "eu-data-residency",
+        "compliance"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-best-practices-latency-and-performance.md",
+      "title": "Latency and Performance",
+      "url": "https://openrouter.ai/docs/guides/best-practices/latency-and-performance.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:58.457623-03:00",
+      "description": "title: Latency and Performance subtitle: Understanding OpenRouter's performance characteristics headline: Latency and Performance | Minimizing Gateway Latency canonical-url: '[https://openrouter.ai/docs/guides/best-practices/latency-and-performance](https://openrouter.ai/docs/guides/best-practice...",
+      "summary": "This document explains OpenRouter's performance architecture and provides actionable best practices for minimizing request latency through caching, credit management, and provider routing.",
+      "tags": [
+        "latency",
+        "performance",
+        "edge-computing",
+        "caching",
+        "best-practices",
+        "openrouter",
+        "routing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-best-practices-prompt-caching.md",
+      "title": "Prompt Caching",
+      "url": "https://openrouter.ai/docs/guides/best-practices/prompt-caching.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:14:58.630955-03:00",
+      "description": "title: Prompt Caching subtitle: Cache prompt messages headline: Prompt Caching | Reduce AI Model Costs with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/best-practices/prompt-caching](https://openrouter.ai/docs/guides/best-practices/prompt-caching)' 'og:site\\_name': OpenRouter Do...",
+      "summary": "This document explains how to use prompt caching on OpenRouter to reduce inference costs and latency by reusing processed input across supported providers like Anthropic, OpenAI, and DeepSeek.",
+      "tags": [
+        "prompt-caching",
+        "cost-optimization",
+        "openrouter",
+        "api-usage",
+        "anthropic-claude",
+        "performance-tuning"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-best-practices-uptime-optimization.md",
+      "title": "Uptime Optimization",
+      "url": "https://openrouter.ai/docs/guides/best-practices/uptime-optimization.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:03.272159-03:00",
+      "description": "title: Uptime Optimization subtitle: OpenRouter tracks provider availability headline: Uptime Optimization | Maximize AI Model Availability canonical-url: '[https://openrouter.ai/docs/guides/best-practices/uptime-optimization](https://openrouter.ai/docs/guides/best-practices/uptime-optimization)'...",
+      "summary": "This document explains how OpenRouter ensures high availability for AI models through real-time provider monitoring, intelligent routing, and automatic fallbacks.",
+      "tags": [
+        "uptime-optimization",
+        "provider-monitoring",
+        "intelligent-routing",
+        "high-availability",
+        "service-reliability",
+        "openrouter"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-free-models-router-playground.md",
+      "title": "Free Models Router",
+      "url": "https://openrouter.ai/docs/guides/guides/free-models-router-playground.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:03.98269-03:00",
+      "description": "title: Free Models Router subtitle: Get started with free AI inference using the OpenRouter Chat Playground headline: Free Models Router | OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/free-models-router-playground](https://openrouter.ai/docs/guides/guides/free-models-route...",
+      "summary": "This document explains how to access and utilize OpenRouter's free AI models and the automated Free Models Router through both the Chat Playground interface and the API.",
+      "tags": [
+        "openrouter",
+        "free-models",
+        "ai-inference",
+        "model-routing",
+        "chat-playground",
+        "api-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-best-practices-reasoning-tokens.md",
+      "title": "Reasoning Tokens",
+      "url": "https://openrouter.ai/docs/guides/best-practices/reasoning-tokens.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:03.845773-03:00",
+      "description": "title: Reasoning Tokens headline: Reasoning Tokens | Enhanced AI Model Reasoning with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/best-practices/reasoning-tokens](https://openrouter.ai/docs/guides/best-practices/reasoning-tokens)' 'og:site\\_name': OpenRouter Documentation 'og:ti...",
+      "summary": "This document explains how to use and control reasoning tokens within the OpenRouter API to provide transparent step-by-step thinking traces from supported AI models. It details configuration options like effort levels, token limits, and exclusion settings to unify reasoning behavior across various providers.",
+      "tags": [
+        "openrouter-api",
+        "reasoning-tokens",
+        "thinking-tokens",
+        "inference-configuration",
+        "ai-models",
+        "api-parameters"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-api-key-rotation.md",
+      "title": "API Key Rotation",
+      "url": "https://openrouter.ai/docs/guides/guides/api-key-rotation.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:09.386033-03:00",
+      "description": "title: API Key Rotation subtitle: Securely rotate your OpenRouter API keys headline: API Key Rotation | Secure Key Management for OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/api-key-rotation](https://openrouter.ai/docs/guides/guides/api-key-rotation)' 'og:site\\_name': Ope...",
+      "summary": "This guide explains how to programmatically rotate OpenRouter API keys using the Management API to maintain security without service disruption. It details a step-by-step rotation strategy and the advantages of using Bring Your Own Key for simplified management.",
+      "tags": [
+        "api-keys",
+        "security",
+        "key-rotation",
+        "management-api",
+        "byok",
+        "authentication"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-enterprise-quickstart.md",
+      "title": "Enterprise Quickstart",
+      "url": "https://openrouter.ai/docs/enterprise-quickstart.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:08.079612-03:00",
+      "description": "title: Enterprise Quickstart subtitle: Get your organization up and running with OpenRouter slug: enterprise-quickstart headline: Enterprise Quickstart | OpenRouter for Organizations canonical-url: '[https://openrouter.ai/docs/guides/guides/enterprise-quickstart](https://openrouter.ai/docs/guides...",
+      "summary": "This document provides a comprehensive walkthrough for enterprise customers to set up and manage organizations on OpenRouter, covering API key administration, security controls, and observability. It explains how to implement centralized billing, role-based access, and usage monitoring for professional team environments.",
+      "tags": [
+        "enterprise-setup",
+        "organization-management",
+        "api-security",
+        "guardrails",
+        "zero-data-retention",
+        "observability",
+        "usage-tracking"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-crypto-api.md",
+      "title": "Crypto API",
+      "url": "https://openrouter.ai/docs/guides/guides/crypto-api.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:09.728637-03:00",
+      "description": "title: Crypto API subtitle: Purchase credits with crypto headline: Crypto API | Purchase Credits with Cryptocurrency canonical-url: '[https://openrouter.ai/docs/guides/guides/crypto-api](https://openrouter.ai/docs/guides/guides/crypto-api)' 'og:site\\_name': OpenRouter Documentation 'og:title': Cr...",
+      "summary": "This document provides instructions for programmatically purchasing OpenRouter credits using cryptocurrency via Coinbase integration on EVM-compatible chains. It details the process of generating transaction calldata and executing on-chain payments to automate account funding.",
+      "tags": [
+        "cryptocurrency",
+        "openrouter-api",
+        "coinbase-integration",
+        "blockchain-payments",
+        "evm-chains",
+        "billing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-claude-code-integration.md",
+      "title": "Claude Code",
+      "url": "https://openrouter.ai/docs/guides/guides/claude-code-integration.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:15.249558-03:00",
+      "description": "title: Claude Code subtitle: Use Claude Code with OpenRouter headline: Integration with Claude Code | OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/claude-code-integration](https://openrouter.ai/docs/guides/claude-code-integration)' 'og:site\\_name': OpenRouter Documentation 'og:ti...",
+      "summary": "This guide explains how to integrate Claude Code with OpenRouter to leverage provider failover, centralized budget management, and usage analytics. It includes setup instructions for local environments, GitHub Actions, and the Anthropic Agent SDK.",
+      "tags": [
+        "claude-code",
+        "openrouter",
+        "anthropic-api",
+        "provider-failover",
+        "cost-management",
+        "github-actions"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-mcp-servers.md",
+      "title": "Using MCP Servers with OpenRouter",
+      "url": "https://openrouter.ai/docs/guides/guides/mcp-servers.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:15.608861-03:00",
+      "description": "title: Using MCP Servers with OpenRouter subtitle: Use MCP Servers with OpenRouter headline: Using MCP Servers with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/mcp-servers](https://openrouter.ai/docs/guides/guides/mcp-servers)' 'og:site\\_name': OpenRouter Documentation 'o...",
+      "summary": "This guide explains how to integrate Model Context Protocol (MCP) servers with OpenRouter by converting MCP tool definitions into OpenAI-compatible formats. It provides a Python implementation for managing stateful tool-calling sessions using the MCP client SDK.",
+      "tags": [
+        "mcp",
+        "openrouter",
+        "tool-calling",
+        "python-sdk",
+        "model-context-protocol",
+        "llm-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-openclaw-integration.md",
+      "title": "OpenClaw 🦞",
+      "url": "https://openrouter.ai/docs/guides/guides/openclaw-integration.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:18.45657-03:00",
+      "description": "title: \"OpenClaw \\U0001F99E\" subtitle: 'Use OpenClaw (formerly Moltbot, formerly Clawdbot) with OpenRouter' headline: Integration with OpenClaw | OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/openclaw-integration](https://openrouter.ai/docs/guides/openclaw-integration)' 'og:site\\_...",
+      "summary": "This guide explains how to integrate and configure the OpenClaw AI agent platform with OpenRouter to enable multi-platform messaging capabilities across various LLM providers.",
+      "tags": [
+        "openclaw",
+        "openrouter",
+        "ai-agents",
+        "llm-routing",
+        "configuration-guide",
+        "messaging-platforms"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-use-cases-organization-management.md",
+      "title": "Organization Management",
+      "url": "https://openrouter.ai/docs/use-cases/organization-management.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:21.525239-03:00",
+      "description": "title: Organization Management subtitle: Manage teams and shared resources with OpenRouter organizations slug: use-cases/organization-management headline: OpenRouter Organization Management | Developer Documentation canonical-url: '[https://openrouter.ai/docs/use-cases/organization-management](ht...",
+      "summary": "This document explains how to set up and manage OpenRouter organizations for team collaboration, including shared credit pools, role-based API key management, and centralized usage tracking.",
+      "tags": [
+        "organization-management",
+        "team-collaboration",
+        "api-key-management",
+        "shared-credits",
+        "user-roles",
+        "billing-administration",
+        "usage-analytics"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-for-providers.md",
+      "title": "Provider Integration",
+      "url": "https://openrouter.ai/docs/guides/guides/for-providers.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:21.721512-03:00",
+      "description": "title: Provider Integration headline: Provider Integration | Add Your AI Models to OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/for-providers](https://openrouter.ai/docs/guides/guides/for-providers)' 'og:site\\_name': OpenRouter Documentation 'og:title': Provider Integratio...",
+      "summary": "This guide outlines the technical requirements for AI model providers to integrate with OpenRouter, covering endpoint implementation, pricing structures, and performance monitoring standards.",
+      "tags": [
+        "provider-integration",
+        "model-listing",
+        "uptime-monitoring",
+        "performance-metrics",
+        "api-implementation",
+        "pricing-tiers"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-usage-accounting.md",
+      "title": "Usage Accounting",
+      "url": "https://openrouter.ai/docs/guides/guides/usage-accounting.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:23.518093-03:00",
+      "description": "title: Usage Accounting headline: Usage Accounting | Track AI Model Usage with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/usage-accounting](https://openrouter.ai/docs/guides/guides/usage-accounting)' 'og:site\\_name': OpenRouter Documentation 'og:title': Usage Accounting ...",
+      "summary": "This document explains how OpenRouter automatically tracks and reports AI model usage, including token counts, reasoning tokens, and costs within API responses.",
+      "tags": [
+        "openrouter-api",
+        "token-tracking",
+        "usage-accounting",
+        "cost-monitoring",
+        "caching",
+        "api-metadata"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-activity-export.md",
+      "title": "Activity Export",
+      "url": "https://openrouter.ai/docs/guides/guides/activity-export.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:26.222907-03:00",
+      "description": "title: Activity Export headline: Activity Export | Export Usage Reports with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/activity-export](https://openrouter.ai/docs/guides/guides/activity-export)' 'og:site\\_name': OpenRouter Documentation 'og:title': Activity Export - Exp...",
+      "summary": "This guide explains how to view and export OpenRouter usage metrics, including spend, token consumption, and request volume, into CSV or PDF reports.",
+      "tags": [
+        "openrouter",
+        "usage-reports",
+        "activity-export",
+        "billing-data",
+        "analytics",
+        "data-export"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-user-tracking.md",
+      "title": "User Tracking",
+      "url": "https://openrouter.ai/docs/guides/guides/user-tracking.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:27.880979-03:00",
+      "description": "title: User Tracking headline: User Tracking | Track Your Users with OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/user-tracking](https://openrouter.ai/docs/guides/guides/user-tracking)' 'og:site\\_name': OpenRouter Documentation 'og:title': User Tracking - Track Your Own Us...",
+      "summary": "This document explains how to implement the 'user' parameter in OpenRouter API requests to track individual end-users, optimize caching performance, and access detailed usage analytics.",
+      "tags": [
+        "user-tracking",
+        "openrouter-api",
+        "performance-optimization",
+        "analytics",
+        "caching",
+        "api-parameters"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-distillation.md",
+      "title": "Distillation",
+      "url": "https://openrouter.ai/docs/guides/guides/distillation.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:28.97164-03:00",
+      "description": "title: Distillation subtitle: Ensure compliance with provider and model creator policies for distillation headline: Distillation | Compliance with Provider and Model Creator Policies canonical-url: '[https://openrouter.ai/docs/guides/guides/distillation](https://openrouter.ai/docs/guides/guides/d...",
+      "summary": "This document explains how to identify and filter for AI models that permit their outputs to be used for distillation and training. It covers both the OpenRouter web interface and the programmatic use of the enforce_distillable_text routing parameter to ensure compliance with provider policies.",
+      "tags": [
+        "model-distillation",
+        "compliance",
+        "api-routing",
+        "openrouter",
+        "training-data",
+        "model-filtering",
+        "machine-learning"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-guides-model-migrations-claude-4-6-opus.md",
+      "title": "Claude 4.6 Opus Migration Guide",
+      "url": "https://openrouter.ai/docs/guides/guides/model-migrations/claude-4-6-opus.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:31.201248-03:00",
+      "description": "title: Claude 4.6 Opus Migration Guide subtitle: Migrate to Claude 4.6 Opus with adaptive thinking and max effort level headline: Claude 4.6 Opus Migration Guide | OpenRouter canonical-url: '[https://openrouter.ai/docs/guides/guides/model-migrations/opus-4-6](https://openrouter.ai/docs/guides/gui...",
+      "summary": "This guide explains the migration process to Claude 4.6 Opus, focusing on the introduction of adaptive thinking and new response effort configurations. It outlines how these changes affect API parameters for reasoning and verbosity compared to previous model versions.",
+      "tags": [
+        "claude-4-6-opus",
+        "model-migration",
+        "adaptive-thinking",
+        "openrouter",
+        "api-configuration",
+        "ai-models"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-awesome-openrouter.md",
+      "title": "Awesome OpenRouter",
+      "url": "https://openrouter.ai/docs/guides/community/awesome-openrouter.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:33.600456-03:00",
+      "description": "title: Awesome OpenRouter subtitle: Community-curated list of projects built with OpenRouter headline: Awesome OpenRouter | Community Projects and Apps canonical-url: '[https://openrouter.ai/docs/guides/community/awesome-openrouter](https://openrouter.ai/docs/guides/community/awesome-openrouter)'...",
+      "summary": "This document introduces Awesome OpenRouter, a community-curated collection of projects and tools built using the OpenRouter API, and provides instructions for contributing new submissions.",
+      "tags": [
+        "community-projects",
+        "openrouter-ecosystem",
+        "developer-resources",
+        "showcase",
+        "open-source",
+        "contribution-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-frameworks-and-integrations-overview.md",
+      "title": "Frameworks and Integrations Overview",
+      "url": "https://openrouter.ai/docs/guides/community/frameworks-and-integrations-overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:33.254945-03:00",
+      "description": "title: Frameworks and Integrations Overview subtitle: Using OpenRouter with Popular Frameworks and Integrations headline: Frameworks and Integrations | OpenRouter SDK and Library Support canonical-url: \u003e- [https://openrouter.ai/docs/guides/community/frameworks-and-integrations-overview](https://o...",
+      "summary": "This document provides a directory of supported AI frameworks, SDKs, and third-party tools that integrate with OpenRouter. It serves as a central hub for finding documentation on connecting OpenRouter to popular development environments like LangChain, Vercel AI SDK, and various coding assistants.",
+      "tags": [
+        "sdk-integration",
+        "ai-frameworks",
+        "developer-tools",
+        "api-support",
+        "openrouter-ecosystem",
+        "library-compatibility"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-effect-ai-sdk.md",
+      "title": "Effect AI SDK",
+      "url": "https://openrouter.ai/docs/guides/community/effect-ai-sdk.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:37.119851-03:00",
+      "description": "title: Effect AI SDK subtitle: Integrate OpenRouter using the Effect AI SDK headline: Effect AI SDK Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/effect-ai-sdk](https://openrouter.ai/docs/guides/community/effect-ai-sdk)' 'og:site\\_name': OpenRou...",
+      "summary": "This document provides instructions for integrating OpenRouter with the Effect AI SDK, including necessary package installations and a TypeScript implementation example for streaming text.",
+      "tags": [
+        "openrouter",
+        "effect-ai-sdk",
+        "typescript",
+        "ai-integration",
+        "sdk-setup",
+        "streaming-api"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-arize.md",
+      "title": "Arize",
+      "url": "https://openrouter.ai/docs/guides/community/arize.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:39.234272-03:00",
+      "description": "title: Arize subtitle: Using OpenRouter with Arize headline: Arize Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/arize](https://openrouter.ai/docs/guides/community/arize)' 'og:site\\_name': OpenRouter Documentation 'og:title': Arize Integration -...",
+      "summary": "This document explains how to integrate Arize for observability and tracing of OpenRouter API calls using the OpenAI SDK and OpenInference auto-instrumentation.",
+      "tags": [
+        "arize",
+        "observability",
+        "tracing",
+        "openrouter-api",
+        "instrumentation",
+        "monitoring",
+        "openai-sdk"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-langchain.md",
+      "title": "LangChain",
+      "url": "https://openrouter.ai/docs/guides/community/langchain.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:40.137205-03:00",
+      "description": "title: LangChain subtitle: Using OpenRouter with LangChain headline: LangChain Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/langchain](https://openrouter.ai/docs/guides/community/langchain)' 'og:site\\_name': OpenRouter Documentation 'og:title':...",
+      "summary": "This document provides instructions and code examples for integrating OpenRouter with the LangChain framework in both Python and TypeScript. It explains how to configure the base URL and API keys to route LangChain model requests through OpenRouter.",
+      "tags": [
+        "langchain",
+        "openrouter-api",
+        "python-sdk",
+        "typescript-sdk",
+        "llm-integration",
+        "chat-models"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-livekit.md",
+      "title": "LiveKit",
+      "url": "https://openrouter.ai/docs/guides/community/livekit.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:42.120412-03:00",
+      "description": "title: LiveKit subtitle: Using OpenRouter with LiveKit Agents headline: LiveKit Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/livekit](https://openrouter.ai/docs/guides/community/livekit)' 'og:site\\_name': OpenRouter Documentation 'og:title': Li...",
+      "summary": "This document explains how to integrate OpenRouter with the LiveKit Agents framework to build voice-enabled AI agents with access to multiple models. It covers installation, authentication, and advanced features like fallback models and provider routing.",
+      "tags": [
+        "livekit-agents",
+        "openrouter",
+        "voice-ai",
+        "python-sdk",
+        "llm-integration",
+        "model-routing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-langfuse.md",
+      "title": "Langfuse",
+      "url": "https://openrouter.ai/docs/guides/community/langfuse.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:44.00189-03:00",
+      "description": "title: Langfuse subtitle: Using OpenRouter with Langfuse headline: Langfuse Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/langfuse](https://openrouter.ai/docs/guides/community/langfuse)' 'og:site\\_name': OpenRouter Documentation 'og:title': Lang...",
+      "summary": "This document provides instructions for integrating Langfuse with OpenRouter to monitor and trace LLM application calls using the OpenAI Python SDK.",
+      "tags": [
+        "langfuse",
+        "openrouter",
+        "observability",
+        "tracing",
+        "python",
+        "llm-monitoring",
+        "integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-mastra.md",
+      "title": "Mastra",
+      "url": "https://openrouter.ai/docs/guides/community/mastra.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:46.219435-03:00",
+      "description": "title: Mastra subtitle: Using OpenRouter with Mastra headline: Mastra Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/mastra](https://openrouter.ai/docs/guides/community/mastra)' 'og:site\\_name': OpenRouter Documentation 'og:title': Mastra Integra...",
+      "summary": "This document provides a comprehensive guide for integrating OpenRouter with the Mastra framework to enable unified access to various AI models within agent-based applications.",
+      "tags": [
+        "mastra",
+        "openrouter",
+        "ai-sdk",
+        "ai-agents",
+        "typescript",
+        "llm-integration",
+        "node-js"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-openai-sdk.md",
+      "title": "OpenAI SDK",
+      "url": "https://openrouter.ai/docs/guides/community/openai-sdk.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:48.140986-03:00",
+      "description": "title: OpenAI SDK subtitle: Using OpenRouter with OpenAI SDK headline: OpenAI SDK Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/openai-sdk](https://openrouter.ai/docs/guides/community/openai-sdk)' 'og:site\\_name': OpenRouter Documentation 'og:ti...",
+      "summary": "This document provides instructions and code examples for integrating OpenRouter using the official OpenAI SDK in both Python and TypeScript.",
+      "tags": [
+        "openrouter",
+        "openai-sdk",
+        "python",
+        "typescript",
+        "integration",
+        "api-client"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-anthropic-agent-sdk.md",
+      "title": "Anthropic Agent SDK",
+      "url": "https://openrouter.ai/docs/guides/community/anthropic-agent-sdk.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:48.727031-03:00",
+      "description": "title: Anthropic Agent SDK subtitle: Using OpenRouter with the Anthropic Agent SDK headline: Anthropic Agent SDK Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/anthropic-agent-sdk](https://openrouter.ai/docs/guides/community/anthropic-agent-sdk)'...",
+      "summary": "This guide provides instructions and code examples for configuring the Anthropic Agent SDK to work with OpenRouter using Python and TypeScript.",
+      "tags": [
+        "anthropic-agent-sdk",
+        "openrouter",
+        "ai-agents",
+        "python",
+        "typescript",
+        "integration-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-pydantic-ai.md",
+      "title": "PydanticAI",
+      "url": "https://openrouter.ai/docs/guides/community/pydantic-ai.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:51.450707-03:00",
+      "description": "title: PydanticAI subtitle: Using OpenRouter with PydanticAI headline: PydanticAI Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/pydantic-ai](https://openrouter.ai/docs/guides/community/pydantic-ai)' 'og:site\\_name': OpenRouter Documentation 'og:...",
+      "summary": "This document provides instructions for integrating OpenRouter with the PydanticAI framework in Python applications using its OpenAI-compatible interface.",
+      "tags": [
+        "pydantic-ai",
+        "openrouter",
+        "python",
+        "llm-integration",
+        "openai-compatibility"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-tanstack-ai.md",
+      "title": "TanStack AI",
+      "url": "https://openrouter.ai/docs/guides/community/tanstack-ai.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:52.680526-03:00",
+      "description": "title: TanStack AI subtitle: Using OpenRouter with TanStack AI headline: TanStack AI Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/tanstack-ai](https://openrouter.ai/docs/guides/community/tanstack-ai)' 'og:site\\_name': OpenRouter Documentation '...",
+      "summary": "This guide provides instructions for integrating OpenRouter with React, Solid, and Preact applications using the TanStack AI library and its OpenRouter adapter. It covers installation, basic usage, server-side implementation, and advanced routing features like model fallbacks and provider preferences.",
+      "tags": [
+        "tanstack-ai",
+        "openrouter",
+        "react",
+        "typescript",
+        "llm-routing",
+        "ai-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-vercel-ai-sdk.md",
+      "title": "Vercel AI SDK",
+      "url": "https://openrouter.ai/docs/guides/community/vercel-ai-sdk.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:53.040759-03:00",
+      "description": "title: Vercel AI SDK subtitle: Using OpenRouter with Vercel AI SDK headline: Vercel AI SDK Integration | OpenRouter SDK Support canonical-url: '[https://openrouter.ai/docs/guides/community/vercel-ai-sdk](https://openrouter.ai/docs/guides/community/vercel-ai-sdk)' 'og:site\\_name': OpenRouter Docum...",
+      "summary": "This guide provides instructions and code examples for integrating OpenRouter with the Vercel AI SDK in Next.js applications using the @openrouter/ai-sdk-provider. It covers setting up the provider and implementing text streaming and tool calling functionality.",
+      "tags": [
+        "vercel-ai-sdk",
+        "openrouter",
+        "sdk-integration",
+        "next-js",
+        "typescript",
+        "ai-sdk-provider"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-xcode.md",
+      "title": "Xcode",
+      "url": "https://openrouter.ai/docs/guides/community/xcode.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:56.651573-03:00",
+      "description": "title: Xcode subtitle: Using OpenRouter with Apple Intelligence in Xcode headline: Xcode Integration | OpenRouter Apple Intelligence Support canonical-url: '[https://openrouter.ai/docs/guides/community/xcode](https://openrouter.ai/docs/guides/community/xcode)' 'og:site\\_name': OpenRouter Document...",
+      "summary": "This guide provides step-by-step instructions for integrating OpenRouter with Apple Intelligence in Xcode to access a wide variety of AI models for coding assistance. It covers system requirements, model provider configuration, and how to utilize AI features directly within the development environment.",
+      "tags": [
+        "xcode",
+        "apple-intelligence",
+        "openrouter",
+        "macos-integration",
+        "ai-coding-assistant",
+        "llm-provider"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-zapier.md",
+      "title": "Zapier",
+      "url": "https://openrouter.ai/docs/guides/community/zapier.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:57.753094-03:00",
+      "description": "title: Zapier subtitle: Build AI automations with OpenRouter \u0026 Zapier headline: Zapier Integration | OpenRouter AI Automations 'og:site\\_name': OpenRouter Documentation 'og:title': Zapier Integration - OpenRouter AI Automations 'og:description': \u003e- Build powerful AI automations by connecting Open...",
+      "summary": "This document explains how to integrate OpenRouter with Zapier to build no-code AI automations using over 300 different models.",
+      "tags": [
+        "zapier-integration",
+        "no-code",
+        "ai-automation",
+        "workflow-automation",
+        "openrouter-api"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-guides-community-infisical.md",
+      "title": "Infisical",
+      "url": "https://openrouter.ai/docs/guides/community/infisical.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:15:59.137189-03:00",
+      "description": "title: Infisical subtitle: Automatic API Key Rotation with Infisical headline: Infisical Integration | OpenRouter API Key Management canonical-url: '[https://openrouter.ai/docs/guides/community/infisical](https://openrouter.ai/docs/guides/community/infisical)' 'og:site\\_name': OpenRouter Document...",
+      "summary": "This guide explains how to set up automatic API key rotation for OpenRouter using Infisical to ensure secure, zero-downtime credential management.",
+      "tags": [
+        "infisical",
+        "openrouter",
+        "api-key-rotation",
+        "secrets-management",
+        "security",
+        "key-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-api-reference-overview.md",
+      "title": "API Reference",
+      "url": "https://openrouter.ai/docs/api/reference/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:03.065739-03:00",
+      "description": "title: API Reference subtitle: An overview of OpenRouter's API headline: OpenRouter API Reference | Complete API Documentation canonical-url: '[https://openrouter.ai/docs/api/reference/overview](https://openrouter.ai/docs/api/reference/overview)' 'og:site\\_name': OpenRouter Documentation 'og:titl...",
+      "summary": "Comprehensive technical documentation for the OpenRouter API, explaining request schemas, authentication headers, and normalization across multiple AI model providers.",
+      "tags": [
+        "openrouter",
+        "api-reference",
+        "openapi-spec",
+        "llm-integration",
+        "structured-outputs",
+        "json-schema",
+        "api-headers"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-reference-embeddings.md",
+      "title": "Embeddings",
+      "url": "https://openrouter.ai/docs/api/reference/embeddings.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:05.051101-03:00",
+      "description": "title: Embeddings subtitle: Generate vector embeddings from text headline: Embeddings API | Convert Text to Vector Representations with OpenRouter canonical-url: '[https://openrouter.ai/docs/api/reference/embeddings](https://openrouter.ai/docs/api/reference/embeddings)' 'og:site\\_name': OpenRoute...",
+      "summary": "This document explains how to use OpenRouter's unified Embeddings API to convert text into numerical vector representations for semantic analysis. It covers common use cases like RAG and semantic search, alongside implementation examples for single and batch requests.",
+      "tags": [
+        "embeddings",
+        "openrouter-api",
+        "vector-embeddings",
+        "semantic-search",
+        "rag",
+        "batch-processing",
+        "text-representation"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-reference-streaming.md",
+      "title": "Streaming",
+      "url": "https://openrouter.ai/docs/api/reference/streaming.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:04.607355-03:00",
+      "description": "title: Streaming headline: API Streaming | Real-time Model Responses in OpenRouter canonical-url: '[https://openrouter.ai/docs/api/reference/streaming](https://openrouter.ai/docs/api/reference/streaming)' 'og:site\\_name': OpenRouter Documentation 'og:title': API Streaming - Real-time Model Respon...",
+      "summary": "Explains how to implement and manage real-time model responses through OpenRouter's streaming API, including handling server-sent events and stream cancellation.",
+      "tags": [
+        "openrouter",
+        "api-streaming",
+        "sse",
+        "real-time-responses",
+        "stream-cancellation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-api-reference-limits.md",
+      "title": "Limits",
+      "url": "https://openrouter.ai/docs/api/reference/limits.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:09.431346-03:00",
+      "description": "title: Limits subtitle: Rate Limits headline: API Rate Limits | Configure Usage Limits in OpenRouter canonical-url: '[https://openrouter.ai/docs/api/reference/limits](https://openrouter.ai/docs/api/reference/limits)' 'og:site\\_name': OpenRouter Documentation 'og:title': API Rate Limits - Manage M...",
+      "summary": "This document outlines OpenRouter's API rate limits and explains how to monitor credit usage and quotas through the API key endpoint. It also details specific constraints for free model variants and troubleshooting steps for account balance issues.",
+      "tags": [
+        "api-rate-limits",
+        "credit-monitoring",
+        "usage-quotas",
+        "openrouter-api",
+        "free-tier-limits"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-api-reference-authentication.md",
+      "title": "Authentication",
+      "url": "https://openrouter.ai/docs/api/reference/authentication.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:10.721023-03:00",
+      "description": "title: Authentication subtitle: API Authentication headline: API Authentication | OpenRouter OAuth and API Keys canonical-url: '[https://openrouter.ai/docs/api/reference/authentication](https://openrouter.ai/docs/api/reference/authentication)' 'og:site\\_name': OpenRouter Documentation 'og:title':...",
+      "summary": "This document provides instructions for authenticating with the OpenRouter API using Bearer tokens and API keys, covering setup, header requirements, and integration with various SDKs. It also outlines security best practices for managing and protecting API credentials.",
+      "tags": [
+        "openrouter-api",
+        "authentication",
+        "api-keys",
+        "bearer-tokens",
+        "security",
+        "oauth",
+        "sdk-integration"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-reference-parameters.md",
+      "title": "Parameters",
+      "url": "https://openrouter.ai/docs/api/reference/parameters.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:13.349379-03:00",
+      "description": "title: Parameters headline: API Parameters | Configure OpenRouter API Requests canonical-url: '[https://openrouter.ai/docs/api/reference/parameters](https://openrouter.ai/docs/api/reference/parameters)' 'og:site\\_name': OpenRouter Documentation 'og:title': API Parameters - Complete Guide to Reque...",
+      "summary": "This document provides a comprehensive technical reference for the parameters available in OpenRouter API requests, detailing how to configure model sampling, token limits, and output formats.",
+      "tags": [
+        "openrouter",
+        "api-parameters",
+        "sampling-parameters",
+        "llm-configuration",
+        "model-inference",
+        "token-generation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-api-reference-errors-and-debugging.md",
+      "title": "Errors and Debugging",
+      "url": "https://openrouter.ai/docs/api/reference/errors-and-debugging.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:14.646438-03:00",
+      "description": "title: Errors and Debugging subtitle: API Errors and Debugging headline: API Error Handling and Debugging | OpenRouter Documentation canonical-url: '[https://openrouter.ai/docs/api/reference/errors](https://openrouter.ai/docs/api/reference/errors)' 'og:site\\_name': OpenRouter Documentation 'og:ti...",
+      "summary": "This document outlines the error handling procedures for the OpenRouter API, detailing HTTP status codes, JSON error structures, and specific behaviors for streaming responses.",
+      "tags": [
+        "error-handling",
+        "api-reference",
+        "debugging",
+        "status-codes",
+        "streaming-errors",
+        "openrouter-api",
+        "moderation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-api-reference-responses-overview.md",
+      "title": "Responses API Beta",
+      "url": "https://openrouter.ai/docs/api/reference/responses/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:17.717189-03:00",
+      "description": "title: Responses API Beta subtitle: OpenAI-compatible Responses API (Beta) headline: OpenRouter Responses API Beta canonical-url: '[https://openrouter.ai/docs/api/reference/responses/overview](https://openrouter.ai/docs/api/reference/responses/overview)' 'og:site\\_name': OpenRouter Documentation ...",
+      "summary": "This document introduces the OpenRouter Responses API Beta, an OpenAI-compatible stateless interface that supports reasoning, tool calling, and web search across multiple AI models.",
+      "tags": [
+        "openrouter-api",
+        "openai-compatible",
+        "stateless-api",
+        "ai-model-integration",
+        "reasoning-capability",
+        "tool-calling",
+        "web-search"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-reference-responses-basic-usage.md",
+      "title": "Basic Usage",
+      "url": "https://openrouter.ai/docs/api/reference/responses/basic-usage.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:18.468176-03:00",
+      "description": "title: Basic Usage subtitle: Getting started with the Responses API Beta headline: Responses API Beta Basic Usage | Simple Text Requests canonical-url: '[https://openrouter.ai/docs/api/reference/responses/basic-usage](https://openrouter.ai/docs/api/reference/responses/basic-usage)' 'og:site\\_name...",
+      "summary": "Explains how to use the OpenRouter Responses API Beta for basic text generation, including simple string inputs, structured message arrays, and streaming responses.",
+      "tags": [
+        "openrouter",
+        "responses-api",
+        "api-beta",
+        "text-generation",
+        "streaming",
+        "rest-api"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-api-reference-responses-reasoning.md",
+      "title": "Reasoning",
+      "url": "https://openrouter.ai/docs/api/reference/responses/reasoning.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:20.004668-03:00",
+      "description": "title: Reasoning subtitle: Advanced reasoning capabilities with the Responses API Beta headline: Responses API Beta Reasoning | Advanced AI Reasoning Capabilities canonical-url: '[https://openrouter.ai/docs/api/reference/responses/reasoning](https://openrouter.ai/docs/api/reference/responses/reas...",
+      "summary": "This document explains how to configure and use advanced AI reasoning capabilities through the OpenRouter Responses API, specifically focusing on managing reasoning effort levels.",
+      "tags": [
+        "openrouter-api",
+        "ai-reasoning",
+        "api-reference",
+        "beta-feature",
+        "effort-levels",
+        "model-configuration"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-reference-responses-tool-calling.md",
+      "title": "Tool Calling",
+      "url": "https://openrouter.ai/docs/api/reference/responses/tool-calling.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:23.5076-03:00",
+      "description": "title: Tool Calling subtitle: Function calling and tool integration with the Responses API Beta headline: Responses API Beta Tool Calling | Function Calling Integration canonical-url: '[https://openrouter.ai/docs/api/reference/responses/tool-calling](https://openrouter.ai/docs/api/reference/respo...",
+      "summary": "This document details the implementation and configuration of tool and function calling within the OpenRouter Responses API Beta, including definition formats and execution control.",
+      "tags": [
+        "openrouter",
+        "tool-calling",
+        "function-calling",
+        "responses-api",
+        "api-beta",
+        "openai-format"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-reference-responses-error-handling.md",
+      "title": "Error Handling",
+      "url": "https://openrouter.ai/docs/api/reference/responses/error-handling.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:26.019234-03:00",
+      "description": "title: Error Handling subtitle: Understanding and handling errors in the Responses API Beta headline: Responses API Beta Error Handling | Basic Error Guide canonical-url: '[https://openrouter.ai/docs/api/reference/responses/error-handling](https://openrouter.ai/docs/api/reference/responses/error-...",
+      "summary": "This document outlines the structured error response format and specific error codes used by OpenRouter's Responses API Beta for handling request failures.",
+      "tags": [
+        "error-handling",
+        "api-response",
+        "error-codes",
+        "openrouter-api",
+        "beta-features",
+        "status-codes"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-api-reference-responses-web-search.md",
+      "title": "Web Search",
+      "url": "https://openrouter.ai/docs/api/reference/responses/web-search.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:26.401744-03:00",
+      "description": "title: Web Search subtitle: Real-time web search integration with the Responses API Beta headline: Responses API Beta Web Search | Real-time Information Retrieval canonical-url: '[https://openrouter.ai/docs/api/reference/responses/web-search](https://openrouter.ai/docs/api/reference/responses/web...",
+      "summary": "This document explains how to integrate real-time web search and citation capabilities into AI model responses using the OpenRouter Responses API Beta. It details plugin configuration, usage of ':online' model variants, and how to process citation annotations in the output.",
+      "tags": [
+        "openrouter-api",
+        "web-search",
+        "real-time-data",
+        "citations",
+        "api-beta",
+        "information-retrieval"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-agentic-usage.md",
+      "title": "Agentic Usage",
+      "url": "https://openrouter.ai/docs/sdks/agentic-usage.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:29.217915-03:00",
+      "description": "title: Agentic Usage subtitle: Add OpenRouter SDK skills to your AI coding assistant headline: Agentic Usage | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/agentic-usage](https://openrouter.ai/docs/sdks/agentic-usage)' 'og:site\\_name': OpenRouter Documentation 'og:title': Agent...",
+      "summary": "This document explains how to integrate OpenRouter SDK knowledge into AI coding assistants to enable agents to effectively use the SDK's APIs and patterns.",
+      "tags": [
+        "openrouter-sdk",
+        "ai-agents",
+        "coding-assistants",
+        "developer-tools",
+        "sdk-integration",
+        "typescript"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-dev-tools-devtools.md",
+      "title": "DevTools",
+      "url": "https://openrouter.ai/docs/sdks/dev-tools/devtools.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:30.939939-03:00",
+      "description": "title: DevTools subtitle: SDK Development Tools for telemetry capture and visualization headline: DevTools | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/devtools](https://openrouter.ai/docs/sdks/devtools)' 'og:site\\_name': OpenRouter Documentation 'og:title': DevTools | OpenRo...",
+      "summary": "This document introduces OpenRouter DevTools, a set of utilities for capturing telemetry and visualizing SDK operations during development. It explains how to integrate telemetry hooks and use the web-based viewer to monitor real-time requests, token usage, and errors.",
+      "tags": [
+        "sdk-tools",
+        "telemetry-capture",
+        "debugging-ai",
+        "openrouter-sdk",
+        "token-tracking",
+        "request-visualization",
+        "developer-tools"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-overview.md",
+      "title": "TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:32.070253-03:00",
+      "description": "title: TypeScript SDK subtitle: Official OpenRouter TypeScript SDK documentation headline: OpenRouter TypeScript SDK | Complete Documentation canonical-url: '[https://openrouter.ai/docs/sdks/typescript](https://openrouter.ai/docs/sdks/typescript)' 'og:site\\_name': OpenRouter Documentation 'og:tit...",
+      "summary": "This document provides an overview and integration guide for the OpenRouter TypeScript SDK, detailing its installation, type-safe features, and automated model synchronization.",
+      "tags": [
+        "typescript",
+        "sdk",
+        "openrouter",
+        "type-safety",
+        "ai-integration",
+        "api-client"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-overview.md",
+      "title": "Call Model (Typescript)",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:34.337557-03:00",
+      "description": "title: Call Model (Typescript) subtitle: \u003e- A unified API for calling any LLM with automatic tool execution and multiple consumption patterns headline: Call Model Overview (Typescript) | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/overview](https://openro...",
+      "summary": "This document provides an overview of the callModel function in the OpenRouter TypeScript SDK, detailing how to interact with LLMs through a unified API that supports text generation, streaming, and automated tool execution.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "llm-api",
+        "streaming",
+        "tool-calling",
+        "structured-outputs"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-working-with-items.md",
+      "title": "Working with Items",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/working-with-items.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:35.56309-03:00",
+      "description": "title: Working with Items subtitle: Understanding the items-based streaming paradigm for callModel headline: Working with Items | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/items](https://openrouter.ai/docs/sdks/typescript/call-model/items)' 'og:site\\_na...",
+      "summary": "This document explains the items-based streaming paradigm in the OpenRouter SDK, which simplifies state management by replacing complete items by ID instead of accumulating text chunks. It details how to handle different item types and integrate the stream efficiently with React applications.",
+      "tags": [
+        "openrouter-sdk",
+        "streaming-api",
+        "react-integration",
+        "items-paradigm",
+        "state-management",
+        "typescript-sdk"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-api-reference.md",
+      "title": "API Reference",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/api-reference.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:37.489814-03:00",
+      "description": "title: API Reference subtitle: \u003e- Complete reference for the callModel API, ModelResult class, tool types, and helper functions. headline: API Reference | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/api-reference](https://openrouter.ai/docs/sdks/typescrip...",
+      "summary": "This document provides a technical specification for the OpenRouter SDK, detailing the callModel function, ModelResult class, and various configuration types for model interactions.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "api-reference",
+        "callmodel",
+        "ai-integration",
+        "streaming-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-dynamic-parameters.md",
+      "title": "Dynamic Parameters",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/dynamic-parameters.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:39.132146-03:00",
+      "description": "title: Dynamic Parameters subtitle: Use async functions for adaptive model behavior across turns headline: Dynamic Parameters | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/dynamic-parameters](https://openrouter.ai/docs/sdks/typescript/call-model/dynamic-p...",
+      "summary": "Explains how to use asynchronous functions as dynamic parameters in the OpenRouter SDK to adapt model behavior and settings based on real-time conversation context.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "dynamic-parameters",
+        "adaptive-ai",
+        "async-functions",
+        "context-awareness"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-next-turn-params.md",
+      "title": "Next Turn Params",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/next-turn-params.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:41.925481-03:00",
+      "description": "title: Next Turn Params subtitle: \u003e- Build encapsulated, context-aware tools with `nextTurnParams`. Create skills systems, plugins, and adaptive multi-turn agents. headline: Next Turn Params | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/next-turn-params](...",
+      "summary": "This document explains how to use the nextTurnParams feature in the OpenRouter SDK to create tools that can dynamically modify model instructions, parameters, and context for subsequent conversation turns.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "multi-turn-agents",
+        "tool-use",
+        "context-injection",
+        "ai-development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-stop-conditions.md",
+      "title": "Stop Conditions",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/stop-conditions.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:42.326461-03:00",
+      "description": "title: Stop Conditions subtitle: \u003e- Control multi-turn execution with `stopWhen`. Use built-in helpers or custom conditions to stop by step count, tool calls, cost, or tokens. headline: Stop Conditions | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/stop-co...",
+      "summary": "This document explains how to use stop conditions in the OpenRouter SDK to manage multi-turn execution via built-in helpers or custom logic based on costs, tokens, and tool calls.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "stop-conditions",
+        "multi-turn-execution",
+        "tool-calling",
+        "cost-control"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-streaming.md",
+      "title": "Streaming",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/streaming.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:44.214051-03:00",
+      "description": "title: Streaming subtitle: \u003e- Stream responses in real-time with multiple consumption patterns. All streams are built on a reusable stream architecture that supports concurrent consumers. headline: Streaming | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-model/s...",
+      "summary": "This document explains how to implement real-time response streaming using the OpenRouter TypeScript SDK, covering various methods for handling text, reasoning, and tool calls. It provides guidance on different consumption patterns, including the recommended item-based streaming approach for structured output access.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "real-time-streaming",
+        "llm-integration",
+        "tool-calls",
+        "reasoning-streaming",
+        "api-client"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-text-generation.md",
+      "title": "Text Generation",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/text-generation.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:47.216864-03:00",
+      "description": "title: Text Generation subtitle: \u003e- Generate text with callModel using various input formats and model configurations. Supports multiple consumption patterns including text, streaming, and structured output. headline: Text Generation | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sd...",
+      "summary": "This document explains how to use the callModel function in the OpenRouter TypeScript SDK to generate text, covering input formats, model selection, response handling, and configuration parameters.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "text-generation",
+        "llm-api",
+        "multimodal",
+        "error-handling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-message-formats.md",
+      "title": "Message Formats",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/message-formats.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:47.405327-03:00",
+      "description": "title: Message Formats subtitle: \u003e- The OpenRouter SDK provides helper functions to convert between popular message formats. This makes it easy to migrate existing code or integrate with different APIs. headline: Message Formats | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/ty...",
+      "summary": "This document explains how to use OpenRouter SDK helper functions to convert message formats between OpenAI, Anthropic Claude, and OpenRouter for seamless integration and migration.",
+      "tags": [
+        "openrouter-sdk",
+        "message-formats",
+        "openai-compatibility",
+        "anthropic-claude",
+        "data-conversion",
+        "typescript-sdk"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-tools.md",
+      "title": "Tools",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/tools.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:50.139075-03:00",
+      "description": "title: Tools subtitle: \u003e- Create type-safe tools with Zod schemas and automatic execution. Supports regular tools, generator tools with progress, manual tools, and automatic multi-turn execution. headline: Tools | OpenRouter SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/call-mod...",
+      "summary": "This document explains how to create and manage type-safe tools within the OpenRouter SDK using Zod schemas for validation and automatic execution. It covers various tool types, including regular, generator, and manual tools, along with type inference and conversation context integration.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "zod",
+        "tool-calling",
+        "type-safety",
+        "llm-tools"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-examples-weather-tool.md",
+      "title": "Weather Tool",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/examples/weather-tool.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:52.342564-03:00",
+      "description": "title: Weather Tool subtitle: \u003e- A complete weather tool demonstrating external API integration, proper validation, and error handling. headline: Weather Tool Example | OpenRouter SDK canonical-url: \u003e- [https://openrouter.ai/docs/sdks/typescript/call-model/tool-examples/weather-tool](https://open...",
+      "summary": "This document provides a comprehensive guide on building custom tools for the OpenRouter SDK, illustrating external API integration, Zod schema validation, and robust error handling through a practical weather tool example.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "zod",
+        "tool-calling",
+        "api-integration",
+        "error-handling",
+        "weather-api"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-typescript-call-model-examples-skills-loader.md",
+      "title": "Skills Loader",
+      "url": "https://openrouter.ai/docs/sdks/typescript/call-model/examples/skills-loader.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:55.596455-03:00",
+      "description": "title: Skills Loader subtitle: \u003e- A complete implementation of a skills system similar to Claude Code, demonstrating the power of `nextTurnParams` for context injection. headline: Skills Loader Example | OpenRouter SDK canonical-url: \u003e- [https://openrouter.ai/docs/sdks/typescript/call-model/tool-...",
+      "summary": "This document demonstrates how to implement a modular skills system using the OpenRouter SDK's nextTurnParams for dynamic context injection and specialized tool management.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "context-injection",
+        "ai-tools",
+        "next-turn-params",
+        "skills-system"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-analytics.md",
+      "title": "Analytics - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/analytics.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:55.838145-03:00",
+      "description": "title: Analytics - TypeScript SDK subtitle: Analytics method reference headline: Analytics | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/analytics](https://openrouter.ai/docs/sdks/typescript/api-reference/analytics)' 'og:site\\_name': OpenRou...",
+      "summary": "This document provides a technical reference for the analytics methods within the OpenRouter TypeScript SDK, specifically detailing the getUserActivity operation. It explains how to retrieve user activity data grouped by endpoint, including parameter requirements and error handling.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "analytics",
+        "api-reference",
+        "user-activity",
+        "error-handling"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-apikeys.md",
+      "title": "APIKeys - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/apikeys.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:16:58.253543-03:00",
+      "description": "title: APIKeys - TypeScript SDK subtitle: APIKeys method reference headline: APIKeys | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/apikeys](https://openrouter.ai/docs/sdks/typescript/api-reference/apikeys)' 'og:site\\_name': OpenRouter Docume...",
+      "summary": "This document provides a technical reference for the API key management methods within the OpenRouter TypeScript SDK, covering operations such as listing, creating, and deleting keys.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "api-key-management",
+        "authentication",
+        "api-reference",
+        "sdk-methods"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-chat.md",
+      "title": "Chat - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/chat.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:00.471478-03:00",
+      "description": "title: Chat - TypeScript SDK subtitle: Chat method reference headline: Chat | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/chat](https://openrouter.ai/docs/sdks/typescript/api-reference/chat)' 'og:site\\_name': OpenRouter Documentation 'og:tit...",
+      "summary": "This document provides technical documentation for the chat completion method within the OpenRouter TypeScript SDK, including details on the send function, parameters, and error handling.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "chat-completion",
+        "api-reference",
+        "error-handling"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-credits.md",
+      "title": "Credits - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/credits.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:02.629799-03:00",
+      "description": "title: Credits - TypeScript SDK subtitle: Credits method reference headline: Credits | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/credits](https://openrouter.ai/docs/sdks/typescript/api-reference/credits)' 'og:site\\_name': OpenRouter Docume...",
+      "summary": "This document provides a technical reference for managing user credits and cryptocurrency payments using the OpenRouter TypeScript SDK. It details specific methods for retrieving credit balances and creating Coinbase charges through both class-based and standalone function implementations.",
+      "tags": [
+        "openrouter-sdk",
+        "typescript",
+        "credit-management",
+        "api-reference",
+        "coinbase-integration",
+        "crypto-payments",
+        "sdk-documentation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-embeddings.md",
+      "title": "Embeddings - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/embeddings.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:03.655367-03:00",
+      "description": "title: Embeddings - TypeScript SDK subtitle: Embeddings method reference headline: Embeddings | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/embeddings](https://openrouter.ai/docs/sdks/typescript/api-reference/embeddings)' 'og:site\\_name': Op...",
+      "summary": "This document provides a technical reference for the OpenRouter TypeScript SDK embeddings methods, detailing how to generate text embeddings and list available embedding models.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "embeddings",
+        "api-reference",
+        "text-embeddings",
+        "sdk"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-generations.md",
+      "title": "Generations - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/generations.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:07.280356-03:00",
+      "description": "title: Generations - TypeScript SDK subtitle: Generations method reference headline: Generations | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/generations](https://openrouter.ai/docs/sdks/typescript/api-reference/generations)' 'og:site\\_name...",
+      "summary": "Technical reference for the OpenRouter TypeScript SDK generations method, detailing how to retrieve request and usage metadata for individual generations using the getGeneration function.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "api-reference",
+        "generations",
+        "metadata",
+        "get-generation"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-endpoints.md",
+      "title": "Endpoints - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/endpoints.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:05.834689-03:00",
+      "description": "title: Endpoints - TypeScript SDK subtitle: Endpoints method reference headline: Endpoints | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/endpoints](https://openrouter.ai/docs/sdks/typescript/api-reference/endpoints)' 'og:site\\_name': OpenRou...",
+      "summary": "This document provides a technical reference for the endpoints methods within the OpenRouter TypeScript SDK, including instructions for listing model endpoints and previewing ZDR impacts.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "api-endpoints",
+        "sdk-reference",
+        "zdr-preview"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-guardrails.md",
+      "title": "Guardrails - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/guardrails.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:08.501312-03:00",
+      "description": "title: Guardrails - TypeScript SDK subtitle: Guardrails method reference headline: Guardrails | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/guardrails](https://openrouter.ai/docs/sdks/typescript/api-reference/guardrails)' 'og:site\\_name': Op...",
+      "summary": "This document provides a technical reference for the Guardrails API within the OpenRouter TypeScript SDK, detailing methods for managing guardrail configurations and assignments. It covers operations such as listing, creating, updating, and deleting guardrails, along with bulk assignment of keys and members.",
+      "tags": [
+        "typescript-sdk",
+        "openrouter",
+        "guardrails",
+        "api-reference",
+        "content-moderation",
+        "sdk-methods"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-models-models.md",
+      "title": "Models - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/models/models.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:11.962288-03:00",
+      "description": "title: Models - TypeScript SDK subtitle: Models method reference headline: Models | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/models](https://openrouter.ai/docs/sdks/typescript/api-reference/models)' 'og:site\\_name': OpenRouter Documentati...",
+      "summary": "This document provides a technical reference for the model information endpoints in the OpenRouter TypeScript SDK, including methods to count and list available AI models.",
+      "tags": [
+        "typescript-sdk",
+        "openrouter",
+        "api-reference",
+        "models",
+        "ai-integration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-oauth.md",
+      "title": "OAuth - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/oauth.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:12.766933-03:00",
+      "description": "title: OAuth - TypeScript SDK subtitle: OAuth method reference headline: OAuth | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/oauth](https://openrouter.ai/docs/sdks/typescript/api-reference/oauth)' 'og:site\\_name': OpenRouter Documentation 'o...",
+      "summary": "This document provides a technical reference for the OAuth authentication methods within the OpenRouter TypeScript SDK, detailing how to manage authorization codes and API keys using the PKCE flow.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "oauth",
+        "authentication",
+        "pkce",
+        "api-keys",
+        "sdk-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-providers.md",
+      "title": "Providers - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/providers.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:14.726281-03:00",
+      "description": "title: Providers - TypeScript SDK subtitle: Providers method reference headline: Providers | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/providers](https://openrouter.ai/docs/sdks/typescript/api-reference/providers)' 'og:site\\_name': OpenRou...",
+      "summary": "This document provides technical reference for the providers endpoint in the OpenRouter TypeScript SDK, explaining how to retrieve a list of available AI providers.",
+      "tags": [
+        "typescript-sdk",
+        "openrouter-api",
+        "provider-list",
+        "api-reference",
+        "sdk-methods"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-typescript-api-reference-responses.md",
+      "title": "Beta.Responses - TypeScript SDK",
+      "url": "https://openrouter.ai/docs/sdks/typescript/api-reference/responses.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:17.372038-03:00",
+      "description": "title: Beta.Responses - TypeScript SDK subtitle: Beta.Responses method reference headline: Beta.Responses | OpenRouter TypeScript SDK canonical-url: '[https://openrouter.ai/docs/sdks/typescript/api-reference/responses](https://openrouter.ai/docs/sdks/typescript/api-reference/responses)' 'og:site\\...",
+      "summary": "This document provides a technical reference for the Beta.Responses namespace in the OpenRouter TypeScript SDK, detailing how to create streaming and non-streaming responses using the send method.",
+      "tags": [
+        "openrouter",
+        "typescript-sdk",
+        "api-responses",
+        "streaming",
+        "beta-features",
+        "error-handling"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-overview.md",
+      "title": "Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/overview.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:17.40901-03:00",
+      "description": "title: Python SDK subtitle: Official OpenRouter Python SDK documentation headline: OpenRouter Python SDK | Complete Documentation canonical-url: '[https://openrouter.ai/docs/sdks/python](https://openrouter.ai/docs/sdks/python)' 'og:site\\_name': OpenRouter Documentation 'og:title': OpenRouter Pyth...",
+      "summary": "This document provides comprehensive documentation for the official OpenRouter Python SDK, detailing its installation, type-safe features, and methods for integrating various AI models.",
+      "tags": [
+        "python-sdk",
+        "openrouter",
+        "ai-integration",
+        "type-safety",
+        "asyncio",
+        "pydantic"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-analytics.md",
+      "title": "Analytics - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/analytics.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:19.905341-03:00",
+      "description": "title: Analytics - Python SDK subtitle: Analytics method reference headline: Analytics | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/analytics](https://openrouter.ai/docs/sdks/python/api-reference/analytics)' 'og:site\\_name': OpenRouter Documentatio...",
+      "summary": "This document provides technical documentation for the analytics module within the OpenRouter Python SDK, specifically focusing on retrieving user activity data grouped by endpoint. It details the available operations, parameters, and error responses for usage tracking.",
+      "tags": [
+        "openrouter-sdk",
+        "python-sdk",
+        "analytics-api",
+        "user-activity",
+        "api-reference",
+        "activity-monitoring"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-chat.md",
+      "title": "Chat - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/chat.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:23.380259-03:00",
+      "description": "title: Chat - Python SDK subtitle: Chat method reference headline: Chat | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/chat](https://openrouter.ai/docs/sdks/python/api-reference/chat)' 'og:site\\_name': OpenRouter Documentation 'og:title': Chat | Open...",
+      "summary": "This document provides a technical reference for the chat completion functionality in the OpenRouter Python SDK, detailing the send method and its parameters.",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "api-reference",
+        "chat-completions",
+        "sdk-documentation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-apikeys.md",
+      "title": "APIKeys - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/apikeys.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:23.253363-03:00",
+      "description": "title: APIKeys - Python SDK subtitle: APIKeys method reference headline: APIKeys | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/apikeys](https://openrouter.ai/docs/sdks/python/api-reference/apikeys)' 'og:site\\_name': OpenRouter Documentation 'og:titl...",
+      "summary": "This document provides a technical reference for managing API keys using the OpenRouter Python SDK, detailing methods for listing, creating, updating, and retrieving key metadata.",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "api-keys",
+        "key-management",
+        "api-reference",
+        "authentication"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-credits.md",
+      "title": "Credits - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/credits.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:27.336099-03:00",
+      "description": "title: Credits - Python SDK subtitle: Credits method reference headline: Credits | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/credits](https://openrouter.ai/docs/sdks/python/api-reference/credits)' 'og:site\\_name': OpenRouter Documentation 'og:titl...",
+      "summary": "This document provides a technical reference for managing user credits and processing cryptocurrency payments via the OpenRouter Python SDK. It details specific API methods for retrieving credit balances and generating Coinbase charges, including parameter requirements and error codes.",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "api-reference",
+        "credit-management",
+        "coinbase",
+        "cryptocurrency-payments"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-embeddings.md",
+      "title": "Embeddings - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/embeddings.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:28.673585-03:00",
+      "description": "title: Embeddings - Python SDK subtitle: Embeddings method reference headline: Embeddings | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/embeddings](https://openrouter.ai/docs/sdks/python/api-reference/embeddings)' 'og:site\\_name': OpenRouter Documen...",
+      "summary": "This document provides a technical reference for the embeddings methods in the OpenRouter Python SDK, covering model listing and text vector generation.",
+      "tags": [
+        "python-sdk",
+        "openrouter",
+        "embeddings",
+        "api-reference",
+        "text-embeddings"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-endpoints.md",
+      "title": "Endpoints - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/endpoints.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:28.862125-03:00",
+      "description": "title: Endpoints - Python SDK subtitle: Endpoints method reference headline: Endpoints | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/endpoints](https://openrouter.ai/docs/sdks/python/api-reference/endpoints)' 'og:site\\_name': OpenRouter Documentatio...",
+      "summary": "This document provides a reference for the endpoints methods within the OpenRouter Python SDK, explaining how to list available model endpoints and preview the impact of Zero Data Retention (ZDR).",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "api-reference",
+        "endpoints-list",
+        "zdr-endpoints",
+        "ai-models"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-generations.md",
+      "title": "Generations - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/generations.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:32.507645-03:00",
+      "description": "title: Generations - Python SDK subtitle: Generations method reference headline: Generations | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/generations](https://openrouter.ai/docs/sdks/python/api-reference/generations)' 'og:site\\_name': OpenRouter Do...",
+      "summary": "This document provides a technical reference for the generations method in the OpenRouter Python SDK, detailing how to retrieve request and usage metadata for specific generation IDs.",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "api-reference",
+        "generations",
+        "metadata-retrieval",
+        "error-handling"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-guardrails.md",
+      "title": "Guardrails - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/guardrails.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:33.819184-03:00",
+      "description": "title: Guardrails - Python SDK subtitle: Guardrails method reference headline: Guardrails | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/guardrails](https://openrouter.ai/docs/sdks/python/api-reference/guardrails)' 'og:site\\_name': OpenRouter Documen...",
+      "summary": "Reference documentation for managing guardrails via the OpenRouter Python SDK, detailing methods for creating, updating, and assigning keys or members to usage limits.",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "guardrails",
+        "api-reference",
+        "usage-limits",
+        "access-control"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-models-models.md",
+      "title": "Models - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/models/models.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:33.944953-03:00",
+      "description": "title: Models - Python SDK subtitle: Models method reference headline: Models | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/models](https://openrouter.ai/docs/sdks/python/api-reference/models)' 'og:site\\_name': OpenRouter Documentation 'og:title': M...",
+      "summary": "This document provides a technical reference for the models method within the OpenRouter Python SDK, explaining how to count, list, and filter available AI models. It details request parameters, response structures, and error handling for the model information endpoints.",
+      "tags": [
+        "openrouter",
+        "python-sdk",
+        "api-reference",
+        "ai-models",
+        "model-discovery",
+        "llm-integration"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-oauth.md",
+      "title": "OAuth - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/oauth.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:37.668053-03:00",
+      "description": "title: OAuth - Python SDK subtitle: OAuth method reference headline: OAuth | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/oauth](https://openrouter.ai/docs/sdks/python/api-reference/oauth)' 'og:site\\_name': OpenRouter Documentation 'og:title': OAuth ...",
+      "summary": "This document provides a technical reference for the OAuth authentication methods in the OpenRouter Python SDK, covering how to create and exchange authorization codes for API keys using the PKCE flow.",
+      "tags": [
+        "python-sdk",
+        "oauth",
+        "pkce",
+        "authentication",
+        "api-keys",
+        "openrouter"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-responses.md",
+      "title": "Responses - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/responses.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:39.757715-03:00",
+      "description": "title: Responses - Python SDK subtitle: Responses method reference headline: Responses | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/responses](https://openrouter.ai/docs/sdks/python/api-reference/responses)' 'og:site\\_name': OpenRouter Documentatio...",
+      "summary": "This document provides a technical reference for the beta.responses endpoint in the OpenRouter Python SDK, specifically detailing the send method for generating streaming or non-streaming model responses.",
+      "tags": [
+        "openrouter-sdk",
+        "python-sdk",
+        "api-reference",
+        "streaming-responses",
+        "ai-integration",
+        "beta-feature"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-sdks-python-api-reference-providers.md",
+      "title": "Providers - Python SDK",
+      "url": "https://openrouter.ai/docs/sdks/python/api-reference/providers.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:38.884843-03:00",
+      "description": "title: Providers - Python SDK subtitle: Providers method reference headline: Providers | OpenRouter Python SDK canonical-url: '[https://openrouter.ai/docs/sdks/python/api-reference/providers](https://openrouter.ai/docs/sdks/python/api-reference/providers)' 'og:site\\_name': OpenRouter Documentatio...",
+      "summary": "This document provides technical documentation and usage examples for the providers endpoint within the OpenRouter Python SDK, specifically detailing the method to list all available providers.",
+      "tags": [
+        "openrouter-sdk",
+        "python",
+        "api-reference",
+        "list-providers",
+        "provider-information"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-responses-create-responses.md",
+      "title": "Create a response",
+      "url": "https://openrouter.ai/docs/api/api-reference/responses/create-responses.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:41.861442-03:00",
+      "description": "POST https://openrouter.ai/api/v1/responses Content-Type: application/json",
+      "summary": "This document provides the technical specification for the OpenRouter OpenResponses API endpoint used to generate streaming or non-streaming model responses.",
+      "tags": [
+        "openrouter",
+        "api-reference",
+        "streaming-responses",
+        "openapi-specification",
+        "http-post",
+        "json-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-o-auth-exchange-auth-code-for-api-key.md",
+      "title": "Exchange authorization code for API key",
+      "url": "https://openrouter.ai/docs/api/api-reference/o-auth/exchange-auth-code-for-api-key.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:43.003212-03:00",
+      "description": "POST https://openrouter.ai/api/v1/auth/keys Content-Type: application/json",
+      "summary": "This document describes the API endpoint used to exchange an OAuth PKCE authorization code for a user-controlled OpenRouter API key. It provides technical specifications and implementation examples in several programming languages.",
+      "tags": [
+        "openrouter-api",
+        "oauth-pkce",
+        "authentication",
+        "api-key-exchange",
+        "authorization-code",
+        "rest-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-o-auth-create-auth-keys-code.md",
+      "title": "Create authorization code",
+      "url": "https://openrouter.ai/docs/api/api-reference/o-auth/create-auth-keys-code.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:44.378802-03:00",
+      "description": "POST https://openrouter.ai/api/v1/auth/keys/code Content-Type: application/json",
+      "summary": "Technical documentation for the OpenRouter API endpoint that generates authorization codes used in the PKCE flow for creating user-controlled API keys.",
+      "tags": [
+        "openrouter",
+        "oauth",
+        "pkce",
+        "authorization-code",
+        "api-key-generation",
+        "authentication"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-anthropic-messages-create-messages.md",
+      "title": "Create a message",
+      "url": "https://openrouter.ai/docs/api/api-reference/anthropic-messages/create-messages.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:47.142403-03:00",
+      "description": "POST https://openrouter.ai/api/v1/messages Content-Type: application/json",
+      "summary": "This document defines the OpenRouter API endpoint for creating messages using the Anthropic Messages format, supporting features such as multimodal inputs, tools, and extended thinking.",
+      "tags": [
+        "openrouter",
+        "anthropic-messages",
+        "api-endpoint",
+        "multimodal-ai",
+        "messaging",
+        "openapi-specification"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-analytics-get-user-activity.md",
+      "title": "Get user activity grouped by endpoint",
+      "url": "https://openrouter.ai/docs/api/api-reference/analytics/get-user-activity.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:47.762864-03:00",
+      "description": "GET https://openrouter.ai/api/v1/activity",
+      "summary": "This document provides the technical specification and code examples for the OpenRouter API endpoint that retrieves user activity and usage statistics grouped by endpoint.",
+      "tags": [
+        "openrouter-api",
+        "analytics",
+        "user-activity",
+        "usage-tracking",
+        "endpoint-analytics",
+        "management-key"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-credits-get-credits.md",
+      "title": "Get remaining credits",
+      "url": "https://openrouter.ai/docs/api/api-reference/credits/get-credits.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:48.768232-03:00",
+      "description": "GET https://openrouter.ai/api/v1/credits",
+      "summary": "This document describes the OpenRouter API endpoint for retrieving the total amount of purchased and used credits for an authenticated user.",
+      "tags": [
+        "openrouter-api",
+        "billing-credits",
+        "usage-tracking",
+        "rest-endpoint",
+        "management-key"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-embeddings-create-embeddings.md",
+      "title": "Submit an embedding request",
+      "url": "https://openrouter.ai/docs/api/api-reference/embeddings/create-embeddings.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:52.559332-03:00",
+      "description": "POST https://openrouter.ai/api/v1/embeddings Content-Type: application/json",
+      "summary": "This document specifies the API endpoint and request parameters for submitting text or image embedding requests through the OpenRouter platform. It provides a detailed OpenAPI schema including authentication requirements, request body properties, and possible HTTP status codes.",
+      "tags": [
+        "openrouter",
+        "embeddings",
+        "api-endpoint",
+        "vectorization",
+        "openapi-specification",
+        "machine-learning"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-embeddings-list-embeddings-models.md",
+      "title": "List all embeddings models",
+      "url": "https://openrouter.ai/docs/api/api-reference/embeddings/list-embeddings-models.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:52.870574-03:00",
+      "description": "GET https://openrouter.ai/api/v1/embeddings/models",
+      "summary": "This document provides the API specification for retrieving a list of all available embedding models on OpenRouter, including their pricing and technical properties.",
+      "tags": [
+        "openrouter",
+        "embeddings",
+        "api-endpoint",
+        "openapi-specification",
+        "model-discovery",
+        "machine-learning"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-credits-create-coinbase-charge.md",
+      "title": "Create a Coinbase charge for crypto payment",
+      "url": "https://openrouter.ai/docs/api/api-reference/credits/create-coinbase-charge.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:53.081083-03:00",
+      "description": "POST https://openrouter.ai/api/v1/credits/coinbase Content-Type: application/json",
+      "summary": "This document specifies the API endpoint and request requirements for creating a Coinbase charge to facilitate cryptocurrency payments for OpenRouter credits.",
+      "tags": [
+        "coinbase-commerce",
+        "crypto-payments",
+        "openrouter-api",
+        "credits",
+        "blockchain",
+        "web3-integration"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-models-list-models-count.md",
+      "title": "Get total count of available models",
+      "url": "https://openrouter.ai/docs/api/api-reference/models/list-models-count.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:56.580746-03:00",
+      "description": "GET https://openrouter.ai/api/v1/models/count",
+      "summary": "This document describes the OpenRouter API endpoint for retrieving the total count of available AI models and includes implementation examples for various programming languages.",
+      "tags": [
+        "openrouter-api",
+        "model-inventory",
+        "rest-endpoint",
+        "api-documentation",
+        "developer-tools"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-generations-get-generation.md",
+      "title": "Get request \u0026 usage metadata for a generation",
+      "url": "https://openrouter.ai/docs/api/api-reference/generations/get-generation.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:56.574803-03:00",
+      "description": "GET https://openrouter.ai/api/v1/generation",
+      "summary": "This document provides the OpenAPI specification for the OpenRouter API endpoint used to retrieve detailed request and usage metadata for specific AI generations. It details the necessary parameters, authentication requirements, and the comprehensive response schema including token counts, costs, and latency metrics.",
+      "tags": [
+        "openrouter",
+        "api-reference",
+        "generation-metadata",
+        "usage-tracking",
+        "token-usage",
+        "openapi-specification"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-models-get-models.md",
+      "title": "List all models and their properties",
+      "url": "https://openrouter.ai/docs/api/api-reference/models/get-models.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:17:57.555954-03:00",
+      "description": "GET https://openrouter.ai/api/v1/models",
+      "summary": "This document provides the API specification for retrieving a list of all available language models on OpenRouter along with their technical properties, pricing, and supported parameters.",
+      "tags": [
+        "openrouter-api",
+        "model-metadata",
+        "openapi-specification",
+        "endpoint-reference",
+        "pricing-details",
+        "ai-models"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-endpoints-list-endpoints-zdr.md",
+      "title": "Preview the impact of ZDR on the available endpoints",
+      "url": "https://openrouter.ai/docs/api/api-reference/endpoints/list-endpoints-zdr.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:02.519846-03:00",
+      "description": "GET https://openrouter.ai/api/v1/endpoints/zdr",
+      "summary": "This document specifies the OpenRouter API endpoint for previewing how Zero-Day Retention (ZDR) settings impact the availability and pricing of model endpoints.",
+      "tags": [
+        "openrouter",
+        "api-endpoints",
+        "zdr",
+        "openapi-specification",
+        "model-pricing",
+        "provider-data"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-endpoints-list-endpoints.md",
+      "title": "List all endpoints for a model",
+      "url": "https://openrouter.ai/docs/api/api-reference/endpoints/list-endpoints.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:02.200601-03:00",
+      "description": "GET https://openrouter.ai/api/v1/models/{author}/{slug}/endpoints",
+      "summary": "This document provides the API reference for listing all available provider endpoints for a specific AI model on OpenRouter, including detailed technical specifications and pricing information.",
+      "tags": [
+        "openrouter-api",
+        "model-endpoints",
+        "api-reference",
+        "llm-providers",
+        "openapi-spec",
+        "pricing-data"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-models-list-models-user.md",
+      "title": "List models filtered by user provider preferences, privacy settings, and guardrails",
+      "url": "https://openrouter.ai/docs/api/api-reference/models/list-models-user.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:02.359046-03:00",
+      "description": "GET https://openrouter.ai/api/v1/models/user",
+      "summary": "This document describes an API endpoint for retrieving a list of AI models filtered by user-specific provider preferences, privacy configurations, and active guardrails.",
+      "tags": [
+        "openrouter-api",
+        "model-listing",
+        "user-preferences",
+        "guardrails",
+        "privacy-settings",
+        "api-reference"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-providers-list-providers.md",
+      "title": "List all providers",
+      "url": "https://openrouter.ai/docs/api/api-reference/providers/list-providers.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:06.956817-03:00",
+      "description": "GET https://openrouter.ai/api/v1/providers",
+      "summary": "This document provides the API specification and multi-language code examples for retrieving a list of all model providers available on OpenRouter.",
+      "tags": [
+        "openrouter",
+        "api-reference",
+        "providers",
+        "http-get",
+        "rest-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-api-keys-list.md",
+      "title": "List API keys",
+      "url": "https://openrouter.ai/docs/api/api-reference/api-keys/list.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:07.314417-03:00",
+      "description": "GET https://openrouter.ai/api/v1/keys",
+      "summary": "This document provides technical details for the OpenRouter API endpoint used to retrieve a list of all API keys, including their usage metrics and spending limits.",
+      "tags": [
+        "openrouter-api",
+        "api-key-management",
+        "usage-statistics",
+        "endpoint-reference",
+        "authentication"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-api-keys-create-keys.md",
+      "title": "Create a new API key",
+      "url": "https://openrouter.ai/docs/api/api-reference/api-keys/create-keys.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:07.637879-03:00",
+      "description": "POST https://openrouter.ai/api/v1/keys Content-Type: application/json",
+      "summary": "This document provides the technical specification and code examples for the API endpoint used to create new API keys with configurable spending limits and expiration dates.",
+      "tags": [
+        "openrouter-api",
+        "api-key-management",
+        "authentication",
+        "rest-endpoint",
+        "spending-limits",
+        "bearer-token"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-api-keys-update-keys.md",
+      "title": "Update an API key",
+      "url": "https://openrouter.ai/docs/api/api-reference/api-keys/update-keys.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:13.087049-03:00",
+      "description": "PATCH https://openrouter.ai/api/v1/keys/{hash} Content-Type: application/json",
+      "summary": "This document provides the technical specification and code examples for updating an existing API key's properties, such as its name, spending limits, and status, via a PATCH request.",
+      "tags": [
+        "openrouter-api",
+        "api-key-management",
+        "authentication",
+        "patch-endpoint",
+        "spending-limits"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-api-keys-get-key.md",
+      "title": "Get a single API key",
+      "url": "https://openrouter.ai/docs/api/api-reference/api-keys/get-key.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:11.421924-03:00",
+      "description": "GET https://openrouter.ai/api/v1/keys/{hash}",
+      "summary": "This document specifies the OpenRouter API endpoint used to retrieve detailed metadata for a single API key using its unique hash identifier.",
+      "tags": [
+        "openrouter",
+        "api-keys",
+        "rest-api",
+        "authentication",
+        "management-api",
+        "endpoint-reference"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-api-keys-delete-keys.md",
+      "title": "Delete an API key",
+      "url": "https://openrouter.ai/docs/api/api-reference/api-keys/delete-keys.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:12.040958-03:00",
+      "description": "DELETE https://openrouter.ai/api/v1/keys/{hash}",
+      "summary": "This document provides the technical specification and code examples for deleting an existing OpenRouter API key using its hash identifier. It details the required management key authentication, path parameters, and expected responses for the DELETE endpoint.",
+      "tags": [
+        "openrouter",
+        "api-key-management",
+        "rest-api",
+        "delete-method",
+        "authentication",
+        "endpoint-reference"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-api-keys-get-current-key.md",
+      "title": "Get current API key",
+      "url": "https://openrouter.ai/docs/api/api-reference/api-keys/get-current-key.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:17.398443-03:00",
+      "description": "GET https://openrouter.ai/api/v1/key",
+      "summary": "This document describes the API endpoint for retrieving detailed information about the current authentication session's API key, including usage statistics and spending limits.",
+      "tags": [
+        "api-key",
+        "openrouter",
+        "usage-tracking",
+        "billing",
+        "authentication",
+        "rate-limits"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-list-guardrails.md",
+      "title": "List guardrails",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrails.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:18.254822-03:00",
+      "description": "GET https://openrouter.ai/api/v1/guardrails",
+      "summary": "This document provides the technical specifications and code examples for the OpenRouter API endpoint used to retrieve a list of all guardrails associated with an authenticated user. It details the required management key authentication, pagination parameters, and the structural schema of the guardrail objects.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "api-endpoint",
+        "management-api",
+        "authentication",
+        "pagination"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-create-guardrail.md",
+      "title": "Create a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/create-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:20.475009-03:00",
+      "description": "POST https://openrouter.ai/api/v1/guardrails Content-Type: application/json",
+      "summary": "This document provides the API specification and code examples for creating a guardrail to manage spending limits, allowed models, and data retention on OpenRouter.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "api-reference",
+        "usage-limits",
+        "model-filtering",
+        "data-retention"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-get-guardrail.md",
+      "title": "Get a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/get-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:22.23846-03:00",
+      "description": "GET https://openrouter.ai/api/v1/guardrails/{id}",
+      "summary": "Explains how to retrieve detailed information for a specific guardrail using its unique identifier through the OpenRouter management API.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "management-api",
+        "rest-api",
+        "endpoint-reference"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-delete-guardrail.md",
+      "title": "Delete a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/delete-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:23.357616-03:00",
+      "description": "DELETE https://openrouter.ai/api/v1/guardrails/{id}",
+      "summary": "This document provides technical details and code examples for deleting an existing guardrail via the OpenRouter API using a management key.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "delete-endpoint",
+        "management-api",
+        "api-reference"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-update-guardrail.md",
+      "title": "Update a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/update-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:24.743082-03:00",
+      "description": "PATCH https://openrouter.ai/api/v1/guardrails/{id} Content-Type: application/json",
+      "summary": "This document provides the technical specification and code examples for updating the configuration of an existing guardrail via the OpenRouter Management API.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "management-api",
+        "api-reference",
+        "usage-limits",
+        "patch-request"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-list-key-assignments.md",
+      "title": "List all key assignments",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-key-assignments.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:26.03256-03:00",
+      "description": "GET https://openrouter.ai/api/v1/guardrails/assignments/keys",
+      "summary": "This document specifies the GET endpoint for retrieving a list of all API key guardrail assignments for an authenticated user, including request parameters and response schemas.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "api-key-management",
+        "management-api",
+        "rest-endpoint",
+        "authentication"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-list-member-assignments.md",
+      "title": "List all member assignments",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-member-assignments.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:26.978074-03:00",
+      "description": "GET https://openrouter.ai/api/v1/guardrails/assignments/members",
+      "summary": "This document provides the API specification and code examples for retrieving a paginated list of guardrail assignments for organization members via the OpenRouter management API.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "member-management",
+        "rest-api",
+        "authentication"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-list-guardrail-key-assignments.md",
+      "title": "List key assignments for a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrail-key-assignments.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:28.706422-03:00",
+      "description": "GET https://openrouter.ai/api/v1/guardrails/{id}/assignments/keys",
+      "summary": "This document provides the API specification and code examples for listing all API key assignments associated with a specific guardrail on OpenRouter.",
+      "tags": [
+        "openrouter",
+        "api-reference",
+        "guardrails",
+        "key-management",
+        "authentication"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-bulk-assign-keys-to-guardrail.md",
+      "title": "Bulk assign keys to a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-assign-keys-to-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:31.090418-03:00",
+      "description": "POST https://openrouter.ai/api/v1/guardrails/{id}/assignments/keys Content-Type: application/json",
+      "summary": "This API reference explains how to assign multiple API keys to a specific guardrail using key hashes and provides implementation examples across several programming languages.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "api-management",
+        "bulk-operations",
+        "authentication"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-bulk-assign-members-to-guardrail.md",
+      "title": "Bulk assign members to a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-assign-members-to-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:32.410357-03:00",
+      "description": "POST https://openrouter.ai/api/v1/guardrails/{id}/assignments/members Content-Type: application/json",
+      "summary": "This document provides technical details and code examples for the OpenRouter API endpoint used to assign multiple organization members to a specific guardrail.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "bulk-assignment",
+        "member-management",
+        "management-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-list-guardrail-member-assignments.md",
+      "title": "List member assignments for a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/list-guardrail-member-assignments.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:33.084714-03:00",
+      "description": "GET https://openrouter.ai/api/v1/guardrails/{id}/assignments/members",
+      "summary": "This document describes the API endpoint for listing all organization member assignments for a specific guardrail, providing request parameters and response schemas.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "member-assignments",
+        "api-reference",
+        "management-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-bulk-unassign-keys-from-guardrail.md",
+      "title": "Bulk unassign keys from a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-unassign-keys-from-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:36.283266-03:00",
+      "description": "POST https://openrouter.ai/api/v1/guardrails/{id}/assignments/keys/remove Content-Type: application/json",
+      "summary": "This document describes the API endpoint for removing multiple API keys from a specific guardrail and provides request parameters and code examples.",
+      "tags": [
+        "openrouter-api",
+        "guardrails",
+        "api-keys",
+        "bulk-unassign",
+        "key-management",
+        "management-api"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-guardrails-bulk-unassign-members-from-guardrail.md",
+      "title": "Bulk unassign members from a guardrail",
+      "url": "https://openrouter.ai/docs/api/api-reference/guardrails/bulk-unassign-members-from-guardrail.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:37.537953-03:00",
+      "description": "POST https://openrouter.ai/api/v1/guardrails/{id}/assignments/members/remove Content-Type: application/json",
+      "summary": "This document provides the API specification and multi-language code examples for unassigning multiple organization members from a specific guardrail in bulk.",
+      "tags": [
+        "guardrails",
+        "management-api",
+        "bulk-operations",
+        "organization-members",
+        "openrouter"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "docs-api-api-reference-chat-send-chat-completion-request.md",
+      "title": "Create a chat completion",
+      "url": "https://openrouter.ai/docs/api/api-reference/chat/send-chat-completion-request.mdx",
+      "source": "llms",
+      "fetched_at": "2026-02-13T15:18:38.116581-03:00",
+      "description": "POST https://openrouter.ai/api/v1/chat/completions Content-Type: application/json",
+      "summary": "This document specifies the OpenRouter API endpoint for generating chat completions, detailing both streaming and non-streaming request parameters and response schemas.",
+      "tags": [
+        "openrouter",
+        "chat-completions",
+        "api-endpoint",
+        "llm-api",
+        "openapi-specification",
+        "json-schema"
+      ],
+      "category": "api"
+    }
+  ]
+}

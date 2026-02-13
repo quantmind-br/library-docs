@@ -1,0 +1,1570 @@
+{
+  "generated_at": "2026-02-11T01:44:36.338319-03:00",
+  "source_url": "https://ghostty.org/",
+  "strategy": "crawler",
+  "total_documents": 79,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-11T07:00:00Z",
+    "total_files": 79,
+    "categories": [
+      "intro",
+      "install",
+      "features",
+      "config",
+      "vt-intro",
+      "vt-concepts",
+      "vt-control",
+      "vt-esc",
+      "vt-csi",
+      "vt-osc",
+      "vt-reference",
+      "other"
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Ghostty",
+      "url": "https://ghostty.org/",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:02.452098-03:00",
+      "description": "Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.",
+      "summary": "Ghostty is a high-performance, cross-platform terminal emulator that leverages GPU acceleration and native user interface components.",
+      "tags": [
+        "terminal-emulator",
+        "gpu-acceleration",
+        "cross-platform",
+        "native-ui",
+        "ghostty"
+      ],
+      "category": "other",
+      "category_group": "intro"
+    },
+    {
+      "file_path": "002-docs-about.md",
+      "original_file_path": "docs-about.md",
+      "title": "About Ghostty",
+      "url": "https://ghostty.org/docs/about",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:09.468378-03:00",
+      "description": "null",
+      "summary": "This document introduces Ghostty, a terminal emulator designed to combine high performance, native user interfaces, and a library-driven architecture for macOS and Linux. It explains the project's philosophy of balancing speed, features, and platform-specific integration.",
+      "tags": [
+        "ghostty",
+        "terminal-emulator",
+        "native-ui",
+        "performance",
+        "zig",
+        "cross-platform",
+        "libghostty"
+      ],
+      "category": "concept",
+      "category_group": "intro"
+    },
+    {
+      "file_path": "003-docs.md",
+      "original_file_path": "docs.md",
+      "title": "Ghostty Docs",
+      "url": "https://ghostty.org/docs",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:03.526322-03:00",
+      "description": "Ghostty is a fast, feature-rich, and cross-platform terminal emulator\nthat uses platform-native UI and GPU acceleration.",
+      "summary": "An introduction to Ghostty, a cross-platform terminal emulator that utilizes GPU acceleration and platform-native UI for high performance.",
+      "tags": [
+        "ghostty",
+        "terminal-emulator",
+        "gpu-acceleration",
+        "cross-platform"
+      ],
+      "category": "concept",
+      "category_group": "intro"
+    },
+    {
+      "file_path": "004-docs-install-pre.md",
+      "original_file_path": "docs-install-pre.md",
+      "title": "Prerelease Builds - Install",
+      "url": "https://ghostty.org/docs/install/pre",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:19.769338-03:00",
+      "description": "Help test the latest features and get the most recent bug fixes\nby running prerelease builds of Ghostty.",
+      "summary": "This document provides instructions for installing and updating to prerelease versions of Ghostty on macOS and Linux. it covers automatic update configuration, Homebrew commands, and Nix flake usage.",
+      "tags": [
+        "ghostty",
+        "prerelease-builds",
+        "installation",
+        "macos",
+        "linux",
+        "software-testing",
+        "homebrew",
+        "nix-flakes"
+      ],
+      "category": "guide",
+      "category_group": "install"
+    },
+    {
+      "file_path": "005-docs-install-binary.md",
+      "original_file_path": "docs-install-binary.md",
+      "title": "Binaries and Packages - Install",
+      "url": "https://ghostty.org/docs/install/binary",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:11.844598-03:00",
+      "description": "Install Ghostty without building it manually by downloading\nand running a prebuilt binary or package.",
+      "summary": "This document provides instructions and resource locations for installing the Ghostty terminal emulator using official and community-maintained prebuilt binaries across macOS and various Linux distributions.",
+      "tags": [
+        "ghostty",
+        "installation-guide",
+        "linux-packages",
+        "macos-binaries",
+        "package-management"
+      ],
+      "category": "guide",
+      "category_group": "install"
+    },
+    {
+      "file_path": "006-docs-install-build.md",
+      "original_file_path": "docs-install-build.md",
+      "title": "Build from Source - Install",
+      "url": "https://ghostty.org/docs/install/build",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:10.539563-03:00",
+      "description": "Build Ghostty yourself from source code. This is only recommended for\npeople who don't have access to binaries or packages, or for developers\nwho want to contribute to Ghostty.",
+      "summary": "This guide explains how to compile and install the Ghostty terminal emulator from its source code using the Zig compiler. It covers dependency management across different platforms and provides instructions for both local and system-wide installations.",
+      "tags": [
+        "ghostty-terminal",
+        "build-from-source",
+        "zig-compiler",
+        "linux-installation",
+        "macos-installation",
+        "compilation-guide"
+      ],
+      "category": "guide",
+      "category_group": "install"
+    },
+    {
+      "file_path": "007-docs-install-package.md",
+      "original_file_path": "docs-install-package.md",
+      "title": "Packaging Ghostty - Install",
+      "url": "https://ghostty.org/docs/install/package",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:20.435363-03:00",
+      "description": "For people who want to build and package Ghostty for their platform.",
+      "summary": "This document provides resources and guidance for developers and maintainers who want to build and package Ghostty for distribution on different platforms.",
+      "tags": [
+        "ghostty",
+        "packaging",
+        "distribution",
+        "maintainers",
+        "build-instructions"
+      ],
+      "category": "guide",
+      "category_group": "install"
+    },
+    {
+      "file_path": "008-docs-features.md",
+      "original_file_path": "docs-features.md",
+      "title": "Features",
+      "url": "https://ghostty.org/docs/features",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:18.918779-03:00",
+      "description": "The features Ghostty supports and associated documentation.",
+      "summary": "This document provides an overview of the core features and design principles of the Ghostty terminal emulator, detailing its native UI support, cross-platform capabilities, and compatibility standards.",
+      "tags": [
+        "ghostty",
+        "terminal-emulator",
+        "cross-platform",
+        "gpu-acceleration",
+        "macos",
+        "linux",
+        "terminal-features"
+      ],
+      "category": "reference",
+      "category_group": "features"
+    },
+    {
+      "file_path": "009-docs-features-theme.md",
+      "original_file_path": "docs-features-theme.md",
+      "title": "Color Theme - Features",
+      "url": "https://ghostty.org/docs/features/theme",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:11.438529-03:00",
+      "description": "Ghostty supports full customization of the color theme,\nships with hundreds of built-in themes, supports custom themes\nfor light and dark mode, and more.",
+      "summary": "This document explains how to select, customize, and author themes in Ghostty, including support for built-in color schemes and automatic light/dark mode switching.",
+      "tags": [
+        "ghostty",
+        "theming",
+        "terminal-configuration",
+        "custom-themes",
+        "color-schemes",
+        "light-dark-mode"
+      ],
+      "category": "configuration",
+      "category_group": "features"
+    },
+    {
+      "file_path": "010-docs-features-shell-integration.md",
+      "original_file_path": "docs-features-shell-integration.md",
+      "title": "Shell Integration - Features",
+      "url": "https://ghostty.org/docs/features/shell-integration",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:20.350664-03:00",
+      "description": "Some Ghostty features require integrating with your shell. Ghostty\ncan automatically inject shell integration for bash, zsh, fish, and\nelvish.",
+      "summary": "This document explains how Ghostty integrates with various shells to enable advanced features like prompt navigation and automatic working directory tracking. It details the setup process for automatic and manual shell integration, configuration options, and troubleshooting steps.",
+      "tags": [
+        "ghostty",
+        "shell-integration",
+        "terminal-emulator",
+        "bash",
+        "zsh",
+        "fish",
+        "configuration"
+      ],
+      "category": "guide",
+      "category_group": "features"
+    },
+    {
+      "file_path": "011-docs-config.md",
+      "original_file_path": "docs-config.md",
+      "title": "Configuration",
+      "url": "https://ghostty.org/docs/config#zero-configuration-philosophy",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:10.139126-03:00",
+      "description": "Ghostty supports hundreds of configuration options to make\nit look and behave exactly how you want.",
+      "summary": "This document explains how to configure the Ghostty terminal emulator, detailing configuration file locations, syntax rules, and methods for reloading settings.",
+      "tags": [
+        "ghostty",
+        "terminal-emulator",
+        "configuration-syntax",
+        "config-files",
+        "cli-flags"
+      ],
+      "category": "configuration",
+      "category_group": "config"
+    },
+    {
+      "file_path": "012-docs-config-keybind.md",
+      "original_file_path": "docs-config-keybind.md",
+      "title": "Keybindings - Configuration",
+      "url": "https://ghostty.org/docs/config/keybind",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:11.146231-03:00",
+      "description": "Associate a keypress with a specific action.",
+      "summary": "This document explains how to configure custom keybindings in the Ghostty terminal emulator, covering trigger syntax, modifier keys, special prefixes, and basic actions.",
+      "tags": [
+        "ghostty",
+        "keybindings",
+        "configuration",
+        "terminal-emulator",
+        "input-handling",
+        "shortcuts"
+      ],
+      "category": "guide",
+      "category_group": "config"
+    },
+    {
+      "file_path": "013-docs-config-keybind-sequence.md",
+      "original_file_path": "docs-config-keybind-sequence.md",
+      "title": "Trigger Sequences - Keybindings",
+      "url": "https://ghostty.org/docs/config/keybind/sequence",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:18.515517-03:00",
+      "description": "A trigger that requires a sequence of multiple keypress events.",
+      "summary": "This document explains how to configure multi-step keybinding sequences in Ghostty, covering syntax, overriding behaviors, and prefix limitations.",
+      "tags": [
+        "ghostty",
+        "keybindings",
+        "configuration",
+        "keyboard-shortcuts",
+        "key-sequences"
+      ],
+      "category": "guide",
+      "category_group": "config"
+    },
+    {
+      "file_path": "014-docs-config-keybind-reference.md",
+      "original_file_path": "docs-config-keybind-reference.md",
+      "title": "Action Reference - Keybindings",
+      "url": "https://ghostty.org/docs/config/keybind/reference",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:13.834198-03:00",
+      "description": "Reference of all Ghostty keybinding actions.",
+      "summary": "A comprehensive reference of all keybinding actions available in the Ghostty terminal emulator, covering navigation, terminal control, and window management.",
+      "tags": [
+        "ghostty",
+        "keybindings",
+        "terminal-emulator",
+        "keyboard-shortcuts",
+        "window-management",
+        "text-manipulation"
+      ],
+      "category": "reference",
+      "category_group": "config"
+    },
+    {
+      "file_path": "015-docs-config-reference.md",
+      "original_file_path": "docs-config-reference.md",
+      "title": "Option Reference - Configuration",
+      "url": "https://ghostty.org/docs/config/reference",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:12.86362-03:00",
+      "description": "Reference of all Ghostty configuration options.",
+      "summary": "This document provides a comprehensive reference for Ghostty terminal emulator configuration options, focusing primarily on font selection, styling, and advanced typographic settings.",
+      "tags": [
+        "ghostty",
+        "terminal-emulator",
+        "font-configuration",
+        "typography",
+        "font-features",
+        "ligatures",
+        "terminal-settings"
+      ],
+      "category": "reference",
+      "category_group": "config"
+    },
+    {
+      "file_path": "016-docs-vt.md",
+      "original_file_path": "docs-vt.md",
+      "title": "Terminal API (VT)",
+      "url": "https://ghostty.org/docs/vt",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:11.923132-03:00",
+      "description": "APIs for developers writing applications that run in Ghostty.",
+      "summary": "This document introduces Ghostty's support for control sequences and escape codes, providing resources for developers to interact with the terminal programmatically.",
+      "tags": [
+        "ghostty",
+        "control-sequences",
+        "vt-sequences",
+        "escape-codes",
+        "terminal-emulator"
+      ],
+      "category": "api",
+      "category_group": "vt-intro"
+    },
+    {
+      "file_path": "017-docs-vt-concepts-colors.md",
+      "original_file_path": "docs-vt-concepts-colors.md",
+      "title": "Colors - Concepts",
+      "url": "https://ghostty.org/docs/vt/concepts/colors#special-colors",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:45.567951-03:00",
+      "description": "All sorts of information regarding colors in terminal emulation.",
+      "summary": "This document explains how Ghostty handles terminal colors, including the 256-color palette, special and dynamic colors, and various color specification formats. It details the OSC sequences used for color manipulation and the supported syntax for RGB and named colors.",
+      "tags": [
+        "terminal-emulation",
+        "ghostty",
+        "color-schemes",
+        "rgb-specification",
+        "osc-codes",
+        "terminal-colors"
+      ],
+      "category": "concept",
+      "category_group": "vt-concepts"
+    },
+    {
+      "file_path": "018-docs-vt-concepts-sequences.md",
+      "original_file_path": "docs-vt-concepts-sequences.md",
+      "title": "Control Sequences - Concepts",
+      "url": "https://ghostty.org/docs/vt/concepts/sequences",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:17.888907-03:00",
+      "description": "Control sequences are a way for programs to interact with the terminal.",
+      "summary": "This document explains the fundamental mechanics and syntax of terminal control sequences, detailing how programs use various escape codes to communicate with and manage terminal emulators.",
+      "tags": [
+        "terminal-emulation",
+        "control-sequences",
+        "escape-codes",
+        "csi-sequences",
+        "osc-sequences",
+        "terminal-protocol"
+      ],
+      "category": "concept",
+      "category_group": "vt-concepts"
+    },
+    {
+      "file_path": "019-docs-vt-concepts-cursor.md",
+      "original_file_path": "docs-vt-concepts-cursor.md",
+      "title": "Cursor - Concepts",
+      "url": "https://ghostty.org/docs/vt/concepts/cursor#pending-wrap-state",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:43.939699-03:00",
+      "description": "The cursor is the row and column where the next\ncharacter will be printed or location-sensitive control\nsequence will be executed.",
+      "summary": "This document explains the fundamental behavior of the terminal cursor, including its role in character placement, its relationship with control sequences, and the mechanics of the pending wrap state.",
+      "tags": [
+        "terminal-cursor",
+        "terminal-api",
+        "vt-emulation",
+        "pending-wrap-state",
+        "text-rendering"
+      ],
+      "category": "concept",
+      "category_group": "vt-concepts"
+    },
+    {
+      "file_path": "020-docs-vt-concepts-screen.md",
+      "original_file_path": "docs-vt-concepts-screen.md",
+      "title": "Screen - Concepts",
+      "url": "https://ghostty.org/docs/vt/concepts/screen",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:43.15742-03:00",
+      "description": "TODO",
+      "summary": "This document explores the fundamental concepts and mechanics of the terminal screen buffer and display within the Ghostty terminal emulator.",
+      "tags": [
+        "ghostty",
+        "terminal-emulator",
+        "screen-buffer",
+        "virtual-terminal",
+        "vt-api"
+      ],
+      "category": "concept",
+      "category_group": "vt-concepts"
+    },
+    {
+      "file_path": "021-docs-vt-control-bs.md",
+      "original_file_path": "docs-vt-control-bs.md",
+      "title": "Backspace (BS) - Control",
+      "url": "https://ghostty.org/docs/vt/control/bs",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:20.529572-03:00",
+      "description": "Move the cursor backward one position.",
+      "summary": "This document defines the Backspace (BS) control sequence, which moves the terminal cursor backward by one position, equivalent to the CUB command.",
+      "tags": [
+        "terminal-emulation",
+        "control-sequences",
+        "cursor-movement",
+        "backspace",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-control"
+    },
+    {
+      "file_path": "022-docs-vt-control-bel.md",
+      "original_file_path": "docs-vt-control-bel.md",
+      "title": "Bell (BEL) - Control",
+      "url": "https://ghostty.org/docs/vt/control/bel",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:21.294278-03:00",
+      "description": "Raise the attention of the user.",
+      "summary": "This document explains the purpose and implementation of the BEL control character, detailing its historical context, modern notification behaviors, and use as an OSC terminator.",
+      "tags": [
+        "terminal-emulation",
+        "control-characters",
+        "bel-sequence",
+        "osc-terminator",
+        "ghostty",
+        "user-notification"
+      ],
+      "category": "reference",
+      "category_group": "vt-control"
+    },
+    {
+      "file_path": "023-docs-vt-control-cr.md",
+      "original_file_path": "docs-vt-control-cr.md",
+      "title": "Carriage Return (CR) - Control",
+      "url": "https://ghostty.org/docs/vt/control/cr",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:21.575383-03:00",
+      "description": "Move the cursor to the leftmost column.",
+      "summary": "This document defines the behavior of the Carriage Return (CR) control character, detailing how it affects cursor positioning and the pending wrap state within terminal emulators.",
+      "tags": [
+        "terminal-emulation",
+        "control-sequences",
+        "carriage-return",
+        "cursor-movement",
+        "vt100",
+        "terminal-margins"
+      ],
+      "category": "reference",
+      "category_group": "vt-control"
+    },
+    {
+      "file_path": "024-docs-vt-control-lf.md",
+      "original_file_path": "docs-vt-control-lf.md",
+      "title": "Linefeed (LF) - Control",
+      "url": "https://ghostty.org/docs/vt/control/lf",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:21.97768-03:00",
+      "description": "Move the cursor down one line, scrolling if necessary.",
+      "summary": "Explains the functionality of the Line Feed (LF) control character, which moves the terminal cursor down one line and scrolls the content if required.",
+      "tags": [
+        "terminal-emulator",
+        "control-characters",
+        "line-feed",
+        "cursor-movement",
+        "scrolling",
+        "vt100"
+      ],
+      "category": "reference",
+      "category_group": "vt-control"
+    },
+    {
+      "file_path": "025-docs-vt-control-tab.md",
+      "original_file_path": "docs-vt-control-tab.md",
+      "title": "Tab (TAB) - Control",
+      "url": "https://ghostty.org/docs/vt/control/tab",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:21.310838-03:00",
+      "description": "Move the cursor right to the next tab stop.",
+      "summary": "This document describes the terminal control sequence used to move the cursor forward to the next available tab stop.",
+      "tags": [
+        "terminal-emulation",
+        "control-sequences",
+        "cursor-movement",
+        "tabulation"
+      ],
+      "category": "reference",
+      "category_group": "vt-control"
+    },
+    {
+      "file_path": "026-docs-vt-esc-ind.md",
+      "original_file_path": "docs-vt-esc-ind.md",
+      "title": "Index (IND) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/ind",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:23.351308-03:00",
+      "description": "Move the cursor down one cell, scrolling if necessary.",
+      "summary": "This document explains the Index (IND) escape sequence, which moves the cursor down one line and triggers scrolling when the cursor is at the bottom margin. It details how the sequence interacts with scroll regions, margins, and the terminal's screen state.",
+      "tags": [
+        "vt-escape-sequences",
+        "terminal-emulation",
+        "cursor-movement",
+        "scrolling",
+        "index-sequence",
+        "ansi-escape-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "027-docs-vt-esc-deckpam.md",
+      "original_file_path": "docs-vt-esc-deckpam.md",
+      "title": "Keypad Application Mode (DECKPAM) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/deckpam",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:25.302018-03:00",
+      "description": "Set the numeric keypad to application mode.",
+      "summary": "This document defines the escape sequence used to switch the terminal's numeric keypad into application mode.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "vt100",
+        "decpam",
+        "numeric-keypad"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "028-docs-vt-esc-deckpnm.md",
+      "original_file_path": "docs-vt-esc-deckpnm.md",
+      "title": "Keypad Numeric Mode (DECKPNM) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/deckpnm",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:25.693389-03:00",
+      "description": "Set the numeric keypad to numeric mode.",
+      "summary": "This document explains the escape sequence used to set the terminal numeric keypad to numeric mode.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "numeric-keypad",
+        "vt-control",
+        "deckpnm"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "029-docs-vt-esc-ris.md",
+      "original_file_path": "docs-vt-esc-ris.md",
+      "title": "Reset to Initial State (RIS) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/ris",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:23.882755-03:00",
+      "description": "Reset the terminal to its initial state.",
+      "summary": "This document explains the Full Reset (RIS) escape sequence, detailing how it restores a terminal emulator to its initial state by resetting all modes, colors, and configurations.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequence",
+        "ris",
+        "terminal-reset",
+        "vt-commands",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "030-docs-vt-esc-decrc.md",
+      "original_file_path": "docs-vt-esc-decrc.md",
+      "title": "Restore Cursor (DECRC) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/decrc",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:23.631644-03:00",
+      "description": "Restore the cursor-related state saved via Save Cursor (DECSC).",
+      "summary": "This document describes the DECRC escape sequence used to restore the cursor-related state in a terminal emulator. It also explains the default behavior if no cursor state was previously saved.",
+      "tags": [
+        "terminal-emulation",
+        "vt-sequences",
+        "cursor-control",
+        "decrc",
+        "escape-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "031-docs-vt-esc-ri.md",
+      "original_file_path": "docs-vt-esc-ri.md",
+      "title": "Reverse Index (RI) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/ri",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:23.117083-03:00",
+      "description": "Move the cursor up one cell, scrolling if necessary.",
+      "summary": "This document explains the Reverse Index (RI) escape sequence, which moves the terminal cursor up one row and triggers a scroll-down operation if the cursor is already at the top margin.",
+      "tags": [
+        "escape-sequence",
+        "reverse-index",
+        "cursor-movement",
+        "terminal-scrolling",
+        "ansi-vt-control"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "032-docs-vt-esc-decsc.md",
+      "original_file_path": "docs-vt-esc-decsc.md",
+      "title": "Save Cursor (DECSC) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/decsc",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:22.856854-03:00",
+      "description": "Save various cursor-related state that can be restored with\nRestore Cursor (DECRC).",
+      "summary": "This document explains the Save Cursor (DECSC) escape sequence, detailing which terminal attributes are stored and how the saved state behaves across different screen buffers.",
+      "tags": [
+        "ansi-escape-sequences",
+        "terminal-emulation",
+        "cursor-management",
+        "vt100",
+        "decsc"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "033-docs-vt-esc-decaln.md",
+      "original_file_path": "docs-vt-esc-decaln.md",
+      "title": "Screen Alignment Test (DECALN) - ESC",
+      "url": "https://ghostty.org/docs/vt/esc/decaln",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:25.677701-03:00",
+      "description": "Reset margins, move cursor to the top left, and fill the screen with `E`.",
+      "summary": "Describes the DECALN control sequence used to reset terminal margins and fill the display area with the character E for screen alignment purposes.",
+      "tags": [
+        "terminal-emulation",
+        "vt100",
+        "escape-sequences",
+        "decaln",
+        "screen-alignment"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "034-docs-vt-csi-xtshiftescape.md",
+      "original_file_path": "docs-vt-csi-xtshiftescape.md",
+      "title": "Shift-Escape Behavior (XTSHIFTESCAPE) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/xtshiftescape",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:36.903409-03:00",
+      "description": "Configure whether mouse reports are allowed to capture\nthe `shift` modifier.",
+      "summary": "This document explains the XTSHIFTESCAPE control sequence, which configures whether a terminal emulator passes the shift modifier to running programs during mouse reporting or reserves it for native text selection.",
+      "tags": [
+        "terminal-emulator",
+        "mouse-reporting",
+        "shift-modifier",
+        "csi-sequence",
+        "xtshiftescape",
+        "text-selection"
+      ],
+      "category": "reference",
+      "category_group": "vt-esc"
+    },
+    {
+      "file_path": "035-docs-vt-csi-cub.md",
+      "original_file_path": "docs-vt-csi-cub.md",
+      "title": "Cursor Backward (CUB) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cub",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:27.622746-03:00",
+      "description": "Move the cursor left `n` cells.",
+      "summary": "This document explains the technical implementation and behavior of the Cursor Back (CUB) escape sequence, detailing how the cursor moves left across boundaries and wraps between lines in different terminal modes.",
+      "tags": [
+        "escape-sequence",
+        "cursor-movement",
+        "csi-sequence",
+        "terminal-emulator",
+        "text-wrapping",
+        "ansi-escape-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "036-docs-vt-csi-cbt.md",
+      "original_file_path": "docs-vt-csi-cbt.md",
+      "title": "Cursor Backward Tabulation (CBT) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cbt",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:33.429915-03:00",
+      "description": "Move the cursor `n` tabs left.",
+      "summary": "This document defines the behavior of the Cursor Back Tab (CBT) terminal escape sequence, explaining how it moves the cursor left across dynamic tabstops while respecting margins and origin mode.",
+      "tags": [
+        "terminal-emulator",
+        "escape-sequences",
+        "csi-sequences",
+        "cursor-navigation",
+        "tabstops",
+        "vt100"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "037-docs-vt-csi-cud.md",
+      "original_file_path": "docs-vt-csi-cud.md",
+      "title": "Cursor Down (CUD) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cud",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:27.792071-03:00",
+      "description": "Move the cursor down `n` cells.",
+      "summary": "This document defines the CUD (Cursor Down) escape sequence, detailing how it moves the terminal cursor downward by a specified number of cells relative to margins.",
+      "tags": [
+        "vt-sequence",
+        "ansi-escape-codes",
+        "terminal-emulation",
+        "cursor-movement",
+        "csi-cud"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "038-docs-vt-csi-cuf.md",
+      "original_file_path": "docs-vt-csi-cuf.md",
+      "title": "Cursor Forward (CUF) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cuf",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:27.414436-03:00",
+      "description": "Move the cursor `n` cells right.",
+      "summary": "This document details the CSI CUF escape sequence, which moves the terminal cursor a specified number of cells to the right while handling margins and wrap states.",
+      "tags": [
+        "terminal-emulation",
+        "ansi-escape-codes",
+        "cursor-movement",
+        "csi-cuf",
+        "terminal-control"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "039-docs-vt-csi-cht.md",
+      "original_file_path": "docs-vt-csi-cht.md",
+      "title": "Cursor Horizontal Tabulation (CHT) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cht",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:29.220936-03:00",
+      "description": "Move the cursor right `n` tabs.",
+      "summary": "This document explains the Cursor Horizontal Tab (CHT) terminal escape sequence, detailing how to move the cursor right by a specified number of tab stops.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "cursor-movement",
+        "tab-stops",
+        "ansi-escape-codes",
+        "csi-cht"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "040-docs-vt-csi-cnl.md",
+      "original_file_path": "docs-vt-csi-cnl.md",
+      "title": "Cursor Next Line (CNL) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cnl",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:29.288147-03:00",
+      "description": "Move the cursor down `n` cells and to the beginning of the line.",
+      "summary": "This document explains the Cursor Next Line (CNL) escape sequence, which moves the cursor down a specified number of lines to the beginning of the row.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "csi",
+        "cursor-movement",
+        "control-sequences"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "041-docs-vt-csi-cup.md",
+      "original_file_path": "docs-vt-csi-cup.md",
+      "title": "Cursor Position (CUP) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cup",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:29.399975-03:00",
+      "description": "Move the cursor to row `y` and column `x`.",
+      "summary": "This document explains the CUP (Cursor Position) escape sequence used to move the terminal cursor to a specific row and column, including behavior for origin mode and scroll regions.",
+      "tags": [
+        "ansi-escape-codes",
+        "terminal-emulator",
+        "cursor-positioning",
+        "vt100",
+        "control-sequence-introducer"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "042-docs-vt-csi-cpl.md",
+      "original_file_path": "docs-vt-csi-cpl.md",
+      "title": "Cursor Preceding Line (CPL) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cpl",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:28.112201-03:00",
+      "description": "Move the cursor up `n` cells and to the beginning of the line.",
+      "summary": "This document defines the Cursor Previous Line (CPL) escape sequence used to move the terminal cursor to the beginning of a specified number of lines above its current position.",
+      "tags": [
+        "ansi-escape-sequences",
+        "terminal-control",
+        "cursor-movement",
+        "csi",
+        "terminal-emulator"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "043-docs-vt-csi-cuu.md",
+      "original_file_path": "docs-vt-csi-cuu.md",
+      "title": "Cursor Up (CUU) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/cuu",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:26.607745-03:00",
+      "description": "Move the cursor `n` cells up.",
+      "summary": "This document explains the CSI CUU escape sequence used to move the terminal cursor upward by a specified number of cells, detailing parameter defaults and behavior regarding margins.",
+      "tags": [
+        "ansi-escape-codes",
+        "terminal-emulation",
+        "cursor-movement",
+        "csi-sequences",
+        "vt100"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "044-docs-vt-csi-dch.md",
+      "original_file_path": "docs-vt-csi-dch.md",
+      "title": "Delete Character (DCH) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/dch",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:31.533026-03:00",
+      "description": "Delete `n` characters at the current cursor position and shift existing\ncell contents left.",
+      "summary": "This document defines the behavior of the Delete Character (DCH) escape sequence, detailing how it shifts cell contents within defined scroll regions and handles multi-cell characters.",
+      "tags": [
+        "ansi-escape-sequences",
+        "terminal-emulation",
+        "csi-sequences",
+        "dch",
+        "vt-commands",
+        "character-manipulation"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "045-docs-vt-csi-dl.md",
+      "original_file_path": "docs-vt-csi-dl.md",
+      "title": "Delete Line (DL) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/dl",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:30.83286-03:00",
+      "description": "Deletes `n` lines at the current cursor position and shifts existing\nlines up.",
+      "summary": "This document specifies the behavior of the Delete Line (DL) escape sequence, detailing how it removes lines at the cursor position and manages line shifting within scroll regions and margins.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "csi-sequence",
+        "delete-line",
+        "vt100",
+        "scroll-regions"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "046-docs-vt-csi-dsr.md",
+      "original_file_path": "docs-vt-csi-dsr.md",
+      "title": "Device Status Report (DSR) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/dsr",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:34.315888-03:00",
+      "description": "Request information from the terminal.",
+      "summary": "This document explains the Device Status Report (DSR) escape sequence used to request operating status and cursor position information from a terminal.",
+      "tags": [
+        "terminal-sequences",
+        "ansi-escape-codes",
+        "device-status-report",
+        "cursor-position",
+        "csi-sequence",
+        "vt-emulation"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "047-docs-vt-csi-ech.md",
+      "original_file_path": "docs-vt-csi-ech.md",
+      "title": "Erase Character (ECH) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/ech",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:31.010111-03:00",
+      "description": "Blank `n` cells beginning with and including the cursor through to\nthe right of the cursor.",
+      "summary": "This document describes the Erase Character (ECH) terminal escape sequence, explaining how it blanks cells starting from the cursor position while handling multi-cell characters and protected attributes.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "csi-sequence",
+        "erase-character",
+        "vt-standard",
+        "screen-manipulation"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "048-docs-vt-csi-ed.md",
+      "original_file_path": "docs-vt-csi-ed.md",
+      "title": "Erase in Display (ED) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/ed",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:30.136221-03:00",
+      "description": "Erase display contents with behavior depending on the command `n`.",
+      "summary": "This document explains the technical specification and behavior of the Erase Display (ED) terminal escape sequence, detailing how different parameters clear portions of the screen or scrollback buffer.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "csi-j",
+        "erase-display",
+        "vt-specification"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "049-docs-vt-csi-el.md",
+      "original_file_path": "docs-vt-csi-el.md",
+      "title": "Erase in Line (EL) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/el",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:30.163464-03:00",
+      "description": "Erase line contents with behavior depending on the command `n`.",
+      "summary": "This document specifies the behavior of the Erase Line (EL) terminal escape sequence, explaining how its parameters control erasing directions and interact with terminal states like text wrapping and protected attributes.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "vt100",
+        "csi-el",
+        "line-erasing",
+        "terminal-graphics"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "050-docs-vt-csi-hpa.md",
+      "original_file_path": "docs-vt-csi-hpa.md",
+      "title": "Horizontal Position Absolute (HPA) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/hpa",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:35.845962-03:00",
+      "description": "Move the cursor to a specific column.",
+      "summary": "This document explains the HPA (Horizontal Position Absolute) control sequence used to move the terminal cursor to a specific column while maintaining the current row position.",
+      "tags": [
+        "terminal-emulation",
+        "control-sequences",
+        "cursor-movement",
+        "csi",
+        "ansi-escape-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "051-docs-vt-csi-hpr.md",
+      "original_file_path": "docs-vt-csi-hpr.md",
+      "title": "Horizontal Position Relative (HPR) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/hpr",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:32.058989-03:00",
+      "description": "Move the cursor to a specific column relative to the current position.",
+      "summary": "This document describes the Horizontal Position Relative (HPR) terminal escape sequence, explaining how to move the cursor to a specific column relative to its current position.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "cursor-movement",
+        "csi-sequences",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "052-docs-vt-csi-ich.md",
+      "original_file_path": "docs-vt-csi-ich.md",
+      "title": "Insert Character (ICH) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/ich",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:35.133654-03:00",
+      "description": "Insert blank characters at the current cursor position.",
+      "summary": "This document defines the ICH (Insert Character) terminal escape sequence, explaining how to insert blank spaces at the cursor while shifting existing content and handling margins.",
+      "tags": [
+        "vt-sequences",
+        "terminal-emulation",
+        "escape-codes",
+        "cursor-management",
+        "ich-sequence",
+        "text-rendering"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "053-docs-vt-csi-il.md",
+      "original_file_path": "docs-vt-csi-il.md",
+      "title": "Insert Line (IL) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/il",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:30.416678-03:00",
+      "description": "Insert blank lines at the current cursor position.",
+      "summary": "This document defines the Insert Line (IL) ANSI escape sequence, explaining how it inserts blank lines at the cursor position and interacts with scroll regions and margins.",
+      "tags": [
+        "ansi-escape-codes",
+        "terminal-emulator",
+        "csi-sequence",
+        "text-formatting",
+        "scroll-margins",
+        "vt-protocol"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "054-docs-vt-csi-rep.md",
+      "original_file_path": "docs-vt-csi-rep.md",
+      "title": "Repeat (REP) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/rep",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:32.44778-03:00",
+      "description": "Repeat the previously printed character `n` times.",
+      "summary": "This document explains the Repeat Previous Character (REP) escape sequence used to repeat the last printed character a specified number of times in terminal emulators.",
+      "tags": [
+        "terminal-escape-sequences",
+        "ansi-escape-codes",
+        "xterm",
+        "vt100",
+        "character-repetition"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "055-docs-vt-csi-sd.md",
+      "original_file_path": "docs-vt-csi-sd.md",
+      "title": "Scroll Down (SD) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/sd",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:31.220267-03:00",
+      "description": "Insert `n` lines at the top of the scroll region and\nshift existing lines down.",
+      "summary": "Explains the SD (Scroll Down) control sequence used to insert lines at the top of a terminal scroll region while shifting existing content down.",
+      "tags": [
+        "terminal-emulation",
+        "ansi-escape-sequences",
+        "scroll-down",
+        "csi",
+        "vt100"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "056-docs-vt-csi-su.md",
+      "original_file_path": "docs-vt-csi-su.md",
+      "title": "Scroll Up (SU) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/su",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:31.876273-03:00",
+      "description": "Remove `n` lines from the top of the scroll region and shift existing\nlines up.",
+      "summary": "This document defines the Scroll Up (SU) terminal control sequence, explaining how it removes lines from the top of a scroll region and shifts existing content upward.",
+      "tags": [
+        "terminal-emulation",
+        "csi-sequence",
+        "ansi-escape-codes",
+        "scrolling",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "057-docs-vt-csi-decscusr.md",
+      "original_file_path": "docs-vt-csi-decscusr.md",
+      "title": "Set Cursor Style (DECSCUSR) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/decscusr",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:24.111307-03:00",
+      "description": "Set the cursor style.",
+      "summary": "This document explains the DECSCUSR control sequence used to configure the terminal cursor style, defining how various integer values change the cursor's shape and blinking behavior.",
+      "tags": [
+        "terminal-graphics",
+        "cursor-style",
+        "vt-sequence",
+        "csi-sequence",
+        "decscusr"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "058-docs-vt-csi-decslrm.md",
+      "original_file_path": "docs-vt-csi-decslrm.md",
+      "title": "Set Left and Right Margins (DECSLRM) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/decslrm",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:35.394326-03:00",
+      "description": "Set the left and right margins.",
+      "summary": "This document explains the DECSLRM escape sequence used to define left and right margins for horizontal scroll regions in a terminal emulator.",
+      "tags": [
+        "vt-sequence",
+        "terminal-emulation",
+        "decslrm",
+        "scroll-regions",
+        "control-sequences",
+        "terminal-margins"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "059-docs-vt-csi-decstbm.md",
+      "original_file_path": "docs-vt-csi-decstbm.md",
+      "title": "Set Top and Bottom Margins (DECSTBM) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/decstbm",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:34.254285-03:00",
+      "description": "Set the top and bottom margins, otherwise known as the scroll region.",
+      "summary": "This document explains the DECSTBM terminal escape sequence used to define a scroll region by setting the top and bottom margins of the screen.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "decstbm",
+        "scroll-region",
+        "ansi-vt"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "060-docs-vt-csi-tbc.md",
+      "original_file_path": "docs-vt-csi-tbc.md",
+      "title": "Tab Clear (TBC) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/tbc",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:34.239756-03:00",
+      "description": "Clear one or all tab stops.",
+      "summary": "This document explains how to use the Tab Clear (TBC) escape sequence to clear individual or all tab stops in a terminal emulator.",
+      "tags": [
+        "ansi-escape-codes",
+        "vt-sequences",
+        "terminal-control",
+        "tab-stops",
+        "tbc-command"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "061-docs-vt-csi-vpa.md",
+      "original_file_path": "docs-vt-csi-vpa.md",
+      "title": "Vertical Position Absolute (VPA) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/vpa",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:33.623105-03:00",
+      "description": "Move the cursor to a specific row.",
+      "summary": "Explains the Vertical Line Position Absolute (VPA) escape sequence used to move the cursor to a specific row while maintaining the current column position.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "vt-sequences",
+        "cursor-movement",
+        "csi-vpa"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "062-docs-vt-csi-vpr.md",
+      "original_file_path": "docs-vt-csi-vpr.md",
+      "title": "Vertical Position Relative (VPR) - CSI",
+      "url": "https://ghostty.org/docs/vt/csi/vpr",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:33.396789-03:00",
+      "description": "Move the cursor to a specific row relative to the current position.",
+      "summary": "This document explains the VPR (Vertical Position Relative) terminal escape sequence used to move the cursor down by a specific number of rows.",
+      "tags": [
+        "terminal-emulator",
+        "escape-sequences",
+        "cursor-movement",
+        "vt-sequences",
+        "csi-commands"
+      ],
+      "category": "reference",
+      "category_group": "vt-csi"
+    },
+    {
+      "file_path": "063-docs-vt-osc-22.md",
+      "original_file_path": "docs-vt-osc-22.md",
+      "title": "Change Pointer Shape (OSC 22) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/22",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:39.606375-03:00",
+      "description": "Change the pointer shape.",
+      "summary": "This document explains how to change the mouse pointer shape using the OSC 22 escape sequence, detailing Ghostty's use of CSS cursor standards and compatibility with other terminal emulators.",
+      "tags": [
+        "osc-22",
+        "cursor-shape",
+        "terminal-emulator",
+        "mouse-pointer",
+        "escape-sequences",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "064-docs-vt-osc-1.md",
+      "original_file_path": "docs-vt-osc-1.md",
+      "title": "Change Window Icon (OSC 1) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/1",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:36.846203-03:00",
+      "description": "Change the name of the window icon.",
+      "summary": "This document explains the OSC 1 escape sequence used to change a terminal's window icon name and details its lack of support in modern terminal emulators.",
+      "tags": [
+        "osc-sequences",
+        "terminal-emulators",
+        "escape-codes",
+        "window-management",
+        "terminal-compatibility"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "065-docs-vt-osc-0.md",
+      "original_file_path": "docs-vt-osc-0.md",
+      "title": "Change Window Icon and Title (OSC 0) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/0",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:36.86047-03:00",
+      "description": "Simultaneously change the window icon name and title.",
+      "summary": "Describes the OSC 0 terminal escape sequence used to set both the window icon and title, specifically how it is handled as a title change in Ghostty.",
+      "tags": [
+        "terminal-escapes",
+        "osc-sequences",
+        "window-title",
+        "ghostty",
+        "control-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "066-docs-vt-osc-2.md",
+      "original_file_path": "docs-vt-osc-2.md",
+      "title": "Change Window Title (OSC 2) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/2",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:37.585748-03:00",
+      "description": "Change the name of the window title.",
+      "summary": "This document explains the OSC 2 escape sequence used to change a terminal's window title and notes Ghostty's specific requirement for UTF-8 encoding.",
+      "tags": [
+        "terminal-escapes",
+        "window-title",
+        "osc-2",
+        "ghostty",
+        "control-sequences"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "067-docs-vt-osc-7.md",
+      "original_file_path": "docs-vt-osc-7.md",
+      "title": "Change Working Directory (OSC 7) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/7",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:38.910618-03:00",
+      "description": "Change the current working directory of the terminal.",
+      "summary": "This document defines the OSC 7 control sequence used by shells to notify a terminal emulator of changes to the current working directory.",
+      "tags": [
+        "terminal-emulation",
+        "osc-sequence",
+        "shell-integration",
+        "working-directory",
+        "control-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "068-docs-vt-osc-conemu.md",
+      "original_file_path": "docs-vt-osc-conemu.md",
+      "title": "ConEmu Extensions (OSC 9;n) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/conemu",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:41.531723-03:00",
+      "description": "Various extensions pioneered by ConEmu.",
+      "summary": "This document describes Ghostty's implementation of ConEmu-specific OSC 9 escape sequences used to manage and display terminal progress states.",
+      "tags": [
+        "terminal-emulator",
+        "osc-sequences",
+        "conemu",
+        "progress-bar",
+        "terminal-protocol",
+        "escape-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "069-docs-vt-osc-52.md",
+      "original_file_path": "docs-vt-osc-52.md",
+      "title": "Query or Change Clipboard Data (OSC 52) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/52",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:39.249575-03:00",
+      "description": "Query or change data on clipboards.",
+      "summary": "This document provides a technical specification for the OSC 52 terminal escape sequence used to query, modify, or clear system clipboard data.",
+      "tags": [
+        "osc-52",
+        "terminal-emulator",
+        "clipboard-management",
+        "escape-sequences",
+        "xterm-standard",
+        "base64-encoding"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "070-docs-vt-osc-1x.md",
+      "original_file_path": "docs-vt-osc-1x.md",
+      "title": "Query or Change Dynamic Colors (OSC 10\u201319) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/1x",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:39.896645-03:00",
+      "description": "Query or change dynamic colors based on their indices.",
+      "summary": "This document explains how to use terminal escape sequences to query or modify dynamic colors such as foreground, background, and cursor colors using index-based OSC sequences.",
+      "tags": [
+        "terminal-sequences",
+        "osc-sequences",
+        "dynamic-colors",
+        "ansi-escape-codes",
+        "color-configuration",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "071-docs-vt-osc-4.md",
+      "original_file_path": "docs-vt-osc-4.md",
+      "title": "Query or Change Palette Colors (OSC 4) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/4",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:38.396758-03:00",
+      "description": "Query or change colors in the palette based on their indices.",
+      "summary": "Explains the technical specification for using the OSC 4 escape sequence to query or modify terminal color palette indices.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "color-palette",
+        "osc-4",
+        "vt-sequences",
+        "color-configuration"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "072-docs-vt-osc-5.md",
+      "original_file_path": "docs-vt-osc-5.md",
+      "title": "Query or Change Special Colors (OSC 5) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/5",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:38.283196-03:00",
+      "description": "Query or change a special color based on its index.",
+      "summary": "This document explains the OSC 5 escape sequence used to query or modify specific special terminal colors based on their index.",
+      "tags": [
+        "osc-5",
+        "escape-sequences",
+        "terminal-colors",
+        "vt-specification",
+        "color-configuration"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "073-docs-vt-osc-11x.md",
+      "original_file_path": "docs-vt-osc-11x.md",
+      "title": "Reset Dynamic Colors (OSC 110\u2013119) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/11x",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:41.322473-03:00",
+      "description": "Query or change dynamic colors based on their indices.",
+      "summary": "Explains how to use OSC escape sequences 110\u2013119 to reset dynamic colors like foreground, background, and cursor colors in a terminal emulator.",
+      "tags": [
+        "osc-sequences",
+        "dynamic-colors",
+        "terminal-emulation",
+        "escape-codes",
+        "ghostty"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "074-docs-vt-osc-104.md",
+      "original_file_path": "docs-vt-osc-104.md",
+      "title": "Reset Palette Colors (OSC 104) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/104",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:40.350977-03:00",
+      "description": "Reset colors in the palette.",
+      "summary": "This document explains the OSC 104 terminal escape sequence used to reset specific color indices or the entire color palette to their default values.",
+      "tags": [
+        "terminal-emulation",
+        "osc-sequences",
+        "color-palette",
+        "ansi-escape-codes",
+        "terminal-configuration"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "075-docs-vt-osc-105.md",
+      "original_file_path": "docs-vt-osc-105.md",
+      "title": "Reset Special Colors (OSC 105) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/105",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:40.023287-03:00",
+      "description": "Reset special colors.",
+      "summary": "This document defines the OSC 105 escape sequence used to reset specific or all special colors within a terminal emulator.",
+      "tags": [
+        "terminal-emulator",
+        "escape-sequences",
+        "osc-105",
+        "color-management",
+        "ghostty",
+        "vt-control-codes"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "076-docs-vt-osc-9.md",
+      "original_file_path": "docs-vt-osc-9.md",
+      "title": "Show Desktop Notification (OSC 9) - OSC",
+      "url": "https://ghostty.org/docs/vt/osc/9",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:38.212782-03:00",
+      "description": "Show a desktop notification.",
+      "summary": "This document explains how to use the OSC 9 escape sequence to trigger desktop notifications within supported terminal emulators like Ghostty and iTerm.",
+      "tags": [
+        "terminal-emulator",
+        "escape-sequences",
+        "osc-9",
+        "desktop-notifications",
+        "ghostty",
+        "iterm2"
+      ],
+      "category": "reference",
+      "category_group": "vt-osc"
+    },
+    {
+      "file_path": "077-docs-vt-external.md",
+      "original_file_path": "docs-vt-external.md",
+      "title": "External Protocols - Terminal API (VT)",
+      "url": "https://ghostty.org/docs/vt/external",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:18.974057-03:00",
+      "description": "A list of external protocols that Ghostty supports.",
+      "summary": "This document lists the third-party terminal protocols that Ghostty supports to ensure compatibility with established industry standards and other terminal emulators.",
+      "tags": [
+        "ghostty",
+        "terminal-protocols",
+        "osc-sequences",
+        "external-standards",
+        "compatibility"
+      ],
+      "category": "reference",
+      "category_group": "vt-reference"
+    },
+    {
+      "file_path": "078-docs-vt-reference.md",
+      "original_file_path": "docs-vt-reference.md",
+      "title": "Reference - Terminal API (VT)",
+      "url": "https://ghostty.org/docs/vt/reference",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:18.155878-03:00",
+      "description": "A reference of all VT sequences supported by Ghostty.",
+      "summary": "This document provides a comprehensive reference of VT sequences supported by the Ghostty terminal emulator, including syntax and descriptions for control characters, escape codes, CSI, and OSC sequences.",
+      "tags": [
+        "ghostty",
+        "vt-sequences",
+        "terminal-emulator",
+        "escape-codes",
+        "csi-sequences",
+        "osc-commands"
+      ],
+      "category": "reference",
+      "category_group": "vt-reference"
+    },
+    {
+      "file_path": "079-docs-sponsor.md",
+      "original_file_path": "docs-sponsor.md",
+      "title": "Financial Support",
+      "url": "https://ghostty.org/docs/sponsor",
+      "source": "crawler",
+      "fetched_at": "2026-02-11T01:43:09.833071-03:00",
+      "description": "Ghostty is fiscally sponsored by Hack Club (501(c)(3)).\nAll donations are tax-deductible in the United States.",
+      "summary": "This document explains the non-profit organizational structure, fiscal sponsorship through Hack Club, and the donation-based funding model for the Ghostty terminal project.",
+      "tags": [
+        "ghostty",
+        "non-profit",
+        "open-source-funding",
+        "fiscal-sponsorship",
+        "hack-club",
+        "financial-transparency",
+        "contributor-compensation"
+      ],
+      "category": "other",
+      "category_group": "other"
+    }
+  ]
+}

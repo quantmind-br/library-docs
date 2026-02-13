@@ -1,0 +1,57 @@
+---
+title: Free Variant
+url: https://openrouter.ai/docs/guides/routing/model-variants/free.mdx
+source: llms
+fetched_at: 2026-02-13T15:13:46.246818-03:00
+rendered_js: false
+word_count: 120
+summary: This document explains how to access cost-free versions of models on OpenRouter by appending the :free suffix to model identifiers.
+tags:
+    - openrouter
+    - free-models
+    - model-variants
+    - api-usage
+    - rate-limits
+category: guide
+---
+
+***
+
+title: Free Variant
+subtitle: 'Access free models with the :free variant'
+headline: Free Variant | Free Model Access
+canonical-url: '[https://openrouter.ai/docs/guides/routing/model-variants/free](https://openrouter.ai/docs/guides/routing/model-variants/free)'
+'og:site\_name': OpenRouter Documentation
+'og:title': Free Variant - Free Model Access
+'og:description': 'Access free models using the :free variant suffix.'
+'og:image':
+type: url
+value: >-
+[https://openrouter.ai/dynamic-og?title=Free%20Variant\&description=Free%20model%20access](https://openrouter.ai/dynamic-og?title=Free%20Variant\&description=Free%20model%20access)
+'og:image:width': 1200
+'og:image:height': 630
+'twitter:card': summary\_large\_image
+'twitter:site': '@OpenRouterAI'
+noindex: false
+nofollow: false
+---------------
+
+The `:free` variant allows you to access free versions of models on OpenRouter.
+
+## Usage
+
+Append `:free` to any model ID:
+
+```json
+{
+  "model": "meta-llama/llama-3.2-3b-instruct:free"
+}
+```
+
+## Details
+
+Free variants provide access to models without cost, but may have different rate limits or availability compared to paid versions.
+
+## Related Resources
+
+* [Free Models Router](/docs/guides/guides/free-models-router-playground) - Learn how to use the Free Models Router in the Chat Playground for zero-cost inference

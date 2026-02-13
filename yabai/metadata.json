@@ -1,0 +1,165 @@
+{
+  "generated_at": "2026-02-11T07:34:30.240101-03:00",
+  "source_url": "https://github.com/asmvik/yabai/wiki",
+  "strategy": "wiki",
+  "total_documents": 8,
+  "documents": [
+    {
+      "file_path": "002-disabling-system-integrity-protection.md",
+      "original_file_path": "disabling-system-integrity-protection.md",
+      "title": "Disabling System Integrity Protection",
+      "url": "https://github.com/asmvik/yabai/wiki/Disabling-System-Integrity-Protection",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:33:39.429307-03:00",
+      "summary": "This document explains the necessity of disabling macOS System Integrity Protection for yabai and provides step-by-step instructions for both Intel and Apple Silicon architectures.",
+      "tags": [
+        "macos",
+        "yabai",
+        "system-integrity-protection",
+        "sip",
+        "window-management",
+        "security-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-installing-yabai-(from-head).md",
+      "original_file_path": "installing-yabai-(from-head).md",
+      "title": "Installing Yabai (from HEAD)",
+      "url": "https://github.com/asmvik/yabai/wiki/Installing-yabai-(from-HEAD)",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:33:46.28565-03:00",
+      "summary": "This document provides instructions for installing and updating the development version of yabai on macOS, including details on codesigning, accessibility permissions, and scripting addition setup.",
+      "tags": [
+        "yabai",
+        "macos-setup",
+        "codesigning",
+        "homebrew",
+        "window-management",
+        "scripting-addition"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-installing-yabai-(latest-release).md",
+      "original_file_path": "installing-yabai-(latest-release).md",
+      "title": "Installing Yabai (latest Release)",
+      "url": "https://github.com/asmvik/yabai/wiki/Installing-yabai-(latest-release)",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:33:50.898272-03:00",
+      "summary": "This document provides comprehensive instructions for installing, updating, and configuring yabai on macOS, including specific steps for permissions and scripting additions.",
+      "tags": [
+        "yabai",
+        "macos-setup",
+        "installation",
+        "window-management",
+        "homebrew",
+        "scripting-addition",
+        "automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-tips-and-tricks.md",
+      "original_file_path": "tips-and-tricks.md",
+      "title": "Tips And Tricks",
+      "url": "https://github.com/asmvik/yabai/wiki/Tips-and-tricks",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:33:54.886483-03:00",
+      "summary": "A collection of practical tips, scripts, and troubleshooting steps for optimizing the yabai tiling window manager on macOS. It explains how to handle configuration management, automate updates, and refine window behavior.",
+      "tags": [
+        "yabai",
+        "macos",
+        "window-management",
+        "shell-scripts",
+        "configuration-management",
+        "automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "008-uninstalling-yabai.md",
+      "original_file_path": "uninstalling-yabai.md",
+      "title": "Uninstalling Yabai",
+      "url": "https://github.com/asmvik/yabai/wiki/Uninstalling-yabai",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:34:00.184571-03:00",
+      "summary": "This document provides a comprehensive set of commands and steps to completely uninstall the yabai window manager and remove all associated configuration, service, and temporary files from a macOS system.",
+      "tags": [
+        "yabai",
+        "macos",
+        "uninstallation",
+        "tiling-window-manager",
+        "homebrew",
+        "cleanup"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Home",
+      "url": "https://github.com/asmvik/yabai/wiki",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:34:16.684044-03:00",
+      "summary": "This document introduces yabai, a tiling window manager for macOS, outlining its features, system requirements, installation caveats, and a quickstart guide for new users.",
+      "tags": [
+        "macos",
+        "window-management",
+        "tiling-window-manager",
+        "yabai",
+        "automation",
+        "system-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "006-commands.md",
+      "original_file_path": "commands.md",
+      "title": "Commands",
+      "url": "https://github.com/asmvik/yabai/wiki/Commands",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:34:20.500284-03:00",
+      "summary": "This document provides a detailed reference for the yabai message passing interface and specific commands used to manage displays, spaces, and windows on macOS.",
+      "tags": [
+        "yabai",
+        "macos",
+        "window-management",
+        "cli-interface",
+        "tiling-window-manager",
+        "automation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "005-configuration.md",
+      "original_file_path": "configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/asmvik/yabai/wiki/Configuration",
+      "source": "wiki",
+      "fetched_at": "2026-02-11T07:34:25.375176-03:00",
+      "summary": "This document provides a comprehensive guide to configuring the yabai window manager for macOS, detailing setup procedures, tiling behaviors, and user interface customizations.",
+      "tags": [
+        "yabai",
+        "macos-customization",
+        "window-management",
+        "tiling-layout",
+        "configuration-guide"
+      ],
+      "category": "configuration"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-11T07:38:45-03:00",
+    "total_files": 8,
+    "categories": [
+      "Introduction & Overview",
+      "Prerequisites & Installation",
+      "Configuration",
+      "API & Reference",
+      "Practical Usage",
+      "Operations & Cleanup"
+    ]
+  }
+}

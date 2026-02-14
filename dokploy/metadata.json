@@ -5,7 +5,7 @@
   "total_documents": 104,
   "documents": [
     {
-      "file_path": "docs-core.md",
+      "file_path": "001-docs-core.md",
       "title": "Welcome to Dokploy | Dokploy",
       "url": "https://docs.dokploy.com/docs/core",
       "source": "crawler",
@@ -20,10 +20,11 @@
         "self-hosting",
         "paas"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-core.md"
     },
     {
-      "file_path": "docs-core-features.md",
+      "file_path": "003-docs-core-features.md",
       "title": "Features | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/features",
       "source": "crawler",
@@ -39,11 +40,12 @@
         "devops",
         "containerization"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-core-features.md"
     },
     {
-      "file_path": "docs-core-reset-password.md",
-      "title": "Reset Password \u0026 2FA | Dokploy",
+      "file_path": "011-docs-core-reset-password.md",
+      "title": "Reset Password & 2FA | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/reset-password",
       "source": "crawler",
       "fetched_at": "2026-02-14T14:18:01.891866-03:00",
@@ -57,10 +59,11 @@
         "account-recovery",
         "self-hosting"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-reset-password.md"
     },
     {
-      "file_path": "docs-core-architecture.md",
+      "file_path": "002-docs-core-architecture.md",
       "title": "Architecture of Dokploy | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/architecture",
       "source": "crawler",
@@ -76,10 +79,11 @@
         "reverse-proxy",
         "deployment-infrastructure"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-core-architecture.md"
     },
     {
-      "file_path": "docs-core-comparison.md",
+      "file_path": "004-docs-core-comparison.md",
       "title": "Comparison | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/comparison",
       "source": "crawler",
@@ -95,10 +99,11 @@
         "self-hosting",
         "paas-comparison"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-core-comparison.md"
     },
     {
-      "file_path": "docs-core-installation.md",
+      "file_path": "008-docs-core-installation.md",
       "title": "Installation | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/installation",
       "source": "crawler",
@@ -113,10 +118,11 @@
         "server-configuration",
         "linux-administration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-installation.md"
     },
     {
-      "file_path": "docs-core-uninstall.md",
+      "file_path": "010-docs-core-uninstall.md",
       "title": "Uninstall | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/uninstall",
       "source": "crawler",
@@ -130,10 +136,11 @@
         "server-maintenance",
         "cleanup-commands"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-uninstall.md"
     },
     {
-      "file_path": "docs-core-goodies.md",
+      "file_path": "013-docs-core-goodies.md",
       "title": "Goodies | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/goodies",
       "source": "crawler",
@@ -149,10 +156,11 @@
         "sdk",
         "docker-templates"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-core-goodies.md"
     },
     {
-      "file_path": "docs-core-manual-installation.md",
+      "file_path": "009-docs-core-manual-installation.md",
       "title": "Manual Installation | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/manual-installation",
       "source": "crawler",
@@ -167,10 +175,11 @@
         "bash-script",
         "traefik-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-manual-installation.md"
     },
     {
-      "file_path": "docs-core-troubleshooting.md",
+      "file_path": "012-docs-core-troubleshooting.md",
       "title": "Troubleshooting | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/troubleshooting",
       "source": "crawler",
@@ -186,10 +195,11 @@
         "traefik",
         "ssl-certificates"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-troubleshooting.md"
     },
     {
-      "file_path": "docs-core-registry.md",
+      "file_path": "021-docs-core-registry.md",
       "title": "Registry | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/registry",
       "source": "crawler",
@@ -204,10 +214,11 @@
         "configuration",
         "container-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-registry.md"
     },
     {
-      "file_path": "docs-core-monitoring.md",
+      "file_path": "039-docs-core-monitoring.md",
       "title": "Monitoring | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/monitoring",
       "source": "crawler",
@@ -222,10 +233,11 @@
         "alert-thresholds",
         "infrastructure-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-monitoring.md"
     },
     {
-      "file_path": "docs-core-backups.md",
+      "file_path": "037-docs-core-backups.md",
       "title": "Backups | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/backups",
       "source": "crawler",
@@ -240,10 +252,11 @@
         "disaster-recovery",
         "server-maintenance"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-backups.md"
     },
     {
-      "file_path": "docs-core-ssh-keys.md",
+      "file_path": "020-docs-core-ssh-keys.md",
       "title": "SSH Keys | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/ssh-keys",
       "source": "crawler",
@@ -258,10 +271,11 @@
         "security",
         "git"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-ssh-keys.md"
     },
     {
-      "file_path": "docs-core-cloud.md",
+      "file_path": "005-docs-core-cloud.md",
       "title": "Dokploy Cloud | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/cloud",
       "source": "crawler",
@@ -276,10 +290,11 @@
         "scalability",
         "high-availability"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-core-cloud.md"
     },
     {
-      "file_path": "docs-core-certificates.md",
+      "file_path": "022-docs-core-certificates.md",
       "title": "Certificates | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/certificates",
       "source": "crawler",
@@ -294,10 +309,11 @@
         "certificate-management",
         "server-security"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-certificates.md"
     },
     {
-      "file_path": "docs-core-variables.md",
+      "file_path": "018-docs-core-variables.md",
       "title": "Environment Variables | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/variables",
       "source": "crawler",
@@ -312,10 +328,11 @@
         "shared-variables",
         "service-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-variables.md"
     },
     {
-      "file_path": "docs-core-applications.md",
+      "file_path": "014-docs-core-applications.md",
       "title": "Applications | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications",
       "source": "crawler",
@@ -331,10 +348,11 @@
         "webhooks",
         "monitoring"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-applications.md"
     },
     {
-      "file_path": "docs-core-databases.md",
+      "file_path": "015-docs-core-databases.md",
       "title": "Databases | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases",
       "source": "crawler",
@@ -349,10 +367,11 @@
         "container-configuration",
         "s3-storage"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-databases.md"
     },
     {
-      "file_path": "docs-core-docker-compose.md",
+      "file_path": "016-docs-core-docker-compose.md",
       "title": "Docker Compose | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/docker-compose",
       "source": "crawler",
@@ -368,10 +387,11 @@
         "volume-persistence",
         "devops"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-docker-compose.md"
     },
     {
-      "file_path": "docs-core-domains.md",
+      "file_path": "017-docs-core-domains.md",
       "title": "Domains | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/domains",
       "source": "crawler",
@@ -387,10 +407,11 @@
         "path-routing",
         "ssl-certificates"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-domains.md"
     },
     {
-      "file_path": "docs-core-videos.md",
+      "file_path": "007-docs-core-videos.md",
       "title": "Videos | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/videos",
       "source": "crawler",
@@ -405,10 +426,11 @@
         "paas",
         "server-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-core-videos.md"
     },
     {
-      "file_path": "docs-core-watch-paths.md",
+      "file_path": "055-docs-core-watch-paths.md",
       "title": "Watch Paths | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/watch-paths",
       "source": "crawler",
@@ -423,10 +445,11 @@
         "deployment-automation",
         "git-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-watch-paths.md"
     },
     {
-      "file_path": "docs-core-remote-servers-build-server.md",
+      "file_path": "075-docs-core-remote-servers-build-server.md",
       "title": "Build Server | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remote-servers/build-server",
       "source": "crawler",
@@ -441,10 +464,11 @@
         "deployment-automation",
         "server-setup"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-remote-servers-build-server.md"
     },
     {
-      "file_path": "docs-core-schedule-jobs.md",
+      "file_path": "056-docs-core-schedule-jobs.md",
       "title": "Schedule Jobs | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/schedule-jobs",
       "source": "crawler",
@@ -459,10 +483,11 @@
         "docker-exec",
         "server-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-schedule-jobs.md"
     },
     {
-      "file_path": "docs-core-remote-servers-security.md",
+      "file_path": "074-docs-core-remote-servers-security.md",
       "title": "Security | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remote-servers/security",
       "source": "crawler",
@@ -478,10 +503,11 @@
         "docker-security",
         "firewall-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-remote-servers-security.md"
     },
     {
-      "file_path": "docs-core-remote-servers-instructions.md",
+      "file_path": "071-docs-core-remote-servers-instructions.md",
       "title": "Deploy Server | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remote-servers/instructions",
       "source": "crawler",
@@ -496,10 +522,11 @@
         "server-configuration",
         "app-deployment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-remote-servers-instructions.md"
     },
     {
-      "file_path": "docs-core-guides-ec2-instructions.md",
+      "file_path": "101-docs-core-guides-ec2-instructions.md",
       "title": "EC2 Instructions | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/guides/ec2-instructions",
       "source": "crawler",
@@ -514,10 +541,11 @@
         "cloud-hosting",
         "deployment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-guides-ec2-instructions.md"
     },
     {
-      "file_path": "docs-core-webhook.md",
+      "file_path": "040-docs-core-webhook.md",
       "title": "Webhook | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/webhook",
       "source": "crawler",
@@ -531,10 +559,11 @@
         "event-notifications",
         "http-endpoints"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-webhook.md"
     },
     {
-      "file_path": "docs-core-github.md",
+      "file_path": "023-docs-core-github.md",
       "title": "GitHub | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/github",
       "source": "crawler",
@@ -550,10 +579,11 @@
         "branch-configuration",
         "continuous-deployment"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-github.md"
     },
     {
-      "file_path": "docs-core-auto-deploy.md",
+      "file_path": "028-docs-core-auto-deploy.md",
       "title": "Auto Deploy | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/auto-deploy",
       "source": "crawler",
@@ -569,10 +599,11 @@
         "dockerhub",
         "ci-cd"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-auto-deploy.md"
     },
     {
-      "file_path": "docs-core-bitbucket.md",
+      "file_path": "025-docs-core-bitbucket.md",
       "title": "Bitbucket | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/bitbucket",
       "source": "crawler",
@@ -587,10 +618,11 @@
         "git-integration",
         "app-passwords"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-bitbucket.md"
     },
     {
-      "file_path": "docs-core-applications-build-type.md",
+      "file_path": "049-docs-core-applications-build-type.md",
       "title": "Build Type | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications/build-type",
       "source": "crawler",
@@ -606,10 +638,11 @@
         "buildpacks",
         "deployment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-applications-build-type.md"
     },
     {
-      "file_path": "docs-core-applications-rollbacks.md",
+      "file_path": "052-docs-core-applications-rollbacks.md",
       "title": "Rollbacks | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications/rollbacks",
       "source": "crawler",
@@ -625,10 +658,11 @@
         "container-registry",
         "zero-downtime"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-applications-rollbacks.md"
     },
     {
-      "file_path": "docs-core-volume-backups.md",
+      "file_path": "038-docs-core-volume-backups.md",
       "title": "Volume Backups | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/volume-backups",
       "source": "crawler",
@@ -644,10 +678,11 @@
         "docker-compose",
         "backup-automation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-volume-backups.md"
     },
     {
-      "file_path": "docs-core-docker-compose-utilities.md",
+      "file_path": "065-docs-core-docker-compose-utilities.md",
       "title": "Utilities | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/docker-compose/utilities",
       "source": "crawler",
@@ -662,10 +697,11 @@
         "traefik",
         "container-orchestration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-docker-compose-utilities.md"
     },
     {
-      "file_path": "docs-core-docker-compose-example.md",
+      "file_path": "064-docs-core-docker-compose-example.md",
       "title": "Example | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/docker-compose/example",
       "source": "crawler",
@@ -681,10 +717,11 @@
         "ssl-certificates",
         "domain-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-docker-compose-example.md"
     },
     {
-      "file_path": "docs-core-domains-cloudflare.md",
+      "file_path": "068-docs-core-domains-cloudflare.md",
       "title": "Cloudflare | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/domains/cloudflare",
       "source": "crawler",
@@ -699,10 +736,11 @@
         "lets-encrypt",
         "https"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-domains-cloudflare.md"
     },
     {
-      "file_path": "docs-core-telegram.md",
+      "file_path": "041-docs-core-telegram.md",
       "title": "Telegram | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/telegram",
       "source": "crawler",
@@ -717,10 +755,11 @@
         "server-management",
         "notification-setup"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-telegram.md"
     },
     {
-      "file_path": "docs-core-actions.md",
+      "file_path": "032-docs-core-actions.md",
       "title": "Actions | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/actions",
       "source": "crawler",
@@ -734,10 +773,11 @@
         "configuration-management",
         "storage-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-actions.md"
     },
     {
-      "file_path": "docs-core-enterprise-sso-okta.md",
+      "file_path": "100-docs-core-enterprise-sso-okta.md",
       "title": "Okta | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise/sso/okta",
       "source": "crawler",
@@ -752,10 +792,11 @@
         "authentication",
         "identity-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-enterprise-sso-okta.md"
     },
     {
-      "file_path": "docs-core-discord.md",
+      "file_path": "042-docs-core-discord.md",
       "title": "Discord | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/discord",
       "source": "crawler",
@@ -770,10 +811,11 @@
         "server-monitoring",
         "integrations"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-discord.md"
     },
     {
-      "file_path": "docs-core-ntfy.md",
+      "file_path": "047-docs-core-ntfy.md",
       "title": "Ntfy | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/ntfy",
       "source": "crawler",
@@ -787,10 +829,11 @@
         "configuration",
         "alerting"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-ntfy.md"
     },
     {
-      "file_path": "docs-core-enterprise-sso-keycloak.md",
+      "file_path": "099-docs-core-enterprise-sso-keycloak.md",
       "title": "Keycloak | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise/sso/keycloak",
       "source": "crawler",
@@ -806,10 +849,11 @@
         "identity-provider",
         "troubleshooting"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-enterprise-sso-keycloak.md"
     },
     {
-      "file_path": "docs-core-vuejs.md",
+      "file_path": "078-docs-core-vuejs.md",
       "title": "Vue.js | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/vuejs",
       "source": "crawler",
@@ -824,10 +868,11 @@
         "web-hosting",
         "domain-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-vuejs.md"
     },
     {
-      "file_path": "docs-core-applications-advanced.md",
+      "file_path": "050-docs-core-applications-advanced.md",
       "title": "Advanced | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications/advanced",
       "source": "crawler",
@@ -843,10 +888,11 @@
         "container-scaling",
         "build-server"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-applications-advanced.md"
     },
     {
-      "file_path": "docs-core-databases-backups.md",
+      "file_path": "057-docs-core-databases-backups.md",
       "title": "Backups | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/backups",
       "source": "crawler",
@@ -861,10 +907,11 @@
         "cron-scheduling",
         "data-recovery"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-databases-backups.md"
     },
     {
-      "file_path": "docs-core-cluster.md",
+      "file_path": "076-docs-core-cluster.md",
       "title": "Cluster | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/cluster",
       "source": "crawler",
@@ -880,10 +927,11 @@
         "container-registry",
         "server-nodes"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-cluster.md"
     },
     {
-      "file_path": "docs-core-gotify.md",
+      "file_path": "046-docs-core-gotify.md",
       "title": "Gotify | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/gotify",
       "source": "crawler",
@@ -897,10 +945,11 @@
         "server-alerts",
         "configuration-guide"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-gotify.md"
     },
     {
-      "file_path": "docs-core-gitea.md",
+      "file_path": "026-docs-core-gitea.md",
       "title": "Gitea | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/gitea",
       "source": "crawler",
@@ -916,10 +965,11 @@
         "oauth2-configuration",
         "continuous-deployment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-gitea.md"
     },
     {
-      "file_path": "docs-core-remote-servers-validate.md",
+      "file_path": "073-docs-core-remote-servers-validate.md",
       "title": "Validate | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remote-servers/validate",
       "source": "crawler",
@@ -934,10 +984,11 @@
         "docker-swarm",
         "server-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-remote-servers-validate.md"
     },
     {
-      "file_path": "docs-core-enterprise-sso-azure.md",
+      "file_path": "098-docs-core-enterprise-sso-azure.md",
       "title": "Azure AD (Microsoft Entra ID) | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise/sso/azure",
       "source": "crawler",
@@ -954,10 +1005,11 @@
         "identity-provider",
         "dokploy"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-enterprise-sso-azure.md"
     },
     {
-      "file_path": "docs-core-html.md",
+      "file_path": "077-docs-core-html.md",
       "title": "HTML | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/html",
       "source": "crawler",
@@ -971,10 +1023,11 @@
         "git-integration",
         "domain-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-html.md"
     },
     {
-      "file_path": "docs-core-11ty.md",
+      "file_path": "093-docs-core-11ty.md",
       "title": "11ty | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/11ty",
       "source": "crawler",
@@ -989,10 +1042,11 @@
         "nixpacks",
         "domain-setup"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-11ty.md"
     },
     {
-      "file_path": "docs-core-deno.md",
+      "file_path": "084-docs-core-deno.md",
       "title": "Deno | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/deno",
       "source": "crawler",
@@ -1007,10 +1061,11 @@
         "git-integration",
         "web-hosting"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-deno.md"
     },
     {
-      "file_path": "docs-core-registry-digital-ocean.md",
+      "file_path": "031-docs-core-registry-digital-ocean.md",
       "title": "Digital Ocean | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/registry/digital-ocean",
       "source": "crawler",
@@ -1025,10 +1080,11 @@
         "docker",
         "cloud-storage"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-registry-digital-ocean.md"
     },
     {
-      "file_path": "docs-core-preact.md",
+      "file_path": "085-docs-core-preact.md",
       "title": "Preact | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/preact",
       "source": "crawler",
@@ -1042,10 +1098,11 @@
         "nixpacks",
         "dokploy"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-preact.md"
     },
     {
-      "file_path": "docs-core-turborepo.md",
+      "file_path": "091-docs-core-turborepo.md",
       "title": "Turborepo | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/turborepo",
       "source": "crawler",
@@ -1059,10 +1116,11 @@
         "deployment",
         "monorepo"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-turborepo.md"
     },
     {
-      "file_path": "docs-core-solidjs.md",
+      "file_path": "086-docs-core-solidjs.md",
       "title": "Solid.js | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/solidjs",
       "source": "crawler",
@@ -1077,10 +1135,11 @@
         "nixpacks",
         "web-hosting"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-solidjs.md"
     },
     {
-      "file_path": "docs-core-enterprise-license-keys.md",
+      "file_path": "095-docs-core-enterprise-license-keys.md",
       "title": "License Keys | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise/license-keys",
       "source": "crawler",
@@ -1094,10 +1153,11 @@
         "server-management",
         "software-licensing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-enterprise-license-keys.md"
     },
     {
-      "file_path": "docs-core-backblaze-b2.md",
+      "file_path": "036-docs-core-backblaze-b2.md",
       "title": "Backblaze B2 | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/backblaze-b2",
       "source": "crawler",
@@ -1112,10 +1172,11 @@
         "dokploy",
         "data-retention"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-backblaze-b2.md"
     },
     {
-      "file_path": "docs-core-Docker.md",
+      "file_path": "027-docs-core-Docker.md",
       "title": "Docker Registry | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/Docker",
       "source": "crawler",
@@ -1131,10 +1192,11 @@
         "container-images",
         "authentication"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-Docker.md"
     },
     {
-      "file_path": "docs-core-svelte.md",
+      "file_path": "087-docs-core-svelte.md",
       "title": "Svelte | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/svelte",
       "source": "crawler",
@@ -1149,10 +1211,11 @@
         "nixpacks",
         "domain-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-svelte.md"
     },
     {
-      "file_path": "docs-core-registry-dockerhub.md",
+      "file_path": "029-docs-core-registry-dockerhub.md",
       "title": "Docker Hub | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/registry/dockerhub",
       "source": "crawler",
@@ -1167,10 +1230,11 @@
         "container-images",
         "artifact-storage"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-registry-dockerhub.md"
     },
     {
-      "file_path": "docs-core-databases-connection.md",
+      "file_path": "059-docs-core-databases-connection.md",
       "title": "Connection | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/connection",
       "source": "crawler",
@@ -1185,10 +1249,11 @@
         "security",
         "external-access"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-databases-connection.md"
     },
     {
-      "file_path": "docs-core-domains-others.md",
+      "file_path": "069-docs-core-domains-others.md",
       "title": "Others | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/domains/others",
       "source": "crawler",
@@ -1203,10 +1268,11 @@
         "lets-encrypt",
         "traefik-routing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-domains-others.md"
     },
     {
-      "file_path": "docs-core-lit.md",
+      "file_path": "089-docs-core-lit.md",
       "title": "Lit | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/lit",
       "source": "crawler",
@@ -1221,10 +1287,11 @@
         "web-application",
         "domain-setup"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-lit.md"
     },
     {
-      "file_path": "docs-core-tanstack.md",
+      "file_path": "088-docs-core-tanstack.md",
       "title": "Tanstack | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/tanstack",
       "source": "crawler",
@@ -1239,10 +1306,11 @@
         "dokploy",
         "domain-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-tanstack.md"
     },
     {
-      "file_path": "docs-core-nextjs.md",
+      "file_path": "079-docs-core-nextjs.md",
       "title": "Next.js | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/nextjs",
       "source": "crawler",
@@ -1256,10 +1324,11 @@
         "dokploy",
         "domain-generation"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-nextjs.md"
     },
     {
-      "file_path": "docs-core-guides-tailscale.md",
+      "file_path": "102-docs-core-guides-tailscale.md",
       "title": "Tailscale | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/guides/tailscale",
       "source": "crawler",
@@ -1274,10 +1343,11 @@
         "networking",
         "security"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-guides-tailscale.md"
     },
     {
-      "file_path": "docs-core-pushover.md",
+      "file_path": "045-docs-core-pushover.md",
       "title": "Pushover | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/pushover",
       "source": "crawler",
@@ -1291,10 +1361,11 @@
         "configuration",
         "alerting"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-pushover.md"
     },
     {
-      "file_path": "docs-core-providers.md",
+      "file_path": "019-docs-core-providers.md",
       "title": "Providers | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/providers",
       "source": "crawler",
@@ -1310,10 +1381,11 @@
         "private-repositories",
         "automated-deployment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-providers.md"
     },
     {
-      "file_path": "docs-core-databases-connection-pg-admin.md",
+      "file_path": "063-docs-core-databases-connection-pg-admin.md",
       "title": "PG Admin | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/connection/pg-admin",
       "source": "crawler",
@@ -1328,10 +1400,11 @@
         "external-access",
         "server-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-databases-connection-pg-admin.md"
     },
     {
-      "file_path": "docs-core-docker-compose-domains.md",
+      "file_path": "066-docs-core-docker-compose-domains.md",
       "title": "Domains | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/docker-compose/domains",
       "source": "crawler",
@@ -1346,10 +1419,11 @@
         "networking",
         "deployment-strategies"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-docker-compose-domains.md"
     },
     {
-      "file_path": "docs-core-applications-preview-deployments.md",
+      "file_path": "051-docs-core-applications-preview-deployments.md",
       "title": "Preview Deployments | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications/preview-deployments",
       "source": "crawler",
@@ -1364,10 +1438,11 @@
         "deployment-automation",
         "custom-domains"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-applications-preview-deployments.md"
     },
     {
-      "file_path": "docs-core-qwik.md",
+      "file_path": "090-docs-core-qwik.md",
       "title": "Qwik | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/qwik",
       "source": "crawler",
@@ -1382,10 +1457,11 @@
         "nixpacks",
         "domain-setup"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-qwik.md"
     },
     {
-      "file_path": "docs-core-lark.md",
+      "file_path": "048-docs-core-lark.md",
       "title": "Lark | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/lark",
       "source": "crawler",
@@ -1400,10 +1476,11 @@
         "alerting",
         "notification-setup"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-lark.md"
     },
     {
-      "file_path": "docs-core-vite-react.md",
+      "file_path": "092-docs-core-vite-react.md",
       "title": "Vite React | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/vite-react",
       "source": "crawler",
@@ -1418,10 +1495,11 @@
         "nixpacks",
         "web-hosting"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-vite-react.md"
     },
     {
-      "file_path": "docs-core-gitlab.md",
+      "file_path": "024-docs-core-gitlab.md",
       "title": "Gitlab | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/gitlab",
       "source": "crawler",
@@ -1436,10 +1514,11 @@
         "ci-cd",
         "version-control"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-gitlab.md"
     },
     {
-      "file_path": "docs-core-nestjs.md",
+      "file_path": "083-docs-core-nestjs.md",
       "title": "Nest.js | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/nestjs",
       "source": "crawler",
@@ -1453,10 +1532,11 @@
         "domain-setup",
         "dokploy"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-nestjs.md"
     },
     {
-      "file_path": "docs-core-databases-connection-mariadb.md",
+      "file_path": "060-docs-core-databases-connection-mariadb.md",
       "title": "MariaDB | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/connection/mariadb",
       "source": "crawler",
@@ -1470,10 +1550,11 @@
         "database-connection",
         "external-access"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-databases-connection-mariadb.md"
     },
     {
-      "file_path": "docs-core-guides-cloudflare-tunnels.md",
+      "file_path": "103-docs-core-guides-cloudflare-tunnels.md",
       "title": "Cloudflare Tunnels | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/guides/cloudflare-tunnels",
       "source": "crawler",
@@ -1489,10 +1570,11 @@
         "secure-access",
         "deployment-guide"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-guides-cloudflare-tunnels.md"
     },
     {
-      "file_path": "docs-core-enterprise.md",
+      "file_path": "094-docs-core-enterprise.md",
       "title": "Introduction | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise",
       "source": "crawler",
@@ -1508,10 +1590,11 @@
         "oidc",
         "saml"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-enterprise.md"
     },
     {
-      "file_path": "docs-core-astro.md",
+      "file_path": "080-docs-core-astro.md",
       "title": "Astro | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/astro",
       "source": "crawler",
@@ -1525,10 +1608,11 @@
         "nixpacks",
         "domain-configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-astro.md"
     },
     {
-      "file_path": "docs-core-applications-going-production.md",
+      "file_path": "054-docs-core-applications-going-production.md",
       "title": "Going Production | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications/going-production",
       "source": "crawler",
@@ -1545,10 +1629,11 @@
         "production-deployment",
         "containerization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-applications-going-production.md"
     },
     {
-      "file_path": "docs-core-remote-servers-deployments.md",
+      "file_path": "072-docs-core-remote-servers-deployments.md",
       "title": "Deployments | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remote-servers/deployments",
       "source": "crawler",
@@ -1562,10 +1647,11 @@
         "bash-configuration",
         "root-access"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-remote-servers-deployments.md"
     },
     {
-      "file_path": "docs-core-slack.md",
+      "file_path": "043-docs-core-slack.md",
       "title": "Slack | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/slack",
       "source": "crawler",
@@ -1579,10 +1665,11 @@
         "webhooks",
         "event-alerts"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-slack.md"
     },
     {
-      "file_path": "docs-core-cloudflare-r2.md",
+      "file_path": "034-docs-core-cloudflare-r2.md",
       "title": "Cloudflare R2 | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/cloudflare-r2",
       "source": "crawler",
@@ -1597,10 +1684,11 @@
         "api-tokens",
         "dokploy"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-cloudflare-r2.md"
     },
     {
-      "file_path": "docs-core-cloud-storage.md",
+      "file_path": "035-docs-core-cloud-storage.md",
       "title": "Google Cloud Storage | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/cloud-storage",
       "source": "crawler",
@@ -1615,10 +1703,11 @@
         "hmac-keys",
         "cloud-storage"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-cloud-storage.md"
     },
     {
-      "file_path": "docs-core-enterprise-sso.md",
+      "file_path": "096-docs-core-enterprise-sso.md",
       "title": "Single Sign-On (SSO) | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise/sso",
       "source": "crawler",
@@ -1634,10 +1723,11 @@
         "keycloak",
         "enterprise-security"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-enterprise-sso.md"
     },
     {
-      "file_path": "docs-core-astro-ssr.md",
+      "file_path": "081-docs-core-astro-ssr.md",
       "title": "Astro SSR | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/astro-ssr",
       "source": "crawler",
@@ -1652,10 +1742,11 @@
         "nixpacks",
         "server-side-rendering"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-astro-ssr.md"
     },
     {
-      "file_path": "docs-core-remix.md",
+      "file_path": "082-docs-core-remix.md",
       "title": "Remix | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remix",
       "source": "crawler",
@@ -1669,10 +1760,11 @@
         "dokploy",
         "domain-management"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-remix.md"
     },
     {
-      "file_path": "docs-core-databases-connection-mysql.md",
+      "file_path": "061-docs-core-databases-connection-mysql.md",
       "title": "MySQL | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/connection/mysql",
       "source": "crawler",
@@ -1686,10 +1778,11 @@
         "database-management",
         "external-connection"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-databases-connection-mysql.md"
     },
     {
-      "file_path": "docs-core-aws-s3.md",
+      "file_path": "033-docs-core-aws-s3.md",
       "title": "AWS S3 | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/aws-s3",
       "source": "crawler",
@@ -1704,10 +1797,11 @@
         "cloud-storage",
         "configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-aws-s3.md"
     },
     {
-      "file_path": "docs-core-applications-zero-downtime.md",
+      "file_path": "053-docs-core-applications-zero-downtime.md",
       "title": "Zero Downtime | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/applications/zero-downtime",
       "source": "crawler",
@@ -1722,10 +1816,11 @@
         "deployment-configuration",
         "continuous-deployment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-applications-zero-downtime.md"
     },
     {
-      "file_path": "docs-core-databases-connection-mongo-atlas.md",
+      "file_path": "062-docs-core-databases-connection-mongo-atlas.md",
       "title": "Mongo Compass | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/connection/mongo-atlas",
       "source": "crawler",
@@ -1740,10 +1835,11 @@
         "remote-access",
         "external-port"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-databases-connection-mongo-atlas.md"
     },
     {
-      "file_path": "docs-core-remote-servers.md",
+      "file_path": "070-docs-core-remote-servers.md",
       "title": "Introduction | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/remote-servers",
       "source": "crawler",
@@ -1758,10 +1854,11 @@
         "infrastructure-management",
         "docker-containers"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-remote-servers.md"
     },
     {
-      "file_path": "docs-core-permissions.md",
+      "file_path": "104-docs-core-permissions.md",
       "title": "Permissions | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/permissions",
       "source": "crawler",
@@ -1776,10 +1873,11 @@
         "user-roles",
         "access-control"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-core-permissions.md"
     },
     {
-      "file_path": "docs-core-databases-restore.md",
+      "file_path": "058-docs-core-databases-restore.md",
       "title": "Restore | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/databases/restore",
       "source": "crawler",
@@ -1796,10 +1894,11 @@
         "mongodb",
         "backup-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-databases-restore.md"
     },
     {
-      "file_path": "docs-core-domains-generated.md",
+      "file_path": "067-docs-core-domains-generated.md",
       "title": "Generated | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/domains/generated",
       "source": "crawler",
@@ -1814,10 +1913,11 @@
         "networking",
         "free-domains"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-domains-generated.md"
     },
     {
-      "file_path": "docs-core-overview.md",
+      "file_path": "006-docs-core-overview.md",
       "title": "Overview | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/overview",
       "source": "crawler",
@@ -1832,10 +1932,11 @@
         "webhook",
         "error-handling"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-core-overview.md"
     },
     {
-      "file_path": "docs-core-registry-ghcr.md",
+      "file_path": "030-docs-core-registry-ghcr.md",
       "title": "GHCR | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/registry/ghcr",
       "source": "crawler",
@@ -1849,10 +1950,11 @@
         "dokploy",
         "access-tokens"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-registry-ghcr.md"
     },
     {
-      "file_path": "docs-core-email.md",
+      "file_path": "044-docs-core-email.md",
       "title": "Email | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/email",
       "source": "crawler",
@@ -1866,10 +1968,11 @@
         "server-monitoring",
         "event-alerts"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-core-email.md"
     },
     {
-      "file_path": "docs-core-enterprise-sso-auth0.md",
+      "file_path": "097-docs-core-enterprise-sso-auth0.md",
       "title": "Auth0 | Dokploy",
       "url": "https://docs.dokploy.com/docs/core/enterprise/sso/auth0",
       "source": "crawler",
@@ -1884,7 +1987,31 @@
         "authentication",
         "identity-provider"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-core-enterprise-sso-auth0.md"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-14T17:27:06.865Z",
+    "total_files": 104,
+    "categories": [
+      "Introduction & Overview",
+      "Installation & Quick Start",
+      "Core Concepts & Fundamentals",
+      "Configuration - Git Providers",
+      "Configuration - Registry Providers",
+      "Configuration - Storage & Backups",
+      "Configuration - Monitoring & Notifications",
+      "Application Management",
+      "Database Management",
+      "Docker Compose Deep Dive",
+      "Domains & SSL Configuration",
+      "Remote Servers & Clustering",
+      "Tutorials - Framework Deployment",
+      "Enterprise Features",
+      "Guides & Advanced Networking",
+      "Permissions & Reference"
+    ]
+  }
 }

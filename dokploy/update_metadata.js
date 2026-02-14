@@ -109,7 +109,6 @@ const renameMap = {
   "docs-core-permissions.md": "104-docs-core-permissions.md"
 };
 
-// Update each document with new file path and original file path
 metadata.documents.forEach(doc => {
   const oldPath = doc.file_path;
   if (renameMap[oldPath]) {
@@ -118,7 +117,6 @@ metadata.documents.forEach(doc => {
   }
 });
 
-// Add organization metadata
 metadata.organization = {
   method: "sequential-numbering",
   organized_at: new Date().toISOString(),
@@ -143,7 +141,6 @@ metadata.organization = {
   ]
 };
 
-// Write updated metadata
 fs.writeFileSync('metadata.json', JSON.stringify(metadata, null, 2));
 console.log('Metadata updated successfully!');
 console.log(`Total documents: ${metadata.documents.length}`);

@@ -1,0 +1,19 @@
+---
+title: WebGL Research | Camoufox
+url: https://camoufox.com/webgl-research/
+source: crawler
+fetched_at: 2026-02-14T14:05:43.447374-03:00
+rendered_js: true
+word_count: 340
+summary: This document lists hardware and software configurations for the ANGLE graphics layer, detailing compatibility and distribution percentages across various GPU vendors and drivers.
+tags:
+    - angle
+    - gpu-compatibility
+    - graphics-drivers
+    - hardware-statistics
+    - webgl
+    - direct3d
+category: reference
+---
+
+Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce GTX 980 Direct3D11 vs\_5\_0 ps\_5\_0), or similar29.0%✅Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce GTX 980 Direct3D11 vs\_5\_0 ps\_5\_0), or similar29.0%✅Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics Direct3D11 vs\_5\_0 ps\_5\_0), or similar24.1%✅Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics 400 Direct3D11 vs\_5\_0 ps\_5\_0), or similar19.7%✅Google Inc. (AMD)ANGLE (AMD, Radeon HD 3200 Graphics Direct3D11 vs\_5\_0 ps\_5\_0), or similar10.6%✅Google Inc. (AMD)ANGLE (AMD, Radeon R9 200 Series Direct3D11 vs\_5\_0 ps\_5\_0), or similar6.6%✅Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce GTX 480 Direct3D11 vs\_5\_0 ps\_5\_0), or similar1.7%✅Google Inc. (Microsoft)ANGLE (Microsoft, Microsoft Basic Render Driver Direct3D11 vs\_5\_0 ps\_5\_0), or similar1.6%✅Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics Direct3D11 vs\_5\_0 ps\_5\_0)0.9%✅Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics Direct3D11 vs\_4\_1 ps\_4\_1), or similar0.5%✅Google Inc. (Google)ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)0.3%✅Google Inc. (AMD)ANGLE (AMD, Radeon R9 200 Series Direct3D11 vs\_5\_0 ps\_5\_0)0.2%✅Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics Direct3D11 vs\_4\_0 ps\_4\_0)0.2%✅Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce 8800 GTX Direct3D11 vs\_4\_0 ps\_4\_0)0.2%✅Google Inc. (Intel)ANGLE (Intel, Intel 945GM Direct3D11 vs\_4\_0 ps\_4\_0)0.2%✅Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics Direct3D11 vs\_4\_1 ps\_4\_1)0.2%✅Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce GTX 980 Direct3D11 vs\_5\_0 ps\_5\_0)0.2%✅Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce GTX 480 Direct3D11 vs\_5\_0 ps\_5\_0)0.2%✅Google Inc. (AMD)ANGLE (AMD, Radeon HD 5850 Direct3D11 vs\_5\_0 ps\_5\_0), or similar0.5%❌Intel Inc.Intel Iris OpenGL Engine0.5%❌Google Inc. (AMD)ANGLE (AMD, Radeon HD 3200 Graphics Direct3D11 vs\_4\_1 ps\_4\_1), or similar0.3%❌Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce 8800 GTX Direct3D11 vs\_5\_0 ps\_5\_0), or similar0.3%❌Google Inc. (Microsoft)ANGLE (Microsoft, Microsoft Basic Render Driver Direct3D11 vs\_5\_0 ps\_5\_0)0.3%❌Google Inc. (NVIDIA)ANGLE (NVIDIA, NVIDIA GeForce RTX 3080 Direct3D11 vs\_5\_0 ps\_5\_0, D3D11-27.21.14.6663)0.2%❌Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics 630 Direct3D11 vs\_5\_0 ps\_5\_0, D3D11-26.20.100.6861)0.2%❌Google Inc. (Intel)ANGLE (Intel, Intel(R) UHD Graphics 730 Direct3D11 vs\_5\_0 ps\_5\_0, D3D11-30.0.101.1340)0.2%❌Google Inc. (Intel)ANGLE (Intel, Intel 945GM Direct3D11 vs\_4\_0 ps\_4\_0), or similar0.2%❌Google Inc. (Intel)ANGLE (Intel, Intel(R) Arc(TM) A750 Graphics Direct3D11 vs\_5\_0 ps\_5\_0), or similar0.2%❌Google Inc. (Unknown)ANGLE (Unknown, Generic Renderer Direct3D11 vs\_5\_0 ps\_5\_0), or similar0.2%❌Google Inc. (AMD)ANGLE (AMD, Radeon RX 570 Series Direct3D11 vs\_5\_0 ps\_5\_0, D3D11-30.0.14023.1009)0.2%❌Google Inc. (Intel)ANGLE (Intel, Intel(R) UHD Graphics 750 Direct3D11 vs\_5\_0 ps\_5\_0, D3D11)0.2%❌Google Inc. (Intel)ANGLE (Intel, Intel(R) HD Graphics 520 Direct3D11 vs\_5\_0 ps\_5\_0, D3D11-26.20.100.7263)0.2%❌

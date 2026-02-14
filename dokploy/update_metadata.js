@@ -1,9 +1,7 @@
 const fs = require('fs');
 
-// Read the original metadata
 const metadata = JSON.parse(fs.readFileSync('metadata.json', 'utf8'));
 
-// Create a mapping of old file paths to new file paths
 const renameMap = {
   "docs-core.md": "001-docs-core.md",
   "docs-core-architecture.md": "002-docs-core-architecture.md",

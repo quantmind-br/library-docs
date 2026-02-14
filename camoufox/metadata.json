@@ -1,0 +1,514 @@
+{
+  "generated_at": "2026-02-14T14:05:56.061817-03:00",
+  "source_url": "https://camoufox.com/",
+  "strategy": "crawler",
+  "total_documents": 25,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-14T14:07:59-03:00",
+    "total_files": 25,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Core Concepts",
+      "Features & Capabilities",
+      "Fingerprint Configuration",
+      "Python Usage & Guides",
+      "Reference & Research",
+      "Development & Build",
+      "Other Resources"
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "001-introduction.md",
+      "original_file_path": "index.md",
+      "title": "Introduction | Camoufox",
+      "url": "https://camoufox.com/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:24.132291-03:00",
+      "description": "Invisible to anti-bot systems🎭",
+      "summary": "Camoufox is an open-source anti-detect browser built on Firefox that uses low-level fingerprint injection and rotation to bypass anti-bot systems. It mimics real-world user behavior and hardware characteristics to provide a robust, undetectable automation environment.",
+      "tags": [
+        "anti-detect-browser",
+        "fingerprinting-protection",
+        "stealth-automation",
+        "bot-detection-bypass",
+        "browser-spoofing",
+        "firefox"
+      ],
+      "category": "concept",
+      "organized_category": "Introduction & Overview"
+    },
+    {
+      "file_path": "002-installation.md",
+      "original_file_path": "python-installation.md",
+      "title": "Installation | Camoufox",
+      "url": "https://camoufox.com/python/installation/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:45.35948-03:00",
+      "description": "First, install the camoufox package:",
+      "summary": "This document provides instructions for installing the Camoufox library and lists the available commands for its command-line interface.",
+      "tags": [
+        "camoufox",
+        "python",
+        "installation",
+        "browser-automation",
+        "cli-reference",
+        "geoip"
+      ],
+      "category": "reference",
+      "organized_category": "Quick Start & Installation"
+    },
+    {
+      "file_path": "003-stealth-overview.md",
+      "original_file_path": "stealth.md",
+      "title": "Stealth Overview | Camoufox",
+      "url": "https://camoufox.com/stealth/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:26.836323-03:00",
+      "description": "There has been a year gap in maintenance due to a personal situation.",
+      "summary": "This document explains the technical mechanisms Camoufox uses to evade anti-bot detection, including its use of sandboxing, C++ level fingerprint spoofing, and isolated browser protocols.",
+      "tags": [
+        "camoufox",
+        "anti-bot-evasion",
+        "browser-fingerprinting",
+        "playwright",
+        "automation-stealth",
+        "web-scraping"
+      ],
+      "category": "concept",
+      "organized_category": "Core Concepts"
+    },
+    {
+      "file_path": "004-features-list.md",
+      "original_file_path": "features.md",
+      "title": "Features List | Camoufox",
+      "url": "https://camoufox.com/features/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:33.278153-03:00",
+      "description": "Below is a list of patches and features implemented in Camoufox.",
+      "summary": "This document outlines the features and technical patches of Camoufox, a modified Firefox browser designed for anti-fingerprinting, stealth automation, and performance optimization.",
+      "tags": [
+        "camoufox",
+        "anti-fingerprinting",
+        "stealth-browsing",
+        "web-automation",
+        "playwright",
+        "privacy-tools",
+        "browser-spoofing"
+      ],
+      "category": "reference",
+      "organized_category": "Features & Capabilities"
+    },
+    {
+      "file_path": "005-fingerprint-injection.md",
+      "original_file_path": "fingerprint.md",
+      "title": "Fingerprint Injection | Camoufox",
+      "url": "https://camoufox.com/fingerprint/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:49.126778-03:00",
+      "description": "In Camoufox, data is intercepted at the C++ implementation level, making the changes undetectable through JavaScript inspection.",
+      "summary": "This document explains how Camoufox handles browser fingerprint spoofing at the C++ level and provides instructions on configuring spoofed properties via its Python interface.",
+      "tags": [
+        "camoufox",
+        "browser-fingerprinting",
+        "anti-detection",
+        "python-api",
+        "fingerprint-spoofing",
+        "stealth-browsing"
+      ],
+      "category": "guide",
+      "organized_category": "Fingerprint Configuration"
+    },
+    {
+      "file_path": "006-fingerprint-miscellaneous.md",
+      "original_file_path": "fingerprint-miscellaneous.md",
+      "title": "Miscellaneous | Camoufox",
+      "url": "https://camoufox.com/fingerprint/miscellaneous/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:45.847098-03:00",
+      "description": "Property",
+      "summary": "This document outlines configuration properties for spoofing a browser's battery status and PDF viewer settings to help prevent headless browser detection.",
+      "tags": [
+        "browser-spoofing",
+        "bot-detection",
+        "headless-browsers",
+        "fingerprinting",
+        "battery-status",
+        "browser-configuration"
+      ],
+      "category": "configuration",
+      "organized_category": "Fingerprint Configuration"
+    },
+    {
+      "file_path": "007-fingerprint-cursor-movement.md",
+      "original_file_path": "fingerprint-cursor-movement.md",
+      "title": "Cursor Movement | Camoufox",
+      "url": "https://camoufox.com/fingerprint/cursor-movement/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:49.883481-03:00",
+      "description": "Camoufox has built-in support for human-like cursor movement. The natural motion algorithm was originally from",
+      "summary": "This document explains how to configure and use human-like cursor movement and visual highlighters in the Camoufox browser.",
+      "tags": [
+        "camoufox",
+        "cursor-movement",
+        "human-simulation",
+        "browser-stealth",
+        "configuration"
+      ],
+      "category": "configuration",
+      "organized_category": "Fingerprint Configuration"
+    },
+    {
+      "file_path": "008-fingerprint-addons.md",
+      "original_file_path": "fingerprint-addons.md",
+      "title": "Addons | Camoufox",
+      "url": "https://camoufox.com/fingerprint/addons/#default-addons",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:50.635993-03:00",
+      "description": "In the Camoufox Python library, addons can be loaded with the addons parameter.",
+      "summary": "This document explains how to manage browser extensions in the Camoufox library, covering how to load custom extracted addons and exclude default ones like uBlock Origin.",
+      "tags": [
+        "camoufox",
+        "python",
+        "browser-extensions",
+        "ublock-origin",
+        "browser-automation"
+      ],
+      "category": "guide",
+      "organized_category": "Fingerprint Configuration"
+    },
+    {
+      "file_path": "009-fingerprint-fonts.md",
+      "original_file_path": "fingerprint-fonts.md",
+      "title": "Fonts | Camoufox",
+      "url": "https://camoufox.com/fingerprint/fonts/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:51.068399-03:00",
+      "description": "Fonts can be passed to be used in Camoufox through the fonts config property.",
+      "summary": "This document provides a comprehensive list of system font names and families, including localized versions and specialized script-specific typefaces.",
+      "tags": [
+        "fonts",
+        "typography",
+        "system-fonts",
+        "font-families",
+        "macos",
+        "ios",
+        "typefaces"
+      ],
+      "category": "reference",
+      "organized_category": "Fingerprint Configuration"
+    },
+    {
+      "file_path": "010-python-interface.md",
+      "original_file_path": "python.md",
+      "title": "Python Interface | Camoufox",
+      "url": "https://camoufox.com/python/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:37.416612-03:00",
+      "description": "Camoufox's Python library wraps around Playwright's API to help automatically generate \u0026 inject unique device characteristics into Camoufox such as...",
+      "summary": "This document introduces the Camoufox Python library, a lightweight Playwright wrapper designed to automate device fingerprinting and geolocation configuration to avoid detection.",
+      "tags": [
+        "camoufox",
+        "playwright-wrapper",
+        "browser-fingerprinting",
+        "anti-bot-detection",
+        "python-library",
+        "web-automation"
+      ],
+      "category": "reference",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "011-python-usage.md",
+      "original_file_path": "python-usage.md",
+      "title": "Usage | Camoufox",
+      "url": "https://camoufox.com/python/usage/#parameters-list",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:41.856688-03:00",
+      "description": "Camoufox is fully compatible with your existing Playwright code. You only have to change your browser initialization:",
+      "summary": "This document provides a detailed reference for Camoufox initialization parameters, covering configuration options for browser fingerprinting, geolocation, and stealth features.",
+      "tags": [
+        "camoufox",
+        "playwright-integration",
+        "browser-fingerprinting",
+        "stealth-browsing",
+        "python-api",
+        "configuration-reference"
+      ],
+      "category": "reference",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "012-python-config.md",
+      "original_file_path": "python-config.md",
+      "title": "Passing Config | Camoufox",
+      "url": "https://camoufox.com/python/config/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:43.791406-03:00",
+      "description": "If needed, Camoufox config data can be overridden/passed as a dictionary to the config parameter.",
+      "summary": "This document explains how to manually override or pass additional configuration data to Camoufox using the config dictionary parameter.",
+      "tags": [
+        "camoufox",
+        "browser-configuration",
+        "python-library",
+        "webrtc-spoofing",
+        "fingerprint-injection"
+      ],
+      "category": "guide",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "013-python-browserforge.md",
+      "original_file_path": "python-browserforge.md",
+      "title": "BrowserForge Integration | Camoufox",
+      "url": "https://camoufox.com/python/browserforge/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:36.140107-03:00",
+      "description": "Camoufox is compatible with BrowserForge fingerprints.",
+      "summary": "This document explains how to use and customize BrowserForge fingerprints in Camoufox, covering both automatic generation and manual injection of fingerprint objects.",
+      "tags": [
+        "camoufox",
+        "browserforge",
+        "fingerprinting",
+        "web-automation",
+        "python-library"
+      ],
+      "category": "guide",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "014-python-geoip.md",
+      "original_file_path": "python-geoip.md",
+      "title": "GeoIP \u0026 Proxy Support | Camoufox",
+      "url": "https://camoufox.com/python/geoip/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:44.094319-03:00",
+      "description": "By passing geoip=True, or passing in a target IP address, Camoufox will automatically use the target IP's longitude, latitude, timezone, country,...",
+      "summary": "This document explains how to use the Camoufox GeoIP feature to automatically spoof geographic and regional browser metadata based on a proxy or target IP address.",
+      "tags": [
+        "camoufox",
+        "geoip-spoofing",
+        "proxy-integration",
+        "browser-fingerprinting",
+        "python-automation",
+        "webrtc-spoofing"
+      ],
+      "category": "guide",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "015-python-virtual-display.md",
+      "original_file_path": "python-virtual-display.md",
+      "title": "Virtual Display | Camoufox",
+      "url": "https://camoufox.com/python/virtual-display/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:29.624623-03:00",
+      "description": "While Camoufox includes patches to prevent headless detection, running in headless mode may still be detectable in the future.",
+      "summary": "This document explains how to use a virtual display buffer to run Camoufox headlessly, helping to prevent bot detection on Linux systems.",
+      "tags": [
+        "camoufox",
+        "headless-browser",
+        "xvfb",
+        "virtual-display",
+        "bot-detection",
+        "linux-setup"
+      ],
+      "category": "guide",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "016-python-main-world-eval.md",
+      "original_file_path": "python-main-world-eval.md",
+      "title": "Main World Execution | Camoufox",
+      "url": "https://camoufox.com/python/main-world-eval/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:40.232129-03:00",
+      "description": "By default, all JavaScript execution is ran in an isolated scope, invisible to the page.",
+      "summary": "This document explains how to interact with and modify the DOM using Camoufox by switching between isolated and main world JavaScript execution scopes.",
+      "tags": [
+        "camoufox",
+        "dom-manipulation",
+        "javascript-execution",
+        "browser-automation",
+        "web-scraping"
+      ],
+      "category": "guide",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "017-python-remote-server.md",
+      "original_file_path": "python-remote-server.md",
+      "title": "Remote Server | Camoufox",
+      "url": "https://camoufox.com/python/remote-server/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:35.091752-03:00",
+      "description": "Warning! This feature is experimental. It uses a hacky workaround to gain access to undocumented Playwright methods.",
+      "summary": "This document provides instructions for running Camoufox as a remote websocket server and connecting to it using the Playwright API.",
+      "tags": [
+        "camoufox",
+        "websocket-server",
+        "playwright",
+        "remote-access",
+        "browser-automation",
+        "python"
+      ],
+      "category": "guide",
+      "organized_category": "Python Usage & Guides"
+    },
+    {
+      "file_path": "018-webgl-research.md",
+      "original_file_path": "webgl-research.md",
+      "title": "WebGL Research | Camoufox",
+      "url": "https://camoufox.com/webgl-research/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:43.447374-03:00",
+      "description": "As of January 2025, a newer fingerprint generation library with WebGL is in the works!",
+      "summary": "This document lists hardware and software configurations for the ANGLE graphics layer, detailing compatibility and distribution percentages across various GPU vendors and drivers.",
+      "tags": [
+        "angle",
+        "gpu-compatibility",
+        "graphics-drivers",
+        "hardware-statistics",
+        "webgl",
+        "direct3d"
+      ],
+      "category": "reference",
+      "organized_category": "Reference & Research"
+    },
+    {
+      "file_path": "019-development-overview.md",
+      "original_file_path": "development.md",
+      "title": "Development | Camoufox",
+      "url": "https://camoufox.com/development/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:39.180033-03:00",
+      "description": "The following content is intended for those interested in building \u0026 debugging Camoufox.",
+      "summary": "This document provides technical instructions and resource links for building the Camoufox browser and developing patches to address security leaks.",
+      "tags": [
+        "camoufox",
+        "browser-development",
+        "build-system",
+        "patching",
+        "debugging",
+        "docker",
+        "cli"
+      ],
+      "category": "guide",
+      "organized_category": "Development & Build"
+    },
+    {
+      "file_path": "020-build-system.md",
+      "original_file_path": "development-overview.md",
+      "title": "Build System | Camoufox",
+      "url": "https://camoufox.com/development/overview/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:32.421262-03:00",
+      "description": "Here is a diagram of the build system, and its associated make commands:",
+      "summary": "This document provides an overview of the Camoufox build system architecture and the specific make commands used to compile and package the browser for multiple platforms.",
+      "tags": [
+        "camoufox",
+        "build-system",
+        "makefile",
+        "software-packaging",
+        "firefox-based"
+      ],
+      "category": "guide",
+      "organized_category": "Development & Build"
+    },
+    {
+      "file_path": "021-building-cli.md",
+      "original_file_path": "development-buildcli.md",
+      "title": "Building in CLI | Camoufox",
+      "url": "https://camoufox.com/development/buildcli/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:26.033899-03:00",
+      "description": "Camoufox's build system is designed to be used in Linux. WSL will not work!",
+      "summary": "This document outlines the command-line options and usage for a cross-platform build script used to target multiple operating systems and hardware architectures.",
+      "tags": [
+        "build-system",
+        "cross-platform",
+        "cli-reference",
+        "compilation",
+        "multibuild-py"
+      ],
+      "category": "reference",
+      "organized_category": "Development & Build"
+    },
+    {
+      "file_path": "022-building-docker.md",
+      "original_file_path": "development-docker.md",
+      "title": "Building in Docker | Camoufox",
+      "url": "https://camoufox.com/development/docker/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:31.759206-03:00",
+      "description": "To build Camoufox on a non-Linux system you can use Docker.",
+      "summary": "This document provides instructions for building Camoufox on non-Linux systems using Docker, covering image creation, cross-platform compilation, and volume mounting.",
+      "tags": [
+        "camoufox",
+        "docker",
+        "build-process",
+        "cross-platform",
+        "compilation"
+      ],
+      "category": "guide",
+      "organized_category": "Development & Build"
+    },
+    {
+      "file_path": "023-development-tools.md",
+      "original_file_path": "development-tools.md",
+      "title": "Development Tools | Camoufox",
+      "url": "https://camoufox.com/development/tools/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:38.155942-03:00",
+      "description": "This repo comes with a developer UI under scripts/developer.py:",
+      "summary": "This document explains how to use the developer UI tool to create, modify, and manage source code patches within the repository.",
+      "tags": [
+        "developer-ui",
+        "patch-management",
+        "workflow-automation",
+        "camoufox",
+        "source-code-patches"
+      ],
+      "category": "guide",
+      "organized_category": "Development & Build"
+    },
+    {
+      "file_path": "024-leak-debugging.md",
+      "original_file_path": "development-workflow.md",
+      "title": "Leak Debugging | Camoufox",
+      "url": "https://camoufox.com/development/workflow/",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:45.45763-03:00",
+      "description": "This is a flow chart demonstrating my process for determining leaks without deobfuscating WAF Javascript.",
+      "summary": "This document outlines a systematic debugging process for identifying browser leaks that trigger WAF detection by incrementally applying Camoufox patches to a vanilla Firefox build.",
+      "tags": [
+        "browser-fingerprinting",
+        "waf-evasion",
+        "camoufox",
+        "firefox-build",
+        "bot-detection",
+        "debugging",
+        "web-scraping"
+      ],
+      "category": "guide",
+      "organized_category": "Development & Build"
+    },
+    {
+      "file_path": "025-random-button-clicker.md",
+      "original_file_path": "tests-buttonclick.md",
+      "title": "Random Button Clicker",
+      "url": "https://camoufox.com/tests/buttonclick",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:05:50.133467-03:00",
+      "summary": "This document contains no content or information to extract.",
+      "tags": [
+        "empty-document",
+        "no-content"
+      ],
+      "category": "other",
+      "organized_category": "Other Resources"
+    }
+  ]
+}

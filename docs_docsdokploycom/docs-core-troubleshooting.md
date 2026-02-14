@@ -1,0 +1,603 @@
+---
+title: Troubleshooting | Dokploy
+url: https://docs.dokploy.com/docs/core/troubleshooting
+source: crawler
+fetched_at: 2026-02-14T14:18:04.018823-03:00
+rendered_js: true
+word_count: 2032
+summary: This document provides troubleshooting solutions for common issues in Dokploy, covering domain connectivity, port configuration, volume mounting, and Traefik routing.
+tags:
+    - dokploy
+    - troubleshooting
+    - docker-compose
+    - networking
+    - volume-mounts
+    - traefik
+    - ssl-certificates
+category: guide
+---
+
+Solve the most common problems that occur when using Dokploy.
+
+## [Applications Domain Not Working?](#applications-domain-not-working)
+
+You see the deployment succeeded, and logs are running, but the domain isn't working? Here's what to check:
+
+1. **Correct Port Mapping**: Ensure the domain is using the correct port for your application. For example, if you're using Next.js, the port should be `3000`, or for Laravel, it should be `8000`. If you change the app port, update the domain to reflect that.
+2. **Avoid Using `Ports` in Advanced Settings**: Generally, there's no need to use the `Ports` feature unless you want to access your app via `IP:port`. Leaving this feature enabled may interfere with your domain.
+3. **Let's Encrypt Certificates**: It's crucial to point the domain to your server's IP **before** adding it in Dokploy. If the domain is added first, the certificate won't be generated, and you may need to recreate the domain or restart Traefik.
+4. **Listen on 0.0.0.0, Not 127.0.0.1**: If your app is bound to `127.0.0.1` (which is common in Vite apps), switch it to `0.0.0.0` to allow external access.
+
+This is expected behavior. If the application is running on a different node (worker), the UI won't have access to logs or monitoring, as they're not on the same node.
+
+Docker Swarm won't run your application if there are invalid mounts, even if the deployment shows as successful. Double-check your mounts to ensure they are valid or check the General Swarm Section and find your application, and you will see the real error.
+
+For Docker Compose, all file mounts defined in the `volumes` section will be stored in the `files` folder. This is the default directory structure:
+
+For docker compose all the file mounts you've created in the volumes section will be stored to files folder, this is the default structure of the docker compose.
+
+```
+/application-name
+    /code
+    /files
+```
+
+So instead of using this invalid way to mount a volume:
+
+```
+volumes:
+    - "/folder:/path/in/container" ❌
+```
+
+You should use this format:
+
+```
+volumes:
+    - "../files/my-database:/var/lib/mysql" ✅
+    - "../files/my-configs:/etc/my-app/config" ✅
+```
+
+### [Using Files from Your Repository](#using-files-from-your-repository)
+
+If you need to use files from your repository (e.g., configuration files, scripts, or directories), you **must** move them to Dokploy's file mounts and reference them manually using the Dokploy interface. This is because when using AutoDeploy, Dokploy performs a `git clone` operation on each deployment, which clears the repository directory. If you mount files directly from your repository using relative paths like `./` or `./docker/config/odoo.conf`, these files will be lost or empty in subsequent deployments, even though the first deployment may work correctly.
+
+**Why this happens:**
+
+- On the first deployment, the files exist and are mounted correctly
+- On subsequent deployments, Dokploy cleans the directory and performs a fresh `git clone`
+- Docker loses the reference to the files that were in the filesystem, and the new files have a new reference
+- This causes mounted directories and files to be empty or missing inside the container
+
+**Solution:**
+
+1. Go to **Advanced** → **Mounts** in your Docker Compose application
+2. Create a new **File Mount** for each file or directory you need from your repository
+3. Copy the content from your repository files into the File Mount content field
+4. Specify the file path for your configuration
+5. Reference the file mount in your `docker-compose.yml` using the `../files/` path:
+
+```
+volumes:
+  - "../files/my-config.json:/etc/my-app/config" ✅
+  - "../files/my-directory:/path/in/container" ✅
+```
+
+**Example:** Instead of mounting directly from your repository:
+
+```
+volumes:
+  - ./:/mnt/extra-addons/va_subscription_18 ❌
+  - ./docker/config/odoo.conf:/etc/odoo/odoo.conf ❌
+```
+
+Use Dokploy's file mounts:
+
+```
+volumes:
+  - ../files/va_subscription_18:/mnt/extra-addons/va_subscription_18 ✅
+  - ../files/odoo.conf:/etc/odoo/odoo.conf ✅
+```
+
+There are a few potential reasons for this:
+
+1. **Slow Server:**: If the server is too slow, it may struggle to handle concurrent requests, leading to SSL handshake errors.
+2. **Insufficient Disk Space:** If the server doesn't have enough disk space, the logs may not load.
+
+## [Docker Compose Domain Not Working?](#docker-compose-domain-not-working)
+
+When adding a domain in your Docker Compose file, it's not necessary to expose the ports directly. Simply specify the port where your app is running. Exposing the ports can lead to conflicts with other applications or ports.
+
+Example of what not to do:
+
+```
+services:
+  app:
+    image: dokploy/dokploy:latest
+    ports:
+      - 3000:3000
+```
+
+Recommended approach:
+
+```
+services:
+  app:
+    image: dokploy/dokploy:latest
+    ports:
+      - 3000
+      - 80
+```
+
+This is only valid for Docker Compose not for Docker Stack.
+
+When using Docker Stack, the ports are exposed automatically, so you don't need to specify them explicitly.
+
+Example of what not to do:
+
+```
+services:
+  app:
+    image: dokploy/dokploy:latest
+    ports:
+      - 3000
+```
+
+Recommended approach:
+
+```
+services:
+  app:
+    image: dokploy/dokploy:latest
+    expose:
+      - 3000
+```
+
+Then, when creating the domain in Dokploy, specify the service name and port, like this:
+
+```
+domain: my-app.com
+serviceName: app
+port: 3000
+```
+
+- Another reason of the domains are not working it may be because the healthchecks you've defined are not working, so this will cause the domains never work, so you have two options:
+
+<!--THE END-->
+
+1. Remove the healthcheck from the service
+2. Make sure the healthcheck is working
+
+If you're experiencing 404 errors when accessing services created from templates (like Docker Registry, Stalwart, Uptime Kuma, etc.) or Docker Compose services, this is usually related to how Traefik handles routing for different service types.
+
+### [Understanding the Difference](#understanding-the-difference)
+
+Dokploy uses two different methods for configuring Traefik routing:
+
+1. **Applications** (Nixpacks, Dockerfile, Buildpacks): Use the Traefik **file system** for routing configuration
+   
+   - Domain changes are applied automatically
+   - No need to redeploy after updating domains
+   - Configuration files are created in Traefik's dynamic configuration directory
+2. **Templates and Compose Services**: Use Traefik **labels** for routing configuration
+   
+   - Require redeployment after any domain changes
+   - Labels are read from Docker container metadata
+   - Learn more about Traefik labels in the [official documentation](https://doc.traefik.io/traefik/reference/routing-configuration/other-providers/docker/#configuration-examples)
+
+### [Solution](#solution)
+
+When working with Templates or Compose services:
+
+1. **Configure your domain** in the Domains section of your service
+2. **Redeploy the service** - This is crucial! The domain changes won't take effect until you redeploy
+3. Wait for the deployment to complete
+4. Your service should now be accessible via the configured domain
+
+**Key Tip:** Every time you add, modify, or remove a domain from a Template or Compose service, you must redeploy for the changes to take effect.
+
+## [Getting "Bad Gateway Error" When Accessing Your Application Domain](#getting-bad-gateway-error-when-accessing-your-application-domain)
+
+If you're encountering a Bad Gateway Error when accessing your application through its domain, this typically indicates one of several common configuration issues:
+
+### [Common Causes](#common-causes)
+
+1. **Port Mismatch**: The configured port might be incorrect
+2. **Listen Address Configuration**: The service might be listening only on `127.0.0.1` instead of `0.0.0.0`
+
+### [Common Solution for Modern JavaScript Frameworks](#common-solution-for-modern-javascript-frameworks)
+
+This issue frequently occurs with modern JavaScript frameworks like Vite, Astro, or Vue.js applications. By default, these frameworks often listen only on localhost (`127.0.0.1`).
+
+To resolve this, you need to configure your application to listen on all available network interfaces (`0.0.0.0`).
+
+#### [Example Configuration for Vite](#example-configuration-for-vite)
+
+Here's how to properly configure a Vite application:
+
+```
+import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react";
+
+export default defineConfig({
+	plugins: [react()],
+	preview: {
+		port: 3000,
+		host: true,    // This enables listening on all network interfaces
+	},
+	server: {        // Also add this for development server
+		host: true,    // This enables listening on all network interfaces
+		port: 3000
+	}
+});
+```
+
+### [Framework-Specific Notes](#framework-specific-notes)
+
+- **Vite Apps**: Use the configuration above
+- **Astro**: Similar configuration in `astro.config.mjs`
+- **Vue.js**: Configure in `vite.config.js` if using Vite
+- **Other Frameworks**: Check your framework's documentation for network interface configuration
+
+Remember to deploy again your application after making these changes for them to take effect.
+
+When using Docker Compose, you can configure volume mounts in your `docker-compose.yml` file:
+
+```
+volumes:
+  - my-database:/var/lib/mysql
+```
+
+### [Use of closed network when restarting Traefik](#use-of-closed-network-when-restarting-traefik)
+
+If you see this error in the logs of Traefik, it means that the network is being closed, this is the normal behavior when restarting Traefik.
+
+```
+05/23/25, 12:21:12 PM info 2025-05-23T09:21:12Z ERR: error="accept tcp [::]:443: use of closed network connection" entryPointName=websecure
+05/23/25, 12:21:12 PM info 2025-05-23T09:21:12Z ERR: error="accept tcp [::]:9000: use of closed network connection" entryPointName=traefik
+05/23/25, 12:21:12 PM info 2025-05-23T09:21:12Z ERR: error="accept tcp [::]:80: use of closed network connection" entryPointName=web
+05/23/25, 12:21:12 PM info 2025-05-23T09:21:12Z ERR: error="close tcp [::]:9000: use of closed network connection" entryPointName=traefik
+05/23/25, 12:21:12 PM info 2025-05-23T09:21:12Z ERR: error="close tcp [::]:443: use of closed network connection" entryPointName=websecure
+05/23/25, 12:21:12 PM info 2025-05-23T09:21:12Z ERR: error="close tcp [::]:80: use of closed network connection" entryPointName=web
+```
+
+### [Creating Configuration Files](#creating-configuration-files)
+
+If you need to create configuration files before deploying your compose setup:
+
+1. Go to Advanced -&gt; Mounts
+2. Create a new File Mount
+3. Add your configuration content in the content field
+4. Specify the file path for your configuration
+
+Note: All File Mounts are automatically created in the `/files` directory. For example, if you create a file named `my-config.json`, it will be available at `/files/my-config.json`.
+
+You can then reference this configuration file in your `docker-compose.yml`:
+
+```
+volumes:
+  - ../files/my-config.json:/etc/my-app/config
+```
+
+**Important for AutoDeploy users:** If you have configuration files or directories in your repository that you need to mount into your containers, you must copy their content to Dokploy's File Mounts (via Advanced → Mounts) instead of mounting them directly from the repository. This ensures the files persist across deployments, as the repository directory is cleaned and re-cloned on each AutoDeploy.
+
+Error response from daemon: must specify a listening address because the address to advertise is not recognized as a system address, and a system's IP address to use could not be uniquely identified
+
+This error occurs when the Docker Swarm is not properly initialized.
+
+To fix this, you need to assign a the public IP address to the Docker Swarm, ideally you can use a private IP address from your network, but if you require features from docker swarm, you will need to use a public IP address.
+
+```
+curl -sSL https://dokploy.com/install.sh | ADVERTISE_ADDR=your-ip sh
+```
+
+If you can't access your Dokploy UI instance, there could be several causes. While this issue won't occur with Dokploy Cloud (where our team manages the infrastructure), self-hosted instances might encounter configuration problems.
+
+Let's go through the possible cases where your Dokploy UI instance might be inaccessible:
+
+### [1. Insufficient Storage Space](#1-insufficient-storage-space)
+
+If you've made many deployments and don't have available space on your server, the Dokploy database might enter recovery mode, preventing access to the user interface. Here's a quick solution to clear cache and free up server space:
+
+```
+docker system prune -a
+docker builder prune -a
+docker image prune -a
+```
+
+### [2. Container Race Condition During Restart](#2-container-race-condition-during-restart)
+
+During a restart, a race condition might occur where Dokploy's dependent containers don't start in the correct order. To troubleshoot this:
+
+First, verify the running containers:
+
+```
+docker ps
+```
+
+You should see all four of these containers running:
+
+```
+2a5b955c32b6   dokploy/dokploy:latest      "docker-entrypoint.s…"   4 days ago     Up 4 days     0.0.0.0:3000->3000/tcp, :::3000->3000/tcp                                                                             dokploy.1.4bkuszk98muz372kw5mvwkw0h
+5a989bf52bc6   postgres:16                 "docker-entrypoint.s…"   4 days ago     Up 4 days     5432/tcp                                                                                                              dokploy-postgres.1.9hvjaxrmby7ex2denjtwo0csf
+a29d56342175   redis:7                     "docker-entrypoint.s…"   4 days ago     Up 4 days     6379/tcp                                                                                                              dokploy-redis.1.epl51a9bt8yr7ur0f1akeeyuk
+05be01c5612f   traefik:v2.5                "/entrypoint.sh trae…"   4 days ago     Up 4 days     0.0.0.0:80->80/tcp, :::80->80/tcp, 0.0.0.0:443->443/tcp, :::443->443/tcp, 0.0.0.0:8080->8080/tcp, :::8080->8080/tcp   dokploy-traefik.1.2oktabjmfu558x2d2dy6czt8m
+```
+
+If all four containers are running but you still can't access the interface, it's time to debug:
+
+### [Debugging Process](#debugging-process)
+
+#### [1. Check Container Logs](#1-check-container-logs)
+
+Start by examining the logs of each container:
+
+```
+docker service logs dokploy # Dokploy UI
+docker service logs dokploy-postgres # Postgres
+docker service logs dokploy-redis # Redis
+docker logs dokploy-traefik # Traefik
+```
+
+#### [2. Common Database Connection Issue](#2-common-database-connection-issue)
+
+A common case is when the Postgres container starts after the Dokploy container, preventing Dokploy from connecting to the database. You might see logs like this when running `docker service logs dokploy`:
+
+```
+> dokploy@v0.22.3 start /app
+> node -r dotenv/config dist/server.mjs
+
+Default middlewares already exists
+Network is already initilized
+Main config already exists
+Default traefik config already exists
+Migration failed [Error: getaddrinfo ENOTFOUND dokploy-postgres] {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dokploy-postgres'
+}
+Setting up cron jobs....
+Main Server Error [Error: getaddrinfo ENOTFOUND dokploy-postgres] {
+  errno: -3008,
+  code: 'ENOTFOUND',
+  syscall: 'getaddrinfo',
+  hostname: 'dokploy-postgres'
+}
+```
+
+To fix this, restart the Dokploy service:
+
+```
+docker service scale dokploy=0
+# Then
+docker service scale dokploy=1
+```
+
+#### [3. Traefik Configuration Issues](#3-traefik-configuration-issues)
+
+If all containers are running but you still can't access the UI, and Dokploy logs show no errors, the Traefik container might have configuration issues.
+
+When running `docker logs dokploy-traefik`, you might see errors like:
+
+```
+2025-04-07T15:20:18Z ERR Error occurred during watcher callback error="/etc/dokploy/traefik/dynamic/dokploy.yml: field not found, node: passHostHeader" providerName=file
+```
+
+First, try restarting Traefik:
+
+```
+docker restart dokploy-traefik
+```
+
+If you still can't access it and the same error persists in the Traefik logs, you'll need to check the Traefik configuration. In this case, the error indicates that the `passHostHeader` field is missing in the configuration.
+
+If you've modified any Traefik configuration for an `application` and added invalid configuration, the logs will point to the error. For example, the error above mentions `field not found, node: passHostHeader`, which means we need to manually modify the configuration files in `/etc/dokploy/traefik`.
+
+Here's an example of an invalid configuration:
+
+```
+http:
+  routers:
+    dokploy-router-app:
+      rule: Host(`my-domain.com`)
+      service: dokploy-service-app
+      entryPoints:
+        - web
+      middlewares:
+        - redirect-to-https
+    dokploy-router-app-secure:
+      rule: Host(`my-domain.com`)
+      service: dokploy-service-app
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: letsencrypt
+  services:
+    dokploy-service-app:
+      loadBalancer:
+        servers:
+          - url: http://dokploy:3000
+          - passHostHeader: true
+```
+
+The correct configuration should be:
+
+```
+http:
+  routers:
+    dokploy-router-app:
+      rule: Host(`my-domain.com`)
+      service: dokploy-service-app
+      entryPoints:
+        - web
+      middlewares:
+        - redirect-to-https
+    dokploy-router-app-secure:
+      rule: Host(`my-domain.com`)
+      service: dokploy-service-app
+      entryPoints:
+        - websecure
+      tls:
+        certResolver: letsencrypt
+  services:
+    dokploy-service-app:
+      loadBalancer:
+        servers:
+          - url: http://dokploy:3000
+        passHostHeader: true
+```
+
+After fixing the configuration, restart Traefik:
+
+```
+docker restart dokploy-traefik
+```
+
+You should now be able to access the user interface.
+
+In the case you want to recreate the dokploy services, you can do the following:
+
+**Important:** Before recreating services, make sure you have backups of your data. Recreating services will not delete your volumes, but it's always good to have backups.
+
+### [Recreate Redis Service](#recreate-redis-service)
+
+Remove and recreate the dokploy-redis service:
+
+```
+docker service rm dokploy-redis
+
+# Create a new dokploy-redis service
+docker service create \
+  --name dokploy-redis \
+  --constraint 'node.role==manager' \
+  --network dokploy-network \
+  --mount type=volume,source=dokploy-redis,target=/data \
+  redis:7
+```
+
+Remove the dokploy-postgres service:
+
+```
+docker service rm dokploy-postgres
+
+# Create a new dokploy-postgres service with Docker Secrets
+docker service create \
+  --name dokploy-postgres \
+  --constraint 'node.role==manager' \
+  --network dokploy-network \
+  --env POSTGRES_USER=dokploy \
+  --env POSTGRES_DB=dokploy \
+  --secret source=dokploy_postgres_password,target=/run/secrets/postgres_password \
+  --env POSTGRES_PASSWORD_FILE=/run/secrets/postgres_password \
+  --mount type=volume,source=dokploy-postgres,target=/var/lib/postgresql/data \
+  postgres:16
+```
+
+**Note:** Using Docker Secrets is the recommended approach for managing sensitive data like passwords. The secret is encrypted and only available to services that have been granted access to it.
+
+Remove the dokploy-traefik service:
+
+```
+# If you are using docker standalone traefik
+docker rm -f dokploy-traefik
+
+docker run -d \
+    --name dokploy-traefik \
+    --restart always \
+    -v /etc/dokploy/traefik/traefik.yml:/etc/traefik/traefik.yml \
+    -v /etc/dokploy/traefik/dynamic:/etc/dokploy/traefik/dynamic \
+    -v /var/run/docker.sock:/var/run/docker.sock:ro \
+    -p 80:80/tcp \
+    -p 443:443/tcp \
+    -p 443:443/udp \
+    traefik:v3.6.7
+
+docker network connect dokploy-network dokploy-traefik
+
+# If you are using docker service traefik
+docker service rm dokploy-traefik
+
+# Create a new dokploy-traefik service
+docker service create \
+  --name dokploy-traefik \
+  --constraint 'node.role==manager' \
+  --network dokploy-network \
+  --mount type=bind,source=/etc/dokploy/traefik/traefik.yml,target=/etc/traefik/traefik.yml \
+  --mount type=bind,source=/etc/dokploy/traefik/dynamic,target=/etc/dokploy/traefik/dynamic \
+  --mount type=bind,source=/var/run/docker.sock,target=/var/run/docker.sock \
+  --publish mode=host,published=443,target=443 \
+  --publish mode=host,published=80,target=80 \
+  --publish mode=host,published=443,target=443,protocol=udp \
+  traefik:v3.6.7
+```
+
+### [Recreate Dokploy Service](#recreate-dokploy-service)
+
+First, get the private IP of your server for the ADVERTISE\_ADDR:
+
+```
+# Get the private IP of your server
+ip addr show | grep -E "inet (192\.168\.|10\.|172\.1[6-9]\.|172\.2[0-9]\.|172\.3[0-1]\.)" | head -n1 | awk '{print $2}' | cut -d/ -f1
+```
+
+Copy the IP address from the output and use it in the command below.
+
+Remove and recreate the dokploy service:
+
+```
+docker service rm dokploy
+
+# Create the dokploy service
+# Replace <YOUR_PRIVATE_IP> with the IP you got from the command above
+docker service create \
+  --name dokploy \
+  --replicas 1 \
+  --network dokploy-network \
+  --mount type=bind,source=/var/run/docker.sock,target=/var/run/docker.sock \
+  --mount type=bind,source=/etc/dokploy,target=/etc/dokploy \
+  --mount type=volume,source=dokploy,target=/root/.docker \
+  --secret source=dokploy_postgres_password,target=/run/secrets/postgres_password \
+  --publish published=3000,target=3000,mode=host \
+  --update-parallelism 1 \
+  --update-order stop-first \
+  --constraint 'node.role == manager' \
+  -e ADVERTISE_ADDR=<YOUR_PRIVATE_IP> \
+  -e POSTGRES_PASSWORD_FILE=/run/secrets/postgres_password \
+  dokploy/dokploy:latest
+```
+
+**For Proxmox LXC environments**, add the `--endpoint-mode dnsrr` flag to all services:
+
+```
+docker service create \
+  --name dokploy \
+  --replicas 1 \
+  --network dokploy-network \
+  --mount type=bind,source=/var/run/docker.sock,target=/var/run/docker.sock \
+  --mount type=bind,source=/etc/dokploy,target=/etc/dokploy \
+  --mount type=volume,source=dokploy,target=/root/.docker \
+  --secret source=dokploy_postgres_password,target=/run/secrets/postgres_password \
+  --publish published=3000,target=3000,mode=host \
+  --update-parallelism 1 \
+  --update-order stop-first \
+  --constraint 'node.role == manager' \
+  --endpoint-mode dnsrr \
+  -e ADVERTISE_ADDR=<YOUR_PRIVATE_IP> \
+  -e POSTGRES_PASSWORD_FILE=/run/secrets/postgres_password \
+  dokploy/dokploy:latest
+```
+
+### [Final Notes](#final-notes)
+
+While the specific issues may vary, the general troubleshooting approach remains similar to what we've described above, and is the general way we always follow when correcting a problem related to the dokploy instance not starting.. If you still can't access the user interface:
+
+1. Check that all containers are running properly
+2. Review the logs of each container for specific error messages
+3. Verify all configuration files
+4. Make sure to read the Traefik documentation for detailed configuration options: [https://doc.traefik.io/traefik/](https://doc.traefik.io/traefik/)
+
+Dokploy Cloud
+
+If you are using Dokploy Cloud, you don't need to worry about this, our team will handle the infrastructure for you.
+
+Start using Dokploy Cloud [https://app.dokploy.com/](https://app.dokploy.com/)

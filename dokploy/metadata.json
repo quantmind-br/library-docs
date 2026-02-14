@@ -1,0 +1,1890 @@
+{
+  "generated_at": "2026-02-14T14:19:40.169724-03:00",
+  "source_url": "https://docs.dokploy.com/",
+  "strategy": "crawler",
+  "total_documents": 104,
+  "documents": [
+    {
+      "file_path": "docs-core.md",
+      "title": "Welcome to Dokploy | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:17:53.979898-03:00",
+      "description": "Dokploy is a open source alternative to Heroku, Vercel, and Netlify.",
+      "summary": "This document introduces Dokploy as an open-source, self-hostable deployment platform that simplifies application and database management using Docker and Traefik.",
+      "tags": [
+        "deployment",
+        "open-source",
+        "docker",
+        "traefik",
+        "self-hosting",
+        "paas"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-core-features.md",
+      "title": "Features | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/features",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:00.106253-03:00",
+      "description": "Explore the comprehensive suite of features available in Dokploy for optimized application deployment and management.",
+      "summary": "This document provides a comprehensive overview of Dokploy's features for managing application deployments, Docker Compose configurations, and database lifecycle operations.",
+      "tags": [
+        "dokploy",
+        "application-deployment",
+        "docker-compose",
+        "database-management",
+        "monitoring",
+        "devops",
+        "containerization"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-reset-password.md",
+      "title": "Reset Password \u0026 2FA | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/reset-password",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:01.891866-03:00",
+      "description": "Reset your password to access your Dokploy account and disable 2FA.",
+      "summary": "This document provide instructions on how to reset a Dokploy account password and disable two-factor authentication using command-line tools within the Docker container.",
+      "tags": [
+        "dokploy",
+        "password-reset",
+        "2fa-reset",
+        "docker-commands",
+        "account-recovery",
+        "self-hosting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-architecture.md",
+      "title": "Architecture of Dokploy | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/architecture",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:00.859004-03:00",
+      "description": "Overview of the core architecture components of Dokploy.",
+      "summary": "This document outlines the core architectural components of Dokploy, detailing how Next.js, PostgreSQL, Redis, and Traefik work together to manage deployments and traffic.",
+      "tags": [
+        "dokploy-architecture",
+        "next-js",
+        "postgresql",
+        "redis",
+        "traefik",
+        "reverse-proxy",
+        "deployment-infrastructure"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-core-comparison.md",
+      "title": "Comparison | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/comparison",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:01.739724-03:00",
+      "description": "A comparison of Dokploy, CapRover, Dokku, and Coolify",
+      "summary": "This document provides a comprehensive feature comparison between popular self-hosted deployment tools, including Dokploy, CapRover, Dokku, and Coolify.",
+      "tags": [
+        "deployment-tools",
+        "dokploy",
+        "caprover",
+        "dokku",
+        "coolify",
+        "self-hosting",
+        "paas-comparison"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-installation.md",
+      "title": "Installation | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/installation",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:02.72696-03:00",
+      "description": "Get Dokploy up and running on your server within minutes with this easy-to-follow installation guide.",
+      "summary": "This document provides step-by-step instructions for installing and configuring Dokploy on a virtual private server, covering system requirements, advanced installation options, and initial security setup.",
+      "tags": [
+        "dokploy-installation",
+        "docker-deployment",
+        "vps-setup",
+        "self-hosted",
+        "server-configuration",
+        "linux-administration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-uninstall.md",
+      "title": "Uninstall | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/uninstall",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:03.454217-03:00",
+      "description": "Learn how to uninstall Dokploy on your server",
+      "summary": "This document provides a step-by-step guide to completely uninstalling Dokploy and its associated Docker services, volumes, networks, and local configuration files from a server.",
+      "tags": [
+        "dokploy",
+        "uninstallation",
+        "docker-swarm",
+        "server-maintenance",
+        "cleanup-commands"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-goodies.md",
+      "title": "Goodies | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/goodies",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:02.616347-03:00",
+      "description": "Dokploy has certain goodies that are external that can be used with Dokploy.",
+      "summary": "This document lists community-developed external tools and integrations for Dokploy, including deployment actions, infrastructure scripts, and software development kits.",
+      "tags": [
+        "dokploy",
+        "community-tools",
+        "github-actions",
+        "ansible-role",
+        "deployment-automation",
+        "sdk",
+        "docker-templates"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-manual-installation.md",
+      "title": "Manual Installation | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/manual-installation",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:01.750762-03:00",
+      "description": "Learn how to manually install Dokploy on your server.",
+      "summary": "This document provides instructions and a comprehensive bash script for the manual installation and configuration of Dokploy on a Linux server. It covers system requirements, environment variable customization, and the deployment of core services using Docker Swarm.",
+      "tags": [
+        "dokploy-installation",
+        "linux-server",
+        "docker-swarm",
+        "self-hosting",
+        "bash-script",
+        "traefik-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-troubleshooting.md",
+      "title": "Troubleshooting | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/troubleshooting",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:04.018823-03:00",
+      "description": "Solve the most common problems that occur when using Dokploy.",
+      "summary": "This document provides troubleshooting solutions for common issues in Dokploy, covering domain connectivity, port configuration, volume mounting, and Traefik routing.",
+      "tags": [
+        "dokploy",
+        "troubleshooting",
+        "docker-compose",
+        "networking",
+        "volume-mounts",
+        "traefik",
+        "ssl-certificates"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-registry.md",
+      "title": "Registry | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/registry",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:04.304881-03:00",
+      "description": "Configure your registry settings to store your images and artifacts.",
+      "summary": "This document explains how to configure Docker registry settings in Dokploy to securely store and manage images and artifacts across multiple applications. It details the specific fields required for authentication and the benefits of centralized credential management.",
+      "tags": [
+        "docker-registry",
+        "dokploy",
+        "image-storage",
+        "authentication",
+        "configuration",
+        "container-management"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-monitoring.md",
+      "title": "Monitoring | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/monitoring",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:05.138121-03:00",
+      "description": "Monitor your applications and servers with Dokploy",
+      "summary": "This document explains how to set up and configure server and application monitoring in Dokploy Cloud, covering settings for refresh rates, data retention, and alert thresholds.",
+      "tags": [
+        "dokploy",
+        "server-monitoring",
+        "metrics-collection",
+        "performance-monitoring",
+        "alert-thresholds",
+        "infrastructure-management"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-backups.md",
+      "title": "Backups | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/backups",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:06.126117-03:00",
+      "description": "Learn how to create and restore backups of your Dokploy applications and services.",
+      "summary": "This document provides step-by-step instructions for creating, scheduling, and restoring full system backups for Dokploy applications using S3 destinations.",
+      "tags": [
+        "dokploy",
+        "backup-and-restore",
+        "s3-storage",
+        "postgresql",
+        "disaster-recovery",
+        "server-maintenance"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-ssh-keys.md",
+      "title": "SSH Keys | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/ssh-keys",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:06.41813-03:00",
+      "description": "Configure your SSH keys to access your servers or clone Private Repositories.",
+      "summary": "This document explains how to configure and manage SSH keys in Dokploy for accessing private repositories and remote servers.",
+      "tags": [
+        "ssh-keys",
+        "dokploy",
+        "private-repositories",
+        "server-access",
+        "security",
+        "git"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-cloud.md",
+      "title": "Dokploy Cloud | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/cloud",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:05.122266-03:00",
+      "description": "Deploy your apps to multiple servers remotely without worrying about the underlying infrastructure.",
+      "summary": "This document introduces Dokploy Cloud, a service that enables remote application deployment to various cloud providers and multiple servers to support scalability and high availability.",
+      "tags": [
+        "dokploy-cloud",
+        "remote-deployment",
+        "multi-server",
+        "cloud-infrastructure",
+        "scalability",
+        "high-availability"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-core-certificates.md",
+      "title": "Certificates | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/certificates",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:07.099361-03:00",
+      "description": "Configure your certificates to secure your applications.",
+      "summary": "This document explains how to manage and configure SSL/TLS certificates within the Dokploy UI to secure applications and enable HTTPS via Traefik.",
+      "tags": [
+        "dokploy",
+        "ssl-certificates",
+        "traefik-configuration",
+        "https-setup",
+        "certificate-management",
+        "server-security"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-variables.md",
+      "title": "Environment Variables | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/variables",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:08.02048-03:00",
+      "description": "Dokploy allows you to create and manage shared and service-level environment variables for your projects and environments.",
+      "summary": "This document explains how to manage environment variables in Dokploy across project, environment, and service levels, including syntax for referencing shared values.",
+      "tags": [
+        "dokploy",
+        "environment-variables",
+        "configuration-management",
+        "secrets-management",
+        "shared-variables",
+        "service-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-applications.md",
+      "title": "Applications | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:07.378306-03:00",
+      "description": "Explore the multiple deployment methods available in Dokploy, including GitHub, Git, Docker, and automated deployments via webhooks.",
+      "summary": "This document provides a comprehensive overview of managing and deploying applications in Dokploy, detailing deployment methods, monitoring tools, domain configuration, and advanced container settings.",
+      "tags": [
+        "dokploy",
+        "application-management",
+        "deployment-methods",
+        "container-orchestration",
+        "docker-swarm",
+        "webhooks",
+        "monitoring"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-databases.md",
+      "title": "Databases | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:08.33869-03:00",
+      "description": "Discover how to create and backup databases easily with Dokploy, supporting a variety of database systems.",
+      "summary": "This document explains how to create, manage, and back up various database systems within the Dokploy platform, covering monitoring, environment variables, and advanced configuration options.",
+      "tags": [
+        "dokploy",
+        "database-management",
+        "automated-backups",
+        "database-monitoring",
+        "container-configuration",
+        "s3-storage"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-docker-compose.md",
+      "title": "Docker Compose | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/docker-compose",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:09.431934-03:00",
+      "description": "Learn how to use Docker Compose with Dokploy",
+      "summary": "This guide explains how to integrate and manage applications using Docker Compose and Docker Stack within Dokploy, covering configuration, environment variables, and deployment.",
+      "tags": [
+        "dokploy",
+        "docker-compose",
+        "docker-stack",
+        "container-orchestration",
+        "deployment-management",
+        "volume-persistence",
+        "devops"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-domains.md",
+      "title": "Domains | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/domains",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:08.904726-03:00",
+      "description": "This section outlines how to configure domains for your applications in Dokploy, ensuring that your applications are accessible via custom URLs.",
+      "summary": "This document explains how to configure and manage custom or free domains for applications and Docker Compose services within the Dokploy platform. It covers DNS setup, HTTPS implementation via Traefik, and advanced routing techniques using path transformations.",
+      "tags": [
+        "dokploy",
+        "domain-management",
+        "traefik-configuration",
+        "https-setup",
+        "docker-compose",
+        "path-routing",
+        "ssl-certificates"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-videos.md",
+      "title": "Videos | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/videos",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:10.639681-03:00",
+      "description": "Videos about how to install and use Dokploy.",
+      "summary": "A collection of video tutorials and external resources providing instructions on how to install, configure, and use Dokploy for application deployment and self-hosting.",
+      "tags": [
+        "dokploy",
+        "self-hosting",
+        "vps-deployment",
+        "docker-compose",
+        "paas",
+        "server-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-watch-paths.md",
+      "title": "Watch Paths | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/watch-paths",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:11.622119-03:00",
+      "description": "Learn how to use watch paths in your application or docker compose.",
+      "summary": "This document explains how to configure and use watch paths to automate deployments by monitoring specific files or directories for changes in standalone applications or Docker Compose.",
+      "tags": [
+        "watch-paths",
+        "auto-deploy",
+        "dokploy",
+        "glob-patterns",
+        "deployment-automation",
+        "git-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-remote-servers-build-server.md",
+      "title": "Build Server | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remote-servers/build-server",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:12.582372-03:00",
+      "description": "Learn how to configure a custom build server to compile your applications separately from your deployment servers.",
+      "summary": "This guide explains how to set up and configure dedicated build servers in Dokploy to offload application compilation from deployment servers for better resource optimization.",
+      "tags": [
+        "dokploy",
+        "build-server",
+        "docker-registry",
+        "remote-servers",
+        "deployment-automation",
+        "server-setup"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-schedule-jobs.md",
+      "title": "Schedule Jobs | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/schedule-jobs",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:09.755856-03:00",
+      "description": "Learn how to automate tasks using Dokploy's Schedule Jobs feature",
+      "summary": "This document explains how to configure and manage automated tasks in Dokploy using the Schedule Jobs feature, covering various job types including application, compose, and server-level scripts.",
+      "tags": [
+        "dokploy",
+        "scheduled-jobs",
+        "automation",
+        "cron-expressions",
+        "docker-exec",
+        "server-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-remote-servers-security.md",
+      "title": "Security | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remote-servers/security",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:14.303843-03:00",
+      "description": "Security features of Dokploy",
+      "summary": "This document outlines security best practices and recommended configurations for servers running Dokploy, covering firewall management, SSH hardening, and brute-force protection.",
+      "tags": [
+        "dokploy",
+        "server-security",
+        "ufw",
+        "ssh-hardening",
+        "fail2ban",
+        "docker-security",
+        "firewall-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-remote-servers-instructions.md",
+      "title": "Deploy Server | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remote-servers/instructions",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:13.370687-03:00",
+      "description": "Step-by-step guide to setup a remote server and deploy applications on a VPS.",
+      "summary": "This document provides a comprehensive walkthrough for configuring remote servers and deploying applications via the Dokploy platform. It covers the complete workflow from SSH key management and server provisioning to final application deployment.",
+      "tags": [
+        "dokploy",
+        "remote-server",
+        "vps-deployment",
+        "ssh-keys",
+        "server-configuration",
+        "app-deployment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-guides-ec2-instructions.md",
+      "title": "EC2 Instructions | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/guides/ec2-instructions",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:16.566791-03:00",
+      "description": "Instructions for setting up a remote server on EC2",
+      "summary": "This guide provides step-by-step instructions for configuring an AWS EC2 instance and integrating it with Dokploy using SSH keys for remote application deployment.",
+      "tags": [
+        "aws-ec2",
+        "dokploy",
+        "ssh-keys",
+        "server-setup",
+        "cloud-hosting",
+        "deployment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-webhook.md",
+      "title": "Webhook | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/webhook",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:17.846344-03:00",
+      "description": "Configure webhook notifications for your applications.",
+      "summary": "This document explains how to configure and test webhook notifications in Dokploy to receive event data at HTTP endpoints in JSON format.",
+      "tags": [
+        "dokploy",
+        "webhooks",
+        "notifications",
+        "event-notifications",
+        "http-endpoints"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-github.md",
+      "title": "GitHub | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/github",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:19.784327-03:00",
+      "description": "Configure GitHub repositories for deployments. This includes setting up access tokens, repository names, and branches.",
+      "summary": "This document provides instructions on connecting GitHub accounts and organizations to Dokploy via a GitHub App to enable automated branch-based deployments.",
+      "tags": [
+        "github-integration",
+        "git-sources",
+        "dokploy",
+        "automated-deployment",
+        "github-app",
+        "branch-configuration",
+        "continuous-deployment"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-auto-deploy.md",
+      "title": "Auto Deploy | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/auto-deploy",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:10.500419-03:00",
+      "description": "Automatically deploying your application to Dokploy can be achieved through two primary methods using Webhooks or the Dokploy API. Each method supports various platforms and provides a streamlined deployment process.",
+      "summary": "This document explains how to set up automated deployments in Dokploy using webhooks from various Git providers and DockerHub, or programmatically via the Dokploy API.",
+      "tags": [
+        "dokploy",
+        "deployment-automation",
+        "webhooks",
+        "api-deployment",
+        "github-integration",
+        "dockerhub",
+        "ci-cd"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-bitbucket.md",
+      "title": "Bitbucket | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/bitbucket",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:20.623055-03:00",
+      "description": "Configure your Bitbucket repositories for deployments. This includes setting up access tokens, repository names, and branches.",
+      "summary": "This document provides instructions for connecting Bitbucket repositories to Dokploy and setting up automatic deployments using webhooks. It covers account authentication via app passwords and the configuration of environment-specific branches.",
+      "tags": [
+        "dokploy",
+        "bitbucket",
+        "deployment-automation",
+        "webhooks",
+        "git-integration",
+        "app-passwords"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-applications-build-type.md",
+      "title": "Build Type | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications/build-type",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:22.635073-03:00",
+      "description": "Learn about the different build types available in Dokploy, including Nixpacks, Dockerfile, and Buildpack options.",
+      "summary": "This document explains the various build types supported by Dokploy for application deployment, covering Nixpacks, Railpack, Dockerfile configurations, Buildpacks, and static site hosting.",
+      "tags": [
+        "dokploy",
+        "build-types",
+        "nixpacks",
+        "railpack",
+        "dockerfile",
+        "buildpacks",
+        "deployment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-applications-rollbacks.md",
+      "title": "Rollbacks | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications/rollbacks",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:23.621523-03:00",
+      "description": "Learn how to rollback your application in Dokploy.",
+      "summary": "This document explains how to configure and use automatic Docker Swarm rollbacks and manual registry-based rollbacks within the Dokploy platform.",
+      "tags": [
+        "dokploy",
+        "rollback",
+        "docker-swarm",
+        "health-checks",
+        "deployment",
+        "container-registry",
+        "zero-downtime"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-volume-backups.md",
+      "title": "Volume Backups | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/volume-backups",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:11.762739-03:00",
+      "description": "Learn how to backup your volumes using Dokploy's Volume Backups feature",
+      "summary": "This guide explains how to configure and manage volume backups in Dokploy for applications using Docker named volumes. It covers the setup of S3 backup destinations, safety considerations for data integrity, and the process for restoring backed-up volumes.",
+      "tags": [
+        "dokploy",
+        "docker-volumes",
+        "volume-backups",
+        "s3-storage",
+        "data-recovery",
+        "docker-compose",
+        "backup-automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-docker-compose-utilities.md",
+      "title": "Utilities | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/docker-compose/utilities",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:25.862911-03:00",
+      "description": "Utilities for your Docker Compose application",
+      "summary": "This document explains Dokploy's isolated deployments utility for Docker Compose, which automates network isolation to prevent service naming conflicts while maintaining proper routing. It also details networking considerations for different installation types and potential issues with Docker Swarm network references.",
+      "tags": [
+        "dokploy",
+        "docker-compose",
+        "isolated-deployments",
+        "networking",
+        "traefik",
+        "container-orchestration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-docker-compose-example.md",
+      "title": "Example | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/docker-compose/example",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:26.967563-03:00",
+      "description": "Learn how to use Docker Compose with Dokploy",
+      "summary": "This tutorial explains how to deploy Docker Compose applications on Dokploy and manually configure domains using Traefik labels and external networks.",
+      "tags": [
+        "dokploy",
+        "docker-compose",
+        "traefik",
+        "deployment",
+        "networking",
+        "ssl-certificates",
+        "domain-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-domains-cloudflare.md",
+      "title": "Cloudflare | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/domains/cloudflare",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:26.445798-03:00",
+      "description": "This guide will cover how to configure a Cloudflare domain for your applications in dokploy or panel.",
+      "summary": "This guide provides instructions for configuring Cloudflare domains and SSL/TLS encryption modes for applications managed via Dokploy.",
+      "tags": [
+        "cloudflare",
+        "ssl-tls",
+        "dokploy",
+        "domain-management",
+        "lets-encrypt",
+        "https"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-telegram.md",
+      "title": "Telegram | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/telegram",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:29.698149-03:00",
+      "description": "Configure telegram notifications for your applications.",
+      "summary": "This document provides step-by-step instructions for configuring Telegram notifications in Dokploy to receive alerts about application events.",
+      "tags": [
+        "dokploy",
+        "telegram-notifications",
+        "botfather",
+        "alerting",
+        "server-management",
+        "notification-setup"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-actions.md",
+      "title": "Actions | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/actions",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:18.780213-03:00",
+      "description": "Manage S3 destinations.",
+      "summary": "This document explains how to manage S3 destinations for database backups, including instructions for creating, editing, deleting, and testing storage connections.",
+      "tags": [
+        "s3-destinations",
+        "database-backups",
+        "cloud-storage",
+        "configuration-management",
+        "storage-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-enterprise-sso-okta.md",
+      "title": "Okta | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise/sso/okta",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:29.131361-03:00",
+      "description": "Configure SSO with Okta (OIDC or SAML)",
+      "summary": "This document provides instructions for setting up Single Sign-On (SSO) using Okta via the OIDC or SAML protocols.",
+      "tags": [
+        "sso",
+        "okta",
+        "oidc",
+        "saml",
+        "authentication",
+        "identity-management"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-discord.md",
+      "title": "Discord | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/discord",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:32.003827-03:00",
+      "description": "Configure discord notifications for your applications.",
+      "summary": "This document provides step-by-step instructions for configuring Discord webhooks to receive real-time notifications for application events within the Dokploy panel.",
+      "tags": [
+        "discord",
+        "notifications",
+        "webhooks",
+        "dokploy",
+        "server-monitoring",
+        "integrations"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-ntfy.md",
+      "title": "Ntfy | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/ntfy",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:32.748576-03:00",
+      "description": "Configure ntfy notifications for your applications.",
+      "summary": "This document provides instructions for configuring ntfy notifications within Dokploy to receive alerts for panel and application events.",
+      "tags": [
+        "dokploy",
+        "ntfy",
+        "notifications",
+        "configuration",
+        "alerting"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-enterprise-sso-keycloak.md",
+      "title": "Keycloak | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise/sso/keycloak",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:28.066744-03:00",
+      "description": "Configure SSO with Keycloak",
+      "summary": "This document provides step-by-step instructions for configuring Single Sign-On (SSO) using Keycloak and OpenID Connect within the Dokploy platform, including troubleshooting common integration issues.",
+      "tags": [
+        "sso",
+        "keycloak",
+        "openid-connect",
+        "authentication",
+        "dokploy",
+        "identity-provider",
+        "troubleshooting"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-vuejs.md",
+      "title": "Vue.js | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/vuejs",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:34.807691-03:00",
+      "description": "Deploy a simple Vue.js application.",
+      "summary": "This document provides a step-by-step guide on how to deploy a simple Vue.js application from a Git repository using Nixpacks. It covers configuration steps such as setting the build path, publish directory, and generating a domain.",
+      "tags": [
+        "vuejs",
+        "deployment",
+        "git-provider",
+        "nixpacks",
+        "web-hosting",
+        "domain-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-applications-advanced.md",
+      "title": "Advanced | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications/advanced",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:22.520831-03:00",
+      "description": "Learn how to use advanced features in your application.",
+      "summary": "This document provides instructions for managing advanced application configurations in Dokploy, covering Docker Swarm orchestration, resource allocation, and remote build server integration. It explains how to optimize deployment performance through granular control over scaling, networking, and hardware constraints.",
+      "tags": [
+        "dokploy",
+        "docker-swarm",
+        "resource-management",
+        "orchestration",
+        "application-deployment",
+        "container-scaling",
+        "build-server"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-databases-backups.md",
+      "title": "Backups | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/backups",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:23.88383-03:00",
+      "description": "Learn how to schedule and manage backups for your databases in Dokploy, with options for storage in S3 buckets.",
+      "summary": "This document explains how to configure, schedule, and test automated database backups in Dokploy using S3 buckets for storage.",
+      "tags": [
+        "dokploy",
+        "database-backups",
+        "s3-storage",
+        "backup-automation",
+        "cron-scheduling",
+        "data-recovery"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-cluster.md",
+      "title": "Cluster | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/cluster",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:14.224026-03:00",
+      "description": "Manage server cluster settings.",
+      "summary": "This document explains how to scale applications using Dokploy's cluster features, covering both vertical and horizontal scaling via Docker Swarm. It provides instructions on configuring external registries and adding manager or worker nodes to a server cluster.",
+      "tags": [
+        "dokploy",
+        "docker-swarm",
+        "horizontal-scaling",
+        "vertical-scaling",
+        "cluster-management",
+        "container-registry",
+        "server-nodes"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-gotify.md",
+      "title": "Gotify | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/gotify",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:32.70353-03:00",
+      "description": "Configure gotify notifications for your applications.",
+      "summary": "This document explains how to set up and configure Gotify notifications within the Dokploy panel to receive updates on application events.",
+      "tags": [
+        "dokploy",
+        "gotify",
+        "notifications",
+        "server-alerts",
+        "configuration-guide"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-gitea.md",
+      "title": "Gitea | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/gitea",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:21.417672-03:00",
+      "description": "Configure Gitea repositories for deployments. This includes setting up access tokens, repository names, and branches.",
+      "summary": "This document provides instructions for connecting Gitea repositories to Dokploy and configuring automated deployments using webhooks and branch-specific settings.",
+      "tags": [
+        "gitea",
+        "dokploy",
+        "deployments",
+        "git-integration",
+        "webhooks",
+        "oauth2-configuration",
+        "continuous-deployment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-remote-servers-validate.md",
+      "title": "Validate | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remote-servers/validate",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:13.61158-03:00",
+      "description": "Validate your remote server deployment",
+      "summary": "This document outlines the specific component and configuration requirements for validating remote deployment and build servers within Dokploy.",
+      "tags": [
+        "dokploy",
+        "server-validation",
+        "deployment-server",
+        "build-server",
+        "docker-swarm",
+        "server-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-enterprise-sso-azure.md",
+      "title": "Azure AD (Microsoft Entra ID) | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise/sso/azure",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:28.418245-03:00",
+      "description": "Configure SSO with Azure AD / Microsoft Entra ID (OIDC or SAML)",
+      "summary": "This document provides step-by-step instructions for setting up Single Sign-On (SSO) using OIDC and SAML protocols between Microsoft Entra ID (Azure AD) and Dokploy. It covers application registration, identity provider settings, and common troubleshooting steps for both authentication methods.",
+      "tags": [
+        "sso",
+        "azure-ad",
+        "microsoft-entra-id",
+        "oidc",
+        "saml",
+        "authentication",
+        "identity-provider",
+        "dokploy"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-html.md",
+      "title": "HTML | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/html",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:43.490966-03:00",
+      "description": "Deploy a simple HTML application.",
+      "summary": "This document provides a step-by-step guide for deploying a static HTML application from a Git repository and configuring its domain settings.",
+      "tags": [
+        "dokploy",
+        "html-deployment",
+        "static-site",
+        "git-integration",
+        "domain-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-11ty.md",
+      "title": "11ty | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/11ty",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:42.108352-03:00",
+      "description": "Deploy a simple 11ty application.",
+      "summary": "This document provides step-by-step instructions for deploying a simple 11ty application using a Git repository and automated build settings.",
+      "tags": [
+        "11ty",
+        "deployment",
+        "static-site",
+        "git-integration",
+        "nixpacks",
+        "domain-setup"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-deno.md",
+      "title": "Deno | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/deno",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:44.952236-03:00",
+      "description": "Deploy a simple Deno application.",
+      "summary": "This document provides step-by-step instructions for deploying a Deno application using a Git repository and a Dockerfile configuration.",
+      "tags": [
+        "deno",
+        "deployment",
+        "dokploy",
+        "dockerfile",
+        "git-integration",
+        "web-hosting"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-registry-digital-ocean.md",
+      "title": "Digital Ocean | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/registry/digital-ocean",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:16.947853-03:00",
+      "description": "Configure a Digital Ocean Container Registry to store your images and artifacts.",
+      "summary": "This document provides step-by-step instructions for configuring and integrating a Digital Ocean Container Registry with Dokploy using authentication tokens and Docker credentials.",
+      "tags": [
+        "digital-ocean",
+        "container-registry",
+        "configuration",
+        "dokploy",
+        "docker",
+        "cloud-storage"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-preact.md",
+      "title": "Preact | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/preact",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:45.187775-03:00",
+      "description": "Deploy a simple Preact application.",
+      "summary": "This document provides step-by-step instructions for deploying a Preact application from a Git repository, including domain generation and port configuration.",
+      "tags": [
+        "preact",
+        "deployment-guide",
+        "git-integration",
+        "nixpacks",
+        "dokploy"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-turborepo.md",
+      "title": "Turborepo | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/turborepo",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:48.09434-03:00",
+      "description": "Deploy a simple Turborepo application.",
+      "summary": "This document provides step-by-step instructions for deploying a Turborepo application on Dokploy using Nixpacks and environment variable configuration.",
+      "tags": [
+        "dokploy",
+        "turborepo",
+        "nixpacks",
+        "deployment",
+        "monorepo"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-solidjs.md",
+      "title": "Solid.js | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/solidjs",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:46.280449-03:00",
+      "description": "Deploy a simple Solid.js application.",
+      "summary": "This document provide a step-by-step walkthrough for deploying a Solid.js application from a Git repository, including domain setup and port configuration.",
+      "tags": [
+        "solid-js",
+        "deployment",
+        "git-integration",
+        "domain-management",
+        "nixpacks",
+        "web-hosting"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-enterprise-license-keys.md",
+      "title": "License Keys | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise/license-keys",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:14.433588-03:00",
+      "description": "Activate and manage your Enterprise license",
+      "summary": "This document provides instructions on how to activate and manage a Dokploy Enterprise license and explains the daily IP-based license validation process.",
+      "tags": [
+        "dokploy",
+        "enterprise-license",
+        "license-activation",
+        "server-management",
+        "software-licensing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-backblaze-b2.md",
+      "title": "Backblaze B2 | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/backblaze-b2",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:36.873043-03:00",
+      "description": "Configure buckets from Backblaze B2 for backup storage. This includes setting up access keys, secret keys, bucket names, regions, and endpoints.",
+      "summary": "This document provides step-by-step instructions for configuring Backblaze B2 as an S3 backup destination, covering credential creation and connection settings.",
+      "tags": [
+        "backblaze-b2",
+        "s3-storage",
+        "backup-configuration",
+        "cloud-storage",
+        "dokploy",
+        "data-retention"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-Docker.md",
+      "title": "Docker Registry | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/Docker",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:33.581246-03:00",
+      "description": "Configure your Docker Registry repositories for deployments. This includes setting up access tokens, repository names, and authentication.",
+      "summary": "This document explains how to configure and authenticate Docker Registry repositories in Dokploy for application deployments. It provides step-by-step instructions for connecting Docker Hub, GHCR, and public registries using various authentication methods.",
+      "tags": [
+        "docker-registry",
+        "dokploy",
+        "deployment-configuration",
+        "docker-hub",
+        "ghcr",
+        "container-images",
+        "authentication"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-svelte.md",
+      "title": "Svelte | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/svelte",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:46.137885-03:00",
+      "description": "Deploy a simple Svelte application.",
+      "summary": "This document provides a step-by-step walkthrough for deploying a Svelte application using Dokploy, covering repository configuration, deployment, and domain setup.",
+      "tags": [
+        "dokploy",
+        "svelte",
+        "deployment",
+        "git-integration",
+        "nixpacks",
+        "domain-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-registry-dockerhub.md",
+      "title": "Docker Hub | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/registry/dockerhub",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:16.094707-03:00",
+      "description": "Configure Docker Hub to store your images and artifacts.",
+      "summary": "This document provides step-by-step instructions for configuring a Docker Hub registry to store images and artifacts, including how to generate and use access tokens.",
+      "tags": [
+        "docker-hub",
+        "registry-configuration",
+        "dokploy",
+        "access-token",
+        "container-images",
+        "artifact-storage"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-databases-connection.md",
+      "title": "Connection | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/connection",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:24.840436-03:00",
+      "description": "Learn how to connect to your database using Dokploy.",
+      "summary": "This document provides instructions for configuring internal and external database connections within Dokploy, covering credential management and security considerations.",
+      "tags": [
+        "dokploy",
+        "database-connection",
+        "configuration",
+        "networking",
+        "security",
+        "external-access"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-domains-others.md",
+      "title": "Others | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/domains/others",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:24.354722-03:00",
+      "description": "This guide will cover how to configure a domain from other providers for your applications in dokploy or panel.",
+      "summary": "This guide provides step-by-step instructions for configuring custom domains from external providers to point to applications on Dokploy, covering DNS records and internal routing.",
+      "tags": [
+        "dokploy",
+        "dns-configuration",
+        "custom-domain",
+        "ssl-setup",
+        "lets-encrypt",
+        "traefik-routing"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-lit.md",
+      "title": "Lit | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/lit",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:43.036154-03:00",
+      "description": "Deploy a simple Lit application.",
+      "summary": "This document provides step-by-step instructions for deploying a Lit application using a Git provider, including repository configuration and domain setup.",
+      "tags": [
+        "lit",
+        "deployment",
+        "git-provider",
+        "nixpacks",
+        "web-application",
+        "domain-setup"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-tanstack.md",
+      "title": "Tanstack | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/tanstack",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:47.317665-03:00",
+      "description": "Deploy a simple Tanstack application.",
+      "summary": "This document provides step-by-step instructions for deploying a Tanstack application using a Git repository and Nixpacks. It covers configuration details such as build paths, deployment triggers, and domain setup.",
+      "tags": [
+        "tanstack",
+        "deployment",
+        "git-provider",
+        "nixpacks",
+        "dokploy",
+        "domain-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-nextjs.md",
+      "title": "Next.js | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/nextjs",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:45.406786-03:00",
+      "description": "Deploy a simple Next.js application.",
+      "summary": "This document provides a step-by-step guide on how to deploy a Next.js application from a Git repository and generate a domain for access.",
+      "tags": [
+        "nextjs",
+        "deployment",
+        "git-integration",
+        "dokploy",
+        "domain-generation"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-guides-tailscale.md",
+      "title": "Tailscale | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/guides/tailscale",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:16.230908-03:00",
+      "description": "Learn how to use Tailscale to securely access your Dokploy applications and servers through a private network without opening ports.",
+      "summary": "This guide explains how to integrate Tailscale with Dokploy to establish a secure, private network for managing servers and applications without exposing them to the public internet.",
+      "tags": [
+        "tailscale",
+        "dokploy",
+        "vpn",
+        "wireguard",
+        "networking",
+        "security"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-pushover.md",
+      "title": "Pushover | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/pushover",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:33.543405-03:00",
+      "description": "Configure Pushover notifications for your applications.",
+      "summary": "This document explains how to configure Pushover notifications in Dokploy to receive alerts for application events, detailing the required credentials and priority settings.",
+      "tags": [
+        "pushover",
+        "notifications",
+        "dokploy",
+        "configuration",
+        "alerting"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-providers.md",
+      "title": "Providers | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/providers",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:10.737029-03:00",
+      "description": "Learn how to use providers in your application or docker compose.",
+      "summary": "This document explains how to configure and use various deployment providers in Dokploy, including Git repositories, Docker registries, and direct file uploads. It provides instructions for setting up public and private repository access using HTTPS and SSH keys.",
+      "tags": [
+        "dokploy",
+        "deployment-providers",
+        "git-integration",
+        "ssh-keys",
+        "docker-registry",
+        "private-repositories",
+        "automated-deployment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-databases-connection-pg-admin.md",
+      "title": "PG Admin | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/connection/pg-admin",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:19:03.73347-03:00",
+      "description": "This guide will cover how to connect from pgAdmin to your postgres databases in dokploy.",
+      "summary": "This guide provides step-by-step instructions for connecting the pgAdmin management tool to a PostgreSQL database hosted on Dokploy using external credentials.",
+      "tags": [
+        "dokploy",
+        "postgresql",
+        "pgadmin",
+        "database-management",
+        "external-access",
+        "server-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-docker-compose-domains.md",
+      "title": "Domains | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/docker-compose/domains",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:18.39528-03:00",
+      "description": "Configure domains for your Docker Compose application.",
+      "summary": "This document explains how to configure domains for Docker Compose applications in Dokploy using either the native UI management or manual Traefik label configuration.",
+      "tags": [
+        "dokploy",
+        "docker-compose",
+        "domain-configuration",
+        "traefik-labels",
+        "networking",
+        "deployment-strategies"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-applications-preview-deployments.md",
+      "title": "Preview Deployments | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications/preview-deployments",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:22.683291-03:00",
+      "description": "Preview deployments allow you to test and review your application changes in an isolated environment before merging to production.",
+      "summary": "This document explains how to configure and use preview deployments to test application changes in isolated environments via GitHub pull requests. It covers domain configuration, automated updates, filtering labels, and manual rebuild processes.",
+      "tags": [
+        "dokploy",
+        "preview-deployments",
+        "github-integration",
+        "pull-requests",
+        "deployment-automation",
+        "custom-domains"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-qwik.md",
+      "title": "Qwik | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/qwik",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:46.243711-03:00",
+      "description": "Deploy a simple Qwik application.",
+      "summary": "This document provides a step-by-step guide on how to deploy a Qwik application using a Git repository and specific environment configurations.",
+      "tags": [
+        "qwik",
+        "deployment",
+        "git-integration",
+        "environment-variables",
+        "nixpacks",
+        "domain-setup"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-lark.md",
+      "title": "Lark | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/lark",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:30.8084-03:00",
+      "description": "Configure Lark notifications for your applications.",
+      "summary": "This document provides step-by-step instructions for configuring Lark notifications in Dokploy using webhook URLs to receive application event alerts.",
+      "tags": [
+        "dokploy",
+        "lark",
+        "notifications",
+        "webhook-integration",
+        "alerting",
+        "notification-setup"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-vite-react.md",
+      "title": "Vite React | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/vite-react",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:47.541089-03:00",
+      "description": "Deploy a simple Vite React application.",
+      "summary": "This document provides step-by-step instructions for deploying a Vite-based React application using a Git repository and domain generation.",
+      "tags": [
+        "vite",
+        "react",
+        "deployment",
+        "git-integration",
+        "nixpacks",
+        "web-hosting"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-gitlab.md",
+      "title": "Gitlab | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/gitlab",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:19.471354-03:00",
+      "description": "Configure Gitlab repositories for deployments. This includes setting up access tokens, repository names, and branches.",
+      "summary": "This document provides instructions for connecting GitLab repositories to Dokploy, including application authorization and configuring automated deployments via webhooks.",
+      "tags": [
+        "dokploy",
+        "gitlab-integration",
+        "automated-deployments",
+        "webhooks",
+        "ci-cd",
+        "version-control"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-nestjs.md",
+      "title": "Nest.js | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/nestjs",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:44.565707-03:00",
+      "description": "Deploy a simple Nest.js application.",
+      "summary": "This document provides a brief step-by-step guide for deploying a Nest.js application using a Git repository and a domain generation tool.",
+      "tags": [
+        "nest-js",
+        "deployment",
+        "git-provider",
+        "domain-setup",
+        "dokploy"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-databases-connection-mariadb.md",
+      "title": "MariaDB | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/connection/mariadb",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:19:03.040538-03:00",
+      "description": "This guide will cover how to connect from Beekeeper Studio to your mariadb databases in dokploy.",
+      "summary": "This guide provides step-by-step instructions for connecting Beekeeper Studio to a MariaDB database hosted on Dokploy by configuring external credentials.",
+      "tags": [
+        "dokploy",
+        "mariadb",
+        "beekeeper-studio",
+        "database-connection",
+        "external-access"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-guides-cloudflare-tunnels.md",
+      "title": "Cloudflare Tunnels | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/guides/cloudflare-tunnels",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:15.166285-03:00",
+      "description": "Learn how to use Cloudflare Tunnels to securely expose your Dokploy applications without opening ports on your server.",
+      "summary": "This document provides instructions for integrating Cloudflare Tunnels with Dokploy to securely expose applications without opening inbound firewall ports. It covers the deployment of the cloudflared connector, SSL/TLS configuration, and routing traffic via Traefik for wildcard subdomain support.",
+      "tags": [
+        "cloudflare-tunnel",
+        "dokploy",
+        "zero-trust",
+        "networking",
+        "traefik",
+        "secure-access",
+        "deployment-guide"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-enterprise.md",
+      "title": "Introduction | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:15.197588-03:00",
+      "description": "Enterprise features for SSO, whitelabeling, and audit logs",
+      "summary": "This document outlines the enterprise-grade features available for Dokploy, such as Single Sign-On (SSO), whitelabeling, and audit logging, while providing contact details for activation.",
+      "tags": [
+        "enterprise-features",
+        "sso",
+        "single-sign-on",
+        "whitelabeling",
+        "audit-logs",
+        "oidc",
+        "saml"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-astro.md",
+      "title": "Astro | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/astro",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:42.690275-03:00",
+      "description": "Deploy a simple Astro application.",
+      "summary": "This document provides step-by-step instructions for deploying an Astro application from a Git repository, including configuration settings for build paths and domain generation.",
+      "tags": [
+        "astro",
+        "deployment",
+        "git-integration",
+        "nixpacks",
+        "domain-configuration"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-applications-going-production.md",
+      "title": "Going Production | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications/going-production",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:23.503643-03:00",
+      "description": "Learn how to deploy your application in production in Dokploy.",
+      "summary": "This guide explains how to optimize Dokploy production deployments by offloading image builds to external CI/CD pipelines and configuring automated deployments with health checks and rollbacks.",
+      "tags": [
+        "dokploy",
+        "ci-cd",
+        "github-actions",
+        "docker-hub",
+        "auto-deploy",
+        "health-checks",
+        "production-deployment",
+        "containerization"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-remote-servers-deployments.md",
+      "title": "Deployments | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remote-servers/deployments",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:12.903043-03:00",
+      "description": "Configure and set up your remote server deployment",
+      "summary": "This document provides instructions for configuring and initializing a remote server deployment, detailing system requirements and the available setup actions.",
+      "tags": [
+        "remote-server",
+        "server-setup",
+        "deployment",
+        "bash-configuration",
+        "root-access"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-slack.md",
+      "title": "Slack | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/slack",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:30.838844-03:00",
+      "description": "Configure slack notifications for your applications.",
+      "summary": "This document provides a step-by-step guide on how to configure Slack notifications in Dokploy using webhooks to receive real-time application event updates.",
+      "tags": [
+        "dokploy",
+        "slack-integration",
+        "notifications",
+        "webhooks",
+        "event-alerts"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-cloudflare-r2.md",
+      "title": "Cloudflare R2 | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/cloudflare-r2",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:34.329622-03:00",
+      "description": "Configure R2 buckets for backup storage. This includes setting up access keys, secret keys, bucket names, regions, and endpoints.",
+      "summary": "This document provides a step-by-step guide for configuring Cloudflare R2 as an S3-compatible storage destination for backups, including bucket creation and API credential setup.",
+      "tags": [
+        "cloudflare-r2",
+        "s3-storage",
+        "backup-configuration",
+        "object-storage",
+        "api-tokens",
+        "dokploy"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-cloud-storage.md",
+      "title": "Google Cloud Storage | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/cloud-storage",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:36.267101-03:00",
+      "description": "Configure Google Cloud Storage buckets for backup storage. This includes setting up access keys, secret keys, bucket names, regions, and endpoints.",
+      "summary": "This document provides instructions for configuring Google Cloud Storage as an S3-compatible backup destination, covering bucket creation, IAM roles, and HMAC key generation.",
+      "tags": [
+        "google-cloud-storage",
+        "dokploy",
+        "backup-configuration",
+        "s3-compatibility",
+        "hmac-keys",
+        "cloud-storage"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-enterprise-sso.md",
+      "title": "Single Sign-On (SSO) | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise/sso",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:15.255489-03:00",
+      "description": "Configure SSO with Auth0, Keycloak, or other OIDC/SAML providers",
+      "summary": "This document provides an overview and links for configuring Single Sign-On (SSO) using OpenID Connect (OIDC) and SAML with various identity providers.",
+      "tags": [
+        "sso",
+        "oidc",
+        "saml",
+        "identity-management",
+        "auth0",
+        "keycloak",
+        "enterprise-security"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-astro-ssr.md",
+      "title": "Astro SSR | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/astro-ssr",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:42.271388-03:00",
+      "description": "Deploy a simple Astro SSR application.",
+      "summary": "This document provides a step-by-step guide for deploying an Astro Server-Side Rendering (SSR) application on Dokploy using a Git repository and environment variable configuration.",
+      "tags": [
+        "astro",
+        "ssr",
+        "dokploy",
+        "deployment",
+        "nixpacks",
+        "server-side-rendering"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-remix.md",
+      "title": "Remix | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remix",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:47.14469-03:00",
+      "description": "Deploy a simple Remix application.",
+      "summary": "A step-by-step guide for deploying a Remix application using a Git provider and automatic domain generation within the Dokploy platform.",
+      "tags": [
+        "remix",
+        "deployment",
+        "git-integration",
+        "dokploy",
+        "domain-management"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "docs-core-databases-connection-mysql.md",
+      "title": "MySQL | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/connection/mysql",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:19:01.844151-03:00",
+      "description": "This guide will cover how to connect from Beekeeper Studio to your mysql databases in dokploy.",
+      "summary": "This guide provides instructions on how to connect the Beekeeper Studio database management tool to a MySQL database hosted on Dokploy using an external connection URL.",
+      "tags": [
+        "dokploy",
+        "mysql",
+        "beekeeper-studio",
+        "database-management",
+        "external-connection"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-aws-s3.md",
+      "title": "AWS S3 | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/aws-s3",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:36.096038-03:00",
+      "description": "Configure S3 buckets for backup storage. This includes setting up access keys, secret keys, bucket names, regions, and endpoints.",
+      "summary": "This document provides step-by-step instructions for configuring AWS S3 buckets and IAM permissions for backup storage integration. It covers creating buckets, defining access policies, and generating programmatic credentials.",
+      "tags": [
+        "aws-s3",
+        "backup-storage",
+        "iam-policy",
+        "access-keys",
+        "cloud-storage",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-applications-zero-downtime.md",
+      "title": "Zero Downtime | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/applications/zero-downtime",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:24.690317-03:00",
+      "description": "Learn how to configure zero downtime deployments in Dokploy.",
+      "summary": "This document explains how to configure zero downtime deployments in Dokploy by setting up Docker Swarm health checks to ensure service availability during application updates.",
+      "tags": [
+        "dokploy",
+        "zero-downtime",
+        "docker-swarm",
+        "health-check",
+        "deployment-configuration",
+        "continuous-deployment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-databases-connection-mongo-atlas.md",
+      "title": "Mongo Compass | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/connection/mongo-atlas",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:19:01.741982-03:00",
+      "description": "This guide will cover how to configure a Mongo Compass connection for your applications in dokploy or panel.",
+      "summary": "This guide provides step-by-step instructions for configuring and connecting MongoDB Compass to a database hosted on Dokploy using external credentials.",
+      "tags": [
+        "mongodb",
+        "mongo-compass",
+        "dokploy",
+        "database-connection",
+        "remote-access",
+        "external-port"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-remote-servers.md",
+      "title": "Introduction | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/remote-servers",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:11.610134-03:00",
+      "description": "Deploy your apps to multiple servers remotely.",
+      "summary": "This document explains how to use Dokploy's remote server feature to manage application deployments and builds across multiple external servers. it details the differences between deployment and build servers, including their specific roles in infrastructure management and traffic routing.",
+      "tags": [
+        "dokploy",
+        "remote-deployment",
+        "build-servers",
+        "deployment-servers",
+        "infrastructure-management",
+        "docker-containers"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-permissions.md",
+      "title": "Permissions | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/permissions",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:19:16.591102-03:00",
+      "description": "Add permissions to your users to manage your applications and services.",
+      "summary": "This document describes the user management system in Dokploy, outlining the specific capabilities and restrictions for Owner, Admin, and Member roles. It details granular permissions for members, including project, service, and environment-level access controls.",
+      "tags": [
+        "user-management",
+        "role-based-access-control",
+        "dokploy",
+        "permissions",
+        "user-roles",
+        "access-control"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-core-databases-restore.md",
+      "title": "Restore | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/databases/restore",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:25.223058-03:00",
+      "description": "Learn how to restore your databases in Dokploy, with options for restoring from S3 buckets.",
+      "summary": "This document explains the process of restoring databases in Dokploy using S3 bucket backups and outlines the specific commands used for various database types.",
+      "tags": [
+        "dokploy",
+        "database-restoration",
+        "s3-backup",
+        "postgresql",
+        "mysql",
+        "mariadb",
+        "mongodb",
+        "backup-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-domains-generated.md",
+      "title": "Generated | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/domains/generated",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:27.213919-03:00",
+      "description": "This section outlines how to configure free HTTP domains for your applications in Dokploy, ensuring that your applications are accessible via custom URLs.",
+      "summary": "This document provides step-by-step instructions on how to generate and configure free HTTP domains for applications in Dokploy using traefik.me.",
+      "tags": [
+        "dokploy",
+        "domain-configuration",
+        "traefik-me",
+        "container-port",
+        "networking",
+        "free-domains"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-overview.md",
+      "title": "Overview | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/overview",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:29.925889-03:00",
+      "description": "Configure general notifications for your applications and services.",
+      "summary": "This document explains how to configure general notifications in Dokploy, detailing the specific events that trigger alerts and the various supported third-party notification providers.",
+      "tags": [
+        "dokploy",
+        "notifications",
+        "deployment-alerts",
+        "monitoring",
+        "webhook",
+        "error-handling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-core-registry-ghcr.md",
+      "title": "GHCR | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/registry/ghcr",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:17.585574-03:00",
+      "description": "Configure GitHub Container Registry to store your images and artifacts.",
+      "summary": "This document provides step-by-step instructions for configuring the GitHub Container Registry to store and manage images and artifacts.",
+      "tags": [
+        "github-container-registry",
+        "ghcr",
+        "registry-configuration",
+        "dokploy",
+        "access-tokens"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-email.md",
+      "title": "Email | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/email",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:30.913702-03:00",
+      "description": "Configure email notifications for your applications.",
+      "summary": "This document explains how to set up email notifications in Dokploy by configuring SMTP server details for application events.",
+      "tags": [
+        "dokploy",
+        "email-notifications",
+        "smtp-configuration",
+        "server-monitoring",
+        "event-alerts"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-core-enterprise-sso-auth0.md",
+      "title": "Auth0 | Dokploy",
+      "url": "https://docs.dokploy.com/docs/core/enterprise/sso/auth0",
+      "source": "crawler",
+      "fetched_at": "2026-02-14T14:18:27.655088-03:00",
+      "description": "Configure SSO with Auth0 (OIDC or SAML)",
+      "summary": "This guide provides step-by-step instructions for configuring Single Sign-On (SSO) between Auth0 and Dokploy using the SAML 2.0 protocol.",
+      "tags": [
+        "dokploy",
+        "auth0",
+        "saml",
+        "sso",
+        "authentication",
+        "identity-provider"
+      ],
+      "category": "tutorial"
+    }
+  ]
+}

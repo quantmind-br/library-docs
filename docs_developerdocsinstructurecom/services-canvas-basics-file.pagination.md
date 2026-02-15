@@ -1,0 +1,50 @@
+---
+title: Pagination | Instructure Developer Documentation Portal
+url: https://developerdocs.instructure.com/services/canvas/basics/file.pagination
+source: sitemap
+fetched_at: 2026-02-15T09:13:01.605669-03:00
+rendered_js: false
+word_count: 279
+summary: This document explains how to manage paginated API responses using the HTTP Link header and the per-page parameter. It details how to navigate through result sets using relative links and provides instructions for handling opaque URLs and authentication tokens.
+tags:
+    - api-pagination
+    - canvas-lms
+    - http-headers
+    - rest-api
+    - link-header
+    - navigation
+category: api
+---
+
+Requests that return multiple items will be paginated to 10 items by default. You can set a custom per-page amount with the `?per_page` parameter. There is an unspecified limit to how big you can set `per_page` to, so be sure to always check for the `Link` header.
+
+To retrieve additional pages, the returned `Link` headers should be used. These links should be treated as opaque. They will be absolute urls that include all parameters necessary to retrieve the desired current, next, previous, first, or last page. The one exception is that if an access\_token parameter is sent for authentication, it will not be included in the returned links, and must be re-appended.
+
+Pagination information is provided in the [Link headerarrow-up-right](http://www.w3.org/Protocols/9707-link-header.html):
+
+```
+Link: <https://<canvas>/api/v1/courses/:id/discussion_topics.json?opaqueA>; rel="current",
+      <https://<canvas>/api/v1/courses/:id/discussion_topics.json?opaqueB>; rel="next",
+      <https://<canvas>/api/v1/courses/:id/discussion_topics.json?opaqueC>; rel="first",
+      <https://<canvas>/api/v1/courses/:id/discussion_topics.json?opaqueD>; rel="last"
+```
+
+The possible `rel` values are:
+
+- current - link to the current page of results.
+- next - link to the next page of results.
+- prev - link to the previous page of results.
+- first - link to the first page of results.
+- last - link to the last page of results.
+
+These will only be included if they are relevant. For example, the first page of results will not contain a rel="prev" link. rel="last" may also be excluded if the total count is too expensive to compute on each request.
+
+**NOTE**: Because HTTP header names are [case-insensitivearrow-up-right](https://datatracker.ietf.org/doc/html/rfc9110#section-5.1-3), please be sure you are not parsing the `Link` header in a case-sensitive way. The capitalization of the header name is not guaranteed.
+
+* * *
+
+This documentation is generated directly from the Canvas LMS source code, available [on Githubarrow-up-right](https://github.com/instructure/canvas-lms).
+
+Last updated 7 months ago
+
+This site uses cookies to deliver its service and to analyze traffic. By browsing this site, you accept the [privacy policy](https://www.instructure.com/policies/marketing-privacy).

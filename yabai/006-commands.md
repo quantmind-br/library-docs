@@ -371,10 +371,10 @@ For example, to get the window identifiers of all windows on space 2, you could 
 yabai -m query --windows --space 2 | jq '.[].id'
 ```
 
-[docs-display]: https://github.com/asmvik/yabai/blob/master/doc/yabai.asciidoc#display
+[docs-display]: ./009-yabai-docs.md#display
 [wiki-config]: https://github.com/asmvik/yabai/wiki/Configuration
 [example-skhdrc]: https://github.com/asmvik/yabai/blob/master/examples/skhdrc
-[docs-rule]: https://github.com/asmvik/yabai/blob/master/doc/yabai.asciidoc#rule
-[docs-signal]: https://github.com/asmvik/yabai/blob/master/doc/yabai.asciidoc#signal
+[docs-rule]: ./009-yabai-docs.md#rule
+[docs-signal]: ./009-yabai-docs.md#signal
 [gh-skhd]: https://github.com/asmvik/skhd
 [gh-jq]: https://github.com/stedolan/jq

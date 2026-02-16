@@ -2,7 +2,7 @@
 description: Auto-generated documentation index for yabai tiling window manager
 generated: 2026-02-11T07:38:45-03:00
 source: https://github.com/asmvik/yabai/wiki
-total_docs: 8
+total_docs: 9
 categories: 6
 ---
 

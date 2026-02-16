@@ -181,6 +181,6 @@ System Settings -> Control Centre -> Scroll down to "Automatically Hide and Show
 
 In yabai v6.0.12+ you can also completely disable the menubar using `yabai -m config menubar_opacity 0.0`regardless this setting.
 
-[docs-config]: https://github.com/asmvik/yabai/blob/master/doc/yabai.asciidoc#config
+[docs-config]: ./009-yabai-docs.md#config
 [gh-uebersicht]: https://github.com/felixhageloh/uebersicht
 [gh-sketchybar]: https://github.com/felixkratz/sketchybar

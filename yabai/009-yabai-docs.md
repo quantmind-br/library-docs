@@ -1,3 +1,23 @@
+---
+title: Yabai Documentation
+url: https://github.com/asmvik/yabai/blob/master/doc/yabai.asciidoc
+source: wiki
+fetched_at: 2026-02-11T07:34:30.000000-03:00
+rendered_js: false
+word_count: 6032
+summary: This document is the official man page for yabai, providing complete reference documentation for the tiling window manager including CLI options, configuration settings, display/space/window commands, query system, rules, and signals.
+tags:
+    - yabai
+    - macos
+    - window-management
+    - tiling-window-manager
+    - cli-interface
+    - man-page
+    - reference
+    - automation
+category: reference
+---
+
 # yabai(1)
 
 ## Name

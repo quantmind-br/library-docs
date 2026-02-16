@@ -16,7 +16,7 @@ categories: 6
 |----------|-------|
 | **Source** | https://github.com/asmvik/yabai/wiki |
 | **Generated** | 2026-02-11T07:38:45-03:00 |
-| **Total Documents** | 8 |
+| **Total Documents** | 9 |
 | **Categories** | Introduction & Overview, Prerequisites & Installation, Configuration, API & Reference, Practical Usage, Operations & Cleanup |
 
 ---
@@ -52,6 +52,7 @@ categories: 6
 | # | File | Title | Summary | Keywords |
 |---|------|-------|---------|----------|
 | 006 | `006-commands.md` | Commands | Detailed reference for the yabai message passing interface and specific commands used to manage displays, spaces, and windows on macOS | yabai, macos, window-management, cli-interface, tiling-window-manager, automation |
+| 009 | `009-yabai-docs.md` | Yabai Documentation | Official man page for yabai providing complete reference including CLI options, configuration settings, display/space/window commands, query system, rules, and signals | yabai, macos, window-management, cli-interface, man-page, reference, automation |
 
 ### 5. Practical Usage (007)
 *Tips, tricks, and practical workflows for daily use*
@@ -77,7 +78,7 @@ categories: 6
 |-------|------------|
 | **Installation** | 002-004 |
 | **Configuration** | 005 |
-| **Commands & API** | 006 |
+| **Commands & API** | 006, 009 |
 | **Troubleshooting** | 007 |
 | **Uninstallation** | 008 |
 
@@ -86,11 +87,11 @@ categories: 6
 | Concept | Files |
 |---------|-------|
 | **macOS Setup** | 001, 002, 003, 004 |
-| **Window Management** | 001, 002, 003, 004, 005, 006, 007 |
+| **Window Management** | 001, 002, 003, 004, 005, 006, 007, 009 |
 | **Configuration** | 001, 003, 005, 007 |
-| **Automation** | 001, 003, 006, 007 |
+| **Automation** | 001, 003, 006, 007, 009 |
 | **Security** | 002 |
-| **Commands** | 006 |
+| **Commands** | 006, 009 |
 
 ---
 

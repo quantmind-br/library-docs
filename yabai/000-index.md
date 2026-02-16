@@ -28,7 +28,7 @@ categories: 6
 
 | # | File | Title | Summary | Keywords |
 |---|------|-------|---------|----------|
-| 001 | `001-index.md` | Home | Introduces yabai, a tiling window manager for macOS, outlining its features, system requirements, installation caveats, and a quickstart guide for new users | macos, window-management, tiling-window-manager, yabai, automation, system-configuration |
+| 001 | `001-wiki-home.md` | Home | Introduces yabai, a tiling window manager for macOS, outlining its features, system requirements, installation caveats, and a quickstart guide for new users | macos, window-management, tiling-window-manager, yabai, automation, system-configuration |
 
 ### 2. Prerequisites & Installation (002-004)
 *Step-by-step guides to prepare your system and install yabai*

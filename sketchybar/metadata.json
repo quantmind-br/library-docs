@@ -1,0 +1,269 @@
+{
+  "generated_at": "2026-02-15T21:17:38.809173-03:00",
+  "source_url": "https://felixkratz.github.io/SketchyBar",
+  "strategy": "github_pages",
+  "total_documents": 15,
+  "documents": [
+    {
+      "file_path": "SketchyBar-search.md",
+      "title": "SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/search",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:05.928221-03:00",
+      "summary": "This document provides a search interface and navigation entry point for a Docusaurus-based documentation site.",
+      "tags": [
+        "docusaurus",
+        "documentation-search",
+        "web-navigation",
+        "interface-elements"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "SketchyBar-config-animations.md",
+      "title": "Animations | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/animations",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:06.071167-03:00",
+      "description": "Animating the bar",
+      "summary": "This document explains how to implement animations for SketchyBar properties, covering syntax, duration calculation, and techniques for chaining multiple animations.",
+      "tags": [
+        "sketchybar",
+        "animation-syntax",
+        "macos-customization",
+        "command-line-interface",
+        "property-transitions"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "SketchyBar.md",
+      "title": "SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:08.574853-03:00",
+      "description": "A highly customizable macOS statusbar replacement",
+      "summary": "This document provides an introduction to SketchyBar, a highly customizable macOS status bar replacement, including links to its features and installation setup.",
+      "tags": [
+        "macos",
+        "status-bar",
+        "sketchybar",
+        "desktop-customization",
+        "system-utility"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "SketchyBar-config-bar.md",
+      "title": "Bar Properties | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/bar",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:16.216588-03:00",
+      "description": "Configuration of the bar",
+      "summary": "This document provides instructions on setting up and managing the SketchyBar configuration file and using the command line for real-time adjustments and debugging.",
+      "tags": [
+        "sketchybar",
+        "configuration",
+        "macos",
+        "shell-script",
+        "dotfiles",
+        "command-line-interface"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "SketchyBar-config-components.md",
+      "title": "Special Components | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/components",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:16.452673-03:00",
+      "description": "Components -- Special Items with special properties",
+      "summary": "This document details the specialized component types available in SketchyBar, providing instructions for adding and configuring graphs, spaces, brackets, aliases, and sliders.",
+      "tags": [
+        "sketchybar",
+        "macos-customization",
+        "component-configuration",
+        "ui-elements",
+        "status-bar"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "SketchyBar-config-events.md",
+      "title": "Events \u0026 Scripting | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/events",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:17.278454-03:00",
+      "description": "Events and Scripting",
+      "summary": "This document explains the event-driven scripting system in SketchyBar, detailing how to subscribe to system events, create custom triggers, and utilize environment variables within scripts.",
+      "tags": [
+        "sketchybar",
+        "macos-customization",
+        "event-handling",
+        "shell-scripting",
+        "automation",
+        "system-events"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "SketchyBar-config-items.md",
+      "title": "Item Properties | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/items",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:21.166936-03:00",
+      "description": "Items and their properties",
+      "summary": "This document explains how to add and configure items in SketchyBar, providing a comprehensive list of properties for styling icons, labels, backgrounds, and scripting behaviors.",
+      "tags": [
+        "sketchybar",
+        "macos-customization",
+        "cli-reference",
+        "ui-configuration",
+        "shell-scripting",
+        "status-bar"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "SketchyBar-config-popups.md",
+      "title": "Popup Menus | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/popups",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:21.490971-03:00",
+      "description": "Popup Menus",
+      "summary": "This document explains how to configure and manage popup menus in SketchyBar, detailing available properties and how to associate sub-items with a parent menu.",
+      "tags": [
+        "sketchybar",
+        "popup-menus",
+        "macos-customization",
+        "ui-configuration",
+        "shell-scripting"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "SketchyBar-config-querying.md",
+      "title": "Querying Information | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/querying",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:23.564668-03:00",
+      "description": "Querying",
+      "summary": "This document explains how to retrieve configuration and state information from SketchyBar using various query commands that return JSON-formatted data. It covers querying the bar, specific items, defaults, events, and display configurations.",
+      "tags": [
+        "sketchybar",
+        "macos-customization",
+        "command-line-interface",
+        "json-output",
+        "querying"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "SketchyBar-config-tricks.md",
+      "title": "Tips \u0026 Tricks | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/tricks",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:26.833472-03:00",
+      "description": "Batching of configuration commands",
+      "summary": "This document provides guidance on optimizing and troubleshooting SketchyBar configurations, covering command batching, performance tuning, icon integration, and running multiple bar instances.",
+      "tags": [
+        "sketchybar",
+        "macos-customization",
+        "shell-scripting",
+        "performance-optimization",
+        "troubleshooting",
+        "configuration-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "SketchyBar-config-reloading.md",
+      "title": "Reloading the configuration | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/reloading",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:26.656037-03:00",
+      "description": "If you wish to reload the configuration file of the bar without resorting to",
+      "summary": "This document explains how to manually reload SketchyBar configurations and how to enable the automatic hotload feature for real-time updates.",
+      "tags": [
+        "sketchybar",
+        "configuration-reloading",
+        "hotload",
+        "macos-customization",
+        "command-line"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "SketchyBar-config-types.md",
+      "title": "Type Nomenclature | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/config/types",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:30.62446-03:00",
+      "description": "Type nomenclature",
+      "summary": "This document defines the data types and value nomenclature used for configuration, providing details on boolean operations and ARGB hex color manipulations.",
+      "tags": [
+        "type-system",
+        "configuration-syntax",
+        "data-types",
+        "boolean-logic",
+        "color-formatting",
+        "sketchybar"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "SketchyBar-credits.md",
+      "title": "Credits | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/credits",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:31.445038-03:00",
+      "description": "Credits",
+      "summary": "This document provides attribution and historical context for the software project, detailing its origins as a rewritten fork of spacebar inspired by yabai.",
+      "tags": [
+        "project-credits",
+        "attribution",
+        "software-history",
+        "spacebar",
+        "yabai",
+        "open-source-fork"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "SketchyBar-features.md",
+      "title": "Features | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/features",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:32.049953-03:00",
+      "description": "Features",
+      "summary": "This document introduces the core features and architectural components of SketchyBar, a highly customizable and scriptable status bar for macOS.",
+      "tags": [
+        "macos",
+        "status-bar",
+        "sketchybar",
+        "ui-customization",
+        "scripting",
+        "event-handling"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "SketchyBar-setup.md",
+      "title": "Setup | SketchyBar",
+      "url": "https://felixkratz.github.io/SketchyBar/setup",
+      "source": "github_pages",
+      "fetched_at": "2026-02-15T21:17:34.234325-03:00",
+      "description": "Installation",
+      "summary": "This document provides comprehensive instructions for installing, configuring, and uninstalling SketchyBar on macOS, including prerequisite settings and font setup.",
+      "tags": [
+        "sketchybar",
+        "macos-customization",
+        "installation-guide",
+        "homebrew",
+        "plugin-setup",
+        "desktop-utilities"
+      ],
+      "category": "guide"
+    }
+  ]
+}

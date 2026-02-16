@@ -107,6 +107,7 @@ categories: 6
 ### Level 3: Core Understanding
 - Configure yabai using file **005** for tiling behaviors and UI customizations
 - Learn commands from file **006** for managing displays, spaces, and windows
+- Consult file **009** for complete man page reference with all CLI options, domains, rules, and signals
 
 ### Level 4: Practical Application
 - Apply practical tips from file **007** for configuration management and automation

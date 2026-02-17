@@ -175,7 +175,7 @@
       "source": "git",
       "fetched_at": "2026-02-17T13:03:30.462654-03:00",
       "summary": "This document provides instructions for calibrating the Z endstop and manually leveling a 3D printer bed using Klipper's software tools and probe-assisted calculations.",
-      "tags": ["klipper", "bed-leveling", "z-endstop-cal-screws",ibration", "bed "manual-calibration", "screws-tilt-adjust", "3d-printing"],
+      "tags": ["klipper", "bed-leveling", "z-endstop-calibration", "bed-screws", "manual-calibration", "screws-tilt-adjust", "3d-printing"],
       "category": "guide"
     },
     {

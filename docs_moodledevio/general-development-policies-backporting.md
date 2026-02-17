@@ -1,0 +1,97 @@
+---
+title: Backporting | Moodle Developer Resources
+url: https://moodledev.io/general/development/policies/backporting
+source: sitemap
+fetched_at: 2026-02-17T15:58:56.226313-03:00
+rendered_js: false
+word_count: 994
+summary: This document outlines Moodle's official policy and procedures for backporting bug fixes, accessibility improvements, and new features to stable and long-term support branches. It provides specific guidelines for developers on how to request backports and the criteria used by the integration team for approval.
+tags:
+    - moodle-development
+    - backporting-policy
+    - software-maintenance
+    - release-management
+    - bug-fixing
+    - lts-support
+    - version-control
+category: guide
+---
+
+Whilst we'd all like all Moodle users to be using our latest and greatest code, there is a balance to strike between improving our software and maintaining stability (both in terms of regressions, but also training and documentation materials). Large amounts of change on the stable branches make the lives difficult for institutions to manage upgrades between point releases.
+
+## General policy[​](#general-policy "Direct link to General policy")
+
+Our general policy is as follows:
+
+- Bug fixes will be backported to all (and only to) supported stable branches.
+  
+  - When fixing a bug, please provide a fix for all supported stable branches.
+  - If a fix doesn't make sense to be backported to every branch, please make it clear in the issue.
+- Improvements or new features will only land in `main`.
+
+### Bug fixes for accessibility issues[​](#bug-fixes-for-accessibility-issues "Direct link to Bug fixes for accessibility issues")
+
+As part of Moodle's commitment to accessibility, bug fixes for accessibility issues can be backported to the latest LTS branch whenever possible, in addition to the supported stable branches.
+
+- This policy applies even when the LTS branch goes out of general support and into security support.
+- Accessibility fixes will not be backported to non-LTS branches that are out of general support.
+- If the LTS branch is out of general support and under security support, the Integration Team will exercise discretion in determining whether the accessibility fix is [safe enough](https://moodledev.io/general/development/process/integration#integration-principles) to be backported to the LTS branch.
+- When the next LTS version is released, backporting of accessibility bug fixes will cease for the older LTS branch.
+  
+  - For example, accessibility bug fixes will be backported to the Moodle 4.1 LTS branch from its release up to Moodle 4.4's release. However, when Moodle 4.5 LTS is released, accessibility fixes will no longer be backported to the 4.1 LTS branch.
+
+### Other cases which will be backported whenever possible:[​](#other-cases-which-will-be-backported-whenever-possible "Direct link to Other cases which will be backported whenever possible:")
+
+A small set of changes will automatically be considered for backport, including to security-supported releases. These include:
+
+- changes to testing systems including both Behat and PHPUnit. This is to allow community developers to make use of features such as test helpers, transformations, generators, and-so-on for all supported versions of Moodle; and
+- additional data collected for the purposes of Site Registration. This is to ensure that Moodle has an accurate overview of the technologies powering sites that Moodle runs on in order to make technical decisions about support and direction.
+
+Care should be taken when backporting these changes, and only the minimum of change should be accepted. The introduction of new User Interfaces, for example, not supported by these cases.
+
+## Process for requesting a non bug-fix backport[​](#process-for-requesting-a-non-bug-fix-backport "Direct link to Process for requesting a non bug-fix backport")
+
+Improvements or new features can be requested to be backported to the stable branches. We urge developers to consider this request carefully. In recent years, Moodle has moved to a short and predictable time based release schedule and we use a very effective distributed source control system. Both of these process changes should ensure that a change not being backported to the stable branches is not as problematic as it may have used to be.
+
+Should you feel that a new feature or improvement needs backporting, please follow this process:
+
+1. File a new issue.
+2. Set the issue title using our backport template guide. (i.e. "Fix forum alignment (backport of [MDL-99999](https://moodle.atlassian.net/browse/MDL-99999))").
+3. Link the original issue using link type "Will help resolve".
+4. You should include clear rationale for the request to backport
+
+The integration team will process backport requests, with the following guidelines:
+
+1. The integration team will together consider each request individually considering the needs of the community (influenced by forum posts, moodle partners, discussion with developers via tracker or private message, etc).
+2. Backport requests will be processed not earlier than 3 weeks and not later than 2 months after the original improvement/new feature has been integrated.
+3. Rationale will be given for rejection
+
+If the backport request is approved, please follow the usual development process to submit the feature or improvement on earlier branches. Just to be clear, this means using the new bug number. So, even if the fix you are back-porting cherry-picks cleanly, you will need to amend the commit comment to use the new MDL-XXXXX number.
+
+tip
+
+It would be good practice to also add a line like "This is a backport of MDL-YYYYY." in the amended commit comment.
+
+You can probably copy the testing instructions from the original issue. If so, make it clear you done this by saying something like "Copied from [MDL-66327](https://moodle.atlassian.net/browse/MDL-66327)". Of course, if you can improve the instructions, feel free to edit. [MDL-66614](https://moodle.atlassian.net/browse/MDL-66614) and [MDL-66327](https://moodle.atlassian.net/browse/MDL-66327) are probably a reasonably good example fo what should be done.
+
+## Polite note about bug classification[​](#polite-note-about-bug-classification "Direct link to Polite note about bug classification")
+
+Many issues can be appropriately classified as borderline bug-fix/improvements. We politely request that developers do not try and 'game the system' by classifying their improvements as bugs intentionally. If your fix is in a grey area, please state your case for it being a bug fix clearly. The integration team will use their discretion where necessary.
+
+## Backport fixes to unsupported branches[​](#backport-fixes-to-unsupported-branches "Direct link to Backport fixes to unsupported branches")
+
+- Given the [general policy](#general-policy) above, only supported stable branches are candidates normally.
+- In addition to this any security, privacy, data-loss, and regression, caused by any of the previous issue types are accepted to be fixed into security-only supported branches.
+- In addition to the above, issues required to keep the testing infrastructure working and passing (GitHub Actions, Behat, PHPUnit, addressing random failures, including new Behat steps availability, and so on) will also be accepted when possible into security-only branches
+- Backport to *unsupported* branches will only be considered when the issue is a **direct regression caused by a bug fix** introduced by the very latest releases. This applies to both security-only and out-of-support branches.
+
+A new weekly release will be performed including all the cases above, but [security issues that follow its own special process](https://moodledev.io/general/development/process#security-issues) and are released bi-monthly.
+
+Security issues and the `security_benefit` label
+
+Issues labelled with the [`security_benefit` labelled issues](https://moodledev.io/general/development/tracker/labels) are not considered to be security issues and will not be backported automatically. These are typically *improvements* to security rather than bugs or vulnerabilities.
+
+## See also[​](#see-also "Direct link to See also")
+
+- [Integration review process](https://moodledev.io/general/development/process/integration)
+- [Process](https://moodledev.io/general/development/process)

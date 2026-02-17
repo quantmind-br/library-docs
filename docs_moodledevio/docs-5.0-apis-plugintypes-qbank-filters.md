@@ -1,0 +1,240 @@
+---
+title: Question bank filters | Moodle Developer Resources
+url: https://moodledev.io/docs/5.0/apis/plugintypes/qbank/filters
+source: sitemap
+fetched_at: 2026-02-17T15:26:30.912077-03:00
+rendered_js: false
+word_count: 1169
+summary: This document explains how to create and implement custom filter conditions for Moodle question bank plugins using backend PHP and frontend JavaScript classes.
+tags:
+    - moodle-development
+    - question-bank
+    - plugin-development
+    - php
+    - javascript
+    - data-filtering
+category: tutorial
+---
+
+Question bank plugins allow you define additional filters. These can be used when viewing the question bank, and are included in the URL so that a filtered view of the question bank can be shared. They are also used when defining the criteria for adding random questions to a quiz.
+
+## Creating a new filter condition[​](#creating-a-new-filter-condition "Direct link to Creating a new filter condition")
+
+A filter condition consists of two parts - the backend "condition" PHP class, and the frontend "filter" JavaScript class.
+
+The "condition" class defines the general properties of the filter - its name, various options, and how it is applied to the question bank query. The "filter" class defines how the filter is displayed in the UI, and how values selected in the UI are passed back to the condition.
+
+Each new filter condition must define a new "condition" class in the qbank plugin based on `core_question\local\bank\condition`. By default this will use the `core/datafilter/filtertype` "filter" class, although this can be overridden too if required.
+
+### Basic example[​](#basic-example "Direct link to Basic example")
+
+This outlines the bare minimum required to implement a new filter condition. This will give you a field that allows you to enter keywords and add them to a list of selected search terms, the filter the questions by that list of terms. This assumes that you already have the basic framework of a qbank plugin in place. For real-world examples, look for classes that extend `core_question\local\bank\condition`.
+
+Create a `condition` class within your plugin's namespace. For a plugin called `qbank_myplugin` this would look something like:
+
+question/bank/myplugin/classes/myfilter\_condition.php
+
+```
+namespaceqbank_myplugin;
+
+usecore_question\local\bank\condition;
+
+classmyfilter_conditionextendscondition{
+
+}
+```
+
+Modify your `plugin_feature` class to return an instance of your condition from the `get_question_filters()` method:
+
+question/bank/myplugin/classes/plugin\_feature.php
+
+```
+namespaceqbank_myplugin;
+
+classplugin_featureextendscore_question\local\bank\plugin_features_base{
+publicfunctionget_question_filters(?core_question\local\bank\view$qbank=null):array{
+return[
+newmyfilter_condition($qbank),
+];
+}
+}
+```
+
+Back in your `condition` class, define the `get_name()` method, which returns the label displayed in the filter UI.
+
+Define the condition name
+
+```
+publicfunctionget_name():string{
+returnget_string('myfilter_name','myplugin');
+}
+```
+
+Define `get_condition_key()`, which returns a unique machine-readable ID for this filter condition, used when passing the filter as a parameter.
+
+Define the condition key
+
+```
+publicfunctionget_condition_key():string{
+return'myfilter';
+}
+```
+
+To actually filter the results, define `build_query_from_filter()` which returns an SQL `WHERE` condition, and an array of parameters. The `$filter` parameter receives an array with a `'values'` key, containing an array of the selected values, and a `'jointype'` key, containing one of the `JOINTTYPE_ANY`, `JOINTYPE_ALL` or `JOINTYPE_NONE` constants. Use these to build your condition as required.
+
+The conditions from each filter are combined with the query in [`core_question\local\bank\view::build_query()`](https://github.com/moodle/moodle/blob/c741492c38b9945abbfc7e90dfe8f943279f8265/question/classes/local/bank/view.php#L733)
+
+Filter questions
+
+```
+publicfunctionbuild_query_from_filter(array$filter):array{
+$andor=' AND ';
+$equal='=';
+if($filter['jointype']===self::JOINTYPE_ANY){
+$andor=' OR ';
+}elseif($filter['jointype']===self::JOINTYPE_NONE){
+$equal='!=';
+}
+$conditions=[];
+$params=[];
+// In real life we'd probably use $DB->get_in_or_equal here.
+foreach($filter['values']as$key=>$value){
+$conditions[]='q.fieldname '.$equal.' :myfilter'.$key;
+$params['myfilter'.$key]=$value;
+}
+return[
+'('.implode($andor,$conditions).')',
+$params,
+];
+}
+```
+
+Following this pattern with your own fields and options will give you a basic functional filter. Most filters will require more complex functionality, which can be achieved through additional methods.
+
+### Additional options[​](#additional-options "Direct link to Additional options")
+
+#### Pre-defined values[​](#pre-defined-values "Direct link to Pre-defined values")
+
+To define the list of possible filter values, define `get_initial_values()`, which returns an array of `['value', 'title']` for each option. These will then be searchable and selectable in the autocomplete field.
+
+Define initial filter values
+
+```
+publicfunctionget_initial_values():string{
+return[
+[
+'value'=>0,
+'title'=>'Option 1',
+],
+[
+'value'=>1,
+'title'=>'Option 2',
+]
+];
+}
+```
+
+#### Restrict custom keywords[​](#restrict-custom-keywords "Direct link to Restrict custom keywords")
+
+To restrict the possible filter terms to only those returned from `get_initial_values()`, define `allow_custom()` and have it return `false`.
+
+Disable custom terms
+
+```
+publicfunctionallow_custom():bool{
+returnfalse;
+}
+```
+
+#### Restrict join types[​](#restrict-join-types "Direct link to Restrict join types")
+
+Not all join types are relevant to all filters. If each question will only match one of the selected values, it does not make sense to allow `JOINTYPE_ALL`. Define `get_join_list()` and return an array of the applicable join types.
+
+Define a restricted list of join types
+
+```
+publicfunctionget_join_list():array{
+return[
+datafilter::JOINTYPE_ANY,
+datafilter::JOINTYPE_NONE,
+];
+}
+```
+
+#### Allow multiple values?[​](#allow-multiple-values "Direct link to Allow multiple values?")
+
+By default, conditions allow multiple values to be selected and use the selected join type to decide how they are applied. If your condition should only allow a single value at a time, override `allow_multiple()` to return false.
+
+Disable selection of multiple values
+
+```
+publicfunctionallow_multiple():bool{
+returnfalse;
+}
+```
+
+#### Allow empty values?[​](#allow-empty-values "Direct link to Allow empty values?")
+
+By default, conditions can be left empty, and therefore will not be included in the filter. To make it compulsory to select a value for this condition when it is added, override `allow_empty()` to return false.
+
+Disable empty values
+
+```
+publicfunctionallow_empty():bool{
+returnfalse;
+}
+```
+
+#### Is the condition required?[​](#is-the-condition-required "Direct link to Is the condition required?")
+
+If it is compulsory that your condition is always displayed, override `is_required()` to return true.
+
+Make the condition compulsory
+
+```
+publicfunctionis_required():bool{
+returntrue;
+}
+```
+
+#### Custom filter class[​](#custom-filter-class "Direct link to Custom filter class")
+
+By default, the filter will be displayed and processed using the `core/datafilter/filtertype` JavaScript class. This will provide a single autocomplete field for selecting one or multiple numeric IDs with textual labels. If this does not fit your filter's use case, you can tell your condition to use a different filter class.
+
+You can either use a different core filter type from `/lib/amd/src/datafilter/filtertypes`, or define your own.
+
+To tell your filter condition to use a different filter class, override the `get_filter_class()` method to return the namespaced path to your JavaScript class.
+
+Override the default filter class
+
+```
+publicfunctionget_filter_class():string{
+return'qbank_myplugin/datafilter/filtertype/myfilter';
+}
+```
+
+To create your own filter class, a new JavaScript file in your plugin under `amd/src/datafilter/filtertypes/myfilter.js`. In this file, export a default class that extends `core/datafilter/filtertype` (or another core filter type from `/lib/amd/src/datafilter/filtertypes`) and override the base methods as required. For example, if your filter uses textual rather than numeric values, you can override `get values()` to return the raw values without running `parseInt()` (see [`qbank_viewquestiontype/datafilter/filtertypes/type`](https://github.com/moodle/moodle/blob/main/mod/quiz/tests/behat/editing_add_from_question_bank.feature)).
+
+If you want a different UI for selecting your filter values instead of a single autocomplete, you can override `addValueSelector()`. This also provides flexibility over how the values provided by `get_initial_values()` are used by the UI.
+
+#### Filter options[​](#filter-options "Direct link to Filter options")
+
+If your condition supports additional options as to how the selected values are applied to the query, such as whether child categories are included when parent categories are selected, you can define "Filter options".
+
+In your condition class, define `get_filteroptions()` which returns an object containing the current filter options. You will probably want to add some code to the constructor to read in the current filter options, and some code the `build_query_from_filter()` to use the option. See [`qbank_managecategories\category_condition`](https://github.com/moodle/moodle/blob/main/question/bank/managecategories/classes/category_condition.php) as an example.
+
+You JavaScript filter class will also need to support your filter options. Override the constructor an add additional code for the UI required to set your filter options, and override `get filterOptions()` to return the current value for any options set in this UI. See [`qbank_managecategories/datafilter/filtertypes/categories`](https://github.com/moodle/moodle/blob/main/question/bank/managecategories/amd/src/datafilter/filtertypes/categories.js) as an example.
+
+#### Context-sensitive configuration[​](#context-sensitive-configuration "Direct link to Context-sensitive configuration")
+
+You may want your filter to behave differently depending on where it is being displayed. In this case you can override the constructor which receives the current `$qbank` view object, and extract some data that is used later on by your other methods.
+
+For example, the [tag condition](https://github.com/moodle/moodle/blob/main/question/bank/tagquestion/classes/tag_condition.php) will find the context of the current page, and use that to control which tags are available in the filter.
+
+#### Validation[​](#validation "Direct link to Validation")
+
+Filters support standard [Client-side form validation](https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms/Form_validation). The simplest way to implement this is to set validation properties on your inputs in the mustache template used by your `addValueSelector()` method.
+
+If you need something more advanced, you can define a `validation()` method in your filter class. This is called when the "Apply filters" button is clicked, giving you the opportunity to inspect the current values of the filter, and perform validation checks. If validation fails, you should display errors using the standard `setCustomValidity()` and `reportValidity()` methods on your filter's input elements, and return `false`. See `core/datafilter/filtertypes/datetime` for an example.
+
+This client-side validation is only to prevent invalid values being entered in the UI. You should also validate data received by the `build_query_from_filter()` method in your condition class, and throw exceptions in the event of validation failures.

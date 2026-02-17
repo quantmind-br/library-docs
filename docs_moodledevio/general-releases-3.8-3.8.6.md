@@ -1,0 +1,82 @@
+---
+title: Moodle 3.8.6 | Moodle Developer Resources
+url: https://moodledev.io/general/releases/3.8/3.8.6
+source: sitemap
+fetched_at: 2026-02-17T16:13:39.805874-03:00
+rendered_js: false
+word_count: 485
+summary: This document details the release notes for Moodle version 3.8.6, highlighting specific bug fixes, security patches, and accessibility improvements. It also provides a warning regarding the version's unsupported status and instructions for upgrading to a newer release.
+tags:
+    - moodle-release-notes
+    - software-updates
+    - security-patches
+    - bug-fixes
+    - lms-maintenance
+    - accessibility-updates
+category: reference
+---
+
+Unsupported Moodle Version
+
+**This version of Moodle is no longer supported and will not receive fixes for security risks.**  
+You are encouraged to [**upgrade**](https://docs.moodle.org/en/Upgrading) to a supported version of Moodle.
+
+Release date: 9 November 2020
+
+Here is [the full list of fixed issues in 3.8.6](https://moodle.atlassian.net/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=project%20%3D%20mdl%20AND%20resolution%20%3D%20fixed%20AND%20fixVersion%20in%20%28%223.8.6%22%29%20ORDER%20BY%20priority%20DESC&runQuery=true&clear=true).
+
+## Warning[​](#warning "Direct link to Warning")
+
+If you have a large database, the upgrade step added in [MDL-69687](https://moodle.atlassian.net/browse/MDL-69687) may be very, very slow. To avoid excessive down-time when you grade, you may want to test for this. A fix is being developed in [MDL-70285](https://moodle.atlassian.net/browse/MDL-70285).
+
+## General fixes and improvements[​](#general-fixes-and-improvements "Direct link to General fixes and improvements")
+
+- [MDL-68722](https://moodle.atlassian.net/browse/MDL-68722) - Atto Equation Editor Symbols missing
+- [MDL-68070](https://moodle.atlassian.net/browse/MDL-68070) - Messaging breaks when "Personal messages between users" is disabled
+- [MDL-68900](https://moodle.atlassian.net/browse/MDL-68900) - Attempting to grade forums outside of their display period causes invalid response value error
+- [MDL-65792](https://moodle.atlassian.net/browse/MDL-65792) - Timed/Scheduled Posts are displaying create/modified time instead of release time
+- [MDL-69667](https://moodle.atlassian.net/browse/MDL-69667) - Competencies count always 0 in competencyframeworks
+- [MDL-69772](https://moodle.atlassian.net/browse/MDL-69772) - Incorrect 'allcountrycodes' field prevents country selection during registration
+- [MDL-69641](https://moodle.atlassian.net/browse/MDL-69641) - Fix Course gradebook slow query due to cross join on full user table (backport of [MDL-69190](https://moodle.atlassian.net/browse/MDL-69190))
+- [MDL-62387](https://moodle.atlassian.net/browse/MDL-62387) - Cohort sync dropdown contains redundant entries
+- [MDL-69342](https://moodle.atlassian.net/browse/MDL-69342) - 'Delete picture' checkbox deletes also the new profile picture when editing profile
+- [MDL-69359](https://moodle.atlassian.net/browse/MDL-69359) - Add option to show only contributed plugins in uninstall script (backport of [MDL-69260](https://moodle.atlassian.net/browse/MDL-69260))
+- [MDL-67654](https://moodle.atlassian.net/browse/MDL-67654) - Forum inline reply does not use formchangechecker
+- [MDL-69791](https://moodle.atlassian.net/browse/MDL-69791) - Grader report doesn't show an error message when an invalid grade is entered in AJAX mode
+- [MDL-69818](https://moodle.atlassian.net/browse/MDL-69818) - Restoring a feedback activity doesn't restore item dependency
+- [MDL-67650](https://moodle.atlassian.net/browse/MDL-67650) - Forced $CFG config checkbox, select, textarea are not disabled in GUI
+- [MDL-68438](https://moodle.atlassian.net/browse/MDL-68438) - Changing notification email format fails if messaging is disabled
+- [MDL-68284](https://moodle.atlassian.net/browse/MDL-68284) - Locking invisible quiz in gradebook setup makes it visible (but only on gradebook setup page)
+- [MDL-69805](https://moodle.atlassian.net/browse/MDL-69805) - Database activity shows the comments option even if comments are disabled at site level
+
+## Accessibility improvements[​](#accessibility-improvements "Direct link to Accessibility improvements")
+
+- [MDL-65074](https://moodle.atlassian.net/browse/MDL-65074) - Quiz navigation buttons use part of btn-secondary styles, can disappear
+- [MDL-70004](https://moodle.atlassian.net/browse/MDL-70004) - Invalid role attribute in the label for the "Clear my choice" option
+- [MDL-69392](https://moodle.atlassian.net/browse/MDL-69392) - Colour contrast issues in quiz
+- [MDL-68766](https://moodle.atlassian.net/browse/MDL-68766) - Login form: "Log in using your account on:" should be h3, not h6
+- [MDL-69395](https://moodle.atlassian.net/browse/MDL-69395) - Insufficient colour contrast between form control borders and background
+- [MDL-69649](https://moodle.atlassian.net/browse/MDL-69649) - Missing labels in restore page
+
+## For developers[​](#for-developers "Direct link to For developers")
+
+- [MDL-52407](https://moodle.atlassian.net/browse/MDL-52407) - Travis: Start sending e-mail notifications
+
+## Security improvements[​](#security-improvements "Direct link to Security improvements")
+
+- [MDL-68292](https://moodle.atlassian.net/browse/MDL-68292) - admin/modules.php exposes CSRF token (sesskey) in url
+- [MDL-69014](https://moodle.atlassian.net/browse/MDL-69014) - User preferences not removed when tours are deleted
+- [MDL-69807](https://moodle.atlassian.net/browse/MDL-69807) - Editing a block exposes the CSRF token (sesskey) in the url
+
+## Security fixes[​](#security-fixes "Direct link to Security fixes")
+
+- [MSA-20-0016](https://moodle.org/mod/forum/discuss.php?d=413935) Teacher is able to unenrol users without permission using course restore
+- [MSA-20-0017](https://moodle.org/mod/forum/discuss.php?d=413936) Privilege escalation within a course when restoring role overrides
+- [MSA-20-0018](https://moodle.org/mod/forum/discuss.php?d=413938) Some database module web services did not respect group settings
+- [MSA-20-0019](https://moodle.org/mod/forum/discuss.php?d=413939) tool\_uploadcourse creates new enrol instances unexpectedly in some circumstances
+- [MSA-20-0021](https://moodle.org/mod/forum/discuss.php?d=413941) The participants table download feature did not respect the site's "show user identity" configuration
+
+## Translations[​](#translations "Direct link to Translations")
+
+- [Notes de mise à jour de Moodle 3.8.6](https://docs.moodle.org/fr/Notes_de_mise_%C3%A0_jour_de_Moodle_3.8.6)
+- [Notas de Moodle 3.8.6](https://docs.moodle.org/es/Notas_de_Moodle_3.8.6)

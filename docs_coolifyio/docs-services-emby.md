@@ -1,0 +1,50 @@
+---
+title: Emby
+url: https://coolify.io/docs/services/emby.md
+source: llms
+fetched_at: 2026-02-17T14:43:44.032961-03:00
+rendered_js: false
+word_count: 128
+summary: This document introduces the Emby personal media server and details the hardware and software requirements for running it on various operating systems.
+tags:
+    - emby
+    - media-server
+    - system-requirements
+    - hardware-specs
+    - transcoding
+    - server-configuration
+category: reference
+---
+
+![Emby](https://emby.media/support/images/logo.png)
+
+## What is Emby?
+
+Emby is a free personal media server. It is built with a number of popular open source technologies.
+
+## Requirements
+
+Windows, Mac, Linux, or FreeBSD computer
+
+### Minimum Requirements — no transcoding
+
+* Intel Core 2 Duo processor 1.6 GHz or better
+* At least 1GB RAM for Windows/Mac OS X
+* At least 512MB RAM for Linux
+* Windows: Vista or later
+* OS X: MacOS 10.13 or later
+* Ubuntu, Debian, Fedora, CentOS or SuSE Linux
+
+### Recommended Configuration — transcoding HD Content
+
+* Intel Core 2 Duo processor 2.4 GHz or better
+* If transcoding for multiple devices, a faster CPU may be required
+* At least 2GB RAM
+* Windows: Vista or later
+* OS X: MacOS 10.13 or later
+* Ubuntu, Debian, Fedora, CentOS or SuSE Linux
+
+## Community
+
+* [The official website](https://emby.media?utm_source=coolify.io)
+* [The Emby community](https://emby.media/community?utm_source=coolify.io)

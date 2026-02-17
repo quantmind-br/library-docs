@@ -1,0 +1,32 @@
+---
+title: 4 docs tagged with "AI" | Moodle Developer Resources
+url: https://moodledev.io/docs/5.1/tags/ai
+source: sitemap
+fetched_at: 2026-02-17T15:29:07.158087-03:00
+rendered_js: false
+word_count: 70
+summary: This document outlines the architecture of Moodle's AI subsystem, explaining how plugins, placements, and providers facilitate the integration and display of external AI services.
+tags:
+    - moodle-lms
+    - ai-subsystem
+    - plugin-development
+    - ai-integration
+    - api-architecture
+category: concept
+---
+
+## [AI Plugins](https://moodledev.io/docs/5.1/apis/plugintypes/ai)
+
+The AI subsystem provides a way for developers to integrate external AI services into Moodle LMS.
+
+## [AI Subsystem](https://moodledev.io/docs/5.1/apis/subsystems/ai)
+
+The AI Subsystem in Moodle LMS provides a consistent and user-friendly way for users to interact with AI
+
+## [Placements](https://moodledev.io/docs/5.1/apis/plugintypes/ai/placement)
+
+Placements provide a consistent UX and UI for users when they use AI backed functionality (e.g. generating an image).
+
+## [Providers](https://moodledev.io/docs/5.1/apis/plugintypes/ai/provider)
+
+Providers are the interface between the AI subsystem and external AI.

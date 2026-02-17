@@ -2,16 +2,16 @@
 title: Versions | Moodle Developer Resources
 url: https://moodledev.io/versions
 source: sitemap
-fetched_at: 2026-02-17T14:49:30.934227-03:00
+fetched_at: 2026-02-17T14:51:00.096827-03:00
 rendered_js: false
 word_count: 46
-summary: This document provides a directory of links to various platforms within the Moodle ecosystem, including product information, resource sharing, and professional training.
+summary: This document provides an overview of the Moodle ecosystem, outlining its primary platforms for product information, resource sharing, and professional training.
 tags:
-    - moodle-ecosystem
-    - learning-management-system
+    - moodle
+    - lms
+    - e-learning
     - educational-resources
     - professional-development
-    - e-learning
 category: reference
 ---
 

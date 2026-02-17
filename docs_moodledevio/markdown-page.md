@@ -2,17 +2,18 @@
 title: Markdown page example | Moodle Developer Resources
 url: https://moodledev.io/markdown-page
 source: sitemap
-fetched_at: 2026-02-17T14:49:30.916888-03:00
+fetched_at: 2026-02-17T14:51:00.095814-03:00
 rendered_js: false
 word_count: 46
-summary: This document provides a brief overview and navigation links to the primary platforms within the Moodle ecosystem, including product information, resource sharing, and professional development.
+summary: This document provides a brief overview and directory of key websites within the Moodle ecosystem, covering products, resource sharing, and professional training.
 tags:
     - moodle-ecosystem
     - learning-management-system
-    - open-educational-resources
+    - educational-technology
     - online-learning
-    - professional-training
-category: other
+    - professional-development
+    - open-educational-resources
+category: reference
 ---
 
 [Moodle.com](https://moodle.com)  

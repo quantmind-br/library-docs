@@ -2,16 +2,16 @@
 title: Search the documentation | Moodle Developer Resources
 url: https://moodledev.io/search
 source: sitemap
-fetched_at: 2026-02-17T14:49:30.820291-03:00
+fetched_at: 2026-02-17T14:51:00.095504-03:00
 rendered_js: false
 word_count: 46
-summary: This document provides an overview of the various platforms and services within the Moodle ecosystem, including its core products, resource sharing network, and professional development academy.
+summary: This document provides an overview of the various platforms within the Moodle ecosystem, including its core LMS products, resource-sharing networks, and professional training academy.
 tags:
     - moodle-ecosystem
     - learning-management-system
-    - open-educational-resources
-    - e-learning
+    - educational-resources
     - professional-development
+    - edtech-platforms
 category: reference
 ---
 

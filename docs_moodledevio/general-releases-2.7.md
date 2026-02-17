@@ -1,0 +1,242 @@
+---
+title: Moodle 2.7 | Moodle Developer Resources
+url: https://moodledev.io/general/releases/2.7
+source: sitemap
+fetched_at: 2026-02-17T16:07:07.753789-03:00
+rendered_js: false
+word_count: 1909
+summary: This document provides the technical release notes for Moodle 2.7, outlining system requirements, upgrade instructions, and new platform features for the long-term support release.
+tags:
+    - moodle-2-7
+    - release-notes
+    - system-requirements
+    - upgrade-guide
+    - server-configuration
+    - browser-compatibility
+category: reference
+---
+
+Unsupported Moodle Version
+
+**This version of Moodle is no longer supported and will not receive fixes for security risks.**  
+You are encouraged to [**upgrade**](https://docs.moodle.org/en/Upgrading) to a supported version of Moodle.
+
+Release date: 12th May 2014
+
+Here is [the complete list of fixed issues in 2.7](https://moodle.atlassian.net/secure/IssueNavigator!executeAdvanced.jspa?jqlQuery=project%20%3D%20mdl%20AND%20resolution%20%3D%20fixed%20AND%20fixVersion%20in%20%28%222.7%22%29%20ORDER%20BY%20priority%20DESC&runQuery=true&clear=true). See [New features](https://docs.moodle.org/27/en/New_features) for a user-friendly highlights tour with screenshots.
+
+## Server requirements[​](#server-requirements "Direct link to Server requirements")
+
+These are just the minimum supported versions. We recommend keeping all of your software up-to-date.
+
+- Moodle upgrade: Moodle 2.2 or later (if upgrading from earlier versions, you must upgrade to 2.2.11 as a first step)
+- PHP version: minimum PHP 5.4.4 (always use latest PHP 5.4.x or 5.5.x on Windows - [http://windows.php.net/download/](http://windows.php.net/download/)), PHP 7 is NOT supported
+- Ghostscript should be installed for pdf annotation.
+
+### Database requirements[​](#database-requirements "Direct link to Database requirements")
+
+Moodle supports the following database servers. Again, version numbers are just the minimum supported version. We recommend running the latest stable version of any software.
+
+DatabaseMinimum versionRecommended[PostgreSQL](http://www.postgresql.org/)9.1Latest[MySQL](http://www.mysql.com/)5.5.31Latest[MariaDB](https://mariadb.org/)5.5.31Latest[Microsoft SQL Server](http://www.microsoft.com/en-us/server-cloud/products/sql-server/)2008Latest[Oracle Database](http://www.oracle.com/us/products/database/overview/index.html)10.2Latest
+
+## Client requirements[​](#client-requirements "Direct link to Client requirements")
+
+### Browser support[​](#browser-support "Direct link to Browser support")
+
+BrowserMinimum versionRecommended versionNotes[Google Chrome](https://www.google.com/intl/en_au/chrome/browser/)30.0Latest[Mozilla Firefox](http://www.mozilla.org/en-US/)25.0Latest[Apple Safari](http://www.apple.com/safari/)6Latest[Microsoft Internet Explorer](http://windows.microsoft.com/en-AU/internet-explorer/download-ie)9LatestVersion 10 is required for drag-and-drop upload of content from outside the browser into Moodle
+
+### Screen reader support[​](#screen-reader-support "Direct link to Screen reader support")
+
+We now support and test on two screen reader configurations ([MDL-44002](https://moodle.atlassian.net/browse/MDL-44002)).
+
+BrowserScreen readerMinimum versionRecommended version[Microsoft Internet Explorer](http://windows.microsoft.com/en-AU/internet-explorer/download-ie)[Jaws](http://www.freedomscientific.com/products/fs/jaws-product-page.asp)15Latest[Mozilla Firefox](http://www.mozilla.org/en-US/)[NVDA](http://www.nvaccess.org/)2014.1Latest
+
+## Before you upgrade[​](#before-you-upgrade "Direct link to Before you upgrade")
+
+### Questions engine upgrade[​](#questions-engine-upgrade "Direct link to Questions engine upgrade")
+
+When upgrading to Moodle 2.1 or 2.2 it was possible to [delay part of the Question engine upgrade](https://docs.moodle.org/21/en/Upgrading_to_Moodle_2.1#Planning_the_question_engine_upgrade). You must complete this upgrade before upgrading to Moodle 2.7. You can check if this was completed at the bottom of the [Environment page](https://docs.moodle.org/en/Environment).
+
+For further information, see the upgrading notes to [complete the Question engine upgrade before Moodle 2.7](https://docs.moodle.org/27/en/Upgrading#Questions_engine_upgrade).
+
+### Themes[​](#themes "Direct link to Themes")
+
+All standard themes present in earlier versions, except **Clean**, have been removed from Moodle 2.7. If you wish to continue using one of these themes then you will need to reinstall it explicitly before running the upgrade.
+
+See the upgrading notes for [theme upgrades in Moodle 2.7](https://docs.moodle.org/27/en/Upgrading#Themes) for further information.
+
+## Headline features[​](#headline-features "Direct link to Headline features")
+
+### Interface[​](#interface "Direct link to Interface")
+
+- [MDL-42964](https://moodle.atlassian.net/browse/MDL-42964) - [Themes clean-up](https://docs.moodle.org/27/en/Standard_themes) - Moodle is focussed on Bootstrap and improved responsive design. Clean is now the default theme and most other old themes have been removed from core (still available from Plugins directory). Many small improvements have been made all through the interface.
+- [MDL-43786](https://moodle.atlassian.net/browse/MDL-43786) - More theme - A completely new theme called More that provides easy configuration though the UI, while retaining the efficiency of LESS and the responsiveness of Bootstrap.
+- [MDL-43841](https://moodle.atlassian.net/browse/MDL-43841) - New [text editor](https://docs.moodle.org/27/en/Text_editor), Atto - Tightly integrated in Moodle and focussing on usability and accessibility (TinyMCE still available as an option).
+- [MDL-44070](https://moodle.atlassian.net/browse/MDL-44070) - Improved [conditional activities](https://docs.moodle.org/27/en/Conditional_activities_settings) - Complex boolean combinations are now supported to control when activities are available to students, with a conditions plugin API and a better interface...and it's faster!
+- [MDL-43855](https://moodle.atlassian.net/browse/MDL-43855) - New mathematical equation editor for Atto, producing TeX using a GUI without needing Java. Works everywhere, even tablets and phones.
+- [MDL-43856](https://moodle.atlassian.net/browse/MDL-43856) - New [MathJax filter](https://docs.moodle.org/27/en/MathJax_filter) for displaying mathematical equations without needing binaries on the server.
+- [MDL-44637](https://moodle.atlassian.net/browse/MDL-44637) - New report listing all events possible on a site.
+
+### Platform[​](#platform "Direct link to Platform")
+
+- [MDL-37658](https://moodle.atlassian.net/browse/MDL-37658) - Logging - a new logging subsystem with plugins allowing Moodle logs to be very detailed and external. Log reports have been updated too. [Many new events](https://docs.moodle.org/27/en/Events_list) have been added which developers can take advantage of. These advancements will support better analytics in future as well as reporting standards like TinCan.
+- [MDL-25499](https://moodle.atlassian.net/browse/MDL-25499) - Scheduled Tasks - an improved [scheduling system](https://docs.moodle.org/27/en/Scheduled_tasks) (like Unix cron) that allows precise scheduling of tasks even on complex clustered servers.
+- Performance - With improvements to logging and scheduled tasks, as well as many other small improvements, overall performance will be improved, particularly on large sites.
+
+### Long-term support (LTS) until May 2017[​](#long-term-support-lts-until-may-2017 "Direct link to Long-term support (LTS) until May 2017")
+
+This release will have an extra-long period of support from Moodle HQ for **3 years** (instead of the usual 1.5 years).
+
+If you have been stuck on an old version like Moodle 1.9 then this might be the perfect time to join us in the future!
+
+## Much much more[​](#much-much-more "Direct link to Much much more")
+
+### Administration[​](#administration "Direct link to Administration")
+
+- [MDL-26680](https://moodle.atlassian.net/browse/MDL-26680) - My home [reset to default](https://docs.moodle.org/27/en/My_home) button
+- [MDL-42932](https://moodle.atlassian.net/browse/MDL-42932) - [Calendar type choice](https://docs.moodle.org/27/en/Calendar_settings) at system level
+- [MDL-43526](https://moodle.atlassian.net/browse/MDL-43526) - Option to [restore a course from the course management pages](https://docs.moodle.org/27/en/Course_restore)
+- [MDL-43497](https://moodle.atlassian.net/browse/MDL-43497) - New capability [moodle/site:forcelanguage](https://docs.moodle.org/27/en/Capabilities/moodle/site:forcelanguage) to allow the course language to be overridden
+- [MDL-18633](https://moodle.atlassian.net/browse/MDL-18633) - New capability [moodle/user:viewlastip](https://docs.moodle.org/27/en/Capabilities/moodle/user:viewlastip) for viewing a last IP field on user profile pages
+- [MDL-36141](https://moodle.atlassian.net/browse/MDL-36141) - New capability [moodle/course:reviewotherusers](https://docs.moodle.org/27/en/Capabilities/moodle/course:reviewotherusers) for restricting access to the other users page
+- [MDL-44505](https://moodle.atlassian.net/browse/MDL-44505) - Subject line of [forum notifications](https://docs.moodle.org/27/en/Forum_settings#Changing_the_subject_line_of_forum_notifications) is configurable.
+- [MDL-43682](https://moodle.atlassian.net/browse/MDL-43682), [MDL-43681](https://moodle.atlassian.net/browse/MDL-43681) Log reports - User interfaces for the [Live logs and Log reports](https://docs.moodle.org/27/en/Logs) have been improved, with more information and filtering support.
+- [MDL-35597](https://moodle.atlassian.net/browse/MDL-35597) - Plugin types are now ordered in Plugins menu.
+- [MDL-43117](https://moodle.atlassian.net/browse/MDL-43117) - A release column has been added to the Plugins Overview page.
+- [MDL-40939](https://moodle.atlassian.net/browse/MDL-40939) - Mimetex binary path is configurable.
+
+### Quiz & Question bank[​](#quiz--question-bank "Direct link to Quiz & Question bank")
+
+- [MDL-41727](https://moodle.atlassian.net/browse/MDL-41727) - Quiz reports improved.
+  
+  - Responses from all tries are available for analysis when using or "Adaptive", "Interactive with multiple tries" or similar behaviours.
+  - Break-down by question variant, for question types like Calculated, STACK and Variable-numeric, which one question can have different random variants.
+  - Progress bar during long calculations to prevent time-outs.
+  - Low-level calculation code moved into the question component, where it could potentially be reused by other activities.
+  - Much more automated testing of this complex area of code.
+- Some minor improvements to the usability of the question bank - Some of [MDL-40987](https://moodle.atlassian.net/browse/MDL-40987)
+  
+  - [MDL-33653](https://moodle.atlassian.net/browse/MDL-33653) - To duplicate a question, you now start by clicking the x2 icon, like for activities.
+  - [MDL-33839](https://moodle.atlassian.net/browse/MDL-33839) - The various different ways to move questions in the question bank have been rationalised.
+  - [MDL-33653](https://moodle.atlassian.net/browse/MDL-33653) - There is now a 'Save changes and continue editing' button when editing questions. Useful when you are working on a complex question with the preview open in another window.
+  - [MDL-32729](https://moodle.atlassian.net/browse/MDL-32729) - The interface of the question type selector has been updated
+- [MDL-40313](https://moodle.atlassian.net/browse/MDL-40313) & [MDL-40457](https://moodle.atlassian.net/browse/MDL-40457) - New plugin point, so that plugins can add columns to the question bank, or new search conditions.
+- [MDL-39756](https://moodle.atlassian.net/browse/MDL-39756) - Essay questions can now require an attachment, with the text optional, rather than the other way around.
+- [MDL-27414](https://moodle.atlassian.net/browse/MDL-27414) - [Random short-answer matching question type](https://docs.moodle.org/27/en/Random_Short-Answer_Matching_question_type) brought back from the dead. (This was in stable branches, but worth mentioning again.)
+- [MDL-43478](https://moodle.atlassian.net/browse/MDL-43478) - Option to show all tries in responses report.
+
+### Assignment[​](#assignment "Direct link to Assignment")
+
+- [MDL-33952](https://moodle.atlassian.net/browse/MDL-33952) - The old Assignment (2.2) module has been removed from core. It has been replaced by a stub to support transparently remapping urls and restoring course backups from the old module to the new one. If you are still using the old assignment module - all instances of the old assignment module will be hidden after upgrading to Moodle 2.7. Once the upgrade tool is run on those assignments they will become visible again. It is recommended to upgrade, and then convert any remaining assignments because logic has been added to the assignment upgrade code for Moodle 2.7 to transparently map urls from the old assignment module to the new one. If you really, really need to keep using the old module, you should update the code to Moodle 2.7, and then replace the "mod/assignment" folder with the one from [https://github.com/moodlehq/moodle-mod\_assignment/releases](https://github.com/moodlehq/moodle-mod_assignment/releases) before completing the upgrade.
+- [MDL-28448](https://moodle.atlassian.net/browse/MDL-28448) - A new capability [mod/assign:editothersubmission](https://docs.moodle.org/27/en/Capabilities/mod/assign:editothersubmission) can be given to teachers to allow them to edit or delete student submissions.
+- [MDL-33600](https://moodle.atlassian.net/browse/MDL-33600) - ['Notify students'](https://docs.moodle.org/27/en/Using_Assignment#Controlling_when_to_notify_students_of_graded_work) is available to control when to send feedback during the grading process.
+- [MDL-34432](https://moodle.atlassian.net/browse/MDL-34432) - Teachers can comment directly on students' work on online text assignments
+- [MDL-42585](https://moodle.atlassian.net/browse/MDL-42585) - New capability [mod/assign:viewgrades](https://docs.moodle.org/27/en/Capabilities/mod/assign:viewgrades) to allow grades to be viewed but not changed
+- [MDL-44268](https://moodle.atlassian.net/browse/MDL-44268) - Assignment grading table [filters](https://docs.moodle.org/27/en/Using_Assignment#Filtering_submissions)
+- [MDL-35373](https://moodle.atlassian.net/browse/MDL-35373) - [Word limit](https://docs.moodle.org/27/en/Assignment_settings#Online_text) feature added to online assignments.
+- [MDL-44629](https://moodle.atlassian.net/browse/MDL-44629) - Assignment plugins can display an introduction.
+
+### Database[​](#database "Direct link to Database")
+
+- [MDL-42842](https://moodle.atlassian.net/browse/MDL-42842) - Availability can be set with [a time as well as a date.](https://docs.moodle.org/27/en/Database_activity_settings)
+
+### Forum[​](#forum "Direct link to Forum")
+
+- [MDL-44505](https://moodle.atlassian.net/browse/MDL-44505) - Subject line of forum notifications can now be configured through language string customisation
+
+### SCORM[​](#scorm "Direct link to SCORM")
+
+- [MDL-43011](https://moodle.atlassian.net/browse/MDL-43011) - SCORM new window now opens without headers/footers as expected.
+
+### Cron[​](#cron "Direct link to Cron")
+
+- [MDL-25499](https://moodle.atlassian.net/browse/MDL-25499) - Cron has received a major update and now has support for both scheduled and adhoc tasks. The benefits of these changes are:
+- The schedule for every task can be configured by the admin
+- Tasks can run in parallel
+- Cron processes use locking to prevent the same task running at the same time by different processes
+
+A result of this is that cron can be run much more often, which means (for example) forum posts can be sent out sooner. It is now strongly recommended that administrators increase the frequency that cron is run to at least *once per minute*, however it can be kept at it's previous schedule if desired if you do not wish to benefit from these changes.
+
+### Badges[​](#badges "Direct link to Badges")
+
+- [MDL-40551](https://moodle.atlassian.net/browse/MDL-40551) - Badges can be [deleted](https://docs.moodle.org/27/en/Managing_badges#Deleting_badges)
+- [MDL-44264](https://moodle.atlassian.net/browse/MDL-44264) - Badges are displayed on [course profile](https://docs.moodle.org/27/en/Badges_settings#Viewing_the_badges_of_other_users) pages
+
+### Authentication[​](#authentication "Direct link to Authentication")
+
+- [MDL-42816](https://moodle.atlassian.net/browse/MDL-42816) - [Manual account authentication](https://docs.moodle.org/27/en/Manual_accounts) can now have password expiry enabled.
+- [MDL-41115](https://moodle.atlassian.net/browse/MDL-41115) - Users can [log in](https://docs.moodle.org/27/en/Managing_authentication) with either their username or their email address.
+- [MDL-33925](https://moodle.atlassian.net/browse/MDL-33925) - Support for self-signed certificate without SSL in auth IMAP
+
+### Gradebook[​](#gradebook "Direct link to Gradebook")
+
+- [MDL-32888](https://moodle.atlassian.net/browse/MDL-32888) - Gradebook search allows for [filtering by student name.](https://docs.moodle.org/27/en/Gradebook)
+- [MDL-31679](https://moodle.atlassian.net/browse/MDL-31679) - The top of the grader report now also has a [horizontal scrollbar](https://docs.moodle.org/27/en/Gradebook).
+- [MDL-22999](https://moodle.atlassian.net/browse/MDL-22999) - [Maximum marks](https://docs.moodle.org/27/en/Grade_points) in standard activities can now exceed 100.
+
+### Course and pages[​](#course-and-pages "Direct link to Course and pages")
+
+- [MDL-38923](https://moodle.atlassian.net/browse/MDL-38923) - Blocks can be docked while using the Clean theme.
+- [MDL-44269](https://moodle.atlassian.net/browse/MDL-44269) - Breadcrumbs moved below the logo image in Clean.
+
+### Mobile[​](#mobile "Direct link to Mobile")
+
+- [MDL-44342](https://moodle.atlassian.net/browse/MDL-44342) - Airnotifier allows notifications to be sent to MoodleMobile app.
+- [MDL-30085](https://moodle.atlassian.net/browse/MDL-30085), [MDL-30106](https://moodle.atlassian.net/browse/MDL-30106) Web services added for grades and forums.
+
+## Security issues[​](#security-issues "Direct link to Security issues")
+
+- [MSA-14-0014](https://moodle.org/mod/forum/discuss.php?d=260361) Cross-site request forgery possible in Assignment
+- [MSA-14-0015](https://moodle.org/mod/forum/discuss.php?d=260362) Web service token expiry issue for MoodleMobile
+- [MSA-14-0016](https://moodle.org/mod/forum/discuss.php?d=260363) Anonymous student identity revealed in Assignment
+- [MSA-14-0017](https://moodle.org/mod/forum/discuss.php?d=260364) File access issue in HTML block
+- [MSA-14-0018](https://moodle.org/mod/forum/discuss.php?d=260365) Information leak in courses
+- [MSA-14-0019](https://moodle.org/mod/forum/discuss.php?d=260366) Reflected XSS in URL downloader repository
+
+## Developer Notes[​](#developer-notes "Direct link to Developer Notes")
+
+- Logging and events: All plugins should convert their logging and triggering of events to the new API. See [Migrating logging calls in plugins](https://docs.moodle.org/dev/Migrating_logging_calls_in_plugins).
+- Reports: Reports that use log table should be updated to use the new logging framework. Old reports will continue to work as before as long as legacy logging is enabled in the site. See [Migrating log access in reports](https://docs.moodle.org/dev/Migrating_log_access_in_reports) for details.
+- Developers can now use the [Lock API](https://moodledev.io/docs/5.2/apis/core/lock) to lock critical tasks (even across cluster nodes).
+- Plugins can now use the [Task API](https://moodledev.io/docs/5.2/apis/subsystems/task) to schedule background tasks and developers are encouraged to convert to this API from legacy cron.
+- New plugin type for conditional availability. See [Availability conditions](https://moodledev.io/docs/5.2/apis/plugintypes/availability).
+- New plugin type for Atto editor. See [Atto](https://moodledev.io/docs/5.2/apis/plugintypes/atto)
+- New plugin type for Logging store.
+
+### API changes[​](#api-changes "Direct link to API changes")
+
+- [MDL-39952](https://moodle.atlassian.net/browse/MDL-39952) - Core events: All core events have been converted to the new [Events API](https://docs.moodle.org/dev/Events_API). The list of all events is available for admin in report "Events list". Writing observers to the new events is easier but old-style observers will continue to work. Moodle plans to add missing validation to core events before release of 2.7.1 (it will not affect plugins unless they directly trigger core events).
+- [MDL-43040](https://moodle.atlassian.net/browse/MDL-43040) - Activity modules should use $plugin instead of $module in mod/\*/version.php.
+- [MDL-45250](https://moodle.atlassian.net/browse/MDL-45250) - add\_to\_log() has been deprecated and now generates debugging warnings\\
+- [MDL-44510](https://moodle.atlassian.net/browse/MDL-44510) - PHPUnit 4.x is now supported.
+- New API for raising php time limit core\_php\_time\_limit::raise()
+- [MDL-39337](https://moodle.atlassian.net/browse/MDL-39337) - New html\_writer::image() api
+
+### Upgrade notes for developers[​](#upgrade-notes-for-developers "Direct link to Upgrade notes for developers")
+
+- [Authentication plugins](https://github.com/moodle/moodle/blob/v2.7.0/auth/upgrade.txt)
+- [Badges](https://github.com/moodle/moodle/blob/v2.7.0/badges/upgrade.txt)
+- [Blog](https://github.com/moodle/moodle/blob/v2.7.0/blog/upgrade.txt)
+- [Cache](https://github.com/moodle/moodle/blob/v2.7.0/cache/upgrade.txt)
+- [Core](https://github.com/moodle/moodle/blob/v2.7.0/lib/upgrade.txt)
+- [Filters](https://github.com/moodle/moodle/blob/v2.7.0/filter/upgrade.txt)
+- [Modules](https://github.com/moodle/moodle/blob/v2.7.0/mod/upgrade.txt)
+- [Question system](https://github.com/moodle/moodle/blob/v2.7.0/question/upgrade.txt)
+- [Reports](https://github.com/moodle/moodle/blob/v2.7.0/report/upgrade.txt)
+- [Tags](https://github.com/moodle/moodle/blob/v2.7.0/tag/upgrade.txt)
+- [Themes](https://github.com/moodle/moodle/blob/v2.7.0/theme/upgrade.txt)
+- [Webservices](https://github.com/moodle/moodle/blob/v2.7.0/webservice/upgrade.txt)
+
+## Development numbers[​](#development-numbers "Direct link to Development numbers")
+
+![A summary of the developer inclusions in Moodle 2.7](https://moodledev.io/assets/images/27devstats-86b0652f653fd0d295c331d7017d8ecc.png)
+
+## See also[​](#see-also "Direct link to See also")
+
+- [User documentation of new features in Moodle 2.7](https://docs.moodle.org/27/en/Category:New_features)
+- [Upgrading to Moodle 2.7](https://docs.moodle.org/27/en/Upgrading_to_Moodle_2.7) - information for admins who are upgrading from earlier versions
+
+## Translations[​](#translations "Direct link to Translations")
+
+- [Notes de mise à jour de Moodle 2.7](https://docs.moodle.org/fr/Notes_de_mise_%C3%A0_jour_de_Moodle_2.7)
+- [Notas de Moodle 2.7](https://docs.moodle.org/es/Notas_de_Moodle_2.7)

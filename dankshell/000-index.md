@@ -20,7 +20,7 @@
 
 | # | File | Title | Summary | Keywords |
 |---|------|-------|---------|----------|
-| 001 | `001-index.md` | Modern Desktop Suite | DankMaterialShell introduction - customizable desktop shell for Wayland with Material Design 3 theming | linux-desktop, wayland, material-design, shell-environment |
+| 001 | `001-homepage.md` | Modern Desktop Suite | DankMaterialShell introduction - customizable desktop shell for Wayland with Material Design 3 theming | linux-desktop, wayland, material-design, shell-environment |
 | 002 | `002-docs.md` | Welcome | Dank Linux introduction and DankMaterialShell quick-start guide | dank-linux, dankmaterialshell, desktop-environment, wayland-shell |
 
 ### 2. Getting Started (003-005)

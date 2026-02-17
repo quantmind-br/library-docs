@@ -20,7 +20,7 @@ category: guide
 <p align="center">Tiling window management native to the Mac.</p>
 <p align="center">
     <a href="https://github.com/asmvik/yabai/blob/master/LICENSE.txt"><img src="https://img.shields.io/github/license/asmvik/yabai.svg?color=green" alt="license"></a>
-    <a href="https://github.com/asmvik/yabai/blob/master/doc/yabai.asciidoc"><img src="https://img.shields.io/badge/view-documentation-green.svg" alt="documentation"></a>
+    <a href="./009-yabai-docs.md"><img src="https://img.shields.io/badge/view-documentation-green.svg" alt="documentation"></a>
     <a href="https://github.com/asmvik/yabai/blob/master/CHANGELOG.md"><img src="https://img.shields.io/badge/view-changelog-green.svg" alt="changelog"></a>
     <a href="https://github.com/asmvik/yabai/releases"><img src="https://img.shields.io/github/commits-since/asmvik/yabai/latest.svg?color=green" alt="version"></a>
 </p>

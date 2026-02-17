@@ -1,0 +1,2770 @@
+{
+  "generated_at": "2026-02-17T14:52:36.697148",
+  "total_documents": 443,
+  "categories": [
+    {
+      "key": "introduction",
+      "name": "Introduction & Overview",
+      "count": 32,
+      "priority": 1
+    },
+    {
+      "key": "installation",
+      "name": "Quick Start & Installation",
+      "count": 6,
+      "priority": 2
+    },
+    {
+      "key": "contribution",
+      "name": "Contributing & Development",
+      "count": 5,
+      "priority": 3
+    },
+    {
+      "key": "applications",
+      "name": "Applications & Frameworks",
+      "count": 33,
+      "priority": 4
+    },
+    {
+      "key": "build-packs",
+      "name": "Build Packs",
+      "count": 1,
+      "priority": 5
+    },
+    {
+      "key": "cicd",
+      "name": "CI/CD & Git Integration",
+      "count": 4,
+      "priority": 6
+    },
+    {
+      "key": "databases",
+      "name": "Databases",
+      "count": 12,
+      "priority": 7
+    },
+    {
+      "key": "services-intro",
+      "name": "Services Overview",
+      "count": 1,
+      "priority": 8
+    },
+    {
+      "key": "services",
+      "name": "Service Templates",
+      "count": 280,
+      "priority": 9
+    },
+    {
+      "key": "knowledge-base",
+      "name": "Knowledge Base",
+      "count": 62,
+      "priority": 10
+    },
+    {
+      "key": "troubleshoot",
+      "name": "Troubleshooting",
+      "count": 3,
+      "priority": 12
+    },
+    {
+      "key": "api",
+      "name": "API Reference",
+      "count": 1,
+      "priority": 13
+    },
+    {
+      "key": "other",
+      "name": "Other Resources",
+      "count": 3,
+      "priority": 99
+    }
+  ],
+  "documents": {
+    "introduction": [
+      {
+        "old": "docs-get-started-cloud.md",
+        "new": "001-docs-get-started-cloud.md",
+        "title": "Coolify Cloud",
+        "url": "https://coolify.io/docs/get-started/cloud.md"
+      },
+      {
+        "old": "docs-get-started-concepts.md",
+        "new": "002-docs-get-started-concepts.md",
+        "title": "Coolify Concepts",
+        "url": "https://coolify.io/docs/get-started/concepts.md"
+      },
+      {
+        "old": "docs-get-started-introduction.md",
+        "new": "003-docs-get-started-introduction.md",
+        "title": "Introduction to Coolify",
+        "url": "https://coolify.io/docs/get-started/introduction.md"
+      },
+      {
+        "old": "docs-get-started-screenshots.md",
+        "new": "004-docs-get-started-screenshots.md",
+        "title": "Coolify UI Screenshots",
+        "url": "https://coolify.io/docs/get-started/screenshots.md"
+      },
+      {
+        "old": "docs-get-started-sponsors.md",
+        "new": "005-docs-get-started-sponsors.md",
+        "title": "Coolify Sponsors",
+        "url": "https://coolify.io/docs/get-started/sponsors.md"
+      },
+      {
+        "old": "docs-get-started-team.md",
+        "new": "006-docs-get-started-team.md",
+        "title": "coolLabs Team",
+        "url": "https://coolify.io/docs/get-started/team.md"
+      },
+      {
+        "old": "docs-get-started-usage.md",
+        "new": "007-docs-get-started-usage.md",
+        "title": "Usage",
+        "url": "https://coolify.io/docs/get-started/usage.md"
+      },
+      {
+        "old": "docs-get-started-videos.md",
+        "new": "008-docs-get-started-videos.md",
+        "title": "Video Tutorials created by the community",
+        "url": "https://coolify.io/docs/get-started/videos.md"
+      },
+      {
+        "old": "docs-knowledge-base-faq.md",
+        "new": "009-docs-knowledge-base-faq.md",
+        "title": "Frequently Asked Questions (FAQ)",
+        "url": "https://coolify.io/docs/knowledge-base/faq.md"
+      },
+      {
+        "old": "docs-knowledge-base-overview.md",
+        "new": "010-docs-knowledge-base-overview.md",
+        "title": "Overview",
+        "url": "https://coolify.io/docs/knowledge-base/overview.md"
+      },
+      {
+        "old": "docs-services-cloudbeaver.md",
+        "new": "011-docs-services-cloudbeaver.md",
+        "title": "Cloudbeaver",
+        "url": "https://coolify.io/docs/services/cloudbeaver.md"
+      },
+      {
+        "old": "docs-services-cloudflared.md",
+        "new": "012-docs-services-cloudflared.md",
+        "title": "Cloudflared",
+        "url": "https://coolify.io/docs/services/cloudflared.md"
+      },
+      {
+        "old": "docs-services-cloudreve.md",
+        "new": "013-docs-services-cloudreve.md",
+        "title": "Cloudreve",
+        "url": "https://coolify.io/docs/services/cloudreve.md"
+      },
+      {
+        "old": "docs-services-introduction.md",
+        "new": "014-docs-services-introduction.md",
+        "title": "Services",
+        "url": "https://coolify.io/docs/services/introduction.md"
+      },
+      {
+        "old": "docs-services-nextcloud.md",
+        "new": "015-docs-services-nextcloud.md",
+        "title": "NextCloud",
+        "url": "https://coolify.io/docs/services/nextcloud.md"
+      },
+      {
+        "old": "docs-services-overview.md",
+        "new": "016-docs-services-overview.md",
+        "title": "Services",
+        "url": "https://coolify.io/docs/services/overview.md"
+      },
+      {
+        "old": "docs-services-owncloud.md",
+        "new": "017-docs-services-owncloud.md",
+        "title": "Owncloud",
+        "url": "https://coolify.io/docs/services/owncloud.md"
+      },
+      {
+        "old": "docs-troubleshoot-overview.md",
+        "new": "018-docs-troubleshoot-overview.md",
+        "title": "\ud83d\udd27 Troubleshooting",
+        "url": "https://coolify.io/docs/troubleshoot/overview.md"
+      },
+      {
+        "old": "docs-applications-build-packs-overview.md",
+        "new": "019-docs-applications-build-packs-overview.md",
+        "title": "Build Packs",
+        "url": "https://coolify.io/docs/applications/build-packs/overview.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-introduction.md",
+        "new": "020-docs-applications-ci-cd-introduction.md",
+        "title": "CI/CD with Git Providers",
+        "url": "https://coolify.io/docs/applications/ci-cd/introduction.md"
+      },
+      {
+        "old": "docs-integrations-cloudflare-ddos-protection.md",
+        "new": "021-docs-integrations-cloudflare-ddos-protection.md",
+        "title": "Cloudflare DDoS Protection",
+        "url": "https://coolify.io/docs/integrations/cloudflare/ddos-protection.md"
+      },
+      {
+        "old": "docs-knowledge-base-s3-introduction.md",
+        "new": "022-docs-knowledge-base-s3-introduction.md",
+        "title": "S3 Introduction",
+        "url": "https://coolify.io/docs/knowledge-base/s3/introduction.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-introduction.md",
+        "new": "023-docs-knowledge-base-server-introduction.md",
+        "title": "Introduction",
+        "url": "https://coolify.io/docs/knowledge-base/server/introduction.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-oracle-cloud.md",
+        "new": "024-docs-knowledge-base-server-oracle-cloud.md",
+        "title": "Oracle Cloud",
+        "url": "https://coolify.io/docs/knowledge-base/server/oracle-cloud.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-overview.md",
+        "new": "025-docs-applications-ci-cd-github-overview.md",
+        "title": "GitHub Integration",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/overview.md"
+      },
+      {
+        "old": "docs-integrations-cloudflare-tunnels-all-resource.md",
+        "new": "026-docs-integrations-cloudflare-tunnels-all-resource.md",
+        "title": "Access All Resource via Cloudflare Tunnels",
+        "url": "https://coolify.io/docs/integrations/cloudflare/tunnels/all-resource.md"
+      },
+      {
+        "old": "docs-integrations-cloudflare-tunnels-full-tls.md",
+        "new": "027-docs-integrations-cloudflare-tunnels-full-tls.md",
+        "title": "Full HTTPS/TLS Setup for All Resources",
+        "url": "https://coolify.io/docs/integrations/cloudflare/tunnels/full-tls.md"
+      },
+      {
+        "old": "docs-integrations-cloudflare-tunnels-overview.md",
+        "new": "028-docs-integrations-cloudflare-tunnels-overview.md",
+        "title": "Cloudflare Tunnels",
+        "url": "https://coolify.io/docs/integrations/cloudflare/tunnels/overview.md"
+      },
+      {
+        "old": "docs-integrations-cloudflare-tunnels-server-ssh.md",
+        "new": "029-docs-integrations-cloudflare-tunnels-server-ssh.md",
+        "title": "Server SSH Access via Cloudflare Tunnels",
+        "url": "https://coolify.io/docs/integrations/cloudflare/tunnels/server-ssh.md"
+      },
+      {
+        "old": "docs-integrations-cloudflare-tunnels-single-resource.md",
+        "new": "030-docs-integrations-cloudflare-tunnels-single-resource.md",
+        "title": "Access Single Resource via Cloudflare Tunnels",
+        "url": "https://coolify.io/docs/integrations/cloudflare/tunnels/single-resource.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-caddy-overview.md",
+        "new": "031-docs-knowledge-base-proxy-caddy-overview.md",
+        "title": "Caddy Proxy",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/caddy/overview.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-overview.md",
+        "new": "032-docs-knowledge-base-proxy-traefik-overview.md",
+        "title": "Traefik Proxy",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/overview.md"
+      }
+    ],
+    "installation": [
+      {
+        "old": "docs-get-started-downgrade.md",
+        "new": "033-docs-get-started-downgrade.md",
+        "title": "Downgrading Coolify",
+        "url": "https://coolify.io/docs/get-started/downgrade.md"
+      },
+      {
+        "old": "docs-get-started-installation.md",
+        "new": "034-docs-get-started-installation.md",
+        "title": "Installation",
+        "url": "https://coolify.io/docs/get-started/installation.md"
+      },
+      {
+        "old": "docs-get-started-uninstallation.md",
+        "new": "035-docs-get-started-uninstallation.md",
+        "title": "Uninstalling Coolify",
+        "url": "https://coolify.io/docs/get-started/uninstallation.md"
+      },
+      {
+        "old": "docs-get-started-upgrade.md",
+        "new": "036-docs-get-started-upgrade.md",
+        "title": "Upgrading Coolify",
+        "url": "https://coolify.io/docs/get-started/upgrade.md"
+      },
+      {
+        "old": "docs-troubleshoot-installation-docker-install-failed.md",
+        "new": "037-docs-troubleshoot-installation-docker-install-failed.md",
+        "title": "Docker Installation Failed",
+        "url": "https://coolify.io/docs/troubleshoot/installation/docker-install-failed.md"
+      },
+      {
+        "old": "docs-troubleshoot-installation-install-script-failed.md",
+        "new": "038-docs-troubleshoot-installation-install-script-failed.md",
+        "title": "Coolify Installation Script Failed",
+        "url": "https://coolify.io/docs/troubleshoot/installation/install-script-failed.md"
+      }
+    ],
+    "contribution": [
+      {
+        "old": "docs-get-started-dev.md",
+        "new": "039-docs-get-started-dev.md",
+        "title": "Coolify Concepts",
+        "url": "https://coolify.io/docs/get-started/dev.md"
+      },
+      {
+        "old": "docs-services-onedev.md",
+        "new": "040-docs-services-onedev.md",
+        "title": "Onedev",
+        "url": "https://coolify.io/docs/services/onedev.md"
+      },
+      {
+        "old": "docs-get-started-contribute-coolify.md",
+        "new": "041-docs-get-started-contribute-coolify.md",
+        "title": "Contributing to Coolify",
+        "url": "https://coolify.io/docs/get-started/contribute/coolify.md"
+      },
+      {
+        "old": "docs-get-started-contribute-documentation.md",
+        "new": "042-docs-get-started-contribute-documentation.md",
+        "title": "Coolify Docs Contribution Guide",
+        "url": "https://coolify.io/docs/get-started/contribute/documentation.md"
+      },
+      {
+        "old": "docs-get-started-contribute-service.md",
+        "new": "043-docs-get-started-contribute-service.md",
+        "title": "Adding a new service template to Coolify",
+        "url": "https://coolify.io/docs/get-started/contribute/service.md"
+      }
+    ],
+    "applications": [
+      {
+        "old": "docs-applications.md",
+        "new": "044-docs-applications.md",
+        "title": "Applications",
+        "url": "https://coolify.io/docs/applications.md"
+      },
+      {
+        "old": "docs-applications-django.md",
+        "new": "045-docs-applications-django.md",
+        "title": "Django",
+        "url": "https://coolify.io/docs/applications/django.md"
+      },
+      {
+        "old": "docs-applications-jekyll.md",
+        "new": "046-docs-applications-jekyll.md",
+        "title": "Jekyll",
+        "url": "https://coolify.io/docs/applications/jekyll.md"
+      },
+      {
+        "old": "docs-applications-laravel.md",
+        "new": "047-docs-applications-laravel.md",
+        "title": "Laravel",
+        "url": "https://coolify.io/docs/applications/laravel.md"
+      },
+      {
+        "old": "docs-applications-nextjs.md",
+        "new": "048-docs-applications-nextjs.md",
+        "title": "NextJS",
+        "url": "https://coolify.io/docs/applications/nextjs.md"
+      },
+      {
+        "old": "docs-applications-nuxt.md",
+        "new": "049-docs-applications-nuxt.md",
+        "title": "Nuxt",
+        "url": "https://coolify.io/docs/applications/nuxt.md"
+      },
+      {
+        "old": "docs-applications-phoenix.md",
+        "new": "050-docs-applications-phoenix.md",
+        "title": "Phoenix",
+        "url": "https://coolify.io/docs/applications/phoenix.md"
+      },
+      {
+        "old": "docs-applications-rails.md",
+        "new": "051-docs-applications-rails.md",
+        "title": "Ruby on Rails",
+        "url": "https://coolify.io/docs/applications/rails.md"
+      },
+      {
+        "old": "docs-applications-svelte-kit.md",
+        "new": "052-docs-applications-svelte-kit.md",
+        "title": "SvelteKit",
+        "url": "https://coolify.io/docs/applications/svelte-kit.md"
+      },
+      {
+        "old": "docs-applications-symfony.md",
+        "new": "053-docs-applications-symfony.md",
+        "title": "Symfony",
+        "url": "https://coolify.io/docs/applications/symfony.md"
+      },
+      {
+        "old": "docs-applications-vite.md",
+        "new": "054-docs-applications-vite.md",
+        "title": "Vite",
+        "url": "https://coolify.io/docs/applications/vite.md"
+      },
+      {
+        "old": "docs-applications-vitepress.md",
+        "new": "055-docs-applications-vitepress.md",
+        "title": "VitePress",
+        "url": "https://coolify.io/docs/applications/vitepress.md"
+      },
+      {
+        "old": "docs-applications-vuejs.md",
+        "new": "056-docs-applications-vuejs.md",
+        "title": "Vue",
+        "url": "https://coolify.io/docs/applications/vuejs.md"
+      },
+      {
+        "old": "docs-applications-build-packs-docker-compose.md",
+        "new": "057-docs-applications-build-packs-docker-compose.md",
+        "title": "Docker Compose Build Packs",
+        "url": "https://coolify.io/docs/applications/build-packs/docker-compose.md"
+      },
+      {
+        "old": "docs-applications-build-packs-dockerfile.md",
+        "new": "058-docs-applications-build-packs-dockerfile.md",
+        "title": "Dockerfile Build Pack",
+        "url": "https://coolify.io/docs/applications/build-packs/dockerfile.md"
+      },
+      {
+        "old": "docs-applications-build-packs-nixpacks.md",
+        "new": "059-docs-applications-build-packs-nixpacks.md",
+        "title": "Nixpacks Build Pack",
+        "url": "https://coolify.io/docs/applications/build-packs/nixpacks.md"
+      },
+      {
+        "old": "docs-applications-build-packs-static.md",
+        "new": "060-docs-applications-build-packs-static.md",
+        "title": "Static Build Packs",
+        "url": "https://coolify.io/docs/applications/build-packs/static.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-other-providers.md",
+        "new": "061-docs-applications-ci-cd-other-providers.md",
+        "title": "Other Git Providers",
+        "url": "https://coolify.io/docs/applications/ci-cd/other-providers.md"
+      },
+      {
+        "old": "docs-troubleshoot-applications-bad-gateway.md",
+        "new": "062-docs-troubleshoot-applications-bad-gateway.md",
+        "title": "Bad Gateway (502) Error",
+        "url": "https://coolify.io/docs/troubleshoot/applications/bad-gateway.md"
+      },
+      {
+        "old": "docs-troubleshoot-applications-failed-to-get-token.md",
+        "new": "063-docs-troubleshoot-applications-failed-to-get-token.md",
+        "title": "Failed To Get Access Token",
+        "url": "https://coolify.io/docs/troubleshoot/applications/failed-to-get-token.md"
+      },
+      {
+        "old": "docs-troubleshoot-applications-gateway-timeout.md",
+        "new": "064-docs-troubleshoot-applications-gateway-timeout.md",
+        "title": "Gateway Timeout (504) Errors",
+        "url": "https://coolify.io/docs/troubleshoot/applications/gateway-timeout.md"
+      },
+      {
+        "old": "docs-troubleshoot-applications-no-available-server.md",
+        "new": "065-docs-troubleshoot-applications-no-available-server.md",
+        "title": "No Available Server (503) Error",
+        "url": "https://coolify.io/docs/troubleshoot/applications/no-available-server.md"
+      },
+      {
+        "old": "docs-applications-build-packs-nixpacks-node-versioning.md",
+        "new": "066-docs-applications-build-packs-nixpacks-node-versioning.md",
+        "title": "Node.js Versioning in Nixpacks",
+        "url": "https://coolify.io/docs/applications/build-packs/nixpacks/node-versioning.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-bitbucket-integration.md",
+        "new": "067-docs-applications-ci-cd-bitbucket-integration.md",
+        "title": "Bitbucket Integration",
+        "url": "https://coolify.io/docs/applications/ci-cd/bitbucket/integration.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-gitea-integration.md",
+        "new": "068-docs-applications-ci-cd-gitea-integration.md",
+        "title": "Gitea Integration",
+        "url": "https://coolify.io/docs/applications/ci-cd/gitea/integration.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-actions.md",
+        "new": "069-docs-applications-ci-cd-github-actions.md",
+        "title": "GitHub Actions",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/actions.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-auto-deploy.md",
+        "new": "070-docs-applications-ci-cd-github-auto-deploy.md",
+        "title": "GitHub Auto Deploy",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/auto-deploy.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-deploy-key.md",
+        "new": "071-docs-applications-ci-cd-github-deploy-key.md",
+        "title": "GitHub Deploy Key",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/deploy-key.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-preview-deploy.md",
+        "new": "072-docs-applications-ci-cd-github-preview-deploy.md",
+        "title": "GitHub Preview Deploy",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/preview-deploy.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-public-repository.md",
+        "new": "073-docs-applications-ci-cd-github-public-repository.md",
+        "title": "Deploy Public Repository",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/public-repository.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-setup-app.md",
+        "new": "074-docs-applications-ci-cd-github-setup-app.md",
+        "title": "GitHub App",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/setup-app.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-github-switch-apps.md",
+        "new": "075-docs-applications-ci-cd-github-switch-apps.md",
+        "title": "Switch GitHub Apps",
+        "url": "https://coolify.io/docs/applications/ci-cd/github/switch-apps.md"
+      },
+      {
+        "old": "docs-applications-ci-cd-gitlab-integration.md",
+        "new": "076-docs-applications-ci-cd-gitlab-integration.md",
+        "title": "GitLab Integration",
+        "url": "https://coolify.io/docs/applications/ci-cd/gitlab/integration.md"
+      }
+    ],
+    "build-packs": [
+      {
+        "old": "docs-knowledge-base-docker-compose.md",
+        "new": "077-docs-knowledge-base-docker-compose.md",
+        "title": "Docker Compose",
+        "url": "https://coolify.io/docs/knowledge-base/docker/compose.md"
+      }
+    ],
+    "cicd": [
+      {
+        "old": "docs-services-gitea.md",
+        "new": "078-docs-services-gitea.md",
+        "title": "Gitea",
+        "url": "https://coolify.io/docs/services/gitea.md"
+      },
+      {
+        "old": "docs-services-github-runner.md",
+        "new": "079-docs-services-github-runner.md",
+        "title": "GitHub Runner",
+        "url": "https://coolify.io/docs/services/github-runner.md"
+      },
+      {
+        "old": "docs-services-gitlab.md",
+        "new": "080-docs-services-gitlab.md",
+        "title": "GitLab",
+        "url": "https://coolify.io/docs/services/gitlab.md"
+      },
+      {
+        "old": "docs-troubleshoot-docker-expired-github-personal-access-token.md",
+        "new": "081-docs-troubleshoot-docker-expired-github-personal-access-token.md",
+        "title": "Expired GitHub Personal Access Token (PAT)",
+        "url": "https://coolify.io/docs/troubleshoot/docker/expired-github-personal-access-token.md"
+      }
+    ],
+    "databases": [
+      {
+        "old": "docs-databases.md",
+        "new": "082-docs-databases.md",
+        "title": "Databases you can host with Coolify",
+        "url": "https://coolify.io/docs/databases.md"
+      },
+      {
+        "old": "docs-databases-backups.md",
+        "new": "083-docs-databases-backups.md",
+        "title": "Backups",
+        "url": "https://coolify.io/docs/databases/backups.md"
+      },
+      {
+        "old": "docs-databases-clickhouse.md",
+        "new": "084-docs-databases-clickhouse.md",
+        "title": "Clickhouse",
+        "url": "https://coolify.io/docs/databases/clickhouse.md"
+      },
+      {
+        "old": "docs-databases-dragonfly.md",
+        "new": "085-docs-databases-dragonfly.md",
+        "title": "DragonFly",
+        "url": "https://coolify.io/docs/databases/dragonfly.md"
+      },
+      {
+        "old": "docs-databases-keydb.md",
+        "new": "086-docs-databases-keydb.md",
+        "title": "KeyDB",
+        "url": "https://coolify.io/docs/databases/keydb.md"
+      },
+      {
+        "old": "docs-databases-mariadb.md",
+        "new": "087-docs-databases-mariadb.md",
+        "title": "MariaDB",
+        "url": "https://coolify.io/docs/databases/mariadb.md"
+      },
+      {
+        "old": "docs-databases-mongodb.md",
+        "new": "088-docs-databases-mongodb.md",
+        "title": "MongoDB",
+        "url": "https://coolify.io/docs/databases/mongodb.md"
+      },
+      {
+        "old": "docs-databases-mysql.md",
+        "new": "089-docs-databases-mysql.md",
+        "title": "MySQL",
+        "url": "https://coolify.io/docs/databases/mysql.md"
+      },
+      {
+        "old": "docs-databases-postgresql.md",
+        "new": "090-docs-databases-postgresql.md",
+        "title": "PostgreSQL",
+        "url": "https://coolify.io/docs/databases/postgresql.md"
+      },
+      {
+        "old": "docs-databases-redis.md",
+        "new": "091-docs-databases-redis.md",
+        "title": "Redis",
+        "url": "https://coolify.io/docs/databases/redis.md"
+      },
+      {
+        "old": "docs-databases-ssl.md",
+        "new": "092-docs-databases-ssl.md",
+        "title": "Database SSL &#x20;",
+        "url": "https://coolify.io/docs/databases/ssl.md"
+      },
+      {
+        "old": "docs-services-redis-insight.md",
+        "new": "093-docs-services-redis-insight.md",
+        "title": "Redis Insight",
+        "url": "https://coolify.io/docs/services/redis-insight.md"
+      }
+    ],
+    "services-intro": [
+      {
+        "old": "docs-services-all.md",
+        "new": "094-docs-services-all.md",
+        "title": "All Services",
+        "url": "https://coolify.io/docs/services/all.md"
+      }
+    ],
+    "services": [
+      {
+        "old": "docs-services-activepieces.md",
+        "new": "095-docs-services-activepieces.md",
+        "title": "ActivePieces",
+        "url": "https://coolify.io/docs/services/activepieces.md"
+      },
+      {
+        "old": "docs-services-actualbudget.md",
+        "new": "096-docs-services-actualbudget.md",
+        "title": "Actual Budget",
+        "url": "https://coolify.io/docs/services/actualbudget.md"
+      },
+      {
+        "old": "docs-services-affine.md",
+        "new": "097-docs-services-affine.md",
+        "title": "Affine",
+        "url": "https://coolify.io/docs/services/affine.md"
+      },
+      {
+        "old": "docs-services-alexandrie.md",
+        "new": "098-docs-services-alexandrie.md",
+        "title": "Alexandrie",
+        "url": "https://coolify.io/docs/services/alexandrie.md"
+      },
+      {
+        "old": "docs-services-anythingllm.md",
+        "new": "099-docs-services-anythingllm.md",
+        "title": "AnythingLLM",
+        "url": "https://coolify.io/docs/services/anythingllm.md"
+      },
+      {
+        "old": "docs-services-appflowy.md",
+        "new": "100-docs-services-appflowy.md",
+        "title": "AppFlowy",
+        "url": "https://coolify.io/docs/services/appflowy.md"
+      },
+      {
+        "old": "docs-services-apprise-api.md",
+        "new": "101-docs-services-apprise-api.md",
+        "title": "What is Apprise API?",
+        "url": "https://coolify.io/docs/services/apprise-api.md"
+      },
+      {
+        "old": "docs-services-appsmith.md",
+        "new": "102-docs-services-appsmith.md",
+        "title": "Appsmith",
+        "url": "https://coolify.io/docs/services/appsmith.md"
+      },
+      {
+        "old": "docs-services-appwrite.md",
+        "new": "103-docs-services-appwrite.md",
+        "title": "Appwrite",
+        "url": "https://coolify.io/docs/services/appwrite.md"
+      },
+      {
+        "old": "docs-services-argilla.md",
+        "new": "104-docs-services-argilla.md",
+        "title": "Argilla",
+        "url": "https://coolify.io/docs/services/argilla.md"
+      },
+      {
+        "old": "docs-services-audiobookshelf.md",
+        "new": "105-docs-services-audiobookshelf.md",
+        "title": "Audiobookshelf",
+        "url": "https://coolify.io/docs/services/audiobookshelf.md"
+      },
+      {
+        "old": "docs-services-authentik.md",
+        "new": "106-docs-services-authentik.md",
+        "title": "Authentik",
+        "url": "https://coolify.io/docs/services/authentik.md"
+      },
+      {
+        "old": "docs-services-autobase.md",
+        "new": "107-docs-services-autobase.md",
+        "title": "Autobase",
+        "url": "https://coolify.io/docs/services/autobase.md"
+      },
+      {
+        "old": "docs-services-babybuddy.md",
+        "new": "108-docs-services-babybuddy.md",
+        "title": "BabyBuddy",
+        "url": "https://coolify.io/docs/services/babybuddy.md"
+      },
+      {
+        "old": "docs-services-bento-pdf.md",
+        "new": "109-docs-services-bento-pdf.md",
+        "title": "BentoPDF",
+        "url": "https://coolify.io/docs/services/bento-pdf.md"
+      },
+      {
+        "old": "docs-services-beszel.md",
+        "new": "110-docs-services-beszel.md",
+        "title": "Beszel",
+        "url": "https://coolify.io/docs/services/beszel.md"
+      },
+      {
+        "old": "docs-services-bitcoin-core.md",
+        "new": "111-docs-services-bitcoin-core.md",
+        "title": "Bitcoin Core",
+        "url": "https://coolify.io/docs/services/bitcoin-core.md"
+      },
+      {
+        "old": "docs-services-bluesky-pds.md",
+        "new": "112-docs-services-bluesky-pds.md",
+        "title": "Bluesky PDS",
+        "url": "https://coolify.io/docs/services/bluesky-pds.md"
+      },
+      {
+        "old": "docs-services-booklore.md",
+        "new": "113-docs-services-booklore.md",
+        "title": "Booklore",
+        "url": "https://coolify.io/docs/services/booklore.md"
+      },
+      {
+        "old": "docs-services-bookstack.md",
+        "new": "114-docs-services-bookstack.md",
+        "title": "Bookstack",
+        "url": "https://coolify.io/docs/services/bookstack.md"
+      },
+      {
+        "old": "docs-services-browserless.md",
+        "new": "115-docs-services-browserless.md",
+        "title": "Browserless",
+        "url": "https://coolify.io/docs/services/browserless.md"
+      },
+      {
+        "old": "docs-services-budge.md",
+        "new": "116-docs-services-budge.md",
+        "title": "BudgE",
+        "url": "https://coolify.io/docs/services/budge.md"
+      },
+      {
+        "old": "docs-services-budibase.md",
+        "new": "117-docs-services-budibase.md",
+        "title": "Budibase",
+        "url": "https://coolify.io/docs/services/budibase.md"
+      },
+      {
+        "old": "docs-services-bugsink.md",
+        "new": "118-docs-services-bugsink.md",
+        "title": "Bugsink",
+        "url": "https://coolify.io/docs/services/bugsink.md"
+      },
+      {
+        "old": "docs-services-calcom.md",
+        "new": "119-docs-services-calcom.md",
+        "title": "Calcom",
+        "url": "https://coolify.io/docs/services/calcom.md"
+      },
+      {
+        "old": "docs-services-calibre-web-automated-with-downloader.md",
+        "new": "120-docs-services-calibre-web-automated-with-downloader.md",
+        "title": "What is Calibre Web Automated with Downloader",
+        "url": "https://coolify.io/docs/services/calibre-web-automated-with-downloader.md"
+      },
+      {
+        "old": "docs-services-calibre-web.md",
+        "new": "121-docs-services-calibre-web.md",
+        "title": "Calibre Web",
+        "url": "https://coolify.io/docs/services/calibre-web.md"
+      },
+      {
+        "old": "docs-services-cap.md",
+        "new": "122-docs-services-cap.md",
+        "title": "Cap",
+        "url": "https://coolify.io/docs/services/cap.md"
+      },
+      {
+        "old": "docs-services-castopod.md",
+        "new": "123-docs-services-castopod.md",
+        "title": "Castopod",
+        "url": "https://coolify.io/docs/services/castopod.md"
+      },
+      {
+        "old": "docs-services-changedetection.md",
+        "new": "124-docs-services-changedetection.md",
+        "title": "Change Detection",
+        "url": "https://coolify.io/docs/services/changedetection.md"
+      },
+      {
+        "old": "docs-services-chaskiq.md",
+        "new": "125-docs-services-chaskiq.md",
+        "title": "Chaskiq",
+        "url": "https://coolify.io/docs/services/chaskiq.md"
+      },
+      {
+        "old": "docs-services-chatwoot.md",
+        "new": "126-docs-services-chatwoot.md",
+        "title": "Chatwoot",
+        "url": "https://coolify.io/docs/services/chatwoot.md"
+      },
+      {
+        "old": "docs-services-checkmate.md",
+        "new": "127-docs-services-checkmate.md",
+        "title": "Checkmate",
+        "url": "https://coolify.io/docs/services/checkmate.md"
+      },
+      {
+        "old": "docs-services-chibisafe.md",
+        "new": "128-docs-services-chibisafe.md",
+        "title": "Chibisafe",
+        "url": "https://coolify.io/docs/services/chibisafe.md"
+      },
+      {
+        "old": "docs-services-chroma.md",
+        "new": "129-docs-services-chroma.md",
+        "title": "Chroma",
+        "url": "https://coolify.io/docs/services/chroma.md"
+      },
+      {
+        "old": "docs-services-classicpress.md",
+        "new": "130-docs-services-classicpress.md",
+        "title": "ClassicPress",
+        "url": "https://coolify.io/docs/services/classicpress.md"
+      },
+      {
+        "old": "docs-services-cockpit.md",
+        "new": "131-docs-services-cockpit.md",
+        "title": "Cockpit",
+        "url": "https://coolify.io/docs/services/cockpit.md"
+      },
+      {
+        "old": "docs-services-code-server.md",
+        "new": "132-docs-services-code-server.md",
+        "title": "Code Server",
+        "url": "https://coolify.io/docs/services/code-server.md"
+      },
+      {
+        "old": "docs-services-codimd.md",
+        "new": "133-docs-services-codimd.md",
+        "title": "CodiMD",
+        "url": "https://coolify.io/docs/services/codimd.md"
+      },
+      {
+        "old": "docs-services-convertx.md",
+        "new": "134-docs-services-convertx.md",
+        "title": "Convertx",
+        "url": "https://coolify.io/docs/services/convertx.md"
+      },
+      {
+        "old": "docs-services-convex.md",
+        "new": "135-docs-services-convex.md",
+        "title": "Convex",
+        "url": "https://coolify.io/docs/services/convex.md"
+      },
+      {
+        "old": "docs-services-cryptgeon.md",
+        "new": "136-docs-services-cryptgeon.md",
+        "title": "Cryptgeon",
+        "url": "https://coolify.io/docs/services/cryptgeon.md"
+      },
+      {
+        "old": "docs-services-cyberchef.md",
+        "new": "137-docs-services-cyberchef.md",
+        "title": "Cyberchef",
+        "url": "https://coolify.io/docs/services/cyberchef.md"
+      },
+      {
+        "old": "docs-services-dashboard.md",
+        "new": "138-docs-services-dashboard.md",
+        "title": "Dashboard",
+        "url": "https://coolify.io/docs/services/dashboard.md"
+      },
+      {
+        "old": "docs-services-dashy.md",
+        "new": "139-docs-services-dashy.md",
+        "title": "Dashy",
+        "url": "https://coolify.io/docs/services/dashy.md"
+      },
+      {
+        "old": "docs-services-databasus.md",
+        "new": "140-docs-services-databasus.md",
+        "title": "Databasus",
+        "url": "https://coolify.io/docs/services/databasus.md"
+      },
+      {
+        "old": "docs-services-denokv.md",
+        "new": "141-docs-services-denokv.md",
+        "title": "Denokv",
+        "url": "https://coolify.io/docs/services/denokv.md"
+      },
+      {
+        "old": "docs-services-directus.md",
+        "new": "142-docs-services-directus.md",
+        "title": "Directus",
+        "url": "https://coolify.io/docs/services/directus.md"
+      },
+      {
+        "old": "docs-services-diun.md",
+        "new": "143-docs-services-diun.md",
+        "title": "Diun",
+        "url": "https://coolify.io/docs/services/diun.md"
+      },
+      {
+        "old": "docs-services-docker-registry.md",
+        "new": "144-docs-services-docker-registry.md",
+        "title": "Docker Registry",
+        "url": "https://coolify.io/docs/services/docker-registry.md"
+      },
+      {
+        "old": "docs-services-docmost.md",
+        "new": "145-docs-services-docmost.md",
+        "title": "What is Docmost?",
+        "url": "https://coolify.io/docs/services/docmost.md"
+      },
+      {
+        "old": "docs-services-documenso.md",
+        "new": "146-docs-services-documenso.md",
+        "title": "Documenso",
+        "url": "https://coolify.io/docs/services/documenso.md"
+      },
+      {
+        "old": "docs-services-docuseal.md",
+        "new": "147-docs-services-docuseal.md",
+        "title": "Docuseal",
+        "url": "https://coolify.io/docs/services/docuseal.md"
+      },
+      {
+        "old": "docs-services-dokuwiki.md",
+        "new": "148-docs-services-dokuwiki.md",
+        "title": "DokuWiki",
+        "url": "https://coolify.io/docs/services/dokuwiki.md"
+      },
+      {
+        "old": "docs-services-dolibarr.md",
+        "new": "149-docs-services-dolibarr.md",
+        "title": "Dolibarr",
+        "url": "https://coolify.io/docs/services/dolibarr.md"
+      },
+      {
+        "old": "docs-services-dozzle.md",
+        "new": "150-docs-services-dozzle.md",
+        "title": "Dozzle",
+        "url": "https://coolify.io/docs/services/dozzle.md"
+      },
+      {
+        "old": "docs-services-drizzle-gateway.md",
+        "new": "151-docs-services-drizzle-gateway.md",
+        "title": "Drizzle Gateway",
+        "url": "https://coolify.io/docs/services/drizzle-gateway.md"
+      },
+      {
+        "old": "docs-services-drupal.md",
+        "new": "152-docs-services-drupal.md",
+        "title": "Drupal",
+        "url": "https://coolify.io/docs/services/drupal.md"
+      },
+      {
+        "old": "docs-services-duplicati.md",
+        "new": "153-docs-services-duplicati.md",
+        "title": "Duplicati",
+        "url": "https://coolify.io/docs/services/duplicati.md"
+      },
+      {
+        "old": "docs-services-easyappointments.md",
+        "new": "154-docs-services-easyappointments.md",
+        "title": "Easyappointments",
+        "url": "https://coolify.io/docs/services/easyappointments.md"
+      },
+      {
+        "old": "docs-services-elasticsearch.md",
+        "new": "155-docs-services-elasticsearch.md",
+        "title": "Elasticsearch",
+        "url": "https://coolify.io/docs/services/elasticsearch.md"
+      },
+      {
+        "old": "docs-services-emby.md",
+        "new": "156-docs-services-emby.md",
+        "title": "Emby",
+        "url": "https://coolify.io/docs/services/emby.md"
+      },
+      {
+        "old": "docs-services-embystat.md",
+        "new": "157-docs-services-embystat.md",
+        "title": "Emby Stat",
+        "url": "https://coolify.io/docs/services/embystat.md"
+      },
+      {
+        "old": "docs-services-ente-photos.md",
+        "new": "158-docs-services-ente-photos.md",
+        "title": "Ente",
+        "url": "https://coolify.io/docs/services/ente-photos.md"
+      },
+      {
+        "old": "docs-services-esphome.md",
+        "new": "159-docs-services-esphome.md",
+        "title": "ESPHome",
+        "url": "https://coolify.io/docs/services/esphome.md"
+      },
+      {
+        "old": "docs-services-evolution-api.md",
+        "new": "160-docs-services-evolution-api.md",
+        "title": "Evolution API",
+        "url": "https://coolify.io/docs/services/evolution-api.md"
+      },
+      {
+        "old": "docs-services-excalidraw.md",
+        "new": "161-docs-services-excalidraw.md",
+        "title": "Excalidraw",
+        "url": "https://coolify.io/docs/services/excalidraw.md"
+      },
+      {
+        "old": "docs-services-faraday.md",
+        "new": "162-docs-services-faraday.md",
+        "title": "Faraday",
+        "url": "https://coolify.io/docs/services/faraday.md"
+      },
+      {
+        "old": "docs-services-fider.md",
+        "new": "163-docs-services-fider.md",
+        "title": "Fider",
+        "url": "https://coolify.io/docs/services/fider.md"
+      },
+      {
+        "old": "docs-services-filebrowser.md",
+        "new": "164-docs-services-filebrowser.md",
+        "title": "Filebrowser",
+        "url": "https://coolify.io/docs/services/filebrowser.md"
+      },
+      {
+        "old": "docs-services-fileflows.md",
+        "new": "165-docs-services-fileflows.md",
+        "title": "FileFlows",
+        "url": "https://coolify.io/docs/services/fileflows.md"
+      },
+      {
+        "old": "docs-services-firefly.md",
+        "new": "166-docs-services-firefly.md",
+        "title": "Firefly III",
+        "url": "https://coolify.io/docs/services/firefly.md"
+      },
+      {
+        "old": "docs-services-firefox.md",
+        "new": "167-docs-services-firefox.md",
+        "title": "Firefox",
+        "url": "https://coolify.io/docs/services/firefox.md"
+      },
+      {
+        "old": "docs-services-fizzy.md",
+        "new": "168-docs-services-fizzy.md",
+        "title": "Fizzy",
+        "url": "https://coolify.io/docs/services/fizzy.md"
+      },
+      {
+        "old": "docs-services-flipt.md",
+        "new": "169-docs-services-flipt.md",
+        "title": "Flipt",
+        "url": "https://coolify.io/docs/services/flipt.md"
+      },
+      {
+        "old": "docs-services-flowise.md",
+        "new": "170-docs-services-flowise.md",
+        "title": "Flowise",
+        "url": "https://coolify.io/docs/services/flowise.md"
+      },
+      {
+        "old": "docs-services-forgejo.md",
+        "new": "171-docs-services-forgejo.md",
+        "title": "Forgejo",
+        "url": "https://coolify.io/docs/services/forgejo.md"
+      },
+      {
+        "old": "docs-services-formbricks.md",
+        "new": "172-docs-services-formbricks.md",
+        "title": "Formbricks",
+        "url": "https://coolify.io/docs/services/formbricks.md"
+      },
+      {
+        "old": "docs-services-foundryvtt.md",
+        "new": "173-docs-services-foundryvtt.md",
+        "title": "Foundryvtt",
+        "url": "https://coolify.io/docs/services/foundryvtt.md"
+      },
+      {
+        "old": "docs-services-freescout.md",
+        "new": "174-docs-services-freescout.md",
+        "title": "Freescout",
+        "url": "https://coolify.io/docs/services/freescout.md"
+      },
+      {
+        "old": "docs-services-freshrss.md",
+        "new": "175-docs-services-freshrss.md",
+        "title": "Freshrss",
+        "url": "https://coolify.io/docs/services/freshrss.md"
+      },
+      {
+        "old": "docs-services-garage.md",
+        "new": "176-docs-services-garage.md",
+        "title": "Garage",
+        "url": "https://coolify.io/docs/services/garage.md"
+      },
+      {
+        "old": "docs-services-getoutline.md",
+        "new": "177-docs-services-getoutline.md",
+        "title": "What is Outline?",
+        "url": "https://coolify.io/docs/services/getoutline.md"
+      },
+      {
+        "old": "docs-services-ghost.md",
+        "new": "178-docs-services-ghost.md",
+        "title": "Ghost",
+        "url": "https://coolify.io/docs/services/ghost.md"
+      },
+      {
+        "old": "docs-services-glance.md",
+        "new": "179-docs-services-glance.md",
+        "title": "Glance",
+        "url": "https://coolify.io/docs/services/glance.md"
+      },
+      {
+        "old": "docs-services-glances.md",
+        "new": "180-docs-services-glances.md",
+        "title": "Glances",
+        "url": "https://coolify.io/docs/services/glances.md"
+      },
+      {
+        "old": "docs-services-glitchtip.md",
+        "new": "181-docs-services-glitchtip.md",
+        "title": "Glitchtip",
+        "url": "https://coolify.io/docs/services/glitchtip.md"
+      },
+      {
+        "old": "docs-services-glpi.md",
+        "new": "182-docs-services-glpi.md",
+        "title": "GLPI",
+        "url": "https://coolify.io/docs/services/glpi.md"
+      },
+      {
+        "old": "docs-services-goatcounter.md",
+        "new": "183-docs-services-goatcounter.md",
+        "title": "What is GoatCounter?",
+        "url": "https://coolify.io/docs/services/goatcounter.md"
+      },
+      {
+        "old": "docs-services-gotenberg.md",
+        "new": "184-docs-services-gotenberg.md",
+        "title": "Gotenberg",
+        "url": "https://coolify.io/docs/services/gotenberg.md"
+      },
+      {
+        "old": "docs-services-gotify.md",
+        "new": "185-docs-services-gotify.md",
+        "title": "Gotify",
+        "url": "https://coolify.io/docs/services/gotify.md"
+      },
+      {
+        "old": "docs-services-gowa.md",
+        "new": "186-docs-services-gowa.md",
+        "title": "GoWa",
+        "url": "https://coolify.io/docs/services/gowa.md"
+      },
+      {
+        "old": "docs-services-grafana.md",
+        "new": "187-docs-services-grafana.md",
+        "title": "Grafana",
+        "url": "https://coolify.io/docs/services/grafana.md"
+      },
+      {
+        "old": "docs-services-gramps-web.md",
+        "new": "188-docs-services-gramps-web.md",
+        "title": "Gramps Web",
+        "url": "https://coolify.io/docs/services/gramps-web.md"
+      },
+      {
+        "old": "docs-services-grist.md",
+        "new": "189-docs-services-grist.md",
+        "title": "Grist",
+        "url": "https://coolify.io/docs/services/grist.md"
+      },
+      {
+        "old": "docs-services-grocy.md",
+        "new": "190-docs-services-grocy.md",
+        "title": "Grocy",
+        "url": "https://coolify.io/docs/services/grocy.md"
+      },
+      {
+        "old": "docs-services-hatchet.md",
+        "new": "191-docs-services-hatchet.md",
+        "title": "Hatchet",
+        "url": "https://coolify.io/docs/services/hatchet.md"
+      },
+      {
+        "old": "docs-services-heyform.md",
+        "new": "192-docs-services-heyform.md",
+        "title": "Heyform",
+        "url": "https://coolify.io/docs/services/heyform.md"
+      },
+      {
+        "old": "docs-services-hoarder.md",
+        "new": "193-docs-services-hoarder.md",
+        "title": "Hoarder",
+        "url": "https://coolify.io/docs/services/hoarder.md"
+      },
+      {
+        "old": "docs-services-homarr.md",
+        "new": "194-docs-services-homarr.md",
+        "title": "Homarr",
+        "url": "https://coolify.io/docs/services/homarr.md"
+      },
+      {
+        "old": "docs-services-home-assistant.md",
+        "new": "195-docs-services-home-assistant.md",
+        "title": "Home Assistant",
+        "url": "https://coolify.io/docs/services/home-assistant.md"
+      },
+      {
+        "old": "docs-services-homebox.md",
+        "new": "196-docs-services-homebox.md",
+        "title": "Homebox",
+        "url": "https://coolify.io/docs/services/homebox.md"
+      },
+      {
+        "old": "docs-services-homepage.md",
+        "new": "197-docs-services-homepage.md",
+        "title": "Homepage",
+        "url": "https://coolify.io/docs/services/homepage.md"
+      },
+      {
+        "old": "docs-services-hoppscotch.md",
+        "new": "198-docs-services-hoppscotch.md",
+        "title": "Hoppscotch",
+        "url": "https://coolify.io/docs/services/hoppscotch.md"
+      },
+      {
+        "old": "docs-services-immich.md",
+        "new": "199-docs-services-immich.md",
+        "title": "Immich",
+        "url": "https://coolify.io/docs/services/immich.md"
+      },
+      {
+        "old": "docs-services-infisical.md",
+        "new": "200-docs-services-infisical.md",
+        "title": "Infisical",
+        "url": "https://coolify.io/docs/services/infisical.md"
+      },
+      {
+        "old": "docs-services-invoice-ninja.md",
+        "new": "201-docs-services-invoice-ninja.md",
+        "title": "Invoice Ninja",
+        "url": "https://coolify.io/docs/services/invoice-ninja.md"
+      },
+      {
+        "old": "docs-services-it-tools.md",
+        "new": "202-docs-services-it-tools.md",
+        "title": "It Tools",
+        "url": "https://coolify.io/docs/services/it-tools.md"
+      },
+      {
+        "old": "docs-services-jellyfin.md",
+        "new": "203-docs-services-jellyfin.md",
+        "title": "Jellyfin",
+        "url": "https://coolify.io/docs/services/jellyfin.md"
+      },
+      {
+        "old": "docs-services-jenkins.md",
+        "new": "204-docs-services-jenkins.md",
+        "title": "Jenkins",
+        "url": "https://coolify.io/docs/services/jenkins.md"
+      },
+      {
+        "old": "docs-services-joomla.md",
+        "new": "205-docs-services-joomla.md",
+        "title": "Joomla",
+        "url": "https://coolify.io/docs/services/joomla.md"
+      },
+      {
+        "old": "docs-services-joplin.md",
+        "new": "206-docs-services-joplin.md",
+        "title": "Joplin",
+        "url": "https://coolify.io/docs/services/joplin.md"
+      },
+      {
+        "old": "docs-services-jupyter-notebook-python.md",
+        "new": "207-docs-services-jupyter-notebook-python.md",
+        "title": "Jupyter Notebook Python",
+        "url": "https://coolify.io/docs/services/jupyter-notebook-python.md"
+      },
+      {
+        "old": "docs-services-karakeep.md",
+        "new": "208-docs-services-karakeep.md",
+        "title": "KaraKeep",
+        "url": "https://coolify.io/docs/services/karakeep.md"
+      },
+      {
+        "old": "docs-services-keycloak.md",
+        "new": "209-docs-services-keycloak.md",
+        "title": "Keycloak",
+        "url": "https://coolify.io/docs/services/keycloak.md"
+      },
+      {
+        "old": "docs-services-kimai.md",
+        "new": "210-docs-services-kimai.md",
+        "title": "Kimai",
+        "url": "https://coolify.io/docs/services/kimai.md"
+      },
+      {
+        "old": "docs-services-kuzzle.md",
+        "new": "211-docs-services-kuzzle.md",
+        "title": "Kuzzle",
+        "url": "https://coolify.io/docs/services/kuzzle.md"
+      },
+      {
+        "old": "docs-services-labelstudio.md",
+        "new": "212-docs-services-labelstudio.md",
+        "title": "What is Label Studio?",
+        "url": "https://coolify.io/docs/services/labelstudio.md"
+      },
+      {
+        "old": "docs-services-langflow.md",
+        "new": "213-docs-services-langflow.md",
+        "title": "Langflow",
+        "url": "https://coolify.io/docs/services/langflow.md"
+      },
+      {
+        "old": "docs-services-langfuse.md",
+        "new": "214-docs-services-langfuse.md",
+        "title": "What is Langfuse?",
+        "url": "https://coolify.io/docs/services/langfuse.md"
+      },
+      {
+        "old": "docs-services-leantime.md",
+        "new": "215-docs-services-leantime.md",
+        "title": "Leantime",
+        "url": "https://coolify.io/docs/services/leantime.md"
+      },
+      {
+        "old": "docs-services-librechat.md",
+        "new": "216-docs-services-librechat.md",
+        "title": "LibreChat",
+        "url": "https://coolify.io/docs/services/librechat.md"
+      },
+      {
+        "old": "docs-services-libreoffice.md",
+        "new": "217-docs-services-libreoffice.md",
+        "title": "Libreoffice",
+        "url": "https://coolify.io/docs/services/libreoffice.md"
+      },
+      {
+        "old": "docs-services-libretranslate.md",
+        "new": "218-docs-services-libretranslate.md",
+        "title": "Libretranslate",
+        "url": "https://coolify.io/docs/services/libretranslate.md"
+      },
+      {
+        "old": "docs-services-limesurvey.md",
+        "new": "219-docs-services-limesurvey.md",
+        "title": "LimeSurvey",
+        "url": "https://coolify.io/docs/services/limesurvey.md"
+      },
+      {
+        "old": "docs-services-linkding.md",
+        "new": "220-docs-services-linkding.md",
+        "title": "Linkding",
+        "url": "https://coolify.io/docs/services/linkding.md"
+      },
+      {
+        "old": "docs-services-listmonk.md",
+        "new": "221-docs-services-listmonk.md",
+        "title": "Listmonk",
+        "url": "https://coolify.io/docs/services/listmonk.md"
+      },
+      {
+        "old": "docs-services-litellm.md",
+        "new": "222-docs-services-litellm.md",
+        "title": "What is Litellm?",
+        "url": "https://coolify.io/docs/services/litellm.md"
+      },
+      {
+        "old": "docs-services-litequeen.md",
+        "new": "223-docs-services-litequeen.md",
+        "title": "Litequeen",
+        "url": "https://coolify.io/docs/services/litequeen.md"
+      },
+      {
+        "old": "docs-services-lobe-chat.md",
+        "new": "224-docs-services-lobe-chat.md",
+        "title": "LobeChat",
+        "url": "https://coolify.io/docs/services/lobe-chat.md"
+      },
+      {
+        "old": "docs-services-logto.md",
+        "new": "225-docs-services-logto.md",
+        "title": "Logto",
+        "url": "https://coolify.io/docs/services/logto.md"
+      },
+      {
+        "old": "docs-services-lowcoder.md",
+        "new": "226-docs-services-lowcoder.md",
+        "title": "Lowcoder",
+        "url": "https://coolify.io/docs/services/lowcoder.md"
+      },
+      {
+        "old": "docs-services-mage-ai.md",
+        "new": "227-docs-services-mage-ai.md",
+        "title": "Mage AI",
+        "url": "https://coolify.io/docs/services/mage-ai.md"
+      },
+      {
+        "old": "docs-services-mailpit.md",
+        "new": "228-docs-services-mailpit.md",
+        "title": "What is Mailpit?",
+        "url": "https://coolify.io/docs/services/mailpit.md"
+      },
+      {
+        "old": "docs-services-marimo.md",
+        "new": "229-docs-services-marimo.md",
+        "title": "Marimo",
+        "url": "https://coolify.io/docs/services/marimo.md"
+      },
+      {
+        "old": "docs-services-martin.md",
+        "new": "230-docs-services-martin.md",
+        "title": "Martin",
+        "url": "https://coolify.io/docs/services/martin.md"
+      },
+      {
+        "old": "docs-services-matrix.md",
+        "new": "231-docs-services-matrix.md",
+        "title": "Matrix (Synapse)",
+        "url": "https://coolify.io/docs/services/matrix.md"
+      },
+      {
+        "old": "docs-services-mattermost.md",
+        "new": "232-docs-services-mattermost.md",
+        "title": "Mattermost",
+        "url": "https://coolify.io/docs/services/mattermost.md"
+      },
+      {
+        "old": "docs-services-mautic.md",
+        "new": "233-docs-services-mautic.md",
+        "title": "Mautic",
+        "url": "https://coolify.io/docs/services/mautic.md"
+      },
+      {
+        "old": "docs-services-maybe.md",
+        "new": "234-docs-services-maybe.md",
+        "title": "Maybe",
+        "url": "https://coolify.io/docs/services/maybe.md"
+      },
+      {
+        "old": "docs-services-mealie.md",
+        "new": "235-docs-services-mealie.md",
+        "title": "Mealie",
+        "url": "https://coolify.io/docs/services/mealie.md"
+      },
+      {
+        "old": "docs-services-mediawiki.md",
+        "new": "236-docs-services-mediawiki.md",
+        "title": "Mediawiki",
+        "url": "https://coolify.io/docs/services/mediawiki.md"
+      },
+      {
+        "old": "docs-services-meilisearch.md",
+        "new": "237-docs-services-meilisearch.md",
+        "title": "Meilisearch",
+        "url": "https://coolify.io/docs/services/meilisearch.md"
+      },
+      {
+        "old": "docs-services-memos.md",
+        "new": "238-docs-services-memos.md",
+        "title": "Memos",
+        "url": "https://coolify.io/docs/services/memos.md"
+      },
+      {
+        "old": "docs-services-metabase.md",
+        "new": "239-docs-services-metabase.md",
+        "title": "Metabase",
+        "url": "https://coolify.io/docs/services/metabase.md"
+      },
+      {
+        "old": "docs-services-metamcp.md",
+        "new": "240-docs-services-metamcp.md",
+        "title": "MetaMCP",
+        "url": "https://coolify.io/docs/services/metamcp.md"
+      },
+      {
+        "old": "docs-services-metube.md",
+        "new": "241-docs-services-metube.md",
+        "title": "Metube",
+        "url": "https://coolify.io/docs/services/metube.md"
+      },
+      {
+        "old": "docs-services-mindsdb.md",
+        "new": "242-docs-services-mindsdb.md",
+        "title": "Mindsdb",
+        "url": "https://coolify.io/docs/services/mindsdb.md"
+      },
+      {
+        "old": "docs-services-minecraft.md",
+        "new": "243-docs-services-minecraft.md",
+        "title": "What is Minecraft?",
+        "url": "https://coolify.io/docs/services/minecraft.md"
+      },
+      {
+        "old": "docs-services-miniflux.md",
+        "new": "244-docs-services-miniflux.md",
+        "title": "Miniflux",
+        "url": "https://coolify.io/docs/services/miniflux.md"
+      },
+      {
+        "old": "docs-services-minio-community-edition.md",
+        "new": "245-docs-services-minio-community-edition.md",
+        "title": "MinIO Community Edition",
+        "url": "https://coolify.io/docs/services/minio-community-edition.md"
+      },
+      {
+        "old": "docs-services-minio.md",
+        "new": "246-docs-services-minio.md",
+        "title": "MinIO Community Edition",
+        "url": "https://coolify.io/docs/services/minio.md"
+      },
+      {
+        "old": "docs-services-mixpost.md",
+        "new": "247-docs-services-mixpost.md",
+        "title": "Mixpost",
+        "url": "https://coolify.io/docs/services/mixpost.md"
+      },
+      {
+        "old": "docs-services-moodle.md",
+        "new": "248-docs-services-moodle.md",
+        "title": "Moodle",
+        "url": "https://coolify.io/docs/services/moodle.md"
+      },
+      {
+        "old": "docs-services-mosquitto.md",
+        "new": "249-docs-services-mosquitto.md",
+        "title": "Mosquitto",
+        "url": "https://coolify.io/docs/services/mosquitto.md"
+      },
+      {
+        "old": "docs-services-n8n.md",
+        "new": "250-docs-services-n8n.md",
+        "title": "N8N",
+        "url": "https://coolify.io/docs/services/n8n.md"
+      },
+      {
+        "old": "docs-services-navidrome.md",
+        "new": "251-docs-services-navidrome.md",
+        "title": "Navidrome",
+        "url": "https://coolify.io/docs/services/navidrome.md"
+      },
+      {
+        "old": "docs-services-neon-ws-proxy.md",
+        "new": "252-docs-services-neon-ws-proxy.md",
+        "title": "Neon Ws Proxy",
+        "url": "https://coolify.io/docs/services/neon-ws-proxy.md"
+      },
+      {
+        "old": "docs-services-netbird-client.md",
+        "new": "253-docs-services-netbird-client.md",
+        "title": "Netbird-Client",
+        "url": "https://coolify.io/docs/services/netbird-client.md"
+      },
+      {
+        "old": "docs-services-newapi.md",
+        "new": "254-docs-services-newapi.md",
+        "title": "NewAPI",
+        "url": "https://coolify.io/docs/services/newapi.md"
+      },
+      {
+        "old": "docs-services-newt-pangolin.md",
+        "new": "255-docs-services-newt-pangolin.md",
+        "title": "Newt-Pangolin",
+        "url": "https://coolify.io/docs/services/newt-pangolin.md"
+      },
+      {
+        "old": "docs-services-next-image-transformation.md",
+        "new": "256-docs-services-next-image-transformation.md",
+        "title": "Next Image Transformation",
+        "url": "https://coolify.io/docs/services/next-image-transformation.md"
+      },
+      {
+        "old": "docs-services-nexus.md",
+        "new": "257-docs-services-nexus.md",
+        "title": "Sonatype Nexus",
+        "url": "https://coolify.io/docs/services/nexus.md"
+      },
+      {
+        "old": "docs-services-nitropage.md",
+        "new": "258-docs-services-nitropage.md",
+        "title": "Nitropage",
+        "url": "https://coolify.io/docs/services/nitropage.md"
+      },
+      {
+        "old": "docs-services-nocobase.md",
+        "new": "259-docs-services-nocobase.md",
+        "title": "NocoBase",
+        "url": "https://coolify.io/docs/services/nocobase.md"
+      },
+      {
+        "old": "docs-services-nocodb.md",
+        "new": "260-docs-services-nocodb.md",
+        "title": "What is NocoDB?",
+        "url": "https://coolify.io/docs/services/nocodb.md"
+      },
+      {
+        "old": "docs-services-nodebb.md",
+        "new": "261-docs-services-nodebb.md",
+        "title": "Nodebb",
+        "url": "https://coolify.io/docs/services/nodebb.md"
+      },
+      {
+        "old": "docs-services-ntfy.md",
+        "new": "262-docs-services-ntfy.md",
+        "title": "Ntfy",
+        "url": "https://coolify.io/docs/services/ntfy.md"
+      },
+      {
+        "old": "docs-services-observium.md",
+        "new": "263-docs-services-observium.md",
+        "title": "Observium",
+        "url": "https://coolify.io/docs/services/observium.md"
+      },
+      {
+        "old": "docs-services-odoo.md",
+        "new": "264-docs-services-odoo.md",
+        "title": "What is Odoo?",
+        "url": "https://coolify.io/docs/services/odoo.md"
+      },
+      {
+        "old": "docs-services-ollama.md",
+        "new": "265-docs-services-ollama.md",
+        "title": "Ollama",
+        "url": "https://coolify.io/docs/services/ollama.md"
+      },
+      {
+        "old": "docs-services-once-campfire.md",
+        "new": "266-docs-services-once-campfire.md",
+        "title": "Once Campfire",
+        "url": "https://coolify.io/docs/services/once-campfire.md"
+      },
+      {
+        "old": "docs-services-onetimesecret.md",
+        "new": "267-docs-services-onetimesecret.md",
+        "title": "Onetime Secret",
+        "url": "https://coolify.io/docs/services/onetimesecret.md"
+      },
+      {
+        "old": "docs-services-open-archiver.md",
+        "new": "268-docs-services-open-archiver.md",
+        "title": "Open Archiver",
+        "url": "https://coolify.io/docs/services/open-archiver.md"
+      },
+      {
+        "old": "docs-services-open-webui.md",
+        "new": "269-docs-services-open-webui.md",
+        "title": "Open Webui",
+        "url": "https://coolify.io/docs/services/open-webui.md"
+      },
+      {
+        "old": "docs-services-openblocks.md",
+        "new": "270-docs-services-openblocks.md",
+        "title": "What is OpenBlocks?",
+        "url": "https://coolify.io/docs/services/openblocks.md"
+      },
+      {
+        "old": "docs-services-openclaw.md",
+        "new": "271-docs-services-openclaw.md",
+        "title": "OpenClaw",
+        "url": "https://coolify.io/docs/services/openclaw.md"
+      },
+      {
+        "old": "docs-services-openpanel.md",
+        "new": "272-docs-services-openpanel.md",
+        "title": "OpenPanel",
+        "url": "https://coolify.io/docs/services/openpanel.md"
+      },
+      {
+        "old": "docs-services-opnform.md",
+        "new": "273-docs-services-opnform.md",
+        "title": "OpnForm",
+        "url": "https://coolify.io/docs/services/opnform.md"
+      },
+      {
+        "old": "docs-services-orangehrm.md",
+        "new": "274-docs-services-orangehrm.md",
+        "title": "OrangeHRM",
+        "url": "https://coolify.io/docs/services/orangehrm.md"
+      },
+      {
+        "old": "docs-services-organizr.md",
+        "new": "275-docs-services-organizr.md",
+        "title": "Organizr",
+        "url": "https://coolify.io/docs/services/organizr.md"
+      },
+      {
+        "old": "docs-services-osticket.md",
+        "new": "276-docs-services-osticket.md",
+        "title": "Osticket",
+        "url": "https://coolify.io/docs/services/osticket.md"
+      },
+      {
+        "old": "docs-services-overseerr.md",
+        "new": "277-docs-services-overseerr.md",
+        "title": "Overseerr",
+        "url": "https://coolify.io/docs/services/overseerr.md"
+      },
+      {
+        "old": "docs-services-pairdrop.md",
+        "new": "278-docs-services-pairdrop.md",
+        "title": "Pairdrop",
+        "url": "https://coolify.io/docs/services/pairdrop.md"
+      },
+      {
+        "old": "docs-services-palworld.md",
+        "new": "279-docs-services-palworld.md",
+        "title": "Palworld",
+        "url": "https://coolify.io/docs/services/palworld.md"
+      },
+      {
+        "old": "docs-services-paperless.md",
+        "new": "280-docs-services-paperless.md",
+        "title": "Paperless",
+        "url": "https://coolify.io/docs/services/paperless.md"
+      },
+      {
+        "old": "docs-services-passbolt.md",
+        "new": "281-docs-services-passbolt.md",
+        "title": "Passbolt",
+        "url": "https://coolify.io/docs/services/passbolt.md"
+      },
+      {
+        "old": "docs-services-paymenter.md",
+        "new": "282-docs-services-paymenter.md",
+        "title": "Paymenter",
+        "url": "https://coolify.io/docs/services/paymenter.md"
+      },
+      {
+        "old": "docs-services-penpot.md",
+        "new": "283-docs-services-penpot.md",
+        "title": "Penpot",
+        "url": "https://coolify.io/docs/services/penpot.md"
+      },
+      {
+        "old": "docs-services-pgadmin.md",
+        "new": "284-docs-services-pgadmin.md",
+        "title": "pgAdmin",
+        "url": "https://coolify.io/docs/services/pgadmin.md"
+      },
+      {
+        "old": "docs-services-pgbackweb.md",
+        "new": "285-docs-services-pgbackweb.md",
+        "title": "PG Back Web",
+        "url": "https://coolify.io/docs/services/pgbackweb.md"
+      },
+      {
+        "old": "docs-services-phpmyadmin.md",
+        "new": "286-docs-services-phpmyadmin.md",
+        "title": "phpMyAdmin",
+        "url": "https://coolify.io/docs/services/phpmyadmin.md"
+      },
+      {
+        "old": "docs-services-pi-hole.md",
+        "new": "287-docs-services-pi-hole.md",
+        "title": "Pi-hole",
+        "url": "https://coolify.io/docs/services/pi-hole.md"
+      },
+      {
+        "old": "docs-services-pingvinshare.md",
+        "new": "288-docs-services-pingvinshare.md",
+        "title": "PingvinShare",
+        "url": "https://coolify.io/docs/services/pingvinshare.md"
+      },
+      {
+        "old": "docs-services-plane.md",
+        "new": "289-docs-services-plane.md",
+        "title": "Plane",
+        "url": "https://coolify.io/docs/services/plane.md"
+      },
+      {
+        "old": "docs-services-plausible.md",
+        "new": "290-docs-services-plausible.md",
+        "title": "Plausible Analytics",
+        "url": "https://coolify.io/docs/services/plausible.md"
+      },
+      {
+        "old": "docs-services-plex.md",
+        "new": "291-docs-services-plex.md",
+        "title": "Plex",
+        "url": "https://coolify.io/docs/services/plex.md"
+      },
+      {
+        "old": "docs-services-plunk.md",
+        "new": "292-docs-services-plunk.md",
+        "title": "Plunk",
+        "url": "https://coolify.io/docs/services/plunk.md"
+      },
+      {
+        "old": "docs-services-pocket-id.md",
+        "new": "293-docs-services-pocket-id.md",
+        "title": "Pocket ID",
+        "url": "https://coolify.io/docs/services/pocket-id.md"
+      },
+      {
+        "old": "docs-services-pocketbase.md",
+        "new": "294-docs-services-pocketbase.md",
+        "title": "PocketBase",
+        "url": "https://coolify.io/docs/services/pocketbase.md"
+      },
+      {
+        "old": "docs-services-portainer.md",
+        "new": "295-docs-services-portainer.md",
+        "title": "Portainer",
+        "url": "https://coolify.io/docs/services/portainer.md"
+      },
+      {
+        "old": "docs-services-posthog.md",
+        "new": "296-docs-services-posthog.md",
+        "title": "PostHog",
+        "url": "https://coolify.io/docs/services/posthog.md"
+      },
+      {
+        "old": "docs-services-postiz.md",
+        "new": "297-docs-services-postiz.md",
+        "title": "Postiz",
+        "url": "https://coolify.io/docs/services/postiz.md"
+      },
+      {
+        "old": "docs-services-prefect.md",
+        "new": "298-docs-services-prefect.md",
+        "title": "Prefect",
+        "url": "https://coolify.io/docs/services/prefect.md"
+      },
+      {
+        "old": "docs-services-privatebin.md",
+        "new": "299-docs-services-privatebin.md",
+        "title": "Privatebin",
+        "url": "https://coolify.io/docs/services/privatebin.md"
+      },
+      {
+        "old": "docs-services-prowlarr.md",
+        "new": "300-docs-services-prowlarr.md",
+        "title": "Prowlarr",
+        "url": "https://coolify.io/docs/services/prowlarr.md"
+      },
+      {
+        "old": "docs-services-proxyscotch.md",
+        "new": "301-docs-services-proxyscotch.md",
+        "title": "Proxyscotch",
+        "url": "https://coolify.io/docs/services/proxyscotch.md"
+      },
+      {
+        "old": "docs-services-pterodactyl.md",
+        "new": "302-docs-services-pterodactyl.md",
+        "title": "Pterodactyl Panel",
+        "url": "https://coolify.io/docs/services/pterodactyl.md"
+      },
+      {
+        "old": "docs-services-qbittorrent.md",
+        "new": "303-docs-services-qbittorrent.md",
+        "title": "Qbittorrent",
+        "url": "https://coolify.io/docs/services/qbittorrent.md"
+      },
+      {
+        "old": "docs-services-qdrant.md",
+        "new": "304-docs-services-qdrant.md",
+        "title": "Qdrant",
+        "url": "https://coolify.io/docs/services/qdrant.md"
+      },
+      {
+        "old": "docs-services-rabbitmq.md",
+        "new": "305-docs-services-rabbitmq.md",
+        "title": "RabbitMQ",
+        "url": "https://coolify.io/docs/services/rabbitmq.md"
+      },
+      {
+        "old": "docs-services-radarr.md",
+        "new": "306-docs-services-radarr.md",
+        "title": "Radarr",
+        "url": "https://coolify.io/docs/services/radarr.md"
+      },
+      {
+        "old": "docs-services-reactive-resume.md",
+        "new": "307-docs-services-reactive-resume.md",
+        "title": "Reactive Resume",
+        "url": "https://coolify.io/docs/services/reactive-resume.md"
+      },
+      {
+        "old": "docs-services-readeck.md",
+        "new": "308-docs-services-readeck.md",
+        "title": "Readeck",
+        "url": "https://coolify.io/docs/services/readeck.md"
+      },
+      {
+        "old": "docs-services-redlib.md",
+        "new": "309-docs-services-redlib.md",
+        "title": "Redlib",
+        "url": "https://coolify.io/docs/services/redlib.md"
+      },
+      {
+        "old": "docs-services-redmine.md",
+        "new": "310-docs-services-redmine.md",
+        "title": "Redmine",
+        "url": "https://coolify.io/docs/services/redmine.md"
+      },
+      {
+        "old": "docs-services-rivet-engine.md",
+        "new": "311-docs-services-rivet-engine.md",
+        "title": "Rivet Engine",
+        "url": "https://coolify.io/docs/services/rivet-engine.md"
+      },
+      {
+        "old": "docs-services-rocketchat.md",
+        "new": "312-docs-services-rocketchat.md",
+        "title": "Rocket.Chat",
+        "url": "https://coolify.io/docs/services/rocketchat.md"
+      },
+      {
+        "old": "docs-services-rybbit.md",
+        "new": "313-docs-services-rybbit.md",
+        "title": "Screenshots",
+        "url": "https://coolify.io/docs/services/rybbit.md"
+      },
+      {
+        "old": "docs-services-ryot.md",
+        "new": "314-docs-services-ryot.md",
+        "title": "Ryot",
+        "url": "https://coolify.io/docs/services/ryot.md"
+      },
+      {
+        "old": "docs-services-satisfactory.md",
+        "new": "315-docs-services-satisfactory.md",
+        "title": "What is Satisfactory?",
+        "url": "https://coolify.io/docs/services/satisfactory.md"
+      },
+      {
+        "old": "docs-services-seafile.md",
+        "new": "316-docs-services-seafile.md",
+        "title": "Seafile",
+        "url": "https://coolify.io/docs/services/seafile.md"
+      },
+      {
+        "old": "docs-services-searxng.md",
+        "new": "317-docs-services-searxng.md",
+        "title": "SearXNG",
+        "url": "https://coolify.io/docs/services/searxng.md"
+      },
+      {
+        "old": "docs-services-seaweedfs.md",
+        "new": "318-docs-services-seaweedfs.md",
+        "title": "SeaweedFS",
+        "url": "https://coolify.io/docs/services/seaweedfs.md"
+      },
+      {
+        "old": "docs-services-sequin.md",
+        "new": "319-docs-services-sequin.md",
+        "title": "Sequin",
+        "url": "https://coolify.io/docs/services/sequin.md"
+      },
+      {
+        "old": "docs-services-sessy.md",
+        "new": "320-docs-services-sessy.md",
+        "title": "Sessy",
+        "url": "https://coolify.io/docs/services/sessy.md"
+      },
+      {
+        "old": "docs-services-sftpgo.md",
+        "new": "321-docs-services-sftpgo.md",
+        "title": "SFTPGo",
+        "url": "https://coolify.io/docs/services/sftpgo.md"
+      },
+      {
+        "old": "docs-services-shlink.md",
+        "new": "322-docs-services-shlink.md",
+        "title": "Shlink",
+        "url": "https://coolify.io/docs/services/shlink.md"
+      },
+      {
+        "old": "docs-services-signoz.md",
+        "new": "323-docs-services-signoz.md",
+        "title": "SigNoz",
+        "url": "https://coolify.io/docs/services/signoz.md"
+      },
+      {
+        "old": "docs-services-silverbullet.md",
+        "new": "324-docs-services-silverbullet.md",
+        "title": "SilverBullet",
+        "url": "https://coolify.io/docs/services/silverbullet.md"
+      },
+      {
+        "old": "docs-services-siyuan.md",
+        "new": "325-docs-services-siyuan.md",
+        "title": "Siyuan",
+        "url": "https://coolify.io/docs/services/siyuan.md"
+      },
+      {
+        "old": "docs-services-slash.md",
+        "new": "326-docs-services-slash.md",
+        "title": "Slash",
+        "url": "https://coolify.io/docs/services/slash.md"
+      },
+      {
+        "old": "docs-services-snapdrop.md",
+        "new": "327-docs-services-snapdrop.md",
+        "title": "What is Snapdrop?",
+        "url": "https://coolify.io/docs/services/snapdrop.md"
+      },
+      {
+        "old": "docs-services-soju.md",
+        "new": "328-docs-services-soju.md",
+        "title": "Soju",
+        "url": "https://coolify.io/docs/services/soju.md"
+      },
+      {
+        "old": "docs-services-soketi-app-manager.md",
+        "new": "329-docs-services-soketi-app-manager.md",
+        "title": "Soketi App Manager",
+        "url": "https://coolify.io/docs/services/soketi-app-manager.md"
+      },
+      {
+        "old": "docs-services-soketi.md",
+        "new": "330-docs-services-soketi.md",
+        "title": "Soketi",
+        "url": "https://coolify.io/docs/services/soketi.md"
+      },
+      {
+        "old": "docs-services-sonarr.md",
+        "new": "331-docs-services-sonarr.md",
+        "title": "Sonarr",
+        "url": "https://coolify.io/docs/services/sonarr.md"
+      },
+      {
+        "old": "docs-services-sparkyfitness.md",
+        "new": "332-docs-services-sparkyfitness.md",
+        "title": "SparkyFitness",
+        "url": "https://coolify.io/docs/services/sparkyfitness.md"
+      },
+      {
+        "old": "docs-services-statusnook.md",
+        "new": "333-docs-services-statusnook.md",
+        "title": "Statusnook",
+        "url": "https://coolify.io/docs/services/statusnook.md"
+      },
+      {
+        "old": "docs-services-stirling-pdf.md",
+        "new": "334-docs-services-stirling-pdf.md",
+        "title": "Stirling PDF",
+        "url": "https://coolify.io/docs/services/stirling-pdf.md"
+      },
+      {
+        "old": "docs-services-strapi.md",
+        "new": "335-docs-services-strapi.md",
+        "title": "Strapi",
+        "url": "https://coolify.io/docs/services/strapi.md"
+      },
+      {
+        "old": "docs-services-supabase.md",
+        "new": "336-docs-services-supabase.md",
+        "title": "Supabase",
+        "url": "https://coolify.io/docs/services/supabase.md"
+      },
+      {
+        "old": "docs-services-superset.md",
+        "new": "337-docs-services-superset.md",
+        "title": "Superset",
+        "url": "https://coolify.io/docs/services/superset.md"
+      },
+      {
+        "old": "docs-services-supertokens.md",
+        "new": "338-docs-services-supertokens.md",
+        "title": "Supertokens",
+        "url": "https://coolify.io/docs/services/supertokens.md"
+      },
+      {
+        "old": "docs-services-sure.md",
+        "new": "339-docs-services-sure.md",
+        "title": "Sure",
+        "url": "https://coolify.io/docs/services/sure.md"
+      },
+      {
+        "old": "docs-services-swetrix.md",
+        "new": "340-docs-services-swetrix.md",
+        "title": "Swetrix",
+        "url": "https://coolify.io/docs/services/swetrix.md"
+      },
+      {
+        "old": "docs-services-syncthing.md",
+        "new": "341-docs-services-syncthing.md",
+        "title": "Syncthing",
+        "url": "https://coolify.io/docs/services/syncthing.md"
+      },
+      {
+        "old": "docs-services-tailscale-client.md",
+        "new": "342-docs-services-tailscale-client.md",
+        "title": "Tailscale Client",
+        "url": "https://coolify.io/docs/services/tailscale-client.md"
+      },
+      {
+        "old": "docs-services-teable.md",
+        "new": "343-docs-services-teable.md",
+        "title": "Teable",
+        "url": "https://coolify.io/docs/services/teable.md"
+      },
+      {
+        "old": "docs-services-terraria-server.md",
+        "new": "344-docs-services-terraria-server.md",
+        "title": "Terraria Server",
+        "url": "https://coolify.io/docs/services/terraria-server.md"
+      },
+      {
+        "old": "docs-services-tolgee.md",
+        "new": "345-docs-services-tolgee.md",
+        "title": "What is Tolgee?",
+        "url": "https://coolify.io/docs/services/tolgee.md"
+      },
+      {
+        "old": "docs-services-traccar.md",
+        "new": "346-docs-services-traccar.md",
+        "title": "Traccar",
+        "url": "https://coolify.io/docs/services/traccar.md"
+      },
+      {
+        "old": "docs-services-trailbase.md",
+        "new": "347-docs-services-trailbase.md",
+        "title": "TrailBase",
+        "url": "https://coolify.io/docs/services/trailbase.md"
+      },
+      {
+        "old": "docs-services-transmission.md",
+        "new": "348-docs-services-transmission.md",
+        "title": "Transmission",
+        "url": "https://coolify.io/docs/services/transmission.md"
+      },
+      {
+        "old": "docs-services-trigger.md",
+        "new": "349-docs-services-trigger.md",
+        "title": "Trigger",
+        "url": "https://coolify.io/docs/services/trigger.md"
+      },
+      {
+        "old": "docs-services-triliumnext.md",
+        "new": "350-docs-services-triliumnext.md",
+        "title": "TriliumNext",
+        "url": "https://coolify.io/docs/services/triliumnext.md"
+      },
+      {
+        "old": "docs-services-twenty.md",
+        "new": "351-docs-services-twenty.md",
+        "title": "Twenty",
+        "url": "https://coolify.io/docs/services/twenty.md"
+      },
+      {
+        "old": "docs-services-typesense.md",
+        "new": "352-docs-services-typesense.md",
+        "title": "Typesense",
+        "url": "https://coolify.io/docs/services/typesense.md"
+      },
+      {
+        "old": "docs-services-umami.md",
+        "new": "353-docs-services-umami.md",
+        "title": "Umami",
+        "url": "https://coolify.io/docs/services/umami.md"
+      },
+      {
+        "old": "docs-services-unleash.md",
+        "new": "354-docs-services-unleash.md",
+        "title": "Unleash",
+        "url": "https://coolify.io/docs/services/unleash.md"
+      },
+      {
+        "old": "docs-services-unstructured.md",
+        "new": "355-docs-services-unstructured.md",
+        "title": "What is Unstructured?",
+        "url": "https://coolify.io/docs/services/unstructured.md"
+      },
+      {
+        "old": "docs-services-uptime-kuma.md",
+        "new": "356-docs-services-uptime-kuma.md",
+        "title": "What is Uptime Kuma?",
+        "url": "https://coolify.io/docs/services/uptime-kuma.md"
+      },
+      {
+        "old": "docs-services-usesend.md",
+        "new": "357-docs-services-usesend.md",
+        "title": "Usesend",
+        "url": "https://coolify.io/docs/services/usesend.md"
+      },
+      {
+        "old": "docs-services-vaultwarden.md",
+        "new": "358-docs-services-vaultwarden.md",
+        "title": "Vaultwarden",
+        "url": "https://coolify.io/docs/services/vaultwarden.md"
+      },
+      {
+        "old": "docs-services-vert.md",
+        "new": "359-docs-services-vert.md",
+        "title": "Vert",
+        "url": "https://coolify.io/docs/services/vert.md"
+      },
+      {
+        "old": "docs-services-vikunja.md",
+        "new": "360-docs-services-vikunja.md",
+        "title": "Vikunja",
+        "url": "https://coolify.io/docs/services/vikunja.md"
+      },
+      {
+        "old": "docs-services-vvveb.md",
+        "new": "361-docs-services-vvveb.md",
+        "title": "Vvveb",
+        "url": "https://coolify.io/docs/services/vvveb.md"
+      },
+      {
+        "old": "docs-services-wakapi.md",
+        "new": "362-docs-services-wakapi.md",
+        "title": "Wakapi",
+        "url": "https://coolify.io/docs/services/wakapi.md"
+      },
+      {
+        "old": "docs-services-weaviate.md",
+        "new": "363-docs-services-weaviate.md",
+        "title": "Weaviate",
+        "url": "https://coolify.io/docs/services/weaviate.md"
+      },
+      {
+        "old": "docs-services-web-check.md",
+        "new": "364-docs-services-web-check.md",
+        "title": "Web Check",
+        "url": "https://coolify.io/docs/services/web-check.md"
+      },
+      {
+        "old": "docs-services-weblate.md",
+        "new": "365-docs-services-weblate.md",
+        "title": "Weblate",
+        "url": "https://coolify.io/docs/services/weblate.md"
+      },
+      {
+        "old": "docs-services-whoogle.md",
+        "new": "366-docs-services-whoogle.md",
+        "title": "Whoogle",
+        "url": "https://coolify.io/docs/services/whoogle.md"
+      },
+      {
+        "old": "docs-services-wikijs.md",
+        "new": "367-docs-services-wikijs.md",
+        "title": "Wikijs",
+        "url": "https://coolify.io/docs/services/wikijs.md"
+      },
+      {
+        "old": "docs-services-windmill.md",
+        "new": "368-docs-services-windmill.md",
+        "title": "Windmill",
+        "url": "https://coolify.io/docs/services/windmill.md"
+      },
+      {
+        "old": "docs-services-wings.md",
+        "new": "369-docs-services-wings.md",
+        "title": "Wings",
+        "url": "https://coolify.io/docs/services/wings.md"
+      },
+      {
+        "old": "docs-services-wireguard-easy.md",
+        "new": "370-docs-services-wireguard-easy.md",
+        "title": "Wireguard Easy",
+        "url": "https://coolify.io/docs/services/wireguard-easy.md"
+      },
+      {
+        "old": "docs-services-wordpress.md",
+        "new": "371-docs-services-wordpress.md",
+        "title": "WordPress",
+        "url": "https://coolify.io/docs/services/wordpress.md"
+      },
+      {
+        "old": "docs-services-yamtrack.md",
+        "new": "372-docs-services-yamtrack.md",
+        "title": "Yamtrack",
+        "url": "https://coolify.io/docs/services/yamtrack.md"
+      },
+      {
+        "old": "docs-services-zipline.md",
+        "new": "373-docs-services-zipline.md",
+        "title": "Zipline",
+        "url": "https://coolify.io/docs/services/zipline.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-protect-services-with-authentik.md",
+        "new": "374-docs-knowledge-base-proxy-traefik-protect-services-with-authentik.md",
+        "title": "Authentik Forward Authentication Middleware",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/protect-services-with-authentik.md"
+      }
+    ],
+    "knowledge-base": [
+      {
+        "old": "docs-knowledge-base-change-localhost-key.md",
+        "new": "375-docs-knowledge-base-change-localhost-key.md",
+        "title": "Change Localhost Key",
+        "url": "https://coolify.io/docs/knowledge-base/change-localhost-key.md"
+      },
+      {
+        "old": "docs-knowledge-base-commands.md",
+        "new": "376-docs-knowledge-base-commands.md",
+        "title": "Commands",
+        "url": "https://coolify.io/docs/knowledge-base/commands.md"
+      },
+      {
+        "old": "docs-knowledge-base-create-root-user-with-env.md",
+        "new": "377-docs-knowledge-base-create-root-user-with-env.md",
+        "title": "Create Root User with Environment Variables",
+        "url": "https://coolify.io/docs/knowledge-base/create-root-user-with-env.md"
+      },
+      {
+        "old": "docs-knowledge-base-cron-syntax.md",
+        "new": "378-docs-knowledge-base-cron-syntax.md",
+        "title": "Supported Cron Syntax",
+        "url": "https://coolify.io/docs/knowledge-base/cron-syntax.md"
+      },
+      {
+        "old": "docs-knowledge-base-custom-docker-registry.md",
+        "new": "379-docs-knowledge-base-custom-docker-registry.md",
+        "title": "Custom Docker Registry",
+        "url": "https://coolify.io/docs/knowledge-base/custom-docker-registry.md"
+      },
+      {
+        "old": "docs-knowledge-base-define-custom-docker-network-with-env.md",
+        "new": "380-docs-knowledge-base-define-custom-docker-network-with-env.md",
+        "title": "Define Custom Docker Network with Environment Variables",
+        "url": "https://coolify.io/docs/knowledge-base/define-custom-docker-network-with-env.md"
+      },
+      {
+        "old": "docs-knowledge-base-delete-user.md",
+        "new": "381-docs-knowledge-base-delete-user.md",
+        "title": "Delete User",
+        "url": "https://coolify.io/docs/knowledge-base/delete-user.md"
+      },
+      {
+        "old": "docs-knowledge-base-destinations.md",
+        "new": "382-docs-knowledge-base-destinations.md",
+        "title": "Destinations",
+        "url": "https://coolify.io/docs/knowledge-base/destinations.md"
+      },
+      {
+        "old": "docs-knowledge-base-dns-configuration.md",
+        "new": "383-docs-knowledge-base-dns-configuration.md",
+        "title": "DNS Configuration",
+        "url": "https://coolify.io/docs/knowledge-base/dns-configuration.md"
+      },
+      {
+        "old": "docs-knowledge-base-domains.md",
+        "new": "384-docs-knowledge-base-domains.md",
+        "title": "Domains",
+        "url": "https://coolify.io/docs/knowledge-base/domains.md"
+      },
+      {
+        "old": "docs-knowledge-base-drain-logs.md",
+        "new": "385-docs-knowledge-base-drain-logs.md",
+        "title": "Drain Logs",
+        "url": "https://coolify.io/docs/knowledge-base/drain-logs.md"
+      },
+      {
+        "old": "docs-knowledge-base-environment-variables.md",
+        "new": "386-docs-knowledge-base-environment-variables.md",
+        "title": "Environment Variables",
+        "url": "https://coolify.io/docs/knowledge-base/environment-variables.md"
+      },
+      {
+        "old": "docs-knowledge-base-health-checks.md",
+        "new": "387-docs-knowledge-base-health-checks.md",
+        "title": "Health checks",
+        "url": "https://coolify.io/docs/knowledge-base/health-checks.md"
+      },
+      {
+        "old": "docs-knowledge-base-monitoring.md",
+        "new": "388-docs-knowledge-base-monitoring.md",
+        "title": "Monitoring",
+        "url": "https://coolify.io/docs/knowledge-base/monitoring.md"
+      },
+      {
+        "old": "docs-knowledge-base-notifications.md",
+        "new": "389-docs-knowledge-base-notifications.md",
+        "title": "Notifications",
+        "url": "https://coolify.io/docs/knowledge-base/notifications.md"
+      },
+      {
+        "old": "docs-knowledge-base-oauth.md",
+        "new": "390-docs-knowledge-base-oauth.md",
+        "title": "OAuth",
+        "url": "https://coolify.io/docs/knowledge-base/oauth.md"
+      },
+      {
+        "old": "docs-knowledge-base-persistent-storage.md",
+        "new": "391-docs-knowledge-base-persistent-storage.md",
+        "title": "Persistent Storage",
+        "url": "https://coolify.io/docs/knowledge-base/persistent-storage.md"
+      },
+      {
+        "old": "docs-knowledge-base-rolling-updates.md",
+        "new": "392-docs-knowledge-base-rolling-updates.md",
+        "title": "Coolify Rolling Updates",
+        "url": "https://coolify.io/docs/knowledge-base/rolling-updates.md"
+      },
+      {
+        "old": "docs-knowledge-base-self-update.md",
+        "new": "393-docs-knowledge-base-self-update.md",
+        "title": "Coolify Instance Updates - Self-hosted",
+        "url": "https://coolify.io/docs/knowledge-base/self-update.md"
+      },
+      {
+        "old": "docs-knowledge-base-destinations-create.md",
+        "new": "394-docs-knowledge-base-destinations-create.md",
+        "title": "Creating Destinations",
+        "url": "https://coolify.io/docs/knowledge-base/destinations/create.md"
+      },
+      {
+        "old": "docs-knowledge-base-destinations-manage.md",
+        "new": "395-docs-knowledge-base-destinations-manage.md",
+        "title": "Managing Destinations",
+        "url": "https://coolify.io/docs/knowledge-base/destinations/manage.md"
+      },
+      {
+        "old": "docs-knowledge-base-docker-custom-commands.md",
+        "new": "396-docs-knowledge-base-docker-custom-commands.md",
+        "title": "Custom Commands",
+        "url": "https://coolify.io/docs/knowledge-base/docker/custom-commands.md"
+      },
+      {
+        "old": "docs-knowledge-base-docker-registry.md",
+        "new": "397-docs-knowledge-base-docker-registry.md",
+        "title": "Docker Registry",
+        "url": "https://coolify.io/docs/knowledge-base/docker/registry.md"
+      },
+      {
+        "old": "docs-knowledge-base-docker-swarm.md",
+        "new": "398-docs-knowledge-base-docker-swarm.md",
+        "title": "Docker Swarm",
+        "url": "https://coolify.io/docs/knowledge-base/docker/swarm.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-backup-restore-coolify.md",
+        "new": "399-docs-knowledge-base-how-to-backup-restore-coolify.md",
+        "title": "Backup and Restore Your Coolify Instance",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/backup-restore-coolify.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-hetzner-loadbalancing.md",
+        "new": "400-docs-knowledge-base-how-to-hetzner-loadbalancing.md",
+        "title": "Load Balancing on Hetzner",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/hetzner-loadbalancing.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-migrate-apps-different-host.md",
+        "new": "401-docs-knowledge-base-how-to-migrate-apps-different-host.md",
+        "title": "Migrate Applications to Another Coolify Host",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/migrate-apps-different-host.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-ollama-with-gpu.md",
+        "new": "402-docs-knowledge-base-how-to-ollama-with-gpu.md",
+        "title": "Ollama with GPU",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/ollama-with-gpu.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-private-npm-registry.md",
+        "new": "403-docs-knowledge-base-how-to-private-npm-registry.md",
+        "title": "Private NPM Registry",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/private-npm-registry.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-raspberry-pi-os.md",
+        "new": "404-docs-knowledge-base-how-to-raspberry-pi-os.md",
+        "title": "Raspberry Pi OS Setup Guide",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/raspberry-pi-os.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-webstudio-with-hetzner.md",
+        "new": "405-docs-knowledge-base-how-to-webstudio-with-hetzner.md",
+        "title": "Deploy Webstudio Projects using Coolify",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/webstudio-with-hetzner.md"
+      },
+      {
+        "old": "docs-knowledge-base-how-to-wordpress-multisite.md",
+        "new": "406-docs-knowledge-base-how-to-wordpress-multisite.md",
+        "title": "Using WordPress Multisite with Coolify",
+        "url": "https://coolify.io/docs/knowledge-base/how-to/wordpress-multisite.md"
+      },
+      {
+        "old": "docs-knowledge-base-internal-scalability.md",
+        "new": "407-docs-knowledge-base-internal-scalability.md",
+        "title": "Scalability",
+        "url": "https://coolify.io/docs/knowledge-base/internal/scalability.md"
+      },
+      {
+        "old": "docs-knowledge-base-internal-terminal.md",
+        "new": "408-docs-knowledge-base-internal-terminal.md",
+        "title": "Terminal",
+        "url": "https://coolify.io/docs/knowledge-base/internal/terminal.md"
+      },
+      {
+        "old": "docs-knowledge-base-s3-aws.md",
+        "new": "409-docs-knowledge-base-s3-aws.md",
+        "title": "Aws S3 Backup Setup",
+        "url": "https://coolify.io/docs/knowledge-base/s3/aws.md"
+      },
+      {
+        "old": "docs-knowledge-base-s3-r2.md",
+        "new": "410-docs-knowledge-base-s3-r2.md",
+        "title": "Cloudflare R2",
+        "url": "https://coolify.io/docs/knowledge-base/s3/r2.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-automated-cleanup.md",
+        "new": "411-docs-knowledge-base-server-automated-cleanup.md",
+        "title": "Automated Docker Cleanup",
+        "url": "https://coolify.io/docs/knowledge-base/server/automated-cleanup.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-build-server.md",
+        "new": "412-docs-knowledge-base-server-build-server.md",
+        "title": "Build Server",
+        "url": "https://coolify.io/docs/knowledge-base/server/build-server.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-firewall.md",
+        "new": "413-docs-knowledge-base-server-firewall.md",
+        "title": "Firewall",
+        "url": "https://coolify.io/docs/knowledge-base/server/firewall.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-multiple-servers.md",
+        "new": "414-docs-knowledge-base-server-multiple-servers.md",
+        "title": "Multiple Servers",
+        "url": "https://coolify.io/docs/knowledge-base/server/multiple-servers.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-non-root-user.md",
+        "new": "415-docs-knowledge-base-server-non-root-user.md",
+        "title": "Non-root user",
+        "url": "https://coolify.io/docs/knowledge-base/server/non-root-user.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-openssh.md",
+        "new": "416-docs-knowledge-base-server-openssh.md",
+        "title": "OpenSSH",
+        "url": "https://coolify.io/docs/knowledge-base/server/openssh.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-patching.md",
+        "new": "417-docs-knowledge-base-server-patching.md",
+        "title": "Server Patching",
+        "url": "https://coolify.io/docs/knowledge-base/server/patching.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-proxies.md",
+        "new": "418-docs-knowledge-base-server-proxies.md",
+        "title": "Supported Proxy",
+        "url": "https://coolify.io/docs/knowledge-base/server/proxies.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-sentinel.md",
+        "new": "419-docs-knowledge-base-server-sentinel.md",
+        "title": "Sentinel and Metrics",
+        "url": "https://coolify.io/docs/knowledge-base/server/sentinel.md"
+      },
+      {
+        "old": "docs-knowledge-base-server-terminal-access.md",
+        "new": "420-docs-knowledge-base-server-terminal-access.md",
+        "title": "Terminal Access",
+        "url": "https://coolify.io/docs/knowledge-base/server/terminal-access.md"
+      },
+      {
+        "old": "docs-troubleshoot-dns-and-domains-certificate-resolver-doesnt-exist.md",
+        "new": "421-docs-troubleshoot-dns-and-domains-certificate-resolver-doesnt-exist.md",
+        "title": "Certificate Resolver Not Found on Coolify Proxy",
+        "url": "https://coolify.io/docs/troubleshoot/dns-and-domains/certificate-resolver-doesnt-exist.md"
+      },
+      {
+        "old": "docs-troubleshoot-dns-and-domains-lets-encrypt-not-working.md",
+        "new": "422-docs-troubleshoot-dns-and-domains-lets-encrypt-not-working.md",
+        "title": "Let's Encrypt Not Generating SSL Certificates",
+        "url": "https://coolify.io/docs/troubleshoot/dns-and-domains/lets-encrypt-not-working.md"
+      },
+      {
+        "old": "docs-troubleshoot-dns-and-domains-wildcard-ssl-certs.md",
+        "new": "423-docs-troubleshoot-dns-and-domains-wildcard-ssl-certs.md",
+        "title": "Coolify not using Wildcard SSL Certificates",
+        "url": "https://coolify.io/docs/troubleshoot/dns-and-domains/wildcard-ssl-certs.md"
+      },
+      {
+        "old": "docs-troubleshoot-server-connection-issues.md",
+        "new": "424-docs-troubleshoot-server-connection-issues.md",
+        "title": "Connection Unstable",
+        "url": "https://coolify.io/docs/troubleshoot/server/connection-issues.md"
+      },
+      {
+        "old": "docs-troubleshoot-server-crash-during-build.md",
+        "new": "425-docs-troubleshoot-server-crash-during-build.md",
+        "title": "Server Unresponsive or crashes during Build",
+        "url": "https://coolify.io/docs/troubleshoot/server/crash-during-build.md"
+      },
+      {
+        "old": "docs-troubleshoot-server-raspberry-crashes.md",
+        "new": "426-docs-troubleshoot-server-raspberry-crashes.md",
+        "title": "Raspberry Pi Crashes",
+        "url": "https://coolify.io/docs/troubleshoot/server/raspberry-crashes.md"
+      },
+      {
+        "old": "docs-troubleshoot-server-two-factor-stopped-working.md",
+        "new": "427-docs-troubleshoot-server-two-factor-stopped-working.md",
+        "title": "2FA Stopped Working",
+        "url": "https://coolify.io/docs/troubleshoot/server/two-factor-stopped-working.md"
+      },
+      {
+        "old": "docs-troubleshoot-server-validation-issues.md",
+        "new": "428-docs-troubleshoot-server-validation-issues.md",
+        "title": "Server Validation Issues",
+        "url": "https://coolify.io/docs/troubleshoot/server/validation-issues.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-caddy-basic-auth.md",
+        "new": "429-docs-knowledge-base-proxy-caddy-basic-auth.md",
+        "title": "Caddy Basic Auth",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/caddy/basic-auth.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-basic-auth.md",
+        "new": "430-docs-knowledge-base-proxy-traefik-basic-auth.md",
+        "title": "Basic Auth Middleware",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/basic-auth.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-custom-ssl-certs.md",
+        "new": "431-docs-knowledge-base-proxy-traefik-custom-ssl-certs.md",
+        "title": "Custom SSL Certificates",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/custom-ssl-certs.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-dashboard.md",
+        "new": "432-docs-knowledge-base-proxy-traefik-dashboard.md",
+        "title": "Traefik Dashboard",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/dashboard.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-dynamic-config.md",
+        "new": "433-docs-knowledge-base-proxy-traefik-dynamic-config.md",
+        "title": "Dynamic Configurations",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/dynamic-config.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-load-balancing.md",
+        "new": "434-docs-knowledge-base-proxy-traefik-load-balancing.md",
+        "title": "Load-balancing",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/load-balancing.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-redirects.md",
+        "new": "435-docs-knowledge-base-proxy-traefik-redirects.md",
+        "title": "Redirects with Traefik",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/redirects.md"
+      },
+      {
+        "old": "docs-knowledge-base-proxy-traefik-wildcard-certs.md",
+        "new": "436-docs-knowledge-base-proxy-traefik-wildcard-certs.md",
+        "title": "Setup Wildcard SSL Certificates with Traefik",
+        "url": "https://coolify.io/docs/knowledge-base/proxy/traefik/wildcard-certs.md"
+      }
+    ],
+    "troubleshoot": [
+      {
+        "old": "docs-troubleshoot-dashboard-dashboard-inaccessible.md",
+        "new": "437-docs-troubleshoot-dashboard-dashboard-inaccessible.md",
+        "title": "Coolify Dashboard Inaccessible",
+        "url": "https://coolify.io/docs/troubleshoot/dashboard/dashboard-inaccessible.md"
+      },
+      {
+        "old": "docs-troubleshoot-dashboard-dashboard-slow-performance.md",
+        "new": "438-docs-troubleshoot-dashboard-dashboard-slow-performance.md",
+        "title": "Slow Coolify Dashboard Performance",
+        "url": "https://coolify.io/docs/troubleshoot/dashboard/dashboard-slow-performance.md"
+      },
+      {
+        "old": "docs-troubleshoot-dashboard-disable-2fa-manually.md",
+        "new": "439-docs-troubleshoot-dashboard-disable-2fa-manually.md",
+        "title": "Disable 2FA Manually",
+        "url": "https://coolify.io/docs/troubleshoot/dashboard/disable-2fa-manually.md"
+      }
+    ],
+    "api": [
+      {
+        "old": "docs-api-reference-authorization.md",
+        "new": "440-docs-api-reference-authorization.md",
+        "title": "Authorization",
+        "url": "https://coolify.io/docs/api-reference/authorization.md"
+      }
+    ],
+    "other": [
+      {
+        "old": "docs-get-started-support.md",
+        "new": "441-docs-get-started-support.md",
+        "title": "Support",
+        "url": "https://coolify.io/docs/get-started/support.md"
+      },
+      {
+        "old": "docs-services-heimdall.md",
+        "new": "442-docs-services-heimdall.md",
+        "title": "Heimdall",
+        "url": "https://coolify.io/docs/services/heimdall.md"
+      },
+      {
+        "old": "docs-services-rallly.md",
+        "new": "443-docs-services-rallly.md",
+        "title": "Rallly",
+        "url": "https://coolify.io/docs/services/rallly.md"
+      }
+    ]
+  }
+}

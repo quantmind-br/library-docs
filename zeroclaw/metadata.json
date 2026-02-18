@@ -1,0 +1,807 @@
+{
+  "generated_at": "2026-02-18T07:19:06.047349-03:00",
+  "source_url": "https://github.com/zeroclaw-labs/zeroclaw",
+  "strategy": "git",
+  "total_documents": 43,
+  "documents": [
+    {
+      "file_path": "002-docs-README.ja.md",
+      "original_file_path": "docs-README.ja.md",
+      "title": "README.ja",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/README.ja.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:39.633336-03:00",
+      "summary": "This document serves as the central Japanese documentation hub for ZeroClaw, providing an organized index and navigation guide to setup, configuration, operations, and troubleshooting resources.",
+      "tags": [
+        "zeroclaw",
+        "documentation-hub",
+        "japanese-docs",
+        "navigation-guide",
+        "index",
+        "operations-manual"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-docs-README.ru.md",
+      "original_file_path": "docs-README.ru.md",
+      "title": "README.ru",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/README.ru.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:39.633338-03:00",
+      "summary": "This document serves as the primary Russian-language entry point and navigational hub for ZeroClaw documentation, organizing resources by task, role, and category.",
+      "tags": [
+        "zeroclaw",
+        "documentation-hub",
+        "russian-language",
+        "navigation-guide",
+        "project-index"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "001-docs-README.md",
+      "original_file_path": "docs-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:39.63333-03:00",
+      "summary": "This document serves as the central navigation hub for the ZeroClaw documentation system, providing a structured index of resources for installation, operations, and technical reference. It organizes documentation by task, audience, and functional area to facilitate quick access to specific guides and troubleshooting materials.",
+      "tags": [
+        "documentation-hub",
+        "zeroclaw",
+        "system-navigation",
+        "resource-index",
+        "user-onboarding",
+        "project-documentation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-docs-README.zh-CN.md",
+      "original_file_path": "docs-README.zh-CN.md",
+      "title": "README.zh CN",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/README.zh-CN.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:44.276628-03:00",
+      "summary": "A central navigation portal for the ZeroClaw documentation system in Simplified Chinese, organizing links by task, directory, and user role.",
+      "tags": [
+        "zeroclaw",
+        "documentation-index",
+        "chinese-navigation",
+        "user-guide",
+        "system-operations",
+        "contributor-resources"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "005-docs-SUMMARY.md",
+      "original_file_path": "docs-SUMMARY.md",
+      "title": "SUMMARY",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/SUMMARY.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:45.860743-03:00",
+      "summary": "This document serves as a comprehensive table of contents and navigation index for the ZeroClaw project documentation system, organizing resources across multiple languages and functional categories.",
+      "tags": [
+        "zeroclaw",
+        "documentation-index",
+        "table-of-contents",
+        "project-navigation",
+        "navigation-guide",
+        "resource-index"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "012-docs-actions-source-policy.md",
+      "original_file_path": "docs-actions-source-policy.md",
+      "title": "Actions source policy",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/actions-source-policy.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:48.176026-03:00",
+      "summary": "This document defines the Phase 1 GitHub Actions source-control policy, establishing an allowlist of approved action sources to mitigate supply-chain risks while providing procedures for policy management and auditing.",
+      "tags": [
+        "github-actions",
+        "supply-chain-security",
+        "allowlist",
+        "security-policy",
+        "ci-cd-governance",
+        "workflow-automation"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "009-docs-adding-boards-and-tools.md",
+      "original_file_path": "docs-adding-boards-and-tools.md",
+      "title": "Adding boards and tools",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/adding-boards-and-tools.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:49.481271-03:00",
+      "summary": "This guide provides instructions for integrating hardware boards and custom tools into the ZeroClaw environment through CLI commands, configuration files, and RAG-based datasheet mapping.",
+      "tags": [
+        "hardware-integration",
+        "peripheral-management",
+        "zeroclaw-config",
+        "cli-reference",
+        "rag-datasheets",
+        "embedded-systems"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "016-docs-agnostic-security.md",
+      "original_file_path": "docs-agnostic-security.md",
+      "title": "Agnostic security",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/agnostic-security.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:50.329332-03:00",
+      "summary": "This document proposes a strategy for implementing hardware-agnostic security features using Rust feature flags and trait-based architectures to maintain portability and performance.",
+      "tags": [
+        "security-architecture",
+        "rust-cargo",
+        "sandboxing",
+        "cross-platform",
+        "embedded-systems",
+        "conditional-compilation"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "017-docs-audit-logging.md",
+      "original_file_path": "docs-audit-logging.md",
+      "title": "Audit logging",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/audit-logging.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:53.513272-03:00",
+      "summary": "This document proposes a system for tamper-evident audit logging within ZeroClaw to track user commands, resource access, and security policy triggers.",
+      "tags": [
+        "zeroclaw",
+        "audit-logging",
+        "security",
+        "tamper-evidence",
+        "rust",
+        "system-design"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "030-docs-arduino-uno-q-setup.md",
+      "original_file_path": "docs-arduino-uno-q-setup.md",
+      "title": "Arduino uno q setup",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/arduino-uno-q-setup.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:53.297418-03:00",
+      "summary": "This document provides a comprehensive step-by-step guide for installing and configuring ZeroClaw on the Arduino Uno Q to enable Telegram-based remote GPIO control.",
+      "tags": [
+        "arduino-uno-q",
+        "zeroclaw",
+        "iot-deployment",
+        "gpio-control",
+        "telegram-bot",
+        "embedded-linux",
+        "rust-programming"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "024-docs-channels-reference.md",
+      "original_file_path": "docs-channels-reference.md",
+      "title": "Channels reference",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/channels-reference.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:17:54.59986-03:00",
+      "summary": "A technical reference for configuring and managing communication channels in ZeroClaw, covering access control rules, CLI commands, and platform-specific configuration settings.",
+      "tags": [
+        "zeroclaw",
+        "channel-management",
+        "access-control",
+        "configuration-reference",
+        "messaging-platforms",
+        "cli-tools"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "025-docs-ci-map.md",
+      "original_file_path": "docs-ci-map.md",
+      "title": "Ci map",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/ci-map.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:13.819548-03:00",
+      "summary": "This document provides a comprehensive overview of GitHub Actions workflows, detailing their functions, trigger conditions, and merge-blocking status for project maintenance and continuous integration.",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "automation",
+        "workflow-management",
+        "repository-maintenance",
+        "devops",
+        "rust-ci"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "023-docs-commands-reference.md",
+      "original_file_path": "docs-commands-reference.md",
+      "title": "Commands reference",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/commands-reference.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:14.612743-03:00",
+      "summary": "This document provides a comprehensive reference for the ZeroClaw command-line interface, detailing top-level commands and subcommands for system management, agent interaction, and hardware configuration.",
+      "tags": [
+        "cli-reference",
+        "zeroclaw",
+        "command-line",
+        "system-administration",
+        "agent-management",
+        "hardware-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "010-docs-config-reference.md",
+      "original_file_path": "docs-config-reference.md",
+      "title": "Config reference",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/config-reference.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:17.319636-03:00",
+      "summary": "This document provides a technical reference for the ZeroClaw configuration file, detailing core settings, gateway parameters, memory backends, and security defaults for operators.",
+      "tags": [
+        "zeroclaw",
+        "configuration-reference",
+        "toml-settings",
+        "system-administration",
+        "gateway-security",
+        "memory-management",
+        "operator-tools"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "011-docs-custom-providers.md",
+      "original_file_path": "docs-custom-providers.md",
+      "title": "Custom providers",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/custom-providers.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:19.283979-03:00",
+      "summary": "This document explains how to configure ZeroClaw to use custom OpenAI and Anthropic-compatible API endpoints through configuration files and environment variables. It includes instructions for setting provider types, testing the setup, and troubleshooting common connection issues.",
+      "tags": [
+        "zeroclaw",
+        "api-configuration",
+        "custom-providers",
+        "openai-compatible",
+        "anthropic-compatible",
+        "troubleshooting",
+        "llm-integration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "039-docs-contributing-README.md",
+      "original_file_path": "docs-contributing-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/contributing/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:19.283978-03:00",
+      "summary": "This document serves as an index and reading guide for contributors, reviewers, and maintainers, linking to core policies on workflows and continuous integration.",
+      "tags": [
+        "contribution-guidelines",
+        "pull-request-workflow",
+        "reviewer-playbook",
+        "ci-policy",
+        "project-governance"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "027-docs-datasheets-arduino-uno.md",
+      "original_file_path": "docs-datasheets-arduino-uno.md",
+      "title": "Arduino uno",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/datasheets/arduino-uno.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:21.454394-03:00",
+      "summary": "This document provides a technical overview and hardware specification for the Arduino Uno board, covering pin mappings, GPIO functionality, and its integration with the ZeroClaw firmware protocol.",
+      "tags": [
+        "arduino-uno",
+        "hardware-reference",
+        "gpio",
+        "pin-aliases",
+        "zeroclaw",
+        "microcontroller"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "028-docs-datasheets-esp32.md",
+      "original_file_path": "docs-datasheets-esp32.md",
+      "title": "Esp32",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/datasheets/esp32.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:23.101655-03:00",
+      "summary": "This document provides a reference for ESP32 GPIO pin assignments and aliases, along with the JSON-based serial protocol for reading and writing pin states.",
+      "tags": [
+        "esp32",
+        "gpio",
+        "serial-protocol",
+        "hardware-reference",
+        "json-api"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "029-docs-datasheets-nucleo-f401re.md",
+      "original_file_path": "docs-datasheets-nucleo-f401re.md",
+      "title": "Nucleo f401re",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/datasheets/nucleo-f401re.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:23.190688-03:00",
+      "summary": "This document provides technical details for the Nucleo-F401RE GPIO pins, including pin aliases and hardware configuration for the onboard user LED.",
+      "tags": [
+        "nucleo-f401re",
+        "gpio-mapping",
+        "stm32f401",
+        "pin-aliases",
+        "embedded-systems"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "041-docs-docs-inventory.md",
+      "original_file_path": "docs-docs-inventory.md",
+      "title": "Docs inventory",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/docs-inventory.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:25.546772-03:00",
+      "summary": "This document provides a comprehensive inventory and classification of the ZeroClaw documentation system, organizing files by intent, audience, and maintenance status to help readers navigate the repository.",
+      "tags": [
+        "zeroclaw",
+        "documentation-inventory",
+        "content-strategy",
+        "project-management",
+        "documentation-index",
+        "contributor-resources"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "018-docs-frictionless-security.md",
+      "original_file_path": "docs-frictionless-security.md",
+      "title": "Frictionless security",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/frictionless-security.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:27.677144-03:00",
+      "summary": "This document proposes a design for background security features that automatically detect and enable sandboxing and resource monitoring without increasing user onboarding complexity. It details the implementation logic for platform-specific backends like Landlock and Firejail, ensuring a frictionless experience through silent configuration and graceful degradation.",
+      "tags": [
+        "security-architecture",
+        "sandboxing",
+        "auto-detection",
+        "configuration-design",
+        "rust",
+        "system-design",
+        "cross-platform"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "006-docs-getting-started-README.md",
+      "original_file_path": "docs-getting-started-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/getting-started/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:28.687609-03:00",
+      "summary": "This document provides a roadmap and initial setup instructions for new users to orient themselves with Zeroclaw and perform environment onboarding.",
+      "tags": [
+        "zeroclaw",
+        "getting-started",
+        "onboarding",
+        "setup-guide",
+        "cli-commands",
+        "environment-validation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "042-docs-hardware-README.md",
+      "original_file_path": "docs-hardware-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/hardware/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:30.064064-03:00",
+      "summary": "An index document providing entry points for hardware board integration, peripheral architecture design, and specific microcontroller setup instructions.",
+      "tags": [
+        "hardware-integration",
+        "peripheral-architecture",
+        "firmware-flow",
+        "board-setup",
+        "microcontrollers",
+        "datasheets"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "021-docs-mattermost-setup.md",
+      "original_file_path": "docs-mattermost-setup.md",
+      "title": "Mattermost setup",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/mattermost-setup.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:33.632005-03:00",
+      "summary": "This document provides instructions for setting up and configuring the native Mattermost integration for ZeroClaw, including bot account creation and TOML configuration settings.",
+      "tags": [
+        "mattermost",
+        "integration-guide",
+        "self-hosted",
+        "bot-configuration",
+        "messaging-platforms",
+        "toml-config"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "008-docs-langgraph-integration.md",
+      "original_file_path": "docs-langgraph-integration.md",
+      "title": "Langgraph integration",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/langgraph-integration.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:33.259592-03:00",
+      "summary": "This guide explains how to integrate the zeroclaw-tools Python package with LangGraph to ensure consistent tool calling across various OpenAI-compatible LLM providers. It covers system architecture, configuration for multiple backends, and the creation of custom agent tools.",
+      "tags": [
+        "langgraph",
+        "zeroclaw-tools",
+        "tool-calling",
+        "llm-integration",
+        "python-sdk",
+        "agentic-ai",
+        "multi-provider-support"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "015-docs-hardware-peripherals-design.md",
+      "original_file_path": "docs-hardware-peripherals-design.md",
+      "title": "Hardware peripherals design",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/hardware-peripherals-design.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:33.148144-03:00",
+      "summary": "This document outlines the design and architecture of ZeroClaw, an AI agent system that enables natural language control of microcontrollers through dynamic code synthesis and hardware-aware RAG pipelines.",
+      "tags": [
+        "embedded-systems",
+        "hardware-automation",
+        "rust-programming",
+        "llm-integration",
+        "microcontrollers",
+        "edge-native",
+        "rag-retrieval"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "022-docs-network-deployment.md",
+      "original_file_path": "docs-network-deployment.md",
+      "title": "Network deployment",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/network-deployment.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:37.661028-03:00",
+      "summary": "This document provides instructions for deploying ZeroClaw on a Raspberry Pi or local network, covering networking modes, Telegram polling, and webhook tunnel configurations.",
+      "tags": [
+        "raspberry-pi",
+        "deployment",
+        "networking",
+        "telegram-bot",
+        "webhooks",
+        "zeroclaw"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "031-docs-nucleo-setup.md",
+      "original_file_path": "docs-nucleo-setup.md",
+      "title": "Nucleo setup",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/nucleo-setup.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:37.924161-03:00",
+      "summary": "This document provides step-by-step instructions for integrating the Nucleo-F401RE development board with ZeroClaw, covering firmware flashing, serial port configuration, and hardware control via CLI or Telegram.",
+      "tags": [
+        "zeroclaw",
+        "nucleo-f401re",
+        "stm32",
+        "embedded-rust",
+        "firmware-flashing",
+        "serial-communication",
+        "gpio-control"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-docs-one-click-bootstrap.md",
+      "original_file_path": "docs-one-click-bootstrap.md",
+      "title": "One click bootstrap",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/one-click-bootstrap.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:39.092546-03:00",
+      "summary": "This document provides instructions for installing and initializing ZeroClaw using the provided bootstrap script. It covers local and remote installation methods, dependency management, and onboarding modes for both interactive and non-interactive setups.",
+      "tags": [
+        "zeroclaw",
+        "installation",
+        "bootstrap-script",
+        "cli-setup",
+        "rust-environment",
+        "onboarding"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "032-docs-operations-README.md",
+      "original_file_path": "docs-operations-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/operations/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:42.06242-03:00",
+      "summary": "This document provides a collection of resources and standard operating procedures for deploying, maintaining, and troubleshooting ZeroClaw in production-like environments.",
+      "tags": [
+        "zeroclaw",
+        "operations",
+        "deployment",
+        "troubleshooting",
+        "maintenance",
+        "runbook"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "033-docs-operations-runbook.md",
+      "original_file_path": "docs-operations-runbook.md",
+      "title": "Operations runbook",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/operations-runbook.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:43.017019-03:00",
+      "summary": "This operations runbook provides procedures for managing ZeroClaw runtime environments, performing health checks, and handling incident recovery.",
+      "tags": [
+        "zeroclaw",
+        "operations-runbook",
+        "maintenance",
+        "incident-response",
+        "health-checks",
+        "troubleshooting",
+        "diagnostics"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "036-docs-pr-workflow.md",
+      "original_file_path": "docs-pr-workflow.md",
+      "title": "Pr workflow",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/pr-workflow.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:43.855536-03:00",
+      "summary": "This document defines the formal pull request workflow for the ZeroClaw project, detailing governance goals, automated labeling, validation requirements, and security review standards for high-volume collaboration.",
+      "tags": [
+        "pull-request-workflow",
+        "governance",
+        "ci-cd",
+        "code-review",
+        "automation",
+        "contributor-guidelines"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "040-docs-project-README.md",
+      "original_file_path": "docs-project-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/project/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:46.0792-03:00",
+      "summary": "This document describes the use of time-bound project status snapshots to monitor PR and issue volume for the purpose of planning and prioritizing documentation maintenance.",
+      "tags": [
+        "project-triage",
+        "documentation-maintenance",
+        "project-planning",
+        "status-snapshots",
+        "operations"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "043-docs-project-triage-snapshot-2026-02-18.md",
+      "original_file_path": "docs-project-triage-snapshot-2026-02-18.md",
+      "title": "Project triage snapshot 2026 02 18",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/project-triage-snapshot-2026-02-18.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:46.669135-03:00",
+      "summary": "This document provides a snapshot of open pull requests and issues for the ZeroClaw project to identify documentation priorities and information architecture needs based on repository activity.",
+      "tags": [
+        "project-triage",
+        "repository-pulse",
+        "documentation-backlog",
+        "issue-tracking",
+        "pr-analysis"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "014-docs-providers-reference.md",
+      "original_file_path": "docs-providers-reference.md",
+      "title": "Providers reference",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/providers-reference.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:49.004752-03:00",
+      "summary": "This document provides a comprehensive reference for ZeroClaw's supported AI providers, including their IDs, aliases, and required environment variables for credentials. It also outlines the credential resolution logic and configuration steps for custom endpoints and model routing.",
+      "tags": [
+        "zeroclaw",
+        "ai-providers",
+        "api-configuration",
+        "environment-variables",
+        "model-routing",
+        "credential-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "026-docs-reference-README.md",
+      "original_file_path": "docs-reference-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/reference/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:50.594707-03:00",
+      "summary": "This document provides a structured index for technical reference materials including commands, provider configurations, channel setups, and configuration keys.",
+      "tags": [
+        "reference-catalog",
+        "cli-commands",
+        "provider-configuration",
+        "channel-setup",
+        "config-defaults"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "020-docs-resource-limits.md",
+      "original_file_path": "docs-resource-limits.md",
+      "title": "Resource limits",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/resource-limits.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:50.860445-03:00",
+      "summary": "This document outlines proposed technical strategies and configuration schemas for implementing resource limits, such as CPU and memory caps, for ZeroClaw agents.",
+      "tags": [
+        "resource-management",
+        "zeroclaw",
+        "cgroups",
+        "memory-limits",
+        "cpu-throttling",
+        "roadmap"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "037-docs-reviewer-playbook.md",
+      "original_file_path": "docs-reviewer-playbook.md",
+      "title": "Reviewer playbook",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/reviewer-playbook.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:53.633554-03:00",
+      "summary": "This playbook provides operational procedures for code reviews, including intake triage, risk-based assessment matrices, and issue management strategies to optimize review latency and quality.",
+      "tags": [
+        "code-review",
+        "pull-request-workflow",
+        "triage-process",
+        "quality-assurance",
+        "maintainer-playbook",
+        "risk-assessment"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "034-docs-security-README.md",
+      "original_file_path": "docs-security-README.md",
+      "title": "README",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/security/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:55.790592-03:00",
+      "summary": "This document serves as an index for security documentation, distinguishing between established runtime hardening guidance and future-oriented proposals and roadmaps.",
+      "tags": [
+        "security-hardening",
+        "system-security",
+        "documentation-index",
+        "roadmap",
+        "sandboxing",
+        "audit-logging",
+        "configuration-reference"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "019-docs-sandboxing.md",
+      "original_file_path": "docs-sandboxing.md",
+      "title": "Sandboxing",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/sandboxing.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:53.732138-03:00",
+      "summary": "This document outlines proposed OS-level sandboxing strategies for ZeroClaw, evaluating options like Firejail, Bubblewrap, and Landlock to improve application containment.",
+      "tags": [
+        "sandboxing",
+        "security",
+        "zeroclaw",
+        "linux-security",
+        "isolation",
+        "rust"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "035-docs-security-roadmap.md",
+      "original_file_path": "docs-security-roadmap.md",
+      "title": "Security roadmap",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/security-roadmap.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:58.01934-03:00",
+      "summary": "This document outlines a multi-phase strategic roadmap to enhance ZeroClaw security through OS-level sandboxing, resource limits, and tamper-evident audit logging.",
+      "tags": [
+        "zeroclaw",
+        "security-roadmap",
+        "os-sandboxing",
+        "resource-limits",
+        "audit-logging",
+        "cybersecurity"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "038-docs-troubleshooting.md",
+      "original_file_path": "docs-troubleshooting.md",
+      "title": "Troubleshooting",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/troubleshooting.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:18:59.397791-03:00",
+      "summary": "This guide provides diagnostic steps and solutions for common installation, runtime, and configuration issues within the ZeroClaw ecosystem. It covers troubleshooting for system dependencies, gateway connectivity, channel conflicts, and service management.",
+      "tags": [
+        "troubleshooting",
+        "zeroclaw",
+        "installation-fix",
+        "diagnostic-commands",
+        "gateway-config",
+        "service-management",
+        "error-resolution"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "013-docs-zai-glm-setup.md",
+      "original_file_path": "docs-zai-glm-setup.md",
+      "title": "Zai glm setup",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/zai-glm-setup.md",
+      "source": "git",
+      "fetched_at": "2026-02-18T07:19:00.826679-03:00",
+      "summary": "This document explains how to configure and integrate Z.AI GLM models with ZeroClaw using OpenAI-compatible endpoints. It details setup methods, model availability, and troubleshooting steps for successful implementation.",
+      "tags": [
+        "zeroclaw",
+        "z-ai",
+        "glm-models",
+        "configuration-guide",
+        "api-integration",
+        "troubleshooting"
+      ],
+      "category": "configuration"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-18T10:19:46Z",
+    "total_files": 43,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & How-To",
+      "Configuration & Settings",
+      "Providers & Features",
+      "Concepts & Design",
+      "Integration & Connection",
+      "API & CLI Reference",
+      "Hardware Datasheets & Reference",
+      "Operations & Deployment",
+      "Security",
+      "Automation & Workflow",
+      "Troubleshooting & Support",
+      "Meta & Resources"
+    ]
+  }
+}

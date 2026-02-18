@@ -2,16 +2,16 @@
 title: README.ru
 url: https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/README.ru.md
 source: git
-fetched_at: 2026-02-18T07:13:16.161695-03:00
+fetched_at: 2026-02-18T07:17:39.633338-03:00
 rendered_js: false
 word_count: 310
-summary: This document serves as the primary Russian-language entry point and navigation hub for the ZeroClaw documentation suite, organizing links by task, role, and category.
+summary: This document serves as the primary Russian-language entry point and navigational hub for ZeroClaw documentation, organizing resources by task, role, and category.
 tags:
     - zeroclaw
     - documentation-hub
     - russian-language
-    - navigation-map
-    - project-resources
+    - navigation-guide
+    - project-index
 category: guide
 ---
 

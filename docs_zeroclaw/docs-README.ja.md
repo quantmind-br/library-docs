@@ -2,17 +2,17 @@
 title: README.ja
 url: https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/README.ja.md
 source: git
-fetched_at: 2026-02-18T07:13:16.161689-03:00
+fetched_at: 2026-02-18T07:17:39.633336-03:00
 rendered_js: false
 word_count: 203
-summary: This document serves as the central entry point for ZeroClaw's Japanese documentation, providing a structured index of links to installation, configuration, and operational resources.
+summary: This document serves as the central Japanese documentation hub for ZeroClaw, providing an organized index and navigation guide to setup, configuration, operations, and troubleshooting resources.
 tags:
     - zeroclaw
-    - japanese-documentation
     - documentation-hub
+    - japanese-docs
+    - navigation-guide
     - index
-    - resource-navigation
-    - user-guide
+    - operations-manual
 category: guide
 ---
 

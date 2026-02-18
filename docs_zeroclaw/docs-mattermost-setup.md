@@ -1,0 +1,69 @@
+---
+title: Mattermost setup
+url: https://github.com/zeroclaw-labs/zeroclaw/blob/main/docs/mattermost-setup.md
+source: git
+fetched_at: 2026-02-18T07:18:33.632005-03:00
+rendered_js: false
+word_count: 321
+summary: This document provides instructions for setting up and configuring the native Mattermost integration for ZeroClaw, including bot account creation and TOML configuration settings.
+tags:
+    - mattermost
+    - integration-guide
+    - self-hosted
+    - bot-configuration
+    - messaging-platforms
+    - toml-config
+category: guide
+---
+
+# Mattermost Integration Guide
+
+ZeroClaw supports native integration with Mattermost via its REST API v4. This integration is ideal for self-hosted, private, or air-gapped environments where sovereign communication is a requirement.
+
+## Prerequisites
+
+1.  **Mattermost Server**: A running Mattermost instance (self-hosted or cloud).
+2.  **Bot Account**:
+    - Go to **Main Menu > Integrations > Bot Accounts**.
+    - Click **Add Bot Account**.
+    - Set a username (e.g., `zeroclaw-bot`).
+    - Enable **post:all** and **channel:read** permissions (or appropriate scopes).
+    - Save the **Access Token**.
+3.  **Channel ID**:
+    - Open the Mattermost channel you want the bot to monitor.
+    - Click the channel header and select **View Info**.
+    - Copy the **ID** (e.g., `7j8k9l...`).
+
+## Configuration
+
+Add the following to your `config.toml` under the `[channels_config]` section:
+
+```toml
+[channels_config.mattermost]
+url = "https://mm.your-domain.com"
+bot_token = "your-bot-access-token"
+channel_id = "your-channel-id"
+allowed_users = ["user-id-1", "user-id-2"]
+thread_replies = true
+```
+
+### Configuration Fields
+
+| Field | Description |
+|---|---|
+| `url` | The base URL of your Mattermost server. |
+| `bot_token` | The Personal Access Token for the bot account. |
+| `channel_id` | (Optional) The ID of the channel to listen to. Required for `listen` mode. |
+| `allowed_users` | (Optional) A list of Mattermost User IDs permitted to interact with the bot. Use `["*"]` to allow everyone. |
+| `thread_replies` | (Optional) Whether top-level user messages should be answered in a thread. Default: `true`. Existing thread replies always remain in-thread. |
+
+## Threaded Conversations
+
+ZeroClaw supports Mattermost threads in both modes:
+- If a user sends a message in an existing thread, ZeroClaw always replies within that same thread.
+- If `thread_replies = true` (default), top-level messages are answered by threading on that post.
+- If `thread_replies = false`, top-level messages are answered at channel root level.
+
+## Security Note
+
+Mattermost integration is designed for **sovereign communication**. By hosting your own Mattermost server, your agent's communication history remains entirely within your own infrastructure, avoiding third-party cloud logging.

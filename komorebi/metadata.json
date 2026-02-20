@@ -5,7 +5,7 @@
   "total_documents": 203,
   "documents": [
     {
-      "file_path": "docs-cli-adjust-workspace-padding.md",
+      "file_path": "073-docs-cli-adjust-workspace-padding.md",
       "title": "Adjust workspace padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/adjust-workspace-padding.md",
       "source": "git",
@@ -19,10 +19,11 @@
         "tiling-window-manager",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-adjust-workspace-padding.md"
     },
     {
-      "file_path": "docs-cli-adjust-container-padding.md",
+      "file_path": "087-docs-cli-adjust-container-padding.md",
       "title": "Adjust container padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/adjust-container-padding.md",
       "source": "git",
@@ -35,10 +36,11 @@
         "container-padding",
         "workspace-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-adjust-container-padding.md"
     },
     {
-      "file_path": "docs-cli-ahk-app-specific-configuration.md",
+      "file_path": "178-docs-cli-ahk-app-specific-configuration.md",
       "title": "Ahk app specific configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ahk-app-specific-configuration.md",
       "source": "git",
@@ -52,10 +54,11 @@
         "autohotkey",
         "yaml-config"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-ahk-app-specific-configuration.md"
     },
     {
-      "file_path": "docs-cli-animation-fps.md",
+      "file_path": "156-docs-cli-animation-fps.md",
       "title": "Animation fps",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation-fps.md",
       "source": "git",
@@ -68,10 +71,11 @@
         "cli",
         "configuration"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-cli-animation-fps.md"
     },
     {
-      "file_path": "docs-cli-animation-duration.md",
+      "file_path": "155-docs-cli-animation-duration.md",
       "title": "Animation duration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation-duration.md",
       "source": "git",
@@ -84,10 +88,11 @@
         "cli-reference",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-animation-duration.md"
     },
     {
-      "file_path": "docs-cli-animation-style.md",
+      "file_path": "157-docs-cli-animation-style.md",
       "title": "Animation style",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation-style.md",
       "source": "git",
@@ -100,10 +105,11 @@
         "easing-functions",
         "window-manager-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-animation-style.md"
     },
     {
-      "file_path": "docs-cli-animation.md",
+      "file_path": "154-docs-cli-animation.md",
       "title": "Animation",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation.md",
       "source": "git",
@@ -116,10 +122,11 @@
         "animation-settings",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-animation.md"
     },
     {
-      "file_path": "docs-cli-application-specific-configuration-schema.md",
+      "file_path": "175-docs-cli-application-specific-configuration-schema.md",
       "title": "Application specific configuration schema",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/application-specific-configuration-schema.md",
       "source": "git",
@@ -132,10 +139,11 @@
         "configuration",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-application-specific-configuration-schema.md"
     },
     {
-      "file_path": "docs-cli-bar-configuration.md",
+      "file_path": "187-docs-cli-bar-configuration.md",
       "title": "Bar configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/bar-configuration.md",
       "source": "git",
@@ -148,10 +156,11 @@
         "configuration-file",
         "komorebi-bar"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-bar-configuration.md"
     },
     {
-      "file_path": "docs-cli-border-colour.md",
+      "file_path": "162-docs-cli-border-colour.md",
       "title": "Border colour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-colour.md",
       "source": "git",
@@ -164,10 +173,11 @@
         "border-color",
         "rgb-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-border-colour.md"
     },
     {
-      "file_path": "docs-cli-border-implementation.md",
+      "file_path": "165-docs-cli-border-implementation.md",
       "title": "Border implementation",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-implementation.md",
       "source": "git",
@@ -180,10 +190,11 @@
         "cli-command",
         "styling-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-border-implementation.md"
     },
     {
-      "file_path": "docs-cli-border-offset.md",
+      "file_path": "164-docs-cli-border-offset.md",
       "title": "Border offset",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-offset.md",
       "source": "git",
@@ -196,10 +207,11 @@
         "border-offset",
         "command-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-border-offset.md"
     },
     {
-      "file_path": "docs-cli-border-style.md",
+      "file_path": "163-docs-cli-border-style.md",
       "title": "Border style",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-style.md",
       "source": "git",
@@ -212,10 +224,11 @@
         "cli-reference",
         "windows-customization"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-border-style.md"
     },
     {
-      "file_path": "docs-cli-border-width.md",
+      "file_path": "161-docs-cli-border-width.md",
       "title": "Border width",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-width.md",
       "source": "git",
@@ -228,10 +241,11 @@
         "border-width",
         "customization"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-border-width.md"
     },
     {
-      "file_path": "docs-cli-border.md",
+      "file_path": "160-docs-cli-border.md",
       "title": "Border",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border.md",
       "source": "git",
@@ -244,10 +258,11 @@
         "window-borders",
         "ui-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-border.md"
     },
     {
-      "file_path": "docs-cli-cancel-preselect.md",
+      "file_path": "100-docs-cli-cancel-preselect.md",
       "title": "Cancel preselect",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cancel-preselect.md",
       "source": "git",
@@ -260,10 +275,11 @@
         "workspace-management",
         "preselection"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cancel-preselect.md"
     },
     {
-      "file_path": "docs-cli-change-layout.md",
+      "file_path": "076-docs-cli-change-layout.md",
       "title": "Change layout",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/change-layout.md",
       "source": "git",
@@ -276,10 +292,11 @@
         "layout-configuration",
         "workspace-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-change-layout.md"
     },
     {
-      "file_path": "docs-cli-check.md",
+      "file_path": "197-docs-cli-check.md",
       "title": "Check",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/check.md",
       "source": "git",
@@ -292,10 +309,11 @@
         "error-checking",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-check.md"
     },
     {
-      "file_path": "docs-cli-clear-all-workspace-rules.md",
+      "file_path": "149-docs-cli-clear-all-workspace-rules.md",
       "title": "Clear all workspace rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-all-workspace-rules.md",
       "source": "git",
@@ -307,10 +325,11 @@
         "workspace-rules",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-clear-all-workspace-rules.md"
     },
     {
-      "file_path": "docs-cli-clear-named-workspace-layout-rules.md",
+      "file_path": "152-docs-cli-clear-named-workspace-layout-rules.md",
       "title": "Clear named workspace layout rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-named-workspace-layout-rules.md",
       "source": "git",
@@ -323,10 +342,11 @@
         "cli-command",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-clear-named-workspace-layout-rules.md"
     },
     {
-      "file_path": "docs-cli-clear-workspace-layout-rules.md",
+      "file_path": "151-docs-cli-clear-workspace-layout-rules.md",
       "title": "Clear workspace layout rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-workspace-layout-rules.md",
       "source": "git",
@@ -339,10 +359,11 @@
         "workspace-management",
         "layout-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-clear-workspace-layout-rules.md"
     },
     {
-      "file_path": "docs-cli-clear-named-workspace-rules.md",
+      "file_path": "148-docs-cli-clear-named-workspace-rules.md",
       "title": "Clear named workspace rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-named-workspace-rules.md",
       "source": "git",
@@ -355,10 +376,11 @@
         "window-tiling",
         "workspace-rules"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-clear-named-workspace-rules.md"
     },
     {
-      "file_path": "docs-cli-clear-session-float-rules.md",
+      "file_path": "150-docs-cli-clear-session-float-rules.md",
       "title": "Clear session float rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-session-float-rules.md",
       "source": "git",
@@ -371,10 +393,11 @@
         "floating-windows",
         "session-rules"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-clear-session-float-rules.md"
     },
     {
-      "file_path": "docs-cli-clear-workspace-rules.md",
+      "file_path": "147-docs-cli-clear-workspace-rules.md",
       "title": "Clear workspace rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-workspace-rules.md",
       "source": "git",
@@ -387,10 +410,11 @@
         "application-rules",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-clear-workspace-rules.md"
     },
     {
-      "file_path": "docs-cli-close-workspace.md",
+      "file_path": "067-docs-cli-close-workspace.md",
       "title": "Close workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/close-workspace.md",
       "source": "git",
@@ -403,10 +427,11 @@
         "window-tiling",
         "workspace-closure"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-close-workspace.md"
     },
     {
-      "file_path": "docs-cli-complete-configuration.md",
+      "file_path": "172-docs-cli-complete-configuration.md",
       "title": "Complete configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/complete-configuration.md",
       "source": "git",
@@ -419,10 +444,11 @@
         "window-manager",
         "legacy-support"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-complete-configuration.md"
     },
     {
-      "file_path": "docs-cli-close.md",
+      "file_path": "103-docs-cli-close.md",
       "title": "Close",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/close.md",
       "source": "git",
@@ -434,10 +460,11 @@
         "cli",
         "close-window"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-close.md"
     },
     {
-      "file_path": "docs-cli-container-padding.md",
+      "file_path": "086-docs-cli-container-padding.md",
       "title": "Container padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/container-padding.md",
       "source": "git",
@@ -450,10 +477,11 @@
         "container-padding",
         "workspace-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-container-padding.md"
     },
     {
-      "file_path": "docs-cli-configuration.md",
+      "file_path": "033-docs-cli-configuration.md",
       "title": "Configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/configuration.md",
       "source": "git",
@@ -466,10 +494,11 @@
         "komorebi-json",
         "window-manager"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-cli-configuration.md"
     },
     {
-      "file_path": "docs-cli-convert-app-specific-configuration.md",
+      "file_path": "176-docs-cli-convert-app-specific-configuration.md",
       "title": "Convert app specific configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/convert-app-specific-configuration.md",
       "source": "git",
@@ -483,10 +512,11 @@
         "json",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-convert-app-specific-configuration.md"
     },
     {
-      "file_path": "docs-cli-cross-monitor-move-behaviour.md",
+      "file_path": "130-docs-cli-cross-monitor-move-behaviour.md",
       "title": "Cross monitor move behaviour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cross-monitor-move-behaviour.md",
       "source": "git",
@@ -499,10 +529,11 @@
         "cli-command",
         "configuration-settings"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-cli-cross-monitor-move-behaviour.md"
     },
     {
-      "file_path": "docs-cli-cycle-empty-workspace.md",
+      "file_path": "070-docs-cli-cycle-empty-workspace.md",
       "title": "Cycle empty workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-empty-workspace.md",
       "source": "git",
@@ -515,10 +546,11 @@
         "navigation",
         "cli-command"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-empty-workspace.md"
     },
     {
-      "file_path": "docs-cli-cycle-focus.md",
+      "file_path": "049-docs-cli-cycle-focus.md",
       "title": "Cycle focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-focus.md",
       "source": "git",
@@ -531,10 +563,11 @@
         "focus-navigation",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-focus.md"
     },
     {
-      "file_path": "docs-cli-cycle-monitor.md",
+      "file_path": "115-docs-cli-cycle-monitor.md",
       "title": "Cycle monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-monitor.md",
       "source": "git",
@@ -547,10 +580,11 @@
         "cli-commands",
         "display-navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-monitor.md"
     },
     {
-      "file_path": "docs-cli-cycle-layout.md",
+      "file_path": "077-docs-cli-cycle-layout.md",
       "title": "Cycle layout",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-layout.md",
       "source": "git",
@@ -563,10 +597,11 @@
         "layout-cycling",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-layout.md"
     },
     {
-      "file_path": "docs-cli-cycle-move-to-monitor.md",
+      "file_path": "059-docs-cli-cycle-move-to-monitor.md",
       "title": "Cycle move to monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move-to-monitor.md",
       "source": "git",
@@ -579,10 +614,11 @@
         "cli-reference",
         "window-cycling"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-move-to-monitor.md"
     },
     {
-      "file_path": "docs-cli-cycle-move-to-workspace.md",
+      "file_path": "058-docs-cli-cycle-move-to-workspace.md",
       "title": "Cycle move to workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move-to-workspace.md",
       "source": "git",
@@ -595,10 +631,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-move-to-workspace.md"
     },
     {
-      "file_path": "docs-cli-cycle-move-workspace-to-monitor.md",
+      "file_path": "060-docs-cli-cycle-move-workspace-to-monitor.md",
       "title": "Cycle move workspace to monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move-workspace-to-monitor.md",
       "source": "git",
@@ -611,10 +648,11 @@
         "monitor-navigation",
         "cli-command"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-move-workspace-to-monitor.md"
     },
     {
-      "file_path": "docs-cli-cycle-move.md",
+      "file_path": "057-docs-cli-cycle-move.md",
       "title": "Cycle move",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move.md",
       "source": "git",
@@ -627,7 +665,8 @@
         "cycle-move",
         "window-navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-move.md"
     },
     {
       "file_path": "docs-cli-cycle-send-to-workspace.md",
@@ -661,7 +700,7 @@
       "category": "reference"
     },
     {
-      "file_path": "docs-cli-cycle-stack-index.md",
+      "file_path": "095-docs-cli-cycle-stack-index.md",
       "title": "Cycle stack index",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-stack-index.md",
       "source": "git",
@@ -674,10 +713,11 @@
         "cli-reference",
         "navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-stack-index.md"
     },
     {
-      "file_path": "docs-cli-cycle-stack.md",
+      "file_path": "094-docs-cli-cycle-stack.md",
       "title": "Cycle stack",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-stack.md",
       "source": "git",
@@ -690,10 +730,11 @@
         "stacking",
         "navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-stack.md"
     },
     {
-      "file_path": "docs-cli-cycle-workspace.md",
+      "file_path": "069-docs-cli-cycle-workspace.md",
       "title": "Cycle workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-workspace.md",
       "source": "git",
@@ -706,10 +747,11 @@
         "window-manager",
         "workspace-navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-cycle-workspace.md"
     },
     {
-      "file_path": "docs-cli-data-directory.md",
+      "file_path": "190-docs-cli-data-directory.md",
       "title": "Data directory",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/data-directory.md",
       "source": "git",
@@ -722,10 +764,11 @@
         "data-directory",
         "windows-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-data-directory.md"
     },
     {
-      "file_path": "docs-cli-display-index-preference.md",
+      "file_path": "118-docs-cli-display-index-preference.md",
       "title": "Display index preference",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/display-index-preference.md",
       "source": "git",
@@ -738,10 +781,11 @@
         "monitor-index",
         "window-manager-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-display-index-preference.md"
     },
     {
-      "file_path": "docs-cli-disable-autostart.md",
+      "file_path": "189-docs-cli-disable-autostart.md",
       "title": "Disable autostart",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/disable-autostart.md",
       "source": "git",
@@ -754,10 +798,11 @@
         "cli-command",
         "process-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-disable-autostart.md"
     },
     {
-      "file_path": "docs-cli-eager-focus.md",
+      "file_path": "047-docs-cli-eager-focus.md",
       "title": "Eager focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/eager-focus.md",
       "source": "git",
@@ -769,10 +814,11 @@
         "cli-reference",
         "focus-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-eager-focus.md"
     },
     {
-      "file_path": "docs-cli-enable-autostart.md",
+      "file_path": "188-docs-cli-enable-autostart.md",
       "title": "Enable autostart",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/enable-autostart.md",
       "source": "git",
@@ -785,10 +831,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-enable-autostart.md"
     },
     {
-      "file_path": "docs-cli-ensure-named-workspaces.md",
+      "file_path": "085-docs-cli-ensure-named-workspaces.md",
       "title": "Ensure named workspaces",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ensure-named-workspaces.md",
       "source": "git",
@@ -801,10 +848,11 @@
         "window-management",
         "workspace-naming"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-ensure-named-workspaces.md"
     },
     {
-      "file_path": "docs-cli-enforce-workspace-rules.md",
+      "file_path": "153-docs-cli-enforce-workspace-rules.md",
       "title": "Enforce workspace rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/enforce-workspace-rules.md",
       "source": "git",
@@ -817,10 +865,11 @@
         "workspace-rules",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-enforce-workspace-rules.md"
     },
     {
-      "file_path": "docs-cli-ensure-workspaces.md",
+      "file_path": "084-docs-cli-ensure-workspaces.md",
       "title": "Ensure workspaces",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ensure-workspaces.md",
       "source": "git",
@@ -834,10 +883,11 @@
         "workspace-configuration",
         "monitor-indexing"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-ensure-workspaces.md"
     },
     {
-      "file_path": "docs-cli-flip-layout.md",
+      "file_path": "078-docs-cli-flip-layout.md",
       "title": "Flip layout",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/flip-layout.md",
       "source": "git",
@@ -850,10 +900,11 @@
         "layout-management",
         "workspace-navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-flip-layout.md"
     },
     {
-      "file_path": "docs-cli-fetch-app-specific-configuration.md",
+      "file_path": "177-docs-cli-fetch-app-specific-configuration.md",
       "title": "Fetch app specific configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/fetch-app-specific-configuration.md",
       "source": "git",
@@ -866,10 +917,11 @@
         "window-manager",
         "applications-json"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-fetch-app-specific-configuration.md"
     },
     {
-      "file_path": "docs-cli-focus-last-workspace.md",
+      "file_path": "044-docs-cli-focus-last-workspace.md",
       "title": "Focus last workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-last-workspace.md",
       "source": "git",
@@ -882,10 +934,11 @@
         "cli-commands",
         "focus-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-last-workspace.md"
     },
     {
-      "file_path": "docs-cli-focus-monitor-at-cursor.md",
+      "file_path": "040-docs-cli-focus-monitor-at-cursor.md",
       "title": "Focus monitor at cursor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-monitor-at-cursor.md",
       "source": "git",
@@ -898,10 +951,11 @@
         "monitor-focus",
         "cursor-tracking"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-monitor-at-cursor.md"
     },
     {
-      "file_path": "docs-cli-focus-monitor-workspace.md",
+      "file_path": "041-docs-cli-focus-monitor-workspace.md",
       "title": "Focus monitor workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-monitor-workspace.md",
       "source": "git",
@@ -914,10 +968,11 @@
         "workspace-navigation",
         "multi-monitor"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-monitor-workspace.md"
     },
     {
-      "file_path": "docs-cli-focus-monitor.md",
+      "file_path": "039-docs-cli-focus-monitor.md",
       "title": "Focus monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-monitor.md",
       "source": "git",
@@ -930,10 +985,11 @@
         "cli",
         "command-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-monitor.md"
     },
     {
-      "file_path": "docs-cli-focus-named-workspace.md",
+      "file_path": "043-docs-cli-focus-named-workspace.md",
       "title": "Focus named workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-named-workspace.md",
       "source": "git",
@@ -946,10 +1002,11 @@
         "cli-reference",
         "focus-navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-named-workspace.md"
     },
     {
-      "file_path": "docs-cli-focus-workspace.md",
+      "file_path": "042-docs-cli-focus-workspace.md",
       "title": "Focus workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-workspace.md",
       "source": "git",
@@ -962,10 +1019,11 @@
         "cli-command",
         "focus-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-workspace.md"
     },
     {
-      "file_path": "docs-cli-focus-stack-window.md",
+      "file_path": "046-docs-cli-focus-stack-window.md",
       "title": "Focus stack window",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-stack-window.md",
       "source": "git",
@@ -978,10 +1036,11 @@
         "focus-control",
         "stack-navigation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-stack-window.md"
     },
     {
-      "file_path": "docs-cli-focus-workspaces.md",
+      "file_path": "045-docs-cli-focus-workspaces.md",
       "title": "Focus workspaces",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-workspaces.md",
       "source": "git",
@@ -994,10 +1053,11 @@
         "multi-monitor",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus-workspaces.md"
     },
     {
-      "file_path": "docs-cli-focus.md",
+      "file_path": "038-docs-cli-focus.md",
       "title": "Focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus.md",
       "source": "git",
@@ -1010,10 +1070,11 @@
         "focus-navigation",
         "directional-focus"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focus.md"
     },
     {
-      "file_path": "docs-cli-focused-workspace-container-padding.md",
+      "file_path": "088-docs-cli-focused-workspace-container-padding.md",
       "title": "Focused workspace container padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focused-workspace-container-padding.md",
       "source": "git",
@@ -1026,10 +1087,11 @@
         "container-padding",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focused-workspace-container-padding.md"
     },
     {
-      "file_path": "docs-cli-force-focus.md",
+      "file_path": "048-docs-cli-force-focus.md",
       "title": "Force focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/force-focus.md",
       "source": "git",
@@ -1042,10 +1104,11 @@
         "cli-command",
         "mouse-simulation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-force-focus.md"
     },
     {
-      "file_path": "docs-cli-generate-static-config.md",
+      "file_path": "173-docs-cli-generate-static-config.md",
       "title": "Generate static config",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/generate-static-config.md",
       "source": "git",
@@ -1059,10 +1122,11 @@
         "json-output",
         "static-config"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-generate-static-config.md"
     },
     {
-      "file_path": "docs-cli-focused-workspace-padding.md",
+      "file_path": "074-docs-cli-focused-workspace-padding.md",
       "title": "Focused workspace padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focused-workspace-padding.md",
       "source": "git",
@@ -1074,10 +1138,11 @@
         "cli-reference",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-focused-workspace-padding.md"
     },
     {
-      "file_path": "docs-cli-global-work-area-offset.md",
+      "file_path": "132-docs-cli-global-work-area-offset.md",
       "title": "Global work area offset",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/global-work-area-offset.md",
       "source": "git",
@@ -1090,10 +1155,11 @@
         "cli-reference",
         "display-settings"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-global-work-area-offset.md"
     },
     {
-      "file_path": "docs-cli-global-state.md",
+      "file_path": "196-docs-cli-global-state.md",
       "title": "Global state",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/global-state.md",
       "source": "git",
@@ -1106,10 +1172,11 @@
         "json-output",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-global-state.md"
     },
     {
-      "file_path": "docs-cli-gui.md",
+      "file_path": "193-docs-cli-gui.md",
       "title": "Gui",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/gui.md",
       "source": "git",
@@ -1122,10 +1189,11 @@
         "debugging",
         "cli-command"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-gui.md"
     },
     {
-      "file_path": "docs-cli-identify-object-name-change-application.md",
+      "file_path": "170-docs-cli-identify-object-name-change-application.md",
       "title": "Identify object name change application",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/identify-object-name-change-application.md",
       "source": "git",
@@ -1138,10 +1206,11 @@
         "event-handling",
         "application-identification"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-identify-object-name-change-application.md"
     },
     {
-      "file_path": "docs-cli-identify-layered-application.md",
+      "file_path": "168-docs-cli-identify-layered-application.md",
       "title": "Identify layered application",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/identify-layered-application.md",
       "source": "git",
@@ -1154,10 +1223,11 @@
         "layered-windows",
         "application-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-identify-layered-application.md"
     },
     {
-      "file_path": "docs-cli-identify-tray-application.md",
+      "file_path": "169-docs-cli-identify-tray-application.md",
       "title": "Identify tray application",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/identify-tray-application.md",
       "source": "git",
@@ -1170,10 +1240,11 @@
         "window-management",
         "application-identifier"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-identify-tray-application.md"
     },
     {
-      "file_path": "docs-cli-ignore-rule.md",
+      "file_path": "140-docs-cli-ignore-rule.md",
       "title": "Ignore rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ignore-rule.md",
       "source": "git",
@@ -1186,10 +1257,11 @@
         "configuration",
         "application-filtering"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-ignore-rule.md"
     },
     {
-      "file_path": "docs-cli-initial-named-workspace-rule.md",
+      "file_path": "144-docs-cli-initial-named-workspace-rule.md",
       "title": "Initial named workspace rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/initial-named-workspace-rule.md",
       "source": "git",
@@ -1202,10 +1274,11 @@
         "application-routing",
         "cli-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-initial-named-workspace-rule.md"
     },
     {
-      "file_path": "docs-cli-initial-workspace-rule.md",
+      "file_path": "143-docs-cli-initial-workspace-rule.md",
       "title": "Initial workspace rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/initial-workspace-rule.md",
       "source": "git",
@@ -1218,10 +1291,11 @@
         "cli-reference",
         "automation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-initial-workspace-rule.md"
     },
     {
-      "file_path": "docs-cli-invisible-borders.md",
+      "file_path": "166-docs-cli-invisible-borders.md",
       "title": "Invisible borders",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/invisible-borders.md",
       "source": "git",
@@ -1234,10 +1308,11 @@
         "cli-commands",
         "layout-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-invisible-borders.md"
     },
     {
-      "file_path": "docs-cli-license.md",
+      "file_path": "199-docs-cli-license.md",
       "title": "License",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/license.md",
       "source": "git",
@@ -1250,10 +1325,11 @@
         "commercial-use",
         "license-activation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-license.md"
     },
     {
-      "file_path": "docs-cli-kill.md",
+      "file_path": "198-docs-cli-kill.md",
       "title": "Kill",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/kill.md",
       "source": "git",
@@ -1266,10 +1342,11 @@
         "background-tasks",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-kill.md"
     },
     {
-      "file_path": "docs-cli-load-resize.md",
+      "file_path": "037-docs-cli-load-resize.md",
       "title": "Load resize",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/load-resize.md",
       "source": "git",
@@ -1282,10 +1359,11 @@
         "layout-configuration",
         "resize-dimensions"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-load-resize.md"
     },
     {
-      "file_path": "docs-cli-log.md",
+      "file_path": "191-docs-cli-log.md",
       "title": "Log",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/log.md",
       "source": "git",
@@ -1298,10 +1376,11 @@
         "process-logs",
         "troubleshooting"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-log.md"
     },
     {
-      "file_path": "docs-cli-manage-rule.md",
+      "file_path": "139-docs-cli-manage-rule.md",
       "title": "Manage rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/manage-rule.md",
       "source": "git",
@@ -1314,10 +1393,11 @@
         "application-rules",
         "configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-manage-rule.md"
     },
     {
-      "file_path": "docs-cli-manage.md",
+      "file_path": "137-docs-cli-manage.md",
       "title": "Manage",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/manage.md",
       "source": "git",
@@ -1330,10 +1410,11 @@
         "tiling-window-manager",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-manage.md"
     },
     {
-      "file_path": "docs-cli-monitor-index-preference.md",
+      "file_path": "119-docs-cli-monitor-index-preference.md",
       "title": "Monitor index preference",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/monitor-index-preference.md",
       "source": "git",
@@ -1346,10 +1427,11 @@
         "window-management",
         "display-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-monitor-index-preference.md"
     },
     {
-      "file_path": "docs-cli-minimize.md",
+      "file_path": "104-docs-cli-minimize.md",
       "title": "Minimize",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/minimize.md",
       "source": "git",
@@ -1361,10 +1443,11 @@
         "cli-reference",
         "minimize-window"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-minimize.md"
     },
     {
-      "file_path": "docs-cli-monitor-information.md",
+      "file_path": "116-docs-cli-monitor-information.md",
       "title": "Monitor information",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/monitor-information.md",
       "source": "git",
@@ -1377,10 +1460,11 @@
         "display-information",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-monitor-information.md"
     },
     {
-      "file_path": "docs-cli-mouse-follows-focus.md",
+      "file_path": "127-docs-cli-mouse-follows-focus.md",
       "title": "Mouse follows focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/mouse-follows-focus.md",
       "source": "git",
@@ -1393,10 +1477,11 @@
         "mouse-behavior",
         "configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-mouse-follows-focus.md"
     },
     {
-      "file_path": "docs-cli-monitor-work-area-offset.md",
+      "file_path": "117-docs-cli-monitor-work-area-offset.md",
       "title": "Monitor work area offset",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/monitor-work-area-offset.md",
       "source": "git",
@@ -1409,10 +1494,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-monitor-work-area-offset.md"
     },
     {
-      "file_path": "docs-cli-move-to-last-workspace.md",
+      "file_path": "055-docs-cli-move-to-last-workspace.md",
       "title": "Move to last workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-last-workspace.md",
       "source": "git",
@@ -1425,10 +1511,11 @@
         "workspace-navigation",
         "komorebic"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move-to-last-workspace.md"
     },
     {
-      "file_path": "docs-cli-move-to-monitor-workspace.md",
+      "file_path": "054-docs-cli-move-to-monitor-workspace.md",
       "title": "Move to monitor workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-monitor-workspace.md",
       "source": "git",
@@ -1441,10 +1528,11 @@
         "workspace-indexing",
         "cli-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move-to-monitor-workspace.md"
     },
     {
-      "file_path": "docs-cli-move-to-monitor.md",
+      "file_path": "053-docs-cli-move-to-monitor.md",
       "title": "Move to monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-monitor.md",
       "source": "git",
@@ -1457,10 +1545,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move-to-monitor.md"
     },
     {
-      "file_path": "docs-cli-move-to-named-workspace.md",
+      "file_path": "052-docs-cli-move-to-named-workspace.md",
       "title": "Move to named workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-named-workspace.md",
       "source": "git",
@@ -1473,10 +1562,11 @@
         "cli-command",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move-to-named-workspace.md"
     },
     {
-      "file_path": "docs-cli-move-to-workspace.md",
+      "file_path": "051-docs-cli-move-to-workspace.md",
       "title": "Move to workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-workspace.md",
       "source": "git",
@@ -1489,10 +1579,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move-to-workspace.md"
     },
     {
-      "file_path": "docs-cli-move-workspace-to-monitor.md",
+      "file_path": "056-docs-cli-move-workspace-to-monitor.md",
       "title": "Move workspace to monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-workspace-to-monitor.md",
       "source": "git",
@@ -1505,10 +1596,11 @@
         "cli-reference",
         "monitor-control"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move-workspace-to-monitor.md"
     },
     {
-      "file_path": "docs-cli-move.md",
+      "file_path": "050-docs-cli-move.md",
       "title": "Move",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move.md",
       "source": "git",
@@ -1521,10 +1613,11 @@
         "window-movement",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-move.md"
     },
     {
-      "file_path": "docs-cli-named-workspace-container-padding.md",
+      "file_path": "089-docs-cli-named-workspace-container-padding.md",
       "title": "Named workspace container padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-container-padding.md",
       "source": "git",
@@ -1537,10 +1630,11 @@
         "container-padding",
         "cli-command"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-named-workspace-container-padding.md"
     },
     {
-      "file_path": "docs-cli-named-workspace-layout-rule.md",
+      "file_path": "082-docs-cli-named-workspace-layout-rule.md",
       "title": "Named workspace layout rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-layout-rule.md",
       "source": "git",
@@ -1553,10 +1647,11 @@
         "workspace-rules",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-named-workspace-layout-rule.md"
     },
     {
-      "file_path": "docs-cli-named-workspace-layout.md",
+      "file_path": "083-docs-cli-named-workspace-layout.md",
       "title": "Named workspace layout",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-layout.md",
       "source": "git",
@@ -1570,7 +1665,8 @@
         "layout-configuration",
         "tiling-layouts"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-named-workspace-layout.md"
     },
     {
       "file_path": "docs-cli-named-workspace-padding.md",
@@ -1589,7 +1685,7 @@
       "category": "reference"
     },
     {
-      "file_path": "docs-cli-named-workspace-rule.md",
+      "file_path": "142-docs-cli-named-workspace-rule.md",
       "title": "Named workspace rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-rule.md",
       "source": "git",
@@ -1602,10 +1698,11 @@
         "cli-command",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-named-workspace-rule.md"
     },
     {
-      "file_path": "docs-cli-named-workspace-tiling.md",
+      "file_path": "080-docs-cli-named-workspace-tiling.md",
       "title": "Named workspace tiling",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-tiling.md",
       "source": "git",
@@ -1618,10 +1715,11 @@
         "workspace-management",
         "cli"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-named-workspace-tiling.md"
     },
     {
-      "file_path": "docs-cli-preselect-direction.md",
+      "file_path": "101-docs-cli-preselect-direction.md",
       "title": "Preselect direction",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/preselect-direction.md",
       "source": "git",
@@ -1634,10 +1732,11 @@
         "command-line-interface",
         "window-placement"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-preselect-direction.md"
     },
     {
-      "file_path": "docs-cli-new-workspace.md",
+      "file_path": "066-docs-cli-new-workspace.md",
       "title": "New workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/new-workspace.md",
       "source": "git",
@@ -1650,10 +1749,11 @@
         "window-manager",
         "workspace-creation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-new-workspace.md"
     },
     {
-      "file_path": "docs-cli-notification-schema.md",
+      "file_path": "185-docs-cli-notification-schema.md",
       "title": "Notification schema",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/notification-schema.md",
       "source": "git",
@@ -1666,10 +1766,11 @@
         "notifications",
         "command-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-notification-schema.md"
     },
     {
-      "file_path": "docs-cli-promote-focus.md",
+      "file_path": "098-docs-cli-promote-focus.md",
       "title": "Promote focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote-focus.md",
       "source": "git",
@@ -1682,10 +1783,11 @@
         "focus-promotion",
         "workspace-layout"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-promote-focus.md"
     },
     {
-      "file_path": "docs-cli-promote-swap.md",
+      "file_path": "099-docs-cli-promote-swap.md",
       "title": "Promote swap",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote-swap.md",
       "source": "git",
@@ -1698,10 +1800,11 @@
         "tiling-wm",
         "window-promotion"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-promote-swap.md"
     },
     {
-      "file_path": "docs-cli-promote-window.md",
+      "file_path": "097-docs-cli-promote-window.md",
       "title": "Promote window",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote-window.md",
       "source": "git",
@@ -1713,10 +1816,11 @@
         "cli-reference",
         "window-promotion"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-promote-window.md"
     },
     {
-      "file_path": "docs-cli-promote.md",
+      "file_path": "096-docs-cli-promote.md",
       "title": "Promote",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote.md",
       "source": "git",
@@ -1729,10 +1833,11 @@
         "tiling-window-manager",
         "layout-manipulation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-promote.md"
     },
     {
-      "file_path": "docs-cli-pwsh-app-specific-configuration.md",
+      "file_path": "179-docs-cli-pwsh-app-specific-configuration.md",
       "title": "Pwsh app specific configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/pwsh-app-specific-configuration.md",
       "source": "git",
@@ -1745,10 +1850,11 @@
         "configuration-management",
         "yaml"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-pwsh-app-specific-configuration.md"
     },
     {
-      "file_path": "docs-cli-query.md",
+      "file_path": "194-docs-cli-query.md",
       "title": "Query",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/query.md",
       "source": "git",
@@ -1761,10 +1867,11 @@
         "state-query",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-query.md"
     },
     {
-      "file_path": "docs-cli-quick-load-resize.md",
+      "file_path": "035-docs-cli-quick-load-resize.md",
       "title": "Quick load resize",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/quick-load-resize.md",
       "source": "git",
@@ -1777,10 +1884,11 @@
         "layout-persistence",
         "resize-dimensions"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-quick-load-resize.md"
     },
     {
-      "file_path": "docs-cli-quick-save-resize.md",
+      "file_path": "034-docs-cli-quick-save-resize.md",
       "title": "Quick save resize",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/quick-save-resize.md",
       "source": "git",
@@ -1793,10 +1901,11 @@
         "cli-reference",
         "resize-dimensions"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-quick-save-resize.md"
     },
     {
-      "file_path": "docs-cli-quickstart.md",
+      "file_path": "200-docs-cli-quickstart.md",
       "title": "Quickstart",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/quickstart.md",
       "source": "git",
@@ -1809,10 +1918,11 @@
         "quickstart",
         "setup"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-quickstart.md"
     },
     {
-      "file_path": "docs-cli-reload-configuration.md",
+      "file_path": "030-docs-cli-reload-configuration.md",
       "title": "Reload configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/reload-configuration.md",
       "source": "git",
@@ -1825,10 +1935,11 @@
         "legacy-support",
         "window-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-reload-configuration.md"
     },
     {
-      "file_path": "docs-cli-remove-title-bar.md",
+      "file_path": "167-docs-cli-remove-title-bar.md",
       "title": "Remove title bar",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/remove-title-bar.md",
       "source": "git",
@@ -1841,10 +1952,11 @@
         "title-bar-removal",
         "application-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-remove-title-bar.md"
     },
     {
-      "file_path": "docs-cli-replace-configuration.md",
+      "file_path": "032-docs-cli-replace-configuration.md",
       "title": "Replace configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/replace-configuration.md",
       "source": "git",
@@ -1857,10 +1969,11 @@
         "window-manager",
         "json-config"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-replace-configuration.md"
     },
     {
-      "file_path": "docs-cli-resize-axis.md",
+      "file_path": "109-docs-cli-resize-axis.md",
       "title": "Resize axis",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/resize-axis.md",
       "source": "git",
@@ -1873,10 +1986,11 @@
         "window-resizing",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-resize-axis.md"
     },
     {
-      "file_path": "docs-cli-resize-delta.md",
+      "file_path": "110-docs-cli-resize-delta.md",
       "title": "Resize delta",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/resize-delta.md",
       "source": "git",
@@ -1888,10 +2002,11 @@
         "cli-command",
         "window-resizing"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-resize-delta.md"
     },
     {
-      "file_path": "docs-cli-resize-edge.md",
+      "file_path": "111-docs-cli-resize-edge.md",
       "title": "Resize edge",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/resize-edge.md",
       "source": "git",
@@ -1904,10 +2019,11 @@
         "window-resizing",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-resize-edge.md"
     },
     {
-      "file_path": "docs-cli-restore-windows.md",
+      "file_path": "105-docs-cli-restore-windows.md",
       "title": "Restore windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/restore-windows.md",
       "source": "git",
@@ -1920,10 +2036,11 @@
         "cli-command",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-restore-windows.md"
     },
     {
-      "file_path": "docs-cli-retile.md",
+      "file_path": "106-docs-cli-retile.md",
       "title": "Retile",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/retile.md",
       "source": "git",
@@ -1936,10 +2053,11 @@
         "retiling",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-retile.md"
     },
     {
-      "file_path": "docs-cli-save-resize.md",
+      "file_path": "036-docs-cli-save-resize.md",
       "title": "Save resize",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/save-resize.md",
       "source": "git",
@@ -1952,10 +2070,11 @@
         "layout-persistence",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-save-resize.md"
     },
     {
-      "file_path": "docs-cli-scrolling-layout-columns.md",
+      "file_path": "102-docs-cli-scrolling-layout-columns.md",
       "title": "Scrolling layout columns",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/scrolling-layout-columns.md",
       "source": "git",
@@ -1968,10 +2087,11 @@
         "layout-configuration",
         "scrolling-layout"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-scrolling-layout-columns.md"
     },
     {
-      "file_path": "docs-cli-send-to-last-workspace.md",
+      "file_path": "065-docs-cli-send-to-last-workspace.md",
       "title": "Send to last workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-last-workspace.md",
       "source": "git",
@@ -1984,10 +2104,11 @@
         "cli-interface",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-send-to-last-workspace.md"
     },
     {
-      "file_path": "docs-cli-send-to-monitor-workspace.md",
+      "file_path": "064-docs-cli-send-to-monitor-workspace.md",
       "title": "Send to monitor workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-monitor-workspace.md",
       "source": "git",
@@ -2000,10 +2121,11 @@
         "cli-command",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-send-to-monitor-workspace.md"
     },
     {
-      "file_path": "docs-cli-send-to-monitor.md",
+      "file_path": "063-docs-cli-send-to-monitor.md",
       "title": "Send to monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-monitor.md",
       "source": "git",
@@ -2016,10 +2138,11 @@
         "multi-monitor",
         "command-line-interface"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-send-to-monitor.md"
     },
     {
-      "file_path": "docs-cli-send-to-named-workspace.md",
+      "file_path": "062-docs-cli-send-to-named-workspace.md",
       "title": "Send to named workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-named-workspace.md",
       "source": "git",
@@ -2032,10 +2155,11 @@
         "cli-reference",
         "window-operations"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-send-to-named-workspace.md"
     },
     {
-      "file_path": "docs-cli-send-to-workspace.md",
+      "file_path": "061-docs-cli-send-to-workspace.md",
       "title": "Send to workspace",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-workspace.md",
       "source": "git",
@@ -2048,10 +2172,11 @@
         "workspace-navigation",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-send-to-workspace.md"
     },
     {
-      "file_path": "docs-cli-session-float-rule.md",
+      "file_path": "146-docs-cli-session-float-rule.md",
       "title": "Session float rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/session-float-rule.md",
       "source": "git",
@@ -2064,10 +2189,11 @@
         "floating-windows",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-session-float-rule.md"
     },
     {
-      "file_path": "docs-cli-session-float-rules.md",
+      "file_path": "145-docs-cli-session-float-rules.md",
       "title": "Session float rules",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/session-float-rules.md",
       "source": "git",
@@ -2080,10 +2206,11 @@
         "floating-windows",
         "tiling-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-session-float-rules.md"
     },
     {
-      "file_path": "docs-cli-socket-schema.md",
+      "file_path": "184-docs-cli-socket-schema.md",
       "title": "Socket schema",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/socket-schema.md",
       "source": "git",
@@ -2096,10 +2223,11 @@
         "cli-usage",
         "schema-generation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-socket-schema.md"
     },
     {
-      "file_path": "docs-cli-stack-all.md",
+      "file_path": "092-docs-cli-stack-all.md",
       "title": "Stack all",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stack-all.md",
       "source": "git",
@@ -2112,10 +2240,11 @@
         "stacking",
         "tiling-wm"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-stack-all.md"
     },
     {
-      "file_path": "docs-cli-stack.md",
+      "file_path": "090-docs-cli-stack.md",
       "title": "Stack",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stack.md",
       "source": "git",
@@ -2128,10 +2257,11 @@
         "cli-commands",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-stack.md"
     },
     {
-      "file_path": "docs-cli-start.md",
+      "file_path": "027-docs-cli-start.md",
       "title": "Start",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/start.md",
       "source": "git",
@@ -2144,10 +2274,11 @@
         "process-management",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-start.md"
     },
     {
-      "file_path": "docs-cli-stackbar-mode.md",
+      "file_path": "186-docs-cli-stackbar-mode.md",
       "title": "Stackbar mode",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stackbar-mode.md",
       "source": "git",
@@ -2160,10 +2291,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-stackbar-mode.md"
     },
     {
-      "file_path": "docs-cli-state.md",
+      "file_path": "029-docs-cli-state.md",
       "title": "State",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/state.md",
       "source": "git",
@@ -2176,10 +2308,11 @@
         "state-inspection",
         "json-output"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-state.md"
     },
     {
-      "file_path": "docs-cli-static-config-schema.md",
+      "file_path": "174-docs-cli-static-config-schema.md",
       "title": "Static config schema",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/static-config-schema.md",
       "source": "git",
@@ -2192,10 +2325,11 @@
         "cli-command",
         "window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-static-config-schema.md"
     },
     {
-      "file_path": "docs-cli-stop.md",
+      "file_path": "028-docs-cli-stop.md",
       "title": "Stop",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stop.md",
       "source": "git",
@@ -2208,10 +2342,11 @@
         "process-termination",
         "command-line-interface"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-stop.md"
     },
     {
-      "file_path": "docs-cli-subscribe-pipe.md",
+      "file_path": "182-docs-cli-subscribe-pipe.md",
       "title": "Subscribe pipe",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/subscribe-pipe.md",
       "source": "git",
@@ -2225,10 +2360,11 @@
         "cli-command",
         "windows"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-subscribe-pipe.md"
     },
     {
-      "file_path": "docs-cli-subscribe-socket.md",
+      "file_path": "180-docs-cli-subscribe-socket.md",
       "title": "Subscribe socket",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/subscribe-socket.md",
       "source": "git",
@@ -2241,10 +2377,11 @@
         "unix-domain-socket",
         "event-subscription"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-subscribe-socket.md"
     },
     {
-      "file_path": "docs-cli-swap-workspaces-with-monitor.md",
+      "file_path": "071-docs-cli-swap-workspaces-with-monitor.md",
       "title": "Swap workspaces with monitor",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/swap-workspaces-with-monitor.md",
       "source": "git",
@@ -2257,10 +2394,11 @@
         "workspace-swapping",
         "monitor-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-swap-workspaces-with-monitor.md"
     },
     {
-      "file_path": "docs-cli-toggle-cross-monitor-move-behaviour.md",
+      "file_path": "129-docs-cli-toggle-cross-monitor-move-behaviour.md",
       "title": "Toggle cross monitor move behaviour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-cross-monitor-move-behaviour.md",
       "source": "git",
@@ -2273,10 +2411,11 @@
         "cli-usage",
         "monitor-boundaries"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-cross-monitor-move-behaviour.md"
     },
     {
-      "file_path": "docs-cli-toggle-float-override.md",
+      "file_path": "113-docs-cli-toggle-float-override.md",
       "title": "Toggle float override",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-float-override.md",
       "source": "git",
@@ -2289,10 +2428,11 @@
         "floating-windows",
         "command-usage"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-float-override.md"
     },
     {
-      "file_path": "docs-cli-toggle-float.md",
+      "file_path": "112-docs-cli-toggle-float.md",
       "title": "Toggle float",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-float.md",
       "source": "git",
@@ -2305,10 +2445,11 @@
         "cli-reference",
         "window-states"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-float.md"
     },
     {
-      "file_path": "docs-cli-toggle-lock.md",
+      "file_path": "122-docs-cli-toggle-lock.md",
       "title": "Toggle lock",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-lock.md",
       "source": "git",
@@ -2321,10 +2462,11 @@
         "cli-command",
         "container-locking"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-lock.md"
     },
     {
-      "file_path": "docs-cli-toggle-monocle.md",
+      "file_path": "107-docs-cli-toggle-monocle.md",
       "title": "Toggle monocle",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-monocle.md",
       "source": "git",
@@ -2337,10 +2479,11 @@
         "cli-interface",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-monocle.md"
     },
     {
-      "file_path": "docs-cli-toggle-mouse-follows-focus.md",
+      "file_path": "126-docs-cli-toggle-mouse-follows-focus.md",
       "title": "Toggle mouse follows focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-mouse-follows-focus.md",
       "source": "git",
@@ -2353,10 +2496,11 @@
         "mouse-behavior",
         "focus-settings"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-mouse-follows-focus.md"
     },
     {
-      "file_path": "docs-cli-toggle-maximize.md",
+      "file_path": "108-docs-cli-toggle-maximize.md",
       "title": "Toggle maximize",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-maximize.md",
       "source": "git",
@@ -2369,10 +2513,11 @@
         "toggle-maximize",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-maximize.md"
     },
     {
-      "file_path": "docs-cli-toggle-shortcuts.md",
+      "file_path": "123-docs-cli-toggle-shortcuts.md",
       "title": "Toggle shortcuts",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-shortcuts.md",
       "source": "git",
@@ -2385,10 +2530,11 @@
         "shortcut-management",
         "helper-tool"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-shortcuts.md"
     },
     {
-      "file_path": "docs-cli-toggle-pause.md",
+      "file_path": "121-docs-cli-toggle-pause.md",
       "title": "Toggle pause",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-pause.md",
       "source": "git",
@@ -2401,10 +2547,11 @@
         "cli-reference",
         "pause-tiling"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-pause.md"
     },
     {
-      "file_path": "docs-cli-toggle-tiling.md",
+      "file_path": "120-docs-cli-toggle-tiling.md",
       "title": "Toggle tiling",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-tiling.md",
       "source": "git",
@@ -2417,10 +2564,11 @@
         "cli-command",
         "workspace-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-tiling.md"
     },
     {
-      "file_path": "docs-cli-toggle-transparency.md",
+      "file_path": "125-docs-cli-toggle-transparency.md",
       "title": "Toggle transparency",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-transparency.md",
       "source": "git",
@@ -2433,10 +2581,11 @@
         "transparency",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-transparency.md"
     },
     {
-      "file_path": "docs-cli-toggle-title-bars.md",
+      "file_path": "124-docs-cli-toggle-title-bars.md",
       "title": "Toggle title bars",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-title-bars.md",
       "source": "git",
@@ -2449,10 +2598,11 @@
         "cli-reference",
         "whitelist"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-title-bars.md"
     },
     {
-      "file_path": "docs-cli-toggle-window-based-work-area-offset.md",
+      "file_path": "131-docs-cli-toggle-window-based-work-area-offset.md",
       "title": "Toggle window based work area offset",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-window-based-work-area-offset.md",
       "source": "git",
@@ -2465,10 +2615,11 @@
         "workspace-configuration",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-window-based-work-area-offset.md"
     },
     {
-      "file_path": "docs-cli-toggle-workspace-layer.md",
+      "file_path": "128-docs-cli-toggle-workspace-layer.md",
       "title": "Toggle workspace layer",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-workspace-layer.md",
       "source": "git",
@@ -2481,10 +2632,11 @@
         "workspace-layer",
         "tiling-wm"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-workspace-layer.md"
     },
     {
-      "file_path": "docs-cli-toggle-window-container-behaviour.md",
+      "file_path": "134-docs-cli-toggle-window-container-behaviour.md",
       "title": "Toggle window container behaviour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-window-container-behaviour.md",
       "source": "git",
@@ -2497,10 +2649,11 @@
         "tiling-behavior",
         "window-containers"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-window-container-behaviour.md"
     },
     {
-      "file_path": "docs-cli-toggle-workspace-float-override.md",
+      "file_path": "114-docs-cli-toggle-workspace-float-override.md",
       "title": "Toggle workspace float override",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-workspace-float-override.md",
       "source": "git",
@@ -2513,10 +2666,11 @@
         "workspace-configuration",
         "floating-windows"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-workspace-float-override.md"
     },
     {
-      "file_path": "docs-cli-transparency-alpha.md",
+      "file_path": "159-docs-cli-transparency-alpha.md",
       "title": "Transparency alpha",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/transparency-alpha.md",
       "source": "git",
@@ -2529,10 +2683,11 @@
         "transparency-settings",
         "alpha-transparency"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-transparency-alpha.md"
     },
     {
-      "file_path": "docs-cli-transparency.md",
+      "file_path": "158-docs-cli-transparency.md",
       "title": "Transparency",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/transparency.md",
       "source": "git",
@@ -2545,10 +2700,11 @@
         "transparency",
         "visual-settings"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-transparency.md"
     },
     {
-      "file_path": "docs-cli-toggle-workspace-window-container-behaviour.md",
+      "file_path": "135-docs-cli-toggle-workspace-window-container-behaviour.md",
       "title": "Toggle workspace window container behaviour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-workspace-window-container-behaviour.md",
       "source": "git",
@@ -2561,10 +2717,11 @@
         "tiling-behavior",
         "cli-command"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-toggle-workspace-window-container-behaviour.md"
     },
     {
-      "file_path": "docs-cli-unmanage.md",
+      "file_path": "138-docs-cli-unmanage.md",
       "title": "Unmanage",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unmanage.md",
       "source": "git",
@@ -2576,10 +2733,11 @@
         "cli-reference",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-unmanage.md"
     },
     {
-      "file_path": "docs-cli-unmanaged-window-operation-behaviour.md",
+      "file_path": "136-docs-cli-unmanaged-window-operation-behaviour.md",
       "title": "Unmanaged window operation behaviour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unmanaged-window-operation-behaviour.md",
       "source": "git",
@@ -2592,10 +2750,11 @@
         "configuration-options",
         "floating-windows"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-unmanaged-window-operation-behaviour.md"
     },
     {
-      "file_path": "docs-cli-unstack-all.md",
+      "file_path": "093-docs-cli-unstack-all.md",
       "title": "Unstack all",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unstack-all.md",
       "source": "git",
@@ -2608,10 +2767,11 @@
         "tiling-window-manager",
         "container-actions"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-unstack-all.md"
     },
     {
-      "file_path": "docs-cli-unstack.md",
+      "file_path": "091-docs-cli-unstack.md",
       "title": "Unstack",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unstack.md",
       "source": "git",
@@ -2624,10 +2784,11 @@
         "unstack",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-unstack.md"
     },
     {
-      "file_path": "docs-cli-unsubscribe-pipe.md",
+      "file_path": "183-docs-cli-unsubscribe-pipe.md",
       "title": "Unsubscribe pipe",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unsubscribe-pipe.md",
       "source": "git",
@@ -2640,10 +2801,11 @@
         "event-notifications",
         "unsubscribe"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-unsubscribe-pipe.md"
     },
     {
-      "file_path": "docs-cli-unsubscribe-socket.md",
+      "file_path": "181-docs-cli-unsubscribe-socket.md",
       "title": "Unsubscribe socket",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unsubscribe-socket.md",
       "source": "git",
@@ -2656,10 +2818,11 @@
         "event-notifications",
         "unsubscribe"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-unsubscribe-socket.md"
     },
     {
-      "file_path": "docs-cli-visible-windows.md",
+      "file_path": "195-docs-cli-visible-windows.md",
       "title": "Visible windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/visible-windows.md",
       "source": "git",
@@ -2672,10 +2835,11 @@
         "json-output",
         "windows-os"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-visible-windows.md"
     },
     {
-      "file_path": "docs-cli-watch-configuration.md",
+      "file_path": "031-docs-cli-watch-configuration.md",
       "title": "Watch configuration",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/watch-configuration.md",
       "source": "git",
@@ -2688,10 +2852,11 @@
         "legacy-support",
         "file-watching"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-watch-configuration.md"
     },
     {
-      "file_path": "docs-cli-whkdrc.md",
+      "file_path": "192-docs-cli-whkdrc.md",
       "title": "Whkdrc",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/whkdrc.md",
       "source": "git",
@@ -2704,10 +2869,11 @@
         "configuration",
         "file-path"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-whkdrc.md"
     },
     {
-      "file_path": "docs-cli-window-hiding-behaviour.md",
+      "file_path": "171-docs-cli-window-hiding-behaviour.md",
       "title": "Window hiding behaviour",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/window-hiding-behaviour.md",
       "source": "git",
@@ -2720,10 +2886,11 @@
         "cli-reference",
         "window-behavior"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-window-hiding-behaviour.md"
     },
     {
-      "file_path": "docs-cli-workspace-layout-rule.md",
+      "file_path": "081-docs-cli-workspace-layout-rule.md",
       "title": "Workspace layout rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-layout-rule.md",
       "source": "git",
@@ -2736,10 +2903,11 @@
         "dynamic-tiling",
         "cli-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-layout-rule.md"
     },
     {
-      "file_path": "docs-cli-workspace-layout.md",
+      "file_path": "075-docs-cli-workspace-layout.md",
       "title": "Workspace layout",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-layout.md",
       "source": "git",
@@ -2752,10 +2920,11 @@
         "cli-reference",
         "window-layout"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-layout.md"
     },
     {
-      "file_path": "docs-cli-workspace-name.md",
+      "file_path": "068-docs-cli-workspace-name.md",
       "title": "Workspace name",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-name.md",
       "source": "git",
@@ -2768,10 +2937,11 @@
         "window-management",
         "configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-name.md"
     },
     {
-      "file_path": "docs-cli-workspace-padding.md",
+      "file_path": "072-docs-cli-workspace-padding.md",
       "title": "Workspace padding",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-padding.md",
       "source": "git",
@@ -2784,10 +2954,11 @@
         "window-management",
         "workspace-configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-padding.md"
     },
     {
-      "file_path": "docs-cli-workspace-rule.md",
+      "file_path": "141-docs-cli-workspace-rule.md",
       "title": "Workspace rule",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-rule.md",
       "source": "git",
@@ -2800,10 +2971,11 @@
         "window-rules",
         "configuration"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-rule.md"
     },
     {
-      "file_path": "docs-cli-workspace-tiling.md",
+      "file_path": "079-docs-cli-workspace-tiling.md",
       "title": "Workspace tiling",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-tiling.md",
       "source": "git",
@@ -2816,10 +2988,11 @@
         "cli-command",
         "tiling-window-manager"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-tiling.md"
     },
     {
-      "file_path": "docs-cli-workspace-work-area-offset.md",
+      "file_path": "133-docs-cli-workspace-work-area-offset.md",
       "title": "Workspace work area offset",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-work-area-offset.md",
       "source": "git",
@@ -2832,10 +3005,11 @@
         "monitor-configuration",
         "cli-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-cli-workspace-work-area-offset.md"
     },
     {
-      "file_path": "docs-common-workflows-autohotkey.md",
+      "file_path": "010-docs-common-workflows-autohotkey.md",
       "title": "Autohotkey",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/autohotkey.md",
       "source": "git",
@@ -2849,10 +3023,11 @@
         "configuration",
         "windows-automation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-common-workflows-autohotkey.md"
     },
     {
-      "file_path": "docs-common-workflows-animations.md",
+      "file_path": "011-docs-common-workflows-animations.md",
       "title": "Animations",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/animations.md",
       "source": "git",
@@ -2865,10 +3040,11 @@
         "json-configuration",
         "performance"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-animations.md"
     },
     {
-      "file_path": "docs-common-workflows-autostart.md",
+      "file_path": "012-docs-common-workflows-autostart.md",
       "title": "Autostart",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/autostart.md",
       "source": "git",
@@ -2882,10 +3058,11 @@
         "tiling-window-manager",
         "cli"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-common-workflows-autostart.md"
     },
     {
-      "file_path": "docs-common-workflows-borders.md",
+      "file_path": "013-docs-common-workflows-borders.md",
       "title": "Borders",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/borders.md",
       "source": "git",
@@ -2899,10 +3076,11 @@
         "window-management",
         "visual-styling"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-borders.md"
     },
     {
-      "file_path": "docs-common-workflows-dynamic-layout-switching.md",
+      "file_path": "014-docs-common-workflows-dynamic-layout-switching.md",
       "title": "Dynamic layout switching",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/dynamic-layout-switching.md",
       "source": "git",
@@ -2915,10 +3093,11 @@
         "window-management",
         "layout-rules"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-dynamic-layout-switching.md"
     },
     {
-      "file_path": "docs-common-workflows-floating-applications.md",
+      "file_path": "015-docs-common-workflows-floating-applications.md",
       "title": "Floating applications",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/floating-applications.md",
       "source": "git",
@@ -2931,10 +3110,11 @@
         "configuration",
         "json"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-floating-applications.md"
     },
     {
-      "file_path": "docs-common-workflows-force-manage-windows.md",
+      "file_path": "016-docs-common-workflows-force-manage-windows.md",
       "title": "Force manage windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/force-manage-windows.md",
       "source": "git",
@@ -2947,10 +3127,11 @@
         "manage-rules",
         "tiling-window-manager"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-force-manage-windows.md"
     },
     {
-      "file_path": "docs-common-workflows-ignore-windows.md",
+      "file_path": "017-docs-common-workflows-ignore-windows.md",
       "title": "Ignore windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/ignore-windows.md",
       "source": "git",
@@ -2964,10 +3145,11 @@
         "tiling-manager",
         "json-configuration"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-ignore-windows.md"
     },
     {
-      "file_path": "docs-common-workflows-komorebi-config-home.md",
+      "file_path": "018-docs-common-workflows-komorebi-config-home.md",
       "title": "Komorebi config home",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/komorebi-config-home.md",
       "source": "git",
@@ -2980,10 +3162,11 @@
         "powershell",
         "windows-tiling-window-manager"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-komorebi-config-home.md"
     },
     {
-      "file_path": "docs-common-workflows-layout-ratios.md",
+      "file_path": "019-docs-common-workflows-layout-ratios.md",
       "title": "Layout ratios",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/layout-ratios.md",
       "source": "git",
@@ -2996,10 +3179,11 @@
         "window-management",
         "tiling-wm"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-layout-ratios.md"
     },
     {
-      "file_path": "docs-common-workflows-mouse-follows-focus.md",
+      "file_path": "020-docs-common-workflows-mouse-follows-focus.md",
       "title": "Mouse follows focus",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/mouse-follows-focus.md",
       "source": "git",
@@ -3012,10 +3196,11 @@
         "configuration-settings",
         "tiling-window-manager"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-mouse-follows-focus.md"
     },
     {
-      "file_path": "docs-common-workflows-multiple-bar-instances.md",
+      "file_path": "022-docs-common-workflows-multiple-bar-instances.md",
       "title": "Multiple bar instances",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/multiple-bar-instances.md",
       "source": "git",
@@ -3027,10 +3212,11 @@
         "configuration-files",
         "monitor-targeting"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-multiple-bar-instances.md"
     },
     {
-      "file_path": "docs-common-workflows-multi-monitor-setup.md",
+      "file_path": "021-docs-common-workflows-multi-monitor-setup.md",
       "title": "Multi monitor setup",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/multi-monitor-setup.md",
       "source": "git",
@@ -3044,10 +3230,11 @@
         "window-management",
         "komorebic"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-common-workflows-multi-monitor-setup.md"
     },
     {
-      "file_path": "docs-common-workflows-remove-gaps.md",
+      "file_path": "023-docs-common-workflows-remove-gaps.md",
       "title": "Remove gaps",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/remove-gaps.md",
       "source": "git",
@@ -3061,10 +3248,11 @@
         "workspace-settings",
         "customization"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-remove-gaps.md"
     },
     {
-      "file_path": "docs-common-workflows-stackbar.md",
+      "file_path": "024-docs-common-workflows-stackbar.md",
       "title": "Stackbar",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/stackbar.md",
       "source": "git",
@@ -3076,10 +3264,11 @@
         "window-management",
         "ui-configuration"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-stackbar.md"
     },
     {
-      "file_path": "docs-common-workflows-tray-and-multi-window-applications.md",
+      "file_path": "025-docs-common-workflows-tray-and-multi-window-applications.md",
       "title": "Tray and multi window applications",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/tray-and-multi-window-applications.md",
       "source": "git",
@@ -3092,10 +3281,11 @@
         "multi-window",
         "configuration"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-common-workflows-tray-and-multi-window-applications.md"
     },
     {
-      "file_path": "docs-design.md",
+      "file_path": "008-docs-design.md",
       "title": "Design",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/design.md",
       "source": "git",
@@ -3109,10 +3299,11 @@
         "windows-os",
         "workspace-organization"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-design.md"
     },
     {
-      "file_path": "docs-index.md",
+      "file_path": "001-docs-index.md",
       "title": "Index",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/index.md",
       "source": "git",
@@ -3126,10 +3317,11 @@
         "software-licensing",
         "open-source"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-index.md"
     },
     {
-      "file_path": "docs-example-configurations.md",
+      "file_path": "009-docs-example-configurations.md",
       "title": "Example configurations",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/example-configurations.md",
       "source": "git",
@@ -3144,10 +3336,11 @@
         "hotkey-daemon",
         "workspace-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-example-configurations.md"
     },
     {
-      "file_path": "docs-installation.md",
+      "file_path": "002-docs-installation.md",
       "title": "Installation",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/installation.md",
       "source": "git",
@@ -3162,10 +3355,11 @@
         "scoop",
         "winget"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-installation.md"
     },
     {
-      "file_path": "docs-troubleshooting.md",
+      "file_path": "026-docs-troubleshooting.md",
       "title": "Troubleshooting",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/troubleshooting.md",
       "source": "git",
@@ -3180,10 +3374,11 @@
         "nvidia-gpu",
         "window-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-troubleshooting.md"
     },
     {
-      "file_path": "docs-usage-focusing-windows.md",
+      "file_path": "006-docs-usage-focusing-windows.md",
       "title": "Focusing windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/focusing-windows.md",
       "source": "git",
@@ -3196,10 +3391,11 @@
         "window-tiling",
         "configuration-options"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-usage-focusing-windows.md"
     },
     {
-      "file_path": "docs-usage-focusing-workspaces.md",
+      "file_path": "007-docs-usage-focusing-workspaces.md",
       "title": "Focusing workspaces",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/focusing-workspaces.md",
       "source": "git",
@@ -3213,10 +3409,11 @@
         "focus-handling",
         "tiling-window-manager"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-usage-focusing-workspaces.md"
     },
     {
-      "file_path": "docs-usage-moving-windows-across-workspaces.md",
+      "file_path": "005-docs-usage-moving-windows-across-workspaces.md",
       "title": "Moving windows across workspaces",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/moving-windows-across-workspaces.md",
       "source": "git",
@@ -3230,10 +3427,11 @@
         "cli-commands",
         "tiling-window-manager"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-usage-moving-windows-across-workspaces.md"
     },
     {
-      "file_path": "docs-usage-moving-windows.md",
+      "file_path": "004-docs-usage-moving-windows.md",
       "title": "Moving windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/moving-windows.md",
       "source": "git",
@@ -3246,10 +3444,11 @@
         "workspace-navigation",
         "monitor-boundaries"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-usage-moving-windows.md"
     },
     {
-      "file_path": "docs-usage-stacking-windows.md",
+      "file_path": "003-docs-usage-stacking-windows.md",
       "title": "Stacking windows",
       "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/stacking-windows.md",
       "source": "git",
@@ -3263,7 +3462,21 @@
         "cli-commands",
         "workspace-layout"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-usage-stacking-windows.md"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-20T12:00:47.825Z",
+    "total_files": 203,
+    "categories": [
+      "Introduction & Overview",
+      "Usage Guides",
+      "Configuration & Design",
+      "Common Workflows",
+      "Troubleshooting",
+      "CLI Reference"
+    ]
+  }
 }

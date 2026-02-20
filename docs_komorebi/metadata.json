@@ -1,0 +1,3269 @@
+{
+  "generated_at": "2026-02-20T08:51:42.687126-03:00",
+  "source_url": "https://github.com/LGUG2Z/komorebi",
+  "strategy": "git",
+  "total_documents": 203,
+  "documents": [
+    {
+      "file_path": "docs-cli-adjust-workspace-padding.md",
+      "title": "Adjust workspace padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/adjust-workspace-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:43.322405-03:00",
+      "summary": "This document provides the usage syntax and argument details for adjusting workspace padding via the komorebic command-line interface.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-padding",
+        "cli-command",
+        "tiling-window-manager",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-adjust-container-padding.md",
+      "title": "Adjust container padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/adjust-container-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:43.322409-03:00",
+      "summary": "This document provides the command-line usage and argument specifications for adjusting container padding within a focused workspace using komorebic.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "window-management",
+        "container-padding",
+        "workspace-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-ahk-app-specific-configuration.md",
+      "title": "Ahk app specific configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ahk-app-specific-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:43.322405-03:00",
+      "summary": "Explains how to use the komorebic CLI command to generate application-specific configurations and fixes for komorebi.ahk from YAML source files.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "configuration-tool",
+        "autohotkey",
+        "yaml-config"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-animation-fps.md",
+      "title": "Animation fps",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation-fps.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:48.272607-03:00",
+      "summary": "This document explains how to configure the frames per second for movement animations using the komorebic command-line interface.",
+      "tags": [
+        "komorebi",
+        "animation",
+        "fps",
+        "cli",
+        "configuration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-animation-duration.md",
+      "title": "Animation duration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation-duration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:47.556556-03:00",
+      "summary": "Explains how to use the komorebic CLI command to set global or specific animation durations for movement and transparency effects.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "animation-settings",
+        "cli-reference",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-animation-style.md",
+      "title": "Animation style",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation-style.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:48.764249-03:00",
+      "summary": "This document describes the command-line usage and available options for setting the easing function of movement and transparency animations in komorebi.",
+      "tags": [
+        "komorebi",
+        "animation-style",
+        "cli-command",
+        "easing-functions",
+        "window-manager-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-animation.md",
+      "title": "Animation",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/animation.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:51.661083-03:00",
+      "summary": "This document provides instructions for using the komorebic animation command to enable or disable window movement and transparency animations.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "cli-reference",
+        "animation-settings",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-application-specific-configuration-schema.md",
+      "title": "Application specific configuration schema",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/application-specific-configuration-schema.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:52.119737-03:00",
+      "summary": "This document explains how to use the komorebic command-line tool to generate a JSON Schema for the applications.json configuration file.",
+      "tags": [
+        "komorebi",
+        "json-schema",
+        "cli",
+        "configuration",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-bar-configuration.md",
+      "title": "Bar configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/bar-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:52.497161-03:00",
+      "summary": "This document describes the CLI command used to locate the configuration file for the komorebi status bar.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "cli-reference",
+        "configuration-file",
+        "komorebi-bar"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-border-colour.md",
+      "title": "Border colour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-colour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:55.391423-03:00",
+      "summary": "This document provides a reference for the border-colour command in komorebic, detailing how to set RGB color values for various window border types.",
+      "tags": [
+        "komorebi",
+        "cli-reference",
+        "window-management",
+        "border-color",
+        "rgb-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-border-implementation.md",
+      "title": "Border implementation",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-implementation.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:56.343314-03:00",
+      "summary": "This document provides usage instructions for the komorebic command to set the border implementation style, allowing users to choose between custom adjustable borders and standard Windows accent borders.",
+      "tags": [
+        "komorebic",
+        "border-implementation",
+        "window-management",
+        "cli-command",
+        "styling-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-border-offset.md",
+      "title": "Border offset",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-offset.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:57.3012-03:00",
+      "summary": "This document describes how to use the komorebic command-line utility to set the offset of window borders.",
+      "tags": [
+        "komorebic",
+        "cli",
+        "window-management",
+        "border-offset",
+        "command-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-border-style.md",
+      "title": "Border style",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-style.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:46:58.68708-03:00",
+      "summary": "This document explains how to configure the visual appearance of window borders using the komorebic command-line interface.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "border-styling",
+        "cli-reference",
+        "windows-customization"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-border-width.md",
+      "title": "Border width",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border-width.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:00.271959-03:00",
+      "summary": "This document describes the komorebic command-line utility used to define and update the width of window borders within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "window-management",
+        "border-width",
+        "customization"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-border.md",
+      "title": "Border",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/border.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:01.448622-03:00",
+      "summary": "This document provides the usage instructions and available arguments for the komorebic command used to enable or disable window borders.",
+      "tags": [
+        "komorebic",
+        "window-manager",
+        "cli-reference",
+        "window-borders",
+        "ui-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cancel-preselect.md",
+      "title": "Cancel preselect",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cancel-preselect.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:02.490343-03:00",
+      "summary": "This document describes the usage and function of the cancel-preselect command for resetting workspace preselection directions.",
+      "tags": [
+        "komorebi",
+        "cli-command",
+        "window-management",
+        "workspace-management",
+        "preselection"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-change-layout.md",
+      "title": "Change layout",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/change-layout.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:03.935038-03:00",
+      "summary": "This document describes the usage and available arguments for the komorebic command used to modify the layout of the currently focused workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "layout-configuration",
+        "workspace-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-check.md",
+      "title": "Check",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/check.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:04.972796-03:00",
+      "summary": "This document describes the usage and options for the komorebic check command, which validates configuration files for the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "configuration-validation",
+        "cli-command",
+        "error-checking",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-clear-all-workspace-rules.md",
+      "title": "Clear all workspace rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-all-workspace-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:06.672505-03:00",
+      "summary": "This document describes the command to remove all application association rules from all workspaces within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "cli-command",
+        "workspace-rules",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-clear-named-workspace-layout-rules.md",
+      "title": "Clear named workspace layout rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-named-workspace-layout-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:07.65566-03:00",
+      "summary": "This document provides documentation for the komorebic command used to remove all dynamic layout rules from a specific named workspace.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "layout-rules",
+        "cli-command",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-clear-workspace-layout-rules.md",
+      "title": "Clear workspace layout rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-workspace-layout-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:11.727086-03:00",
+      "summary": "This document outlines the command-line usage and arguments for clearing all dynamic layout rules assigned to a specific workspace and monitor in komorebi.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli",
+        "workspace-management",
+        "layout-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-clear-named-workspace-rules.md",
+      "title": "Clear named workspace rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-named-workspace-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:09.122616-03:00",
+      "summary": "This document describes the usage and arguments for the komorebic command to remove all application association rules from a specific named workspace.",
+      "tags": [
+        "komorebic",
+        "cli-command",
+        "workspace-management",
+        "window-tiling",
+        "workspace-rules"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-clear-session-float-rules.md",
+      "title": "Clear session float rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-session-float-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:10.997332-03:00",
+      "summary": "This document provides the command usage for clearing all active session float rules in the komorebic window manager.",
+      "tags": [
+        "komorebic",
+        "cli",
+        "window-management",
+        "floating-windows",
+        "session-rules"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-clear-workspace-rules.md",
+      "title": "Clear workspace rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/clear-workspace-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:17.765442-03:00",
+      "summary": "This document explains the usage of the komorebic command to remove all application association rules for a specific monitor and workspace index.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "cli-command",
+        "application-rules",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-close-workspace.md",
+      "title": "Close workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/close-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:19.014847-03:00",
+      "summary": "This document describes the usage and requirements for the command to close the currently focused workspace in the komorebic tiling window manager.",
+      "tags": [
+        "komorebic",
+        "workspace-management",
+        "cli-reference",
+        "window-tiling",
+        "workspace-closure"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-complete-configuration.md",
+      "title": "Complete configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/complete-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:21.281665-03:00",
+      "summary": "Explains how to use the complete-configuration command to signal the end of configuration options for legacy komorebi scripts.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "configuration",
+        "window-manager",
+        "legacy-support"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-close.md",
+      "title": "Close",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/close.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:20.57489-03:00",
+      "summary": "Explains how to use the komorebic command-line utility to close the currently focused window.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli",
+        "close-window"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-container-padding.md",
+      "title": "Container padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/container-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:24.139336-03:00",
+      "summary": "This document explains how to use the komorebic CLI to set the pixel padding for containers within a specific workspace on a designated monitor.",
+      "tags": [
+        "komorebic",
+        "cli",
+        "window-management",
+        "container-padding",
+        "workspace-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:23.515096-03:00",
+      "summary": "Explains how to use the komorebic configuration command to retrieve the file system path to the komorebi.json configuration file.",
+      "tags": [
+        "komorebi",
+        "cli-command",
+        "configuration-path",
+        "komorebi-json",
+        "window-manager"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-convert-app-specific-configuration.md",
+      "title": "Convert app specific configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/convert-app-specific-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:24.293484-03:00",
+      "summary": "Provides usage instructions for the komorebic command-line tool to convert application-specific configuration files from v1 YAML format to v2 JSON format.",
+      "tags": [
+        "komorebic",
+        "cli-reference",
+        "configuration-conversion",
+        "yaml",
+        "json",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cross-monitor-move-behaviour.md",
+      "title": "Cross monitor move behaviour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cross-monitor-move-behaviour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:27.644309-03:00",
+      "summary": "This document explains how to configure the behavior of window containers when they are moved across monitor boundaries using the komorebi command-line interface.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "monitor-navigation",
+        "cli-command",
+        "configuration-settings"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-cli-cycle-empty-workspace.md",
+      "title": "Cycle empty workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-empty-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:27.699689-03:00",
+      "summary": "This documentation provides instructions for using the command-line tool to shift focus to the nearest empty workspace in a specified direction.",
+      "tags": [
+        "komorebic",
+        "workspace-management",
+        "window-manager",
+        "navigation",
+        "cli-command"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-focus.md",
+      "title": "Cycle focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:29.463737-03:00",
+      "summary": "This document explains how to use the cycle-focus command to navigate window focus sequentially within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "focus-navigation",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-monitor.md",
+      "title": "Cycle monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:31.618113-03:00",
+      "summary": "This document explains how to use the cycle-monitor command to shift focus between monitors in a specific cyclical direction.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "monitor-focus",
+        "cli-commands",
+        "display-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-layout.md",
+      "title": "Cycle layout",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-layout.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:31.044706-03:00",
+      "summary": "This document provides instructions for using the cycle-layout command to switch between available window management layouts in komorebic.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-command",
+        "layout-cycling",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-move-to-monitor.md",
+      "title": "Cycle move to monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move-to-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:34.331136-03:00",
+      "summary": "This document explains how to use the cycle-move-to-monitor command to move the currently focused window to the next or previous monitor.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "multi-monitor",
+        "cli-reference",
+        "window-cycling"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-move-to-workspace.md",
+      "title": "Cycle move to workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move-to-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:35.119574-03:00",
+      "summary": "This document details the command-line usage for moving the currently focused window to the next or previous workspace.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "workspace-navigation",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-move-workspace-to-monitor.md",
+      "title": "Cycle move workspace to monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move-workspace-to-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:35.373076-03:00",
+      "summary": "This document provides instructions for using the command to move the currently focused workspace to a different monitor in a specified cycle direction.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "workspace-management",
+        "monitor-navigation",
+        "cli-command"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-move.md",
+      "title": "Cycle move",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-move.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:38.225363-03:00",
+      "summary": "This document explains how to use the cycle-move command in komorebic to move a focused window in a specified cycle direction.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-usage",
+        "cycle-move",
+        "window-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-send-to-workspace.md",
+      "title": "Cycle send to workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-send-to-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:39.05203-03:00",
+      "summary": "This document explains how to use the komorebic command-line tool to move the currently focused window to either the next or previous workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-navigation",
+        "cli-command",
+        "window-movement"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-send-to-monitor.md",
+      "title": "Cycle send to monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-send-to-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:39.00261-03:00",
+      "summary": "This document describes the CLI command usage for moving the currently focused window to the next or previous monitor in a defined cycle.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "monitor-navigation",
+        "cli-command"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-stack-index.md",
+      "title": "Cycle stack index",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-stack-index.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:41.928099-03:00",
+      "summary": "This document outlines the usage of the cycle-stack-index command for navigating through windows within a focused stack in the komorebi tiling window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "stacking",
+        "cli-reference",
+        "navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-stack.md",
+      "title": "Cycle stack",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-stack.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:42.335173-03:00",
+      "summary": "Explains the usage of the cycle-stack command to navigate through elements in a focused stack using specific directions.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "window-management",
+        "stacking",
+        "navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-cycle-workspace.md",
+      "title": "Cycle workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/cycle-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:42.798873-03:00",
+      "summary": "This document describes the usage and arguments for the cycle-workspace command, which shifts focus between workspaces in a specified cyclical direction.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "cli-reference",
+        "window-manager",
+        "workspace-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-data-directory.md",
+      "title": "Data directory",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/data-directory.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:45.995197-03:00",
+      "summary": "This document explains how to use the komorebic command-line tool to retrieve the file system path for the application's local data storage directory.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "command-reference",
+        "data-directory",
+        "windows-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-display-index-preference.md",
+      "title": "Display index preference",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/display-index-preference.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:47.506301-03:00",
+      "summary": "This document provides the usage instructions for the komorebic command to set a preferred monitor index for a specific display identified by its name.",
+      "tags": [
+        "komorebic",
+        "cli-reference",
+        "display-management",
+        "monitor-index",
+        "window-manager-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-disable-autostart.md",
+      "title": "Disable autostart",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/disable-autostart.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:46.24797-03:00",
+      "summary": "This document explains how to use the disable-autostart command to prevent komorebi from launching automatically by removing its shortcut from the Windows startup folder.",
+      "tags": [
+        "komorebi",
+        "autostart",
+        "windows-startup",
+        "cli-command",
+        "process-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-eager-focus.md",
+      "title": "Eager focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/eager-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:49.281991-03:00",
+      "summary": "Explains the usage of the eager-focus command to automatically focus the first managed window instance of a specific application executable.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "focus-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-enable-autostart.md",
+      "title": "Enable autostart",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/enable-autostart.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:51.743836-03:00",
+      "summary": "This document explains how to use the komorebic command to enable automatic startup for komorebi and its related components on Windows.",
+      "tags": [
+        "komorebi",
+        "windows-startup",
+        "automation",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-ensure-named-workspaces.md",
+      "title": "Ensure named workspaces",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ensure-named-workspaces.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:52.697319-03:00",
+      "summary": "This document defines the CLI command syntax for creating a specific number of named workspaces on a designated monitor within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "cli-reference",
+        "window-management",
+        "workspace-naming"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-enforce-workspace-rules.md",
+      "title": "Enforce workspace rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/enforce-workspace-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:52.114007-03:00",
+      "summary": "This document describes the enforce-workspace-rules command for komorebic, which allows users to re-apply and enforce all existing workspace configurations.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "workspace-rules",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-ensure-workspaces.md",
+      "title": "Ensure workspaces",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ensure-workspaces.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:55.74367-03:00",
+      "summary": "This document provides the command usage for ensuring a minimum number of workspaces are created on a specified monitor index within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-window-manager",
+        "cli-reference",
+        "workspace-configuration",
+        "monitor-indexing"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-flip-layout.md",
+      "title": "Flip layout",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/flip-layout.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:56.212229-03:00",
+      "summary": "This document outlines the usage and arguments for the flip-layout command in the komorebic window manager CLI, which allows users to invert the workspace layout across specified axes.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli-command",
+        "layout-management",
+        "workspace-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-fetch-app-specific-configuration.md",
+      "title": "Fetch app specific configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/fetch-app-specific-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:56.129082-03:00",
+      "summary": "Describes the komorebic command used to retrieve the most recent applications.json file from the komorebi configuration repository.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "configuration",
+        "window-manager",
+        "applications-json"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-last-workspace.md",
+      "title": "Focus last workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-last-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:59.642117-03:00",
+      "summary": "This document describes the usage and functionality of the komorebic command used to switch focus to the previously active workspace on the current monitor.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "workspace-navigation",
+        "cli-commands",
+        "focus-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-monitor-at-cursor.md",
+      "title": "Focus monitor at cursor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-monitor-at-cursor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:59.991251-03:00",
+      "summary": "This document describes the CLI command for shifting focus to the monitor where the cursor is currently positioned within the komorebic window manager.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "monitor-focus",
+        "cursor-tracking"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-monitor-workspace.md",
+      "title": "Focus monitor workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-monitor-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:47:59.999708-03:00",
+      "summary": "This document explains the usage and arguments for the command to focus a specific workspace on a target monitor using the komorebi window manager CLI.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli-reference",
+        "workspace-navigation",
+        "multi-monitor"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-monitor.md",
+      "title": "Focus monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:04.799303-03:00",
+      "summary": "This document outlines the usage and arguments for the focus-monitor command, which is used to shift focus to a specific monitor identified by its index.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "monitor-focus",
+        "cli",
+        "command-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-named-workspace.md",
+      "title": "Focus named workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-named-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:08.844645-03:00",
+      "summary": "Documentation for the focus-named-workspace command in the komorebic CLI, which allows users to switch focus to a specific workspace by its name.",
+      "tags": [
+        "komorebic",
+        "workspace-management",
+        "window-manager",
+        "cli-reference",
+        "focus-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-workspace.md",
+      "title": "Focus workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:09.921769-03:00",
+      "summary": "This document describes the CLI command used to switch focus to a specific workspace on the currently active monitor.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-navigation",
+        "cli-command",
+        "focus-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-stack-window.md",
+      "title": "Focus stack window",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-stack-window.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:09.580028-03:00",
+      "summary": "This document explains how to use the komorebic CLI to focus a specific window within the current window stack by its index.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli",
+        "focus-control",
+        "stack-navigation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus-workspaces.md",
+      "title": "Focus workspaces",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus-workspaces.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:13.278656-03:00",
+      "summary": "This document describes the CLI command used to switch focus to a specific workspace index across all available monitors.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "cli-reference",
+        "multi-monitor",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focus.md",
+      "title": "Focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:13.827906-03:00",
+      "summary": "This document outlines the command-line usage and arguments for changing window focus in specific directions using the komorebic tiling window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "focus-navigation",
+        "directional-focus"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focused-workspace-container-padding.md",
+      "title": "Focused workspace container padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focused-workspace-container-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:13.933189-03:00",
+      "summary": "This document describes how to use the komorebic command to set the container padding size in pixels for the currently focused workspace.",
+      "tags": [
+        "komorebi",
+        "cli-command",
+        "workspace-management",
+        "container-padding",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-force-focus.md",
+      "title": "Force focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/force-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:17.718802-03:00",
+      "summary": "This document describes the force-focus command which allows users to manually focus the window under the cursor using a simulated left mouse click.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "focus-control",
+        "cli-command",
+        "mouse-simulation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-generate-static-config.md",
+      "title": "Generate static config",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/generate-static-config.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:17.826525-03:00",
+      "summary": "This document describes the generate-static-config command, which creates a static JSON configuration file based on the current state of the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli-command",
+        "configuration",
+        "json-output",
+        "static-config"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-focused-workspace-padding.md",
+      "title": "Focused workspace padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/focused-workspace-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:17.553899-03:00",
+      "summary": "This document provides usage instructions for the komorebic command to set pixel padding on the currently focused workspace.",
+      "tags": [
+        "komorebic",
+        "workspace-padding",
+        "cli-reference",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-global-work-area-offset.md",
+      "title": "Global work area offset",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/global-work-area-offset.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:21.727257-03:00",
+      "summary": "This document explains how to use the global-work-area-offset command to define screen margins that are excluded from automatic window tiling.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-wm",
+        "cli-reference",
+        "display-settings"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-global-state.md",
+      "title": "Global state",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/global-state.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:21.235343-03:00",
+      "summary": "This document describes the usage and purpose of the global-state command in the komorebic CLI, which provides a JSON representation of the application's current state.",
+      "tags": [
+        "komorebic",
+        "cli-command",
+        "global-state",
+        "json-output",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-gui.md",
+      "title": "Gui",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/gui.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:22.591079-03:00",
+      "summary": "This document explains how to use the komorebic gui command to launch the komorebi-gui debugging tool.",
+      "tags": [
+        "komorebi",
+        "komorebic",
+        "gui",
+        "debugging",
+        "cli-command"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-identify-object-name-change-application.md",
+      "title": "Identify object name change application",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/identify-object-name-change-application.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:25.535384-03:00",
+      "summary": "This document outlines the usage and parameters for the komorebic command-line tool to identify applications that trigger specific window name change events on startup.",
+      "tags": [
+        "komorebic",
+        "cli-reference",
+        "window-management",
+        "event-handling",
+        "application-identification"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-identify-layered-application.md",
+      "title": "Identify layered application",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/identify-layered-application.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:25.152767-03:00",
+      "summary": "This document describes the command-line usage for identifying specific layered applications that should be managed by the komorebic window manager.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-command",
+        "layered-windows",
+        "application-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-identify-tray-application.md",
+      "title": "Identify tray application",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/identify-tray-application.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:26.529068-03:00",
+      "summary": "This document outlines the command-line usage for identifying applications that close to the system tray within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "system-tray",
+        "window-management",
+        "application-identifier"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-ignore-rule.md",
+      "title": "Ignore rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/ignore-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:29.267781-03:00",
+      "summary": "This document outlines the command-line usage for adding application-specific ignore rules in komorebic, enabling users to exclude certain windows from management based on executable names, classes, titles, or paths.",
+      "tags": [
+        "komorebic",
+        "cli-reference",
+        "window-management",
+        "configuration",
+        "application-filtering"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-initial-named-workspace-rule.md",
+      "title": "Initial named workspace rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/initial-named-workspace-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:29.423203-03:00",
+      "summary": "This document outlines the usage of the initial-named-workspace-rule command to automatically associate specific applications with named workspaces upon their first appearance.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-rules",
+        "application-routing",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-initial-workspace-rule.md",
+      "title": "Initial workspace rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/initial-workspace-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:30.619032-03:00",
+      "summary": "This document describes the usage and arguments for the initial-workspace-rule command, which allows users to pin specific applications to a monitor and workspace when they first appear.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-rules",
+        "cli-reference",
+        "automation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-invisible-borders.md",
+      "title": "Invisible borders",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/invisible-borders.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:33.537987-03:00",
+      "summary": "This document provides instructions for using the komorebic invisible-borders command to manually set the size of invisible window borders.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-window-manager",
+        "cli-commands",
+        "layout-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-license.md",
+      "title": "License",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/license.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:34.672932-03:00",
+      "summary": "This document describes the usage of the komorebic license command to associate an email address with an Individual Commercial Use License.",
+      "tags": [
+        "komorebic",
+        "licensing",
+        "cli-command",
+        "commercial-use",
+        "license-activation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-kill.md",
+      "title": "Kill",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/kill.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:34.026282-03:00",
+      "summary": "This document describes the usage and options for the komorebic kill command, which terminates background processes such as whkd, komorebi-bar, and masir.",
+      "tags": [
+        "komorebic",
+        "cli-reference",
+        "process-management",
+        "background-tasks",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-load-resize.md",
+      "title": "Load resize",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/load-resize.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:38.297054-03:00",
+      "summary": "This document describes the usage of the komorebic load-resize command, which allows users to load window resize layout dimensions from a file.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "layout-configuration",
+        "resize-dimensions"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-log.md",
+      "title": "Log",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/log.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:39.152156-03:00",
+      "summary": "Explains how to tail and view real-time process logs for the komorebi window manager process using the command line.",
+      "tags": [
+        "komorebi",
+        "logging",
+        "cli-command",
+        "process-logs",
+        "troubleshooting"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-manage-rule.md",
+      "title": "Manage rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/manage-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:39.370668-03:00",
+      "summary": "This document outlines the command-line syntax for adding rules to ensure specific applications are always managed by the komorebi window manager using various identifiers.",
+      "tags": [
+        "komorebic",
+        "cli-command",
+        "window-management",
+        "application-rules",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-manage.md",
+      "title": "Manage",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/manage.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:41.652397-03:00",
+      "summary": "This command documentation explains how to use the komorebic CLI to force the komorebi tiling window manager to manage the currently focused window.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli",
+        "tiling-window-manager",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-monitor-index-preference.md",
+      "title": "Monitor index preference",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/monitor-index-preference.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:43.534962-03:00",
+      "summary": "This document describes the monitor-index-preference command for komorebic, which assigns a preferred index to a monitor based on its specific screen dimensions.",
+      "tags": [
+        "komorebic",
+        "monitor-management",
+        "cli-reference",
+        "window-management",
+        "display-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-minimize.md",
+      "title": "Minimize",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/minimize.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:43.108358-03:00",
+      "summary": "Explains how to use the komorebic command-line tool to minimize the currently focused window.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "minimize-window"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-monitor-information.md",
+      "title": "Monitor information",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/monitor-information.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:45.005481-03:00",
+      "summary": "This document describes the usage of the komorebic monitor-information command, which retrieves and displays details about all currently connected monitors.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "monitor-management",
+        "display-information",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-mouse-follows-focus.md",
+      "title": "Mouse follows focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/mouse-follows-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:47.54098-03:00",
+      "summary": "This document describes the command-line interface for enabling or disabling the mouse follows focus feature across all workspaces in the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "window-management",
+        "mouse-behavior",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-monitor-work-area-offset.md",
+      "title": "Monitor work area offset",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/monitor-work-area-offset.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:47.484726-03:00",
+      "summary": "This document describes the usage of the monitor-work-area-offset command to define custom margins for a specific monitor's tiling area.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "monitor-configuration",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move-to-last-workspace.md",
+      "title": "Move to last workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-last-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:48.513583-03:00",
+      "summary": "This document outlines the usage of the move-to-last-workspace command, which relocates the currently focused window to the previously active monitor workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "workspace-navigation",
+        "komorebic"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move-to-monitor-workspace.md",
+      "title": "Move to monitor workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-monitor-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:51.160102-03:00",
+      "summary": "This document explains the usage and arguments for the command to move the currently focused window to a specific workspace on a designated monitor.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "monitor-navigation",
+        "workspace-indexing",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move-to-monitor.md",
+      "title": "Move to monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:51.762452-03:00",
+      "summary": "This document describes the move-to-monitor command, which allows users to move the currently focused window to a specific monitor using its index.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "monitor-control",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move-to-named-workspace.md",
+      "title": "Move to named workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-named-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:52.944798-03:00",
+      "summary": "This document explains the usage and arguments for the komorebic command that moves the currently focused window to a specific named workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-management",
+        "cli-command",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move-to-workspace.md",
+      "title": "Move to workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-to-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:55.009717-03:00",
+      "summary": "This document outlines the usage and arguments for the komorebic command used to move the currently focused window to a specific workspace index.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-navigation",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move-workspace-to-monitor.md",
+      "title": "Move workspace to monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move-workspace-to-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:55.60461-03:00",
+      "summary": "This document explains how to use the komorebic command-line tool to move the currently focused workspace to a specific monitor based on its index.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-management",
+        "cli-reference",
+        "monitor-control"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-move.md",
+      "title": "Move",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/move.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:57.278052-03:00",
+      "summary": "This document outlines the usage of the move command in the komorebic CLI, which allows users to shift the currently focused window in a specified direction.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "window-movement",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-named-workspace-container-padding.md",
+      "title": "Named workspace container padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-container-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:58.628803-03:00",
+      "summary": "This document explains how to use the komorebic command-line tool to set the container padding for a specific named workspace.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "workspace-configuration",
+        "container-padding",
+        "cli-command"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-named-workspace-layout-rule.md",
+      "title": "Named workspace layout rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-layout-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:48:59.552948-03:00",
+      "summary": "This document provides the usage instructions for the named-workspace-layout-rule command, which defines dynamic layout triggers for specific workspaces based on container count.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "layout-configuration",
+        "workspace-rules",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-named-workspace-layout.md",
+      "title": "Named workspace layout",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-layout.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:01.014579-03:00",
+      "summary": "This document provides instructions for using the komorebi command-line tool to set specific window tiling layouts for named workspaces.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli-reference",
+        "workspace-management",
+        "layout-configuration",
+        "tiling-layouts"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-named-workspace-padding.md",
+      "title": "Named workspace padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:02.744645-03:00",
+      "summary": "This document explains how to set the padding size for a specific named workspace using the komorebic command-line utility.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "workspace-management",
+        "padding-configuration",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-named-workspace-rule.md",
+      "title": "Named workspace rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:03.928478-03:00",
+      "summary": "This document explains how to use the named-workspace-rule command to automatically associate specific applications with a named workspace based on identifiers like executable name or window title.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "workspace-rules",
+        "cli-command",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-named-workspace-tiling.md",
+      "title": "Named workspace tiling",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/named-workspace-tiling.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:05.036737-03:00",
+      "summary": "Explains how to enable or disable window tiling for a specific named workspace using the komorebi command-line interface.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "tiling",
+        "workspace-management",
+        "cli"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-preselect-direction.md",
+      "title": "Preselect direction",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/preselect-direction.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:09.344638-03:00",
+      "summary": "This document describes the usage of the komorebic command to preselect the direction for the next window to be spawned on supported layouts.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-layout",
+        "command-line-interface",
+        "window-placement"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-new-workspace.md",
+      "title": "New workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/new-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:06.577875-03:00",
+      "summary": "This document details the command for creating and appending a new workspace to the currently focused monitor using the komorebi window manager's command-line interface.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "cli-reference",
+        "window-manager",
+        "workspace-creation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-notification-schema.md",
+      "title": "Notification schema",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/notification-schema.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:08.412366-03:00",
+      "summary": "This document provides the command usage for generating a JSON Schema of subscription notifications using the komorebic CLI tool.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "json-schema",
+        "notifications",
+        "command-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-promote-focus.md",
+      "title": "Promote focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:15.946122-03:00",
+      "summary": "This document explains the promote-focus command for komorebic, which allows users to elevate the currently focused window to the top of the workspace tree.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-command",
+        "focus-promotion",
+        "workspace-layout"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-promote-swap.md",
+      "title": "Promote swap",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote-swap.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:16.581158-03:00",
+      "summary": "Explains how to use the promote-swap command to move the currently focused window into the position of the largest tile by swapping their container indices.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "tiling-wm",
+        "window-promotion"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-promote-window.md",
+      "title": "Promote window",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote-window.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:17.824889-03:00",
+      "summary": "This document describes the promote-window command for komorebic, which allows users to move a window in a specified direction.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "window-promotion"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-promote.md",
+      "title": "Promote",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/promote.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:19.901043-03:00",
+      "summary": "This document describes the promote command for komorebic, which moves the currently focused window into the layout's primary, largest tile position.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-commands",
+        "tiling-window-manager",
+        "layout-manipulation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-pwsh-app-specific-configuration.md",
+      "title": "Pwsh app specific configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/pwsh-app-specific-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:20.533455-03:00",
+      "summary": "This document provides usage instructions for a command that generates PowerShell scripts to apply application-specific configurations and fixes from YAML files.",
+      "tags": [
+        "komorebi",
+        "powershell",
+        "cli-reference",
+        "configuration-management",
+        "yaml"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-query.md",
+      "title": "Query",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/query.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:21.399283-03:00",
+      "summary": "This document provides the command-line interface documentation for querying various aspects of the komorebi window manager's current state.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli-command",
+        "state-query",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-quick-load-resize.md",
+      "title": "Quick load resize",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/quick-load-resize.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:23.892128-03:00",
+      "summary": "This document explains the usage of the quick-load-resize command for komorebic, which allows users to restore the most recently saved layout resize dimensions.",
+      "tags": [
+        "komorebic",
+        "cli-command",
+        "window-management",
+        "layout-persistence",
+        "resize-dimensions"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-quick-save-resize.md",
+      "title": "Quick save resize",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/quick-save-resize.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:24.912352-03:00",
+      "summary": "This document describes the CLI command used to save the current window layout resize dimensions in the Komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "layout-persistence",
+        "cli-reference",
+        "resize-dimensions"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/quickstart.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:25.790735-03:00",
+      "summary": "This document describes the quickstart command for the komorebic CLI, which helps new users gather example configuration files for initial setup.",
+      "tags": [
+        "komorebic",
+        "cli",
+        "configuration",
+        "quickstart",
+        "setup"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-reload-configuration.md",
+      "title": "Reload configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/reload-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:27.915828-03:00",
+      "summary": "This document describes the command usage for reloading legacy configuration files within the komorebi window manager environment.",
+      "tags": [
+        "komorebi",
+        "cli-reference",
+        "configuration-reload",
+        "legacy-support",
+        "window-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-remove-title-bar.md",
+      "title": "Remove title bar",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/remove-title-bar.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:28.64255-03:00",
+      "summary": "This document provides the command-line usage and argument specifications for whitelisting applications to have their title bars removed in komorebi.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "title-bar-removal",
+        "application-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-replace-configuration.md",
+      "title": "Replace configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/replace-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:29.21757-03:00",
+      "summary": "This document provides instructions on using the komorebic command-line tool to update the configuration of an active komorebi instance using a static JSON file.",
+      "tags": [
+        "komorebi",
+        "configuration-management",
+        "cli-command",
+        "window-manager",
+        "json-config"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-resize-axis.md",
+      "title": "Resize axis",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/resize-axis.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:32.142708-03:00",
+      "summary": "This document describes the command-line usage for resizing the focused window or primary column along specified axes within the komorebic window manager.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "window-resizing",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-resize-delta.md",
+      "title": "Resize delta",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/resize-delta.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:32.890359-03:00",
+      "summary": "This document explains how to set the pixel delta value used by komorebi for window resizing operations via the command line interface.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "window-resizing"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-resize-edge.md",
+      "title": "Resize edge",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/resize-edge.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:35.075489-03:00",
+      "summary": "This document provides instructions for using the resize-edge command to adjust the dimensions of the focused window in a specific direction.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-command",
+        "window-resizing",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-restore-windows.md",
+      "title": "Restore windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/restore-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:36.572183-03:00",
+      "summary": "This document describes the restore-windows command for komorebic, which is used to restore all hidden windows for debugging purposes.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "debugging",
+        "cli-command",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-retile.md",
+      "title": "Retile",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/retile.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:37.049759-03:00",
+      "summary": "This document provides instructions for using the retile command to force the automatic layout and positioning of all managed windows within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "retiling",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-save-resize.md",
+      "title": "Save resize",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/save-resize.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:38.812935-03:00",
+      "summary": "This document describes the save-resize command for komorebic, which allows users to persist current window layout dimensions to a file.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "layout-persistence",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-scrolling-layout-columns.md",
+      "title": "Scrolling layout columns",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/scrolling-layout-columns.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:40.097154-03:00",
+      "summary": "This command documentation explains how to set the number of visible columns for the scrolling layout on a focused workspace within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "cli-command",
+        "layout-configuration",
+        "scrolling-layout"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-send-to-last-workspace.md",
+      "title": "Send to last workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-last-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:40.70736-03:00",
+      "summary": "This document explains the usage of the komorebic command to move the currently focused window to the workspace that was previously active on the monitor.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-navigation",
+        "cli-interface",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-send-to-monitor-workspace.md",
+      "title": "Send to monitor workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-monitor-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:42.011183-03:00",
+      "summary": "This document details the command-line usage for moving a focused window to a specific workspace on a designated monitor index.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "monitor-workspace",
+        "cli-command",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-send-to-monitor.md",
+      "title": "Send to monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:43.987475-03:00",
+      "summary": "This document provides instructions for using the send-to-monitor command to move the currently focused window to a specific monitor based on its index.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli",
+        "multi-monitor",
+        "command-line-interface"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-send-to-named-workspace.md",
+      "title": "Send to named workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-named-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:44.862835-03:00",
+      "summary": "This document describes the command-line usage for moving the currently focused window to a specific named workspace within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-navigation",
+        "cli-reference",
+        "window-operations"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-send-to-workspace.md",
+      "title": "Send to workspace",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/send-to-workspace.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:45.958232-03:00",
+      "summary": "This document describes the usage and arguments for the komorebic command used to move the currently focused window to a specific workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "workspace-navigation",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-session-float-rule.md",
+      "title": "Session float rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/session-float-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:47.872244-03:00",
+      "summary": "This document explains the usage of the session-float-rule command in komorebic, which dynamically forces the current foreground window to float for the remainder of the session.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "floating-windows",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-session-float-rules.md",
+      "title": "Session float rules",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/session-float-rules.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:48.696159-03:00",
+      "summary": "This document outlines the command-line usage for retrieving all active session float rules in the komorebi window manager. It explains the command syntax and available flags for user assistance.",
+      "tags": [
+        "komorebi",
+        "cli-reference",
+        "window-management",
+        "floating-windows",
+        "tiling-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-socket-schema.md",
+      "title": "Socket schema",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/socket-schema.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:50.134764-03:00",
+      "summary": "This document describes the usage of the komorebic command-line tool for generating a JSON Schema that defines the structure of socket messages.",
+      "tags": [
+        "komorebi",
+        "json-schema",
+        "socket-messages",
+        "cli-usage",
+        "schema-generation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-stack-all.md",
+      "title": "Stack all",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stack-all.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:52.111959-03:00",
+      "summary": "This document describes the usage and functionality of the stack-all command in the komorebic CLI for stacking windows on a focused workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "stacking",
+        "tiling-wm"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-stack.md",
+      "title": "Stack",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stack.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:53.594329-03:00",
+      "summary": "This document describes the usage and arguments for the stack command in the komorebic window manager, which allows users to stack the focused window in a specified direction.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "stacking",
+        "cli-commands",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-start.md",
+      "title": "Start",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/start.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:55.59404-03:00",
+      "summary": "This document provides a reference for the komorebic start command, detailing the options available to launch the komorebi window manager as a background process.",
+      "tags": [
+        "komorebi",
+        "cli-reference",
+        "window-manager",
+        "process-management",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-stackbar-mode.md",
+      "title": "Stackbar mode",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stackbar-mode.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:54.367773-03:00",
+      "summary": "This document explains how to use the komorebic command-line interface to configure the display mode for window stackbars.",
+      "tags": [
+        "komorebi",
+        "stackbar",
+        "window-management",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-state.md",
+      "title": "State",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/state.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:56.999687-03:00",
+      "summary": "This document explains how to use the komorebic state command to retrieve a JSON representation of the current window manager state.",
+      "tags": [
+        "komorebic",
+        "window-manager",
+        "cli-command",
+        "state-inspection",
+        "json-output"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-static-config-schema.md",
+      "title": "Static config schema",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/static-config-schema.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:49:59.639711-03:00",
+      "summary": "This document provides documentation for the CLI command used to generate a JSON Schema for the static configuration file of the Komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "json-schema",
+        "configuration-schema",
+        "cli-command",
+        "window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-stop.md",
+      "title": "Stop",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/stop.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:00.800597-03:00",
+      "summary": "This document describes the stop command for the komorebic CLI, which terminates the komorebi window manager process and optionally stops associated background services like whkd and masir.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "process-termination",
+        "command-line-interface"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-subscribe-pipe.md",
+      "title": "Subscribe pipe",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/subscribe-pipe.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:01.335217-03:00",
+      "summary": "This document provides instructions for using the subscribe-pipe command to receive event notifications from komorebi through a specified Windows Named Pipe.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "named-pipe",
+        "event-subscription",
+        "cli-command",
+        "windows"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-subscribe-socket.md",
+      "title": "Subscribe socket",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/subscribe-socket.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:03.572079-03:00",
+      "summary": "This document explains how to use the komorebic CLI to subscribe to window manager events via a Unix Domain Socket.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "cli",
+        "unix-domain-socket",
+        "event-subscription"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-swap-workspaces-with-monitor.md",
+      "title": "Swap workspaces with monitor",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/swap-workspaces-with-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:04.352982-03:00",
+      "summary": "This document describes the CLI command for swapping all workspaces between the currently focused monitor and a specified target monitor within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "workspace-swapping",
+        "monitor-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-cross-monitor-move-behaviour.md",
+      "title": "Toggle cross monitor move behaviour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-cross-monitor-move-behaviour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:05.226807-03:00",
+      "summary": "This document describes the command-line usage for toggling window movement behavior across monitor boundaries within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "multi-monitor",
+        "cli-usage",
+        "monitor-boundaries"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-float-override.md",
+      "title": "Toggle float override",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-float-override.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:13.289531-03:00",
+      "summary": "This document explains how to use the komorebic CLI command to enable or disable the setting that forces all new windows to open in floating mode.",
+      "tags": [
+        "komorebic",
+        "cli",
+        "window-management",
+        "floating-windows",
+        "command-usage"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-float.md",
+      "title": "Toggle float",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-float.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:14.645422-03:00",
+      "summary": "This document provides the command usage and options for toggling the floating state of the currently focused window in komorebi.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "floating-windows",
+        "cli-reference",
+        "window-states"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-lock.md",
+      "title": "Toggle lock",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-lock.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:15.184095-03:00",
+      "summary": "This document describes the toggle-lock command for komorebic, which prevents the currently focused container from being displaced by newly opened windows.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-wm",
+        "cli-command",
+        "container-locking"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-monocle.md",
+      "title": "Toggle monocle",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-monocle.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:18.170312-03:00",
+      "summary": "This document outlines the command-line usage for toggling monocle mode on a focused window container within the komorebi window manager.",
+      "tags": [
+        "komorebic",
+        "monocle-mode",
+        "window-management",
+        "cli-interface",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-mouse-follows-focus.md",
+      "title": "Toggle mouse follows focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-mouse-follows-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:18.3324-03:00",
+      "summary": "This document describes the command-line usage for toggling the mouse-follows-focus feature across all workspaces in the komorebi tiling window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-interface",
+        "mouse-behavior",
+        "focus-settings"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-maximize.md",
+      "title": "Toggle maximize",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-maximize.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:17.079056-03:00",
+      "summary": "This document explains how to use the komorebic toggle-maximize command to switch the focused window between its maximized and normal states.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "toggle-maximize",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-shortcuts.md",
+      "title": "Toggle shortcuts",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-shortcuts.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:22.160282-03:00",
+      "summary": "This document provides usage instructions for the command used to enable or disable the komorebi-shortcuts helper utility.",
+      "tags": [
+        "komorebi",
+        "cli-reference",
+        "window-manager",
+        "shortcut-management",
+        "helper-tool"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-pause.md",
+      "title": "Toggle pause",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-pause.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:21.938423-03:00",
+      "summary": "This document provides usage details for the komorebic command that toggles the paused state for all window tiling.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-manager",
+        "cli-reference",
+        "pause-tiling"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-tiling.md",
+      "title": "Toggle tiling",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-tiling.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:22.648205-03:00",
+      "summary": "This document describes the CLI command to toggle window tiling on the currently focused workspace within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling",
+        "cli-command",
+        "workspace-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-transparency.md",
+      "title": "Toggle transparency",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-transparency.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:25.944593-03:00",
+      "summary": "This document provides the command-line usage instructions for toggling transparency on unfocused windows within the komorebi tiling window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "transparency",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-title-bars.md",
+      "title": "Toggle title bars",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-title-bars.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:25.890673-03:00",
+      "summary": "This document explains how to use the komorebic command-line interface to toggle title bars for whitelisted applications.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "title-bars",
+        "cli-reference",
+        "whitelist"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-window-based-work-area-offset.md",
+      "title": "Toggle window based work area offset",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-window-based-work-area-offset.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:26.332239-03:00",
+      "summary": "This document explains how to use the komorebic command-line tool to toggle the window-based work area offset for the focused workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "workspace-configuration",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-workspace-layer.md",
+      "title": "Toggle workspace layer",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-workspace-layer.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:30.482864-03:00",
+      "summary": "This document describes the usage and syntax of the toggle-workspace-layer command for switching between tiling and floating window layers.",
+      "tags": [
+        "komorebic",
+        "cli-command",
+        "window-management",
+        "workspace-layer",
+        "tiling-wm"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-window-container-behaviour.md",
+      "title": "Toggle window container behaviour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-window-container-behaviour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:29.836102-03:00",
+      "summary": "This document provides the command-line usage and description for toggling the behavior of new window containers between stacking and dynamic tiling in the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-command",
+        "tiling-behavior",
+        "window-containers"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-workspace-float-override.md",
+      "title": "Toggle workspace float override",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-workspace-float-override.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:30.434532-03:00",
+      "summary": "This document explains how to use the toggle-workspace-float-override command to control whether new windows on the current workspace automatically open in floating mode.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "workspace-configuration",
+        "floating-windows"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-transparency-alpha.md",
+      "title": "Transparency alpha",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/transparency-alpha.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:33.734113-03:00",
+      "summary": "This document provides the command-line usage instructions for setting the alpha transparency value of unfocused windows in the Komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "transparency-settings",
+        "alpha-transparency"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-transparency.md",
+      "title": "Transparency",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/transparency.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:34.808348-03:00",
+      "summary": "This document provides instructions for using the komorebic command-line tool to enable or disable transparency for unfocused windows.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-commands",
+        "transparency",
+        "visual-settings"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-toggle-workspace-window-container-behaviour.md",
+      "title": "Toggle workspace window container behaviour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/toggle-workspace-window-container-behaviour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:33.61619-03:00",
+      "summary": "This document explains the usage of the komorebic command to toggle between stacking and dynamic tiling behaviors for windows in the currently focused workspace.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-configuration",
+        "tiling-behavior",
+        "cli-command"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-unmanage.md",
+      "title": "Unmanage",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unmanage.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:38.061275-03:00",
+      "summary": "This document provides usage instructions for the unmanage command in komorebic to stop the forced management of a window.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-unmanaged-window-operation-behaviour.md",
+      "title": "Unmanaged window operation behaviour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unmanaged-window-operation-behaviour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:38.777915-03:00",
+      "summary": "This document explains how to configure komorebic's behavior when processing commands while an unmanaged or floating window is focused.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "configuration-options",
+        "floating-windows"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-unstack-all.md",
+      "title": "Unstack all",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unstack-all.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:39.85927-03:00",
+      "summary": "This document details the usage of the unstack-all command for the komorebic window manager, which separates all stacked windows in the focused container.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "cli-reference",
+        "tiling-window-manager",
+        "container-actions"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-unstack.md",
+      "title": "Unstack",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unstack.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:41.747615-03:00",
+      "summary": "This document provides documentation for the unstack command in komorebic, which is used to separate a focused window from a stack.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli",
+        "unstack",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-unsubscribe-pipe.md",
+      "title": "Unsubscribe pipe",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unsubscribe-pipe.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:42.930678-03:00",
+      "summary": "This document provides instructions for using the unsubscribe-pipe command to stop event notifications from being sent to a specified named pipe in komorebi.",
+      "tags": [
+        "komorebi",
+        "cli-command",
+        "named-pipes",
+        "event-notifications",
+        "unsubscribe"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-unsubscribe-socket.md",
+      "title": "Unsubscribe socket",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/unsubscribe-socket.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:43.314428-03:00",
+      "summary": "This document describes the usage of the unsubscribe-socket command for komorebic, which stops event notifications from being sent to a specific named socket.",
+      "tags": [
+        "komorebi",
+        "cli",
+        "socket-management",
+        "event-notifications",
+        "unsubscribe"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-visible-windows.md",
+      "title": "Visible windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/visible-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:45.625805-03:00",
+      "summary": "This document describes the usage of the komorebic command-line tool to retrieve a JSON-formatted list of all currently visible windows.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "cli-reference",
+        "json-output",
+        "windows-os"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-watch-configuration.md",
+      "title": "Watch configuration",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/watch-configuration.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:46.693344-03:00",
+      "summary": "This document describes the command to enable or disable automatic monitoring of legacy AutoHotkey and PowerShell configuration files in komorebi.",
+      "tags": [
+        "komorebi",
+        "configuration",
+        "cli-reference",
+        "legacy-support",
+        "file-watching"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-whkdrc.md",
+      "title": "Whkdrc",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/whkdrc.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:47.566336-03:00",
+      "summary": "This document explains how to use the komorebic command to locate the file path of the whkd configuration file.",
+      "tags": [
+        "komorebic",
+        "whkd",
+        "cli-command",
+        "configuration",
+        "file-path"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-window-hiding-behaviour.md",
+      "title": "Window hiding behaviour",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/window-hiding-behaviour.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:49.186627-03:00",
+      "summary": "This document describes the command-line usage and options for configuring how windows are hidden during workspace switching or stack cycling in the Komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-switching",
+        "cli-reference",
+        "window-behavior"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-layout-rule.md",
+      "title": "Workspace layout rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-layout-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:51.007114-03:00",
+      "summary": "This document describes the usage and arguments for the komorebic CLI command to add dynamic layout rules to specific workspaces based on container counts.",
+      "tags": [
+        "komorebic",
+        "window-management",
+        "workspace-layout",
+        "dynamic-tiling",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-layout.md",
+      "title": "Workspace layout",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-layout.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:52.71437-03:00",
+      "summary": "This document describes the workspace-layout command, which allows users to set specific window tiling layouts for designated monitors and workspaces.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "workspace-management",
+        "cli-reference",
+        "window-layout"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-name.md",
+      "title": "Workspace name",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-name.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:53.003247-03:00",
+      "summary": "This document explains how to use the workspace-name command to assign a custom string name to a specific workspace on a monitor using the komorebic CLI.",
+      "tags": [
+        "komorebic",
+        "workspace-management",
+        "cli-reference",
+        "window-management",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-padding.md",
+      "title": "Workspace padding",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-padding.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:55.310639-03:00",
+      "summary": "Documentation for the komorebic CLI command to set the inner padding size of a specific workspace on a designated monitor.",
+      "tags": [
+        "komorebic",
+        "workspace-padding",
+        "cli",
+        "window-management",
+        "workspace-configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-rule.md",
+      "title": "Workspace rule",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-rule.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:56.981189-03:00",
+      "summary": "This document explains the usage and arguments for the workspace-rule command, which assigns specific applications to designated monitors and workspaces.",
+      "tags": [
+        "komorebic",
+        "cli",
+        "workspace-management",
+        "window-rules",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-tiling.md",
+      "title": "Workspace tiling",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-tiling.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:57.369788-03:00",
+      "summary": "This document provides the command-line usage and argument specifications for enabling or disabling window tiling on specific workspaces using the komorebic tool.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspace-configuration",
+        "cli-command",
+        "tiling-window-manager"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-cli-workspace-work-area-offset.md",
+      "title": "Workspace work area offset",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/cli/workspace-work-area-offset.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:50:59.104671-03:00",
+      "summary": "This document details the usage and parameters for the komorebic command that defines work area offsets for specific monitors and workspaces.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "workspace-offsets",
+        "monitor-configuration",
+        "cli-reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-common-workflows-autohotkey.md",
+      "title": "Autohotkey",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/autohotkey.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:01.370467-03:00",
+      "summary": "This document provides instructions on how to set up and use AutoHotkey v2 as an alternative configuration and hotkey management tool for the komorebi window manager.",
+      "tags": [
+        "autohotkey",
+        "komorebi",
+        "window-manager",
+        "hotkeys",
+        "configuration",
+        "windows-automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-common-workflows-animations.md",
+      "title": "Animations",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/animations.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:01.215729-03:00",
+      "summary": "This document explains how to enable and customize window movement animations in the komorebi window manager using the JSON configuration file.",
+      "tags": [
+        "komorebi",
+        "window-manager",
+        "animations",
+        "json-configuration",
+        "performance"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-autostart.md",
+      "title": "Autostart",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/autostart.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:03.798299-03:00",
+      "summary": "This document explains how to configure the komorebi tiling window manager to launch automatically upon Windows startup using the command-line interface.",
+      "tags": [
+        "komorebi",
+        "autostart",
+        "windows-startup",
+        "configuration",
+        "tiling-window-manager",
+        "cli"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-common-workflows-borders.md",
+      "title": "Borders",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/borders.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:05.530073-03:00",
+      "summary": "This document provides instructions for enabling and customizing window borders in the komorebi tiling window manager via the configuration file.",
+      "tags": [
+        "komorebi",
+        "window-borders",
+        "ui-customization",
+        "configuration",
+        "window-management",
+        "visual-styling"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-dynamic-layout-switching.md",
+      "title": "Dynamic layout switching",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/dynamic-layout-switching.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:05.958064-03:00",
+      "summary": "This document explains how to configure automatic layout switching in komorebi based on the number of open window containers. It also describes how to clear these rules to enable manual layout changes on a workspace.",
+      "tags": [
+        "komorebi",
+        "dynamic-layout",
+        "workspace-configuration",
+        "window-management",
+        "layout-rules"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-floating-applications.md",
+      "title": "Floating applications",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/floating-applications.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:07.845061-03:00",
+      "summary": "This document explains how to configure specific applications to behave as floating windows by adding rules to the komorebi configuration file.",
+      "tags": [
+        "komorebi",
+        "floating-windows",
+        "window-management",
+        "configuration",
+        "json"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-force-manage-windows.md",
+      "title": "Force manage windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/force-manage-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:09.846759-03:00",
+      "summary": "This document explains how to manually configure komorebi to manage windows that are not automatically detected by defining management rules in the configuration file.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "configuration",
+        "manage-rules",
+        "tiling-window-manager"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-ignore-windows.md",
+      "title": "Ignore windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/ignore-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:10.115498-03:00",
+      "summary": "This document explains how to configure komorebi to exclude specific applications from tiling by defining ignore rules in the configuration file. It outlines how to target windows using various identifiers like titles and matching strategies.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "configuration",
+        "ignore-rules",
+        "tiling-manager",
+        "json-configuration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-komorebi-config-home.md",
+      "title": "Komorebi config home",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/komorebi-config-home.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:11.418852-03:00",
+      "summary": "This document explains how to use the KOMOREBI_CONFIG_HOME environment variable to relocate configuration files to a custom directory. It provides steps for updating the PowerShell profile and the main komorebi settings file.",
+      "tags": [
+        "komorebi",
+        "configuration-management",
+        "environment-variables",
+        "powershell",
+        "windows-tiling-window-manager"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-layout-ratios.md",
+      "title": "Layout ratios",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/layout-ratios.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:14.661962-03:00",
+      "summary": "This document explains how to customize window split proportions in komorebi using column and row ratios across various layout types. It details configuration parameters, ratio constraints, and the progressive behavior of window scaling.",
+      "tags": [
+        "komorebi",
+        "layout-ratios",
+        "configuration",
+        "window-management",
+        "tiling-wm"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-mouse-follows-focus.md",
+      "title": "Mouse follows focus",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/mouse-follows-focus.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:15.097721-03:00",
+      "summary": "This document explains the mouse follows focus feature in the komorebi window manager and describes how to toggle it using the configuration file.",
+      "tags": [
+        "komorebi",
+        "mouse-follows-focus",
+        "window-management",
+        "configuration-settings",
+        "tiling-window-manager"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-multiple-bar-instances.md",
+      "title": "Multiple bar instances",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/multiple-bar-instances.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:19.605844-03:00",
+      "summary": "This document explains how to run multiple instances of komorebi-bar by specifying individual configuration file paths for different monitors.",
+      "tags": [
+        "komorebi-bar",
+        "multi-monitor",
+        "configuration-files",
+        "monitor-targeting"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-multi-monitor-setup.md",
+      "title": "Multi monitor setup",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/multi-monitor-setup.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:19.025527-03:00",
+      "summary": "This document provides instructions for configuring and managing multiple monitors in the komorebi window manager, including setting up workspaces and using persistent display index preferences.",
+      "tags": [
+        "komorebi",
+        "multi-monitor",
+        "workspace-configuration",
+        "display-preferences",
+        "window-management",
+        "komorebic"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-common-workflows-remove-gaps.md",
+      "title": "Remove gaps",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/remove-gaps.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:20.613194-03:00",
+      "summary": "This document provides instructions on how to remove gaps between windows and monitor edges by modifying padding settings in the komorebi configuration file.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "configuration",
+        "padding",
+        "workspace-settings",
+        "customization"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-stackbar.md",
+      "title": "Stackbar",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/stackbar.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:23.233214-03:00",
+      "summary": "This document explains how to enable and configure the stackbar feature in komorebi to visualize windows within a container stack.",
+      "tags": [
+        "komorebi",
+        "stackbar",
+        "window-management",
+        "ui-configuration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-common-workflows-tray-and-multi-window-applications.md",
+      "title": "Tray and multi window applications",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/common-workflows/tray-and-multi-window-applications.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:23.413929-03:00",
+      "summary": "This document explains how to configure komorebi to handle applications that minimize to the system tray or use multiple windows to prevent leaving blank tiles.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "system-tray",
+        "multi-window",
+        "configuration"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-design.md",
+      "title": "Design",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/design.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:24.670247-03:00",
+      "summary": "This document outlines the internal architecture and hierarchical data model of the komorebi window manager, explaining how monitors, workspaces, and containers relate to one another.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "architecture",
+        "data-model",
+        "windows-os",
+        "workspace-organization"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "docs-index.md",
+      "title": "Index",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/index.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:27.049232-03:00",
+      "summary": "This document provides an overview of komorebi, a tiling window manager for Windows, including its core functionality, community resources, and specific licensing terms for personal and commercial use.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "windows-desktop",
+        "window-management",
+        "software-licensing",
+        "open-source"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "docs-example-configurations.md",
+      "title": "Example configurations",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/example-configurations.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:26.820319-03:00",
+      "summary": "This document provides a comprehensive guide for setting up and customizing the komorebi tiling window manager and whkd hotkey daemon on Windows using example configurations. It explains how to manage layouts, application-specific settings, and keyboard shortcuts through JSON and RC files.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "windows-os",
+        "whkd",
+        "configuration-guide",
+        "hotkey-daemon",
+        "workspace-management"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "docs-installation.md",
+      "title": "Installation",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/installation.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:28.9867-03:00",
+      "summary": "This document provides instructions for installing and setting up komorebi, a tiling window manager for Windows, covering various installation methods and system optimizations.",
+      "tags": [
+        "komorebi",
+        "tiling-window-manager",
+        "windows-management",
+        "installation-guide",
+        "package-management",
+        "scoop",
+        "winget"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-troubleshooting.md",
+      "title": "Troubleshooting",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/troubleshooting.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:31.276646-03:00",
+      "summary": "This document provides troubleshooting steps and solutions for common issues encountered when using the komorebi tiling window manager, including hardware-specific display bugs and configuration errors.",
+      "tags": [
+        "komorebi",
+        "troubleshooting",
+        "windows-tiling",
+        "autohotkey",
+        "display-settings",
+        "nvidia-gpu",
+        "window-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-usage-focusing-windows.md",
+      "title": "Focusing windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/focusing-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:32.158299-03:00",
+      "summary": "This document explains the various commands and configurations for navigating and focusing windows within the komorebi window manager.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "focus-navigation",
+        "window-tiling",
+        "configuration-options"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-usage-focusing-workspaces.md",
+      "title": "Focusing workspaces",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/focusing-workspaces.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:33.506066-03:00",
+      "summary": "This document explains how to navigate and focus workspaces using various komorebic commands, including methods for focusing by index, name, direction, and monitor.",
+      "tags": [
+        "komorebi",
+        "workspace-management",
+        "window-navigation",
+        "cli-commands",
+        "focus-handling",
+        "tiling-window-manager"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-usage-moving-windows-across-workspaces.md",
+      "title": "Moving windows across workspaces",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/moving-windows-across-workspaces.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:36.061432-03:00",
+      "summary": "This document explains how to move or send windows between workspaces and monitors using various komorebi CLI commands, including support for cycling and named workspaces.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "workspaces",
+        "monitor-management",
+        "cli-commands",
+        "tiling-window-manager"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-usage-moving-windows.md",
+      "title": "Moving windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/moving-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:36.309077-03:00",
+      "summary": "This document explains how to move and reorder windows within workspaces and across monitors using komorebic commands and configuration settings.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "tiling-window-manager",
+        "workspace-navigation",
+        "monitor-boundaries"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "docs-usage-stacking-windows.md",
+      "title": "Stacking windows",
+      "url": "https://github.com/LGUG2Z/komorebi/blob/master/docs/usage/stacking-windows.md",
+      "source": "git",
+      "fetched_at": "2026-02-20T08:51:38.720863-03:00",
+      "summary": "This document explains how to manage window stacks in the komorebi tiling window manager, including commands for stacking, unstacking, and navigating windows within a stack.",
+      "tags": [
+        "komorebi",
+        "window-management",
+        "stacking",
+        "tiling-window-manager",
+        "cli-commands",
+        "workspace-layout"
+      ],
+      "category": "guide"
+    }
+  ]
+}

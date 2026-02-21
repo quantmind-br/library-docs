@@ -5,42 +5,25 @@
   "total_documents": 9,
   "documents": [
     {
-      "file_path": "configuration.md",
-      "title": "Configuration",
-      "url": "https://github.com/amnweb/yasb/wiki/Configuration",
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Home",
+      "url": "https://github.com/amnweb/yasb/wiki",
       "source": "wiki",
-      "fetched_at": "2026-02-21T10:09:42.419174-03:00",
-      "summary": "This document provides comprehensive instructions and reference tables for configuring the YASB status bar using YAML files and environment variables.",
+      "fetched_at": "2026-02-21T10:10:15.183457-03:00",
+      "summary": "This document serves as the central landing page for the YASB wiki, providing a navigational overview of installation, configuration, styling, and contribution resources for the Windows status bar application.",
       "tags": [
-        "yasb",
-        "configuration",
-        "yaml",
-        "environment-variables",
+        "windows",
         "status-bar",
-        "windows-customization"
-      ],
-      "category": "configuration"
-    },
-    {
-      "file_path": "faq.md",
-      "title": "FAQ",
-      "url": "https://github.com/amnweb/yasb/wiki/FAQ",
-      "source": "wiki",
-      "fetched_at": "2026-02-21T10:09:48.930752-03:00",
-      "summary": "This document provides troubleshooting steps and answers to common questions regarding the installation, configuration, styling, and performance of the YASB status bar.",
-      "tags": [
         "yasb",
-        "troubleshooting",
-        "faq",
-        "configuration",
-        "installation-guide",
-        "css-styling",
-        "widget-configuration"
+        "documentation-index",
+        "system-customization"
       ],
-      "category": "other"
+      "category": "guide"
     },
     {
-      "file_path": "installation.md",
+      "file_path": "002-installation.md",
+      "original_file_path": "installation.md",
       "title": "Installation",
       "url": "https://github.com/amnweb/yasb/wiki/Installation",
       "source": "wiki",
@@ -57,7 +40,63 @@
       "category": "guide"
     },
     {
-      "file_path": "writing-widget.md",
+      "file_path": "003-configuration.md",
+      "original_file_path": "configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/amnweb/yasb/wiki/Configuration",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:09:42.419174-03:00",
+      "summary": "This document provides comprehensive instructions and reference tables for configuring the YASB status bar using YAML files and environment variables.",
+      "tags": [
+        "yasb",
+        "configuration",
+        "yaml",
+        "environment-variables",
+        "status-bar",
+        "windows-customization"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "004-keybindings.md",
+      "original_file_path": "keybindings.md",
+      "title": "Keybindings",
+      "url": "https://github.com/amnweb/yasb/wiki/Keybindings",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:20.305489-03:00",
+      "summary": "This document explains how to configure and use global keyboard shortcuts to trigger widget actions in YASB, covering supported keys, modifier matching, and system limitations.",
+      "tags": [
+        "yasb",
+        "keybindings",
+        "hotkeys",
+        "keyboard-shortcuts",
+        "configuration",
+        "windows-shortcuts"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "005-styling.md",
+      "original_file_path": "styling.md",
+      "title": "Styling",
+      "url": "https://github.com/amnweb/yasb/wiki/Styling",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:26.243227-03:00",
+      "summary": "This document provides comprehensive instructions on how to customize the appearance of YASB using CSS for elements like bars, widgets, and menus, as well as YAML for shadow configurations.",
+      "tags": [
+        "yasb-styling",
+        "css-customization",
+        "desktop-theming",
+        "widget-configuration",
+        "dark-mode",
+        "nerd-fonts",
+        "ui-design"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "006-writing-widget.md",
+      "original_file_path": "writing-widget.md",
       "title": "Writing Widget",
       "url": "https://github.com/amnweb/yasb/wiki/Writing-Widget",
       "source": "wiki",
@@ -74,7 +113,8 @@
       "category": "guide"
     },
     {
-      "file_path": "cli.md",
+      "file_path": "007-cli.md",
+      "original_file_path": "cli.md",
       "title": "CLI",
       "url": "https://github.com/amnweb/yasb/wiki/CLI",
       "source": "wiki",
@@ -92,7 +132,8 @@
       "category": "reference"
     },
     {
-      "file_path": "contributing.md",
+      "file_path": "008-contributing.md",
+      "original_file_path": "contributing.md",
       "title": "Contributing",
       "url": "https://github.com/amnweb/yasb/wiki/Contributing",
       "source": "wiki",
@@ -109,55 +150,39 @@
       "category": "guide"
     },
     {
-      "file_path": "index.md",
-      "title": "Home",
-      "url": "https://github.com/amnweb/yasb/wiki",
+      "file_path": "009-faq.md",
+      "original_file_path": "faq.md",
+      "title": "FAQ",
+      "url": "https://github.com/amnweb/yasb/wiki/FAQ",
       "source": "wiki",
-      "fetched_at": "2026-02-21T10:10:15.183457-03:00",
-      "summary": "This document serves as the central landing page for the YASB wiki, providing a navigational overview of installation, configuration, styling, and contribution resources for the Windows status bar application.",
-      "tags": [
-        "windows",
-        "status-bar",
-        "yasb",
-        "documentation-index",
-        "system-customization"
-      ],
-      "category": "guide"
-    },
-    {
-      "file_path": "keybindings.md",
-      "title": "Keybindings",
-      "url": "https://github.com/amnweb/yasb/wiki/Keybindings",
-      "source": "wiki",
-      "fetched_at": "2026-02-21T10:10:20.305489-03:00",
-      "summary": "This document explains how to configure and use global keyboard shortcuts to trigger widget actions in YASB, covering supported keys, modifier matching, and system limitations.",
+      "fetched_at": "2026-02-21T10:09:48.930752-03:00",
+      "summary": "This document provides troubleshooting steps and answers to common questions regarding the installation, configuration, styling, and performance of the YASB status bar.",
       "tags": [
         "yasb",
-        "keybindings",
-        "hotkeys",
-        "keyboard-shortcuts",
+        "troubleshooting",
+        "faq",
         "configuration",
-        "windows-shortcuts"
+        "installation-guide",
+        "css-styling",
+        "widget-configuration"
       ],
-      "category": "configuration"
-    },
-    {
-      "file_path": "styling.md",
-      "title": "Styling",
-      "url": "https://github.com/amnweb/yasb/wiki/Styling",
-      "source": "wiki",
-      "fetched_at": "2026-02-21T10:10:26.243227-03:00",
-      "summary": "This document provides comprehensive instructions on how to customize the appearance of YASB using CSS for elements like bars, widgets, and menus, as well as YAML for shadow configurations.",
-      "tags": [
-        "yasb-styling",
-        "css-customization",
-        "desktop-theming",
-        "widget-configuration",
-        "dark-mode",
-        "nerd-fonts",
-        "ui-design"
-      ],
-      "category": "guide"
+      "category": "other"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-21T13:15:00Z",
+    "total_files": 9,
+    "categories": [
+      "Introduction & Overview",
+      "Installation",
+      "Configuration",
+      "Keybindings",
+      "Styling",
+      "Widget Development",
+      "CLI Reference",
+      "Contributing",
+      "FAQ & Troubleshooting"
+    ]
+  }
 }

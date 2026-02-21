@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-02-21T10:10:32.29149-03:00",
+  "source_url": "https://github.com/amnweb/yasb/wiki",
+  "strategy": "wiki",
+  "total_documents": 9,
+  "documents": [
+    {
+      "file_path": "configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/amnweb/yasb/wiki/Configuration",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:09:42.419174-03:00",
+      "summary": "This document provides comprehensive instructions and reference tables for configuring the YASB status bar using YAML files and environment variables.",
+      "tags": [
+        "yasb",
+        "configuration",
+        "yaml",
+        "environment-variables",
+        "status-bar",
+        "windows-customization"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "faq.md",
+      "title": "FAQ",
+      "url": "https://github.com/amnweb/yasb/wiki/FAQ",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:09:48.930752-03:00",
+      "summary": "This document provides troubleshooting steps and answers to common questions regarding the installation, configuration, styling, and performance of the YASB status bar.",
+      "tags": [
+        "yasb",
+        "troubleshooting",
+        "faq",
+        "configuration",
+        "installation-guide",
+        "css-styling",
+        "widget-configuration"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "installation.md",
+      "title": "Installation",
+      "url": "https://github.com/amnweb/yasb/wiki/Installation",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:09:57.045668-03:00",
+      "summary": "This document provides step-by-step instructions for installing YASB on Windows through various methods including manual installers, package managers, and source code builds.",
+      "tags": [
+        "installation-guide",
+        "windows",
+        "yasb",
+        "package-manager",
+        "build-from-source",
+        "python-setup"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "writing-widget.md",
+      "title": "Writing Widget",
+      "url": "https://github.com/amnweb/yasb/wiki/Writing-Widget",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:01.107503-03:00",
+      "summary": "This document provides a comprehensive step-by-step guide for developers to create, configure, and validate custom widgets using Python, Pydantic, and the Qt framework.",
+      "tags": [
+        "widget-development",
+        "python-programming",
+        "pydantic-validation",
+        "qt-framework",
+        "ui-layout",
+        "callback-registration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "cli.md",
+      "title": "CLI",
+      "url": "https://github.com/amnweb/yasb/wiki/CLI",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:05.985655-03:00",
+      "summary": "This document provides a comprehensive overview of the YASB command line interface, detailing commands and options for managing status bar operations, visibility, and system configuration.",
+      "tags": [
+        "yasb",
+        "cli",
+        "command-line",
+        "status-bar",
+        "system-management",
+        "autostart",
+        "shell-commands"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "contributing.md",
+      "title": "Contributing",
+      "url": "https://github.com/amnweb/yasb/wiki/Contributing",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:10.221602-03:00",
+      "summary": "This document provides instructions for developers wishing to contribute to the YASB project, detailing environment setup, development workflows, and coding standards. It covers essential tools like Ruff and pre-commit to ensure code quality across the codebase.",
+      "tags": [
+        "contributing-guide",
+        "python-development",
+        "open-source",
+        "workflow",
+        "coding-standards",
+        "windows-only"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "index.md",
+      "title": "Home",
+      "url": "https://github.com/amnweb/yasb/wiki",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:15.183457-03:00",
+      "summary": "This document serves as the central landing page for the YASB wiki, providing a navigational overview of installation, configuration, styling, and contribution resources for the Windows status bar application.",
+      "tags": [
+        "windows",
+        "status-bar",
+        "yasb",
+        "documentation-index",
+        "system-customization"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "keybindings.md",
+      "title": "Keybindings",
+      "url": "https://github.com/amnweb/yasb/wiki/Keybindings",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:20.305489-03:00",
+      "summary": "This document explains how to configure and use global keyboard shortcuts to trigger widget actions in YASB, covering supported keys, modifier matching, and system limitations.",
+      "tags": [
+        "yasb",
+        "keybindings",
+        "hotkeys",
+        "keyboard-shortcuts",
+        "configuration",
+        "windows-shortcuts"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "styling.md",
+      "title": "Styling",
+      "url": "https://github.com/amnweb/yasb/wiki/Styling",
+      "source": "wiki",
+      "fetched_at": "2026-02-21T10:10:26.243227-03:00",
+      "summary": "This document provides comprehensive instructions on how to customize the appearance of YASB using CSS for elements like bars, widgets, and menus, as well as YAML for shadow configurations.",
+      "tags": [
+        "yasb-styling",
+        "css-customization",
+        "desktop-theming",
+        "widget-configuration",
+        "dark-mode",
+        "nerd-fonts",
+        "ui-design"
+      ],
+      "category": "guide"
+    }
+  ]
+}

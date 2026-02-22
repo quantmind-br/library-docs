@@ -5,7 +5,7 @@
   "total_documents": 150,
   "documents": [
     {
-      "file_path": "blog-archive.md",
+      "file_path": "001-blog-archive.md",
       "title": "Archive | Dank Linux",
       "url": "https://danklinux.com/blog/archive",
       "source": "sitemap",
@@ -19,10 +19,11 @@
         "open-source",
         "copyright"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-archive.md"
     },
     {
-      "file_path": "blog.md",
+      "file_path": "002-blog-authors.md",
       "title": "Dank Linux Blog | Dank Linux",
       "url": "https://danklinux.com/blog",
       "source": "sitemap",
@@ -38,10 +39,11 @@
         "plugin-system",
         "desktop-widgets"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog.md"
     },
     {
-      "file_path": "blog-authors.md",
+      "file_path": "003-blog-desktop-widgets-1-2.md",
       "title": "Authors | Dank Linux",
       "url": "https://danklinux.com/blog/authors",
       "source": "sitemap",
@@ -54,10 +56,11 @@
         "dank-linux",
         "open-source"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-authors.md"
     },
     {
-      "file_path": "blog-tags-announcement.md",
+      "file_path": "004-blog-tags-announcement.md",
       "title": "4 posts tagged with \"Announcement\" | Dank Linux",
       "url": "https://danklinux.com/blog/tags/announcement",
       "source": "sitemap",
@@ -72,10 +75,11 @@
         "linux-desktop",
         "release-announcement"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-tags-announcement.md"
     },
     {
-      "file_path": "blog-tags.md",
+      "file_path": "005-blog-tags-release.md",
       "title": "Tags | Dank Linux",
       "url": "https://danklinux.com/blog/tags",
       "source": "sitemap",
@@ -88,11 +92,12 @@
         "software-licensing",
         "copyright-information"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-tags.md"
     },
     {
-      "file_path": "blog-desktop-widgets-1-2.md",
-      "title": "New Desktop Widgets \u0026 Plugins Coming in DMS 1.2",
+      "file_path": "006-blog-tags.md",
+      "title": "New Desktop Widgets & Plugins Coming in DMS 1.2",
       "url": "https://danklinux.com/blog/desktop-widgets-1-2",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:41:58.670253-03:00",
@@ -106,10 +111,11 @@
         "software-extensibility",
         "widget-creation"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "blog-desktop-widgets-1-2.md"
     },
     {
-      "file_path": "blog-tags-release.md",
+      "file_path": "007-blog-v1-2-release.md",
       "title": "3 posts tagged with \"Release\" | Dank Linux",
       "url": "https://danklinux.com/blog/tags/release",
       "source": "sitemap",
@@ -124,10 +130,11 @@
         "quickshell",
         "linux"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-tags-release.md"
     },
     {
-      "file_path": "blog-v1-2-release.md",
+      "file_path": "008-blog-v1-4-release.md",
       "title": "DMS 1.2 \"Spicy Miso\" Released",
       "url": "https://danklinux.com/blog/v1-2-release",
       "source": "sitemap",
@@ -142,10 +149,11 @@
         "plugin-system",
         "desktop-environment"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-v1-2-release.md"
     },
     {
-      "file_path": "blog-v1-4-release.md",
+      "file_path": "009-blog-v1-release.md",
       "title": "DMS 1.4 \"Saffron Bloom\" Released",
       "url": "https://danklinux.com/blog/v1-4-release",
       "source": "sitemap",
@@ -161,10 +169,11 @@
         "wayland",
         "user-interface"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-v1-4-release.md"
     },
     {
-      "file_path": "blog-v1-release.md",
+      "file_path": "010-blog.md",
       "title": "DMS 1.0 \"The Dark Knight\" Released",
       "url": "https://danklinux.com/blog/v1-release",
       "source": "sitemap",
@@ -179,10 +188,11 @@
         "desktop-shell",
         "linux-customization"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "blog-v1-release.md"
     },
     {
-      "file_path": "search.md",
+      "file_path": "011-docs-1.2-contributing-registry.md",
       "title": "Dank Linux",
       "url": "https://danklinux.com/search",
       "source": "sitemap",
@@ -195,11 +205,12 @@
         "open-source",
         "legal-notice"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "search.md"
     },
     {
-      "file_path": "plugins.md",
-      "title": "Plugins \u0026 Themes | Dank Linux",
+      "file_path": "012-docs-1.2-contributing.md",
+      "title": "Plugins & Themes | Dank Linux",
       "url": "https://danklinux.com/plugins",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:42:13.768418-03:00",
@@ -212,10 +223,11 @@
         "launchers",
         "extensibility"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "plugins.md"
     },
     {
-      "file_path": "docs-1.2.md",
+      "file_path": "013-docs-1.2-dankgreeter-configuration.md",
       "title": "Files within build/docs/1.2/",
       "url": "https://danklinux.com/docs/1.2/",
       "source": "sitemap",
@@ -228,10 +240,11 @@
         "installation-guides",
         "contributing-guidelines"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2.md"
     },
     {
-      "file_path": "docs-1.2-contributing.md",
+      "file_path": "014-docs-1.2-dankgreeter-installation.md",
       "title": "Contributing | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/contributing",
       "source": "sitemap",
@@ -245,10 +258,11 @@
         "dank-linux",
         "community-standards"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-contributing.md"
     },
     {
-      "file_path": "docs-1.2-contributing-registry.md",
+      "file_path": "015-docs-1.2-dankgreeter-nixos-flake.md",
       "title": "Contributing to the Registry | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/contributing-registry",
       "source": "sitemap",
@@ -263,10 +277,11 @@
         "json-metadata",
         "linux-customization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-contributing-registry.md"
     },
     {
-      "file_path": "docs-1.2-dankgreeter.md",
+      "file_path": "016-docs-1.2-dankgreeter-nixos.md",
       "title": "DankGreeter | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankgreeter/",
       "source": "sitemap",
@@ -280,10 +295,11 @@
         "dms-greeter",
         "dank-material-shell"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "docs-1.2-dankgreeter.md"
     },
     {
-      "file_path": "docs-1.2-dankgreeter-configuration.md",
+      "file_path": "017-docs-1.2-dankgreeter.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankgreeter/configuration",
       "source": "sitemap",
@@ -297,10 +313,11 @@
         "wallpaper-management",
         "linux-customization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankgreeter-configuration.md"
     },
     {
-      "file_path": "docs-1.2-dankgreeter-installation.md",
+      "file_path": "018-docs-1.2-dankinstall.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankgreeter/installation",
       "source": "sitemap",
@@ -315,10 +332,11 @@
         "display-manager",
         "configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankgreeter-installation.md"
     },
     {
-      "file_path": "docs-1.2-dankgreeter-nixos.md",
+      "file_path": "019-docs-1.2-danklinux.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankgreeter/nixos",
       "source": "sitemap",
@@ -333,10 +351,11 @@
         "flakes",
         "linux-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankgreeter-nixos.md"
     },
     {
-      "file_path": "docs-1.2-dankgreeter-nixos-flake.md",
+      "file_path": "020-docs-1.2-dankmaterialshell-advanced-configuration.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankgreeter/nixos-flake",
       "source": "sitemap",
@@ -350,10 +369,11 @@
         "login-manager",
         "system-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankgreeter-nixos-flake.md"
     },
     {
-      "file_path": "docs-1.2-dankinstall.md",
+      "file_path": "021-docs-1.2-dankmaterialshell-application-themes.md",
       "title": "DankInstall | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankinstall",
       "source": "sitemap",
@@ -368,10 +388,11 @@
         "package-management",
         "dotfiles-automation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankinstall.md"
     },
     {
-      "file_path": "docs-1.2-danklinux.md",
+      "file_path": "022-docs-1.2-dankmaterialshell-calendar-integration.md",
       "title": "DankLinux Repository | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danklinux/",
       "source": "sitemap",
@@ -387,10 +408,11 @@
         "package-management",
         "linux-packages"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-danklinux.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-advanced-configuration.md",
+      "file_path": "023-docs-1.2-dankmaterialshell-cli-brightness.md",
       "title": "Advanced Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/advanced-configuration",
       "source": "sitemap",
@@ -405,10 +427,11 @@
         "linux-customization",
         "desktop-shell"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-advanced-configuration.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-application-themes.md",
+      "file_path": "024-docs-1.2-dankmaterialshell-cli-clipboard.md",
       "title": "Application Theming | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/application-themes",
       "source": "sitemap",
@@ -424,10 +447,11 @@
         "linux-desktop",
         "configuration"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-application-themes.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-calendar-integration.md",
+      "file_path": "025-docs-1.2-dankmaterialshell-cli-color-picker.md",
       "title": "Calendar Integration | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/calendar-integration",
       "source": "sitemap",
@@ -443,10 +467,11 @@
         "linux-configuration",
         "dashboard-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-calendar-integration.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-clipboard.md",
+      "file_path": "026-docs-1.2-dankmaterialshell-cli-dank16.md",
       "title": "Clipboard Manager | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-clipboard",
       "source": "sitemap",
@@ -461,10 +486,11 @@
         "linux-utilities",
         "dms-cl"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-clipboard.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-brightness.md",
+      "file_path": "027-docs-1.2-dankmaterialshell-cli-doctor.md",
       "title": "Brightness Control | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-brightness",
       "source": "sitemap",
@@ -479,10 +505,11 @@
         "backlight",
         "display-management"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-brightness.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-color-picker.md",
+      "file_path": "028-docs-1.2-dankmaterialshell-cli-keybinds-cheatsheets.md",
       "title": "Color Picker | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-color-picker",
       "source": "sitemap",
@@ -497,10 +524,11 @@
         "color-formats",
         "design-tools"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-color-picker.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-dank16.md",
+      "file_path": "029-docs-1.2-dankmaterialshell-cli-process-management.md",
       "title": "Dank16 | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-dank16",
       "source": "sitemap",
@@ -515,10 +543,11 @@
         "accessibility",
         "theme-generation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-dank16.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-doctor.md",
+      "file_path": "030-docs-1.2-dankmaterialshell-cli-screenshot.md",
       "title": "System Diagnostics (doctor) | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-doctor",
       "source": "sitemap",
@@ -533,11 +562,12 @@
         "wayland",
         "linux-shell"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-doctor.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-keybinds-cheatsheets.md",
-      "title": "Keybinds \u0026 Cheatsheets | Dank Linux",
+      "file_path": "031-docs-1.2-dankmaterialshell-compositors.md",
+      "title": "Keybinds & Cheatsheets | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-keybinds-cheatsheets",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:42:46.885521-03:00",
@@ -552,10 +582,11 @@
         "configuration-management",
         "keyboard-shortcuts"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-keybinds-cheatsheets.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-process-management.md",
+      "file_path": "032-docs-1.2-dankmaterialshell-custom-themes.md",
       "title": "Process Management | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-process-management",
       "source": "sitemap",
@@ -571,10 +602,11 @@
         "ipc-communication",
         "quickshell"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-process-management.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-cli-screenshot.md",
+      "file_path": "033-docs-1.2-dankmaterialshell-icon-theming.md",
       "title": "Screenshot | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-screenshot",
       "source": "sitemap",
@@ -588,10 +620,11 @@
         "image-capture",
         "linux-tools"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-screenshot.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-custom-themes.md",
+      "file_path": "034-docs-1.2-dankmaterialshell-installation.md",
       "title": "Custom Themes | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/custom-themes",
       "source": "sitemap",
@@ -606,15 +639,16 @@
         "json-config",
         "theming"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-custom-themes.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-compositors.md",
+      "file_path": "035-docs-1.2-dankmaterialshell-keybinds-ipc.md",
       "title": "Compositor Setup | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/compositors",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:42:53.269748-03:00",
-      "description": "\u003cHero",
+      "description": "<Hero",
       "summary": "This document provides configuration instructions and optimized settings for integrating DankMaterialShell with Wayland compositors like niri and Hyprland. It details setup procedures for keybindings, layer rules, and environment variables to ensure proper desktop shell functionality.",
       "tags": [
         "wayland",
@@ -624,10 +658,11 @@
         "compositor-config",
         "linux-desktop"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-compositors.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-icon-theming.md",
+      "file_path": "036-docs-1.2-dankmaterialshell-layers.md",
       "title": "Icon Theming | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/icon-theming",
       "source": "sitemap",
@@ -642,10 +677,11 @@
         "desktop-customization",
         "environment-variables"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-icon-theming.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-installation.md",
+      "file_path": "037-docs-1.2-dankmaterialshell-managing.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/installation",
       "source": "sitemap",
@@ -660,11 +696,12 @@
         "desktop-shell",
         "software-dependencies"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-installation.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-keybinds-ipc.md",
-      "title": "Keybinds \u0026 IPC | Dank Linux",
+      "file_path": "038-docs-1.2-dankmaterialshell-nixos-flake.md",
+      "title": "Keybinds & IPC | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/keybinds-ipc",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:42:59.443028-03:00",
@@ -678,10 +715,11 @@
         "shell-automation",
         "media-control"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-keybinds-ipc.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-layers.md",
+      "file_path": "039-docs-1.2-dankmaterialshell-nixos.md",
       "title": "Layer Namespaces | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/layers",
       "source": "sitemap",
@@ -697,10 +735,11 @@
         "dms-config",
         "desktop-customization"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-layers.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-managing.md",
+      "file_path": "040-docs-1.2-dankmaterialshell-overview.md",
       "title": "Managing Your Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/managing",
       "source": "sitemap",
@@ -716,10 +755,11 @@
         "configuration-guide",
         "troubleshooting"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-managing.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-nixos.md",
+      "file_path": "041-docs-1.2-dankmaterialshell-plugin-development.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/nixos",
       "source": "sitemap",
@@ -734,10 +774,11 @@
         "shell-customization",
         "linux-desktop"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-nixos.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-nixos-flake.md",
+      "file_path": "042-docs-1.2-dankmaterialshell-plugins-overview.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/nixos-flake",
       "source": "sitemap",
@@ -752,11 +793,12 @@
         "niri-integration",
         "installation-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-nixos-flake.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-overview.md",
-      "title": "Overview \u0026 Architecture | Dank Linux",
+      "file_path": "043-docs-1.2-danksearch-configuration.md",
+      "title": "Overview & Architecture | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/overview",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:43:07.09913-03:00",
@@ -770,10 +812,11 @@
         "go-backend",
         "system-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-overview.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-plugin-development.md",
+      "file_path": "044-docs-1.2-danksearch-installation.md",
       "title": "Development | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/plugin-development",
       "source": "sitemap",
@@ -788,10 +831,11 @@
         "vscode-setup",
         "dms-plugins"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-plugin-development.md"
     },
     {
-      "file_path": "docs-1.2-dankmaterialshell-plugins-overview.md",
+      "file_path": "045-docs-1.2-danksearch-nixos-flake.md",
       "title": "Overview | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dankmaterialshell/plugins-overview",
       "source": "sitemap",
@@ -806,10 +850,11 @@
         "linux-customization",
         "wayland"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-plugins-overview.md"
     },
     {
-      "file_path": "docs-1.2-danksearch.md",
+      "file_path": "046-docs-1.2-danksearch-nixos.md",
       "title": "DankSearch | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danksearch/",
       "source": "sitemap",
@@ -823,10 +868,11 @@
         "indexing",
         "dsearch"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-danksearch.md"
     },
     {
-      "file_path": "docs-1.2-danksearch-configuration.md",
+      "file_path": "047-docs-1.2-danksearch-usage.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danksearch/configuration",
       "source": "sitemap",
@@ -841,10 +887,11 @@
         "search-engine",
         "system-configuration"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-danksearch-configuration.md"
     },
     {
-      "file_path": "docs-1.2-danksearch-nixos.md",
+      "file_path": "048-docs-1.2-danksearch.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danksearch/nixos",
       "source": "sitemap",
@@ -860,10 +907,11 @@
         "systemd",
         "configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-1.2-danksearch-nixos.md"
     },
     {
-      "file_path": "docs-1.2-danksearch-installation.md",
+      "file_path": "049-docs-1.2-dgop-configuration.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danksearch/installation",
       "source": "sitemap",
@@ -879,10 +927,11 @@
         "systemd",
         "binary-installation"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-danksearch-installation.md"
     },
     {
-      "file_path": "docs-1.2-danksearch-nixos-flake.md",
+      "file_path": "050-docs-1.2-dgop-installation.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danksearch/nixos-flake",
       "source": "sitemap",
@@ -897,10 +946,11 @@
         "installation-guide",
         "configuration-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-danksearch-nixos-flake.md"
     },
     {
-      "file_path": "docs-1.2-danksearch-usage.md",
+      "file_path": "051-docs-1.2-dgop-usage.md",
       "title": "Usage | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/danksearch/usage",
       "source": "sitemap",
@@ -916,10 +966,11 @@
         "exif-data",
         "search-filters"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-danksearch-usage.md"
     },
     {
-      "file_path": "docs-1.2-dgop.md",
+      "file_path": "052-docs-1.2-dgop.md",
       "title": "DGOP | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dgop/",
       "source": "sitemap",
@@ -935,10 +986,11 @@
         "performance-metrics",
         "go-application"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dgop.md"
     },
     {
-      "file_path": "docs-1.2-dgop-configuration.md",
+      "file_path": "053-docs-1.2-getting-started.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dgop/configuration",
       "source": "sitemap",
@@ -952,10 +1004,11 @@
         "json-config",
         "dashboard-styling"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dgop-configuration.md"
     },
     {
-      "file_path": "docs-1.2-dgop-installation.md",
+      "file_path": "054-docs-1.2-support.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dgop/installation",
       "source": "sitemap",
@@ -970,10 +1023,11 @@
         "system-requirements",
         "dms-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-dgop-installation.md"
     },
     {
-      "file_path": "docs-1.2-dgop-usage.md",
+      "file_path": "055-docs-1.2.md",
       "title": "Usage | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/dgop/usage",
       "source": "sitemap",
@@ -989,10 +1043,11 @@
         "json-output",
         "process-tracking"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.2-dgop-usage.md"
     },
     {
-      "file_path": "docs-1.2-getting-started.md",
+      "file_path": "056-docs-1.5-contributing-registry.md",
       "title": "Getting Started | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/getting-started",
       "source": "sitemap",
@@ -1007,10 +1062,11 @@
         "linux-suite",
         "compositor-setup"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.2-getting-started.md"
     },
     {
-      "file_path": "docs-1.2-support.md",
+      "file_path": "057-docs-1.5-contributing.md",
       "title": "Support | Dank Linux",
       "url": "https://danklinux.com/docs/1.2/support",
       "source": "sitemap",
@@ -1025,10 +1081,11 @@
         "open-source-support",
         "project-contribution"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "docs-1.2-support.md"
     },
     {
-      "file_path": "docs-1.5.md",
+      "file_path": "058-docs-1.5-dankgreeter-configuration.md",
       "title": "Files within build/docs/1.5/",
       "url": "https://danklinux.com/docs/1.5/",
       "source": "sitemap",
@@ -1041,10 +1098,11 @@
         "installation-guides",
         "open-source-contribution"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5.md"
     },
     {
-      "file_path": "docs-1.5-contributing.md",
+      "file_path": "059-docs-1.5-dankgreeter-installation.md",
       "title": "Contributing | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/contributing",
       "source": "sitemap",
@@ -1059,10 +1117,11 @@
         "bug-reporting",
         "community-guidelines"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-contributing.md"
     },
     {
-      "file_path": "docs-1.5-contributing-registry.md",
+      "file_path": "060-docs-1.5-dankgreeter-nixos-flake.md",
       "title": "Contributing to the Registry | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/contributing-registry",
       "source": "sitemap",
@@ -1078,10 +1137,11 @@
         "registry-submission",
         "metadata-specification"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-contributing-registry.md"
     },
     {
-      "file_path": "docs-1.5-dankgreeter-configuration.md",
+      "file_path": "061-docs-1.5-dankgreeter-nixos.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankgreeter/configuration",
       "source": "sitemap",
@@ -1096,10 +1156,11 @@
         "json-configuration",
         "desktop-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankgreeter-configuration.md"
     },
     {
-      "file_path": "docs-1.5-dankgreeter.md",
+      "file_path": "062-docs-1.5-dankgreeter.md",
       "title": "DankGreeter | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankgreeter/",
       "source": "sitemap",
@@ -1114,10 +1175,11 @@
         "ui-theming",
         "material-design"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "docs-1.5-dankgreeter.md"
     },
     {
-      "file_path": "docs-1.5-dankgreeter-installation.md",
+      "file_path": "063-docs-1.5-dankinstall.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankgreeter/installation",
       "source": "sitemap",
@@ -1134,10 +1196,11 @@
         "display-manager",
         "theme-syncing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankgreeter-installation.md"
     },
     {
-      "file_path": "docs-1.5-dankgreeter-nixos.md",
+      "file_path": "064-docs-1.5-danklinux.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankgreeter/nixos",
       "source": "sitemap",
@@ -1152,10 +1215,11 @@
         "nix-flakes",
         "configuration-guide"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankgreeter-nixos.md"
     },
     {
-      "file_path": "docs-1.5-dankgreeter-nixos-flake.md",
+      "file_path": "065-docs-1.5-dankmaterialshell-advanced-configuration.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankgreeter/nixos-flake",
       "source": "sitemap",
@@ -1170,10 +1234,11 @@
         "installation",
         "configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankgreeter-nixos-flake.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-advanced-configuration.md",
+      "file_path": "066-docs-1.5-dankmaterialshell-application-themes.md",
       "title": "Advanced Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/advanced-configuration",
       "source": "sitemap",
@@ -1188,10 +1253,11 @@
         "linux-customization",
         "layer-shell"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-advanced-configuration.md"
     },
     {
-      "file_path": "docs-1.5-dankinstall.md",
+      "file_path": "067-docs-1.5-dankmaterialshell-calendar-integration.md",
       "title": "DankInstall | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankinstall",
       "source": "sitemap",
@@ -1206,10 +1272,11 @@
         "package-management",
         "shell-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankinstall.md"
     },
     {
-      "file_path": "docs-1.5-danklinux.md",
+      "file_path": "068-docs-1.5-dankmaterialshell-cli-brightness.md",
       "title": "DankLinux Repository | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danklinux/",
       "source": "sitemap",
@@ -1226,10 +1293,11 @@
         "ubuntu",
         "opensuse"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-danklinux.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-calendar-integration.md",
+      "file_path": "069-docs-1.5-dankmaterialshell-cli-clipboard.md",
       "title": "Calendar Integration | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/calendar-integration",
       "source": "sitemap",
@@ -1244,10 +1312,11 @@
         "google-calendar",
         "dashboard-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-calendar-integration.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-application-themes.md",
+      "file_path": "070-docs-1.5-dankmaterialshell-cli-color-picker.md",
       "title": "Application Theming | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/application-themes",
       "source": "sitemap",
@@ -1263,10 +1332,11 @@
         "qt-configuration",
         "template-variables"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-application-themes.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-brightness.md",
+      "file_path": "071-docs-1.5-dankmaterialshell-cli-dank16.md",
       "title": "Brightness Control | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-brightness",
       "source": "sitemap",
@@ -1281,10 +1351,11 @@
         "ddc-ci",
         "led-control"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-brightness.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-clipboard.md",
+      "file_path": "072-docs-1.5-dankmaterialshell-cli-doctor.md",
       "title": "Clipboard Manager | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-clipboard",
       "source": "sitemap",
@@ -1299,10 +1370,11 @@
         "linux-utilities",
         "workflow-automation"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-clipboard.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-color-picker.md",
+      "file_path": "073-docs-1.5-dankmaterialshell-cli-keybinds-cheatsheets.md",
       "title": "Color Picker | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-color-picker",
       "source": "sitemap",
@@ -1317,10 +1389,11 @@
         "screen-capture",
         "color-formatting"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-color-picker.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-dank16.md",
+      "file_path": "074-docs-1.5-dankmaterialshell-cli-process-management.md",
       "title": "Dank16 | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-dank16",
       "source": "sitemap",
@@ -1335,10 +1408,11 @@
         "contrast-algorithms",
         "cli-tool"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-dank16.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-doctor.md",
+      "file_path": "075-docs-1.5-dankmaterialshell-cli-screenshot.md",
       "title": "System Diagnostics (doctor) | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-doctor",
       "source": "sitemap",
@@ -1353,11 +1427,12 @@
         "wayland",
         "cli-reference"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-doctor.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-keybinds-cheatsheets.md",
-      "title": "Keybinds \u0026 Cheatsheets | Dank Linux",
+      "file_path": "076-docs-1.5-dankmaterialshell-cli-setup.md",
+      "title": "Keybinds & Cheatsheets | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-keybinds-cheatsheets",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:44:01.942728-03:00",
@@ -1372,10 +1447,11 @@
         "keyboard-shortcuts",
         "cli-tool"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-keybinds-cheatsheets.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-process-management.md",
+      "file_path": "077-docs-1.5-dankmaterialshell-compositors.md",
       "title": "Process Management | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-process-management",
       "source": "sitemap",
@@ -1391,10 +1467,11 @@
         "ipc-communication",
         "backend-server"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-process-management.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-setup.md",
+      "file_path": "078-docs-1.5-dankmaterialshell-custom-themes.md",
       "title": "Setup | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-setup",
       "source": "sitemap",
@@ -1409,10 +1486,11 @@
         "home-manager",
         "linux-compositor"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-setup.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-cli-screenshot.md",
+      "file_path": "079-docs-1.5-dankmaterialshell-icon-theming.md",
       "title": "Screenshot | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-screenshot",
       "source": "sitemap",
@@ -1427,15 +1505,16 @@
         "screen-capture",
         "linux-tools"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-screenshot.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-compositors.md",
+      "file_path": "080-docs-1.5-dankmaterialshell-installation.md",
       "title": "Compositor Setup | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/compositors",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:44:10.576721-03:00",
-      "description": "\u003cHero",
+      "description": "<Hero",
       "summary": "This document provides instructions for configuring DankMaterialShell with various Wayland compositors, specifically detailing setup procedures for niri and Hyprland.",
       "tags": [
         "dank-material-shell",
@@ -1446,10 +1525,11 @@
         "desktop-environment",
         "window-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-compositors.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-icon-theming.md",
+      "file_path": "081-docs-1.5-dankmaterialshell-keybinds-ipc.md",
       "title": "Icon Theming | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/icon-theming",
       "source": "sitemap",
@@ -1464,11 +1544,12 @@
         "desktop-environments",
         "environment-variables"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-icon-theming.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-keybinds-ipc.md",
-      "title": "Keybinds \u0026 IPC | Dank Linux",
+      "file_path": "082-docs-1.5-dankmaterialshell-layers.md",
+      "title": "Keybinds & IPC | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/keybinds-ipc",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:44:15.515492-03:00",
@@ -1483,10 +1564,11 @@
         "hardware-control",
         "desktop-customization"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-keybinds-ipc.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-custom-themes.md",
+      "file_path": "083-docs-1.5-dankmaterialshell-managing.md",
       "title": "Custom Themes | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/custom-themes",
       "source": "sitemap",
@@ -1501,10 +1583,11 @@
         "desktop-customization",
         "ui-design"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-custom-themes.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-installation.md",
+      "file_path": "084-docs-1.5-dankmaterialshell-nixos-flake.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/installation",
       "source": "sitemap",
@@ -1521,10 +1604,11 @@
         "debian",
         "ubuntu"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-installation.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-nixos.md",
+      "file_path": "085-docs-1.5-dankmaterialshell-nixos.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/nixos",
       "source": "sitemap",
@@ -1540,10 +1624,11 @@
         "plugin-management",
         "system-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-nixos.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-layers.md",
+      "file_path": "086-docs-1.5-dankmaterialshell-overview.md",
       "title": "Layer Namespaces | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/layers",
       "source": "sitemap",
@@ -1559,10 +1644,11 @@
         "dms-shell",
         "linux-customization"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-layers.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-managing.md",
+      "file_path": "087-docs-1.5-dankmaterialshell-plugin-development.md",
       "title": "Managing Your Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/managing",
       "source": "sitemap",
@@ -1577,11 +1663,12 @@
         "wayland-compositors",
         "linux-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-managing.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-overview.md",
-      "title": "Overview \u0026 Architecture | Dank Linux",
+      "file_path": "088-docs-1.5-dankmaterialshell-plugins-overview.md",
+      "title": "Overview & Architecture | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/overview",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:44:25.348246-03:00",
@@ -1595,10 +1682,11 @@
         "go-backend",
         "system-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-overview.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-plugin-development.md",
+      "file_path": "089-docs-1.5-danksearch-configuration.md",
       "title": "Development | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/plugin-development",
       "source": "sitemap",
@@ -1613,10 +1701,11 @@
         "linux-customization",
         "vscode-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-plugin-development.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-nixos-flake.md",
+      "file_path": "090-docs-1.5-danksearch-installation.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/nixos-flake",
       "source": "sitemap",
@@ -1631,10 +1720,11 @@
         "niri-compositor",
         "desktop-environment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-nixos-flake.md"
     },
     {
-      "file_path": "docs-1.5-danksearch-configuration.md",
+      "file_path": "091-docs-1.5-danksearch-nixos-flake.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danksearch/configuration",
       "source": "sitemap",
@@ -1649,10 +1739,11 @@
         "performance-tuning",
         "server-settings"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-danksearch-configuration.md"
     },
     {
-      "file_path": "docs-1.5-dankmaterialshell-plugins-overview.md",
+      "file_path": "092-docs-1.5-danksearch-nixos.md",
       "title": "Overview | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dankmaterialshell/plugins-overview",
       "source": "sitemap",
@@ -1667,10 +1758,11 @@
         "linux-desktop",
         "widget-architecture"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-plugins-overview.md"
     },
     {
-      "file_path": "docs-1.5-danksearch.md",
+      "file_path": "093-docs-1.5-danksearch-usage.md",
       "title": "DankSearch | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danksearch/",
       "source": "sitemap",
@@ -1684,10 +1776,11 @@
         "file-indexing",
         "dsearch"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-1.5-danksearch.md"
     },
     {
-      "file_path": "docs-1.5-danksearch-installation.md",
+      "file_path": "094-docs-1.5-danksearch.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danksearch/installation",
       "source": "sitemap",
@@ -1703,10 +1796,11 @@
         "systemd",
         "build-from-source"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-danksearch-installation.md"
     },
     {
-      "file_path": "docs-1.5-danksearch-nixos-flake.md",
+      "file_path": "095-docs-1.5-dgop-configuration.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danksearch/nixos-flake",
       "source": "sitemap",
@@ -1722,10 +1816,11 @@
         "systemd",
         "configuration"
       ],
-      "category": "tutorial"
+      "category": "tutorial",
+      "original_file_path": "docs-1.5-danksearch-nixos-flake.md"
     },
     {
-      "file_path": "docs-1.5-danksearch-nixos.md",
+      "file_path": "096-docs-1.5-dgop-installation.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danksearch/nixos",
       "source": "sitemap",
@@ -1739,10 +1834,11 @@
         "systemd",
         "linux-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-danksearch-nixos.md"
     },
     {
-      "file_path": "docs-1.5-danksearch-usage.md",
+      "file_path": "097-docs-1.5-dgop-usage.md",
       "title": "Usage | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/danksearch/usage",
       "source": "sitemap",
@@ -1757,10 +1853,11 @@
         "index-management",
         "search-filters"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-danksearch-usage.md"
     },
     {
-      "file_path": "docs-1.5-dgop.md",
+      "file_path": "098-docs-1.5-dgop.md",
       "title": "DGOP | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dgop/",
       "source": "sitemap",
@@ -1776,10 +1873,11 @@
         "linux-utilities",
         "metrics-sampling"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dgop.md"
     },
     {
-      "file_path": "docs-1.5-dgop-configuration.md",
+      "file_path": "099-docs-1.5-getting-started.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dgop/configuration",
       "source": "sitemap",
@@ -1793,10 +1891,11 @@
         "json-schema",
         "dashboard-styling"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dgop-configuration.md"
     },
     {
-      "file_path": "docs-1.5-dgop-installation.md",
+      "file_path": "100-docs-1.5-support.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dgop/installation",
       "source": "sitemap",
@@ -1811,10 +1910,11 @@
         "binary-installation",
         "go-development"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dgop-installation.md"
     },
     {
-      "file_path": "docs-1.5-dgop-usage.md",
+      "file_path": "101-docs-1.5.md",
       "title": "Usage | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/dgop/usage",
       "source": "sitemap",
@@ -1829,10 +1929,11 @@
         "performance-metrics",
         "json-output"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-dgop-usage.md"
     },
     {
-      "file_path": "docs-1.5-getting-started.md",
+      "file_path": "102-docs-contributing-registry.md",
       "title": "Getting Started | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/getting-started",
       "source": "sitemap",
@@ -1847,10 +1948,11 @@
         "compositor-setup",
         "package-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-1.5-getting-started.md"
     },
     {
-      "file_path": "docs-1.5-support.md",
+      "file_path": "103-docs-contributing.md",
       "title": "Support | Dank Linux",
       "url": "https://danklinux.com/docs/1.5/support",
       "source": "sitemap",
@@ -1864,10 +1966,11 @@
         "discord",
         "project-support"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "docs-1.5-support.md"
     },
     {
-      "file_path": "docs-contributing.md",
+      "file_path": "104-docs-dankgreeter-configuration.md",
       "title": "Contributing | Dank Linux",
       "url": "https://danklinux.com/docs/contributing",
       "source": "sitemap",
@@ -1881,10 +1984,11 @@
         "open-source",
         "community-standards"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-contributing.md"
     },
     {
-      "file_path": "docs.md",
+      "file_path": "105-docs-dankgreeter-installation.md",
       "title": "Welcome | Dank Linux",
       "url": "https://danklinux.com/docs/",
       "source": "sitemap",
@@ -1900,10 +2004,11 @@
         "system-integration",
         "dotfiles"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs.md"
     },
     {
-      "file_path": "docs-contributing-registry.md",
+      "file_path": "106-docs-dankgreeter-nixos-flake.md",
       "title": "Contributing to the Registry | Dank Linux",
       "url": "https://danklinux.com/docs/contributing-registry",
       "source": "sitemap",
@@ -1919,10 +2024,11 @@
         "git-workflow",
         "desktop-environment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-contributing-registry.md"
     },
     {
-      "file_path": "docs-dankgreeter.md",
+      "file_path": "107-docs-dankgreeter-nixos.md",
       "title": "DankGreeter | Dank Linux",
       "url": "https://danklinux.com/docs/dankgreeter/",
       "source": "sitemap",
@@ -1936,10 +2042,11 @@
         "dankmaterialshell",
         "ui-component"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "docs-dankgreeter.md"
     },
     {
-      "file_path": "docs-dankgreeter-configuration.md",
+      "file_path": "108-docs-dankgreeter.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/dankgreeter/configuration",
       "source": "sitemap",
@@ -1953,10 +2060,11 @@
         "wallpaper-settings",
         "system-customization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankgreeter-configuration.md"
     },
     {
-      "file_path": "docs-dankgreeter-installation.md",
+      "file_path": "109-docs-dankinstall.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/dankgreeter/installation",
       "source": "sitemap",
@@ -1972,10 +2080,11 @@
         "display-manager",
         "theme-syncing"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankgreeter-installation.md"
     },
     {
-      "file_path": "docs-dankgreeter-nixos.md",
+      "file_path": "110-docs-danklinux.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/dankgreeter/nixos",
       "source": "sitemap",
@@ -1991,10 +2100,11 @@
         "nix-flakes",
         "nixpkgs-unstable"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankgreeter-nixos.md"
     },
     {
-      "file_path": "docs-dankgreeter-nixos-flake.md",
+      "file_path": "111-docs-dankmaterialshell-advanced-configuration.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/dankgreeter/nixos-flake",
       "source": "sitemap",
@@ -2009,10 +2119,11 @@
         "login-manager",
         "system-configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankgreeter-nixos-flake.md"
     },
     {
-      "file_path": "docs-dankinstall.md",
+      "file_path": "112-docs-dankmaterialshell-application-themes.md",
       "title": "DankInstall | Dank Linux",
       "url": "https://danklinux.com/docs/dankinstall",
       "source": "sitemap",
@@ -2028,10 +2139,11 @@
         "hyprland",
         "package-management"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankinstall.md"
     },
     {
-      "file_path": "docs-danklinux.md",
+      "file_path": "113-docs-dankmaterialshell-calendar-integration.md",
       "title": "DankLinux Repository | Dank Linux",
       "url": "https://danklinux.com/docs/danklinux/",
       "source": "sitemap",
@@ -2047,10 +2159,11 @@
         "niri",
         "dankmaterialshell"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-danklinux.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-advanced-configuration.md",
+      "file_path": "114-docs-dankmaterialshell-cli-brightness.md",
       "title": "Advanced Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/advanced-configuration",
       "source": "sitemap",
@@ -2066,10 +2179,11 @@
         "printing-config",
         "desktop-customization"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-advanced-configuration.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-application-themes.md",
+      "file_path": "115-docs-dankmaterialshell-cli-clipboard.md",
       "title": "Application Theming | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/application-themes",
       "source": "sitemap",
@@ -2085,10 +2199,11 @@
         "linux-desktop",
         "template-engine"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-application-themes.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-calendar-integration.md",
+      "file_path": "116-docs-dankmaterialshell-cli-color-picker.md",
       "title": "Calendar Integration | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/calendar-integration",
       "source": "sitemap",
@@ -2103,10 +2218,11 @@
         "google-calendar",
         "dashboard-integration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-calendar-integration.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-brightness.md",
+      "file_path": "117-docs-dankmaterialshell-cli-dank16.md",
       "title": "Brightness Control | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-brightness",
       "source": "sitemap",
@@ -2121,10 +2237,11 @@
         "hardware-configuration",
         "backlight-control"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-brightness.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-clipboard.md",
+      "file_path": "118-docs-dankmaterialshell-cli-doctor.md",
       "title": "Clipboard Manager | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-clipboard",
       "source": "sitemap",
@@ -2139,10 +2256,11 @@
         "dms-cl",
         "ext-data-control-v1"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-clipboard.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-color-picker.md",
+      "file_path": "119-docs-dankmaterialshell-cli-keybinds-cheatsheets.md",
       "title": "Color Picker | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-color-picker",
       "source": "sitemap",
@@ -2157,10 +2275,11 @@
         "color-formatting",
         "css-development"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-cli-color-picker.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-dank16.md",
+      "file_path": "120-docs-dankmaterialshell-cli-process-management.md",
       "title": "Dank16 | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-dank16",
       "source": "sitemap",
@@ -2175,10 +2294,11 @@
         "accessibility",
         "theme-generator"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-dank16.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-doctor.md",
+      "file_path": "121-docs-dankmaterialshell-cli-screenshot.md",
       "title": "System Diagnostics (doctor) | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-doctor",
       "source": "sitemap",
@@ -2194,11 +2314,12 @@
         "quickshell",
         "dependency-check"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-doctor.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-keybinds-cheatsheets.md",
-      "title": "Keybinds \u0026 Cheatsheets | Dank Linux",
+      "file_path": "122-docs-dankmaterialshell-cli-setup.md",
+      "title": "Keybinds & Cheatsheets | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-keybinds-cheatsheets",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:45:22.522143-03:00",
@@ -2214,10 +2335,11 @@
         "sway",
         "niri"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-cli-keybinds-cheatsheets.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-process-management.md",
+      "file_path": "123-docs-dankmaterialshell-compositors.md",
       "title": "Process Management | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-process-management",
       "source": "sitemap",
@@ -2232,10 +2354,11 @@
         "daemon-mode",
         "wayland-compositor"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-process-management.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-screenshot.md",
+      "file_path": "124-docs-dankmaterialshell-custom-themes.md",
       "title": "Screenshot | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-screenshot",
       "source": "sitemap",
@@ -2250,10 +2373,11 @@
         "linux-tools",
         "screen-capture"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-screenshot.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-cli-setup.md",
+      "file_path": "125-docs-dankmaterialshell-icon-theming.md",
       "title": "Setup | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/cli-setup",
       "source": "sitemap",
@@ -2268,15 +2392,16 @@
         "configuration-management",
         "desktop-environment"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-cli-setup.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-compositors.md",
+      "file_path": "126-docs-dankmaterialshell-installation.md",
       "title": "Compositor Setup | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/compositors",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:45:30.671891-03:00",
-      "description": "\u003cHero",
+      "description": "<Hero",
       "summary": "This document provides detailed configuration instructions and code snippets for integrating DankMaterialShell with Wayland compositors such as niri and Hyprland.",
       "tags": [
         "dankmaterialshell",
@@ -2287,10 +2412,11 @@
         "compositor-configuration",
         "window-management"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-compositors.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-icon-theming.md",
+      "file_path": "127-docs-dankmaterialshell-keybinds-ipc.md",
       "title": "Icon Theming | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/icon-theming",
       "source": "sitemap",
@@ -2306,10 +2432,11 @@
         "kde-plasma",
         "configuration-guide"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-icon-theming.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-custom-themes.md",
+      "file_path": "128-docs-dankmaterialshell-layers.md",
       "title": "Custom Themes | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/custom-themes",
       "source": "sitemap",
@@ -2324,10 +2451,11 @@
         "color-schemes",
         "ui-customization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-custom-themes.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-installation.md",
+      "file_path": "129-docs-dankmaterialshell-managing.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/installation",
       "source": "sitemap",
@@ -2342,11 +2470,12 @@
         "wayland",
         "quickshell"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-installation.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-keybinds-ipc.md",
-      "title": "Keybinds \u0026 IPC | Dank Linux",
+      "file_path": "130-docs-dankmaterialshell-nixos-flake.md",
+      "title": "Keybinds & IPC | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/keybinds-ipc",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:45:37.156415-03:00",
@@ -2360,10 +2489,11 @@
         "desktop-shell",
         "process-communication"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-keybinds-ipc.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-layers.md",
+      "file_path": "131-docs-dankmaterialshell-nixos.md",
       "title": "Layer Namespaces | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/layers",
       "source": "sitemap",
@@ -2379,10 +2509,11 @@
         "ui-customization",
         "blur-effects"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-layers.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-managing.md",
+      "file_path": "132-docs-dankmaterialshell-overview.md",
       "title": "Managing Your Installation | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/managing",
       "source": "sitemap",
@@ -2398,10 +2529,11 @@
         "package-updates",
         "environment-variables"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-managing.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-nixos.md",
+      "file_path": "133-docs-dankmaterialshell-plugin-development.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/nixos",
       "source": "sitemap",
@@ -2417,10 +2549,11 @@
         "shell-configuration",
         "linux-customization"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-nixos.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-nixos-flake.md",
+      "file_path": "134-docs-dankmaterialshell-plugins-overview.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/nixos-flake",
       "source": "sitemap",
@@ -2435,11 +2568,12 @@
         "installation-guide",
         "niri-compositor"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-nixos-flake.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-overview.md",
-      "title": "Overview \u0026 Architecture | Dank Linux",
+      "file_path": "135-docs-danksearch-configuration.md",
+      "title": "Overview & Architecture | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/overview",
       "source": "sitemap",
       "fetched_at": "2026-02-22T18:45:43.204225-03:00",
@@ -2453,10 +2587,11 @@
         "desktop-environment",
         "system-architecture"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-dankmaterialshell-overview.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-plugin-development.md",
+      "file_path": "136-docs-danksearch-installation.md",
       "title": "Development | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/plugin-development",
       "source": "sitemap",
@@ -2471,10 +2606,11 @@
         "desktop-shell",
         "qt-quick"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-plugin-development.md"
     },
     {
-      "file_path": "docs-dankmaterialshell-plugins-overview.md",
+      "file_path": "137-docs-danksearch-nixos-flake.md",
       "title": "Overview | Dank Linux",
       "url": "https://danklinux.com/docs/dankmaterialshell/plugins-overview",
       "source": "sitemap",
@@ -2489,10 +2625,11 @@
         "linux-desktop",
         "wayland"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-plugins-overview.md"
     },
     {
-      "file_path": "docs-danksearch-configuration.md",
+      "file_path": "138-docs-danksearch-nixos.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/danksearch/configuration",
       "source": "sitemap",
@@ -2507,10 +2644,11 @@
         "file-exclusion",
         "search-engine"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-danksearch-configuration.md"
     },
     {
-      "file_path": "docs-danksearch.md",
+      "file_path": "139-docs-danksearch-usage.md",
       "title": "DankSearch | Dank Linux",
       "url": "https://danklinux.com/docs/danksearch/",
       "source": "sitemap",
@@ -2524,10 +2662,11 @@
         "indexing",
         "native-search"
       ],
-      "category": "concept"
+      "category": "concept",
+      "original_file_path": "docs-danksearch.md"
     },
     {
-      "file_path": "docs-danksearch-installation.md",
+      "file_path": "140-docs-danksearch.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/danksearch/installation",
       "source": "sitemap",
@@ -2542,10 +2681,11 @@
         "systemd",
         "go-application"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-danksearch-installation.md"
     },
     {
-      "file_path": "docs-danksearch-nixos.md",
+      "file_path": "141-docs-dgop-configuration.md",
       "title": "NixOS Installation | Dank Linux",
       "url": "https://danklinux.com/docs/danksearch/nixos",
       "source": "sitemap",
@@ -2561,10 +2701,11 @@
         "installation",
         "configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-danksearch-nixos.md"
     },
     {
-      "file_path": "docs-danksearch-nixos-flake.md",
+      "file_path": "142-docs-dgop-installation.md",
       "title": "NixOS Installation (Flake) | Dank Linux",
       "url": "https://danklinux.com/docs/danksearch/nixos-flake",
       "source": "sitemap",
@@ -2580,10 +2721,11 @@
         "systemd",
         "configuration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-danksearch-nixos-flake.md"
     },
     {
-      "file_path": "docs-danksearch-usage.md",
+      "file_path": "143-docs-dgop-usage.md",
       "title": "Usage | Dank Linux",
       "url": "https://danklinux.com/docs/danksearch/usage",
       "source": "sitemap",
@@ -2599,10 +2741,11 @@
         "search-filters",
         "exif-metadata"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-danksearch-usage.md"
     },
     {
-      "file_path": "docs-dgop-configuration.md",
+      "file_path": "144-docs-dgop.md",
       "title": "Configuration | Dank Linux",
       "url": "https://danklinux.com/docs/dgop/configuration",
       "source": "sitemap",
@@ -2617,10 +2760,11 @@
         "system-monitoring-ui",
         "api-port-override"
       ],
-      "category": "configuration"
+      "category": "configuration",
+      "original_file_path": "docs-dgop-configuration.md"
     },
     {
-      "file_path": "docs-dgop.md",
+      "file_path": "145-docs-getting-started.md",
       "title": "DGOP | Dank Linux",
       "url": "https://danklinux.com/docs/dgop/",
       "source": "sitemap",
@@ -2635,10 +2779,11 @@
         "rest-api",
         "metrics-collection"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dgop.md"
     },
     {
-      "file_path": "docs-getting-started.md",
+      "file_path": "146-docs-support.md",
       "title": "Getting Started | Dank Linux",
       "url": "https://danklinux.com/docs/getting-started",
       "source": "sitemap",
@@ -2653,10 +2798,11 @@
         "compositor-configuration",
         "system-setup"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-getting-started.md"
     },
     {
-      "file_path": "docs-dgop-usage.md",
+      "file_path": "147-docs.md",
       "title": "Usage | Dank Linux",
       "url": "https://danklinux.com/docs/dgop/usage",
       "source": "sitemap",
@@ -2672,10 +2818,11 @@
         "json-output",
         "openapi"
       ],
-      "category": "reference"
+      "category": "reference",
+      "original_file_path": "docs-dgop-usage.md"
     },
     {
-      "file_path": "docs-dgop-installation.md",
+      "file_path": "148-index.md",
       "title": "Installation | Dank Linux",
       "url": "https://danklinux.com/docs/dgop/installation",
       "source": "sitemap",
@@ -2690,10 +2837,11 @@
         "go-build",
         "system-administration"
       ],
-      "category": "guide"
+      "category": "guide",
+      "original_file_path": "docs-dgop-installation.md"
     },
     {
-      "file_path": "docs-support.md",
+      "file_path": "149-plugins.md",
       "title": "Support | Dank Linux",
       "url": "https://danklinux.com/docs/support",
       "source": "sitemap",
@@ -2707,10 +2855,11 @@
         "discord",
         "donations"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "docs-support.md"
     },
     {
-      "file_path": "index.md",
+      "file_path": "150-search.md",
       "title": "Modern Desktop Suite | Dank Linux",
       "url": "https://danklinux.com/",
       "source": "sitemap",
@@ -2725,7 +2874,20 @@
         "desktop-environment",
         "ui-customization"
       ],
-      "category": "other"
+      "category": "other",
+      "original_file_path": "index.md"
     }
-  ]
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-22T21:52:17Z",
+    "total_files": 150,
+    "categories": [
+      "Blog & Releases",
+      "Documentation v1.2",
+      "Documentation v1.5",
+      "Documentation (Latest)",
+      "Reference"
+    ]
+  }
 }

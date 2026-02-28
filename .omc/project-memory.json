@@ -552,6 +552,12 @@
       "accessCount": 1,
       "lastAccessed": 1772247230213,
       "type": "file"
+    },
+    {
+      "path": "spotify-webapi/000-index.md",
+      "accessCount": 1,
+      "lastAccessed": 1772247636386,
+      "type": "file"
     }
   ],
   "userDirectives": []

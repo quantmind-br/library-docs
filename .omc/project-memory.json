@@ -540,6 +540,13 @@
       ]
     }
   },
-  "hotPaths": [],
+  "hotPaths": [
+    {
+      "path": "spotify-webapi/documentation-web-api-tutorials-getting-started.md",
+      "accessCount": 1,
+      "lastAccessed": 1772247158181,
+      "type": "file"
+    }
+  ],
   "userDirectives": []
 }

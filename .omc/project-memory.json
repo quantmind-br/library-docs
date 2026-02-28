@@ -1,0 +1,545 @@
+{
+  "version": "1.0.0",
+  "lastScanned": 1772247042894,
+  "projectRoot": "/Users/diogo/dev/library-docs",
+  "techStack": {
+    "languages": [],
+    "frameworks": [],
+    "packageManager": null,
+    "runtime": null
+  },
+  "build": {
+    "buildCommand": null,
+    "testCommand": null,
+    "lintCommand": null,
+    "devCommand": null,
+    "scripts": {}
+  },
+  "conventions": {
+    "namingStyle": null,
+    "importStyle": null,
+    "testPattern": null,
+    "fileOrganization": null
+  },
+  "structure": {
+    "isMonorepo": false,
+    "workspaces": [],
+    "mainDirectories": [],
+    "gitBranches": {
+      "defaultBranch": "main",
+      "branchingStrategy": null
+    }
+  },
+  "customNotes": [],
+  "directoryMap": {
+    "bifrost": {
+      "path": "bifrost",
+      "purpose": null,
+      "fileCount": 392,
+      "lastAccessed": 1772247042845,
+      "keyFiles": [
+        "000-index.md",
+        "001-bifrost-discord.md",
+        "002-bifrost-enterprise.md",
+        "003-quickstart-gateway-setting-up.md",
+        "004-quickstart-gateway-setting-up-auth.md"
+      ]
+    },
+    "camoufox": {
+      "path": "camoufox",
+      "purpose": null,
+      "fileCount": 27,
+      "lastAccessed": 1772247042845,
+      "keyFiles": [
+        "000-index.md",
+        "001-introduction.md",
+        "002-installation.md",
+        "003-stealth-overview.md",
+        "004-features-list.md"
+      ]
+    },
+    "canvas-lms": {
+      "path": "canvas-lms",
+      "purpose": null,
+      "fileCount": 460,
+      "lastAccessed": 1772247042848,
+      "keyFiles": [
+        "000-index.md",
+        "001-services-ab-connect-introduction.md",
+        "002-services-ab-connect-introduction-addressing-object-properties.md",
+        "003-services-ab-connect-introduction-authentication.md",
+        "004-services-ab-connect-introduction-character-set.md"
+      ]
+    },
+    "claude-code": {
+      "path": "claude-code",
+      "purpose": null,
+      "fileCount": 54,
+      "lastAccessed": 1772247042849,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-en-overview.md",
+        "002-docs-en-features-overview.md",
+        "003-docs-en-quickstart.md",
+        "004-docs-en-third-party-integrations.md"
+      ]
+    },
+    "cliproxyapi": {
+      "path": "cliproxyapi",
+      "purpose": null,
+      "fileCount": 92,
+      "lastAccessed": 1772247042851,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-introduction-what-is-cliproxyapi.md",
+        "003-introduction-quick-start.md",
+        "004-configuration-basic.md"
+      ]
+    },
+    "cloudflare": {
+      "path": "cloudflare",
+      "purpose": null,
+      "fileCount": 1772,
+      "lastAccessed": 1772247042855,
+      "keyFiles": [
+        "000-index.md",
+        "001-agents-getting-started-index.md",
+        "002-ai-gateway-get-started-index.md",
+        "003-ai-search-get-started-index.md",
+        "004-browser-rendering-get-started-index.md"
+      ]
+    },
+    "codex": {
+      "path": "codex",
+      "purpose": null,
+      "fileCount": 46,
+      "lastAccessed": 1772247042856,
+      "keyFiles": [
+        "000-index.md",
+        "001-codex-llms.txt.md",
+        "002-codex-overview.md",
+        "003-codex-quickstart.md",
+        "004-codex-auth.md"
+      ]
+    },
+    "coolify": {
+      "path": "coolify",
+      "purpose": null,
+      "fileCount": 445,
+      "lastAccessed": 1772247042858,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-get-started-cloud.md",
+        "002-docs-get-started-concepts.md",
+        "003-docs-get-started-introduction.md",
+        "004-docs-get-started-screenshots.md"
+      ]
+    },
+    "crawl4ai": {
+      "path": "crawl4ai",
+      "purpose": null,
+      "fileCount": 80,
+      "lastAccessed": 1772247042859,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-branding.md",
+        "003-basic-installation.md",
+        "004-core-installation.md"
+      ]
+    },
+    "crush": {
+      "path": "crush",
+      "purpose": null,
+      "fileCount": 6,
+      "lastAccessed": 1772247042860,
+      "keyFiles": [
+        "000-index.md",
+        "001-README.md",
+        "002-CRUSH.md",
+        "003-LICENSE.md",
+        "004-CLA.md"
+      ]
+    },
+    "dankmaterialshell": {
+      "path": "dankmaterialshell",
+      "purpose": null,
+      "fileCount": 152,
+      "lastAccessed": 1772247042861,
+      "keyFiles": [
+        "000-index.md",
+        "001-blog-archive.md",
+        "002-blog-authors.md",
+        "003-blog-desktop-widgets-1-2.md",
+        "004-blog-tags-announcement.md"
+      ]
+    },
+    "docker": {
+      "path": "docker",
+      "purpose": null,
+      "fileCount": 1208,
+      "lastAccessed": 1772247042865,
+      "keyFiles": [
+        "000-index.md",
+        "001-build-bake-introduction.md",
+        "002-build-concepts-dockerfile.md",
+        "003-build-concepts-overview.md",
+        "004-dhi-explore-responsibility.md"
+      ]
+    },
+    "docs_docsyasbdev": {
+      "path": "docs_docsyasbdev",
+      "purpose": null,
+      "fileCount": 69,
+      "lastAccessed": 1772247042865,
+      "keyFiles": [
+        "dev-cli.md",
+        "dev-configuration.md",
+        "dev-installation.md",
+        "dev-keybindings.md",
+        "dev-styling.md"
+      ]
+    },
+    "dokploy": {
+      "path": "dokploy",
+      "purpose": null,
+      "fileCount": 106,
+      "lastAccessed": 1772247042866,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-core.md",
+        "002-docs-core-architecture.md",
+        "003-docs-core-features.md",
+        "004-docs-core-comparison.md"
+      ]
+    },
+    "dspy": {
+      "path": "dspy",
+      "purpose": null,
+      "fileCount": 137,
+      "lastAccessed": 1772247042866,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-learn.md",
+        "003-cheatsheet.md",
+        "004-faqs.md"
+      ]
+    },
+    "factory": {
+      "path": "factory",
+      "purpose": null,
+      "fileCount": 100,
+      "lastAccessed": 1772247042867,
+      "keyFiles": [
+        "000-index.md",
+        "001-welcome.md",
+        "002-web-getting-started-overview.md",
+        "003-cli-getting-started-overview.md",
+        "004-web-agent-readiness-overview.md"
+      ]
+    },
+    "fastmcp": {
+      "path": "fastmcp",
+      "purpose": null,
+      "fileCount": 80,
+      "lastAccessed": 1772247042867,
+      "keyFiles": [
+        "000-index.md",
+        "001-getting-started-welcome.md",
+        "002-getting-started-installation.md",
+        "003-getting-started-quickstart.md",
+        "004-servers-server.md"
+      ]
+    },
+    "gemini-cli": {
+      "path": "gemini-cli",
+      "purpose": null,
+      "fileCount": 73,
+      "lastAccessed": 1772247042868,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-docs.md",
+        "003-docs-get-started.md",
+        "004-docs-get-started-installation.md"
+      ]
+    },
+    "ghostty": {
+      "path": "ghostty",
+      "purpose": null,
+      "fileCount": 81,
+      "lastAccessed": 1772247042868,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-docs-about.md",
+        "003-docs.md",
+        "004-docs-install-pre.md"
+      ]
+    },
+    "goose": {
+      "path": "goose",
+      "purpose": null,
+      "fileCount": 136,
+      "lastAccessed": 1772247042868,
+      "keyFiles": [
+        "000-index.md",
+        "001-goose-docs-quickstart.md",
+        "002-goose-docs-category-getting-started.md",
+        "003-goose-docs-category-architecture-overview.md",
+        "004-goose-docs-category-guides.md"
+      ]
+    },
+    "hyprland": {
+      "path": "hyprland",
+      "purpose": null,
+      "fileCount": 94,
+      "lastAccessed": 1772247042869,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-categories.md",
+        "003-tags.md",
+        "004-version-selector.md"
+      ]
+    },
+    "klipper": {
+      "path": "klipper",
+      "purpose": null,
+      "fileCount": 58,
+      "lastAccessed": 1772247042869,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-README.md",
+        "002-docs-Overview.md",
+        "003-docs-index.md",
+        "004-docs-Installation.md"
+      ]
+    },
+    "komorebi": {
+      "path": "komorebi",
+      "purpose": null,
+      "fileCount": 199,
+      "lastAccessed": 1772247042870,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-index.md",
+        "002-docs-installation.md",
+        "003-docs-usage-stacking-windows.md",
+        "004-docs-usage-moving-windows.md"
+      ]
+    },
+    "litellm": {
+      "path": "litellm",
+      "purpose": null,
+      "fileCount": 734,
+      "lastAccessed": 1772247042871,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-a2a.md",
+        "002-docs-mcp.md",
+        "003-docs-pass-through-intro.md",
+        "004-docs-proxy-configs.md"
+      ]
+    },
+    "mitmproxy": {
+      "path": "mitmproxy",
+      "purpose": null,
+      "fileCount": 55,
+      "lastAccessed": 1772247042871,
+      "keyFiles": [
+        "000-index.md",
+        "001-stable.md",
+        "002-stable-overview-installation.md",
+        "003-stable-overview-getting-started.md",
+        "004-stable-overview-features.md"
+      ]
+    },
+    "moodle": {
+      "path": "moodle",
+      "purpose": null,
+      "fileCount": 2722,
+      "lastAccessed": 1772247042876,
+      "keyFiles": [
+        "000-index.md",
+        "0001-general-community-research.md",
+        "0002-search.md",
+        "0003-general-development-policies-moodle-versions.md",
+        "0004-general-documentation-forking-versions.md"
+      ]
+    },
+    "moonshot": {
+      "path": "moonshot",
+      "purpose": null,
+      "fileCount": 28,
+      "lastAccessed": 1772247042877,
+      "keyFiles": [
+        "000-index.md",
+        "001-kimi-cli-en-guides-getting-started.md",
+        "002-kimi-cli-en-guides-interaction.md",
+        "003-kimi-cli-en-guides-sessions.md",
+        "004-kimi-cli-en-guides-integrations.md"
+      ]
+    },
+    "openai": {
+      "path": "openai",
+      "purpose": null,
+      "fileCount": 119,
+      "lastAccessed": 1772247042877,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-actions-introduction.md",
+        "002-docs-bots.md",
+        "003-docs-actions-getting-started.md",
+        "004-docs-guides-evaluation-getting-started.md"
+      ]
+    },
+    "opencode": {
+      "path": "opencode",
+      "purpose": null,
+      "fileCount": 36,
+      "lastAccessed": 1772247042877,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-docs.md",
+        "003-docs-config.md",
+        "004-docs-network.md"
+      ]
+    },
+    "openrouter": {
+      "path": "openrouter",
+      "purpose": null,
+      "fileCount": 182,
+      "lastAccessed": 1772247042877,
+      "keyFiles": [
+        "000-index.md",
+        "001-activity-export.md",
+        "002-agentic-usage.md",
+        "003-anthropic-agent-sdk.md",
+        "004-anthropic-messages.md"
+      ]
+    },
+    "pydanticai": {
+      "path": "pydanticai",
+      "purpose": null,
+      "fileCount": 153,
+      "lastAccessed": 1772247042878,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-install.md",
+        "003-agents.md",
+        "004-dependencies.md"
+      ]
+    },
+    "sketchybar": {
+      "path": "sketchybar",
+      "purpose": null,
+      "fileCount": 17,
+      "lastAccessed": 1772247042878,
+      "keyFiles": [
+        "000-index.md",
+        "001-SketchyBar.md",
+        "002-SketchyBar-setup.md",
+        "003-SketchyBar-features.md",
+        "004-SketchyBar-config-types.md"
+      ]
+    },
+    "spotify-webapi": {
+      "path": "spotify-webapi",
+      "purpose": null,
+      "fileCount": 118,
+      "lastAccessed": 1772247042878,
+      "keyFiles": [
+        "documentation-web-api-concepts-access-token.md",
+        "documentation-web-api-concepts-api-calls.md",
+        "documentation-web-api-concepts-apps.md",
+        "documentation-web-api-concepts-authorization.md",
+        "documentation-web-api-concepts-playlists.md"
+      ]
+    },
+    "yabai": {
+      "path": "yabai",
+      "purpose": null,
+      "fileCount": 11,
+      "lastAccessed": 1772247042879,
+      "keyFiles": [
+        "000-index.md",
+        "001-wiki-home.md",
+        "002-disabling-system-integrity-protection.md",
+        "003-installing-yabai-(latest-release).md",
+        "004-installing-yabai-(from-head).md"
+      ]
+    },
+    "yasb": {
+      "path": "yasb",
+      "purpose": null,
+      "fileCount": 11,
+      "lastAccessed": 1772247042879,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-installation.md",
+        "003-configuration.md",
+        "004-keybindings.md"
+      ]
+    },
+    "zai": {
+      "path": "zai",
+      "purpose": null,
+      "fileCount": 90,
+      "lastAccessed": 1772247042879,
+      "keyFiles": [
+        "000-index.md",
+        "001-guides-overview-overview.md",
+        "002-guides-overview-quick-start.md",
+        "003-guides-overview-concept-param.md",
+        "004-guides-overview-pricing.md"
+      ]
+    },
+    "zellij": {
+      "path": "zellij",
+      "purpose": null,
+      "fileCount": 35,
+      "lastAccessed": 1772247042879,
+      "keyFiles": [
+        "000-index.md",
+        "001-index.md",
+        "002-about.md",
+        "003-screenshots.md",
+        "004-tutorials.md"
+      ]
+    },
+    "zencoder": {
+      "path": "zencoder",
+      "purpose": null,
+      "fileCount": 91,
+      "lastAccessed": 1772247042879,
+      "keyFiles": [
+        "000-index.md",
+        "001-get-started-introduction.md",
+        "002-get-started-quickstart.md",
+        "003-get-started-basic-concepts.md",
+        "004-get-started-subscription.md"
+      ]
+    },
+    "zeroclaw": {
+      "path": "zeroclaw",
+      "purpose": null,
+      "fileCount": 45,
+      "lastAccessed": 1772247042880,
+      "keyFiles": [
+        "000-index.md",
+        "001-docs-README.md",
+        "002-docs-README.ja.md",
+        "003-docs-README.ru.md",
+        "004-docs-README.zh-CN.md"
+      ]
+    }
+  },
+  "hotPaths": [],
+  "userDirectives": []
+}

@@ -1,0 +1,115 @@
+---
+title: Slack
+url: https://docs.factory.ai/integrations/slack.md
+source: llms
+fetched_at: 2026-03-03T01:14:42.514466-03:00
+rendered_js: false
+word_count: 494
+summary: This guide provides instructions for connecting Factory to a Slack workspace and explains how to use integrated tools for cross-platform communication.
+tags:
+    - slack-integration
+    - factory-ai
+    - workspace-setup
+    - collaboration-tools
+    - troubleshooting
+category: guide
+---
+
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.factory.ai/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Slack
+
+> Step-by-step guide to connect Factory with your Slack workspace
+
+This guide will walk you through the process of integrating Factory with Slack, enabling seamless interaction between Factory and your Slack conversations.
+
+## Prerequisites
+
+* A Factory account with admin privileges
+* Admin access to your Slack workspace
+* Ability to install apps in your Slack workspace
+
+## Integration Steps
+
+<Steps>
+  <Step title="Access Factory Integrations">
+    Log in to your Factory account and navigate to the Integrations section in your Settings.
+  </Step>
+
+  <Step title="Initiate Slack Integration">
+    Click on "Connect" next to Slack to start the integration process.
+  </Step>
+
+  <Step title="Authorize Factory's Slack Application">
+    You'll be redirected to Slack. Review the requested permissions and click "Allow" to authorize Factory access to your Slack workspace.
+  </Step>
+
+  <Step title="Select Workspace">
+    If you belong to multiple workspaces, select the workspace you want to connect to Factory.
+  </Step>
+
+  <Step title="Confirm Integration">
+    After authorization, you'll be redirected back to Factory. Verify that the integration status shows as "Connected".
+  </Step>
+
+  <Step title="Add to Channels">
+    In your Slack workspace, add the Factory app to relevant channels by typing `/invite @Factory` in each channel.
+  </Step>
+</Steps>
+
+## Verification
+
+To ensure the integration is working correctly:
+
+1. Mention `@Factory` in a thread within a channel where the app has been added.
+2. Verify that Factory responds with a link to open the conversation in Factory.
+3. Click the link and confirm that the Slack thread content appears in your new Factory session.
+
+## Slack Tools
+
+<Warning>
+  Before using the tools below, make sure that the Factory app is invited
+  to the channels you'd like to interact with by sending <code>/invite @Factory</code> in those channels.
+</Warning>
+
+Factory provides four native tools to interact with Slack:
+
+| Tool                     | What it does                                                  |
+| ------------------------ | ------------------------------------------------------------- |
+| **Get Slack Channels**   | Lists all channels the bot can access                         |
+| **Post Slack Message**   | Sends a message to a channel or replies to an existing thread |
+| **Read Thread Messages** | Reads the messages from a Slack thread                        |
+| **Get Channel History**  | Retrieves recent messages from a channel                      |
+
+## Additional Features
+
+Besides the tools above, the Slack integration also allows you to:
+
+* Mention `@Factory` in any Slack thread to receive a link to continue the conversation in Factory
+* Import Slack thread context into Factory by clicking the provided link
+* Reference Slack threads in Factory by pasting a thread URL into a Factory chat
+
+When a Slack thread is imported, Factory has access to the entire conversation history, allowing it to provide context-aware assistance.
+
+## Best Practices
+
+* Add the Factory app only to channels where development discussions occur.
+* Use threads rather than channel messages when mentioning Factory.
+* Provide sufficient context in the Slack thread before mentioning Factory.
+* Regularly review the permissions granted to the Factory app in your Slack settings.
+
+## Troubleshooting
+
+If you encounter issues during integration:
+
+* Ensure you have admin rights in both Factory and your Slack workspace.
+* Verify that the Factory app has been added to the channel where you're mentioning it.
+* If you see a "not\_in\_channel" error toast when trying to paste a Slack thread URL, it means the Factory bot needs to be invited to that channel. Use `/invite @Factory` in the channel to resolve this issue.
+* Check that your organization's firewall isn't blocking webhook communications.
+* For persistent issues, contact Factory support with specific error messages.
+
+<Card title="Security and Compliance" icon="shield-check" href="#">
+  Learn about Factory's security measures and how we protect your data
+</Card>

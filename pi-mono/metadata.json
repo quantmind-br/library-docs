@@ -1,0 +1,2129 @@
+{
+  "generated_at": "2026-03-03T03:48:07.802002-03:00",
+  "source_url": "https://github.com/badlogic/pi-mono",
+  "strategy": "git",
+  "total_documents": 128,
+  "documents": [
+    {
+      "file_path": "063-.github-ISSUE-TEMPLATE-bug.yml",
+      "title": "Bug",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/ISSUE_TEMPLATE/bug.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:25.001093-03:00",
+      "summary": "document outlining a structured bug report submission process for software issues",
+      "tags": [
+        "bug-submission",
+        "report-template",
+        "suggested-form",
+        "issue-tracking"
+      ],
+      "category": "guide",
+      "original_file_path": ".github-ISSUE-TEMPLATE-bug.yml"
+    },
+    {
+      "file_path": "043-.github-ISSUE-TEMPLATE-config.yml",
+      "title": "Config",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/ISSUE_TEMPLATE/config.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:25.0011-03:00",
+      "summary": "document explaining how to handle communication and support queries for issues via Discord instead of GitHub issues",
+      "tags": [
+        "discord-integration",
+        "community-support",
+        "github-discord"
+      ],
+      "category": "configuration",
+      "original_file_path": ".github-ISSUE-TEMPLATE-config.yml"
+    },
+    {
+      "file_path": "064-.github-ISSUE-TEMPLATE-contribution.yml",
+      "title": "Contribution",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/ISSUE_TEMPLATE/contribution.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:25.0011-03:00",
+      "summary": "document outlines a structured process for contributors to propose feature changes or bug fixes before submitting pull requests by outlining specific sections to explain purpose, impact, and optional technical approach.",
+      "tags": [
+        "contributor-process",
+        "pull-request",
+        "proposal-form",
+        "feature-fix",
+        "github",
+        "development-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": ".github-ISSUE-TEMPLATE-contribution.yml"
+    },
+    {
+      "file_path": "059-.github-workflows-approve-contributor.yml",
+      "title": "Approve contributor",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/workflows/approve-contributor.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:28.950212-03:00",
+      "summary": "Manages GitHub contributor approval workflow for pull requests by automating checks and updates to an approved contributors list.",
+      "tags": [
+        "github-actions",
+        "contributor-management",
+        "automation-workflow",
+        "pull-request",
+        "github-script",
+        "permission-verification"
+      ],
+      "category": "guide",
+      "original_file_path": ".github-workflows-approve-contributor.yml"
+    },
+    {
+      "file_path": "060-.github-workflows-build-binaries.yml",
+      "title": "Build binaries",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/workflows/build-binaries.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:30.625716-03:00",
+      "summary": "automates the process of building and releasing binaries from a tagged Git commit via GitHub Actions workflow",
+      "tags": [
+        "github-actions",
+        "release-pipeline",
+        "binary-building",
+        "github-tag",
+        "automation-ci",
+        "package-release"
+      ],
+      "category": "guide",
+      "original_file_path": ".github-workflows-build-binaries.yml"
+    },
+    {
+      "file_path": "061-.github-workflows-ci.yml",
+      "title": "Ci",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/workflows/ci.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:33.332527-03:00",
+      "summary": "Placeholder brief description of a generic, undocumented technical guide or entry (e.g., 'Introduction to Ci' or 'Core Concepts')",
+      "tags": [
+        "placeholder",
+        "concept",
+        "undefined"
+      ],
+      "category": "guide",
+      "original_file_path": ".github-workflows-ci.yml"
+    },
+    {
+      "file_path": "062-.github-workflows-pr-gate.yml",
+      "title": "Pr gate",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.github/workflows/pr-gate.yml",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:36.855742-03:00",
+      "summary": "Exploration of the principle gate in semiconductor circuits, likely focusing on its operation, configurations, and applications in digital logic.",
+      "tags": [
+        "semiconductor",
+        "digital logic",
+        "semiconductors",
+        "electronics"
+      ],
+      "category": "guide",
+      "original_file_path": ".github-workflows-pr-gate.yml"
+    },
+    {
+      "file_path": "087-.pi-prompts-cl.md",
+      "title": "Cl",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.pi/prompts/cl.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:40.199128-03:00",
+      "summary": "placeholder summary as input is insufficient",
+      "tags": [
+        "insufficient_data"
+      ],
+      "category": "guide",
+      "original_file_path": ".pi-prompts-cl.md"
+    },
+    {
+      "file_path": "088-.pi-prompts-is.md",
+      "title": "Is",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.pi/prompts/is.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:49.559062-03:00",
+      "summary": "a method for investigating and analyzing GitHub issues (bugs and feature requests) through independent verification of code and behavioral paths",
+      "tags": [
+        "github-issues",
+        "bug-analysis",
+        "feature-implementation",
+        "code-reverse-engineering",
+        "verification-based"
+      ],
+      "category": "guide",
+      "original_file_path": ".pi-prompts-is.md"
+    },
+    {
+      "file_path": "089-AGENTS.md",
+      "title": "AGENTS",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/AGENTS.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:52.396813-03:00",
+      "summary": "Document outlines project development rules, including module navigation, code quality guidelines, testing workflows, GitHub issue/PR handling, team workflows, and API integration (e.g., adding new LLM providers)",
+      "tags": [
+        "github-rules",
+        "development-workflow",
+        "code-quality",
+        "testing-architecture",
+        "api-integration",
+        "pr-policy",
+        "cross-package-coordination"
+      ],
+      "category": "guide",
+      "original_file_path": "AGENTS.md"
+    },
+    {
+      "file_path": "086-CONTRIBUTING.md",
+      "title": "CONTRIBUTING",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/CONTRIBUTING.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:55.129963-03:00",
+      "summary": "A guide outlining core contribution principles for the 'pi' project, emphasizing understanding codebase interactions and maintaining code quality.",
+      "tags": [
+        "contribution-guidelines",
+        "open-source-practices",
+        "pr-review",
+        "agency-privacy"
+      ],
+      "category": "guide",
+      "original_file_path": "CONTRIBUTING.md"
+    },
+    {
+      "file_path": "120-.pi-prompts-pr.md",
+      "title": "Pr",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/.pi/prompts/pr.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:37:51.444778-03:00",
+      "summary": "Document title placeholder; incomplete information provided",
+      "tags": [
+        "placeholder",
+        "incomplete"
+      ],
+      "category": "general",
+      "original_file_path": ".pi-prompts-pr.md"
+    },
+    {
+      "file_path": "001-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:05.470947-03:00",
+      "summary": "A monorepo framework for building AI agents and managing LLM deployments, including modular packages for unified APIs, agent runtime, coding agents, and deployment tools.",
+      "tags": [
+        "monorepo",
+        "ai-integration",
+        "llm-api",
+        "toolchain",
+        "code-agent",
+        "terminal-ui",
+        "web-components"
+      ],
+      "category": "guide",
+      "original_file_path": "README.md"
+    },
+    {
+      "file_path": "122-package-lock.json",
+      "title": "Package lock",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/package-lock.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:09.048732-03:00",
+      "summary": "Documents about AWS SDK, crypto, and AI infrastructure dependencies, primarily focusing on AWS SDK packages for runtime, Bedrock, encryption (SHA-256), and utility libraries like Zod and Lodash integration.",
+      "tags": [
+        "aws-sdk",
+        "crypto-shared",
+        "ai-integration",
+        "npm-packages",
+        "util-libraries"
+      ],
+      "category": "other",
+      "original_file_path": "package-lock.json"
+    },
+    {
+      "file_path": "090-biome.json",
+      "title": "Biome",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/biome.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:08.138058-03:00",
+      "summary": "Exploration of ecosystems categorized by their natural habitat such as deserts, forests, and grasslands.",
+      "tags": [
+        "ecology",
+        "environment",
+        "habitat"
+      ],
+      "category": "guide",
+      "original_file_path": "biome.json"
+    },
+    {
+      "file_path": "080-packages-agent-CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/agent/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:26.334659-03:00",
+      "summary": "Tracks release versions, introduces breaking changes and additions to a streaming-based agent framework, focusing on API renames, transport handling, and flow control.",
+      "tags": [
+        "api-changes",
+        "breaking-changes",
+        "stream-transport",
+        "queuing-system",
+        "session-id",
+        "option-configurations"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-agent-CHANGELOG.md"
+    },
+    {
+      "file_path": "091-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:13.193602-03:00",
+      "summary": "In-depth explanation of how to package files or documents for distribution, including best practices for compression and preservation of integrity (e.g., using archives or encryption).",
+      "tags": [
+        "packaging",
+        "archiving",
+        "file-compression",
+        "distribution"
+      ],
+      "category": "guide",
+      "original_file_path": "package.json"
+    },
+    {
+      "file_path": "044-packages-agent-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/agent/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:42.502868-03:00",
+      "summary": "configuration guide for TypeScript's project structure and compiler options",
+      "tags": [
+        "typescript-config",
+        "project-configuration",
+        "typescript-tsconfig"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-agent-tsconfig.build.json"
+    },
+    {
+      "file_path": "002-packages-agent-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/agent/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:31.38737-03:00",
+      "summary": "General overview of project documentation and setup instructions",
+      "tags": [
+        "project",
+        "documentation",
+        "setup"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-agent-README.md"
+    },
+    {
+      "file_path": "092-packages-agent-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/agent/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:40.574196-03:00",
+      "summary": "Explains the process of preparing and managing a package, including instructions for shipping, customs, and tracking.",
+      "tags": [
+        "shipping",
+        "package logistics",
+        "customs",
+        "shipping guide"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-agent-package.json"
+    },
+    {
+      "file_path": "003-packages-ai-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/ai/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:54.271205-03:00",
+      "summary": "A unified LLM API library enabling automatic model discovery, tool integration, context persistence, and cross-provider handoffs for agentic workflows with function calling support",
+      "tags": [
+        "llm-api",
+        "function-call",
+        "provider-configuration",
+        "context-management",
+        "multi-provider-integration",
+        "type-safe-tools",
+        "streaming-api",
+        "ai-tools",
+        "oauth-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-ai-README.md"
+    },
+    {
+      "file_path": "093-packages-ai-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/ai/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:55.967216-03:00",
+      "summary": "A Node.js module providing a unified LLM API for automatic model discovery and provider configuration across multiple AI platforms.",
+      "tags": [
+        "ai-unification",
+        "llm-integration",
+        "openai-wrapper",
+        "provider-abstract",
+        "node-modules"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-ai-package.json"
+    },
+    {
+      "file_path": "081-packages-ai-CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/ai/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:38:52.981429-03:00",
+      "summary": "A documentation entry outlining updates, releases, and modifications for software/projects over time, detailing version history and changes made.",
+      "tags": [
+        "release notes",
+        "update history",
+        "software changes"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-ai-CHANGELOG.md"
+    },
+    {
+      "file_path": "045-packages-ai-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/ai/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:13.156622-03:00",
+      "summary": "configures and specifies TypeScript build settings for a project",
+      "tags": [
+        "typescript-config",
+        "build-settings",
+        "project-configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-ai-tsconfig.build.json"
+    },
+    {
+      "file_path": "082-packages-coding-agent-CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:16.231333-03:00",
+      "summary": "Document provides a changelog for a toolkit/library focusing on agentic extensions, runtime tool management, and user-configurable settings like keybindings and startup modes.",
+      "tags": [
+        "pi-mono-changelog",
+        "extensions-api",
+        "agent-toolkit",
+        "dynamic-tool-registration",
+        "keybindings-configuration",
+        "offline-mode",
+        "error-fixes"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-CHANGELOG.md"
+    },
+    {
+      "file_path": "055-packages-coding-agent-docs-custom-provider.md",
+      "title": "Custom provider",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/custom-provider.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:26.740906-03:00",
+      "summary": "Document teaches how to extend the system with custom model providers, detailing proxy configuration, authentication, OAuth/SSO support, and provider management via `pi.registerProvider` or `pi.unregisterProvider`.",
+      "tags": [
+        "provider-extensions",
+        "custom-provider",
+        "api-authentication",
+        "oauth-login",
+        "llm-proxy",
+        "streaming-api",
+        "api-extension"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-custom-provider.md"
+    },
+    {
+      "file_path": "010-packages-coding-agent-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:17.780994-03:00",
+      "summary": "README typically contains project documentation, installation instructions, setup guidelines, and key information about the software/product.",
+      "tags": [
+        "documentation",
+        "instructions",
+        "project_overview"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-README.md"
+    },
+    {
+      "file_path": "094-packages-coding-agent-docs-compaction.md",
+      "title": "Compaction",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/compaction.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:19.452734-03:00",
+      "summary": "Explanation of the concept and processes related to 'compaction' in context (likely databases, storage systems, or compression techniques).",
+      "tags": [
+        "compaction",
+        "database",
+        "data-management",
+        "storage"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-compaction.md"
+    },
+    {
+      "file_path": "095-packages-coding-agent-docs-development.md",
+      "title": "Development",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/development.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:46.73205-03:00",
+      "summary": "Document outlines setup, configuration, and execution workflow for a modular AI project like `pi-mono`, focusing on forking, path resolution, and debugging methods.",
+      "tags": [
+        "forking",
+        "cli-application",
+        "package-configuration",
+        "ts-typescript",
+        "debugging-logs",
+        "agent-based",
+        "terminal-ui",
+        "debugging-commands"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-development.md"
+    },
+    {
+      "file_path": "096-packages-coding-agent-docs-json.md",
+      "title": "Json",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/json.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:49.861141-03:00",
+      "summary": "describes json event stream mode for pi, detailing event types and output structure for session events in JSON lines format for integration with tools.",
+      "tags": [
+        "api-output",
+        "json-streaming",
+        "event-modeling",
+        "tool-integration",
+        "session-messaging",
+        "automated-uis"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-json.md"
+    },
+    {
+      "file_path": "097-packages-coding-agent-docs-keybindings.md",
+      "title": "Keybindings",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/keybindings.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:53.260352-03:00",
+      "summary": "Explains how to customize keyboard shortcuts for a text editor via JSON configuration in `~/.pi/agent/keybindings.json`",
+      "tags": [
+        "keyboard-shortcuts",
+        "custom-configuration",
+        "editor-keybindings",
+        "json-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-keybindings.md"
+    },
+    {
+      "file_path": "056-packages-coding-agent-docs-extensions.md",
+      "title": "Extensions",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/extensions.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:39:48.208848-03:00",
+      "summary": "Explanation of additional software or tools (extensions) that can enhance functionality in software applications, browsers, or operating systems.",
+      "tags": [
+        "add-ons",
+        "software",
+        "modification"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-extensions.md"
+    },
+    {
+      "file_path": "123-packages-coding-agent-docs-models.md",
+      "title": "Models",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/models.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:03.602242-03:00",
+      "summary": "Document outlines configuring custom models and providers for an AI agent, detailing JSON structure and supported configurations for local/remote APIs like Ollama, vLLM, or proxies.",
+      "tags": [
+        "custom-models",
+        "provider-configuration",
+        "ai-agent-settings",
+        "llm-apis",
+        "openai-compatibility"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-docs-models.md"
+    },
+    {
+      "file_path": "098-packages-coding-agent-docs-packages.md",
+      "title": "Packages",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/packages.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:09.536717-03:00",
+      "summary": "Guide explaining how to create, structure, and distribute Pi packages for bundling extensions, skills, prompt templates, and themes for sharing via npm or Git.",
+      "tags": [
+        "pi-packages",
+        "npm-packages",
+        "git-packages",
+        "package-structure",
+        "extension-management",
+        "skill-templates",
+        "themes",
+        "dependency-management"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-packages.md"
+    },
+    {
+      "file_path": "099-packages-coding-agent-docs-prompt-templates.md",
+      "title": "Prompt templates",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/prompt-templates.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:11.061849-03:00",
+      "summary": "guides how to create and use prompt template files in the Pi AI editor for structured workflows",
+      "tags": [
+        "ai-templates",
+        "markdown-prompting",
+        "config-prompt",
+        "cli-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-prompt-templates.md"
+    },
+    {
+      "file_path": "020-packages-coding-agent-docs-rpc.md",
+      "title": "Rpc",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/rpc.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:25.111663-03:00",
+      "summary": "Document explains how to enable RPC mode for headless operation of a coding agent via JSON protocol over stdin/stdout for integration into other tools.",
+      "tags": [
+        "rpc-mode",
+        "headless-ai",
+        "json-protocol",
+        "agent-integration",
+        "node-typescript",
+        "session-management",
+        "multi-command",
+        "steering-mode"
+      ],
+      "category": "tutorial",
+      "original_file_path": "packages-coding-agent-docs-rpc.md"
+    },
+    {
+      "file_path": "057-packages-coding-agent-docs-providers.md",
+      "title": "Providers",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/providers.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:18.751-03:00",
+      "summary": "Document discussing entities offering specialized services, potentially medical or professional.",
+      "tags": [
+        "service-providers",
+        "business-entities",
+        "specialized-services"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-providers.md"
+    },
+    {
+      "file_path": "100-packages-coding-agent-docs-session.md",
+      "title": "Session",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/session.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:40.711559-03:00",
+      "summary": "Explains the session file format, structure, and management for Pi coding agent, including how sessions are stored as JSONL files with tree-based branching and versioning.",
+      "tags": [
+        "jsonl-format",
+        "tree-structured-sessions",
+        "session-management",
+        "agent-state-persistence"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-session.md"
+    },
+    {
+      "file_path": "058-packages-coding-agent-docs-sdk.md",
+      "title": "Sdk",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/sdk.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:27.616365-03:00",
+      "summary": "Introduction to Software Development Kit (SDK) with basic functionalities and use cases.",
+      "tags": [
+        "sdk",
+        "programming",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-sdk.md"
+    },
+    {
+      "file_path": "046-packages-coding-agent-docs-settings.md",
+      "title": "Settings",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/settings.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:48.102003-03:00",
+      "summary": "Explains how to configure JSON settings for Pi’s AI agent, detailing global vs. project-level overrides, customizable thinking budgets, retries, message handling, and resource loading paths for themes, skills, and packages.",
+      "tags": [
+        "ai-agent",
+        "json-settings",
+        "pi-agent",
+        "customization",
+        "configuration",
+        "exponential-retry",
+        "theme-configuration",
+        "model-cycle"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-settings.md"
+    },
+    {
+      "file_path": "124-packages-coding-agent-docs-shell-aliases.md",
+      "title": "Shell aliases",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/shell-aliases.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:55.857189-03:00",
+      "summary": "explains how to configure shell alias expansion for a non-interactive environment (like Pi's agent) by injecting shell commands into settings",
+      "tags": [
+        "shell-config",
+        "command-line",
+        "bash-alias",
+        "agent-environment",
+        "scripting-alias"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-docs-shell-aliases.md"
+    },
+    {
+      "file_path": "017-packages-coding-agent-docs-skills.md",
+      "title": "Skills",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/skills.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:40:57.152222-03:00",
+      "summary": "Documents how to create and structure skills for Pi, an agent platform, following the Agent Skills standard for self-contained task capabilities.",
+      "tags": [
+        "agent-skills",
+        "skill-development",
+        "agent-skills-standard",
+        "markdown-format"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-coding-agent-docs-skills.md"
+    },
+    {
+      "file_path": "016-packages-coding-agent-docs-terminal-setup.md",
+      "title": "Terminal setup",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/terminal-setup.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:04.813304-03:00",
+      "summary": "Instructional guide for setting up a terminal environment, covering configurations, tool installations, and optimizations for seamless computing experience.",
+      "tags": [
+        "development",
+        "tech",
+        "linux",
+        "command_line",
+        "terminal"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-terminal-setup.md"
+    },
+    {
+      "file_path": "101-packages-coding-agent-docs-termux.md",
+      "title": "Termux",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/termux.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:06.825419-03:00",
+      "summary": "Termux is a Linux-based Android application that provides a terminal environment for executing commands and running various Unix-like tools on an Android device, including system administration tasks and software development utilities.",
+      "tags": [
+        "Linux",
+        "Android",
+        "Terminal",
+        "CLI",
+        "Unix tools"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-termux.md"
+    },
+    {
+      "file_path": "102-packages-coding-agent-docs-themes.md",
+      "title": "Themes",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/themes.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:12.338877-03:00",
+      "summary": "Explores fundamental categories or motifs commonly analyzed in literature, media, and cultural contexts, such as love, power, identity, and conflict.",
+      "tags": [
+        "themes",
+        "literature",
+        "culture",
+        "symbolism"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-themes.md"
+    },
+    {
+      "file_path": "103-packages-coding-agent-docs-tree.md",
+      "title": "Tree",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tree.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:28.217396-03:00",
+      "summary": "explains how the `/tree` API facilitates interactive session tree navigation for re-contextualizing and summarizing conversation branches in chat systems",
+      "tags": [
+        "session-tree",
+        "navigate",
+        "chat-apis",
+        "session-navigation",
+        "branch-summarization"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-tree.md"
+    },
+    {
+      "file_path": "104-packages-coding-agent-docs-tui.md",
+      "title": "Tui",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tui.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:30.260336-03:00",
+      "summary": "Document explains building and using TUI (Terminal User Interface) components in the `pi` framework, including design interfaces, focus management, overlay support, and built-in components like Text, Box, Container, and Spacer.",
+      "tags": [
+        "tui-components",
+        "terminal-ui",
+        "terminal-rendering",
+        "custom-components",
+        "keyboard-input-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-tui.md"
+    },
+    {
+      "file_path": "105-packages-coding-agent-docs-windows.md",
+      "title": "Windows",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/windows.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:32.052515-03:00",
+      "summary": "guide to setting up the bash shell for Pi on Windows through Git for Windows or custom configuration paths",
+      "tags": [
+        "windows-shell",
+        "bash-installation",
+        "cygwin-git",
+        "wsl-git",
+        "path-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-windows.md"
+    },
+    {
+      "file_path": "006-packages-coding-agent-examples-extensions-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:45.268243-03:00",
+      "summary": "Document demonstrates how to build, install, and showcase extensions for the `pi-coding-agent`, featuring lifecycle handling, tool integration, and custom UI enhancements.",
+      "tags": [
+        "extension-development",
+        "pi-agent",
+        "lifecycle-events",
+        "tool-overrides",
+        "ui-extensions",
+        "custom-tools"
+      ],
+      "category": "tutorial",
+      "original_file_path": "packages-coding-agent-examples-extensions-README.md"
+    },
+    {
+      "file_path": "021-packages-coding-agent-examples-extensions-custom-provider-anthropic-package-lock.json",
+      "title": "Package lock",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/custom-provider-anthropic/package-lock.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:47.26079-03:00",
+      "summary": "explains setup and dependency management for a custom provider extension in a Node.js ecosystem",
+      "tags": [
+        "nodejs-package-dependencies",
+        "extension-sdk",
+        "npm-package-lock"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-examples-extensions-custom-provider-anthropic-package-lock.json"
+    },
+    {
+      "file_path": "008-packages-coding-agent-examples-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:38.057469-03:00",
+      "summary": "An introductory guide with essential setup instructions, dependencies, and installation notes for the project.",
+      "tags": [
+        "setup",
+        "guide",
+        "instructions"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-README.md"
+    },
+    {
+      "file_path": "023-packages-coding-agent-examples-extensions-custom-provider-gitlab-duo-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/custom-provider-gitlab-duo/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:58.515011-03:00",
+      "summary": "configuration instructions for a GitLab Duo custom OAuth/SSO provider using Pinaudio's extension framework",
+      "tags": [
+        "oauth-2.0",
+        "github-duo-integration",
+        "authentication",
+        "openid-connect",
+        "ssomodule",
+        "duo-custom-provider"
+      ],
+      "category": "other",
+      "original_file_path": "packages-coding-agent-examples-extensions-custom-provider-gitlab-duo-package.json"
+    },
+    {
+      "file_path": "022-packages-coding-agent-examples-extensions-custom-provider-anthropic-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/custom-provider-anthropic/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:56.486244-03:00",
+      "summary": "Overview and considerations for organizing files, items, or resources, typically for storage or distribution purposes.",
+      "tags": [
+        "packaging",
+        "storage",
+        "organization",
+        "bundling"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-custom-provider-anthropic-package.json"
+    },
+    {
+      "file_path": "024-packages-coding-agent-examples-extensions-custom-provider-qwen-cli-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/custom-provider-qwen-cli/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:41:59.900723-03:00",
+      "summary": "Comprehensive guide on best practices, tools, and documentation for managing and organizing package libraries across various platforms and programming environments.",
+      "tags": [
+        "libraries",
+        "software",
+        "packaging",
+        "documentation",
+        "development"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-custom-provider-qwen-cli-package.json"
+    },
+    {
+      "file_path": "027-packages-coding-agent-examples-extensions-dynamic-resources-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/dynamic-resources/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:07.966415-03:00",
+      "summary": "explains the purpose and structure of a dynamic resource skill in an extension framework",
+      "tags": [
+        "extension",
+        "skill-load",
+        "resources-api",
+        "runtime-init"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-examples-extensions-dynamic-resources-SKILL.md"
+    },
+    {
+      "file_path": "004-packages-coding-agent-examples-extensions-doom-overlay-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/doom-overlay/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:04.614355-03:00",
+      "summary": "Basic documentation for software project setup, dependencies, installation instructions, and contribution guidelines.",
+      "tags": [
+        "setup",
+        "instructions",
+        "guide",
+        "open-source"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-doom-overlay-README.md"
+    },
+    {
+      "file_path": "026-packages-coding-agent-examples-extensions-dynamic-resources-dynamic.md",
+      "title": "Dynamic",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/dynamic-resources/dynamic.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:14.320377-03:00",
+      "summary": "explains repository structure documentation and basic commands for building/testing",
+      "tags": [
+        "repository-structure",
+        "build-commands",
+        "test-commands",
+        "development-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-dynamic-resources-dynamic.md"
+    },
+    {
+      "file_path": "025-packages-coding-agent-examples-extensions-dynamic-resources-dynamic.json",
+      "title": "Dynamic",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/dynamic-resources/dynamic.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:12.573626-03:00",
+      "summary": "general exploration of principles of variability or adaptability in systems or processes",
+      "tags": [
+        "adaptability",
+        "dynamic systems",
+        "systems theory",
+        "flexibility"
+      ],
+      "category": "theory",
+      "original_file_path": "packages-coding-agent-examples-extensions-dynamic-resources-dynamic.json"
+    },
+    {
+      "file_path": "005-packages-coding-agent-examples-extensions-plan-mode-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/plan-mode/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:15.781948-03:00",
+      "summary": "Introduction and setup instructions for project documentation, including installation, dependencies, and usage guidelines.",
+      "tags": [
+        "project guide",
+        "README",
+        "setup instructions",
+        "installation"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-plan-mode-README.md"
+    },
+    {
+      "file_path": "029-packages-coding-agent-examples-extensions-sandbox-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/sandbox/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:25.735005-03:00",
+      "summary": "describes a sandbox module setup for Pi extensions with minimal configuration and predefined script placeholders",
+      "tags": [
+        "sandbox-module",
+        "pi-extension",
+        "dependency-management",
+        "typescript-based"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-examples-extensions-sandbox-package.json"
+    },
+    {
+      "file_path": "028-packages-coding-agent-examples-extensions-sandbox-package-lock.json",
+      "title": "Package lock",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/sandbox/package-lock.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:20.911391-03:00",
+      "summary": "Explanation of how npm's `npm ci` (Clean Install) and `npm freeze --only=dev` lockfiles prevent inconsistencies in project dependencies.",
+      "tags": [
+        "node.js",
+        "npm",
+        "package-lock",
+        "dependency management"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-sandbox-package-lock.json"
+    },
+    {
+      "file_path": "007-packages-coding-agent-examples-extensions-subagent-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:32.671025-03:00",
+      "summary": "Document demonstrates a framework for delegating specialized tasks via subagents with isolated context windows, parallel execution, and workflow automation.",
+      "tags": [
+        "subagent-delegation",
+        "parallel-agent-tasking",
+        "pi-process-extension"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-README.md"
+    },
+    {
+      "file_path": "030-packages-coding-agent-examples-extensions-subagent-agents-planner.md",
+      "title": "Planner",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/agents/planner.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:34.749679-03:00",
+      "summary": "Outline and structure for a personal time or task management guide to help organization and productivity.",
+      "tags": [
+        "planner",
+        "organization",
+        "time management"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-agents-planner.md"
+    },
+    {
+      "file_path": "031-packages-coding-agent-examples-extensions-subagent-agents-reviewer.md",
+      "title": "Reviewer",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/agents/reviewer.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:36.641321-03:00",
+      "summary": "Document likely serves as a basic guide or metadata extraction reference for structured JSON outputs, emphasizing completeness and clarity in three fields: summary, tags, and category.",
+      "tags": [
+        "metadata guide",
+        "JSON structure",
+        "data extraction",
+        "format"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-agents-reviewer.md"
+    },
+    {
+      "file_path": "032-packages-coding-agent-examples-extensions-subagent-agents-scout.md",
+      "title": "Scout",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/agents/scout.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:42.072391-03:00",
+      "summary": "A platform that helps users explore resources, track their progress, and optimize their search efficiency through personalized recommendations.",
+      "tags": [
+        "scout",
+        "exploration",
+        "optimization",
+        "resource discovery"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-agents-scout.md"
+    },
+    {
+      "file_path": "033-packages-coding-agent-examples-extensions-subagent-agents-worker.md",
+      "title": "Worker",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/agents/worker.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:50.021416-03:00",
+      "summary": "document outlines the worker agent's operational framework, emphasizing autonomy, task delegation, and context isolation",
+      "tags": [
+        "agent-framework",
+        "delegation-model",
+        "autonomy-system",
+        "task-completion",
+        "isolated-context"
+      ],
+      "category": "tutorial",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-agents-worker.md"
+    },
+    {
+      "file_path": "034-packages-coding-agent-examples-extensions-subagent-prompts-implement-and-review.md",
+      "title": "Implement and review",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/prompts/implement-and-review.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:51.872094-03:00",
+      "summary": "describes a multi-step workflow for implementing, reviewing, and applying feedback using subagents in an automated system",
+      "tags": [
+        "workflow-design",
+        "agent-chaining",
+        "feedback-loops",
+        "multi-agent-system"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-prompts-implement-and-review.md"
+    },
+    {
+      "file_path": "035-packages-coding-agent-examples-extensions-subagent-prompts-implement.md",
+      "title": "Implement",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/prompts/implement.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:53.483203-03:00",
+      "summary": "Explains implementation basics for development or deployment tasks, including process steps and best practices.",
+      "tags": [
+        "development",
+        "implementation",
+        "guides"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-prompts-implement.md"
+    },
+    {
+      "file_path": "036-packages-coding-agent-examples-extensions-subagent-prompts-scout-and-plan.md",
+      "title": "Scout and plan",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/prompts/scout-and-plan.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:55.956886-03:00",
+      "summary": "Provides insights on field research and strategic planning for outdoor exploration and decision-making in nature or adventure activities.",
+      "tags": [
+        "outdoor planning",
+        "scouting",
+        "research",
+        "adventure guidance"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-subagent-prompts-scout-and-plan.md"
+    },
+    {
+      "file_path": "037-packages-coding-agent-examples-extensions-with-deps-package-lock.json",
+      "title": "Package lock",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/with-deps/package-lock.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:42:57.914711-03:00",
+      "summary": "Document explaining the `package-lock.json` file—a standardized format used in Node.js to pin exact versions of dependencies during npm package installation for consistency across environments.",
+      "tags": [
+        "npm",
+        "package-manager",
+        "dependency management",
+        "version control"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-extensions-with-deps-package-lock.json"
+    },
+    {
+      "file_path": "038-packages-coding-agent-examples-extensions-with-deps-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/with-deps/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:04.85679-03:00",
+      "summary": "document describes a TypeScript module setup for extending package.json with dependencies via a script",
+      "tags": [
+        "typescript-package-json",
+        "dependency-management",
+        "module-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-examples-extensions-with-deps-package.json"
+    },
+    {
+      "file_path": "009-packages-coding-agent-examples-sdk-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/sdk/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:06.485719-03:00",
+      "summary": "Provides programmatic examples for initializing and configuring an agent session using SDK functions, covering authentication, models, customization, and event handling.",
+      "tags": [
+        "sdk-examples",
+        "api-usage",
+        "agent-configuration",
+        "development-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-examples-sdk-README.md"
+    },
+    {
+      "file_path": "107-packages-coding-agent-src-modes-interactive-theme-dark.json",
+      "title": "Dark",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/src/modes/interactive/theme/dark.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:10.337234-03:00",
+      "summary": "Defines a dark theme configuration with color variables, mapping for UI elements, and Markdown/Miscellaneous styling settings.",
+      "tags": [
+        "ui-theme-dark",
+        "color-palettes",
+        "style-configurations",
+        "markdown-styling"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-src-modes-interactive-theme-dark.json"
+    },
+    {
+      "file_path": "125-packages-coding-agent-src-modes-interactive-theme-light.json",
+      "title": "Light",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/src/modes/interactive/theme/light.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:14.732823-03:00",
+      "summary": "describes a light-themed UI color palette schema with default color definitions for UI components, markdown elements, and syntax highlighting modes.",
+      "tags": [
+        "theme-color-scheme",
+        "ui-styles",
+        "code-syntax-hl",
+        "design-schema"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-src-modes-interactive-theme-light.json"
+    },
+    {
+      "file_path": "106-packages-coding-agent-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:08.317845-03:00",
+      "summary": "A collection of software libraries and tools distributed together for ease of use and dependency management.",
+      "tags": [
+        "distribution",
+        "software",
+        "development"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-package.json"
+    },
+    {
+      "file_path": "126-packages-coding-agent-src-modes-interactive-theme-theme-schema.json",
+      "title": "Theme schema",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:23.08773-03:00",
+      "summary": "Defines a JSON schema for a visual coding agent theme with customizable color definitions for UI elements, syntax highlighting, and states",
+      "tags": [
+        "json-schema",
+        "coding-theme",
+        "ui-color-palette",
+        "text-styles"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-src-modes-interactive-theme-theme-schema.json"
+    },
+    {
+      "file_path": "068-packages-coding-agent-test-fixtures-skills-consecutive-hyphens-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/consecutive-hyphens/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:28.249478-03:00",
+      "summary": "document highlighting incorrect hyphenation rules in skill names",
+      "tags": [
+        "invalid-hyphenation",
+        "naming-convention"
+      ],
+      "category": "other",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-consecutive-hyphens-SKILL.md"
+    },
+    {
+      "file_path": "069-packages-coding-agent-test-fixtures-skills-disable-model-invocation-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/disable-model-invocation/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:36.501862-03:00",
+      "summary": "provides instructions on manually enabling a skill to prevent automatic invocation by the model",
+      "tags": [
+        "skill-configuration",
+        "manual-invocation",
+        "api-control",
+        "disabled-mode"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-disable-model-invocation-SKILL.md"
+    },
+    {
+      "file_path": "065-packages-coding-agent-test-fixtures-assistant-message-with-thinking-code.json",
+      "title": "Assistant message with thinking code",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/assistant-message-with-thinking-code.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:43:26.864111-03:00",
+      "summary": "A response or draft featuring embedded thinking or processing code examples, likely for troubleshooting, analysis, or conceptual exploration in AI assistance",
+      "tags": [
+        "AI",
+        "assistant",
+        "thinking_code"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-test-fixtures-assistant-message-with-thinking-code.json"
+    },
+    {
+      "file_path": "070-packages-coding-agent-test-fixtures-skills-invalid-name-chars-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/invalid-name-chars/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:07.796116-03:00",
+      "summary": "discusses naming conventions for skill/module identifiers",
+      "tags": [
+        "naming-validation",
+        "naming-restrictions",
+        "invalid-character-error"
+      ],
+      "category": "other",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-invalid-name-chars-SKILL.md"
+    },
+    {
+      "file_path": "071-packages-coding-agent-test-fixtures-skills-invalid-yaml-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/invalid-yaml/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:09.393767-03:00",
+      "summary": "explains problems with unclosed YAML brackets in a document's frontmatter",
+      "tags": [
+        "yaml-syntax",
+        "invalid-configuration",
+        "document-validation"
+      ],
+      "category": "other",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-invalid-yaml-SKILL.md"
+    },
+    {
+      "file_path": "072-packages-coding-agent-test-fixtures-skills-long-name-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/long-name/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:11.050947-03:00",
+      "summary": "explains handling skill naming restrictions with long names in a structured format.",
+      "tags": [
+        "naming-restrictions",
+        "api-skill",
+        "short-length",
+        "documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-long-name-SKILL.md"
+    },
+    {
+      "file_path": "073-packages-coding-agent-test-fixtures-skills-missing-description-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/missing-description/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:12.71897-03:00",
+      "summary": "document about missing or expected metadata description in a skill system",
+      "tags": [
+        "metadata-missing",
+        "documentation-gap",
+        "software-description"
+      ],
+      "category": "other",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-missing-description-SKILL.md"
+    },
+    {
+      "file_path": "074-packages-coding-agent-test-fixtures-skills-multiline-description-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/multiline-description/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:14.216135-03:00",
+      "summary": "ensures proper normalization of multiline YAML descriptions into single-line formats for testing",
+      "tags": [
+        "yaml-formatting",
+        "multiline-normalization",
+        "test-validation",
+        "skill-testing"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-multiline-description-SKILL.md"
+    },
+    {
+      "file_path": "075-packages-coding-agent-test-fixtures-skills-name-mismatch-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/name-mismatch/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:15.662469-03:00",
+      "summary": "document addressing naming mismatches between directory and skill entity definitions",
+      "tags": [
+        "naming-convention",
+        "directory-skill-mismatch",
+        "configuration-issues"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-name-mismatch-SKILL.md"
+    },
+    {
+      "file_path": "076-packages-coding-agent-test-fixtures-skills-nested-child-skill-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/nested/child-skill/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:16.996437-03:00",
+      "summary": "describes organization of a nested skill within a subdirectory structure",
+      "tags": [
+        "nested-skill",
+        "directory-structure"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-nested-child-skill-SKILL.md"
+    },
+    {
+      "file_path": "077-packages-coding-agent-test-fixtures-skills-no-frontmatter-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/no-frontmatter/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:18.662851-03:00",
+      "summary": "discusses the absence of frontmatter configuration in YAML documents.",
+      "category": "other",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-no-frontmatter-SKILL.md"
+    },
+    {
+      "file_path": "079-packages-coding-agent-test-fixtures-skills-valid-skill-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/valid-skill/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:21.296224-03:00",
+      "summary": "explains the structure of an agent skill within the Agent Skills standard",
+      "tags": [
+        "skill-standard",
+        "agent-framework"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-valid-skill-SKILL.md"
+    },
+    {
+      "file_path": "066-packages-coding-agent-test-fixtures-skills-collision-first-calendar-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills-collision/first/calendar/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:22.329373-03:00",
+      "summary": "a basic introduction to creating a calendar skill",
+      "tags": [
+        "basic-skills",
+        "interactive-features",
+        "planning-tools"
+      ],
+      "category": "other",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-collision-first-calendar-SKILL.md"
+    },
+    {
+      "file_path": "078-packages-coding-agent-test-fixtures-skills-unknown-field-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills/unknown-field/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:20.055854-03:00",
+      "summary": "A structured exploration of gaining and mastering professional skills in any field, covering foundational knowledge, development techniques, and practical application strategies.",
+      "tags": [
+        "competency",
+        "training",
+        "career",
+        "skill-development"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-unknown-field-SKILL.md"
+    },
+    {
+      "file_path": "067-packages-coding-agent-test-fixtures-skills-collision-second-calendar-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/test/fixtures/skills-collision/second/calendar/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:24.944801-03:00",
+      "summary": "document providing basic overview of the second calendar-related skill or concept",
+      "tags": [
+        "second-calendar",
+        "skill-development",
+        "fundamental-tool"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-coding-agent-test-fixtures-skills-collision-second-calendar-SKILL.md"
+    },
+    {
+      "file_path": "047-packages-coding-agent-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:26.230735-03:00",
+      "summary": "configures TypeScript project settings for build, source roots, and exclusion of node_modules and type scripts",
+      "tags": [
+        "typescript-config",
+        "compiler-options",
+        "build-configuration",
+        "root-directories",
+        "exclusion-patterns"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-tsconfig.build.json"
+    },
+    {
+      "file_path": "039-packages-coding-agent-tsconfig.examples.json",
+      "title": "Tsconfig.examples",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/tsconfig.examples.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:28.006399-03:00",
+      "summary": "configuration setup for a TypeScript project defining module paths and exclude/include rules",
+      "tags": [
+        "tsconfig-paths",
+        "module-resolution",
+        "node-modules",
+        "ts-node-exclude"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-tsconfig.examples.json"
+    },
+    {
+      "file_path": "083-packages-mom-CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:29.713129-03:00",
+      "summary": "A project changelog for `pi-mono`, documenting version updates, bug fixes, API changes, and new features focusing on user interfaces, session management, and integrations like Slack and OAuth authentication.",
+      "tags": [
+        "crash-fixes",
+        "workspace-backed",
+        "auth-storage",
+        "api-changes",
+        "session-management",
+        "oauth-login",
+        "skilled-discovery",
+        "event-system"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-mom-CHANGELOG.md"
+    },
+    {
+      "file_path": "011-packages-mom-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:31.644389-03:00",
+      "summary": "A Slack bot powered by an LLM that automates workflows through self-installed tools, secure sandbox execution, and persistent Slack interactions without manual setup.",
+      "tags": [
+        "slack-bot",
+        "llm-agent",
+        "bash-automation",
+        "sandbox-security",
+        "docker-cli",
+        "self-managing-workflow-tools",
+        "slack-integration",
+        "file-access-tool"
+      ],
+      "category": "tutorial",
+      "original_file_path": "packages-mom-README.md"
+    },
+    {
+      "file_path": "018-packages-mom-docs-new.md",
+      "title": "New",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/docs/new.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:51.935232-03:00",
+      "summary": "Proposes a multi-platform chat system redesign for cross-platform agent integration with modular, loosely coupled adapters.",
+      "tags": [
+        "cross-platform-chat",
+        "multi-platform-agent",
+        "platform-adapter",
+        "modular-design",
+        "unified-message-format",
+        "architecture-re design"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-mom-docs-new.md"
+    },
+    {
+      "file_path": "108-packages-mom-docs-artifacts-server.md",
+      "title": "Artifacts server",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/docs/artifacts-server.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:33.363331-03:00",
+      "summary": "Describes a server system optimized for storing and managing digital artifacts, likely used in academic, research, or archival contexts for preservation and access.",
+      "tags": [
+        "server",
+        "artifacts",
+        "storage",
+        "digital preservation",
+        "research"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-mom-docs-artifacts-server.md"
+    },
+    {
+      "file_path": "109-packages-mom-docs-events.md",
+      "title": "Events",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/docs/events.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:44:44.600952-03:00",
+      "summary": "Provides an overview of general activities, gatherings, and scheduled events.",
+      "tags": [
+        "events",
+        "calendar",
+        "outings",
+        "social"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-mom-docs-events.md"
+    },
+    {
+      "file_path": "121-packages-mom-docs-sandbox.md",
+      "title": "Sandbox",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/docs/sandbox.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:11.879449-03:00",
+      "summary": "An unspecified virtual workspace for testing or exploring purposes without committing to a real system.",
+      "tags": [
+        "testing",
+        "development",
+        "sandboxing"
+      ],
+      "category": "general",
+      "original_file_path": "packages-mom-docs-sandbox.md"
+    },
+    {
+      "file_path": "040-packages-mom-docs-slack-bot-minimal-guide.md",
+      "title": "Slack bot minimal guide",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/docs/slack-bot-minimal-guide.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:13.785537-03:00",
+      "summary": "Step-by-step guide for creating and configuring a basic Slack bot to interact with users.",
+      "tags": [
+        "Slack",
+        "bot",
+        "development",
+        "guide",
+        "API"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-mom-docs-slack-bot-minimal-guide.md"
+    },
+    {
+      "file_path": "110-packages-mom-docs-v86.md",
+      "title": "V86",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/docs/v86.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:15.143434-03:00",
+      "summary": "A document presumably discussing technical aspects of the V86 (Virtual 8086 mode) or its associated components, likely within the context of computer hardware, virtualization, or legacy computing systems.",
+      "tags": [
+        "virtualization",
+        "legacy_tech",
+        "computer_hardware"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-mom-docs-v86.md"
+    },
+    {
+      "file_path": "111-packages-mom-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:35.64496-03:00",
+      "summary": "Module for creating a Slack integration bot to delegate messages to an AI coding agent framework.",
+      "tags": [
+        "slack-bot",
+        "ai-integration",
+        "message-routing",
+        "delegation-agent"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-mom-package.json"
+    },
+    {
+      "file_path": "048-packages-mom-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/mom/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:37.150024-03:00",
+      "summary": "describes TypeScript configuration for project build, specifying output, source, and exclusions",
+      "tags": [
+        "typescript-config",
+        "build-configuration",
+        "tsc-compiler-options",
+        "project-settings"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-mom-tsconfig.build.json"
+    },
+    {
+      "file_path": "019-packages-pods-docs-gml-4.5.md",
+      "title": "Gml 4.5",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/gml-4.5.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:42.373647-03:00",
+      "summary": "Describes the GLM-4.5 foundation model series, including architecture, reasoning capabilities, open-sourced variants, and technical implementation for intelligent agents.",
+      "tags": [
+        "glm-model",
+        "ai-foundation",
+        "hybrid-reasoning",
+        "open-source",
+        "large-language",
+        "llm",
+        "intelligent-agent",
+        "bf16-fp8"
+      ],
+      "category": "concept",
+      "original_file_path": "packages-pods-docs-gml-4.5.md"
+    },
+    {
+      "file_path": "112-packages-pods-docs-gpt-oss.md",
+      "title": "Gpt oss",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/gpt-oss.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:44.166039-03:00",
+      "summary": "Guide on using vLLM with `gpt-oss` models (`gpt-oss-20b`, `gpt-oss-120b`) across NVIDIA and AMD GPUs, covering installation, GPU-specific optimizations, and deployment configurations for high-performance serving.",
+      "tags": [
+        "vllm-configuration",
+        "gpt-oss",
+        "nvidia-blackwell",
+        "amd-rocm",
+        "high-throughput",
+        "asynchronous-scheduling",
+        "tensor-parallel",
+        "docker-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-docs-gpt-oss.md"
+    },
+    {
+      "file_path": "012-packages-pods-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:45:39.200857-03:00",
+      "summary": "Document providing introductory instructions and setup guidance for project use.",
+      "tags": [
+        "README",
+        "guide",
+        "setup",
+        "documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-README.md"
+    },
+    {
+      "file_path": "113-packages-pods-docs-implementation-plan.md",
+      "title": "Implementation plan",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/implementation-plan.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:00.88816-03:00",
+      "summary": "Implements a TypeScript-based CLI tool for local pod management (including SSH script generation, config handling, and model execution) for GPU-based LLM inference with vLLM.",
+      "tags": [
+        "cli-tools",
+        "gpu-management",
+        "type-script",
+        "pod-setup",
+        "ssh-execution",
+        "local-configuration",
+        "llm-inference"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-docs-implementation-plan.md"
+    },
+    {
+      "file_path": "127-packages-pods-docs-kimi-k2.md",
+      "title": "Kimi k2",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/kimi-k2.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:10.271333-03:00",
+      "summary": "Provides deployment commands and configuration guides for Kimi-K2 models using vLLM, SGLang, KTransformers, and TensorRT-LLM across tensor parallelism, data-parallel + expert parallelism, and multi-node setups.",
+      "tags": [
+        "model-deployment",
+        "tensor-parallelism",
+        "deep-learning-server",
+        "hpc-configuration",
+        "ai-inference",
+        "parallel-computation",
+        "gpu-cluster",
+        "multi-node",
+        "vllm",
+        "sglang",
+        "tensorrt-llm"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-pods-docs-kimi-k2.md"
+    },
+    {
+      "file_path": "114-packages-pods-docs-models.md",
+      "title": "Models",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/models.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:11.585834-03:00",
+      "summary": "Provides optimization guidelines for deploying Qwen-Coder, GPT-OSS, GLM-4.5, and Kimi models with vLLM on diverse GPU hardware configurations, including tensor-parallel, data-parallel, and hybrid modes for scalability and performance.",
+      "tags": [
+        "gpu-configurations",
+        "llm-optimization",
+        "model-deployment",
+        "hardware-requirements"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-docs-models.md"
+    },
+    {
+      "file_path": "116-packages-pods-docs-qwen3-coder.md",
+      "title": "Qwen3 coder",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/qwen3-coder.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:27.522137-03:00",
+      "summary": "A guide for installing, configuring, and deploying the Qwen3-Coder large language model using vLLM with optimizations like BF16, FP8, and tool-call support for high-performance serving.",
+      "tags": [
+        "qwen3-coder",
+        "vllm",
+        "llm-deployment",
+        "gpu-optimization",
+        "tool-calling",
+        "bf16",
+        "fp8",
+        "benchmarking"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-docs-qwen3-coder.md"
+    },
+    {
+      "file_path": "115-packages-pods-docs-plan.md",
+      "title": "Plan",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/docs/plan.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:17.905879-03:00",
+      "summary": "An outline for organizing goals and strategies, likely intended for personal or professional development planning.",
+      "tags": [
+        "strategy",
+        "planning",
+        "goal-setting"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-docs-plan.md"
+    },
+    {
+      "file_path": "128-packages-pods-src-models.json",
+      "title": "Models",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/src/models.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:49.041948-03:00",
+      "summary": "Provides configurations for deploying large language models on GPUs, detailing optimal GPU counts, types, and command-line arguments for various models (Qwen, GPT-OSS, GLM, Kimi-K2). Focuses on scalability, memory management, and tool-call support via vLLM.",
+      "tags": [
+        "gpu-configuration",
+        "model-deployment",
+        "llm-scaling",
+        "vllm",
+        "multi-gpu",
+        "tool-call-support",
+        "quantization",
+        "h100-h200"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-pods-src-models.json"
+    },
+    {
+      "file_path": "117-packages-pods-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:35.547248-03:00",
+      "summary": "A discussion or manual explaining how to install, configure, or utilize package managers/tools in software development (e.g., npm, pip, conda).",
+      "tags": [
+        "installation",
+        "package_management",
+        "software_tooling"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-pods-package.json"
+    },
+    {
+      "file_path": "049-packages-pods-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/pods/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:46:52.820747-03:00",
+      "summary": "configures TypeScript project compiler settings and file glob patterns for a modular build pipeline",
+      "tags": [
+        "typescript-config",
+        "compiler-options",
+        "build-globbing",
+        "node-project"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-pods-tsconfig.build.json"
+    },
+    {
+      "file_path": "084-packages-tui-CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/tui/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:03.5361-03:00",
+      "summary": "Tracks version updates, features, and bug fixes for the Pi-Mono terminal user interface library.",
+      "tags": [
+        "terminal-ui",
+        "library-changelog",
+        "keyboard-nav",
+        "emoji-support",
+        "autocomplete",
+        "debug-features"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-tui-CHANGELOG.md"
+    },
+    {
+      "file_path": "013-packages-tui-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/tui/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:05.369744-03:00",
+      "summary": "A minimal terminal UI framework for interactive CLI applications focusing on flicker-free rendering, differential updates, and component-based architecture.",
+      "tags": [
+        "terminal-ui",
+        "cli-library",
+        "differential-rendering",
+        "terminal-component-library",
+        "flicker-free",
+        "cli-components"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-tui-README.md"
+    },
+    {
+      "file_path": "050-packages-tui-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/tui/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:16.084854-03:00",
+      "summary": "configuration settings for a TypeScript project using tsconfig.json to manage compiler options and file inclusions",
+      "tags": [
+        "typescript-compiler",
+        "tsconfig",
+        "project-configuration",
+        "build-options",
+        "file-filters"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-tui-tsconfig.build.json"
+    },
+    {
+      "file_path": "085-packages-web-ui-CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:22.538116-03:00",
+      "summary": "Tracks backward-compatible changes and breaking modifications across major version updates in the `pi-mono` library.",
+      "tags": [
+        "changelog",
+        "breaking-changes",
+        "api-overhaul",
+        "refactoring",
+        "core-modules"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-web-ui-CHANGELOG.md"
+    },
+    {
+      "file_path": "118-packages-tui-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/tui/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:07.382362-03:00",
+      "summary": "Summary of the guide for packaging, including best practices and methods.",
+      "tags": [
+        "packaging",
+        "storage",
+        "organization"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-tui-package.json"
+    },
+    {
+      "file_path": "015-packages-web-ui-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:26.717048-03:00",
+      "summary": "Provides a reusable web UI library for building AI chat interfaces, integrating components like chat panels, artifact panels, and tools for handling documents, code, and API interactions.",
+      "tags": [
+        "ai-chat-ui",
+        "web-components",
+        "react-like-syntax",
+        "document-processing",
+        "javascript-toolkit",
+        "session-management"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-web-ui-README.md"
+    },
+    {
+      "file_path": "041-packages-web-ui-example-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/example/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:36.928224-03:00",
+      "summary": "overview of a package configuration (version, dependencies, scripts)",
+      "tags": [
+        "nodejs-package-configuration",
+        "dependency-management",
+        "typescript-module"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-web-ui-example-package.json"
+    },
+    {
+      "file_path": "014-packages-web-ui-example-README.md",
+      "title": "README",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/example/README.md",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:35.642577-03:00",
+      "summary": "Introduction and overview for software repository, detailing setup, usage, and contributors",
+      "tags": [
+        "documentation",
+        "software",
+        "open-source",
+        "installation"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-web-ui-example-README.md"
+    },
+    {
+      "file_path": "119-packages-web-ui-package.json",
+      "title": "Package",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/package.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:48.200002-03:00",
+      "summary": "A reusable React-compatible web UI components library for AI chat interfaces built with Lit under the @mariozechner/pi framework.",
+      "tags": [
+        "react-components",
+        "ai-ui",
+        "lit-framework",
+        "web-components",
+        "llm-interface",
+        "ai-chat"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-web-ui-package.json"
+    },
+    {
+      "file_path": "042-packages-web-ui-example-tsconfig.json",
+      "title": "Tsconfig",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/example/tsconfig.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:43.6246-03:00",
+      "summary": "Configuration file for TypeScript projects; defines compiler options, file includes, and output paths.",
+      "tags": [
+        "TypeScript",
+        "JSconfig",
+        "tooling",
+        "compiler-options"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-web-ui-example-tsconfig.json"
+    },
+    {
+      "file_path": "052-packages-web-ui-tsconfig.json",
+      "title": "Tsconfig",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/tsconfig.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:55.682286-03:00",
+      "summary": "description of TypeScript project configuration for excluding emission of compiled code and including all files under the src directory.",
+      "tags": [
+        "typescript-config",
+        "tsconfig",
+        "compilation-options",
+        "noemit",
+        "source-inclusion"
+      ],
+      "category": "configuration",
+      "original_file_path": "packages-web-ui-tsconfig.json"
+    },
+    {
+      "file_path": "053-tsconfig.base.json",
+      "title": "Tsconfig.base",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/tsconfig.base.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:57.267223-03:00",
+      "summary": "describes Node.js compiler and TypeScript configuration settings for modern JavaScript projects",
+      "tags": [
+        "typescript-compiler-options",
+        "js-node-16-configuration",
+        "es2022"
+      ],
+      "category": "configuration",
+      "original_file_path": "tsconfig.base.json"
+    },
+    {
+      "file_path": "051-packages-web-ui-tsconfig.build.json",
+      "title": "Tsconfig.build",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/web-ui/tsconfig.build.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:47:51.866464-03:00",
+      "summary": "Configurations for TypeScript compilation in the `tsconfig.json` format with build-specific options (optimization, source maps, minification).",
+      "tags": [
+        "TypeScript",
+        "compiler",
+        "build-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-web-ui-tsconfig.build.json"
+    },
+    {
+      "file_path": "054-tsconfig.json",
+      "title": "Tsconfig",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/tsconfig.json",
+      "source": "git",
+      "fetched_at": "2026-03-03T03:48:00.894095-03:00",
+      "summary": "Configures path aliases and file include/exclude rules for a TypeScript monorepo using path mapping conventions.",
+      "tags": [
+        "typescript-monorepo",
+        "path-mappings",
+        "project-config"
+      ],
+      "category": "configuration",
+      "original_file_path": "tsconfig.json"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-03-03T11:01:46Z",
+    "total_files": 128,
+    "categories": [
+      "concept",
+      "configuration",
+      "general",
+      "guide",
+      "other",
+      "reference",
+      "theory",
+      "tutorial"
+    ]
+  }
+}

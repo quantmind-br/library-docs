@@ -1,0 +1,7 @@
+{
+  "tool_name": "Read",
+  "tool_input_preview": "{\"file_path\":\"/Users/diogo/.claude/projects/-Users-diogo-dev-library-docs-factory-droid/bc8e15ab-f6e6-4348-a170-df1072069ecc/tool-results/call_function_u7hq6v0eq8ym_1.txt\"}",
+  "error": "File content (34080 tokens) exceeds maximum allowed tokens (25000). Please use offset and limit parameters to read specific portions of the file, or use the GrepTool to search for specific content.",
+  "timestamp": "2026-03-03T04:24:40.222Z",
+  "retry_count": 1
+}

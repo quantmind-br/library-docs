@@ -1,24 +1,24 @@
 ---
 title: Introduction | Camoufox
 url: https://camoufox.com/
-source: crawler
-fetched_at: 2026-02-14T14:05:24.132291-03:00
-rendered_js: true
+source: sitemap
+fetched_at: 2026-03-09T16:47:52.635185-03:00
+rendered_js: false
 word_count: 666
-summary: Camoufox is an open-source anti-detect browser built on Firefox that uses low-level fingerprint injection and rotation to bypass anti-bot systems. It mimics real-world user behavior and hardware characteristics to provide a robust, undetectable automation environment.
+summary: Camoufox is an open-source, anti-detect browser built on Firefox that focuses on robust, low-level fingerprint injection and rotation to remain invisible to anti-bot systems without resorting to JavaScript tampering.
 tags:
-    - anti-detect-browser
-    - fingerprinting-protection
-    - stealth-automation
-    - bot-detection-bypass
-    - browser-spoofing
+    - anti-detect
+    - fingerprint-spoofing
     - firefox
-category: concept
+    - browser-security
+    - privacy
+    - bot-evasion
+category: reference
 ---
 
 ### An open source anti-detect browser with robust fingerprint injection. 🦊
 
-[![daijro%2Fcamoufox | Trendshift](https://trendshift.io/api/badge/repositories/12224)](https://trendshift.io/repositories/12224)
+[![daijro%2Fcamoufox | Trendshift](https://camoufox.com/static/trendshift.svg)](https://trendshift.io/repositories/12224)
 
 * * *
 

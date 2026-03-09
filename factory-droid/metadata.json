@@ -1,0 +1,2226 @@
+{
+  "generated_at": "2026-03-03T01:15:19.222198-03:00",
+  "source_url": "https://docs.factory.ai/llms.txt",
+  "strategy": "llms",
+  "total_documents": 115,
+  "documents": [
+    {
+      "file_path": "164-api-reference-machine-templates-delete-a-machine-template.md",
+      "title": "Delete a machine template",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/delete-a-machine-template.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:12.518433-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the API specification for permanently deleting a machine template and all its associated resources using the Factory Public API.",
+      "tags": [
+        "machine-templates",
+        "factory-api",
+        "rest-api",
+        "openapi",
+        "endpoint-reference",
+        "resource-deletion"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-delete-a-machine-template.md"
+    },
+    {
+      "file_path": "161-api-reference-machine-templates-get-a-machine-template.md",
+      "title": "Get a machine template",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/get-a-machine-template.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:12.496999-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document specifies the API endpoint for retrieving detailed information about a specific machine template, including its repository URL, build status, and environment variables.",
+      "tags": [
+        "api-reference",
+        "machine-templates",
+        "factory-api",
+        "openapi-specification",
+        "infrastructure"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-get-a-machine-template.md"
+    },
+    {
+      "file_path": "162-api-reference-machine-templates-create-a-machine-template.md",
+      "title": "Create a machine template",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/create-a-machine-template.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:12.438837-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the API specification for creating machine templates, detailing the required parameters for repository URLs, environment variables, and setup scripts.",
+      "tags": [
+        "machine-templates",
+        "factory-api",
+        "api-reference",
+        "infrastructure-automation",
+        "openapi-specification"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-create-a-machine-template.md"
+    },
+    {
+      "file_path": "163-api-reference-machine-templates-update-a-machine-template.md",
+      "title": "Update a machine template",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/update-a-machine-template.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:18.138203-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document specifies the API endpoint and request requirements for updating the configuration of an existing machine template, including environment variables and setup scripts.",
+      "tags": [
+        "machine-templates",
+        "api-endpoint",
+        "factory-api",
+        "environment-variables",
+        "setup-scripts",
+        "patch-method"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-update-a-machine-template.md"
+    },
+    {
+      "file_path": "160-api-reference-machine-templates-list-machine-templates.md",
+      "title": "List machine templates",
+      "url": "https://docs.factory.ai/api-reference/machine-templates/list-machine-templates.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:17.555131-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the API specification for listing machine templates, detailing request parameters, pagination, and the schema for template metadata.",
+      "tags": [
+        "factory-api",
+        "machine-templates",
+        "pagination",
+        "openapi-spec",
+        "rest-api",
+        "infrastructure"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-machine-templates-list-machine-templates.md"
+    },
+    {
+      "file_path": "165-api-reference-organization-list-organization-users.md",
+      "title": "List organization users",
+      "url": "https://docs.factory.ai/api-reference/organization/list-organization-users.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:19.158506-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the OpenAPI specification for the Factory API endpoint used to retrieve a paginated list of organization users, detailing request parameters and response schemas.",
+      "tags": [
+        "factory-api",
+        "user-management",
+        "organization-users",
+        "pagination",
+        "rest-api",
+        "openapi-spec"
+      ],
+      "category": "api",
+      "original_file_path": "api-reference-organization-list-organization-users.md"
+    },
+    {
+      "file_path": "171-changelog-1-10.md",
+      "title": "Factory Release 1.10",
+      "url": "https://docs.factory.ai/changelog/1-10.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:22.115587-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Factory Release 1.10, highlighting the visual MCP Manager for tool integration, customizable completion sounds, and experimental Droid hooks for lifecycle automation.",
+      "tags": [
+        "factory-release",
+        "mcp-manager",
+        "droid-hooks",
+        "model-context-protocol",
+        "automation",
+        "configuration"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-1-10.md"
+    },
+    {
+      "file_path": "173-changelog-1-8.md",
+      "title": "Factory Release 1.8",
+      "url": "https://docs.factory.ai/changelog/1-8.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:22.352024-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Factory Release 1.8, highlighting the Droid Exec headless CLI mode and enhanced integrations with Slack and Linear for automated task management.",
+      "tags": [
+        "factory-release",
+        "cli-automation",
+        "slack-integration",
+        "linear-integration",
+        "ai-agents",
+        "headless-mode"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-1-8.md"
+    },
+    {
+      "file_path": "172-changelog-1-9.md",
+      "title": "Factory Release 1.9",
+      "url": "https://docs.factory.ai/changelog/1-9.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:23.894306-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces the features of Factory 1.9, including mixed model workflows, customizable subagents for specific tasks, and automated GitHub pull request reviews.",
+      "tags": [
+        "factory-ai",
+        "release-notes",
+        "mixed-models",
+        "custom-droids",
+        "github-integration",
+        "ai-agents",
+        "code-review"
+      ],
+      "category": "guide",
+      "original_file_path": "changelog-1-9.md"
+    },
+    {
+      "file_path": "061-cli-account-droid-shield.md",
+      "title": "Droid Shield",
+      "url": "https://docs.factory.ai/cli/account/droid-shield.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:27.717243-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains Droid Shield, a security feature that automatically scans git commits and pushes for sensitive credentials to prevent accidental exposure. It covers how the detection algorithm works, how to manage settings in the CLI, and best practices for handling detected secrets.",
+      "tags": [
+        "secret-detection",
+        "security-best-practices",
+        "git-hooks",
+        "credential-management",
+        "droid-cli",
+        "data-protection"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-account-droid-shield.md"
+    },
+    {
+      "file_path": "170-changelog-cli-updates.md",
+      "title": "CLI Updates",
+      "url": "https://docs.factory.ai/changelog/cli-updates.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:27.505956-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a chronological record of new features, improvements, and bug fixes for the Factory CLI across multiple version releases.",
+      "tags": [
+        "factory-cli",
+        "changelog",
+        "release-notes",
+        "software-updates",
+        "cli-tools",
+        "mission-mode"
+      ],
+      "category": "other",
+      "original_file_path": "changelog-cli-updates.md"
+    },
+    {
+      "file_path": "062-cli-account-droid-shield-plus.md",
+      "title": "Droid Shield Plus",
+      "url": "https://docs.factory.ai/cli/account/droid-shield-plus.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:30.621841-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Droid Shield Plus, an AI-powered security layer that protects against prompt injection, sensitive data exposure, and malicious code using Palo Alto Networks Prisma AIRS. It covers key features, comparisons with standard Droid Shield, and instructions for configuration and handling security alerts.",
+      "tags": [
+        "ai-security",
+        "prompt-injection",
+        "data-loss-prevention",
+        "secrets-detection",
+        "prisma-airs",
+        "enterprise-security",
+        "git-security"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-account-droid-shield-plus.md"
+    },
+    {
+      "file_path": "057-cli-byok-baseten.md",
+      "title": "Baseten",
+      "url": "https://docs.factory.ai/cli/byok/baseten.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:32.811341-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for integrating Baseten's machine learning model serving infrastructure with Factory by configuring the settings file and API credentials.",
+      "tags": [
+        "baseten",
+        "model-serving",
+        "factory-ai",
+        "api-configuration",
+        "ml-deployment",
+        "custom-models"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-baseten.md"
+    },
+    {
+      "file_path": "060-cli-account-security.md",
+      "title": "Security",
+      "url": "https://docs.factory.ai/cli/account/security.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:32.218575-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the security architecture, built-in protections, and recommended best practices for using the Factory CLI (Droid) securely.",
+      "tags": [
+        "security",
+        "factory-cli",
+        "data-privacy",
+        "encryption",
+        "authentication",
+        "access-control",
+        "enterprise-security"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-account-security.md"
+    },
+    {
+      "file_path": "055-cli-byok-deepinfra.md",
+      "title": "DeepInfra",
+      "url": "https://docs.factory.ai/cli/byok/deepinfra.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:35.776992-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for integrating DeepInfra's open-source model inference services into the Factory platform through custom JSON configuration.",
+      "tags": [
+        "deepinfra",
+        "llm-inference",
+        "configuration",
+        "openai-compatible",
+        "model-integration",
+        "factory-ai"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-deepinfra.md"
+    },
+    {
+      "file_path": "056-cli-byok-fireworks.md",
+      "title": "Fireworks AI",
+      "url": "https://docs.factory.ai/cli/byok/fireworks.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:36.465049-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for integrating Fireworks AI models into the Factory environment by configuring settings and API keys for high-performance inference.",
+      "tags": [
+        "fireworks-ai",
+        "model-configuration",
+        "inference-serving",
+        "llm-integration",
+        "custom-models"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-fireworks.md"
+    },
+    {
+      "file_path": "052-cli-byok-google-gemini.md",
+      "title": "Google Gemini",
+      "url": "https://docs.factory.ai/cli/byok/google-gemini.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:36.882138-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for integrating Google Gemini AI models into the Factory platform by configuring API keys and model settings.",
+      "tags": [
+        "google-gemini",
+        "factory-ai",
+        "api-configuration",
+        "llm-integration",
+        "model-setup"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-google-gemini.md"
+    },
+    {
+      "file_path": "054-cli-byok-groq.md",
+      "title": "Groq",
+      "url": "https://docs.factory.ai/cli/byok/groq.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:39.851436-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and integrate Groq's LPU Inference Engine into Factory to enable high-speed inference for open-source models.",
+      "tags": [
+        "groq",
+        "lpu-inference",
+        "configuration",
+        "api-integration",
+        "factory-ai",
+        "model-setup"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-groq.md"
+    },
+    {
+      "file_path": "053-cli-byok-huggingface.md",
+      "title": "Hugging Face",
+      "url": "https://docs.factory.ai/cli/byok/huggingface.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:40.647458-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and integrate Hugging Face Inference Providers to access hosted language models within the platform.",
+      "tags": [
+        "hugging-face",
+        "inference-providers",
+        "custom-models",
+        "configuration-settings",
+        "llm-integration"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-huggingface.md"
+    },
+    {
+      "file_path": "059-cli-byok-ollama.md",
+      "title": "Ollama",
+      "url": "https://docs.factory.ai/cli/byok/ollama.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:41.023523-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides setup and configuration instructions for using Ollama to run large language models locally or via Ollama Cloud within the Factory ecosystem.",
+      "tags": [
+        "ollama",
+        "local-llm",
+        "factory-configuration",
+        "model-inference",
+        "self-hosting",
+        "hardware-requirements"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-ollama.md"
+    },
+    {
+      "file_path": "051-cli-byok-openai-anthropic.md",
+      "title": "OpenAI & Anthropic",
+      "url": "https://docs.factory.ai/cli/byok/openai-anthropic.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:43.472002-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for configuring custom OpenAI and Anthropic models in Factory using personal API keys for cost control and prompt caching.",
+      "tags": [
+        "openai",
+        "anthropic",
+        "api-configuration",
+        "custom-models",
+        "prompt-caching",
+        "factory-settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-openai-anthropic.md"
+    },
+    {
+      "file_path": "058-cli-byok-openrouter.md",
+      "title": "OpenRouter",
+      "url": "https://docs.factory.ai/cli/byok/openrouter.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:44.35116-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for configuring OpenRouter as a model provider within the Factory platform to access various AI models through a unified API.",
+      "tags": [
+        "openrouter",
+        "api-integration",
+        "custom-models",
+        "configuration",
+        "llm-provider"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-openrouter.md"
+    },
+    {
+      "file_path": "050-cli-byok-overview.md",
+      "title": "Bring Your Own Key (BYOK)",
+      "url": "https://docs.factory.ai/cli/byok/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:44.843716-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure custom language models and private API keys in the Factory CLI using the Bring Your Own Key (BYOK) system.",
+      "tags": [
+        "factory-cli",
+        "byok",
+        "custom-models",
+        "api-configuration",
+        "llm-integration",
+        "local-models"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-byok-overview.md"
+    },
+    {
+      "file_path": "041-cli-configuration-agents-md.md",
+      "title": "AGENTS.md",
+      "url": "https://docs.factory.ai/cli/configuration/agents-md.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:46.766139-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces and explains AGENTS.md, a specialized markdown file designed to provide AI coding agents with essential technical context, build instructions, and project conventions.",
+      "tags": [
+        "agents-md",
+        "ai-agents",
+        "developer-tools",
+        "documentation-standards",
+        "project-configuration",
+        "context-provisioning"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-agents-md.md"
+    },
+    {
+      "file_path": "042-cli-configuration-custom-droids.md",
+      "title": "Custom Droids (Subagents)",
+      "url": "https://docs.factory.ai/cli/configuration/custom-droids.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:47.972779-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to create and manage custom droids, which are specialized subagents with unique prompts, model preferences, and tool access for delegated tasks. It details configuration via Markdown files, YAML frontmatter properties, and the tool permission system.",
+      "tags": [
+        "custom-droids",
+        "subagents",
+        "task-delegation",
+        "factory-ai",
+        "yaml-configuration",
+        "tool-permissions"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-custom-droids.md"
+    },
+    {
+      "file_path": "043-cli-configuration-custom-slash-commands.md",
+      "title": "Custom Slash Commands",
+      "url": "https://docs.factory.ai/cli/configuration/custom-slash-commands.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:49.371753-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to create and manage custom slash commands to automate repeatable prompts or executable scripts within the Droid CLI. It covers discovery locations, the differences between markdown and executable commands, and best practices for managing shortcuts.",
+      "tags": [
+        "slash-commands",
+        "custom-prompts",
+        "cli-configuration",
+        "markdown-templates",
+        "automation-scripts",
+        "workspace-configuration",
+        "droid-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-custom-slash-commands.md"
+    },
+    {
+      "file_path": "044-cli-configuration-hooks-guide.md",
+      "title": "Hooks",
+      "url": "https://docs.factory.ai/cli/configuration/hooks-guide.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:51.544484-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use Droid hooks to execute custom shell commands during specific lifecycle events for automation, logging, and security.",
+      "tags": [
+        "droid-hooks",
+        "automation",
+        "shell-commands",
+        "configuration",
+        "event-triggers",
+        "workflow-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-hooks-guide.md"
+    },
+    {
+      "file_path": "045-cli-configuration-mcp.md",
+      "title": "Model Context Protocol (MCP)",
+      "url": "https://docs.factory.ai/cli/configuration/mcp.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:53.128368-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to integrate and manage Model Context Protocol (MCP) servers using both interactive UI and CLI commands to extend tool capabilities.",
+      "tags": [
+        "model-context-protocol",
+        "mcp-servers",
+        "droid-cli",
+        "tool-integration",
+        "configuration-management",
+        "oauth-authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-mcp.md"
+    },
+    {
+      "file_path": "046-cli-configuration-mixed-models.md",
+      "title": "Mixed Models",
+      "url": "https://docs.factory.ai/cli/configuration/mixed-models.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:54.407521-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and use separate AI models for specification planning and implementation to optimize development workflows for speed, cost, and quality.",
+      "tags": [
+        "ai-models",
+        "specification-mode",
+        "configuration",
+        "reasoning-effort",
+        "model-compatibility",
+        "droid-cli"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-mixed-models.md"
+    },
+    {
+      "file_path": "047-cli-configuration-plugins.md",
+      "title": "Plugins",
+      "url": "https://docs.factory.ai/cli/configuration/plugins.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:55.875453-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to extend Droid's functionality using shareable plugins, covering their internal structure, management via CLI and UI, and distribution through marketplaces.",
+      "tags": [
+        "droid-plugins",
+        "plugin-management",
+        "mcp-servers",
+        "plugin-structure",
+        "factory-ai",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-plugins.md"
+    },
+    {
+      "file_path": "040-cli-configuration-settings.md",
+      "title": "Settings",
+      "url": "https://docs.factory.ai/cli/configuration/settings.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:57.51794-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to access, locate, and modify configuration settings for the droid CLI tool to customize behavior and integration preferences.",
+      "tags": [
+        "droid-settings",
+        "cli-configuration",
+        "user-preferences",
+        "factory-ai",
+        "model-options"
+      ],
+      "category": "configuration",
+      "original_file_path": "cli-configuration-settings.md"
+    },
+    {
+      "file_path": "048-cli-configuration-skills.md",
+      "title": "Skills",
+      "url": "https://docs.factory.ai/cli/configuration/skills.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:12:58.270087-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to create and manage Skills, which are reusable, markdown-based capabilities that extend the functionality of Factory AI agents. It details file structure requirements, directory locations, and frontmatter configuration for controlling invocation behavior.",
+      "tags": [
+        "factory-ai",
+        "skills",
+        "agent-capabilities",
+        "configuration",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-configuration-skills.md"
+    },
+    {
+      "file_path": "023-cli-droid-exec-overview.md",
+      "title": "Droid Exec (Headless)",
+      "url": "https://docs.factory.ai/cli/droid-exec/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:00.166149-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use Droid Exec, a headless execution mode for the Factory CLI designed for non-interactive automation and CI/CD pipelines. It covers installation, command-line arguments, and the tiered autonomy system that controls agent permissions during execution.",
+      "tags": [
+        "droid-exec",
+        "headless-mode",
+        "ci-cd",
+        "automation",
+        "cli-reference",
+        "autonomy-levels"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-droid-exec-overview.md"
+    },
+    {
+      "file_path": "020-cli-features-code-review.md",
+      "title": "Code Review",
+      "url": "https://docs.factory.ai/cli/features/code-review.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:01.183033-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the /review command to perform AI-powered code analysis on uncommitted changes, specific commits, or branches. It details the different review modes, priority levels, and criteria used to provide actionable feedback on code quality and security.",
+      "tags": [
+        "code-review",
+        "ai-review",
+        "developer-tools",
+        "git-integration",
+        "code-analysis",
+        "severity-levels"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-features-code-review.md"
+    },
+    {
+      "file_path": "022-cli-features-missions.md",
+      "title": "Missions",
+      "url": "https://docs.factory.ai/cli/features/missions.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:03.509249-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Missions, a structured orchestration framework for managing complex, multi-feature AI projects through collaborative planning and milestone-based execution. It details the workflow from initial plan development to real-time monitoring and intervention using the Mission Control interface.",
+      "tags": [
+        "ai-orchestration",
+        "project-management",
+        "collaborative-planning",
+        "milestone-validation",
+        "agentic-workflows",
+        "mission-control"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-features-missions.md"
+    },
+    {
+      "file_path": "005-cli-getting-started-common-use-cases.md",
+      "title": "Common Use Cases",
+      "url": "https://docs.factory.ai/cli/getting-started/common-use-cases.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:06.119794-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines practical developer workflows and prompt examples for using Droid to perform tasks like codebase analysis, debugging, and feature implementation. It provides guidance on leveraging AI for code reviews, testing, refactoring, and integrating with enterprise tools like Jira and Notion.",
+      "tags": [
+        "droid-ai",
+        "developer-workflows",
+        "prompt-engineering",
+        "codebase-analysis",
+        "debugging",
+        "code-review",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-common-use-cases.md"
+    },
+    {
+      "file_path": "006-cli-getting-started-how-to-talk-to-a-droid.md",
+      "title": "How to Talk to a Droid",
+      "url": "https://docs.factory.ai/cli/getting-started/how-to-talk-to-a-droid.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:07.800469-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides practical techniques and best practices for writing effective prompts to get high-quality code and results from Factory's AI agents.",
+      "tags": [
+        "prompt-engineering",
+        "ai-agents",
+        "factory-ai",
+        "developer-workflows",
+        "best-practices",
+        "context-management"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-how-to-talk-to-a-droid.md"
+    },
+    {
+      "file_path": "021-cli-features-readiness-report.md",
+      "title": "Slash Command",
+      "url": "https://docs.factory.ai/cli/features/readiness-report.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:05.302855-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "A guide explaining how slash commands function as text-based shortcuts to trigger specific actions or features within an application interface.",
+      "tags": [
+        "slash commands",
+        "user interface",
+        "shortcuts",
+        "commands"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-features-readiness-report.md"
+    },
+    {
+      "file_path": "004-cli-getting-started-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://docs.factory.ai/cli/getting-started/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:11.90478-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This quickstart guide explains how to install, configure, and begin using the droid CLI development agent for codebase analysis, automated code modifications, and workflow integration.",
+      "tags": [
+        "droid-cli",
+        "installation",
+        "ai-agent",
+        "developer-tools",
+        "workflow-automation",
+        "factory-ai"
+      ],
+      "category": "tutorial",
+      "original_file_path": "cli-getting-started-quickstart.md"
+    },
+    {
+      "file_path": "003-cli-getting-started-overview.md",
+      "title": "Overview",
+      "url": "https://docs.factory.ai/cli/getting-started/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:11.191169-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an introductory overview of the droid CLI tool, outlining its installation methods, core development features, and enterprise-grade integration capabilities.",
+      "tags": [
+        "droid-cli",
+        "factory-ai",
+        "cli-installation",
+        "ai-development-agent",
+        "software-automation",
+        "workflow-integration"
+      ],
+      "category": "concept",
+      "original_file_path": "cli-getting-started-overview.md"
+    },
+    {
+      "file_path": "007-cli-getting-started-video-walkthrough.md",
+      "title": "Video Walkthrough",
+      "url": "https://docs.factory.ai/cli/getting-started/video-walkthrough.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:16.048752-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive guide to installing, configuring, and using the Droid CLI, including details on autonomy modes, keyboard shortcuts, and slash commands.",
+      "tags": [
+        "droid-cli",
+        "installation",
+        "keyboard-shortcuts",
+        "autonomy-modes",
+        "cli-configuration",
+        "terminal-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-getting-started-video-walkthrough.md"
+    },
+    {
+      "file_path": "033-cli-user-guides-auto-run.md",
+      "title": "Auto-Run Mode",
+      "url": "https://docs.factory.ai/cli/user-guides/auto-run.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:16.300838-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and manage the autonomy levels of the AI assistant using Auto-Run Mode to balance execution speed with risk tolerance.",
+      "tags": [
+        "auto-run",
+        "autonomy-levels",
+        "risk-classification",
+        "automation",
+        "security-controls",
+        "cli-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-auto-run.md"
+    },
+    {
+      "file_path": "031-cli-user-guides-become-a-power-user.md",
+      "title": "Become a Power User",
+      "url": "https://docs.factory.ai/cli/user-guides/become-a-power-user.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:17.420563-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines advanced features and best practices for optimizing Droid's performance through IDE integration, strategic planning modes, and project-specific configuration files.",
+      "tags": [
+        "droid",
+        "ide-plugin",
+        "spec-mode",
+        "agents-md",
+        "workflow-optimization",
+        "coding-standards",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-become-a-power-user.md"
+    },
+    {
+      "file_path": "034-cli-user-guides-implementing-large-features.md",
+      "title": "Implementing Large Features",
+      "url": "https://docs.factory.ai/cli/user-guides/implementing-large-features.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:20.590608-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide outlines a systematic workflow for breaking down complex software development projects into manageable phases using specification planning and iterative implementation.",
+      "tags": [
+        "large-scale-features",
+        "project-planning",
+        "specification-mode",
+        "iterative-development",
+        "software-engineering",
+        "workflow-management"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-implementing-large-features.md"
+    },
+    {
+      "file_path": "030-cli-user-guides-choosing-your-model.md",
+      "title": "Choosing Your Model",
+      "url": "https://docs.factory.ai/cli/user-guides/choosing-your-model.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:20.198244-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide helps users select the optimal large language model and reasoning levels for CLI tasks based on accuracy, speed, and cost. It provides a ranked list of available models, use-case recommendations, and instructions for switching models mid-session.",
+      "tags": [
+        "model-selection",
+        "llm-comparison",
+        "reasoning-levels",
+        "cli-configuration",
+        "factory-ai",
+        "claude",
+        "gpt-codex"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-choosing-your-model.md"
+    },
+    {
+      "file_path": "032-cli-user-guides-specification-mode.md",
+      "title": "Specification Mode",
+      "url": "https://docs.factory.ai/cli/user-guides/specification-mode.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:21.769605-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains Specification Mode, a feature that converts plain-English feature descriptions into detailed implementation plans and production code with human-in-the-loop safety checks.",
+      "tags": [
+        "specification-mode",
+        "factory-ai",
+        "code-generation",
+        "automated-planning",
+        "software-development-lifecycle",
+        "ai-droid"
+      ],
+      "category": "guide",
+      "original_file_path": "cli-user-guides-specification-mode.md"
+    },
+    {
+      "file_path": "140-enterprise-compliance-audit-and-monitoring.md",
+      "title": "Compliance, Audit & Monitoring",
+      "url": "https://docs.factory.ai/enterprise/compliance-audit-and-monitoring.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:25.315905-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how Factory Droids support enterprise security and compliance standards through audit trails, OpenTelemetry integration, and customizable monitoring across various industries.",
+      "tags": [
+        "compliance",
+        "audit-logs",
+        "opentelemetry",
+        "security-monitoring",
+        "soc2",
+        "enterprise-security",
+        "data-privacy"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-compliance-audit-and-monitoring.md"
+    },
+    {
+      "file_path": "141-enterprise-enterprise-plugin-registry.md",
+      "title": "Enterprise Plugin Registry",
+      "url": "https://docs.factory.ai/enterprise/enterprise-plugin-registry.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:25.343407-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and manage an Enterprise Plugin Registry to centralize, approve, and distribute custom plugins across an organization. It covers repository structure, marketplace manifests, and organization-level configuration for secure plugin management.",
+      "tags": [
+        "enterprise-plugin-registry",
+        "plugin-management",
+        "organization-settings",
+        "marketplace-manifest",
+        "private-repository",
+        "security-compliance"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-enterprise-plugin-registry.md"
+    },
+    {
+      "file_path": "135-enterprise-github-integration-security.md",
+      "title": "GitHub Integration Security",
+      "url": "https://docs.factory.ai/enterprise/github-integration-security.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:27.644257-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the security architecture and data flow for the Factory Droid GitHub Action, detailing how it handles authentication, repository permissions, and data privacy.",
+      "tags": [
+        "security-architecture",
+        "github-integration",
+        "github-actions",
+        "data-privacy",
+        "access-control",
+        "authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-github-integration-security.md"
+    },
+    {
+      "file_path": "133-enterprise-hierarchical-settings-and-org-control.md",
+      "title": "Hierarchical Settings & Org Control",
+      "url": "https://docs.factory.ai/enterprise/hierarchical-settings-and-org-control.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:29.631827-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the hierarchical configuration system for Droid, detailing how settings are prioritized across organization, project, folder, and user levels. It provides a comprehensive reference for the settings schema used to govern models, tools, and safety policies.",
+      "tags": [
+        "configuration-hierarchy",
+        "enterprise-controls",
+        "model-governance",
+        "security-policies",
+        "settings-schema",
+        "access-control",
+        "factory-ai"
+      ],
+      "category": "configuration",
+      "original_file_path": "enterprise-hierarchical-settings-and-org-control.md"
+    },
+    {
+      "file_path": "132-enterprise-identity-sso-and-scim.md",
+      "title": "Identity, Domains, SSO, and SCIM",
+      "url": "https://docs.factory.ai/enterprise/identity-sso-and-scim.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:31.858245-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement enterprise identity management through domain verification, Single Sign-On (SSO) authentication, and automated user provisioning via Directory Sync (SCIM).",
+      "tags": [
+        "sso",
+        "saml",
+        "scim",
+        "directory-sync",
+        "domain-verification",
+        "identity-management"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-identity-sso-and-scim.md"
+    },
+    {
+      "file_path": "131-enterprise-identity-and-access.md",
+      "title": "Identity & Access Management",
+      "url": "https://docs.factory.ai/enterprise/identity-and-access.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:30.288278-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the identity and access management framework for Droids, explaining how user identities, roles, and runtime environments determine permissions and policy enforcement. It details the interaction between organizational hierarchies, SSO integration, and role-based access control for managing secure agent execution.",
+      "tags": [
+        "identity-management",
+        "access-control",
+        "rbac",
+        "sso-integration",
+        "security-policy",
+        "enterprise-security",
+        "workspace-trust"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-identity-and-access.md"
+    },
+    {
+      "file_path": "130-enterprise-index.md",
+      "title": "Enterprise with Droids",
+      "url": "https://docs.factory.ai/enterprise/index.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:33.946568-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of deploying and managing Factory Droids in high-security enterprise environments, detailing deployment architectures, governance models, and security protocols.",
+      "tags": [
+        "enterprise-security",
+        "ai-deployment",
+        "airgapped-environments",
+        "compliance-monitoring",
+        "governance",
+        "llm-ops",
+        "identity-management"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-index.md"
+    },
+    {
+      "file_path": "136-enterprise-llm-safety-and-agent-controls.md",
+      "title": "LLM Safety & Agent Controls",
+      "url": "https://docs.factory.ai/enterprise/llm-safety-and-agent-controls.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:36.12198-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the safety architecture for Droid agents, detailing deterministic controls, risk classification, and programmable hooks used to enforce security policies. It explains how to protect sensitive data and manage agent autonomy through sandboxing and steering mechanisms.",
+      "tags": [
+        "llm-safety",
+        "security-controls",
+        "risk-classification",
+        "data-loss-prevention",
+        "agent-governance",
+        "sandboxing",
+        "droid-shield"
+      ],
+      "category": "concept",
+      "original_file_path": "enterprise-llm-safety-and-agent-controls.md"
+    },
+    {
+      "file_path": "134-enterprise-models-llm-gateways-and-integrations.md",
+      "title": "Models, LLM Gateways & Integrations",
+      "url": "https://docs.factory.ai/enterprise/models-llm-gateways-and-integrations.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:36.393226-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how the Factory platform manages connections and governance for LLMs, gateways, MCP servers, and developer integrations using a hierarchical settings system. It details the administrative controls available at the organizational, project, and user levels to ensure secure and consistent tool usage.",
+      "tags": [
+        "model-management",
+        "llm-gateways",
+        "mcp-servers",
+        "byok",
+        "configuration-hierarchy",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-models-llm-gateways-and-integrations.md"
+    },
+    {
+      "file_path": "137-enterprise-network-and-deployment.md",
+      "title": "Network & Deployment Configuration",
+      "url": "https://docs.factory.ai/enterprise/network-and-deployment.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:39.594684-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the supported deployment patterns and network requirements for Droids, including cloud-managed, hybrid, and fully airgapped configurations. It provides technical guidance on configuring proxies, custom certificates, and secure runtime environments to ensure enterprise-grade security.",
+      "tags": [
+        "deployment-patterns",
+        "network-configuration",
+        "airgapped-environment",
+        "enterprise-security",
+        "proxy-settings",
+        "mtls",
+        "infrastructure-governance"
+      ],
+      "category": "configuration",
+      "original_file_path": "enterprise-network-and-deployment.md"
+    },
+    {
+      "file_path": "139-enterprise-usage-cost-and-analytics.md",
+      "title": "Usage, Cost & Productivity Analytics",
+      "url": "https://docs.factory.ai/enterprise/usage-cost-and-analytics.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:41.501288-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to monitor Droid usage, manage LLM costs, and analyze productivity impact using OpenTelemetry metrics and Factory cloud analytics.",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "llm-spend",
+        "cost-management",
+        "analytics",
+        "metrics",
+        "productivity-measurement"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-usage-cost-and-analytics.md"
+    },
+    {
+      "file_path": "138-enterprise-privacy-and-data-flows.md",
+      "title": "Privacy, Data Flows & Governance",
+      "url": "https://docs.factory.ai/enterprise/privacy-and-data-flows.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:41.56254-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the data architecture, privacy protocols, and governance controls for Droid deployments, detailing how code, LLM traffic, and telemetry are managed across different environments.",
+      "tags": [
+        "privacy",
+        "data-governance",
+        "security-architecture",
+        "deployment-patterns",
+        "telemetry",
+        "llm-safety"
+      ],
+      "category": "guide",
+      "original_file_path": "enterprise-privacy-and-data-flows.md"
+    },
+    {
+      "file_path": "112-guides-building-building-plugins.md",
+      "title": "Building Plugins",
+      "url": "https://docs.factory.ai/guides/building/building-plugins.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:44.451704-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide provides instructions for building and distributing shareable Droid plugins, covering manifest configuration, skills, commands, agents, and lifecycle hooks.",
+      "tags": [
+        "droid-plugins",
+        "plugin-development",
+        "manifest-json",
+        "slash-commands",
+        "model-skills",
+        "custom-agents",
+        "lifecycle-hooks"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-building-building-plugins.md"
+    },
+    {
+      "file_path": "110-guides-building-droid-exec-tutorial.md",
+      "title": "Building Interactive Apps with Droid Exec",
+      "url": "https://docs.factory.ai/guides/building/droid-exec-tutorial.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:45.972711-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This tutorial explains how to build interactive codebase chat applications using Factory's Droid Exec CLI in headless mode with real-time streaming via Server-Sent Events.",
+      "tags": [
+        "droid-exec",
+        "factory-cli",
+        "server-sent-events",
+        "streaming-responses",
+        "codebase-intelligence",
+        "headless-cli",
+        "app-development"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-building-droid-exec-tutorial.md"
+    },
+    {
+      "file_path": "111-guides-building-droid-vps-setup.md",
+      "title": "Deploy Droid on a VPS Server",
+      "url": "https://docs.factory.ai/guides/building/droid-vps-setup.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:46.112167-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a step-by-step walkthrough for deploying the Factory CLI on a Virtual Private Server to enable remote access and headless automation. It covers SSH configuration, server installation, and using the droid exec command for automated system administration.",
+      "tags": [
+        "vps-deployment",
+        "factory-cli",
+        "ssh-configuration",
+        "headless-automation",
+        "droid-exec",
+        "server-management"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-building-droid-vps-setup.md"
+    },
+    {
+      "file_path": "113-guides-droid-exec-code-review.md",
+      "title": "Automated Code Review",
+      "url": "https://docs.factory.ai/guides/droid-exec/code-review.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:50.172582-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and customize automated pull request reviews using the Factory GitHub App and Droid workflows.",
+      "tags": [
+        "github-app",
+        "code-review",
+        "automation",
+        "workflow-configuration",
+        "ci-cd",
+        "pull-requests",
+        "factory-droid"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-droid-exec-code-review.md"
+    },
+    {
+      "file_path": "114-guides-droid-exec-github-actions.md",
+      "title": "GitHub Actions",
+      "url": "https://docs.factory.ai/guides/droid-exec/github-actions.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:51.348673-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "Provides pre-configured GitHub Actions workflow examples for integrating the Factory droid CLI to automate code reviews, documentation maintenance, and security scanning.",
+      "tags": [
+        "github-actions",
+        "ci-cd",
+        "automation",
+        "droid-cli",
+        "code-review",
+        "devops",
+        "workflow-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-droid-exec-github-actions.md"
+    },
+    {
+      "file_path": "115-guides-droid-exec-document-automation.md",
+      "title": "Automated Documentation",
+      "url": "https://docs.factory.ai/guides/droid-exec/document-automation.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:50.692417-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to implement an automated CI/CD workflow using Droid Exec to synchronize project documentation with code changes. It demonstrates how to configure GitHub Actions to analyze code modifications, update relevant files, and create pull requests for review.",
+      "tags": [
+        "droid-exec",
+        "github-actions",
+        "automated-documentation",
+        "ci-cd",
+        "documentation-maintenance",
+        "factory-ai"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-document-automation.md"
+    },
+    {
+      "file_path": "118-guides-droid-exec-refactor-error-messages.md",
+      "title": "Improve Error Messages",
+      "url": "https://docs.factory.ai/guides/droid-exec/refactor-error-messages.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:54.592631-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This tutorial explains how to use Droid Exec and a bash script to automatically refactor and improve the quality of TypeScript error messages across a codebase.",
+      "tags": [
+        "droid-exec",
+        "error-handling",
+        "typescript",
+        "code-refactoring",
+        "automation",
+        "bash-script"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-refactor-error-messages.md"
+    },
+    {
+      "file_path": "117-guides-droid-exec-refactor-fix-lint.md",
+      "title": "Automated Lint Fixes",
+      "url": "https://docs.factory.ai/guides/droid-exec/refactor-fix-lint.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:56.650272-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use Droid Exec to automatically identify and fix ESLint violations in a codebase, specifically focusing on wrapping NextJS API routes with the correct middleware.",
+      "tags": [
+        "eslint",
+        "automation",
+        "droid-exec",
+        "nextjs",
+        "middleware",
+        "typescript",
+        "lint-fixes"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-refactor-fix-lint.md"
+    },
+    {
+      "file_path": "116-guides-droid-exec-refactor-imports.md",
+      "title": "Organize Imports",
+      "url": "https://docs.factory.ai/guides/droid-exec/refactor-imports.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:56.607597-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This tutorial explains how to use Droid Exec to automate the organization, sorting, and optimization of import statements across large JavaScript and TypeScript codebases.",
+      "tags": [
+        "droid-exec",
+        "javascript",
+        "typescript",
+        "refactoring",
+        "imports",
+        "automation",
+        "shell-script"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-droid-exec-refactor-imports.md"
+    },
+    {
+      "file_path": "122-guides-hooks-auto-formatting.md",
+      "title": "Auto-formatting Code",
+      "url": "https://docs.factory.ai/guides/hooks/auto-formatting.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:13:59.150238-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to configure hooks to automatically format code using tools like Prettier and Black after every file edit. It provides setup examples for single and multi-language projects, including advanced linting and conditional formatting options.",
+      "tags": [
+        "code-formatting",
+        "automation",
+        "hooks",
+        "factory-ai",
+        "prettier",
+        "black-formatter",
+        "linting"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-auto-formatting.md"
+    },
+    {
+      "file_path": "123-guides-hooks-code-validation.md",
+      "title": "Code Validation Hooks",
+      "url": "https://docs.factory.ai/guides/hooks/code-validation.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:00.571326-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to implement automated validation hooks to enforce security policies, code standards, and file protection during the development process.",
+      "tags": [
+        "code-validation",
+        "hooks",
+        "automation",
+        "security-scanning",
+        "factory-ai",
+        "bash-scripting"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-code-validation.md"
+    },
+    {
+      "file_path": "124-guides-hooks-documentation-sync.md",
+      "title": "Documentation Sync",
+      "url": "https://docs.factory.ai/guides/hooks/documentation-sync.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:00.838383-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to automatically synchronize documentation with code changes using hooks to generate API docs, update READMEs, and verify code examples.",
+      "tags": [
+        "documentation-sync",
+        "api-docs",
+        "automation-hooks",
+        "factory-ai",
+        "code-examples",
+        "markdown"
+      ],
+      "category": "tutorial",
+      "original_file_path": "guides-hooks-documentation-sync.md"
+    },
+    {
+      "file_path": "125-guides-hooks-git-workflows.md",
+      "title": "Git Workflow Hooks",
+      "url": "https://docs.factory.ai/guides/hooks/git-workflows.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:04.260989-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement and configure Git workflow hooks to enforce commit conventions, protect branches, and automate development tasks.",
+      "tags": [
+        "git",
+        "git-hooks",
+        "workflow-automation",
+        "branch-protection",
+        "commit-validation",
+        "changelog-generation"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-git-workflows.md"
+    },
+    {
+      "file_path": "126-guides-hooks-logging-analytics.md",
+      "title": "Logging and Analytics",
+      "url": "https://docs.factory.ai/guides/hooks/logging-analytics.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:05.564368-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement logging and analytics for Droid using hooks to monitor tool usage, session duration, and file modifications. It provides instructions for setting up automated data collection and querying metrics to analyze development patterns.",
+      "tags": [
+        "logging",
+        "analytics",
+        "development-metrics",
+        "hooks",
+        "performance-tracking",
+        "droid",
+        "workflow-analysis"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-logging-analytics.md"
+    },
+    {
+      "file_path": "120-guides-hooks-session-automation.md",
+      "title": "Session Automation",
+      "url": "https://docs.factory.ai/guides/hooks/session-automation.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:08.167893-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use SessionStart hooks to automate development environment setup, project context loading, and dependency management when starting Droid sessions.",
+      "tags": [
+        "session-automation",
+        "hooks",
+        "droid",
+        "environment-setup",
+        "context-loading",
+        "workflow-automation",
+        "bash-scripting"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-session-automation.md"
+    },
+    {
+      "file_path": "127-guides-hooks-notifications.md",
+      "title": "Custom Notifications",
+      "url": "https://docs.factory.ai/guides/hooks/notifications.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:07.355049-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to implement custom notification hooks for Droid sessions, enabling alerts via desktop notifications, Slack, email, and sounds across multiple platforms.",
+      "tags": [
+        "custom-notifications",
+        "automation-hooks",
+        "slack-integration",
+        "cross-platform",
+        "shell-scripting",
+        "alert-management"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-notifications.md"
+    },
+    {
+      "file_path": "121-guides-hooks-testing-automation.md",
+      "title": "Testing Automation",
+      "url": "https://docs.factory.ai/guides/hooks/testing-automation.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:10.330014-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement automated testing workflows using hooks to trigger test execution, monitor coverage thresholds, and enforce testing standards during code modifications.",
+      "tags": [
+        "testing-automation",
+        "factory-ai",
+        "hooks",
+        "test-coverage",
+        "automation-workflows",
+        "javascript",
+        "python",
+        "go-testing"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-hooks-testing-automation.md"
+    },
+    {
+      "file_path": "091-guides-power-user-memory-management.md",
+      "title": "Memory and Context Management",
+      "url": "https://docs.factory.ai/guides/power-user/memory-management.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:13.525538-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive guide for implementing a persistent memory and context management system using markdown files to track user preferences, architectural decisions, and project history. It explains the architecture of personal and project-level memory layers and details how to automate information capture using custom hooks.",
+      "tags": [
+        "memory-management",
+        "context-persistence",
+        "factory-ai",
+        "documentation-workflow",
+        "knowledge-base",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-memory-management.md"
+    },
+    {
+      "file_path": "095-guides-power-user-evaluating-context-compression.md",
+      "title": "Evaluating Context Compression",
+      "url": "https://docs.factory.ai/guides/power-user/evaluating-context-compression.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:12.670673-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines research into context compression strategies for AI agents, evaluating how different summarization methods impact task performance and information retention in long-running sessions.",
+      "tags": [
+        "context-compression",
+        "ai-agents",
+        "llm-evaluation",
+        "token-efficiency",
+        "structured-summarization",
+        "context-window"
+      ],
+      "category": "concept",
+      "original_file_path": "guides-power-user-evaluating-context-compression.md"
+    },
+    {
+      "file_path": "093-guides-power-user-prompt-crafting.md",
+      "title": "Prompt Crafting for Different Models",
+      "url": "https://docs.factory.ai/guides/power-user/prompt-crafting.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:15.707683-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide provides model-specific prompting techniques for Claude and GPT models to improve instruction clarity and output quality. It covers universal principles, structured formatting like XML tags, and the creation of custom prompt refiner skills.",
+      "tags": [
+        "prompt-engineering",
+        "claude-ai",
+        "gpt-models",
+        "anthropic-claude",
+        "openai-gpt",
+        "prompt-optimization",
+        "llm-best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-prompt-crafting.md"
+    },
+    {
+      "file_path": "092-guides-power-user-rules-conventions.md",
+      "title": "Rules and Conventions",
+      "url": "https://docs.factory.ai/guides/power-user/rules-conventions.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:18.370026-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to define and organize prescriptive coding standards and team conventions for the Droid AI agent using the .factory/rules directory.",
+      "tags": [
+        "factory-ai",
+        "coding-standards",
+        "droid-rules",
+        "project-configuration",
+        "documentation-conventions"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-rules-conventions.md"
+    },
+    {
+      "file_path": "090-guides-power-user-setup-checklist.md",
+      "title": "Power User Setup Checklist",
+      "url": "https://docs.factory.ai/guides/power-user/setup-checklist.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:18.467465-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "A comprehensive checklist for optimizing a Droid installation by configuring IDE integration, persistent memory files, coding standards, and automation skills.",
+      "tags": [
+        "factory-ai",
+        "droid-config",
+        "ide-integration",
+        "memory-management",
+        "coding-standards",
+        "automation-skills"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-setup-checklist.md"
+    },
+    {
+      "file_path": "094-guides-power-user-token-efficiency.md",
+      "title": "Token Efficiency Strategies",
+      "url": "https://docs.factory.ai/guides/power-user/token-efficiency.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:20.493157-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides strategies for optimizing token usage and reducing costs when using AI agents through project configuration, efficient testing, and task-specific model selection.",
+      "tags": [
+        "token-optimization",
+        "ai-agents",
+        "cost-management",
+        "model-selection",
+        "developer-workflow",
+        "project-setup",
+        "performance-tuning"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-power-user-token-efficiency.md"
+    },
+    {
+      "file_path": "101-guides-skills-ai-data-analyst.md",
+      "title": "AI data analyst skill",
+      "url": "https://docs.factory.ai/guides/skills/ai-data-analyst.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:22.163972-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document defines the AI data analyst skill for Factory, providing instructions and best practices for performing automated data analysis, visualization, and statistical modeling via local Python scripts.",
+      "tags": [
+        "ai-data-analyst",
+        "data-analysis",
+        "python-automation",
+        "data-visualization",
+        "statistical-modeling",
+        "factory-skills"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-ai-data-analyst.md"
+    },
+    {
+      "file_path": "106-guides-skills-browser.md",
+      "title": "Browser automation skill",
+      "url": "https://docs.factory.ai/guides/skills/browser.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:23.235766-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement and use a lightweight browser automation skill for Factory Droids using Chrome DevTools Protocol helpers. It provides step-by-step instructions for setting up local scripts to control Chrome, navigate pages, and extract DOM metadata.",
+      "tags": [
+        "browser-automation",
+        "chrome-devtools-protocol",
+        "puppeteer-core",
+        "factory-ai",
+        "web-scraping",
+        "local-development"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-browser.md"
+    },
+    {
+      "file_path": "102-guides-skills-data-querying.md",
+      "title": "Internal data querying skill",
+      "url": "https://docs.factory.ai/guides/skills/data-querying.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:24.697104-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document defines a reusable skill for querying internal analytics and data services to produce reproducible insights and artifacts within the Factory platform. It provides setup instructions, implementation checklists, and safety protocols for managing internal data queries.",
+      "tags": [
+        "internal-data",
+        "data-querying",
+        "factory-skills",
+        "analytics",
+        "data-governance",
+        "sql-analytics"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-data-querying.md"
+    },
+    {
+      "file_path": "103-guides-skills-frontend-ui-integration.md",
+      "title": "Frontend UI integration skill",
+      "url": "https://docs.factory.ai/guides/skills/frontend-ui-integration.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:27.657463-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document defines a reusable Factory skill for implementing and extending frontend UI workflows in enterprise React and TypeScript applications using existing backend APIs.",
+      "tags": [
+        "factory-ai",
+        "frontend-development",
+        "react",
+        "typescript",
+        "ui-integration",
+        "workflow-automation",
+        "enterprise-codebase"
+      ],
+      "category": "configuration",
+      "original_file_path": "guides-skills-frontend-ui-integration.md"
+    },
+    {
+      "file_path": "104-guides-skills-internal-tools.md",
+      "title": "Internal tools skill",
+      "url": "https://docs.factory.ai/guides/skills/internal-tools.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:28.034897-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document defines the 'internal-tools' skill for Factory AI, outlining procedures and standards for developing secure, auditable, and efficient internal applications such as admin panels.",
+      "tags": [
+        "internal-tools",
+        "factory-ai",
+        "skill-definition",
+        "rbac",
+        "audit-logging",
+        "operational-safety"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-internal-tools.md"
+    },
+    {
+      "file_path": "100-guides-skills-product-management.md",
+      "title": "Product management AI skill",
+      "url": "https://docs.factory.ai/guides/skills/product-management.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:30.151404-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions and a framework for implementing a product management AI skill that assists with PRDs, feature analysis, roadmap planning, and user research synthesis.",
+      "tags": [
+        "product-management",
+        "ai-skills",
+        "prd-documentation",
+        "feature-analysis",
+        "roadmap-planning",
+        "user-research"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-product-management.md"
+    },
+    {
+      "file_path": "105-guides-skills-service-integration.md",
+      "title": "Service integration skill",
+      "url": "https://docs.factory.ai/guides/skills/service-integration.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:32.982119-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions and a template for implementing a service integration skill to manage backend service extensions and cross-team integrations within shared codebases.",
+      "tags": [
+        "factory-ai",
+        "service-integration",
+        "backend-development",
+        "monorepo",
+        "software-architecture",
+        "enterprise-patterns"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-service-integration.md"
+    },
+    {
+      "file_path": "107-guides-skills-vibe-coding.md",
+      "title": "Vibe coding skill",
+      "url": "https://docs.factory.ai/guides/skills/vibe-coding.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:33.354394-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and use the vibe-coding skill to rapidly prototype modern web applications locally with Factory Droids.",
+      "tags": [
+        "vibe-coding",
+        "web-development",
+        "rapid-prototyping",
+        "factory-ai",
+        "local-development",
+        "skill-definition"
+      ],
+      "category": "guide",
+      "original_file_path": "guides-skills-vibe-coding.md"
+    },
+    {
+      "file_path": "070-integrations-github-app.md",
+      "title": "GitHub App",
+      "url": "https://docs.factory.ai/integrations/github-app.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:34.951779-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to integrate Droid with GitHub repositories using the guided installation command to enable automated code reviews and interactive issue mentions.",
+      "tags": [
+        "github-app",
+        "github-actions",
+        "setup-guide",
+        "code-review",
+        "automation",
+        "workflow-configuration",
+        "installation"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-github-app.md"
+    },
+    {
+      "file_path": "071-integrations-ide-integrations.md",
+      "title": "IDE Integrations",
+      "url": "https://docs.factory.ai/integrations/ide-integrations.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:37.302251-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to integrate Droid with popular IDEs such as VS Code and JetBrains, covering installation procedures, feature sets, and troubleshooting common issues.",
+      "tags": [
+        "ide-integration",
+        "vscode",
+        "jetbrains",
+        "installation-guide",
+        "troubleshooting",
+        "developer-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-ide-integrations.md"
+    },
+    {
+      "file_path": "072-integrations-jetbrains.md",
+      "title": "JetBrains IDEs",
+      "url": "https://docs.factory.ai/integrations/jetbrains.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:39.259794-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for installing and configuring Factory Droid as an AI agent within JetBrains IDEs. It covers both automatic setup via the ACP registry and manual configuration using the CLI.",
+      "tags": [
+        "jetbrains",
+        "factory-droid",
+        "ai-agent",
+        "ide-integration",
+        "acp",
+        "setup-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-jetbrains.md"
+    },
+    {
+      "file_path": "075-integrations-linear.md",
+      "title": "Linear",
+      "url": "https://docs.factory.ai/integrations/linear.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:39.513257-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a step-by-step walkthrough for integrating Factory with a Linear workspace, covering authorization, project configuration, and verification procedures.",
+      "tags": [
+        "linear-integration",
+        "setup-guide",
+        "workspace-permissions",
+        "project-management",
+        "factory-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-linear.md"
+    },
+    {
+      "file_path": "074-integrations-slack.md",
+      "title": "Slack",
+      "url": "https://docs.factory.ai/integrations/slack.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:42.514466-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide provides instructions for connecting Factory to a Slack workspace and explains how to use integrated tools for cross-platform communication.",
+      "tags": [
+        "slack-integration",
+        "factory-ai",
+        "workspace-setup",
+        "collaboration-tools",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-slack.md"
+    },
+    {
+      "file_path": "073-integrations-zed.md",
+      "title": "Zed",
+      "url": "https://docs.factory.ai/integrations/zed.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:42.911285-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for integrating Factory Droid as a custom AI agent within the Zed editor using either the official extension or manual CLI configuration.",
+      "tags": [
+        "zed-editor",
+        "factory-droid",
+        "ai-agent",
+        "mcp-server",
+        "ide-integration",
+        "configuration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "integrations-zed.md"
+    },
+    {
+      "file_path": "181-leaderboards-index.md",
+      "title": "Leaderboards",
+      "url": "https://docs.factory.ai/leaderboards/index.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:42.997872-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document presents performance leaderboards and evaluation methodologies for AI coding agents across various benchmarks like Terminal Bench and NextJS Evals. It provides comparative data on accuracy and efficiency for different AI models and coding tools.",
+      "tags": [
+        "ai-coding-agents",
+        "benchmarks",
+        "leaderboards",
+        "terminal-bench",
+        "nextjs-evals",
+        "performance-evaluation",
+        "factory-droid"
+      ],
+      "category": "reference",
+      "original_file_path": "leaderboards-index.md"
+    },
+    {
+      "file_path": "180-pricing.md",
+      "title": "Pricing & Models",
+      "url": "https://docs.factory.ai/pricing.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:46.006865-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the pricing structure, subscription plans, and token usage multipliers for various AI models available on the Factory platform.",
+      "tags": [
+        "pricing",
+        "billing",
+        "subscription-plans",
+        "token-usage",
+        "model-multipliers",
+        "factory-ai"
+      ],
+      "category": "reference",
+      "original_file_path": "pricing.md"
+    },
+    {
+      "file_path": "152-reference-analytics-api.md",
+      "title": "Analytics API",
+      "url": "https://docs.factory.ai/reference/analytics-api.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:46.864341-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes the Factory Analytics API, providing instructions for programmatically accessing organization-level metrics such as token consumption, tool usage, and user activity.",
+      "tags": [
+        "analytics-api",
+        "rest-api",
+        "usage-metrics",
+        "token-consumption",
+        "data-aggregation",
+        "authentication"
+      ],
+      "category": "api",
+      "original_file_path": "reference-analytics-api.md"
+    },
+    {
+      "file_path": "150-reference-cli-reference.md",
+      "title": "CLI Reference",
+      "url": "https://docs.factory.ai/reference/cli-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:48.294758-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive technical reference for the droid command-line interface, detailing installation, commands, configuration flags, and autonomy levels.",
+      "tags": [
+        "cli-reference",
+        "command-line-interface",
+        "droid-commands",
+        "configuration-flags",
+        "autonomy-levels",
+        "terminal-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "reference-cli-reference.md"
+    },
+    {
+      "file_path": "151-reference-hooks-reference.md",
+      "title": "Hooks reference",
+      "url": "https://docs.factory.ai/reference/hooks-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:50.120175-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This reference guide details how to configure and implement hooks in Droid, including supported event types, matchers, and the JSON input schema for custom commands.",
+      "tags": [
+        "droid-hooks",
+        "event-handling",
+        "automation-scripts",
+        "configuration-reference",
+        "plugin-hooks",
+        "cli-lifecycle"
+      ],
+      "category": "reference",
+      "original_file_path": "reference-hooks-reference.md"
+    },
+    {
+      "file_path": "153-reference-readiness-reports-api.md",
+      "title": "Readiness Reports API",
+      "url": "https://docs.factory.ai/reference/readiness-reports-api.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:51.183525-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a technical reference for the Readiness Reports API, enabling programmatic access to agent evaluation data, response schemas, and authentication requirements.",
+      "tags": [
+        "rest-api",
+        "readiness-reports",
+        "api-reference",
+        "factory-ai",
+        "authentication",
+        "data-extraction"
+      ],
+      "category": "api",
+      "original_file_path": "reference-readiness-reports-api.md"
+    },
+    {
+      "file_path": "182-support.md",
+      "title": "Support",
+      "url": "https://docs.factory.ai/support.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:53.088881-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the available channels for obtaining technical assistance, joining the community, and reporting bugs for the Factory platform.",
+      "tags": [
+        "customer-support",
+        "community-resources",
+        "bug-reporting",
+        "technical-assistance",
+        "contact-information"
+      ],
+      "category": "other",
+      "original_file_path": "support.md"
+    },
+    {
+      "file_path": "010-web-agent-readiness-overview.md",
+      "title": "Overview",
+      "url": "https://docs.factory.ai/web/agent-readiness/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:55.044337-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces the Agent Readiness Model, a framework designed to assess and improve an organization's technical foundation for autonomous software development. It details the interaction methods, five maturity levels, and specific technical pillars necessary for agents to operate effectively.",
+      "tags": [
+        "agent-readiness",
+        "autonomous-development",
+        "software-engineering",
+        "devops-maturity",
+        "automation-framework"
+      ],
+      "category": "concept",
+      "original_file_path": "web-agent-readiness-overview.md"
+    },
+    {
+      "file_path": "011-web-agent-readiness-dashboard.md",
+      "title": "Readiness Dashboard",
+      "url": "https://docs.factory.ai/web/agent-readiness/dashboard.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:53.641292-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the Readiness Dashboard to track and analyze organization-wide Agent Readiness scores and repository-specific metrics. It covers navigating the dashboard, interpreting readiness levels, and triggering manual evaluations via the web interface or CLI.",
+      "tags": [
+        "readiness-dashboard",
+        "agent-readiness",
+        "analytics",
+        "repository-metrics",
+        "performance-tracking",
+        "factory-app"
+      ],
+      "category": "guide",
+      "original_file_path": "web-agent-readiness-dashboard.md"
+    },
+    {
+      "file_path": "001-web-getting-started-overview.md",
+      "title": "Overview",
+      "url": "https://docs.factory.ai/web/getting-started/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:57.717544-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an introductory overview of the Factory App and Droid AI, detailing its core features, system compatibility, and benefits for engineering workflows.",
+      "tags": [
+        "factory-app",
+        "droid-ai",
+        "desktop-application",
+        "software-development",
+        "enterprise-security",
+        "integrations"
+      ],
+      "category": "concept",
+      "original_file_path": "web-getting-started-overview.md"
+    },
+    {
+      "file_path": "002-web-getting-started-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://docs.factory.ai/web/getting-started/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:14:59.384421-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a step-by-step quickstart guide for downloading, installing, and configuring the Factory App to work with a local codebase using an AI assistant.",
+      "tags": [
+        "quickstart",
+        "installation",
+        "factory-app",
+        "codebase-integration",
+        "ai-assistant",
+        "developer-tools"
+      ],
+      "category": "tutorial",
+      "original_file_path": "web-getting-started-quickstart.md"
+    },
+    {
+      "file_path": "013-web-machine-connection-cloud-templates-best-practices.md",
+      "title": "Cloud Templates - Best Practices",
+      "url": "https://docs.factory.ai/web/machine-connection/cloud-templates/best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:01.4163-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines best practices for configuring and managing cloud templates to ensure efficient, consistent, and collaborative development environments. It covers setup script optimization, workflow patterns, and common troubleshooting resolutions.",
+      "tags": [
+        "cloud-templates",
+        "best-practices",
+        "development-environments",
+        "setup-scripts",
+        "workflow-automation",
+        "factory-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "web-machine-connection-cloud-templates-best-practices.md"
+    },
+    {
+      "file_path": "012-web-machine-connection-cloud-templates-index.md",
+      "title": "Cloud Templates",
+      "url": "https://docs.factory.ai/web/machine-connection/cloud-templates/index.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:02.021542-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Cloud Templates, which provide pre-configured, cloud-hosted development environments designed to ensure workspace consistency and eliminate local setup requirements.",
+      "tags": [
+        "cloud-templates",
+        "remote-development",
+        "development-environments",
+        "setup-automation",
+        "workspace-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "web-machine-connection-cloud-templates-index.md"
+    },
+    {
+      "file_path": "014-web-machine-connection-cloud-templates-installation-and-usage.md",
+      "title": "Cloud Templates \u2013 Installation & Usage",
+      "url": "https://docs.factory.ai/web/machine-connection/cloud-templates/installation-and-usage.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:04.32087-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for setting up, configuring, and using remote development environments within Factory sessions through Cloud Templates.",
+      "tags": [
+        "cloud-templates",
+        "factory-sessions",
+        "remote-development",
+        "environment-setup",
+        "configuration",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "web-machine-connection-cloud-templates-installation-and-usage.md"
+    },
+    {
+      "file_path": "015-web-machine-connection-cloud-templates-setup-script.md",
+      "title": "Cloud Templates \u2013 Setup Script",
+      "url": "https://docs.factory.ai/web/machine-connection/cloud-templates/setup-script.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:05.937426-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and troubleshoot bash setup scripts that automate environment initialization and dependency management during Factory cloud template creation.",
+      "tags": [
+        "cloud-templates",
+        "setup-script",
+        "automation",
+        "environment-initialization",
+        "bash-scripting",
+        "factory-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "web-machine-connection-cloud-templates-setup-script.md"
+    },
+    {
+      "file_path": "016-web-machine-connection-cloud-templates-troubleshooting.md",
+      "title": "Cloud Templates \u2013 Troubleshooting",
+      "url": "https://docs.factory.ai/web/machine-connection/cloud-templates/troubleshooting.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:06.368475-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides diagnostic steps and resolutions for common issues related to creating, connecting, and optimizing cloud templates. It covers workspace provisioning, connectivity failures, performance bottlenecks, and general usage errors.",
+      "tags": [
+        "troubleshooting",
+        "cloud-templates",
+        "workspace-setup",
+        "connectivity-issues",
+        "performance-optimization",
+        "dev-containers"
+      ],
+      "category": "guide",
+      "original_file_path": "web-machine-connection-cloud-templates-troubleshooting.md"
+    },
+    {
+      "file_path": "000-welcome-index.md",
+      "title": "Welcome to Factory",
+      "url": "https://docs.factory.ai/welcome/index.md",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:08.602383-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.factory.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Factory, an AI-native software development platform that automates engineering tasks through autonomous Droids integrated into existing developer workflows.",
+      "tags": [
+        "factory-ai",
+        "software-automation",
+        "ai-droids",
+        "cli",
+        "ide-integration",
+        "software-development"
+      ],
+      "category": "concept",
+      "original_file_path": "welcome-index.md"
+    },
+    {
+      "file_path": "166-api-v0-openapi.json.md",
+      "title": "openapi",
+      "url": "https://api.factory.ai/api/v0/openapi.json",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:11.087954-03:00",
+      "summary": "This document defines the OpenAPI specification for the Factory Public API, providing endpoints for machine template operations and organization user management.",
+      "tags": [
+        "factory-api",
+        "openapi-spec",
+        "machine-templates",
+        "user-management",
+        "rest-api"
+      ],
+      "category": "api",
+      "original_file_path": "api-v0-openapi.json.md"
+    },
+    {
+      "file_path": "183-factory-ai-factory.md",
+      "title": "GitHub - Factory-AI/factory: Factory - Agent-Native Software Development",
+      "url": "https://github.com/factory-ai/factory",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:11.287641-03:00",
+      "description": "Factory - Agent-Native Software Development. Contribute to Factory-AI/factory development by creating an account on GitHub.",
+      "summary": "This document introduces Factory, an agent-native development platform that uses autonomous agents like Droid to automate and accelerate software development workflows across various environments.",
+      "tags": [
+        "agent-native",
+        "software-development",
+        "autonomous-agents",
+        "developer-tools",
+        "cli",
+        "ai-agents"
+      ],
+      "category": "other",
+      "original_file_path": "factory-ai-factory.md"
+    },
+    {
+      "file_path": "184-zuudFXxg69.md",
+      "title": "zuudFXxg69",
+      "url": "https://discord.gg/zuudFXxg69",
+      "source": "llms",
+      "fetched_at": "2026-03-03T01:15:14.631631-03:00",
+      "summary": "The provided document is empty and does not contain any information or instructions to analyze.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "other",
+      "original_file_path": "zuudFXxg69.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-03-03T04:20:00Z",
+    "total_files": 115,
+    "categories": [
+      "Welcome & Index",
+      "Getting Started",
+      "Web Agent & Cloud",
+      "CLI Features",
+      "User Guides",
+      "Configuration",
+      "BYOK Model Providers",
+      "Account & Security",
+      "Integrations",
+      "Power User Guides",
+      "Skills Guides",
+      "Building & Droid Exec",
+      "Hooks Guides",
+      "Enterprise",
+      "Reference",
+      "API Reference",
+      "Changelog",
+      "Meta & Resources"
+    ]
+  }
+}

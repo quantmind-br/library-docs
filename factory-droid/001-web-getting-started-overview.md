@@ -1,0 +1,72 @@
+---
+title: Overview
+url: https://docs.factory.ai/web/getting-started/overview.md
+source: llms
+fetched_at: 2026-03-03T01:14:57.717544-03:00
+rendered_js: false
+word_count: 240
+summary: This document provides an introductory overview of the Factory App and Droid AI, detailing its core features, system compatibility, and benefits for engineering workflows.
+tags:
+    - factory-app
+    - droid-ai
+    - desktop-application
+    - software-development
+    - enterprise-security
+    - integrations
+category: concept
+---
+
+> ## Documentation Index
+> Fetch the complete documentation index at: https://docs.factory.ai/llms.txt
+> Use this file to discover all available pages before exploring further.
+
+# Overview
+
+> If it can be done on a computer, it can be done with a Droid.
+
+<Note>
+  **Research Preview**: The Factory App is now available for download on Mac and Windows.
+</Note>
+
+## Download and start in 30 seconds
+
+<CardGroup cols={3}>
+  <Card title="Mac (Apple Silicon)" icon="apple" href="https://app.factory.ai/api/desktop?platform=darwin&architecture=arm64">
+    Download for M1/M2/M3
+  </Card>
+
+  <Card title="Mac (Intel)" icon="apple" href="https://app.factory.ai/api/desktop?platform=darwin&architecture=x64">
+    Download for Intel
+  </Card>
+
+  <Card title="Windows" icon="windows" href="https://app.factory.ai/api/desktop?platform=win32">
+    Download for Windows
+  </Card>
+</CardGroup>
+
+Install, sign in, set your working directory, and start building. [Try the quickstart →](/web/getting-started/quickstart)
+
+## What the Factory App brings to your workflow
+
+* **Native desktop experience**: A dedicated app with Droid built-in — no browser tabs, no setup complexity. Just download and start coding.
+* **Local machine connection**: Work directly on your local filesystem with full access to your development environment, tools, and workflows.
+* **Deep codebase understanding**: Droid leverages your project context, documentation, and team knowledge to provide contextually aware assistance.
+* **Engineering system integration**: Connect to Jira, Notion, Slack, Linear, PagerDuty, and more — so development work stays synchronized with your team.
+
+## Why teams choose Factory
+
+* **Built for enterprise**: SOC-2 compliance, on-premise deployment options, and security-first design.
+* **Transparent and controllable**: Every change Droid proposes is visible and reviewable before approval.
+* **Model flexibility**: Choose from multiple AI models and route tasks to the best model for each job.
+
+## Next steps
+
+<CardGroup cols={2}>
+  <Card title="Quickstart" icon="rocket" href="/web/getting-started/quickstart">
+    Get up and running in 5 minutes
+  </Card>
+
+  <Card title="Integrations" icon="plug" href="/web/integrations/linear">
+    Connect Slack, Linear, and other tools
+  </Card>
+</CardGroup>

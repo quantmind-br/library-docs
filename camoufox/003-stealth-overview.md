@@ -1,18 +1,18 @@
 ---
 title: Stealth Overview | Camoufox
 url: https://camoufox.com/stealth/
-source: crawler
-fetched_at: 2026-02-14T14:05:26.836323-03:00
-rendered_js: true
+source: sitemap
+fetched_at: 2026-03-09T16:47:54.360201-03:00
+rendered_js: false
 word_count: 937
-summary: This document explains the technical mechanisms Camoufox uses to evade anti-bot detection, including its use of sandboxing, C++ level fingerprint spoofing, and isolated browser protocols.
+summary: This document explains the internal mechanisms Camoufox uses to evade anti-bot detection by isolating automation code, mimicking realistic user behavior, and rotating consistent browser fingerprints.
 tags:
-    - camoufox
     - anti-bot-evasion
-    - browser-fingerprinting
-    - playwright
-    - automation-stealth
-    - web-scraping
+    - fingerprint-spoofing
+    - javascript-isolation
+    - cdp-alternatives
+    - browserforge
+    - juggler
 category: concept
 ---
 

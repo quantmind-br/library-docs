@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "lastScanned": 1772247042894,
+  "lastScanned": 1773085964196,
   "projectRoot": "/Users/diogo/dev/library-docs",
   "techStack": {
     "languages": [],
@@ -36,7 +36,7 @@
       "path": "bifrost",
       "purpose": null,
       "fileCount": 392,
-      "lastAccessed": 1772247042845,
+      "lastAccessed": 1773085964164,
       "keyFiles": [
         "000-index.md",
         "001-bifrost-discord.md",
@@ -48,21 +48,21 @@
     "camoufox": {
       "path": "camoufox",
       "purpose": null,
-      "fileCount": 27,
-      "lastAccessed": 1772247042845,
+      "fileCount": 43,
+      "lastAccessed": 1773085964165,
       "keyFiles": [
-        "000-index.md",
-        "001-introduction.md",
-        "002-installation.md",
-        "003-stealth-overview.md",
-        "004-features-list.md"
+        "about.md",
+        "assets-fpgen-tree.md",
+        "development-buildcli.md",
+        "development-docker.md",
+        "development-overview.md"
       ]
     },
     "canvas-lms": {
       "path": "canvas-lms",
       "purpose": null,
       "fileCount": 460,
-      "lastAccessed": 1772247042848,
+      "lastAccessed": 1773085964166,
       "keyFiles": [
         "000-index.md",
         "001-services-ab-connect-introduction.md",
@@ -75,7 +75,7 @@
       "path": "claude-code",
       "purpose": null,
       "fileCount": 54,
-      "lastAccessed": 1772247042849,
+      "lastAccessed": 1773085964167,
       "keyFiles": [
         "000-index.md",
         "001-docs-en-overview.md",
@@ -88,7 +88,7 @@
       "path": "cliproxyapi",
       "purpose": null,
       "fileCount": 92,
-      "lastAccessed": 1772247042851,
+      "lastAccessed": 1773085964168,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -101,7 +101,7 @@
       "path": "cloudflare",
       "purpose": null,
       "fileCount": 1772,
-      "lastAccessed": 1772247042855,
+      "lastAccessed": 1773085964170,
       "keyFiles": [
         "000-index.md",
         "001-agents-getting-started-index.md",
@@ -114,7 +114,7 @@
       "path": "codex",
       "purpose": null,
       "fileCount": 46,
-      "lastAccessed": 1772247042856,
+      "lastAccessed": 1773085964171,
       "keyFiles": [
         "000-index.md",
         "001-codex-llms.txt.md",
@@ -127,7 +127,7 @@
       "path": "coolify",
       "purpose": null,
       "fileCount": 445,
-      "lastAccessed": 1772247042858,
+      "lastAccessed": 1773085964172,
       "keyFiles": [
         "000-index.md",
         "001-docs-get-started-cloud.md",
@@ -140,7 +140,7 @@
       "path": "crawl4ai",
       "purpose": null,
       "fileCount": 80,
-      "lastAccessed": 1772247042859,
+      "lastAccessed": 1773085964172,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -153,7 +153,7 @@
       "path": "crush",
       "purpose": null,
       "fileCount": 6,
-      "lastAccessed": 1772247042860,
+      "lastAccessed": 1773085964172,
       "keyFiles": [
         "000-index.md",
         "001-README.md",
@@ -166,7 +166,7 @@
       "path": "dankmaterialshell",
       "purpose": null,
       "fileCount": 152,
-      "lastAccessed": 1772247042861,
+      "lastAccessed": 1773085964173,
       "keyFiles": [
         "000-index.md",
         "001-blog-archive.md",
@@ -179,7 +179,7 @@
       "path": "docker",
       "purpose": null,
       "fileCount": 1208,
-      "lastAccessed": 1772247042865,
+      "lastAccessed": 1773085964175,
       "keyFiles": [
         "000-index.md",
         "001-build-bake-introduction.md",
@@ -188,24 +188,24 @@
         "004-dhi-explore-responsibility.md"
       ]
     },
-    "docs_docsyasbdev": {
-      "path": "docs_docsyasbdev",
+    "docs_ghosttyorg": {
+      "path": "docs_ghosttyorg",
       "purpose": null,
-      "fileCount": 69,
-      "lastAccessed": 1772247042865,
+      "fileCount": 80,
+      "lastAccessed": 1773085964175,
       "keyFiles": [
-        "dev-cli.md",
-        "dev-configuration.md",
-        "dev-installation.md",
-        "dev-keybindings.md",
-        "dev-styling.md"
+        "docs-about.md",
+        "docs-config-keybind-reference.md",
+        "docs-config-keybind-sequence.md",
+        "docs-config-keybind.md",
+        "docs-config-reference.md"
       ]
     },
     "dokploy": {
       "path": "dokploy",
       "purpose": null,
       "fileCount": 106,
-      "lastAccessed": 1772247042866,
+      "lastAccessed": 1773085964175,
       "keyFiles": [
         "000-index.md",
         "001-docs-core.md",
@@ -218,7 +218,7 @@
       "path": "dspy",
       "purpose": null,
       "fileCount": 137,
-      "lastAccessed": 1772247042866,
+      "lastAccessed": 1773085964176,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -227,24 +227,24 @@
         "004-faqs.md"
       ]
     },
-    "factory": {
-      "path": "factory",
+    "factory-droid": {
+      "path": "factory-droid",
       "purpose": null,
-      "fileCount": 100,
-      "lastAccessed": 1772247042867,
+      "fileCount": 117,
+      "lastAccessed": 1773085964176,
       "keyFiles": [
         "000-index.md",
-        "001-welcome.md",
-        "002-web-getting-started-overview.md",
-        "003-cli-getting-started-overview.md",
-        "004-web-agent-readiness-overview.md"
+        "000-welcome-index.md",
+        "001-web-getting-started-overview.md",
+        "002-web-getting-started-quickstart.md",
+        "003-cli-getting-started-overview.md"
       ]
     },
     "fastmcp": {
       "path": "fastmcp",
       "purpose": null,
       "fileCount": 80,
-      "lastAccessed": 1772247042867,
+      "lastAccessed": 1773085964177,
       "keyFiles": [
         "000-index.md",
         "001-getting-started-welcome.md",
@@ -257,7 +257,7 @@
       "path": "gemini-cli",
       "purpose": null,
       "fileCount": 73,
-      "lastAccessed": 1772247042868,
+      "lastAccessed": 1773085964177,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -270,7 +270,7 @@
       "path": "ghostty",
       "purpose": null,
       "fileCount": 81,
-      "lastAccessed": 1772247042868,
+      "lastAccessed": 1773085964177,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -283,7 +283,7 @@
       "path": "goose",
       "purpose": null,
       "fileCount": 136,
-      "lastAccessed": 1772247042868,
+      "lastAccessed": 1773085964178,
       "keyFiles": [
         "000-index.md",
         "001-goose-docs-quickstart.md",
@@ -296,7 +296,7 @@
       "path": "hyprland",
       "purpose": null,
       "fileCount": 94,
-      "lastAccessed": 1772247042869,
+      "lastAccessed": 1773085964179,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -309,7 +309,7 @@
       "path": "klipper",
       "purpose": null,
       "fileCount": 58,
-      "lastAccessed": 1772247042869,
+      "lastAccessed": 1773085964179,
       "keyFiles": [
         "000-index.md",
         "001-docs-README.md",
@@ -322,7 +322,7 @@
       "path": "komorebi",
       "purpose": null,
       "fileCount": 199,
-      "lastAccessed": 1772247042870,
+      "lastAccessed": 1773085964180,
       "keyFiles": [
         "000-index.md",
         "001-docs-index.md",
@@ -335,7 +335,7 @@
       "path": "litellm",
       "purpose": null,
       "fileCount": 734,
-      "lastAccessed": 1772247042871,
+      "lastAccessed": 1773085964181,
       "keyFiles": [
         "000-index.md",
         "001-docs-a2a.md",
@@ -348,7 +348,7 @@
       "path": "mitmproxy",
       "purpose": null,
       "fileCount": 55,
-      "lastAccessed": 1772247042871,
+      "lastAccessed": 1773085964181,
       "keyFiles": [
         "000-index.md",
         "001-stable.md",
@@ -361,7 +361,7 @@
       "path": "moodle",
       "purpose": null,
       "fileCount": 2722,
-      "lastAccessed": 1772247042876,
+      "lastAccessed": 1773085964184,
       "keyFiles": [
         "000-index.md",
         "0001-general-community-research.md",
@@ -374,7 +374,7 @@
       "path": "moonshot",
       "purpose": null,
       "fileCount": 28,
-      "lastAccessed": 1772247042877,
+      "lastAccessed": 1773085964184,
       "keyFiles": [
         "000-index.md",
         "001-kimi-cli-en-guides-getting-started.md",
@@ -387,7 +387,7 @@
       "path": "openai",
       "purpose": null,
       "fileCount": 119,
-      "lastAccessed": 1772247042877,
+      "lastAccessed": 1773085964184,
       "keyFiles": [
         "000-index.md",
         "001-docs-actions-introduction.md",
@@ -400,7 +400,7 @@
       "path": "opencode",
       "purpose": null,
       "fileCount": 36,
-      "lastAccessed": 1772247042877,
+      "lastAccessed": 1773085964185,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -413,7 +413,7 @@
       "path": "openrouter",
       "purpose": null,
       "fileCount": 182,
-      "lastAccessed": 1772247042877,
+      "lastAccessed": 1773085964185,
       "keyFiles": [
         "000-index.md",
         "001-activity-export.md",
@@ -422,11 +422,24 @@
         "004-anthropic-messages.md"
       ]
     },
+    "pi-mono": {
+      "path": "pi-mono",
+      "purpose": null,
+      "fileCount": 130,
+      "lastAccessed": 1773085964185,
+      "keyFiles": [
+        "000-index.md",
+        "001-README.md",
+        "002-packages-agent-README.md",
+        "003-packages-ai-README.md",
+        "004-packages-coding-agent-examples-extensions-doom-overlay-README.md"
+      ]
+    },
     "pydanticai": {
       "path": "pydanticai",
       "purpose": null,
       "fileCount": 153,
-      "lastAccessed": 1772247042878,
+      "lastAccessed": 1773085964186,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -439,7 +452,7 @@
       "path": "sketchybar",
       "purpose": null,
       "fileCount": 17,
-      "lastAccessed": 1772247042878,
+      "lastAccessed": 1773085964186,
       "keyFiles": [
         "000-index.md",
         "001-SketchyBar.md",
@@ -451,21 +464,21 @@
     "spotify-webapi": {
       "path": "spotify-webapi",
       "purpose": null,
-      "fileCount": 118,
-      "lastAccessed": 1772247042878,
+      "fileCount": 120,
+      "lastAccessed": 1773085964186,
       "keyFiles": [
-        "documentation-web-api-concepts-access-token.md",
-        "documentation-web-api-concepts-api-calls.md",
-        "documentation-web-api-concepts-apps.md",
-        "documentation-web-api-concepts-authorization.md",
-        "documentation-web-api-concepts-playlists.md"
+        "000-index.md",
+        "001-documentation-web-api.md",
+        "002-documentation-web-api-tutorials-getting-started.md",
+        "003-documentation-web-api-tutorials-client-credentials-flow.md",
+        "004-documentation-web-api-tutorials-code-flow.md"
       ]
     },
     "yabai": {
       "path": "yabai",
       "purpose": null,
       "fileCount": 11,
-      "lastAccessed": 1772247042879,
+      "lastAccessed": 1773085964187,
       "keyFiles": [
         "000-index.md",
         "001-wiki-home.md",
@@ -478,7 +491,7 @@
       "path": "yasb",
       "purpose": null,
       "fileCount": 11,
-      "lastAccessed": 1772247042879,
+      "lastAccessed": 1773085964187,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -491,7 +504,7 @@
       "path": "zai",
       "purpose": null,
       "fileCount": 90,
-      "lastAccessed": 1772247042879,
+      "lastAccessed": 1773085964187,
       "keyFiles": [
         "000-index.md",
         "001-guides-overview-overview.md",
@@ -504,7 +517,7 @@
       "path": "zellij",
       "purpose": null,
       "fileCount": 35,
-      "lastAccessed": 1772247042879,
+      "lastAccessed": 1773085964187,
       "keyFiles": [
         "000-index.md",
         "001-index.md",
@@ -517,7 +530,7 @@
       "path": "zencoder",
       "purpose": null,
       "fileCount": 91,
-      "lastAccessed": 1772247042879,
+      "lastAccessed": 1773085964187,
       "keyFiles": [
         "000-index.md",
         "001-get-started-introduction.md",
@@ -530,7 +543,7 @@
       "path": "zeroclaw",
       "purpose": null,
       "fileCount": 45,
-      "lastAccessed": 1772247042880,
+      "lastAccessed": 1773085964187,
       "keyFiles": [
         "000-index.md",
         "001-docs-README.md",
@@ -542,21 +555,51 @@
   },
   "hotPaths": [
     {
-      "path": "spotify-webapi/documentation-web-api-tutorials-getting-started.md",
-      "accessCount": 1,
-      "lastAccessed": 1772247158181,
+      "path": "camoufox/metadata.json",
+      "accessCount": 2,
+      "lastAccessed": 1773086140449,
       "type": "file"
     },
     {
-      "path": "spotify-webapi/documentation-web-api-reference-get-track.md",
-      "accessCount": 1,
-      "lastAccessed": 1772247230213,
+      "path": "camoufox/000-index.md",
+      "accessCount": 2,
+      "lastAccessed": 1773087045471,
       "type": "file"
     },
     {
-      "path": "spotify-webapi/000-index.md",
+      "path": "camoufox",
       "accessCount": 1,
-      "lastAccessed": 1772247636386,
+      "lastAccessed": 1773085977935,
+      "type": "directory"
+    },
+    {
+      "path": "camoufox/rename_docs.sh",
+      "accessCount": 1,
+      "lastAccessed": 1773086013727,
+      "type": "file"
+    },
+    {
+      "path": "camoufox/001-introduction.md",
+      "accessCount": 1,
+      "lastAccessed": 1773087050068,
+      "type": "file"
+    },
+    {
+      "path": "camoufox/005-python-installation.md",
+      "accessCount": 1,
+      "lastAccessed": 1773087050455,
+      "type": "file"
+    },
+    {
+      "path": "camoufox/006-python-usage.md",
+      "accessCount": 1,
+      "lastAccessed": 1773087050997,
+      "type": "file"
+    },
+    {
+      "path": "camoufox/004-python-interface.md",
+      "accessCount": 1,
+      "lastAccessed": 1773087051030,
       "type": "file"
     }
   ],

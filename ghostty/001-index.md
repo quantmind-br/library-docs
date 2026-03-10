@@ -2,17 +2,16 @@
 title: Ghostty
 url: https://ghostty.org/
 source: crawler
-fetched_at: 2026-02-11T01:43:02.452098-03:00
+fetched_at: 2026-03-10T06:35:00.843935-03:00
 rendered_js: true
 word_count: 18
-summary: Ghostty is a high-performance, cross-platform terminal emulator that leverages GPU acceleration and native user interface components.
+summary: Ghostty is a cross-platform terminal emulator emphasizing speed, rich features, and performance through native UI and GPU acceleration.
 tags:
     - terminal-emulator
-    - gpu-acceleration
     - cross-platform
-    - native-ui
-    - ghostty
-category: other
+    - gpu-acceleration
+    - software-tool
+category: reference
 ---
 
 Ghostty is a fast, feature-rich, and cross-platform terminal emulator that uses platform-native UI and GPU acceleration.

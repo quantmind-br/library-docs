@@ -555,6 +555,12 @@
   },
   "hotPaths": [
     {
+      "path": "ghostty/metadata.json",
+      "accessCount": 4,
+      "lastAccessed": 1773135480730,
+      "type": "file"
+    },
+    {
       "path": "camoufox/metadata.json",
       "accessCount": 2,
       "lastAccessed": 1773086140449,
@@ -564,6 +570,12 @@
       "path": "camoufox/000-index.md",
       "accessCount": 2,
       "lastAccessed": 1773087045471,
+      "type": "file"
+    },
+    {
+      "path": "oh-my-pi/metadata.json",
+      "accessCount": 2,
+      "lastAccessed": 1773135207833,
       "type": "file"
     },
     {
@@ -600,6 +612,36 @@
       "path": "camoufox/004-python-interface.md",
       "accessCount": 1,
       "lastAccessed": 1773087051030,
+      "type": "file"
+    },
+    {
+      "path": "oh-my-pi/rename-files.sh",
+      "accessCount": 1,
+      "lastAccessed": 1773134994094,
+      "type": "file"
+    },
+    {
+      "path": "oh-my-pi/000-index.md",
+      "accessCount": 1,
+      "lastAccessed": 1773135278703,
+      "type": "file"
+    },
+    {
+      "path": "ghostty",
+      "accessCount": 1,
+      "lastAccessed": 1773135436302,
+      "type": "directory"
+    },
+    {
+      "path": "ghostty/rename-docs.sh",
+      "accessCount": 1,
+      "lastAccessed": 1773135571330,
+      "type": "file"
+    },
+    {
+      "path": "ghostty/000-index.md",
+      "accessCount": 1,
+      "lastAccessed": 1773136201973,
       "type": "file"
     }
   ],

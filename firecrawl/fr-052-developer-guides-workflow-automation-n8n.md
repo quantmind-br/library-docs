@@ -1,0 +1,629 @@
+---
+title: Firecrawl + n8n - Firecrawl Docs
+url: https://docs.firecrawl.dev/fr/developer-guides/workflow-automation/n8n
+source: sitemap
+fetched_at: 2026-03-23T07:27:21.293901-03:00
+rendered_js: false
+word_count: 3719
+summary: This guide provides an introduction to integrating Firecrawl with n8n to automate web scraping workflows without writing code, covering account setup and platform installation.
+tags:
+    - web-scraping
+    - automation-workflow
+    - n8n
+    - firecrawl
+    - data-extraction
+    - low-code
+category: guide
+---
+
+## Introduction à Firecrawl et n8n
+
+L’automatisation du web scraping est devenue essentielle pour les entreprises modernes. Que vous ayez besoin de surveiller les prix des concurrents, d’agréger du contenu, de générer des leads ou d’alimenter des applications d’IA avec des données en temps réel, l’association de Firecrawl et n8n offre une solution puissante sans exiger de compétences en programmation. ![Intégration de Firecrawl et n8n](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/firecrawl-n8n-integration-hero.png?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=cb863000a893ef260cfe023e2455c88c) **Qu’est-ce que n8n ?** n8n est une plateforme open source d’automatisation de workflows qui connecte différents outils et services. Imaginez un environnement de programmation visuel où vous faites glisser des nœuds sur un canevas, les reliez et créez des workflows automatisés. Avec plus de 400 intégrations, n8n vous permet de concevoir des automatisations complexes sans écrire de code.
+
+## Pourquoi utiliser Firecrawl avec n8n ?
+
+Le scraping web traditionnel présente plusieurs défis. Les scripts personnalisés se brisent lorsque les sites mettent à jour leur structure. Les systèmes antibots bloquent les requêtes automatisées. Les sites fortement dépendants de JavaScript ne s’affichent pas correctement. L’infrastructure requiert une maintenance continue. Firecrawl gère ces complexités techniques côté scraping, tandis que n8n fournit le framework d’automatisation. Ensemble, ils vous permettent de créer des workflows prêts pour la production qui :
+
+- Extraient des données de n’importe quel site web de manière fiable
+- Connectent les données extraites à d’autres outils métiers
+- S’exécutent selon des programmations ou sont déclenchés par des événements
+- Passent de tâches simples à des pipelines complexes
+
+Ce guide vous explique comment configurer les deux plateformes et créer votre premier workflow de scraping à partir de zéro.
+
+## Étape 1 : Créez votre compte Firecrawl
+
+Firecrawl fournit les fonctionnalités de web scraping pour vos workflows. Configurons votre compte et récupérons vos identifiants d’API.
+
+### Inscrivez-vous à Firecrawl
+
+1. Ouvrez [firecrawl.dev](https://firecrawl.dev) dans votre navigateur
+2. Cliquez sur le bouton « Get Started » ou « Sign Up »
+3. Créez un compte avec votre adresse e-mail ou votre compte GitHub
+4. Vérifiez votre e-mail si cela vous est demandé
+
+### Obtenez votre clé API
+
+Après vous être connecté, vous aurez besoin d’une clé API pour connecter Firecrawl à n8n :
+
+1. Accédez à votre tableau de bord Firecrawl
+2. Ouvrez la [page des clés API](https://www.firecrawl.dev/app/api-keys)
+3. Cliquez sur « Create New API Key »
+4. Donnez à votre clé un nom explicite (p. ex. « Intégration n8n »)
+5. Copiez la clé API générée et conservez-la en lieu sûr
+
+![Firecrawl api key section](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/firecrawl-api-key-creation-dashboard.gif?s=2c04559b9027dfe825e3ba7d78af8527)
+
+Firecrawl offre des crédits gratuits lors de l’inscription, suffisants pour tester vos workflows et terminer ce tutoriel.
+
+## Étape 2 : Configurer n8n
+
+n8n propose deux options de déploiement : hébergée dans le cloud ou auto-hébergée. Pour débuter, la version cloud est le moyen le plus rapide de se lancer.
+
+### Choisissez votre version de n8n
+
+**n8n Cloud (recommandé pour les débutants) :**
+
+- Aucune installation requise
+- Forfait gratuit disponible
+- Infrastructure managée
+- Mises à jour automatiques
+
+**Auto‑hébergé :**
+
+- Contrôle total des données
+- Exécution sur vos propres serveurs
+- Nécessite l’installation de Docker
+- Idéal pour les utilisateurs avancés avec des exigences de sécurité spécifiques
+
+Choisissez l’option qui correspond à vos besoins. Les deux options mènent à la même interface de l’éditeur de workflows.
+
+### Option A : n8n Cloud (recommandé pour les débutants)
+
+1. Rendez-vous sur [n8n.cloud](https://n8n.cloud)
+2. Cliquez sur « Start Free » ou « Sign Up »
+3. Inscrivez-vous avec votre adresse e-mail ou votre compte GitHub
+4. Terminez la vérification
+5. Vous serez dirigé vers votre tableau de bord n8n
+
+![Page d’accueil n8n Cloud avec les options d’inscription](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-cloud-signup-homepage.png?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=7965f6fab8bd1d48b81db7c1dbed1e7f) L’offre gratuite inclut tout le nécessaire pour créer et tester des workflows. Vous pourrez passer à une offre supérieure plus tard si vous avez besoin de plus de temps d’exécution ou de fonctionnalités avancées.
+
+### Option B: Auto-hébergement avec Docker
+
+Si vous préférez exécuter n8n sur votre propre infrastructure, vous pouvez le configurer rapidement avec Docker. **Prérequis :**
+
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installé sur votre ordinateur
+- Connaissances de base de la ligne de commande/du terminal
+
+**Étapes d’installation :**
+
+1. Ouvrez votre terminal ou votre invite de commandes
+2. Créez un volume Docker pour conserver les données de vos workflows :
+
+```
+docker volume create n8n_data
+```
+
+Ce volume enregistre vos workflows, vos identifiants et l’historique d’exécution afin qu’ils soient conservés même si vous redémarrez le conteneur.
+
+3. Exécutez le conteneur Docker n8n :
+
+```
+docker run -it --rm --name n8n -p 5678:5678 -v n8n_data:/home/node/.n8n docker.n8n.io/n8nio/n8n
+```
+
+![Terminal affichant l’exécution des commandes Docker avec le démarrage de n8n](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-docker-self-hosted-installation.gif?s=4968ecd0996ef3e76dc0abb886ae52ca)
+
+4. Attendez que n8n démarre. Vous verrez des logs indiquant que le serveur est opérationnel
+5. Ouvrez votre navigateur et rendez-vous sur `http://localhost:5678`
+6. Créez votre compte n8n en vous inscrivant avec une adresse e‑mail
+
+![Écran d’accueil de n8n auto‑hébergé sur localhost:5678](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-localhost-registration-form.gif?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=163949933d76425a68ec728639e767ea) Votre instance n8n auto‑hébergée tourne maintenant en local. L’interface est identique à n8n Cloud, vous pouvez donc suivre le reste de ce guide quelle que soit l’option choisie.
+
+### Comprendre l’interface de n8n
+
+Lorsque vous vous connectez à n8n pour la première fois, vous voyez le tableau de bord principal : ![n8n dashboard showing the workflow list view with "Create new workflow" button](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-dashboard-workflow-list.png?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=5d92092b94fd021c2cebf163c2ef4d01) Éléments clés de l’interface :
+
+- **Workflows** : vos automatisations enregistrées apparaissent ici
+- **Executions** : historique des exécutions de workflows
+- **Credentials** : clés d’API et jetons d’authentification stockés
+- **Settings** : configuration du compte et de l’espace de travail
+
+Cliquez sur « Create New Workflow » pour ouvrir l’éditeur de workflows.
+
+### Le canevas de workflow
+
+L’éditeur de workflow est l’endroit où vous allez créer vos automatisations : ![Canevas de workflow n8n vide avec le bouton « + » visible au centre](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-empty-workflow-canvas.png?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=7508078e88b57ccedc2a4d4a258fddf8) Éléments importants :
+
+- **Canevas** : la zone principale où vous placez et connectez des nœuds
+- **Bouton Ajouter un nœud (+)** : cliquez pour ajouter de nouveaux nœuds à votre workflow
+- **Panneau des nœuds** : s’ouvre lorsque vous cliquez sur « + », affichant tous les nœuds disponibles
+- **Exécuter le workflow** : exécute votre workflow manuellement pour le tester
+- **Enregistrer** : enregistre la configuration de votre workflow
+
+Créons votre premier workflow en ajoutant le nœud Firecrawl.
+
+## Étape 3 : Installer et configurer le nœud Firecrawl
+
+n8n propose une prise en charge native de Firecrawl. Vous allez installer le nœud et le connecter à votre compte Firecrawl à l’aide de la clé API que vous avez créée précédemment.
+
+### Ajoutez le nœud Firecrawl à votre workflow
+
+1. Sur le canevas de votre nouveau workflow, cliquez sur le bouton « + » au centre
+2. Le panneau de sélection des nœuds s’ouvre sur la droite
+3. Dans la barre de recherche en haut, tapez « Firecrawl »
+4. Le nœud Firecrawl apparaît dans les résultats de recherche
+
+<!--THE END-->
+
+![Cliquer sur le bouton +, taper "Firecrawl" dans la recherche, et le nœud Firecrawl apparaissant](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-search-install-firecrawl-node.gif?s=6d81f8bf967429cfaf2bcf22c3976fbf)
+
+5. Cliquez sur « Install » à côté du nœud Firecrawl
+6. Patientez le temps que l’installation se termine (quelques secondes)
+7. Une fois installé, cliquez sur le nœud Firecrawl pour l’ajouter à votre canevas
+
+![Nœud Firecrawl maintenant ajouté au canevas, affiché comme une boîte avec le logo Firecrawl](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-firecrawl-node-added-canvas.gif?s=d7480ebf8ef357fba9a0c5ee5123ffc8) Le nœud Firecrawl apparaît sur votre canevas sous forme de boîte avec le logo Firecrawl. Ce nœud représente une opération Firecrawl dans votre workflow.
+
+### Connectez votre clé API Firecrawl
+
+Avant de pouvoir utiliser le nœud Firecrawl, vous devez l’authentifier avec votre clé API :
+
+1. Cliquez sur le nœud Firecrawl pour ouvrir son panneau de configuration à droite
+2. En haut, vous verrez un menu déroulant « Identifiant de connexion »
+3. Comme c’est la première fois, cliquez sur « Créer un nouvel identifiant »
+
+<!--THE END-->
+
+![Panneau de configuration du nœud Firecrawl affichant le menu déroulant des identifiants avec l’option « Create New Credential »](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-firecrawl-api-credentials-setup.gif?s=547bda13daeb17dd963160a8ef4bbf48)
+
+4. Une fenêtre de configuration d’identifiant s’ouvre
+5. Saisissez un nom pour cet identifiant (p. ex. « Mon compte Firecrawl »)
+6. Collez votre clé API Firecrawl dans le champ « API Key »
+7. Cliquez sur « Enregistrer » en bas
+
+L’identifiant est maintenant enregistré dans n8n. Vous n’aurez plus besoin de saisir votre clé API pour les prochains nœuds Firecrawl.
+
+### Testez votre connexion
+
+Vérifions que votre nœud Firecrawl est correctement connecté :
+
+1. Avec le nœud Firecrawl toujours sélectionné, ouvrez le panneau de configuration
+2. Dans la liste déroulante « Resource », sélectionnez « Scrape a url and get its content »
+3. Dans le champ « URL », saisissez : `https://firecrawl.dev`
+4. Laissez les autres paramètres à leurs valeurs par défaut pour l’instant
+5. Cliquez sur le bouton « Test step » en bas à droite du nœud
+
+![Sélection de l’opération Scrape, saisie de l’URL firecrawl.dev et clic sur le bouton Test step](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-firecrawl-test-connection-scrape.gif?s=a5a832a971778744a6ceaf9d2ff0cdb1) Si tout est correctement configuré, le contenu extrait de example.com apparaîtra dans le panneau de sortie sous le nœud. Félicitations ! Votre nœud Firecrawl est maintenant connecté et opérationnel.
+
+## Étape 4 : Créez votre bot Telegram
+
+Avant de créer votre premier workflow, vous aurez besoin d’un bot Telegram pour recevoir des notifications. Les bots Telegram sont gratuits et faciles à créer via BotFather.
+
+### Créer un bot avec BotFather
+
+1. Ouvrez Telegram sur votre téléphone ou votre ordinateur.
+2. Recherchez « @BotFather » (le bot officiel de Telegram).
+3. Lancez une conversation avec BotFather en cliquant sur « Start ».
+4. Envoyez la commande `/newbot` pour créer un nouveau bot.
+5. BotFather vous demandera de choisir un nom pour votre bot (c’est le nom d’affichage que les utilisateurs verront).
+6. Saisissez un nom comme « My Firecrawl Bot ».
+7. Ensuite, choisissez un nom d’utilisateur pour votre bot. Il doit se terminer par « bot » (p. ex. « my\_firecrawl\_updates\_bot »).
+8. Si le nom d’utilisateur est disponible, BotFather créera votre bot et vous enverra un message avec le jeton de votre bot.
+
+![Création d’un bot avec BotFather, montrant l’intégralité du flux de conversation](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/telegram-botfather-create-new-bot.png?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=45ee39deae96fbc3eac5fdb2eeba2e0b)
+
+### Récupérer votre ID de chat
+
+Pour vous envoyer des messages, vous avez besoin de votre ID de chat Telegram :
+
+1. Ouvrez votre navigateur et accédez à cette URL (remplacez `YOUR_BOT_TOKEN` par le jeton réel de votre bot) :
+   
+   ```
+   https://api.telegram.org/botYOUR_BOT_TOKEN/getUpdates
+   ```
+2. Laissez cet onglet de navigateur ouvert
+3. Recherchez maintenant le nom d’utilisateur de votre bot dans Telegram (celui que vous venez de créer)
+4. Démarrez une conversation avec votre bot en cliquant sur « Start »
+5. Envoyez n’importe quel message à votre bot (par exemple « hello »)
+6. Revenez à l’onglet du navigateur et actualisez la page
+7. Repérez le champ `"chat":{"id":` dans la réponse JSON
+8. Le numéro à côté de `"id":` est votre ID de chat (par exemple `123456789`)
+9. Conservez cet ID de chat pour plus tard
+
+![Browser showing Telegram API getUpdates response with chat ID highlighted](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/telegram-api-get-chat-id-browser.gif?s=e074ecf1a659bdfa7284e86c923be06f)
+
+Vous avez maintenant tout le nécessaire pour intégrer Telegram à vos workflows n8n.
+
+## Étape 5 : Créer des workflows pratiques avec Telegram
+
+Créons maintenant trois workflows concrets qui envoient des informations directement sur votre Telegram. Ces exemples illustrent différentes opérations Firecrawl et la manière de les intégrer à des notifications Telegram.
+
+### Exemple 1 : résumé quotidien des mises à jour produit de Firecrawl
+
+Recevez chaque matin, sur Telegram, un résumé des mises à jour produit de Firecrawl. **Ce que vous allez créer :**
+
+- Récupère le blog des mises à jour produit de Firecrawl chaque jour à 9 h
+- Utilise l’IA pour générer un résumé du contenu
+- Envoie le résumé sur Telegram
+
+**Étape par étape :**
+
+1. Créez un nouveau workflow dans n8n
+2. Ajoutez un nœud **Schedule Trigger** :
+   
+   - Cliquez sur le bouton « + » sur le canevas
+   - Recherchez « Schedule Trigger »
+   - Configurez : Tous les jours à 9:00
+
+<!--THE END-->
+
+![Schedule Trigger configured for daily 9 AM execution](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-schedule-trigger-daily-cron.gif?s=ae68cd74cdf14a1d012861df8319b245)
+
+3. Ajoutez le nœud **Firecrawl** :
+   
+   - Cliquez sur « + » à côté de Schedule Trigger
+   - Recherchez et ajoutez « Firecrawl »
+   - Sélectionnez vos identifiants Firecrawl
+   - Configurez :
+     
+     - **Resource** : Scrape a url and get its content
+     - **URL** : `https://www.firecrawl.dev/blog/category/product-updates`
+     - **Formats** : Select “Summary”
+
+<!--THE END-->
+
+![Adding and configuring Firecrawl node with the blog URL and Summary format selected](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-firecrawl-scrape-blog-summary.gif?s=ad1684f165aacd7ab5d1530cdac73962)
+
+4. Ajoutez le nœud **Telegram** :
+   
+   - Cliquez sur « + » à côté de Firecrawl
+   - Recherchez « Telegram »
+   - Cliquez sur « Send a text message » pour l’ajouter au canevas
+5. Configurez les identifiants Telegram :
+   
+   - Cliquez sur le nœud Telegram pour ouvrir sa configuration
+   - Dans la liste déroulante « Credential to connect with », cliquez sur « Create New Credential »
+   - Collez le jeton de votre bot depuis BotFather
+   - Cliquez sur « Save »
+
+<!--THE END-->
+
+![Telegram credential configuration with bot token field](https://mintlify.s3.us-west-1.amazonaws.com/firecrawl/images/guides/n8n/n8n-telegram-bot-token-credentials.gif)
+
+6. Configurez le message Telegram :
+   
+   - **Operation** : Send Message
+   - **Chat ID** : Saisissez votre identifiant de chat
+   - **Text** : Laissez pour l’instant un message « hello »
+   - Cliquez sur **Execute step** pour tester l’envoi d’un message tout en recevant le résumé depuis Firecrawl.
+
+<!--THE END-->
+
+![Configuring Telegram node and mapping the summary field to the message text](https://mintlify.s3.us-west-1.amazonaws.com/firecrawl/images/guides/n8n/n8n-test-telegram-message-firecrawl.gif)
+
+- Avec la structure de résumé de Firecrawl, ajoutez le résumé au texte du message en faisant glisser le champ `summary` depuis la sortie du nœud Firecrawl.
+
+<!--THE END-->
+
+7. Testez le workflow :
+   
+   - Cliquez sur « Execute Workflow »
+   - Vérifiez sur Telegram que vous recevez le message récapitulatif
+
+<!--THE END-->
+
+![Complete workflow showing Schedule Trigger → Firecrawl → Telegram with all nodes connected](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-workflow-complete-firecrawl-telegram.png?fit=max&auto=format&n=ATrkZnTEGYY5UO9D&q=85&s=1c3eacbcb705c21c6265ae3ecbd59d59)
+
+8. Activez le workflow en basculant l’interrupteur « Active »
+
+Votre bot Telegram vous enverra désormais chaque matin à 9 h un résumé des mises à jour produit de Firecrawl.
+
+### Exemple 2 : Recherche d’actu IA vers Telegram
+
+Ce workflow utilise l’opération Search de Firecrawl pour trouver des actus IA et envoyer des résultats formatés vers Telegram. **Principales différences par rapport à l’exemple 1 :**
+
+- Utilise un **Manual Trigger** au lieu de Schedule (exécution à la demande)
+- Utilise l’opération **Search** au lieu de Scrape
+- Inclut un nœud **Code** pour formater plusieurs résultats
+
+**Créer le workflow :**
+
+1. Créez un nouveau workflow et ajoutez un nœud **Manual Trigger**
+2. Ajoutez un nœud **Firecrawl** avec les paramètres suivants :
+   
+   - **Resource** : Search et, en option, scrape des résultats de recherche
+   - **Query** : `ai news`
+   - **Limit** : 5
+
+<!--THE END-->
+
+![Firecrawl Search node configuration with "ai news" query](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-firecrawl-search-ai-news-results.gif?s=23eb224783b0b3155d179a0342839621)
+
+3. Ajoutez un nœud **Code** pour formater les résultats de recherche :
+   
+   - Sélectionnez « Run Once for All Items »
+   - Collez ce code :
+
+```
+const results = $input.all();
+let message = "Dernières actualités IA :\n\n";
+
+results.forEach((item) => {
+  const webData = item.json.data.web;
+  webData.forEach((article, index) => {
+    message += `${index + 1}. ${article.title}\n`;
+    message += `${article.description}\n`;
+    message += `${article.url}\n\n`;
+  });
+});
+
+return [{ json: { message } }];
+```
+
+![Ajout du nœud Code et collage du script de formatage](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-code-node-format-news-articles.gif?s=cafb96e0b7f2ef27a09ae2957390799b)
+
+4. Mettez à jour le nœud **Telegram** (en utilisant vos identifiants enregistrés) :
+   
+   - **Texte** : Faites glisser le champ `message` depuis le nœud Code
+
+![Exécution complète du workflow avec envoi des actualités IA sur Telegram](https://mintlify.s3.us-west-1.amazonaws.com/firecrawl/images/guides/n8n/n8n-execute-workflow-telegram-delivery.gif)
+
+### Exemple 3 : Résumé d’actualités alimenté par l’IA
+
+Ce workflow ajoute de l’IA à l’Exemple 2 en utilisant OpenAI pour générer des résumés pertinents des dernières actualités IA avant l’envoi sur Telegram. **Principales différences avec l’Exemple 2 :**
+
+- Ajouter la configuration des **identifiants OpenAI**
+- Ajouter un nœud **AI Agent** entre Code et Telegram
+- L’AI Agent analyse et résume intelligemment tous les articles
+- Telegram reçoit le résumé généré par l’IA au lieu d’une liste brute d’actualités
+
+**Modifier le workflow :**
+
+1. **Obtenez votre clé d’API OpenAI** :
+   
+   - Allez sur [platform.openai.com/api-keys](https://platform.openai.com/api-keys)
+   - Connectez-vous ou créez un compte
+   - Cliquez sur « **Create new secret key** »
+   - Donnez-lui un nom (p. ex. : « n8n Integration »)
+   - Copiez immédiatement la clé d’API (vous ne pourrez plus l’afficher ensuite)
+
+<!--THE END-->
+
+![OpenAI dashboard showing API key creation](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/openai-api-key-creation-dashboard.gif?s=8222a339a403f85272102256fa91fc27)
+
+2. **Ajoutez et connectez le nœud AI Agent** :
+   
+   - Cliquez sur « **+** » après le nœud Code
+   - Recherchez « **Basic LLM Chain** » ou « **AI Agent** »
+   - Faites glisser le champ `message` du nœud Code vers le champ d’invite de l’AI Agent
+   - Sélectionnez **OpenAI** comme fournisseur LLM
+
+<!--THE END-->
+
+![Adding AI Agent node, dragging input from Code node, and connecting OpenAI as LLM](https://mintlify.s3.us-west-1.amazonaws.com/firecrawl/images/guides/n8n/n8n-ai-agent-openai-llm-setup.gif)
+
+3. **Ajoutez vos identifiants OpenAI** :
+   
+   - Cliquez sur « **Create New Credential** » pour OpenAI
+   - Collez votre clé d’API OpenAI
+   - Sélectionnez le modèle : **gpt-5-mini** (économique) ou **gpt-5** (plus performant)
+   - Cliquez sur « **Save** »
+
+<!--THE END-->
+
+![Adding OpenAI credentials to the AI Agent node](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-openai-credentials-gpt-model.gif?s=c97249f572e8d530583918ebc3357d53)
+
+4. **Ajoutez le prompt système à l’AI Agent** :
+   
+   - Dans le nœud AI Agent, ajoutez ce prompt système :
+
+```
+Vous êtes un analyste de l'actualité IA. Analysez les articles d'actualité IA fournis et créez un résumé concis et pertinent mettant en évidence les développements et tendances les plus importants.
+Regroupez les sujets connexes et expliquez pourquoi ces développements sont importants.
+Rédigez le résumé dans un style conversationnel et engageant, en 3 à 4 paragraphes environ.
+```
+
+![Ajout de l’invite système au nœud AI Agent](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-ai-agent-system-prompt-configuration.gif?s=45c34c7010aa6319f8d4dde84c6e5ab9)
+
+5. **Mettre à jour le nœud Telegram et tester** :
+   
+   - Mettre à jour le nœud Telegram :
+     
+     - **Text** : Faites glisser la sortie de l’AI Agent (le résumé généré)
+     - Supprimez l’ancien mappage vers le message du nœud Code
+   - Cliquez sur « **Execute Workflow** » pour tester
+   - L’IA analysera tous les articles d’actualité et générera un résumé
+   - Vérifiez Telegram pour retrouver le résumé généré par l’IA
+
+![Exécution complète du workflow avec résumé généré par l’IA envoyé à Telegram](https://mintlify.s3.us-west-1.amazonaws.com/firecrawl/images/guides/n8n/n8n-ai-summary-telegram-workflow-execution.gif)
+
+## Comprendre les opérations Firecrawl
+
+Maintenant que vous avez créé quelques workflows, explorons les différentes opérations Firecrawl disponibles dans n8n. Chaque opération est conçue pour des cas d’usage spécifiques de scraping web.
+
+Extrait le contenu d’une page web et le renvoie dans divers formats. **Ce que ça fait :**
+
+- Extrait une seule URL
+- Renvoie du Markdown propre, du HTML ou des résumés générés par l’IA
+- Peut prendre des captures d’écran et extraire des liens
+
+**Idéal pour :**
+
+- Extraction d’articles
+- Suivi de pages produit
+- Extraction d’articles de blog
+- Génération de résumés de pages
+
+**Exemple de cas d’usage :** Résumés quotidiens de blogs (comme l’exemple 1 ci-dessus)
+
+Effectue des recherches sur le web et renvoie des résultats avec possibilité d’extraction de contenu. **Ce que cela fait :**
+
+- Recherche sur le web, dans l’actualité ou les images
+- Renvoie les titres, descriptions et URL
+- Peut extraire le contenu complet des résultats
+
+**Idéal pour :**
+
+- Automatisation de la recherche
+- Veille d’actualité
+- Découverte de tendances
+- Recherche de contenu pertinent
+
+**Exemple d’utilisation :** agrégation d’actualités par IA (comme l’exemple 2 ci-dessus)
+
+### Explorer un site web
+
+Découvre et extrait de manière récursive plusieurs pages d’un site web. **Ce que ça fait :**
+
+- Suit automatiquement les liens
+- Extrait plusieurs pages en une seule opération
+- Peut filtrer les URL selon des modèles
+
+**Idéal pour :**
+
+- Extraction complète de documentation
+- Archivage de site
+- Collecte de données multi-pages
+
+### Cartographier un site web et obtenir des URL
+
+Renvoie toutes les URL trouvées sur un site web sans en extraire le contenu. **Ce que ça fait :**
+
+- Découvre tous les liens d’un site
+- Renvoie une liste d’URL propre
+- Rapide et léger
+
+**Idéal pour :**
+
+- Découverte d’URL
+- Génération de sitemap
+- Planification de crawls plus importants
+
+Utilise l’IA pour extraire des informations structurées à partir d’invites ou de schémas personnalisés. **Fonctionnalités :**
+
+- Extraction de données pilotée par l’IA
+- Renvoie les données dans le format que vous spécifiez
+- Fonctionne sur plusieurs pages
+
+**Idéal pour :**
+
+- Extraction de données personnalisée
+- Création de bases de données
+- Collecte d’informations structurées
+
+### Scraping par lots
+
+Extrait efficacement plusieurs URL en parallèle. **À quoi ça sert :**
+
+- Traite plusieurs URL simultanément
+- Plus efficace que des boucles
+- Renvoie tous les résultats en une seule fois
+
+**Idéal pour :**
+
+- Traiter des listes d’URL
+- Collecte de données en masse
+- Projets de scraping à grande échelle
+
+### Agent
+
+Utilise un agent IA pour naviguer et extraire de manière autonome des données de sites web à partir d’un prompt en langage naturel. **Ce qu’il fait :**
+
+- Accepte un prompt décrivant les données dont vous avez besoin
+- L’agent IA navigue et extrait les informations de façon autonome
+- Disponible en mode **Sync** (attend les résultats) et en mode **Async** (retourne immédiatement un ID de tâche)
+- Utilisez **Get Agent Status** pour interroger les résultats lorsque vous utilisez le mode Async
+
+**Idéal pour :**
+
+- Collecte de données complexe sur plusieurs pages guidée par un prompt
+- Extraction d’informations lorsque vous ne connaissez pas la structure exacte des pages
+- Tâches de recherche nécessitant la navigation sur plusieurs pages
+
+**Sync vs. Async :**
+
+- **Agent (Sync)** démarre la tâche et attend le résultat en une seule étape — le plus simple pour la plupart des cas d’utilisation. Le paramètre **Max Wait Time** contrôle la durée pendant laquelle le nœud interroge avant d’expirer (par défaut : 300 secondes, maximum : 600 secondes). Si la tâche de l’agent prend plus de temps, le nœud retourne un état d’expiration même si la tâche peut toujours se terminer du côté de Firecrawl. Pour les tâches susceptibles de dépasser 10 minutes, utilisez plutôt le mode async.
+- **Agent (Async)** retourne immédiatement un ID de tâche. Ajoutez un second nœud Firecrawl avec l’opération **Get Agent Status** pour récupérer les résultats une fois la tâche terminée.
+
+Pour plus de détails sur la fonctionnalité Agent, consultez la [documentation Agent](https://docs.firecrawl.dev/fr/features/agent).
+
+## Modèles de workflows et exemples
+
+Plutôt que de tout construire vous‑même, commencez avec des modèles prêts à l’emploi. La communauté n8n a créé de nombreux workflows Firecrawl que vous pouvez copier et personnaliser.
+
+### Modèles à la une
+
+Pour utiliser un modèle de la communauté n8n :
+
+1. Cliquez sur un lien de modèle de workflow
+2. Cliquez sur le bouton « Import template to localhost:5678 self-hosted instance » sur la page du modèle
+3. Le workflow s’ouvre dans votre instance n8n
+4. Configurez les identifiants pour chaque nœud
+5. Personnalisez les paramètres selon votre cas d’usage
+6. Activez le workflow
+
+![Import d’un modèle depuis n8n.io, montrant le bouton d’import et le workflow apparaissant dans n8n](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-workflow-import.gif?s=5bd77d25fa2dc525e0032a483803fd00)
+
+## Bonnes pratiques
+
+Suivez ces recommandations pour créer des workflows fiables et performants :
+
+### Tests et débogage
+
+- Testez toujours les workflows manuellement avant d’activer les programmations
+- Utilisez le bouton “**Execute Workflow**” pour tester l’ensemble du flux
+- Vérifiez les données de sortie à chaque nœud pour en confirmer l’exactitude
+- Utilisez l’onglet “**Executions**” pour consulter les exécutions précédentes et diagnostiquer les problèmes
+
+![Onglet Executions affichant l’historique d’exécution du workflow avec horodatage et statut](https://mintcdn.com/firecrawl/ATrkZnTEGYY5UO9D/images/guides/n8n/n8n-debugging.gif?s=2962335b6f72ea39cf6cb68cb6ed83c3)
+
+### Gestion des erreurs
+
+- Ajoutez des nœuds Error Trigger pour intercepter et gérer les échecs
+- Configurez des notifications en cas d’échec des workflows
+- Utilisez le paramètre « Continue On Fail » pour les nœuds non critiques
+- Surveillez régulièrement l’exécution de vos workflows
+
+### Optimisation des performances
+
+- Utilisez Batch Scrape pour plusieurs URL plutôt que des boucles
+- Définissez des limites de débit adaptées pour éviter de surcharger les sites ciblés
+- Mettez les données en cache lorsque possible pour réduire les requêtes inutiles
+- Planifiez les workflows intensifs en heures creuses
+
+### Sécurité
+
+- N’exposez jamais de clés d’API dans les configurations de workflows
+- Utilisez le système d’identifiants de n8n pour stocker l’authentification en toute sécurité
+- Soyez prudent lors du partage public de workflows
+- Respectez les conditions d’utilisation des sites cibles et leur fichier robots.txt
+
+## Prochaines étapes
+
+Vous avez désormais les bases pour créer des automatisations de web scraping avec Firecrawl et n8n. Voici comment continuer à apprendre :
+
+### Explorer les fonctionnalités avancées
+
+- Étudiez la configuration des webhooks pour le traitement des données en temps réel
+- Testez l’extraction pilotée par IA à l’aide de prompts et de schémas
+- Créez des workflows complexes en plusieurs étapes avec une logique de branchement
+
+<!--THE END-->
+
+- [Firecrawl Discord](https://discord.gg/firecrawl) - Obtenez de l’aide sur Firecrawl et discutez de web scraping
+- [Forum de la communauté n8n](https://community.n8n.io/) - Posez vos questions sur l’automatisation des workflows
+- Partagez vos workflows et apprenez des autres
+
+### Parcours d’apprentissage recommandé
+
+1. Parcourez les workflows d’exemple de ce guide
+2. Adaptez des modèles issus de la bibliothèque communautaire
+3. Créez un workflow pour résoudre un problème concret dans votre travail
+4. Explorez les opérations avancées de Firecrawl
+5. Partagez vos propres modèles pour aider les autres
+
+## Ressources supplémentaires
+
+- [Documentation de l’API Firecrawl](https://docs.firecrawl.dev/fr/api-reference/v2-introduction)
+- [Documentation n8n](https://docs.n8n.io/)
+- [Meilleures pratiques de web scraping](https://www.firecrawl.dev/blog)

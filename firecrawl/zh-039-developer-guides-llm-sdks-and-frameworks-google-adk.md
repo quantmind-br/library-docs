@@ -1,0 +1,117 @@
+---
+title: Agent Development Kit（ADK） - Firecrawl Docs
+url: https://docs.firecrawl.dev/zh/developer-guides/llm-sdks-and-frameworks/google-adk
+source: sitemap
+fetched_at: 2026-03-23T07:33:59.296588-03:00
+rendered_js: false
+word_count: 107
+summary: This document provides a guide for integrating Firecrawl into Google's Agent Development Kit (ADK) via the Model Context Protocol (MCP) to enable web scraping and data extraction for AI agents.
+tags:
+    - firecrawl
+    - adk
+    - mcp
+    - web-scraping
+    - ai-agents
+    - data-extraction
+    - google-cloud
+category: guide
+---
+
+通过模型上下文协议（MCP）将 Firecrawl 集成到 Google 的 Agent Development Kit（ADK），以构建具备网页抓取能力的强大 AI 智能体。
+
+## 概览
+
+Firecrawl 提供一个 MCP 服务器，可与 Google 的 ADK 无缝集成，使你的智能体能够高效地对任意网站进行抓取、爬取，并提取结构化数据。该集成同时支持云端与自托管的 Firecrawl 实例，并通过可流式传输的 HTTP 实现最佳性能。
+
+## 功能
+
+- 高效完成任意网站的网页抓取、爬取与内容发现
+- 高级搜索与智能内容提取
+- 深度研究与大规模批量抓取
+- 灵活部署（云端或自托管）
+- 针对现代 Web 环境优化，支持 HTTP 流式传输
+
+## 前置条件
+
+- 从 [firecrawl.dev](https://firecrawl.dev) 获取 Firecrawl 的 API 密钥
+- 安装 Google SDK
+
+## 设置
+
+工具名称描述Scrape 工具`firecrawl_scrape`使用高级选项抓取单个 URL 的内容批量 Scrape 工具`firecrawl_batch_scrape`通过内置限速与并行处理高效抓取多个 URL批处理状态检查`firecrawl_check_batch_status`查看批处理操作状态Map 工具`firecrawl_map`映射网站以发现站点上所有已索引的 URLSearch 工具`firecrawl_search`搜索全网，并可选地从搜索结果中提取内容Crawl 工具`firecrawl_crawl`使用高级选项启动异步爬取爬取状态检查`firecrawl_check_crawl_status`查看爬取任务状态Extract 工具`firecrawl_extract`利用 LLM 从网页提取结构化信息
+
+## 配置
+
+### 必需配置
+
+**FIRECRAWL\_API\_KEY**：你的 Firecrawl API 密钥
+
+- 使用云端 API（默认）时为必需
+- 在配合 FIRECRAWL\_API\_URL 的自托管实例中为可选
+
+### 可选配置
+
+**Firecrawl API URL（用于自托管实例）**：
+
+- `FIRECRAWL_API_URL`：自定义 API 端点
+- 示例：`https://firecrawl.your-domain.com`
+- 如未配置，将使用云端 API
+
+**重试配置**：
+
+- `FIRECRAWL_RETRY_MAX_ATTEMPTS`：最大重试次数（默认：3）
+- `FIRECRAWL_RETRY_INITIAL_DELAY`：初始延迟（毫秒，默认：1000）
+- `FIRECRAWL_RETRY_MAX_DELAY`：最大延迟（毫秒，默认：10000）
+- `FIRECRAWL_RETRY_BACKOFF_FACTOR`：指数退避因子（默认：2）
+
+**额度使用监控**：
+
+- `FIRECRAWL_CREDIT_WARNING_THRESHOLD`：警告阈值（默认：1000）
+- `FIRECRAWL_CREDIT_CRITICAL_THRESHOLD`：严重阈值（默认：100）
+
+## 示例：网页研究代理
+
+```
+from google.adk.agents.llm_agent import Agent
+from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPServerParams
+from google.adk.tools.mcp_tool.mcp_toolset import MCPToolset
+
+FIRECRAWL_API_KEY = "YOUR-API-KEY"
+
+# 创建研究智能体
+research_agent = Agent(
+    model="gemini-2.5-pro",
+    name="research_agent",
+    description='通过抓取和分析网页内容来研究主题的 AI 智能体',
+    instruction='''你是一个研究助手。当收到主题或问题时:
+    1. 使用搜索工具查找相关网站
+    2. 抓取最相关的页面获取详细信息
+    3. 必要时提取结构化数据
+    4. 提供全面、来源可靠的答案''',
+    tools=[
+        MCPToolset(
+            connection_params=StreamableHTTPServerParams(
+                url=f"https://mcp.firecrawl.dev/{FIRECRAWL_API_KEY}/v2/mcp",
+            ),
+        )
+    ],
+)
+
+# 使用智能体
+response = research_agent.run("Python 3.13 有哪些最新特性?")
+print(response)
+```
+
+## 最佳实践
+
+1. **为任务选择合适的工具**：
+   
+   - 当你需要先找到相关页面时，使用 `firecrawl_search`
+   - 抓取单个页面时，使用 `firecrawl_scrape`
+   - 抓取多个已知 URL 时，使用 `firecrawl_batch_scrape`
+   - 需要发现并抓取整站时，使用 `firecrawl_crawl`
+2. **监控使用情况**：配置使用额度阈值以避免意外消耗
+3. **妥善处理错误**：根据你的用例配置重试策略
+4. **优化性能**：在抓取多个 URL 时使用批量操作
+
+* * *

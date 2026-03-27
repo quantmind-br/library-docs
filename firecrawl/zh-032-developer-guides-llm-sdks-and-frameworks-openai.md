@@ -1,0 +1,248 @@
+---
+title: OpenAI - Firecrawl Docs
+url: https://docs.firecrawl.dev/zh/developer-guides/llm-sdks-and-frameworks/openai
+source: sitemap
+fetched_at: 2026-03-23T07:33:51.564307-03:00
+rendered_js: false
+word_count: 275
+summary: This document provides practical integration guides for combining Firecrawl with OpenAI to automate web data extraction, summarization, structured data parsing, and AI-driven web research using function calling and MCP protocols.
+tags:
+    - firecrawl
+    - openai
+    - web-scraping
+    - ai-automation
+    - data-extraction
+    - function-calling
+    - mcp-protocol
+    - node-js
+category: tutorial
+---
+
+将 Firecrawl 与 OpenAI 集成，构建由网页数据驱动的 AI 应用。
+
+## 安装与配置
+
+```
+npm install @mendable/firecrawl-js openai zod
+```
+
+创建 `.env` 文件：
+
+```
+FIRECRAWL_API_KEY=your_firecrawl_key
+OPENAI_API_KEY=your_openai_key
+```
+
+> **注意：** 如果使用 Node 版本低于 20，请安装 `dotenv`，并在代码中添加 `import 'dotenv/config'`。
+
+## 抓取 + 摘要
+
+此示例演示一个简单流程：抓取网站，并使用 OpenAI 模型对内容进行摘要。
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// 抓取网站内容
+const scrapeResult = await firecrawl.scrape('https://firecrawl.dev', {
+    formats: ['markdown']
+});
+
+console.log('已抓取内容长度:', scrapeResult.markdown?.length);
+
+// 使用 OpenAI 模型生成摘要
+const completion = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [
+        { role: 'user', content: `Summarize: ${scrapeResult.markdown}` }
+    ]
+});
+
+console.log('摘要:', completion.choices[0]?.message.content);
+```
+
+## 函数调用
+
+此示例展示了如何使用 OpenAI 的函数调用功能，让模型根据用户请求自动判断何时抓取网站内容。
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+import { z } from 'zod';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const ScrapeArgsSchema = z.object({
+    url: z.string().describe('The URL of the website to scrape')
+});
+
+const tools = [{
+    type: 'function' as const,
+    function: {
+        name: 'scrape_website',
+        description: 'Scrape content from any website URL',
+        parameters: z.toJSONSchema(ScrapeArgsSchema)
+    }
+}];
+
+const response = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [{
+        role: 'user',
+        content: 'What is Firecrawl? Visit firecrawl.dev and tell me about it.'
+    }],
+    tools
+});
+
+const message = response.choices[0]?.message;
+
+if (message?.tool_calls && message.tool_calls.length > 0) {
+    for (const toolCall of message.tool_calls) {
+        if (toolCall.type === 'function') {
+            console.log('Tool called:', toolCall.function.name);
+
+            const args = ScrapeArgsSchema.parse(JSON.parse(toolCall.function.arguments));
+            const result = await firecrawl.scrape(args.url, {
+                formats: ['markdown'] // 其他格式:html、links 等
+            });
+            console.log('Scraped content:', result.markdown?.substring(0, 200) + '...');
+
+            // Send the scraped content back to the model for final response
+            const finalResponse = await openai.chat.completions.create({
+                model: 'gpt-5-nano',
+                messages: [
+                    {
+                        role: 'user',
+                        content: 'What is Firecrawl? Visit firecrawl.dev and tell me about it.'
+                    },
+                    message,
+                    {
+                        role: 'tool',
+                        tool_call_id: toolCall.id,
+                        content: result.markdown || 'No content scraped'
+                    }
+                ],
+                tools
+            });
+
+            console.log('Final response:', finalResponse.choices[0]?.message?.content);
+        }
+    }
+} else {
+    console.log('Direct response:', message?.content);
+}
+```
+
+此示例演示如何使用支持结构化输出的 OpenAI 模型，从爬取内容中提取特定数据。
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+import { z } from 'zod';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const scrapeResult = await firecrawl.scrape('https://stripe.com', {
+    formats: ['markdown']
+});
+
+console.log('抓取的内容长度:', scrapeResult.markdown?.length);
+
+const CompanyInfoSchema = z.object({
+    name: z.string(),
+    industry: z.string(),
+    description: z.string(),
+    products: z.array(z.string())
+});
+
+const response = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [
+        {
+            role: 'system',
+            content: '从网站内容中提取公司信息。'
+        },
+        {
+            role: 'user',
+            content: `提取数据: ${scrapeResult.markdown}`
+        }
+    ],
+    response_format: {
+        type: 'json_schema',
+        json_schema: {
+            name: 'company_info',
+            schema: z.toJSONSchema(CompanyInfoSchema),
+            strict: true
+        }
+    }
+});
+
+const content = response.choices[0]?.message?.content;
+const companyInfo = content ? CompanyInfoSchema.parse(JSON.parse(content)) : null;
+console.log('已验证的公司信息:', companyInfo);
+```
+
+## 搜索 + 分析
+
+此示例将 Firecrawl 的搜索功能与 OpenAI 模型的分析能力相结合，用于从多个来源中查找并汇总信息。
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// 搜索相关信息
+const searchResult = await firecrawl.search('Next.js 16 new features', {
+    limit: 3,
+    sources: [{ type: 'web' }], // 其他来源:{ type: 'news' }、{ type: 'images' }
+    scrapeOptions: { formats: ['markdown'] }
+});
+
+console.log('Search results:', searchResult.web?.length, 'pages found');
+
+// 分析并总结关键功能
+const analysis = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [{
+        role: 'user',
+        content: `Summarize the key features: ${JSON.stringify(searchResult)}`
+    }]
+});
+
+console.log('Analysis:', analysis.choices[0]?.message?.content);
+```
+
+## 使用 MCP 的 Responses API
+
+本示例演示如何在将 Firecrawl 配置为 MCP（Model Context Protocol，模型上下文协议）服务器时，与 OpenAI 的 Responses API 搭配使用。
+
+```
+import OpenAI from 'openai';
+
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const response = await openai.responses.create({
+    model: 'gpt-5-nano',
+    tools: [
+        {
+            type: 'mcp',
+            server_label: 'firecrawl',
+            server_description: 'A web search and scraping MCP server to scrape and extract content from websites.',
+            server_url: `https://mcp.firecrawl.dev/${process.env.FIRECRAWL_API_KEY}/v2/mcp`,
+            require_approval: 'never'
+        }
+    ],
+    input: 'Find out what the top stories on Hacker News are and the latest blog post on OpenAI and summarize them in a bullet point format'
+});
+
+console.log('Response:', JSON.stringify(response.output, null, 2));
+```
+
+更多示例请参见 [OpenAI 文档](https://platform.openai.com/docs)。

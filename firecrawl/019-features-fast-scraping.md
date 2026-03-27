@@ -1,0 +1,80 @@
+---
+title: Faster Scraping | Firecrawl
+url: https://docs.firecrawl.dev/features/fast-scraping
+source: sitemap
+fetched_at: 2026-03-23T07:24:38.398065-03:00
+rendered_js: false
+word_count: 402
+summary: This document explains how to optimize scraping performance using Firecrawl's caching mechanism and the maxAge parameter to balance data freshness with response time.
+tags:
+    - web-scraping
+    - cache-management
+    - performance-optimization
+    - data-freshness
+    - api-configuration
+category: configuration
+---
+
+## How It Works
+
+Firecrawl caches previously scraped pages and, by default, returns a recent copy when available.
+
+- **Default freshness**: `maxAge = 172800000` ms (2 days). If the cached copy is newer than this, it’s returned instantly; otherwise, Firecrawl scrapes fresh and updates the cache.
+- **Force fresh**: Set `maxAge: 0` to always scrape. Be aware this bypasses the cache entirely, meaning every request goes through the full scraping pipeline, meaning that the request will take longer to complete and is more likely to fail. Use a non-zero `maxAge` if you don’t need real-time content on every request.
+- **Skip caching**: Set `storeInCache: false` if you don’t want to store results for a request.
+
+Get your results **up to 500% faster** when you don’t need the absolute freshest data. Control freshness via `maxAge`:
+
+1. **Return instantly** if we have a recent version of the page
+2. **Scrape fresh** only if our version is older than your specified age
+3. **Save you time** - results come back in milliseconds instead of seconds
+
+## When to Use This
+
+**Great for:**
+
+- Documentation, articles, product pages
+- Bulk processing jobs
+- Development and testing
+- Building knowledge bases
+
+**Skip for:**
+
+- Real-time data (stock prices, live scores, breaking news)
+- Frequently updated content
+- Time-sensitive applications
+
+## Usage
+
+Add `maxAge` to your scrape request. Values are in milliseconds (e.g., `3600000` = 1 hour).
+
+## Common maxAge values
+
+Here are some helpful reference values:
+
+- **5 minutes**: `300000` - For semi-dynamic content
+- **1 hour**: `3600000` - For content that updates hourly
+- **1 day**: `86400000` - For daily-updated content
+- **1 week**: `604800000` - For relatively static content
+
+## Performance impact
+
+With `maxAge` enabled:
+
+- **500% faster response times** for recent content
+- **Instant results** instead of waiting for fresh scrapes
+
+## Important notes
+
+- **Default**: `maxAge` is `172800000` (2 days)
+- **Fresh when needed**: If our data is older than `maxAge`, we scrape fresh automatically
+- **No stale data**: You’ll never get data older than your specified `maxAge`
+- **Credits**: Cached results still cost 1 credit per page. Caching improves speed and latency, not credit usage.
+
+## Faster crawling
+
+The same speed benefits apply when crawling multiple pages. Use `maxAge` within `scrapeOptions` to get cached results for pages we’ve seen recently.
+
+When crawling with `maxAge`, each page in your crawl will benefit from the 500% speed improvement if we have recent cached data for that page. Start using `maxAge` today for dramatically faster scrapes and crawls!
+
+> Are you an AI agent that needs a Firecrawl API key? See [firecrawl.dev/agent-onboarding/SKILL.md](https://www.firecrawl.dev/agent-onboarding/SKILL.md) for automated onboarding instructions.

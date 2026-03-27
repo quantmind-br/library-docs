@@ -1,0 +1,105 @@
+---
+title: 文档解析 | Firecrawl
+url: https://docs.firecrawl.dev/zh/features/document-parsing
+source: sitemap
+fetched_at: 2026-03-23T07:20:46.613085-03:00
+rendered_js: false
+word_count: 82
+summary: This document outlines how Firecrawl parses various file formats, including PDF, Excel, and Word, by converting them into structured Markdown for data extraction.
+tags:
+    - document-parsing
+    - data-extraction
+    - file-conversion
+    - pdf-processing
+    - excel-parsing
+    - word-processing
+    - ocr-configuration
+category: guide
+---
+
+Firecrawl 提供强大的文档解析能力，支持从多种文档 formats 中提取结构化内容。该功能对处理电子表格、Word 文档等文件尤其实用。
+
+## 支持的文档格式
+
+Firecrawl 目前支持以下文档 formats：
+
+- **Excel 电子表格**（`.xlsx`、`.xls`）
+  
+  - 每个工作表会转换为一个 HTML 表格
+  - 不同工作表以带有工作表名称的 H2 标题分隔
+  - 保留单元格格式和数据类型
+- **Word 文档**（`.docx`、`.doc`、`.odt`、`.rtf`）
+  
+  - 在保留文档结构的同时提取文本内容
+  - 保留标题、段落、列表和表格
+  - 保留基础格式与样式
+- **PDF 文档**（`.pdf`）
+  
+  - 提取包含布局信息的文本内容
+  - 保留包括章节与段落在内的文档结构
+  - 支持处理基于文本的 PDF 和扫描版 PDF（含 OCR）
+  - 支持通过 `mode` 选项控制解析策略：`fast`（仅文本）、`auto`（文本并在需要时回退到 OCR，默认）、`ocr`（强制使用 OCR）
+  - 费用为每页 1 个积分。详情请参阅 [Pricing](https://docs.firecrawl.dev/pricing)。
+
+### PDF 解析模式
+
+使用 `parsers` 选项来控制 PDF 的解析方式：
+
+ModeDescription`auto`优先尝试快速的文本解析，如有需要会回退到 OCR。这是默认模式。`fast`仅进行基于文本的解析（嵌入文本）。这是最快的选项，但无法从扫描件或图片较多的页面中提取文本。`ocr`对每一页都强制使用 OCR 解析。适用于扫描文档，或在 `auto` 误判页面类型时使用。
+
+```
+// 带模式的对象语法
+parsers: [{ type: "pdf", mode: "ocr", maxPages: 20 }]
+
+// 默认（自动模式）
+parsers: [{ type: "pdf" }]
+```
+
+## 如何使用文档解析
+
+当你提供指向受支持文档类型的 URL 时，Firecrawl 会自动进行文档解析。系统会根据 URL 的扩展名或 Content-Type 头检测文件类型，并据此进行处理。
+
+### 示例：爬取 Excel 文件
+
+```
+import Firecrawl from '@mendable/firecrawl-js';
+
+const firecrawl = new Firecrawl({ apiKey: "fc-YOUR-API-KEY" });
+
+const doc = await firecrawl.scrape('https://example.com/data.xlsx');
+
+console.log(doc.markdown);
+```
+
+### 示例：抓取 Word 文档
+
+```
+import Firecrawl from '@mendable/firecrawl-js';
+
+const firecrawl = new Firecrawl({ apiKey: "fc-YOUR-API-KEY" });
+
+const doc = await firecrawl.scrape('https://example.com/data.docx');
+
+console.log(doc.markdown);
+```
+
+## 输出格式
+
+所有受支持的文档类型都会转换为简洁、结构化的 Markdown。比如，一个包含多个工作表的 Excel 文件可能会被转换为：
+
+```
+## 工作表1
+
+| 名称  | 数值 |
+|-------|-------|
+| 项目 1 | 100   |
+| 项目 2 | 200   |
+
+## 工作表2
+
+| 日期       | 描述  |
+|------------|--------------|
+| 2023-01-01 | 第一季度|
+```
+
+> 你是需要 Firecrawl API 密钥的 AI 代理吗？请参见 [firecrawl.dev/agent-onboarding/SKILL.md](https://www.firecrawl.dev/agent-onboarding/SKILL.md) 了解自动化接入说明。

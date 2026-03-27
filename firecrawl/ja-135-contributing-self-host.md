@@ -1,0 +1,236 @@
+---
+title: セルフホスティング | Firecrawl
+url: https://docs.firecrawl.dev/ja/contributing/self-host
+source: sitemap
+fetched_at: 2026-03-23T07:30:38.088531-03:00
+rendered_js: false
+word_count: 234
+summary: This document provides instructions for developers to set up and self-host Firecrawl locally, outlining the benefits, configuration requirements, and deployment steps using Docker.
+tags:
+    - self-hosting
+    - firecrawl
+    - docker-setup
+    - environment-configuration
+    - open-source-contribution
+category: guide
+---
+
+#### コントリビューターの方へ
+
+[Firecrawl](https://firecrawl.dev) へようこそ 🔥！プロジェクトをローカル環境にセットアップして手元で実行し、コントリビュートするための手順を紹介します。 コントリビュートの流れは他のオープンソースリポジトリと同様です。Firecrawl をフォークし、変更し、テストを実行して、PR を送ってください。 質問がある場合や参加のサポートが必要な場合は、Discord コミュニティに[こちら](https://discord.gg/firecrawl)から参加するか、GitHub で[こちら](https://github.com/firecrawl/firecrawl/issues/new/choose)から Issue を作成してください。
+
+ローカルでの実行方法は [SELF\_HOST.md](https://github.com/firecrawl/firecrawl/blob/main/SELF_HOST.md) を参照してください。
+
+## なぜ？
+
+厳格なセキュリティポリシーにより、データを管理された環境内に留める必要がある組織にとって、Firecrawl のセルフホスティングは特に有益です。セルフホスティングを検討すべき主な理由は次のとおりです：
+
+- **セキュリティとコンプライアンスの強化:** セルフホスティングにより、すべてのデータの取り扱いと処理を社内外の規制に適合させ、機密情報を自社の安全なインフラ内に保つことができます。なお、Firecrawl は Mendable の製品であり、SOC 2 Type II 認証に準拠しているため、プラットフォームはデータセキュリティ管理に関する高い業界基準を満たしています。
+- **サービスのカスタマイズ:** セルフホスティングにより、Playwright サービスなどを特定のニーズに合わせて調整し、標準的なクラウド提供ではサポートされない可能性のあるユースケースにも対応できます。
+- **学習とコミュニティへの貢献:** 自身でインスタンスを構築・運用することで、Firecrawl の動作をより深く理解でき、プロジェクトへのより実践的な貢献にもつながります。
+
+### 留意事項
+
+ただし、以下の制約や追加の責務がある点に注意してください。
+
+1. **Fire-engine へのアクセス制限:** 現時点では、自己ホスト型の Firecrawl インスタンスは Fire-engine を利用できません。Fire-engine には、IP ブロック対応、ボット検知メカニズムなどの高度な機能が含まれます。つまり、基本的なスクレイピングは可能でも、より複雑なケースでは追加の設定が必要になったり、サポート対象外となる場合があります。
+2. **手動設定が必要:** 基本的な `fetch` および Playwright オプションを超えるスクレイピング手法を用いる場合は、`.env` ファイルでの手動設定が必要です。これは関連技術への深い理解を要し、セットアップに時間がかかる可能性があります。 | 機能 | Cloud | 自己ホスト | | --- | --- | --- | | すべての API エンドポイントがサポート対象 | はい | 常にではない（自己ホストでは `/agent` および `/browser` はサポートされません） | | スクリーンショット対応 | はい | はい（Playwright サービスが稼働している場合） | | ローカル LLM（例: Ollama） | 未サポート | `OLLAMA_BASE_URL` でサポート（実験的） |
+
+Firecrawl の自己ホストは、スクレイピングやデータ処理環境を完全に制御したい方に最適ですが、追加の保守や設定作業というトレードオフが伴います。
+
+## 手順
+
+1. まず、依存関係をインストールします
+
+<!--THE END-->
+
+- Docker の[インストール手順](https://docs.docker.com/get-docker/)
+
+<!--THE END-->
+
+2. 環境変数を設定する
+
+ルートディレクトリに `.env` を作成し、`apps/api/.env.example` のテンプレートをコピーします 最初は、認証や任意のサブサービス（PDF 解析、JS ブロック機能、AI 機能）は設定しません
+
+```
+# .env
+
+# ===== Required ENVS ======
+PORT=3002
+HOST=0.0.0.0
+
+# Note: PORT is used by both the main API server and worker liveness check endpoint
+
+# To turn on DB authentication, you need to set up Supabase.
+USE_DB_AUTHENTICATION=false
+
+# ===== Optional ENVS ======
+
+## === AI features (JSON format on scrape, /extract API) ===
+# Provide your OpenAI API key here to enable AI features
+# OPENAI_API_KEY=
+
+# Experimental: Use Ollama
+# OLLAMA_BASE_URL=http://localhost:11434/api
+# MODEL_NAME=deepseek-r1:7b
+# MODEL_EMBEDDING_NAME=nomic-embed-text
+
+# Experimental: Use any OpenAI-compatible API
+# OPENAI_BASE_URL=https://example.com/v1
+# OPENAI_API_KEY=
+
+## === Proxy ===
+# PROXY_SERVER can be a full URL (e.g. http://0.1.2.3:1234) or just an IP and port combo (e.g. 0.1.2.3:1234)
+# Do not uncomment PROXY_USERNAME and PROXY_PASSWORD if your proxy is unauthenticated
+# PROXY_SERVER=
+# PROXY_USERNAME=
+# PROXY_PASSWORD=
+
+## === /search API ===
+
+# Googleの代わりにSearXNGを使用する場合は、JSON形式が有効なSearXNGサーバーを指定できます。
+# You can also customize the engines and categories parameters, but the defaults should also work just fine.
+# SEARXNG_ENDPOINT=http://your.searxng.server
+# SEARXNG_ENGINES=
+# SEARXNG_CATEGORIES=
+
+## === Other ===
+
+# Supabase Setup (used to support DB authentication, advanced logging, etc.)
+# SUPABASE_ANON_TOKEN=
+# SUPABASE_URL=
+# SUPABASE_SERVICE_TOKEN=
+
+# Use if you've set up authentication and want to test with a real API key
+# TEST_API_KEY=
+
+# This key lets you access the queue admin panel. Change this if your deployment is publicly accessible.
+BULL_AUTH_KEY=CHANGEME
+
+# This is now autoconfigured by the docker-compose.yaml. You shouldn't need to set it.
+# PLAYWRIGHT_MICROSERVICE_URL=http://playwright-service:3000/scrape
+# REDIS_URL=redis://redis:6379
+# REDIS_RATE_LIMIT_URL=redis://redis:6379
+
+# Set if you have a llamaparse key you'd like to use to parse pdfs
+# LLAMAPARSE_API_KEY=
+
+# Set if you'd like to send server health status messages to Slack
+# SLACK_WEBHOOK_URL=
+
+# Set if you'd like to send posthog events like job logs
+# POSTHOG_API_KEY=
+# POSTHOG_HOST=
+
+## === System Resource Configuration ===
+# Maximum CPU usage threshold (0.0-1.0). Worker will reject new jobs when CPU usage exceeds this value.
+# Default: 0.8 (80%)
+# MAX_CPU=0.8
+
+# Maximum RAM usage threshold (0.0-1.0). Worker will reject new jobs when memory usage exceeds this value.
+# Default: 0.8 (80%)
+# MAX_RAM=0.8
+
+# Set if you'd like to allow local webhooks to be sent to your self-hosted instance
+# ALLOW_LOCAL_WEBHOOKS=true
+```
+
+3. *(オプション) TypeScript Playwright Service で実行する*
+   
+   - `docker-compose.yml` を更新して、Playwright サービスを次のように変更します:
+     
+     ```
+         build: apps/playwright-service
+     ```
+     
+     を
+     
+     ```
+         build: apps/playwright-service-ts
+     ```
+     
+     に変更
+   - `.env` ファイルで `PLAYWRIGHT_MICROSERVICE_URL` を設定します:
+     
+     ```
+     PLAYWRIGHT_MICROSERVICE_URL=http://localhost:3000/scrape
+     ```
+   - 必要に応じて、`.env` ファイルでプロキシサーバーも設定してください。
+4. Docker コンテナをビルドして起動します:
+   
+   ```
+   docker compose build
+   docker compose up
+   ```
+
+これにより、`http://localhost:3002` でアクセス可能なローカルの Firecrawl インスタンスが起動します。 `http://localhost:3002/admin/{BULL_AUTH_KEY}/queues` で Bull Queue Manager の UI を確認できます。
+
+5. *(オプション)* API をテストする
+
+クロールエンドポイントをテストしたい場合は、次を実行してください：
+
+```
+  curl -X POST http://localhost:3002/v2/crawl \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "url": "https://docs.firecrawl.dev"
+      }'
+```
+
+## トラブルシューティング
+
+このセクションでは、セルフホストした Firecrawl インスタンスをセットアップまたは実行する際によく発生する問題と、その解決方法を説明します。
+
+### Supabase クライアントが構成されていません
+
+**症状:**
+
+```
+[YYYY-MM-DDTHH:MM:SS.SSSz]ERROR - 設定されていない Supabase クライアントにアクセスしようとしました。
+[YYYY-MM-DDTHH:MM:SS.SSSz]ERROR - スクレイプイベントの挿入中にエラーが発生しました: エラー: Supabase クライアントが設定されていません。
+```
+
+**説明:** このエラーは、Supabase クライアントのセットアップが完了していないために発生します。スクレイプやクロールは問題なく実行できるはずです。現在、セルフホスト環境では Supabase の設定はできません。
+
+### 認証をバイパスしている
+
+**症状：**
+
+```
+[YYYY-MM-DDTHH:MM:SS.SSSz]WARN - You're bypassing authentication
+```
+
+**説明:** このエラーは、Supabase クライアントのセットアップが完了していないために発生します。スクレイピングやクローリング自体は問題なく行えるはずです。現在のところ、セルフホスト環境では Supabase を設定することはできません。
+
+### Docker コンテナが起動しない
+
+**症状:** Docker コンテナが予期せず終了する、または起動しない。 **解決策:** 次のコマンドを使用して Docker のログを確認し、エラーメッセージが出力されていないか確認します。
+
+```
+docker logs [container_name]
+```
+
+- 必要な環境変数がすべて .env ファイルで正しく設定されていることを確認してください。
+- docker-compose.yml で定義されているすべての Docker サービスが正しく構成され、必要なイメージが利用可能になっていることを確認してください。
+
+### Redis への接続問題
+
+**症状:** タイムアウトや「Connection refused」など、Redis への接続に関するエラーが発生する。 **解決策:**
+
+- Docker 環境内で Redis サービスが起動しており、正常に動作していることを確認する。
+- `.env` ファイル内の `REDIS_URL` および `REDIS_RATE_LIMIT_URL` が正しい Redis インスタンスを指していることを確認する。
+- Redis のポートへの接続をブロックしている可能性のあるネットワーク設定やファイアウォールのルールを確認する。
+
+### API エンドポイントが応答しない
+
+**症状:** Firecrawl インスタンスへの API リクエストがタイムアウトする、または応答がない。 **解決策:**
+
+- Docker コンテナのステータスを確認し、Firecrawl サービスが稼働していることを確認する。
+- .env ファイルの PORT と HOST の設定が正しいこと、また同じポートを他のサービスが使用していないことを確認する。
+- API リクエストを送信するクライアントからホストへアクセス可能であることを確認するため、ネットワーク構成を確認する。
+
+これらの一般的な問題に対処することで、セルフホストの Firecrawl インスタンスのセットアップと運用をよりスムーズにできます。
+
+## Kubernetes クラスターに Firecrawl をインストールする（簡易版）
+
+Kubernetes クラスターへの Firecrawl のインストール手順は、[examples/kubernetes-cluster-install/README.md](https://github.com/firecrawl/firecrawl/tree/main/examples/kubernetes/cluster-install#readme) を参照してください。

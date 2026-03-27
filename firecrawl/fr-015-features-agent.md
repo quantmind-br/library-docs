@@ -1,0 +1,199 @@
+---
+title: Agent | Firecrawl
+url: https://docs.firecrawl.dev/fr/features/agent
+source: sitemap
+fetched_at: 2026-03-23T07:23:58.859026-03:00
+rendered_js: false
+word_count: 1282
+summary: The Firecrawl /agent API enables automated, deep web searching and data extraction by processing natural language prompts to locate and structure data across multiple sources without requiring manual intervention.
+tags:
+    - web-scraping
+    - data-extraction
+    - ai-agent
+    - api-documentation
+    - automated-research
+    - data-collection
+    - firecrawl
+category: api
+---
+
+Firecrawl `/agent` est une API révolutionnaire qui recherche, parcourt et collecte des données depuis la plus grande variété de sites web, trouvant des données dans des endroits difficiles d’accès et les mettant au jour d’une manière qu’aucune autre API ne peut égaler. Elle accomplit en quelques minutes ce qui prendrait de nombreuses heures à un humain — une collecte de données de bout en bout, sans scripts ni intervention manuelle. Que vous ayez besoin d’un seul point de données ou de jeux de données complets à grande échelle, Firecrawl `/agent` s’occupe de récupérer vos données. **Considérez `/agent` comme une recherche approfondie de données, où qu’elles se trouvent !**
+
+Agent s’appuie sur tout ce qui fait la force de `/extract` et va encore plus loin :
+
+- **Aucune URL requise** : Décrivez simplement ce dont vous avez besoin via le paramètre `prompt`. Les URL sont facultatives.
+- **Recherche web approfondie** : Explore et navigue automatiquement en profondeur dans les sites pour trouver vos données
+- **Fiable et précis** : Fonctionne avec un large éventail de requêtes et de cas d’usage
+- **Plus rapide** : Traite plusieurs sources en parallèle pour des résultats plus rapides
+
+## Utilisation de `/agent`
+
+Le seul paramètre requis est `prompt`. Décrivez simplement les données que vous souhaitez extraire. Pour une sortie structurée, fournissez un schéma JSON. Les SDK prennent en charge Pydantic (Python) et Zod (Node) pour des définitions de schémas avec typage sûr :
+
+### Réponse
+
+```
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "founders": [
+      {
+        "name": "Eric Ciarla",
+        "role": "Co-founder",
+        "background": "Previously at Mendable"
+      },
+      {
+        "name": "Nicolas Camara",
+        "role": "Co-founder",
+        "background": "Previously at Mendable"
+      },
+      {
+        "name": "Caleb Peffer",
+        "role": "Co-founder",
+        "background": "Previously at Mendable"
+      }
+    ]
+  },
+  "expiresAt": "2024-12-15T00:00:00.000Z",
+  "creditsUsed": 15
+}
+```
+
+## Fournir des URL (facultatif)
+
+Vous pouvez éventuellement fournir des URL pour cibler l’agent sur des pages spécifiques :
+
+## Statut et fin de la tâche
+
+Les tâches d’agent s’exécutent de manière asynchrone. Lorsque vous soumettez une tâche, vous recevez un ID de tâche que vous pouvez utiliser pour consulter son statut :
+
+- **Méthode par défaut** : `agent()` attend la fin de l’exécution et renvoie les résultats finaux
+- **Démarrer puis interroger** : utilisez `start_agent` (Python) ou `startAgent` (Node) pour obtenir immédiatement un ID de tâche, puis interrogez avec `get_agent_status` / `getAgentStatus`
+
+### États possibles
+
+StatutDescription`processing`L’agent traite toujours votre requête`completed`L’extraction s’est terminée avec succès`failed`Une erreur s’est produite lors de l’extraction`cancelled`La tâche a été annulée par l’utilisateur
+
+#### Exemple en attente
+
+```
+{
+  "success": true,
+  "status": "processing",
+  "expiresAt": "2024-12-15T00:00:00.000Z"
+}
+```
+
+#### Exemple complété
+
+```
+{
+  "success": true,
+  "status": "completed",
+  "data": {
+    "founders": [
+      {
+        "name": "Eric Ciarla",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Nicolas Camara",
+        "role": "Co-founder"
+      },
+      {
+        "name": "Caleb Peffer",
+        "role": "Co-founder"
+      }
+    ]
+  },
+  "expiresAt": "2024-12-15T00:00:00.000Z",
+  "creditsUsed": 15
+}
+```
+
+Vous pouvez partager des exécutions d’agent directement depuis l’Agent Playground. Les liens partagés sont publics — toute personne disposant du lien peut consulter les résultats et l’activité de l’exécution — et vous pouvez révoquer l’accès à tout moment pour désactiver le lien. Les pages partagées ne sont pas indexées par les moteurs de recherche.
+
+## Sélection du modèle
+
+Firecrawl Agent propose deux modèles. **Spark 1 Mini est 60 % moins cher** et est le modèle par défaut — parfait pour la plupart des cas d’usage. Passez à Spark 1 Pro lorsque vous avez besoin d’une précision maximale sur des tâches complexes.
+
+ModèleCoûtPrécisionIdéal pour`spark-1-mini`**60 % moins cher**StandardLa plupart des tâches (par défaut)`spark-1-pro`StandardPlus élevéeRecherches complexes, extractions critiques
+
+### Spark 1 Mini (par défaut)
+
+`spark-1-mini` est notre modèle léger et performant, idéal pour les tâches d’extraction de données simples. **Utilisez Mini lorsque :**
+
+- Extraire des données simples (coordonnées, prix, etc.)
+- Travailler avec des sites web bien structurés
+- La maîtrise des coûts est une priorité
+- Lancer des tâches d’extraction à grande échelle
+
+### Spark 1 Pro
+
+`spark-1-pro` est notre modèle phare, conçu pour une précision maximale sur les tâches d’extraction complexes. **Utilisez Pro lorsque :**
+
+- Vous réalisez des analyses concurrentielles complexes
+- Vous extrayez des données nécessitant un raisonnement poussé
+- La précision est cruciale pour votre cas d’utilisation
+- Vous traitez des données ambiguës ou difficiles à trouver
+
+### Définir le modèle
+
+Utilisez le paramètre `model` pour choisir le modèle à utiliser :
+
+## Paramètres
+
+ParamètreTypeRequisDescription`prompt`string**Oui**Description en langage naturel des données que vous souhaitez extraire (max. 10 000 caractères)`model`stringNonModèle à utiliser : `spark-1-mini` (par défaut) ou `spark-1-pro``urls`arrayNonListe optionnelle d’URL sur lesquelles concentrer l’extraction`schema`objectNonSchéma JSON optionnel pour une sortie structurée`maxCredits`numberNonNombre maximal de crédits à dépenser pour cette tâche d’agent. La valeur par défaut est **2 500** s’il n’est pas défini. Le tableau de bord prend en charge des valeurs jusqu’à **2 500** ; pour des limites plus élevées, définissez `maxCredits` via l’API (les valeurs supérieures à 2 500 sont toujours traitées comme des requêtes payantes). Si la limite est atteinte, la tâche échoue et **aucune donnée n’est renvoyée**, mais les crédits consommés pour le travail effectué restent facturés.
+
+FonctionnalitéAgent (nouveau)ExtractURL requisesNonOuiVitessePlus rapideStandardCoûtInférieurStandardFiabilitéSupérieureStandardFlexibilité des requêtesÉlevéeModérée
+
+## Exemples de cas d’utilisation
+
+- **Recherche** : “Trouver les 5 principales startups d’IA et les montants de leurs financements”
+- **Analyse concurrentielle** : “Comparer les offres tarifaires entre Slack et Microsoft Teams”
+- **Collecte de données** : “Extraire les informations de contact depuis les sites web d’entreprises”
+- **Synthèse de contenu** : “Résumer les derniers articles de blog sur le web scraping”
+
+## Téléversement de CSV dans l’Agent Playground
+
+L’[Agent Playground](https://www.firecrawl.dev/app/agent) prend en charge le téléversement de fichiers CSV pour le traitement par lots. Votre fichier CSV peut contenir une ou plusieurs colonnes de données d’entrée. Par exemple, une seule colonne de noms d’entreprises, ou plusieurs colonnes comme le nom de l’entreprise, le produit et l’URL du site Web. Chaque ligne représente un élément que l’agent doit traiter. Téléversez votre fichier CSV, rédigez un prompt décrivant les données que vous souhaitez que l’agent trouve pour chaque ligne, définissez vos champs de sortie, puis lancez l’exécution. L’agent traite chaque ligne en parallèle et renseigne les résultats.
+
+## Référence de l’API
+
+Consultez la [Référence de l’API Agent](https://docs.firecrawl.dev/fr/api-reference/endpoint/agent) pour plus de détails. Vous avez des commentaires ou besoin d’aide ? Envoyez un e-mail à [help@firecrawl.com](mailto:help@firecrawl.com).
+
+## Tarification
+
+Firecrawl Agent utilise une **facturation dynamique** qui s’adapte à la complexité de votre demande d’extraction de données. Vous payez en fonction du travail réellement effectué par Firecrawl Agent, ce qui garantit une tarification équitable, que vous extrayiez des données simples ou des informations structurées complexes provenant de plusieurs sources.
+
+### Fonctionnement de la tarification de l’agent
+
+La tarification de l’agent est **dynamique et basée sur les crédits** pendant la Research Preview :
+
+- **Les extractions simples** (comme les informations de contact à partir d’une seule page) consomment généralement moins de crédits et coûtent moins cher
+- **Les tâches de recherche complexes** (comme une analyse concurrentielle sur plusieurs domaines) consomment plus de crédits mais reflètent mieux l’effort total requis
+- **Une transparence totale sur l’utilisation** vous montre exactement combien de crédits chaque requête a consommé
+- **La conversion de crédits** convertit automatiquement l’utilisation de crédits par l’agent en crédits pour une facturation simplifiée
+
+### Tarification des agents parallèles
+
+Si vous exécutez plusieurs agents en parallèle avec Spark-1 Fast, les coûts sont beaucoup plus prévisibles : 10 crédits par cellule.
+
+### Pour commencer
+
+**Tous les utilisateurs** bénéficient de **5 exécutions gratuites par jour**, utilisables depuis le playground ou l’API, pour explorer les fonctionnalités d’Agent sans frais. L’utilisation supplémentaire est facturée en fonction de la consommation de crédits et convertie en crédits.
+
+### Gestion des coûts
+
+Agent peut être coûteux, mais il existe plusieurs moyens de réduire les coûts :
+
+- **Commencez par des exécutions gratuites** : utilisez vos 5 requêtes gratuites quotidiennes pour comprendre la tarification
+- **Définissez un paramètre `maxCredits`** : limitez vos dépenses en définissant un nombre maximal de crédits que vous êtes prêt à dépenser. Le tableau de bord plafonne cette valeur à 2 500 crédits ; pour définir une limite plus élevée, utilisez directement le paramètre `maxCredits` via l’API (remarque : les valeurs supérieures à 2 500 sont toujours facturées comme des requêtes payantes)
+- **Optimisez les prompts** : des prompts plus spécifiques utilisent souvent moins de crédits
+- **Surveillez votre utilisation** : suivez votre consommation via le tableau de bord
+- **Définissez des attentes claires** : des recherches complexes couvrant plusieurs domaines utiliseront plus de crédits que de simples extractions sur une seule page
+
+Essayez Agent dès maintenant sur [firecrawl.dev/app/agent](https://www.firecrawl.dev/app/agent) pour voir comment l’utilisation des crédits évolue selon vos cas d’usage spécifiques.
+
+> Êtes-vous un agent IA qui a besoin d’une clé API Firecrawl ? Consultez [firecrawl.dev/agent-onboarding/SKILL.md](https://www.firecrawl.dev/agent-onboarding/SKILL.md) pour obtenir les instructions d’intégration automatisée.

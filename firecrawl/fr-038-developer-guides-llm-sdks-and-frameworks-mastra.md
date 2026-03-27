@@ -1,0 +1,167 @@
+---
+title: Mastra - Firecrawl Docs
+url: https://docs.firecrawl.dev/fr/developer-guides/llm-sdks-and-frameworks/mastra
+source: sitemap
+fetched_at: 2026-03-23T07:35:51.11416-03:00
+rendered_js: false
+word_count: 293
+summary: This document provides a guide on how to integrate the Firecrawl web scraping and search SDK into a Mastra TypeScript workflow to automate documentation extraction and summarization.
+tags:
+    - mastra
+    - firecrawl
+    - typescript
+    - ai-agents
+    - web-scraping
+    - workflow-automation
+    - sdk-integration
+category: guide
+---
+
+Intégrez Firecrawl à Mastra, le framework TypeScript pour créer des agents et des workflows d’IA.
+
+## Configuration
+
+```
+npm install @mastra/core @mendable/firecrawl-js zod
+```
+
+Créez un fichier `.env` :
+
+```
+FIRECRAWL_API_KEY=votre_clé_firecrawl
+OPENAI_API_KEY=votre_clé_openai
+```
+
+> **Remarque :** Si vous utilisez Node &lt; 20, installez `dotenv` et ajoutez `import 'dotenv/config'` à votre code.
+
+## Workflow en plusieurs étapes
+
+Cet exemple illustre un workflow complet qui recherche, extrait et résume de la documentation à l’aide de Firecrawl et Mastra.
+
+```
+import { createWorkflow, createStep } from "@mastra/core/workflows";
+import { z } from "zod";
+import Firecrawl from "@mendable/firecrawl-js";
+import { Agent } from "@mastra/core/agent";
+
+const firecrawl = new Firecrawl({
+  apiKey: process.env.FIRECRAWL_API_KEY || "fc-YOUR_API_KEY"
+});
+
+const agent = new Agent({
+  name: "summarizer",
+  instructions: "You are a helpful assistant that creates concise summaries of documentation.",
+  model: "openai/gpt-5-nano",
+});
+
+// Étape 1 : Rechercher avec le SDK Firecrawl
+const searchStep = createStep({
+  id: "search",
+  inputSchema: z.object({
+    query: z.string(),
+  }),
+  outputSchema: z.object({
+    url: z.string(),
+    title: z.string(),
+  }),
+  execute: async ({ inputData }: { inputData: { query: string } }) => {
+    console.log(`Searching: ${inputData.query}`);
+    const searchResults = await firecrawl.search(inputData.query, { limit: 1 });
+    const webResults = (searchResults as any)?.web;
+
+    if (!webResults || !Array.isArray(webResults) || webResults.length === 0) {
+      throw new Error("No search results found");
+    }
+
+    const firstResult = webResults[0];
+    console.log(`Found: ${firstResult.title}`);
+    return {
+      url: firstResult.url,
+      title: firstResult.title,
+    };
+  },
+});
+
+// Étape 2 : Scraper l'URL avec le SDK Firecrawl
+const scrapeStep = createStep({
+  id: "scrape",
+  inputSchema: z.object({
+    url: z.string(),
+    title: z.string(),
+  }),
+  outputSchema: z.object({
+    markdown: z.string(),
+    title: z.string(),
+  }),
+  execute: async ({ inputData }: { inputData: { url: string; title: string } }) => {
+    console.log(`Scraping: ${inputData.url}`);
+    const scrapeResult = await firecrawl.scrape(inputData.url, {
+      formats: ["markdown"],
+    });
+
+    console.log(`Scraped: ${scrapeResult.markdown?.length || 0} characters`);
+    return {
+      markdown: scrapeResult.markdown || "",
+      title: inputData.title,
+    };
+  },
+});
+
+// Étape 3 : Résumer avec Claude
+const summarizeStep = createStep({
+  id: "summarize",
+  inputSchema: z.object({
+    markdown: z.string(),
+    title: z.string(),
+  }),
+  outputSchema: z.object({
+    summary: z.string(),
+  }),
+  execute: async ({ inputData }: { inputData: { markdown: string; title: string } }) => {
+    console.log(`Summarizing: ${inputData.title}`);
+
+    const prompt = `Summarize the following documentation in 2-3 sentences:\n\nTitle: ${inputData.title}\n\n${inputData.markdown}`;
+    const result = await agent.generate(prompt);
+
+    console.log(`Summary generated`);
+    return { summary: result.text };
+  },
+});
+
+// Créer le workflow
+export const workflow = createWorkflow({
+  id: "firecrawl-workflow",
+  inputSchema: z.object({
+    query: z.string(),
+  }),
+  outputSchema: z.object({
+    summary: z.string(),
+  }),
+  steps: [searchStep, scrapeStep, summarizeStep],
+})
+  .then(searchStep)
+  .then(scrapeStep)
+  .then(summarizeStep)
+  .commit();
+
+async function testWorkflow() {
+  const run = await workflow.createRunAsync();
+  const result = await run.start({
+    inputData: { query: "Firecrawl documentation" }
+  });
+
+  if (result.status === "success") {
+    const { summarize } = result.steps;
+
+    if (summarize.status === "success") {
+      console.log(`\n${summarize.output.summary}`);
+    }
+  } else {
+    console.error("Workflow failed:", result.status);
+  }
+}
+
+testWorkflow().catch(console.error);
+```
+
+Pour plus d’exemples, consultez la [documentation de Mastra](https://mastra.ai/docs).

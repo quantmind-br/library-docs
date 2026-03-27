@@ -1,0 +1,295 @@
+---
+title: Guia Avançado de Scraping | Firecrawl
+url: https://docs.firecrawl.dev/pt-BR/advanced-scraping-guide
+source: sitemap
+fetched_at: 2026-03-23T07:27:46.304293-03:00
+rendered_js: false
+word_count: 1521
+summary: This document provides a comprehensive reference for the Firecrawl scrape endpoint, detailing configuration options for output formats, content filtering, PDF parsing, browser actions, and caching strategies.
+tags:
+    - firecrawl
+    - web-scraping
+    - api-documentation
+    - pdf-extraction
+    - browser-automation
+    - data-extraction
+category: reference
+---
+
+Referência para todas as opções em todos os endpoints de scraping, crawling, mapeamento e agente do Firecrawl.
+
+## Raspagem básica
+
+Para raspar uma única página e obter conteúdo em Markdown limpo, use o endpoint `/scrape`.
+
+O Firecrawl oferece suporte a PDFs. Use a opção `parsers` (por exemplo, `parsers: ["pdf"]`) quando quiser garantir a extração de PDFs. Você pode controlar a estratégia de extração com a opção `mode`:
+
+- **`auto`** (padrão) — tenta primeiro uma extração rápida baseada em texto e, se necessário, recorre a OCR.
+- **`fast`** — apenas extração baseada em texto (texto embutido). Mais rápido, mas ignora páginas digitalizadas ou com muitas imagens.
+- **`ocr`** — força a extração via OCR em todas as páginas. Use para documentos digitalizados ou quando `auto` classificar uma página incorretamente.
+
+`{ type: "pdf" }` e `"pdf"` usam por padrão `mode: "auto"`.
+
+```
+"parsers": [{ "type": "pdf", "mode": "fast", "maxPages": 50 }]
+```
+
+## Opções de scraping
+
+Ao usar o endpoint /scrape, você pode personalizar a requisição com as seguintes opções.
+
+### Formatos (`formats`)
+
+O array `formats` controla quais tipos de saída o scraper retorna. Padrão: `["markdown"]`. **Formatos em string**: passe o nome diretamente (por exemplo, `"markdown"`).
+
+FormatoDescrição`markdown`Conteúdo da página convertido para Markdown limpo.`html`HTML processado com elementos desnecessários removidos.`rawHtml`HTML original exatamente como retornado pelo servidor.`links`Todos os links encontrados na página.`images`Todas as imagens encontradas na página.`summary`Um resumo gerado por um LLM do conteúdo da página.`branding`Extrai a identidade de marca (cores, fontes, tipografia, espaçamento, componentes de UI).
+
+**Formatos em objeto**: passe um objeto com `type` e opções adicionais.
+
+FormatoOpçõesDescrição`json``prompt?: string`, `schema?: object`Extrai dados estruturados usando um LLM. Forneça um schema JSON e/ou um prompt em linguagem natural (máx. 10.000 caracteres).`screenshot``fullPage?: boolean`, `quality?: number`, `viewport?: { width, height }`Captura uma captura de tela. No máximo uma por requisição. A resolução máxima do viewport é 7680×4320. As URLs das capturas de tela expiram após 24 horas.`changeTracking``modes?: ("json" | "git-diff")[]`, `tag?: string`, `schema?: object`, `prompt?: string`Rastreio de mudanças entre scrapes. Requer que `"markdown"` também esteja no array de formatos.`attributes``selectors: [{ selector: string, attribute: string }]`Extrai atributos HTML específicos de elementos que correspondem a seletores CSS.
+
+### Filtragem de conteúdo
+
+Esses parâmetros controlam quais partes da página aparecem na saída. `onlyMainContent` é executado primeiro para remover o boilerplate (nav, footer etc.); em seguida, `includeTags` e `excludeTags` refinam ainda mais o resultado. Se você definir `onlyMainContent: false`, o HTML completo da página será usado como ponto de partida para a filtragem por tags.
+
+ParâmetroTipoPadrãoDescrição`onlyMainContent``boolean``true`Retorna apenas o conteúdo principal. Defina como `false` para retornar a página completa.`includeTags``array`—Tags, classes ou IDs HTML a serem incluídos (por exemplo, `["h1", "p", ".main-content"]`).`excludeTags``array`—Tags, classes ou IDs HTML a serem excluídos (por exemplo, `["#ad", "#footer"]`).
+
+### Tempo e cache
+
+ParâmetroTipoPadrãoDescrição`waitFor``integer` (ms)`0`Tempo extra de espera antes do scraping, além do smart-wait. Use com moderação.`maxAge``integer` (ms)`172800000`Retorne uma versão em cache se estiver mais recente do que esse valor (o padrão é 2 dias). Defina `0` para sempre buscar uma versão atualizada.`timeout``integer` (ms)`30000`Duração máxima da requisição antes de abortar (o padrão é 30 segundos). O mínimo é 1000 (1 segundo).
+
+### Análise de PDF
+
+ParâmetroTipoPadrãoDescrição`parsers``array``["pdf"]`Controla o processamento de PDFs. Use `[]` para ignorar a análise e retornar base64 (1 crédito fixo).
+
+```
+{ "type": "pdf", "mode": "fast" | "auto" | "ocr", "maxPages": 10 }
+```
+
+PropriedadeTipoPadrãoDescrição`type``"pdf"`*(obrigatório)*Tipo de parser.`mode``"fast" | "auto" | "ocr"``"auto"``fast`: extração somente de texto. `auto`: fast com OCR como fallback. `ocr`: força OCR.`maxPages``integer`—Limita o número de páginas a serem analisadas.
+
+### Actions
+
+Execute ações no navegador antes do scraping. Isso é útil para conteúdo dinâmico, navegação ou páginas que exigem interação do usuário. Você pode incluir até 50 ações por requisição, e o tempo de espera combinado entre todas as ações `wait` e `waitFor` não deve exceder 60 segundos.
+
+AçãoParâmetrosDescrição`wait``milliseconds?: number`, `selector?: string`Aguarda um tempo fixo **ou** até que um elemento esteja visível (forneça um, não ambos). Ao usar `selector`, o tempo limite é de 30 segundos.`click``selector: string`, `all?: boolean`Clica em um elemento que corresponde ao seletor CSS. Defina `all: true` para clicar em todas as correspondências.`write``text: string`Digita texto no campo atualmente focado. Você deve focar o elemento antes com uma ação `click`.`press``key: string`Pressiona uma tecla do teclado (por exemplo, `"Enter"`, `"Tab"`, `"Escape"`).`scroll``direction?: "up" | "down"`, `selector?: string`Rola a página ou um elemento específico. A direção padrão é `"down"`.`screenshot``fullPage?: boolean`, `quality?: number`, `viewport?: { width, height }`Captura uma imagem da tela. A resolução máxima do viewport é 7680×4320.`scrape`*(none)*Captura o HTML da página atual neste ponto da sequência de ações.`executeJavascript``script: string`Executa código JavaScript na página. Retorna `{ type, value }`.`pdf``format?: string`, `landscape?: boolean`, `scale?: number`Gera um PDF. Formatos suportados: `"A0"` até `"A6"`, `"Letter"`, `"Legal"`, `"Tabloid"`, `"Ledger"`. O padrão é `"Letter"`.
+
+#### Observações sobre a execução de ações
+
+- **Write** requer um `click` anterior para focar o elemento de destino.
+- **Scroll** aceita um `selector` opcional para rolar um elemento específico em vez da página.
+- **Wait** aceita `milliseconds` (atraso fixo) ou `selector` (esperar até que fique visível).
+- As ações são executadas **sequencialmente**: cada etapa é concluída antes da próxima começar.
+- Ações **não são compatíveis com PDFs**. Se a URL for resolvida para um PDF, a requisição falhará.
+
+#### Exemplos de Ações Avançadas
+
+**Capturando a tela:**
+
+```
+curl -X POST https://api.firecrawl.dev/v2/scrape \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer fc-YOUR-API-KEY' \
+  -d '{
+    "url": "https://example.com",
+    "actions": [
+      { "type": "click", "selector": "#load-more" },
+      { "type": "wait", "milliseconds": 1000 },
+      { "type": "screenshot", "fullPage": true, "quality": 80 }
+    ]
+  }'
+```
+
+**Clicar em vários elementos:**
+
+```
+curl -X POST https://api.firecrawl.dev/v2/scrape \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer fc-YOUR-API-KEY' \
+  -d '{
+    "url": "https://example.com",
+    "actions": [
+      { "type": "click", "selector": ".expand-button", "all": true },
+      { "type": "wait", "milliseconds": 500 }
+    ],
+    "formats": ["markdown"]
+  }'
+```
+
+**Gerar um PDF:**
+
+```
+curl -X POST https://api.firecrawl.dev/v2/scrape \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer fc-YOUR-API-KEY' \
+  -d '{
+    "url": "https://example.com",
+    "actions": [
+      { "type": "pdf", "format": "A4", "landscape": false }
+    ]
+  }'
+```
+
+### Exemplo completo de scraping
+
+A solicitação abaixo combina várias opções de scraping:
+
+```
+curl -X POST https://api.firecrawl.dev/v2/scrape \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer fc-YOUR-API-KEY' \
+    -d '{
+      "url": "https://docs.firecrawl.dev",
+      "formats": [
+        "markdown",
+        "links",
+        "html",
+        "rawHtml",
+        { "type": "screenshot", "fullPage": true, "quality": 80 }
+      ],
+      "includeTags": ["h1", "p", "a", ".main-content"],
+      "excludeTags": ["#ad", "#footer"],
+      "onlyMainContent": false,
+      "waitFor": 1000,
+      "timeout": 15000,
+      "parsers": ["pdf"]
+    }'
+```
+
+Essa requisição retorna markdown, HTML, HTML bruto, links e uma captura de tela da página inteira. Ela restringe o conteúdo a `<h1>`, `<p>`, `<a>` e `.main-content`, enquanto exclui `#ad` e `#footer`, aguarda 1 segundo antes de iniciar o scraping, define um tempo limite de 15 segundos e habilita a análise de PDFs. Consulte a [referência completa da API de Scrape](https://docs.firecrawl.dev/api-reference/endpoint/scrape) para mais detalhes.
+
+Use o objeto de formato JSON em `formats` para extrair dados estruturados em uma única chamada:
+
+## Endpoint do agente
+
+Use o endpoint `/v2/agent` para extração autônoma de dados em várias páginas. O agente é executado de forma assíncrona: você inicia uma tarefa e depois faz polling dos resultados.
+
+### Opções do agente
+
+ParâmetroTipoPadrãoDescrição`prompt``string`*(obrigatório)*Instruções em linguagem natural descrevendo quais dados extrair (máx. 10.000 caracteres).`urls``array`—URLs às quais o agente estará limitado.`schema``object`—Schema JSON para estruturar os dados extraídos.`maxCredits``number``2500`Créditos máximos que o agente pode gastar. O dashboard suporta até 2.500; para limites maiores, defina isso pela API (valores acima de 2.500 são sempre cobrados como requisições pagas).`strictConstrainToURLs``boolean``false`Quando `true`, o agente visita apenas as URLs fornecidas.`model``string``"spark-1-mini"`Modelo de IA a ser usado: `"spark-1-mini"` (padrão, 60% mais barato) ou `"spark-1-pro"` (maior precisão).
+
+### Verificar status do agente
+
+Faça requisições periódicas para `GET /v2/agent/{jobId}` para verificar o progresso. O campo `status` da resposta será `"processing"`, `"completed"` ou `"failed"`.
+
+```
+curl -X GET https://api.firecrawl.dev/v2/agent/YOUR-JOB-ID \
+  -H 'Authorization: Bearer fc-YOUR-API-KEY'
+```
+
+Os SDKs de Python e Node também fornecem um método conveniente (`firecrawl.agent()`) que inicia o job e consulta o status automaticamente até a conclusão.
+
+## Rastreando várias páginas
+
+Para rastrear várias páginas, use o endpoint `/v2/crawl`. O rastreamento é executado de forma assíncrona e retorna um ID do job. Use o parâmetro `limit` para controlar quantas páginas são rastreadas. Se omitido, o rastreamento processará até 10.000 páginas.
+
+```
+curl -X POST https://api.firecrawl.dev/v2/crawl \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer fc-YOUR-API-KEY' \
+    -d '{
+      "url": "https://docs.firecrawl.dev",
+      "limit": 10
+    }'
+```
+
+### Resposta
+
+```
+{ "id": "1234-5678-9101" }
+```
+
+### Verificar job de crawl
+
+Use o ID do job para verificar o status de um crawl e obter seus resultados.
+
+```
+curl -X GET https://api.firecrawl.dev/v2/crawl/1234-5678-9101 \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer fc-YOUR-API-KEY'
+```
+
+Se o conteúdo for maior que 10 MB ou se o job de crawl ainda estiver em execução, a resposta pode incluir o parâmetro `next`, que é uma URL para a próxima página de resultados.
+
+### Prévia do prompt e dos parâmetros de crawl
+
+Você pode fornecer um `prompt` em linguagem natural para o Firecrawl deduzir as configurações de crawl. Veja a prévia delas primeiro:
+
+```
+curl -X POST https://api.firecrawl.dev/v2/crawl/params-preview \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer fc-YOUR-API-KEY' \
+  -d '{
+    "url": "https://docs.firecrawl.dev",
+    "prompt": "Extrair documentação e blog"
+  }'
+```
+
+### Opções do crawler
+
+Ao usar o endpoint `/v2/crawl`, você pode configurar o comportamento do crawler com as seguintes opções.
+
+#### Filtragem de caminhos
+
+ParâmetroTipoPadrãoDescrição`includePaths``array`—Padrões regex para URLs a serem incluídas (apenas o pathname por padrão).`excludePaths``array`—Padrões regex para URLs a serem excluídas (apenas o pathname por padrão).`regexOnFullURL``boolean``false`Aplica os padrões à URL completa em vez de apenas ao pathname.
+
+#### Escopo do rastreamento
+
+ParâmetroTipoPadrãoDescrição`maxDiscoveryDepth``integer`—Profundidade máxima de links para descoberta de novas URLs.`limit``integer``10000`Máximo de páginas a serem rastreadas.`crawlEntireDomain``boolean``false`Explorar páginas irmãs (siblings) e pais (parents) para cobrir todo o domínio.`allowExternalLinks``boolean``false`Seguir links para domínios externos.`allowSubdomains``boolean``false`Seguir subdomínios do domínio principal.`delay``number` (s)—Atraso entre coletas.
+
+#### Sitemap e deduplicação
+
+ParâmetroTipoPadrãoDescrição`sitemap``string``"include"``"include"`: usar sitemap + descoberta de links. `"skip"`: ignorar sitemap. `"only"`: rastrear apenas URLs do sitemap.`deduplicateSimilarURLs``boolean``true`Normaliza variantes de URL (`www.`, `https`, barras finais, `index.html`) tratando-as como duplicadas.`ignoreQueryParameters``boolean``false`Remove query strings antes da deduplicação (por exemplo, `/page?a=1` e `/page?a=2` se tornam uma única URL).
+
+#### Opções de scrape para crawl
+
+ParâmetroTipoPadrãoDescrição`scrapeOptions``object``{ formats: ["markdown"] }`Configuração de scrape por página. Aceita todas as [opções de scrape](#scrape-options) listadas acima.
+
+### Exemplo de rastreamento
+
+```
+curl -X POST https://api.firecrawl.dev/v2/crawl \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer fc-SUA-API-KEY' \
+    -d '{
+      "url": "https://docs.firecrawl.dev",
+      "includePaths": ["^/blog/.*$", "^/docs/.*$"],
+      "excludePaths": ["^/admin/.*$", "^/private/.*$"],
+      "maxDiscoveryDepth": 2,
+      "limit": 1000
+    }'
+```
+
+## Mapeando links de sites
+
+O endpoint `/v2/map` identifica as URLs relacionadas a um determinado site.
+
+```
+curl -X POST https://api.firecrawl.dev/v2/map \
+    -H 'Content-Type: application/json' \
+    -H 'Authorization: Bearer fc-SUA-API-KEY' \
+    -d '{
+      "url": "https://docs.firecrawl.dev"
+    }'
+```
+
+### Opções do map
+
+ParâmetroTipoPadrãoDescrição`search``string`—Filtrar links por correspondência de texto.`limit``integer``100`Máximo de links a serem retornados.`sitemap``string``"include"``"include"`, `"skip"` ou `"only"`.`includeSubdomains``boolean``true`Incluir subdomínios.
+
+Aqui está a referência da API correspondente: [Documentação do endpoint /map](https://docs.firecrawl.dev/api-reference/endpoint/map)
+
+## Adicionando o Firecrawl à lista de permissões
+
+### Como permitir que o Firecrawl faça scraping do seu site
+
+- **User Agent**: permita `FirecrawlAgent` no seu firewall ou nas suas regras de segurança.
+- **Endereços IP**: o Firecrawl não usa um conjunto fixo de IPs de saída.
+
+### Permitindo que sua aplicação faça chamadas à API do Firecrawl
+
+Se o seu firewall bloquear requisições de saída da sua aplicação para serviços externos, você precisa adicionar o endereço IP do servidor da API do Firecrawl à lista de permissões para que sua aplicação possa acessar a API do Firecrawl (`api.firecrawl.dev`):
+
+- **Endereço IP**: `35.245.250.27`
+
+Adicione esse IP à lista de permissões de saída do seu firewall para que seu backend possa enviar requisições de scrape, crawl, map e agent para o Firecrawl.

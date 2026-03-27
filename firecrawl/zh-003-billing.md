@@ -1,0 +1,109 @@
+---
+title: 计费 | Firecrawl
+url: https://docs.firecrawl.dev/zh/billing
+source: sitemap
+fetched_at: 2026-03-23T07:26:49.067015-03:00
+rendered_js: false
+word_count: 221
+summary: 此文档介绍了 Firecrawl 的计费系统，包括信用点数消耗机制、不同订阅方案的差异、自动充值功能以及额度管理规则。
+tags:
+    - billing
+    - credits
+    - firecrawl
+    - pricing
+    - api-usage
+    - subscription
+    - account-management
+category: reference
+---
+
+## 概览
+
+Firecrawl 使用**基于点数的计费系统**。你发起的每一次 API 调用都会消耗点数，具体消耗数量取决于你使用的端点和选项。你会根据自己的套餐每月获得一定的点数配额，如需更多点数，可以通过自动充值包购买额外点数。 有关当前套餐定价，请访问 [Firecrawl 定价页面](https://www.firecrawl.dev/pricing)。
+
+## Credits
+
+Credits 是 Firecrawl 中的用量单位。每个方案都包含每月的 Credits 配额，并会在每个计费周期开始时重置。不同的 API 端点会消耗不同数量的 Credits。
+
+### 每个端点的额度消耗
+
+EndpointCredit CostNotes**Scrape**1 credit / page将单个 URL 转换为干净的 Markdown、HTML 或结构化数据。使用抓取选项时会额外消耗额度 (见下文) 。**Crawl**1 credit / page从起始 URL 跟踪链接以抓取整个网站。每个被爬取的页面都适用相同的每页抓取选项额度消耗。**Map**1 credit / call发现网站上的所有 URL，而不抓取其内容。**Search**2 credits / 10 results搜索全网，并可选地抓取搜索结果。对每个被抓取的结果将按页面收取额外的抓取额度。企业版 ZDR 搜索的消耗为 10 credits / 10 results (参见 [ZDR Search](https://docs.firecrawl.dev/zh/features/search#zero-data-retention-zdr)) 。**Browser**2 credits / browser minute交互式浏览器沙盒会话，按浏览器使用分钟计费。**Agent**Dynamic自主网页研究代理。每天前 5 次运行免费；超出部分按用量动态计费。
+
+### 抓取选项的额外额度消耗
+
+某些抓取选项会在每页基础消耗之外额外增加额度：
+
+OptionAdditional CostDescriptionPDF parsing+1 credit / PDF page从 PDF 文档中提取内容JSON format (LLM extraction)+4 credits / page使用 LLM 从页面中提取结构化 JSON 数据Enhanced Mode+4 credits / page为难以访问的页面提供优化的抓取能力Zero Data Retention (ZDR)+1 credit / page确保除本次请求外不会持久保存任何数据 (参见 [Scrape ZDR](https://docs.firecrawl.dev/zh/features/scrape#zero-data-retention-zdr))
+
+这些费用加成可以叠加。例如，同时使用 JSON format 和 Enhanced Mode 抓取同一页面时，每页将消耗 **1 + 4 + 4 = 9 credits**。由于 Crawl 和 Search 端点在内部会对每个页面调用 scrape，这些端点同样适用上述费用加成。
+
+### 何时扣除点数
+
+对于 **batch scrape** 和 **crawl** 作业，点数是在每个页面完成处理后异步计费，而不是在提交作业时一次性计费。这意味着从提交作业到在你的账户中看到完整的点数消耗，中间可能会有一段延迟。如果一个批次包含大量 URL，或者在高流量时段页面被排队处理，点数可能会在提交后持续数分钟甚至数小时内才陆续显示。轮询或查看批次状态本身不会消耗点数。
+
+### 跟踪额度使用情况
+
+你可以通过两种方式监控你的额度使用情况：
+
+- **Dashboard**：在 [firecrawl.dev/app](https://www.firecrawl.dev/app) 查看当前和历史用量
+- **API**：使用 [Credit Usage](https://docs.firecrawl.dev/zh/api-reference/endpoint/credit-usage) 和 [Credit Usage Historical](https://docs.firecrawl.dev/zh/api-reference/endpoint/credit-usage-historical) 端点以编程方式检查用量
+
+## 方案
+
+Firecrawl 提供订阅制的月度计费方案。目前不提供纯按量付费模式，但你可以通过自动充值 (见下文) 在基础方案之上灵活扩容。
+
+### 可用方案
+
+方案每月额度并发浏览器数**Free**500 (一次性)2**Hobby**3,0005**Standard**100,00050**Growth**500,000100
+
+所有付费方案均支持按**月**或**年**计费。年付费相比按月付享有折扣。各方案的最新价格请访问 [价格页面](https://www.firecrawl.dev/pricing)。
+
+### 并发浏览器
+
+并发浏览器表示 Firecrawl 可以同时为你处理多少个网页。你的套餐决定了这一上限。如果超出该限制，额外任务会在队列中等待，直到有空闲的并发位。有关并发和 API 速率限制的完整说明，请参阅 [Rate Limits](https://docs.firecrawl.dev/zh/rate-limits)。
+
+## 自动充值
+
+如果你偶尔需要的额度超出当前方案包含的数量，可以在 Dashboard 中启用**自动充值**。当你的剩余额度低于可配置的阈值时，Firecrawl 会自动购买一个额外额度包并将其添加到你的余额中。
+
+- 所有付费方案都支持自动充值额度包
+- 额度包的大小和价格因方案而异 (可在[定价页面](https://www.firecrawl.dev/pricing)中查看)
+- 你可以随时配置充值阈值，并开启或关闭自动充值
+- 自动充值每月最多限购 **4 个额度包**
+- 自动充值额度包中的额度**不会按月重置**——它们会跨计费周期保留，并会在购买 **1 年**后过期；这不同于你的月度方案额度，后者会在每个周期重置。
+
+自动充值最适合应对偶发的用量高峰。如果你发现自己经常超出当前方案的额度，升级到更高档位的方案通常能获得更划算的单额度价格。
+
+## 优惠券
+
+Firecrawl 支持两种类型的优惠券：
+
+- **订阅优惠券**可用于你的方案订阅折扣 (例如按月费或年费的一定比例减免) 。这类优惠券**只能**在你首次订阅付费方案或更改方案时，于 Stripe 结账流程中使用。结账完成后，无法再使用订阅优惠券。
+- **额度优惠券**会为你的账户增加额外额度。你可以在 Dashboard 的 **计费** 部分，通过 [firecrawl.dev/app/billing](https://www.firecrawl.dev/app/billing) 进行兑换。前往计费页面，找到优惠券输入框并输入代码即可使用。额度优惠券提供的额外额度独立于你方案每月分配的额度，即使你升级或降级方案，这些额度也会保留。
+
+如果你有优惠码，但不确定它属于哪种类型，建议先在 Dashboard 的计费部分尝试使用。如果它是订阅优惠券，则需要改为在 Stripe 结账页面使用。
+
+## 计费周期
+
+- **月度方案**：额度会在每月续费日重置
+- **年度方案**：按年计费，但额度仍会在每月的虚拟月度续费日重置
+- **未使用的方案额度不会结转**——在每个计费周期开始时，你的月度配额会重置为对应方案的额度。自动充值包中的额度不与你的计费周期绑定——它们会保留，并在购买之日起 **1 年** 后过期。
+
+## 升级和降级
+
+- **升级** 会立即生效。我们会根据当前计费周期的剩余时间按比例计费，你的额度配额和限制会立刻更新。
+- **降级** 将在下一个续费日生效。在此之前，你会继续保留当前套餐的额度和限制。
+
+## 当你的点数用完时会发生什么
+
+如果你用完了点数配额且未启用自动充值，消耗点数的 API 请求将返回 **HTTP 402 (需要支付)** 错误。如果你启用了自动充值，系统会在自动购买充值包的同时继续提供服务——但如果达到每月充值包上限或某次充值失败，在下一个结算周期或你手动充值之前，你的余额可能会变为负数。在被强制停止后要恢复使用，你可以：
+
+1. 启用自动充值以自动购买更多点数
+2. 升级到更高的套餐
+3. 等待点数在下一个结算周期重置
+
+## 免费套餐
+
+免费套餐提供**一次性 500 点额度**，无需信用卡。这些额度不会重置——一旦用完，你需要升级到付费套餐才能继续使用 Firecrawl。与付费套餐相比，免费套餐的速率限制和并发上限更低 (参见 [速率限制](https://docs.firecrawl.dev/zh/rate-limits)) 。
+
+## 常见问题

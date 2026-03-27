@@ -1,0 +1,155 @@
+---
+title: Cómo elegir el extractor de datos | Firecrawl
+url: https://docs.firecrawl.dev/es/developer-guides/usage-guides/choosing-the-data-extractor
+source: sitemap
+fetched_at: 2026-03-23T07:30:08.594216-03:00
+rendered_js: false
+word_count: 1048
+summary: This document outlines the three primary methods provided by Firecrawl for structured data extraction—agent, extract, and scrape—and provides a decision guide to help users choose the appropriate tool based on their specific requirements for URL knowledge and automation level.
+tags:
+    - web-scraping
+    - structured-data-extraction
+    - ai-agents
+    - data-gathering
+    - firecrawl-api
+    - web-crawling
+category: guide
+---
+
+Firecrawl ofrece tres métodos para extraer datos estructurados de páginas web. Cada uno se adapta a distintos casos de uso, con diferentes niveles de automatización y control.
+
+## Comparación rápida
+
+Función`/agent``/extract``/scrape` (modo JSON)**Estado**ActivoUsa `/agent` en su lugarActivo**URL requerida**No (opcional)Sí (se admiten comodines)Sí (URL única)**Alcance**Descubrimiento en toda la webVarias páginas/dominiosUna sola página**Descubrimiento de URL**Búsqueda web autónomaRastrea desde las URL dadasNinguno**Procesamiento**AsíncronoAsíncronoSíncrono**Esquema requerido**No (prompt o esquema)No (prompt o esquema)No (prompt o esquema)**Precios**Dinámico (5 ejecuciones gratuitas al día)Basado en tokens (1 crédito = 15 tokens)1 crédito/página**Ideal para**Investigación, descubrimiento, recopilación complejaExtracción multipágina (cuando ya conoces las URL)Extracción de una sola página conocida
+
+## 1. Endpoint `/agent`
+
+El endpoint `/agent` es la funcionalidad más avanzada de Firecrawl, el sucesor de `/extract`. Utiliza agentes de IA para buscar, navegar y recopilar datos de forma autónoma en toda la web.
+
+### Características clave
+
+- **URLs opcionales**: Solo tienes que describir lo que necesitas mediante el `prompt`; las URLs son completamente opcionales
+- **Navegación autónoma**: El agente busca y navega en profundidad por sitios web para encontrar tus datos
+- **Búsqueda profunda en la web**: Descubre información de forma autónoma en múltiples dominios y páginas
+- **Procesamiento en paralelo**: Procesa múltiples fuentes simultáneamente para obtener resultados más rápidos
+- **Modelos disponibles**: `spark-1-mini` (predeterminado, 60% más económico) y `spark-1-pro` (mayor precisión)
+
+### Ejemplo
+
+### Caso de uso ideal: investigación y descubrimiento autónomos
+
+**Escenario**: Necesitas encontrar información sobre startups de IA que hayan obtenido una ronda de financiación Serie A, incluyendo sus fundadores y los montos financiados. **Por qué `/agent`** : No sabes qué sitios web contienen esta información. El agente buscará de forma autónoma en la web, navegará a fuentes relevantes (Crunchbase, sitios de noticias, páginas de empresas) y recopilará los datos estructurados por ti. Para más información, consulta la [documentación del agente](https://docs.firecrawl.dev/es/features/agent).
+
+* * *
+
+El endpoint `/extract` recopila datos estructurados a partir de URL específicas o dominios completos usando extracción basada en LLM.
+
+### Características clave
+
+- **URLs normalmente requeridas**: Proporciona al menos una URL (admite comodines como `example.com/*`)
+- **Rastreo de dominio**: Puede rastrear y analizar todas las URLs descubiertas en un dominio
+- **Mejora de la búsqueda web**: `enableWebSearch` opcional para seguir enlaces fuera de los dominios especificados
+- **Esquema opcional**: Admite un esquema JSON estricto O prompts en lenguaje natural
+- **Procesamiento asíncrono**: Devuelve un ID de tarea para comprobar el estado
+
+### La limitación de las URL
+
+El desafío fundamental con `/extract` es que normalmente necesitas conocer las URL de antemano:
+
+1. **Brecha de descubrimiento**: Para tareas como “find YC W24 companies”, no sabes qué URL contienen los datos. Necesitarías un paso de búsqueda por separado antes de llamar a `/extract`.
+2. **Búsqueda web poco práctica**: Aunque existe `enableWebSearch`, está limitado a comenzar desde las URL que proporcionas, lo que resulta en un flujo de trabajo poco práctico para tareas de descubrimiento.
+3. **Por qué se creó `/agent`** : `/extract` es bueno para extraer desde ubicaciones conocidas, pero es menos efectivo para descubrir dónde están los datos.
+
+### Ejemplo
+
+**Escenario**: Tienes la URL de la documentación de tu competidor y quieres extraer todos los endpoints de su API de `docs.competitor.com/*`. **Por qué `/extract` funcionó aquí**: Conocías el dominio exacto. Pero incluso así, hoy en día `/agent` con URLs proporcionadas normalmente ofrece mejores resultados. Para más detalles, consulta la [documentación de Extract](https://docs.firecrawl.dev/es/features/extract).
+
+* * *
+
+## 3. Endpoint `/scrape` con modo JSON
+
+El endpoint `/scrape` con modo JSON es el enfoque con mayor control: extrae datos estructurados de una única URL conocida usando un LLM para convertir el contenido de la página en el esquema que especifiques.
+
+### Características clave
+
+- **Solo una URL**: Diseñado para extraer datos de una única página específica a la vez
+- **URL exacta requerida**: Debes conocer la URL precisa que contiene los datos
+- **Esquema opcional**: Puedes usar un esquema JSON o solo un prompt (el LLM elige la estructura)
+- **Síncrono**: Devuelve los datos de inmediato (no hace falta hacer polling de jobs)
+- **Formatos adicionales**: Puede combinar la extracción en JSON con markdown, HTML y capturas de pantalla en una sola solicitud
+
+### Ejemplo
+
+**Escenario**: Estás creando una herramienta de monitoreo de precios y necesitas extraer el precio, la disponibilidad y los detalles del producto de una página de producto específica para la que ya tienes la URL. **Por qué usar `/scrape` con modo JSON**: Sabes exactamente qué página contiene los datos, necesitas una extracción precisa de una sola página y quieres resultados síncronos sin la sobrecarga de gestionar tareas. Para más detalles, consulta la [documentación del modo JSON](https://docs.firecrawl.dev/es/features/llm-extract).
+
+* * *
+
+## Guía de decisiones
+
+**¿Conoces las URL exactas que contienen tus datos?**
+
+- **NO** → Usa `/agent` (descubrimiento web autónomo)
+- **SÍ**
+  
+  - **¿Una sola página?** → Usa `/scrape` con modo JSON
+  - **¿Múltiples páginas?** → Usa `/agent` con URLs (o `/scrape` por lotes)
+
+### Recomendaciones por escenario
+
+EscenarioEndpoint recomendado”Encontrar todas las startups de IA y su financiación”`/agent`”Extraer datos de esta página de producto específica”`/scrape` (modo JSON)“Obtener todas las publicaciones de blog de competitor.com”`/agent` con URL”Monitorizar precios en múltiples URLs conocidas”`/scrape` con procesamiento por lotes”Investigar empresas en un sector específico”`/agent`”Extraer información de contacto de 50 páginas de empresas conocidas”`/scrape` con procesamiento por lotes
+
+* * *
+
+## Precios
+
+EndpointCostoNotas`/scrape` (modo JSON)1 crédito/páginaFijo, predecible`/extract`Basado en tokens (1 crédito = 15 tokens)Variable según el contenido`/agent`Dinámico5 ejecuciones gratuitas al día; varía según la complejidad
+
+### Ejemplo: “Encuentra a los fundadores de Firecrawl”
+
+EndpointCómo funcionaCréditos usados`/scrape`Encuentras la URL manualmente y luego haces scraping de 1 página~1 crédito`/extract`Proporcionas una o varias URL y extrae datos estructuradosVariable (basado en tokens)`/agent`Solo tienes que enviar el prompt: el agente encuentra y extrae~100–500 créditos
+
+**Compensación**: `/scrape` es el más barato pero requiere que conozcas la URL. `/agent` cuesta más pero se encarga del descubrimiento automáticamente. Para ver los precios detallados, consulta [Precios de Firecrawl](https://firecrawl.dev/pricing).
+
+* * *
+
+Si actualmente estás utilizando `/extract`, la migración es muy sencilla: **Antes (extract):**
+
+```
+result = app.extract(
+    urls=["https://example.com/*"],
+    prompt="Extraer información del producto",
+    schema=schema
+)
+```
+
+**Después (agente):**
+
+```
+result = app.agent(
+    urls=["https://example.com"],  # Opcional - se puede omitir por completo
+    prompt="Extract product information from example.com",
+    schema=schema,
+    model="spark-1-mini"  # or "spark-1-pro" for higher accuracy
+)
+```
+
+La ventaja clave es que, con `/agent`, puedes prescindir por completo de las URL y simplemente describir lo que necesitas.
+
+* * *
+
+## Puntos clave
+
+1. **¿Sabes la URL exacta?** Usa `/scrape` con modo JSON: es la opción más barata (1 crédito/página), la más rápida (sincrónica) y la más predecible.
+2. **¿Necesitas investigación autónoma?** Usa `/agent`: gestiona el descubrimiento automáticamente con 5 ejecuciones gratuitas al día y luego precios dinámicos según la complejidad.
+3. **Migra de `/extract`** a `/agent` para proyectos nuevos: `/agent` es el sucesor con mejores capacidades.
+4. **Equilibrio entre costo y conveniencia**: `/scrape` es lo más rentable cuando conoces tus URLs; `/agent` cuesta más, pero elimina el descubrimiento manual de URLs.
+
+* * *
+
+## Lecturas adicionales
+
+- [Documentación de Agent](https://docs.firecrawl.dev/es/features/agent)
+- [Modelos de Agent](https://docs.firecrawl.dev/es/features/models)
+- [Documentación del modo JSON](https://docs.firecrawl.dev/es/features/llm-extract)
+- [Documentación de Extract](https://docs.firecrawl.dev/es/features/extract)
+- [Rastreo por lotes](https://docs.firecrawl.dev/es/features/batch-scrape)

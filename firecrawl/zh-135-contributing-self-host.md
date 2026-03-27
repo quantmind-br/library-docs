@@ -1,0 +1,242 @@
+---
+title: 自托管 | Firecrawl
+url: https://docs.firecrawl.dev/zh/contributing/self-host
+source: sitemap
+fetched_at: 2026-03-23T07:30:28.572807-03:00
+rendered_js: false
+word_count: 279
+summary: This document provides a comprehensive guide for self-hosting Firecrawl locally, covering the benefits, limitations, configuration steps, and basic troubleshooting.
+tags:
+    - self-hosting
+    - firecrawl
+    - docker
+    - web-scraping
+    - deployment
+    - configuration
+    - api-setup
+category: guide
+---
+
+#### 想要贡献？
+
+欢迎来到 [Firecrawl](https://firecrawl.dev) 🔥！以下是一些在本地拉取并运行项目的说明，方便你自行运行并参与贡献。 如果你要贡献代码，请注意流程与其他开源仓库类似：fork Firecrawl、做改动、跑测试、提交 PR。 如果你有任何问题或需要上手帮助，欢迎加入我们的 Discord 社区 ([链接](https://discord.gg/firecrawl)) 获取更多信息，或在 GitHub 提交 issue ([链接](https://github.com/firecrawl/firecrawl/issues/new/choose)) ！
+
+有关本地运行的说明，请参阅 [SELF\_HOST.md](https://github.com/firecrawl/firecrawl/blob/main/SELF_HOST.md)。
+
+## 为什么？
+
+对于要求数据必须留在受控环境内、具有严格安全策略的组织而言，自托管 Firecrawl 尤其有益。以下是考虑自托管的主要原因：
+
+- **更强的安全性与合规性：** 通过自托管，您可确保所有数据的处理与处理流程符合内外部合规要求，并将敏感信息留在自有的安全基础设施中。请注意，Firecrawl 是 Mendable 的产品，并通过了 SOC 2 Type II 认证，这意味着该平台在数据安全管理方面遵循严苛的行业标准。
+- **可定制的服务：** 自托管使您能够按需定制服务（例如 Playwright 服务），以满足特定需求，或处理标准云服务可能不支持的用例。
+- **学习与社区贡献：** 通过搭建并维护自有实例，您将更深入理解 Firecrawl 的工作原理，也更有助于为项目做出更有价值的贡献。
+
+### 注意事项
+
+不过，需要留意一些限制和额外责任：
+
+1. **对 Fire-engine 的访问受限：** 目前，自托管的 Firecrawl 实例无法使用 Fire-engine，其包含处理 IP 封禁、机器人检测等高级功能。这意味着虽然你可以完成基础抓取任务，但更复杂的场景可能需要额外配置，或可能无法支持。
+2. **需要手动配置：** 如果你需要使用超出基础 `fetch` 和 Playwright 选项的抓取方法，则需在 `.env` 文件中手动配置。这要求对相关技术有更深入的理解，并可能增加设置时间。
+
+能力：云端 / 自托管
+
+- 支持所有 API endpoint：是 / 不总是；自托管不支持 `/agent` 和 `/browser`
+- 截图支持：是 / 是，当 Playwright 服务正在运行时
+- 本地 LLM（例如 Ollama）：不支持 / 通过 `OLLAMA_BASE_URL` 支持（实验性）
+
+自托管 Firecrawl 非常适合需要对抓取与数据处理环境实现完全掌控的用户，但相应地需要投入更多的维护与配置工作。
+
+## 步骤
+
+1. 首先，安装依赖项
+
+<!--THE END-->
+
+- Docker [安装说明](https://docs.docker.com/get-docker/)
+
+<!--THE END-->
+
+2. 设置环境变量
+
+在项目根目录创建一个 `.env` 文件,你可以复制 `apps/api/.env.example` 中的模板 起步阶段我们先不配置身份验证,也不启用任何可选的子服务(PDF 解析、JS 阻断支持、AI 功能)
+
+```
+# .env
+
+# ===== Required ENVS ======
+PORT=3002
+HOST=0.0.0.0
+
+# Note: PORT is used by both the main API server and worker liveness check endpoint
+
+# To turn on DB authentication, you need to set up Supabase.
+USE_DB_AUTHENTICATION=false
+
+# ===== Optional ENVS ======
+
+## === AI features (JSON format on scrape, /extract API) ===
+# Provide your OpenAI API key here to enable AI features
+# OPENAI_API_KEY=
+
+# Experimental: Use Ollama
+# OLLAMA_BASE_URL=http://localhost:11434/api
+# MODEL_NAME=deepseek-r1:7b
+# MODEL_EMBEDDING_NAME=nomic-embed-text
+
+# Experimental: Use any OpenAI-compatible API
+# OPENAI_BASE_URL=https://example.com/v1
+# OPENAI_API_KEY=
+
+## === Proxy ===
+# PROXY_SERVER can be a full URL (e.g. http://0.1.2.3:1234) or just an IP and port combo (e.g. 0.1.2.3:1234)
+# Do not uncomment PROXY_USERNAME and PROXY_PASSWORD if your proxy is unauthenticated
+# PROXY_SERVER=
+# PROXY_USERNAME=
+# PROXY_PASSWORD=
+
+## === /search API ===
+
+# 如需使用 SearXNG 而非直接使用 Google,可指定一个启用了 JSON 格式的 SearXNG 服务器。
+# 也可以自定义 engines 和 categories 参数,但默认值通常即可正常工作。
+# SEARXNG_ENDPOINT=http://your.searxng.server
+# SEARXNG_ENGINES=
+# SEARXNG_CATEGORIES=
+
+## === Other ===
+
+# Supabase Setup (used to support DB authentication, advanced logging, etc.)
+# SUPABASE_ANON_TOKEN=
+# SUPABASE_URL=
+# SUPABASE_SERVICE_TOKEN=
+
+# Use if you've set up authentication and want to test with a real API key
+# TEST_API_KEY=
+
+# This key lets you access the queue admin panel. Change this if your deployment is publicly accessible.
+BULL_AUTH_KEY=CHANGEME
+
+# This is now autoconfigured by the docker-compose.yaml. You shouldn't need to set it.
+# PLAYWRIGHT_MICROSERVICE_URL=http://playwright-service:3000/scrape
+# REDIS_URL=redis://redis:6379
+# REDIS_RATE_LIMIT_URL=redis://redis:6379
+
+# Set if you have a llamaparse key you'd like to use to parse pdfs
+# LLAMAPARSE_API_KEY=
+
+# Set if you'd like to send server health status messages to Slack
+# SLACK_WEBHOOK_URL=
+
+# Set if you'd like to send posthog events like job logs
+# POSTHOG_API_KEY=
+# POSTHOG_HOST=
+
+## === System Resource Configuration ===
+# Maximum CPU usage threshold (0.0-1.0). Worker will reject new jobs when CPU usage exceeds this value.
+# Default: 0.8 (80%)
+# MAX_CPU=0.8
+
+# Maximum RAM usage threshold (0.0-1.0). Worker will reject new jobs when memory usage exceeds this value.
+# Default: 0.8 (80%)
+# MAX_RAM=0.8
+
+# Set if you'd like to allow local webhooks to be sent to your self-hosted instance
+# ALLOW_LOCAL_WEBHOOKS=true
+```
+
+3. *(Optional) Running with TypeScript Playwright Service*
+   
+   - Update the `docker-compose.yml` file to change the Playwright service:
+     
+     ```
+         build: apps/playwright-service
+     ```
+     
+     TO
+     
+     ```
+         build: apps/playwright-service-ts
+     ```
+   - Set the `PLAYWRIGHT_MICROSERVICE_URL` in your `.env` file:
+     
+     ```
+     PLAYWRIGHT_MICROSERVICE_URL=http://localhost:3000/scrape
+     ```
+   - Don’t forget to set the proxy server in your `.env` file as needed.
+4. Build and run the Docker containers:
+   
+   ```
+   docker compose build
+   docker compose up
+   ```
+
+This will run a local instance of Firecrawl which can be accessed at `http://localhost:3002`. You should be able to see the Bull Queue Manager UI on `http://localhost:3002/admin/{BULL_AUTH_KEY}/queues`.
+
+5. *(可选)* 测试 API
+
+如果你想测试 crawl 端点，可以运行以下命令：
+
+```
+  curl -X POST http://localhost:3002/v2/crawl \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "url": "https://docs.firecrawl.dev"
+      }'
+```
+
+## 故障排查
+
+本节提供在配置或运行自托管版 Firecrawl 实例时可能遇到的常见问题及解决方案。
+
+### 未配置 Supabase 客户端
+
+**现象：**
+
+```
+[YYYY-MM-DDTHH:MM:SS.SSSz]ERROR - 在未配置 Supabase 客户端的情况下尝试访问该客户端。
+[YYYY-MM-DDTHH:MM:SS.SSSz]ERROR - 插入抓取事件时出错：Error: 未配置 Supabase 客户端。
+```
+
+**解释：** 出现此错误是因为 Supabase 客户端尚未完成配置。你仍然可以正常进行抓取和爬取。目前，自托管实例不支持配置 Supabase。
+
+### 你绕过了认证流程
+
+**现象：**
+
+```
+[YYYY-MM-DDTHH:MM:SS.SSSz]WARN - You're bypassing authentication
+```
+
+**说明：** 出现此错误是因为 Supabase 客户端尚未完成初始化。你仍然可以正常进行抓取和爬取操作。目前在自托管实例中还无法配置 Supabase。
+
+### Docker 容器无法启动
+
+**症状：** Docker 容器意外退出或无法启动。 **解决方案：** 使用以下命令检查 Docker 日志中的错误信息：
+
+```
+docker logs [container_name]
+```
+
+- 确保在 .env 文件中正确设置了所有必需的环境变量。
+- 确认 docker-compose.yml 中定义的所有 Docker 服务均已正确配置，且所需镜像已就绪。
+
+### 与 Redis 的连接问题
+
+**症状：** 与连接 Redis 相关的错误，例如超时或 “Connection refused”。 **解决方案：**
+
+- 确保 Redis 服务在你的 Docker 环境中已启动并正常运行。
+- 确认 `.env` 文件中的 `REDIS_URL` 和 `REDIS_RATE_LIMIT_URL` 指向正确的 Redis 实例。
+- 检查网络设置和防火墙规则，查看是否有阻止连接到 Redis 端口的情况。
+
+### API 端点无响应
+
+**现象：** 对 Firecrawl 实例的 API 请求超时或无返回。 **解决方案：**
+
+- 检查 Docker 容器状态，确保 Firecrawl 服务正在运行。
+- 核对 .env 文件中的 PORT 和 HOST 配置是否正确，并确认没有其他服务占用同一端口。
+- 检查网络配置，确保发起 API 请求的客户端可访问该主机。
+
+通过排查以上常见问题，可使自托管的 Firecrawl 实例部署与运行更顺畅。
+
+## 在 Kubernetes 集群上安装 Firecrawl（简化版）
+
+请阅读 [examples/kubernetes-cluster-install/README.md](https://github.com/firecrawl/firecrawl/tree/main/examples/kubernetes/cluster-install#readme)，了解在 Kubernetes 集群上安装 Firecrawl 的步骤。

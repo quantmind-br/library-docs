@@ -1,0 +1,181 @@
+---
+title: LangChain - Firecrawl Docs
+url: https://docs.firecrawl.dev/developer-guides/llm-sdks-and-frameworks/langchain
+source: sitemap
+fetched_at: 2026-03-23T07:39:43.779771-03:00
+rendered_js: false
+word_count: 303
+summary: This document provides a technical guide on integrating Firecrawl with LangChain to enable web data scraping, content processing, and structured data extraction within AI applications.
+tags:
+    - firecrawl
+    - langchain
+    - web-scraping
+    - ai-development
+    - data-extraction
+    - llm-integration
+category: tutorial
+---
+
+Integrate Firecrawl with LangChain to build AI applications powered by web data.
+
+## Setup
+
+```
+npm install @langchain/openai @mendable/firecrawl-js
+```
+
+Create `.env` file:
+
+```
+FIRECRAWL_API_KEY=your_firecrawl_key
+OPENAI_API_KEY=your_openai_key
+```
+
+> **Note:** If using Node &lt; 20, install `dotenv` and add `import 'dotenv/config'` to your code.
+
+## Scrape + Chat
+
+This example demonstrates a simple workflow: scrape a website and process the content using LangChain.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { ChatOpenAI } from '@langchain/openai';
+import { HumanMessage } from '@langchain/core/messages';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const chat = new ChatOpenAI({
+    model: 'gpt-5-nano',
+    apiKey: process.env.OPENAI_API_KEY
+});
+
+const scrapeResult = await firecrawl.scrape('https://firecrawl.dev', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+const response = await chat.invoke([
+    new HumanMessage(`Summarize: ${scrapeResult.markdown}`)
+]);
+
+console.log('Summary:', response.content);
+```
+
+## Chains
+
+This example shows how to build a LangChain chain to process and analyze scraped content.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { ChatOpenAI } from '@langchain/openai';
+import { ChatPromptTemplate } from '@langchain/core/prompts';
+import { StringOutputParser } from '@langchain/core/output_parsers';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const model = new ChatOpenAI({
+    model: 'gpt-5-nano',
+    apiKey: process.env.OPENAI_API_KEY
+});
+
+const scrapeResult = await firecrawl.scrape('https://stripe.com', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+// Create processing chain
+const prompt = ChatPromptTemplate.fromMessages([
+    ['system', 'You are an expert at analyzing company websites.'],
+    ['user', 'Extract the company name and main products from: {content}']
+]);
+
+const chain = prompt.pipe(model).pipe(new StringOutputParser());
+
+// Execute the chain
+const result = await chain.invoke({
+    content: scrapeResult.markdown
+});
+
+console.log('Chain result:', result);
+```
+
+This example demonstrates how to use LangChain’s tool calling feature to let the model decide when to scrape websites.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { ChatOpenAI } from '@langchain/openai';
+import { DynamicStructuredTool } from '@langchain/core/tools';
+import { z } from 'zod';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+
+// Create the scraping tool
+const scrapeWebsiteTool = new DynamicStructuredTool({
+    name: 'scrape_website',
+    description: 'Scrape content from any website URL',
+    schema: z.object({
+        url: z.string().url().describe('The URL to scrape')
+    }),
+    func: async ({ url }) => {
+        console.log('Scraping:', url);
+        const result = await firecrawl.scrape(url, {
+            formats: ['markdown']
+        });
+        console.log('Scraped content preview:', result.markdown?.substring(0, 200) + '...');
+        return result.markdown || 'No content scraped';
+    }
+});
+
+const model = new ChatOpenAI({
+    model: 'gpt-5-nano',
+    apiKey: process.env.OPENAI_API_KEY
+}).bindTools([scrapeWebsiteTool]);
+
+const response = await model.invoke('What is Firecrawl? Visit firecrawl.dev and tell me about it.');
+
+console.log('Response:', response.content);
+console.log('Tool calls:', response.tool_calls);
+```
+
+This example shows how to extract structured data using LangChain’s structured output feature.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { ChatOpenAI } from '@langchain/openai';
+import { z } from 'zod';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+
+const scrapeResult = await firecrawl.scrape('https://stripe.com', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+const CompanyInfoSchema = z.object({
+    name: z.string(),
+    industry: z.string(),
+    description: z.string(),
+    products: z.array(z.string())
+});
+
+const model = new ChatOpenAI({
+    model: 'gpt-5-nano',
+    apiKey: process.env.OPENAI_API_KEY
+}).withStructuredOutput(CompanyInfoSchema);
+
+const companyInfo = await model.invoke([
+    {
+        role: 'system',
+        content: 'Extract company information from website content.'
+    },
+    {
+        role: 'user',
+        content: `Extract data: ${scrapeResult.markdown}`
+    }
+]);
+
+console.log('Extracted company info:', companyInfo);
+```
+
+For more examples, check the [LangChain documentation](https://js.langchain.com/docs).

@@ -1,0 +1,152 @@
+---
+title: LangGraph - Firecrawl Docs
+url: https://docs.firecrawl.dev/zh/developer-guides/llm-sdks-and-frameworks/langgraph
+source: sitemap
+fetched_at: 2026-03-23T07:34:03.493781-03:00
+rendered_js: false
+word_count: 205
+summary: 本指南演示了如何将 Firecrawl 与 LangGraph 集成，通过构建状态图工作流来自动化网页内容的抓取、处理和分析过程。
+tags:
+    - firecrawl
+    - langgraph
+    - web-scraping
+    - ai-agents
+    - llm-integration
+    - workflow-automation
+category: tutorial
+---
+
+本指南介绍如何将 Firecrawl 与 LangGraph 集成，以构建可抓取和处理网页内容的 AI 智能体工作流。
+
+## 安装与配置
+
+```
+npm install @langchain/langgraph @langchain/openai @mendable/firecrawl-js
+```
+
+创建一个 `.env` 文件：
+
+```
+FIRECRAWL_API_KEY=your_firecrawl_key
+OPENAI_API_KEY=your_openai_key
+```
+
+> **注意：** 如果使用 Node 版本低于 20，请安装 `dotenv` 并在代码中添加 `import 'dotenv/config'`。
+
+## 基本工作流
+
+此示例演示了一个基本的 LangGraph 工作流，用于爬取网站并分析其内容。
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { ChatOpenAI } from '@langchain/openai';
+import { StateGraph, MessagesAnnotation, START, END } from '@langchain/langgraph';
+
+// Initialize Firecrawl
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+
+// Initialize LLM
+const llm = new ChatOpenAI({
+    model: "gpt-5-nano",
+    apiKey: process.env.OPENAI_API_KEY
+});
+
+// Define the scrape node
+async function scrapeNode(state: typeof MessagesAnnotation.State) {
+    console.log('Scraping...');
+    const result = await firecrawl.scrape('https://firecrawl.dev', { formats: ['markdown'] });
+    return {
+        messages: [{
+            role: "system",
+            content: `Scraped content: ${result.markdown}`
+        }]
+    };
+}
+
+// Define the analyze node
+async function analyzeNode(state: typeof MessagesAnnotation.State) {
+    console.log('Analyzing...');
+    const response = await llm.invoke(state.messages);
+    return { messages: [response] };
+}
+
+// Build the graph
+const graph = new StateGraph(MessagesAnnotation)
+    .addNode("scrape", scrapeNode)
+    .addNode("analyze", analyzeNode)
+    .addEdge(START, "scrape")
+    .addEdge("scrape", "analyze")
+    .addEdge("analyze", END);
+
+// Compile the graph
+const app = graph.compile();
+
+// Run the workflow
+const result = await app.invoke({
+    messages: [{ role: "user", content: "总结网站内容" }]
+});
+
+console.log(JSON.stringify(result, null, 2));
+```
+
+## 多步骤工作流
+
+此示例演示了一个更复杂的工作流，它会抓取多个 URL 并对其进行处理。
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { ChatOpenAI } from '@langchain/openai';
+import { StateGraph, Annotation, START, END } from '@langchain/langgraph';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const llm = new ChatOpenAI({ model: "gpt-5-nano", apiKey: process.env.OPENAI_API_KEY });
+
+// 定义自定义状态
+const WorkflowState = Annotation.Root({
+    urls: Annotation<string[]>(),
+    scrapedData: Annotation<Array<{ url: string; content: string }>>(),
+    summary: Annotation<string>()
+});
+
+// 抓取多个 URL
+async function scrapeMultiple(state: typeof WorkflowState.State) {
+    const scrapedData = [];
+    for (const url of state.urls) {
+        const result = await firecrawl.scrape(url, { formats: ['markdown'] });
+        scrapedData.push({ url, content: result.markdown || '' });
+    }
+    return { scrapedData };
+}
+
+// 汇总所有已抓取的内容
+async function summarizeAll(state: typeof WorkflowState.State) {
+    const combinedContent = state.scrapedData
+        .map(item => `Content from ${item.url}:\n${item.content}`)
+        .join('\n\n');
+
+    const response = await llm.invoke([
+        { role: "user", content: `Summarize these websites:\n${combinedContent}` }
+    ]);
+
+    return { summary: response.content as string };
+}
+
+// 构建工作流图
+const workflow = new StateGraph(WorkflowState)
+    .addNode("scrape", scrapeMultiple)
+    .addNode("summarize", summarizeAll)
+    .addEdge(START, "scrape")
+    .addEdge("scrape", "summarize")
+    .addEdge("summarize", END);
+
+const app = workflow.compile();
+
+// 执行工作流
+const result = await app.invoke({
+    urls: ["https://firecrawl.dev", "https://firecrawl.dev/pricing"]
+});
+
+console.log(result.summary);
+```
+
+更多示例，请查阅 [LangGraph 文档](https://langchain-ai.github.io/langgraphjs/)。

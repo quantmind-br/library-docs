@@ -1,0 +1,167 @@
+---
+title: Mastra - Firecrawl Docs
+url: https://docs.firecrawl.dev/zh/developer-guides/llm-sdks-and-frameworks/mastra
+source: sitemap
+fetched_at: 2026-03-23T07:33:47.631971-03:00
+rendered_js: false
+word_count: 234
+summary: This document provides a tutorial on how to integrate the Firecrawl web scraping tool with the Mastra framework to build an automated AI workflow for searching, scraping, and summarizing web content.
+tags:
+    - mastra
+    - firecrawl
+    - ai-agents
+    - web-scraping
+    - workflow-automation
+    - typescript
+    - integration
+category: tutorial
+---
+
+将 Firecrawl 与 Mastra 集成。Mastra 是一个用于构建 AI 智能体和工作流的 TypeScript 框架。
+
+## 设置
+
+```
+npm install @mastra/core @mendable/firecrawl-js zod
+```
+
+创建 `.env` 文件：
+
+```
+FIRECRAWL_API_KEY=your_firecrawl_key
+OPENAI_API_KEY=your_openai_key
+```
+
+> **注意：** 如果使用 Node 版本低于 20，请安装 `dotenv`，并在代码中添加 `import 'dotenv/config'`。
+
+## 多步骤工作流
+
+此示例展示了一个完整的工作流，使用 Firecrawl 和 Mastra 对文档进行搜索、抓取和总结。
+
+```
+import { createWorkflow, createStep } from "@mastra/core/workflows";
+import { z } from "zod";
+import Firecrawl from "@mendable/firecrawl-js";
+import { Agent } from "@mastra/core/agent";
+
+const firecrawl = new Firecrawl({
+  apiKey: process.env.FIRECRAWL_API_KEY || "fc-YOUR_API_KEY"
+});
+
+const agent = new Agent({
+  name: "summarizer",
+  instructions: "你是一个帮助创建文档简洁摘要的助手。",
+  model: "openai/gpt-5-nano",
+});
+
+// 步骤 1:使用 Firecrawl SDK 搜索
+const searchStep = createStep({
+  id: "search",
+  inputSchema: z.object({
+    query: z.string(),
+  }),
+  outputSchema: z.object({
+    url: z.string(),
+    title: z.string(),
+  }),
+  execute: async ({ inputData }: { inputData: { query: string } }) => {
+    console.log(`搜索中:${inputData.query}`);
+    const searchResults = await firecrawl.search(inputData.query, { limit: 1 });
+    const webResults = (searchResults as any)?.web;
+
+    if (!webResults || !Array.isArray(webResults) || webResults.length === 0) {
+      throw new Error("未找到搜索结果");
+    }
+
+    const firstResult = webResults[0];
+    console.log(`找到:${firstResult.title}`);
+    return {
+      url: firstResult.url,
+      title: firstResult.title,
+    };
+  },
+});
+
+// 步骤 2:使用 Firecrawl SDK 抓取 URL
+const scrapeStep = createStep({
+  id: "scrape",
+  inputSchema: z.object({
+    url: z.string(),
+    title: z.string(),
+  }),
+  outputSchema: z.object({
+    markdown: z.string(),
+    title: z.string(),
+  }),
+  execute: async ({ inputData }: { inputData: { url: string; title: string } }) => {
+    console.log(`抓取中:${inputData.url}`);
+    const scrapeResult = await firecrawl.scrape(inputData.url, {
+      formats: ["markdown"],
+    });
+
+    console.log(`已抓取:${scrapeResult.markdown?.length || 0} 个字符`);
+    return {
+      markdown: scrapeResult.markdown || "",
+      title: inputData.title,
+    };
+  },
+});
+
+// 步骤 3:使用 Claude 生成摘要
+const summarizeStep = createStep({
+  id: "summarize",
+  inputSchema: z.object({
+    markdown: z.string(),
+    title: z.string(),
+  }),
+  outputSchema: z.object({
+    summary: z.string(),
+  }),
+  execute: async ({ inputData }: { inputData: { markdown: string; title: string } }) => {
+    console.log(`生成摘要中:${inputData.title}`);
+
+    const prompt = `用 2-3 句话总结以下文档:\n\n标题:${inputData.title}\n\n${inputData.markdown}`;
+    const result = await agent.generate(prompt);
+
+    console.log(`摘要已生成`);
+    return { summary: result.text };
+  },
+});
+
+// 创建工作流
+export const workflow = createWorkflow({
+  id: "firecrawl-workflow",
+  inputSchema: z.object({
+    query: z.string(),
+  }),
+  outputSchema: z.object({
+    summary: z.string(),
+  }),
+  steps: [searchStep, scrapeStep, summarizeStep],
+})
+  .then(searchStep)
+  .then(scrapeStep)
+  .then(summarizeStep)
+  .commit();
+
+async function testWorkflow() {
+  const run = await workflow.createRunAsync();
+  const result = await run.start({
+    inputData: { query: "Firecrawl documentation" }
+  });
+
+  if (result.status === "success") {
+    const { summarize } = result.steps;
+
+    if (summarize.status === "success") {
+      console.log(`\n${summarize.output.summary}`);
+    }
+  } else {
+    console.error("工作流失败:", result.status);
+  }
+}
+
+testWorkflow().catch(console.error);
+```
+
+更多示例请参见 [Mastra 文档](https://mastra.ai/docs)。

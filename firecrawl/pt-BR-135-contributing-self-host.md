@@ -1,0 +1,244 @@
+---
+title: Hospedagem própria | Firecrawl
+url: https://docs.firecrawl.dev/pt-BR/contributing/self-host
+source: sitemap
+fetched_at: 2026-03-23T07:30:36.725553-03:00
+rendered_js: false
+word_count: 951
+summary: This document provides instructions for self-hosting the Firecrawl service using Docker, including configuration details for environment variables and guidance on system prerequisites.
+tags:
+    - firecrawl
+    - self-hosting
+    - docker
+    - web-scraping
+    - deployment
+    - configuration
+    - open-source
+category: guide
+---
+
+#### Vai contribuir?
+
+Bem-vindo ao [Firecrawl](https://firecrawl.dev) 🔥! Aqui estão algumas instruções para obter o projeto localmente, executá-lo por conta própria e contribuir. Se você for contribuir, observe que o processo é semelhante ao de outros repositórios de código aberto: faça um fork do Firecrawl, faça alterações, rode os testes e abra um PR. Se tiver dúvidas ou precisar de ajuda para começar, entre na nossa comunidade no Discord [aqui](https://discord.gg/firecrawl) para mais informações ou abra uma issue no GitHub [aqui](https://github.com/firecrawl/firecrawl/issues/new/choose)!
+
+## Hospedando o Firecrawl por conta própria
+
+Consulte [SELF\_HOST.md](https://github.com/firecrawl/firecrawl/blob/main/SELF_HOST.md) para instruções sobre como executá-lo localmente.
+
+## Por quê?
+
+Hospedar o Firecrawl por conta própria é especialmente vantajoso para organizações com políticas de segurança rigorosas que exigem manter os dados em ambientes controlados. Aqui estão alguns motivos principais para considerar a hospedagem própria:
+
+- **Segurança e conformidade reforçadas:** Ao auto-hospedar, você garante que todo o tratamento e processamento de dados esteja em conformidade com regulamentações internas e externas, mantendo informações sensíveis dentro da sua infraestrutura segura. Observe que o Firecrawl é um produto da Mendable e possui certificação SOC 2 Type II, o que significa que a plataforma segue altos padrões do setor para gestão da segurança de dados.
+- **Serviços personalizáveis:** A hospedagem própria permite adaptar serviços, como o Playwright, para atender a necessidades específicas ou lidar com casos de uso particulares que podem não ser contemplados pela oferta padrão em nuvem.
+- **Aprendizado e contribuição para a comunidade:** Ao configurar e manter sua própria instância, você obtém um entendimento mais profundo de como o Firecrawl funciona, o que também pode resultar em contribuições mais relevantes para o projeto.
+
+### Considerações
+
+No entanto, há algumas limitações e responsabilidades adicionais das quais você deve estar ciente:
+
+1. **Acesso limitado ao Fire-engine:** Atualmente, instâncias auto-hospedadas do Firecrawl não têm acesso ao Fire-engine, que inclui recursos avançados para lidar com bloqueios de IP, mecanismos de detecção de robôs e mais. Isso significa que, embora você possa gerenciar tarefas básicas de scraping, cenários mais complexos podem exigir configuração adicional ou talvez não sejam suportados.
+2. **Configuração manual necessária:** Se você precisar usar métodos de scraping além das opções básicas de `fetch` e Playwright, será necessário configurá-los manualmente no arquivo `.env`. Isso exige um entendimento mais profundo das tecnologias e pode demandar mais tempo de configuração.
+
+Capacidade: Cloud / Auto-hospedagem
+
+- Todos os endpoints da API suportados: Sim / Nem sempre; `/agent` e `/browser` não são suportados em auto-hospedagem
+- Suporte a captura de tela: Sim / Sim, quando o serviço do Playwright estiver em execução
+- LLMs locais (por exemplo, Ollama): Não suportado / Suportado via `OLLAMA_BASE_URL` (experimental)
+
+Hospedar o Firecrawl por conta própria é ideal para quem precisa de controle total sobre seus ambientes de scraping e processamento de dados, mas tem como contrapartida a necessidade de manutenção e configurações adicionais.
+
+## Etapas
+
+1. Primeiro, instale as dependências
+
+<!--THE END-->
+
+- Docker [instruções](https://docs.docker.com/get-docker/)
+
+<!--THE END-->
+
+2. Configure as variáveis de ambiente
+
+Crie um arquivo `.env` no diretório raiz; você pode copiar o template em `apps/api/.env.example` Para começar, não vamos configurar autenticação nem quaisquer subserviços opcionais (análise de PDF, bloqueio de JS, recursos de IA)
+
+```
+# .env
+
+# ===== Required ENVS ======
+PORT=3002
+HOST=0.0.0.0
+
+# Note: PORT is used by both the main API server and worker liveness check endpoint
+
+# To turn on DB authentication, you need to set up Supabase.
+USE_DB_AUTHENTICATION=false
+
+# ===== Optional ENVS ======
+
+## === AI features (JSON format on scrape, /extract API) ===
+# Provide your OpenAI API key here to enable AI features
+# OPENAI_API_KEY=
+
+# Experimental: Use Ollama
+# OLLAMA_BASE_URL=http://localhost:11434/api
+# MODEL_NAME=deepseek-r1:7b
+# MODEL_EMBEDDING_NAME=nomic-embed-text
+
+# Experimental: Use any OpenAI-compatible API
+# OPENAI_BASE_URL=https://example.com/v1
+# OPENAI_API_KEY=
+
+## === Proxy ===
+# PROXY_SERVER can be a full URL (e.g. http://0.1.2.3:1234) or just an IP and port combo (e.g. 0.1.2.3:1234)
+# Do not uncomment PROXY_USERNAME and PROXY_PASSWORD if your proxy is unauthenticated
+# PROXY_SERVER=
+# PROXY_USERNAME=
+# PROXY_PASSWORD=
+
+## === /search API ===
+
+# Você pode especificar um servidor SearXNG com o formato JSON habilitado, se quiser usar isso em vez do Google direto.
+# Você também pode personalizar os parâmetros engines e categories, mas os padrões também devem funcionar bem.
+# SEARXNG_ENDPOINT=http://your.searxng.server
+# SEARXNG_ENGINES=
+# SEARXNG_CATEGORIES=
+
+## === Other ===
+
+# Supabase Setup (used to support DB authentication, advanced logging, etc.)
+# SUPABASE_ANON_TOKEN=
+# SUPABASE_URL=
+# SUPABASE_SERVICE_TOKEN=
+
+# Use if you've set up authentication and want to test with a real API key
+# TEST_API_KEY=
+
+# This key lets you access the queue admin panel. Change this if your deployment is publicly accessible.
+BULL_AUTH_KEY=CHANGEME
+
+# This is now autoconfigured by the docker-compose.yaml. You shouldn't need to set it.
+# PLAYWRIGHT_MICROSERVICE_URL=http://playwright-service:3000/scrape
+# REDIS_URL=redis://redis:6379
+# REDIS_RATE_LIMIT_URL=redis://redis:6379
+
+# Set if you have a llamaparse key you'd like to use to parse pdfs
+# LLAMAPARSE_API_KEY=
+
+# Set if you'd like to send server health status messages to Slack
+# SLACK_WEBHOOK_URL=
+
+# Set if you'd like to send posthog events like job logs
+# POSTHOG_API_KEY=
+# POSTHOG_HOST=
+
+## === System Resource Configuration ===
+# Maximum CPU usage threshold (0.0-1.0). Worker will reject new jobs when CPU usage exceeds this value.
+# Default: 0.8 (80%)
+# MAX_CPU=0.8
+
+# Maximum RAM usage threshold (0.0-1.0). Worker will reject new jobs when memory usage exceeds this value.
+# Default: 0.8 (80%)
+# MAX_RAM=0.8
+
+# Set if you'd like to allow local webhooks to be sent to your self-hosted instance
+# ALLOW_LOCAL_WEBHOOKS=true
+```
+
+3. *(Opcional) Executar com o TypeScript Playwright Service*
+   
+   - Atualize o arquivo `docker-compose.yml` para alterar o serviço do Playwright:
+     
+     ```
+         build: apps/playwright-service
+     ```
+     
+     PARA
+     
+     ```
+         build: apps/playwright-service-ts
+     ```
+   - Defina `PLAYWRIGHT_MICROSERVICE_URL` no arquivo `.env`:
+     
+     ```
+     PLAYWRIGHT_MICROSERVICE_URL=http://localhost:3000/scrape
+     ```
+   - Não se esqueça de configurar o servidor proxy no arquivo `.env`, conforme necessário.
+4. Compile e execute os contêineres Docker:
+   
+   ```
+   docker compose build
+   docker compose up
+   ```
+
+Isso iniciará uma instância local do Firecrawl, acessível em `http://localhost:3002`. Você deve conseguir ver a interface do Bull Queue Manager em `http://localhost:3002/admin/{BULL_AUTH_KEY}/queues`.
+
+5. *(Opcional)* Teste a API
+
+Se você quiser testar o endpoint de crawl, pode executar o seguinte:
+
+```
+  curl -X POST http://localhost:3002/v2/crawl \
+      -H 'Content-Type: application/json' \
+      -d '{
+        "url": "https://docs.firecrawl.dev"
+      }'
+```
+
+## Resolução de problemas
+
+Esta seção apresenta soluções para problemas comuns que você pode encontrar ao configurar ou executar sua instância self-hosted do Firecrawl.
+
+### O cliente Supabase não está configurado
+
+**Sintoma:**
+
+```
+[YYYY-MM-DDTHH:MM:SS.SSSz]ERROR - Tentativa de acessar o cliente do Supabase quando ele não está configurado.
+[YYYY-MM-DDTHH:MM:SS.SSSz]ERROR - Erro ao inserir evento de scraping: Erro: o cliente do Supabase não está configurado.
+```
+
+**Explicação:** Esse erro ocorre porque a configuração do cliente do Supabase não foi concluída. Você deve conseguir executar scraping e crawling sem problemas. No momento, não é possível configurar o Supabase em instâncias auto-hospedadas.
+
+### Você está ignorando a autenticação
+
+**Sintoma:**
+
+```
+[YYYY-MM-DDTHH:MM:SS.SSSz]WARN - You're bypassing authentication
+```
+
+**Explicação:** Esse erro ocorre porque a configuração do cliente do Supabase não foi concluída. Você ainda consegue fazer scraping e crawling sem problemas. No momento, não é possível configurar o Supabase em instâncias self-hosted.
+
+### Falha ao iniciar contêineres Docker
+
+**Sintoma:** Os contêineres Docker são encerrados inesperadamente ou não iniciam. **Solução:** Verifique os logs do Docker em busca de mensagens de erro usando o comando:
+
+```
+docker logs [container_name]
+```
+
+- Certifique-se de que todas as variáveis de ambiente necessárias estejam configuradas corretamente no arquivo .env.
+- Verifique se todos os serviços Docker definidos em docker-compose.yml estão configurados corretamente e se as imagens necessárias estão disponíveis.
+
+### Problemas de conexão com o Redis
+
+**Sintoma:** Erros relacionados à conexão com o Redis, como timeouts ou “Connection refused”. **Solução:**
+
+- Certifique-se de que o serviço Redis está em execução no seu ambiente Docker.
+- Verifique se as variáveis REDIS\_URL e REDIS\_RATE\_LIMIT\_URL no seu arquivo .env apontam para a instância Redis correta.
+- Verifique as configurações de rede e as regras de firewall que possam estar bloqueando a conexão com a porta do Redis.
+
+### O endpoint da API não responde
+
+**Sintoma:** As requisições de API para a instância do Firecrawl esgotam o tempo (timeout) ou não retornam resposta. **Solução:**
+
+- Verifique se o serviço do Firecrawl está em execução conferindo o status do contêiner Docker.
+- Confirme se as variáveis PORT e HOST no arquivo .env estão corretas e se nenhum outro serviço está usando a mesma porta.
+- Verifique a configuração de rede para garantir que o host esteja acessível a partir do cliente que faz a requisição de API.
+
+Ao corrigir esses problemas comuns, você garante uma configuração e operação mais estáveis da sua instância autogerenciada do Firecrawl.
+
+## Instalar o Firecrawl em um cluster do Kubernetes (versão simples)
+
+Leia o [examples/kubernetes-cluster-install/README.md](https://github.com/firecrawl/firecrawl/tree/main/examples/kubernetes/cluster-install#readme) para obter instruções sobre como instalar o Firecrawl em um cluster do Kubernetes.

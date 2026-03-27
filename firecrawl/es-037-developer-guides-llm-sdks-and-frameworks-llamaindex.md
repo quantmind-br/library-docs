@@ -1,0 +1,73 @@
+---
+title: LlamaIndex - Firecrawl Docs
+url: https://docs.firecrawl.dev/es/developer-guides/llm-sdks-and-frameworks/llamaindex
+source: sitemap
+fetched_at: 2026-03-23T07:36:20.710318-03:00
+rendered_js: false
+word_count: 176
+summary: This document provides a guide on integrating Firecrawl with LlamaIndex to perform web crawling, generate embeddings, and build RAG-based AI applications.
+tags:
+    - firecrawl
+    - llamaindex
+    - rag
+    - web-scraping
+    - vector-search
+    - embeddings
+    - ai-integration
+category: tutorial
+---
+
+Integra Firecrawl con LlamaIndex para crear aplicaciones de IA con búsqueda vectorial y embeddings basados en contenido web.
+
+## Configuración
+
+```
+npm install llamaindex @llamaindex/openai @mendable/firecrawl-js
+```
+
+Crea un archivo `.env`:
+
+```
+FIRECRAWL_API_KEY=tu_clave_firecrawl
+OPENAI_API_KEY=tu_clave_openai
+```
+
+> **Nota:** Si usas Node &lt; 20, instala `dotenv` y agrega `import 'dotenv/config'` a tu código.
+
+## RAG con búsqueda vectorial
+
+Este ejemplo muestra cómo usar LlamaIndex con Firecrawl para rastrear un sitio web, crear embeddings y consultar el contenido mediante RAG.
+
+```
+import Firecrawl from '@mendable/firecrawl-js';
+import { Document, VectorStoreIndex, Settings } from 'llamaindex';
+import { OpenAI, OpenAIEmbedding } from '@llamaindex/openai';
+
+Settings.llm = new OpenAI({ model: "gpt-4o" });
+Settings.embedModel = new OpenAIEmbedding({ model: "text-embedding-3-small" });
+
+const firecrawl = new Firecrawl({ apiKey: process.env.FIRECRAWL_API_KEY });
+const crawlResult = await firecrawl.crawl('https://firecrawl.dev', {
+  limit: 10,
+  scrapeOptions: { formats: ['markdown'] }
+});
+console.log(`Crawled ${crawlResult.data.length } pages`);
+
+const documents = crawlResult.data.map((page: any, i: number) =>
+  new Document({
+    text: page.markdown,
+    id_: `page-${i}`,
+    metadata: { url: page.metadata?.sourceURL }
+  })
+);
+
+const index = await VectorStoreIndex.fromDocuments(documents);
+console.log('Vector index created with embeddings');
+
+const queryEngine = index.asQueryEngine();
+const response = await queryEngine.query({ query: 'What is Firecrawl and how does it work?' });
+
+console.log('\nAnswer:', response.toString());
+```
+
+Para ver más ejemplos, consulta la [documentación de LlamaIndex](https://ts.llamaindex.ai/).

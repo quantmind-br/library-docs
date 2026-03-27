@@ -1,0 +1,247 @@
+---
+title: OpenAI - Firecrawl Docs
+url: https://docs.firecrawl.dev/fr/developer-guides/llm-sdks-and-frameworks/openai
+source: sitemap
+fetched_at: 2026-03-23T07:35:43.3855-03:00
+rendered_js: false
+word_count: 336
+summary: Ce guide explique comment intégrer Firecrawl avec OpenAI pour automatiser le scraping, l'extraction de données structurées et l'analyse de contenu web à l'aide de modèles d'IA.
+tags:
+    - firecrawl
+    - openai
+    - web-scraping
+    - data-extraction
+    - ai-integration
+    - node-js
+    - llm-workflows
+category: guide
+---
+
+Intégrez Firecrawl à OpenAI pour créer des applications d’IA alimentées par des données web.
+
+## Configuration
+
+```
+npm install @mendable/firecrawl-js openai zod
+```
+
+Créez un fichier `.env` :
+
+```
+FIRECRAWL_API_KEY=votre_clé_firecrawl
+OPENAI_API_KEY=votre_clé_openai
+```
+
+> **Remarque :** Si vous utilisez Node &lt; 20, installez `dotenv` et ajoutez `import 'dotenv/config'` à votre code.
+
+## Scrape + Résumer
+
+Cet exemple illustre un workflow simple : parcourir un site web et en résumer le contenu à l’aide d’un modèle OpenAI.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// Scraper le contenu du site web
+const scrapeResult = await firecrawl.scrape('https://firecrawl.dev', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+// Résumer avec le modèle OpenAI
+const completion = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [
+        { role: 'user', content: `Summarize: ${scrapeResult.markdown}` }
+    ]
+});
+
+console.log('Summary:', completion.choices[0]?.message.content);
+```
+
+## Appels de fonction
+
+Cet exemple montre comment utiliser la fonctionnalité d’appels de fonction d’OpenAI pour permettre au modèle de décider quand scraper des sites web en fonction des requêtes utilisateur.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+import { z } from 'zod';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const ScrapeArgsSchema = z.object({
+    url: z.string().describe('L'URL du site web à scraper')
+});
+
+const tools = [{
+    type: 'function' as const,
+    function: {
+        name: 'scrape_website',
+        description: 'Scraper le contenu de n'importe quelle URL de site web',
+        parameters: z.toJSONSchema(ScrapeArgsSchema)
+    }
+}];
+
+const response = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [{
+        role: 'user',
+        content: 'Qu'est-ce que Firecrawl ? Visitez firecrawl.dev et dites-moi ce que c'est.'
+    }],
+    tools
+});
+
+const message = response.choices[0]?.message;
+
+if (message?.tool_calls && message.tool_calls.length > 0) {
+    for (const toolCall of message.tool_calls) {
+        if (toolCall.type === 'function') {
+            console.log('Tool called:', toolCall.function.name);
+
+            const args = ScrapeArgsSchema.parse(JSON.parse(toolCall.function.arguments));
+            const result = await firecrawl.scrape(args.url, {
+                formats: ['markdown'] // Autres formats : html, links, etc.
+            });
+            console.log('Contenu scrapé :', result.markdown?.substring(0, 200) + '...');
+
+            // Renvoyer le contenu scrapé au modèle pour obtenir la réponse finale
+            const finalResponse = await openai.chat.completions.create({
+                model: 'gpt-5-nano',
+                messages: [
+                    {
+                        role: 'user',
+                        content: 'Qu'est-ce que Firecrawl ? Visitez firecrawl.dev et dites-moi ce que c'est.'
+                    },
+                    message,
+                    {
+                        role: 'tool',
+                        tool_call_id: toolCall.id,
+                        content: result.markdown || 'Aucun contenu scrapé'
+                    }
+                ],
+                tools
+            });
+
+            console.log('Réponse finale :', finalResponse.choices[0]?.message?.content);
+        }
+    }
+} else {
+    console.log('Réponse directe :', message?.content);
+}
+```
+
+Cet exemple illustre comment utiliser les modèles OpenAI avec des résultats structurés pour extraire des données spécifiques à partir de contenu extrait.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+import { z } from 'zod';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const scrapeResult = await firecrawl.scrape('https://stripe.com', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+const CompanyInfoSchema = z.object({
+    name: z.string(),
+    industry: z.string(),
+    description: z.string(),
+    products: z.array(z.string())
+});
+
+const response = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [
+        {
+            role: 'system',
+            content: 'Extract company information from website content.'
+        },
+        {
+            role: 'user',
+            content: `Extract data: ${scrapeResult.markdown}`
+        }
+    ],
+    response_format: {
+        type: 'json_schema',
+        json_schema: {
+            name: 'company_info',
+            schema: z.toJSONSchema(CompanyInfoSchema),
+            strict: true
+        }
+    }
+});
+
+const content = response.choices[0]?.message?.content;
+const companyInfo = content ? CompanyInfoSchema.parse(JSON.parse(content)) : null;
+console.log('Validated company info:', companyInfo);
+```
+
+## Recherche + analyse
+
+Cet exemple combine les fonctionnalités de recherche de Firecrawl avec l’analyse de modèles OpenAI pour trouver et résumer des informations provenant de plusieurs sources.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import OpenAI from 'openai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+// Rechercher les informations pertinentes
+const searchResult = await firecrawl.search('Next.js 16 new features', {
+    limit: 3,
+    sources: [{ type: 'web' }], // Autres sources : { type: 'news' }, { type: 'images' }
+    scrapeOptions: { formats: ['markdown'] }
+});
+
+console.log('Search results:', searchResult.web?.length, 'pages found');
+
+// Analyser et résumer les fonctionnalités principales
+const analysis = await openai.chat.completions.create({
+    model: 'gpt-5-nano',
+    messages: [{
+        role: 'user',
+        content: `Summarize the key features: ${JSON.stringify(searchResult)}`
+    }]
+});
+
+console.log('Analysis:', analysis.choices[0]?.message?.content);
+```
+
+## API Responses avec MCP
+
+Cet exemple illustre comment utiliser l’API Responses d’OpenAI avec Firecrawl configuré comme serveur MCP (Model Context Protocol).
+
+```
+import OpenAI from 'openai';
+
+const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+const response = await openai.responses.create({
+    model: 'gpt-5-nano',
+    tools: [
+        {
+            type: 'mcp',
+            server_label: 'firecrawl',
+            server_description: 'A web search and scraping MCP server to scrape and extract content from websites.',
+            server_url: `https://mcp.firecrawl.dev/${process.env.FIRECRAWL_API_KEY}/v2/mcp`,
+            require_approval: 'never'
+        }
+    ],
+    input: 'Find out what the top stories on Hacker News are and the latest blog post on OpenAI and summarize them in a bullet point format'
+});
+
+console.log('Response:', JSON.stringify(response.output, null, 2));
+```
+
+Pour d’autres exemples, consultez la [documentation OpenAI](https://platform.openai.com/docs).

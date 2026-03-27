@@ -1,0 +1,72 @@
+---
+title: LlamaIndex - Firecrawl Docs
+url: https://docs.firecrawl.dev/fr/developer-guides/llm-sdks-and-frameworks/llamaindex
+source: sitemap
+fetched_at: 2026-03-23T07:35:55.371412-03:00
+rendered_js: false
+word_count: 182
+summary: This document provides a guide on integrating Firecrawl with LlamaIndex to crawl web content and perform Retrieval-Augmented Generation (RAG) using vector stores and OpenAI embeddings.
+tags:
+    - llamaindex
+    - firecrawl
+    - rag
+    - vector-search
+    - ai-development
+    - web-scraping
+category: tutorial
+---
+
+Intégrez Firecrawl à LlamaIndex pour créer des applications d’IA avec recherche vectorielle et embeddings, alimentées par du contenu web.
+
+## Configuration
+
+```
+npm install llamaindex @llamaindex/openai @mendable/firecrawl-js
+```
+
+Créez le fichier `.env` :
+
+```
+FIRECRAWL_API_KEY=votre_clé_firecrawl
+OPENAI_API_KEY=votre_clé_openai
+```
+
+> **Remarque :** Si vous utilisez Node &lt; 20, installez `dotenv` et ajoutez `import 'dotenv/config'` à votre code.
+
+## RAG avec recherche vectorielle
+
+Cet exemple illustre comment utiliser LlamaIndex avec Firecrawl pour explorer un site web, créer des embeddings et interroger le contenu à l’aide de RAG.
+
+```
+import Firecrawl from '@mendable/firecrawl-js';
+import { Document, VectorStoreIndex, Settings } from 'llamaindex';
+import { OpenAI, OpenAIEmbedding } from '@llamaindex/openai';
+
+Settings.llm = new OpenAI({ model: "gpt-4o" });
+Settings.embedModel = new OpenAIEmbedding({ model: "text-embedding-3-small" });
+
+const firecrawl = new Firecrawl({ apiKey: process.env.FIRECRAWL_API_KEY });
+const crawlResult = await firecrawl.crawl('https://firecrawl.dev', {
+  limit: 10,
+  scrapeOptions: { formats: ['markdown'] }
+});
+console.log(`Crawled ${crawlResult.data.length } pages`);
+
+const documents = crawlResult.data.map((page: any, i: number) =>
+  new Document({
+    text: page.markdown,
+    id_: `page-${i}`,
+    metadata: { url: page.metadata?.sourceURL }
+  })
+);
+
+const index = await VectorStoreIndex.fromDocuments(documents);
+console.log('Vector index created with embeddings');
+
+const queryEngine = index.asQueryEngine();
+const response = await queryEngine.query({ query: 'What is Firecrawl and how does it work?' });
+
+console.log('\nAnswer:', response.toString());
+```
+
+Pour d’autres exemples, consultez la [documentation de LlamaIndex](https://ts.llamaindex.ai/).

@@ -1,0 +1,106 @@
+---
+title: Facturación | Firecrawl
+url: https://docs.firecrawl.dev/es/billing
+source: sitemap
+fetched_at: 2026-03-23T07:26:57.387511-03:00
+rendered_js: false
+word_count: 1354
+summary: This document explains the Firecrawl billing system, detailing how credits are consumed by different API endpoints, subscription plans, automatic top-ups, and coupon management.
+tags:
+    - billing-system
+    - api-credits
+    - subscription-plans
+    - usage-tracking
+    - firecrawl-pricing
+    - account-management
+category: concept
+---
+
+## Descripción general
+
+Firecrawl utiliza un **sistema de facturación basado en créditos**. Cada llamada a la API que haces consume créditos, y la cantidad de créditos consumidos depende del endpoint y de las opciones que utilices. Recibes una cuota mensual de créditos según tu plan y puedes comprar créditos adicionales mediante paquetes de recarga automática si necesitas más. Para ver los precios de los planes vigentes, visita la [página de precios de Firecrawl](https://www.firecrawl.dev/pricing).
+
+## Créditos
+
+Los créditos son la unidad de consumo en Firecrawl. Cada plan incluye una cuota mensual de créditos que se reinicia al comienzo de cada ciclo de facturación. Los distintos endpoints de la API consumen diferentes cantidades de créditos.
+
+### Costo de créditos por endpoint
+
+EndpointCredit CostNotes**Scrape**1 crédito / páginaConvierte una única URL en markdown limpio, HTML o datos estructurados. Se aplican créditos adicionales al usar opciones de extracción (ver más abajo).**Crawl**1 crédito / páginaExtrae un sitio web completo siguiendo enlaces desde una URL inicial. Los mismos costos por página de las opciones de extracción se aplican a cada página rastreada.**Map**1 crédito / llamadaDescubre todas las URL de un sitio web sin extraer su contenido.**Search**2 créditos / 10 resultadosBusca en la web y, opcionalmente, extrae los resultados. Se aplican costos adicionales de extracción por página a cada resultado que se extrae. La búsqueda ZDR Enterprise cuesta 10 créditos / 10 resultados (ver [ZDR Search](https://docs.firecrawl.dev/es/features/search#zero-data-retention-zdr)).**Browser**2 créditos / minuto de navegadorSesión interactiva de navegador en sandbox, facturada por minuto.**Agent**DinámicoAgente autónomo de investigación web. 5 ejecuciones diarias gratuitas; precios basados en uso a partir de ese límite.
+
+Ciertas opciones de extracción añaden créditos sobre el costo base por página:
+
+OptionAdditional CostDescriptionPDF parsing+1 crédito / página PDFExtrae contenido de documentos PDFJSON format (LLM extraction)+4 créditos / páginaUsa un LLM para extraer datos JSON estructurados de la páginaEnhanced Mode+4 créditos / páginaExtracción mejorada para páginas a las que es difícil accederZero Data Retention (ZDR)+1 crédito / páginaGarantiza que no se conserve ningún dato más allá de la solicitud (consulta [Scrape ZDR](https://docs.firecrawl.dev/es/features/scrape#zero-data-retention-zdr))
+
+Estos modificadores se acumulan. Por ejemplo, extraer una página con JSON format y Enhanced Mode cuesta **1 + 4 + 4 = 9 créditos** por página. Estos mismos modificadores se aplican a los endpoints Crawl y Search, ya que usan scrape internamente para cada página.
+
+### Cuándo se cobran créditos
+
+Para trabajos de **batch scrape** y **crawl**, los créditos se cobran de forma asíncrona a medida que cada página termina de procesarse, no cuando se envía el trabajo. Esto significa que puede haber un retraso entre el envío de un trabajo y el momento en que se refleja el costo total en créditos en tu cuenta. Si un lote contiene muchas URLs o las páginas se ponen en cola durante períodos de alto tráfico, los créditos pueden seguir registrándose minutos u horas después del envío. Hacer *polling* o comprobar el estado del batch no consume créditos.
+
+### Seguimiento del uso
+
+Puedes monitorear tu consumo de créditos de dos maneras:
+
+- **Dashboard**: Consulta tu consumo actual e histórico en [firecrawl.dev/app](https://www.firecrawl.dev/app)
+- **API**: Usa los endpoints [Credit Usage](https://docs.firecrawl.dev/es/api-reference/endpoint/credit-usage) y [Credit Usage Historical](https://docs.firecrawl.dev/es/api-reference/endpoint/credit-usage-historical) para comprobar tu consumo de forma programática
+
+## Planes
+
+Firecrawl ofrece planes mensuales de suscripción. No existe una opción de pago por uso puro, pero la recarga automática (descrita más abajo) permite escalar de forma flexible por encima de tu plan base.
+
+### Planes disponibles
+
+PlanCréditos mensualesNavegadores concurrentes**Free**500 (por única vez)2**Hobby**3,0005**Standard**100,00050**Growth**500,000100
+
+Todos los planes de pago están disponibles con facturación **mensual** o **anual**. La facturación anual ofrece un descuento frente a pagar mes a mes. Para ver los precios actuales de cada plan, visita la [página de precios](https://www.firecrawl.dev/pricing).
+
+### Navegadores concurrentes
+
+Los navegadores concurrentes representan cuántas páginas web puede procesar Firecrawl simultáneamente para ti. Tu plan determina este límite. Si lo superas, las tareas adicionales esperarán en una cola hasta que se libere un cupo. Consulta [Límites de tasa](https://docs.firecrawl.dev/es/rate-limits) para obtener todos los detalles sobre concurrencia y límites de tasa de la API.
+
+## Recarga automática
+
+Si ocasionalmente necesitas más créditos de los que incluye tu plan, puedes habilitar la **recarga automática** desde el panel de control. Cuando tus créditos restantes bajen de un umbral configurable, Firecrawl compra automáticamente un paquete de créditos adicional y lo añade a tu saldo.
+
+- Los paquetes de recarga automática están disponibles en todos los planes de pago
+- El tamaño y el precio de los paquetes varían según el plan (visible en la [página de precios](https://www.firecrawl.dev/pricing))
+- Puedes configurar el umbral de recarga y activar o desactivar la recarga automática en cualquier momento
+- La recarga automática está limitada a **4 paquetes al mes**
+- Los créditos de los paquetes de recarga automática **no se restablecen mensualmente** — se conservan entre ciclos de facturación y vencen **1 año** después de la compra, a diferencia de los créditos mensuales de tu plan, que se restablecen en cada período.
+
+La recarga automática es ideal para manejar picos ocasionales de uso. Si ves que superas constantemente la asignación de tu plan, actualizar a un plan superior te dará un mejor precio por crédito.
+
+## Cupones
+
+Firecrawl admite dos tipos de cupones:
+
+- Los **cupones de suscripción** aplican un descuento a la suscripción de tu plan (p. ej., un porcentaje de descuento en el precio mensual o anual). Estos **solo** se pueden aplicar durante el proceso de pago de Stripe, cuando te suscribes por primera vez a un plan de pago o cambias de plan. No puedes aplicar un cupón de suscripción una vez completado el pago.
+- Los **cupones de créditos** añaden créditos extra a tu cuenta. Estos se pueden canjear desde la sección de **Facturación** de tu panel de control en [firecrawl.dev/app/billing](https://www.firecrawl.dev/app/billing). Busca el campo de cupón en la página de facturación para aplicar tu código. Los créditos extra de los cupones de créditos son independientes de la asignación mensual de tu plan y se conservan aunque cambies a un plan superior o inferior.
+
+Si tienes un código de cupón y no estás seguro de qué tipo es, intenta aplicarlo primero en la sección de facturación de tu panel de control. Si es un cupón de suscripción, tendrás que usarlo en la página de pago de Stripe.
+
+## Ciclo de facturación
+
+- **Planes mensuales**: Los créditos se restablecen en tu fecha de renovación mensual
+- **Planes anuales**: Se te factura anualmente, pero los créditos igual se restablecen cada mes en tu fecha de renovación mensual virtual
+- **Los créditos del plan no utilizados no se acumulan** — tu asignación mensual se restablece a la cantidad del plan al inicio de cada período de facturación. Los créditos de los paquetes de recarga automática no están vinculados a tu ciclo de facturación — se conservan y vencen **1 año** después de la fecha de compra.
+
+## Actualizar o bajar de plan
+
+- **Las actualizaciones de plan** surten efecto de inmediato. Se te factura un importe prorrateado por el resto del período de facturación actual, y tanto tu asignación de créditos como tus límites se actualizan al instante.
+- **Los cambios a un plan inferior** se programan para entrar en vigor en tu próxima fecha de renovación. Mantienes los créditos y límites de tu plan actual hasta entonces.
+
+## Qué sucede cuando te quedas sin créditos
+
+Si agotas tu límite de créditos y no tienes la recarga automática activada, las solicitudes a la API que consumen créditos devolverán un error **HTTP 402 (Payment Required)**. Si tienes la recarga automática activada, el uso continuará mientras se compran automáticamente paquetes de recarga; sin embargo, si se alcanza el límite mensual de paquetes o una recarga falla, tu saldo puede quedar en negativo hasta el siguiente ciclo de facturación o hasta que hagas una recarga manual. Para reanudar el uso después de una interrupción total, puedes:
+
+1. Activar la recarga automática para comprar más créditos de forma automática
+2. Actualizar a un plan superior
+3. Esperar a que tus créditos se restablezcan en el siguiente ciclo de facturación
+
+## Plan gratuito
+
+El plan gratuito ofrece una **asignación por única vez de 500 créditos** sin necesidad de tarjeta de crédito. Estos créditos no se renuevan: una vez que se agoten, deberás actualizar a un plan de pago para seguir usando Firecrawl. El plan gratuito también tiene límites de tasa y concurrencia más bajos en comparación con los planes de pago (consulta los [Límites de tasa](https://docs.firecrawl.dev/es/rate-limits)).
+
+## Preguntas frecuentes

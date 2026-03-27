@@ -1,0 +1,102 @@
+---
+title: Analyse de documents | Firecrawl
+url: https://docs.firecrawl.dev/fr/features/document-parsing
+source: sitemap
+fetched_at: 2026-03-23T07:24:19.287045-03:00
+rendered_js: false
+word_count: 384
+summary: This document describes how to use Firecrawl to extract and convert various file formats, including Excel, Word, and PDF, into structured Markdown content.
+tags:
+    - document-parsing
+    - data-extraction
+    - firecrawl
+    - file-conversion
+    - ocr-processing
+    - markdown-output
+category: guide
+---
+
+Firecrawl offre de puissantes fonctionnalités d’analyse de documents, vous permettant d’extraire du contenu structuré à partir de divers formats. Cette fonctionnalité est particulièrement utile pour traiter des fichiers comme des feuilles de calcul, des documents Word, et plus encore.
+
+## Formats de documents pris en charge
+
+Firecrawl prend actuellement en charge les formats de documents suivants :
+
+- **Feuilles de calcul Excel** (`.xlsx`, `.xls`)
+  
+  - Chaque feuille est convertie en tableau HTML
+  - Les feuilles sont séparées par des titres H2 portant le nom de la feuille
+  - Préserve le formatage des cellules et les types de données
+- **Documents Word** (`.docx`, `.doc`, `.odt`, `.rtf`)
+  
+  - Extrait le contenu textuel tout en préservant la structure du document
+  - Conserve les titres, paragraphes, listes et tableaux
+  - Préserve le formatage et le style de base
+- **Documents PDF** (`.pdf`)
+  
+  - Extrait le contenu textuel avec les informations de mise en page
+  - Préserve la structure du document, y compris les sections et les paragraphes
+  - Prend en charge les PDF textuels et les PDF scannés (avec OCR)
+  - Prend en charge l’option `mode` pour contrôler la stratégie d’analyse : `fast` (texte uniquement), `auto` (texte avec recours à l’OCR en cas d’échec, par défaut) ou `ocr` (forcer l’OCR)
+  - Facturé 1 crédit par page. Voir la [tarification](https://docs.firecrawl.dev/pricing) pour plus de détails.
+
+### Modes d’analyse PDF
+
+Utilisez l’option `parsers` pour contrôler le traitement des PDF :
+
+ModeDescription`auto`Tente d’abord une extraction rapide basée sur le texte, puis bascule sur l’OCR si nécessaire. C’est l’option par défaut.`fast`Analyse basée uniquement sur le texte (texte intégré). Option la plus rapide, mais n’extrait pas le texte des pages scannées ou contenant beaucoup d’images.`ocr`Force l’analyse OCR sur chaque page. À utiliser pour les documents scannés ou lorsque `auto` se trompe dans la classification d’une page.
+
+```
+// Syntaxe objet avec mode
+parsers: [{ type: "pdf", mode: "ocr", maxPages: 20 }]
+
+// Par défaut (mode auto)
+parsers: [{ type: "pdf" }]
+```
+
+## Utilisation de l’analyse de documents
+
+L’analyse de documents dans Firecrawl s’effectue automatiquement lorsque vous fournissez une URL pointant vers un type de document pris en charge. Le système détecte le type de fichier à partir de l’extension de l’URL ou de l’en-tête Content-Type, puis le traite en conséquence.
+
+```
+import Firecrawl from '@mendable/firecrawl-js';
+
+const firecrawl = new Firecrawl({ apiKey: "fc-VOTRE-CLE-API" });
+
+const doc = await firecrawl.scrape('https://example.com/data.xlsx');
+
+console.log(doc.markdown);
+```
+
+### Exemple : Scraper un document Word
+
+```
+import Firecrawl from '@mendable/firecrawl-js';
+
+const firecrawl = new Firecrawl({ apiKey: "fc-VOTRE-CLE-API" });
+
+const doc = await firecrawl.scrape('https://example.com/data.docx');
+
+console.log(doc.markdown);
+```
+
+## Format de sortie
+
+Tous les types de documents pris en charge sont convertis en Markdown propre et structuré. Par exemple, un fichier Excel comportant plusieurs feuilles peut être converti en :
+
+```
+## Feuille1
+
+| Nom   | Valeur |
+|-------|--------|
+| Élément 1 | 100   |
+| Élément 2 | 200   |
+
+## Feuille2
+
+| Date       | Description  |
+|------------|--------------|
+| 2023-01-01 | Premier trimestre|
+```
+
+> Êtes-vous un agent IA ayant besoin d’une clé API Firecrawl ? Consultez [firecrawl.dev/agent-onboarding/SKILL.md](https://www.firecrawl.dev/agent-onboarding/SKILL.md) pour obtenir des instructions d’intégration automatisée.

@@ -1,0 +1,124 @@
+---
+title: Migration v1 → v2 | Firecrawl
+url: https://docs.firecrawl.dev/fr/migrate-to-v2
+source: sitemap
+fetched_at: 2026-03-23T07:38:37.581669-03:00
+rendered_js: false
+word_count: 495
+summary: This document outlines the migration path and key updates for transitioning from version 1 to version 2 of the Firecrawl SDK and API, including new method names, standardized asynchronous flows, and updated configuration formats.
+tags:
+    - firecrawl
+    - api-migration
+    - sdk-update
+    - web-scraping
+    - data-extraction
+    - crawling
+category: guide
+---
+
+## Présentation
+
+### Améliorations clés
+
+- **Plus rapide par défaut** : Les requêtes sont mises en cache avec `maxAge` fixé par défaut à 2 jours, et des paramètres pertinents comme `blockAds`, `skipTlsVerification` et `removeBase64Images` sont activés.
+- **Nouveau format de résumé** : Vous pouvez désormais indiquer `"summary"` comme format pour recevoir directement un résumé concis du contenu de la page.
+- **Extraction JSON mise à jour** : L’extraction JSON et le suivi des modifications utilisent désormais un format objet : `{ type: "json", prompt, schema }`. L’ancien format `"extract"` a été renommé en `"json"`.
+- **Options de capture d’écran améliorées** : Utilisez la forme objet : `{ type: "screenshot", fullPage, quality, viewport }`.
+- **Nouvelles sources de recherche** : Recherchez dans `"news"` et `"images"`, en plus des résultats web, en définissant le paramètre `sources`.
+- **Crawl intelligent avec prompts** : Fournissez un `prompt` en langage naturel au crawl et le système déduira automatiquement les chemins/limites. Utilisez le nouveau point de terminaison /crawl/params-preview pour prévisualiser les options dérivées avant de lancer un job.
+
+## Liste de contrôle de migration rapide
+
+- Remplacez l’utilisation du client v1 par les clients v2 :
+  
+  - JS : `const firecrawl = new Firecrawl({ apiKey: 'fc-YOUR-API-KEY' })`
+  - Python : `firecrawl = Firecrawl(api_key='fc-YOUR-API-KEY')`
+  - API : utilisez les nouveaux points de terminaison `https://api.firecrawl.dev/v2/`.
+- Mettez à jour les formats :
+  
+  - Utilisez `"summary"` si nécessaire
+  - Mode JSON : utilisez `{ type: "json", prompt, schema }` pour l’extraction JSON
+  - Screenshot et Screenshot@fullPage : utilisez le format d’objet screenshot lors de la définition des options
+- Adoptez des flux asynchrones standardisés dans les SDK :
+  
+  - Crawls : `startCrawl` + `getCrawlStatus` (ou waiter `crawl`)
+  - Batch : `startBatchScrape` + `getBatchScrapeStatus` (ou waiter `batchScrape`)
+  - Extract : `startExtract` + `getExtractStatus` (ou waiter `extract`)
+- Correspondance des options de crawl (voir ci-dessous)
+- Vérifiez le `prompt` du crawl avec `/crawl/params-preview`
+
+## Surface du SDK (v2)
+
+### JS/TS
+
+#### Changements de noms de méthodes (migration v1 → v2)
+
+**Scrape, Search et Map**
+
+v1 (FirecrawlApp)v2 (Firecrawl)`scrapeUrl(url, ...)``scrape(url, options?)``search(query, ...)``search(query, options?)``mapUrl(url, ...)``map(url, options?)`
+
+**Crawling**
+
+v1v2`crawlUrl(url, ...)``crawl(url, options?)` (bloquante)`asyncCrawlUrl(url, ...)``startCrawl(url, options?)``checkCrawlStatus(id, ...)``getCrawlStatus(id)``cancelCrawl(id)``cancelCrawl(id)``checkCrawlErrors(id)``getCrawlErrors(id)`
+
+**Batch Scraping**
+
+v1v2`batchScrapeUrls(urls, ...)``batchScrape(urls, opts?)` (bloquante)`asyncBatchScrapeUrls(urls, ...)``startBatchScrape(urls, opts?)``checkBatchScrapeStatus(id, ...)``getBatchScrapeStatus(id)``checkBatchScrapeErrors(id)``getBatchScrapeErrors(id)`
+
+**Extraction**
+
+v1v2`extract(urls?, params?)``extract(args)``asyncExtract(urls, params?)``startExtract(args)``getExtractStatus(id)``getExtractStatus(id)`
+
+**Autres / Supprimés**
+
+v1v2`generateLLMsText(...)`(non inclus dans le SDK v2)`checkGenerateLLMsTextStatus(id)`(non inclus dans le SDK v2)`crawlUrlAndWatch(...)``watcher(jobId, ...)``batchScrapeUrlsAndWatch(...)``watcher(jobId, ...)`
+
+* * *
+
+### Python (synchrones)
+
+#### Changements de noms de méthodes (migration v1 → v2)
+
+**Scrape, Search et Map**
+
+v1v2`scrape_url(...)``scrape(...)``search(...)``search(...)``map_url(...)``map(...)`
+
+**Crawling**
+
+v1v2`crawl_url(...)``crawl(...)` (waiter)`async_crawl_url(...)``start_crawl(...)``check_crawl_status(...)``get_crawl_status(...)``cancel_crawl(...)``cancel_crawl(...)`
+
+**Batch Scraping**
+
+v1v2`batch_scrape_urls(...)``batch_scrape(...)` (waiter)`async_batch_scrape_urls(...)``start_batch_scrape(...)``get_batch_scrape_status(...)``get_batch_scrape_status(...)``get_batch_scrape_errors(...)``get_batch_scrape_errors(...)`
+
+**Extraction**
+
+v1v2`extract(...)``extract(...)``start_extract(...)``start_extract(...)``get_extract_status(...)``get_extract_status(...)`
+
+**Autres / Supprimées**
+
+v1v2`generate_llms_text(...)`(absent du SDK v2)`get_generate_llms_text_status(...)`(absent du SDK v2)`watch_crawl(...)``watcher(job_id, ...)`
+
+* * *
+
+### Python (asynchrone)
+
+- `AsyncFirecrawl` propose les mêmes méthodes (toutes awaitables).
+
+## Formats et options de scraping
+
+- Utilisez des formats chaîne pour les bases : `"markdown"`, `"html"`, `"rawHtml"`, `"links"`, `"summary"`, `"images"`.
+- Au lieu de `parsePDF`, utilisez `parsers: [ { "type": "pdf" } | "pdf" ]`.
+- Utilisez des formats objet pour JSON, le suivi des modifications et les captures d’écran :
+
+### Format JSON
+
+### Format de capture d’écran
+
+## Correspondance des options de crawl (v1 → v2)
+
+v1v2`allowBackwardCrawling`(supprimé) utiliser `crawlEntireDomain``maxDepth`(supprimé) utiliser `maxDiscoveryDepth``ignoreSitemap` (booléen)`sitemap` (p. ex. « only », « skip » ou « include »)(aucun)`prompt`
+
+## Aperçu du prompt et des paramètres de crawl
+
+Voir des exemples d’aperçu des paramètres de crawl :

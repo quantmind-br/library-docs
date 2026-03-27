@@ -1,0 +1,134 @@
+---
+title: Gemini - Firecrawl Docs
+url: https://docs.firecrawl.dev/es/developer-guides/llm-sdks-and-frameworks/gemini
+source: sitemap
+fetched_at: 2026-03-23T07:36:27.962256-03:00
+rendered_js: false
+word_count: 245
+summary: This document demonstrates how to integrate Firecrawl for web scraping with Google Gemini's AI models to process, summarize, and extract structured data from online content.
+tags:
+    - firecrawl
+    - google-gemini
+    - web-scraping
+    - ai-integration
+    - data-extraction
+    - structured-output
+category: tutorial
+---
+
+Integra Firecrawl con Gemini de Google para aplicaciones de IA impulsadas por datos de la web.
+
+## Configuración
+
+```
+npm install @mendable/firecrawl-js @google/genai
+```
+
+Crea el archivo `.env`:
+
+```
+FIRECRAWL_API_KEY=tu_clave_firecrawl
+GEMINI_API_KEY=tu_clave_gemini
+```
+
+> **Nota:** Si usas Node &lt; 20, instala `dotenv` y añade `import 'dotenv/config'` a tu código.
+
+## Scraping + Resumen
+
+Este ejemplo muestra un flujo de trabajo sencillo: scrapear un sitio web y resumir su contenido con Gemini.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { GoogleGenAI } from '@google/genai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+
+const scrapeResult = await firecrawl.scrape('https://firecrawl.dev', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+const response = await ai.models.generateContent({
+    model: 'gemini-2.5-flash',
+    contents: `Summarize: ${scrapeResult.markdown}`,
+});
+
+console.log('Summary:', response.text);
+```
+
+## Análisis de contenido
+
+Este ejemplo muestra cómo analizar el contenido de un sitio web usando las capacidades de conversación multiturno de Gemini.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { GoogleGenAI } from '@google/genai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+
+const scrapeResult = await firecrawl.scrape('https://news.ycombinator.com/', {
+    formats: ['markdown']
+});
+
+console.log('Scraped content length:', scrapeResult.markdown?.length);
+
+const chat = ai.chats.create({
+    model: 'gemini-2.5-flash'
+});
+
+// Solicitar las 3 historias principales de Hacker News
+const result1 = await chat.sendMessage({
+    message: `Based on this website content from Hacker News, what are the top 3 stories right now?\n\n${scrapeResult.markdown}`
+});
+console.log('Top 3 Stories:', result1.text);
+
+// Solicitar las historias 4.ª y 5.ª de Hacker News
+const result2 = await chat.sendMessage({
+    message: `Now, what are the 4th and 5th top stories on Hacker News from the same content?`
+});
+console.log('4th and 5th Stories:', result2.text);
+```
+
+Este ejemplo muestra cómo extraer datos estructurados usando el modo JSON de Gemini a partir de contenido extraído de sitios web.
+
+```
+import FirecrawlApp from '@mendable/firecrawl-js';
+import { GoogleGenAI, Type } from '@google/genai';
+
+const firecrawl = new FirecrawlApp({ apiKey: process.env.FIRECRAWL_API_KEY });
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
+
+const scrapeResult = await firecrawl.scrape('https://stripe.com', {
+    formats: ['markdown']
+});
+
+console.log('Longitud del contenido scrapeado:', scrapeResult.markdown?.length);
+
+const response = await ai.models.generateContent({
+    model: 'gemini-2.5-flash',
+    contents: `Extrae información de la empresa: ${scrapeResult.markdown}`,
+    config: {
+        responseMimeType: 'application/json',
+        responseSchema: {
+            type: Type.OBJECT,
+            properties: {
+                name: { type: Type.STRING },
+                industry: { type: Type.STRING },
+                description: { type: Type.STRING },
+                products: {
+                    type: Type.ARRAY,
+                    items: { type: Type.STRING }
+                }
+            },
+            propertyOrdering: ['name', 'industry', 'description', 'products']
+        }
+    }
+});
+
+console.log('Información de la empresa extraída:', response?.text);
+```
+
+Para más ejemplos, consulta la [documentación de Gemini](https://ai.google.dev/docs).

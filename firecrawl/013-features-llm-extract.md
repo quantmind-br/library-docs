@@ -1,0 +1,149 @@
+---
+title: JSON mode | Firecrawl
+url: https://docs.firecrawl.dev/features/llm-extract
+source: sitemap
+fetched_at: 2026-03-23T07:24:55.543392-03:00
+rendered_js: false
+word_count: 428
+summary: This document explains how to use Firecrawl's scraping endpoint to extract structured data from websites using JSON schemas or natural language prompts.
+tags:
+    - web-scraping
+    - data-extraction
+    - json-schema
+    - ai-automation
+    - api-integration
+    - structured-data
+category: guide
+---
+
+## Scrape and extract structured data with Firecrawl
+
+Firecrawl uses AI to get structured data from web pages in 3 steps:
+
+1. **Set the Schema (optional):** Define a JSON schema (using OpenAI’s format) to specify the data you want, or just provide a `prompt` if you don’t need a strict schema, along with the webpage URL.
+2. **Make the Request:** Send your URL and schema to our scrape endpoint using JSON mode. See how here: [Scrape Endpoint Documentation](https://docs.firecrawl.dev/api-reference/endpoint/scrape)
+3. **Get Your Data:** Get back clean, structured data matching your schema that you can use right away.
+
+This makes getting web data in the format you need quick and easy.
+
+### JSON mode via /scrape
+
+Used to extract structured data from scraped pages.
+
+Output:
+
+```
+{
+    "success": true,
+    "data": {
+      "json": {
+        "company_mission": "AI-powered web scraping and data extraction",
+        "supports_sso": true,
+        "is_open_source": true,
+        "is_in_yc": true
+      },
+      "metadata": {
+        "title": "Firecrawl",
+        "description": "AI-powered web scraping and data extraction",
+        "robots": "follow, index",
+        "ogTitle": "Firecrawl",
+        "ogDescription": "AI-powered web scraping and data extraction",
+        "ogUrl": "https://firecrawl.dev/",
+        "ogImage": "https://firecrawl.dev/og.png",
+        "ogLocaleAlternate": [],
+        "ogSiteName": "Firecrawl",
+        "sourceURL": "https://firecrawl.dev/"
+      },
+    }
+}
+```
+
+### Structured data without schema
+
+You can also extract without a schema by just passing a `prompt` to the endpoint. The llm chooses the structure of the data.
+
+Output:
+
+```
+{
+    "success": true,
+    "data": {
+      "json": {
+        "company_mission": "AI-powered web scraping and data extraction",
+      },
+      "metadata": {
+        "title": "Firecrawl",
+        "description": "AI-powered web scraping and data extraction",
+        "robots": "follow, index",
+        "ogTitle": "Firecrawl",
+        "ogDescription": "AI-powered web scraping and data extraction",
+        "ogUrl": "https://firecrawl.dev/",
+        "ogImage": "https://firecrawl.dev/og.png",
+        "ogLocaleAlternate": [],
+        "ogSiteName": "Firecrawl",
+        "sourceURL": "https://firecrawl.dev/"
+      },
+    }
+}
+```
+
+Here’s a comprehensive example extracting structured company information from a website:
+
+Output:
+
+```
+{
+  "success": true,
+  "data": {
+    "json": {
+      "company_mission": "Turn websites into LLM-ready data",
+      "supports_sso": true,
+      "is_open_source": true,
+      "is_in_yc": true
+    }
+  }
+}
+```
+
+### JSON format options
+
+When using JSON mode in v2, include an object in `formats` with the schema embedded directly: `formats: [{ type: 'json', schema: { ... }, prompt: '...' }]` Parameters:
+
+- `schema`: JSON Schema describing the structured output you want (required for schema-based extraction).
+- `prompt`: Optional prompt to guide extraction (also used for no-schema extraction).
+
+**Important:** Unlike v1, there is no separate `jsonOptions` parameter in v2. The schema must be included directly inside the format object in the `formats` array.
+
+If you are seeing inconsistent or incomplete results from JSON extraction, these practices can help:
+
+- **Keep prompts short and focused.** Long prompts with many rules increase variability. Move specific constraints (like allowed values) into the schema instead.
+- **Use concise property names.** Avoid embedding instructions or enum lists in property names. Use a short key like `"installation_type"` and put allowed values in an `enum` array.
+- **Add `enum` arrays for constrained fields.** When a field has a fixed set of values, list them in `enum` and make sure they match the exact text shown on the page.
+- **Include null-handling in field descriptions.** Add `"Return null if not found on the page."` to each field’s `description` so the model does not guess missing values.
+- **Add location hints.** Tell the model where to find data on the page, e.g. `"Flow rate in GPM from the Specifications table."`.
+- **Split large schemas into smaller requests.** Schemas with many fields (e.g. 30+) produce less consistent results. Split them into 2–3 requests of 10–15 fields each.
+
+**Example of a well-structured schema:**
+
+```
+{
+  "type": "object",
+  "properties": {
+    "product_name": {
+      "type": ["string", "null"],
+      "description": "Full descriptive product name as shown on the page. Return null if not found."
+    },
+    "installation_type": {
+      "type": ["string", "null"],
+      "description": "Installation type from the Specifications section. Return null if not found.",
+      "enum": ["Deck-mount", "Wall-mount", "Countertop", "Drop-in", "Undermount"]
+    },
+    "flow_rate_gpm": {
+      "type": ["string", "null"],
+      "description": "Flow rate in GPM from the Specifications section. Return null if not found."
+    }
+  }
+}
+```
+
+> Are you an AI agent that needs a Firecrawl API key? See [firecrawl.dev/agent-onboarding/SKILL.md](https://www.firecrawl.dev/agent-onboarding/SKILL.md) for automated onboarding instructions.

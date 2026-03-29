@@ -1,0 +1,141 @@
+---
+title: docker secret ls
+url: https://docs.docker.com/reference/cli/docker/secret/ls/
+source: llms
+fetched_at: 2026-01-24T14:40:49.868536416-03:00
+rendered_js: false
+word_count: 417
+summary: This document provides a reference for the docker secret ls command, detailing how to list secrets within a Docker Swarm cluster along with options for filtering and formatting output.
+tags:
+    - docker-swarm
+    - docker-secret
+    - cli-reference
+    - secret-management
+    - container-orchestration
+category: reference
+---
+
+DescriptionList secretsUsage`docker secret ls [OPTIONS]`Aliases
+
+An alias is a short or memorable alternative for a longer command.
+
+`docker secret list`
+
+Swarm This command works with the Swarm orchestrator.
+
+## [Description](#description)
+
+Run this command on a manager node to list the secrets in the swarm.
+
+For detailed information about using secrets, refer to [manage sensitive data with Docker secrets](https://docs.docker.com/engine/swarm/secrets/).
+
+> Note
+> 
+> This is a cluster management command, and must be executed on a swarm manager node. To learn about managers and workers, refer to the [Swarm mode section](https://docs.docker.com/engine/swarm/) in the documentation.
+
+## [Options](#options)
+
+OptionDefaultDescription[`-f, --filter`](#filter)Filter output based on conditions provided[`--format`](#format)Format output using a custom template:  
+'table': Print output in table format with column headers (default)  
+'table TEMPLATE': Print output in table format using the given Go template  
+'json': Print in JSON format  
+'TEMPLATE': Print output using the given Go template.  
+Refer to [https://docs.docker.com/go/formatting/](https://docs.docker.com/go/formatting/) for more information about formatting output with templates`-q, --quiet`Only display IDs
+
+## [Examples](#examples)
+
+```
+$ docker secret ls
+ID                          NAME                        CREATED             UPDATED
+6697bflskwj1998km1gnnjr38   q5s5570vtvnimefos1fyeo2u2   6 weeks ago         6 weeks ago
+9u9hk4br2ej0wgngkga6rp4hq   my_secret                   5 weeks ago         5 weeks ago
+mem02h8n73mybpgqjf0kfi1n0   test_secret                 3 seconds ago       3 seconds ago
+```
+
+### [Filtering (--filter)](#filter)
+
+The filtering flag (`-f` or `--filter`) format is a `key=value` pair. If there is more than one filter, then pass multiple flags (e.g., `--filter "foo=bar" --filter "bif=baz"`).
+
+The currently supported filters are:
+
+- [id](#id) (secret's ID)
+- [label](#label) (`label=<key>` or `label=<key>=<value>`)
+- [name](#name) (secret's name)
+
+#### [id](#id)
+
+The `id` filter matches all or prefix of a secret's id.
+
+```
+$ docker secret ls -f "id=6697bflskwj1998km1gnnjr38"
+ID                          NAME                        CREATED             UPDATED
+6697bflskwj1998km1gnnjr38   q5s5570vtvnimefos1fyeo2u2   6 weeks ago         6 weeks ago
+```
+
+#### [label](#label)
+
+The `label` filter matches secrets based on the presence of a `label` alone or a `label` and a value.
+
+The following filter matches all secrets with a `project` label regardless of its value:
+
+```
+$ docker secret ls --filter label=project
+ID                          NAME                        CREATED             UPDATED
+mem02h8n73mybpgqjf0kfi1n0   test_secret                 About an hour ago   About an hour ago
+```
+
+The following filter matches only services with the `project` label with the `project-a` value.
+
+```
+$ docker service ls --filter label=project=test
+ID                          NAME                        CREATED             UPDATED
+mem02h8n73mybpgqjf0kfi1n0   test_secret                 About an hour ago   About an hour ago
+```
+
+#### [name](#name)
+
+The `name` filter matches on all or prefix of a secret's name.
+
+The following filter matches secret with a name containing a prefix of `test`.
+
+```
+$ docker secret ls --filter name=test_secret
+ID                          NAME                        CREATED             UPDATED
+mem02h8n73mybpgqjf0kfi1n0   test_secret                 About an hour ago   About an hour ago
+```
+
+### [Format the output (--format)](#format)
+
+The formatting option (`--format`) pretty prints secrets output using a Go template.
+
+Valid placeholders for the Go template are listed below:
+
+PlaceholderDescription`.ID`Secret ID`.Name`Secret name`.CreatedAt`Time when the secret was created`.UpdatedAt`Time when the secret was updated`.Labels`All labels assigned to the secret`.Label`Value of a specific label for this secret. For example `{{.Label "secret.ssh.key"}}`
+
+When using the `--format` option, the `secret ls` command will either output the data exactly as the template declares or, when using the `table` directive, will include column headers as well.
+
+The following example uses a template without headers and outputs the `ID` and `Name` entries separated by a colon (`:`) for all images:
+
+```
+$ docker secret ls --format "{{.ID}}: {{.Name}}"
+77af4d6b9913: secret-1
+b6fa739cedf5: secret-2
+78a85c484f71: secret-3
+```
+
+To list all secrets with their name and created date in a table format you can use:
+
+```
+$ docker secret ls --format "table {{.ID}}\t{{.Name}}\t{{.CreatedAt}}"
+ID                  NAME                      CREATED
+77af4d6b9913        secret-1                  5 minutes ago
+b6fa739cedf5        secret-2                  3 hours ago
+78a85c484f71        secret-3                  10 days ago
+```
+
+To list all secrets in JSON format, use the `json` directive:
+
+```
+$ docker secret ls --format json
+{"CreatedAt":"28 seconds ago","Driver":"","ID":"4y7hvwrt1u8e9uxh5ygqj7mzc","Labels":"","Name":"mysecret","UpdatedAt":"28 seconds ago"}
+```

@@ -1,0 +1,177 @@
+---
+title: Country code redirect
+url: https://developers.cloudflare.com/workers/examples/country-code-redirect/index.md
+source: llms
+fetched_at: 2026-01-24T15:25:52.802024107-03:00
+rendered_js: false
+word_count: 123
+summary: This document demonstrates how to redirect website visitors to specific localized URLs based on their country of origin using Cloudflare Workers and geolocation metadata.
+tags:
+    - cloudflare-workers
+    - geolocation
+    - http-redirect
+    - request-handling
+    - javascript
+    - typescript
+    - python
+category: tutorial
+---
+
+---
+title: Country code redirect · Cloudflare Workers docs
+description: Redirect a response based on the country code in the header of a visitor.
+lastUpdated: 2025-08-18T14:27:42.000Z
+chatbotDeprioritize: false
+tags: Redirects,Geolocation,JavaScript,TypeScript,Python
+source_url:
+  html: https://developers.cloudflare.com/workers/examples/country-code-redirect/
+  md: https://developers.cloudflare.com/workers/examples/country-code-redirect/index.md
+---
+
+If you want to get started quickly, click on the button below.
+
+[![Deploy to Cloudflare](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/cloudflare/docs-examples/tree/main/workers/country-code-redirect)
+
+This creates a repository in your GitHub account and deploys the application to Cloudflare Workers.
+
+* JavaScript
+
+  ```js
+  export default {
+    async fetch(request) {
+      /**
+       * A map of the URLs to redirect to
+       * @param {Object} countryMap
+       */
+      const countryMap = {
+        US: "https://example.com/us",
+        EU: "https://example.com/eu",
+      };
+
+
+      // Use the cf object to obtain the country of the request
+      // more on the cf object: https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties
+      const country = request.cf.country;
+
+
+      if (country != null && country in countryMap) {
+        const url = countryMap[country];
+        // Remove this logging statement from your final output.
+        console.log(
+          `Based on ${country}-based request, your user would go to ${url}.`,
+        );
+        return Response.redirect(url);
+      } else {
+        return fetch("https://example.com", request);
+      }
+    },
+  };
+  ```
+
+* TypeScript
+
+  ```ts
+  export default {
+    async fetch(request): Promise<Response> {
+      /**
+       * A map of the URLs to redirect to
+       * @param {Object} countryMap
+       */
+      const countryMap = {
+        US: "https://example.com/us",
+        EU: "https://example.com/eu",
+      };
+
+
+      // Use the cf object to obtain the country of the request
+      // more on the cf object: https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties
+      const country = request.cf.country;
+
+
+      if (country != null && country in countryMap) {
+        const url = countryMap[country];
+        return Response.redirect(url);
+      } else {
+        return fetch(request);
+      }
+    },
+  } satisfies ExportedHandler;
+  ```
+
+* Python
+
+  ```py
+  from workers import WorkerEntrypoint, Response, fetch
+
+
+  class Default(WorkerEntrypoint):
+      async def fetch(self, request):
+          countries = {
+              "US": "https://example.com/us",
+              "EU": "https://example.com/eu",
+          }
+
+
+          # Use the cf object to obtain the country of the request
+          # more on the cf object: https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties
+          country = request.cf.country
+
+
+          if country and country in countries:
+              url = countries[country]
+              return Response.redirect(url)
+
+
+          return fetch("https://example.com", request)
+  ```
+
+* Hono
+
+  ```ts
+  import { Hono } from 'hono';
+
+
+  // Define the RequestWithCf interface to add Cloudflare-specific properties
+  interface RequestWithCf extends Request {
+    cf: {
+      country: string;
+      // Other CF properties can be added as needed
+    };
+  }
+
+
+  const app = new Hono();
+
+
+  app.get('*', async (c) => {
+    /**
+     * A map of the URLs to redirect to
+     */
+    const countryMap: Record<string, string> = {
+      US: "https://example.com/us",
+      EU: "https://example.com/eu",
+    };
+
+
+    // Cast the raw request to include Cloudflare-specific properties
+    const request = c.req.raw as RequestWithCf;
+
+
+    // Use the cf object to obtain the country of the request
+    // more on the cf object: https://developers.cloudflare.com/workers/runtime-apis/request#incomingrequestcfproperties
+    const country = request.cf.country;
+
+
+    if (country != null && country in countryMap) {
+      const url = countryMap[country];
+      // Redirect using Hono's redirect helper
+      return c.redirect(url);
+    } else {
+      // Default fallback
+      return fetch("https://example.com", request);
+    }
+  });
+
+
+  export default app;
+  ```

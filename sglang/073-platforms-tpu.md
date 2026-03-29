@@ -1,0 +1,452 @@
+---
+title: TPU — SGLang
+url: https://docs.sglang.io/platforms/tpu.html
+source: crawler
+fetched_at: 2026-02-04T08:47:11.825411021-03:00
+rendered_js: false
+word_count: 1018
+summary: This document explains how to set up, deploy, and benchmark Large Language Model serving on Google Cloud TPUs using the SGLang-JAX backend. It covers installation, server configuration parameters, and performance optimization techniques like speculative decoding.
+tags:
+    - sglang-jax
+    - tpu-inference
+    - llm-serving
+    - google-cloud-tpu
+    - distributed-serving
+    - benchmarking
+    - speculative-decoding
+category: guide
+---
+
+## Contents
+
+## TPU[#](#tpu "Link to this heading")
+
+SGLang supports high-performance TPU inference through the SGLang-JAX backend, which is specifically optimized for Google Cloud TPUs. The JAX-based implementation delivers exceptional throughput and low latency for Large Language Model (LLM) serving workloads on TPU hardware.
+
+For TPU-specific issues or feature requests, please visit the [sglang-jax GitHub issues page](https://github.com/sgl-project/sglang-jax/issues).
+
+**NOTE:** SGLang TPU support is implemented via the SGLang-JAX backend, a dedicated JAX-based inference engine maintained as a separate repository at [sgl-project/sglang-jax](https://github.com/sgl-project/sglang-jax).
+
+## System Requirements[#](#system-requirements "Link to this heading")
+
+### Supported TPU Hardware[#](#supported-tpu-hardware "Link to this heading")
+
+### Software Requirements[#](#software-requirements "Link to this heading")
+
+- **Python:** 3.12 or higher
+- **JAX:** Latest version with TPU support
+- **Environment:** Google Cloud TPU VM or compatible TPU runtime
+- **Optional:** SkyPilot for simplified cloud deployment
+
+## Feature Support Matrix[#](#feature-support-matrix "Link to this heading")
+
+SGLang-JAX provides comprehensive TPU-optimized features for production LLM serving:
+
+### Attention Backend Comparison[#](#attention-backend-comparison "Link to this heading")
+
+**NOTE:** FlashAttention backend is recommended for production workloads due to superior memory efficiency and performance.
+
+## Optimized Model List[#](#optimized-model-list "Link to this heading")
+
+The following models have been tested and optimized for TPU deployment:
+
+## Installation[#](#installation "Link to this heading")
+
+### Method 1: Using PyPI (Recommended)[#](#method-1-using-pypi-recommended "Link to this heading")
+
+### Method 2: From Source[#](#method-2-from-source "Link to this heading")
+
+```
+gitclonehttps://github.com/sgl-project/sglang-jax
+cdsglang-jax
+uvvenv--python3.12&&source.venv/bin/activate
+uvpipinstall-e"python[all]"
+```
+
+### Method 3: Using Docker[#](#method-3-using-docker "Link to this heading")
+
+**NOTE:** Docker support for TPU is currently under development. Please use PyPI or source installation methods.
+
+### Method 4: Cloud TPU with SkyPilot[#](#method-4-cloud-tpu-with-skypilot "Link to this heading")
+
+[SkyPilot](https://github.com/skypilot-org/skypilot) provides simplified deployment on Google Cloud TPU:
+
+1. Install SkyPilot and configure GCP access (see [SkyPilot documentation](https://skypilot.readthedocs.io/))
+2. Create a SkyPilot configuration file:
+
+SkyPilot YAML: `sglang-jax.sky.yaml`
+
+```
+# sglang-jax.sky.yaml
+resources:
+accelerators:tpu-v6e-4
+accelerator_args:
+tpu_vm:True
+runtime_version:v2-alpha-tpuv6e
+
+run:|
+git clone https://github.com/sgl-project/sglang-jax.git
+cd sglang-jax
+uv venv --python 3.12
+source .venv/bin/activate
+uv pip install -e "python[all]"
+```
+
+3. Launch your TPU cluster:
+
+```
+# Standard deployment
+skylaunch-csglang-jaxsglang-jax.sky.yaml--infra=gcp
+
+# With spot instances for cost savings
+skylaunch-csglang-jaxsglang-jax.sky.yaml--infra=gcp--use-spot
+```
+
+## Launch of the Serving Engine[#](#launch-of-the-serving-engine "Link to this heading")
+
+### Basic Example: Qwen-7B[#](#basic-example-qwen-7b "Link to this heading")
+
+```
+JAX_COMPILATION_CACHE_DIR=/tmp/jit_cachepython3-u-msgl_jax.launch_server\
+--model-pathQwen/Qwen-7B-Chat\
+--trust-remote-code\
+--dist-init-addr=0.0.0.0:10011\
+--nnodes=1\
+--tp-size=4\
+--device=tpu\
+--random-seed=3\
+--node-rank=0\
+--mem-fraction-static=0.8\
+--max-prefill-tokens=8192\
+--download-dir=/tmp\
+--dtype=bfloat16\
+--skip-server-warmup\
+--host0.0.0.0\
+--port30000
+```
+
+**Key Parameters Explained:**
+
+1. `JAX_COMPILATION_CACHE_DIR=/tmp/jit_cache` - Enables JIT compilation caching to accelerate server startup on subsequent runs
+2. `--tp-size=4` - Tensor parallelism size; match this to your TPU core count (typically 1, 4, or 8)
+3. `--device=tpu` - Specifies TPU device (this is the default for sglang-jax)
+4. `--dtype=bfloat16` - Uses bfloat16 precision, which TPUs are optimized for
+5. `--mem-fraction-static=0.8` - Allocates 80% of TPU HBM for static memory (adjustable from 0.2 to 0.9)
+6. `--max-prefill-tokens=8192` - Maximum number of tokens processed in the prefill phase
+
+### High-Performance Configuration: Qwen3-8B[#](#high-performance-configuration-qwen3-8b "Link to this heading")
+
+For production workloads with optimal throughput:
+
+```
+python3-u-msgl_jax.launch_server\
+--model-pathQwen/Qwen3-8B\
+--trust-remote-code\
+--tp-size=4\
+--device=tpu\
+--mem-fraction-static=0.8\
+--chunked-prefill-size=2048\
+--dtype=bfloat16\
+--max-running-requests=256\
+--page-size=128\
+--attention-backend=fa
+```
+
+### Advanced: Speculative Decoding (EAGLE3)[#](#advanced-speculative-decoding-eagle3 "Link to this heading")
+
+Speculative decoding can improve throughput by 20-40% for compatible models:
+
+```
+python3-u-msgl_jax.launch_server\
+--model-pathQwen/Qwen3-32B\
+--trust-remote-code\
+--device=tpu\
+--tp-size=4\
+--mem-fraction-static=0.8\
+--max-prefill-tokens=4096\
+--attention-backend=fa\
+--dtype=bfloat16\
+--port=30000\
+--host=0.0.0.0\
+--disable-overlap-schedule\
+--speculative-algorithm=EAGLE3\
+--speculative-draft-model-path=AngelSlim/Qwen3-32B_eagle3\
+--page-size=64\
+--speculative-eagle-topk=1\
+--speculative-num-steps=3\
+--speculative-num-draft-tokens=4
+```
+
+**NOTE:** Speculative decoding is currently supported for Qwen3 and LLaMA model families. See the [Speculative Decoding documentation](https://github.com/sgl-project/sglang-jax/blob/main/docs/features/speculative_decoding.md) for detailed configuration guidance.
+
+### Multi-Node Distributed Serving[#](#multi-node-distributed-serving "Link to this heading")
+
+For large models requiring multiple TPU VMs:
+
+```
+# Node 0 (coordinator)
+python3-msgl_jax.launch_server\
+--model-pathMODEL_PATH\
+--dist-init-addr=NODE0_IP:10011\
+--nnodes=2\
+--node-rank=0\
+--tp-size=8\
+[otherparameters...]
+
+# Node 1 (worker)
+python3-msgl_jax.launch_server\
+--model-pathMODEL_PATH\
+--dist-init-addr=NODE0_IP:10011\
+--nnodes=2\
+--node-rank=1\
+--tp-size=8\
+[otherparameters...]
+```
+
+## Benchmarking with Requests[#](#benchmarking-with-requests "Link to this heading")
+
+### Throughput Testing[#](#throughput-testing "Link to this heading")
+
+Basic throughput benchmark:
+
+```
+python3-msgl_jax.bench_serving\
+--backendsgl-jax\
+--dataset-namerandom\
+--num-prompts=100\
+--random-input=512\
+--random-output=128\
+--max-concurrency=8\
+--random-range-ratio=1\
+--warmup-requests=0
+```
+
+### Latency Testing[#](#latency-testing "Link to this heading")
+
+Measure single-batch latency:
+
+```
+python3-msgl_jax.bench_one_batch_server\
+--base-urlhttp://127.0.0.1:30000\
+--model-pathQwen/Qwen-7B-Chat\
+--batch-size=32\
+--input-len=256\
+--output-len=32
+```
+
+### Comprehensive Benchmark Script[#](#comprehensive-benchmark-script "Link to this heading")
+
+For systematic performance evaluation across different configurations:
+
+```
+#!/bin/bash
+set-e
+
+backend=${1:-sgl-jax}
+num_prompts_per_concurrency=3
+input_seq_lens=(102440968192)
+output_seq_lens=(11024)
+max_concurrencies=(8163264128256)
+
+forinput_seq_lenin"${input_seq_lens[@]}";do
+foroutput_seq_lenin"${output_seq_lens[@]}";do
+echo"======================================="
+echo"Testing ISL/OSL: $input_seq_len/$output_seq_len"
+echo"======================================="
+formax_concurrencyin"${max_concurrencies[@]}";do
+num_prompts=$((num_prompts_per_concurrency*max_concurrency))
+python3-msgl_jax.bench_serving\
+--backend${backend}\
+--dataset-namerandom\
+--num-prompts${num_prompts}\
+--random-input${input_seq_len}\
+--random-output${output_seq_len}\
+--max-concurrency${max_concurrency}\
+--random-range-ratio1\
+--disable-ignore-eos\
+--warmup-requests0
+done
+done
+done
+```
+
+For detailed help on all benchmark parameters:
+
+```
+python3-msgl_jax.bench_serving--help
+```
+
+See the [Benchmark and Profiling Guide](https://github.com/sgl-project/sglang-jax/blob/main/docs/developer_guide/benchmark_and_profiling.md) for advanced benchmarking techniques and profiling with JAX Profiler.
+
+## Performance Optimization[#](#performance-optimization "Link to this heading")
+
+### Memory Optimization[#](#memory-optimization "Link to this heading")
+
+**Reduce memory usage:**
+
+- Lower `--mem-fraction-static` (from 0.8 → 0.5 → 0.3)
+- Decrease `--max-prefill-tokens` (from 16384 → 8192 → 4096)
+- Reduce `--max-running-requests`
+
+**Handle OOM errors:**
+
+- Start with conservative memory settings (`--mem-fraction-static=0.5`)
+- Gradually increase until you find the optimal balance
+- Increase `--page-size` for better memory locality (1 → 16 → 64 → 128)
+
+### Throughput Optimization[#](#throughput-optimization "Link to this heading")
+
+To maximize tokens per second:
+
+- Use FlashAttention backend: `--attention-backend=fa`
+- Enable speculative decoding (EAGLE3) for Qwen3 models (20-40% improvement)
+- Increase `--max-running-requests` to 256+
+- Set `--mem-fraction-static` to 0.8+ (if memory allows)
+- Use larger page sizes (64-128)
+- Enable chunked prefill: `--chunked-prefill-size=2048`
+
+### Latency Optimization[#](#latency-optimization "Link to this heading")
+
+To minimize time-to-first-token (TTFT) and inter-token latency:
+
+- Reduce `--page-size` to 1-4
+- Lower `--max-running-requests` (16-32) for smaller batches
+- Reduce `--chunked-prefill-size`
+- Use conservative memory settings to avoid GC pauses
+
+### TPU-Specific Optimizations[#](#tpu-specific-optimizations "Link to this heading")
+
+1. **JIT Compilation Cache:**
+   
+   ```
+   exportJAX_COMPILATION_CACHE_DIR=/tmp/jit_cache
+   ```
+   
+   Always set this environment variable to cache compiled kernels and accelerate server startup.
+2. **Data Type Optimization:** Use `--dtype=bfloat16` for TPU native optimization. TPUs are specifically designed for bfloat16 computations.
+3. **Tensor Parallelism:** Match `--tp-size` to your TPU core configuration (1, 4, or 8) for optimal model distribution.
+4. **Attention Backend:** Always use `--attention-backend=fa` (FlashAttention) for production workloads.
+
+## Troubleshooting[#](#troubleshooting "Link to this heading")
+
+### OOM (Out of Memory) Errors[#](#oom-out-of-memory-errors "Link to this heading")
+
+If you encounter out-of-memory errors:
+
+1. Reduce `--mem-fraction-static` from 0.8 to 0.5 or lower
+2. Decrease `--max-prefill-tokens` from 8192 to 4096 or 2048
+3. Lower `--max-running-requests` to reduce concurrent batch size
+4. Increase `--page-size` for better memory layout efficiency
+
+### Compilation Long-Time[#](#compilation-long-time "Link to this heading")
+
+If the server takes too long to start:
+
+1. Ensure `JAX_COMPILATION_CACHE_DIR` is properly set
+2. Understand that the first run requires JIT compilation (this is normal)
+3. Subsequent runs will be significantly faster with cached compilations
+4. Consider using `--skip-server-warmup` to defer compilation until first request
+
+### Low Throughput[#](#low-throughput "Link to this heading")
+
+If you’re not achieving expected throughput:
+
+1. Verify `--tp-size` matches your TPU core configuration
+2. Check that `--attention-backend=fa` is enabled
+3. Increase `--max-running-requests` to enable larger batch formation
+4. Consider enabling speculative decoding for compatible models
+5. Ensure memory settings allow for sufficient batch sizes
+
+### Connection Issues[#](#connection-issues "Link to this heading")
+
+If clients cannot connect to the server:
+
+1. Ensure `--host=0.0.0.0` for external access (not just `127.0.0.1`)
+2. Verify firewall rules allow traffic on the specified port (default: 30000)
+3. Check that the server process is running: `curl http://localhost:30000/health`
+
+## Advanced Features[#](#advanced-features "Link to this heading")
+
+### Speculative Decoding[#](#speculative-decoding "Link to this heading")
+
+SGLang-JAX supports EAGLE and EAGLE3 speculative decoding algorithms for Qwen3 and LLaMA model families. Speculative decoding can improve throughput by 20-40% without affecting output quality.
+
+See the [Speculative Decoding documentation](https://github.com/sgl-project/sglang-jax/blob/main/docs/features/speculative_decoding.md) for detailed configuration and supported model combinations.
+
+### Chunked Prefill[#](#chunked-prefill "Link to this heading")
+
+Enable mixed prefill-decode batching for better TPU utilization:
+
+```
+--chunked-prefill-size=2048--enable-mixed-chunk
+```
+
+This allows the scheduler to mix prefill operations with decode operations in the same batch, improving overall throughput.
+
+### Custom Attention Backends[#](#custom-attention-backends "Link to this heading")
+
+SGLang-JAX supports a plugin-based attention backend system. You can implement custom attention kernels optimized for specific use cases.
+
+See the [Attention Backend documentation](https://github.com/sgl-project/sglang-jax/blob/main/docs/features/attention_backend.md) for implementation details.
+
+### Environment Verification[#](#environment-verification "Link to this heading")
+
+Verify your TPU setup before deploying:
+
+```
+python-c"from sgl_jax import check_env; check_env.check_env()"
+```
+
+This command checks:
+
+- Installed package versions
+- TPU device availability and specifications
+- System resources and configuration
+- Compatibility of settings
+
+## Contributing[#](#contributing "Link to this heading")
+
+We welcome contributions to improve TPU support in SGLang-JAX!
+
+### Areas for Contribution[#](#areas-for-contribution "Link to this heading")
+
+**Check the [Development Roadmap](https://github.com/sgl-project/sglang-jax/issues/190)** to see planned features and find opportunities to contribute new functionality.
+
+Current contribution areas include:
+
+- Performance optimizations for specific TPU generations
+- Support for additional model architectures
+- Documentation improvements and examples
+- Bug reports and fixes
+- Benchmark results and performance analysis
+
+### How to Contribute[#](#how-to-contribute "Link to this heading")
+
+1. Visit the [sglang-jax repository](https://github.com/sgl-project/sglang-jax)
+2. Read the [Contribution Guide](https://github.com/sgl-project/sglang-jax/blob/main/docs/developer_guide/contribution_guide.md)
+3. Join the [SGL-JAX Slack community](https://sgl-fru7574.slack.com/archives/C09EBE5HT5X) for discussions
+4. Report issues at [sglang-jax/issues](https://github.com/sgl-project/sglang-jax/issues)
+
+### Testing on TPU[#](#testing-on-tpu "Link to this heading")
+
+For contributors who need TPU access for testing:
+
+- Refer to the [TPU Resources Guide](https://github.com/sgl-project/sglang-jax/blob/main/docs/developer_guide/tpu_resources_guide.md) for information on accessing TPU hardware
+- Use SkyPilot with spot instances for cost-effective testing
+- Follow the [Benchmark and Profiling Guide](https://github.com/sgl-project/sglang-jax/blob/main/docs/developer_guide/benchmark_and_profiling.md) for performance validation
+
+## References[#](#references "Link to this heading")
+
+### Documentation[#](#documentation "Link to this heading")
+
+- [SGLang-JAX Repository](https://github.com/sgl-project/sglang-jax)
+- [SGLang-JAX Installation Guide](https://github.com/sgl-project/sglang-jax/blob/main/docs/get_started/install.md)
+- [Qwen Models Quick Start](https://github.com/sgl-project/sglang-jax/blob/main/docs/basic_usage/qwen.md)
+- [Benchmark and Profiling Guide](https://github.com/sgl-project/sglang-jax/blob/main/docs/developer_guide/benchmark_and_profiling.md)
+- [Speculative Decoding](https://github.com/sgl-project/sglang-jax/blob/main/docs/features/speculative_decoding.md)
+
+### External Resources[#](#external-resources "Link to this heading")
+
+- [JAX Documentation](https://jax.readthedocs.io/)
+- [Google Cloud TPU Documentation](https://cloud.google.com/tpu/docs)
+- [SkyPilot Documentation](https://skypilot.readthedocs.io/)

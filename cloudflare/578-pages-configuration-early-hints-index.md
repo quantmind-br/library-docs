@@ -1,0 +1,69 @@
+---
+title: Early Hints · Cloudflare Pages docs
+url: https://developers.cloudflare.com/pages/configuration/early-hints/index.md
+source: llms
+fetched_at: 2026-01-24T15:17:00.683480414-03:00
+rendered_js: false
+word_count: 307
+summary: This document explains how to configure Early Hints on Cloudflare Pages to improve webpage loading performance through link headers and automatic generation.
+tags:
+    - cloudflare-pages
+    - early-hints
+    - performance-optimization
+    - http-headers
+    - web-performance
+category: configuration
+---
+
+[Early Hints](https://developers.cloudflare.com/cache/advanced-configuration/early-hints/) help the browser to load webpages faster. Early Hints is enabled automatically on all `pages.dev` domains and custom domains.
+
+Early Hints automatically caches any [`preload`](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/preload) and [`preconnect`](https://developer.mozilla.org/en-US/docs/Web/HTML/Link_types/preconnect) type [`Link` headers](https://developer.mozilla.org/en-US/docs/Web/HTTP/Reference/Headers/Link) to send as Early Hints to the browser. The hints are sent to the browser before the full response is prepared, and the browser can figure out how to load the webpage faster for the end user. There are two ways to create these `Link` headers in Pages:
+
+## Configure Early Hints
+
+Early Hints can be created with either of the two methods detailed below.
+
+### 1. Configure your `_headers` file
+
+Create custom headers using the [`_headers` file](https://developers.cloudflare.com/pages/configuration/headers/). If you include a particular stylesheet on your `/blog/` section of your website, you would create the following rule:
+
+```txt
+/blog/*
+  Link: </styles.css>; rel=preload; as=style
+```
+
+Pages will attach this `Link: </styles.css>; rel=preload; as=style` header. Early Hints will then emit this header as an Early Hint once cached.
+
+### 2. Automatic `Link` header generation
+
+In order to make the authoring experience easier, Pages also automatically generates `Link` headers from any `<link>` HTML elements with the following attributes:
+
+* `href`
+* `as` (optional)
+* `rel` (one of `preconnect`, `preload`, or `modulepreload`)
+
+`<link>` elements which contain any other additional attributes (for example, `fetchpriority`, `crossorigin` or `data-do-not-generate-a-link-header`) will not be used to generate `Link` headers in order to prevent accidentally losing any custom prioritization logic that would otherwise be dropped as an Early Hint.
+
+This allows you to directly create Early Hints as you are writing your document, without needing to alternate between your HTML and `_headers` file.
+
+```html
+<html>
+  <head>
+    <link rel="preload" href="/style.css" as="style" />
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+</html>
+```
+
+### Disable automatic `Link` header generation Automatic `Link` header
+
+Remove any automatically generated `Link` headers by adding the following to your `_headers` file:
+
+```txt
+/*
+  ! Link
+```
+
+Warning
+
+Automatic `Link` header generation should not have any negative performance impact on your website. If you need to disable this feature, contact us by letting us know about your circumstance in our [Discord server](https://discord.com/invite/cloudflaredev).

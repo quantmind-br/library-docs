@@ -1,0 +1,297 @@
+---
+title: Fireworks AI | liteLLM
+url: https://docs.litellm.ai/docs/providers/fireworks_ai
+source: sitemap
+fetched_at: 2026-01-21T19:49:02.742994333-03:00
+rendered_js: false
+word_count: 372
+summary: This document provides instructions on how to integrate LiteLLM with Fireworks AI for chat completions, embeddings, and audio transcriptions. It covers serverless connections, direct-route deployments, and configuration settings for the LiteLLM proxy and advanced features like document inlining.
+tags:
+    - litellm
+    - fireworks-ai
+    - llm-integration
+    - api-configuration
+    - serverless-models
+    - embeddings
+    - proxy-server
+    - document-inlining
+category: guide
+---
+
+info
+
+**We support ALL Fireworks AI models, just set `fireworks_ai/` as a prefix when sending completion requests**
+
+PropertyDetailsDescriptionThe fastest and most efficient inference engine to build production-ready, compound AI systems.Provider Route on LiteLLM`fireworks_ai/`Provider Doc[Fireworks AI ↗](https://docs.fireworks.ai/getting-started/introduction)Supported OpenAI Endpoints`/chat/completions`, `/embeddings`, `/completions`, `/audio/transcriptions`, `/rerank`
+
+## Overview[​](#overview "Direct link to Overview")
+
+This guide explains how to integrate LiteLLM with Fireworks AI. You can connect to Fireworks AI in three main ways:
+
+1. **Using Fireworks AI serverless models** – Easy connection to Fireworks-managed models.
+2. **Connecting to a model in your own Fireworks account** – Access models that are hosted within your Fireworks account.
+3. **Connecting via a direct-route deployment** – A more flexible, customizable connection to a specific Fireworks instance.
+
+## API Key[​](#api-key "Direct link to API Key")
+
+```
+# env variable
+os.environ['FIREWORKS_AI_API_KEY']
+```
+
+## Sample Usage - Serverless Models[​](#sample-usage---serverless-models "Direct link to Sample Usage - Serverless Models")
+
+```
+from litellm import completion
+import os
+
+os.environ['FIREWORKS_AI_API_KEY']=""
+response = completion(
+    model="fireworks_ai/accounts/fireworks/models/llama-v3-70b-instruct",
+    messages=[
+{"role":"user","content":"hello from litellm"}
+],
+)
+print(response)
+```
+
+## Sample Usage - Serverless Models - Streaming[​](#sample-usage---serverless-models---streaming "Direct link to Sample Usage - Serverless Models - Streaming")
+
+```
+from litellm import completion
+import os
+
+os.environ['FIREWORKS_AI_API_KEY']=""
+response = completion(
+    model="fireworks_ai/accounts/fireworks/models/llama-v3-70b-instruct",
+    messages=[
+{"role":"user","content":"hello from litellm"}
+],
+    stream=True
+)
+
+for chunk in response:
+print(chunk)
+```
+
+## Sample Usage - Models in Your Own Fireworks Account[​](#sample-usage----models-in-your-own-fireworks-account "Direct link to Sample Usage - Models in Your Own Fireworks Account")
+
+```
+from litellm import completion
+import os
+
+os.environ['FIREWORKS_AI_API_KEY']=""
+response = completion(
+    model="fireworks_ai/accounts/fireworks/models/YOUR_MODEL_ID",
+    messages=[
+{"role":"user","content":"hello from litellm"}
+],
+)
+print(response)
+```
+
+## Sample Usage - Direct-Route Deployment[​](#sample-usage---direct-route-deployment "Direct link to Sample Usage - Direct-Route Deployment")
+
+```
+from litellm import completion
+import os
+
+os.environ['FIREWORKS_AI_API_KEY']="YOUR_DIRECT_API_KEY"
+response = completion(
+    model="fireworks_ai/accounts/fireworks/models/qwen2p5-coder-7b#accounts/gitlab/deployments/2fb7764c",
+    messages=[
+{"role":"user","content":"hello from litellm"}
+],
+   api_base="https://gitlab-2fb7764c.direct.fireworks.ai/v1"
+)
+print(response)
+```
+
+> **Note:** The above is for the chat interface, if you want to use the text completion interface it's model="text-completion-openai/accounts/fireworks/models/qwen2p5-coder-7b#accounts/gitlab/deployments/2fb7764c"
+
+## Usage with LiteLLM Proxy[​](#usage-with-litellm-proxy "Direct link to Usage with LiteLLM Proxy")
+
+### 1. Set Fireworks AI Models on config.yaml[​](#1-set-fireworks-ai-models-on-configyaml "Direct link to 1. Set Fireworks AI Models on config.yaml")
+
+```
+model_list:
+-model_name: fireworks-llama-v3-70b-instruct
+litellm_params:
+model: fireworks_ai/accounts/fireworks/models/llama-v3-70b-instruct
+api_key:"os.environ/FIREWORKS_AI_API_KEY"
+```
+
+### 2. Start Proxy[​](#2-start-proxy "Direct link to 2. Start Proxy")
+
+```
+litellm --config config.yaml
+```
+
+### 3. Test it[​](#3-test-it "Direct link to 3. Test it")
+
+- Curl Request
+- OpenAI v1.0.0+
+- Langchain
+
+```
+curl --location 'http://0.0.0.0:4000/chat/completions' \
+--header 'Content-Type: application/json' \
+--data ' {
+      "model": "fireworks-llama-v3-70b-instruct",
+      "messages": [
+        {
+          "role": "user",
+          "content": "what llm are you"
+        }
+      ]
+    }
+'
+```
+
+## Document Inlining[​](#document-inlining "Direct link to Document Inlining")
+
+LiteLLM supports document inlining for Fireworks AI models. This is useful for models that are not vision models, but still need to parse documents/images/etc.
+
+LiteLLM will add `#transform=inline` to the url of the image\_url, if the model is not a vision model.[**See Code**](https://github.com/BerriAI/litellm/blob/1ae9d45798bdaf8450f2dfdec703369f3d2212b7/litellm/llms/fireworks_ai/chat/transformation.py#L114)
+
+- SDK
+- PROXY
+
+```
+from litellm import completion
+import os
+
+os.environ["FIREWORKS_AI_API_KEY"]="YOUR_API_KEY"
+os.environ["FIREWORKS_AI_API_BASE"]="https://audio-prod.api.fireworks.ai/v1"
+
+completion = litellm.completion(
+    model="fireworks_ai/accounts/fireworks/models/llama-v3p3-70b-instruct",
+    messages=[
+{
+"role":"user",
+"content":[
+{
+"type":"image_url",
+"image_url":{
+"url":"https://storage.googleapis.com/fireworks-public/test/sample_resume.pdf"
+},
+},
+{
+"type":"text",
+"text":"What are the candidate's BA and MBA GPAs?",
+},
+],
+}
+],
+)
+print(completion)
+```
+
+### Disable Auto-add[​](#disable-auto-add "Direct link to Disable Auto-add")
+
+If you want to disable the auto-add of `#transform=inline` to the url of the image\_url, you can set the `auto_add_transform_inline` to `False` in the `FireworksAIConfig` class.
+
+- SDK
+- PROXY
+
+```
+litellm.disable_add_transform_inline_image_block =True
+```
+
+## Reasoning Effort[​](#reasoning-effort "Direct link to Reasoning Effort")
+
+The `reasoning_effort` parameter is supported on select Fireworks AI models. Supported models include:
+
+- SDK
+- PROXY
+
+```
+from litellm import completion
+import os
+
+os.environ["FIREWORKS_AI_API_KEY"]="YOUR_API_KEY"
+
+response = completion(
+    model="fireworks_ai/accounts/fireworks/models/qwen3-8b",
+    messages=[
+{"role":"user","content":"What is the capital of France?"}
+],
+    reasoning_effort="low",
+)
+print(response)
+```
+
+## Supported Models - ALL Fireworks AI Models Supported\![​](#supported-models---all-fireworks-ai-models-supported "Direct link to Supported Models - ALL Fireworks AI Models Supported!")
+
+info
+
+We support ALL Fireworks AI models, just set `fireworks_ai/` as a prefix when sending completion requests
+
+Model NameFunction Callllama-v3p2-1b-instruct`completion(model="fireworks_ai/llama-v3p2-1b-instruct", messages)`llama-v3p2-3b-instruct`completion(model="fireworks_ai/llama-v3p2-3b-instruct", messages)`llama-v3p2-11b-vision-instruct`completion(model="fireworks_ai/llama-v3p2-11b-vision-instruct", messages)`llama-v3p2-90b-vision-instruct`completion(model="fireworks_ai/llama-v3p2-90b-vision-instruct", messages)`mixtral-8x7b-instruct`completion(model="fireworks_ai/mixtral-8x7b-instruct", messages)`firefunction-v1`completion(model="fireworks_ai/firefunction-v1", messages)`llama-v2-70b-chat`completion(model="fireworks_ai/llama-v2-70b-chat", messages)`
+
+## Supported Embedding Models[​](#supported-embedding-models "Direct link to Supported Embedding Models")
+
+info
+
+We support ALL Fireworks AI models, just set `fireworks_ai/` as a prefix when sending embedding requests
+
+Model NameFunction Callfireworks\_ai/nomic-ai/nomic-embed-text-v1.5`response = litellm.embedding(model="fireworks_ai/nomic-ai/nomic-embed-text-v1.5", input=input_text)`fireworks\_ai/nomic-ai/nomic-embed-text-v1`response = litellm.embedding(model="fireworks_ai/nomic-ai/nomic-embed-text-v1", input=input_text)`fireworks\_ai/WhereIsAI/UAE-Large-V1`response = litellm.embedding(model="fireworks_ai/WhereIsAI/UAE-Large-V1", input=input_text)`fireworks\_ai/thenlper/gte-large`response = litellm.embedding(model="fireworks_ai/thenlper/gte-large", input=input_text)`fireworks\_ai/thenlper/gte-base`response = litellm.embedding(model="fireworks_ai/thenlper/gte-base", input=input_text)`
+
+## Audio Transcription[​](#audio-transcription "Direct link to Audio Transcription")
+
+### Quick Start[​](#quick-start "Direct link to Quick Start")
+
+- SDK
+- PROXY
+
+```
+from litellm import transcription
+import os
+
+os.environ["FIREWORKS_AI_API_KEY"]="YOUR_API_KEY"
+os.environ["FIREWORKS_AI_API_BASE"]="https://audio-prod.api.fireworks.ai/v1"
+
+response = transcription(
+    model="fireworks_ai/whisper-v3",
+    audio=audio_file,
+)
+```
+
+[Pass API Key/API Base in `.transcription`](https://docs.litellm.ai/docs/set_keys#passing-args-to-completion)
+
+## Rerank[​](#rerank "Direct link to Rerank")
+
+### Quick Start[​](#quick-start-1 "Direct link to Quick Start")
+
+- SDK
+- PROXY
+
+```
+from litellm import rerank
+import os
+
+os.environ["FIREWORKS_AI_API_KEY"]="YOUR_API_KEY"
+
+query ="What is the capital of France?"
+documents =[
+"Paris is the capital and largest city of France, home to the Eiffel Tower and the Louvre Museum.",
+"France is a country in Western Europe known for its wine, cuisine, and rich history.",
+"The weather in Europe varies significantly between northern and southern regions.",
+"Python is a popular programming language used for web development and data science.",
+]
+
+response = rerank(
+    model="fireworks_ai/fireworks/qwen3-reranker-8b",
+    query=query,
+    documents=documents,
+    top_n=3,
+    return_documents=True,
+)
+print(response)
+```
+
+[Pass API Key/API Base in `.rerank`](https://docs.litellm.ai/docs/set_keys#passing-args-to-completion)
+
+### Supported Models[​](#supported-models "Direct link to Supported Models")
+
+Model NameFunction Callfireworks/qwen3-reranker-8b`rerank(model="fireworks_ai/fireworks/qwen3-reranker-8b", query=query, documents=documents)`

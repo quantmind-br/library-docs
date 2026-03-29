@@ -1,0 +1,2870 @@
+{
+  "generated_at": "2026-01-31T16:05:03.040939129-03:00",
+  "source_url": "https://hyprland-community.github.io/pyprland/",
+  "strategy": "github_pages",
+  "total_documents": 158,
+  "documents": [
+    {
+      "file_path": "001-pyprland-index.md",
+      "title": "What is Pyprland? | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:34.89219752-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a desktop environment extension that enhances functionality and enables customization for Hyprland and similar environments.",
+      "tags": [
+        "desktop-environment",
+        "hyprland",
+        "extensions",
+        "customization",
+        "automation"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-index.md"
+    },
+    {
+      "file_path": "002-pyprland-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:57.051843018-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides information about a monitor management plugin that swaps workspace positions between monitors.",
+      "tags": [
+        "monitor-management",
+        "workspace",
+        "display",
+        "plugin"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-shift-monitors.md"
+    },
+    {
+      "file_path": "003-pyprland-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:25.529361863-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland with Pyprland, covering setup, animations, sizing, positioning, and advanced options for customizing window behavior.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "pyprland",
+        "animations",
+        "window-positioning"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-scratchpads.md"
+    },
+    {
+      "file_path": "004-pyprland-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:25.402707659-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides configuration guidelines for relative monitor placement in Hyprland, allowing users to define monitor positions based on descriptions or ports with various alignment options.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "display-configuration",
+        "relative-positioning",
+        "multi-monitor-setup"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-monitors.md"
+    },
+    {
+      "file_path": "005-pyprland-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:30.299568118-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to implement an 'expose' effect in Hyprland using the pyprland plugin, which shows all client windows on the focused screen and provides configuration instructions.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "pyprland",
+        "expose-effect",
+        "key-binding",
+        "workspace-rules"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-expose.md"
+    },
+    {
+      "file_path": "006-pyprland-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:12.454517906-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures automated wallpaper cycling with random image selection and supports various background setting tools across different desktop environments.",
+      "tags": [
+        "wallpaper",
+        "background",
+        "automation",
+        "hyprland",
+        "configuration",
+        "randomization",
+        "image-processing",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-wallpapers.md"
+    },
+    {
+      "file_path": "007-pyprland-fcitx5-switcher.md",
+      "title": "fcitx5_switcher | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/fcitx5/switcher",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:11.21770648-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure window class and title based activation and deactivation rules for Fcitx5 input method.",
+      "tags": [
+        "fcitx5",
+        "input-method",
+        "configuration",
+        "window-management",
+        "activation-rules"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-fcitx5-switcher.md"
+    },
+    {
+      "file_path": "008-pyprland-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:59.094038554-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides configuration options and commands for managing a centered window layout, including margin, offset, and window behavior settings.",
+      "tags": [
+        "window-management",
+        "layout-config",
+        "centered-window",
+        "margin",
+        "offset",
+        "focus-behavior"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-layout-center.md"
+    },
+    {
+      "file_path": "009-pyprland-menubar.md",
+      "title": "menubar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/menubar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:09.720923049-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring a menubar plugin that automatically manages bar applications across different display environments.",
+      "tags": [
+        "menubar",
+        "hyprland",
+        "niri",
+        "display-management",
+        "automation"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-menubar.md"
+    },
+    {
+      "file_path": "010-pyprland-system-notifier.md",
+      "title": "system_notifier | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/system/notifier",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:42.530265536-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides configuration details for a system notification plugin that handles long-running commands and text stream parsing with customizable patterns and sources.",
+      "tags": [
+        "configuration",
+        "notifications",
+        "system-monitoring",
+        "regex-patterns",
+        "command-execution"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-system-notifier.md"
+    },
+    {
+      "file_path": "011-pyprland-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:51.17804596-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides configuration options for managing workspace limits and switching between workspaces on the current monitor.",
+      "tags": [
+        "workspace-management",
+        "monitor-config",
+        "display-settings",
+        "configuration"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "012-pyprland-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:54.998532139-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides documentation for Hyprland client management commands and menu configuration options.",
+      "tags": [
+        "hyprland",
+        "client-management",
+        "window-manager",
+        "menu-configuration",
+        "workspace"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-fetch-client-menu.md"
+    },
+    {
+      "file_path": "013-pyprland-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:27.777840272-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display magnification with optional animation effects in Hyprland.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-magnify.md"
+    },
+    {
+      "file_path": "014-pyprland-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:01.414573276-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides detailed configuration options for customizing menu behavior and appearance, including entry structures, separators, and display formatting.",
+      "tags": [
+        "menu-configuration",
+        "command-interface",
+        "user-interface",
+        "display-settings",
+        "configuration-options"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-shortcuts-menu.md"
+    },
+    {
+      "file_path": "015-pyprland-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:25.899594096-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides documentation for a plugin that controls DPMS (Display Power Management Signaling) functionality across all monitors with no configurable settings.",
+      "tags": [
+        "dpms",
+        "display",
+        "monitor",
+        "power-management",
+        "plugin"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-toggle-dpms.md"
+    },
+    {
+      "file_path": "016-pyprland-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:19.020859806-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to toggle windows between special workspaces and configure the default workspace name.",
+      "tags": [
+        "window-management",
+        "special-workspace",
+        "toggle",
+        "configuration",
+        "minimized"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-toggle-special.md"
+    },
+    {
+      "file_path": "017-pyprland-wallpapers-online.md",
+      "title": "Online Wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/wallpapers/online",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:29.196411178-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes configuration options for managing online image fetching and caching behavior, including parameters for controlling online ratio, backend selection, keyword filtering, and cache management.",
+      "tags": [
+        "configuration",
+        "image-fetching",
+        "caching",
+        "online-content",
+        "parameters"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-wallpapers-online.md"
+    },
+    {
+      "file_path": "018-pyprland-wallpapers-templates.md",
+      "title": "Wallpaper Templates | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/wallpapers/templates",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:28.737685146-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the configuration options for generating color palettes from hex colors, including color schemes, variants, and template settings.",
+      "tags": [
+        "color-palette",
+        "hex-color",
+        "configuration",
+        "theme",
+        "templates"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-wallpapers-templates.md"
+    },
+    {
+      "file_path": "019-pyprland-scratchpads-nonstandard.md",
+      "title": "Troubleshooting scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/scratchpads/nonstandard",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:19.767725203-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures window matching and process tracking settings for a scratchpad functionality, including various match methods and window rule skipping options.",
+      "tags": [
+        "window-management",
+        "process-tracking",
+        "configuration",
+        "scratchpad",
+        "match-methods",
+        "window-rules"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-scratchpads-nonstandard.md"
+    },
+    {
+      "file_path": "020-pyprland-scratchpads-advanced.md",
+      "title": "Fine tuning scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/scratchpads/advanced",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:58.604771582-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides comprehensive configuration options for a scratchpad feature, detailing various settings that control positioning, behavior, and advanced functionality of scratchpad windows.",
+      "tags": [
+        "scratchpad",
+        "configuration",
+        "window-management",
+        "hyprland",
+        "positioning",
+        "behavior"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-scratchpads-advanced.md"
+    },
+    {
+      "file_path": "021-pyprland-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:42.953724416-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to bring unreachable windows to the currently focused workspace in Hyprland, specifically addressing deprecated functionality for handling lost floating windows.",
+      "tags": [
+        "windows",
+        "workspace",
+        "hyprland",
+        "plugin",
+        "deprecated"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-lost-windows.md"
+    },
+    {
+      "file_path": "022-pyprland-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:49.051341196-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the usage and syntax of a text filtering feature that mimics sed's 's' command for pattern replacement.",
+      "tags": [
+        "text-processing",
+        "filtering",
+        "sed-command",
+        "pattern-replacement",
+        "regular-expressions"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-filters.md"
+    },
+    {
+      "file_path": "023-pyprland-versions-2.6.2-index.md",
+      "title": "What is Pyprland? | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:20.716702325-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as an extension tool for the Hyprland window manager that enhances functionality and enables customization. It explains how Pyprland improves workflow through automation and provides details about recent feature updates.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "window-manager",
+        "customization",
+        "automation",
+        "pyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.6.2-index.md"
+    },
+    {
+      "file_path": "024-pyprland-versions-2.6.2-menubar.md",
+      "title": "menubar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/menubar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:08.912773745-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for running and managing a menu bar application across multiple monitors with automatic selection and restart functionality.",
+      "tags": [
+        "menu-bar",
+        "monitor-selection",
+        "automatic-restart",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.6.2-menubar.md"
+    },
+    {
+      "file_path": "025-pyprland-versions-2.6.2-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:22.580886605-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland using the pyprland plugin, covering setup, animations, sizing, positioning, and advanced customization options.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "pyprland",
+        "animation",
+        "size",
+        "position"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.6.2-scratchpads.md"
+    },
+    {
+      "file_path": "026-pyprland-versions-2.6.2-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:14.33854031-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure relative monitor placement in Hyprland using a TOML-based configuration system, allowing users to define monitor layouts based on descriptions and apply settings like scale, transform, and resolution.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "configuration",
+        "display-setup",
+        "toml-config",
+        "relative-layout"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.6.2-monitors.md"
+    },
+    {
+      "file_path": "027-pyprland-versions-2.6.2-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:09.812952813-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key bindings.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.6.2-expose.md"
+    },
+    {
+      "file_path": "028-pyprland-versions-2.6.2-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:02.640404965-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display zoom levels with optional animation effects in Hyprland.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration",
+        "command-line"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.6.2-magnify.md"
+    },
+    {
+      "file_path": "029-pyprland-versions-2.6.2-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:40.796226475-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures automatic wallpaper cycling with random image selection from specified folders, supporting custom commands and background tools like hyprpaper or swww.",
+      "tags": [
+        "wallpaper",
+        "background",
+        "automation",
+        "hyprpaper",
+        "swww",
+        "random",
+        "image",
+        "configuration"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.6.2-wallpapers.md"
+    },
+    {
+      "file_path": "030-pyprland-versions-2.6.2-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:05.594468417-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to change workspaces in a tiling window manager and configure the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "window-manager",
+        "configuration",
+        "tiling"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.6.2-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "031-pyprland-versions-2.6.2-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:19.165085024-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the usage of a text filtering feature that mimics sed's 's' command for pattern replacement.",
+      "tags": [
+        "text-processing",
+        "filtering",
+        "sed-compatibility",
+        "pattern-replacement"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.6.2-filters.md"
+    },
+    {
+      "file_path": "032-pyprland-versions-2.6.2-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:05.360875083-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides reference information for layout center commands used to navigate between windows and toggle layout functionality.",
+      "tags": [
+        "layout",
+        "navigation",
+        "window-management",
+        "commands",
+        "reference"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.6.2-layout-center.md"
+    },
+    {
+      "file_path": "033-pyprland-versions-2.6.2-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:27.497812413-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that allows users to bring any window to the active workspace through menu interaction.",
+      "tags": [
+        "fetch-client-menu",
+        "window-management",
+        "active-workspace",
+        "menu-function"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.6.2-fetch-client-menu.md"
+    },
+    {
+      "file_path": "034-pyprland-versions-2.6.2-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:32.888194561-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a command that toggles the power state of all display outputs, turning them all off if they are currently on, or turning them all on if they are currently off.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.6.2-toggle-dpms.md"
+    },
+    {
+      "file_path": "035-pyprland-versions-2.6.2-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:16.701606245-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.6.2-toggle-special.md"
+    },
+    {
+      "file_path": "036-pyprland-versions-2.6.2-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:24.052492775-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "shift-monitors",
+        "workspace",
+        "screen-management",
+        "display"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.6.2-shift-monitors.md"
+    },
+    {
+      "file_path": "037-pyprland-versions-2.6.2-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:23.055230899-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing unreachable windows into the currently focused workspace in Hyprland.",
+      "tags": [
+        "windows",
+        "hyprland",
+        "workspace",
+        "deprecated"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.6.2-lost-windows.md"
+    },
+    {
+      "file_path": "038-pyprland-versions-2.6.2-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.6.2/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:07.517819492-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the menu command to display menus or specific menu items.",
+      "tags": [
+        "menu",
+        "command",
+        "navigation",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.6.2-shortcuts-menu.md"
+    },
+    {
+      "file_path": "039-pyprland-versions-2.5.x-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:19.803514849-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "toml-format"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.5.x-index.md"
+    },
+    {
+      "file_path": "040-pyprland-versions-2.5.x-bar.md",
+      "title": "menubar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/bar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:42.305824306-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring and running a menu bar application across multiple monitors with automatic selection and restart functionality.",
+      "tags": [
+        "menu-bar",
+        "monitor-selection",
+        "automatic-restart",
+        "configuration",
+        "bar-application"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.5.x-bar.md"
+    },
+    {
+      "file_path": "041-pyprland-versions-2.5.x-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:51.159111773-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland using Pyprland, covering setup, commands, and advanced configuration options.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "pyprland",
+        "toggles",
+        "animations",
+        "monitor-specific"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.5.x-scratchpads.md"
+    },
+    {
+      "file_path": "042-pyprland-versions-2.5.x-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:44.000340513-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key bindings.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.5.x-expose.md"
+    },
+    {
+      "file_path": "043-pyprland-versions-2.5.x-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:00.463048911-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures automatic background image cycling from specified folders with support for multiple display outputs and custom commands.",
+      "tags": [
+        "background-image",
+        "wallpaper",
+        "automation",
+        "hyprland",
+        "configuration",
+        "randomization"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.5.x-wallpapers.md"
+    },
+    {
+      "file_path": "044-pyprland-versions-2.5.x-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:36.15275965-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display magnification with optional animation effects in Hyprland.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.5.x-magnify.md"
+    },
+    {
+      "file_path": "045-pyprland-versions-2.5.x-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:37.524320804-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for changing workspaces in a tiling window manager and configuring the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "monitor",
+        "window-manager",
+        "configuration",
+        "tiling"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.5.x-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "046-pyprland-versions-2.5.x-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:06.15031718-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure relative monitor placement in Hyprland using a TOML-based configuration system, allowing users to define monitor positions relative to each other and set specific display settings.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "display-configuration",
+        "toml",
+        "relative-layout",
+        "wlr-layout"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.5.x-monitors.md"
+    },
+    {
+      "file_path": "047-pyprland-versions-2.5.x-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:36.320978639-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "shift-monitors",
+        "workspace-management",
+        "screen-controls",
+        "display-settings"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.5.x-shift-monitors.md"
+    },
+    {
+      "file_path": "048-pyprland-versions-2.5.x-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:55.239555545-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the sed-style string filtering functionality with specific syntax and supported flags.",
+      "tags": [
+        "filtering",
+        "string-replacement",
+        "sed-syntax",
+        "text-processing"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.5.x-filters.md"
+    },
+    {
+      "file_path": "049-pyprland-versions-2.5.x-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:36.335366645-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that allows users to bring any window to the active workspace through a menu interface.",
+      "tags": [
+        "window-management",
+        "menu-interface",
+        "workspace-navigation",
+        "ui-controls"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.5.x-fetch-client-menu.md"
+    },
+    {
+      "file_path": "050-pyprland-versions-2.5.x-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:23.237413639-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes keyboard shortcuts for window management and layout control in a desktop environment.",
+      "tags": [
+        "window-management",
+        "keyboard-shortcuts",
+        "layout-control",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.5.x-layout-center.md"
+    },
+    {
+      "file_path": "051-pyprland-versions-2.5.x-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:39.597848189-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing unreachable windows back to the currently focused workspace in Hyprland.",
+      "tags": [
+        "windows",
+        "workspace",
+        "hyprland",
+        "deprecated",
+        "window-management"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.5.x-lost-windows.md"
+    },
+    {
+      "file_path": "052-pyprland-versions-2.5.x-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:52.768459767-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides documentation for the toggle_dpms command that controls screen power states by toggling all displays on or off.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control",
+        "dpms"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.5.x-toggle-dpms.md"
+    },
+    {
+      "file_path": "053-pyprland-versions-2.5.x-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:26.325588054-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.5.x-toggle-special.md"
+    },
+    {
+      "file_path": "054-pyprland-versions-2.5.x-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.5.x/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:11.054607338-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the menu command to display menus or specific menu items.",
+      "tags": [
+        "menu",
+        "command",
+        "display",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.5.x-shortcuts-menu.md"
+    },
+    {
+      "file_path": "055-pyprland-versions-2.4.7-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:19.842649349-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "toml-format"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.7-index.md"
+    },
+    {
+      "file_path": "056-pyprland-versions-2.4.7-bar.md",
+      "title": "menubar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/bar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:35.24004515-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring and running a menu bar application across multiple monitors with automatic selection and restart functionality.",
+      "tags": [
+        "menu-bar",
+        "monitor-selection",
+        "automatic-restart",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.7-bar.md"
+    },
+    {
+      "file_path": "057-pyprland-versions-2.4.7-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:56.393101539-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key binding setup.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.4.7-expose.md"
+    },
+    {
+      "file_path": "058-pyprland-versions-2.4.7-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:28.292193611-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland using the pyprland plugin, covering setup, animations, sizing, positioning, and advanced customization options.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "pyprland",
+        "animation",
+        "size",
+        "position"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.4.7-scratchpads.md"
+    },
+    {
+      "file_path": "059-pyprland-versions-2.4.7-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:14.442498165-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides configuration guidelines for relative monitor placement in Hyprland using TOML syntax, including positioning rules and monitor-specific settings.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "configuration",
+        "toml",
+        "display-settings",
+        "relative-layout"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "pyprland-versions-2.4.7-monitors.md"
+    },
+    {
+      "file_path": "060-pyprland-versions-2.4.7-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:07.92331366-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display zoom levels with optional animation effects in Hyprland.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration",
+        "command-line"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.7-magnify.md"
+    },
+    {
+      "file_path": "061-pyprland-versions-2.4.7-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:39.972915487-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configurable wallpaper manager that randomly cycles through images in specified folders with support for multiple display outputs and custom commands.",
+      "tags": [
+        "wallpaper-manager",
+        "background-image",
+        "random-selection",
+        "swaybg",
+        "swww",
+        "hyprland",
+        "automation",
+        "display-settings"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.7-wallpapers.md"
+    },
+    {
+      "file_path": "062-pyprland-versions-2.4.7-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:15.710145806-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to change workspaces in a tiling window manager and configure the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "window-manager",
+        "configuration",
+        "tiling"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.7-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "063-pyprland-versions-2.4.7-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:16.794628308-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the usage and syntax of a text filtering feature that mimics sed's 's' command for string replacement operations.",
+      "tags": [
+        "text-filtering",
+        "sed-command",
+        "string-replacement",
+        "regular-expressions",
+        "filtering"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.4.7-filters.md"
+    },
+    {
+      "file_path": "064-pyprland-versions-2.4.7-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:22.190907486-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the menu command to display menus or parts of menus in a command-line interface.",
+      "tags": [
+        "menu-command",
+        "cli-interface",
+        "navigation",
+        "user-interface"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.4.7-shortcuts-menu.md"
+    },
+    {
+      "file_path": "065-pyprland-versions-2.4.7-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:50.393819046-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the fetch_client_menu function to bring windows to the active workspace through menu interactions.",
+      "tags": [
+        "fetch-client-menu",
+        "window-management",
+        "active-workspace",
+        "menu-function"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.7-fetch-client-menu.md"
+    },
+    {
+      "file_path": "066-pyprland-versions-2.4.7-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:21.042589615-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes keyboard shortcuts and commands for window management and layout control in a software interface.",
+      "tags": [
+        "layout-management",
+        "window-navigation",
+        "keyboard-shortcuts",
+        "ui-controls"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.7-layout-center.md"
+    },
+    {
+      "file_path": "067-pyprland-versions-2.4.7-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:37.521587753-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing unreachable windows back to the currently focused workspace in Hyprland.",
+      "tags": [
+        "windows",
+        "workspace",
+        "hyprland",
+        "deprecated",
+        "window-management"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.7-lost-windows.md"
+    },
+    {
+      "file_path": "068-pyprland-versions-2.4.7-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:24.323262033-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a command that toggles the power state of all screens, turning them all off if any are on, or all on if none are on.",
+      "tags": [
+        "command",
+        "screen-control",
+        "power-management",
+        "toggle"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.7-toggle-dpms.md"
+    },
+    {
+      "file_path": "069-pyprland-versions-2.4.7-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:39.701972235-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.7-toggle-special.md"
+    },
+    {
+      "file_path": "070-pyprland-versions-2.4.7-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.7/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:30.835805925-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "shift-monitors",
+        "workspace",
+        "screen-management",
+        "display"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.7-shift-monitors.md"
+    },
+    {
+      "file_path": "071-pyprland-versions-2.4.6-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:53.710551095-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as an extension tool for enhancing Hyprland desktop functionality and explains its configuration and customization features.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "customization"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.6-index.md"
+    },
+    {
+      "file_path": "072-pyprland-versions-2.4.6-bar.md",
+      "title": "menubar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/bar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:09.99602576-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring and running a menu bar application across multiple monitors with automatic selection and restart functionality.",
+      "tags": [
+        "menu-bar",
+        "monitor-selection",
+        "automatic-restart",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.6-bar.md"
+    },
+    {
+      "file_path": "073-pyprland-versions-2.4.6-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:13.463511041-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures automatic background image switching with random selection from specified folders, supporting custom commands and multi-monitor setups.",
+      "tags": [
+        "background-image",
+        "random-wallpaper",
+        "automation",
+        "swaybg",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.4.6-wallpapers.md"
+    },
+    {
+      "file_path": "074-pyprland-versions-2.4.6-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:44.773563278-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides configuration guidelines for relative monitor placement in Hyprland using TOML syntax, including positioning rules and monitor-specific settings.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "configuration",
+        "toml",
+        "display-settings"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "pyprland-versions-2.4.6-monitors.md"
+    },
+    {
+      "file_path": "075-pyprland-versions-2.4.6-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:53.518628102-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the sed-style string replacement filter functionality with basic regex patterns and flags.",
+      "tags": [
+        "filter",
+        "regex",
+        "string-replacement",
+        "sed-command",
+        "text-processing"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "pyprland-versions-2.4.6-filters.md"
+    },
+    {
+      "file_path": "076-pyprland-versions-2.4.6-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:46.492929418-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key bindings.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.6-expose.md"
+    },
+    {
+      "file_path": "077-pyprland-versions-2.4.6-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:02.31239905-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland, allowing users to easily toggle the visibility of frequently used applications in floating windows.",
+      "tags": [
+        "hyprland",
+        "scratchpad",
+        "window-management",
+        "configuration",
+        "toggles",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.6-scratchpads.md"
+    },
+    {
+      "file_path": "078-pyprland-versions-2.4.6-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:06.781022289-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display zoom levels with optional animation effects in Hyprland.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.6-magnify.md"
+    },
+    {
+      "file_path": "079-pyprland-versions-2.4.6-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:04.438577789-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for changing workspaces in a tiling window manager and configuring the maximum number of workspaces allowed.",
+      "tags": [
+        "workspace-management",
+        "window-manager",
+        "configuration",
+        "tiling-window-manager"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.6-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "080-pyprland-versions-2.4.6-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:40.702850163-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides reference information for layout center commands used to navigate between windows and toggle layout functionality.",
+      "tags": [
+        "layout-center",
+        "window-navigation",
+        "command-reference",
+        "ui-controls"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.4.6-layout-center.md"
+    },
+    {
+      "file_path": "081-pyprland-versions-2.4.6-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:19.72679021-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the fetch_client_menu function to move windows between workspaces.",
+      "tags": [
+        "fetch-client-menu",
+        "window-management",
+        "workspace",
+        "ui-controls"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.6-fetch-client-menu.md"
+    },
+    {
+      "file_path": "082-pyprland-versions-2.4.6-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:18.245931639-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing unreachable windows into the currently focused workspace in Hyprland.",
+      "tags": [
+        "windows",
+        "workspace",
+        "hyprland",
+        "display-management",
+        "deprecated"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.6-lost-windows.md"
+    },
+    {
+      "file_path": "083-pyprland-versions-2.4.6-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:55.620349002-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a command that toggles the power state of all screens, turning them all off if any are on, or turning them all on if all are off.",
+      "tags": [
+        "screen-management",
+        "power-control",
+        "display-control",
+        "command-line"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.6-toggle-dpms.md"
+    },
+    {
+      "file_path": "084-pyprland-versions-2.4.6-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:12.164334017-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.6-toggle-special.md"
+    },
+    {
+      "file_path": "085-pyprland-versions-2.4.6-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:38.388004701-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "shift-monitors",
+        "workspace",
+        "screen-management",
+        "display"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.6-shift-monitors.md"
+    },
+    {
+      "file_path": "086-pyprland-versions-2.4.6-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.6/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:47.191576272-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to display menus using a menu command with optional name parameter",
+      "tags": [
+        "menu",
+        "command",
+        "navigation",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.4.6-shortcuts-menu.md"
+    },
+    {
+      "file_path": "087-pyprland-versions-2.4.1-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:03.443194093-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "toml-format"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.1-index.md"
+    },
+    {
+      "file_path": "088-pyprland-versions-2.4.1-gbar.md",
+      "title": "gbar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//gbar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:17.650137101-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides documentation for the gbar restart command used to refresh gBar on the primary monitor.",
+      "tags": [
+        "gbar",
+        "command-line",
+        "monitor",
+        "restart",
+        "refresh"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.1-gbar.md"
+    },
+    {
+      "file_path": "089-pyprland-versions-2.4.1-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:12.114465635-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the functionality of the 'expose' feature that displays all client windows in the active workspace, along with configuration options for including special workspaces.",
+      "tags": [
+        "expose",
+        "workspace",
+        "window-management",
+        "configuration",
+        "special-workspaces"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.1-expose.md"
+    },
+    {
+      "file_path": "090-pyprland-versions-2.4.1-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:01.862018953-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the zoom command to set or toggle the current zoom level in a user interface.",
+      "tags": [
+        "zoom",
+        "ui-controls",
+        "display-settings",
+        "interface"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.1-magnify.md"
+    },
+    {
+      "file_path": "091-pyprland-versions-2.4.1-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:34.281150003-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides reference information for wallpaper management commands used to change and clear background images.",
+      "tags": [
+        "wallpaper",
+        "background-image",
+        "command-reference",
+        "desktop-settings"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.1-wallpapers.md"
+    },
+    {
+      "file_path": "092-pyprland-versions-2.4.1-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:55.615669312-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for changing workspaces in a tiling window manager and configuring the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "window-manager",
+        "configuration",
+        "monitor"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.1-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "093-pyprland-versions-2.4.1-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:14.228679071-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to apply configuration changes and update layout using the relayout function.",
+      "tags": [
+        "relayout",
+        "configuration",
+        "layout",
+        "update"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.1-monitors.md"
+    },
+    {
+      "file_path": "094-pyprland-versions-2.4.1-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:45.759746848-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides reference information for layout management commands used to switch between windows and toggle layout functionality.",
+      "tags": [
+        "layout-management",
+        "window-switching",
+        "command-reference",
+        "ui-controls"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.4.1-layout-center.md"
+    },
+    {
+      "file_path": "095-pyprland-versions-2.4.1-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:41.934589293-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that allows users to bring any window to the active workspace through a menu interface.",
+      "tags": [
+        "window-management",
+        "menu-interface",
+        "workspace-navigation",
+        "ui-controls"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.4.1-fetch-client-menu.md"
+    },
+    {
+      "file_path": "096-pyprland-versions-2.4.1-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:57:38.254032566-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing windows that are not accessible in the currently focused workspace using a deprecated Hyprland command.",
+      "tags": [
+        "windows",
+        "hyprland",
+        "workspace",
+        "deprecated",
+        "automation"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.4.1-lost-windows.md"
+    },
+    {
+      "file_path": "097-pyprland-versions-2.4.1-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:33.334908381-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides instructions for managing scratchpads through various commands including toggling, showing, hiding, and attaching windows to scratchpads.",
+      "tags": [
+        "scratchpad",
+        "window-management",
+        "toggle",
+        "show",
+        "hide",
+        "attach"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.1-scratchpads.md"
+    },
+    {
+      "file_path": "098-pyprland-versions-2.4.1-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:44.011668551-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a command that toggles the power state of all display outputs, turning them all off if they are currently on, or turning them all on if they are currently off.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.1-toggle-dpms.md"
+    },
+    {
+      "file_path": "099-pyprland-versions-2.4.1-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:46.5458675-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "navigation"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.1-toggle-special.md"
+    },
+    {
+      "file_path": "100-pyprland-versions-2.4.1-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:33.119438287-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "shift-monitors",
+        "workspace",
+        "screen-management",
+        "display"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.1-shift-monitors.md"
+    },
+    {
+      "file_path": "101-pyprland-versions-2.4.1-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.1//shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:34.763063268-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to display menus using a menu command with optional name parameter",
+      "tags": [
+        "menu",
+        "command",
+        "navigation",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.4.1-shortcuts-menu.md"
+    },
+    {
+      "file_path": "102-pyprland-versions-2.4.0-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:30.076840582-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "toml-format"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.0-index.md"
+    },
+    {
+      "file_path": "103-pyprland-versions-2.4.0-gbar.md",
+      "title": "gbar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/gbar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:37.722083213-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring and running gBar on the optimal monitor from a list of available displays, including automatic startup and crash recovery features.",
+      "tags": [
+        "gbarr",
+        "monitor-selection",
+        "automatic-restart",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.4.0-gbar.md"
+    },
+    {
+      "file_path": "104-pyprland-versions-2.4.0-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:30.631512089-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland using Pyprland, covering setup, commands, and advanced configuration options.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "pyprland",
+        "toggles",
+        "animations",
+        "monitor-specific"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.4.0-scratchpads.md"
+    },
+    {
+      "file_path": "105-pyprland-versions-2.4.0-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:52.198708332-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures automated background image switching with random selection from specified folders, supporting custom commands and multi-monitor setups.",
+      "tags": [
+        "background-image",
+        "random-wallpaper",
+        "automation",
+        "swaybg",
+        "swww",
+        "hyprland",
+        "desktop-customization",
+        "configuration"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.4.0-wallpapers.md"
+    },
+    {
+      "file_path": "106-pyprland-versions-2.4.0-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:30.747094389-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display zoom levels with optional animation effects, including syntax, examples, and configuration options.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration",
+        "cli-tool"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "pyprland-versions-2.4.0-magnify.md"
+    },
+    {
+      "file_path": "107-pyprland-versions-2.4.0-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:44.351453798-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key bindings.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.0-expose.md"
+    },
+    {
+      "file_path": "108-pyprland-versions-2.4.0-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:26.789502946-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to change workspaces in a tiling window manager and configure the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "window-manager",
+        "configuration",
+        "tiling"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.0-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "109-pyprland-versions-2.4.0-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:22.494728247-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure relative monitor placement in Hyprland using a TOML-based configuration system, allowing users to define monitor positions relative to each other and set specific display settings.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "display-configuration",
+        "toml-config",
+        "relative-layout",
+        "wlr-layout"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.4.0-monitors.md"
+    },
+    {
+      "file_path": "110-pyprland-versions-2.4.0-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:59.978917498-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the sed-style string filtering functionality available in the application, specifically detailing the close match of sed's 's' command with support for global replacement flags.",
+      "tags": [
+        "filtering",
+        "string-replacement",
+        "sed-command",
+        "text-processing",
+        "regex"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.4.0-filters.md"
+    },
+    {
+      "file_path": "111-pyprland-versions-2.4.0-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:05.302390311-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that allows users to bring any window to the active workspace through menu interaction.",
+      "tags": [
+        "fetch-client",
+        "menu",
+        "window-management",
+        "workspace"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.4.0-fetch-client-menu.md"
+    },
+    {
+      "file_path": "112-pyprland-versions-2.4.0-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:29.187540044-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the usage of layout_center commands for window management and layout control.",
+      "tags": [
+        "layout-management",
+        "window-switching",
+        "command-reference",
+        "desktop-environment"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "pyprland-versions-2.4.0-layout-center.md"
+    },
+    {
+      "file_path": "113-pyprland-versions-2.4.0-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:36.244471809-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing unreachable windows into the currently focused workspace in Hyprland.",
+      "tags": [
+        "windows",
+        "hyprland",
+        "workspace",
+        "display",
+        "window-management"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.0-lost-windows.md"
+    },
+    {
+      "file_path": "114-pyprland-versions-2.4.0-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:08.335027955-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a command that toggles the power state of all display outputs, turning them all off if they are currently on, or turning them all on if they are currently off.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.0-toggle-dpms.md"
+    },
+    {
+      "file_path": "115-pyprland-versions-2.4.0-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:25.276394631-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.0-toggle-special.md"
+    },
+    {
+      "file_path": "116-pyprland-versions-2.4.0-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:34.443688425-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "shift-monitors",
+        "workspace",
+        "screen-management",
+        "display",
+        "monitor"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.4.0-shift-monitors.md"
+    },
+    {
+      "file_path": "117-pyprland-versions-2.4.0-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.4.0/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:09.813305064-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the menu command to display menus or specific menu items.",
+      "tags": [
+        "menu",
+        "command",
+        "display",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.4.0-shortcuts-menu.md"
+    },
+    {
+      "file_path": "118-pyprland-versions-2.3.8-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:16.908042511-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "toml-format"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.8-index.md"
+    },
+    {
+      "file_path": "119-pyprland-versions-2.3.8-gbar.md",
+      "title": "gbar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/gbar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:32.399875499-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring and running gBar on the optimal monitor from a list of available displays, including automatic startup and crash recovery features.",
+      "tags": [
+        "gbarr",
+        "monitor-selection",
+        "automatic-startup",
+        "crash-recovery",
+        "hyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.8-gbar.md"
+    },
+    {
+      "file_path": "120-pyprland-versions-2.3.8-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:14.0402123-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides configuration instructions for setting up relative monitor placement in Hyprland using a TOML-based syntax, including placement rules and monitor-specific settings.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "configuration",
+        "toml",
+        "display-setup",
+        "relative-layout"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.3.8-monitors.md"
+    },
+    {
+      "file_path": "121-pyprland-versions-2.3.8-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:57.918134108-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key bindings.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-expose.md"
+    },
+    {
+      "file_path": "122-pyprland-versions-2.3.8-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:07.198428853-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland using pyprland, allowing users to easily toggle the visibility of frequently used applications in floating windows.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "toggles",
+        "floating-windows"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-scratchpads.md"
+    },
+    {
+      "file_path": "123-pyprland-versions-2.3.8-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:43.392897398-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configurable wallpaper manager that randomly selects and sets background images at regular intervals, with support for multiple backends and screen-specific configurations.",
+      "tags": [
+        "wallpaper-manager",
+        "background-image",
+        "random-selection",
+        "automation",
+        "hyprland",
+        "swaybg",
+        "swww"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-wallpapers.md"
+    },
+    {
+      "file_path": "124-pyprland-versions-2.3.8-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:32.786840122-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides documentation for layout management commands used to navigate between windows and toggle layout settings.",
+      "tags": [
+        "layout-management",
+        "window-navigation",
+        "command-reference",
+        "desktop-environment"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-layout-center.md"
+    },
+    {
+      "file_path": "125-pyprland-versions-2.3.8-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:20.590647114-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for using the pypr zoom command to adjust display zoom levels with optional animation effects in Hyprland.",
+      "tags": [
+        "zoom",
+        "hyprland",
+        "display",
+        "animation",
+        "configuration"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-magnify.md"
+    },
+    {
+      "file_path": "126-pyprland-versions-2.3.8-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:49.670987054-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to change workspaces in a tiling window manager and configure the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "window-manager",
+        "configuration",
+        "monitor"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "127-pyprland-versions-2.3.8-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:49.048689932-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that swaps workspaces between screens in a specified direction.",
+      "tags": [
+        "workspace-management",
+        "display-control",
+        "screen-configuration",
+        "monitor-swap"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.8-shift-monitors.md"
+    },
+    {
+      "file_path": "128-pyprland-versions-2.3.8-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:30.755325349-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the sed-style string filtering functionality available in the system, specifically the 's' command for pattern matching and replacement.",
+      "tags": [
+        "filtering",
+        "string-replacement",
+        "sed-command",
+        "pattern-matching"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.3.8-filters.md"
+    },
+    {
+      "file_path": "129-pyprland-versions-2.3.8-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:05.730034706-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that allows users to bring any window to the active workspace through menu interaction.",
+      "tags": [
+        "fetch-client",
+        "window-management",
+        "menu-interface",
+        "workspace-controls"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.3.8-fetch-client-menu.md"
+    },
+    {
+      "file_path": "130-pyprland-versions-2.3.8-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:24.509529247-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides documentation for the toggle_dpms command that controls screen power states by turning all displays on or off collectively.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control",
+        "dpms"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.3.8-toggle-dpms.md"
+    },
+    {
+      "file_path": "131-pyprland-versions-2.3.8-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:07.561458062-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.3.8-toggle-special.md"
+    },
+    {
+      "file_path": "132-pyprland-versions-2.3.8-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:44.97824744-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing windows that are not reachable in the currently focused workspace using a deprecated Hyprland command.",
+      "tags": [
+        "windows",
+        "hyprland",
+        "workspace",
+        "deprecated",
+        "command"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.3.8-lost-windows.md"
+    },
+    {
+      "file_path": "133-pyprland-versions-2.3.8-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.8/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:28.682701719-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to display menus using a menu command with optional name parameter",
+      "tags": [
+        "menu",
+        "command",
+        "navigation",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.3.8-shortcuts-menu.md"
+    },
+    {
+      "file_path": "134-pyprland-versions-2.3.6-7-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:43.259787706-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "toml-format"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.6-7-index.md"
+    },
+    {
+      "file_path": "135-pyprland-versions-2.3.6-7-gbar.md",
+      "title": "gbar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/gbar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:02.980086529-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides instructions for restarting or refreshing the gBar application on the primary monitor.",
+      "tags": [
+        "gbar",
+        "restart",
+        "monitor",
+        "refresh",
+        "utility"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.6-7-gbar.md"
+    },
+    {
+      "file_path": "136-pyprland-versions-2.3.6-7-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:39.061677889-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides information about the toggle_dpms command used to control display power management.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.6-7-toggle-dpms.md"
+    },
+    {
+      "file_path": "137-pyprland-versions-2.3.6-7-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:15.445173206-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure the expose functionality to display clients on the active workspace, with an optional setting to include special workspaces.",
+      "tags": [
+        "expose",
+        "workspace",
+        "configuration",
+        "window-management",
+        "special-workspaces"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.6-7-expose.md"
+    },
+    {
+      "file_path": "138-pyprland-versions-2.3.6-7-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:58.908577434-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides reference information for wallpaper management commands used to change and clear background images.",
+      "tags": [
+        "wallpaper",
+        "background-image",
+        "command-reference",
+        "desktop-settings"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.6-7-wallpapers.md"
+    },
+    {
+      "file_path": "139-pyprland-versions-2.3.6-7-workspaces-follow-focus.md",
+      "title": "workspaces_follow_focus | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/workspaces/follow/focus",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:03:44.684189553-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to change workspaces in a tiling window manager and configure the maximum number of workspaces.",
+      "tags": [
+        "workspace",
+        "window-manager",
+        "configuration",
+        "monitor"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.6-7-workspaces-follow-focus.md"
+    },
+    {
+      "file_path": "140-pyprland-versions-2.3.6-7-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:46.97684642-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to apply configuration changes and update layout using the relayout function.",
+      "tags": [
+        "relayout",
+        "configuration",
+        "layout",
+        "update"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.6-7-monitors.md"
+    },
+    {
+      "file_path": "141-pyprland-versions-2.3.6-7-shift-monitors.md",
+      "title": "shift_monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/shift/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:10.573391239-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains the functionality of the shift_monitors command for swapping workspaces between screens.",
+      "tags": [
+        "workspace-management",
+        "display-config",
+        "monitor-controls",
+        "desktop-environment"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.6-7-shift-monitors.md"
+    },
+    {
+      "file_path": "142-pyprland-versions-2.3.6-7-layout-center.md",
+      "title": "layout_center | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/layout/center",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:38.43918657-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides documentation for layout management commands that control window switching and layout toggling functionality.",
+      "tags": [
+        "layout-management",
+        "window-switching",
+        "command-reference",
+        "ui-controls"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.3.6-7-layout-center.md"
+    },
+    {
+      "file_path": "143-pyprland-versions-2.3.6-7-fetch-client-menu.md",
+      "title": "fetch_client_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/fetch/client/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:39.853950261-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document describes a function that allows users to bring any window to the active workspace through a menu interface.",
+      "tags": [
+        "window-management",
+        "menu-interface",
+        "workspace-navigation",
+        "ui-controls"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.3.6-7-fetch-client-menu.md"
+    },
+    {
+      "file_path": "144-pyprland-versions-2.3.6-7-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:52.53663032-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the zoom command to set or toggle the current zoom level in a user interface.",
+      "tags": [
+        "zoom",
+        "ui-controls",
+        "interface",
+        "navigation"
+      ],
+      "category": "Authentication & Security",
+      "original_file_path": "pyprland-versions-2.3.6-7-magnify.md"
+    },
+    {
+      "file_path": "145-pyprland-versions-2.3.6-7-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:02:01.083322531-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document provides reference information for scratchpad management commands including toggle, show, hide, and attach functionalities.",
+      "tags": [
+        "scratchpad",
+        "window-management",
+        "command-reference",
+        "ui-controls"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "pyprland-versions-2.3.6-7-scratchpads.md"
+    },
+    {
+      "file_path": "146-pyprland-versions-2.3.6-7-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:56.088081233-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for bringing unreachable windows into the currently focused workspace in Hyprland.",
+      "tags": [
+        "windows",
+        "hyprland",
+        "workspace",
+        "window-management",
+        "deprecated"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.3.6-7-lost-windows.md"
+    },
+    {
+      "file_path": "147-pyprland-versions-2.3.6-7-toggle-special.md",
+      "title": "toggle_special | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/toggle/special",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:58.386519192-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the toggle_special command to switch windows between special workspaces and the active workspace.",
+      "tags": [
+        "window-management",
+        "workspace",
+        "command-line",
+        "desktop-environment"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.3.6-7-toggle-special.md"
+    },
+    {
+      "file_path": "148-pyprland-versions-2.3.6-7-shortcuts-menu.md",
+      "title": "shortcuts_menu | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.6/7/shortcuts/menu",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:00:50.820247087-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the menu command to display menus or specific menu items.",
+      "tags": [
+        "menu",
+        "command",
+        "display",
+        "interface"
+      ],
+      "category": "Meta & Resources",
+      "original_file_path": "pyprland-versions-2.3.6-7-shortcuts-menu.md"
+    },
+    {
+      "file_path": "149-pyprland-versions-2.3.5-index.md",
+      "title": "Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/index",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:24.399960432-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document introduces Pyprland as a tool for enhancing Hyprland desktop functionality through extensions and customizable configurations.",
+      "tags": [
+        "hyprland",
+        "extensions",
+        "desktop-environment",
+        "configuration",
+        "pyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.5-index.md"
+    },
+    {
+      "file_path": "150-pyprland-versions-2.3.5-gbar.md",
+      "title": "gbar | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/gbar",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:02.95188146-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for configuring and running gBar on the preferred monitor with automatic startup management.",
+      "tags": [
+        "gbar",
+        "monitor",
+        "startup",
+        "configuration",
+        "hyprland"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "pyprland-versions-2.3.5-gbar.md"
+    },
+    {
+      "file_path": "151-pyprland-versions-2.3.5-wallpapers.md",
+      "title": "wallpapers | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/wallpapers",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:53.223268255-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Configures automatic wallpaper cycling with random image selection from specified folders, supporting custom commands and multi-monitor setups.",
+      "tags": [
+        "wallpaper",
+        "background",
+        "automation",
+        "hyprland",
+        "configuration",
+        "random",
+        "image",
+        "monitor"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.3.5-wallpapers.md"
+    },
+    {
+      "file_path": "152-pyprland-versions-2.3.5-monitors.md",
+      "title": "monitors | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/monitors",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:15.186974037-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides configuration instructions for setting up relative monitor placement in Hyprland using a TOML-based syntax, including support for monitor positioning, settings, and hotplug commands.",
+      "tags": [
+        "monitor-placement",
+        "hyprland",
+        "configuration",
+        "toml",
+        "relative-positioning",
+        "display-setup"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "pyprland-versions-2.3.5-monitors.md"
+    },
+    {
+      "file_path": "153-pyprland-versions-2.3.5-expose.md",
+      "title": "expose | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/expose",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:12.374642667-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides instructions for implementing an 'expose' effect in Hyprland that displays all client windows on the focused screen, with configuration options and key bindings.",
+      "tags": [
+        "hyprland",
+        "window-management",
+        "key-binding",
+        "workspace",
+        "expose-effect",
+        "pyprland"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.5-expose.md"
+    },
+    {
+      "file_path": "154-pyprland-versions-2.3.5-scratchpads.md",
+      "title": "scratchpads | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/scratchpads",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:29.368722625-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to configure and use scratchpads in Hyprland using pyprland, allowing users to easily toggle the visibility of frequently used applications in floating windows.",
+      "tags": [
+        "scratchpad",
+        "hyprland",
+        "window-management",
+        "configuration",
+        "toggles",
+        "floating-windows"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.5-scratchpads.md"
+    },
+    {
+      "file_path": "155-pyprland-versions-2.3.5-magnify.md",
+      "title": "magnify | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/magnify",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:58:42.708621616-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains how to use the zoom command for adjusting magnification levels with various scaling options and configuration settings.",
+      "tags": [
+        "zoom-command",
+        "magnification",
+        "scaling-factor",
+        "hyprland",
+        "configuration",
+        "animation"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "pyprland-versions-2.3.5-magnify.md"
+    },
+    {
+      "file_path": "156-pyprland-versions-2.3.5-filters.md",
+      "title": "Text filters | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/filters",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T15:59:04.521961512-03:00",
+      "description": "The official Pyprland website",
+      "summary": "This document explains the usage and syntax of a text filtering feature that mimics sed's 's' command for pattern replacement.",
+      "tags": [
+        "text-processing",
+        "sed",
+        "pattern-replacement",
+        "filtering",
+        "regular-expressions"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "pyprland-versions-2.3.5-filters.md"
+    },
+    {
+      "file_path": "157-pyprland-versions-2.3.5-lost-windows.md",
+      "title": "lost_windows | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/lost/windows",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:01:22.071261364-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Explains how to bring unreachable windows back to the current workspace in Hyprland, though the method is deprecated.",
+      "tags": [
+        "windows",
+        "workspace",
+        "hyprland",
+        "deprecated",
+        "window-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "pyprland-versions-2.3.5-lost-windows.md"
+    },
+    {
+      "file_path": "158-pyprland-versions-2.3.5-toggle-dpms.md",
+      "title": "toggle_dpms | Pyprland web",
+      "url": "https://hyprland-community.github.io/pyprland/versions/2.3.5/toggle/dpms",
+      "source": "github_pages",
+      "fetched_at": "2026-01-31T16:04:18.613892061-03:00",
+      "description": "The official Pyprland website",
+      "summary": "Provides documentation for the toggle_dpms command that controls screen power states by turning all displays on or off together.",
+      "tags": [
+        "command",
+        "display",
+        "power-management",
+        "screen-control"
+      ],
+      "category": "Operations & Deployment",
+      "original_file_path": "pyprland-versions-2.3.5-toggle-dpms.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "strategy": "Universal Category Detection",
+    "organized_at": "2026-02-04T14:42:36.977756Z",
+    "total_files": 158,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & How-To",
+      "Concepts & Fundamentals",
+      "Configuration & Settings",
+      "Features & Capabilities",
+      "Integration & Connection",
+      "Authentication & Security",
+      "API & Reference",
+      "Operations & Deployment",
+      "Automation & Workflow",
+      "Advanced Topics",
+      "Troubleshooting & Support",
+      "Reference & Appendix",
+      "Changelog & Releases",
+      "Meta & Resources"
+    ]
+  }
+}

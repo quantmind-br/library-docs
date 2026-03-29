@@ -1,0 +1,3199 @@
+{
+  "generated_at": "2026-02-04T08:49:32.593800839-03:00",
+  "source_url": "https://docs.sglang.io/",
+  "strategy": "crawler",
+  "total_documents": 169,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "SGLang Documentation \u2014 SGLang",
+      "url": "https://docs.sglang.io/",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:29.709871492-03:00",
+      "summary": "SGLang is a high-performance serving framework designed for low-latency and high-throughput inference of large language and multimodal models across various hardware setups. It provides a comprehensive suite of features for model deployment, including advanced attention mechanisms and distributed computing support.",
+      "tags": [
+        "llm-serving",
+        "inference-engine",
+        "multimodal-models",
+        "model-deployment",
+        "distributed-computing",
+        "high-performance"
+      ],
+      "category": "introduction",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "002-references-learn-more.md",
+      "title": "Learn More and Join the Community \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/learn_more.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:21.627341068-03:00",
+      "summary": "This document provides a directory of links for the SGLang community, including development roadmaps, meeting schedules, social media channels, and learning materials.",
+      "tags": [
+        "sglang",
+        "community-resources",
+        "project-roadmap",
+        "learning-materials",
+        "social-media"
+      ],
+      "category": "introduction",
+      "original_file_path": "references-learn-more.md"
+    },
+    {
+      "file_path": "003-get-started-install.md",
+      "title": "Install SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/get_started/install.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:40.483946365-03:00",
+      "summary": "This document provides comprehensive instructions for installing and deploying the SGLang library using various methods including pip, Docker, Kubernetes, and cloud platforms.",
+      "tags": [
+        "sglang-installation",
+        "docker-deployment",
+        "kubernetes-setup",
+        "gpu-computing",
+        "python-package",
+        "cloud-infrastructure"
+      ],
+      "category": "getting-started",
+      "original_file_path": "get-started-install.md"
+    },
+    {
+      "file_path": "004-basic-usage-native-api.md",
+      "title": "SGLang Native APIs \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/native_api.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:43.799826414-03:00",
+      "summary": "This document outlines the native server APIs for SGLang Runtime, providing a comprehensive list of endpoints for model interaction and server management alongside instructions for launching and testing the server.",
+      "tags": [
+        "sglang",
+        "native-apis",
+        "llm-inference",
+        "rest-api",
+        "text-generation",
+        "server-management"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-native-api.md"
+    },
+    {
+      "file_path": "005-basic-usage-offline-engine-api.md",
+      "title": "Offline Engine API \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/offline_engine_api.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:41.816934338-03:00",
+      "summary": "This document describes the SGLang Offline Engine API for high-performance batch inference and custom server development without an external HTTP server.",
+      "tags": [
+        "sglang",
+        "offline-engine",
+        "batch-inference",
+        "async-inference",
+        "streaming-generation",
+        "inference-engine"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-offline-engine-api.md"
+    },
+    {
+      "file_path": "006-basic-usage-openai-api-completions.md",
+      "title": "OpenAI APIs - Completions \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/openai_api_completions.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:34.000381187-03:00",
+      "summary": "This document explains how to use SGLang's OpenAI-compatible APIs for chat and text completions, including server setup and client implementation.",
+      "tags": [
+        "sglang",
+        "openai-api",
+        "chat-completions",
+        "text-completions",
+        "llm-serving",
+        "self-hosted-models"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-openai-api-completions.md"
+    },
+    {
+      "file_path": "007-basic-usage-openai-api-embeddings.md",
+      "title": "OpenAI APIs - Embedding \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/openai_api_embeddings.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:30.39302586-03:00",
+      "summary": "This document explains how to launch and use an SGLang server with OpenAI-compatible embedding APIs to generate text embeddings using local models.",
+      "tags": [
+        "sglang",
+        "openai-api",
+        "embeddings",
+        "text-embeddings",
+        "server-setup",
+        "curl"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-openai-api-embeddings.md"
+    },
+    {
+      "file_path": "008-basic-usage-openai-api-vision.md",
+      "title": "OpenAI APIs - Vision \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/openai_api_vision.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:29.157249989-03:00",
+      "summary": "This tutorial explains how to use SGLang's OpenAI-compatible vision APIs to serve and query vision language models locally. It provides instructions for launching the server and sending multimodal requests via cURL.",
+      "tags": [
+        "sglang",
+        "vision-language-models",
+        "openai-api",
+        "vlm",
+        "inference",
+        "multimodal"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-openai-api-vision.md"
+    },
+    {
+      "file_path": "009-basic-usage-openai-api.md",
+      "title": "OpenAI-Compatible APIs \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/openai_api.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:42.232194568-03:00",
+      "summary": "This document provides copyright information, authorship attribution, and the most recent update timestamp for the SGLang project.",
+      "tags": [
+        "sglang",
+        "copyright",
+        "authorship",
+        "legal-information"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-openai-api.md"
+    },
+    {
+      "file_path": "010-basic-usage-sampling-params.md",
+      "title": "Sampling Parameters \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/sampling_params.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:43.206362436-03:00",
+      "summary": "This document explains the sampling parameters and usage of the SGLang Runtime /generate endpoint, including configuration for constrained decoding, multimodal inputs, and custom logit processors.",
+      "tags": [
+        "sglang",
+        "sampling-parameters",
+        "inference-api",
+        "constrained-decoding",
+        "structured-outputs",
+        "llm-inference"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-sampling-params.md"
+    },
+    {
+      "file_path": "011-basic-usage-send-request.md",
+      "title": "Sending Requests \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/send_request.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:40.427103669-03:00",
+      "summary": "This document provides a quick-start guide for launching an SGLang server and sending chat completion requests using cURL and Python.",
+      "tags": [
+        "sglang",
+        "chat-completions",
+        "llm-serving",
+        "python-requests",
+        "curl",
+        "api-integration"
+      ],
+      "category": "basic-usage",
+      "original_file_path": "basic-usage-send-request.md"
+    },
+    {
+      "file_path": "012-basic-usage-deepseek-ocr.md",
+      "title": "DeepSeek OCR (OCR-1 / OCR-2) \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/deepseek_ocr.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:41.750418-03:00",
+      "summary": "This guide explains how to deploy DeepSeek OCR models and perform document understanding tasks using an OpenAI-compatible API server.",
+      "tags": [
+        "deepseek-ocr",
+        "ocr",
+        "document-understanding",
+        "multimodal",
+        "api-deployment"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-deepseek-ocr.md"
+    },
+    {
+      "file_path": "013-basic-usage-deepseek-v3.md",
+      "title": "DeepSeek V3/V3.1/R1 Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/deepseek_v3.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:37.583313678-03:00",
+      "summary": "This document provides comprehensive instructions and optimization details for running DeepSeek V3, V3.1, and R1 models using the SGLang inference engine. It covers hardware-specific launch commands, deployment strategies for multi-node setups, and architectural enhancements like Multi-head Latent Attention.",
+      "tags": [
+        "deepseek-v3",
+        "deepseek-r1",
+        "sglang",
+        "inference-optimization",
+        "mla-optimization",
+        "distributed-inference",
+        "gpu-serving"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-deepseek-v3.md"
+    },
+    {
+      "file_path": "014-basic-usage-deepseek-v32.md",
+      "title": "DeepSeek V3.2 Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/deepseek_v32.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:37.333313119-03:00",
+      "summary": "This document provides comprehensive instructions for installing, configuring, and serving the DeepSeek V3.2 model family using the SGLang framework across various hardware platforms.",
+      "tags": [
+        "deepseek-v3-2",
+        "sglang",
+        "model-deployment",
+        "distributed-inference",
+        "gpu-acceleration",
+        "speculative-decoding"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-deepseek-v32.md"
+    },
+    {
+      "file_path": "015-basic-usage-glm45.md",
+      "title": "Launch GLM-4.5 / GLM-4.6 / GLM-4.7 with SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/glm45.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:38.170159267-03:00",
+      "summary": "This document explains how to deploy GLM-4.x models using SGLang, including instructions for EAGLE speculative decoding and implementing thinking budget configurations.",
+      "tags": [
+        "sglang",
+        "glm-4",
+        "speculative-decoding",
+        "eagle-decoding",
+        "llm-serving",
+        "model-inference"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-glm45.md"
+    },
+    {
+      "file_path": "016-basic-usage-glmv.md",
+      "title": "4.6V / GLM-4.5V Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/glmv.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:38.545586975-03:00",
+      "summary": "This document provides instructions for deploying and optimizing GLM-4.6V and GLM-4.5V multimodal models using the SGLang server, including launch configurations for different hardware and API request examples for images and video.",
+      "tags": [
+        "glm-4-6v",
+        "sglang",
+        "multimodal-models",
+        "model-deployment",
+        "gpu-optimization",
+        "fp8-quantization",
+        "video-inference"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-glmv.md"
+    },
+    {
+      "file_path": "017-basic-usage-gpt-oss.md",
+      "title": "GPT OSS Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/gpt_oss.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:39.330249892-03:00",
+      "summary": "This document provides instructions for configuring and using GPT-OSS within the SGLang framework, covering OpenAI-compatible API usage, built-in tool integration, and speculative decoding optimizations.",
+      "tags": [
+        "gpt-oss",
+        "sglang",
+        "openai-api",
+        "tool-calling",
+        "speculative-decoding",
+        "python-interpreter",
+        "web-search"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-gpt-oss.md"
+    },
+    {
+      "file_path": "018-basic-usage-llama4.md",
+      "title": "Llama4 Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/llama4.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:41.802789739-03:00",
+      "summary": "This document provides instructions and configuration guidelines for serving and optimizing Meta's Llama 4 models using the SGLang framework. It covers model deployment, memory management, attention backend selection, and advanced features like speculative decoding.",
+      "tags": [
+        "llama-4",
+        "sglang",
+        "llm-serving",
+        "speculative-decoding",
+        "gpu-optimization",
+        "inference-engine"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-llama4.md"
+    },
+    {
+      "file_path": "019-basic-usage-minimax-m2.md",
+      "title": "MiniMax M2.1/M2 Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/minimax_m2.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:39.817386361-03:00",
+      "summary": "This document provides instructions for deploying and testing the MiniMax-M2 and M2.1 large language models, covering system requirements and SGLang server configuration.",
+      "tags": [
+        "minimax-m2",
+        "model-deployment",
+        "gpu-requirements",
+        "sglang",
+        "mixture-of-experts",
+        "llm-inference"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-minimax-m2.md"
+    },
+    {
+      "file_path": "020-basic-usage-ollama-api.md",
+      "title": "Ollama-Compatible API \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/ollama_api.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:40.68303284-03:00",
+      "summary": "This document explains how to use SGLang as an Ollama-compatible inference backend, enabling the use of the Ollama CLI and Python library for model interaction.",
+      "tags": [
+        "sglang",
+        "ollama-api",
+        "inference-backend",
+        "python-client",
+        "llm-serving"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-ollama-api.md"
+    },
+    {
+      "file_path": "021-basic-usage-popular-model-usage.md",
+      "title": "Popular Model Usage (DeepSeek, GPT-OSS, GLM, Llama, MiniMax, Qwen, and more) \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/popular_model_usage.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:43.546188553-03:00",
+      "summary": "This document provides the copyright notice and the last updated timestamp for the SGLang project.",
+      "tags": [
+        "sglang",
+        "copyright",
+        "project-metadata"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-popular-model-usage.md"
+    },
+    {
+      "file_path": "022-basic-usage-qwen3-vl.md",
+      "title": "Qwen3-VL Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/qwen3_vl.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:41.335874715-03:00",
+      "summary": "This document provides instructions for deploying and optimizing the Qwen3-VL multimodal model using SGLang, including server launch commands, hardware-specific configurations, and API request examples for image and video processing.",
+      "tags": [
+        "qwen3-vl",
+        "sglang",
+        "multimodal",
+        "inference-server",
+        "gpu-optimization",
+        "image-processing",
+        "video-processing"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-qwen3-vl.md"
+    },
+    {
+      "file_path": "023-basic-usage-qwen3.md",
+      "title": "Qwen3-Next Usage \u2014 SGLang",
+      "url": "https://docs.sglang.io/basic_usage/qwen3.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:39.850937598-03:00",
+      "summary": "This document provides instructions for serving and optimizing Qwen3-Next models using SGLang, covering configuration settings for Mamba cache and speculative decoding.",
+      "tags": [
+        "sglang",
+        "qwen3-next",
+        "llm-serving",
+        "mamba-radix-cache",
+        "speculative-decoding",
+        "inference-optimization"
+      ],
+      "category": "model-usage",
+      "original_file_path": "basic-usage-qwen3.md"
+    },
+    {
+      "file_path": "024-supported-models-classify-models.md",
+      "title": "Classification API \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/classify_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:07.634435427-03:00",
+      "summary": "This document describes the implementation and usage of the SGLang /v1/classify API, which provides a vLLM-compatible interface for text classification and reward modeling.",
+      "tags": [
+        "sglang",
+        "classification-api",
+        "vllm-compatibility",
+        "text-classification",
+        "rest-api",
+        "machine-learning"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-classify-models.md"
+    },
+    {
+      "file_path": "025-supported-models-diffusion-language-models.md",
+      "title": "Diffusion Language Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/diffusion_language_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:02.478274919-03:00",
+      "summary": "This document provides instructions for launching and configuring diffusion language models for text generation using the sglang framework, including server setup and client-side integration.",
+      "tags": [
+        "diffusion-language-models",
+        "sglang",
+        "text-generation",
+        "llada",
+        "model-deployment",
+        "non-autoregressive"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-diffusion-language-models.md"
+    },
+    {
+      "file_path": "026-supported-models-diffusion-models.md",
+      "title": "Diffusion Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/diffusion_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:04.097906627-03:00",
+      "summary": "This document introduces SGLang Diffusion, an optimized inference framework for high-performance image and video generation using various diffusion models on NVIDIA and AMD GPUs.",
+      "tags": [
+        "sglang",
+        "diffusion-models",
+        "image-generation",
+        "video-generation",
+        "gpu-acceleration",
+        "inference-engine",
+        "cuda",
+        "rocm"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-diffusion-models.md"
+    },
+    {
+      "file_path": "027-supported-models-embedding-models.md",
+      "title": "Embedding Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/embedding_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:05.942627353-03:00",
+      "summary": "This document explains how to serve and use various embedding models in SGLang, including standard, multimodal, and Matryoshka-capable models. It details server setup using the --is-embedding flag and provides examples for making client requests to the embeddings endpoint.",
+      "tags": [
+        "sglang",
+        "embedding-models",
+        "multimodal-embeddings",
+        "matryoshka-embeddings",
+        "model-serving",
+        "api-integration"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-embedding-models.md"
+    },
+    {
+      "file_path": "028-supported-models-generative-models.md",
+      "title": "Large Language Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/generative_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:02.198137206-03:00",
+      "summary": "This document provides an overview of supported large language models and instructions for launching a model server. It also explains how to verify specific model architecture compatibility within the project repository.",
+      "tags": [
+        "llm",
+        "model-serving",
+        "sglang",
+        "inference-server",
+        "model-support",
+        "deployment"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-generative-models.md"
+    },
+    {
+      "file_path": "029-supported-models-mindspore-models.md",
+      "title": "MindSpore Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/mindspore_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:09.293455443-03:00",
+      "summary": "This document provides instructions for running MindSpore models on Ascend NPUs using the SGLang framework, covering installation, inference scripts, and server deployment.",
+      "tags": [
+        "mindspore",
+        "sglang",
+        "ascend-npu",
+        "model-deployment",
+        "inference-engine",
+        "distributed-computing"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-mindspore-models.md"
+    },
+    {
+      "file_path": "030-supported-models-modelscope.md",
+      "title": "Use Models From ModelScope \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/modelscope.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:09.480426021-03:00",
+      "summary": "This document explains how to configure and launch an SGLang server using models from the ModelScope platform by setting specific environment variables and using Docker or Python commands.",
+      "tags": [
+        "sglang",
+        "modelscope",
+        "model-deployment",
+        "docker-configuration",
+        "environment-variables",
+        "large-language-models"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-modelscope.md"
+    },
+    {
+      "file_path": "031-supported-models-multimodal-language-models.md",
+      "title": "Multimodal Language Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/multimodal_language_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:00.641895168-03:00",
+      "summary": "This document explains how to deploy and configure multimodal language models in SGLang, covering server setup, video input integration, and performance optimization flags.",
+      "tags": [
+        "multimodal-models",
+        "sglang",
+        "vlm",
+        "video-inference",
+        "inference-optimization",
+        "server-configuration"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-multimodal-language-models.md"
+    },
+    {
+      "file_path": "032-supported-models-rerank-models.md",
+      "title": "Rerank Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/rerank_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:05.926831571-03:00",
+      "summary": "This document provides instructions for deploying and using various rerank models within the SGLang framework, covering cross-encoder, decoder-only, and multimodal architectures. It details server configuration commands, API request parameters, and response formats for optimizing document retrieval accuracy.",
+      "tags": [
+        "sglang",
+        "rerank-models",
+        "cross-encoder",
+        "multimodal-ai",
+        "model-deployment",
+        "api-reference"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-rerank-models.md"
+    },
+    {
+      "file_path": "033-supported-models-reward-models.md",
+      "title": "Reward Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/reward_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:04.028711752-03:00",
+      "summary": "This document provides instructions for deploying reward models used in RLHF and content moderation, detailing specific launch commands and a list of supported model architectures.",
+      "tags": [
+        "reward-models",
+        "rlhf",
+        "model-deployment",
+        "sequence-classification",
+        "inference-server",
+        "tensor-parallelism"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-reward-models.md"
+    },
+    {
+      "file_path": "034-supported-models-support-new-models.md",
+      "title": "How to Support New Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/support_new_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:06.718349209-03:00",
+      "summary": "This document provides a comprehensive guide on how to integrate and test new language models and multimodal large language models within the SGLang framework. It covers implementation steps, porting models from vLLM, and registering external model implementations for inference.",
+      "tags": [
+        "sglang",
+        "model-integration",
+        "llm-support",
+        "mllm-support",
+        "vllm-porting",
+        "model-registry",
+        "benchmarking"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-support-new-models.md"
+    },
+    {
+      "file_path": "035-supported-models-transformers-fallback.md",
+      "title": "Transformers fallback in SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/supported_models/transformers_fallback.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:07.485011945-03:00",
+      "summary": "This document describes the Transformers fallback mechanism in SGLang, detailing how to enable it for unsupported models and requirements for custom attention implementations.",
+      "tags": [
+        "sglang",
+        "transformers-fallback",
+        "model-implementation",
+        "quantization",
+        "remote-code",
+        "backend-configuration"
+      ],
+      "category": "supported-models",
+      "original_file_path": "supported-models-transformers-fallback.md"
+    },
+    {
+      "file_path": "036-advanced-features-attention-backend.md",
+      "title": "Attention Backend \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/attention_backend.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:46.714907042-03:00",
+      "summary": "This document provides a comprehensive guide on selecting and configuring various attention backends in SGLang to optimize performance based on hardware and model architecture.",
+      "tags": [
+        "sglang",
+        "attention-backend",
+        "mha",
+        "mla",
+        "gpu-optimization",
+        "llm-inference"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-attention-backend.md"
+    },
+    {
+      "file_path": "037-advanced-features-checkpoint-engine.md",
+      "title": "Checkpoint Engine Integration \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/checkpoint_engine.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:58.549662099-03:00",
+      "summary": "This document explains how to integrate and configure the SGLang checkpoint engine to enable fast, distributed loading of model weights across single and multi-node environments.",
+      "tags": [
+        "sglang",
+        "checkpoint-engine",
+        "distributed-loading",
+        "multi-node",
+        "performance-optimization",
+        "model-initialization"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-checkpoint-engine.md"
+    },
+    {
+      "file_path": "038-advanced-features-cuda-graph-for-multi-modal-encoder.md",
+      "title": "Cuda Graph for Multi-Modal Encoder in SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/cuda_graph_for_multi_modal_encoder.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:58.037368156-03:00",
+      "summary": "This document explains the implementation and configuration of CUDA Graph for vision transformers in SGLang to reduce kernel launch overhead and improve performance in multi-modal models.",
+      "tags": [
+        "sglang",
+        "cuda-graph",
+        "vision-transformer",
+        "vit",
+        "gpu-optimization",
+        "multimodal-reasoning"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-cuda-graph-for-multi-modal-encoder.md"
+    },
+    {
+      "file_path": "039-advanced-features-deterministic-inference.md",
+      "title": "Deterministic Inference \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/deterministic_inference.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:58.727071614-03:00",
+      "summary": "This document explains how to achieve deterministic LLM inference using SGLang to ensure consistent outputs across different batch sizes and runs. It covers the technical causes of non-determinism, supported attention backends, and configuration steps for reproducible greedy and non-greedy sampling.",
+      "tags": [
+        "deterministic-inference",
+        "sglang",
+        "llm-serving",
+        "reproducibility",
+        "gpu-optimization",
+        "inference-configuration"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-deterministic-inference.md"
+    },
+    {
+      "file_path": "040-advanced-features-dp-for-multi-modal-encoder.md",
+      "title": "DP for Multi-Modal Encoder in SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/dp_for_multi_modal_encoder.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:55.995531426-03:00",
+      "summary": "This document explains the rationale and benefits of using data parallelism for multi-modal encoders in SGLang and provides instructions for enabling this feature.",
+      "tags": [
+        "sglang",
+        "data-parallelism",
+        "multi-modal-encoder",
+        "vlm",
+        "vision-transformer",
+        "performance-optimization"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-dp-for-multi-modal-encoder.md"
+    },
+    {
+      "file_path": "041-advanced-features-epd-disaggregation.md",
+      "title": "EPD Disaggregation \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/epd_disaggregation.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:51.725649168-03:00",
+      "summary": "This document introduces Encoder-Prefill-Decode (EPD) disaggregation in SGLang and explains how to configure standalone servers for each stage of Vision-Language Model inference.",
+      "tags": [
+        "sglang",
+        "vlm-inference",
+        "epd-disaggregation",
+        "vision-language-models",
+        "model-serving",
+        "distributed-inference"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-epd-disaggregation.md"
+    },
+    {
+      "file_path": "042-advanced-features-expert-parallelism.md",
+      "title": "Expert Parallelism \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/expert_parallelism.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:50.568331457-03:00",
+      "summary": "This document explains the architectural implementation and optimization of Expert Parallelism in SGLang, covering backend selection, framework extensibility, and techniques for overlapping computation and communication in MoE models.",
+      "tags": [
+        "expert-parallelism",
+        "moe",
+        "sglang",
+        "distributed-inference",
+        "mixture-of-experts",
+        "gpu-optimization",
+        "deep-learning"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-expert-parallelism.md"
+    },
+    {
+      "file_path": "043-advanced-features-hicache-best-practices.md",
+      "title": "SGLang HiCache Best Practices \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/hicache_best_practices.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:48.625059127-03:00",
+      "summary": "This document provides best practices and configuration guidelines for SGLang HiCache, a three-tier hierarchical KV caching system designed to improve performance for long-context and multi-turn conversation scenarios.",
+      "tags": [
+        "sglang",
+        "hicache",
+        "kv-cache",
+        "hierarchical-caching",
+        "performance-optimization",
+        "distributed-inference",
+        "storage-backends"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-hicache-best-practices.md"
+    },
+    {
+      "file_path": "044-advanced-features-hicache-design.md",
+      "title": "HiCache System Design and Optimization \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/hicache_design.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:48.602310984-03:00",
+      "summary": "This document explains the architecture and operational workflow of HiCache, a multi-tier KV cache system for SGLang designed to optimize LLM inference. It details the hierarchical storage design, prefetching strategies, and write-back policies used to manage KV data across GPU, CPU, and distributed storage.",
+      "tags": [
+        "hicache",
+        "kv-cache",
+        "llm-inference",
+        "sglang",
+        "distributed-storage",
+        "system-design"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-hicache-design.md"
+    },
+    {
+      "file_path": "045-advanced-features-hicache-storage-runtime-attach-detach.md",
+      "title": "Runtime Attach/Detach HiCache Storage Backend (No Restart) \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/hicache_storage_runtime_attach_detach.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:50.032945963-03:00",
+      "summary": "This document explains how to dynamically attach or detach HiCache L3 storage backends in SGLang at runtime via an HTTP API without restarting the service. It details the architecture, strict idle-state requirements, and operational steps for managing storage backend configurations.",
+      "tags": [
+        "sglang",
+        "hicache",
+        "storage-backend",
+        "runtime-configuration",
+        "http-api",
+        "storage-management",
+        "dynamic-attachment"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-hicache-storage-runtime-attach-detach.md"
+    },
+    {
+      "file_path": "046-advanced-features-hicache.md",
+      "title": "Hierarchical KV Caching (HiCache) \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/hicache.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:53.471160108-03:00",
+      "summary": "This document contains copyright and attribution information for the SGLang project, identifying the SGLang Team as the owner.",
+      "tags": [
+        "sglang",
+        "copyright",
+        "attribution",
+        "legal-notice"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-hicache.md"
+    },
+    {
+      "file_path": "047-advanced-features-hyperparameter-tuning.md",
+      "title": "Hyperparameter Tuning \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/hyperparameter_tuning.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:45.245441097-03:00",
+      "summary": "This document provides instructions on optimizing hyperparameter settings to achieve high throughput and avoid memory errors during offline batch inference with SGLang.",
+      "tags": [
+        "hyperparameter-tuning",
+        "sglang",
+        "throughput-optimization",
+        "batch-inference",
+        "memory-management",
+        "kv-cache",
+        "performance-tuning"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-hyperparameter-tuning.md"
+    },
+    {
+      "file_path": "048-advanced-features-lora.md",
+      "title": "LoRA Serving \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/lora.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:51.67041005-03:00",
+      "summary": "This document explains how to efficiently serve multiple LoRA adapters using SGLang, detailing server configuration arguments and usage through OpenAI-compatible and native APIs.",
+      "tags": [
+        "lora",
+        "sglang",
+        "model-serving",
+        "multi-lora",
+        "adapter-weights",
+        "inference-optimization"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-lora.md"
+    },
+    {
+      "file_path": "049-advanced-features-observability.md",
+      "title": "Observability \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/observability.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:00.791738705-03:00",
+      "summary": "This document provides instructions on monitoring and debugging SGLang servers through Prometheus metrics, request logging, and request/crash dumping features.",
+      "tags": [
+        "sglang",
+        "observability",
+        "metrics",
+        "logging",
+        "debugging",
+        "prometheus"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-observability.md"
+    },
+    {
+      "file_path": "050-advanced-features-pd-disaggregation.md",
+      "title": "PD Disaggregation \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/pd_disaggregation.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:53.665020415-03:00",
+      "summary": "This document explains the concept and implementation of Prefill and Decoding (PD) disaggregation in SGLang to improve LLM inference efficiency. It provides configuration details, deployment examples for Mooncake and NIXL backends, and instructions for routing and profiling.",
+      "tags": [
+        "sglang",
+        "pd-disaggregation",
+        "llm-inference",
+        "distributed-computing",
+        "kv-cache",
+        "mooncake",
+        "nixl"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-pd-disaggregation.md"
+    },
+    {
+      "file_path": "051-advanced-features-pipeline-parallelism.md",
+      "title": "Pipeline Parallelism for Long Context \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/pipeline_parallelism.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:55.386486719-03:00",
+      "summary": "This document explains how SGLang implements pipeline parallelism and dynamic chunked prefill to optimize long-context LLM serving by reducing latency and improving throughput.",
+      "tags": [
+        "pipeline-parallelism",
+        "sglang",
+        "long-context",
+        "chunked-prefill",
+        "distributed-inference",
+        "dynamic-chunking"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-pipeline-parallelism.md"
+    },
+    {
+      "file_path": "052-advanced-features-quantization.md",
+      "title": "Quantization \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/quantization.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:49.776493509-03:00",
+      "summary": "This document explains how to implement and use offline and online quantization methods in SGLang to optimize model inference performance. It provides detailed instructions and examples for integrating various quantization tools like Unsloth, auto-round, GPTQModel, and LLM Compressor.",
+      "tags": [
+        "quantization",
+        "sglang",
+        "offline-quantization",
+        "online-quantization",
+        "model-optimization",
+        "inference-performance",
+        "llm-compression"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-quantization.md"
+    },
+    {
+      "file_path": "053-advanced-features-quantized-kv-cache.md",
+      "title": "Quantized KV Cache \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/quantized_kv_cache.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:50.347103117-03:00",
+      "summary": "This document explains how to implement and configure quantized KV cache in SGLang using FP8 and FP4 formats to reduce memory usage and increase inference throughput. It covers supported precision types, server configuration, scaling factor management, and the performance trade-offs regarding accuracy and memory savings.",
+      "tags": [
+        "sglang",
+        "kv-cache",
+        "quantization",
+        "fp8",
+        "fp4",
+        "memory-optimization",
+        "llm-inference"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-quantized-kv-cache.md"
+    },
+    {
+      "file_path": "054-advanced-features-separate-reasoning.md",
+      "title": "Reasoning Parser \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/separate_reasoning.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:48.368291894-03:00",
+      "summary": "This document explains how to configure and use SGLang's reasoning parser to extract Chain of Thought content from various reasoning models. It covers server-side setup, supported model behaviors, and integration with OpenAI-compatible APIs.",
+      "tags": [
+        "sglang",
+        "reasoning-parser",
+        "chain-of-thought",
+        "deepseek-r1",
+        "llm-inference",
+        "openai-api"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-separate-reasoning.md"
+    },
+    {
+      "file_path": "055-advanced-features-server-arguments.md",
+      "title": "Server Arguments \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/server_arguments.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:45.037548851-03:00",
+      "summary": "This document provides a comprehensive list and explanation of command-line arguments used to configure and optimize the SGLang language model server. It covers essential deployment settings including parallelism policies, memory management, quantization, and distributed serving.",
+      "tags": [
+        "sglang",
+        "server-arguments",
+        "llm-deployment",
+        "tensor-parallelism",
+        "quantization",
+        "memory-management",
+        "distributed-computing"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-server-arguments.md"
+    },
+    {
+      "file_path": "056-advanced-features-sgl-model-gateway.md",
+      "title": "SGLang Model Gateway \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/sgl_model_gateway.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:57.542214642-03:00",
+      "summary": "The SGLang Model Gateway is a high-performance routing system for large-scale LLM deployments that centralizes worker management and traffic balancing across multiple protocols. It provides a unified control plane for heterogeneous model fleets with integrated features for reliability, privacy, and observability.",
+      "tags": [
+        "sglang",
+        "model-gateway",
+        "llm-routing",
+        "load-balancing",
+        "grpc",
+        "inference-serving",
+        "worker-management"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-sgl-model-gateway.md"
+    },
+    {
+      "file_path": "057-advanced-features-sglang-for-rl.md",
+      "title": "SGLang for RL Systems \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/sglang_for_rl.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:59.430986153-03:00",
+      "summary": "This document provides a technical guide for infrastructure teams on integrating SGLang into Reinforcement Learning (RL) systems, focusing on optimizing rollout efficiency, memory management, and weight synchronization.",
+      "tags": [
+        "sglang",
+        "reinforcement-learning",
+        "rl-systems",
+        "weight-refitting",
+        "memory-management",
+        "inference-optimization",
+        "llm-rollout"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-sglang-for-rl.md"
+    },
+    {
+      "file_path": "058-advanced-features-speculative-decoding.md",
+      "title": "Speculative Decoding \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/speculative_decoding.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:48.060461034-03:00",
+      "summary": "This document explains how to enable and configure EAGLE-based speculative decoding in SGLang to improve LLM inference throughput. It provides details on key configuration parameters and examples for launching servers using EAGLE-2 and EAGLE-3 algorithms.",
+      "tags": [
+        "sglang",
+        "speculative-decoding",
+        "eagle-decoding",
+        "llm-inference",
+        "performance-optimization",
+        "model-serving"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-speculative-decoding.md"
+    },
+    {
+      "file_path": "059-advanced-features-structured-outputs-for-reasoning-models.md",
+      "title": "Structured Outputs For Reasoning Models \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/structured_outputs_for_reasoning_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:48.164628798-03:00",
+      "summary": "This document explains how to configure SGLang to support structured outputs from reasoning models by disabling grammar constraints within reasoning sections using the reasoning-parser flag.",
+      "tags": [
+        "sglang",
+        "structured-outputs",
+        "reasoning-models",
+        "json-schema",
+        "pydantic",
+        "deepseek-r1",
+        "llm-inference"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-structured-outputs-for-reasoning-models.md"
+    },
+    {
+      "file_path": "060-advanced-features-structured-outputs.md",
+      "title": "Structured Outputs \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/structured_outputs.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:46.285875124-03:00",
+      "summary": "This document explains how to constrain model outputs in SGLang using JSON schemas, regular expressions, or EBNF across different grammar backends.",
+      "tags": [
+        "sglang",
+        "structured-outputs",
+        "json-schema",
+        "xgrammar",
+        "outlines",
+        "llguidance",
+        "pydantic"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-structured-outputs.md"
+    },
+    {
+      "file_path": "061-advanced-features-tool-parser.md",
+      "title": "Tool Parser \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/tool_parser.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:49.007610916-03:00",
+      "summary": "This document explains how to implement and configure function calling in SGLang using various tool parsers and the OpenAI-compatible API. It covers launching the server with specific model parsers and defining tool schemas for model interaction.",
+      "tags": [
+        "sglang",
+        "function-calling",
+        "tool-parser",
+        "openai-api",
+        "llm-inference",
+        "server-configuration"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-tool-parser.md"
+    },
+    {
+      "file_path": "062-advanced-features-vlm-query.md",
+      "title": "Query VLM with Offline Engine \u2014 SGLang",
+      "url": "https://docs.sglang.io/advanced_features/vlm_query.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:46:54.268830656-03:00",
+      "summary": "This document explains how to use SGLang's offline Engine API to query Vision-Language Models (VLMs) using raw images, preprocessed outputs, or precomputed embeddings. It provides guidance on optimizing multimodal inference efficiency for models such as Qwen2.5-VL and Llama 4.",
+      "tags": [
+        "sglang",
+        "vlm",
+        "offline-engine",
+        "multimodal",
+        "inference-optimization",
+        "image-processing",
+        "computer-vision"
+      ],
+      "category": "advanced-features",
+      "original_file_path": "advanced-features-vlm-query.md"
+    },
+    {
+      "file_path": "063-platforms-amd-gpu.md",
+      "title": "AMD GPUs \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/amd_gpu.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:09.517821048-03:00",
+      "summary": "This document provides instructions for configuring, installing, and running SGLang on AMD GPUs, specifically targeting MI300X hardware. It covers system-level optimizations, ROCm-specific installation methods, and deployment examples for large language models.",
+      "tags": [
+        "amd-gpu",
+        "rocm",
+        "mi300x",
+        "sglang",
+        "installation-guide",
+        "system-optimization",
+        "docker-deployment"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-amd-gpu.md"
+    },
+    {
+      "file_path": "064-platforms-ascend-contribution-guide.md",
+      "title": "Contribution Guide \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_contribution_guide.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:16.643645589-03:00",
+      "summary": "This document provides a comprehensive guide for contributing to the SGLang project, covering environment setup, testing procedures, coding standards, and the pull request process.",
+      "tags": [
+        "sglang",
+        "contribution-guide",
+        "development-setup",
+        "pull-requests",
+        "unit-testing",
+        "code-style",
+        "ci-cd"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-contribution-guide.md"
+    },
+    {
+      "file_path": "065-platforms-ascend-npu-best-practice.md",
+      "title": "Best Practice on Ascend NPU \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_npu_best_practice.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:11.46330615-03:00",
+      "summary": "This document provides optimal configuration settings and deployment best practices for running DeepSeek R1 models on Huawei Ascend NPU hardware using SGLang. It details environment setup, prefill-decode separation, and benchmarking procedures for various performance requirements.",
+      "tags": [
+        "ascend-npu",
+        "deepseek-r1",
+        "sglang",
+        "model-deployment",
+        "performance-tuning",
+        "hardware-acceleration",
+        "inference-optimization",
+        "huawei-atlas"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-npu-best-practice.md"
+    },
+    {
+      "file_path": "066-platforms-ascend-npu-deepseek-example.md",
+      "title": "DeepSeek examples \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_npu_deepseek_example.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:15.38431022-03:00",
+      "summary": "This document provides configuration instructions and command-line parameters for deploying DeepSeek-V3 models on Huawei Atlas NPU hardware using SGLang, covering both mixed and disaggregated prefill-decode modes.",
+      "tags": [
+        "deepseek-v3",
+        "sglang",
+        "ascend-npu",
+        "atlas-800i-a3",
+        "distributed-inference",
+        "model-deployment",
+        "npu-optimization"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-npu-deepseek-example.md"
+    },
+    {
+      "file_path": "067-platforms-ascend-npu-qwen3-examples.md",
+      "title": "Qwen3 examples \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_npu_qwen3_examples.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:15.737893163-03:00",
+      "summary": "Provides configuration instructions and command-line examples for deploying various Qwen3 models on Huawei Atlas 800I A3 NPUs using the SGLang framework.",
+      "tags": [
+        "qwen3",
+        "atlas-800i-a3",
+        "npu-inference",
+        "ascend",
+        "sglang",
+        "mixture-of-experts",
+        "speculative-decoding"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-npu-qwen3-examples.md"
+    },
+    {
+      "file_path": "068-platforms-ascend-npu-support-models.md",
+      "title": "Support Models on Ascend NPU \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_npu_support_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:14.711734418-03:00",
+      "summary": "This document lists the various machine learning models supported on Ascend NPU, ranging from large language models to multimodal and reward models. It highlights compatibility for mainstream series such as DeepSeek, Qwen, and GLM to assist users in hardware enablement.",
+      "tags": [
+        "ascend-npu",
+        "large-language-models",
+        "multimodal-models",
+        "model-support",
+        "deepseek",
+        "qwen",
+        "glm"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-npu-support-models.md"
+    },
+    {
+      "file_path": "069-platforms-ascend-npu-support.md",
+      "title": "Ascend NPUs \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_npu_support.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:12.816465825-03:00",
+      "summary": "This document provides administrative metadata including copyright information and the most recent update timestamp for the SGLang project.",
+      "tags": [
+        "sglang",
+        "copyright-info",
+        "project-metadata",
+        "documentation-status"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-npu-support.md"
+    },
+    {
+      "file_path": "070-platforms-ascend-npu.md",
+      "title": "SGLang installation with NPUs support \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/ascend_npu.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:32.894203013-03:00",
+      "summary": "This document provides instructions for installing and configuring SGLang with Ascend NPU support, covering prerequisite setup, source and Docker installation methods, and system performance optimizations.",
+      "tags": [
+        "sglang",
+        "ascend-npu",
+        "cann",
+        "installation-guide",
+        "docker",
+        "performance-optimization"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-ascend-npu.md"
+    },
+    {
+      "file_path": "071-platforms-cpu-server.md",
+      "title": "CPU Servers \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/cpu_server.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:10.520202367-03:00",
+      "summary": "This document provides instructions for installing, configuring, and benchmarking SGLang for LLM inference on CPU servers, specifically optimized for Intel Xeon processors.",
+      "tags": [
+        "sglang",
+        "cpu-inference",
+        "intel-xeon",
+        "installation-guide",
+        "llm-serving",
+        "benchmarking"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-cpu-server.md"
+    },
+    {
+      "file_path": "072-platforms-nvidia-jetson.md",
+      "title": "NVIDIA Jetson Orin \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/nvidia_jetson.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:11.491632334-03:00",
+      "summary": "This document provides instructions for installing and running SGLang on NVIDIA Jetson Orin devices, covering environment setup, containerized deployment, and performance optimization through quantization.",
+      "tags": [
+        "nvidia-jetson",
+        "sglang",
+        "jetson-containers",
+        "llm-inference",
+        "torchao",
+        "quantization",
+        "edge-computing"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-nvidia-jetson.md"
+    },
+    {
+      "file_path": "073-platforms-tpu.md",
+      "title": "TPU \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/tpu.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:11.825411021-03:00",
+      "summary": "This document explains how to set up, deploy, and benchmark Large Language Model serving on Google Cloud TPUs using the SGLang-JAX backend. It covers installation, server configuration parameters, and performance optimization techniques like speculative decoding.",
+      "tags": [
+        "sglang-jax",
+        "tpu-inference",
+        "llm-serving",
+        "google-cloud-tpu",
+        "distributed-serving",
+        "benchmarking",
+        "speculative-decoding"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-tpu.md"
+    },
+    {
+      "file_path": "074-platforms-xpu.md",
+      "title": "XPU \u2014 SGLang",
+      "url": "https://docs.sglang.io/platforms/xpu.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:13.077828684-03:00",
+      "summary": "This document provides instructions for setting up the SGLang environment and running LLM inference on Intel GPUs, covering installation from source, server deployment, and benchmarking.",
+      "tags": [
+        "intel-gpu",
+        "xpu",
+        "sglang",
+        "llm-inference",
+        "installation-guide",
+        "benchmarking"
+      ],
+      "category": "platforms",
+      "original_file_path": "platforms-xpu.md"
+    },
+    {
+      "file_path": "075-references-multi-node-deployment-deploy-on-k8s.md",
+      "title": "Deploy On Kubernetes \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/multi_node_deployment/deploy_on_k8s.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:04.496022258-03:00",
+      "summary": "This document provides a guide for deploying SGLang on Kubernetes using LeaderWorkerSet (LWS) for multi-node distributed inference with RDMA/RoCE networking support.",
+      "tags": [
+        "kubernetes",
+        "sglang",
+        "leaderworkerset",
+        "distributed-inference",
+        "rdma",
+        "roce",
+        "gpu-serving",
+        "nccl"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-multi-node-deployment-deploy-on-k8s.md"
+    },
+    {
+      "file_path": "076-references-multi-node-deployment-lws-pd-lws-pd-deploy.md",
+      "title": "LWS Based PD Deploy \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/multi_node_deployment/lws_pd/lws_pd_deploy.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:06.368850356-03:00",
+      "summary": "This document provides configuration details and YAML manifests for deploying SGLang on Kubernetes using LeaderWorkerSet (LWS). It focuses on setting up disaggregated prefill and decode (PD) modes for high-performance LLM serving, specifically optimized for DeepSeek-R1.",
+      "tags": [
+        "sglang",
+        "kubernetes",
+        "leaderworkerset",
+        "prefill-decode-separation",
+        "deepseek-r1",
+        "llm-serving",
+        "gpu-orchestration"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-multi-node-deployment-lws-pd-lws-pd-deploy.md"
+    },
+    {
+      "file_path": "077-references-multi-node-deployment-multi-node-index.md",
+      "title": "Multi-Node Deployment \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/multi_node_deployment/multi_node_index.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:17.655253822-03:00",
+      "summary": "This document provides copyright information, authorship attribution, and the last update timestamp for the SGLang project.",
+      "tags": [
+        "sglang",
+        "copyright",
+        "legal-information",
+        "authorship"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-multi-node-deployment-multi-node-index.md"
+    },
+    {
+      "file_path": "078-references-multi-node-deployment-multi-node.md",
+      "title": "Multi-Node Deployment \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/multi_node_deployment/multi_node.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:05.210191357-03:00",
+      "summary": "This document provides instructions for deploying large language models like Llama 3.1 405B across multiple nodes using SGLang. It covers manual command-line configuration and automated multi-node inference using SLURM job scripts.",
+      "tags": [
+        "multi-node-deployment",
+        "distributed-inference",
+        "sglang",
+        "slurm",
+        "llama-3-1",
+        "tensor-parallelism"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-multi-node-deployment-multi-node.md"
+    },
+    {
+      "file_path": "079-references-multi-node-deployment-rbg-pd-deepseekv32-pd.md",
+      "title": "DeepSeekV32-Exp RBG Based PD Deploy \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/multi_node_deployment/rbg_pd/deepseekv32_pd.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:05.52162272-03:00",
+      "summary": "This document provides instructions and a Kubernetes manifest for deploying DeepSeek-V3.2-Exp using Role-Based Groups (RBG) to achieve prefill-decode disaggregation.",
+      "tags": [
+        "deepseek-v3",
+        "kubernetes",
+        "sglang",
+        "prefill-decode",
+        "role-based-group",
+        "leaderworkerset",
+        "llm-deployment"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-multi-node-deployment-rbg-pd-deepseekv32-pd.md"
+    },
+    {
+      "file_path": "080-references-post-training-integration.md",
+      "title": "Post-Training Integration \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/post_training_integration.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:19.692116015-03:00",
+      "summary": "This document explains SGLang's role as a high-performance inference backend for LLM post-training and reinforcement learning workflows, detailing its key features and industry adoption.",
+      "tags": [
+        "post-training",
+        "reinforcement-learning",
+        "llm-inference",
+        "sglang-integration",
+        "model-training",
+        "rollout-generation"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-post-training-integration.md"
+    },
+    {
+      "file_path": "081-references-production-metrics.md",
+      "title": "Production Metrics \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/production_metrics.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:16.761904409-03:00",
+      "summary": "This document explains how to enable and use Prometheus metrics in SGLang to monitor production performance, including token usage, cache hit rate, and latency.",
+      "tags": [
+        "sglang",
+        "prometheus",
+        "metrics",
+        "monitoring",
+        "performance-tracking",
+        "token-usage"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-production-metrics.md"
+    },
+    {
+      "file_path": "082-references-production-request-trace.md",
+      "title": "Production Request Tracing \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/production_request_trace.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:18.108033013-03:00",
+      "summary": "This document explains how to enable, configure, and extend request tracing in SGLang using OpenTelemetry and Jaeger for performance monitoring and observability.",
+      "tags": [
+        "sglang",
+        "request-tracing",
+        "opentelemetry",
+        "observability",
+        "distributed-tracing",
+        "instrumentation"
+      ],
+      "category": "deployment",
+      "original_file_path": "references-production-request-trace.md"
+    },
+    {
+      "file_path": "083-references-custom-chat-template.md",
+      "title": "Custom Chat Template \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/custom_chat_template.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:19.735715195-03:00",
+      "summary": "Explains how to configure and override custom chat templates for the SGLang OpenAI-compatible API server using command-line arguments, JSON files, or Jinja templates.",
+      "tags": [
+        "sglang",
+        "chat-template",
+        "openai-api",
+        "llm-serving",
+        "jinja-template",
+        "configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "references-custom-chat-template.md"
+    },
+    {
+      "file_path": "084-references-environment-variables.md",
+      "title": "Environment Variables \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/environment_variables.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:17.365375245-03:00",
+      "summary": "This document provides a comprehensive list of environment variables used to configure SGLang's runtime behavior, performance, and memory management.",
+      "tags": [
+        "sglang",
+        "environment-variables",
+        "configuration",
+        "performance-tuning",
+        "memory-management",
+        "distributed-computing"
+      ],
+      "category": "reference",
+      "original_file_path": "references-environment-variables.md"
+    },
+    {
+      "file_path": "085-references-faq.md",
+      "title": "Troubleshooting and Frequently Asked Questions \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/faq.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:15.947031605-03:00",
+      "summary": "Provides solutions for common errors such as CUDA out-of-memory and server hangs, along with explanations for non-deterministic outputs in the SGLang inference engine.",
+      "tags": [
+        "troubleshooting",
+        "cuda-oom",
+        "sglang",
+        "memory-management",
+        "inference-optimization",
+        "faq"
+      ],
+      "category": "reference",
+      "original_file_path": "references-faq.md"
+    },
+    {
+      "file_path": "086-references-frontend-choices-methods.md",
+      "title": "Choices Methods in SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/frontend/choices_methods.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:13.786303465-03:00",
+      "summary": "This document explains the different selection methods available for SGLang's choices primitive, detailing how each algorithm evaluates and selects options based on token probabilities.",
+      "tags": [
+        "sglang",
+        "choices-primitive",
+        "llm-inference",
+        "token-normalization",
+        "greedy-selection",
+        "unconditional-likelihood"
+      ],
+      "category": "reference",
+      "original_file_path": "references-frontend-choices-methods.md"
+    },
+    {
+      "file_path": "087-references-frontend-frontend-index.md",
+      "title": "Frontend Language \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/frontend/frontend_index.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:19.491926195-03:00",
+      "summary": "This document provides attribution, copyright information, and the latest update timestamp for the SGLang project.",
+      "tags": [
+        "sglang",
+        "copyright",
+        "attribution",
+        "metadata"
+      ],
+      "category": "reference",
+      "original_file_path": "references-frontend-frontend-index.md"
+    },
+    {
+      "file_path": "088-references-frontend-frontend-tutorial.md",
+      "title": "SGLang Frontend Language \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/frontend/frontend_tutorial.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:21.359463713-03:00",
+      "summary": "This document explains how to use the SGLang frontend language to define structured prompts and manage LLM interactions through a dedicated runtime server.",
+      "tags": [
+        "sglang",
+        "structured-prompting",
+        "llm-inference",
+        "python-api",
+        "prompt-engineering"
+      ],
+      "category": "reference",
+      "original_file_path": "references-frontend-frontend-tutorial.md"
+    },
+    {
+      "file_path": "089-references-torch-compile-cache.md",
+      "title": "Enabling cache for torch.compile \u2014 SGLang",
+      "url": "https://docs.sglang.io/references/torch_compile_cache.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:44.20641342-03:00",
+      "summary": "This document explains how to enable and share the torch.compile cache in SGLang to accelerate model deployment by skipping time-consuming auto-tuning steps.",
+      "tags": [
+        "sglang",
+        "torch-compile",
+        "inductor-cache",
+        "performance-optimization",
+        "model-deployment"
+      ],
+      "category": "reference",
+      "original_file_path": "references-torch-compile-cache.md"
+    },
+    {
+      "file_path": "090-developer-guide-bench-serving.md",
+      "title": "Bench Serving Guide \u2014 SGLang",
+      "url": "https://docs.sglang.io/developer_guide/bench_serving.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:16.342408778-03:00",
+      "summary": "This guide explains how to use the sglang.bench_serving tool to measure and analyze the throughput and latency performance of various LLM inference backends.",
+      "tags": [
+        "sglang",
+        "benchmarking",
+        "llm-serving",
+        "throughput",
+        "latency-measurement",
+        "inference-performance"
+      ],
+      "category": "developer-guide",
+      "original_file_path": "developer-guide-bench-serving.md"
+    },
+    {
+      "file_path": "091-developer-guide-benchmark-and-profiling.md",
+      "title": "Benchmark and Profiling \u2014 SGLang",
+      "url": "https://docs.sglang.io/developer_guide/benchmark_and_profiling.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:13.987776848-03:00",
+      "summary": "This document provides comprehensive instructions and command-line examples for benchmarking performance and profiling SGLang using tools like PyTorch Profiler. It covers measuring latency and throughput across various execution modes, including offline engines, online servers, and PD disaggregation environments.",
+      "tags": [
+        "benchmarking",
+        "profiling",
+        "performance-analysis",
+        "pytorch-profiler",
+        "sglang",
+        "pd-disaggregation"
+      ],
+      "category": "developer-guide",
+      "original_file_path": "developer-guide-benchmark-and-profiling.md"
+    },
+    {
+      "file_path": "092-developer-guide-contribution-guide.md",
+      "title": "Contribution Guide \u2014 SGLang",
+      "url": "https://docs.sglang.io/developer_guide/contribution_guide.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:13.163951376-03:00",
+      "summary": "This document provides a comprehensive workflow for contributing to SGLang, covering environment setup, code formatting standards, testing procedures, and the pull request submission process.",
+      "tags": [
+        "open-source-contribution",
+        "developer-setup",
+        "code-formatting",
+        "continuous-integration",
+        "pull-request-process",
+        "testing-guidelines"
+      ],
+      "category": "developer-guide",
+      "original_file_path": "developer-guide-contribution-guide.md"
+    },
+    {
+      "file_path": "093-developer-guide-development-guide-using-docker.md",
+      "title": "Development Guide Using Docker \u2014 SGLang",
+      "url": "https://docs.sglang.io/developer_guide/development_guide_using_docker.html#setup-docker-container",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:33.415842239-03:00",
+      "summary": "This document provides a comprehensive guide for setting up an SGLang development environment using Docker and VSCode, covering remote tunnels, dev containers, and debugging configurations.",
+      "tags": [
+        "sglang",
+        "docker",
+        "vscode",
+        "dev-containers",
+        "remote-development",
+        "debugging",
+        "profiling"
+      ],
+      "category": "developer-guide",
+      "original_file_path": "developer-guide-development-guide-using-docker.md"
+    },
+    {
+      "file_path": "094-developer-guide-development-jit-kernel-guide.md",
+      "title": "Development Guide for JIT Kernels \u2014 SGLang",
+      "url": "https://docs.sglang.io/developer_guide/development_jit_kernel_guide.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:14.636992267-03:00",
+      "summary": "This document provides a comprehensive guide for developing Just-In-Time (JIT) kernels within the SGLang framework, covering environment setup, C++ and Python integration, and specialized utility libraries.",
+      "tags": [
+        "sglang",
+        "jit-kernels",
+        "cuda-programming",
+        "cpp-api",
+        "python-bindings",
+        "tvm-ffi",
+        "kernel-development"
+      ],
+      "category": "developer-guide",
+      "original_file_path": "developer-guide-development-jit-kernel-guide.md"
+    },
+    {
+      "file_path": "095-developer-guide-evaluating-new-models.md",
+      "title": "Evaluating New Models with SGLang \u2014 SGLang",
+      "url": "https://docs.sglang.io/developer_guide/evaluating_new_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:16.136702509-03:00",
+      "summary": "This document provides instructions and command-line examples for benchmarking the accuracy and performance of LLMs and VLMs using SGLang. It covers standard evaluation metrics, latency and throughput testing, and reporting requirements for model verification.",
+      "tags": [
+        "model-evaluation",
+        "sglang",
+        "benchmarking",
+        "llm-performance",
+        "vlm-accuracy",
+        "inference-testing"
+      ],
+      "category": "developer-guide",
+      "original_file_path": "developer-guide-evaluating-new-models.md"
+    },
+    {
+      "file_path": "096-sources-advanced-features-attention-backend.md",
+      "title": "Attention Backend",
+      "url": "https://docs.sglang.io/_sources/advanced_features/attention_backend.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:54.350196307-03:00",
+      "description": "SGLang supports a large variety of attention backends. Each of them has different pros and cons. You can test them according to your needs.",
+      "summary": "This document details the various attention backends supported by SGLang for MHA and MLA architectures, providing a comprehensive feature support matrix across different hardware platforms.",
+      "tags": [
+        "sglang",
+        "attention-backend",
+        "mha",
+        "mla",
+        "flash-attention",
+        "kv-cache",
+        "performance-optimization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-attention-backend.md"
+    },
+    {
+      "file_path": "097-sources-advanced-features-checkpoint-engine.md",
+      "title": "Checkpoint Engine Integration",
+      "url": "https://docs.sglang.io/_sources/advanced_features/checkpoint_engine.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:58.146592245-03:00",
+      "description": "The SGLang checkpoint engine integration provides an efficient way to load model weights using a distributed checkpoint loading system. This feature significantly reduces model loading time, especially for large models and multi-node setups, by parallelizing the weight loading process across mult...",
+      "summary": "This document describes the integration of the SGLang checkpoint engine for distributed and parallelized loading of model weights across single and multi-node systems.",
+      "tags": [
+        "checkpoint-engine",
+        "distributed-loading",
+        "sglang-server",
+        "performance-optimization",
+        "multi-node-setup",
+        "weight-loading"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-checkpoint-engine.md"
+    },
+    {
+      "file_path": "098-sources-advanced-features-cuda-graph-for-multi-modal-encoder.md",
+      "title": "Cuda Graph for Multi-Modal Encoder in SGLang",
+      "url": "https://docs.sglang.io/_sources/advanced_features/cuda_graph_for_multi_modal_encoder.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:07.873304295-03:00",
+      "description": "In multimodal reasoning services, the visual encoder (ViT / Vision Transformer) typically has a few characteristic traits:",
+      "summary": "This document explains the design and implementation of CUDA Graph support for Vision Transformers in SGLang to reduce kernel launch overhead and improve multimodal inference performance.",
+      "tags": [
+        "sglang",
+        "cuda-graph",
+        "vision-transformer",
+        "performance-optimization",
+        "gpu-acceleration",
+        "multimodal-llm"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-cuda-graph-for-multi-modal-encoder.md"
+    },
+    {
+      "file_path": "099-sources-advanced-features-deterministic-inference.md",
+      "title": "Deterministic Inference",
+      "url": "https://docs.sglang.io/_sources/advanced_features/deterministic_inference.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:53.773262149-03:00",
+      "description": "Deterministic inference ensures consistent LLM outputs across runs, which is critical for:",
+      "summary": "Explains the causes of non-determinism in LLM inference and provides instructions for enabling and verifying deterministic outputs in SGLang using batch-invariant operators.",
+      "tags": [
+        "sglang",
+        "deterministic-inference",
+        "llm-inference",
+        "reproducibility",
+        "gpu-optimization",
+        "sampling-seed"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-deterministic-inference.md"
+    },
+    {
+      "file_path": "100-sources-advanced-features-dp-for-multi-modal-encoder.md",
+      "title": "DP for Multi-Modal Encoder in SGLang",
+      "url": "https://docs.sglang.io/_sources/advanced_features/dp_for_multi_modal_encoder.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:52.290259075-03:00",
+      "description": "A typical VLM architecture involves two main components: an multi-modal encoder and a text decoder.",
+      "summary": "This document explains how to optimize Vision-Language Models in SGLang by using data parallelism for the multi-modal encoder while maintaining tensor parallelism for the text decoder.",
+      "tags": [
+        "sglang",
+        "multi-modal-encoder",
+        "data-parallelism",
+        "vlm",
+        "model-optimization",
+        "vision-transformer",
+        "performance"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-dp-for-multi-modal-encoder.md"
+    },
+    {
+      "file_path": "101-sources-advanced-features-epd-disaggregation.md",
+      "title": "EPD Disaggregation",
+      "url": "https://docs.sglang.io/_sources/advanced_features/epd_disaggregation.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:56.604890263-03:00",
+      "description": "In modern Vision-Language Model (VLM) inference, request execution naturally decomposes into three distinct stages: Encoder, Prefill, and Decode. The Encoder stage performs vision preprocessing and ViT-based image encoding, which is highly compute-intensive but only required during request initia...",
+      "summary": "This document introduces EPD disaggregation in SGLang, a technique that separates vision encoding, language prefill, and decoding stages to optimize Vision-Language Model inference. It explains the architectural benefits and provides configuration steps for deploying these stages as independent, scalable services.",
+      "tags": [
+        "sglang",
+        "vlm-inference",
+        "epd-disaggregation",
+        "vision-language-models",
+        "distributed-computing",
+        "performance-optimization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-epd-disaggregation.md"
+    },
+    {
+      "file_path": "102-sources-advanced-features-expert-parallelism.md",
+      "title": "Expert Parallelism",
+      "url": "https://docs.sglang.io/_sources/advanced_features/expert_parallelism.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:47.72399791-03:00",
+      "description": "Expert Parallelism (EP) in SGLang distributes expert weights across multiple devices in Mixture-of-Experts (MoE) models, addressing memory bottlenecks and enabling efficient scaling for high-performance inference. It is particularly vital for serving large-scale MoE models where tokens are dynami...",
+      "summary": "This document details SGLang's Expert Parallelism (EP) implementation, covering supported backends for MoE communication and computation, selection guidance, and the extensible architectural framework.",
+      "tags": [
+        "sglang",
+        "expert-parallelism",
+        "mixture-of-experts",
+        "moe-inference",
+        "distributed-computing",
+        "backend-selection"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-expert-parallelism.md"
+    },
+    {
+      "file_path": "103-sources-advanced-features-hicache-best-practices.md",
+      "title": "SGLang HiCache Best Practices",
+      "url": "https://docs.sglang.io/_sources/advanced_features/hicache_best_practices.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:50.33260162-03:00",
+      "description": "SGLang HiCache extends the traditional RadixAttention with a three-tier hierarchical KV caching system that dramatically improves performance for long-context and multi-turn conversation scenarios. By intelligently managing KV caches across GPU memory, host memory, and external storage backends, ...",
+      "summary": "This document provides technical guidance and configuration best practices for implementing SGLang HiCache to manage hierarchical KV caches across memory and storage tiers. It details parameter settings, memory layout optimizations, and integration steps for various storage backends to improve long-context performance.",
+      "tags": [
+        "sglang",
+        "hicache",
+        "kv-cache",
+        "hierarchical-caching",
+        "performance-optimization",
+        "storage-backend",
+        "distributed-inference"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-hicache-best-practices.md"
+    },
+    {
+      "file_path": "104-sources-advanced-features-hicache-design.md",
+      "title": "HiCache System Design and Optimization",
+      "url": "https://docs.sglang.io/_sources/advanced_features/hicache_design.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:34.928287433-03:00",
+      "description": "This document provides a comprehensive overview of SGLang HiCache, covering its system architecture, workflow and key components. It also details configuration parameters, optimization techniques, and integration with various L3 storage backends, serving as a complete reference for users and deve...",
+      "summary": "This document explains the architecture, workflow, and optimization strategies of HiCache, a hierarchical KV cache management system designed to improve LLM inference efficiency through multi-level storage.",
+      "tags": [
+        "sglang",
+        "hicache",
+        "kv-cache",
+        "llm-inference",
+        "distributed-storage",
+        "system-design",
+        "radix-tree"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-hicache-design.md"
+    },
+    {
+      "file_path": "105-sources-advanced-features-hicache-storage-runtime-attach-detach.md",
+      "title": "Runtime Attach/Detach HiCache Storage Backend (No Restart)",
+      "url": "https://docs.sglang.io/_sources/advanced_features/hicache_storage_runtime_attach_detach.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:50.628547274-03:00",
+      "description": "This document explains how to **dynamically attach/detach the HiCache L3 storage backend at runtime** (e.g., `mooncake` / `hf3fs` / `nixl` / `file` / `aibrix` / `eic`) while **SGLang is already running and serving traffic**, without restarting the process.",
+      "summary": "This document outlines the procedure for dynamically attaching and detaching HiCache L3 storage backends in SGLang without restarting the service. It details the administrative API endpoints, strict idle-state requirements, and configuration parameters needed for runtime storage management.",
+      "tags": [
+        "sglang",
+        "hicache",
+        "storage-backend",
+        "runtime-configuration",
+        "admin-api",
+        "kv-cache"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-hicache-storage-runtime-attach-detach.md"
+    },
+    {
+      "file_path": "106-sources-advanced-features-hyperparameter-tuning.md",
+      "title": "Hyperparameter Tuning",
+      "url": "https://docs.sglang.io/_sources/advanced_features/hyperparameter_tuning.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:44.875281408-03:00",
+      "description": "Achieving a large batch size is the most important thing for attaining high throughput in offline batch inference. When the server is running at full load in a steady state, look for the following in the log:",
+      "summary": "This document provides instructions for tuning SGLang hyperparameters to optimize throughput and memory usage during offline batch inference. It details how to monitor server logs and adjust configuration parameters to balance KV cache utilization and prevent out-of-memory errors.",
+      "tags": [
+        "hyperparameter-tuning",
+        "sglang",
+        "throughput-optimization",
+        "batch-inference",
+        "memory-management",
+        "performance-tuning"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-hyperparameter-tuning.md"
+    },
+    {
+      "file_path": "107-sources-advanced-features-observability.md",
+      "title": "Observability",
+      "url": "https://docs.sglang.io/_sources/advanced_features/observability.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:02.345663237-03:00",
+      "description": "SGLang exposes the following metrics via Prometheus. You can enable them by adding `--enable-metrics` when launching the server. You can query them by:",
+      "summary": "This document provides instructions for monitoring and debugging SGLang through production metrics, logging configurations, and request or crash dump-and-replay tools.",
+      "tags": [
+        "observability",
+        "prometheus-metrics",
+        "logging",
+        "debugging",
+        "request-replay",
+        "sglang-server"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-observability.md"
+    },
+    {
+      "file_path": "108-sources-advanced-features-pd-disaggregation.md",
+      "title": "PD Disaggregation",
+      "url": "https://docs.sglang.io/_sources/advanced_features/pd_disaggregation.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:33.924820424-03:00",
+      "description": "Large Language Model (LLM) inference comprises two distinct phases: **Prefill** and **Decode**. The Prefill phase is computation-intensive, processing the entire input sequence, while the Decode phase is memory-intensive, managing the Key-Value (KV) cache for token generation. Traditionally, thes...",
+      "summary": "This document explains the concept and implementation of Prefill and Decoding (PD) Disaggregation in SGLang to optimize LLM inference performance by separating compute-intensive and memory-intensive phases.",
+      "tags": [
+        "sglang",
+        "llm-inference",
+        "pd-disaggregation",
+        "mooncake",
+        "nixl",
+        "performance-optimization",
+        "distributed-computing"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-pd-disaggregation.md"
+    },
+    {
+      "file_path": "109-sources-advanced-features-pipeline-parallelism.md",
+      "title": "Pipeline Parallelism for Long Context",
+      "url": "https://docs.sglang.io/_sources/advanced_features/pipeline_parallelism.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:53.008679233-03:00",
+      "description": "As Large Language Models (LLMs) scale toward trillion-parameter architectures and \"infinite\" context windows, the underlying serving infrastructure must evolve toward more granular, cross-node parallelization strategies. While KV cache techniques effectively mitigate redundant computation, they c...",
+      "summary": "This document explains how to optimize large language model serving for long contexts using pipeline parallelism and dynamic chunking to improve throughput and reduce latency.",
+      "tags": [
+        "pipeline-parallelism",
+        "long-context",
+        "sglang",
+        "dynamic-chunking",
+        "llm-serving",
+        "performance-tuning"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-pipeline-parallelism.md"
+    },
+    {
+      "file_path": "110-sources-advanced-features-quantization.md",
+      "title": "Quantization",
+      "url": "https://docs.sglang.io/_sources/advanced_features/quantization.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:47.63435621-03:00",
+      "description": "SGLang supports various quantization methods, including offline quantization and online dynamic quantization.",
+      "summary": "This document explains how SGLang handles model quantization, covering both offline and online dynamic methods while providing instructions for loading pre-quantized weights. It details specific workflows for popular quantization tools like Unsloth, auto-round, and LLM Compressor to optimize model inference performance.",
+      "tags": [
+        "quantization",
+        "offline-quantization",
+        "online-quantization",
+        "sglang-inference",
+        "model-optimization",
+        "awq",
+        "gptq",
+        "fp8"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-quantization.md"
+    },
+    {
+      "file_path": "111-sources-advanced-features-quantized-kv-cache.md",
+      "title": "Quantized KV Cache",
+      "url": "https://docs.sglang.io/_sources/advanced_features/quantized_kv_cache.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:45.43075452-03:00",
+      "description": "Quantized KV cache reduces the memory footprint of key-value cache storage by using lower-precision data types (FP8 or FP4) instead of the default model precision in BF16. During autoregressive generation, LLMs cache previously computed key-value pairs to avoid redundant calculations. The KV cach...",
+      "summary": "This document explains how to use and configure quantized KV cache in SGLang to optimize GPU memory footprint and improve throughput. It details supported FP8 and FP4 formats, scaling factor requirements, and the performance-accuracy trade-offs involved.",
+      "tags": [
+        "kv-cache",
+        "quantization",
+        "fp8",
+        "fp4",
+        "memory-optimization",
+        "inference-performance"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-quantized-kv-cache.md"
+    },
+    {
+      "file_path": "112-sources-advanced-features-server-arguments.md",
+      "title": "Server Arguments",
+      "url": "https://docs.sglang.io/_sources/advanced_features/server_arguments.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:43.969432674-03:00",
+      "description": "This page provides a list of server arguments used in the command line to configure the behavior and performance of the language model server during deployment. These arguments enable users to customize key aspects of the server, including model selection, parallelism policies, memory management,...",
+      "summary": "This document provides a comprehensive reference for command-line arguments used to configure and optimize the SGLang language model server, covering aspects like parallelism, memory management, and model loading.",
+      "tags": [
+        "sglang",
+        "server-configuration",
+        "model-deployment",
+        "performance-tuning",
+        "parallelism",
+        "memory-management",
+        "quantization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-server-arguments.md"
+    },
+    {
+      "file_path": "113-sources-advanced-features-sgl-model-gateway.md",
+      "title": "SGLang Model Gateway",
+      "url": "https://docs.sglang.io/_sources/advanced_features/sgl_model_gateway.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:59.995646191-03:00",
+      "description": "SGLang Model Gateway is a high-performance model-routing gateway for large-scale LLM deployments. It centralizes worker lifecycle management, balances traffic across heterogeneous protocols (HTTP, gRPC, OpenAI-compatible), and provides enterprise-ready control over history storage, MCP tooling, a...",
+      "summary": "This document provides a comprehensive overview of the SGLang Model Gateway, a high-performance routing system for managing and scaling large language model deployments across heterogeneous backends and protocols.",
+      "tags": [
+        "sglang",
+        "model-gateway",
+        "llm-serving",
+        "load-balancing",
+        "grpc-routing",
+        "model-management",
+        "observability",
+        "api-gateway"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-sgl-model-gateway.md"
+    },
+    {
+      "file_path": "114-sources-advanced-features-sglang-for-rl.md",
+      "title": "SGLang for RL Systems",
+      "url": "https://docs.sglang.io/_sources/advanced_features/sglang_for_rl.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:54.667661188-03:00",
+      "description": "This document is a practical guide for infrastructure teams integrating SGLang into RL and post-training systems. It focuses on the operational pain points in the loop (rollout, evaluation, training, weight sync) and maps them to concrete SGLang APIs, flags, and integration patterns. The focus is...",
+      "summary": "This document provides a guide for integrating SGLang into reinforcement learning systems, focusing on optimizing rollout efficiency through memory management and weight synchronization APIs. It detail strategies for handling model refitting and engine sleep/wake cycles in co-located and disaggregated training environments.",
+      "tags": [
+        "rl-systems",
+        "sglang",
+        "weight-synchronization",
+        "memory-management",
+        "rollout-efficiency",
+        "inference-engine",
+        "distributed-training"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-advanced-features-sglang-for-rl.md"
+    },
+    {
+      "file_path": "115-sources-basic-usage-deepseek-ocr.md",
+      "title": "DeepSeek OCR (OCR-1 / OCR-2)",
+      "url": "https://docs.sglang.io/_sources/basic_usage/deepseek_ocr.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:32.257679321-03:00",
+      "description": "DeepSeek OCR models are multimodal (image + text) models for OCR and document understanding.",
+      "summary": "Instructions for deploying and interacting with DeepSeek OCR models using the SGLang server and OpenAI-compatible API requests.",
+      "tags": [
+        "deepseek-ocr",
+        "sglang",
+        "ocr",
+        "multimodal-llm",
+        "api-deployment",
+        "document-processing"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-deepseek-ocr.md"
+    },
+    {
+      "file_path": "116-sources-basic-usage-deepseek-v3.md",
+      "title": "DeepSeek V3/V3.1/R1 Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/deepseek_v3.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:29.230826705-03:00",
+      "description": "SGLang provides many optimizations specifically designed for the DeepSeek models, making it the inference engine recommended by the official [DeepSeek team](https://github.com/deepseek-ai/DeepSeek-V3/tree/main?tab=readme-ov-file#62-inference-with-sglang-recommended) from Day 0.",
+      "summary": "This document provides comprehensive instructions and hardware recommendations for deploying and optimizing DeepSeek V3, V3.1, and R1 models using the SGLang inference engine.",
+      "tags": [
+        "deepseek-v3",
+        "deepseek-r1",
+        "sglang",
+        "inference-optimization",
+        "mla-optimization",
+        "fp8-quantization",
+        "model-serving"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-deepseek-v3.md"
+    },
+    {
+      "file_path": "117-sources-basic-usage-deepseek-v32.md",
+      "title": "DeepSeek V3.2 Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/deepseek_v32.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:31.56601284-03:00",
+      "description": "DeepSeek-V3.2 model family equips DeepSeek-V3.1-Terminus with DeepSeek Sparse Attention (DSA) through continued training. With DSA, a fine-grained sparse attention mechanism powered by a lightning indexer, DeepSeek-V3.2 achieves efficiency improvements in long-context scenarios.",
+      "summary": "This document provides comprehensive instructions for installing, configuring, and serving the DeepSeek V3.2 model family using SGLang, covering hardware-specific optimizations and advanced performance features.",
+      "tags": [
+        "deepseek-v3-2",
+        "sglang",
+        "sparse-attention",
+        "model-serving",
+        "multi-token-prediction",
+        "inference-optimization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-deepseek-v32.md"
+    },
+    {
+      "file_path": "118-sources-basic-usage-glm45.md",
+      "title": "",
+      "url": "https://docs.sglang.io/_sources/basic_usage/glm45.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:37.104733446-03:00",
+      "description": "To serve GLM-4.5 / GLM-4.6 FP8 models on 8xH100/H200 GPUs:",
+      "summary": "This document provides instructions for serving GLM-4 series models using SGLang, including configurations for speculative decoding and implementing a thinking budget.",
+      "tags": [
+        "sglang",
+        "glm-4",
+        "speculative-decoding",
+        "model-serving",
+        "eagle-decoding",
+        "thinking-budget",
+        "llm-inference"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-glm45.md"
+    },
+    {
+      "file_path": "119-sources-basic-usage-glmv.md",
+      "title": "GLM-4.6V / GLM-4.5V Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/glmv.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:52.598914909-03:00",
+      "description": "Below are suggested launch commands tailored for different hardware / precision modes",
+      "summary": "This document provides instructions for deploying and optimizing GLM-4.6V and GLM-4.5V multimodal models using the SGLang framework, including server configuration and request handling for images and video.",
+      "tags": [
+        "glm-4v",
+        "sglang",
+        "multimodal-llm",
+        "inference-optimization",
+        "gpu-deployment",
+        "vision-language-models",
+        "fp8-quantization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-glmv.md"
+    },
+    {
+      "file_path": "120-sources-basic-usage-gpt-oss.md",
+      "title": "GPT OSS Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/gpt_oss.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:25.707694903-03:00",
+      "description": "Please refer to [https://github.com/sgl-project/sglang/issues/8833](https://github.com/sgl-project/sglang/issues/8833).",
+      "summary": "This document provides a comprehensive guide on using GPT-OSS with SGLang, detailing the Responses API, integration of built-in tools for Python and web search, and performance optimization through speculative decoding.",
+      "tags": [
+        "gpt-oss",
+        "sglang",
+        "responses-api",
+        "tool-calling",
+        "speculative-decoding",
+        "python-interpreter",
+        "web-search",
+        "mcp-server"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-gpt-oss.md"
+    },
+    {
+      "file_path": "121-sources-basic-usage-llama4.md",
+      "title": "Llama4 Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/llama4.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:33.504243228-03:00",
+      "description": "[Llama 4](https://github.com/meta-llama/llama-models/blob/main/models/llama4/MODEL_CARD.md) is Meta's latest generation of open-source LLM model with industry-leading performance.",
+      "summary": "This document provides comprehensive instructions for serving Llama 4 models using SGLang, including configuration tips for hardware optimization, speculative decoding, and performance benchmarking.",
+      "tags": [
+        "llama-4",
+        "sglang",
+        "model-serving",
+        "gpu-optimization",
+        "speculative-decoding",
+        "benchmarking"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-llama4.md"
+    },
+    {
+      "file_path": "122-sources-basic-usage-minimax-m2.md",
+      "title": "MiniMax M2.1/M2 Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/minimax_m2.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:26.063673437-03:00",
+      "description": "[MiniMax-M2.1](https://huggingface.co/MiniMaxAI/MiniMax-M2.1) and [MiniMax-M2](https://huggingface.co/MiniMaxAI/MiniMax-M2) are advanced large language models created by [MiniMax](https://www.minimax.io/).",
+      "summary": "This document provides hardware requirements and deployment instructions for running MiniMax M2 and M2.1 models using SGLang, including configuration for multi-GPU setups and API testing.",
+      "tags": [
+        "minimax-m2",
+        "sglang",
+        "model-deployment",
+        "gpu-requirements",
+        "mixture-of-experts",
+        "large-language-models"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-minimax-m2.md"
+    },
+    {
+      "file_path": "123-sources-basic-usage-ollama-api.md",
+      "title": "Ollama-Compatible API",
+      "url": "https://docs.sglang.io/_sources/basic_usage/ollama_api.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:35.075426588-03:00",
+      "description": "SGLang provides Ollama API compatibility, allowing you to use the Ollama CLI and Python library with SGLang as the inference backend.",
+      "summary": "This document explains how to use SGLang as a high-performance inference backend compatible with Ollama's CLI and Python library, including endpoint details and setup instructions.",
+      "tags": [
+        "sglang",
+        "ollama-api",
+        "inference-backend",
+        "api-compatibility",
+        "llm-serving",
+        "python-client",
+        "cli"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-ollama-api.md"
+    },
+    {
+      "file_path": "124-sources-basic-usage-qwen3-vl.md",
+      "title": "Qwen3-VL Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/qwen3_vl.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:26.566851736-03:00",
+      "description": "[Qwen3-VL](https://huggingface.co/collections/Qwen/qwen3-vl) is Alibaba\u2019s latest multimodal large language model with strong text, vision, and reasoning capabilities. SGLang supports Qwen3-VL Family of models with Image and Video input support.",
+      "summary": "This document provides instructions for deploying and optimizing the Qwen3-VL multimodal model using SGLang, including server launch commands, hardware-specific configurations, and API request examples for image and video processing.",
+      "tags": [
+        "qwen3-vl",
+        "sglang",
+        "multimodal",
+        "inference-server",
+        "gpu-optimization",
+        "image-processing",
+        "video-processing"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-qwen3-vl.md"
+    },
+    {
+      "file_path": "125-sources-basic-usage-qwen3.md",
+      "title": "Qwen3-Next Usage",
+      "url": "https://docs.sglang.io/_sources/basic_usage/qwen3.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:28.041242971-03:00",
+      "description": "SGLang has supported Qwen3-Next-80B-A3B-Instruct and Qwen3-Next-80B-A3B-Thinking since [this PR](https://github.com/sgl-project/sglang/pull/10233).",
+      "summary": "This document explains how to deploy and optimize Qwen3-Next models using SGLang, covering server launch procedures, Mamba cache configurations, and speculative decoding setup.",
+      "tags": [
+        "qwen3-next",
+        "sglang",
+        "model-deployment",
+        "mamba-cache",
+        "speculative-decoding",
+        "inference-optimization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-qwen3.md"
+    },
+    {
+      "file_path": "126-sources-basic-usage-sampling-params.md",
+      "title": "Sampling Parameters",
+      "url": "https://docs.sglang.io/_sources/basic_usage/sampling_params.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:36.330340826-03:00",
+      "description": "This doc describes the sampling parameters of the SGLang Runtime. It is the low-level endpoint of the runtime. If you want a high-level endpoint that can automatically handle chat templates, consider using the [OpenAI Compatible API](openai_api_completions.ipynb).",
+      "summary": "This document details the low-level sampling parameters and configuration options for the SGLang Runtime's /generate endpoint. It provides a comprehensive reference for input formats, multimodal data handling, and core sampling settings used during inference.",
+      "tags": [
+        "sglang-runtime",
+        "sampling-parameters",
+        "generate-endpoint",
+        "inference-api",
+        "multimodal-input",
+        "llm-configuration"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-basic-usage-sampling-params.md"
+    },
+    {
+      "file_path": "127-sources-developer-guide-bench-serving.md",
+      "title": "Bench Serving Guide",
+      "url": "https://docs.sglang.io/_sources/developer_guide/bench_serving.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:11.822066661-03:00",
+      "description": "This guide explains how to benchmark online serving throughput and latency using `python -m sglang.bench_serving`. It supports multiple inference backends via OpenAI-compatible and native endpoints, and produces both console metrics and optional JSONL outputs.",
+      "summary": "This guide explains how to use the sglang benchmarking tool to measure the performance, throughput, and latency of various LLM inference backends. It details configuration options for datasets, request rates, and concurrency to evaluate metrics like time-to-first-token and inter-token latency.",
+      "tags": [
+        "benchmarking",
+        "llm-inference",
+        "sglang",
+        "performance-tuning",
+        "throughput-latency",
+        "serving-infrastructure"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-developer-guide-bench-serving.md"
+    },
+    {
+      "file_path": "128-sources-developer-guide-benchmark-and-profiling.md",
+      "title": "Benchmark and Profiling",
+      "url": "https://docs.sglang.io/_sources/developer_guide/benchmark_and_profiling.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:06.738051665-03:00",
+      "description": "Note that this is a simplified test script without a dynamic batching server, so it may run out of memory for a batch size that a real server can handle. A real server truncates the prefill into several batches, while this simplified script does not.",
+      "summary": "This document provides instructions and command-line examples for benchmarking and profiling SGLang performance across various modes, including latency, throughput, and server-side profiling using PyTorch Profiler.",
+      "tags": [
+        "benchmarking",
+        "profiling",
+        "performance-tuning",
+        "sglang-server",
+        "pytorch-profiler",
+        "latency-testing",
+        "throughput-measurement"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-developer-guide-benchmark-and-profiling.md"
+    },
+    {
+      "file_path": "129-sources-developer-guide-contribution-guide.md",
+      "title": "Contribution Guide",
+      "url": "https://docs.sglang.io/_sources/developer_guide/contribution_guide.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:43.41980263-03:00",
+      "description": "Welcome to **SGLang**! We appreciate your interest in contributing. This guide provides a concise overview of how to set up your environment, run tests, build documentation, and open a Pull Request (PR). Whether you\u2019re fixing a small bug or developing a major feature, we encourage following the...",
+      "summary": "This document provides comprehensive instructions for developers looking to contribute to SGLang, covering environment setup, testing, code styling, and the pull request process.",
+      "tags": [
+        "sglang",
+        "contributing",
+        "open-source",
+        "git-workflow",
+        "coding-standards",
+        "unit-testing",
+        "continuous-integration"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-developer-guide-contribution-guide.md"
+    },
+    {
+      "file_path": "130-sources-developer-guide-development-guide-using-docker.md",
+      "title": "Development Guide Using Docker",
+      "url": "https://docs.sglang.io/_sources/developer_guide/development_guide_using_docker.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:40.500383884-03:00",
+      "description": "(Optional - you can skip this step if you plan to run sglang dev container locally)",
+      "summary": "This document provides instructions for setting up an SGLang development environment using Docker and VSCode, covering both automated dev containers and manual container configuration.",
+      "tags": [
+        "docker",
+        "sglang",
+        "vscode",
+        "dev-container",
+        "remote-development",
+        "environment-setup",
+        "debugging"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-developer-guide-development-guide-using-docker.md"
+    },
+    {
+      "file_path": "131-sources-developer-guide-development-jit-kernel-guide.md",
+      "title": "Development Guide for JIT Kernels",
+      "url": "https://docs.sglang.io/_sources/developer_guide/development_jit_kernel_guide.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:18.759566198-03:00",
+      "description": "We strongly recommend using `clangd` as the language server for JIT kernel development. For Ubuntu/Debian, you can download clangd from [apt.llvm.org](https://apt.llvm.org/). If you are using VS Code, we recommend installing the `clangd` extension for better IDE integration.",
+      "summary": "This document provides a comprehensive guide for developing and integrating just-in-time (JIT) kernels within the SGLang framework, covering environment setup, C++ utilities, and Python interfaces.",
+      "tags": [
+        "jit-kernels",
+        "cuda-programming",
+        "sglang",
+        "runtime-compilation",
+        "cpp-extensions",
+        "python-bindings",
+        "tvm-ffi"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-developer-guide-development-jit-kernel-guide.md"
+    },
+    {
+      "file_path": "132-sources-developer-guide-evaluating-new-models.md",
+      "title": "Evaluating New Models with SGLang",
+      "url": "https://docs.sglang.io/_sources/developer_guide/evaluating_new_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:49.428724882-03:00",
+      "description": "This document provides commands for evaluating models' accuracy and performance. Before open-sourcing new models, we strongly suggest running these commands to verify whether the score matches your internal benchmark results.",
+      "summary": "This document provides instructions and command-line examples for evaluating the accuracy and performance of LLMs and VLMs using SGLang benchmarking scripts.",
+      "tags": [
+        "sglang",
+        "model-evaluation",
+        "benchmarking",
+        "llm-performance",
+        "vlm-accuracy",
+        "latency-testing",
+        "throughput-measurement"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-developer-guide-evaluating-new-models.md"
+    },
+    {
+      "file_path": "133-sources-get-started-install.md",
+      "title": "Install SGLang",
+      "url": "https://docs.sglang.io/_sources/get_started/install.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:31.552346201-03:00",
+      "description": "You can install SGLang using one of the methods below. This page primarily applies to common NVIDIA GPU platforms. For other or newer platforms, please refer to the dedicated pages for [AMD GPUs](../platforms/amd_gpu.md), [Intel Xeon CPUs](../platforms/cpu_server.md), [TPU](../platforms/tpu.md), ...",
+      "summary": "This document provides comprehensive instructions for installing SGLang through various methods including package managers, containerization, and cloud-based deployment platforms.",
+      "tags": [
+        "installation-guide",
+        "sglang",
+        "docker-deployment",
+        "kubernetes",
+        "python-pip",
+        "nvidia-gpu",
+        "cloud-computing"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-get-started-install.md"
+    },
+    {
+      "file_path": "134-sources-platforms-amd-gpu.md",
+      "title": "AMD GPUs",
+      "url": "https://docs.sglang.io/_sources/platforms/amd_gpu.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:00.37484124-03:00",
+      "description": "This document describes how run SGLang on AMD GPUs. If you encounter issues or have questions, please [open an issue](https://github.com/sgl-project/sglang/issues).",
+      "summary": "This document provides a comprehensive guide for configuring system settings and installing SGLang on AMD GPUs, specifically focusing on optimization for MI300X hardware.",
+      "tags": [
+        "amd-gpu",
+        "rocm",
+        "mi300x",
+        "sglang",
+        "system-configuration",
+        "installation-guide",
+        "docker-deployment"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-amd-gpu.md"
+    },
+    {
+      "file_path": "135-sources-platforms-ascend-contribution-guide.md",
+      "title": "Contribution Guide",
+      "url": "https://docs.sglang.io/_sources/platforms/ascend_contribution_guide.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:47.678502012-03:00",
+      "description": "Welcome to **SGLang**! We appreciate your interest in contributing. This guide provides a concise overview of how to set up your environment, run tests, build documentation, and open a Pull Request (PR). Whether you\u2019re fixing a small bug or developing a major feature, we encourage following the...",
+      "summary": "This document outlines the procedures and requirements for contributing to the SGLang project, including environment setup, testing protocols, and coding standards. It provides a step-by-step guide for developers to submit pull requests and follow the project's development workflow.",
+      "tags": [
+        "open-source-contribution",
+        "developer-guide",
+        "sglang-development",
+        "testing-standards",
+        "code-formatting",
+        "pull-request-workflow",
+        "continuous-integration"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-ascend-contribution-guide.md"
+    },
+    {
+      "file_path": "136-sources-platforms-ascend-npu-best-practice.md",
+      "title": "Best Practice on Ascend NPU",
+      "url": "https://docs.sglang.io/_sources/platforms/ascend_npu_best_practice.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:46.246004915-03:00",
+      "description": "This section describes the best practice data of mainstream LLM models such as DeepSeek and Qwen on the Ascend Npu. If you encounter issues or have any questions, please [open an issue](https://github.com/sgl-project/sglang/issues).",
+      "summary": "This document provides performance benchmarks and optimal configuration settings for deploying DeepSeek and Qwen models on Huawei Ascend NPU hardware.",
+      "tags": [
+        "ascend-npu",
+        "deepseek",
+        "qwen",
+        "llm-deployment",
+        "performance-optimization",
+        "model-quantization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-ascend-npu-best-practice.md"
+    },
+    {
+      "file_path": "137-sources-platforms-ascend-npu-deepseek-example.md",
+      "title": "",
+      "url": "https://docs.sglang.io/_sources/platforms/ascend_npu_deepseek_example.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:53.983462236-03:00",
+      "description": "W4A8 Model weights could be found [here](https://modelers.cn/models/Modelers_Park/DeepSeek-R1-0528-w4a8).",
+      "summary": "This document provides configuration commands and environment settings for deploying DeepSeek models on Huawei Atlas 800I A3 NPUs using SGLang. It covers deployment strategies including mixed mode and prefill-decode disaggregation for optimized inference performance.",
+      "tags": [
+        "deepseek",
+        "huawei-atlas",
+        "npu",
+        "sglang",
+        "distributed-inference",
+        "model-deployment",
+        "performance-tuning"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-ascend-npu-deepseek-example.md"
+    },
+    {
+      "file_path": "138-sources-platforms-ascend-npu-qwen3-examples.md",
+      "title": "",
+      "url": "https://docs.sglang.io/_sources/platforms/ascend_npu_qwen3_examples.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:43.993048996-03:00",
+      "description": "Model weights could be found [here](https://huggingface.co/Qwen/Qwen3-32B)",
+      "summary": "This document provides configuration examples and shell commands for deploying various Qwen3 model architectures on Atlas 800I A3 NPUs using the SGLang serving framework.",
+      "tags": [
+        "qwen3",
+        "atlas-800i-a3",
+        "sglang",
+        "npu-deployment",
+        "ascend-npu",
+        "llm-serving"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-ascend-npu-qwen3-examples.md"
+    },
+    {
+      "file_path": "139-sources-platforms-ascend-npu-support-models.md",
+      "title": "Support Models on Ascend NPU",
+      "url": "https://docs.sglang.io/_sources/platforms/ascend_npu_support_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:49:22.305204489-03:00",
+      "description": "This section describes the models supported on the Ascend NPU, including Large Language Models, Multimodal Language Models, Embedding Models, Reward Models and Rerank Models. Mainstream DeepSeek/Qwen/GLM series are included. You are welcome to enable various models based on your business requirem...",
+      "summary": "This document provides a compatibility matrix of supported Large Language Models, Multimodal models, and other AI architectures on Ascend NPU A2 and A3 hardware.",
+      "tags": [
+        "ascend-npu",
+        "model-compatibility",
+        "large-language-models",
+        "hardware-support",
+        "npu-acceleration",
+        "deepseek",
+        "qwen",
+        "llama"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-ascend-npu-support-models.md"
+    },
+    {
+      "file_path": "140-sources-platforms-ascend-npu.md",
+      "title": "SGLang installation with NPUs support",
+      "url": "https://docs.sglang.io/_sources/platforms/ascend_npu.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:24.177156358-03:00",
+      "description": "You can install SGLang using any of the methods below. Please go through `System Settings` section to ensure the clusters are roaring at max performance. Feel free to leave an issue [here at sglang](https://github.com/sgl-project/sglang/issues) if you encounter any issues or have any problems.",
+      "summary": "This document provides comprehensive instructions for installing and configuring SGLang on Ascend NPU hardware, including dependency requirements, source/docker installation methods, and system performance optimizations.",
+      "tags": [
+        "sglang",
+        "ascend-npu",
+        "cann",
+        "installation-guide",
+        "docker",
+        "performance-tuning"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-ascend-npu.md"
+    },
+    {
+      "file_path": "141-sources-platforms-cpu-server.md",
+      "title": "CPU Servers",
+      "url": "https://docs.sglang.io/_sources/platforms/cpu_server.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:23.496269369-03:00",
+      "description": "The document addresses how to set up the [SGLang](https://github.com/sgl-project/sglang) environment and run LLM inference on CPU servers. SGLang is enabled and optimized on the CPUs equipped with Intel\u00ae AMX\u00ae Instructions, which are 4th generation or newer Intel\u00ae Xeon\u00ae Scalable Processors.",
+      "summary": "This document provides instructions for setting up the SGLang environment and running optimized LLM inference on Intel CPU servers with AMX support. It covers installation via Docker or source, configuration of environment variables, and how to launch the serving engine.",
+      "tags": [
+        "sglang",
+        "cpu-inference",
+        "intel-xeon",
+        "intel-amx",
+        "llm-serving",
+        "installation-guide"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-cpu-server.md"
+    },
+    {
+      "file_path": "142-sources-platforms-nvidia-jetson.md",
+      "title": "NVIDIA Jetson Orin",
+      "url": "https://docs.sglang.io/_sources/platforms/nvidia_jetson.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:45.043522977-03:00",
+      "description": "Before starting, ensure the following:",
+      "summary": "This document provides instructions for installing and running SGLang on NVIDIA Jetson Orin hardware, covering environment prerequisites, container-based setup, and optimized inference techniques.",
+      "tags": [
+        "nvidia-jetson-orin",
+        "sglang",
+        "jetson-containers",
+        "llm-inference",
+        "quantization",
+        "torchao",
+        "edge-computing"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-nvidia-jetson.md"
+    },
+    {
+      "file_path": "143-sources-platforms-tpu.md",
+      "title": "TPU",
+      "url": "https://docs.sglang.io/_sources/platforms/tpu.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:01.798711703-03:00",
+      "description": "SGLang supports high-performance TPU inference through the SGLang-JAX backend, which is specifically optimized for Google Cloud TPUs. The JAX-based implementation delivers exceptional throughput and low latency for Large Language Model (LLM) serving workloads on TPU hardware.",
+      "summary": "This document provides a comprehensive guide for deploying high-performance LLM inference on Google Cloud TPUs using the SGLang-JAX backend. It covers installation, system requirements, feature support, and detailed server configuration for optimized model serving.",
+      "tags": [
+        "sglang-jax",
+        "tpu-inference",
+        "google-cloud-tpu",
+        "llm-serving",
+        "jax-backend",
+        "distributed-inference",
+        "speculative-decoding"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-tpu.md"
+    },
+    {
+      "file_path": "144-sources-platforms-xpu.md",
+      "title": "XPU",
+      "url": "https://docs.sglang.io/_sources/platforms/xpu.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:09.535356128-03:00",
+      "description": "The document addresses how to set up the [SGLang](https://github.com/sgl-project/sglang) environment and run LLM inference on Intel GPU, [see more context about Intel GPU support within PyTorch ecosystem](https://docs.pytorch.org/docs/stable/notes/get_start_xpu.html).",
+      "summary": "This document explains how to set up the SGLang environment, install necessary dependencies, and run LLM inference and benchmarking on Intel XPU hardware.",
+      "tags": [
+        "intel-xpu",
+        "sglang",
+        "llm-inference",
+        "intel-gpu",
+        "pytorch-xpu",
+        "installation"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-platforms-xpu.md"
+    },
+    {
+      "file_path": "145-sources-references-custom-chat-template.md",
+      "title": "Custom Chat Template",
+      "url": "https://docs.sglang.io/_sources/references/custom_chat_template.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:13.600386467-03:00",
+      "description": "**NOTE**: There are two chat template systems in SGLang project. This document is about setting a custom chat template for the OpenAI-compatible API server (defined at [conversation.py](https://github.com/sgl-project/sglang/blob/main/python/sglang/srt/conversation.py)). It is NOT related to the c...",
+      "summary": "This document explains how to configure and override custom chat templates for the SGLang OpenAI-compatible API server using built-in names, JSON files, or Jinja templates.",
+      "tags": [
+        "sglang",
+        "chat-template",
+        "api-configuration",
+        "openai-compatibility",
+        "jinja",
+        "model-serving"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-custom-chat-template.md"
+    },
+    {
+      "file_path": "146-sources-references-environment-variables.md",
+      "title": "Environment Variables",
+      "url": "https://docs.sglang.io/_sources/references/environment_variables.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:09.303597901-03:00",
+      "description": "SGLang supports various environment variables that can be used to configure its runtime behavior. This document provides a comprehensive list and aims to stay updated over time.",
+      "summary": "This document provides a comprehensive reference of environment variables used to configure SGLang's runtime behavior, performance optimizations, and advanced feature sets.",
+      "tags": [
+        "sglang",
+        "environment-variables",
+        "configuration",
+        "performance-tuning",
+        "runtime-behavior",
+        "deepgemm",
+        "deepep"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-environment-variables.md"
+    },
+    {
+      "file_path": "147-sources-references-faq.md",
+      "title": "Troubleshooting and Frequently Asked Questions",
+      "url": "https://docs.sglang.io/_sources/references/faq.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:40.877540418-03:00",
+      "description": "This page lists common errors and tips for resolving them.",
+      "summary": "This document provides troubleshooting steps for common issues like CUDA out-of-memory errors and server hangs, along with explanations for inference determinism in sglang.",
+      "tags": [
+        "troubleshooting",
+        "cuda-oom",
+        "sglang",
+        "memory-management",
+        "error-handling",
+        "inference-optimization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-faq.md"
+    },
+    {
+      "file_path": "148-sources-references-frontend-choices-methods.md",
+      "title": "Choices Methods in SGLang",
+      "url": "https://docs.sglang.io/_sources/references/frontend/choices_methods.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:45.706877911-03:00",
+      "description": "This doc describes the choices methods supported by SGLang.",
+      "summary": "This document explains the various selection methods available for the choices primitive in SGLang, detailing how options are ranked and selected based on different log-probability normalization techniques.",
+      "tags": [
+        "sglang",
+        "choices-methods",
+        "log-probability",
+        "token-selection",
+        "llm-inference",
+        "normalization"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-frontend-choices-methods.md"
+    },
+    {
+      "file_path": "149-sources-references-learn-more.md",
+      "title": "Learn More and Join the Community",
+      "url": "https://docs.sglang.io/_sources/references/learn_more.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:42.095453926-03:00",
+      "summary": "This document provides a collection of links and resources to help users engage with the SGLang community and stay informed about the project's development roadmap.",
+      "tags": [
+        "sglang",
+        "community-resources",
+        "project-roadmap",
+        "social-media",
+        "developer-engagement"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-learn-more.md"
+    },
+    {
+      "file_path": "150-sources-references-multi-node-deployment-deploy-on-k8s.md",
+      "title": "Deploy On Kubernetes",
+      "url": "https://docs.sglang.io/_sources/references/multi_node_deployment/deploy_on_k8s.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:49:08.363650347-03:00",
+      "description": "This document is for deploying a RoCE network-based SGLang two-node inference service on a Kubernetes (K8S) cluster.",
+      "summary": "This guide explains how to deploy SGLang on a Kubernetes cluster for multi-node distributed inference using the LeaderWorkerSet (LWS) API and RoCE networking.",
+      "tags": [
+        "kubernetes",
+        "sglang",
+        "leaderworkerset",
+        "roce",
+        "rdma",
+        "distributed-inference",
+        "gpu-acceleration"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-multi-node-deployment-deploy-on-k8s.md"
+    },
+    {
+      "file_path": "151-sources-references-multi-node-deployment-lws-pd-lws-pd-deploy.md",
+      "title": "LWS Based PD Deploy",
+      "url": "https://docs.sglang.io/_sources/references/multi_node_deployment/lws_pd/lws_pd_deploy.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:37.910764505-03:00",
+      "description": "`lmsysorg/sglang:deepep`",
+      "summary": "This document provides instructions and Kubernetes manifest examples for deploying SGLang in a disaggregated prefill/decode architecture using the LeaderWorkerSet (LWS) operator.",
+      "tags": [
+        "kubernetes",
+        "leaderworkerset",
+        "sglang",
+        "distributed-inference",
+        "deepseek",
+        "prefill-decode-disaggregation",
+        "deployment-manifest"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-multi-node-deployment-lws-pd-lws-pd-deploy.md"
+    },
+    {
+      "file_path": "152-sources-references-multi-node-deployment-multi-node.md",
+      "title": "Multi-Node Deployment",
+      "url": "https://docs.sglang.io/_sources/references/multi_node_deployment/multi_node.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:49:23.098135809-03:00",
+      "description": "**Run 405B (fp16) on Two Nodes**",
+      "summary": "This document provides instructions and examples for deploying large language models across multiple nodes using SGLang, including configurations for Llama 3.1 and SLURM cluster integration.",
+      "tags": [
+        "multi-node-deployment",
+        "distributed-inference",
+        "sglang",
+        "llama-3-1",
+        "slurm",
+        "tensor-parallelism"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-multi-node-deployment-multi-node.md"
+    },
+    {
+      "file_path": "153-sources-references-multi-node-deployment-rbg-pd-deepseekv32-pd.md",
+      "title": "DeepSeekV32-Exp RBG Based PD Deploy",
+      "url": "https://docs.sglang.io/_sources/references/multi_node_deployment/rbg_pd/deepseekv32_pd.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:56.466810699-03:00",
+      "description": "For RBG installation, please refer to: https://github.com/sgl-project/rbg",
+      "summary": "This document provides a deployment guide and Kubernetes manifest for running DeepSeek-V3 with Prefill-Decode disaggregation using the Role-Based Group (RBG) controller and sglang.",
+      "tags": [
+        "deepseek-v3",
+        "kubernetes",
+        "sglang",
+        "role-based-group",
+        "prefill-decode-disaggregation",
+        "k8s-operator",
+        "llm-deployment"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-multi-node-deployment-rbg-pd-deepseekv32-pd.md"
+    },
+    {
+      "file_path": "154-sources-references-post-training-integration.md",
+      "title": "Post-Training Integration",
+      "url": "https://docs.sglang.io/_sources/references/post_training_integration.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:12.584890792-03:00",
+      "description": "SGLang has become the de facto inference backend for modern LLM training frameworks, powering state-of-the-art models across the industry. From GLM-4.6 to Qwen3, leading models leverage SGLang's high-performance inference during reinforcement learning and post-training workflows.",
+      "summary": "This document outlines the features and integration capabilities of SGLang as a high-performance inference backend for large-scale post-training and reinforcement learning workflows.",
+      "tags": [
+        "sglang",
+        "post-training",
+        "reinforcement-learning",
+        "llm-inference",
+        "rlhf",
+        "model-training"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-post-training-integration.md"
+    },
+    {
+      "file_path": "155-sources-references-production-metrics.md",
+      "title": "Production Metrics",
+      "url": "https://docs.sglang.io/_sources/references/production_metrics.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:08.015786343-03:00",
+      "description": "SGLang exposes the following metrics via Prometheus. You can enable it by adding `--enable-metrics` when you launch the server.",
+      "summary": "This document outlines the production metrics available in SGLang via Prometheus integration, detailing how to enable monitoring and the specific metrics tracked for performance analysis.",
+      "tags": [
+        "sglang",
+        "prometheus",
+        "monitoring",
+        "metrics",
+        "grafana",
+        "performance-tracking",
+        "llm-serving"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-production-metrics.md"
+    },
+    {
+      "file_path": "156-sources-references-production-request-trace.md",
+      "title": "Production Request Tracing",
+      "url": "https://docs.sglang.io/_sources/references/production_request_trace.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:10.319461602-03:00",
+      "description": "SGlang exports request trace data based on the OpenTelemetry Collector. You can enable tracing by adding the `--enable-trace` and configure the OpenTelemetry Collector endpoint using `--otlp-traces-endpoint` when launching the server.",
+      "summary": "This document explains how to enable, configure, and extend request tracing in SGLang using OpenTelemetry and Jaeger for monitoring and performance analysis.",
+      "tags": [
+        "sglang",
+        "opentelemetry",
+        "request-tracing",
+        "observability",
+        "distributed-tracing",
+        "jaeger",
+        "performance-monitoring"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-production-request-trace.md"
+    },
+    {
+      "file_path": "157-sources-references-torch-compile-cache.md",
+      "title": "Enabling cache for torch.compile",
+      "url": "https://docs.sglang.io/_sources/references/torch_compile_cache.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:29.259806392-03:00",
+      "description": "SGLang uses `max-autotune-no-cudagraphs` mode of torch.compile. The auto-tuning can be slow. If you want to deploy a model on many different machines, you can ship the torch.compile cache to these machines and skip the compilation steps.",
+      "summary": "This document explains how to enable and share the torch.compile cache in SGLang to speed up deployments by skipping the compilation process across multiple machines.",
+      "tags": [
+        "sglang",
+        "torch-compile",
+        "caching",
+        "deployment",
+        "performance-optimization",
+        "pytorch-inductor"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-references-torch-compile-cache.md"
+    },
+    {
+      "file_path": "158-sources-supported-models-classify-models.md",
+      "title": "Classification API",
+      "url": "https://docs.sglang.io/_sources/supported_models/classify_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:23.620253817-03:00",
+      "description": "This document describes the `/v1/classify` API endpoint implementation in SGLang, which is compatible with vLLM's classification API format.",
+      "summary": "This document details the implementation and usage of the /v1/classify API endpoint in SGLang, which provides a vLLM-compatible interface for text classification and reward modeling.",
+      "tags": [
+        "sglang",
+        "classification-api",
+        "vllm-compatibility",
+        "text-classification",
+        "api-specification",
+        "reward-models"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-classify-models.md"
+    },
+    {
+      "file_path": "159-sources-supported-models-diffusion-language-models.md",
+      "title": "Diffusion Language Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/diffusion_language_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:03.42472958-03:00",
+      "description": "Diffusion language models have shown promise for non-autoregressive text generation with parallel decoding capabilities. Unlike auto-regressive language models, different diffusion language models require different decoding strategies.",
+      "summary": "This document provides instructions on how to launch, configure, and query diffusion language models using the sglang framework and its REST API or Python client.",
+      "tags": [
+        "diffusion-language-models",
+        "sglang",
+        "llada",
+        "model-deployment",
+        "non-autoregressive-text-generation",
+        "inference-server"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-diffusion-language-models.md"
+    },
+    {
+      "file_path": "160-sources-supported-models-diffusion-models.md",
+      "title": "Diffusion Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/diffusion_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:01.475682791-03:00",
+      "description": "SGLang Diffusion is an inference framework for accelerated image and video generation using diffusion models. It provides an end-to-end unified pipeline with optimized kernels from sgl-kernel and an efficient scheduler loop.",
+      "summary": "This document introduces SGLang Diffusion, an inference framework for accelerated image and video generation, providing installation instructions and a detailed compatibility matrix. It outlines support for various diffusion models, hardware platforms including NVIDIA and AMD GPUs, and specific performance optimizations.",
+      "tags": [
+        "sglang-diffusion",
+        "image-generation",
+        "video-generation",
+        "inference-acceleration",
+        "model-compatibility",
+        "installation-guide"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-diffusion-models.md"
+    },
+    {
+      "file_path": "161-sources-supported-models-embedding-models.md",
+      "title": "Embedding Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/embedding_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:25.000163019-03:00",
+      "description": "SGLang provides robust support for embedding models by integrating efficient serving mechanisms with its flexible programming interface. This integration allows for streamlined handling of embedding tasks, facilitating faster and more accurate retrieval and semantic search operations. SGLang's ar...",
+      "summary": "This document explains how to deploy and utilize various embedding models in SGLang, including text, multimodal, and Matryoshka embeddings.",
+      "tags": [
+        "sglang",
+        "embedding-models",
+        "multimodal-embeddings",
+        "matryoshka-embeddings",
+        "model-serving",
+        "rest-api",
+        "inference"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-embedding-models.md"
+    },
+    {
+      "file_path": "162-sources-supported-models-generative-models.md",
+      "title": "Large Language Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/generative_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:57.15801487-03:00",
+      "description": "These models accept text input and produce text output (e.g., chat completions). They are primarily large language models (LLMs), some with mixture-of-experts (MoE) architectures for scaling.",
+      "summary": "This document lists the supported Large Language Model (LLM) architectures and provides instructions for launching a model server and verifying implementation details.",
+      "tags": [
+        "llm-support",
+        "supported-models",
+        "model-deployment",
+        "moe-architecture",
+        "sglang-srt",
+        "huggingface-integration"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-generative-models.md"
+    },
+    {
+      "file_path": "163-sources-supported-models-mindspore-models.md",
+      "title": "MindSpore Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/mindspore_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:07.271655034-03:00",
+      "description": "MindSpore is a high-performance AI framework optimized for Ascend NPUs. This doc guides users to run MindSpore models in SGLang.",
+      "summary": "This document explains how to install, configure, and run MindSpore-based models using the SGLang framework specifically on Ascend NPU hardware.",
+      "tags": [
+        "mindspore",
+        "sglang",
+        "ascend-npu",
+        "model-inference",
+        "distributed-serving",
+        "troubleshooting"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-mindspore-models.md"
+    },
+    {
+      "file_path": "164-sources-supported-models-modelscope.md",
+      "title": "Use Models From ModelScope",
+      "url": "https://docs.sglang.io/_sources/supported_models/modelscope.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:42.260649363-03:00",
+      "description": "To use a model from [ModelScope](https://www.modelscope.cn), set the environment variable `SGLANG_USE_MODELSCOPE`.",
+      "summary": "This document explains how to configure SGLANG to use models from ModelScope by setting the SGLANG_USE_MODELSCOPE environment variable and provides server launch examples.",
+      "tags": [
+        "modelscope",
+        "sglang",
+        "environment-variables",
+        "docker",
+        "deployment",
+        "llm-serving"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-modelscope.md"
+    },
+    {
+      "file_path": "165-sources-supported-models-multimodal-language-models.md",
+      "title": "Multimodal Language Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/multimodal_language_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:59.771666191-03:00",
+      "description": "These models accept multi-modal inputs (e.g., images and text) and generate text output. They augment language models with multimodal encoders.",
+      "summary": "This document lists the supported multimodal language models in SGLang and provides instructions for launching a server with vision-capable models.",
+      "tags": [
+        "multimodal-llm",
+        "vision-language-models",
+        "sglang",
+        "inference-server",
+        "model-support"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-multimodal-language-models.md"
+    },
+    {
+      "file_path": "166-sources-supported-models-rerank-models.md",
+      "title": "Rerank Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/rerank_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:02.750165285-03:00",
+      "description": "SGLang offers comprehensive support for rerank models by incorporating optimized serving frameworks with a flexible programming interface. This setup enables efficient processing of cross-encoder reranking tasks, improving the accuracy and relevance of search result ordering. SGLang\u2019s design en...",
+      "summary": "This document describes how to deploy and interact with rerank models in SGLang, covering both cross-encoder and decoder-only architectures including multimodal support.",
+      "tags": [
+        "sglang",
+        "rerank-models",
+        "cross-encoder",
+        "decoder-only",
+        "multimodal-reranker",
+        "api-endpoint"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-rerank-models.md"
+    },
+    {
+      "file_path": "167-sources-supported-models-reward-models.md",
+      "title": "Reward Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/reward_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:02.222525504-03:00",
+      "description": "These models output a scalar reward score or classification result, often used in reinforcement learning or content moderation tasks.",
+      "summary": "This document provides instructions for launching reward models via SGLang and lists supported model families for preference scoring and classification.",
+      "tags": [
+        "reward-models",
+        "sglang",
+        "rlhf",
+        "model-deployment",
+        "sequence-classification"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-reward-models.md"
+    },
+    {
+      "file_path": "168-sources-supported-models-support-new-models.md",
+      "title": "How to Support New Models",
+      "url": "https://docs.sglang.io/_sources/supported_models/support_new_models.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:47:58.987749569-03:00",
+      "description": "This document explains how to add support for new language models and multimodal large language models (MLLMs) in SGLang. It also covers how to test new models and register external implementations.",
+      "summary": "This document provides a comprehensive technical guide on how to integrate, test, and benchmark new language and multimodal models within the SGLang runtime environment.",
+      "tags": [
+        "sglang",
+        "model-integration",
+        "mllm",
+        "vllm-porting",
+        "radix-attention",
+        "benchmarking",
+        "model-registration"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-support-new-models.md"
+    },
+    {
+      "file_path": "169-sources-supported-models-transformers-fallback.md",
+      "title": "Transformers fallback in SGLang",
+      "url": "https://docs.sglang.io/_sources/supported_models/transformers_fallback.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-04T08:48:22.479447157-03:00",
+      "description": "`sglang` can fall back to using models that are available in `transformers`. This works for most decoder-style language models and support for vision-language models is coming soon!",
+      "summary": "This document explains how SGLang can fall back to the Hugging Face Transformers library for model execution, including configuration steps and requirements for remote code support.",
+      "tags": [
+        "sglang",
+        "transformers-fallback",
+        "model-implementation",
+        "quantization",
+        "remote-code",
+        "llm-inference"
+      ],
+      "category": "sources",
+      "original_file_path": "sources-supported-models-transformers-fallback.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-04T08:56:45.855844Z",
+    "total_files": 169,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Basic Usage - API & Tutorials",
+      "Basic Usage - Model Examples",
+      "Supported Models - How-To",
+      "Supported Models - Reference",
+      "Advanced Features - Structured Outputs & Tools",
+      "Advanced Features - Optimization",
+      "Advanced Features - Performance & Scaling",
+      "Advanced Features - Other",
+      "Platform Guides",
+      "Multi-Node Deployment",
+      "Production & Operations",
+      "Frontend & Language",
+      "Developer Guide",
+      "References & Other"
+    ]
+  }
+}

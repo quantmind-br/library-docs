@@ -1,0 +1,2034 @@
+{
+  "generated_at": "2026-02-04T07:25:37.729834263-03:00",
+  "source_url": "https://docs.perplexity.ai/llms.txt",
+  "strategy": "llms",
+  "total_documents": 105,
+  "documents": [
+    {
+      "file_path": "001-getting-started-overview.md",
+      "title": "null",
+      "url": "https://docs.perplexity.ai/docs/getting-started/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:04.622735848-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document serves as the primary landing page and index for Perplexity AI's developer documentation, providing navigation to available pages and a quickstart guide for making API calls.",
+      "tags": [
+        "perplexity-ai",
+        "api-documentation",
+        "quickstart",
+        "developer-tools",
+        "search-api",
+        "code-examples"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "docs-getting-started-overview.md"
+    },
+    {
+      "file_path": "002-cookbook-index.md",
+      "title": "Perplexity API Cookbook",
+      "url": "https://docs.perplexity.ai/docs/cookbook/index.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:28.827345602-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document serves as an index for the Perplexity API Cookbook, offering a collection of practical examples, integration tutorials, and showcase projects for developers. It provides a structured path for getting started with the platform's real-time AI search and answer engine capabilities.",
+      "tags": [
+        "perplexity-api",
+        "api-cookbook",
+        "developer-resources",
+        "integration-guides",
+        "code-examples",
+        "ai-search"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "docs-cookbook-index.md"
+    },
+    {
+      "file_path": "003-index.md",
+      "title": "Perplexity API Platform Forum",
+      "url": "https://community.perplexity.ai",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:27.025007721-03:00",
+      "description": "A support and collaboration forum for developers using the Perplexity Sonar API.",
+      "summary": "The provided document is empty and does not contain any content to summarize or explain.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "004-tools-overview.md",
+      "title": "Tools Overview",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/tools/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:31.172577931-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of the built-in and custom tools available in the Agentic Research API, explaining how to configure them to extend model capabilities with web search and function calling.",
+      "tags": [
+        "agentic-research-api",
+        "web-search",
+        "fetch-url",
+        "function-calling",
+        "tool-configuration",
+        "api-tools"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "docs-grounded-llm-responses-tools-overview.md"
+    },
+    {
+      "file_path": "005-examples-overview.md",
+      "title": "Examples Overview",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:07.537747626-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of production-ready example applications demonstrating various use cases for the Perplexity Sonar API, including tools for fact-checking, financial tracking, and academic research.",
+      "tags": [
+        "perplexity-api",
+        "sonar-api",
+        "api-examples",
+        "llm-applications",
+        "python-scripts",
+        "fact-checking"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "docs-cookbook-examples-README.md"
+    },
+    {
+      "file_path": "006-getting-started-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://docs.perplexity.ai/docs/getting-started/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:11.337488345-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This quickstart guide provides instructions for setting up the Perplexity API, covering authentication, SDK installation, and executing initial calls for chat completions, agentic research, and search services.",
+      "tags": [
+        "perplexity-api",
+        "quickstart",
+        "authentication",
+        "sdk-installation",
+        "chat-completions",
+        "agentic-research"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-getting-started-quickstart.md"
+    },
+    {
+      "file_path": "007-integrations-mcp-server.md",
+      "title": "Perplexity MCP Server",
+      "url": "https://docs.perplexity.ai/docs/getting-started/integrations/mcp-server.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:58.03675844-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for installing and configuring the Perplexity MCP Server to integrate web search and reasoning capabilities into AI assistants. It covers setup procedures for various clients and details specific tools for search, research, and deep reasoning.",
+      "tags": [
+        "perplexity-ai",
+        "mcp-server",
+        "model-context-protocol",
+        "search-api",
+        "installation-guide",
+        "ai-integration",
+        "configuration"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-getting-started-integrations-mcp-server.md"
+    },
+    {
+      "file_path": "008-chat-completions-quickstart.md",
+      "title": "Chat Completions API",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:47.404518284-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive guide for integrating Perplexity's Chat Completions API, covering installation, authentication, and basic implementation of web-grounded AI responses.",
+      "tags": [
+        "perplexity-api",
+        "chat-completions",
+        "sdk-installation",
+        "openai-compatibility",
+        "streaming-responses",
+        "web-grounded-ai",
+        "api-authentication",
+        "developer-tools"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-grounded-llm-chat-completions-quickstart.md"
+    },
+    {
+      "file_path": "009-pro-search-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/pro-search/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:37.399078904-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a quickstart guide for implementing Pro Search with the Sonar Pro model, detailing multi-step reasoning, tool orchestration, and streaming requirements.",
+      "tags": [
+        "sonar-pro",
+        "pro-search",
+        "streaming-api",
+        "multi-step-reasoning",
+        "perplexity-ai",
+        "web-search-options"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-grounded-llm-chat-completions-pro-search-quickstart.md"
+    },
+    {
+      "file_path": "010-agentic-research-quickstart.md",
+      "title": "Agentic Research API",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:21.313419716-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces the Agentic Research API, detailing how to install SDKs, authenticate, and implement multi-provider LLM applications with integrated web search and tool capabilities.",
+      "tags": [
+        "agentic-research-api",
+        "perplexity-ai",
+        "sdk-installation",
+        "web-search-tool",
+        "multi-provider-llm",
+        "api-authentication"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-grounded-llm-responses-quickstart.md"
+    },
+    {
+      "file_path": "011-sdk-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://docs.perplexity.ai/docs/sdk/overview.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:00.96779157-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for installing and setting up the official Perplexity SDKs in Python and TypeScript, including authentication and client initialization. It outlines the primary APIs available, such as Chat Completions, Agentic Research, and Search.",
+      "tags": [
+        "perplexity-sdk",
+        "python-sdk",
+        "typescript-sdk",
+        "api-authentication",
+        "installation",
+        "quickstart"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-sdk-overview.md"
+    },
+    {
+      "file_path": "012-search-quickstart.md",
+      "title": "Perplexity Search API",
+      "url": "https://docs.perplexity.ai/docs/search/quickstart.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:22.346618072-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces the Perplexity Search API, providing instructions for installation, authentication, and implementation using Python and JavaScript SDKs.",
+      "tags": [
+        "perplexity-api",
+        "web-search",
+        "api-integration",
+        "python-sdk",
+        "javascript-sdk",
+        "real-time-search"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-search-quickstart.md"
+    },
+    {
+      "file_path": "013-example-disease-qa.md",
+      "title": "Disease Information App",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/disease-qa/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:16.835141834-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for setting up and deploying an interactive disease information application powered by the Perplexity Sonar API. It details the technical requirements, installation process, and the structure of the generated standalone web interface.",
+      "tags": [
+        "perplexity-api",
+        "sonar-model",
+        "python-application",
+        "web-app",
+        "medical-information",
+        "api-usage",
+        "structured-data"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-examples-disease-qa-README.md"
+    },
+    {
+      "file_path": "014-example-fact-checker-cli.md",
+      "title": "Fact Checker CLI",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/fact-checker-cli/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:20.164782712-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for installing and using a command-line tool that leverages the Perplexity Sonar API to verify the factual accuracy of claims, articles, and URLs.",
+      "tags": [
+        "fact-checking",
+        "cli-tool",
+        "perplexity-api",
+        "sonar-api",
+        "python",
+        "data-verification",
+        "structured-outputs"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-examples-fact-checker-cli-README.md"
+    },
+    {
+      "file_path": "015-example-financial-news-tracker.md",
+      "title": "Financial News Tracker",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/financial-news-tracker/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:23.084181323-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for installing and using a command-line tool that utilizes the Perplexity Sonar API to aggregate and analyze real-time financial news and market sentiment.",
+      "tags": [
+        "financial-news",
+        "perplexity-api",
+        "market-analysis",
+        "sentiment-analysis",
+        "cli-tool",
+        "data-extraction"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-examples-financial-news-tracker-README.md"
+    },
+    {
+      "file_path": "016-example-research-finder.md",
+      "title": "Academic Research Finder CLI",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/research-finder/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:25.582678832-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for installing, configuring, and using a command-line interface tool that utilizes the Perplexity Sonar API to find and summarize academic literature.",
+      "tags": [
+        "cli",
+        "perplexity-api",
+        "academic-research",
+        "python",
+        "sonar-api",
+        "citation-tools"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-examples-research-finder-README.md"
+    },
+    {
+      "file_path": "017-showcase-bazaar-ai-saathi.md",
+      "title": "BazaarAISaathi | AI-Powered Indian Stock Market Assistant",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/bazaar-ai-saathi.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:38.964035439-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and installation guide for BazaarAISaathi, an AI-powered platform for Indian stock market analysis and portfolio optimization using the Perplexity Sonar API.",
+      "tags": [
+        "indian-stock-market",
+        "financial-analysis",
+        "perplexity-api",
+        "portfolio-optimization",
+        "streamlit",
+        "investment-strategies",
+        "python-application"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-bazaar-ai-saathi.md"
+    },
+    {
+      "file_path": "018-showcase-briefo.md",
+      "title": "Briefo | Perplexity Powered News & Finance Social App",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/briefo.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:39.236492305-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview, installation instructions, and architectural details for Briefo, a social news and finance application powered by the Perplexity Sonar API.",
+      "tags": [
+        "perplexity-sonar-api",
+        "react-native",
+        "expo",
+        "supabase",
+        "edge-functions",
+        "financial-analysis",
+        "typescript"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-briefo.md"
+    },
+    {
+      "file_path": "019-showcase-daily-news-briefing.md",
+      "title": "Daily News Briefing | AI-Powered News Summaries for Obsidian",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/daily-news-briefing.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:49.513038081-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes the Daily News Briefing Obsidian plugin, explaining how to install and configure it to deliver AI-powered news summaries using the Perplexity Sonar API.",
+      "tags": [
+        "obsidian-plugin",
+        "perplexity-api",
+        "news-summarization",
+        "knowledge-management",
+        "automation",
+        "sonar-api"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-daily-news-briefing.md"
+    },
+    {
+      "file_path": "020-showcase-fact-dynamics.md",
+      "title": "Fact Dynamics | Real-time Fact-Checking Flutter App",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/fact-dynamics.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:54.383854911-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces Fact Dynamics, a cross-platform Flutter application designed for real-time fact-checking of speech and images using the Perplexity Sonar API. It outlines the project's architecture, features, and installation steps for verifying claims during live events.",
+      "tags": [
+        "flutter",
+        "perplexity-api",
+        "fact-checking",
+        "real-time-transcription",
+        "dart",
+        "mobile-app"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-fact-dynamics.md"
+    },
+    {
+      "file_path": "021-showcase-first-principles.md",
+      "title": "FirstPrinciples | AI Learning Roadmap Generator",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/first-principle.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:55.111532476-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces FirstPrinciples, an AI-powered application that uses conversational agents to generate personalized, structured learning roadmaps. It provides comprehensive instructions for installation, configuration, and usage across its React frontend and Flask backend.",
+      "tags": [
+        "ai-learning",
+        "roadmap-generator",
+        "openai-api",
+        "perplexity-api",
+        "flask",
+        "react",
+        "conversational-ai"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-first-principle.md"
+    },
+    {
+      "file_path": "022-showcase-flow-and-focus.md",
+      "title": "Flow & Focus | Personalized News for Genuine Understanding",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/flow-and-focus.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:00.826676777-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes Flow & Focus, a personalized news application that integrates Perplexity AI models to provide a vertical discovery feed and interactive learning deep dives. It provides a comprehensive overview of features, installation instructions, and technical configuration details.",
+      "tags": [
+        "perplexity-ai",
+        "news-application",
+        "next-js",
+        "sonar-deep-research",
+        "react-19",
+        "ai-integration",
+        "personalized-learning"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-flow-and-focus.md"
+    },
+    {
+      "file_path": "023-showcase-perplexity-flutter.md",
+      "title": "Perplexity Dart & Flutter SDKs",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/perplexity-flutter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:30.250242418-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces the Perplexity Dart and Flutter SDKs, providing an overview of installation steps, architecture, and features for integrating Perplexity AI into cross-platform applications.",
+      "tags": [
+        "perplexity-api",
+        "flutter-sdk",
+        "dart-package",
+        "ai-integration",
+        "bloc-state-management",
+        "type-safety"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-perplexity-flutter.md"
+    },
+    {
+      "file_path": "024-showcase-perplexity-lens.md",
+      "title": "Perplexity Lens | AI-Powered Knowledge Graph Browser Extension",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/perplexity-lens.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:32.804922894-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview, installation guide, and configuration instructions for Perplexity Lens, a browser extension that creates personalized knowledge graphs using Perplexity AI.",
+      "tags": [
+        "browser-extension",
+        "perplexity-ai",
+        "knowledge-graph",
+        "d3-js",
+        "firebase",
+        "react",
+        "retrieval-augmented-generation"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-perplexity-lens.md"
+    },
+    {
+      "file_path": "025-showcase-ellipsis.md",
+      "title": "Ellipsis | One-Click Podcast Generation Agent",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/Ellipsis.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:34.467651899-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and setup instructions for Ellipsis, an AI-powered agent designed for automated multi-speaker podcast generation. It includes details on installation, environment configuration, and running the system's backend and frontend components.",
+      "tags": [
+        "podcast-generation",
+        "ai-agent",
+        "text-to-speech",
+        "python",
+        "react",
+        "content-automation",
+        "perplexity-api"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "docs-cookbook-showcase-Ellipsis.md"
+    },
+    {
+      "file_path": "026-prompting-guide.md",
+      "title": "Prompt Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/prompting/prompt-guide.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:12.637591655-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide provides instructions and best practices for prompting web search-integrated AI models, explaining how to optimize system and user prompts for real-time information retrieval via API.",
+      "tags": [
+        "prompt-engineering",
+        "perplexity-api",
+        "web-search",
+        "system-prompts",
+        "user-prompts",
+        "api-best-practices"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-grounded-llm-prompting-prompt-guide.md"
+    },
+    {
+      "file_path": "027-sdk-best-practices.md",
+      "title": "Best Practices",
+      "url": "https://docs.perplexity.ai/docs/sdk/best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:53.030953069-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines essential best practices for deploying Perplexity SDKs in production, covering security measures, environment variable management, and efficient request handling through rate limiting strategies.",
+      "tags": [
+        "perplexity-sdk",
+        "production-deployment",
+        "security-best-practices",
+        "rate-limiting",
+        "environment-variables",
+        "api-key-management"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-sdk-best-practices.md"
+    },
+    {
+      "file_path": "028-search-best-practices.md",
+      "title": "Best Practices",
+      "url": "https://docs.perplexity.ai/docs/search/best-practices.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:10.858682278-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides strategies for optimizing search queries and implementing efficient asynchronous patterns to improve performance and reliability when using the Perplexity Search API.",
+      "tags": [
+        "perplexity-api",
+        "search-optimization",
+        "query-best-practices",
+        "rate-limiting",
+        "asynchronous-processing",
+        "error-handling"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-search-best-practices.md"
+    },
+    {
+      "file_path": "029-example-daily-knowledge-bot.md",
+      "title": "Daily Knowledge Bot",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/daily-knowledge-bot/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:08.920817667-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for setting up and running a Python application that uses the Perplexity AI API to generate and store interesting daily facts based on rotating topics.",
+      "tags": [
+        "python",
+        "perplexity-api",
+        "automation",
+        "api-integration",
+        "knowledge-bot",
+        "educational-tool"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-examples-daily-knowledge-bot-README.md"
+    },
+    {
+      "file_path": "030-example-discord-bot.md",
+      "title": "Perplexity Discord Bot",
+      "url": "https://docs.perplexity.ai/docs/cookbook/examples/discord-py-bot/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:16.141323016-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a step-by-step guide for creating and deploying a Discord bot using discord.py that integrates with the Perplexity Sonar API to provide AI-powered answers with citations.",
+      "tags": [
+        "discord-bot",
+        "perplexity-api",
+        "python",
+        "discord-py",
+        "ai-integration",
+        "chatbot-development"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-examples-discord-py-bot-README.md"
+    },
+    {
+      "file_path": "031-article-memory-management.md",
+      "title": "Memory Management",
+      "url": "https://docs.perplexity.ai/docs/cookbook/articles/memory-management/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:53.505871027-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines strategies for managing conversational memory in LLM applications using LlamaIndex and the Perplexity Sonar API, focusing on summarization and persistent vector storage.",
+      "tags": [
+        "llama-index",
+        "perplexity-api",
+        "memory-management",
+        "conversational-ai",
+        "context-retention",
+        "lancedb"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-articles-memory-management-README.md"
+    },
+    {
+      "file_path": "032-article-chat-summary-memory.md",
+      "title": "Chat Summary Memory Buffer",
+      "url": "https://docs.perplexity.ai/docs/cookbook/articles/memory-management/chat-summary-memory-buffer/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:54.753775349-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement token-aware conversation memory management using LlamaIndex's ChatSummaryMemoryBuffer with the Perplexity Sonar API for efficient multi-turn dialogue.",
+      "tags": [
+        "llama-index",
+        "perplexity-api",
+        "memory-management",
+        "token-optimization",
+        "python",
+        "conversational-ai"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-articles-memory-management-chat-summary-memory-buffer-README.md"
+    },
+    {
+      "file_path": "033-article-chat-persistence.md",
+      "title": "Persistent Chat Memory",
+      "url": "https://docs.perplexity.ai/docs/cookbook/articles/memory-management/chat-with-persistence/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:58.636333393-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement long-term conversation memory by integrating LanceDB vector storage with the Perplexity Sonar API and LlamaIndex.",
+      "tags": [
+        "chat-memory",
+        "lancedb",
+        "llamaindex",
+        "perplexity-api",
+        "vector-storage",
+        "context-retention",
+        "semantic-search"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-articles-memory-management-chat-with-persistence-README.md"
+    },
+    {
+      "file_path": "034-article-openai-agents-integration.md",
+      "title": "OpenAI Agents Integration",
+      "url": "https://docs.perplexity.ai/docs/cookbook/articles/openai-agents-integration/README.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:58.874316231-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a step-by-step guide for integrating Perplexity's Sonar API with the OpenAI Agents SDK to build intelligent agents with function-calling capabilities. It includes architecture overviews, environment setup, and a full Python implementation using asynchronous clients.",
+      "tags": [
+        "perplexity-api",
+        "sonar-api",
+        "openai-agents-sdk",
+        "function-calling",
+        "ai-agents",
+        "python-integration"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-articles-openai-agents-integration-README.md"
+    },
+    {
+      "file_path": "035-showcase-4point-hoops.md",
+      "title": "4Point Hoops | AI Basketball Analytics Platform",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/4point-Hoops.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:30.171971235-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "An overview and technical guide for 4Point Hoops, an NBA analytics platform that integrates real-time data from Basketball-Reference with AI-powered insights from Perplexity Sonar. The document details the platform's core features, system architecture, and provides setup instructions for local deployment.",
+      "tags": [
+        "nba-analytics",
+        "perplexity-api",
+        "sports-data",
+        "react",
+        "python-flask",
+        "ai-analysis",
+        "data-visualization"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-4point-Hoops.md"
+    },
+    {
+      "file_path": "036-showcase-citypulse.md",
+      "title": "CityPulse | AI-Powered Geospatial Discovery Search",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/citypulse-ai-search.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:44.022552297-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces CityPulse, an AI-powered geospatial discovery application that utilizes Perplexity's Sonar models to provide real-time local search, personalized location insights, and interactive mapping.",
+      "tags": [
+        "geospatial-search",
+        "perplexity-ai",
+        "sonar-models",
+        "real-time-data",
+        "location-discovery",
+        "ai-recommendations",
+        "python-integration"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-citypulse-ai-search.md"
+    },
+    {
+      "file_path": "037-showcase-cyclesync-ai.md",
+      "title": "CycleSyncAI | Personalized Health Plans Powered by Sonar API",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/cycle-sync-ai.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:44.96504796-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes CycleSyncAI, an iOS application that integrates Apple HealthKit and Perplexity's Sonar Pro API to generate personalized diet and fitness plans based on a user's menstrual cycle.",
+      "tags": [
+        "sonar-api",
+        "apple-healthkit",
+        "ios-development",
+        "personalized-wellness",
+        "llm-integration",
+        "swift",
+        "menstrual-health"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-cycle-sync-ai.md"
+    },
+    {
+      "file_path": "038-showcase-executive-intelligence.md",
+      "title": "Executive Intelligence | AI-Powered Strategic Decision Platform",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/executive-intelligence.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:21:51.077216774-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and setup guide for Executive Intelligence, a platform leveraging the Perplexity Sonar API to generate competitive intelligence, scenario planning, and benchmarking reports for executive decision-making.",
+      "tags": [
+        "perplexity-sonar",
+        "executive-intelligence",
+        "competitive-analysis",
+        "nextjs",
+        "typescript",
+        "decision-support",
+        "real-time-data"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-executive-intelligence.md"
+    },
+    {
+      "file_path": "039-showcase-flameguardai.md",
+      "title": "FlameGuardAI | AI-powered wildfire prevention",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/flameguardai.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:00.717095777-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces FlameGuardAI, an AI-powered tool that analyzes property photos using OpenAI Vision and Perplexity Sonar API to detect wildfire risks and provide detailed mitigation reports. It details the system's architecture, process for deep research, and technical stack used to convert visual data into actionable safety plans.",
+      "tags": [
+        "wildfire-prevention",
+        "perplexity-sonar-api",
+        "openai-vision",
+        "risk-assessment",
+        "home-safety",
+        "ai-integration",
+        "multimodal-ai"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-flameguardai.md"
+    },
+    {
+      "file_path": "040-showcase-greenify.md",
+      "title": "Greenify | Localized community-driven greenification/plantation solution with AI",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/greenify.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:10.384212337-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and setup instructions for Greenify, an AI-powered mobile application that uses the Perplexity Sonar API to recommend suitable plants and foster sustainable local communities.",
+      "tags": [
+        "perplexity-api",
+        "ai-plant-analysis",
+        "sustainability",
+        "mobile-app-development",
+        "react-native",
+        "community-building"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-greenify.md"
+    },
+    {
+      "file_path": "041-showcase-monday.md",
+      "title": "Monday \u2013 Voice-First AI Learning Assistant",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/monday.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:12.766772354-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and setup instructions for Monday, a voice-first AI learning assistant that integrates 3D visualizations and multimodal feedback for educational purposes.",
+      "tags": [
+        "voice-ai",
+        "learning-assistant",
+        "three-js",
+        "webxr",
+        "elevenlabs",
+        "perplexity-api",
+        "accessibility"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-monday.md"
+    },
+    {
+      "file_path": "042-showcase-mvp-lifeline.md",
+      "title": "MVP LifeLine | AI Youth Empowerment Platform",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/mvp-lifeline-ai-app.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:19.183833394-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces MVP LifeLine, an AI-powered platform providing multilingual and offline-first career and mental health support for underserved youth through tools like Flutter, Firebase, and the Perplexity Sonar API.",
+      "tags": [
+        "youth-empowerment",
+        "offline-first",
+        "multilingual-ai",
+        "flutter-app",
+        "perplexity-api",
+        "firebase-integration",
+        "sms-ussd",
+        "mental-health-tech"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-mvp-lifeline-ai-app.md"
+    },
+    {
+      "file_path": "043-showcase-perplexicart.md",
+      "title": "PerplexiCart | AI-Powered Value-Aligned Shopping Assistant",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/perplexicart.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:21.486204068-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and setup instructions for PerplexiCart, an AI shopping assistant that uses the Perplexity Sonar API to deliver structured, value-aligned product research and recommendations.",
+      "tags": [
+        "perplexity-api",
+        "ai-shopping-assistant",
+        "fastapi",
+        "nextjs",
+        "product-research",
+        "structured-outputs"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-perplexicart.md"
+    },
+    {
+      "file_path": "044-showcase-perplexigrid.md",
+      "title": "PerplexiGrid | Interactive Analytics Dashboards",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/perplexigrid.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:24.569526493-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "PerplexiGrid is an interactive analytics platform that uses the Perplexity Sonar API to transform natural language prompts into customizable, data-driven dashboards and visualizations.",
+      "tags": [
+        "perplexity-sonar-api",
+        "data-visualization",
+        "interactive-dashboards",
+        "natural-language-processing",
+        "echarts",
+        "supabase"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-perplexigrid.md"
+    },
+    {
+      "file_path": "045-showcase-perplexity-client.md",
+      "title": "Perplexity Client | Desktop AI Chat Interface with API Controls",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/perplexity-client.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:27.076118251-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces and provides setup instructions for the Perplexity Client, an Electron-based desktop application designed for advanced interaction with Perplexity's Sonar API.",
+      "tags": [
+        "electron-app",
+        "perplexity-api",
+        "sonar-api",
+        "desktop-client",
+        "api-debugging",
+        "node-js"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-perplexity-client.md"
+    },
+    {
+      "file_path": "046-showcase-posterlens.md",
+      "title": "PosterLens | Scientific Poster Scanner & Research Assistant",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/posterlens.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:36.422422218-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces PosterLens, an iOS application that uses OCR and AI integration to enable interactive exploration and semantic search of scientific posters.",
+      "tags": [
+        "ios-app",
+        "ocr-processing",
+        "perplexity-api",
+        "scientific-research",
+        "semantic-search",
+        "swiftui"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-posterlens.md"
+    },
+    {
+      "file_path": "047-showcase-sonar-chromium.md",
+      "title": "Sonar Chromium Browser | Native Search Omnibox and Context Menu",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/sonar-chromium-browser.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:37.982602098-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes the Sonar Chromium Browser patch, which integrates Perplexity's Sonar API into Chromium for native AI-powered omnibox answers and context-menu summarization.",
+      "tags": [
+        "chromium",
+        "perplexity-api",
+        "browser-integration",
+        "ai-summarization",
+        "omnibox-search",
+        "sonar-model"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-sonar-chromium-browser.md"
+    },
+    {
+      "file_path": "048-showcase-starplex.md",
+      "title": "StarPlex | AI-Powered Startup Intelligence Platform",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/starplex.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:42.061786263-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview and technical setup guide for StarPlex, an AI-powered startup intelligence platform that utilizes Perplexity's Sonar API for market validation and resource discovery.",
+      "tags": [
+        "starplex",
+        "ai-startup-intelligence",
+        "perplexity-api",
+        "market-validation",
+        "business-intelligence",
+        "startup-tools"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-starplex.md"
+    },
+    {
+      "file_path": "049-showcase-truth-tracer.md",
+      "title": "TruthTracer | AI-Powered Misinformation Detection Platform",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/truth-tracer.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:44.514976948-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to set up and use TruthTracer, a misinformation detection platform that leverages various Perplexity Sonar models for claim verification and logical analysis.",
+      "tags": [
+        "misinformation-detection",
+        "perplexity-api",
+        "sonar-models",
+        "fact-checking",
+        "nestjs",
+        "react-app",
+        "ai-platform"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-truth-tracer.md"
+    },
+    {
+      "file_path": "050-showcase-uncovered.md",
+      "title": "UnCovered | Real-Time Fact-Checking Chrome Extension",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/uncovered.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:47.126280972-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document introduces UnCovered, a Chrome extension for real-time fact-checking that uses Perplexity's Sonar API to verify text, images, and screenshots.",
+      "tags": [
+        "chrome-extension",
+        "fact-checking",
+        "perplexity-api",
+        "sonar-pro",
+        "real-time-verification",
+        "multimodal-analysis"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-uncovered.md"
+    },
+    {
+      "file_path": "051-showcase-valetudo-ai.md",
+      "title": "Valetudo AI | Trusted Medical Answer Assistant",
+      "url": "https://docs.perplexity.ai/docs/cookbook/showcase/valetudo-ai.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:52.060035896-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "Valetudo AI is a medical assistant application that leverages the Perplexity Sonar API to provide evidence-based health answers using curated domain filters, location-based searches, and image analysis.",
+      "tags": [
+        "medical-assistant",
+        "perplexity-api",
+        "sonar-pro",
+        "health-tech",
+        "image-analysis",
+        "search-filters",
+        "ai-implementation"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "docs-cookbook-showcase-valetudo-ai.md"
+    },
+    {
+      "file_path": "052-getting-started-models.md",
+      "title": "null",
+      "url": "https://docs.perplexity.ai/docs/getting-started/models.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:02.327481203-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of the Sonar model family, categorizing models into search, reasoning, and research types based on their specific capabilities and ideal use cases.",
+      "tags": [
+        "perplexity-ai",
+        "sonar-models",
+        "model-selection",
+        "search-models",
+        "reasoning-models",
+        "deep-research"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "docs-getting-started-models.md"
+    },
+    {
+      "file_path": "053-pro-search-classifier.md",
+      "title": "Pro Search Classifier",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/pro-search/classifier.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:36.311820937-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how the Pro Search Classifier automatically routes queries to either Pro Search or Fast Search modes based on complexity and research needs. It outlines the decision-making process and how this optimization balances performance with API cost efficiency.",
+      "tags": [
+        "search-optimization",
+        "query-classification",
+        "perplexity-api",
+        "cost-management",
+        "pro-search",
+        "fast-search"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "docs-grounded-llm-chat-completions-pro-search-classifier.md"
+    },
+    {
+      "file_path": "054-pro-search-tools.md",
+      "title": "Built-in Tool Capabilities",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/pro-search/tools.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:42.201903539-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the built-in tool capabilities of Pro Search, specifically detailing how the model automatically utilizes web search and URL content fetching to enhance its responses.",
+      "tags": [
+        "pro-search",
+        "web-search",
+        "fetch-url-content",
+        "reasoning-steps",
+        "built-in-tools",
+        "search-capabilities"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "docs-grounded-llm-chat-completions-pro-search-tools.md"
+    },
+    {
+      "file_path": "055-getting-started-pricing.md",
+      "title": "Pricing",
+      "url": "https://docs.perplexity.ai/docs/getting-started/pricing.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:07.816725-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the pricing structures for Perplexity's API offerings, detailing costs for the Search API, Agentic Research API, and various Grounded LLM models like Sonar.",
+      "tags": [
+        "pricing",
+        "api-costs",
+        "token-usage",
+        "search-api",
+        "grounded-llm",
+        "billing-information",
+        "sonar-models"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-getting-started-pricing.md"
+    },
+    {
+      "file_path": "056-getting-started-api-groups.md",
+      "title": "API Groups & Billing",
+      "url": "https://docs.perplexity.ai/docs/getting-started/api-groups.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:52.855783677-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and manage API Groups, organization details, and credit-based billing within the Perplexity API Portal.",
+      "tags": [
+        "api-portal",
+        "api-groups",
+        "billing",
+        "payment-methods",
+        "usage-monitoring",
+        "account-management"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-getting-started-api-groups.md"
+    },
+    {
+      "file_path": "057-filters-context-size.md",
+      "title": "Search Context Size",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/filters/context-size.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:17.76412823-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the search_context_size parameter in the Chat Completions API to control the volume of web search results for balancing response cost and depth.",
+      "tags": [
+        "search-context-size",
+        "web-search-options",
+        "api-configuration",
+        "cost-optimization",
+        "grounded-llms",
+        "chat-completions"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-grounded-llm-chat-completions-filters-context-size.md"
+    },
+    {
+      "file_path": "058-sdk-configuration.md",
+      "title": "Configuration",
+      "url": "https://docs.perplexity.ai/docs/sdk/configuration.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:57.023017743-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure Perplexity SDKs for both Python and TypeScript, covering request retries, timeout management, proxy settings, and advanced HTTP client customization.",
+      "tags": [
+        "perplexity-sdk",
+        "retry-logic",
+        "timeout-management",
+        "proxy-configuration",
+        "http-client",
+        "python",
+        "typescript",
+        "ssl-tls"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-sdk-configuration.md"
+    },
+    {
+      "file_path": "059-admin-api-key-management.md",
+      "title": "API Key Management",
+      "url": "https://docs.perplexity.ai/docs/admin/api-key-management.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:48.397118552-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to create, manage, and rotate Perplexity API keys for secure authentication. It details the procedures for generating keys through the web interface and managing them programmatically using specific API endpoints.",
+      "tags": [
+        "api-key-management",
+        "authentication",
+        "token-rotation",
+        "api-security",
+        "access-control",
+        "identity-management"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-admin-api-key-management.md"
+    },
+    {
+      "file_path": "060-admin-rate-limits.md",
+      "title": "Rate Limits & Usage Tiers",
+      "url": "https://docs.perplexity.ai/docs/admin/rate-limits-usage-tiers.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:49.054251812-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the usage tier system and specific rate limits for Perplexity AI models and API endpoints. It explains how cumulative spending leads to automatic tier progression and increased request capacities for developers.",
+      "tags": [
+        "rate-limits",
+        "usage-tiers",
+        "api-access",
+        "throughput",
+        "billing-tiers",
+        "sonar-models"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-admin-rate-limits-usage-tiers.md"
+    },
+    {
+      "file_path": "061-resources-crawlers.md",
+      "title": "Perplexity Crawlers",
+      "url": "https://docs.perplexity.ai/docs/resources/perplexity-crawlers.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:46.267957387-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document identifies Perplexity's web crawlers and provides technical instructions for managing their access through robots.txt and Web Application Firewall (WAF) whitelisting.",
+      "tags": [
+        "perplexitybot",
+        "perplexity-user",
+        "web-crawlers",
+        "waf-configuration",
+        "robots-txt",
+        "user-agents"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "docs-resources-perplexity-crawlers.md"
+    },
+    {
+      "file_path": "062-filters-search-control.md",
+      "title": "Web Search Control",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/filters/search-control.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:21.901913132-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to manage web search functionality for Sonar models using the search classifier for automated decision-making or by disabling search entirely. It provides implementation details via the Chat Completions API along with best practices for performance optimization.",
+      "tags": [
+        "perplexity-api",
+        "sonar-models",
+        "web-search",
+        "search-classifier",
+        "api-configuration",
+        "search-control"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-filters-search-control.md"
+    },
+    {
+      "file_path": "063-filters-language.md",
+      "title": "Language Filter Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/filters/language-filter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:18.764334409-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to use the search_language_filter parameter to restrict search results to specific languages using ISO 639-1 codes within the Chat Completions API.",
+      "tags": [
+        "perplexity-api",
+        "language-filter",
+        "search-parameters",
+        "iso-639-1",
+        "chat-completions"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-filters-language-filter.md"
+    },
+    {
+      "file_path": "064-filters-academic.md",
+      "title": "Academic Filter Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/filters/academic-filter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:14.744189494-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to use the academic search mode in the Perplexity Chat Completions API to prioritize scholarly sources and peer-reviewed research.",
+      "tags": [
+        "academic-filter",
+        "perplexity-api",
+        "search-mode",
+        "research-tools",
+        "scholarly-data"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-filters-academic-filter.md"
+    },
+    {
+      "file_path": "065-filters-sec.md",
+      "title": "SEC Filings Filter Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/filters/sec-guide.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:24.558876486-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to use the search_mode: 'sec' parameter to filter API search results specifically for official U.S. Securities and Exchange Commission filings and regulatory documents.",
+      "tags": [
+        "sec-filings",
+        "search-mode",
+        "financial-data",
+        "chat-completions-api",
+        "perplexity-api",
+        "regulatory-compliance"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-filters-sec-guide.md"
+    },
+    {
+      "file_path": "066-filters-date-range.md",
+      "title": "Date and Time Filters",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/filters/date-range-filter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:47.743897913-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use publication, modification, and recency filters to restrict search results to specific time periods within the Perplexity API.",
+      "tags": [
+        "date-filters",
+        "search-recency",
+        "api-parameters",
+        "publication-date",
+        "last-updated-filter",
+        "search-optimization"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-filters-date-range-filter.md"
+    },
+    {
+      "file_path": "067-filters-domain.md",
+      "title": "Domain Filter Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/filters/domain-filters.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:53.943701282-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to use the search_domain_filter parameter to control web search results by including or excluding specific domains and URLs. It details the implementation of allowlist and denylist modes within Perplexity API requests to ensure search accuracy and source trust.",
+      "tags": [
+        "domain-filtering",
+        "search-filters",
+        "allowlist",
+        "denylist",
+        "api-parameters",
+        "search-results"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-filters-domain-filters.md"
+    },
+    {
+      "file_path": "068-filters-user-location.md",
+      "title": "User Location Filter Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/filters/user-location-filter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:54.665941667-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the user_location parameter within web_search_options to refine search results based on geographic data like coordinates, country, city, and region.",
+      "tags": [
+        "user-location",
+        "web-search-options",
+        "geolocation",
+        "search-refinement",
+        "api-configuration",
+        "geographic-context"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-filters-user-location-filter.md"
+    },
+    {
+      "file_path": "069-media-image-attachments.md",
+      "title": "Image Attachments",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/media/image-attachments.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:59.20343638-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to analyze images by attaching them to API requests via base64 encoding or HTTPS URLs. It details supported formats, file size limits, and provides implementation examples for both the Agentic Research and Chat Completions APIs.",
+      "tags": [
+        "image-analysis",
+        "base64-encoding",
+        "api-integration",
+        "vision-capabilities",
+        "file-attachments",
+        "image-upload"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-media-image-attachments.md"
+    },
+    {
+      "file_path": "070-media-file-attachments.md",
+      "title": "File Attachments with Sonar",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/media/file-attachments.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:26.700516888-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to upload and analyze various file formats using Sonar models via the Perplexity API, covering both URL-based and base64-encoded methods.",
+      "tags": [
+        "file-attachments",
+        "sonar-models",
+        "document-analysis",
+        "base64-encoding",
+        "api-integration",
+        "file-upload"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-media-file-attachments.md"
+    },
+    {
+      "file_path": "071-media-returning-images.md",
+      "title": "Returning Images",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/media/returning-images.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:29.80592105-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to enable and filter image results in Perplexity's Chat Completions API using the Sonar models. It covers parameters for including or excluding specific domains and restricting image formats like GIF or PNG.",
+      "tags": [
+        "sonar-models",
+        "chat-completions-api",
+        "image-results",
+        "domain-filtering",
+        "format-filtering",
+        "api-integration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-media-returning-images.md"
+    },
+    {
+      "file_path": "072-media-returning-videos.md",
+      "title": "Returning Videos",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/media/returning-videos.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:31.660742555-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to enable and configure video returns in the Perplexity Chat Completions API using the media_response overrides parameter. It details the basic usage, performance considerations, and provides code examples for implementation across different programming languages.",
+      "tags": [
+        "perplexity-api",
+        "chat-completions",
+        "video-retrieval",
+        "media-response",
+        "api-overrides",
+        "sonar-pro"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-media-returning-videos.md"
+    },
+    {
+      "file_path": "073-pro-search-stream-mode.md",
+      "title": "Stream Mode: Concise vs Full",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/chat-completions/pro-search/stream-mode.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:42.24693868-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the stream_mode parameter for the Perplexity API, detailing the differences between full and concise streaming formats and how to handle various chunk types.",
+      "tags": [
+        "perplexity-api",
+        "streaming",
+        "stream-mode",
+        "reasoning-visibility",
+        "bandwidth-optimization",
+        "sdk-integration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-chat-completions-pro-search-stream-mode.md"
+    },
+    {
+      "file_path": "074-output-structured.md",
+      "title": "Structured Outputs Guide",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/output-control/structured-outputs.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:06.86255275-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the structured outputs feature to enforce specific JSON Schema formats in model responses for consistent, machine-readable data integration.",
+      "tags": [
+        "structured-outputs",
+        "json-schema",
+        "perplexity-api",
+        "api-configuration",
+        "machine-readable-data",
+        "response-format"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-output-control-structured-outputs.md"
+    },
+    {
+      "file_path": "075-output-streaming.md",
+      "title": "Streaming Responses",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/output-control/streaming-responses.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:06.962483864-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement and process real-time streaming responses using Perplexity's SDKs and APIs, including handling metadata and search results.",
+      "tags": [
+        "streaming",
+        "perplexity-api",
+        "real-time-responses",
+        "python-sdk",
+        "typescript-sdk",
+        "metadata-handling"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-output-control-streaming-responses.md"
+    },
+    {
+      "file_path": "076-tools-web-search.md",
+      "title": "Web Search",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/tools/web-search.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:31.39513479-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a technical overview of the web_search tool within the Agentic Research API, detailing its pricing, configuration, and advanced filtering capabilities.",
+      "tags": [
+        "web-search",
+        "agentic-research-api",
+        "tool-calling",
+        "search-filters",
+        "api-pricing",
+        "perplexity-ai"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-responses-tools-web-search.md"
+    },
+    {
+      "file_path": "077-tools-fetch-url.md",
+      "title": "Fetch URL",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/tools/fetch-url.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:25.619434417-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the fetch_url tool in the Agentic Research API to retrieve and extract full content from specific web addresses. It provides details on pricing, implementation across various programming languages, and strategies for combining it with web search capabilities.",
+      "tags": [
+        "agentic-research-api",
+        "fetch-url",
+        "content-extraction",
+        "web-scraping",
+        "api-pricing",
+        "tool-integration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-responses-tools-fetch-url.md"
+    },
+    {
+      "file_path": "078-tools-function-calling.md",
+      "title": "Function Calling",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/tools/function-calling.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:26.140333368-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to define and implement custom functions that allow AI models to interact with external databases and APIs via the Agentic Research API. It covers the multi-turn interaction cycle, function schema definitions, and strict validation mode for reliable integration.",
+      "tags": [
+        "function-calling",
+        "agentic-api",
+        "json-schema",
+        "api-integration",
+        "tool-use",
+        "perplexity-ai"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-grounded-llm-responses-tools-function-calling.md"
+    },
+    {
+      "file_path": "079-search-filters-domain.md",
+      "title": "Search Domain Filter",
+      "url": "https://docs.perplexity.ai/docs/search/filters/domain-filter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:17.268897975-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the search_domain_filter parameter to restrict or exclude specific domains and top-level domains from Perplexity Search API results.",
+      "tags": [
+        "search-api",
+        "domain-filtering",
+        "allowlist",
+        "denylist",
+        "tld-filtering",
+        "perplexity-ai"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-search-filters-domain-filter.md"
+    },
+    {
+      "file_path": "080-search-filters-language.md",
+      "title": "Search Language Filter",
+      "url": "https://docs.perplexity.ai/docs/search/filters/language-filter.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:21.056394824-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the search_language_filter parameter in the Perplexity Search API to restrict search results to specific languages using ISO 639-1 codes. It provides implementation details, usage constraints, and code examples for filtering search results across single or multiple languages.",
+      "tags": [
+        "perplexity-api",
+        "search-api",
+        "language-filtering",
+        "iso-639-1",
+        "api-parameters",
+        "localization",
+        "multilingual-search"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-search-filters-language-filter.md"
+    },
+    {
+      "file_path": "081-search-filters-date-time.md",
+      "title": "Search Date and Time Filters",
+      "url": "https://docs.perplexity.ai/docs/search/filters/date-time-filters.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:16.983598017-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use date and time filters in the Search API to restrict results by publication date, last updated date, or relative recency intervals.",
+      "tags": [
+        "search-api",
+        "date-filters",
+        "search-recency",
+        "query-parameters",
+        "api-reference",
+        "data-filtering"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "docs-search-filters-date-time-filters.md"
+    },
+    {
+      "file_path": "082-integrations-langchain.md",
+      "title": "Perplexity with LangChain",
+      "url": "https://docs.perplexity.ai/docs/getting-started/integrations/langchain.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:22:57.741246906-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions and code examples for integrating Perplexity's AI models and web search capabilities into LangChain applications using the langchain-perplexity package.",
+      "tags": [
+        "langchain",
+        "perplexity-api",
+        "python",
+        "retrieval-augmented-generation",
+        "ai-agents",
+        "chat-models",
+        "web-search"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "docs-getting-started-integrations-langchain.md"
+    },
+    {
+      "file_path": "083-openai-compatibility.md",
+      "title": "OpenAI Compatibility",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/openai-compatibility.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:23:59.15588439-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use OpenAI SDKs to interact with Perplexity's Chat Completions and Agentic Research APIs by updating the base URL and API key.",
+      "tags": [
+        "openai-compatibility",
+        "perplexity-api",
+        "sdk-integration",
+        "chat-completions",
+        "agentic-research",
+        "python",
+        "typescript"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "docs-grounded-llm-openai-compatibility.md"
+    },
+    {
+      "file_path": "084-agentic-research-model-fallback.md",
+      "title": "Model Fallback",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/model-fallback.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:13.964897674-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure model fallback by specifying multiple models in an array to ensure automatic failover and higher availability. It details the execution order, support for multiple providers, and the billing implications for the utilized model.",
+      "tags": [
+        "model-fallback",
+        "api-integration",
+        "failover-mechanisms",
+        "high-availability",
+        "provider-redundancy",
+        "error-handling"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "docs-grounded-llm-responses-model-fallback.md"
+    },
+    {
+      "file_path": "085-sdk-error-handling.md",
+      "title": "Error Handling",
+      "url": "https://docs.perplexity.ai/docs/sdk/error-handling.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:57.566497974-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to identify and manage various API error types using the Perplexity SDKs for Python and JavaScript. It provides strategies for basic error catching, advanced retry logic with exponential backoff, and implementing fallback mechanisms for robust applications.",
+      "tags": [
+        "error-handling",
+        "perplexity-sdk",
+        "python",
+        "typescript",
+        "rate-limiting",
+        "api-integration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "docs-sdk-error-handling.md"
+    },
+    {
+      "file_path": "086-sdk-performance.md",
+      "title": "Performance Optimization",
+      "url": "https://docs.perplexity.ai/docs/sdk/performance.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:03.371027689-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to optimize the Perplexity SDKs for high-throughput applications using asynchronous operations, concurrent requests, and batch processing. It also covers advanced features like response streaming and direct access to raw response metadata and headers.",
+      "tags": [
+        "performance-optimization",
+        "async-programming",
+        "concurrency",
+        "batch-processing",
+        "rate-limiting",
+        "streaming",
+        "sdk-optimization"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "docs-sdk-performance.md"
+    },
+    {
+      "file_path": "087-sdk-type-safety.md",
+      "title": "Type Safety",
+      "url": "https://docs.perplexity.ai/docs/sdk/type-safety.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:10.019161681-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement type safety using TypeScript definitions and Python type hints within the Perplexity SDKs. It covers basic type usage, runtime validation, and advanced patterns like generic helpers and type guards.",
+      "tags": [
+        "type-safety",
+        "typescript",
+        "python",
+        "sdk",
+        "pydantic",
+        "type-hints",
+        "intellisense"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "docs-sdk-type-safety.md"
+    },
+    {
+      "file_path": "088-api-chat-completions-create.md",
+      "title": "Create Chat Completion",
+      "url": "https://docs.perplexity.ai/api-reference/chat-completions-post.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:36.779753507-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document specifies the OpenAPI definition for the Perplexity AI chat completions endpoint, which allows users to generate conversational AI responses with advanced search and generation parameters.",
+      "tags": [
+        "perplexity-ai",
+        "chat-completions",
+        "openapi-specification",
+        "llm-api",
+        "conversational-ai",
+        "search-integration"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-chat-completions-post.md"
+    },
+    {
+      "file_path": "089-api-async-chat-create.md",
+      "title": "Create Async Chat Completion",
+      "url": "https://docs.perplexity.ai/api-reference/async-chat-completions-post.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:36.233502833-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document defines the OpenAPI specification for the asynchronous chat completion endpoint of the Perplexity AI API, detailing request parameters and response schemas.",
+      "tags": [
+        "perplexity-ai",
+        "async-api",
+        "chat-completions",
+        "rest-api",
+        "openapi-spec"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-async-chat-completions-post.md"
+    },
+    {
+      "file_path": "090-api-async-chat-list.md",
+      "title": "List Async Chat Completions",
+      "url": "https://docs.perplexity.ai/api-reference/async-chat-completions-get.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:30.884063469-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the API specification for retrieving a list of all asynchronous chat completion requests and their processing statuses for a user.",
+      "tags": [
+        "perplexity-ai",
+        "api-endpoint",
+        "async-chat",
+        "chat-completions",
+        "request-listing"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-async-chat-completions-get.md"
+    },
+    {
+      "file_path": "091-api-async-chat-get.md",
+      "title": "Get Async Chat Completion",
+      "url": "https://docs.perplexity.ai/api-reference/async-chat-completions-api-request-get.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:30.867353476-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the technical specification for the Perplexity AI API endpoint used to retrieve the status and results of asynchronous chat completion requests.",
+      "tags": [
+        "perplexity-ai",
+        "async-api",
+        "chat-completions",
+        "rest-endpoint",
+        "llm-integration",
+        "openapi-spec"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-async-chat-completions-api-request-get.md"
+    },
+    {
+      "file_path": "092-api-responses-create.md",
+      "title": "Create Response",
+      "url": "https://docs.perplexity.ai/api-reference/responses-post.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:40.952287485-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the OpenAPI specification for the Perplexity AI response generation endpoint, detailing request parameters for web search, reasoning, and streaming outputs.",
+      "tags": [
+        "perplexity-ai",
+        "api-reference",
+        "openapi-spec",
+        "text-generation",
+        "streaming-responses",
+        "ai-reasoning"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-responses-post.md"
+    },
+    {
+      "file_path": "093-api-search-create.md",
+      "title": "Search the Web",
+      "url": "https://docs.perplexity.ai/api-reference/search-post.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:44.960520394-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the OpenAPI specification for the Perplexity AI search endpoint, detailing how to programmatically search the web and retrieve page contents.",
+      "tags": [
+        "perplexity-ai",
+        "web-search",
+        "api-specification",
+        "openapi",
+        "data-retrieval"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-search-post.md"
+    },
+    {
+      "file_path": "094-api-auth-token-generate.md",
+      "title": "Generate Auth Token",
+      "url": "https://docs.perplexity.ai/api-reference/generate-auth-token-post.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:41.124991686-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document specifies the API endpoint for generating new authentication tokens required for Perplexity AI API access.",
+      "tags": [
+        "authentication",
+        "api-token",
+        "security",
+        "token-generation",
+        "openapi-specification"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-generate-auth-token-post.md"
+    },
+    {
+      "file_path": "095-api-auth-token-revoke.md",
+      "title": "Revoke Auth Token",
+      "url": "https://docs.perplexity.ai/api-reference/revoke-auth-token-post.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:20:44.246518681-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document specifies the Perplexity AI API endpoint used to revoke an existing authentication token.",
+      "tags": [
+        "perplexity-ai",
+        "authentication",
+        "token-management",
+        "api-security",
+        "revoke-token"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "api-reference-revoke-auth-token-post.md"
+    },
+    {
+      "file_path": "096-agentic-research-models.md",
+      "title": "Models",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/models.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:17.604001152-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive list of supported models and their pricing for the Agentic Research API, including configuration methods and high-availability fallback options.",
+      "tags": [
+        "model-pricing",
+        "agentic-research-api",
+        "llm-providers",
+        "token-usage",
+        "model-fallback",
+        "api-configuration"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-grounded-llm-responses-models.md"
+    },
+    {
+      "file_path": "097-agentic-research-presets.md",
+      "title": "Presets",
+      "url": "https://docs.perplexity.ai/docs/grounded-llm/responses/presets.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:20.463794155-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes the pre-configured model setups for the Perplexity Agentic Research API, detailing their specific capabilities, parameter limits, and recommended use cases.",
+      "tags": [
+        "perplexity-api",
+        "agentic-research",
+        "api-presets",
+        "model-configuration",
+        "search-parameters",
+        "agentic-api"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-grounded-llm-responses-presets.md"
+    },
+    {
+      "file_path": "098-resources-faq.md",
+      "title": "Frequently Asked Questions",
+      "url": "https://docs.perplexity.ai/docs/resources/faq.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:41.046561966-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides answers to frequently asked questions regarding the Perplexity API, covering technical specifications, billing tiers, data privacy, and compatibility with OpenAI's interface.",
+      "tags": [
+        "faq",
+        "perplexity-api",
+        "billing-tiers",
+        "openai-compatibility",
+        "data-privacy",
+        "rate-limits",
+        "error-handling",
+        "reasoning-models"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-resources-faq.md"
+    },
+    {
+      "file_path": "099-resources-privacy-security.md",
+      "title": "Privacy & Security",
+      "url": "https://docs.perplexity.ai/docs/resources/privacy-security.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:49.009352992-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines Perplexity's data privacy policies, zero data retention practices, and security certifications for the Sonar API.",
+      "tags": [
+        "data-privacy",
+        "zero-data-retention",
+        "security-compliance",
+        "soc2-type-ii",
+        "hipaa-compliance",
+        "sonar-api"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-resources-privacy-security.md"
+    },
+    {
+      "file_path": "100-resources-changelog.md",
+      "title": "Changelog",
+      "url": "https://docs.perplexity.ai/docs/resources/changelog.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:35.254625035-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a chronological record of updates, feature releases, and deprecations for the Perplexity API and developer ecosystem. It covers advancements in search functionality, new model capabilities, official SDK releases, and community integrations.",
+      "tags": [
+        "product-updates",
+        "api-changelog",
+        "search-api",
+        "sonar-models",
+        "feature-releases",
+        "developer-tools"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-resources-changelog.md"
+    },
+    {
+      "file_path": "101-resources-roadmap.md",
+      "title": "API Roadmap",
+      "url": "https://docs.perplexity.ai/docs/resources/feature-roadmap.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:43.817540938-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the planned updates and upcoming features for the Perplexity API, highlighting improvements in performance, new endpoints, and expanded multimodal capabilities.",
+      "tags": [
+        "api-roadmap",
+        "product-updates",
+        "perplexity-api",
+        "embeddings-api",
+        "multimodal-features",
+        "performance-optimization"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-resources-feature-roadmap.md"
+    },
+    {
+      "file_path": "102-resources-discussions.md",
+      "title": "Get in Touch",
+      "url": "https://docs.perplexity.ai/docs/resources/discussions.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:36.571344584-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides contact information and community resources for developers to seek support, report issues, and engage with the Perplexity AI ecosystem.",
+      "tags": [
+        "developer-community",
+        "technical-support",
+        "bug-reporting",
+        "api-resources",
+        "community-forum",
+        "discord",
+        "contact-information"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-resources-discussions.md"
+    },
+    {
+      "file_path": "103-resources-status.md",
+      "title": "System Status",
+      "url": "https://docs.perplexity.ai/docs/resources/status.md",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:24:52.243686732-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://docs.perplexity.ai/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides links to the Perplexity AI documentation index, system status monitoring, and various support channels for troubleshooting.",
+      "tags": [
+        "documentation-index",
+        "system-status",
+        "support",
+        "contact-information",
+        "troubleshooting"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "docs-resources-status.md"
+    },
+    {
+      "file_path": "104-blog.md",
+      "title": "301 Moved Permanently",
+      "url": "https://perplexity.ai/blog",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:26.937653982-03:00",
+      "summary": "This document serves as an entry point or placeholder for information regarding Cloudflare's network and security services.",
+      "tags": [
+        "cloudflare",
+        "cdn",
+        "dns",
+        "web-security",
+        "network-infrastructure"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "blog.md"
+    },
+    {
+      "file_path": "105-resources-changelog-alt.md",
+      "title": "Changelog",
+      "url": "https://docs.perplexity.ai/resources/changelog",
+      "source": "llms",
+      "fetched_at": "2026-02-04T07:25:30.390472046-03:00",
+      "summary": "This document is empty and contains no content or information to summarize.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "resources-changelog.md"
+    }
+  ],
+  "organization": {
+    "strategy": "Universal Category Detection",
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & How-To",
+      "Concepts & Fundamentals",
+      "Configuration & Settings",
+      "Features & Capabilities",
+      "Integration & Connection",
+      "API & Reference"
+    ],
+    "total_documents": 105,
+    "organized_at": "2026-02-04T11:30:00Z"
+  }
+}

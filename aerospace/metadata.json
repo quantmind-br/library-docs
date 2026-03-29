@@ -1,0 +1,89 @@
+{
+  "generated_at": "2026-02-08T11:27:25.75535284-03:00",
+  "source_url": "https://nikitabobko.github.io/AeroSpace/",
+  "strategy": "github_pages",
+  "total_documents": 4,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-08T11:29:07Z",
+    "total_files": 4,
+    "categories": ["Introduction & Overview", "Configuration Guide", "Command Reference", "Tips & Goodies"]
+  },
+  "documents": [
+    {
+      "file_path": "001-AeroSpace.md",
+      "original_file_path": "AeroSpace.md",
+      "title": "GitHub - nikitabobko/AeroSpace: AeroSpace is an i3-like tiling window manager for macOS",
+      "url": "https://nikitabobko.github.io/AeroSpace",
+      "source": "github_pages",
+      "fetched_at": "2026-02-08T11:26:52.165021063-03:00",
+      "description": "AeroSpace is an i3-like tiling window manager for macOS - nikitabobko/AeroSpace",
+      "summary": "AeroSpace is an i3-inspired tiling window manager for macOS that uses a tree-based paradigm and its own virtual workspace emulation to provide fast, keyboard-centric window management.",
+      "tags": [
+        "macos",
+        "tiling-window-manager",
+        "window-management",
+        "productivity-tools",
+        "i3-inspired",
+        "workspace-emulation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "002-AeroSpace-guide.md",
+      "original_file_path": "AeroSpace-guide.md",
+      "title": "AeroSpace Guide",
+      "url": "https://nikitabobko.github.io/AeroSpace/guide",
+      "source": "github_pages",
+      "fetched_at": "2026-02-08T11:26:54.402877375-03:00",
+      "summary": "This document explains the configuration system for the AeroSpace window manager, detailing how custom settings interact with default values and providing a comprehensive reference for TOML configuration keys.",
+      "tags": [
+        "aerospace",
+        "window-manager",
+        "configuration",
+        "toml",
+        "macos",
+        "key-bindings",
+        "tiling-window-manager"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "003-AeroSpace-commands.md",
+      "original_file_path": "AeroSpace-commands.md",
+      "title": "AeroSpace Commands",
+      "url": "https://nikitabobko.github.io/AeroSpace/commands",
+      "source": "github_pages",
+      "fetched_at": "2026-02-08T11:27:16.741958978-03:00",
+      "summary": "This document provides a technical reference for AeroSpace CLI query commands used to inspect the current state of configurations, applications, monitors, and windows.",
+      "tags": [
+        "aerospace",
+        "cli-commands",
+        "window-management",
+        "macos",
+        "querying",
+        "system-state"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "004-AeroSpace-goodies.md",
+      "original_file_path": "AeroSpace-goodies.md",
+      "title": "AeroSpace Goodies",
+      "url": "https://nikitabobko.github.io/AeroSpace/goodies",
+      "source": "github_pages",
+      "fetched_at": "2026-02-08T11:27:16.896120276-03:00",
+      "summary": "A collection of community-contributed tips, automations, and configuration snippets for the AeroSpace tiling window manager on macOS.",
+      "tags": [
+        "aerospace",
+        "macos",
+        "window-management",
+        "automation",
+        "tiling-window-manager",
+        "workflow-optimization",
+        "configuration-snippets"
+      ],
+      "category": "configuration"
+    }
+  ]
+}

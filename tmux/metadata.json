@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-02-04T15:45:32.686489398-03:00",
+  "source_url": "https://github.com/tmux/tmux/wiki/",
+  "strategy": "wiki",
+  "total_documents": 11,
+  "documents": [
+    {
+      "file_path": "008-advanced-use.md",
+      "original_file_path": "advanced-use.md",
+      "title": "Advanced Use",
+      "url": "https://github.com/tmux/tmux/wiki/Advanced-Use",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:44:25.536948341-03:00",
+      "summary": "This document explains advanced tmux features including server socket management, pane monitoring for activity or silence, and handling working directories and window dimensions.",
+      "tags": [
+        "tmux-configuration",
+        "terminal-multiplexer",
+        "socket-management",
+        "pane-monitoring",
+        "window-management",
+        "session-scripting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-clipboard.md",
+      "original_file_path": "clipboard.md",
+      "title": "Clipboard",
+      "url": "https://github.com/tmux/tmux/wiki/Clipboard",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:44:36.409954315-03:00",
+      "summary": "This document explains how to synchronize the tmux internal clipboard with the system clipboard using OSC 52 escape sequences or external piping utilities.",
+      "tags": [
+        "tmux",
+        "clipboard-synchronization",
+        "osc-52",
+        "terminal-configuration",
+        "set-clipboard",
+        "unix-shell"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "011-contributing.md",
+      "original_file_path": "contributing.md",
+      "title": "Contributing",
+      "url": "https://github.com/tmux/tmux/wiki/Contributing",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:44:41.465941091-03:00",
+      "summary": "This document outlines the tmux development process, including source code management, release cycles, and a roadmap of planned features and documentation improvements.",
+      "tags": [
+        "tmux",
+        "open-source-development",
+        "software-releases",
+        "contributor-guidelines",
+        "feature-roadmap",
+        "openbsd"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "009-control-mode.md",
+      "original_file_path": "control-mode.md",
+      "title": "Control Mode",
+      "url": "https://github.com/tmux/tmux/wiki/Control-Mode",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:44:46.782816168-03:00",
+      "summary": "This document explains tmux control mode, a text-only protocol that enables external applications to interface with and manage tmux sessions through standard commands and asynchronous notifications.",
+      "tags": [
+        "tmux",
+        "control-mode",
+        "terminal-protocol",
+        "iterm2-integration",
+        "session-management",
+        "cli-interface"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "010-faq.md",
+      "original_file_path": "faq.md",
+      "title": "FAQ",
+      "url": "https://github.com/tmux/tmux/wiki/FAQ",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:44:52.501350822-03:00",
+      "summary": "This document provides a collection of frequently asked questions and troubleshooting steps for the tmux terminal multiplexer, covering topics such as terminal settings, color support, and basic configuration.",
+      "tags": [
+        "tmux",
+        "terminal-multiplexer",
+        "troubleshooting",
+        "configuration",
+        "environment-variables",
+        "faq"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "005-formats.md",
+      "original_file_path": "formats.md",
+      "title": "Formats",
+      "url": "https://github.com/tmux/tmux/wiki/Formats",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:44:58.696022379-03:00",
+      "summary": "This document explains how to use tmux formats and directives to customize command output, status lines, and configuration logic. It details the syntax for variable expansion, string modifiers, comparisons, and substitutions within the tmux environment.",
+      "tags": [
+        "tmux",
+        "terminal-multiplexer",
+        "text-formatting",
+        "string-manipulation",
+        "cli-tools",
+        "configuration-syntax"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Home",
+      "url": "https://github.com/tmux/tmux/wiki",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:45:04.159175845-03:00",
+      "summary": "This document introduces tmux, a terminal multiplexer, and provides a centralized index of links for installation, documentation, support, and contribution.",
+      "tags": [
+        "tmux",
+        "terminal-multiplexer",
+        "cli-tools",
+        "documentation-index",
+        "open-source"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "006-recipes.md",
+      "original_file_path": "recipes.md",
+      "title": "Recipes",
+      "url": "https://github.com/tmux/tmux/wiki/Recipes",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:45:09.943355274-03:00",
+      "summary": "This document provides a collection of configuration snippets and key binding recipes to customize tmux behavior for pane management, mouse interaction, and session navigation.",
+      "tags": [
+        "tmux-config",
+        "key-bindings",
+        "terminal-multiplexer",
+        "pane-management",
+        "workflow-optimization",
+        "shell-scripting"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "002-getting-started.md",
+      "original_file_path": "getting-started.md",
+      "title": "Getting Started",
+      "url": "https://github.com/tmux/tmux/wiki/Getting-Started",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:45:14.573932667-03:00",
+      "summary": "This document provides an introductory overview of tmux, detailing its server-client architecture and the organizational hierarchy of sessions, windows, and panes.",
+      "tags": [
+        "tmux",
+        "terminal-multiplexer",
+        "session-management",
+        "cli-tools",
+        "unix-utilities"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-installing.md",
+      "original_file_path": "installing.md",
+      "title": "Installing",
+      "url": "https://github.com/tmux/tmux/wiki/Installing",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:45:22.236916055-03:00",
+      "summary": "This document provides comprehensive instructions for installing tmux on various platforms using package managers, prebuilt binaries, or by compiling from source. It includes guidance on managing dependencies, build configurations, and troubleshooting common installation issues.",
+      "tags": [
+        "tmux",
+        "installation-guide",
+        "linux-administration",
+        "compilation",
+        "package-management",
+        "macos"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-modifier-keys.md",
+      "original_file_path": "modifier-keys.md",
+      "title": "Modifier Keys",
+      "url": "https://github.com/tmux/tmux/wiki/Modifier-Keys",
+      "source": "wiki",
+      "fetched_at": "2026-02-04T15:45:27.952567715-03:00",
+      "summary": "This document explains how tmux interprets modifier keys and escape sequences from terminal emulators and provides guidance on configuring extended key support.",
+      "tags": [
+        "tmux",
+        "terminal-emulators",
+        "modifier-keys",
+        "keyboard-shortcuts",
+        "troubleshooting",
+        "extended-keys"
+      ],
+      "category": "guide"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-04T15:46:26Z",
+    "total_files": 11,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Configuration & Customization",
+      "Features & Integration",
+      "Advanced Topics",
+      "Technical Reference",
+      "Support & Troubleshooting",
+      "Meta & Resources"
+    ]
+  }
+}

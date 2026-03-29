@@ -1,0 +1,3502 @@
+{
+  "generated_at": "2026-02-06T02:10:54.041034325-03:00",
+  "source_url": "https://ampcode.com/",
+  "strategy": "crawler",
+  "total_documents": 194,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "Amp",
+      "url": "https://ampcode.com/",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:17.48713996-03:00",
+      "description": "Amp is a frontier coding agent that lets you wield the full power of leading models.",
+      "summary": "This document introduces Amp, an agentic coding tool available for terminals and editors that leverages leading AI models for software development. It outlines product features, pricing, and recent announcements regarding its evolving capabilities.",
+      "tags": [
+        "coding-agent",
+        "ai-development",
+        "developer-tools",
+        "software-engineering",
+        "cli",
+        "ai-models"
+      ],
+      "category": "other",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "004-manual.md",
+      "title": "Amp Owner\u2019s Manual",
+      "url": "https://ampcode.com/manual",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:29.896618339-03:00",
+      "summary": "This document provides a comprehensive guide to installing and utilizing the Amp coding agent, covering its operational modes, prompting best practices, and configuration through AGENTS.md files.",
+      "tags": [
+        "amp-coding-agent",
+        "ai-assistant",
+        "cli-installation",
+        "vs-code-extension",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "manual.md"
+    },
+    {
+      "file_path": "060-models.md",
+      "title": "Models",
+      "url": "https://ampcode.com/models",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:30.626041363-03:00",
+      "description": "Amp uses the best model for each task: leading generalist foundation models for complex reasoning and planning, and smaller specialized models for fast, accurate responses in specific domains.",
+      "summary": "This document details the various foundation and specialized AI models Amp utilizes across different agent modes and system features to optimize performance for tasks like reasoning, search, and code review.",
+      "tags": [
+        "ai-models",
+        "agent-modes",
+        "machine-learning",
+        "code-analysis",
+        "llm-integration",
+        "system-architecture"
+      ],
+      "category": "reference",
+      "original_file_path": "models.md"
+    },
+    {
+      "file_path": "002-free.md",
+      "title": "Amp Free",
+      "url": "https://ampcode.com/free",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:32.544485292-03:00",
+      "description": "Free Usage, Built for Real Work. Amp gives you a $10 daily grant for all modes and models\u2014funded by relevant dev and infra sponsors.",
+      "summary": "This document describes Amp Free, an ad-supported pricing tier that provides access to premium AI models and features through non-intrusive partnerships with developer tool companies.",
+      "tags": [
+        "pricing-plans",
+        "ad-supported",
+        "amp-free",
+        "developer-tools",
+        "monetization"
+      ],
+      "category": "other",
+      "original_file_path": "free.md"
+    },
+    {
+      "file_path": "106-chronicle.md",
+      "title": "Chronicle",
+      "url": "https://ampcode.com/chronicle",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:33.008660307-03:00",
+      "summary": "This document provides a chronological log of feature releases, model updates, and product changes for the Amp AI coding assistant platform.",
+      "tags": [
+        "product-updates",
+        "changelog",
+        "ai-coding-agent",
+        "feature-releases",
+        "developer-tools"
+      ],
+      "category": "other",
+      "original_file_path": "chronicle.md"
+    },
+    {
+      "file_path": "100-threads-T-d372dd3f-ca0f-43bf-9214-2a23c148f578.md",
+      "title": "React server actions RCE reproduction case",
+      "url": "https://ampcode.com/threads/T-d372dd3f-ca0f-43bf-9214-2a23c148f578",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:35.020193208-03:00",
+      "summary": "This document identifies and describes the implementation of React Server Actions, covering server-side handling, client-side integration, and data serialization within the React codebase.",
+      "tags": [
+        "react-server-actions",
+        "rsc",
+        "flight-parcel",
+        "form-actions",
+        "serialization",
+        "progressive-enhancement"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-d372dd3f-ca0f-43bf-9214-2a23c148f578.md"
+    },
+    {
+      "file_path": "103-threads-T-f2b1040a-daa2-4589-a78d-891d9e9d31e4.md",
+      "title": "Cool effect build review and files changed",
+      "url": "https://ampcode.com/threads/T-f2b1040a-daa2-4589-a78d-891d9e9d31e4",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:35.894498202-03:00",
+      "summary": "Describes the technical implementation of synchronized visual effects between an animated orb and text components on a splash screen using shared state and custom rendering.",
+      "tags": [
+        "visual-effects",
+        "state-management",
+        "custom-rendering",
+        "animation-synchronization",
+        "graphics-programming"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-f2b1040a-daa2-4589-a78d-891d9e9d31e4.md"
+    },
+    {
+      "file_path": "085-threads-T-02bda434-0e58-425a-be98-7baaf505cae5.md",
+      "title": "Lua TUI framework design and widget sizing",
+      "url": "https://ampcode.com/threads/T-02bda434-0e58-425a-be98-7baaf505cae5",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:38.541452825-03:00",
+      "summary": "This document explores architectural design choices for a Lua TUI framework, specifically analyzing the division of responsibilities between Zig and Lua for layout, rendering, and mouse interaction.",
+      "tags": [
+        "tui-framework",
+        "system-design",
+        "lua-integration",
+        "zig-lang",
+        "ui-layout",
+        "event-handling"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-02bda434-0e58-425a-be98-7baaf505cae5.md"
+    },
+    {
+      "file_path": "095-threads-T-6ff966b8-2a71-4002-a348-1bd8eecf1754.md",
+      "title": "Add parallel course correction agent with forced tool call",
+      "url": "https://ampcode.com/threads/T-6ff966b8-2a71-4002-a348-1bd8eecf1754",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:40.376928379-03:00",
+      "summary": "This document outlines the design and technical research for implementing a course correction agent that monitors AI model outputs to ensure adherence to plans and project guidelines.",
+      "tags": [
+        "ai-agents",
+        "tool-calling",
+        "thread-management",
+        "gemini-model",
+        "system-design",
+        "inference-handling"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-6ff966b8-2a71-4002-a348-1bd8eecf1754.md"
+    },
+    {
+      "file_path": "091-threads-T-3da3f7ab-1f40-460d-87cb-156a36ab8ad2.md",
+      "title": "Migrate Vegeta plot from Dygraphs to uPlot",
+      "url": "https://ampcode.com/threads/T-3da3f7ab-1f40-460d-87cb-156a36ab8ad2",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:40.699202854-03:00",
+      "summary": "This document contains the embedded JavaScript logic and data structures required to render performance visualization charts for Vegeta load testing results using the uPlot library.",
+      "tags": [
+        "load-testing",
+        "vegeta",
+        "uplot",
+        "data-visualization",
+        "benchmarking",
+        "performance-metrics",
+        "javascript-charts"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-3da3f7ab-1f40-460d-87cb-156a36ab8ad2.md"
+    },
+    {
+      "file_path": "101-threads-T-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9.md",
+      "title": "Refactor video detail component architecture",
+      "url": "https://ampcode.com/threads/T-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:43.105897604-03:00",
+      "summary": "This document outlines a technical refactoring strategy to improve the maintainability and readability of a video detail page by extracting layout components and simplifying state logic with custom hooks.",
+      "tags": [
+        "react-refactoring",
+        "frontend-architecture",
+        "component-design",
+        "clean-code",
+        "nextjs",
+        "software-design"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9.md"
+    },
+    {
+      "file_path": "087-threads-T-032d7c90-3b8c-49f8-9909-2fa325fddacc.md",
+      "title": "Implement eval collection and filtering mechanism",
+      "url": "https://ampcode.com/threads/T-032d7c90-3b8c-49f8-9909-2fa325fddacc",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:43.034951437-03:00",
+      "summary": "This document explores technical strategies for implementing a collect-only flag in an AI evaluation CLI to list available tests without performing expensive execution.",
+      "tags": [
+        "ai-evaluations",
+        "vitest",
+        "cli-development",
+        "test-collection",
+        "software-design",
+        "performance-optimization"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-032d7c90-3b8c-49f8-9909-2fa325fddacc.md"
+    },
+    {
+      "file_path": "137-news-slashing-custom-commands.md",
+      "title": "Slashing Custom Commands",
+      "url": "https://ampcode.com/news/slashing-custom-commands",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:44.439207985-03:00",
+      "description": "Custom commands are gone. Use skills instead.",
+      "summary": "This document explains the transition from custom commands to agent skills and provides step-by-step instructions for migrating existing commands both automatically and manually.",
+      "tags": [
+        "migration",
+        "custom-commands",
+        "agent-skills",
+        "configuration",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "news-slashing-custom-commands.md"
+    },
+    {
+      "file_path": "088-threads-T-0aeaa561-662a-466f-8a32-935b83ef961e.md",
+      "title": "GitHub repository ui-dojo exploration",
+      "url": "https://ampcode.com/threads/T-0aeaa561-662a-466f-8a32-935b83ef961e",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:43.799477968-03:00",
+      "summary": "This document details the architecture and features of UI Dojo, a reference project showcasing integrations between the Mastra AI orchestration framework and various AI UI libraries. It serves as a learning platform for developers to compare implementation strategies for agents, multi-step workflows, and generative user interfaces.",
+      "tags": [
+        "mastra",
+        "ai-orchestration",
+        "ai-sdk",
+        "generative-ui",
+        "agentic-workflows",
+        "multi-agent-systems",
+        "react-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-0aeaa561-662a-466f-8a32-935b83ef961e.md"
+    },
+    {
+      "file_path": "034-news-liberating-code-review.md",
+      "title": "Liberating Code Review",
+      "url": "https://ampcode.com/news/liberating-code-review",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:44.87398788-03:00",
+      "description": "Amp's code review agent is now composable and extensible.",
+      "summary": "This document explains the decoupled Amp review agent's capabilities, including its various invocation methods and the implementation of custom review criteria using scoped Checks.",
+      "tags": [
+        "amp-review",
+        "code-review",
+        "ai-agents",
+        "developer-tools",
+        "automation",
+        "custom-checks"
+      ],
+      "category": "guide",
+      "original_file_path": "news-liberating-code-review.md"
+    },
+    {
+      "file_path": "035-news-painter.md",
+      "title": "Painter",
+      "url": "https://ampcode.com/news/painter",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:46.733194699-03:00",
+      "description": "Generate and edit images with the painter tool",
+      "summary": "This document explains how to use Amp's painter tool to generate and edit images for design inspiration and visual asset creation.",
+      "tags": [
+        "amp-tools",
+        "image-generation",
+        "image-editing",
+        "painter-tool",
+        "design-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "news-painter.md"
+    },
+    {
+      "file_path": "018-news-deep-mode.md",
+      "title": "Go Deep",
+      "url": "https://ampcode.com/news/deep-mode",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:45.718312134-03:00",
+      "description": "A new agent mode in Amp: deep. It thinks for longer, plans more, and needs you less.",
+      "summary": "This document introduces Amp's autonomous 'deep' mode, which uses GPT-5.2-Codex to perform extensive codebase research and solve complex problems independently.",
+      "tags": [
+        "amp-agent",
+        "deep-mode",
+        "autonomous-coding",
+        "gpt-5-2-codex",
+        "codebase-analysis",
+        "ai-tools"
+      ],
+      "category": "concept",
+      "original_file_path": "news-deep-mode.md"
+    },
+    {
+      "file_path": "036-news-walkthrough.md",
+      "title": "Shareable Walkthroughs",
+      "url": "https://ampcode.com/news/walkthrough",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:45.945226822-03:00",
+      "description": "Generate interactive shareable annotated diagrams",
+      "summary": "This document introduces Shareable Walkthroughs, an interactive tool for creating and sharing annotated diagrams that explain codebases, database schemas, and library functionalities.",
+      "tags": [
+        "ampcode",
+        "walkthrough-skill",
+        "code-visualization",
+        "interactive-diagrams",
+        "documentation-tools",
+        "diagram-generation"
+      ],
+      "category": "guide",
+      "original_file_path": "news-walkthrough.md"
+    },
+    {
+      "file_path": "139-news-tab-tab-dead.md",
+      "title": "Tab, Tab, Dead",
+      "url": "https://ampcode.com/news/tab-tab-dead",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:47.046442086-03:00",
+      "description": "We're removing Amp Tab. It is not part of the future we see.",
+      "summary": "This document announces the discontinuation of Amp Tab and explains the company's shift toward a post-agentic era where AI agents write the majority of code. It includes details on the sunset timeline and recommendations for alternative code completion engines.",
+      "tags": [
+        "amp-tab",
+        "product-announcement",
+        "ai-agents",
+        "software-development-trends",
+        "code-completion"
+      ],
+      "category": "other",
+      "original_file_path": "news-tab-tab-dead.md"
+    },
+    {
+      "file_path": "156-podcast.md",
+      "title": "Raising an Agent",
+      "url": "https://ampcode.com/podcast",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:49.742918278-03:00",
+      "description": "A podcast by Quinn Slack and Thorsten Ball",
+      "summary": "This document provides a user interface instruction directing a user to choose a specific media episode for playback.",
+      "tags": [
+        "user-interface",
+        "audio-playback",
+        "navigation",
+        "media-selection"
+      ],
+      "category": "other",
+      "original_file_path": "podcast.md"
+    },
+    {
+      "file_path": "008-notes-how-to-build-an-agent.md",
+      "title": "How to Build an Agent",
+      "url": "https://ampcode.com/notes/how-to-build-an-agent",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:50.801770876-03:00",
+      "description": "Building a fully functional, code-editing agent in less than 400 lines.",
+      "summary": "A tutorial on building a functional code-editing agent in Go using the Anthropic SDK, demonstrating chat loops and the fundamentals of AI tool use.",
+      "tags": [
+        "go",
+        "anthropic-api",
+        "ai-agents",
+        "llm-integration",
+        "tool-use",
+        "claude-3-7-sonnet"
+      ],
+      "category": "tutorial",
+      "original_file_path": "notes-how-to-build-an-agent.md"
+    },
+    {
+      "file_path": "062-terms.md",
+      "title": "Amp Terms",
+      "url": "https://ampcode.com/terms",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:47.911215064-03:00",
+      "summary": "This document outlines the legal terms and conditions governing the use of Sourcegraph's Amp service, including licensing, data privacy, intellectual property rights, and liability limitations.",
+      "tags": [
+        "terms-of-service",
+        "legal-agreement",
+        "data-privacy",
+        "licensing-terms",
+        "intellectual-property",
+        "user-content",
+        "confidentiality"
+      ],
+      "category": "other",
+      "original_file_path": "terms.md"
+    },
+    {
+      "file_path": "007-manual-appendix.md",
+      "title": "Appendix",
+      "url": "https://ampcode.com/manual/appendix",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:52.623205047-03:00",
+      "summary": "This document provides technical guidance on troubleshooting, UI customization, and the configuration of the Amp permission system and MCP registry.",
+      "tags": [
+        "amp-platform",
+        "debugging-tools",
+        "permission-management",
+        "vscode-integration",
+        "mcp-registry",
+        "cli-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "manual-appendix.md"
+    },
+    {
+      "file_path": "005-manual-switch-from.md",
+      "title": "Switch to Amp",
+      "url": "https://ampcode.com/manual/switch-from#claude-code",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:51.651628826-03:00",
+      "summary": "This document provides a comprehensive migration guide for users switching from Claude Code to the Amp coding agent, highlighting benefits, equivalent features, and configuration steps.",
+      "tags": [
+        "migration-guide",
+        "claude-code",
+        "coding-agents",
+        "cli-tools",
+        "developer-productivity",
+        "ai-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "manual-switch-from.md"
+    },
+    {
+      "file_path": "003-press-kit.md",
+      "title": "Amp Press Kit",
+      "url": "https://ampcode.com/press-kit",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:48.918484972-03:00",
+      "description": "Media resources and information about Amp",
+      "summary": "This document introduces Amp, an agentic programming tool and coding agent, explaining the company's mission to transform software development through advanced research and product-focused exploration.",
+      "tags": [
+        "coding-agent",
+        "agentic-programming",
+        "software-development",
+        "ai-tools",
+        "product-introduction"
+      ],
+      "category": "concept",
+      "original_file_path": "press-kit.md"
+    },
+    {
+      "file_path": "038-news-handoff.md",
+      "title": "Handoff (No More Compaction)",
+      "url": "https://ampcode.com/news/handoff",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:57.125847343-03:00",
+      "description": "Move work into new threads without losing your built-up context",
+      "summary": "This document introduces Handoff, a feature in Amp that replaces thread compaction by allowing users to extract task-specific context and files into new threads. It explains the transition from lossy summarization to a more focused, task-oriented approach for managing agent context.",
+      "tags": [
+        "amp-code",
+        "thread-management",
+        "context-optimization",
+        "ai-assistant",
+        "handoff-feature",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "news-handoff.md"
+    },
+    {
+      "file_path": "045-news-rush-mode.md",
+      "title": "Rush Mode",
+      "url": "https://ampcode.com/news/rush-mode",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:52.71310175-03:00",
+      "description": "A faster, cheaper way to use Amp for small, well-defined coding tasks.",
+      "summary": "This document introduces Amp's 'rush' mode, a faster and more cost-effective agent setting optimized for simple coding tasks and small bug fixes.",
+      "tags": [
+        "amp-editor",
+        "rush-mode",
+        "cost-efficiency",
+        "performance-benchmarks",
+        "coding-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "news-rush-mode.md"
+    },
+    {
+      "file_path": "090-threads-T-39dc399d-08cc-4b10-ab17-e6bac8badea7.md",
+      "title": "Debugging thread edit tool JSON implementation",
+      "url": "https://ampcode.com/threads/T-39dc399d-08cc-4b10-ab17-e6bac8badea7",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:55.89081989-03:00",
+      "summary": "This document analyzes and refactors a debug tool for editing thread data in JSON, focusing on synchronizing manual file changes with the application's state and UI.",
+      "tags": [
+        "json-editing",
+        "thread-management",
+        "vscode-extension",
+        "debugging",
+        "state-synchronization",
+        "webview-integration"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-39dc399d-08cc-4b10-ab17-e6bac8badea7.md"
+    },
+    {
+      "file_path": "096-threads-T-9219191b-346b-418a-b521-7dc54fcf7f56.md",
+      "title": "Optimize observeThreadGuidanceFiles return type",
+      "url": "https://ampcode.com/threads/T-9219191b-346b-418a-b521-7dc54fcf7f56",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:54.130115644-03:00",
+      "summary": "This document displays the execution results of a comprehensive test suite for the Sourcegraph AMP core library using the Vitest framework. It lists passed and skipped tests across various modules including filesystem tools, shell command parsers, and inference backends.",
+      "tags": [
+        "vitest",
+        "unit-testing",
+        "sourcegraph-amp",
+        "test-results",
+        "automated-testing",
+        "typescript"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-9219191b-346b-418a-b521-7dc54fcf7f56.md"
+    },
+    {
+      "file_path": "046-news-large-mode.md",
+      "title": "Large Mode",
+      "url": "https://ampcode.com/news/large-mode",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:53.651763892-03:00",
+      "description": "For the rare tasks that need up to 1M tokens of context.",
+      "summary": "This document introduces Amp's new 'large' agent mode featuring a 1-million-token context window and provides instructions on how to enable and use it effectively.",
+      "tags": [
+        "amp-mode",
+        "claude-sonnet",
+        "long-context",
+        "agent-configuration",
+        "model-selection"
+      ],
+      "category": "guide",
+      "original_file_path": "news-large-mode.md"
+    },
+    {
+      "file_path": "006-manual-sdk.md",
+      "title": "SDK",
+      "url": "https://ampcode.com/manual/sdk",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:51.813391579-03:00",
+      "summary": "This document provides an overview of the Amp SDK for TypeScript, explaining how to programmatically interact with the Amp agent through message streaming, thread management, and configuration settings.",
+      "tags": [
+        "amp-sdk",
+        "typescript-sdk",
+        "message-streaming",
+        "thread-continuity",
+        "mcp-integration",
+        "api-integration",
+        "automation"
+      ],
+      "category": "api",
+      "original_file_path": "manual-sdk.md"
+    },
+    {
+      "file_path": "012-guides-context-management.md",
+      "title": "Context Management in Amp",
+      "url": "https://ampcode.com/guides/context-management",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:50.057088554-03:00",
+      "description": "Learn how to get the most out of the context window in Amp, with the least amount of work.",
+      "summary": "This document explains the fundamental concept of the context window in large language models and provides instructions on how to manage context within the Amp agent platform using file mentions, shell mode, and editing tools.",
+      "tags": [
+        "context-window",
+        "llm-fundamentals",
+        "amp-platform",
+        "prompt-engineering",
+        "token-management",
+        "coding-agent"
+      ],
+      "category": "concept",
+      "original_file_path": "guides-context-management.md"
+    },
+    {
+      "file_path": "030-news-librarian.md",
+      "title": "The Librarian",
+      "url": "https://ampcode.com/news/librarian",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:58.237924871-03:00",
+      "description": "A new subagent for searching code on GitHub",
+      "summary": "This document introduces the Librarian, an Amp subagent that allows users to search and analyze code across public and private GitHub repositories for debugging and implementation reference.",
+      "tags": [
+        "amp-librarian",
+        "github-integration",
+        "code-search",
+        "remote-repositories",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "news-librarian.md"
+    },
+    {
+      "file_path": "125-news-gemini-3-flash-search.md",
+      "title": "Gemini 3 Flash in the Search Subagent",
+      "url": "https://ampcode.com/news/gemini-3-flash-search",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:04.423947584-03:00",
+      "description": "The search subagent is now 3x faster with Gemini 3 Flash",
+      "summary": "This document announces the upgrade of Amp's codebase search subagent to Gemini 3 Flash, highlighting a 3x increase in speed and improved parallel tool call capabilities.",
+      "tags": [
+        "amp-codebase",
+        "gemini-3-flash",
+        "model-upgrade",
+        "search-subagent",
+        "performance-optimization"
+      ],
+      "category": "other",
+      "original_file_path": "news-gemini-3-flash-search.md"
+    },
+    {
+      "file_path": "015-notes-feedback-loopable.md",
+      "title": "Feedback Loopable",
+      "url": "https://ampcode.com/notes/feedback-loopable",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:08.38155737-03:00",
+      "description": "How to make hard-to-debug problems debuggable by making them feedback loopable.",
+      "summary": "This document explains the concept of making problems feedback-loopable for AI agents by creating environments where they can independently validate their work and fix bugs.",
+      "tags": [
+        "ai-agents",
+        "feedback-loops",
+        "agentic-workflows",
+        "software-engineering",
+        "developer-experience"
+      ],
+      "category": "concept",
+      "original_file_path": "notes-feedback-loopable.md"
+    },
+    {
+      "file_path": "115-news-amp-free.md",
+      "title": "Amp Free",
+      "url": "https://ampcode.com/news/amp-free",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:07.017361649-03:00",
+      "description": "Agentic coding is now free for everyone.",
+      "summary": "This announcement introduces Amp Free, an ad-supported tier of the Amp AI coding agent that provides access to agentic programming features and frontier models at no cost.",
+      "tags": [
+        "ai-coding-assistant",
+        "amp-free",
+        "ad-supported",
+        "agentic-programming",
+        "developer-tools"
+      ],
+      "category": "other",
+      "original_file_path": "news-amp-free.md"
+    },
+    {
+      "file_path": "061-security.md",
+      "title": "Amp Security Reference",
+      "url": "https://ampcode.com/security",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:47.838403592-03:00",
+      "summary": "This document outlines the security architecture, compliance certifications, and data handling practices for the Amp AI coding agent to assist enterprises with risk assessments. It details how code data is processed by third-party providers and explains encryption, retention, and authentication standards.",
+      "tags": [
+        "security-compliance",
+        "data-privacy",
+        "soc2-type-ii",
+        "data-retention",
+        "encryption-standards",
+        "enterprise-security",
+        "infrastructure-security"
+      ],
+      "category": "guide",
+      "original_file_path": "security.md"
+    },
+    {
+      "file_path": "141-news-todos-are-done.md",
+      "title": "TODOs Are Done",
+      "url": "https://ampcode.com/news/todos-are-done",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:10.718150847-03:00",
+      "description": "The TODO list feature is now gone from Amp",
+      "summary": "This document announces the removal of the TODOs feature from Amp, explaining that improved tracking capabilities in Opus 4.5 have made the feature obsolete and inefficient.",
+      "tags": [
+        "amp-update",
+        "feature-removal",
+        "opus-4-5",
+        "task-tracking",
+        "ai-agent"
+      ],
+      "category": "other",
+      "original_file_path": "news-todos-are-done.md"
+    },
+    {
+      "file_path": "104-threads-T-f810ef79-ba0e-4338-87c6-dbbb9085400a.md",
+      "title": "Reassign database threads to Thorsten's user",
+      "url": "https://ampcode.com/threads/T-f810ef79-ba0e-4338-87c6-dbbb9085400a",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:55.922429426-03:00",
+      "summary": "This document outlines a plan to identify a specific user's ID and update thread ownership within a PostgreSQL database.",
+      "tags": [
+        "postgresql",
+        "database-update",
+        "user-management",
+        "sql-query",
+        "backend-ops"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-f810ef79-ba0e-4338-87c6-dbbb9085400a.md"
+    },
+    {
+      "file_path": "068-news-user-invokable-skills.md",
+      "title": "User Invokable Skills",
+      "url": "https://ampcode.com/news/user-invokable-skills",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:10.817823106-03:00",
+      "description": "Load Agent Skills when you decide, not the agent",
+      "summary": "Explains the new user-invokable skill feature in Amp, allowing users to manually force an agent to use a specific skill via the command palette.",
+      "tags": [
+        "agent-skills",
+        "amp-editor",
+        "command-palette",
+        "user-invokable",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "news-user-invokable-skills.md"
+    },
+    {
+      "file_path": "113-news-amp-free-frontier.md",
+      "title": "The Frontier Is Now Free",
+      "url": "https://ampcode.com/news/amp-free-frontier",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:11.931572231-03:00",
+      "description": "$10/day for any mode, including smart with Opus 4.5",
+      "summary": "This document introduces the daily free credit system for Amp, detailing how users can access high-performance AI models through an ad-supported tier and manage their credit settings.",
+      "tags": [
+        "amp-credits",
+        "free-tier",
+        "ad-supported",
+        "ai-inference",
+        "user-settings",
+        "billing-policy"
+      ],
+      "category": "guide",
+      "original_file_path": "news-amp-free-frontier.md"
+    },
+    {
+      "file_path": "040-news-thread-map.md",
+      "title": "Thread Map",
+      "url": "https://ampcode.com/news/thread-map",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:15.02937524-03:00",
+      "description": "A birdseye view of the threads you forked, handed off, and referenced",
+      "summary": "This document introduces the Thread Map feature in the Amp CLI, which visualizes connections between related conversation threads and identifies common organizational patterns like hub-and-spokes and chains.",
+      "tags": [
+        "amp-cli",
+        "thread-management",
+        "workflow-visualization",
+        "context-optimization",
+        "thread-mapping",
+        "productivity-tools"
+      ],
+      "category": "concept",
+      "original_file_path": "news-thread-map.md"
+    },
+    {
+      "file_path": "037-news-ask-to-handoff.md",
+      "title": "Handoff, Please",
+      "url": "https://ampcode.com/news/ask-to-handoff",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:09.416197899-03:00",
+      "description": "Move to a new thread without commands or buttons",
+      "summary": "This document describes a new feature that allows users to trigger agent handoffs using natural language commands to start new threads with context.",
+      "tags": [
+        "handoff",
+        "ai-agent",
+        "feature-update",
+        "context-management",
+        "workflow-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "news-ask-to-handoff.md"
+    },
+    {
+      "file_path": "039-news-stick-a-fork-in-it.md",
+      "title": "Stick a Fork in It, It's Done",
+      "url": "https://ampcode.com/news/stick-a-fork-in-it",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:09.747698318-03:00",
+      "description": "We're ripping out the Fork command",
+      "summary": "This document announces the deprecation of the fork command in Amp and provides instructions on using handoff and thread mentions as more efficient alternatives for context sharing.",
+      "tags": [
+        "thread-management",
+        "context-sharing",
+        "amp-workflow",
+        "handoff",
+        "thread-mentions",
+        "thread-navigation"
+      ],
+      "category": "guide",
+      "original_file_path": "news-stick-a-fork-in-it.md"
+    },
+    {
+      "file_path": "072-free-ad-partners-apply.md",
+      "title": "Amp",
+      "url": "https://ampcode.com/free/ad-partners/apply",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:08.851900383-03:00",
+      "summary": "This document presents user testimonials and a list of partner developer tools to showcase Amp's non-intrusive, developer-focused advertising model.",
+      "tags": [
+        "developer-tools",
+        "advertising-model",
+        "user-testimonials",
+        "developer-experience",
+        "monetization"
+      ],
+      "category": "other",
+      "original_file_path": "free-ad-partners-apply.md"
+    },
+    {
+      "file_path": "032-news-review.md",
+      "title": "Review",
+      "url": "https://ampcode.com/news/review",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:06.673865095-03:00",
+      "description": "A new panel for reading agent-generated code",
+      "summary": "This document introduces the Amp VS Code extension's new review panel designed to help developers efficiently review and manage code generated by AI agents.",
+      "tags": [
+        "coding-agents",
+        "code-review",
+        "vs-code-extension",
+        "amp-editor",
+        "developer-tools",
+        "ai-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "news-review.md"
+    },
+    {
+      "file_path": "050-news-python-sdk.md",
+      "title": "Amp Python SDK",
+      "url": "https://ampcode.com/news/python-sdk",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:19.471736941-03:00",
+      "description": "Amp Python SDK is now available",
+      "summary": "This document introduces the Amp Python SDK, explaining how to install and use it to programmatically execute Amp tasks and migrations from within a Python environment.",
+      "tags": [
+        "python-sdk",
+        "amp-cli",
+        "automation",
+        "code-migration",
+        "asynchronous-execution"
+      ],
+      "category": "guide",
+      "original_file_path": "news-python-sdk.md"
+    },
+    {
+      "file_path": "042-news-thread-labels.md",
+      "title": "Thread Labels",
+      "url": "https://ampcode.com/news/thread-labels",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:18.492153938-03:00",
+      "description": "Organize and find your threads with custom labels",
+      "summary": "This document explains how to use thread labels in Amp to organize and filter conversations for easier retrieval and better workflow management.",
+      "tags": [
+        "amp",
+        "thread-labels",
+        "organization",
+        "workflow-management",
+        "filtering",
+        "collaboration"
+      ],
+      "category": "guide",
+      "original_file_path": "news-thread-labels.md"
+    },
+    {
+      "file_path": "122-news-clickable-diagrams.md",
+      "title": "Clickable Diagrams",
+      "url": "https://ampcode.com/news/clickable-diagrams",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:16.214536213-03:00",
+      "description": "Mermaid diagrams now link directly to your code",
+      "summary": "Explains the new code reference feature in Amp-generated Mermaid diagrams that allows users to jump to specific code locations from diagram elements.",
+      "tags": [
+        "mermaid-diagrams",
+        "amp-extension",
+        "code-navigation",
+        "editor-tools"
+      ],
+      "category": "other",
+      "original_file_path": "news-clickable-diagrams.md"
+    },
+    {
+      "file_path": "026-news-cli-workspace-settings.md",
+      "title": "Workspace Settings",
+      "url": "https://ampcode.com/news/cli-workspace-settings",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:22.828272666-03:00",
+      "description": "Configure the Amp CLI per workspace",
+      "summary": "This document explains how to use workspace-specific configuration files in the Amp CLI to manage project-level settings and MCP servers.",
+      "tags": [
+        "amp-cli",
+        "workspace-settings",
+        "mcp-servers",
+        "configuration",
+        "cli-tools"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-cli-workspace-settings.md"
+    },
+    {
+      "file_path": "126-news-gemini-3.md",
+      "title": "Gemini 3 Pro",
+      "url": "https://ampcode.com/news/gemini-3",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:22.722865179-03:00",
+      "description": "Google's Gemini 3 is now the main agent model in Amp",
+      "summary": "This document announces that Gemini 3 Pro has become the default model for Amp's smart agent mode, detailing its performance improvements over previous models and outlining current known limitations.",
+      "tags": [
+        "gemini-3",
+        "amp-editor",
+        "ai-agents",
+        "model-update",
+        "llm-benchmarks",
+        "software-announcement"
+      ],
+      "category": "other",
+      "original_file_path": "news-gemini-3.md"
+    },
+    {
+      "file_path": "145-news-workspace-entitlements.md",
+      "title": "Workspace Entitlements",
+      "url": "https://ampcode.com/news/workspace-entitlements",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:24.384281579-03:00",
+      "description": "Per-user usage quotas for Amp Enterprise Premium workspaces",
+      "summary": "This document explains how to configure and manage per-user spending limits through the workspace entitlements feature for Amp Enterprise Premium accounts.",
+      "tags": [
+        "spending-limits",
+        "workspace-entitlements",
+        "cost-control",
+        "enterprise-features",
+        "user-management"
+      ],
+      "category": "guide",
+      "original_file_path": "news-workspace-entitlements.md"
+    },
+    {
+      "file_path": "138-news-social-coding.md",
+      "title": "Social Coding",
+      "url": "https://ampcode.com/news/social-coding",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:24.873992558-03:00",
+      "description": "See how other people are actually using coding agents to do real stuff, with public profiles and threads.",
+      "summary": "This document introduces public profiles and thread sharing on the Amp platform, allowing users to learn from real-world AI agent workflows and claim their own public usernames.",
+      "tags": [
+        "ai-agents",
+        "public-profiles",
+        "social-coding",
+        "developer-tools",
+        "community-sharing",
+        "software-development"
+      ],
+      "category": "other",
+      "original_file_path": "news-social-coding.md"
+    },
+    {
+      "file_path": "033-news-agentic-code-review.md",
+      "title": "Agentic Review",
+      "url": "https://ampcode.com/news/agentic-code-review",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:17.643687697-03:00",
+      "description": "A new agent for reviewing agent-generated code in your editor",
+      "summary": "This document introduces Amp's new specialized code review agent for VS Code, detailing its workflow for analyzing diffs and generating actionable feedback within an integrated development environment.",
+      "tags": [
+        "code-review",
+        "ai-agent",
+        "vs-code",
+        "software-development",
+        "amp-editor",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "news-agentic-code-review.md"
+    },
+    {
+      "file_path": "128-news-gpt-5-oracle.md",
+      "title": "GPT-5 Oracle",
+      "url": "https://ampcode.com/news/gpt-5-oracle",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:57.684063093-03:00",
+      "description": "When Sonnet falls short, GPT-5 can now help as the oracle",
+      "summary": "This document announces that GPT-5 has transitioned from an experimental feature to the permanent model for the oracle in Amp, highlighting its strengths in planning, debugging, and architectural analysis.",
+      "tags": [
+        "amp-code",
+        "gpt-5",
+        "oracle-model",
+        "ai-agents",
+        "software-planning",
+        "debugging",
+        "code-analysis"
+      ],
+      "category": "other",
+      "original_file_path": "news-gpt-5-oracle.md"
+    },
+    {
+      "file_path": "132-news-monthly-automatic-top-ups.md",
+      "title": "Monthly Automatic Top Ups",
+      "url": "https://ampcode.com/news/monthly-automatic-top-ups",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:28.996778936-03:00",
+      "description": "A new mode for a more predictable Amp budget",
+      "summary": "This document introduces the new monthly automatic top-up feature for Amp balances, which allows users to set a recurring monthly budget while retaining unused credits.",
+      "tags": [
+        "amp-balance",
+        "automatic-top-up",
+        "billing-management",
+        "workspace-settings",
+        "recurring-payments"
+      ],
+      "category": "guide",
+      "original_file_path": "news-monthly-automatic-top-ups.md"
+    },
+    {
+      "file_path": "019-news-look-at.md",
+      "title": "Look At This",
+      "url": "https://ampcode.com/news/look-at",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:16.792031721-03:00",
+      "description": "Analyze PDFs and images without bloating your context window",
+      "summary": "This document explains how Amp uses the look_at tool to process large media files via a separate model, minimizing main context window usage by extracting only the requested data.",
+      "tags": [
+        "amp-agent",
+        "media-processing",
+        "token-optimization",
+        "context-window",
+        "file-analysis",
+        "ai-tools"
+      ],
+      "category": "concept",
+      "original_file_path": "news-look-at.md"
+    },
+    {
+      "file_path": "025-news-enterprise-managed-settings.md",
+      "title": "Enterprise Managed Settings",
+      "url": "https://ampcode.com/news/enterprise-managed-settings",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:32.883665106-03:00",
+      "description": "Configure organization-wide settings that override individual settings",
+      "summary": "This document explains how system administrators can implement organization-wide managed settings in Amp to enforce security and standardization across Enterprise accounts. It details the configurable parameters and provides the specific file paths required for different operating systems.",
+      "tags": [
+        "amp-enterprise",
+        "managed-settings",
+        "system-administration",
+        "organization-wide-configuration",
+        "security-policy"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-enterprise-managed-settings.md"
+    },
+    {
+      "file_path": "136-news-opus-4.5.md",
+      "title": "Opus 4.5: Better, Faster, Often Cheaper",
+      "url": "https://ampcode.com/news/opus-4.5",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:21.824285974-03:00",
+      "description": "Claude Opus 4.5 is the new main agent model in Amp",
+      "summary": "This document announces and explains the transition of Amp's 'smart' mode to the Claude Opus 4.5 model, providing a comparative analysis of its performance, reliability, and cost-efficiency against other models like Gemini 3 and Sonnet 4.5.",
+      "tags": [
+        "claude-opus",
+        "model-benchmarks",
+        "ai-integration",
+        "cost-efficiency",
+        "llm-comparison",
+        "smart-mode"
+      ],
+      "category": "other",
+      "original_file_path": "news-opus-4.5.md"
+    },
+    {
+      "file_path": "043-news-find-threads.md",
+      "title": "Find Threads",
+      "url": "https://ampcode.com/news/find-threads",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:21.008506051-03:00",
+      "description": "Find Amp threads by keyword or by which files they touched",
+      "summary": "This document introduces the find_thread tool for Amp, which enables users to search historical conversation threads using keywords or by identifying threads that modified specific files.",
+      "tags": [
+        "amp-platform",
+        "thread-search",
+        "find-thread-tool",
+        "context-retrieval",
+        "file-search"
+      ],
+      "category": "guide",
+      "original_file_path": "news-find-threads.md"
+    },
+    {
+      "file_path": "140-news-through-the-agent-into-the-shell.md",
+      "title": "Through the Agent, Into the Shell",
+      "url": "https://ampcode.com/news/through-the-agent-into-the-shell",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:35.70760267-03:00",
+      "description": "Execute shell commands, right there in the prompt input",
+      "summary": "This document introduces and explains the shell mode feature for the Amp CLI, which allows users to execute shell commands directly within the prompt and manage their inclusion in the agent context window.",
+      "tags": [
+        "amp-cli",
+        "shell-mode",
+        "command-line-interface",
+        "developer-tools",
+        "incognito-mode"
+      ],
+      "category": "guide",
+      "original_file_path": "news-through-the-agent-into-the-shell.md"
+    },
+    {
+      "file_path": "111-news-AGENTS.md",
+      "title": "",
+      "url": "https://ampcode.com/news/AGENTS.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:33.749256141-03:00",
+      "description": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /> <link rel=\"manifest\" href=\"/site.webmanifest\" /> <link rel=\"apple-touch-icon\" href=\"/app-icon.png\" /> <meta name=\"apple-mobile...",
+      "summary": "This document announces the transition of the standard agent instruction filename from AGENT.md to AGENTS.md to align with emerging industry standards set by OpenAI.",
+      "tags": [
+        "ai-agents",
+        "configuration-files",
+        "naming-conventions",
+        "amp-updates",
+        "documentation-standards"
+      ],
+      "category": "other",
+      "original_file_path": "news-AGENTS.md"
+    },
+    {
+      "file_path": "107-news-1m-tokens.md",
+      "title": "1,000,000 Tokens",
+      "url": "https://ampcode.com/news/1m-tokens",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:33.870677688-03:00",
+      "description": "Amp can now use 1 million tokens of context with Claude Sonnet 4",
+      "summary": "This document announces Amp's expanded 1 million token context window for Claude Sonnet 4 and provides recommendations for optimizing performance and cost through small, task-specific threads.",
+      "tags": [
+        "context-window",
+        "claude-sonnet-4",
+        "token-usage",
+        "pricing",
+        "performance-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "news-1m-tokens.md"
+    },
+    {
+      "file_path": "064-news-jetbrains-diagnostics.md",
+      "title": "JetBrains Diagnostics for Java, Kotlin, and Scala",
+      "url": "https://ampcode.com/news/jetbrains-diagnostics",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:35.769231128-03:00",
+      "description": "Read JVM diagnostics from JetBrains IDEs",
+      "summary": "This document explains how Amp CLI integrates with JetBrains IDEs to retrieve diagnostics for JVM-based languages like Java, Kotlin, and Scala.",
+      "tags": [
+        "amp-cli",
+        "jetbrains-ide",
+        "jvm-diagnostics",
+        "java",
+        "kotlin",
+        "scala",
+        "ide-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "news-jetbrains-diagnostics.md"
+    },
+    {
+      "file_path": "029-news-agent-skills.md",
+      "title": "Agent Skills",
+      "url": "https://ampcode.com/news/agent-skills",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:19.713006374-03:00",
+      "description": "Reuse your existing agent skills in Amp",
+      "summary": "This document introduces Amp agent skills, which allow agents to lazily load specific tool instructions, and outlines the directory structure for skill installation.",
+      "tags": [
+        "amp-agent",
+        "agent-skills",
+        "tool-use",
+        "workspace-configuration",
+        "skill-management"
+      ],
+      "category": "concept",
+      "original_file_path": "news-agent-skills.md"
+    },
+    {
+      "file_path": "044-news-read-threads.md",
+      "title": "Amp Now Reads Threads",
+      "url": "https://ampcode.com/news/read-threads",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:25.452558854-03:00",
+      "description": "Reference and let Amp read other Amp threads",
+      "summary": "This document outlines how to use thread referencing in Amp to provide contextual information for AI agents through URLs, IDs, or the @ symbol. It details the process of using the read_thread tool to automatically extract relevant markdown from linked conversations.",
+      "tags": [
+        "amp-platform",
+        "thread-referencing",
+        "context-extraction",
+        "cli-tools",
+        "agentic-programming"
+      ],
+      "category": "guide",
+      "original_file_path": "news-read-threads.md"
+    },
+    {
+      "file_path": "073-news-command-palette.md",
+      "title": "Command Palette, Not Slash Commands",
+      "url": "https://ampcode.com/news/command-palette",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:21.914192966-03:00",
+      "description": "Amp now has a command palette that replaces slash commands",
+      "summary": "This document introduces the Amp Command Palette for the CLI and editor extensions, detailing its keyboard shortcuts and improvements over the previous slash menu.",
+      "tags": [
+        "amp-cli",
+        "editor-extensions",
+        "command-palette",
+        "keyboard-shortcuts",
+        "ux-updates"
+      ],
+      "category": "guide",
+      "original_file_path": "news-command-palette.md"
+    },
+    {
+      "file_path": "131-news-model-evaluation.md",
+      "title": "Model Evaluation",
+      "url": "https://ampcode.com/news/model-evaluation",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:39.009893486-03:00",
+      "description": "Follow our team's real-time evaluation of new frontier models",
+      "summary": "This document chronicles the Amp team's evaluation of new large language models like GPT-5 and Claude Opus 4.1, detailing their practical performance in an agentic coding environment.",
+      "tags": [
+        "llm-evaluation",
+        "gpt-5",
+        "claude-opus",
+        "ai-agents",
+        "model-performance",
+        "software-development"
+      ],
+      "category": "other",
+      "original_file_path": "news-model-evaluation.md"
+    },
+    {
+      "file_path": "117-news-amp-tab-30-percent-faster.md",
+      "title": "Amp Tab 30% Faster",
+      "url": "https://ampcode.com/news/amp-tab-30-percent-faster",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:41.975748228-03:00",
+      "description": "Amp Tab response times are now 30% faster with optimized infrastructure",
+      "summary": "This document describes infrastructure optimizations and performance improvements to the Amp Tab in-editor completion engine, highlighting techniques like speculative decoding and TensorRT-LLM.",
+      "tags": [
+        "amp-tab",
+        "performance-optimization",
+        "inference-engine",
+        "speculative-decoding",
+        "latency-reduction",
+        "tensorrt-llm"
+      ],
+      "category": "other",
+      "original_file_path": "news-amp-tab-30-percent-faster.md"
+    },
+    {
+      "file_path": "041-news-thread-forking.md",
+      "title": "Thread Forking in VS Code",
+      "url": "https://ampcode.com/news/thread-forking",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:42.893299928-03:00",
+      "description": "We added fork threads to help you explore different directions mid-thread",
+      "summary": "This document explains the functionality and benefits of the Fork feature, which allows users to create new conversation threads from a specific point.",
+      "tags": [
+        "forking",
+        "thread-management",
+        "navigation",
+        "conversation-flow",
+        "productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "news-thread-forking.md"
+    },
+    {
+      "file_path": "116-news-amp-inc.md",
+      "title": "Amp, Inc.",
+      "url": "https://ampcode.com/news/amp-inc",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:20.770820901-03:00",
+      "description": "Amp is becoming its own company",
+      "summary": "This document announces that Amp is spinning off from Sourcegraph to become an independent research lab focused on leveraging artificial intelligence to transform software development.",
+      "tags": [
+        "amp",
+        "sourcegraph",
+        "spin-off",
+        "artificial-intelligence",
+        "software-development",
+        "company-announcement"
+      ],
+      "category": "other",
+      "original_file_path": "news-amp-inc.md"
+    },
+    {
+      "file_path": "051-news-typescript-sdk.md",
+      "title": "Amp TypeScript SDK",
+      "url": "https://ampcode.com/news/typescript-sdk",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:29.54089376-03:00",
+      "summary": "This document introduces the Amp TypeScript SDK, explaining how to programmatically integrate the Amp agent into TypeScript applications for automated tasks.",
+      "tags": [
+        "typescript-sdk",
+        "amp-agent",
+        "developer-tools",
+        "sourcegraph-amp",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "news-typescript-sdk.md"
+    },
+    {
+      "file_path": "114-news-amp-free-no-training.md",
+      "title": "Use Amp Free at Work",
+      "url": "https://ampcode.com/news/amp-free-no-training",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:28.100243967-03:00",
+      "description": "The Internet\u2019s best business model (advertising) delivers once again: a $0 coding agent that meets the same stringent infosec standards of Amp\u2019s paid smart mode.",
+      "summary": "This document announces that Amp Free no longer requires model training and now adheres to the same security standards as the paid version. It provides instructions for users and administrators on how to enable and manage free mode in the CLI, editor, and workspace settings.",
+      "tags": [
+        "amp-free",
+        "model-training",
+        "data-privacy",
+        "security-standards",
+        "developer-tools",
+        "coding-agent",
+        "workspace-management"
+      ],
+      "category": "other",
+      "original_file_path": "news-amp-free-no-training.md"
+    },
+    {
+      "file_path": "023-news-mcp-permissions.md",
+      "title": "MCP Permissions",
+      "url": "https://ampcode.com/news/mcp-permissions",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:33.832361782-03:00",
+      "description": "You can now set `amp.mcpPermissions` to define rules that block or allow MCP servers",
+      "summary": "This document explains how to configure rule-based permissions for Model Context Protocol (MCP) servers using the amp.mcpPermissions setting to allow or block specific commands and URLs.",
+      "tags": [
+        "mcp-permissions",
+        "model-context-protocol",
+        "security-rules",
+        "configuration-settings",
+        "access-control"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-mcp-permissions.md"
+    },
+    {
+      "file_path": "027-news-gpt-5.md",
+      "title": "Try GPT-5 With Us",
+      "url": "https://ampcode.com/news/gpt-5",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:40.218611873-03:00",
+      "description": "Test GPT-5 in Amp while we evaluate its agentic capabilities",
+      "summary": "This document explains how to temporarily enable and test GPT-5 integration within the Amp CLI and editor extensions during the model's evaluation phase.",
+      "tags": [
+        "amp",
+        "gpt-5",
+        "model-evaluation",
+        "cli-configuration",
+        "editor-settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-gpt-5.md"
+    },
+    {
+      "file_path": "134-news-multiple-AGENT.md-files.md",
+      "title": "Multiple AGENT.md Files",
+      "url": "https://ampcode.com/news/multiple-AGENT.md-files",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:45.58828575-03:00",
+      "description": "Use multiple `AGENT.md` files across directory trees",
+      "summary": "This document explains how the Amp editor utilizes AGENTS.md files across various directory levels to provide localized context and configuration. It details the file search hierarchy and the ability to include additional file references within these documents.",
+      "tags": [
+        "amp-editor",
+        "agents-md",
+        "configuration-files",
+        "hierarchical-config",
+        "context-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-multiple-AGENT.md-files.md"
+    },
+    {
+      "file_path": "020-news-diagnostic-driven-completions.md",
+      "title": "Diagnostic-Driven Completions",
+      "url": "https://ampcode.com/news/diagnostic-driven-completions",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:39.905384937-03:00",
+      "description": "Amp Tab now uses diagnostics to suggest file-wide fixes",
+      "summary": "This document explains how Amp Tab uses language server diagnostics to suggest follow-up edits and provide file-wide completions for resolving introduced errors.",
+      "tags": [
+        "amp-tab",
+        "language-server",
+        "diagnostics",
+        "code-completion",
+        "error-resolution",
+        "editor-features"
+      ],
+      "category": "concept",
+      "original_file_path": "news-diagnostic-driven-completions.md"
+    },
+    {
+      "file_path": "065-news-terminal.md",
+      "title": "Terminal Improvements",
+      "url": "https://ampcode.com/news/terminal",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:49.075837678-03:00",
+      "description": "Commands now inherit shell environments and support interactive mode",
+      "summary": "This document outlines updates to terminal command execution in Amp, including shell environment integration, new interactive controls, and improved output rendering.",
+      "tags": [
+        "terminal-commands",
+        "amp-platform",
+        "vs-code-integration",
+        "command-execution",
+        "user-interface",
+        "shell-environment"
+      ],
+      "category": "reference",
+      "original_file_path": "news-terminal.md"
+    },
+    {
+      "file_path": "143-news-towards-a-new-cli.md",
+      "title": "Towards a New CLI",
+      "url": "https://ampcode.com/news/towards-a-new-cli",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:44.38782837-03:00",
+      "description": "Today we released a new version of our Amp CLI",
+      "summary": "This document announces the updated version of the Amp CLI, designed to integrate and support AI agents directly within the terminal environment. It highlights the growing trend of terminal-based agents and provides basic commands for installation and authentication.",
+      "tags": [
+        "amp-cli",
+        "terminal-agents",
+        "command-line-interface",
+        "ai-workflows",
+        "sourcegraph",
+        "developer-tools"
+      ],
+      "category": "other",
+      "original_file_path": "news-towards-a-new-cli.md"
+    },
+    {
+      "file_path": "135-news-no-more-byok.md",
+      "title": "No More BYOK",
+      "url": "https://ampcode.com/news/no-more-byok",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:52.000629716-03:00",
+      "description": "The best product is built by iterating fast at the model\u2194product frontier, so we removed Isolated Mode",
+      "summary": "This document explains the decision to remove Isolated Mode in Amp, detailing the technical challenges regarding API rate limits, connectivity, and model parity that led to the change.",
+      "tags": [
+        "amp",
+        "isolated-mode",
+        "product-updates",
+        "llm-inference",
+        "api-integration",
+        "anthropic-api",
+        "gemini-api"
+      ],
+      "category": "other",
+      "original_file_path": "news-no-more-byok.md"
+    },
+    {
+      "file_path": "120-news-cli-tab-navigation.md",
+      "title": "Edit, Restore and Fork in the CLI",
+      "url": "https://ampcode.com/news/cli-tab-navigation",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:26.697755286-03:00",
+      "description": "Edit, restore and fork previous messages in the CLI with Tab",
+      "summary": "This document explains how to manage message threads in the Amp CLI by using keyboard shortcuts to edit, restore, or fork messages.",
+      "tags": [
+        "amp-cli",
+        "message-editing",
+        "thread-management",
+        "cli-shortcuts",
+        "fork-thread",
+        "restore-thread"
+      ],
+      "category": "guide",
+      "original_file_path": "news-cli-tab-navigation.md"
+    },
+    {
+      "file_path": "110-news-AGENT.md",
+      "title": "",
+      "url": "https://ampcode.com/news/AGENT.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:48.441345152-03:00",
+      "description": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /> <link rel=\"manifest\" href=\"/site.webmanifest\" /> <link rel=\"apple-touch-icon\" href=\"/app-icon.png\" /> <meta name=\"apple-mobile...",
+      "summary": "This document introduces AGENT.md and AGENTS.md files, which are used by the Amp tool to store project-specific guidance on structure, build steps, and coding conventions.",
+      "tags": [
+        "amp-code",
+        "agent-md",
+        "agents-md",
+        "project-configuration",
+        "ai-guidance",
+        "build-steps"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-AGENT.md"
+    },
+    {
+      "file_path": "017-notes-200k-tokens-is-plenty.md",
+      "title": "200k Tokens Is Plenty",
+      "url": "https://ampcode.com/notes/200k-tokens-is-plenty",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:54.160488988-03:00",
+      "description": "Short threads are cheaper, better, and easier to reason about.",
+      "summary": "This document explains the benefits of using short, task-specific threads instead of long context windows when working with AI coding agents to improve performance and reduce costs.",
+      "tags": [
+        "context-management",
+        "ai-coding",
+        "token-optimization",
+        "workflow-efficiency",
+        "software-development",
+        "prompt-engineering"
+      ],
+      "category": "guide",
+      "original_file_path": "notes-200k-tokens-is-plenty.md"
+    },
+    {
+      "file_path": "121-news-cli-vscode-neovim.md",
+      "title": "Amp CLI connects to VS Code and Neovim",
+      "url": "https://ampcode.com/news/cli-vscode-neovim",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:30.924171543-03:00",
+      "description": "Amp CLI connects to VS Code and Neovim",
+      "summary": "This document explains how to integrate the Amp CLI with VS Code and Neovim to enable direct file access and editing within the IDE.",
+      "tags": [
+        "amp-cli",
+        "ide-integration",
+        "vs-code",
+        "neovim",
+        "development-tools",
+        "code-editing"
+      ],
+      "category": "guide",
+      "original_file_path": "news-cli-vscode-neovim.md"
+    },
+    {
+      "file_path": "067-news-lazy-load-mcp-with-skills.md",
+      "title": "Efficient MCP Tool Loading",
+      "url": "https://ampcode.com/news/lazy-load-mcp-with-skills",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:13.850484168-03:00",
+      "description": "Load MCP tools into your context window only when you use them",
+      "summary": "This document explains how to optimize token usage in Amp by integrating MCP server configurations with Agent Skills to load tool definitions dynamically only when a skill is invoked.",
+      "tags": [
+        "mcp-server",
+        "agent-skills",
+        "token-optimization",
+        "context-window-management",
+        "amp-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "news-lazy-load-mcp-with-skills.md"
+    },
+    {
+      "file_path": "127-news-globs-in-AGENTS.md",
+      "title": "",
+      "url": "https://ampcode.com/news/globs-in-AGENTS.md",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:27.730356848-03:00",
+      "description": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"utf-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no\" /> <link rel=\"manifest\" href=\"/site.webmanifest\" /> <link rel=\"apple-touch-icon\" href=\"/app-icon.png\" /> <meta name=\"apple-mobile...",
+      "summary": "This document explains how to use glob patterns in AGENTS.md files to dynamically include external documentation and context files for AI agents.",
+      "tags": [
+        "agents-md",
+        "glob-patterns",
+        "ai-agents",
+        "context-management",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-globs-in-AGENTS.md"
+    },
+    {
+      "file_path": "066-news-toolboxes.md",
+      "title": "Bring Your Own Tools",
+      "url": "https://ampcode.com/news/toolboxes",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:31.830864183-03:00",
+      "description": "Provide tools to Amp in the form of executable files",
+      "summary": "This document explains how to integrate custom executable files as tools in Amp using environment variables and standard input/output protocols for discovery and execution.",
+      "tags": [
+        "amp-platform",
+        "external-tools",
+        "executable-integration",
+        "tool-discovery",
+        "environment-variables"
+      ],
+      "category": "guide",
+      "original_file_path": "news-toolboxes.md"
+    },
+    {
+      "file_path": "123-news-default-claude-sonnet-4.md",
+      "title": "Amp Now Uses Claude Sonnet 4",
+      "url": "https://ampcode.com/news/default-claude-sonnet-4",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:51.015638958-03:00",
+      "description": "Now that Anthropic has released it, we've switched Amp's primary model to be Claude Sonnet 4",
+      "summary": "This document announces Amp's transition to using Claude 4 Sonnet as its primary model and outlines the improvements in speed, stability, and tool calling capabilities.",
+      "tags": [
+        "amp-update",
+        "claude-4",
+        "sonnet",
+        "anthropic",
+        "model-integration",
+        "vs-code-extension"
+      ],
+      "category": "other",
+      "original_file_path": "news-default-claude-sonnet-4.md"
+    },
+    {
+      "file_path": "133-news-multi-root-workspaces.md",
+      "title": "Multi-Root Workspaces",
+      "url": "https://ampcode.com/news/multi-root-workspaces",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:47.663290577-03:00",
+      "summary": "This document describes the improved support for multi-root workspaces in Amp, detailing updates to file management, UI visibility, and search capabilities.",
+      "tags": [
+        "amp",
+        "multi-root-workspaces",
+        "workspace-management",
+        "file-operations",
+        "ui-updates",
+        "search-functionality"
+      ],
+      "category": "other",
+      "original_file_path": "news-multi-root-workspaces.md"
+    },
+    {
+      "file_path": "112-news-agents-panel.md",
+      "title": "Agents Panel",
+      "url": "https://ampcode.com/news/agents-panel",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:13.349279085-03:00",
+      "description": "A new panel for viewing and managing multiple agent threads",
+      "summary": "This document introduces the Agents Panel in the Amp editor extension and explains how to navigate, manage, and archive agent threads using keyboard shortcuts.",
+      "tags": [
+        "amp-editor",
+        "agent-threads",
+        "keyboard-shortcuts",
+        "thread-management",
+        "vscode-extension"
+      ],
+      "category": "guide",
+      "original_file_path": "news-agents-panel.md"
+    },
+    {
+      "file_path": "154-podcast-episode-8.md",
+      "title": "Episode 8",
+      "url": "https://ampcode.com/podcast/episode-8",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:00.308403585-03:00",
+      "description": "In this episode, Beyang sits down with Camden to discuss how the Amp team evaluates new models: why tool calling is the key differentiator, how open models like K2 and Qwen stack up, what GPT-5 changes, and how qualitative \"vibe checks\" often matter more than benchmarks. They also dive into subagents, model alloys, and what the future of agentic coding looks like inside Amp.",
+      "summary": "This document explores how the Amp team evaluates large language models for agentic coding, specifically focusing on the importance of tool calling, model alloying, and the ability of agents to self-correct during complex tasks.",
+      "tags": [
+        "llm-evaluation",
+        "agentic-coding",
+        "tool-calling",
+        "model-alloying",
+        "ai-development",
+        "software-engineering",
+        "self-correction"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-8.md"
+    },
+    {
+      "file_path": "054-news-queue-messages-in-the-cli.md",
+      "title": "Queue Messages in the CLI",
+      "url": "https://ampcode.com/news/queue-messages-in-the-cli",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:39.342505641-03:00",
+      "description": "Queue messages with `/queue`",
+      "summary": "This document explains how to use CLI commands to queue and dequeue messages for an agent to process sequentially.",
+      "tags": [
+        "cli-commands",
+        "message-queueing",
+        "agent-interaction",
+        "command-line-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "news-queue-messages-in-the-cli.md"
+    },
+    {
+      "file_path": "010-notes-how-i-use-amp.md",
+      "title": "Amp is now available. Here's how I use it.",
+      "url": "https://ampcode.com/notes/how-i-use-amp",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:56.104083686-03:00",
+      "description": "Amp is now available. Here is how I use it.",
+      "summary": "This document outlines a professional developer's workflow and best practices for using the Amp coding agent, covering feature implementation, visual debugging, and context management.",
+      "tags": [
+        "amp",
+        "coding-agent",
+        "developer-workflow",
+        "ai-assisted-coding",
+        "vs-code",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "notes-how-i-use-amp.md"
+    },
+    {
+      "file_path": "011-notes-how-we-build.md",
+      "title": "How We Build",
+      "url": "https://ampcode.com/notes/how-we-build",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:56.3662858-03:00",
+      "description": "How we build Amp",
+      "summary": "This document outlines the core engineering philosophy and cultural values of a development team, emphasizing shipping speed, individual accountability, and minimalist design standards.",
+      "tags": [
+        "engineering-culture",
+        "shipping-fast",
+        "ownership",
+        "design-philosophy",
+        "product-development",
+        "software-principles"
+      ],
+      "category": "guide",
+      "original_file_path": "notes-how-we-build.md"
+    },
+    {
+      "file_path": "031-news-oracle.md",
+      "title": "Oracle",
+      "url": "https://ampcode.com/news/oracle",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:45.430008053-03:00",
+      "description": "Meet Oracle, Amp's new o3-powered tool for code review and analysis",
+      "summary": "This document introduces the 'oracle' subagent for the Amp coding platform, which leverages the OpenAI o3 model to assist with complex code reviews, debugging, and architectural analysis.",
+      "tags": [
+        "amp",
+        "oracle-tool",
+        "o3-model",
+        "ai-agents",
+        "code-review",
+        "debugging"
+      ],
+      "category": "guide",
+      "original_file_path": "news-oracle.md"
+    },
+    {
+      "file_path": "028-notes-permissions.md",
+      "title": "How We Think about Permissions",
+      "url": "https://ampcode.com/notes/permissions",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:55.105117141-03:00",
+      "summary": "This document explains the Amp permission system and how to configure rules that control an AI agent's access to tools, files, and commands. It covers various scenarios ranging from full automation to granular restrictions for sensitive operations like database management and git commits.",
+      "tags": [
+        "ai-agents",
+        "permissions-management",
+        "amp-agent",
+        "security-policies",
+        "access-control",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "notes-permissions.md"
+    },
+    {
+      "file_path": "074-notes-fif.md",
+      "title": "Frequently Ignored Feedback (FIF)",
+      "url": "https://ampcode.com/notes/fif",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:57.023394618-03:00",
+      "description": "Our responses to some common feedback that we are intentionally not acting on.",
+      "summary": "This document outlines the product philosophy for the Amp coding assistant by explaining why specific feature requests are intentionally declined. It provides context on the developers' decisions regarding model selection, agent autonomy, and user interface design.",
+      "tags": [
+        "amp-assistant",
+        "product-philosophy",
+        "design-decisions",
+        "ai-coding",
+        "user-feedback",
+        "feature-requests"
+      ],
+      "category": "other",
+      "original_file_path": "notes-fif.md"
+    },
+    {
+      "file_path": "142-news-todos.md",
+      "title": "TODOs for the Agent",
+      "url": "https://ampcode.com/news/todos",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:51.030621242-03:00",
+      "description": "The TODO feature that lets the agent manage its own list of tasks is now enabled by default",
+      "summary": "This document announces that the agent-managed task list (TODO) feature is now enabled by default.",
+      "tags": [
+        "todo-feature",
+        "agent-tasks",
+        "task-management",
+        "feature-update"
+      ],
+      "category": "other",
+      "original_file_path": "news-todos.md"
+    },
+    {
+      "file_path": "155-podcast-episode-9.md",
+      "title": "Episode 9",
+      "url": "https://ampcode.com/podcast/episode-9",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:58.523413664-03:00",
+      "description": "In this episode, Quinn and Thorsten discuss how everything seems to have changed again with Gemini 3 and Opus 4.5 and what comes after \u2014 the assistant is dead, long live the factory.",
+      "summary": "This document explores the evolution of AI development from simple coding assistants to autonomous agent-driven factories capable of managing entire codebases independently. It analyzes how recent advancements in frontier models are shifting the industry toward a future where agents perform the majority of software engineering tasks.",
+      "tags": [
+        "ai-agents",
+        "autonomous-coding",
+        "software-engineering",
+        "llm-evolution",
+        "developer-workflow",
+        "agent-native-code"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-9.md"
+    },
+    {
+      "file_path": "161-@cje.md",
+      "title": "cje's Profile",
+      "url": "https://ampcode.com/@cje",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:13.779913097-03:00",
+      "summary": "This document displays a user profile for Christopher Ehrlich, showcasing developer metrics such as message counts, code contribution statistics, and preferred development tools.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "activity-stats",
+        "coding-contributions",
+        "ampcode"
+      ],
+      "category": "other",
+      "original_file_path": "@cje.md"
+    },
+    {
+      "file_path": "119-news-claude-sonnet-4-5.md",
+      "title": "Now Using Claude Sonnet 4.5",
+      "url": "https://ampcode.com/news/claude-sonnet-4-5",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:29.88228308-03:00",
+      "description": "Anthropic released an updated Sonnet 4.5, and Amp now uses it by default",
+      "summary": "This document announces that Amp has transitioned to Claude Sonnet 4.5 as its primary model, detailing improvements in coding performance and update instructions for users.",
+      "tags": [
+        "amp",
+        "claude-sonnet-4-5",
+        "anthropic",
+        "llm-update",
+        "coding-assistant",
+        "vs-code-extension"
+      ],
+      "category": "other",
+      "original_file_path": "news-claude-sonnet-4-5.md"
+    },
+    {
+      "file_path": "174-@mitsuhiko.md",
+      "title": "mitsuhiko's Profile",
+      "url": "https://ampcode.com/@mitsuhiko",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:05.794526104-03:00",
+      "summary": "This document displays the developer profile and contribution statistics for Armin Ronacher, including metrics for messages, threads, and code changes.",
+      "tags": [
+        "user-profile",
+        "developer-activity",
+        "contribution-metrics",
+        "code-statistics",
+        "cli-usage"
+      ],
+      "category": "reference",
+      "original_file_path": "@mitsuhiko.md"
+    },
+    {
+      "file_path": "048-news-amp-tab-for-all.md",
+      "title": "Amp Tab for All",
+      "url": "https://ampcode.com/news/amp-tab-for-all",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:31.985505839-03:00",
+      "description": "Our free in-editor completion engine for VS Code, Cursor and Windsurf is now on by default for new installs",
+      "summary": "This document introduces Amp Tab, a fast in-editor code completion engine for VS Code, Windsurf, and Cursor that supports multi-file edits and error resolution. It provides instructions for enabling the extension and highlights its key diagnostic and editing features.",
+      "tags": [
+        "amp-tab",
+        "code-completion",
+        "vs-code",
+        "ide-extension",
+        "multi-file-editing",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "news-amp-tab-for-all.md"
+    },
+    {
+      "file_path": "014-notes-agents-for-the-agent.md",
+      "title": "Agents for the Agent",
+      "url": "https://ampcode.com/notes/agents-for-the-agent",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:55.444826637-03:00",
+      "description": "Amp now has new subagents and they're more powerful than ever. Is everything changing again?",
+      "summary": "This document explains the concept and implementation of subagents in Amp, detailing how they function as autonomous tools to handle specific tasks and manage context windows more efficiently. It explores the benefits of task delegation, such as parallel processing and reduced token consumption for the main agent.",
+      "tags": [
+        "subagents",
+        "ai-agents",
+        "amp",
+        "context-window",
+        "token-management",
+        "parallel-processing"
+      ],
+      "category": "concept",
+      "original_file_path": "notes-agents-for-the-agent.md"
+    },
+    {
+      "file_path": "079-threads-T-019bb785-2fd8-758f-abd4-617e8974e0ab.md",
+      "title": "Update search agent eval dashboard reporting",
+      "url": "https://ampcode.com/threads/T-019bb785-2fd8-758f-abd4-617e8974e0ab",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:18.895599963-03:00",
+      "summary": "This document is empty and contains no substantive information or instructions to analyze.",
+      "tags": [
+        "empty-document",
+        "no-content",
+        "placeholder"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-019bb785-2fd8-758f-abd4-617e8974e0ab.md"
+    },
+    {
+      "file_path": "056-news-cli-image-support.md",
+      "title": "Image Support in CLI",
+      "url": "https://ampcode.com/news/cli-image-support",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:49.22388684-03:00",
+      "description": "Reference images by pasting paths or dragging files into the terminal",
+      "summary": "This document explains how to reference image files in the Amp CLI using file paths, drag-and-drop, or the @ symbol for file mentions to enhance prompting.",
+      "tags": [
+        "amp-cli",
+        "image-support",
+        "file-mentions",
+        "cli-tools",
+        "prompt-engineering"
+      ],
+      "category": "guide",
+      "original_file_path": "news-cli-image-support.md"
+    },
+    {
+      "file_path": "149-podcast-episode-3.md",
+      "title": "Episode 3",
+      "url": "https://ampcode.com/podcast/episode-3",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:03.778214526-03:00",
+      "description": "Quinn and Thorsten start by sharing how reviews are still very much needed when using AI to code and how it changes the overall flow you're in when coding with an agent. They also talk about a very important question they face: how important is code search, in its current form, in the age of AI agents?",
+      "summary": "This discussion explores how AI agents are transforming the software engineering workflow, shifting the developer's role from writing manual code to guiding AI drafts through high-level instructions and reviews.",
+      "tags": [
+        "ai-agents",
+        "software-engineering",
+        "developer-productivity",
+        "coding-assistants",
+        "sourcegraph",
+        "llm-workflow"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-3.md"
+    },
+    {
+      "file_path": "053-news-amp-x.md",
+      "title": "amp dash x",
+      "url": "https://ampcode.com/news/amp-x",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:42.255827433-03:00",
+      "description": "The Amp CLI has a new flag: `--execute`",
+      "summary": "This document introduces the Amp CLI's execute mode, explaining how to use the --execute flag for programmatic interactions and automation via the command line.",
+      "tags": [
+        "amp-cli",
+        "execute-mode",
+        "command-line",
+        "automation",
+        "shell-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "news-amp-x.md"
+    },
+    {
+      "file_path": "194-@tsenart.md",
+      "title": "tsenart's Profile",
+      "url": "https://ampcode.com/@tsenart",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:11.500916561-03:00",
+      "summary": "This document displays a user profile for Tom\u00e1s Senart on the ampcode platform, detailing developer activity metrics such as messages, threads, and code contributions.",
+      "tags": [
+        "user-profile",
+        "developer-statistics",
+        "contribution-metrics",
+        "ampcode",
+        "activity-log"
+      ],
+      "category": "other",
+      "original_file_path": "@tsenart.md"
+    },
+    {
+      "file_path": "052-news-streaming-json.md",
+      "title": "Streaming JSON",
+      "url": "https://ampcode.com/news/streaming-json",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:28.603551433-03:00",
+      "description": "The Amp CLI has two new flags: `--stream-json` and `--stream-json-input` and stuff",
+      "summary": "This document introduces the --stream-json and --stream-json-input flags for the Amp CLI, which allow for structured JSON input and output during command execution. It explains how to use these flags to programmatically interact with the CLI and maintain multi-turn conversations.",
+      "tags": [
+        "amp-cli",
+        "json-streaming",
+        "cli-flags",
+        "structured-data",
+        "automation",
+        "command-line-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "news-streaming-json.md"
+    },
+    {
+      "file_path": "170-@marcel.md",
+      "title": "marcel's Profile",
+      "url": "https://ampcode.com/@marcel",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:13.696788009-03:00",
+      "summary": "This document presents a user profile for Marcel Fahle on the Ampcode platform, displaying developer activity metrics such as message counts, thread participation, and code contribution statistics.",
+      "tags": [
+        "user-profile",
+        "activity-metrics",
+        "developer-statistics",
+        "code-contributions",
+        "ampcode",
+        "cli-activity"
+      ],
+      "category": "other",
+      "original_file_path": "@marcel.md"
+    },
+    {
+      "file_path": "070-docs-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md",
+      "title": "PostHog invitation entity ER diagram walkthrough",
+      "url": "https://ampcode.com/docs/T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:26.008205128-03:00",
+      "summary": "This document describes the entity relationship model for PostHog's invitation system, explaining how organizations, users, and memberships interact through the invitation flow.",
+      "tags": [
+        "posthog",
+        "entity-relationship-diagram",
+        "database-schema",
+        "user-invitation",
+        "access-control",
+        "data-modeling"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md"
+    },
+    {
+      "file_path": "151-podcast-episode-5.md",
+      "title": "Episode 5",
+      "url": "https://ampcode.com/podcast/episode-5",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:01.817304052-03:00",
+      "description": "In this episode, Beyang interviews Thorsten and Quinn to unpack what has happened in the world of Amp in the last five weeks: how predictions played out, how working with agents shaped how they write code, how agents are and will influence model development, and, of course, all the things that have been shipped in Amp.",
+      "summary": "A transcript of a discussion exploring the technical evolution of AI coding agents and the design philosophy behind the Amp project. It examines the relationship between large language models, tool-calling capabilities, and the practical challenges of building autonomous developer tools.",
+      "tags": [
+        "ai-coding-agents",
+        "llm-tooling",
+        "software-development",
+        "model-optimization",
+        "system-prompts",
+        "agentic-workflows"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-5.md"
+    },
+    {
+      "file_path": "069-docs-T-019ba592-ddac-77c8-8d37-3f15223761e4.md",
+      "title": "Svelte 5 event handling improvements vs version 4",
+      "url": "https://ampcode.com/docs/T-019ba592-ddac-77c8-8d37-3f15223761e4",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:26.502122315-03:00",
+      "summary": "This document compares the evolution of event handling between Svelte 4 and Svelte 5, detailing the transition from directives and dispatchers to standard attributes and callback props.",
+      "tags": [
+        "svelte",
+        "svelte-5",
+        "event-handling",
+        "frontend-development",
+        "javascript-framework",
+        "migration-guide"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-T-019ba592-ddac-77c8-8d37-3f15223761e4.md"
+    },
+    {
+      "file_path": "129-news-jetbrains-in-the-cli.md",
+      "title": "JetBrains in the CLI",
+      "url": "https://ampcode.com/news/jetbrains-in-the-cli",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:41.295776389-03:00",
+      "description": "Connect Amp CLI to JetBrains IDEs for context and editing",
+      "summary": "This document explains how to integrate the Amp CLI with JetBrains IDEs to enable file context sharing and direct editing capabilities.",
+      "tags": [
+        "amp-cli",
+        "jetbrains-integration",
+        "ide-setup",
+        "command-line-tools",
+        "developer-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "news-jetbrains-in-the-cli.md"
+    },
+    {
+      "file_path": "124-news-faster-search-agent.md",
+      "title": "50% Faster Search Agent",
+      "url": "https://ampcode.com/news/faster-search-agent",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:25.801587712-03:00",
+      "description": "Search agent is now 50% faster with optimized parallel execution",
+      "summary": "This document announces an update to Amp's search subagent, which now utilizes the Haiku 4.5 model for improved speed and cost-efficiency. The update results in faster context discovery with a significant reduction in operational costs.",
+      "tags": [
+        "amp-subagent",
+        "haiku-4-5",
+        "search-optimization",
+        "performance-update",
+        "cost-reduction"
+      ],
+      "category": "other",
+      "original_file_path": "news-faster-search-agent.md"
+    },
+    {
+      "file_path": "071-docs-T-019baa18-8416-71e8-8602-196914e94941.md",
+      "title": "Email invite acceptance process walkthrough",
+      "url": "https://ampcode.com/docs/T-019baa18-8416-71e8-8602-196914e94941",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:21.646945358-03:00",
+      "summary": "This document provides a technical walkthrough of the PostHog email invite acceptance process, detailing the sequence of events from initial validation to member onboarding and analytics reporting.",
+      "tags": [
+        "posthog",
+        "email-invites",
+        "user-onboarding",
+        "backend-workflow",
+        "membership-management",
+        "api-signup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-T-019baa18-8416-71e8-8602-196914e94941.md"
+    },
+    {
+      "file_path": "150-podcast-episode-4.md",
+      "title": "Episode 4",
+      "url": "https://ampcode.com/podcast/episode-4",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:03.430343112-03:00",
+      "description": "Thorsten and Quinn talk about the future of programming and whether code will still be as valuable in the future, how maybe the GitHub contribution graph is already worthless, how LLMs can free us from the tyranny of input boxes, and how conversations with an agent might be a better record of how a code change came to be than git commit tools. They also share where it works and simply doesn't work.",
+      "summary": "This transcript features a discussion between Sourcegraph leadership about the evolving value of source code and the shift in developer workflows as AI agents take a more central role in programming. It explores how automated generation changes the perception of code quality and the potential for agents to manage complex feedback loops and system architectures.",
+      "tags": [
+        "ai-agents",
+        "software-development",
+        "code-generation",
+        "developer-experience",
+        "future-of-programming",
+        "sourcegraph"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-4.md"
+    },
+    {
+      "file_path": "148-podcast-episode-2.md",
+      "title": "Episode 2",
+      "url": "https://ampcode.com/podcast/episode-2",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:05.135792958-03:00",
+      "description": "Thorsten and Quinn talk about how different agentic programming is from normal programming and how the mindset has to adapt to it. One thing they discuss is that having a higher-level architectural understanding is still very important, so that the agent can fill in the blanks. They also talk about how, surprisingly, the models are really, really good when they have inputs that a human would normally get. Most importantly, they share the realization that subscription-based pricing might make bad agentic products.",
+      "summary": "This document explores the shift from traditional to agentic programming, emphasizing how architectural intuition is critical for guiding AI agents through complex, non-local code changes.",
+      "tags": [
+        "agentic-programming",
+        "software-architecture",
+        "developer-workflow",
+        "ai-coding-agents",
+        "engineering-mindset"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-2.md"
+    },
+    {
+      "file_path": "153-podcast-episode-7.md",
+      "title": "Episode 7",
+      "url": "https://ampcode.com/podcast/episode-7",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:00.304624432-03:00",
+      "description": "In this episode, Beyang and Thorsten discuss strategies for effective agentic coding, including the 101 of how it's different from coding with chat LLMs, the key constraint of the context window, how and where subagents can help, and the new oracle subagent which combines multiple LLMs.",
+      "summary": "This transcript explores the transition from chat-based AI assistants to autonomous coding agents, detailing strategic approaches to managing subagents and tool-enabled workflows. It explains the importance of initial prompt specification and context window preservation in the modern agentic programming paradigm.",
+      "tags": [
+        "agentic-coding",
+        "ai-agents",
+        "developer-tooling",
+        "context-management",
+        "subagents",
+        "autonomous-programming"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-7.md"
+    },
+    {
+      "file_path": "024-news-tool-level-permissions.md",
+      "title": "Tool-Level Permissions",
+      "url": "https://ampcode.com/news/tool-level-permissions",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:40.820900718-03:00",
+      "description": "Configure granular permissions for individual tools and arguments",
+      "summary": "This document explains how to configure granular tool-level permissions in Amp, allowing users to define specific rules for allowing, rejecting, or delegating tool calls and Bash commands.",
+      "tags": [
+        "permissions",
+        "tool-management",
+        "configuration",
+        "access-control",
+        "security-policy"
+      ],
+      "category": "configuration",
+      "original_file_path": "news-tool-level-permissions.md"
+    },
+    {
+      "file_path": "086-threads-T-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720.md",
+      "title": "Add visual effect to splash screen welcome message",
+      "url": "https://ampcode.com/threads/T-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:08.623737334-03:00",
+      "summary": "This document outlines the design and implementation plan for synchronizing a text-based illumination effect with an animated orb widget in a terminal user interface splash screen.",
+      "tags": [
+        "tui",
+        "terminal-ui",
+        "animation-sync",
+        "splash-screen",
+        "state-management",
+        "widget-design"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720.md"
+    },
+    {
+      "file_path": "152-podcast-episode-6.md",
+      "title": "Episode 6",
+      "url": "https://ampcode.com/podcast/episode-6",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:02.075888029-03:00",
+      "description": "In this episode, Quinn and Thorsten discuss Claude 4, sub-agents, background agents, and they share \"hot tips\" for agentic coding.",
+      "summary": "This podcast transcript features a discussion on the evolving landscape of AI coding agents, focusing on the capabilities of Claude 3.5 Sonnet and the development of the Amp coding tool. The hosts explore technical concepts like background agents, the shift from manual coding to agentic workflows, and the design philosophies of leading AI model providers.",
+      "tags": [
+        "ai-agents",
+        "coding-assistants",
+        "claude-3-5-sonnet",
+        "software-development",
+        "agentic-workflows",
+        "sourcegraph-amp",
+        "ai-models"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-6.md"
+    },
+    {
+      "file_path": "189-@ryancarson.md",
+      "title": "ryancarson's Profile",
+      "url": "https://ampcode.com/@ryancarson",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:16.781581203-03:00",
+      "summary": "This document provides a user profile overview for Ryan Carson on the Ampcode platform, detailing his message counts, thread participation, and code contribution metrics.",
+      "tags": [
+        "user-profile",
+        "developer-activity",
+        "contribution-stats",
+        "coding-metrics",
+        "ampcode"
+      ],
+      "category": "other",
+      "original_file_path": "@ryancarson.md"
+    },
+    {
+      "file_path": "185-@rockorager.md",
+      "title": "rockorager's Profile",
+      "url": "https://ampcode.com/@rockorager",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:10.34234721-03:00",
+      "summary": "This document displays a user profile dashboard and activity overview for Tim Culverhouse, showing engagement statistics and code contribution metrics.",
+      "tags": [
+        "user-profile",
+        "activity-metrics",
+        "developer-dashboard",
+        "coding-statistics",
+        "contributor-summary"
+      ],
+      "category": "other",
+      "original_file_path": "@rockorager.md"
+    },
+    {
+      "file_path": "109-news-500k.md",
+      "title": "The First 500,000 Messages",
+      "url": "https://ampcode.com/news/500k",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:50.105998202-03:00",
+      "summary": "This update highlights the initial growth of Amp since its public release, noting a milestone of 500,000 messages and inviting user feedback for ongoing improvements.",
+      "tags": [
+        "amp-platform",
+        "product-milestone",
+        "community-feedback",
+        "maintenance-update"
+      ],
+      "category": "other",
+      "original_file_path": "news-500k.md"
+    },
+    {
+      "file_path": "057-news-cli-file-mentions.md",
+      "title": "File Mentions in CLI",
+      "url": "https://ampcode.com/news/cli-file-mentions",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:52.961176649-03:00",
+      "description": "Fuzzy-search files with `@` mentions in interactive mode",
+      "summary": "This document explains how to use the new file mention feature in the Amp CLI's interactive mode to search and select files via fuzzy-searching.",
+      "tags": [
+        "amp-cli",
+        "file-mentions",
+        "interactive-mode",
+        "fuzzy-search",
+        "cli-navigation"
+      ],
+      "category": "guide",
+      "original_file_path": "news-cli-file-mentions.md"
+    },
+    {
+      "file_path": "022-news-new-model-for-amp-tab.md",
+      "title": "A New Model for Amp Tab",
+      "url": "https://ampcode.com/news/new-model-for-amp-tab",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:36.649033616-03:00",
+      "description": "Amp Tab uses an updated model with better completion accuracy",
+      "summary": "This document explains the technical updates to the Amp Tab completion model, highlighting the use of synthetic data and Direct Preference Optimization to improve performance.",
+      "tags": [
+        "amp-tab",
+        "machine-learning",
+        "code-completion",
+        "dpo",
+        "synthetic-data",
+        "model-optimization"
+      ],
+      "category": "concept",
+      "original_file_path": "news-new-model-for-amp-tab.md"
+    },
+    {
+      "file_path": "078-threads-T-019bb777-afe9-74ba-aacd-1dc6ec9017ad.md",
+      "title": "Redesign task view with planning and kanban features",
+      "url": "https://ampcode.com/threads/T-019bb777-afe9-74ba-aacd-1dc6ec9017ad",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:24.748645603-03:00",
+      "summary": "This document appears to be empty or contains no content to analyze.",
+      "tags": [
+        "empty-document",
+        "no-content"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-019bb777-afe9-74ba-aacd-1dc6ec9017ad.md"
+    },
+    {
+      "file_path": "144-news-try-opus.md",
+      "title": "Try Claude Opus 4.5 With Us",
+      "url": "https://ampcode.com/news/try-opus",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:18.546589674-03:00",
+      "description": "Test Claude Opus 4.5 in Amp while we evaluate its agentic capabilities",
+      "summary": "This document announces the experimental integration of Claude Opus 4.5 into the Amp platform and provides instructions for users to enable the model via CLI or editor settings.",
+      "tags": [
+        "claude-opus-4-5",
+        "amp-integration",
+        "ai-agents",
+        "product-update",
+        "beta-testing"
+      ],
+      "category": "other",
+      "original_file_path": "news-try-opus.md"
+    },
+    {
+      "file_path": "047-news-amp-tab.md",
+      "title": "Amp Tab",
+      "url": "https://ampcode.com/news/amp-tab",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:48.320518502-03:00",
+      "description": "Introducing our new in-editor completion engine that anticipates your next actions",
+      "summary": "This document introduces Amp Tab, an AI-powered code completion engine that suggests multi-line edits based on semantic context and recent changes. It explains how to enable the feature within VS Code settings during its research preview phase.",
+      "tags": [
+        "code-completion",
+        "ai-tools",
+        "developer-productivity",
+        "vs-code",
+        "amp-tab",
+        "semantic-context"
+      ],
+      "category": "guide",
+      "original_file_path": "news-amp-tab.md"
+    },
+    {
+      "file_path": "083-threads-T-019c0416-78f2-7298-8926-369b325f7188.md",
+      "title": "MCP tool registration conflict with multiple skills",
+      "url": "https://ampcode.com/threads/T-019c0416-78f2-7298-8926-369b325f7188",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:19.064530308-03:00",
+      "summary": "This document investigates a bug in the skill registration system where multiple skills sharing an MCP server overwrite each other's tool lists and proposes a merging strategy.",
+      "tags": [
+        "mcp-service",
+        "tool-registration",
+        "skill-merging",
+        "include-tools",
+        "bug-investigation",
+        "architecture"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-019c0416-78f2-7298-8926-369b325f7188.md"
+    },
+    {
+      "file_path": "177-@mrnugget.md",
+      "title": "mrnugget's Profile",
+      "url": "https://ampcode.com/@mrnugget",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:09.515714322-03:00",
+      "summary": "This document displays the user profile and development activity metrics for Thorsten Ball, including contribution statistics and preferred code editors.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "activity-dashboard",
+        "coding-statistics"
+      ],
+      "category": "other",
+      "original_file_path": "@mrnugget.md"
+    },
+    {
+      "file_path": "081-threads-T-019bbd1e-33ea-705d-b03b-5084ca3532ce.md",
+      "title": "Incorrect bounce angle against wall",
+      "url": "https://ampcode.com/threads/T-019bbd1e-33ea-705d-b03b-5084ca3532ce",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:46.474002873-03:00",
+      "summary": "This document describes the iterative development and debugging process for a 2D physics engine, focusing on collision detection logic for circular walls and gap edges.",
+      "tags": [
+        "physics-simulation",
+        "collision-detection",
+        "javascript-development",
+        "debugging-tools",
+        "swept-collision",
+        "2d-physics"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-019bbd1e-33ea-705d-b03b-5084ca3532ce.md"
+    },
+    {
+      "file_path": "191-@sqs.md",
+      "title": "sqs's Profile",
+      "url": "https://ampcode.com/@sqs",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:33.522382915-03:00",
+      "summary": "This document displays a user profile for Quinn Slack on Ampcode, detailing activity metrics such as messages, threads, code contribution statistics, and preferred development tools.",
+      "tags": [
+        "user-profile",
+        "developer-statistics",
+        "activity-log",
+        "ampcode",
+        "contribution-metrics"
+      ],
+      "category": "other",
+      "original_file_path": "@sqs.md"
+    },
+    {
+      "file_path": "118-news-better-faster-cheaper-summaries.md",
+      "title": "Better, Faster, Cheaper Summaries",
+      "url": "https://ampcode.com/news/better-faster-cheaper-summaries",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:46.32948126-03:00",
+      "description": "Amp now uses a different model when compacting or summarizing threads that is 6x faster and 30x cheaper",
+      "summary": "This document announces an update to Amp's thread compaction and summarization model, highlighting improvements in processing speed, cost-efficiency, and output quality.",
+      "tags": [
+        "amp",
+        "thread-summarization",
+        "model-update",
+        "performance-optimization"
+      ],
+      "category": "other",
+      "original_file_path": "news-better-faster-cheaper-summaries.md"
+    },
+    {
+      "file_path": "080-threads-T-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1.md",
+      "title": "Build static physics playground for gap collision debugging",
+      "url": "https://ampcode.com/threads/T-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:47.766110859-03:00",
+      "summary": "This document provides a technical overview of implementations for circle-point and corner collision detection in open-source physics engines like Box2D and Matter.js. It details mathematical algorithms for calculating normals, impulses, and contact points using methods like Voronoi regions and Separating Axis Theorem.",
+      "tags": [
+        "physics-engine",
+        "collision-detection",
+        "game-development",
+        "box2d",
+        "collision-response",
+        "geometry-algorithms"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1.md"
+    },
+    {
+      "file_path": "021-news-streamable-mcp.md",
+      "title": "Streamable Transport for MCP",
+      "url": "https://ampcode.com/news/streamable-mcp",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:44.402232609-03:00",
+      "description": "Connect to remote MCP servers with streamable HTTP transport",
+      "summary": "This document explains Amp's default adoption of streamable HTTP transport for MCP servers, including support for Server-Sent Events fallback and remote server compatibility.",
+      "tags": [
+        "amp",
+        "mcp-server",
+        "streamable-http",
+        "server-sent-events",
+        "model-context-protocol",
+        "transport-layer"
+      ],
+      "category": "concept",
+      "original_file_path": "news-streamable-mcp.md"
+    },
+    {
+      "file_path": "130-news-look-ma-no-flicker.md",
+      "title": "Look Ma, No Flicker",
+      "url": "https://ampcode.com/news/look-ma-no-flicker",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:32.721419078-03:00",
+      "description": "Today the Amp CLI reached the next stage in its evolution. It\u2019s no longer just a command-line tool, but a proper terminal user interface.",
+      "summary": "This document announces the evolution of the Amp CLI into a feature-rich terminal user interface built on a custom framework designed for smooth interactions and high-performance rendering.",
+      "tags": [
+        "amp-cli",
+        "terminal-user-interface",
+        "tui-framework",
+        "cli-evolution",
+        "developer-tools"
+      ],
+      "category": "other",
+      "original_file_path": "news-look-ma-no-flicker.md"
+    },
+    {
+      "file_path": "147-podcast-episode-10.md",
+      "title": "Episode 10",
+      "url": "https://ampcode.com/podcast/episode-10",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:58.39374641-03:00",
+      "description": "Quinn and Thorsten announce that the Amp editor extension will soon self-destruct. The time of the sidebar is over.",
+      "summary": "This document discusses the introduction of Deep Mode in the Amp editor extension, highlighting a shift from reactive sidebar assistants to autonomous agents that use custom skills for complex, asynchronous development tasks.",
+      "tags": [
+        "amp-editor",
+        "agent-modes",
+        "deep-mode",
+        "llm-skills",
+        "developer-tools",
+        "autonomous-agents",
+        "ai-coding"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-10.md"
+    },
+    {
+      "file_path": "167-@kevin.md",
+      "title": "kevin's Profile",
+      "url": "https://ampcode.com/@kevin",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:55.347469921-03:00",
+      "summary": "This document presents a user profile for Kevin Wang, detailing his platform activity, code contribution metrics, and communication statistics on ampcode.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "contribution-statistics",
+        "ampcode",
+        "activity-tracking"
+      ],
+      "category": "other",
+      "original_file_path": "@kevin.md"
+    },
+    {
+      "file_path": "084-threads-T-019c1e28-a4de-74a9-bb60-4f2baf888e8e.md",
+      "title": "Unnatural bounce angle in feedback-loopable",
+      "url": "https://ampcode.com/threads/T-019c1e28-a4de-74a9-bb60-4f2baf888e8e",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:51.865720673-03:00",
+      "summary": "This document analyzes and debugs a physics simulation issue where a ball exhibits an unnatural bounce angle when colliding with the sharp edges of a gap.",
+      "tags": [
+        "physics-simulation",
+        "collision-detection",
+        "vector-math",
+        "debugging",
+        "javascript-physics"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-019c1e28-a4de-74a9-bb60-4f2baf888e8e.md"
+    },
+    {
+      "file_path": "163-@hamel.md",
+      "title": "hamel's Profile",
+      "url": "https://ampcode.com/@hamel",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:53.808363695-03:00",
+      "summary": "This document displays the developer profile and activity statistics for Hamel Husain on the Ampcode platform, including contribution metrics and CLI usage.",
+      "tags": [
+        "developer-profile",
+        "activity-metrics",
+        "contribution-tracking",
+        "user-statistics",
+        "cli-usage"
+      ],
+      "category": "other",
+      "original_file_path": "@hamel.md"
+    },
+    {
+      "file_path": "162-@erock.md",
+      "title": "erock's Profile",
+      "url": "https://ampcode.com/@erock",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:57.999436306-03:00",
+      "summary": "This document provides a user profile for Eric Bower on the Ampcode platform, detailing his engagement metrics and code contribution statistics.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "ampcode",
+        "coding-activity",
+        "account-info"
+      ],
+      "category": "other",
+      "original_file_path": "@erock.md"
+    },
+    {
+      "file_path": "009-notes-how-to-pair-with-an-agent.md",
+      "title": "How to Pair With an Agent",
+      "url": "https://ampcode.com/notes/how-to-pair-with-an-agent",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:53.141008625-03:00",
+      "description": "Trust isn't a feeling. It's a passing test suite.",
+      "summary": "This document provides strategies for effectively using AI coding agents by emphasizing the importance of detailed specification and the integration of feedback loops into prompts.",
+      "tags": [
+        "ai-agents",
+        "prompt-engineering",
+        "software-development",
+        "coding-assistants",
+        "developer-productivity",
+        "workflow-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "notes-how-to-pair-with-an-agent.md"
+    },
+    {
+      "file_path": "108-news-432k-tokens.md",
+      "title": "432,000 Tokens",
+      "url": "https://ampcode.com/news/432k-tokens",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:38.074402418-03:00",
+      "description": "Amp supports 432k-token context with Claude Sonnet 4",
+      "summary": "This document announces an update to the Amp coding tool that increases its context window capacity to 432,000 tokens using Claude Sonnet 4.",
+      "tags": [
+        "amp-update",
+        "context-window",
+        "claude-sonnet-4",
+        "token-limit",
+        "ai-coding-assistant"
+      ],
+      "category": "other",
+      "original_file_path": "news-432k-tokens.md"
+    },
+    {
+      "file_path": "164-@ivanleomk.md",
+      "title": "ivanleomk's Profile",
+      "url": "https://ampcode.com/@ivanleomk",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:01.404412932-03:00",
+      "summary": "This document displays a developer profile overview containing coding activity metrics, communication statistics, and tool preferences for a specific user on the Ampcode platform.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "coding-activity",
+        "ampcode",
+        "vs-code"
+      ],
+      "category": "reference",
+      "original_file_path": "@ivanleomk.md"
+    },
+    {
+      "file_path": "055-news-queued-messages.md",
+      "title": "Queued Messages",
+      "url": "https://ampcode.com/news/queued-messages",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:46.501525938-03:00",
+      "description": "Queue messages with `Shift+Enter` to send when the agent is idle",
+      "summary": "Explains how to queue messages for an agent to process once it becomes idle by using a specific keyboard shortcut.",
+      "tags": [
+        "message-queuing",
+        "agent-interaction",
+        "keyboard-shortcuts",
+        "idle-state"
+      ],
+      "category": "guide",
+      "original_file_path": "news-queued-messages.md"
+    },
+    {
+      "file_path": "165-@jasonhawkharris.md",
+      "title": "jasonhawkharris's Profile",
+      "url": "https://ampcode.com/@jasonhawkharris",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:03.489494231-03:00",
+      "summary": "This document displays a user profile for Jason Harris on the Ampcode platform, showcasing contribution statistics, activity metrics, and engagement data.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "ampcode",
+        "contributor-stats",
+        "activity-tracking"
+      ],
+      "category": "other",
+      "original_file_path": "@jasonhawkharris.md"
+    },
+    {
+      "file_path": "146-podcast-episode-1.md",
+      "title": "Episode 1",
+      "url": "https://ampcode.com/podcast/episode-1",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:06.87239875-03:00",
+      "description": "In the first episode of Raising an Agent, Quinn and Thorsten kick things off by sharing a lot of wow-moments they experienced after getting the agent at the heart of Amp into a working state. They talk about how little is actually needed to create an agent and how magical the results are when you give a model the right tools, unlimited tokens, and feedback. That might be the biggest surprise: how many previous assumptions feel outdated when you see an agent explore a codebase on its own.",
+      "summary": "This transcript introduces a podcast series about building an agentic AI code editor, exploring the development process and the surprising capabilities of tool-calling models in software engineering.",
+      "tags": [
+        "agentic-ai",
+        "software-engineering",
+        "code-editing",
+        "llm-agents",
+        "sourcegraph",
+        "tool-calling"
+      ],
+      "category": "concept",
+      "original_file_path": "podcast-episode-1.md"
+    },
+    {
+      "file_path": "016-notes-by-an-agent-for-an-agent.md",
+      "title": "A Codebase by an Agent for an Agent",
+      "url": "https://ampcode.com/notes/by-an-agent-for-an-agent",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:54.17734819-03:00",
+      "description": "A Codebase by an Agent for an Agent",
+      "summary": "This document explores the concept of allowing AI agents to determine codebase structure and naming conventions to optimize their efficiency and performance. It argues that aligning code with an agent's probabilistic training data reduces cognitive friction and enables the agent to navigate and develop the framework more effectively.",
+      "tags": [
+        "ai-agents",
+        "software-architecture",
+        "codebase-optimization",
+        "llm-development",
+        "developer-experience"
+      ],
+      "category": "concept",
+      "original_file_path": "notes-by-an-agent-for-an-agent.md"
+    },
+    {
+      "file_path": "158-@beyang.md",
+      "title": "beyang's Profile",
+      "url": "https://ampcode.com/@beyang",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:03.34745041-03:00",
+      "summary": "This document provides a profile overview and activity statistics for a user named Beyang Liu on the Ampcode platform. It highlights metrics such as message counts, code contribution history, and development tool usage preferences.",
+      "tags": [
+        "user-profile",
+        "activity-metrics",
+        "developer-statistics",
+        "contribution-tracking",
+        "ampcode"
+      ],
+      "category": "other",
+      "original_file_path": "@beyang.md"
+    },
+    {
+      "file_path": "182-@ridgetopai.md",
+      "title": "ridgetopai's Profile",
+      "url": "https://ampcode.com/@ridgetopai",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:05.511225134-03:00",
+      "summary": "This document displays the user profile and activity metrics for Brian Jones on the ampcode platform, including contribution statistics and interaction data.",
+      "tags": [
+        "user-profile",
+        "activity-metrics",
+        "ampcode",
+        "developer-contributions",
+        "interaction-stats"
+      ],
+      "category": "other",
+      "original_file_path": "@ridgetopai.md"
+    },
+    {
+      "file_path": "059-news-cli-history.md",
+      "title": "History in CLI",
+      "url": "https://ampcode.com/news/cli-history",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:51.997263507-03:00",
+      "description": "Navigate message history with arrow keys and keyboard shortcuts",
+      "summary": "This document explains how to navigate and manage message history within the Amp CLI using specific keyboard shortcuts and navigation commands.",
+      "tags": [
+        "amp-cli",
+        "message-history",
+        "keyboard-shortcuts",
+        "navigation",
+        "command-line-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "news-cli-history.md"
+    },
+    {
+      "file_path": "049-news-multi-file-tab.md",
+      "title": "Multi-File Tab",
+      "url": "https://ampcode.com/news/multi-file-tab",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:34.812610585-03:00",
+      "description": "Amp Tab will now suggest edits across multiple recently-viewed files",
+      "summary": "This document explains how the Amp Tab feature suggests and navigates through multi-file edits to resolve diagnostic errors introduced during coding.",
+      "tags": [
+        "amp-tab",
+        "code-editor",
+        "diagnostic-errors",
+        "multi-file-edits",
+        "error-correction"
+      ],
+      "category": "guide",
+      "original_file_path": "news-multi-file-tab.md"
+    },
+    {
+      "file_path": "102-threads-T-e7ea6537-b3c6-4833-919c-45aa0af2d52f.md",
+      "title": "Create permanent cache helper function",
+      "url": "https://ampcode.com/threads/T-e7ea6537-b3c6-4833-919c-45aa0af2d52f",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:09.010038152-03:00",
+      "summary": "This document details the necessity of adding a warning to the cachedForever function regarding memory leaks and its appropriate use for long-lived global caches.",
+      "tags": [
+        "caching",
+        "memory-management",
+        "documentation-standards",
+        "global-cached-value",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-e7ea6537-b3c6-4833-919c-45aa0af2d52f.md"
+    },
+    {
+      "file_path": "094-threads-T-66beb0de-7f02-4241-a25e-50c0dc811788.md",
+      "title": "Remove debug statements from staged changes",
+      "url": "https://ampcode.com/threads/T-66beb0de-7f02-4241-a25e-50c0dc811788",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:07:55.047762287-03:00",
+      "summary": "This document implements a utility to retrieve and process code diagnostics from the VS Code environment for specified files or directories. It includes logic for refreshing document states and converting native VS Code diagnostic data into a standardized format.",
+      "tags": [
+        "vscode-api",
+        "typescript",
+        "diagnostics-handling",
+        "error-reporting",
+        "static-analysis",
+        "vscode-extension"
+      ],
+      "category": "api",
+      "original_file_path": "threads-T-66beb0de-7f02-4241-a25e-50c0dc811788.md"
+    },
+    {
+      "file_path": "089-threads-T-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9.md",
+      "title": "Designing advanced Slack workflow for legal tasks",
+      "url": "https://ampcode.com/threads/T-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:10.253060541-03:00",
+      "summary": "This document outlines feasibility and implementation strategies for building a multi-step Slack workflow that integrates task management, legal review, and data tracking in Google Sheets using both custom development and no-code approaches.",
+      "tags": [
+        "slack-workflow-builder",
+        "no-code-automation",
+        "zapier-integration",
+        "task-management",
+        "google-sheets-api",
+        "workflow-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9.md"
+    },
+    {
+      "file_path": "171-@mitchellh.md",
+      "title": "mitchellh's Profile",
+      "url": "https://ampcode.com/@mitchellh",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:52.843382797-03:00",
+      "summary": "This document displays the user profile and activity metrics for Mitchell Hashimoto on the Ampcode platform, including message counts and code contribution statistics.",
+      "tags": [
+        "user-profile",
+        "mitchell-hashimoto",
+        "ampcode",
+        "activity-metrics",
+        "developer-statistics"
+      ],
+      "category": "other",
+      "original_file_path": "@mitchellh.md"
+    },
+    {
+      "file_path": "013-news-more-tools-for-the-agent.md",
+      "title": "More Tools for the Agent",
+      "url": "https://ampcode.com/news/more-tools-for-the-agent",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:27.638284884-03:00",
+      "description": "Create new tools for Amp using the CLI instead of writing MCP servers.",
+      "summary": "This document explains how to use the Amp CLI to create, inspect, and execute custom local tools within toolboxes. It provides a step-by-step walkthrough for building a test-runner tool and configuring environment variables for tool discovery.",
+      "tags": [
+        "amp-tools",
+        "toolboxes",
+        "cli-commands",
+        "agent-automation",
+        "custom-tools",
+        "environment-variables"
+      ],
+      "category": "tutorial",
+      "original_file_path": "news-more-tools-for-the-agent.md"
+    },
+    {
+      "file_path": "092-threads-T-3f1beb2b-bded-4fda-96cc-1af7192f24b6.md",
+      "title": "Plan implementation for showing cursor beam",
+      "url": "https://ampcode.com/threads/T-3f1beb2b-bded-4fda-96cc-1af7192f24b6",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:06.521237636-03:00",
+      "summary": "This document outlines a technical implementation plan for rendering a cursor beam in a terminal application, covering shader modifications, data structures, and blink logic.",
+      "tags": [
+        "terminal-emulator",
+        "graphics-programming",
+        "metal-api",
+        "cursor-rendering",
+        "implementation-plan"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-3f1beb2b-bded-4fda-96cc-1af7192f24b6.md"
+    },
+    {
+      "file_path": "097-threads-T-95e73a95-f4fe-4f22-8d5c-6297467c97a5.md",
+      "title": "Analyze thread stars in psql database",
+      "url": "https://ampcode.com/threads/T-95e73a95-f4fe-4f22-8d5c-6297467c97a5",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:07.677079404-03:00",
+      "summary": "This document contains a structured list of metadata for AI assistant interactions, including interaction titles, user credentials, and engagement metrics.",
+      "tags": [
+        "json-data",
+        "user-metadata",
+        "coding-assistant",
+        "interaction-logs",
+        "sourcegraph"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-95e73a95-f4fe-4f22-8d5c-6297467c97a5.md"
+    },
+    {
+      "file_path": "063-news-secret-redaction.md",
+      "title": "Secret Redaction",
+      "url": "https://ampcode.com/news/secret-redaction",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:47.434136927-03:00",
+      "description": "Amp now identifies secrets and redacts them so they are not exposed to the LLM, other tools, or ampcode.com",
+      "summary": "This document explains Amp's automated secret redaction feature, which identifies and masks sensitive information to prevent exposure to language models and external tools.",
+      "tags": [
+        "security",
+        "secret-redaction",
+        "data-privacy",
+        "llm-security",
+        "information-protection"
+      ],
+      "category": "reference",
+      "original_file_path": "news-secret-redaction.md"
+    },
+    {
+      "file_path": "098-threads-T-a7300c6a-82e4-4a62-868f-9c43038c5074.md",
+      "title": "DWARF5 parser implementation example",
+      "url": "https://ampcode.com/threads/T-a7300c6a-82e4-4a62-868f-9c43038c5074",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:05.313846514-03:00",
+      "summary": "This document outlines the architectural components and sequential logic required to implement a DWARF5 debugging information parser.",
+      "tags": [
+        "dwarf5",
+        "parser-design",
+        "binary-formats",
+        "debugging-symbols",
+        "systems-programming"
+      ],
+      "category": "concept",
+      "original_file_path": "threads-T-a7300c6a-82e4-4a62-868f-9c43038c5074.md"
+    },
+    {
+      "file_path": "105-threads-T-f916b832-c070-4853-8ab8-5e7596953bec.md",
+      "title": "Create storybook for web components",
+      "url": "https://ampcode.com/threads/T-f916b832-c070-4853-8ab8-5e7596953bec",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:07.128341822-03:00",
+      "summary": "This document outlines the workflow and steps for creating a Storybook story for a specific Svelte tool-use component following established patterns.",
+      "tags": [
+        "svelte",
+        "storybook",
+        "ui-components",
+        "frontend-development",
+        "component-testing"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-f916b832-c070-4853-8ab8-5e7596953bec.md"
+    },
+    {
+      "file_path": "058-news-new-threads-without-leaving-the-cli.md",
+      "title": "New Threads without Leaving the CLI",
+      "url": "https://ampcode.com/news/new-threads-without-leaving-the-cli",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:08:37.50456258-03:00",
+      "description": "Start new threads or continue old ones with `/new` and `/continue`",
+      "summary": "This document explains how to manage conversation threads within a CLI environment using specific commands to start or resume sessions.",
+      "tags": [
+        "cli",
+        "thread-management",
+        "session-control",
+        "command-line-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "news-new-threads-without-leaving-the-cli.md"
+    },
+    {
+      "file_path": "099-threads-T-aae44811-8790-4ea5-9841-ad85014db950.md",
+      "title": "Centralize agent mode colors in constant",
+      "url": "https://ampcode.com/threads/T-aae44811-8790-4ea5-9841-ad85014db950",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:31.070628234-03:00",
+      "summary": "This document displays search results from a SvelteKit project's compiled build directory, highlighting specific hexadecimal color array definitions within bundled JavaScript files.",
+      "tags": [
+        "sveltekit",
+        "build-output",
+        "javascript-bundling",
+        "immutable-assets",
+        "color-constants"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-aae44811-8790-4ea5-9841-ad85014db950.md"
+    },
+    {
+      "file_path": "181-@nicolaygerold.md",
+      "title": "nicolaygerold's Profile",
+      "url": "https://ampcode.com/@nicolaygerold",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:11.978740599-03:00",
+      "summary": "This document presents the user profile and activity statistics for Nicolay Gerold on the Ampcode platform, detailing contribution metrics and preferred development tools.",
+      "tags": [
+        "user-profile",
+        "activity-metrics",
+        "developer-statistics",
+        "ampcode",
+        "contribution-history"
+      ],
+      "category": "other",
+      "original_file_path": "@nicolaygerold.md"
+    },
+    {
+      "file_path": "166-@justinechang.md",
+      "title": "justinechang's Profile",
+      "url": "https://ampcode.com/@justinechang",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:58.859505476-03:00",
+      "summary": "This document displays a developer profile for Justine Chang, featuring contribution metrics such as messages, threads, code changes, and primary editor usage.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "contribution-stats",
+        "ampcode",
+        "vs-code",
+        "activity-log"
+      ],
+      "category": "other",
+      "original_file_path": "@justinechang.md"
+    },
+    {
+      "file_path": "160-@cje-following.md",
+      "title": "People cje is following",
+      "url": "https://ampcode.com/@cje/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:24.853546301-03:00",
+      "summary": "This document displays the user profile information for Christopher Ehrlich on the Ampcode platform, including his handle and unique identifier.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "account-information",
+        "personal-identity"
+      ],
+      "category": "other",
+      "original_file_path": "@cje-following.md"
+    },
+    {
+      "file_path": "157-@ari.md",
+      "title": "ari's Profile",
+      "url": "https://ampcode.com/@ari",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:00.738171697-03:00",
+      "summary": "This document displays a developer profile page containing activity metrics, coding statistics, and tool usage preferences for a specific user on the Ampcode platform.",
+      "tags": [
+        "user-profile",
+        "developer-activity",
+        "coding-statistics",
+        "contribution-metrics",
+        "ampcode",
+        "usage-tracking"
+      ],
+      "category": "other",
+      "original_file_path": "@ari.md"
+    },
+    {
+      "file_path": "186-@ryan0x44.md",
+      "title": "ryan0x44's Profile",
+      "url": "https://ampcode.com/@ryan0x44",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:56.195515738-03:00",
+      "summary": "This document presents a user profile and activity dashboard for Ryan Djurovich on the ampcode platform, detailing contribution statistics and engagement metrics.",
+      "tags": [
+        "user-profile",
+        "developer-metrics",
+        "contribution-stats",
+        "ampcode",
+        "activity-log"
+      ],
+      "category": "other",
+      "original_file_path": "@ryan0x44.md"
+    },
+    {
+      "file_path": "082-threads-T-019bfa3e-6b60-706f-880f-75c7fdb82ef7.md",
+      "title": "Selected message color mismatch in CLI themes",
+      "url": "https://ampcode.com/threads/T-019bfa3e-6b60-706f-880f-75c7fdb82ef7",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:23.377761967-03:00",
+      "summary": "This document provides technical metadata and encoded binary data for a screenshot image, detailing resolution, pixel dimensions, and XMP formatting properties.",
+      "tags": [
+        "image-metadata",
+        "xmp-data",
+        "exif-info",
+        "screenshot",
+        "png-format"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-019bfa3e-6b60-706f-880f-75c7fdb82ef7.md"
+    },
+    {
+      "file_path": "173-@mitsuhiko-following.md",
+      "title": "People mitsuhiko is following",
+      "url": "https://ampcode.com/@mitsuhiko/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:28.906424171-03:00",
+      "summary": "This document provides the profile information for Armin Ronacher, displaying his username, platform handle, and unique user identifier.",
+      "tags": [
+        "user-profile",
+        "identity-management",
+        "account-details",
+        "developer-profile"
+      ],
+      "category": "other",
+      "original_file_path": "@mitsuhiko-following.md"
+    },
+    {
+      "file_path": "172-@mitsuhiko-followers.md",
+      "title": "People following mitsuhiko",
+      "url": "https://ampcode.com/@mitsuhiko/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:27.023698779-03:00",
+      "summary": "This document provides profile information and unique identifiers for Armin Ronacher on the Ampcode platform.",
+      "tags": [
+        "user-profile",
+        "armin-ronacher",
+        "identity-management",
+        "platform-user"
+      ],
+      "category": "other",
+      "original_file_path": "@mitsuhiko-followers.md"
+    },
+    {
+      "file_path": "190-@sagtanih.md",
+      "title": "sagtanih's Profile",
+      "url": "https://ampcode.com/@sagtanih",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:29.794067596-03:00",
+      "summary": "This document displays a developer's profile and activity metrics, including message counts, thread participation, and code contribution statistics.",
+      "tags": [
+        "user-profile",
+        "activity-tracking",
+        "developer-metrics",
+        "coding-statistics"
+      ],
+      "category": "other",
+      "original_file_path": "@sagtanih.md"
+    },
+    {
+      "file_path": "159-@cje-followers.md",
+      "title": "People following cje",
+      "url": "https://ampcode.com/@cje/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:27.147626686-03:00",
+      "summary": "This document provides the user profile information for Christopher Ehrlich on the Ampcode platform, including his display name, username, and unique identifier.",
+      "tags": [
+        "user-profile",
+        "identity-management",
+        "ampcode",
+        "account-details"
+      ],
+      "category": "other",
+      "original_file_path": "@cje-followers.md"
+    },
+    {
+      "file_path": "192-@tsenart-followers.md",
+      "title": "People following tsenart",
+      "url": "https://ampcode.com/@tsenart/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:32.023253087-03:00",
+      "summary": "This document displays a user profile page for Tom\u00e1s Senart on the Ampcode platform, showing his username and unique identifier.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "tomas-senart",
+        "account-details",
+        "developer-bio"
+      ],
+      "category": "other",
+      "original_file_path": "@tsenart-followers.md"
+    },
+    {
+      "file_path": "193-@tsenart-following.md",
+      "title": "People tsenart is following",
+      "url": "https://ampcode.com/@tsenart/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:32.05773045-03:00",
+      "summary": "This document presents the user profile information for Tom\u00e1s Senart on the Ampcode platform.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "account-information",
+        "developer-profile",
+        "personal-profile"
+      ],
+      "category": "other",
+      "original_file_path": "@tsenart-following.md"
+    },
+    {
+      "file_path": "093-threads-T-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a.md",
+      "title": "Warn user about excessive non-builtin tools",
+      "url": "https://ampcode.com/threads/T-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:09:31.931881803-03:00",
+      "summary": "This document displays a test execution log and stack trace identifying a missing HTMLCanvasElement implementation in JSDOM during a Svelte component unit test.",
+      "tags": [
+        "jsdom",
+        "svelte",
+        "unit-testing",
+        "error-trace",
+        "canvas-api"
+      ],
+      "category": "other",
+      "original_file_path": "threads-T-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a.md"
+    },
+    {
+      "file_path": "169-@marcel-following.md",
+      "title": "People marcel is following",
+      "url": "https://ampcode.com/@marcel/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:34.08757515-03:00",
+      "summary": "This document displays a user profile for Marcel Fahle on the Ampcode platform, providing his handle and account identification strings.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "account-information"
+      ],
+      "category": "other",
+      "original_file_path": "@marcel-following.md"
+    },
+    {
+      "file_path": "075-threads-T-019ba592-ddac-77c8-8d37-3f15223761e4.md",
+      "title": "Svelte 5 event handling improvements vs version 4",
+      "url": "https://ampcode.com/threads/T-019ba592-ddac-77c8-8d37-3f15223761e4",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:35.807514697-03:00",
+      "summary": "This document describes the Walkthrough Skill, a toolset for exploring codebase architecture and generating interactive Mermaid diagrams to visualize system relationships and execution flows.",
+      "tags": [
+        "codebase-exploration",
+        "architecture-visualization",
+        "interactive-diagrams",
+        "mermaid-js",
+        "system-documentation",
+        "code-flow-analysis"
+      ],
+      "category": "guide",
+      "original_file_path": "threads-T-019ba592-ddac-77c8-8d37-3f15223761e4.md"
+    },
+    {
+      "file_path": "168-@marcel-followers.md",
+      "title": "People following marcel",
+      "url": "https://ampcode.com/@marcel/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:34.060115562-03:00",
+      "summary": "This document provides the profile information for Marcel Fahle on the Ampcode platform, including his username and unique user identifier.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "marcel-fahle",
+        "account-details"
+      ],
+      "category": "other",
+      "original_file_path": "@marcel-followers.md"
+    },
+    {
+      "file_path": "076-threads-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md",
+      "title": "PostHog invitation entity ER diagram walkthrough",
+      "url": "https://ampcode.com/threads/T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:37.954605865-03:00",
+      "summary": "This document provides a technical overview of the PostHog invitation system's data architecture, detailing core database models, entity relationships, and the programmatic lifecycle of user invitations.",
+      "tags": [
+        "posthog",
+        "data-modeling",
+        "invitation-system",
+        "backend-architecture",
+        "django-models",
+        "er-diagram"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md"
+    },
+    {
+      "file_path": "077-threads-T-019baa18-8416-71e8-8602-196914e94941.md",
+      "title": "Email invite acceptance process walkthrough",
+      "url": "https://ampcode.com/threads/T-019baa18-8416-71e8-8602-196914e94941",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:38.435473558-03:00",
+      "summary": "This document provides a technical overview of PostHog's invite acceptance workflow, detailing the underlying data models, API endpoints, and the multi-step backend logic for user onboarding.",
+      "tags": [
+        "posthog",
+        "user-onboarding",
+        "invite-system",
+        "backend-workflow",
+        "data-models",
+        "access-control"
+      ],
+      "category": "reference",
+      "original_file_path": "threads-T-019baa18-8416-71e8-8602-196914e94941.md"
+    },
+    {
+      "file_path": "187-@ryancarson-followers.md",
+      "title": "People following ryancarson",
+      "url": "https://ampcode.com/@ryancarson/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:40.9081615-03:00",
+      "summary": "This document displays the profile information for a user named Ryan Carson on the ampcode platform, including his username and unique identifier.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "account-details",
+        "user-identity"
+      ],
+      "category": "other",
+      "original_file_path": "@ryancarson-followers.md"
+    },
+    {
+      "file_path": "188-@ryancarson-following.md",
+      "title": "People ryancarson is following",
+      "url": "https://ampcode.com/@ryancarson/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:41.322208093-03:00",
+      "summary": "This document displays the profile information for a user named Ryan Carson on the Ampcode platform, including his handle and unique identifier.",
+      "tags": [
+        "user-profile",
+        "account-details",
+        "ampcode",
+        "identity-metadata"
+      ],
+      "category": "other",
+      "original_file_path": "@ryancarson-following.md"
+    },
+    {
+      "file_path": "184-@rockorager-following.md",
+      "title": "People rockorager is following",
+      "url": "https://ampcode.com/@rockorager/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:43.369335566-03:00",
+      "summary": "This document provides profile information for a user named Tim Culverhouse, including his social handle and unique system identifier.",
+      "tags": [
+        "user-profile",
+        "account-information",
+        "identity-management",
+        "user-id"
+      ],
+      "category": "other",
+      "original_file_path": "@rockorager-following.md"
+    },
+    {
+      "file_path": "183-@rockorager-followers.md",
+      "title": "People following rockorager",
+      "url": "https://ampcode.com/@rockorager/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:43.436318507-03:00",
+      "summary": "This document displays the profile information and unique account identifier for user Tim Culverhouse on the AmpCode platform.",
+      "tags": [
+        "user-profile",
+        "account-details",
+        "identity-management"
+      ],
+      "category": "other",
+      "original_file_path": "@rockorager-followers.md"
+    },
+    {
+      "file_path": "178-@nicolay.md",
+      "title": "nicolay's Profile",
+      "url": "https://ampcode.com/@nicolay",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:45.304602048-03:00",
+      "summary": "This document displays a developer's user profile on the Ampcode platform, detailing their contribution statistics, message counts, and activity levels.",
+      "tags": [
+        "user-profile",
+        "contribution-stats",
+        "developer-metrics",
+        "ampcode",
+        "activity-tracking"
+      ],
+      "category": "other",
+      "original_file_path": "@nicolay.md"
+    },
+    {
+      "file_path": "176-@mrnugget-following.md",
+      "title": "People mrnugget is following",
+      "url": "https://ampcode.com/@mrnugget/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:45.540015108-03:00",
+      "summary": "This document provides the profile information for user Thorsten Ball on the Ampcode platform, including his handle and unique identifier.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "account-information",
+        "thorsten-ball"
+      ],
+      "category": "other",
+      "original_file_path": "@mrnugget-following.md"
+    },
+    {
+      "file_path": "180-@nicolaygerold-following.md",
+      "title": "People nicolaygerold is following",
+      "url": "https://ampcode.com/@nicolaygerold/following",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:47.389945234-03:00",
+      "summary": "This document displays the user profile information for Nicolay Gerold on the Ampcode platform, including their username, handle, and unique user identifier.",
+      "tags": [
+        "user-profile",
+        "ampcode-account",
+        "member-information",
+        "account-details"
+      ],
+      "category": "other",
+      "original_file_path": "@nicolaygerold-following.md"
+    },
+    {
+      "file_path": "175-@mrnugget-followers.md",
+      "title": "People following mrnugget",
+      "url": "https://ampcode.com/@mrnugget/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:47.837706081-03:00",
+      "summary": "This document displays a user profile for Thorsten Ball, featuring his username and platform-specific identification details.",
+      "tags": [
+        "user-profile",
+        "account-information",
+        "biographical-data"
+      ],
+      "category": "other",
+      "original_file_path": "@mrnugget-followers.md"
+    },
+    {
+      "file_path": "179-@nicolaygerold-followers.md",
+      "title": "People following nicolaygerold",
+      "url": "https://ampcode.com/@nicolaygerold/followers",
+      "source": "crawler",
+      "fetched_at": "2026-02-06T02:10:50.023604623-03:00",
+      "summary": "This document provides the user profile information for Nicolay Gerold, including their username and unique account identifier on the Ampcode platform.",
+      "tags": [
+        "user-profile",
+        "ampcode",
+        "account-details",
+        "social-profile"
+      ],
+      "category": "other",
+      "original_file_path": "@nicolaygerold-followers.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-06T02:22:15.376474",
+    "total_files": 194,
+    "categories": [
+      "Introduction & Overview",
+      "Getting Started & Installation",
+      "Tutorials & How-To Guides",
+      "Concepts & Fundamentals",
+      "Configuration & Settings",
+      "Features & Capabilities",
+      "SDK & API Reference",
+      "Reference & Documentation",
+      "Examples & Case Studies",
+      "News & Updates",
+      "Podcast Episodes",
+      "User Profiles & Social"
+    ]
+  }
+}

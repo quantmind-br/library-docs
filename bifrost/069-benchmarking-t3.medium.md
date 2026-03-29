@@ -1,0 +1,157 @@
+---
+title: t3.medium
+url: https://docs.getbifrost.ai/benchmarking/t3.medium.md
+source: llms
+fetched_at: 2026-01-21T19:41:17.410967889-03:00
+rendered_js: false
+word_count: 575
+summary: This document provides performance benchmarks, resource utilization metrics, and configuration tuning recommendations for running Bifrost on AWS t3.medium instances.
+tags:
+    - aws-t3-medium
+    - performance-benchmarks
+    - latency-analysis
+    - resource-utilization
+    - bifrost-optimization
+    - ec2-performance
+category: reference
+---
+
+# t3.medium
+
+> Detailed performance metrics and analysis for Bifrost running on AWS t3.medium instances (2 vCPUs, 4GB RAM).
+
+## Instance Configuration
+
+**AWS t3.medium Specifications:**
+
+* **vCPUs**: 2
+* **Memory**: 4GB RAM
+* **Network Performance**: Up to 5 Gigabit
+
+**Bifrost Configuration:**
+
+* **Buffer Size**: 15,000
+* **Initial Pool Size**: 10,000
+* **Test Load**: 5,000 requests per second (RPS)
+
+***
+
+## Performance Results
+
+### **Overall Performance Metrics**
+
+| Metric                    | Value       | Notes                               |
+| ------------------------- | ----------- | ----------------------------------- |
+| **Success Rate**          | 100.00%     | Perfect reliability under high load |
+| **Average Request Size**  | 0.13 KB     | Lightweight request payload         |
+| **Average Response Size** | 1.37 KB     | Standard response size for testing  |
+| **Average Latency**       | 2.12s       | Total end-to-end response time      |
+| **Peak Memory Usage**     | 1,312.79 MB | \~33% of available 4GB RAM          |
+
+### **Detailed Performance Breakdown**
+
+| Operation                    | Latency  | Performance Notes                        |
+| ---------------------------- | -------- | ---------------------------------------- |
+| **Queue Wait Time**          | 47.13 µs | Time waiting in Bifrost's internal queue |
+| **Key Selection Time**       | 16 ns    | Weighted API key selection               |
+| **Message Formatting**       | 2.19 µs  | Request message preparation              |
+| **Params Preparation**       | 436 ns   | Parameter processing                     |
+| **Request Body Preparation** | 2.65 µs  | HTTP request body assembly               |
+| **JSON Marshaling**          | 63.47 µs | JSON serialization time                  |
+| **Request Setup**            | 6.59 µs  | HTTP client configuration                |
+| **HTTP Request**             | 1.56s    | Actual provider API call time            |
+| **Error Handling**           | 189 ns   | Error processing overhead                |
+| **Response Parsing**         | 11.30 ms | JSON response deserialization            |
+
+**Bifrost's Total Overhead: 59 µs**\*
+
+*\*Excludes JSON marshalling and HTTP calls, which are required in any implementation*
+
+***
+
+## Performance Analysis
+
+### **Strengths on t3.medium**
+
+1. **Perfect Reliability**: 100% success rate even at 5,000 RPS
+2. **Memory Efficiency**: Uses only 33% of available RAM (1,312.79 MB / 4GB)
+3. **Minimal Overhead**: Just 59 µs of added latency per request
+4. **Fast Operations**: Sub-microsecond performance for most internal operations
+
+### **Resource Utilization**
+
+* **Memory Usage**: Very efficient at 1,312.79 MB peak usage
+* **CPU Performance**: Handles 5,000 RPS workload effectively
+* **Queue Management**: 47.13 µs average wait time indicates good throughput
+
+***
+
+## Configuration Recommendations
+
+### **Optimal Settings for t3.medium**
+
+Based on test results, these configurations work well:
+
+```json  theme={null}
+{
+  "client": {
+    "initial_pool_size": 10000,
+    "buffer_size": 15000
+  }
+}
+```
+
+### **Tuning Opportunities**
+
+**For Lower Memory Usage:**
+
+* Reduce `initial_pool_size` to 7,500-8,000
+* Decrease `buffer_size` to 12,000-13,000
+* Trade-off: Slightly higher latency
+
+**For Better Performance:**
+
+* Increase `initial_pool_size` to 12,000-13,000
+* Increase `buffer_size` to 17,000-18,000
+* Trade-off: Higher memory usage (monitor RAM limits)
+
+***
+
+## Comparison Context
+
+### **vs. t3.xlarge Performance**
+
+| Metric               | t3.medium   | t3.xlarge   | Difference  |
+| -------------------- | ----------- | ----------- | ----------- |
+| **Bifrost Overhead** | 59 µs       | 11 µs       | +81% slower |
+| **Queue Wait Time**  | 47.13 µs    | 1.67 µs     | +96% slower |
+| **JSON Marshaling**  | 63.47 µs    | 26.80 µs    | +58% slower |
+| **Response Parsing** | 11.30 ms    | 2.11 ms     | +81% slower |
+| **Memory Usage**     | 1,312.79 MB | 3,340.44 MB | -61% usage  |
+
+**Key Insights:**
+
+* t3.medium uses **61% less memory** than t3.xlarge
+* Performance trade-offs are reasonable for cost savings
+* Most operations still complete in microseconds
+
+***
+
+## Next Steps
+
+**When to upgrade to t3.xlarge:**
+
+* Sustained load approaches 4,000+ RPS
+
+* Queue wait times consistently exceed 75 µs
+
+* Memory usage approaches 75% of available RAM
+
+* **[Run Your Own Benchmarks](./run-your-own-benchmarks)** to test with your specific workload
+
+* **[Compare with t3.xlarge](./t3.xl)** for performance scaling analysis
+
+
+---
+
+> To find navigation and other pages in this documentation, fetch the llms.txt file at: https://docs.getbifrost.ai/llms.txt

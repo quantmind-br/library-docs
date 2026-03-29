@@ -1,0 +1,76 @@
+---
+title: Browserbase Extension | goose
+url: https://block.github.io/goose/docs/mcp/browserbase-mcp
+source: github_pages
+fetched_at: 2026-01-22T22:14:45.374634888-03:00
+rendered_js: true
+word_count: 41
+summary: This document provides instructions for integrating the Browserbase MCP Server as a goose extension to enable automated browser interactions, navigation, and web scraping.
+tags:
+    - browserbase
+    - mcp-server
+    - goose-extension
+    - browser-automation
+    - web-scraping
+    - model-context-protocol
+category: tutorial
+---
+
+This tutorial covers how to add the Browserbase MCP Server as a goose extension for browser automation, enabling programmatic control over navigation, page interactions, and content capture.
+
+Let's use the Browserbase extension to gather information about trending MCP-related repositories on GitHub.
+
+```
+1. Go to https://github.com/trending
+
+2. Search for "MCP server" or scroll through and find repos with "MCP" or "Model Context Protocol" in the title or description
+
+3. For the top 3 relevant repositories:
+    • Click into the repo
+    • Take a screenshot of the repo page
+    • Extract:
+        - Repo name
+        - Description
+        - Stars today
+        - First paragraph of README 
+    • Navigate back
+
+- Close all tabs
+
+- Output a Markdown report showing:
+    • Repo name (link)
+    • Screenshot
+    • Description + Stars
+    • README excerpt
+```
+
+```
+# MCP Repositories Report
+
+## 1. [FastMCP](https://github.com/jlowin/fastmcp)
+
+![FastMCP Repository Screenshot]
+
+**Description**: The fast, Pythonic way to build MCP servers and clients.  
+**Stars Today**: 10.2k stars
+
+**README Excerpt**: The Model Context Protocol (MCP) is a new, standardized way to provide context and tools to your LLMs, and FastMCP makes building MCP servers and clients simple and intuitive. Create tools, expose resources, define prompts, and connect components with clean, Pythonic code.
+
+## 2. [GitHub MCP Server](https://github.com/github/github-mcp-server)
+
+![GitHub MCP Server Screenshot]
+
+**Description**: GitHub's official MCP Server that provides seamless integration with GitHub APIs, enabling advanced automation and interaction capabilities for developers and tools.  
+**Stars Today**: 13.9k stars
+
+**README Excerpt**: The GitHub MCP Server is a Model Context Protocol (MCP) server that provides seamless integration with GitHub APIs, enabling advanced automation and interaction capabilities for developers and tools.
+
+## 3. [Playwright MCP](https://github.com/microsoft/playwright-mcp)
+
+![Playwright MCP Screenshot]
+
+**Description**: A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright.  
+**Stars Today**: 10.2k stars
+
+**README Excerpt**: A Model Context Protocol (MCP) server that provides browser automation capabilities using Playwright. This server enables LLMs to interact with web pages through structured accessibility snapshots, bypassing the need for screenshots or visually-tuned models.
+```

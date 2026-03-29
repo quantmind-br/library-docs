@@ -1,0 +1,2320 @@
+{
+  "generated_at": "2026-02-01T21:14:44.906824539-03:00",
+  "source_url": "https://ratatui.rs/",
+  "strategy": "crawler",
+  "total_documents": 135,
+  "documents": [
+    {
+      "file_path": "index.md",
+      "title": "Ratatui",
+      "url": "https://ratatui.rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:22.108516846-03:00",
+      "description": "Ratatui: Cook up delicious terminal user interfaces in Rust - the fast and lightweight TUI library trusted by developers",
+      "summary": "Ratatui is a Rust library designed for building high-performance terminal user interfaces with features like immediate-mode rendering, rich widgets, and responsive layouts.",
+      "tags": [
+        "rust",
+        "tui",
+        "terminal-interface",
+        "widget-library",
+        "layout-engine",
+        "performance"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "installation.md",
+      "title": "Installation",
+      "url": "https://ratatui.rs/installation/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:27.693839813-03:00",
+      "summary": "This document provides instructions for installing the ratatui Rust crate and configuring its optional backend features using Cargo.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "installation",
+        "cargo",
+        "dependencies",
+        "terminal-ui",
+        "backend-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples.md",
+      "title": "Examples",
+      "url": "https://ratatui.rs/examples/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:28.560941148-03:00",
+      "summary": "This document provides a collection of social media and community platform links for the Ratatui project.",
+      "tags": [
+        "ratatui",
+        "community-links",
+        "social-media",
+        "project-resources",
+        "rust-library"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "showcase-apps.md",
+      "title": "App Showcase",
+      "url": "https://ratatui.rs/showcase/apps/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:28.157836269-03:00",
+      "summary": "This document provides a collection of terminal-based applications and command-line utilities designed for system monitoring, development, and data management. It showcases various interactive tools that enhance productivity within the terminal environment using specialized user interfaces.",
+      "tags": [
+        "terminal-user-interface",
+        "cli-tools",
+        "tui-applications",
+        "command-line-utilities",
+        "rust-ecosystem",
+        "developer-tools"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "concepts-widgets.md",
+      "title": "Introduction to Widgets",
+      "url": "https://ratatui.rs/concepts/widgets/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:29.091065935-03:00",
+      "summary": "This document explains the role and implementation of widgets in Ratatui, covering built-in components, core traits for stateful and stateless rendering, and the rendering process.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "widgets",
+        "stateful-widgets",
+        "ui-development",
+        "terminal-graphics"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "tutorials.md",
+      "title": "Tutorials",
+      "url": "https://ratatui.rs/tutorials/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:28.944239182-03:00",
+      "summary": "A collection of introductory tutorials for creating terminal user interfaces using the Ratatui library in Rust.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "terminal-ui",
+        "tutorials"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "concepts-layout.md",
+      "title": "Layout",
+      "url": "https://ratatui.rs/concepts/layout/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:30.345380532-03:00",
+      "summary": "This document explains the Ratatui coordinate system and demonstrates how to structure terminal user interfaces using the Layout struct and various sizing constraints.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "layout-management",
+        "constraints",
+        "coordinate-system",
+        "cassowary-solver"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "concepts-backends.md",
+      "title": "Backends",
+      "url": "https://ratatui.rs/concepts/backends/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:30.600747792-03:00",
+      "summary": "This document explains how Ratatui utilizes backends to interface with terminal emulators and details the supported libraries, features, and version compatibility requirements.",
+      "tags": [
+        "ratatui",
+        "terminal-backends",
+        "crossterm",
+        "termion",
+        "termwiz",
+        "raw-mode",
+        "alternate-screen"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "tutorials-counter-app.md",
+      "title": "Counter App",
+      "url": "https://ratatui.rs/tutorials/counter-app/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:33.98970047-03:00",
+      "summary": "This tutorial teaches how to manage application state and handle user keyboard input to create interactive terminal user interfaces using the Ratatui library.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "state-management",
+        "event-handling",
+        "terminal-ui",
+        "widgets"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-hello-ratatui.md",
+      "title": "Hello Ratatui",
+      "url": "https://ratatui.rs/tutorials/hello-ratatui/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:32.259438026-03:00",
+      "summary": "A step-by-step tutorial for creating a basic 'Hello World' terminal user interface application using Rust and the Ratatui library.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "terminal-ui",
+        "hello-world",
+        "cargo-generate"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "concepts-rendering.md",
+      "title": "Rendering",
+      "url": "https://ratatui.rs/concepts/rendering/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:30.296883717-03:00",
+      "summary": "This document explains the immediate mode rendering paradigm used by the Ratatui library for terminal user interfaces, highlighting its differences from retained mode and its associated advantages and challenges.",
+      "tags": [
+        "ratatui",
+        "immediate-mode",
+        "ui-paradigm",
+        "terminal-user-interface",
+        "rendering",
+        "tui-development"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "tutorials-counter-app-basic-app.md",
+      "title": "Basic Counter App",
+      "url": "https://ratatui.rs/tutorials/counter-app/basic-app/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:33.095981908-03:00",
+      "description": "This tutorial covers a basic counter application with Ratatui",
+      "summary": "This tutorial provides a step-by-step guide to building a basic terminal-based counter application using Rust and the Ratatui library, covering project setup, state management, and rendering UI components.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "terminal-interface",
+        "crossterm",
+        "event-handling",
+        "ui-rendering"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor.md",
+      "title": "JSON Editor",
+      "url": "https://ratatui.rs/tutorials/json-editor/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:35.015953477-03:00",
+      "summary": "This tutorial guides users through building a terminal-based JSON editor using Ratatui, focusing on state management and modular application architecture in Rust.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "json-editor",
+        "serde",
+        "state-management"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-main.md",
+      "title": "Main.rs",
+      "url": "https://ratatui.rs/tutorials/json-editor/main/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:35.680090812-03:00",
+      "summary": "This document explains how to implement the main function and application loop in a Ratatui application, covering terminal setup, event handling, and state management.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "terminal-initialization",
+        "event-handling",
+        "main-loop",
+        "crossterm-backend"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-ui-editing.md",
+      "title": "UI - Editing Popup",
+      "url": "https://ratatui.rs/tutorials/json-editor/ui-editing/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:37.346492878-03:00",
+      "summary": "Explains how to create and render a centered popup window with dynamic layouts and styled input widgets using the Ratatui library.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "ui-layout",
+        "popup-rendering",
+        "widget-styling"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-closing-thoughts.md",
+      "title": "Closing Thoughts",
+      "url": "https://ratatui.rs/tutorials/json-editor/closing-thoughts/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:37.8011623-03:00",
+      "summary": "This tutorial explains the fundamental architecture and flow of a Ratatui application by demonstrating how to build an interactive JSON editor with state management and event handling.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "terminal-ui",
+        "crossterm",
+        "event-handling",
+        "state-management",
+        "ui-layout"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-apps.md",
+      "title": "App Examples",
+      "url": "https://ratatui.rs/examples/apps/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:39.34069051-03:00",
+      "summary": "This document provides a collection of example applications and demo projects showcasing the capabilities of the Ratatui terminal user interface library.",
+      "tags": [
+        "ratatui",
+        "rust-lang",
+        "terminal-ui",
+        "example-apps",
+        "showcase",
+        "tui-development"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "examples-apps-inline.md",
+      "title": "Inline Viewport",
+      "url": "https://ratatui.rs/examples/apps/inline/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:40.999039881-03:00",
+      "summary": "This document demonstrates how to implement an inline terminal user interface using Ratatui's inline viewport feature to render progress bars and handle background tasks without taking over the full screen.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "inline-mode",
+        "terminal-ui",
+        "viewport",
+        "progress-bar",
+        "multithreading"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-apps-minimal.md",
+      "title": "Minimal Hello World",
+      "url": "https://ratatui.rs/examples/apps/minimal/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:41.684519258-03:00",
+      "summary": "This document provides a minimal starter example for building terminal user interfaces with the Ratatui library in Rust, demonstrating basic terminal initialization and frame rendering.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "terminal-ui",
+        "hello-world",
+        "crossterm",
+        "tui-development"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-layout.md",
+      "title": "Layout Examples",
+      "url": "https://ratatui.rs/examples/layout/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:44.680488208-03:00",
+      "summary": "This document provides a directory of examples and tools for managing terminal user interface layouts and constraints using the Ratatui library.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "layout-management",
+        "constraints",
+        "flexbox",
+        "terminal-ui"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "examples-apps-demo.md",
+      "title": "Demo",
+      "url": "https://ratatui.rs/examples/apps/demo/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:39.942276801-03:00",
+      "summary": "This document provides the source code and setup instructions for the original Ratatui demo application across multiple terminal backends. It demonstrates how to structure a Rust terminal UI application using stateful widgets, data signals, and event handling.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "terminal-ui",
+        "crossterm",
+        "state-management",
+        "demo-example"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-apps-user-input.md",
+      "title": "User Input",
+      "url": "https://ratatui.rs/examples/apps/user_input/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:44.496669675-03:00",
+      "summary": "This document demonstrates how to implement and handle user text input, cursor movement, and state-based input modes in a Ratatui terminal application.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "user-input",
+        "terminal-ui",
+        "event-handling",
+        "cursor-management"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "installation-feature-flags.md",
+      "title": "Feature Flags",
+      "url": "https://ratatui.rs/installation/feature-flags/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:32.594124806-03:00",
+      "summary": "This document explains how to configure the Ratatui library by selecting specific terminal backends and enabling optional features like the calendar widget and Serde support.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "cargo-features",
+        "backend-selection",
+        "serde",
+        "widgets"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "examples-apps-ratatui-logo.md",
+      "title": "Ratatui Logo",
+      "url": "https://ratatui.rs/examples/apps/ratatui-logo/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:42.900613394-03:00",
+      "summary": "This document provides a code example for rendering the Ratatui logo in a terminal using half-block graphics and built-in library widgets.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "terminal-graphics",
+        "ui-widgets",
+        "code-example",
+        "terminal-ui"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-apps-popup.md",
+      "title": "Popup",
+      "url": "https://ratatui.rs/examples/apps/popup/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:44.017631058-03:00",
+      "summary": "This document demonstrates how to use the Clear widget in Ratatui to create popup overlays by clearing a specific area of the terminal before rendering a new widget on top.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "popup-window",
+        "clear-widget",
+        "layout-management",
+        "ui-overlay"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-ui-exit.md",
+      "title": "UI - Exit Popup",
+      "url": "https://ratatui.rs/tutorials/json-editor/ui-exit/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:39.017609384-03:00",
+      "summary": "This document explains how to implement an exit confirmation screen in a terminal application, specifically demonstrating the use of the Clear widget to render a centered popup for user feedback.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui-development",
+        "terminal-interface",
+        "clear-widget",
+        "ui-layout"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-app.md",
+      "title": "App.rs",
+      "url": "https://ratatui.rs/tutorials/json-editor/app/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:35.998451174-03:00",
+      "summary": "This document explains how to structure application state and manage different navigation modes in a Ratatui application using Rust structs and enums.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "state-management",
+        "tui-development",
+        "application-architecture"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-apps-demo2.md",
+      "title": "Demo 2",
+      "url": "https://ratatui.rs/examples/apps/demo2/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:40.286436408-03:00",
+      "summary": "This document provides instructions for cloning the Ratatui repository and running the demo2 example application to showcase the library's terminal user interface capabilities.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "terminal-ui",
+        "demo",
+        "crossterm"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-widgets-custom-widget.md",
+      "title": "Custom Widget",
+      "url": "https://ratatui.rs/examples/widgets/custom_widget/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:52.222791043-03:00",
+      "summary": "This document provides a complete implementation example of a custom widget in Ratatui, demonstrating how to define custom rendering logic, manage widget state, and handle user input.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "custom-widgets",
+        "tui",
+        "event-handling",
+        "widget-trait",
+        "ui-design"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-ui.md",
+      "title": "UI.rs",
+      "url": "https://ratatui.rs/tutorials/json-editor/ui/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:36.749433613-03:00",
+      "summary": "This document explains how to design and structure layouts within a Ratatui TUI application using frames, rectangles, and constraints. It covers partitioning screen space and implementing helper functions for responsive UI elements.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "layout-design",
+        "ui-components",
+        "terminal-interface",
+        "responsive-tui"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-layout-constraints.md",
+      "title": "Constraints",
+      "url": "https://ratatui.rs/examples/layout/constraints/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:45.770636666-03:00",
+      "summary": "This document provides a comprehensive code example demonstrating how to use different layout constraints in Ratatui to organize UI elements, covering Min, Max, Length, Percentage, Ratio, and Fill.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "layout-constraints",
+        "terminal-ui",
+        "user-interface"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets-gauge.md",
+      "title": "Gauge",
+      "url": "https://ratatui.rs/examples/widgets/gauge/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:52.851731219-03:00",
+      "summary": "This document demonstrates how to implement and customize different types of Gauge widgets in a Ratatui terminal application, including percentage-based, ratio-based, and unicode versions.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "gauge-widget",
+        "terminal-ui",
+        "user-interface"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-style-colors-rgb.md",
+      "title": "Colors (RGB)",
+      "url": "https://ratatui.rs/examples/style/colors_rgb/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:47.790714426-03:00",
+      "summary": "This document explains how to use 24-bit RGB colors in Ratatui and demonstrates a technique for updating widget state during the rendering cycle to create animations and track performance.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "rgb-color",
+        "true-color",
+        "widget-trait",
+        "terminal-graphics",
+        "animation"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets-calendar.md",
+      "title": "Calendar",
+      "url": "https://ratatui.rs/examples/widgets/calendar/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:50.066039602-03:00",
+      "summary": "This document provides a practical implementation example of the Ratatui calendar widget, demonstrating how to display monthly views and style specific dates using an event store.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "calendar-widget",
+        "terminal-ui",
+        "tui",
+        "widget-styling",
+        "user-interface"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets-sparkline.md",
+      "title": "Sparkline",
+      "url": "https://ratatui.rs/examples/widgets/sparkline/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:56.279480433-03:00",
+      "summary": "This document demonstrates how to implement and style the Sparkline widget in Ratatui to visualize data trends within a terminal user interface.",
+      "tags": [
+        "ratatui",
+        "sparkline",
+        "widget",
+        "rust",
+        "data-visualization",
+        "tui",
+        "terminal-graphics"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "concepts-no-std.md",
+      "title": "Using no_std",
+      "url": "https://ratatui.rs/concepts/no-std/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:00.121918278-03:00",
+      "description": "Running Ratatui without the Rust standard library and authoring no_std widgets.",
+      "summary": "This document provides instructions on how to use Ratatui in no_std and embedded environments, covering dependency configuration and widget implementation.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "no-std",
+        "embedded-systems",
+        "tui",
+        "widget-development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "concepts-builder-lite-pattern.md",
+      "title": "Builder Lite Pattern",
+      "url": "https://ratatui.rs/concepts/builder-lite-pattern/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:59.012281279-03:00",
+      "summary": "This document explains the 'Builder Lite' pattern used in Ratatui for configuring widgets through method chaining and provides guidance on avoiding common pitfalls when using setter methods.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "builder-lite",
+        "widget-configuration",
+        "method-chaining"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "concepts-rendering-under-the-hood.md",
+      "title": "Rendering under the hood",
+      "url": "https://ratatui.rs/concepts/rendering/under-the-hood/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:01.109870083-03:00",
+      "summary": "This document explains the internal rendering lifecycle in Ratatui, detailing how widgets are drawn to an intermediate buffer and efficiently flushed to the terminal screen.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "rendering-pipeline",
+        "buffer-management",
+        "widget-trait"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "examples-widgets-chart.md",
+      "title": "Chart",
+      "url": "https://ratatui.rs/examples/widgets/chart/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:50.587182144-03:00",
+      "summary": "This document demonstrates how to implement and configure various terminal-based data visualizations using the Ratatui Chart widget, including animated line charts, bar charts, and scatter plots.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "chart-widget",
+        "data-visualization",
+        "tui-rs",
+        "graphing"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "concepts-application-patterns-flux-architecture.md",
+      "title": "Flux Architecture",
+      "url": "https://ratatui.rs/concepts/application-patterns/flux-architecture/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:01.617912256-03:00",
+      "summary": "This document explains how to apply the Flux design pattern to terminal applications using the Ratatui library to achieve predictable state management and unidirectional data flow.",
+      "tags": [
+        "flux-architecture",
+        "ratatui",
+        "rust",
+        "state-management",
+        "terminal-ui",
+        "design-patterns"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "examples-layout-layout.md",
+      "title": "Layout",
+      "url": "https://ratatui.rs/examples/layout/layout/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:46.028802576-03:00",
+      "summary": "This document demonstrates how to use the Ratatui layout system to partition terminal screen space using various geometric constraints. It provides a functional implementation for organizing UI components through nested vertical and horizontal layouts.",
+      "tags": [
+        "ratatui",
+        "rust-library",
+        "terminal-ui",
+        "layout-system",
+        "ui-constraints",
+        "tui-development"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "concepts-backends-comparison.md",
+      "title": "Comparison of Backends",
+      "url": "https://ratatui.rs/concepts/backends/comparison/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:04.517024582-03:00",
+      "summary": "This document explains the various terminal backends supported by the Ratatui library and provides a framework for selecting the most suitable one for a project.",
+      "tags": [
+        "ratatui",
+        "terminal-backend",
+        "rust-programming",
+        "crossterm",
+        "termion",
+        "termwiz"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-layout-grid.md",
+      "title": "Grid Layout",
+      "url": "https://ratatui.rs/recipes/layout/grid/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:07.26850178-03:00",
+      "summary": "This document explains how to implement a grid-based widget layout in a TUI application by combining horizontal and vertical constraints. It demonstrates using Layout methods and iterator patterns to split a rectangular area into a grid of cells.",
+      "tags": [
+        "tui-layout",
+        "grid-layout",
+        "ratatui",
+        "rust-programming",
+        "widget-rendering"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "concepts-backends-alternate-screen.md",
+      "title": "Alternate Screen",
+      "url": "https://ratatui.rs/concepts/backends/alternate-screen/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:03.7703786-03:00",
+      "summary": "This document explains the concept of the alternate screen buffer in terminal emulators, which allows TUI applications to run without disrupting the primary terminal scrollback. It provides a technical overview and a code example using Rust and Ratatui to demonstrate buffer switching.",
+      "tags": [
+        "terminal-ui",
+        "alternate-screen",
+        "rust",
+        "ratatui",
+        "crossterm",
+        "tui-development",
+        "buffer-management"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "examples-widgets-block.md",
+      "title": "Block",
+      "url": "https://ratatui.rs/examples/widgets/block/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:50.441412247-03:00",
+      "summary": "This document demonstrates how to use the Block widget in the Ratatui library to create borders, titles, and styled areas within a terminal user interface.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "block-widget",
+        "ui-components",
+        "styling",
+        "layout"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets-tabs.md",
+      "title": "Tabs",
+      "url": "https://ratatui.rs/examples/widgets/tabs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:57.531857257-03:00",
+      "summary": "This document provides a code example for creating and managing a tabbed interface using the Ratatui library in Rust. It demonstrates how to handle tab state, keyboard navigation, and rendering different content for each selected tab.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "tabs-widget",
+        "state-management",
+        "navigation",
+        "ui-layout"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-json-editor-ui-main.md",
+      "title": "UI - Main screen",
+      "url": "https://ratatui.rs/tutorials/json-editor/ui-main/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:37.81879569-03:00",
+      "summary": "This document explains how to design and render a terminal user interface using Ratatui widgets, covering layouts, paragraphs, lists, and dynamic navigation footers.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "layout-management",
+        "widget-rendering",
+        "terminal-ui",
+        "ui-design"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "highlights-v029.md",
+      "title": "v0.29.0",
+      "url": "https://ratatui.rs/highlights/v029/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:09.434310708-03:00",
+      "summary": "This document announces the release of Ratatui 0.29.0, detailing new features such as overlapping layouts, table cell selection, and HSLuv color support, alongside API improvements and deprecations.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "release-notes",
+        "api-changes",
+        "widgets",
+        "layout"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "examples-apps-panic.md",
+      "title": "Panic Hooks",
+      "url": "https://ratatui.rs/examples/apps/panic/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:42.495717045-03:00",
+      "summary": "This document explains how to handle panics in Ratatui applications to ensure the terminal state is correctly restored when a crash occurs. It demonstrates the automatic panic hook setup provided by the library and how it differs from manual or disabled hook states.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "panic-handling",
+        "terminal-ui",
+        "error-handling",
+        "terminal-reset"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes-apps-config-directories.md",
+      "title": "Handle XDG Directories",
+      "url": "https://ratatui.rs/recipes/apps/config-directories/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:08.956152801-03:00",
+      "summary": "This document explains how to implement standardized file and directory management in Rust CLI applications using the XDG Base Directory Specification and the directories-rs library.",
+      "tags": [
+        "rust",
+        "xdg-base-directory",
+        "directories-rs",
+        "cli-development",
+        "file-handling",
+        "configuration-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-render-display-text.md",
+      "title": "Displaying Text",
+      "url": "https://ratatui.rs/recipes/render/display-text/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:13.328038991-03:00",
+      "summary": "This document explains the core building blocks for rendering and styling text in Ratatui, specifically focusing on the Span, Line, and Text structs.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "text-rendering",
+        "terminal-ui",
+        "styling",
+        "ui-development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "tutorials-counter-app-error-handling.md",
+      "title": "Counter App Error Handling",
+      "url": "https://ratatui.rs/tutorials/counter-app/error-handling/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:34.967490928-03:00",
+      "summary": "This tutorial explains how to implement robust error and panic handling in Ratatui applications to ensure the terminal state is correctly restored during a crash or unhandled error.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "error-handling",
+        "panic-handling",
+        "terminal-ui",
+        "color-eyre"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "concepts-application-patterns.md",
+      "title": "Application Patterns",
+      "url": "https://ratatui.rs/concepts/application-patterns/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:00.470786906-03:00",
+      "summary": "This document introduces and links to various architectural patterns for building applications, including the Elm, Component, and Flux architectures.",
+      "tags": [
+        "application-patterns",
+        "architecture-design",
+        "elm-architecture",
+        "component-architecture",
+        "flux-architecture",
+        "ratatui"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "examples-widgets-canvas.md",
+      "title": "Canvas",
+      "url": "https://ratatui.rs/examples/widgets/canvas/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:51.841014837-03:00",
+      "summary": "This document demonstrates how to use the Ratatui Canvas widget to draw shapes, maps, and interactive graphics within a terminal UI. It covers coordinate-based rendering, marker styles, and handling mouse input for dynamic drawing.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "canvas-widget",
+        "terminal-graphics",
+        "event-handling",
+        "user-interface"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes-render-overwrite-regions.md",
+      "title": "Popups (overwrite regions)",
+      "url": "https://ratatui.rs/recipes/render/overwrite-regions/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:15.964360435-03:00",
+      "summary": "This document explains how to use the Clear widget in Ratatui to prevent background styles and symbols from bleeding through into foreground widgets. It demonstrates how to properly implement popups by clearing the rendering area before drawing new content.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "clear-widget",
+        "rendering-buffer",
+        "popup-window",
+        "terminal-graphics"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "tutorials-videos.md",
+      "title": "Videos",
+      "url": "https://ratatui.rs/tutorials/videos/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:38.216553329-03:00",
+      "summary": "This tutorial explains how to create terminal user interfaces in Rust using the Ratatui library, focusing on terminal interaction, UI setup, and multithreading for responsiveness.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "multithreading",
+        "terminal-ui",
+        "responsiveness"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes-layout-dynamic.md",
+      "title": "Create Dynamic layouts",
+      "url": "https://ratatui.rs/recipes/layout/dynamic/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:11.203288819-03:00",
+      "summary": "This document explains how to programmatically generate and update terminal user interface layouts based on application state and user input.",
+      "tags": [
+        "rust",
+        "tui",
+        "layout-management",
+        "dynamic-ui",
+        "ratatui",
+        "state-handling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-apps.md",
+      "title": "Develop Applications",
+      "url": "https://ratatui.rs/recipes/apps/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:21.380895848-03:00",
+      "summary": "This document provides a collection of official links to the Ratatui project's social media platforms, community chat rooms, and source code repository.",
+      "tags": [
+        "ratatui",
+        "community-links",
+        "social-media",
+        "project-resources"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "examples-style-colors.md",
+      "title": "Colors",
+      "url": "https://ratatui.rs/examples/style/colors/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:46.959971679-03:00",
+      "summary": "This document demonstrates how to use and display the full range of colors supported by the Ratatui library, including named, indexed, and grayscale variants.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "terminal-colors",
+        "ui-styling",
+        "crossterm",
+        "color-palette"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes-testing-debug-widget-state.md",
+      "title": "Debugging Widget State",
+      "url": "https://ratatui.rs/recipes/testing/debug-widget-state/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:20.263342416-03:00",
+      "summary": "This document explains techniques for debugging widget state in Ratatui applications, specifically focusing on rendering an in-app debug view and alternative logging methods.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "debugging",
+        "tui-development",
+        "widget-state"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-layout-constraint-explorer.md",
+      "title": "Constraint Explorer",
+      "url": "https://ratatui.rs/examples/layout/constraint-explorer/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:44.811530147-03:00",
+      "summary": "An interactive utility and code example for visualizing and exploring how different layout constraints interact within the Ratatui terminal UI library.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "layout-constraints",
+        "terminal-ui",
+        "tui-development",
+        "visualization"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "faq.md",
+      "title": "FAQ",
+      "url": "https://ratatui.rs/faq/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:24.306720153-03:00",
+      "summary": "This document addresses common developer questions regarding Ratatui, including platform-specific event handling on Windows, asynchronous integration with Tokio, and resolving Crossterm version conflicts.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "crossterm",
+        "async-programming",
+        "event-handling",
+        "windows-compatibility",
+        "dependency-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "highlights-v028.md",
+      "title": "v0.28.0",
+      "url": "https://ratatui.rs/highlights/v028/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:26.693867236-03:00",
+      "summary": "This document details the updates and breaking changes in Ratatui version 0.28.0, covering new widget features, API refinements for terminal rendering, and dependency upgrades.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "release-notes",
+        "tui-library",
+        "breaking-changes",
+        "api-updates"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "recipes-apps-log-with-tracing.md",
+      "title": "Setup Logging with tracing",
+      "url": "https://ratatui.rs/recipes/apps/log-with-tracing/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:10.605783277-03:00",
+      "summary": "This document provides a comprehensive guide for setting up and initializing structured logging and error handling in Rust applications using the tracing ecosystem.",
+      "tags": [
+        "rust",
+        "logging",
+        "tracing",
+        "error-handling",
+        "application-configuration",
+        "debugging"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "concepts.md",
+      "title": "Concepts",
+      "url": "https://ratatui.rs/concepts/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:58.092997125-03:00",
+      "summary": "This document introduces fundamental architectural concepts and patterns for developing terminal user interfaces, covering topics like rendering, layout, and event handling.",
+      "tags": [
+        "terminal-user-interface",
+        "tui-development",
+        "rendering",
+        "event-handling",
+        "no-std"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "recipes-apps-terminal-and-event-handler.md",
+      "title": "Tui with Terminal and EventHandler",
+      "url": "https://ratatui.rs/recipes/apps/terminal-and-event-handler/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:13.180378882-03:00",
+      "summary": "This document provides a reusable implementation of a TUI helper struct in Rust for managing terminal state, asynchronous event loops, and raw mode handling using Ratatui and Tokio.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui-development",
+        "tokio",
+        "event-loop",
+        "terminal-interface",
+        "asynchronous-programming"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "concepts-application-patterns-component-architecture.md",
+      "title": "Component Architecture",
+      "url": "https://ratatui.rs/concepts/application-patterns/component-architecture/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:02.693777162-03:00",
+      "summary": "This document explains the component-based architectural pattern for organizing terminal user interfaces, detailing how to encapsulate state, event handling, and rendering within modular traits.",
+      "tags": [
+        "tui-architecture",
+        "ratatui",
+        "component-pattern",
+        "rust",
+        "design-patterns",
+        "state-management"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "recipes-apps-cli-arguments.md",
+      "title": "Handle CLI arguments",
+      "url": "https://ratatui.rs/recipes/apps/cli-arguments/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:24.24330264-03:00",
+      "summary": "This document explains how to use the clap library in Rust to define command-line arguments and customize version information using git metadata and build scripts.",
+      "tags": [
+        "rust",
+        "clap",
+        "cli-arguments",
+        "versioning",
+        "build-rs",
+        "command-line-interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-widgets-barchart.md",
+      "title": "Barchart",
+      "url": "https://ratatui.rs/examples/widgets/barchart/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:49.288758849-03:00",
+      "summary": "This document demonstrates how to implement and customize vertical and horizontal bar charts using the Ratatui BarChart widget.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "barchart",
+        "terminal-ui",
+        "widgets",
+        "data-visualization"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets-list.md",
+      "title": "List",
+      "url": "https://ratatui.rs/examples/widgets/list/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:53.928154218-03:00",
+      "summary": "This document demonstrates how to implement and manage a stateful list widget in a terminal user interface using the Ratatui library. It covers rendering list items, handling selection state, and processing keyboard input for navigation and interaction.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "list-widget",
+        "stateful-widget",
+        "list-state",
+        "terminal-ui",
+        "event-handling"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes.md",
+      "title": "Recipes",
+      "url": "https://ratatui.rs/recipes/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:06.067478207-03:00",
+      "summary": "This document serves as a directory for Ratatui recipes, organizing various articles and guides into categories like layout, rendering, widgets, testing, and application development.",
+      "tags": [
+        "ratatui",
+        "tui-development",
+        "rust-library",
+        "terminal-ui",
+        "layout-management",
+        "widget-usage",
+        "application-testing"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "developer-guide-website.md",
+      "title": "Contributing to Ratatui Website",
+      "url": "https://ratatui.rs/developer-guide/website/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:36.677754601-03:00",
+      "summary": "This document outlines instructions for contributing to the Ratatui website, detailing the development setup, styling conventions, and the use of custom Astro components and plugins.",
+      "tags": [
+        "ratatui",
+        "astro",
+        "starlight",
+        "contributing-guide",
+        "markdown",
+        "web-development",
+        "git-lfs"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "templates-component-cli-rs.md",
+      "title": "Cli.rs",
+      "url": "https://ratatui.rs/templates/component/cli-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:35.6924501-03:00",
+      "summary": "This document demonstrates how to define command-line arguments and display application version metadata using the clap crate in a Rust project.",
+      "tags": [
+        "rust",
+        "clap-crate",
+        "cli-parsing",
+        "command-line-interface",
+        "rust-development"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "templates-component-config-rs.md",
+      "title": "Config.rs",
+      "url": "https://ratatui.rs/templates/component/config-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:25.459662525-03:00",
+      "summary": "This document explains how to implement user-definable keybindings and styles in a Rust terminal application using external configuration files and Serde.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "serde",
+        "configuration",
+        "key-bindings",
+        "tui-development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "showcase-widgets.md",
+      "title": "Built-in Widgets Showcase",
+      "url": "https://ratatui.rs/showcase/widgets/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:39.829763247-03:00",
+      "summary": "This document provides an overview of the built-in widgets available in the Ratatui library, offering links to official documentation and example code for each terminal UI component.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "widgets",
+        "ui-components",
+        "terminal-graphics"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "recipes-apps-panic-hooks.md",
+      "title": "Setup Panic Hooks",
+      "url": "https://ratatui.rs/recipes/apps/panic-hooks/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:14.184299912-03:00",
+      "summary": "This document explains how to implement panic hooks in Ratatui applications to ensure the terminal returns to its original state when an unexpected crash occurs.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "panic-handling",
+        "terminal-ui",
+        "crossterm",
+        "termion",
+        "error-handling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "highlights-v0262.md",
+      "title": "v0.26.2",
+      "url": "https://ratatui.rs/highlights/v0262/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:38.663285323-03:00",
+      "summary": "This document outlines the new features, API changes, and bug fixes introduced in version 0.26.2 of the Ratatui Rust library. It details updates to text widgets, list scrolling behavior, and the minimum supported Rust version.",
+      "tags": [
+        "ratatui",
+        "rust-library",
+        "release-notes",
+        "tui",
+        "api-updates",
+        "terminal-graphics"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "references.md",
+      "title": "References",
+      "url": "https://ratatui.rs/references/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:33.22578121-03:00",
+      "summary": "This document provides a collection of links to the Ratatui project's source code repository and various community and social media platforms.",
+      "tags": [
+        "ratatui",
+        "community-links",
+        "social-media",
+        "github",
+        "project-communication"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "highlights-v022.md",
+      "title": "v0.22.0",
+      "url": "https://ratatui.rs/highlights/v022/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:27.824057245-03:00",
+      "summary": "This document outlines the features and improvements in Ratatui v0.22.0, including a new prelude module, scrollbar widget, and enhanced styling capabilities. It also detail updates to block titles, barchart groups, and expanded color string parsing support.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "release-notes",
+        "terminal-ui",
+        "widgets",
+        "prelude-module",
+        "styling",
+        "scrollbar"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "templates-component-action-rs.md",
+      "title": "Action.rs",
+      "url": "https://ratatui.rs/templates/component/action-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:28.152128929-03:00",
+      "summary": "This document defines a Rust enumeration representing various application actions and events used for state management and messaging.",
+      "tags": [
+        "rust",
+        "enum-definition",
+        "event-handling",
+        "message-passing",
+        "boilerplate",
+        "state-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "concepts-application-patterns-the-elm-architecture.md",
+      "title": "The Elm Architecture (TEA)",
+      "url": "https://ratatui.rs/concepts/application-patterns/the-elm-architecture/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:01.70079598-03:00",
+      "summary": "This document explains how to apply The Elm Architecture (TEA) to applications built with the ratatui library, focusing on the separation of state, logic, and rendering. It provides a structured approach for managing terminal user interfaces using the Model-Update-View pattern.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "elm-architecture",
+        "tui-development",
+        "state-management",
+        "software-architecture"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-widgets-block.md",
+      "title": "Block",
+      "url": "https://ratatui.rs/recipes/widgets/block/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:17.183150688-03:00",
+      "summary": "This document provides a technical overview of the Block widget, explaining how to use it as a structural container with borders, titles, and custom styling in terminal user interfaces.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui-library",
+        "block-widget",
+        "ui-design",
+        "terminal-graphics"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "templates-component-main-rs.md",
+      "title": "Main.rs",
+      "url": "https://ratatui.rs/templates/component/main-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:27.012500204-03:00",
+      "summary": "This document explains the structure and role of the main entry point and core modules in a Rust-based Terminal User Interface (TUI) application.",
+      "tags": [
+        "rust",
+        "tui",
+        "ratatui",
+        "cli-parsing",
+        "logging",
+        "error-handling"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "concepts-event-handling.md",
+      "title": "Event Handling",
+      "url": "https://ratatui.rs/concepts/event-handling/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:58.12154262-03:00",
+      "summary": "This document explores various architectural patterns for event handling within Ratatui applications, highlighting the pros and cons of centralized and distributed approaches.",
+      "tags": [
+        "ratatui",
+        "event-handling",
+        "rust",
+        "design-patterns",
+        "terminal-ui",
+        "event-loop"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "recipes-testing.md",
+      "title": "Testing Apps",
+      "url": "https://ratatui.rs/recipes/testing/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:19.761295891-03:00",
+      "summary": "This document provides a list of community resources and social media links for the Ratatui project, including its source code repository and discussion forums.",
+      "tags": [
+        "ratatui",
+        "community-links",
+        "social-media",
+        "github",
+        "project-outreach"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "recipes-render-style-text.md",
+      "title": "Styling Text",
+      "url": "https://ratatui.rs/recipes/render/style-text/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:13.804962658-03:00",
+      "summary": "This document explains how to use the Ratatui Style struct to apply colors and text modifiers like bold or italic to terminal UI components.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "styling",
+        "colors",
+        "text-formatting"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "templates-component-app-rs.md",
+      "title": "App.rs",
+      "url": "https://ratatui.rs/templates/component/app-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:34.463008636-03:00",
+      "summary": "This document explains architectural strategies for Terminal User Interfaces, contrasting simple blocking loops with action-based dispatch models for handling asynchronous tasks.",
+      "tags": [
+        "tui",
+        "event-loop",
+        "state-management",
+        "ratatui",
+        "rust-programming",
+        "software-architecture"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "recipes-testing-snapshots.md",
+      "title": "Testing with insta snapshots",
+      "url": "https://ratatui.rs/recipes/testing/snapshots/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:20.82124915-03:00",
+      "summary": "This document provides a step-by-step guide on implementing snapshot testing for Ratatui applications using the insta crate and cargo-insta tool.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "snapshot-testing",
+        "insta",
+        "tui",
+        "testing",
+        "cargo-insta"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets-table.md",
+      "title": "Table",
+      "url": "https://ratatui.rs/examples/widgets/table/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:57.933413953-03:00",
+      "summary": "This document provides a comprehensive example of implementing a stateful, interactive table widget in Ratatui, featuring row and column highlighting, custom styling, and scrollbar integration.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "table-widget",
+        "terminal-interface",
+        "stateful-widgets",
+        "event-handling"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "highlights.md",
+      "title": "Highlights",
+      "url": "https://ratatui.rs/highlights/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:22.446407597-03:00",
+      "summary": "This document provides an overview of the major version releases and feature highlights for the Ratatui library starting from version 0.21.0.",
+      "tags": [
+        "ratatui",
+        "release-notes",
+        "changelog",
+        "version-history"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "recipes-apps-better-panic.md",
+      "title": "Better Panic Hooks",
+      "url": "https://ratatui.rs/recipes/apps/better-panic/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:15.572458508-03:00",
+      "summary": "This document explains how to implement robust panic handling in Rust TUI applications to ensure the terminal state is restored and useful debug information is provided using crates like better-panic and human-panic.",
+      "tags": [
+        "rust",
+        "panic-handling",
+        "terminal-ui",
+        "ratatui",
+        "better-panic",
+        "human-panic",
+        "error-handling"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "templates-component-components-home-rs.md",
+      "title": "Components/home.rs",
+      "url": "https://ratatui.rs/templates/component/components-home-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:31.85291325-03:00",
+      "summary": "This document provides a Rust implementation of a terminal user interface component using the Ratatui library, covering state management, keyboard event handling, and asynchronous action processing.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "terminal-ui",
+        "async-programming",
+        "event-handling",
+        "tokio",
+        "ui-component"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "examples-widgets-scrollbar.md",
+      "title": "Scrollbar",
+      "url": "https://ratatui.rs/examples/widgets/scrollbar/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:55.938145925-03:00",
+      "summary": "This document demonstrates how to implement and customize vertical and horizontal scrollbars using the Scrollbar widget and ScrollbarState in Ratatui.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "scrollbar",
+        "tui",
+        "widgets",
+        "user-interface"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "developer-guide.md",
+      "title": "Developer Guide",
+      "url": "https://ratatui.rs/developer-guide/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:38.106559351-03:00",
+      "summary": "This document serves as the developer guide for contributors working on the ratatui library source code and its official documentation book.",
+      "tags": [
+        "ratatui",
+        "developer-guide",
+        "rust-tui",
+        "contributing",
+        "documentation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "showcase-third-party-widgets.md",
+      "title": "Third Party Widgets Showcase",
+      "url": "https://ratatui.rs/showcase/third-party-widgets/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:37.749983969-03:00",
+      "summary": "This document showcases various third-party widgets available for the Ratatui ecosystem, providing descriptions and links for community-developed terminal user interface components.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "widgets",
+        "tui-components",
+        "third-party-libraries"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "developer-guide-ratatui.md",
+      "title": "Contributing to Ratatui",
+      "url": "https://ratatui.rs/developer-guide/ratatui/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:37.113860957-03:00",
+      "summary": "This document outlines the contribution process for Ratatui, detailing pull request standards, commit formatting, testing requirements, and implementation guidelines.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "contribution-guidelines",
+        "git-workflow",
+        "testing-standards",
+        "pull-requests",
+        "open-source"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-layout-center-a-widget.md",
+      "title": "How to Center Widgets",
+      "url": "https://ratatui.rs/recipes/layout/center-a-widget/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:06.884480224-03:00",
+      "summary": "This document explains how to center widgets within a Terminal User Interface (TUI) layout using Rect helper methods for horizontal, vertical, and bidirectional alignment.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "layout-alignment",
+        "centering-widgets",
+        "rect-manipulation",
+        "popup-dialogs"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "templates-component-project-structure.md",
+      "title": "Project Structure",
+      "url": "https://ratatui.rs/templates/component/project-structure/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:24.992285559-03:00",
+      "summary": "This document provides an overview of the directory structure and file organization for a component-based Rust project, explaining the purpose of various source files.",
+      "tags": [
+        "rust",
+        "project-structure",
+        "file-organization",
+        "component-architecture",
+        "source-code-layout"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "examples-style.md",
+      "title": "Style Examples",
+      "url": "https://ratatui.rs/examples/style/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:46.562648118-03:00",
+      "summary": "This document provides a directory of examples for applying colors, RGB values, and text modifiers within the Ratatui terminal user interface library.",
+      "tags": [
+        "ratatui",
+        "styling",
+        "colors",
+        "rgb",
+        "text-modifiers",
+        "tui",
+        "rust"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "templates.md",
+      "title": "Ratatui Templates",
+      "url": "https://ratatui.rs/templates/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:38.292068657-03:00",
+      "summary": "This document explains how to initialize a new Ratatui application using pre-defined templates and the cargo-generate tool.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "cargo-generate",
+        "templates",
+        "project-setup"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "ecosystem-ratzilla.md",
+      "title": "Build websites",
+      "url": "https://ratatui.rs/ecosystem/ratzilla/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:24.140895755-03:00",
+      "summary": "This document serves as an introductory heading or placeholder for a section or project titled Ratzilla.",
+      "tags": [
+        "ratzilla",
+        "project-overview",
+        "placeholder"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "highlights-v027.md",
+      "title": "v0.27.0",
+      "url": "https://ratatui.rs/highlights/v027/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:32.188940341-03:00",
+      "summary": "This document details the new features and breaking changes in Ratatui version 0.27.0, highlighting widget updates, backend re-exports, and trait improvements for terminal UI development.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "release-notes",
+        "terminal-ui",
+        "tui-library",
+        "api-updates"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "highlights-v023.md",
+      "title": "v0.23.0",
+      "url": "https://ratatui.rs/highlights/v023/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:28.065450406-03:00",
+      "summary": "This document outlines the features and breaking changes in Ratatui version 0.23.0, including horizontal barcharts, Sixel support, and table alignment updates.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "release-notes",
+        "barchart",
+        "tui",
+        "sixel"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "templates-component-components-rs.md",
+      "title": "Components.rs",
+      "url": "https://ratatui.rs/templates/component/components-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:30.270349296-03:00",
+      "summary": "This document defines a Rust trait for building terminal user interface components, specifying the required methods for event handling, state management, and rendering.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "component-trait",
+        "event-handling",
+        "state-management",
+        "terminal-interface"
+      ],
+      "category": "api"
+    },
+    {
+      "file_path": "recipes-render.md",
+      "title": "Render UIs",
+      "url": "https://ratatui.rs/recipes/render/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:11.620525565-03:00",
+      "summary": "A collection of links to the Ratatui project's source code repository, community communication channels, and social media profiles.",
+      "tags": [
+        "ratatui",
+        "community",
+        "social-media",
+        "rust-tui",
+        "project-resources"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "recipes-widgets-paragraph.md",
+      "title": "Paragraph",
+      "url": "https://ratatui.rs/recipes/widgets/paragraph/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:18.129623917-03:00",
+      "summary": "This document explains how to use the Paragraph widget to display and format text in a terminal user interface, covering features like styling, alignment, and scrolling.",
+      "tags": [
+        "tui",
+        "paragraph-widget",
+        "text-styling",
+        "terminal-ui",
+        "rust-programming",
+        "rich-text"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-layout-collapse-borders.md",
+      "title": "Collapse borders in a layout",
+      "url": "https://ratatui.rs/recipes/layout/collapse-borders/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:09.512844417-03:00",
+      "summary": "This document explains how to create seamless terminal user interfaces by collapsing adjacent widget borders using Ratatui's border merging features. It provides a step-by-step guide on using overlapping layouts and merge strategies to handle complex border joining logic.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "layout-management",
+        "border-merging",
+        "terminal-ui",
+        "widget-styling"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "showcase.md",
+      "title": "Showcase",
+      "url": "https://ratatui.rs/showcase/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:31.283513632-03:00",
+      "summary": "A collection of links showcasing applications and widgets built with the Ratatui terminal user interface library.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "showcase",
+        "widgets",
+        "terminal-apps"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "recipes-widgets-custom.md",
+      "title": "Create custom widgets",
+      "url": "https://ratatui.rs/recipes/widgets/custom/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:18.727535388-03:00",
+      "summary": "This document explains how to design and implement custom stateless and stateful UI components in the Ratatui library by implementing the Widget and StatefulWidget traits.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "custom-widgets",
+        "stateful-widget",
+        "terminal-ui",
+        "ui-development"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-apps-spawn-vim.md",
+      "title": "Spawn External Editor (Vim)",
+      "url": "https://ratatui.rs/recipes/apps/spawn-vim/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:19.249601892-03:00",
+      "summary": "This document explains how to temporarily suspend a Ratatui TUI application to execute an external command, such as a text editor, and restore the TUI state upon completion.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "external-process",
+        "vim",
+        "crossterm"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "developer-guide-git-guide.md",
+      "title": "Git guide",
+      "url": "https://ratatui.rs/developer-guide/git-guide/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:36.772738785-03:00",
+      "summary": "This document outlines the Git conventions and practices for project contributors, covering essential workflows such as Git LFS, commit signing, and rebasing. It provides instructional steps for managing large files and maintaining a clean commit history through squashing and amending.",
+      "tags": [
+        "git-workflow",
+        "git-lfs",
+        "commit-signing",
+        "git-rebase",
+        "squashing-commits",
+        "open-source-contribution"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "highlights-v024.md",
+      "title": "v0.24.0",
+      "url": "https://ratatui.rs/highlights/v024/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:26.476419921-03:00",
+      "summary": "This document details the updates and breaking changes in Ratatui version 0.24.0, including simplified Frame generics, new layout caching mechanisms, and enhanced widget customization options.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "release-notes",
+        "api-evolution",
+        "ui-framework"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "recipes-widgets.md",
+      "title": "Use Widgets",
+      "url": "https://ratatui.rs/recipes/widgets/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:17.488367996-03:00",
+      "summary": "This document introduces the concept of widgets in Ratatui, explaining how they implement specific traits for terminal rendering and providing links to further documentation for built-in and custom types.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "widgets",
+        "terminal-ui",
+        "ui-components",
+        "stateful-widget"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "templates-component.md",
+      "title": "Component Template",
+      "url": "https://ratatui.rs/templates/component/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:25.612363993-03:00",
+      "summary": "This document explains how to use and understand an opinionated Ratatui project template for creating terminal user interfaces with Rust and Tokio. It covers project initialization, dependency integration, and the architectural design of component-based async applications.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "tokio",
+        "cargo-generate",
+        "terminal-interface",
+        "async-rust"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-widgets-paragraph.md",
+      "title": "Paragraph",
+      "url": "https://ratatui.rs/examples/widgets/paragraph/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:54.600677613-03:00",
+      "summary": "This document provides a comprehensive code example demonstrating how to use the Ratatui Paragraph widget to display and style text. It illustrates features such as text alignment, line wrapping, scrolling, and the application of various visual styles and masked spans.",
+      "tags": [
+        "ratatui",
+        "rust-tui",
+        "paragraph-widget",
+        "text-styling",
+        "terminal-ui",
+        "ui-development"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "concepts-backends-raw-mode.md",
+      "title": "Raw Mode",
+      "url": "https://ratatui.rs/concepts/backends/raw-mode/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:02.969794616-03:00",
+      "summary": "This document defines raw mode in terminal applications and explains how it disables default input/output processing to provide developers with direct control over individual keystrokes and character rendering.",
+      "tags": [
+        "raw-mode",
+        "terminal-io",
+        "input-handling",
+        "terminal-backend",
+        "cli-development",
+        "line-buffering"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "highlights-v026.md",
+      "title": "v0.26.0",
+      "url": "https://ratatui.rs/highlights/v026/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:32.682271339-03:00",
+      "summary": "This document outlines the updates and new features in Ratatui version 0.26.0, including the introduction of flexbox-inspired layout options, immutable widget rendering, and expanded color palettes.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "tui",
+        "release-notes",
+        "flexbox",
+        "widget-ref",
+        "terminal-ui"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "recipes-apps-migrate-from-tui-rs.md",
+      "title": "Migrate from tui-rs",
+      "url": "https://ratatui.rs/recipes/apps/migrate-from-tui-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:16.59876126-03:00",
+      "summary": "This document outlines multiple strategies for migrating projects from the tui-rs library to Ratatui, including full replacement and aliasing methods.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui-rs",
+        "migration-guide",
+        "terminal-ui",
+        "dependency-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-layout-flex.md",
+      "title": "Flex",
+      "url": "https://ratatui.rs/examples/layout/flex/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:46.149591996-03:00",
+      "summary": "This document demonstrates the Flex layout system in the Ratatui library, illustrating how different constraints and alignment strategies affect the distribution of space in a terminal UI.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "layout-constraints",
+        "flex-layout",
+        "terminal-ui"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes-apps-release-your-app.md",
+      "title": "Releasing Your App",
+      "url": "https://ratatui.rs/recipes/apps/release-your-app/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:20.058788886-03:00",
+      "summary": "This document provides a comprehensive checklist and set of best practices for releasing Ratatui-based applications, covering documentation, visual presentation, and compiler optimizations.",
+      "tags": [
+        "ratatui",
+        "rust-deployment",
+        "cargo-configuration",
+        "terminal-ui",
+        "release-optimization",
+        "best-practices"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "templates-component-tui-rs.md",
+      "title": "Tui.rs",
+      "url": "https://ratatui.rs/templates/component/tui-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:30.244122782-03:00",
+      "summary": "This document explains the architecture and implementation of a Tui struct for managing terminal lifecycle and asynchronous event handling in Rust applications.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "crossterm",
+        "tokio",
+        "terminal-ui",
+        "event-loop",
+        "async-programming"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "highlights-v021.md",
+      "title": "v0.21.0",
+      "url": "https://ratatui.rs/highlights/v021/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:28.430583553-03:00",
+      "summary": "This document details the new features and breaking changes in Ratatui version 0.21.0, including the termwiz backend, new calendar and circle widgets, and the renaming of Spans to Line.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "release-notes",
+        "termwiz",
+        "widget-library",
+        "api-evolution"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "concepts-backends-mouse-capture.md",
+      "title": "Mouse Capture",
+      "url": "https://ratatui.rs/concepts/backends/mouse-capture/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:05.757634474-03:00",
+      "summary": "This document explains the concept of mouse capture in terminal applications, describing how mouse events are sent to programs to enable interactive user experiences.",
+      "tags": [
+        "mouse-capture",
+        "terminal-events",
+        "input-handling",
+        "tui",
+        "backend-compatibility"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "highlights-v0263.md",
+      "title": "v0.26.3",
+      "url": "https://ratatui.rs/highlights/v0263/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:35.218505631-03:00",
+      "summary": "Release notes for Ratatui v0.26.3 detailing critical bug fixes for Unicode truncation, improved color serialization, and rendering performance optimizations.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "release-notes",
+        "tui",
+        "bug-fix",
+        "performance-optimization",
+        "api-update"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "ecosystem-tachyonfx.md",
+      "title": "Effects and animations",
+      "url": "https://ratatui.rs/ecosystem/tachyonfx/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:21.794540698-03:00",
+      "summary": "Tachyonfx is an effects and animation library for Ratatui that allows developers to create complex terminal UI transitions by composing and layering simple effects.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-animation",
+        "tui",
+        "ui-effects"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "recipes-apps-color-eyre.md",
+      "title": "Use `color_eyre` with Ratatui",
+      "url": "https://ratatui.rs/recipes/apps/color-eyre/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:15.274087207-03:00",
+      "summary": "This document explains how to integrate the color-eyre crate into a Ratatui application to provide formatted error reports while ensuring the terminal state is correctly restored during panics or errors.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "color-eyre",
+        "error-handling",
+        "terminal-management",
+        "panic-hooks"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-apps-docsrs.md",
+      "title": "Docs.rs",
+      "url": "https://ratatui.rs/examples/apps/docsrs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:40.709140578-03:00",
+      "summary": "This document provides example Rust code for the Ratatui library, demonstrating how to implement terminal user interfaces with layouts, text styling, and event handling.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "tui",
+        "terminal-ui",
+        "layout",
+        "styling",
+        "event-handling"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "examples-widgets.md",
+      "title": "Widget Examples",
+      "url": "https://ratatui.rs/examples/widgets/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:47.979281016-03:00",
+      "summary": "This document serves as a visual directory and index of the various built-in widgets available in the Ratatui library, linking to implementation examples for each.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "widgets",
+        "tui-components",
+        "ui-library"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "ecosystem-mousefood.md",
+      "title": "Embedded",
+      "url": "https://ratatui.rs/ecosystem/mousefood/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:30.317878554-03:00",
+      "summary": "This document explains how Mousefood serves as a backend for the embedded-graphics crate to enable compatibility with various displays and platforms.",
+      "tags": [
+        "mousefood",
+        "embedded-graphics",
+        "graphics-backend",
+        "rust-psp",
+        "ratatui",
+        "embedded-rust"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "highlights-v030.md",
+      "title": "v0.30.0",
+      "url": "https://ratatui.rs/highlights/v030/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:23.03828827-03:00",
+      "summary": "This document announces the release of Ratatui 0.30.0, detailing major architectural changes like crate modularization, no_std support for embedded systems, and various widget and layout API improvements.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-ui",
+        "release-notes",
+        "no-std",
+        "embedded-rust",
+        "tui-library"
+      ],
+      "category": "other"
+    },
+    {
+      "file_path": "examples-apps-hello-world.md",
+      "title": "Hello World",
+      "url": "https://ratatui.rs/examples/apps/hello_world/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:42.041485436-03:00",
+      "summary": "This document provides a minimal example of a terminal user interface application using Ratatui, demonstrating basic setup, rendering, and event loop management.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "terminal-ui",
+        "hello-world",
+        "event-loop",
+        "widget-rendering"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "recipes-layout.md",
+      "title": "Recipes: UI Layout",
+      "url": "https://ratatui.rs/recipes/layout/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:08.221088177-03:00",
+      "summary": "This document explains fundamental and advanced layout techniques used to structure content effectively.",
+      "tags": [
+        "layout-basics",
+        "advanced-layout",
+        "design-principles",
+        "structural-design"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "examples-style-modifiers.md",
+      "title": "Modifiers",
+      "url": "https://ratatui.rs/examples/style/modifiers/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:12:48.435749083-03:00",
+      "summary": "This document provides a practical example of how to use text modifiers and color combinations in the Ratatui library to style terminal user interfaces.",
+      "tags": [
+        "ratatui",
+        "rust",
+        "terminal-styling",
+        "text-modifiers",
+        "ui-development"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "templates-component-components-fps-rs.md",
+      "title": "Components/fps.rs",
+      "url": "https://ratatui.rs/templates/component/components-fps-rs/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:35.926056509-03:00",
+      "summary": "This document demonstrates how to implement an FpsCounter component in Rust to track and display application tick rates and frames per second.",
+      "tags": [
+        "rust",
+        "fps-counter",
+        "performance-monitoring",
+        "component-pattern",
+        "ratatui"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "highlights-v025.md",
+      "title": "v0.25.0",
+      "url": "https://ratatui.rs/highlights/v025/",
+      "source": "crawler",
+      "fetched_at": "2026-02-01T21:13:33.517071408-03:00",
+      "summary": "This document outlines the v0.25.0 release of the Ratatui Rust library, highlighting a website redesign, new project templates, and significant API enhancements for List, Table, and Layout components.",
+      "tags": [
+        "rust",
+        "ratatui",
+        "release-notes",
+        "tui",
+        "api-update",
+        "ui-layout"
+      ],
+      "category": "other"
+    }
+  ]
+}

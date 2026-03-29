@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-02-10T13:55:21.738676432-03:00",
+  "source_url": "https://github.com/asmvik/yabai/wiki",
+  "strategy": "wiki",
+  "total_documents": 8,
+  "documents": [
+    {
+      "file_path": "commands.md",
+      "title": "Commands",
+      "url": "https://github.com/asmvik/yabai/wiki/Commands",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:54:35.899180727-03:00",
+      "summary": "This document provides a comprehensive reference for the yabai command-line interface, detailing the syntax and functionality for managing displays, spaces, and windows. It explains how to use the message passing interface to control tiling, layouts, and window properties on macOS.",
+      "tags": [
+        "yabai",
+        "macos-window-manager",
+        "command-line-interface",
+        "window-management",
+        "tiling-window-manager",
+        "space-management"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "disabling-system-integrity-protection.md",
+      "title": "Disabling System Integrity Protection",
+      "url": "https://github.com/asmvik/yabai/wiki/Disabling-System-Integrity-Protection",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:54:47.195735322-03:00",
+      "summary": "This document explains the necessity of disabling macOS System Integrity Protection for yabai's scripting addition and provides step-by-step instructions for Intel and Apple Silicon devices.",
+      "tags": [
+        "macos",
+        "yabai",
+        "system-integrity-protection",
+        "sip-disabling",
+        "window-management",
+        "security-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "index.md",
+      "title": "Home",
+      "url": "https://github.com/asmvik/yabai/wiki",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:54:51.164513227-03:00",
+      "summary": "This document introduces yabai, a tiling window manager for macOS that automates window layout using a binary space partitioning algorithm. It provides installation requirements, system configuration steps, and a feature comparison with other window managers.",
+      "tags": [
+        "macos",
+        "window-manager",
+        "tiling-window-manager",
+        "bsp-layout",
+        "desktop-automation",
+        "productivity"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "installing-yabai-(from-head).md",
+      "title": "Installing Yabai (from HEAD)",
+      "url": "https://github.com/asmvik/yabai/wiki/Installing-yabai-(from-HEAD)",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:54:56.956494707-03:00",
+      "summary": "This document provides step-by-step instructions for installing and updating the development version of yabai on macOS, including codesigning and configuring scripting additions.",
+      "tags": [
+        "yabai",
+        "macos-setup",
+        "homebrew",
+        "codesigning",
+        "scripting-addition",
+        "installation-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "installing-yabai-(latest-release).md",
+      "title": "Installing Yabai (latest Release)",
+      "url": "https://github.com/asmvik/yabai/wiki/Installing-yabai-(latest-release)",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:55:01.655511092-03:00",
+      "summary": "This document provides instructions for installing, updating, and performing initial configuration for the yabai tiling window manager on macOS, including permissions and scripting addition setup.",
+      "tags": [
+        "yabai",
+        "macos",
+        "installation",
+        "configuration",
+        "window-management",
+        "homebrew",
+        "scripting-addition"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "tips-and-tricks.md",
+      "title": "Tips And Tricks",
+      "url": "https://github.com/asmvik/yabai/wiki/Tips-and-tricks",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:55:06.703403582-03:00",
+      "summary": "This document provides a collection of tips, shell scripts, and system adjustments to optimize the yabai window manager on macOS, including automation for updates and space management.",
+      "tags": [
+        "yabai",
+        "macos",
+        "window-management",
+        "shell-scripting",
+        "configuration-tips",
+        "automation",
+        "tiling-wm"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/asmvik/yabai/wiki/Configuration",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:55:12.225260016-03:00",
+      "summary": "This document explains how to set up and customize the yabai window manager for macOS, covering configuration file locations, tiling layouts, mouse interactions, and visual window modifications.",
+      "tags": [
+        "yabai",
+        "macos-window-manager",
+        "window-tiling",
+        "configuration-guide",
+        "system-customization",
+        "desktop-management"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "uninstalling-yabai.md",
+      "title": "Uninstalling Yabai",
+      "url": "https://github.com/asmvik/yabai/wiki/Uninstalling-yabai",
+      "source": "wiki",
+      "fetched_at": "2026-02-10T13:55:17.126409022-03:00",
+      "summary": "This document provides a comprehensive list of commands to completely uninstall the yabai window manager and remove its associated configuration and log files from a macOS system.",
+      "tags": [
+        "yabai",
+        "macos",
+        "uninstallation",
+        "tiling-window-manager",
+        "homebrew",
+        "cleanup"
+      ],
+      "category": "guide"
+    }
+  ]
+}

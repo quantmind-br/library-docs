@@ -1,0 +1,4363 @@
+{
+  "generated_at": "2026-01-30T20:39:04.357041245-03:00",
+  "source_url": "https://docs.openclaw.ai/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 235,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "Index - OpenClaw",
+      "url": "https://docs.openclaw.ai",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:52.167970724-03:00",
+      "summary": "OpenClaw is a platform that connects messaging platforms like WhatsApp, Telegram, Discord, and iMessage to AI coding agents such as Pi, enabling users to send messages and receive agent responses through various channels. It provides a gateway service for managing connections and integrates with web interfaces and mobile applications.",
+      "tags": [
+        "messaging-integration",
+        "ai-agents",
+        "whatsapp",
+        "telegram",
+        "discord",
+        "api-gateway",
+        "coding-tools",
+        "multi-platform-support"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "002-start-lore.md",
+      "title": "Lore - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/lore",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:15.522739107-03:00",
+      "summary": "This document narrates the origin story and evolution of 'OpenClaw', detailing its name changes from Warelay to Clawd to Molty to its final form, along with community involvement and key characters like Molty and Peter.",
+      "tags": [
+        "openclaw",
+        "lobster",
+        "name-change",
+        "community",
+        "molting",
+        "ai-agent",
+        "open-source",
+        "history"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "start-lore.md"
+    },
+    {
+      "file_path": "003-start-openclaw.md",
+      "title": "Openclaw - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/openclaw",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:10.402513129-03:00",
+      "summary": "This document provides a comprehensive guide for setting up a personal assistant using OpenClaw, a multi-platform messaging gateway for Pi agents. It covers safety considerations, prerequisites, the recommended two-phone setup, quick start instructions, workspace configuration, and advanced settings for creating an operational assistant.",
+      "tags": [
+        "personal-assistant",
+        "openclaw",
+        "whatsapp",
+        "telegram",
+        "discord",
+        "imessage",
+        "pi-agent",
+        "messaging-gateway",
+        "security"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "start-openclaw.md"
+    },
+    {
+      "file_path": "004-start-showcase.md",
+      "title": "Showcase - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/showcase",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:59.857246235-03:00",
+      "description": "Real-world OpenClaw projects from the community",
+      "summary": "Showcases real-world projects and use cases built with OpenClaw, demonstrating automation capabilities across various domains like web browsing, hardware control, and skill development.",
+      "tags": [
+        "openclaw",
+        "automation",
+        "projects",
+        "showcase",
+        "community",
+        "skills",
+        "workflows",
+        "integration"
+      ],
+      "category": "Introduction & Overview",
+      "original_file_path": "start-showcase.md"
+    },
+    {
+      "file_path": "005-cli-uninstall.md",
+      "title": "Uninstall - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/uninstall",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:23.955328269-03:00",
+      "summary": "This document explains how to uninstall the openclaw gateway service and related local data using command line interface commands.",
+      "tags": [
+        "uninstall",
+        "cli",
+        "gateway-service",
+        "command-line",
+        "cleanup"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "cli-uninstall.md"
+    },
+    {
+      "file_path": "006-install-ansible.md",
+      "title": "Ansible - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/ansible",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:28.979168276-03:00",
+      "summary": "This document provides instructions for installing and configuring OpenClaw using the openclaw-ansible automated deployment tool, focusing on security-first architecture with Docker isolation and Tailscale VPN integration.",
+      "tags": [
+        "ansible",
+        "deployment",
+        "security",
+        "docker",
+        "tailscale",
+        "firewall",
+        "openclaw"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-ansible.md"
+    },
+    {
+      "file_path": "007-install-bun.md",
+      "title": "Bun - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/bun",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:21.191539201-03:00",
+      "summary": "This document explains how to use Bun as an optional runtime for developing and testing a TypeScript project while maintaining compatibility with existing pnpm workflows.",
+      "tags": [
+        "bun-runtime",
+        "typescript",
+        "pnpm",
+        "development-tools",
+        "node-js"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-bun.md"
+    },
+    {
+      "file_path": "008-install-development-channels.md",
+      "title": "Development channels - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/development-channels",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:58.8032556-03:00",
+      "summary": "This document explains how OpenClaw manages three update channels (stable, beta, dev) through npm dist-tags and git checkouts, detailing channel switching methods, plugin synchronization, and tagging best practices.",
+      "tags": [
+        "update-channels",
+        "npm-dist-tags",
+        "git-checkout",
+        "plugin-sync",
+        "versioning",
+        "release-process"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-development-channels.md"
+    },
+    {
+      "file_path": "009-install-docker.md",
+      "title": "Docker - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/docker",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:32.180949788-03:00",
+      "summary": "This document provides guidance on using Docker for containerizing the OpenClaw gateway and implementing agent sandboxing, covering both quick start and manual installation methods along with configuration options.",
+      "tags": [
+        "docker",
+        "containerization",
+        "sandboxing",
+        "gateway",
+        "deployment",
+        "configuration"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-docker.md"
+    },
+    {
+      "file_path": "010-install-installer.md",
+      "title": "Installer - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/installer",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:20:56.056145539-03:00",
+      "summary": "This document explains the internals and usage of OpenClaw's installer scripts, detailing the different installation methods available for various platforms including macOS, Linux, and Windows.",
+      "tags": [
+        "installer",
+        "installation",
+        "nodejs",
+        "npm",
+        "windows",
+        "linux",
+        "macos",
+        "scripts"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-installer.md"
+    },
+    {
+      "file_path": "011-install-nix.md",
+      "title": "Nix - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/nix",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:50.158036109-03:00",
+      "summary": "This document provides instructions for installing and configuring OpenClaw using the Nix package manager, including setup via nix-openclaw and details about Nix mode runtime behavior.",
+      "tags": [
+        "nix",
+        "installation",
+        "openclaw",
+        "macos",
+        "configuration",
+        "deployment"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-nix.md"
+    },
+    {
+      "file_path": "012-install-uninstall.md",
+      "title": "Uninstall - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/uninstall",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:46.111024707-03:00",
+      "summary": "Provides instructions for completely uninstalling the OpenClaw CLI tool and its associated services across different operating systems, including both automated and manual removal methods.",
+      "tags": [
+        "uninstall",
+        "cli",
+        "gateway-service",
+        "macos",
+        "linux",
+        "windows",
+        "openclaw",
+        "removal"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-uninstall.md"
+    },
+    {
+      "file_path": "013-install-updating.md",
+      "title": "Updating - OpenClaw",
+      "url": "https://docs.openclaw.ai/install/updating",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:41.772063813-03:00",
+      "summary": "This document provides comprehensive guidance on updating the OpenClaw system, covering various installation methods, update procedures, and recovery options while emphasizing safety checks and proper restart protocols.",
+      "tags": [
+        "openclaw",
+        "update",
+        "installation",
+        "upgrade",
+        "gateway",
+        "doctor",
+        "rollback",
+        "maintenance"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install-updating.md"
+    },
+    {
+      "file_path": "014-install.md",
+      "title": "Index - OpenClaw",
+      "url": "https://docs.openclaw.ai/install",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:27.951761644-03:00",
+      "summary": "This document provides comprehensive instructions for installing the openclaw tool through multiple methods including installer scripts, npm, git, and containerization, along with system requirements, post-installation steps, and troubleshooting guidance.",
+      "tags": [
+        "installation",
+        "cli",
+        "setup",
+        "nodejs",
+        "npm",
+        "docker",
+        "troubleshooting",
+        "onboarding"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "install.md"
+    },
+    {
+      "file_path": "015-start-getting-started.md",
+      "title": "Getting started - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/getting-started",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:06.659749515-03:00",
+      "summary": "This document provides a rapid setup guide to create a functional chat system using the OpenClaw platform, covering installation, onboarding, authentication, and channel configuration.",
+      "tags": [
+        "chat-system",
+        "setup-guide",
+        "cli-installation",
+        "onboarding-wizard",
+        "authentication",
+        "channel-setup",
+        "gateway-configuration",
+        "quick-start"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "start-getting-started.md"
+    },
+    {
+      "file_path": "016-start-onboarding.md",
+      "title": "Onboarding - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/onboarding",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:05.815897151-03:00",
+      "summary": "This document outlines the first-run onboarding process for the macOS app, detailing the steps and considerations for setting up the Gateway, authentication, and agent bootstrap.",
+      "tags": [
+        "onboarding",
+        "gateway",
+        "authentication",
+        "setup-wizard",
+        "permissions",
+        "cli",
+        "agent-bootstrap"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "start-onboarding.md"
+    },
+    {
+      "file_path": "017-start-setup.md",
+      "title": "Setup - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/setup",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:32.634411487-03:00",
+      "summary": "This document provides instructions for setting up and customizing the OpenClaw platform, covering both stable and bleeding-edge workflows for macOS and Linux environments.",
+      "tags": [
+        "setup",
+        "configuration",
+        "gateway",
+        "macos",
+        "linux",
+        "development",
+        "workflow",
+        "authentication"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "start-setup.md"
+    },
+    {
+      "file_path": "018-start-wizard.md",
+      "title": "Wizard - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/wizard",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:20:50.740129828-03:00",
+      "summary": "This document explains how to use the OpenClaw onboarding wizard to configure a local or remote Gateway setup with channels, skills, and workspace defaults through an interactive flow.",
+      "tags": [
+        "onboarding-wizard",
+        "gateway-setup",
+        "cli-tool",
+        "configuration",
+        "remote-setup",
+        "channels",
+        "skills",
+        "authentication"
+      ],
+      "category": "Quick Start & Installation",
+      "original_file_path": "start-wizard.md"
+    },
+    {
+      "file_path": "019-channels-googlechat.md",
+      "title": "Googlechat - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/googlechat",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:02.600485819-03:00",
+      "summary": "This document provides a comprehensive guide for setting up and configuring Google Chat API integration with OpenClaw, covering service account creation, app configuration, webhook setup, and deployment options including Tailscale Funnel and reverse proxies.",
+      "tags": [
+        "google-chat-api",
+        "chatbot-setup",
+        "webhook-configuration",
+        "service-account",
+        "tailscale",
+        "reverse-proxy",
+        "google-cloud",
+        "openclaw-integration"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "channels-googlechat.md"
+    },
+    {
+      "file_path": "020-channels-grammy.md",
+      "title": "Grammy - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/grammy",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:06.96689206-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "021-channels-imessage.md",
+      "title": "Imessage - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/imessage",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:14.900707924-03:00",
+      "summary": "Provides configuration and setup instructions for integrating iMessage with OpenClaw using the external imsg CLI tool, covering local and remote deployment scenarios including dedicated users and SSH wrappers.",
+      "tags": [
+        "imessage",
+        "messaging",
+        "configuration",
+        "macos",
+        "cli-integration",
+        "remote-access",
+        "group-chats",
+        "access-control"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "channels-imessage.md"
+    },
+    {
+      "file_path": "022-cli-logs.md",
+      "title": "Logs - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/logs",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:04.627757761-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application",
+        "setup"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "023-cli-pairing.md",
+      "title": "Pairing - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/pairing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:00.582325391-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "024-concepts-sessions.md",
+      "title": "Sessions - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/sessions",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:59.390258517-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "025-gateway-gateway-lock.md",
+      "title": "Gateway lock - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/gateway-lock",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:17.909194107-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "026-help-faq.md",
+      "title": "Faq - OpenClaw",
+      "url": "https://docs.openclaw.ai/help/faq",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:20:45.703049353-03:00",
+      "summary": "Provides quick solutions and troubleshooting guidance for common setup and runtime issues with OpenClaw across various environments including local development, VPS deployments, and authentication scenarios.",
+      "tags": [
+        "troubleshooting",
+        "installation",
+        "configuration",
+        "authentication",
+        "deployment",
+        "faq",
+        "runtime",
+        "openclaw"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "help-faq.md"
+    },
+    {
+      "file_path": "027-help.md",
+      "title": "Index - OpenClaw",
+      "url": "https://docs.openclaw.ai/help",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:25.233753243-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "028-northflank.md",
+      "title": "Deploy on Northflank - OpenClaw",
+      "url": "https://docs.openclaw.ai/northflank",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:23.736034733-03:00",
+      "summary": "This document provides instructions for deploying OpenClaw on Northflank using a one-click template, emphasizing a no-terminal setup process through a web-based configuration wizard.",
+      "tags": [
+        "openclaw",
+        "deployment",
+        "northflank",
+        "web-setup",
+        "gateway",
+        "configuration",
+        "tutorial"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "northflank.md"
+    },
+    {
+      "file_path": "029-platforms-exe-dev.md",
+      "title": "Exe dev - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/exe-dev",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:36.906612368-03:00",
+      "summary": "This document provides instructions for setting up and accessing OpenClaw Gateway on an exe.dev VM, including both automated and manual installation methods with nginx proxy configuration.",
+      "tags": [
+        "openclaw",
+        "gateway",
+        "exe-dev",
+        "nginx",
+        "websocket",
+        "installation",
+        "configuration",
+        "remote-access"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-exe-dev.md"
+    },
+    {
+      "file_path": "030-platforms-fly.md",
+      "title": "Fly.io - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/fly",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:39:02.388183448-03:00",
+      "description": "Deploy OpenClaw on Fly.io",
+      "summary": "This document provides a comprehensive guide for deploying an OpenClaw Gateway application on Fly.io with persistent storage, automatic HTTPS, and channel integration. It covers the complete setup process including app creation, configuration, secret management, deployment, and troubleshooting.",
+      "tags": [
+        "fly-io",
+        "deployment",
+        "openclaw",
+        "persistent-storage",
+        "https",
+        "discord-integration",
+        "troubleshooting",
+        "docker"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-fly.md"
+    },
+    {
+      "file_path": "031-platforms-gcp.md",
+      "title": "Gcp - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/gcp",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:45.603406601-03:00",
+      "summary": "This document provides a step-by-step guide for deploying a production-grade OpenClaw Gateway on Google Cloud Platform using Docker, focusing on persistent state management, containerized deployment, and secure access patterns.",
+      "tags": [
+        "openclaw",
+        "gcp",
+        "docker",
+        "deployment",
+        "guide",
+        "containerization",
+        "persistent-storage",
+        "ssh-tunneling"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-gcp.md"
+    },
+    {
+      "file_path": "032-platforms-hetzner.md",
+      "title": "Hetzner - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/hetzner",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:50.137163075-03:00",
+      "summary": "This document provides a step-by-step guide for deploying a production-grade OpenClaw Gateway on a Hetzner VPS using Docker, focusing on persistent storage, binary baking, and secure access through SSH tunneling.",
+      "tags": [
+        "docker",
+        "hetzner",
+        "openclaw",
+        "gateway",
+        "deployment",
+        "persistent-storage",
+        "ssh-tunneling"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-hetzner.md"
+    },
+    {
+      "file_path": "033-platforms-mac-menu-bar.md",
+      "title": "Menu bar - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/menu-bar",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:24.781655584-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-mac-menu-bar.md"
+    },
+    {
+      "file_path": "034-platforms-mac-permissions.md",
+      "title": "Permissions - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/permissions",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:16.626415141-03:00",
+      "summary": "This document explains how macOS Transparency, Consent, and Control (TCC) permissions work and provides guidance for maintaining stable app permissions during development and deployment.",
+      "tags": [
+        "macos",
+        "permissions",
+        "tcc",
+        "security",
+        "app-signing",
+        "development"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-mac-permissions.md"
+    },
+    {
+      "file_path": "035-platforms-macos-vm.md",
+      "title": "Macos vm - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/macos-vm",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:30.26570205-03:00",
+      "summary": "This document provides instructions for setting up OpenClaw on macOS virtual machines using Lume for sandboxing, including installation steps, configuration, and advanced features like iMessage integration.",
+      "tags": [
+        "macos",
+        "virtual-machine",
+        "sandboxing",
+        "lume",
+        "openclaw",
+        "imessage",
+        "bluebubbles",
+        "tutorial"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "platforms-macos-vm.md"
+    },
+    {
+      "file_path": "036-railway.md",
+      "title": "Deploy on Railway - OpenClaw",
+      "url": "https://docs.openclaw.ai/railway",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:20:37.365584919-03:00",
+      "summary": "This document provides instructions for deploying the OpenClaw application on Railway using a one-click deployment process that requires no server terminal access, guiding users through setup via a web-based wizard.",
+      "tags": [
+        "openclaw",
+        "railway",
+        "deployment",
+        "setup-wizard",
+        "web-ui",
+        "hosting",
+        "automation"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "railway.md"
+    },
+    {
+      "file_path": "037-reference-templates-HEARTBEAT.md",
+      "title": "HEARTBEAT - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/HEARTBEAT",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:23.621961755-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "reference-templates-HEARTBEAT.md"
+    },
+    {
+      "file_path": "038-reference-test.md",
+      "title": "Test - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/test",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:58.542430036-03:00",
+      "summary": "This document provides comprehensive guidance on testing procedures, model latency benchmarking, and end-to-end deployment workflows for the OpenClaw project, including specific commands and scripts for various testing scenarios.",
+      "tags": [
+        "testing",
+        "benchmarking",
+        "end-to-end",
+        "docker",
+        "ci-cd",
+        "model-latency",
+        "qa-processes"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "reference-test.md"
+    },
+    {
+      "file_path": "039-render.md",
+      "title": "Deploy on Render - OpenClaw",
+      "url": "https://docs.openclaw.ai/render",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:02.615242528-03:00",
+      "summary": "This document provides instructions for deploying the OpenClaw application on Render using infrastructure as code through a render.yaml blueprint file.",
+      "tags": [
+        "render",
+        "infrastructure-as-code",
+        "deployment",
+        "openclaw",
+        "docker",
+        "blueprint"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "render.md"
+    },
+    {
+      "file_path": "040-start-hubs.md",
+      "title": "Hubs - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/hubs",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:54.268864787-03:00",
+      "summary": "This document provides instructions for configuring environment variables and deployment settings for a web application.",
+      "tags": [
+        "environment-variables",
+        "deployment",
+        "configuration",
+        "web-application"
+      ],
+      "category": "Tutorials & How-To"
+    },
+    {
+      "file_path": "041-web-control-ui.md",
+      "title": "Control ui - OpenClaw",
+      "url": "https://docs.openclaw.ai/web/control-ui",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:14.538282982-03:00",
+      "summary": "This document explains how to access and use the Control UI, a web-based interface for managing the OpenClaw Gateway, including its features, authentication methods, and deployment options.",
+      "tags": [
+        "control-ui",
+        "gateway",
+        "websocket",
+        "authentication",
+        "tailscale",
+        "ui-interface",
+        "configuration",
+        "chat"
+      ],
+      "category": "Tutorials & How-To",
+      "original_file_path": "web-control-ui.md"
+    },
+    {
+      "file_path": "042-concepts-agent-loop.md",
+      "title": "Agent loop - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/agent-loop",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:44.07095618-03:00",
+      "summary": "This document describes the internal structure and workflow of an agentic loop in OpenClaw, detailing how agent runs are executed, managed, and streamed with session consistency and lifecycle events.",
+      "tags": [
+        "agentic-loop",
+        "agent-execution",
+        "session-management",
+        "streaming",
+        "lifecycle-events",
+        "tool-execution",
+        "openclaw",
+        "api-reference"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-agent-loop.md"
+    },
+    {
+      "file_path": "043-concepts-agent-workspace.md",
+      "title": "Agent workspace - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/agent-workspace",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:55.153015516-03:00",
+      "summary": "This document explains the concept and usage of the workspace in the OpenClaw system, detailing its location, structure, management, and best practices for backing up and securing workspace contents.",
+      "tags": [
+        "workspace",
+        "file-tools",
+        "configuration",
+        "backup",
+        "security",
+        "memory-management"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-agent-workspace.md"
+    },
+    {
+      "file_path": "044-concepts-agent.md",
+      "title": "Agent - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/agent",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:00.576561097-03:00",
+      "summary": "This document explains the agent runtime architecture and core concepts of OpenClaw, including workspace management, bootstrap files, skills loading, session handling, and configuration requirements.",
+      "tags": [
+        "agent-runtime",
+        "workspace-management",
+        "bootstrap-files",
+        "skills-loading",
+        "session-handling",
+        "configuration"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-agent.md"
+    },
+    {
+      "file_path": "045-concepts-architecture.md",
+      "title": "Architecture - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/architecture",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:02.296087173-03:00",
+      "summary": "This document describes the architectural design and operational flow of a Gateway system that manages multiple messaging platforms and client connections through WebSocket protocols.",
+      "tags": [
+        "gateway-architecture",
+        "websocket-protocol",
+        "messaging-system",
+        "client-connections",
+        "security-model",
+        "remote-access",
+        "api-design",
+        "device-pairing"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-architecture.md"
+    },
+    {
+      "file_path": "046-concepts-channel-routing.md",
+      "title": "Channel routing - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/channel-routing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:34.154732709-03:00",
+      "summary": "This document explains how OpenClaw handles message routing and sessions across different communication channels, detailing the deterministic routing logic and session key structures used for managing conversations.",
+      "tags": [
+        "channels",
+        "routing",
+        "sessions",
+        "agent-management",
+        "message-context",
+        "openclaw"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-channel-routing.md"
+    },
+    {
+      "file_path": "047-concepts-compaction.md",
+      "title": "Compaction - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/compaction",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:10.48428789-03:00",
+      "summary": "This document explains how OpenClaw manages long conversations through context window limitations by automatically compacting older history into summaries while keeping recent messages accessible.",
+      "tags": [
+        "context-window",
+        "compaction",
+        "session-management",
+        "memory-management",
+        "auto-compaction"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-compaction.md"
+    },
+    {
+      "file_path": "048-concepts-context.md",
+      "title": "Context - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/context",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:50.180028567-03:00",
+      "summary": "This document explains how OpenClaw manages context for AI model runs, including what elements constitute context, how to inspect and monitor context usage, and the components that contribute to the model's token limit.",
+      "tags": [
+        "context-window",
+        "system-prompt",
+        "token-usage",
+        "workspace-files",
+        "slash-commands",
+        "compaction"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-context.md"
+    },
+    {
+      "file_path": "049-concepts-group-messages.md",
+      "title": "Group messages - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/group-messages",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:27.247239724-03:00",
+      "summary": "This document explains how to configure and use group messaging in WhatsApp web channels with Clawd, focusing on enabling group participation while keeping conversations separate from personal DMs. It details activation modes, group policies, session management, and configuration options for multi-agent setups.",
+      "tags": [
+        "whatsapp",
+        "group-chat",
+        "agent-configuration",
+        "message-filtering",
+        "session-management",
+        "mention-patterns",
+        "group-policy"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-group-messages.md"
+    },
+    {
+      "file_path": "050-concepts-groups.md",
+      "title": "Groups - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/groups",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:32.741573708-03:00",
+      "summary": "This document explains how OpenClaw manages group chat interactions across multiple messaging platforms, covering group policies, mention gating, session management, and configuration options for different channel types.",
+      "tags": [
+        "group-chat",
+        "messaging-platforms",
+        "access-control",
+        "session-management",
+        "configuration",
+        "mention-gating",
+        "multi-agent",
+        "sandboxing"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-groups.md"
+    },
+    {
+      "file_path": "051-concepts-markdown-formatting.md",
+      "title": "Markdown formatting - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/markdown-formatting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:37.046529338-03:00",
+      "summary": "This document explains OpenClaw's Markdown processing pipeline that converts Markdown to a shared intermediate representation for consistent cross-channel rendering. It details the parsing, chunking, and rendering processes for different messaging platforms like Slack, Telegram, and Signal.",
+      "tags": [
+        "markdown-processing",
+        "intermediate-representation",
+        "cross-platform-rendering",
+        "chunking",
+        "markup-formatting",
+        "api-reference"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-markdown-formatting.md"
+    },
+    {
+      "file_path": "052-concepts-memory.md",
+      "title": "Memory - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/memory",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:53.747807868-03:00",
+      "summary": "This document explains how OpenClaw manages memory using plain Markdown files in the agent workspace, detailing memory file structures, writing practices, automatic flushing before context compaction, and vector-based memory search capabilities with various embedding providers.",
+      "tags": [
+        "memory-management",
+        "markdown-files",
+        "context-compaction",
+        "vector-search",
+        "embedding-providers",
+        "session-management"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-memory.md"
+    },
+    {
+      "file_path": "053-concepts-messages.md",
+      "title": "Messages - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/messages",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:24.544783257-03:00",
+      "summary": "This document explains how OpenClaw manages inbound message processing, including routing, queuing, session handling, and streaming behaviors within its messaging infrastructure.",
+      "tags": [
+        "message-flow",
+        "session-management",
+        "queueing",
+        "streaming",
+        "configuration",
+        "inbound-processing"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-messages.md"
+    },
+    {
+      "file_path": "054-concepts-model-failover.md",
+      "title": "Model failover - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/model-failover",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:45.242622207-03:00",
+      "summary": "This document explains how OpenClaw handles authentication failures through profile rotation and model fallback mechanisms, detailing the runtime behavior and data structures involved.",
+      "tags": [
+        "auth-profiles",
+        "oauth",
+        "fallback-mechanism",
+        "session-management",
+        "rate-limiting",
+        "credential-handling"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-model-failover.md"
+    },
+    {
+      "file_path": "055-concepts-model-providers.md",
+      "title": "Model providers - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/model-providers",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:49.267034534-03:00",
+      "summary": "This document provides comprehensive guidance on configuring and using various LLM model providers within the OpenClaw system, covering both built-in providers and custom configurations.",
+      "tags": [
+        "llm-models",
+        "model-providers",
+        "configuration",
+        "api-integration",
+        "cli-tools",
+        "authentication",
+        "openai",
+        "anthropic"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-model-providers.md"
+    },
+    {
+      "file_path": "056-concepts-models.md",
+      "title": "Models - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/models",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:20.444783868-03:00",
+      "summary": "This document explains how OpenClaw handles model selection, configuration, and management including primary models, fallbacks, image models, and CLI commands for managing models.",
+      "tags": [
+        "model-selection",
+        "fallbacks",
+        "cli-commands",
+        "configuration",
+        "model-management",
+        "openclaw"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-models.md"
+    },
+    {
+      "file_path": "057-concepts-multi-agent.md",
+      "title": "Multi-Agent Routing - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/multi-agent",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:57.906829639-03:00",
+      "summary": "Explains how to configure and run multiple isolated AI agents within a single Gateway instance, each with unique workspaces, authentication, and session management, along with routing inbound messages to specific agents based on channel accounts and peer identities.",
+      "tags": [
+        "agent-management",
+        "multi-agent",
+        "gateway-configuration",
+        "message-routing",
+        "isolation",
+        "whatsapp-integration",
+        "session-management"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-multi-agent.md"
+    },
+    {
+      "file_path": "058-concepts-oauth.md",
+      "title": "Oauth - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/oauth",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:28.509759959-03:00",
+      "summary": "This document explains how OpenClaw handles authentication through OAuth and subscription-based methods, covering token storage, multiple account management, and provider-specific login flows.",
+      "tags": [
+        "oauth",
+        "authentication",
+        "token-management",
+        "multi-account",
+        "api-integration",
+        "provider-plugins",
+        "refresh-tokens",
+        "profile-management"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-oauth.md"
+    },
+    {
+      "file_path": "059-concepts-presence.md",
+      "title": "Presence - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/presence",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:41.161970603-03:00",
+      "summary": "This document explains how OpenClaw's presence system works, describing the structure of presence entries, their sources, merging logic, and how they're used in the macOS app's Instances tab.",
+      "tags": [
+        "presence-system",
+        "gateway",
+        "client-connections",
+        "macos-app",
+        "websocket",
+        "instance-id",
+        "real-time-status",
+        "debugging-tips"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-presence.md"
+    },
+    {
+      "file_path": "060-concepts-queue.md",
+      "title": "Queue - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/queue",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:03.455762504-03:00",
+      "summary": "This document explains the command queue system used to manage concurrent auto-reply agent runs across multiple inbound channels, preventing resource conflicts and enabling controlled parallelism.",
+      "tags": [
+        "command-queue",
+        "auto-reply",
+        "concurrency-control",
+        "session-management",
+        "queue-processing",
+        "agent-runs"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-queue.md"
+    },
+    {
+      "file_path": "061-concepts-retry.md",
+      "title": "Retry - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/retry",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:37.837659923-03:00",
+      "summary": "This document specifies the retry policy implementation for HTTP requests, detailing default settings, provider-specific behaviors for Discord and Telegram, and configuration guidelines.",
+      "tags": [
+        "retry-policy",
+        "http-request",
+        "error-handling",
+        "discord",
+        "telegram",
+        "backoff",
+        "configuration"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-retry.md"
+    },
+    {
+      "file_path": "062-concepts-session-pruning.md",
+      "title": "Session pruning - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/session-pruning",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:50.955631243-03:00",
+      "summary": "This document explains how session pruning works in OpenClaw, specifically trimming old tool results from memory before LLM calls to optimize cache behavior and reduce costs when using Anthropic models.",
+      "tags": [
+        "session-pruning",
+        "anthropic-api",
+        "cache-behavior",
+        "context-window",
+        "tool-results",
+        "ttl-pruning",
+        "memory-management"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-session-pruning.md"
+    },
+    {
+      "file_path": "063-concepts-session-tool.md",
+      "title": "Session tool - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/session-tool",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:16.317435314-03:00",
+      "summary": "Provides documentation for session management tools including listing, history retrieval, sending messages, and spawning sub-agents with detailed behavior and security policies.",
+      "tags": [
+        "session-tools",
+        "agent-management",
+        "message-sending",
+        "sub-agent-spawning",
+        "security-policy",
+        "session-listing",
+        "chat-history",
+        "sandboxed-sessions"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-session-tool.md"
+    },
+    {
+      "file_path": "064-concepts-session.md",
+      "title": "Session - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/session",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:41.983730678-03:00",
+      "summary": "This document explains OpenClaw's session management system, covering how sessions are structured, stored, and managed across different chat types and transport methods.",
+      "tags": [
+        "session-management",
+        "chat-sessions",
+        "gateway-state",
+        "dm-scope",
+        "session-lifecycle",
+        "configuration",
+        "transcript-storage",
+        "memory-management"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-session.md"
+    },
+    {
+      "file_path": "065-concepts-streaming.md",
+      "title": "Streaming - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/streaming",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:46.627379057-03:00",
+      "summary": "This document explains OpenClaw's streaming and chunking mechanisms, detailing how assistant output is delivered in blocks or partial text updates across different channels, with specific focus on block streaming, chunking algorithms, coalescing, and Telegram's draft streaming capabilities.",
+      "tags": [
+        "streaming",
+        "chunking",
+        "block-streaming",
+        "telegram",
+        "draft-bubble",
+        "message-delivery",
+        "openclaw",
+        "api-reference"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-streaming.md"
+    },
+    {
+      "file_path": "066-concepts-system-prompt.md",
+      "title": "System prompt - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/system-prompt",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:12.029735827-03:00",
+      "summary": "This document explains how OpenClaw constructs and manages custom system prompts for agent runs, detailing the structure, modes, and components included in these prompts.",
+      "tags": [
+        "system-prompt",
+        "agent-run",
+        "prompt-structure",
+        "openclaw-configuration",
+        "workspace-bootstrap",
+        "time-handling",
+        "skills-injection",
+        "documentation-reference"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-system-prompt.md"
+    },
+    {
+      "file_path": "067-concepts-timezone.md",
+      "title": "Timezone - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/timezone",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:55.080123405-03:00",
+      "summary": "This document explains how OpenClaw handles timezones and timestamps in message envelopes, including configuration options for timezone formatting and system prompt integration.",
+      "tags": [
+        "timezones",
+        "timestamps",
+        "message-envelope",
+        "timezone-configuration",
+        "system-prompt"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-timezone.md"
+    },
+    {
+      "file_path": "068-concepts-typebox.md",
+      "title": "Typebox - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/typebox",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:32:07.578172462-03:00",
+      "summary": "This document explains how TypeBox schemas serve as the single source of truth for defining the Gateway WebSocket protocol, covering message formats, runtime validation, code generation, and the end-to-end process of adding new methods.",
+      "tags": [
+        "typebox",
+        "websocket-protocol",
+        "schema-validation",
+        "code-generation",
+        "gateway-architecture",
+        "runtime-validation"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-typebox.md"
+    },
+    {
+      "file_path": "069-concepts-usage-tracking.md",
+      "title": "Usage tracking - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/usage-tracking",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:29.835630126-03:00",
+      "summary": "This document describes how provider usage and quota data is collected and displayed across various interfaces including chat status cards, usage commands, CLI tools, and desktop applications.",
+      "tags": [
+        "provider-usage",
+        "quota-tracking",
+        "api-integration",
+        "oauth-tokens",
+        "cli-tools",
+        "chat-interface",
+        "usage-display"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "concepts-usage-tracking.md"
+    },
+    {
+      "file_path": "070-gateway-bridge-protocol.md",
+      "title": "Bridge protocol - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/bridge-protocol",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:08.580740435-03:00",
+      "summary": "This document describes the legacy Bridge protocol for node communication, detailing its transport method, handshake process, frame types, and usage within the OpenClaw system.",
+      "tags": [
+        "bridge-protocol",
+        "node-transport",
+        "tcp-jsonl",
+        "legacy-system",
+        "gateway-protocol",
+        "security-boundary",
+        "pairing-process",
+        "tailnet-usage"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "gateway-bridge-protocol.md"
+    },
+    {
+      "file_path": "071-gateway-pairing.md",
+      "title": "Pairing - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/pairing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:47.342834902-03:00",
+      "summary": "Explains the Gateway-owned pairing mechanism where the Gateway controls node access and authorization, detailing the workflow, CLI commands, API methods, and storage structure for managing paired nodes.",
+      "tags": [
+        "gateway-pairing",
+        "node-authentication",
+        "ws-transport",
+        "cli-workflow",
+        "api-methods",
+        "security"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "gateway-pairing.md"
+    },
+    {
+      "file_path": "072-gateway-protocol.md",
+      "title": "Protocol - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/protocol",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:38.000286026-03:00",
+      "summary": "This document specifies the WebSocket-based gateway protocol used by OpenClaw for communication between clients and the control plane, detailing connection handshake, messaging formats, roles, scopes, authentication, and versioning.",
+      "tags": [
+        "websocket",
+        "gateway-protocol",
+        "authentication",
+        "api-reference",
+        "client-communication",
+        "role-based-access",
+        "device-identity",
+        "connection-handshake"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "gateway-protocol.md"
+    },
+    {
+      "file_path": "073-gateway-sandbox-vs-tool-policy-vs-elevated.md",
+      "title": "Sandbox vs Tool Policy vs Elevated - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/sandbox-vs-tool-policy-vs-elevated",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:33.501831233-03:00",
+      "summary": "This document explains OpenClaw's sandboxing system, detailing how tool execution environments are controlled through sandbox settings, tool policies, and elevated execution modes.",
+      "tags": [
+        "sandboxing",
+        "tool-policy",
+        "execution-environment",
+        "security",
+        "debugging",
+        "configuration"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "gateway-sandbox-vs-tool-policy-vs-elevated.md"
+    },
+    {
+      "file_path": "074-platforms-mac-voice-overlay.md",
+      "title": "Voice overlay - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/voice-overlay",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:38.43791658-03:00",
+      "summary": "Explains the lifecycle management of voice overlay sessions on macOS, detailing how wake-word and push-to-talk interactions are handled to maintain predictable behavior and prevent stale callbacks.",
+      "tags": [
+        "voice-overlay",
+        "macos",
+        "session-management",
+        "audio-input",
+        "ui-lifecycle",
+        "debugging",
+        "logging"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "platforms-mac-voice-overlay.md"
+    },
+    {
+      "file_path": "075-reference-templates-SOUL.md",
+      "title": "SOUL - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/SOUL",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:11.027649134-03:00",
+      "summary": "This document defines the core identity and operational principles for an AI assistant, establishing guidelines for behavior, boundaries, and self-perception.",
+      "tags": [
+        "ai-assistant",
+        "behavioral-guidelines",
+        "operational-principles",
+        "ethics",
+        "identity-framework"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "reference-templates-SOUL.md"
+    },
+    {
+      "file_path": "076-security-formal-verification.md",
+      "title": "Formal Verification (Security Models) - OpenClaw",
+      "url": "https://docs.openclaw.ai/security/formal-verification",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:45.469023738-03:00",
+      "summary": "This document describes OpenClaw's formal security models using TLA+/TLC to verify security properties like authorization, session isolation, and misconfiguration safety through executable model checking.",
+      "tags": [
+        "formal-methods",
+        "security-models",
+        "tla-plus",
+        "tlc-model-checker",
+        "authorization",
+        "session-isolation",
+        "misconfiguration-safety"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "security-formal-verification.md"
+    },
+    {
+      "file_path": "077-token-use.md",
+      "title": "Token use - OpenClaw",
+      "url": "https://docs.openclaw.ai/token-use",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:50.486687393-03:00",
+      "summary": "This document explains how OpenClaw tracks token usage and calculates costs for AI model interactions, including details about context window limitations and methods for monitoring token consumption.",
+      "tags": [
+        "token-tracking",
+        "cost-estimation",
+        "context-window",
+        "usage-monitoring",
+        "api-costs",
+        "model-pricing"
+      ],
+      "category": "Concepts & Fundamentals",
+      "original_file_path": "token-use.md"
+    },
+    {
+      "file_path": "078-cli-configure.md",
+      "title": "Configure - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/configure",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:15.052604266-03:00",
+      "summary": "Provides instructions for configuring OpenClaw gateway settings through an interactive prompt, covering credentials, devices, agent defaults, and model selections.",
+      "tags": [
+        "configuration",
+        "gateway",
+        "credentials",
+        "models",
+        "interactive",
+        "setup"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "cli-configure.md"
+    },
+    {
+      "file_path": "079-environment.md",
+      "title": "Environment - OpenClaw",
+      "url": "https://docs.openclaw.ai/environment",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:21.399903378-03:00",
+      "summary": "This document explains how OpenClaw manages and prioritizes environment variables from various sources, including process environment, dotenv files, config blocks, and shell imports, while preventing overwrites and supporting variable substitution in configuration.",
+      "tags": [
+        "environment-variables",
+        "configuration",
+        "dotenv",
+        "shell-environment",
+        "variable-substitution",
+        "precedence-rules"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "environment.md"
+    },
+    {
+      "file_path": "080-gateway-configuration-examples.md",
+      "title": "Configuration examples - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/configuration-examples",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:12.87327863-03:00",
+      "summary": "This document provides comprehensive configuration settings for an AI agent system, detailing environment variables, authentication profiles, message formatting, tool integrations, and channel-specific behaviors.",
+      "tags": [
+        "configuration",
+        "environment",
+        "authentication",
+        "message-formatting",
+        "tool-integrations",
+        "channel-settings",
+        "agent-runtime",
+        "cron-jobs"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "gateway-configuration-examples.md"
+    },
+    {
+      "file_path": "081-gateway-configuration.md",
+      "title": "Configuration - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:51.296157225-03:00",
+      "summary": "This document explains how to configure the OpenClaw gateway using JSON5 format, covering basic setup, strict validation, RPC methods for applying changes, and advanced features like config includes and partial updates.",
+      "tags": [
+        "configuration",
+        "json5",
+        "openclaw",
+        "gateway",
+        "rpc",
+        "validation",
+        "includes",
+        "schema"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "gateway-configuration.md"
+    },
+    {
+      "file_path": "082-start-pairing.md",
+      "title": "Pairing - OpenClaw",
+      "url": "https://docs.openclaw.ai/start/pairing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:24.59430373-03:00",
+      "summary": "This document explains OpenClaw's pairing mechanism for managing secure access to the gateway, covering both direct message sender approval and device/node authorization processes.",
+      "tags": [
+        "pairing",
+        "security",
+        "access-control",
+        "device-management",
+        "gateway-network"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "start-pairing.md"
+    },
+    {
+      "file_path": "083-tools-skills-config.md",
+      "title": "Skills config - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/skills-config",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:01.106419342-03:00",
+      "summary": "This document explains how to configure skills in the OpenClaw system through various settings including enabling/disabling skills, managing directories, installation preferences, and environment variable handling.",
+      "tags": [
+        "skills-configuration",
+        "openclaw",
+        "agent-skill-management",
+        "environment-variables",
+        "docker-sandboxing"
+      ],
+      "category": "Configuration & Settings",
+      "original_file_path": "tools-skills-config.md"
+    },
+    {
+      "file_path": "084-automation-auth-monitoring.md",
+      "title": "Auth monitoring - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/auth-monitoring",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:46.610881556-03:00",
+      "summary": "This document explains how to check OAuth credential expiration status using the OpenClaw CLI tool and provides optional scripts for automated monitoring and mobile workflows.",
+      "tags": [
+        "oauth",
+        "health-check",
+        "cli",
+        "automation",
+        "monitoring",
+        "scripts"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "automation-auth-monitoring.md"
+    },
+    {
+      "file_path": "085-automation-cron-jobs.md",
+      "title": "Cron jobs - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/cron-jobs",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:40.829342764-03:00",
+      "summary": "This document explains how to use the Gateway's built-in cron scheduler to automate tasks, including setting up schedules, choosing execution modes, and configuring job payloads and deliveries.",
+      "tags": [
+        "cron-scheduler",
+        "task-automation",
+        "gateway-configuration",
+        "job-scheduling",
+        "api-reference"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "automation-cron-jobs.md"
+    },
+    {
+      "file_path": "086-automation-cron-vs-heartbeat.md",
+      "title": "Cron vs heartbeat - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/cron-vs-heartbeat",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:21.288444867-03:00",
+      "summary": "This document explains the differences between cron jobs and heartbeats for scheduling tasks, providing guidance on when to use each based on timing precision, session isolation, and task batching needs.",
+      "tags": [
+        "cron-jobs",
+        "heartbeats",
+        "scheduling",
+        "task-automation",
+        "workflow-management"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "automation-cron-vs-heartbeat.md"
+    },
+    {
+      "file_path": "087-automation-gmail-pubsub.md",
+      "title": "Gmail pubsub - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/gmail-pubsub",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:40.641930024-03:00",
+      "summary": "This document provides instructions for setting up a Gmail watch pipeline that integrates with OpenClaw through Google Cloud Pub/Sub, covering both automated and manual setup processes.",
+      "tags": [
+        "gmail",
+        "pub/sub",
+        "openclaw",
+        "webhook",
+        "gcp",
+        "automation",
+        "integration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "automation-gmail-pubsub.md"
+    },
+    {
+      "file_path": "088-automation-poll.md",
+      "title": "Poll - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/poll",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:10.935188725-03:00",
+      "summary": "A poll results document regarding OpenClaw, likely related to user feedback or community input on the OpenClaw project or software.",
+      "tags": [
+        "poll",
+        "OpenClaw",
+        "community feedback"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "automation-poll.md"
+    },
+    {
+      "file_path": "089-automation-webhook.md",
+      "title": "Webhook - OpenClaw",
+      "url": "https://docs.openclaw.ai/automation/webhook",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:34.49495595-03:00",
+      "summary": "This document explains how to configure and use webhooks in the Gateway system for triggering automated events and agent interactions via HTTP endpoints.",
+      "tags": [
+        "webhooks",
+        "http-endpoint",
+        "api-trigger",
+        "automation",
+        "gateway-configuration",
+        "security-best-practices"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "automation-webhook.md"
+    },
+    {
+      "file_path": "090-broadcast-groups.md",
+      "title": "Broadcast groups - OpenClaw",
+      "url": "https://docs.openclaw.ai/broadcast-groups",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:28.024457964-03:00",
+      "summary": "This document explains how to configure and use broadcast groups in OpenClaw to enable multiple agents to process the same message simultaneously within WhatsApp groups or DMs, enhancing collaboration and automation capabilities.",
+      "tags": [
+        "broadcast-groups",
+        "agent-teams",
+        "whatsapp-integration",
+        "message-processing",
+        "configuration",
+        "openclaw"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "broadcast-groups.md"
+    },
+    {
+      "file_path": "091-cli-nodes.md",
+      "title": "Nodes - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/nodes",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:40.133166948-03:00",
+      "summary": "This document explains how to manage paired devices using the OpenClaw CLI, including listing nodes, checking their status, and invoking commands on them.",
+      "tags": [
+        "node-management",
+        "device-control",
+        "cli-tool",
+        "command-invoke",
+        "node-status",
+        "openclaw-cli"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "cli-nodes.md"
+    },
+    {
+      "file_path": "092-gateway-tools-invoke-http-api.md",
+      "title": "Tools invoke http api - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/tools-invoke-http-api",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:17.214114936-03:00",
+      "summary": "This document describes how to invoke tools through OpenClaw's HTTP gateway endpoint, including authentication, request format, policy enforcement, and response codes.",
+      "tags": [
+        "gateway-api",
+        "tool-invocation",
+        "authentication",
+        "http-endpoint",
+        "policy-enforcement"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "gateway-tools-invoke-http-api.md"
+    },
+    {
+      "file_path": "093-hooks-soul-evil.md",
+      "title": "Soul evil - OpenClaw",
+      "url": "https://docs.openclaw.ai/hooks/soul-evil",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:07.519281468-03:00",
+      "summary": "This document explains how the SOUL Evil Hook works to randomly swap injected SOUL content with an alternative SOUL_EVIL.md file during specific times or by chance, without modifying files on disk.",
+      "tags": [
+        "soul-hook",
+        "evil-hook",
+        "content-replacement",
+        "random-chance",
+        "purge-window",
+        "openclaw",
+        "agent-bootstrap",
+        "configuration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "hooks-soul-evil.md"
+    },
+    {
+      "file_path": "094-multi-agent-sandbox-tools.md",
+      "title": "Multi-Agent Sandbox & Tools - OpenClaw",
+      "url": "https://docs.openclaw.ai/multi-agent-sandbox-tools",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:37.145205734-03:00",
+      "summary": "This document explains how to configure multi-agent systems with individual sandbox settings and tool restrictions, enabling different security profiles for various agents including personal assistants, family bots, and public-facing agents.",
+      "tags": [
+        "multi-agent",
+        "sandbox-configuration",
+        "tool-restrictions",
+        "security-profiles",
+        "agent-management",
+        "docker-sandboxing"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "multi-agent-sandbox-tools.md"
+    },
+    {
+      "file_path": "095-nodes-audio.md",
+      "title": "Audio - OpenClaw",
+      "url": "https://docs.openclaw.ai/nodes/audio",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:18.686893798-03:00",
+      "summary": "This document explains how OpenClaw handles audio and voice note processing, including auto-detection of transcription models, configuration options, and limitations.",
+      "tags": [
+        "audio-processing",
+        "voice-notes",
+        "transcription",
+        "auto-detection",
+        "configuration",
+        "openclaw"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "nodes-audio.md"
+    },
+    {
+      "file_path": "096-nodes-camera.md",
+      "title": "Camera - OpenClaw",
+      "url": "https://docs.openclaw.ai/nodes/camera",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:55.205618111-03:00",
+      "summary": "This document explains how to use camera capture functionality across different device platforms (iOS, Android, macOS) within the OpenClaw agent workflow, including supported commands, user settings, permissions, and safety limits.",
+      "tags": [
+        "camera-capture",
+        "ios-node",
+        "android-node",
+        "macos-app",
+        "api-reference",
+        "user-settings",
+        "permissions",
+        "video-clips"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "nodes-camera.md"
+    },
+    {
+      "file_path": "097-nodes-images.md",
+      "title": "Images - OpenClaw",
+      "url": "https://docs.openclaw.ai/nodes/images",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:04.726134776-03:00",
+      "summary": "This document outlines the media handling capabilities and limitations for the WhatsApp channel powered by Baileys Web, covering send operations, auto-replies, and processing rules for different media types.",
+      "tags": [
+        "media-handling",
+        "whatsapp-web",
+        "cli-interface",
+        "auto-reply",
+        "image-processing",
+        "audio-processing",
+        "video-processing",
+        "limits-and-errors"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "nodes-images.md"
+    },
+    {
+      "file_path": "098-nodes-location-command.md",
+      "title": "Location command - OpenClaw",
+      "url": "https://docs.openclaw.ai/nodes/location-command",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:14.098565215-03:00",
+      "summary": "This document explains the implementation and usage of location tracking functionality in a node-based system, covering permissions, settings modes, and API commands.",
+      "tags": [
+        "location-tracking",
+        "permissions",
+        "api-command",
+        "mobile-devices",
+        "os-integration",
+        "background-location",
+        "ui-settings"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "nodes-location-command.md"
+    },
+    {
+      "file_path": "099-nodes-talk.md",
+      "title": "Talk - OpenClaw",
+      "url": "https://docs.openclaw.ai/nodes/talk",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:59.648731968-03:00",
+      "summary": "This document explains how to configure and use talk mode for continuous voice conversations with an AI assistant, including behavior details, configuration options, and macOS-specific UI elements.",
+      "tags": [
+        "talk-mode",
+        "voice-conversation",
+        "elevenlabs",
+        "macos",
+        "configuration",
+        "api-reference",
+        "audio-streaming",
+        "interrupt-on-speech"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "nodes-talk.md"
+    },
+    {
+      "file_path": "100-nodes-voicewake.md",
+      "title": "Voicewake - OpenClaw",
+      "url": "https://docs.openclaw.ai/nodes/voicewake",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:09.85790698-03:00",
+      "summary": "This document explains how OpenClaw implements global voice wake words across all devices, detailing storage location, API methods, and client behavior for synchronization.",
+      "tags": [
+        "voice-wake",
+        "global-list",
+        "gateway",
+        "api-methods",
+        "websocket",
+        "client-behavior"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "nodes-voicewake.md"
+    },
+    {
+      "file_path": "101-plugin.md",
+      "title": "Plugin - OpenClaw",
+      "url": "https://docs.openclaw.ai/plugin",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:00.230123576-03:00",
+      "summary": "This document provides comprehensive guidance on OpenClaw plugins including installation, configuration, runtime behavior, and plugin development practices.",
+      "tags": [
+        "plugins",
+        "extensions",
+        "openclaw",
+        "configuration",
+        "typescript",
+        "runtime",
+        "gateway",
+        "manifest"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "plugin.md"
+    },
+    {
+      "file_path": "102-reference-templates-TOOLS.md",
+      "title": "TOOLS - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/TOOLS",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:36.753034781-03:00",
+      "summary": "This document explains how to use a local notes file to store environment-specific configurations and personal tool settings separate from shared skills.",
+      "tags": [
+        "local-notes",
+        "tool-configuration",
+        "environment-setup",
+        "personal-settings",
+        "skill-separation"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "reference-templates-TOOLS.md"
+    },
+    {
+      "file_path": "103-tools-agent-send.md",
+      "title": "Agent send - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/agent-send",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:28.561964568-03:00",
+      "summary": "Explains how to use the `openclaw agent` command to run agents directly without inbound messages, including session management, delivery options, and available flags.",
+      "tags": [
+        "agent-run",
+        "cli-command",
+        "session-management",
+        "message-delivery",
+        "local-execution",
+        "gateway-fallback"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-agent-send.md"
+    },
+    {
+      "file_path": "104-tools-apply-patch.md",
+      "title": "Apply patch - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/apply-patch",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:09.769966986-03:00",
+      "summary": "Provides instructions for using the apply_patch tool to implement structured file modifications across multiple files or hunks.",
+      "tags": [
+        "file-modification",
+        "patch-format",
+        "bulk-edits",
+        "tool-usage",
+        "workspace-relative-paths"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-apply-patch.md"
+    },
+    {
+      "file_path": "105-tools-browser-linux-troubleshooting.md",
+      "title": "Browser linux troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/browser-linux-troubleshooting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:14.59639479-03:00",
+      "summary": "This document explains how to resolve Chrome CDP startup failures on Linux systems caused by snap package confinement issues, providing solutions for installing Google Chrome or configuring snap Chromium with attach-only mode.",
+      "tags": [
+        "chrome",
+        "chromium",
+        "linux",
+        "snap-package",
+        "browser-control",
+        "cdp",
+        "troubleshooting",
+        "ubuntu"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-browser-linux-troubleshooting.md"
+    },
+    {
+      "file_path": "106-tools-browser-login.md",
+      "title": "Browser login - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/browser-login",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:38.938141599-03:00",
+      "summary": "This document provides instructions for securely logging into browsers and posting to X/Twitter using OpenClaw's browser tools, emphasizing manual login practices and host browser usage for avoiding bot detection.",
+      "tags": [
+        "browser-login",
+        "twitter-posting",
+        "security",
+        "automation",
+        "sandboxing",
+        "host-browser"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-browser-login.md"
+    },
+    {
+      "file_path": "107-tools-browser.md",
+      "title": "Browser - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/browser",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:25.678902953-03:00",
+      "summary": "This document explains how to configure and use OpenClaw's managed browser feature, which provides an isolated Chromium-based browser profile for agent automation tasks. It covers setup, profiles, configuration options, and security considerations for both local and remote browser control.",
+      "tags": [
+        "browser-management",
+        "automation",
+        "chromium",
+        "configuration",
+        "security",
+        "profiles"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-browser.md"
+    },
+    {
+      "file_path": "108-tools-chrome-extension.md",
+      "title": "Chrome extension - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/chrome-extension",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:43.502071427-03:00",
+      "summary": "This document explains how to use the OpenClaw Chrome extension for browser automation, covering installation, configuration, and security considerations for controlling Chrome tabs through a local relay server.",
+      "tags": [
+        "chrome-extension",
+        "browser-automation",
+        "relay-server",
+        "security",
+        "installation",
+        "configuration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-chrome-extension.md"
+    },
+    {
+      "file_path": "109-tools-clawhub.md",
+      "title": "Clawhub - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/clawhub",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:18.808113767-03:00",
+      "summary": "Clawhub is an open-source platform for collaborative development and project management, built on the OpenClaw framework. It provides tools for version control, issue tracking, and team collaboration in a decentralized environment.",
+      "tags": [
+        "open source",
+        "collaboration",
+        "development platform"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-clawhub.md"
+    },
+    {
+      "file_path": "110-tools-elevated.md",
+      "title": "Elevated - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/elevated",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:33.929713056-03:00",
+      "summary": "Explains the elevated mode directives system that controls execution permissions and security levels for sandboxed agents, including different modes like 'on', 'full', 'ask', and 'off' and their respective behaviors.",
+      "tags": [
+        "elevated-mode",
+        "execution-security",
+        "agent-permissions",
+        "sandboxed-agents",
+        "session-management"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-elevated.md"
+    },
+    {
+      "file_path": "111-tools-exec.md",
+      "title": "Exec - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/exec",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:29.869542314-03:00",
+      "summary": "Provides detailed documentation for the exec tool used to run shell commands in a workspace, covering parameters, configuration options, session management, and security settings.",
+      "tags": [
+        "exec-tool",
+        "shell-commands",
+        "process-management",
+        "security",
+        "configuration",
+        "terminal-ui"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-exec.md"
+    },
+    {
+      "file_path": "112-tools-llm-task.md",
+      "title": "Llm task - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/llm-task",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:34.9843794-03:00",
+      "summary": "This document explains how to configure and use the llm-task plugin for executing structured JSON-only LLM tasks with optional schema validation, particularly for workflow engines like Lobster.",
+      "tags": [
+        "llm-task",
+        "plugin",
+        "json-schema",
+        "workflow-engine",
+        "api-reference",
+        "configuration"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-llm-task.md"
+    },
+    {
+      "file_path": "113-tools-lobster.md",
+      "title": "Lobster - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/lobster",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:38:57.197921672-03:00",
+      "description": "Typed workflow runtime for OpenClaw \u2014 composable pipelines with approval gates.",
+      "summary": "This document explains how Lobster enables deterministic, AI-friendly workflow management with built-in approval checkpoints and resumable execution. It describes the Lobster DSL for defining multi-step tool sequences and how it integrates with OpenClaw to handle complex workflows through single API calls with explicit user approvals.",
+      "tags": [
+        "workflow-shell",
+        "api-integration",
+        "approval-gates",
+        "resumable-execution",
+        "cli-pipelines",
+        "llm-workflows",
+        "openclaw",
+        "deterministic-pipelines"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-lobster.md"
+    },
+    {
+      "file_path": "114-tools-reactions.md",
+      "title": "Reactions - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/reactions",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:57.088757615-03:00",
+      "summary": "Explains the standardized semantics and channel-specific behavior for adding and removing reactions across different messaging platforms.",
+      "tags": [
+        "reaction-tooling",
+        "cross-platform",
+        "discord",
+        "slack",
+        "telegram",
+        "whatsapp",
+        "signal"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-reactions.md"
+    },
+    {
+      "file_path": "115-tools-skills.md",
+      "title": "Skills - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/skills",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:22:05.340730782-03:00",
+      "summary": "This document explains how OpenClaw manages and loads skills using AgentSkills-compatible directories, detailing the precedence hierarchy of different skill locations and how skills are filtered at load time based on environment, configuration, and binary dependencies.",
+      "tags": [
+        "skill-management",
+        "agent-skills",
+        "precedence-rules",
+        "load-time-filtering",
+        "openclaw-config",
+        "plugin-integration",
+        "security-notes",
+        "clawhub"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-skills.md"
+    },
+    {
+      "file_path": "116-tools-slash-commands.md",
+      "title": "Slash commands - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/slash-commands",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:42.688950457-03:00",
+      "summary": "This document explains how commands and directives are processed by the Gateway, including their syntax, permissions, and configuration options for different messaging platforms.",
+      "tags": [
+        "commands",
+        "directives",
+        "gateway",
+        "configuration",
+        "access-control",
+        "chat-interface",
+        "slash-commands",
+        "session-management"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-slash-commands.md"
+    },
+    {
+      "file_path": "117-tools-subagents.md",
+      "title": "Subagents - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/subagents",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:47.284264704-03:00",
+      "summary": "This document explains how sub-agents work within an agent system, describing their background execution, communication mechanism via announcements, and management through slash commands. It covers configuration options, authentication, concurrency limits, and limitations of the sub-agent functionality.",
+      "tags": [
+        "sub-agents",
+        "background-execution",
+        "agent-system",
+        "slash-command",
+        "session-management",
+        "concurrency-control",
+        "authentication",
+        "announcement-mechanism"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-subagents.md"
+    },
+    {
+      "file_path": "118-tools-thinking.md",
+      "title": "Thinking - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/thinking",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:51.930944285-03:00",
+      "summary": "This document explains how to control thinking levels and reasoning visibility for AI agents using inline directives and session settings. It covers the different thinking levels, resolution order, and how to configure session defaults for reasoning and verbose logging.",
+      "tags": [
+        "thinking-levels",
+        "reasoning-visibility",
+        "session-defaults",
+        "inline-directives",
+        "agent-configuration",
+        "verbose-logging"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-thinking.md"
+    },
+    {
+      "file_path": "119-tools-web.md",
+      "title": "Web - OpenClaw",
+      "url": "https://docs.openclaw.ai/tools/web",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:10.184737447-03:00",
+      "summary": "This document explains how to configure and use OpenClaw's web search and fetch tools for accessing and extracting web content. It covers setup options for Brave Search and Perplexity providers, API key management, and usage examples.",
+      "tags": [
+        "web-tools",
+        "api-integration",
+        "search-api",
+        "content-extraction",
+        "configuration",
+        "brave-search",
+        "perplexity"
+      ],
+      "category": "Features & Capabilities",
+      "original_file_path": "tools-web.md"
+    },
+    {
+      "file_path": "120-channels-discord.md",
+      "title": "Discord - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/discord",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:23.554599175-03:00",
+      "summary": "This document provides comprehensive instructions for setting up and configuring a Discord bot integration with OpenClaw, covering everything from bot creation and permissions to channel routing and security policies.",
+      "tags": [
+        "discord-bot",
+        "api-integration",
+        "configuration",
+        "bot-setup",
+        "security-policy",
+        "message-routing",
+        "gateway-setup"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-discord.md"
+    },
+    {
+      "file_path": "121-channels-line.md",
+      "title": "Line - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/line",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:27.445065965-03:00",
+      "summary": "This document provides comprehensive instructions for setting up and configuring the LINE plugin to connect OpenClaw with LINE Messaging API, including installation, setup steps, configuration options, and message handling details.",
+      "tags": [
+        "line-plugin",
+        "messaging-api",
+        "webhook",
+        "configuration",
+        "openclaw",
+        "integration",
+        "channel-setup",
+        "message-behavior"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-line.md"
+    },
+    {
+      "file_path": "122-channels-location.md",
+      "title": "Location - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/location",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:10.708158974-03:00",
+      "summary": "This document explains how OpenClaw processes and normalizes location data from various chat channels into structured context fields and human-readable text formats.",
+      "tags": [
+        "location-parsing",
+        "channel-integration",
+        "telegram",
+        "whatsapp",
+        "matrix",
+        "structured-data"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-location.md"
+    },
+    {
+      "file_path": "123-channels-matrix.md",
+      "title": "Matrix - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/matrix",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:19.405439879-03:00",
+      "summary": "This document provides comprehensive instructions for setting up and configuring the Matrix plugin for OpenClaw, including installation, account setup, encryption configuration, and feature capabilities.",
+      "tags": [
+        "matrix",
+        "plugin",
+        "configuration",
+        "encryption",
+        "messaging",
+        "gateway"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-matrix.md"
+    },
+    {
+      "file_path": "124-channels-mattermost.md",
+      "title": "Mattermost - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/mattermost",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:33.424372715-03:00",
+      "summary": "This document provides instructions for configuring and using the Mattermost plugin with OpenClaw, covering installation, setup, chat modes, access control, and troubleshooting.",
+      "tags": [
+        "mattermost",
+        "plugin",
+        "messaging",
+        "chat",
+        "configuration",
+        "troubleshooting"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-mattermost.md"
+    },
+    {
+      "file_path": "125-channels-msteams.md",
+      "title": "Msteams - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/msteams",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:53.896864722-03:00",
+      "summary": "This document provides comprehensive instructions for setting up and configuring the Microsoft Teams plugin for OpenClaw, covering installation, Azure bot setup, Teams app configuration, and access control policies.",
+      "tags": [
+        "microsoft-teams",
+        "plugin-setup",
+        "azure-bot",
+        "teams-app",
+        "access-control",
+        "configuration",
+        "local-development",
+        "webhook"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-msteams.md"
+    },
+    {
+      "file_path": "126-channels-signal.md",
+      "title": "Signal - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/signal",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:36.047772251-03:00",
+      "summary": "This document provides comprehensive instructions for setting up and configuring the Signal channel integration in OpenClaw using signal-cli as an external daemon. It covers installation, account setup, configuration options, access control, and advanced features like reactions and delivery targets.",
+      "tags": [
+        "signal-channel",
+        "cli-integration",
+        "gateway-configuration",
+        "external-daemon",
+        "access-control",
+        "message-routing",
+        "reactions",
+        "pairing"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-signal.md"
+    },
+    {
+      "file_path": "127-channels-slack.md",
+      "title": "Slack - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/slack",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:49.312146519-03:00",
+      "summary": "This document provides comprehensive instructions for configuring Slack integration with OpenClaw using either Socket Mode or HTTP mode, covering setup steps, required tokens, permissions, and configuration options.",
+      "tags": [
+        "slack-integration",
+        "socket-mode",
+        "http-mode",
+        "token-configuration",
+        "openclaw-setup",
+        "api-configuration",
+        "bot-tokens",
+        "app-tokens"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-slack.md"
+    },
+    {
+      "file_path": "128-channels-telegram.md",
+      "title": "Telegram - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/telegram",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:27.098578856-03:00",
+      "summary": "This document provides comprehensive guidance on setting up and configuring Telegram bot integration using the Gateway, covering token management, privacy settings, group policies, and troubleshooting.",
+      "tags": [
+        "telegram-bot-api",
+        "bot-setup",
+        "configuration",
+        "group-policy",
+        "privacy-settings",
+        "troubleshooting",
+        "gateway-integration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-telegram.md"
+    },
+    {
+      "file_path": "129-channels-troubleshooting.md",
+      "title": "Troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/troubleshooting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:45.158004553-03:00",
+      "summary": "This document provides guidance on troubleshooting common issues with various communication channels including Discord, Telegram, and WhatsApp, with specific commands and error resolution steps.",
+      "tags": [
+        "channel-troubleshooting",
+        "discord",
+        "telegram",
+        "whatsapp",
+        "network-issues",
+        "error-resolution"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-troubleshooting.md"
+    },
+    {
+      "file_path": "130-channels-whatsapp.md",
+      "title": "Whatsapp - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/whatsapp",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:31.869165757-03:00",
+      "summary": "This document provides comprehensive guidance on setting up and configuring WhatsApp as a channel for OpenClaw, covering account setup, configuration options, security considerations, and messaging workflows.",
+      "tags": [
+        "whatsapp",
+        "messaging",
+        "configuration",
+        "openclaw",
+        "baileys",
+        "channel-setup",
+        "security"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-whatsapp.md"
+    },
+    {
+      "file_path": "131-channels-zalo.md",
+      "title": "Zalo - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/zalo",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:40.850013743-03:00",
+      "summary": "This document provides comprehensive instructions for setting up and configuring the Zalo Bot API plugin within the OpenClaw gateway, including installation, token configuration, message handling, and troubleshooting.",
+      "tags": [
+        "zalo",
+        "bot-api",
+        "messaging-app",
+        "plugin-installation",
+        "configuration",
+        "gateway-setup",
+        "direct-messages",
+        "pairing"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-zalo.md"
+    },
+    {
+      "file_path": "132-channels-zalouser.md",
+      "title": "Zalouser - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels/zalouser",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:58.456079216-03:00",
+      "summary": "This document provides instructions for setting up and configuring an unofficial Zalo personal account automation using the zca-cli tool and OpenClaw's plugin system.",
+      "tags": [
+        "zalo",
+        "automation",
+        "cli",
+        "plugin",
+        "configuration",
+        "troubleshooting"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels-zalouser.md"
+    },
+    {
+      "file_path": "133-channels.md",
+      "title": "Index - OpenClaw",
+      "url": "https://docs.openclaw.ai/channels",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:58.401798521-03:00",
+      "summary": "This document provides an overview of the various chat channels supported by OpenClaw, explaining how each channel connects through the Gateway and detailing their specific features and setup requirements.",
+      "tags": [
+        "chat-channels",
+        "gateway",
+        "messaging-platforms",
+        "multi-channel-support",
+        "whatsapp",
+        "telegram",
+        "discord"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "channels.md"
+    },
+    {
+      "file_path": "134-cli-channels.md",
+      "title": "Channels - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/channels",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:06.813217263-03:00",
+      "summary": "This document provides instructions for managing chat channel accounts and their runtime status on the Gateway, including commands for adding/removing accounts, logging in/out, troubleshooting, and resolving channel/user names to IDs.",
+      "tags": [
+        "chat-channels",
+        "gateway-management",
+        "command-line",
+        "channel-accounts",
+        "troubleshooting",
+        "resolution"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "cli-channels.md"
+    },
+    {
+      "file_path": "135-gateway-authentication.md",
+      "title": "Authentication - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/authentication",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:04.174004368-03:00",
+      "summary": "This document provides instructions for configuring authentication with Anthropic's API using either API keys or Claude subscription tokens, including setup, management, and troubleshooting.",
+      "tags": [
+        "anthropic",
+        "api-key",
+        "oauth",
+        "authentication",
+        "setup-token",
+        "model-provider",
+        "configuration",
+        "troubleshooting"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-authentication.md"
+    },
+    {
+      "file_path": "136-gateway-background-process.md",
+      "title": "Background process - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/background-process",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:55.615747691-03:00",
+      "summary": "This document explains how OpenClaw manages shell commands and background processes using the exec and process tools, detailing their parameters, behavior, and available actions for managing long-running tasks.",
+      "tags": [
+        "process-management",
+        "shell-commands",
+        "background-tasks",
+        "session-management",
+        "cli-tools",
+        "system-integration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-background-process.md"
+    },
+    {
+      "file_path": "137-gateway-bonjour.md",
+      "title": "Bonjour - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/bonjour",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:59.815014729-03:00",
+      "summary": "This document explains how OpenClaw uses Bonjour/mDNS discovery for LAN-only gateway detection and provides configuration details for wide-area discovery using unicast DNS-SD over Tailscale.",
+      "tags": [
+        "bonjour",
+        "mdns",
+        "dns-sd",
+        "tailscale",
+        "discovery",
+        "gateway",
+        "networking",
+        "multicast"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-bonjour.md"
+    },
+    {
+      "file_path": "138-gateway-discovery.md",
+      "title": "Discovery - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/discovery",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:27.883415168-03:00",
+      "summary": "This document explains OpenClaw's network discovery and transport mechanisms, detailing how gateways advertise their presence and how clients discover and connect to them using direct WebSocket, SSH, or Bonjour protocols.",
+      "tags": [
+        "network-discovery",
+        "transport-protocols",
+        "gateway-communication",
+        "bonjour-mdns",
+        "ssh-fallback",
+        "node-pairing",
+        "websocket-transport"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-discovery.md"
+    },
+    {
+      "file_path": "139-gateway-doctor.md",
+      "title": "Doctor - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/doctor",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:22.07679407-03:00",
+      "summary": "Provides a comprehensive repair and migration tool for OpenClaw that fixes configuration issues, performs health checks, and applies automated repairs to maintain system integrity.",
+      "tags": [
+        "openclaw",
+        "doctor",
+        "repair",
+        "migration",
+        "health-check",
+        "configuration",
+        "automation",
+        "openclaw-json"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-doctor.md"
+    },
+    {
+      "file_path": "140-gateway-health.md",
+      "title": "Health - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/health",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:45.396657273-03:00",
+      "summary": "Provides instructions for using CLI commands to check channel connectivity and diagnose issues with the openclaw system.",
+      "tags": [
+        "health-check",
+        "cli-command",
+        "troubleshooting",
+        "gateway-status",
+        "channel-connection",
+        "debugging"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-health.md"
+    },
+    {
+      "file_path": "141-gateway-heartbeat.md",
+      "title": "Heartbeat - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/heartbeat",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:41.150114379-03:00",
+      "summary": "This document explains how to configure and use heartbeat functionality in OpenClaw to run periodic agent checks and manage attention-grabbing notifications.",
+      "tags": [
+        "heartbeat",
+        "agent",
+        "automation",
+        "configuration",
+        "notifications",
+        "scheduler"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-heartbeat.md"
+    },
+    {
+      "file_path": "142-gateway-local-models.md",
+      "title": "Local models - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/local-models",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:36.532038919-03:00",
+      "summary": "This document provides guidance on setting up local AI models for use with OpenClaw, emphasizing the need for powerful hardware and recommending specific configurations for optimal security and performance.",
+      "tags": [
+        "local-models",
+        "openclaw",
+        "security",
+        "gpu-rig",
+        "llm-configuration",
+        "prompt-injection",
+        "lm-studio",
+        "mini-max"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-local-models.md"
+    },
+    {
+      "file_path": "143-gateway-logging.md",
+      "title": "Logging - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/logging",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:32.313078983-03:00",
+      "summary": "This document explains how OpenClaw handles logging through both console output and file-based logs, detailing configuration options for log levels, console formatting, and WebSocket traffic logging.",
+      "tags": [
+        "logging",
+        "console-output",
+        "file-logs",
+        "log-levels",
+        "websocket-logs",
+        "configuration",
+        "cli",
+        "control-ui"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-logging.md"
+    },
+    {
+      "file_path": "144-gateway-multiple-gateways.md",
+      "title": "Multiple gateways - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/multiple-gateways",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:09.219676801-03:00",
+      "summary": "This document explains how to configure and run multiple OpenClaw Gateways on the same host for isolation and redundancy purposes, including proper configuration, port management, and profile usage.",
+      "tags": [
+        "gateway",
+        "configuration",
+        "isolation",
+        "profiles",
+        "port-management",
+        "rescue-bot"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-multiple-gateways.md"
+    },
+    {
+      "file_path": "145-gateway-openai-http-api.md",
+      "title": "Openai http api - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/openai-http-api",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:13.614788565-03:00",
+      "summary": "This document explains how to enable and use OpenAI-compatible Chat Completions endpoint in the OpenClaw Gateway, including authentication, agent selection, session handling, and streaming capabilities.",
+      "tags": [
+        "openai",
+        "chat-completions",
+        "gateway",
+        "api-endpoint",
+        "authentication",
+        "streaming",
+        "session-management"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-openai-http-api.md"
+    },
+    {
+      "file_path": "146-gateway-remote.md",
+      "title": "Remote - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/remote",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:57.175560342-03:00",
+      "summary": "This document explains how to configure and use remote access to a Gateway service via SSH tunnels, WebSocket connections, and tailnets, covering setup scenarios for operators and nodes.",
+      "tags": [
+        "remote-access",
+        "ssh-tunneling",
+        "websocket",
+        "gateway-setup",
+        "tailscale",
+        "security"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-remote.md"
+    },
+    {
+      "file_path": "147-gateway-sandboxing.md",
+      "title": "Sandboxing - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/sandboxing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:30:04.991291839-03:00",
+      "summary": "This document explains how OpenClaw uses Docker containers to sandbox tool execution, detailing configuration options for controlling sandbox behavior, scope, workspace access, and security considerations.",
+      "tags": [
+        "docker",
+        "sandboxing",
+        "security",
+        "configuration",
+        "tool-execution",
+        "containerization"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-sandboxing.md"
+    },
+    {
+      "file_path": "148-gateway-tailscale.md",
+      "title": "Tailscale - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/tailscale",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:52.862319165-03:00",
+      "summary": "This document explains how to configure Tailscale Serve and Funnel modes for OpenClaw Gateway dashboard and WebSocket access, including authentication methods and configuration examples.",
+      "tags": [
+        "tailscale",
+        "gateway",
+        "authentication",
+        "serve",
+        "funnel",
+        "configuration",
+        "networking"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-tailscale.md"
+    },
+    {
+      "file_path": "149-gateway-troubleshooting.md",
+      "title": "Troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/troubleshooting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:28:54.366373781-03:00",
+      "summary": "Provides troubleshooting guidance for OpenClaw runtime failures and diagnostics, covering common issues like authentication problems, service startup errors, and environment configuration.",
+      "tags": [
+        "troubleshooting",
+        "runtime-failure",
+        "diagnostics",
+        "openclaw-gateway",
+        "authentication",
+        "service-status",
+        "logs",
+        "configuration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "gateway-troubleshooting.md"
+    },
+    {
+      "file_path": "150-platforms-mac-remote.md",
+      "title": "Remote - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/remote",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:04.84558294-03:00",
+      "summary": "This document explains how to configure and use the macOS OpenClaw app in remote mode to control a gateway running on a remote host via SSH or direct connection.",
+      "tags": [
+        "remote-control",
+        "ssh-tunnel",
+        "openclaw-gateway",
+        "macos-app",
+        "remote-configuration",
+        "web-chat",
+        "security",
+        "troubleshooting"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "platforms-mac-remote.md"
+    },
+    {
+      "file_path": "151-providers-anthropic.md",
+      "title": "Anthropic - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/anthropic",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:51.190021751-03:00",
+      "summary": "This document explains how to authenticate with the Anthropic Claude API using either an API key or a setup-token within the OpenClaw framework, including setup instructions and troubleshooting steps.",
+      "tags": [
+        "anthropic",
+        "claude",
+        "api-key",
+        "setup-token",
+        "authentication",
+        "openclaw",
+        "troubleshooting"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-anthropic.md"
+    },
+    {
+      "file_path": "152-providers-glm.md",
+      "title": "Glm - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/glm",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:38.705446411-03:00",
+      "summary": "This document explains how to access GLM models through the Z.AI platform using OpenClaw, including setup instructions and configuration details.",
+      "tags": [
+        "glm-models",
+        "z-ai-platform",
+        "openclaw",
+        "api-integration",
+        "model-configuration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-glm.md"
+    },
+    {
+      "file_path": "153-providers-minimax.md",
+      "title": "Minimax - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/minimax",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:30.218385779-03:00",
+      "summary": "This document provides comprehensive guidance on configuring and using the MiniMax M2.1 AI model, including setup instructions for different environments and troubleshooting tips.",
+      "tags": [
+        "minimax",
+        "m2.1",
+        "model-configuration",
+        "api-integration",
+        "coding-plan",
+        "local-inference",
+        "openclaw",
+        "ai-models"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-minimax.md"
+    },
+    {
+      "file_path": "154-providers-models.md",
+      "title": "Models - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/models",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:26.213033343-03:00",
+      "summary": "This document explains how to configure and use various large language model providers within OpenClaw, including authentication and setting default models.",
+      "tags": [
+        "model-providers",
+        "llm",
+        "configuration",
+        "authentication",
+        "api-integration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-models.md"
+    },
+    {
+      "file_path": "155-providers-moonshot.md",
+      "title": "Moonshot - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/moonshot",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:34.456026217-03:00",
+      "summary": "This document provides configuration instructions and API reference for integrating with the Moonshot AI Kimi models and Kimi Code, including setup commands, model aliases, and provider-specific settings.",
+      "tags": [
+        "moonshot-api",
+        "kimi-models",
+        "api-integration",
+        "configuration",
+        "openai-compatible",
+        "model-aliases",
+        "kimi-code"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-moonshot.md"
+    },
+    {
+      "file_path": "156-providers-openai.md",
+      "title": "Openai - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/openai",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:21.642889262-03:00",
+      "summary": "This document explains how to authenticate and configure access to OpenAI's GPT models using either API keys or ChatGPT/Codex subscriptions through the OpenCLAW platform.",
+      "tags": [
+        "api-authentication",
+        "openai-api",
+        "codex-integration",
+        "cli-setup",
+        "model-configuration",
+        "oauth"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-openai.md"
+    },
+    {
+      "file_path": "157-providers-opencode.md",
+      "title": "Opencode - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/opencode",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:00.58988279-03:00",
+      "summary": "This document explains how to set up and use OpenCode Zen, a curated list of models for coding agents that requires an API key and the 'opencode' provider. It provides CLI setup instructions and configuration examples.",
+      "tags": [
+        "opencode",
+        "zen",
+        "api-key",
+        "cli-setup",
+        "configuration",
+        "coding-agents"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-opencode.md"
+    },
+    {
+      "file_path": "158-providers-openrouter.md",
+      "title": "Openrouter - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/openrouter",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:56.753252998-03:00",
+      "summary": "This document explains how to use OpenRouter's unified API to access multiple AI models through a single endpoint with OpenAI compatibility, including setup instructions and configuration details.",
+      "tags": [
+        "unified-api",
+        "openai-compatible",
+        "model-routing",
+        "api-setup",
+        "configuration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-openrouter.md"
+    },
+    {
+      "file_path": "159-providers-synthetic.md",
+      "title": "Synthetic - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/synthetic",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:04.968673273-03:00",
+      "summary": "This document explains how to configure and use the Synthetic provider with OpenClaw, including setup instructions, configuration examples, and model catalog information for Anthropic-compatible endpoints.",
+      "tags": [
+        "synthetic-provider",
+        "anthropic-api",
+        "openclaw",
+        "model-configuration",
+        "api-integration"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-synthetic.md"
+    },
+    {
+      "file_path": "160-providers-vercel-ai-gateway.md",
+      "title": "Vercel AI Gateway - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/vercel-ai-gateway",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:13.631861187-03:00",
+      "summary": "This document explains how to configure and use the Vercel AI Gateway as a unified interface for accessing multiple AI models through a single endpoint.",
+      "tags": [
+        "ai-gateway",
+        "api-integration",
+        "authentication",
+        "model-access",
+        "configuration-guide"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-vercel-ai-gateway.md"
+    },
+    {
+      "file_path": "161-providers-zai.md",
+      "title": "Zai - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers/zai",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:09.128439444-03:00",
+      "summary": "This document explains how to configure and use the Z.AI API platform for GLM models with OpenClaw, including authentication setup and configuration details.",
+      "tags": [
+        "api-integration",
+        "glm-models",
+        "authentication",
+        "cli-setup",
+        "openclaw"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers-zai.md"
+    },
+    {
+      "file_path": "162-providers.md",
+      "title": "Index - OpenClaw",
+      "url": "https://docs.openclaw.ai/providers",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:17.712792842-03:00",
+      "summary": "This document explains how to configure and use various large language model providers within OpenClaw, including authentication steps and model selection guidance.",
+      "tags": [
+        "model-providers",
+        "llm",
+        "configuration",
+        "api",
+        "authentication",
+        "chatbots"
+      ],
+      "category": "Integration & Connection",
+      "original_file_path": "providers.md"
+    },
+    {
+      "file_path": "163-bedrock.md",
+      "title": "Bedrock - OpenClaw",
+      "url": "https://docs.openclaw.ai/bedrock",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:37:56.178018463-03:00",
+      "summary": "This document explains how to configure and use Amazon Bedrock models with OpenClaw through the pi-ai Bedrock Converse streaming provider, covering authentication, automatic model discovery, manual setup, and EC2 instance role integration.",
+      "tags": [
+        "amazon-bedrock",
+        "aws-credentials",
+        "model-discovery",
+        "ec2-instance-role",
+        "bedrock-converse",
+        "streaming-api",
+        "openclaw-config"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "bedrock.md"
+    },
+    {
+      "file_path": "164-cli-agent.md",
+      "title": "Agent - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/agent",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:54.31555021-03:00",
+      "summary": "This document explains how to use the openclaw agent command to run agent turns through the Gateway, including options for local execution, agent targeting, and various message delivery settings.",
+      "tags": [
+        "command-line",
+        "agent-execution",
+        "gateway-integration",
+        "message-delivery",
+        "cli-tool"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-agent.md"
+    },
+    {
+      "file_path": "165-cli-agents.md",
+      "title": "Agents - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/agents",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:02.724741556-03:00",
+      "summary": "This document explains how to manage isolated agents including workspace configuration, authentication, and identity settings within the OpenClaw system.",
+      "tags": [
+        "agent-management",
+        "workspace-configuration",
+        "identity-settings",
+        "multi-agent",
+        "agent-workspace",
+        "authentication"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-agents.md"
+    },
+    {
+      "file_path": "166-cli-approvals.md",
+      "title": "Approvals - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/approvals",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:50.203271527-03:00",
+      "summary": "Provides instructions for managing execution approvals on local, gateway, or node hosts, including commands for retrieving, setting, and modifying allowlists.",
+      "tags": [
+        "exec-approvals",
+        "node-management",
+        "gateway",
+        "allowlist",
+        "command-line-tool"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-approvals.md"
+    },
+    {
+      "file_path": "167-cli-browser.md",
+      "title": "Browser - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/browser",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:18.922528748-03:00",
+      "summary": "This document provides instructions for managing OpenClaw's browser control server, including running browser actions like tabs, snapshots, screenshots, navigation, clicks, and typing, as well as configuring browser profiles and remote control setups.",
+      "tags": [
+        "browser-control",
+        "chrome-extension",
+        "remote-access",
+        "automation",
+        "profiles",
+        "gateway",
+        "websocket",
+        "screenshot"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-browser.md"
+    },
+    {
+      "file_path": "168-cli-cron.md",
+      "title": "Cron - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/cron",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:36:10.950799967-03:00",
+      "summary": "This document explains how to manage cron jobs for the Gateway scheduler using command-line operations, including editing job delivery settings and disabling deliveries.",
+      "tags": [
+        "cron-jobs",
+        "gateway-scheduler",
+        "command-line",
+        "task-management",
+        "automation"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-cron.md"
+    },
+    {
+      "file_path": "169-cli-dashboard.md",
+      "title": "Dashboard - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/dashboard",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:25.144927936-03:00",
+      "summary": "This document explains how to use the openclaw dashboard command to open the Control UI with current authentication settings.",
+      "tags": [
+        "cli-command",
+        "dashboard",
+        "control-ui",
+        "authentication"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-dashboard.md"
+    },
+    {
+      "file_path": "170-cli-directory.md",
+      "title": "Directory - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/directory",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:29.04338806-03:00",
+      "summary": "This document explains how to use directory lookups to find and identify channel participants, groups, and personal identifiers across various messaging platforms using the openclaw CLI tool.",
+      "tags": [
+        "directory-lookup",
+        "channel-ids",
+        "messaging-platforms",
+        "cli-tool",
+        "peer-identification",
+        "group-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-directory.md"
+    },
+    {
+      "file_path": "171-cli-dns.md",
+      "title": "Dns - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/dns",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:21.172180511-03:00",
+      "summary": "Provides DNS configuration tools for wide-area network discovery using Tailscale and CoreDNS, with setup instructions for macOS and Homebrew.",
+      "tags": [
+        "dns",
+        "network-discovery",
+        "tailscale",
+        "coredns",
+        "macos",
+        "setup"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-dns.md"
+    },
+    {
+      "file_path": "172-cli-docs.md",
+      "title": "Docs - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/docs",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:42.192176184-03:00",
+      "summary": "Provides documentation for the openclaw CLI tools, specifically covering DNS and hooks functionalities.",
+      "tags": [
+        "cli",
+        "documentation",
+        "dns",
+        "hooks",
+        "reference"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-docs.md"
+    },
+    {
+      "file_path": "173-cli-doctor.md",
+      "title": "Doctor - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/doctor",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:33.0380166-03:00",
+      "summary": "Provides guidance on diagnosing and resolving common issues with the OpenClaw gateway and channels through command-line health checks and repair options.",
+      "tags": [
+        "health-checks",
+        "troubleshooting",
+        "gateway",
+        "channels",
+        "cli-tools",
+        "macos",
+        "configuration"
+      ],
+      "category": "API & Reference"
+    },
+    {
+      "file_path": "174-cli-gateway.md",
+      "title": "Gateway - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/gateway",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:37.899022474-03:00",
+      "summary": "This document provides comprehensive documentation for the OpenClaw Gateway CLI, covering how to run, query, and manage the WebSocket server service including its various subcommands and configuration options.",
+      "tags": [
+        "gateway",
+        "websocket",
+        "cli",
+        "websocket-server",
+        "networking",
+        "configuration",
+        "command-line",
+        "api-client"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-gateway.md"
+    },
+    {
+      "file_path": "175-cli-health.md",
+      "title": "Health - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/health",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:46.009755786-03:00",
+      "summary": "Provides information about the openclaw health command for checking the status of a running Gateway, including available flags and output formats.",
+      "tags": [
+        "cli-command",
+        "gateway-status",
+        "health-check",
+        "openclaw"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-health.md"
+    },
+    {
+      "file_path": "176-cli-hooks.md",
+      "title": "Hooks - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/hooks",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:17.086842157-03:00",
+      "summary": "This document provides comprehensive guidance on managing agent hooks within the OpenClaw system, covering listing, enabling, disabling, installing, and updating hooks for event-driven automation.",
+      "tags": [
+        "agent-hooks",
+        "event-driven",
+        "automation",
+        "cli",
+        "configuration",
+        "plugin-hooks",
+        "hook-management",
+        "openclaw"
+      ],
+      "category": "API & Reference"
+    },
+    {
+      "file_path": "177-cli-memory.md",
+      "title": "Memory - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/memory",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:48.68549388-03:00",
+      "summary": "Provides instructions for managing semantic memory indexing and search operations through command-line interface commands.",
+      "tags": [
+        "semantic-memory",
+        "indexing",
+        "search",
+        "command-line",
+        "memory-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-memory.md"
+    },
+    {
+      "file_path": "178-cli-message.md",
+      "title": "Message - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/message",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:44.326261361-03:00",
+      "summary": "Provides comprehensive documentation for using the openclaw message command to send and manage messages across multiple communication platforms including Discord, Slack, WhatsApp, and others.",
+      "tags": [
+        "message-sending",
+        "multi-platform",
+        "discord",
+        "slack",
+        "whatsapp",
+        "telegram",
+        "msteams",
+        "api-reference"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-message.md"
+    },
+    {
+      "file_path": "179-cli-models.md",
+      "title": "Models - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/models",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:05.488847644-03:00",
+      "summary": "This document explains how to discover, scan, and configure language models within the OpenClaw system, including managing default models, fallbacks, aliases, and authentication profiles.",
+      "tags": [
+        "model-discovery",
+        "configuration",
+        "authentication",
+        "cli-commands",
+        "fallbacks",
+        "aliases",
+        "provider-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-models.md"
+    },
+    {
+      "file_path": "180-cli-onboard.md",
+      "title": "Onboard - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/onboard",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:56.754191634-03:00",
+      "summary": "Provides instructions for using the openclaw onboard command to set up local or remote Gateway connections through an interactive wizard interface.",
+      "tags": [
+        "cli-command",
+        "onboarding",
+        "gateway-setup",
+        "wizard",
+        "configuration"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-onboard.md"
+    },
+    {
+      "file_path": "181-cli-plugins.md",
+      "title": "Plugins - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/plugins",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:52.75498479-03:00",
+      "summary": "Provides instructions for managing Gateway plugins including installation, enabling, disabling, and updating plugins within the OpenClaw system.",
+      "tags": [
+        "plugin-management",
+        "gateway",
+        "cli-commands",
+        "security",
+        "installation",
+        "updates"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-plugins.md"
+    },
+    {
+      "file_path": "182-cli-reset.md",
+      "title": "Reset - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/reset",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:08.38701574-03:00",
+      "summary": "Provides instructions for resetting local configuration and state using the openclaw CLI command while preserving the installation.",
+      "tags": [
+        "cli-command",
+        "reset",
+        "configuration",
+        "state-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-reset.md"
+    },
+    {
+      "file_path": "183-cli-sandbox.md",
+      "title": "Sandbox CLI - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/sandbox",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:15.808860957-03:00",
+      "summary": "This document explains how to manage Docker-based sandbox containers for isolated agent execution using OpenClaw commands, including creating, listing, and recreating containers to ensure they use updated configurations and images.",
+      "tags": [
+        "docker",
+        "sandbox",
+        "container-management",
+        "agent-execution",
+        "openclaw",
+        "cli-tool"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-sandbox.md"
+    },
+    {
+      "file_path": "184-cli-security.md",
+      "title": "Security - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/security",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:03.372140671-03:00",
+      "summary": "Provides information about security auditing tools and best practices for OpenCLAW applications, including recommendations for session scoping and model sandboxing.",
+      "tags": [
+        "security-audit",
+        "session-management",
+        "model-sandboxing",
+        "openclaw-cli",
+        "security-tools"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-security.md"
+    },
+    {
+      "file_path": "185-cli-sessions.md",
+      "title": "Sessions - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/sessions",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:11.585380156-03:00",
+      "summary": "This document explains how to list stored conversation sessions using the openclaw CLI tool with various optional parameters.",
+      "tags": [
+        "cli",
+        "sessions",
+        "conversation",
+        "command-line",
+        "tool"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-sessions.md"
+    },
+    {
+      "file_path": "186-cli-setup.md",
+      "title": "Setup - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/setup",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:36.027362209-03:00",
+      "summary": "This document explains how to initialize the openclaw configuration file and agent workspace using the setup command, along with options for specifying workspace paths and running the onboarding wizard.",
+      "tags": [
+        "openclaw",
+        "setup",
+        "configuration",
+        "workspace",
+        "cli"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-setup.md"
+    },
+    {
+      "file_path": "187-cli-skills.md",
+      "title": "Skills - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/skills",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:31.94876668-03:00",
+      "summary": "This document explains how to use the openclaw skills command to inspect and manage skills within the OpenClaw system, including listing skills, checking eligibility, and viewing skill information.",
+      "tags": [
+        "openclaw",
+        "skills",
+        "cli",
+        "command-line",
+        "tooling"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-skills.md"
+    },
+    {
+      "file_path": "188-cli-status.md",
+      "title": "Status - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/status",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:20.012565271-03:00",
+      "summary": "Provides information about the openclaw status command and its various options for diagnosing channels and sessions.",
+      "tags": [
+        "diagnostics",
+        "status-command",
+        "channels",
+        "sessions",
+        "troubleshooting"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-status.md"
+    },
+    {
+      "file_path": "189-cli-system.md",
+      "title": "System - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/system",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:27.990669982-03:00",
+      "summary": "Provides instructions for using system-level commands in the Gateway to manage events, heartbeats, and system presence information.",
+      "tags": [
+        "system-events",
+        "heartbeat-control",
+        "presence-monitoring",
+        "gateway-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-system.md"
+    },
+    {
+      "file_path": "190-cli-tui.md",
+      "title": "Tui - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/tui",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:59.546481572-03:00",
+      "summary": "Provides instructions for using the openclaw terminal user interface to connect to a Gateway, including command syntax and optional parameters.",
+      "tags": [
+        "terminal-ui",
+        "gateway",
+        "cli",
+        "command-line",
+        "tui"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-tui.md"
+    },
+    {
+      "file_path": "191-cli-update.md",
+      "title": "Update - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/update",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:34:07.640170342-03:00",
+      "summary": "Provides instructions for safely updating OpenClaw across different channels and explaining the update process including git checkout flows and channel management.",
+      "tags": [
+        "update",
+        "openclaw",
+        "cli",
+        "channels",
+        "git",
+        "package-manager"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-update.md"
+    },
+    {
+      "file_path": "192-cli-voicecall.md",
+      "title": "Voicecall - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli/voicecall",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:33:06.494152393-03:00",
+      "summary": "Provides documentation for the voicecall plugin commands including status, call, continue, end, and webhook exposure functionality.",
+      "tags": [
+        "voice-call",
+        "plugin",
+        "command-line",
+        "webhook",
+        "tailscale",
+        "telephony"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli-voicecall.md"
+    },
+    {
+      "file_path": "193-cli.md",
+      "title": "Index - OpenClaw",
+      "url": "https://docs.openclaw.ai/cli",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:35:12.60687499-03:00",
+      "summary": "Provides comprehensive documentation for the OpenClaw command-line interface, detailing all available commands, global flags, output styling options, and security practices.",
+      "tags": [
+        "cli-reference",
+        "command-line",
+        "api-reference",
+        "configuration",
+        "security",
+        "terminal-output"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "cli.md"
+    },
+    {
+      "file_path": "194-concepts-typing-indicators.md",
+      "title": "Typing indicators - OpenClaw",
+      "url": "https://docs.openclaw.ai/concepts/typing-indicators",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:33.664966661-03:00",
+      "summary": "This document explains how to configure typing indicators in chat channels during active runs, covering different typing modes and their behaviors.",
+      "tags": [
+        "typing-indicator",
+        "chat-channel",
+        "agent-configuration",
+        "real-time-updates",
+        "user-interface"
+      ],
+      "category": "API & Reference"
+    },
+    {
+      "file_path": "195-debugging.md",
+      "title": "Debugging - OpenClaw",
+      "url": "https://docs.openclaw.ai/debugging",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:25.607304185-03:00",
+      "summary": "This document explains debugging techniques and development workflows for streaming output, including runtime overrides, gateway watch mode, dev profiles, and raw stream logging capabilities.",
+      "tags": [
+        "debugging",
+        "streaming",
+        "gateway",
+        "development",
+        "logging",
+        "openclaw",
+        "cli",
+        "configuration"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "debugging.md"
+    },
+    {
+      "file_path": "196-gateway-cli-backends.md",
+      "title": "Cli backends - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/cli-backends",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:31:17.308431774-03:00",
+      "summary": "This document explains how OpenClaw can use local AI command-line interfaces as a reliable fallback when primary API providers fail, detailing configuration options, session handling, and image support for CLI backends.",
+      "tags": [
+        "cli-backends",
+        "fallback-runtime",
+        "local-ai",
+        "session-management",
+        "image-handling",
+        "configuration-guide"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "gateway-cli-backends.md"
+    },
+    {
+      "file_path": "197-gateway-remote-gateway-readme.md",
+      "title": "Remote gateway readme - OpenClaw",
+      "url": "https://docs.openclaw.ai/gateway/remote-gateway-readme",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:42.174884276-03:00",
+      "summary": "This document provides instructions for configuring OpenClaw.app to connect to a remote gateway using SSH tunneling, including setup steps, auto-start configuration, and troubleshooting procedures.",
+      "tags": [
+        "ssh-tunneling",
+        "remote-gateway",
+        "openclaw",
+        "port-forwarding",
+        "launch-agent",
+        "troubleshooting"
+      ],
+      "category": "API & Reference"
+    },
+    {
+      "file_path": "198-help-troubleshooting.md",
+      "title": "Troubleshooting - OpenClaw",
+      "url": "https://docs.openclaw.ai/help/troubleshooting",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:03.331598588-03:00",
+      "summary": "Provides troubleshooting instructions and commands for resolving common issues with the openclaw CLI tool and gateway connectivity.",
+      "tags": [
+        "troubleshooting",
+        "cli-tool",
+        "gateway",
+        "installation",
+        "logs",
+        "configuration",
+        "error-handling"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "help-troubleshooting.md"
+    },
+    {
+      "file_path": "199-hooks.md",
+      "title": "Hooks - OpenClaw",
+      "url": "https://docs.openclaw.ai/hooks",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:29:12.386336773-03:00",
+      "summary": "This document explains how to use hooks in OpenClaw, which are event-driven scripts that automate actions in response to agent commands and events. It covers hook discovery, creation, management via CLI, and different types of hooks including workspace, managed, and bundled hooks.",
+      "tags": [
+        "hooks",
+        "event-driven",
+        "automation",
+        "cli",
+        "typescript",
+        "openclaw",
+        "agent-events",
+        "scripting"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "hooks.md"
+    },
+    {
+      "file_path": "200-platforms-android.md",
+      "title": "Android - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/android",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:41.12344272-03:00",
+      "summary": "This document provides instructions for setting up and connecting an Android companion app to an OpenClaw Gateway, covering installation, connection methods, pairing, and feature usage including chat, canvas, and camera functionality.",
+      "tags": [
+        "android-app",
+        "gateway-connection",
+        "pairing",
+        "websocket",
+        "mdns",
+        "bonjour",
+        "camera",
+        "canvas"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-android.md"
+    },
+    {
+      "file_path": "201-platforms-ios.md",
+      "title": "Ios - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/ios",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:32.576832368-03:00",
+      "summary": "This document provides instructions for setting up and using the iOS app to connect to a Gateway device, enabling node capabilities like canvas rendering, screen snapshots, camera capture, and voice interaction.",
+      "tags": [
+        "ios-app",
+        "gateway-connection",
+        "websocket",
+        "canvas-rendering",
+        "voice-wake",
+        "screen-snapshot",
+        "camera-capture",
+        "node-capabilities"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-ios.md"
+    },
+    {
+      "file_path": "202-platforms-linux.md",
+      "title": "Linux - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/linux",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:28.629089286-03:00",
+      "summary": "This document provides instructions for installing and running the OpenClaw Gateway on Linux systems, including setup on VPS environments and systemd service configuration.",
+      "tags": [
+        "linux",
+        "gateway",
+        "installation",
+        "nodejs",
+        "systemd",
+        "vps",
+        "deployment"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-linux.md"
+    },
+    {
+      "file_path": "203-platforms-mac-bundled-gateway.md",
+      "title": "Bundled gateway - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/bundled-gateway",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:47.035251192-03:00",
+      "summary": "This document explains how the OpenClaw macOS application manages the Gateway runtime using external CLI installation and launchd services, including installation instructions, launchd configuration, and version compatibility requirements.",
+      "tags": [
+        "gateway",
+        "macos",
+        "launchd",
+        "cli-installation",
+        "gateway-runtime",
+        "openclaw-app"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-bundled-gateway.md"
+    },
+    {
+      "file_path": "204-platforms-mac-canvas.md",
+      "title": "Canvas - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/canvas",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:51.201243007-03:00",
+      "summary": "This document describes the implementation and functionality of the Canvas panel in the macOS application, including its file serving mechanism, API exposure, A2UI integration, and security considerations.",
+      "tags": [
+        "canvas",
+        "webview",
+        "a2ui",
+        "api",
+        "security",
+        "macos",
+        "websocket",
+        "ui"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-canvas.md"
+    },
+    {
+      "file_path": "205-platforms-mac-child-process.md",
+      "title": "Child process - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/child-process",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:59.149561466-03:00",
+      "summary": "This document explains how the macOS Gateway application manages the Gateway process using launchd, including default behavior, troubleshooting commands, and alternative modes like attach-only and remote execution.",
+      "tags": [
+        "gateway-lifecycle",
+        "launchd",
+        "macos-app",
+        "process-management",
+        "debug-settings",
+        "remote-mode",
+        "child-process",
+        "auto-start"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-child-process.md"
+    },
+    {
+      "file_path": "206-platforms-mac-dev-setup.md",
+      "title": "Dev setup - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/dev-setup",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:03.667612935-03:00",
+      "summary": "Provides instructions for setting up a macOS development environment to build and run the OpenClaw application from source, including prerequisites, build steps, and troubleshooting guidance.",
+      "tags": [
+        "macos",
+        "development-setup",
+        "build-process",
+        "troubleshooting",
+        "xcode",
+        "nodejs"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-dev-setup.md"
+    },
+    {
+      "file_path": "207-platforms-mac-health.md",
+      "title": "Health - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/health",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:20.831823003-03:00",
+      "summary": "Explains how to monitor and check the health status of linked channels through a macOS menu bar application, including visual indicators and diagnostic functionality.",
+      "tags": [
+        "health-check",
+        "macos",
+        "status-monitoring",
+        "channel-health",
+        "ui-indicators",
+        "probe-system"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-health.md"
+    },
+    {
+      "file_path": "208-platforms-mac-icon.md",
+      "title": "Icon - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/icon",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:07.896166587-03:00",
+      "summary": "This document describes the visual state animations and behaviors for a macOS application icon, detailing how different states like idle, paused, voice trigger, and working affect icon appearance and motion.",
+      "tags": [
+        "icon-animation",
+        "visual-states",
+        "macos-app",
+        "ui-behavior",
+        "animation-controls"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-icon.md"
+    },
+    {
+      "file_path": "209-platforms-mac-logging.md",
+      "title": "Logging - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/logging",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:55.295592753-03:00",
+      "summary": "This document explains how to configure and use macOS logging for OpenClaw applications, including setting up rolling diagnostics logs and enabling private data logging for debugging purposes.",
+      "tags": [
+        "logging",
+        "macos",
+        "diagnostics",
+        "debugging",
+        "swift-log",
+        "unified-logging",
+        "privacy"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-logging.md"
+    },
+    {
+      "file_path": "210-platforms-mac-peekaboo.md",
+      "title": "Peekaboo - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/peekaboo",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:27:12.461973542-03:00",
+      "summary": "This document explains how to configure and use the Peekaboo Bridge for macOS UI automation, enabling secure communication between the OpenClaw app and the peekaboo CLI while leveraging existing TCC permissions.",
+      "tags": [
+        "ui-automation",
+        "macos",
+        "permissions",
+        "bridge",
+        "security",
+        "cli"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-peekaboo.md"
+    },
+    {
+      "file_path": "211-platforms-mac-release.md",
+      "title": "Release - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/release",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:13.588917385-03:00",
+      "summary": "This document provides instructions for releasing OpenClaw on macOS with Sparkle auto-updates, covering prerequisites, building, packaging, and publishing release artifacts.",
+      "tags": [
+        "macos",
+        "sparkle",
+        "auto-updates",
+        "release-process",
+        "notarization",
+        "package-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-release.md"
+    },
+    {
+      "file_path": "212-platforms-mac-signing.md",
+      "title": "Signing - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/signing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:09.349158765-03:00",
+      "summary": "This document explains the macOS app packaging and code signing process for debug builds, focusing on maintaining consistent TCC permissions through stable bundle identifiers and proper signing practices.",
+      "tags": [
+        "macos",
+        "code-signing",
+        "debug-builds",
+        "tcc-permissions",
+        "bundle-identifier",
+        "automation-script"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-signing.md"
+    },
+    {
+      "file_path": "213-platforms-mac-skills.md",
+      "title": "Skills - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/skills",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:34.407538111-03:00",
+      "summary": "This document explains how the macOS OpenClaw application interfaces with the gateway to manage skills, including installation, configuration, and environment variables.",
+      "tags": [
+        "macos",
+        "skills-management",
+        "gateway-communication",
+        "installation",
+        "configuration",
+        "environment-variables"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-skills.md"
+    },
+    {
+      "file_path": "214-platforms-mac-voicewake.md",
+      "title": "Voicewake - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/voicewake",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:21.618144539-03:00",
+      "summary": "This document describes the implementation and behavior of voice activation modes including wake-word detection and push-to-talk functionality, along with their runtime handling and user settings.",
+      "tags": [
+        "voice-wake",
+        "push-to-talk",
+        "speech-recognition",
+        "user-interface",
+        "runtime-behavior",
+        "keyboard-shortcuts",
+        "audio-processing",
+        "macos-app"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-voicewake.md"
+    },
+    {
+      "file_path": "215-platforms-mac-webchat.md",
+      "title": "Webchat - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/webchat",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:26.015701927-03:00",
+      "summary": "This document describes the WebChat macOS application, detailing its functionality as a native SwiftUI view that connects to a Gateway, including launch methods, debugging procedures, data plane integration, security considerations, and known limitations.",
+      "tags": [
+        "webchat",
+        "macos",
+        "gateway",
+        "websocket",
+        "swiftui",
+        "debugging",
+        "security"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-webchat.md"
+    },
+    {
+      "file_path": "216-platforms-mac-xpc.md",
+      "title": "Xpc - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/mac/xpc",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:17.605666072-03:00",
+      "summary": "This document describes the inter-process communication architecture for OpenClaw on macOS, detailing how a GUI application handles system permissions and automation tasks through secure local socket connections and node-based command execution.",
+      "tags": [
+        "ipc",
+        "macos",
+        "security",
+        "gateway",
+        "unix-socket",
+        "tcc",
+        "automation",
+        "node-service"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-mac-xpc.md"
+    },
+    {
+      "file_path": "217-platforms-macos.md",
+      "title": "Macos - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/macos",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:26:42.542040053-03:00",
+      "summary": "This document describes the macOS application component of OpenClaw, detailing its role as a menu-bar companion that manages Gateway connections, handles macOS permissions and capabilities, and supports both local and remote operation modes.",
+      "tags": [
+        "macos-app",
+        "gateway-management",
+        "tcc-permissions",
+        "launchd-control",
+        "remote-mode",
+        "system-run",
+        "exec-approvals",
+        "node-capabilities"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-macos.md"
+    },
+    {
+      "file_path": "218-platforms-windows.md",
+      "title": "Windows - OpenClaw",
+      "url": "https://docs.openclaw.ai/platforms/windows",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:42.81033278-03:00",
+      "summary": "This document provides instructions for installing and configuring OpenClaw on Windows using WSL2, including setup steps, gateway installation, and advanced networking configurations for accessing WSL services from other machines.",
+      "tags": [
+        "wsl2",
+        "windows",
+        "openclaw",
+        "gateway",
+        "installation",
+        "networking",
+        "ubuntu",
+        "cli"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "platforms-windows.md"
+    },
+    {
+      "file_path": "219-plugins-voice-call.md",
+      "title": "Voice call - OpenClaw",
+      "url": "https://docs.openclaw.ai/plugins/voice-call",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:55.710883465-03:00",
+      "summary": "Provides instructions for installing, configuring, and using the Voice Call plugin for OpenClaw, including support for multiple telephony providers and integration with the Gateway process.",
+      "tags": [
+        "voice-call",
+        "plugin",
+        "telephony",
+        "gateway",
+        "twilio",
+        "telnyx",
+        "plivo",
+        "cli"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "plugins-voice-call.md"
+    },
+    {
+      "file_path": "220-plugins-zalouser.md",
+      "title": "Zalouser - OpenClaw",
+      "url": "https://docs.openclaw.ai/plugins/zalouser",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:25:47.019222738-03:00",
+      "summary": "This document provides instructions for installing and configuring the Zalo Personal plugin for OpenClaw, which automates interactions with a personal Zalo user account using zca-cli.",
+      "tags": [
+        "zalo",
+        "automation",
+        "plugin",
+        "openclaw",
+        "cli",
+        "configuration"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "plugins-zalouser.md"
+    },
+    {
+      "file_path": "221-reference-AGENTS.default.md",
+      "title": "AGENTS.default - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/AGENTS.default",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:52.326200731-03:00",
+      "summary": "This document provides comprehensive setup and usage instructions for the OpenClaw Personal Assistant, covering workspace configuration, safety guidelines, session management, and core skill functionalities.",
+      "tags": [
+        "openclaw",
+        "assistant",
+        "workspace",
+        "setup",
+        "skills",
+        "configuration",
+        "security",
+        "session-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-AGENTS.default.md"
+    },
+    {
+      "file_path": "222-reference-RELEASING.md",
+      "title": "RELEASING - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/RELEASING",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:39.664040198-03:00",
+      "summary": "This document provides a comprehensive checklist for releasing npm packages and macOS applications, covering versioning, building, testing, publishing, and documentation updates.",
+      "tags": [
+        "release-checklist",
+        "npm-release",
+        "macos-app",
+        "build-process",
+        "publishing",
+        "versioning",
+        "ci-cd"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-RELEASING.md"
+    },
+    {
+      "file_path": "223-reference-device-models.md",
+      "title": "Device models - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/device-models",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:48.131520724-03:00",
+      "summary": "This document explains how the macOS companion app uses a device model database to display human-readable Apple device names in the UI, including the data source and update process.",
+      "tags": [
+        "device-models",
+        "apple-devices",
+        "macos-app",
+        "database-update",
+        "ui-display",
+        "resource-management"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-device-models.md"
+    },
+    {
+      "file_path": "224-reference-rpc.md",
+      "title": "Rpc - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/rpc",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:43.966906408-03:00",
+      "summary": "This document explains how OpenClaw integrates external CLIs using JSON-RPC through two distinct adapter patterns: HTTP daemon and stdio child processes. It outlines the technical specifications and guidelines for implementing these RPC adapters.",
+      "tags": [
+        "rpc-adapters",
+        "json-rpc",
+        "cli-integration",
+        "daemon-process",
+        "stdio-communication",
+        "adapter-patterns"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-rpc.md"
+    },
+    {
+      "file_path": "225-reference-session-management-compaction.md",
+      "title": "Session management compaction - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/session-management-compaction",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:35.278922788-03:00",
+      "summary": "This document provides a comprehensive overview of how OpenClaw manages sessions end-to-end, covering session routing, persistence layers, transcript structure, context limits, and compaction mechanisms.",
+      "tags": [
+        "session-management",
+        "transcript-persistence",
+        "context-limits",
+        "compaction",
+        "gateway-process",
+        "session-store",
+        "token-counting",
+        "auto-compaction"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-session-management-compaction.md"
+    },
+    {
+      "file_path": "226-reference-templates-AGENTS.md",
+      "title": "AGENTS - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/AGENTS",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:15.169636011-03:00",
+      "summary": "This document serves as a comprehensive guide for managing agent behavior, memory systems, and interaction protocols within a workspace environment. It outlines procedures for session setup, memory management, safety protocols, and communication guidelines.",
+      "tags": [
+        "agent-behavior",
+        "memory-management",
+        "session-setup",
+        "communication-guidelines",
+        "safety-protocols",
+        "heartbeat-system"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-templates-AGENTS.md"
+    },
+    {
+      "file_path": "227-reference-templates-BOOT.md",
+      "title": "BOOT - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/BOOT",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:19.400833471-03:00",
+      "summary": "Provides instructions for configuring OpenClaw startup behavior by enabling internal hooks and using the message tool for task communication.",
+      "tags": [
+        "startup",
+        "configuration",
+        "openclaw",
+        "hooks",
+        "message-tool"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-templates-BOOT.md"
+    },
+    {
+      "file_path": "228-reference-templates-BOOTSTRAP.md",
+      "title": "BOOTSTRAP - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/BOOTSTRAP",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:31.323045184-03:00",
+      "summary": "This document provides instructions for initializing an AI assistant by guiding users through establishing their identity, preferences, and communication methods.",
+      "tags": [
+        "ai-assistant",
+        "setup-guide",
+        "identity",
+        "conversation",
+        "onboarding"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-templates-BOOTSTRAP.md"
+    },
+    {
+      "file_path": "229-reference-templates-IDENTITY.md",
+      "title": "IDENTITY - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/IDENTITY",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:24:27.244201826-03:00",
+      "summary": "Provides instructions for creating and configuring an identity file that defines personal characteristics and metadata for an AI agent.",
+      "tags": [
+        "identity",
+        "configuration",
+        "metadata",
+        "ai-agent",
+        "setup"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-templates-IDENTITY.md"
+    },
+    {
+      "file_path": "230-reference-templates-USER.md",
+      "title": "USER - OpenClaw",
+      "url": "https://docs.openclaw.ai/reference/templates/USER",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:40.805373264-03:00",
+      "summary": "Provides guidance on creating and maintaining a user profile document to help AI assistants better understand and interact with humans they assist.",
+      "tags": [
+        "user-profile",
+        "relationship-building",
+        "ai-assistant",
+        "communication",
+        "personal-context"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "reference-templates-USER.md"
+    },
+    {
+      "file_path": "231-scripts.md",
+      "title": "Scripts - OpenClaw",
+      "url": "https://docs.openclaw.ai/scripts",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:50.121028348-03:00",
+      "summary": "This document explains the purpose and usage of helper scripts in the `scripts/` directory for local workflows and operations tasks, along with conventions and guidelines for script development and maintenance.",
+      "tags": [
+        "scripts-directory",
+        "local-workflows",
+        "git-hooks",
+        "auth-monitoring",
+        "script-conventions",
+        "operations-tasks"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "scripts.md"
+    },
+    {
+      "file_path": "232-testing.md",
+      "title": "Testing - OpenClaw",
+      "url": "https://docs.openclaw.ai/testing",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:23:20.151241171-03:00",
+      "summary": "This document serves as a comprehensive guide for understanding and executing OpenClaw's testing strategy, covering three distinct Vitest test suites (unit/integration, e2e, and live) and their respective purposes, configurations, and workflows for local development and CI environments.",
+      "tags": [
+        "testing-strategy",
+        "vitest",
+        "test-suites",
+        "openclaw",
+        "ci-cd",
+        "development-workflow",
+        "api-testing",
+        "live-tests"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "testing.md"
+    },
+    {
+      "file_path": "233-tui.md",
+      "title": "Tui - OpenClaw",
+      "url": "https://docs.openclaw.ai/tui",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:27.38049012-03:00",
+      "summary": "This document provides a comprehensive guide to using the Terminal User Interface (TUI) for interacting with a Gateway, covering setup, functionality, commands, and troubleshooting.",
+      "tags": [
+        "terminal-ui",
+        "gateway",
+        "chat-interface",
+        "command-line",
+        "keyboard-shortcuts",
+        "slash-commands",
+        "session-management",
+        "troubleshooting"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "tui.md"
+    },
+    {
+      "file_path": "234-web-dashboard.md",
+      "title": "Dashboard - OpenClaw",
+      "url": "https://docs.openclaw.ai/web/dashboard",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:23.043332283-03:00",
+      "summary": "This document explains how to access and use the Gateway dashboard control UI, including authentication methods, security considerations, and various ways to open the dashboard locally or remotely.",
+      "tags": [
+        "dashboard",
+        "control-ui",
+        "authentication",
+        "gateway",
+        "tunneling",
+        "security",
+        "cli"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "web-dashboard.md"
+    },
+    {
+      "file_path": "235-web-webchat.md",
+      "title": "Webchat - OpenClaw",
+      "url": "https://docs.openclaw.ai/web/webchat",
+      "source": "sitemap",
+      "fetched_at": "2026-01-30T20:21:18.903269442-03:00",
+      "summary": "This document describes the WebChat Gateway WebSocket UI, a native chat interface that connects directly to the Gateway WebSocket for real-time communication and messaging.",
+      "tags": [
+        "webchat",
+        "websocket",
+        "gateway",
+        "chat-ui",
+        "remote-access",
+        "configuration"
+      ],
+      "category": "API & Reference",
+      "original_file_path": "web-webchat.md"
+    }
+  ],
+  "organization": {
+    "strategy": "Universal Category Detection",
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & How-To",
+      "Concepts & Fundamentals",
+      "Configuration & Settings",
+      "Features & Capabilities",
+      "Integration & Connection",
+      "API & Reference"
+    ],
+    "total_documents": 235,
+    "organized_at": "2026-02-04T11:41:26.859066"
+  }
+}

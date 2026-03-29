@@ -1,0 +1,81 @@
+---
+title: Query D1 from Remix
+url: https://developers.cloudflare.com/d1/examples/d1-and-remix/index.md
+source: llms
+fetched_at: 2026-01-24T15:11:51.544000833-03:00
+rendered_js: false
+word_count: 171
+summary: This document provides instructions and code examples for querying a Cloudflare D1 database from a Remix application using Cloudflare Pages bindings and the data loading API.
+tags:
+    - cloudflare-d1
+    - remix
+    - cloudflare-pages
+    - data-loading
+    - wrangler
+    - typescript
+category: tutorial
+---
+
+---
+title: Query D1 from Remix · Cloudflare D1 docs
+description: Query your D1 database from a Remix application.
+lastUpdated: 2026-01-19T12:36:13.000Z
+chatbotDeprioritize: false
+tags: Remix
+source_url:
+  html: https://developers.cloudflare.com/d1/examples/d1-and-remix/
+  md: https://developers.cloudflare.com/d1/examples/d1-and-remix/index.md
+---
+
+Remix is a full-stack web framework that operates on both client and server. You can query your D1 database(s) from Remix using Remix's [data loading](https://remix.run/docs/en/main/guides/data-loading) API with the [`useLoaderData`](https://remix.run/docs/en/main/hooks/use-loader-data) hook.
+
+To set up a new Remix site on Cloudflare Pages that can query D1:
+
+1. **Refer to [the Remix guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-remix-site/)**.
+2. Bind a D1 database to your [Pages Function](https://developers.cloudflare.com/pages/functions/bindings/#d1-databases).
+3. Pass the `--d1 BINDING_NAME=DATABASE_ID` flag to `wrangler dev` when developing locally. `BINDING_NAME` should match what call in your code, and `DATABASE_ID` should match the `database_id` defined in your [Wrangler configuration file](https://developers.cloudflare.com/workers/wrangler/configuration/): for example, `--d1 DB=xxxx-xxxx-xxxx-xxxx-xxxx`.
+
+The following example shows you how to define a Remix [`loader`](https://remix.run/docs/en/main/route/loader) that has a binding to a D1 database.
+
+* Bindings are passed through on the `context.env` parameter passed to a `LoaderFunction`.
+* If you configured a [binding](https://developers.cloudflare.com/pages/functions/bindings/#d1-databases) named `DB`, then you would access [D1 Workers Binding API](https://developers.cloudflare.com/d1/worker-api/prepared-statements/) methods via `context.env.DB`.
+
+- TypeScript
+
+  ```ts
+  import type { LoaderFunction } from "@remix-run/cloudflare";
+  import { json } from "@remix-run/cloudflare";
+  import { useLoaderData } from "@remix-run/react";
+
+
+  interface Env {
+    DB: D1Database;
+  }
+
+
+  export const loader: LoaderFunction = async ({ context, params }) => {
+    let env = context.cloudflare.env as Env;
+
+
+    try {
+      let { results } = await env.DB.prepare("SELECT * FROM users LIMIT 5").run();
+      return json(results);
+    } catch (error) {
+      return json({ error: "Failed to fetch users" }, { status: 500 });
+    }
+  };
+
+
+  export default function Index() {
+    const results = useLoaderData<typeof loader>();
+    return (
+      <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.8" }}>
+        <h1>Welcome to Remix</h1>
+        <div>
+          A value from D1:
+          <pre>{JSON.stringify(results)}</pre>
+        </div>
+      </div>
+    );
+  }
+  ```

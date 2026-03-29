@@ -1,0 +1,1656 @@
+{
+  "generated_at": "2026-02-07T15:18:36.233500352-03:00",
+  "source_url": "https://developers.olx.com.br/",
+  "strategy": "crawler",
+  "total_documents": 87,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-07T15:22:19.235221",
+    "total_files": 87,
+    "categories": [
+      "Welcome & Overview",
+      "Quick Start & Getting Started",
+      "Authentication & Security",
+      "Core API - Advertisement Management",
+      "Webhooks & Notifications",
+      "Chat Integration",
+      "Leads Integration",
+      "Ad Highlights & Features",
+      "Ad Renewals",
+      "Vehicle History (HV)",
+      "Real Estate - JSON Import",
+      "Real Estate - API & XML",
+      "Autos & Vehicles - JSON",
+      "Autos & Vehicles - API",
+      "Lead Descriptions - Autos",
+      "Agro & Industry",
+      "Electronics",
+      "Deprecated APIs"
+    ],
+    "category_details": [
+      {
+        "name": "Welcome & Overview",
+        "description": "Portal entry point and general documentation overview",
+        "file_range": "001-002",
+        "count": 2
+      },
+      {
+        "name": "Quick Start & Getting Started",
+        "description": "Getting started guides for ad integration",
+        "file_range": "003-005",
+        "count": 3
+      },
+      {
+        "name": "Authentication & Security",
+        "description": "OAuth authentication and security guidelines",
+        "file_range": "006-008",
+        "count": 3
+      },
+      {
+        "name": "Core API - Advertisement Management",
+        "description": "Primary API endpoints for ad CRUD operations and status",
+        "file_range": "009-016",
+        "count": 8
+      },
+      {
+        "name": "Webhooks & Notifications",
+        "description": "Real-time notifications and webhook configuration",
+        "file_range": "017-021",
+        "count": 5
+      },
+      {
+        "name": "Chat Integration",
+        "description": "Bidirectional chat messaging between OLX and CRMs",
+        "file_range": "022-024",
+        "count": 3
+      },
+      {
+        "name": "Leads Integration",
+        "description": "Lead delivery and CRM integration",
+        "file_range": "025-029",
+        "count": 5
+      },
+      {
+        "name": "Ad Highlights & Features",
+        "description": "Managing ad highlights and visibility features",
+        "file_range": "030-033",
+        "count": 4
+      },
+      {
+        "name": "Ad Renewals",
+        "description": "Automated ad renewal functionality",
+        "file_range": "034-034",
+        "count": 1
+      },
+      {
+        "name": "Vehicle History (HV)",
+        "description": "Vehicle history reports and API integration",
+        "file_range": "035-037",
+        "count": 3
+      },
+      {
+        "name": "Real Estate - JSON Import",
+        "description": "JSON integration for real estate listings",
+        "file_range": "038-045",
+        "count": 8
+      },
+      {
+        "name": "Real Estate - API & XML",
+        "description": "API and XML integration for real estate",
+        "file_range": "046-057",
+        "count": 12
+      },
+      {
+        "name": "Autos & Vehicles - JSON",
+        "description": "JSON integration for vehicle listings",
+        "file_range": "058-066",
+        "count": 9
+      },
+      {
+        "name": "Autos & Vehicles - API",
+        "description": "API integration for vehicle listings",
+        "file_range": "067-074",
+        "count": 8
+      },
+      {
+        "name": "Lead Descriptions - Autos",
+        "description": "Lead field definitions for automotive categories",
+        "file_range": "075-077",
+        "count": 3
+      },
+      {
+        "name": "Agro & Industry",
+        "description": "Agricultural and industrial equipment listings",
+        "file_range": "078-081",
+        "count": 4
+      },
+      {
+        "name": "Electronics",
+        "description": "Electronics and cell phone listings",
+        "file_range": "082-083",
+        "count": 2
+      },
+      {
+        "name": "Deprecated APIs",
+        "description": "Legacy and deprecated API endpoints",
+        "file_range": "084-087",
+        "count": 4
+      }
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "title": "Portal de integração OLX",
+      "url": "https://developers.olx.com.br/",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:16:55.446472179-03:00",
+      "summary": "This document serves as the central landing page for the OLX integration portal, directing developers to resources for ads, chat, leads, highlights, webhooks, and API rate-limiting policies.",
+      "tags": [
+        "olx-api",
+        "developer-portal",
+        "integration-hub",
+        "webhooks",
+        "rate-limiting",
+        "ads-management"
+      ],
+      "category": "api",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "002-faq-home.md",
+      "title": "Perguntas Frequentes",
+      "url": "https://developers.olx.com.br/faq/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:11.05262186-03:00",
+      "summary": "This document provides a directory of links to frequently asked questions and technical support contact information for developers integrating with the OLX platform.",
+      "tags": [
+        "olx-api",
+        "faq",
+        "rate-limiting",
+        "image-specifications",
+        "integration-support"
+      ],
+      "category": "other",
+      "original_file_path": "faq-home.md"
+    },
+    {
+      "file_path": "003-anuncio-home.md",
+      "title": "Documentação para a Importação de Anúncios da OLX",
+      "url": "https://developers.olx.com.br/anuncio/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:06.174674446-03:00",
+      "summary": "This document outlines the available methods for third-party ad integration on OLX, detailing supported categories and technical models for API, XML, and JSON imports.",
+      "tags": [
+        "olx-integration",
+        "ad-import",
+        "api-reference",
+        "xml-integration",
+        "json-integration",
+        "inventory-management",
+        "real-estate-ads"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-home.md"
+    },
+    {
+      "file_path": "004-anuncio-api-home.md",
+      "title": "Documentação da API de Integração de Anúncios da OLX",
+      "url": "https://developers.olx.com.br/anuncio/api/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:11.998399963-03:00",
+      "summary": "This document provides an overview of the OLX Ad Integration API, detailing its available features for managing ads, authentication, status monitoring, and catalog information.",
+      "tags": [
+        "olx-api",
+        "ad-integration",
+        "inventory-management",
+        "oauth",
+        "webhooks",
+        "api-documentation"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-home.md"
+    },
+    {
+      "file_path": "005-anuncio-json-home.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:11.609038919-03:00",
+      "summary": "This document outlines the technical requirements and procedures for importing advertisements to OLX using a JSON file, including parameter definitions and synchronization logic for insertions and updates.",
+      "tags": [
+        "olx-integration",
+        "json-import",
+        "ad-management",
+        "data-synchronization",
+        "bulk-upload"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-json-home.md"
+    },
+    {
+      "file_path": "006-anuncio-api-oauth.md",
+      "title": "Autenticação na API olx.com.br",
+      "url": "https://developers.olx.com.br/anuncio/api/oauth.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:21.089831227-03:00",
+      "summary": "This document provides a comprehensive guide for implementing OAuth 2.0 authentication for web applications integrating with the OLX API.",
+      "tags": [
+        "oauth-2-0",
+        "api-authentication",
+        "olx-api",
+        "web-application",
+        "authorization-flow",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-api-oauth.md"
+    },
+    {
+      "file_path": "007-chat-oauth-chat.md",
+      "title": "Autenticação do chat na API olx.com.br",
+      "url": "https://developers.olx.com.br/chat/oauth_chat.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:32.566261087-03:00",
+      "summary": "This document outlines the authentication and authorization process for OLX chat integration using the OAuth 2.0 protocol. It details the required parameters, scopes, and response handling for obtaining access tokens.",
+      "tags": [
+        "authentication",
+        "authorization",
+        "oauth-2-0",
+        "olx-api",
+        "chat-integration",
+        "access-token"
+      ],
+      "category": "guide",
+      "original_file_path": "chat-oauth-chat.md"
+    },
+    {
+      "file_path": "008-faq-rate-limit.md",
+      "title": "Limitação de Taxa (Rate Limit) na API",
+      "url": "https://developers.olx.com.br/faq/rate_limit.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:10.814734269-03:00",
+      "summary": "This document outlines the rate limiting policy for OLX APIs, specifying request thresholds, block durations, and the associated 429 error response.",
+      "tags": [
+        "olx-api",
+        "rate-limiting",
+        "api-throttling",
+        "status-429",
+        "ip-based-limit"
+      ],
+      "category": "reference",
+      "original_file_path": "faq-rate-limit.md"
+    },
+    {
+      "file_path": "009-anuncio-api-import.md",
+      "title": "Importação de Anúncios (Inserção/Edição/Deleção)",
+      "url": "https://developers.olx.com.br/anuncio/api/import.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:31.498792507-03:00",
+      "summary": "This document provides technical instructions for programmatically inserting, updating, and deleting advertisements on the OLX platform using their JSON-based API and oAuth authentication.",
+      "tags": [
+        "olx-api",
+        "ad-management",
+        "oauth-authentication",
+        "json-import",
+        "api-integration",
+        "payload-specification"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-import.md"
+    },
+    {
+      "file_path": "010-anuncio-api-ads.md",
+      "title": "Consulta de status da publicação",
+      "url": "https://developers.olx.com.br/anuncio/api/ads.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:07.556728453-03:00",
+      "summary": "This document explains how to monitor and query the status of advertisements published via the OLX API, detailing the differences between import processes and final ad states.",
+      "tags": [
+        "olx-api",
+        "ad-status",
+        "import-process",
+        "webhooks",
+        "api-integration",
+        "ad-publishing"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-ads.md"
+    },
+    {
+      "file_path": "011-anuncio-api-publishing-status.md",
+      "title": "Consulta de status da Importação",
+      "url": "https://developers.olx.com.br/anuncio/api/publishing_status.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:07.892159429-03:00",
+      "summary": "Explains how to query the publication status of ads after an import process on the OLX platform, detailing request requirements and JSON response structures.",
+      "tags": [
+        "olx-api",
+        "publication-status",
+        "ad-import",
+        "autoupload",
+        "api-reference",
+        "error-handling"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-publishing-status.md"
+    },
+    {
+      "file_path": "012-anuncio-api-published-ads.md",
+      "title": "Listagem de Publicação",
+      "url": "https://developers.olx.com.br/anuncio/api/published_ads.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:06.859502378-03:00",
+      "summary": "This document describes the OLX Publication Listing API, detailing how to systematically retrieve and manage advertisement data through status filtering and pagination.",
+      "tags": [
+        "olx-api",
+        "listing-api",
+        "pagination",
+        "ad-management",
+        "api-reference",
+        "json-api"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-published-ads.md"
+    },
+    {
+      "file_path": "013-anuncio-api-published-ads-status.md",
+      "title": "Consulta do status de Anúncios Publicados",
+      "url": "https://developers.olx.com.br/anuncio/api/published_ads_status.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:07.714857932-03:00",
+      "summary": "This document provides technical specifications for the OLX API endpoint used to retrieve the current status, publication details, and error messages of a specific advertisement.",
+      "tags": [
+        "olx-api",
+        "ad-status",
+        "rest-api",
+        "authentication",
+        "json-response",
+        "http-get",
+        "error-handling"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-published-ads-status.md"
+    },
+    {
+      "file_path": "014-faq-xml-json-insertion.md",
+      "title": "Inferência de operações",
+      "url": "https://developers.olx.com.br/faq/xml_json_insertion.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:17.734817185-03:00",
+      "summary": "This document explains the logic used by OLX to process advertisement insertions, updates, and deletions based on unique identifiers within XML and JSON integration files.",
+      "tags": [
+        "olx-integration",
+        "xml-import",
+        "json-import",
+        "ad-management",
+        "data-synchronization"
+      ],
+      "category": "guide",
+      "original_file_path": "faq-xml-json-insertion.md"
+    },
+    {
+      "file_path": "015-faq-category.md",
+      "title": "Alteração de categoria",
+      "url": "https://developers.olx.com.br/faq/category.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:15.974010557-03:00",
+      "summary": "Explains that a listing's category cannot be changed once it has been created and provides guidance on how to correct categorization errors.",
+      "tags": [
+        "listing-management",
+        "category-change",
+        "ad-policy",
+        "marketplace-rules"
+      ],
+      "category": "guide",
+      "original_file_path": "faq-category.md"
+    },
+    {
+      "file_path": "016-faq-images.md",
+      "title": "Especificação de Imagens",
+      "url": "https://developers.olx.com.br/faq/images.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:16.722050391-03:00",
+      "summary": "This document outlines the technical specifications for images uploaded via integration, including file size limits, supported formats, and required dimensions.",
+      "tags": [
+        "image-specifications",
+        "olx-integration",
+        "file-requirements",
+        "technical-standards",
+        "image-dimensions"
+      ],
+      "category": "reference",
+      "original_file_path": "faq-images.md"
+    },
+    {
+      "file_path": "017-webhooks-home.md",
+      "title": "Notificação via Webhooks",
+      "url": "https://developers.olx.com.br/webhooks/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:09.034687949-03:00",
+      "summary": "This document explains how to integrate and receive automated notifications about ad statuses and other events through a webhook system using HTTP POST requests.",
+      "tags": [
+        "webhooks",
+        "api-integration",
+        "notifications",
+        "ad-status",
+        "http-post"
+      ],
+      "category": "guide",
+      "original_file_path": "webhooks-home.md"
+    },
+    {
+      "file_path": "018-webhooks-notifications-configuration.md",
+      "title": "Configuração de Notificações",
+      "url": "https://developers.olx.com.br/webhooks/notifications_configuration.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:22.168219873-03:00",
+      "summary": "This document explains how to set up and manage webhook notifications for advertisement status updates using the OLX self-service API. It covers authentication via OAuth and the CRUD operations required to manage notification endpoints and tokens.",
+      "tags": [
+        "olx-api",
+        "webhooks",
+        "notification-configuration",
+        "oauth-authentication",
+        "ad-status",
+        "rest-api"
+      ],
+      "category": "guide",
+      "original_file_path": "webhooks-notifications-configuration.md"
+    },
+    {
+      "file_path": "019-webhooks-notifications-model.md",
+      "title": "Modelo de notificações",
+      "url": "https://developers.olx.com.br/webhooks/notifications_model.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:22.690743342-03:00",
+      "summary": "This document defines the structure and data format of webhook notifications, including the specific JSON payload fields and requirements for receiving ad status updates.",
+      "tags": [
+        "webhook-notifications",
+        "json-payload",
+        "api-integration",
+        "ad-status",
+        "event-notifications"
+      ],
+      "category": "reference",
+      "original_file_path": "webhooks-notifications-model.md"
+    },
+    {
+      "file_path": "020-webhooks-notifications-ad-status.md",
+      "title": "Notificação de Status de Anúncios",
+      "url": "https://developers.olx.com.br/webhooks/notifications_ad_status.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:22.246531221-03:00",
+      "summary": "This document describes the structure and field definitions for advertisement status notifications, including a comprehensive list of possible status values and refusal reasons for integrators.",
+      "tags": [
+        "ad-status",
+        "notifications",
+        "api-reference",
+        "integration",
+        "olx-api",
+        "webhook-payload"
+      ],
+      "category": "reference",
+      "original_file_path": "webhooks-notifications-ad-status.md"
+    },
+    {
+      "file_path": "021-webhooks-url-encoding.md",
+      "title": "Codificação de URL",
+      "url": "https://developers.olx.com.br/webhooks/url_encoding.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:23.195041234-03:00",
+      "summary": "This document outlines the required URL structures and formatting for configuring notification endpoints, specifically detailing how to include advertiser identifiers in paths or subdomains.",
+      "tags": [
+        "url-encoding",
+        "endpoint-configuration",
+        "notification-api",
+        "advertiser-id",
+        "integration-setup"
+      ],
+      "category": "configuration",
+      "original_file_path": "webhooks-url-encoding.md"
+    },
+    {
+      "file_path": "022-chat-home.md",
+      "title": "Documentação para a Integração de Chat",
+      "url": "https://developers.olx.com.br/chat/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:09.704649439-03:00",
+      "summary": "This document provides an overview of the OLX chat integration, detailing how to authenticate via oAuth and handle the bidirectional exchange of messages between OLX and external CRM systems.",
+      "tags": [
+        "olx-api",
+        "chat-integration",
+        "oauth-authentication",
+        "crm-integration",
+        "messaging"
+      ],
+      "category": "guide",
+      "original_file_path": "chat-home.md"
+    },
+    {
+      "file_path": "023-chat-receive-message.md",
+      "title": "Recebendo mensagens do chat (OLX → CRM)",
+      "url": "https://developers.olx.com.br/chat/receive_message.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:33.280688601-03:00",
+      "summary": "This document explains how to configure and receive OLX chat messages via webhooks in a CRM, detailing the activation/deactivation endpoints and the chat message data structure.",
+      "tags": [
+        "olx-integration",
+        "webhook-configuration",
+        "chat-api",
+        "crm-integration",
+        "http-protocol"
+      ],
+      "category": "api",
+      "original_file_path": "chat-receive-message.md"
+    },
+    {
+      "file_path": "024-chat-send-message.md",
+      "title": "Respondendo à um chat (CRM → OLX)",
+      "url": "https://developers.olx.com.br/chat/send_message.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:35.606209085-03:00",
+      "summary": "This document provides the technical specification for the OLX Auto Service API endpoint used to send chat messages from a CRM system to the OLX platform.",
+      "tags": [
+        "olx-api",
+        "crm-integration",
+        "chat-messaging",
+        "api-endpoint",
+        "http-post"
+      ],
+      "category": "api",
+      "original_file_path": "chat-send-message.md"
+    },
+    {
+      "file_path": "025-lead-home.md",
+      "title": "Documentação para a Integração de Leads com a OLX",
+      "url": "https://developers.olx.com.br/lead/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:09.696207431-03:00",
+      "summary": "This document provides an overview of how CRMs and management software can integrate with OLX to automatically receive lead data via API.",
+      "tags": [
+        "olx-leads",
+        "crm-integration",
+        "lead-management",
+        "api-documentation",
+        "lead-delivery"
+      ],
+      "category": "api",
+      "original_file_path": "lead-home.md"
+    },
+    {
+      "file_path": "026-lead-how-to.md",
+      "title": "Integrar lead na OLX",
+      "url": "https://developers.olx.com.br/lead/how_to.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:29.523359773-03:00",
+      "summary": "Explica como configurar e gerenciar endpoints para o recebimento de leads da OLX via API, incluindo autenticação oAuth e operações de CRUD para URLs de notificação.",
+      "tags": [
+        "olx-leads",
+        "api-integration",
+        "oauth-authentication",
+        "lead-configuration",
+        "webhooks",
+        "endpoint-management"
+      ],
+      "category": "api",
+      "original_file_path": "lead-how-to.md"
+    },
+    {
+      "file_path": "027-lead-leads.md",
+      "title": "Envio de Leads",
+      "url": "https://developers.olx.com.br/lead/leads.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:29.272341423-03:00",
+      "summary": "This document outlines the technical specifications for integrating OLX leads via HTTP POST requests, detailing the required JSON payload structure, parameters, and status code handling.",
+      "tags": [
+        "api-integration",
+        "lead-generation",
+        "json-payload",
+        "olx-platform",
+        "webhook",
+        "http-post"
+      ],
+      "category": "api",
+      "original_file_path": "lead-leads.md"
+    },
+    {
+      "file_path": "028-lead-leads-enriched.md",
+      "title": "Leads com informações detalhadas do anúncio",
+      "url": "https://developers.olx.com.br/lead/leads_enriched.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:30.311341485-03:00",
+      "summary": "This document explains the integration of lead data with an additional 'adsInfo' structure that provides detailed advertisement metadata for automotive categories.",
+      "tags": [
+        "lead-integration",
+        "ads-info",
+        "api-payload",
+        "autos-category",
+        "olx-integration",
+        "webhook-data"
+      ],
+      "category": "api",
+      "original_file_path": "lead-leads-enriched.md"
+    },
+    {
+      "file_path": "029-lead-support.md",
+      "title": "Contato",
+      "url": "https://developers.olx.com.br/lead/support.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:29.933267516-03:00",
+      "summary": "This document explains the process for configuring lead delivery URLs and obtaining technical homologation for OLX integrators via API or support.",
+      "tags": [
+        "olx-integration",
+        "lead-homologation",
+        "api-configuration",
+        "technical-support",
+        "endpoint-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "lead-support.md"
+    },
+    {
+      "file_path": "030-destaque-home.md",
+      "title": "Destaques do anuncio",
+      "url": "https://developers.olx.com.br/destaque/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:07.836491902-03:00",
+      "summary": "This document explains the Destaques feature for boosting ad visibility on the OLX platform and provides links to API documentation for managing highlights and account balances.",
+      "tags": [
+        "olx-api",
+        "ad-visibility",
+        "highlights-pro",
+        "ad-management",
+        "integration-support",
+        "balance-check"
+      ],
+      "category": "reference",
+      "original_file_path": "destaque-home.md"
+    },
+    {
+      "file_path": "031-destaque-balance-ads.md",
+      "title": "Consumo Saldos e Limites de Anúncios",
+      "url": "https://developers.olx.com.br/destaque/balance_ads.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:24.889711084-03:00",
+      "summary": "This document explains how to use the OLX balance API to monitor ad insertion limits, available balances, and plan renewal dates for professional accounts.",
+      "tags": [
+        "olx-ads-api",
+        "balance-tracking",
+        "ad-insertion-limits",
+        "api-reference",
+        "endpoint-documentation",
+        "ad-bumps"
+      ],
+      "category": "api",
+      "original_file_path": "destaque-balance-ads.md"
+    },
+    {
+      "file_path": "032-destaque-bumps-get.md",
+      "title": "Consulta de anúncios destacados",
+      "url": "https://developers.olx.com.br/destaque/bumps_get.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:24.06678725-03:00",
+      "summary": "This document provides technical specifications for the OLX API endpoint used to query the status and schedule of highlighted ads. It details the request parameters, authentication requirements, and the structure of both success and error responses.",
+      "tags": [
+        "olx-api",
+        "ad-highlighting",
+        "api-reference",
+        "bump-ads",
+        "json-response",
+        "advertisement-management"
+      ],
+      "category": "api",
+      "original_file_path": "destaque-bumps-get.md"
+    },
+    {
+      "file_path": "033-destaque-bumps-put.md",
+      "title": "Aplicação de destaque em anúncio",
+      "url": "https://developers.olx.com.br/destaque/bumps_put.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:24.697682315-03:00",
+      "summary": "This document provides technical specifications for the OLX Highlights API, detailing how to apply 'bumps' to advertisements to increase their visibility on the platform.",
+      "tags": [
+        "olx-api",
+        "ad-highlighting",
+        "bump-ads",
+        "rest-api",
+        "oauth-authentication",
+        "error-codes"
+      ],
+      "category": "api",
+      "original_file_path": "destaque-bumps-put.md"
+    },
+    {
+      "file_path": "034-renewals-home.md",
+      "title": "Renovação de Anúncios",
+      "url": "https://developers.olx.com.br/renewals/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:10.213088537-03:00",
+      "summary": "This document provides the technical specification for the OLX Ad Renewal API, explaining how to programmatically reactivate expired advertisements using batch processing via a PATCH request.",
+      "tags": [
+        "olx-api",
+        "ads-renewal",
+        "batch-processing",
+        "api-documentation",
+        "ad-management"
+      ],
+      "category": "api",
+      "original_file_path": "renewals-home.md"
+    },
+    {
+      "file_path": "035-hv-home.md",
+      "title": "Histórico Veicular",
+      "url": "https://developers.olx.com.br/hv/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:10.044705666-03:00",
+      "summary": "This document explains the Vehicle History (HV) report, outlining its benefits for buyers and sellers, the types of legal and administrative data included, and the methods for technical activation.",
+      "tags": [
+        "historico-veicular",
+        "vehicle-history",
+        "olx-integration",
+        "api-activation",
+        "automotive-sales",
+        "vehicle-report"
+      ],
+      "category": "concept",
+      "original_file_path": "hv-home.md"
+    },
+    {
+      "file_path": "036-hv-fluxo-importacao.md",
+      "title": "Via Importação do Anúncio",
+      "url": "https://developers.olx.com.br/hv/fluxo_importacao.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:37.203443431-03:00",
+      "summary": "This document explains how to activate the Vehicle History feature during the ad import process on OLX, detailing specific API parameters and mandatory field requirements.",
+      "tags": [
+        "olx-api",
+        "vehicle-history",
+        "ad-import",
+        "api-parameters",
+        "automotive-ads"
+      ],
+      "category": "api",
+      "original_file_path": "hv-fluxo-importacao.md"
+    },
+    {
+      "file_path": "037-hv-rotas-api-hv.md",
+      "title": "Via Administração do HV",
+      "url": "https://developers.olx.com.br/hv/rotas_api_hv.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:38.661877238-03:00",
+      "summary": "This document provides technical documentation for the Vehicle History API, detailing how to activate, query, and remove vehicle history information from advertisements.",
+      "tags": [
+        "api-reference",
+        "vehicle-history",
+        "endpoint-documentation",
+        "http-methods",
+        "integration-guide"
+      ],
+      "category": "api",
+      "original_file_path": "hv-rotas-api-hv.md"
+    },
+    {
+      "file_path": "038-anuncio-json-real-estate-home.md",
+      "title": "JSON para Imóveis na OLX",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:12.428451441-03:00",
+      "summary": "This document outlines the requirements and category codes for importing real estate listings into the OLX platform via JSON, providing links to subcategory-specific parameters.",
+      "tags": [
+        "olx-api",
+        "real-estate",
+        "json-import",
+        "data-integration",
+        "property-listings",
+        "category-codes"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-real-estate-home.md"
+    },
+    {
+      "file_path": "039-anuncio-json-real-estate.md",
+      "title": "Imóveis",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:51.218467156-03:00",
+      "summary": "This document outlines the requirements and category codes for importing real estate listings into OLX using the JSON format, including subcategory-specific parameters.",
+      "tags": [
+        "olx-api",
+        "real-estate",
+        "json-import",
+        "listing-categories",
+        "integration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-json-real-estate.md"
+    },
+    {
+      "file_path": "040-anuncio-json-real-estate-sub-apartment.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/sub_apartment.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:26.182050436-03:00",
+      "summary": "This document outlines the specific parameters, data types, and required values for creating or editing real estate listings in the Apartments subcategory.",
+      "tags": [
+        "apartments",
+        "api-parameters",
+        "real-estate",
+        "data-schema",
+        "property-listings"
+      ],
+      "category": "configuration",
+      "original_file_path": "anuncio-json-real-estate-sub-apartment.md"
+    },
+    {
+      "file_path": "041-anuncio-json-real-estate-sub-house.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/sub_house.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:26.091817307-03:00",
+      "summary": "This document defines the technical schema and parameter values required for submitting real estate listings under the Houses subcategory of an advertising platform.",
+      "tags": [
+        "api-reference",
+        "real-estate-listings",
+        "parameter-definitions",
+        "json-payload",
+        "property-metadata"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-real-estate-sub-house.md"
+    },
+    {
+      "file_path": "042-anuncio-json-real-estate-sub-commercial.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/sub_commercial.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:29.115486081-03:00",
+      "summary": "This document outlines the specific parameters and configuration required for submitting advertisements under the Commerce and Industry subcategory within an API payload.",
+      "tags": [
+        "api-parameters",
+        "real-estate-ads",
+        "json-payload",
+        "property-metadata",
+        "commerce-industry"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-real-estate-sub-commercial.md"
+    },
+    {
+      "file_path": "043-anuncio-json-real-estate-sub-land.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/sub_land.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:28.042477025-03:00",
+      "summary": "This document outlines the specific parameters and data formatting required for posting or editing listings in the land and farm real estate subcategory via API.",
+      "tags": [
+        "api-integration",
+        "real-estate-data",
+        "data-parameters",
+        "json-payload",
+        "listing-management"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-json-real-estate-sub-land.md"
+    },
+    {
+      "file_path": "044-anuncio-json-real-estate-sub-roomrent.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/sub_roomrent.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:27.229059083-03:00",
+      "summary": "This document specifies the mandatory parameters and JSON structure required to create or edit listings in the room rental subcategory.",
+      "tags": [
+        "room-rental",
+        "api-integration",
+        "category-parameters",
+        "json-payload",
+        "listing-management"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-json-real-estate-sub-roomrent.md"
+    },
+    {
+      "file_path": "045-anuncio-json-real-estate-sub-season.md",
+      "title": "Importação de Anúncios via Arquivo JSON",
+      "url": "https://developers.olx.com.br/anuncio/json/real_estate/sub_season.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:27.952280336-03:00",
+      "summary": "This document defines the technical parameters and allowed values for listing real estate advertisements in the vacation rentals subcategory. It provides a detailed field reference and a JSON payload example for system integration.",
+      "tags": [
+        "real-estate",
+        "api-integration",
+        "vacation-rentals",
+        "json-parameters",
+        "data-specification"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-real-estate-sub-season.md"
+    },
+    {
+      "file_path": "046-anuncio-api-real-estate-home.md",
+      "title": "Categoria de Imóveis",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:12.424084501-03:00",
+      "summary": "This document provides the specific category codes and documentation links required for importing real estate listings via the OLX API.",
+      "tags": [
+        "olx-api",
+        "real-estate",
+        "listing-import",
+        "category-codes",
+        "integration-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-real-estate-home.md"
+    },
+    {
+      "file_path": "047-anuncio-xml-real-estate-home.md",
+      "title": "Documentação para a Importação via XML para Imóveis na OLX",
+      "url": "https://developers.olx.com.br/anuncio/xml/real_estate/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:10.86420055-03:00",
+      "summary": "This document provides technical instructions for importing real estate advertisements to the OLX platform via XML files, detailing required tags, data formats, and structural parameters.",
+      "tags": [
+        "xml-import",
+        "olx-integration",
+        "real-estate-ads",
+        "data-specification",
+        "technical-documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-xml-real-estate-home.md"
+    },
+    {
+      "file_path": "048-anuncio-api-real-estate-sub-apartment.md",
+      "title": "Apartamentos",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/sub_apartment.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:48.381192303-03:00",
+      "summary": "This document defines the technical parameters and data schema required for creating or editing real estate listings in the Apartments subcategory. It specifies mandatory and optional fields, valid values, and payload structures for property details like room count, area, and building features.",
+      "tags": [
+        "real-estate-api",
+        "ad-insertion",
+        "json-parameters",
+        "property-metadata",
+        "data-specification"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-real-estate-sub-apartment.md"
+    },
+    {
+      "file_path": "049-anuncio-api-real-estate-sub-house.md",
+      "title": "Casas",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/sub_house.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:47.301873519-03:00",
+      "summary": "This document specifies the mandatory and optional parameters required for creating or editing real estate listings in the 'Houses' subcategory via an API.",
+      "tags": [
+        "api-integration",
+        "real-estate-listings",
+        "json-payload",
+        "data-mapping",
+        "parameter-reference"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-real-estate-sub-house.md"
+    },
+    {
+      "file_path": "050-anuncio-api-real-estate-sub-commercial.md",
+      "title": "Comércio e indústria",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/sub_commercial.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:48.545355566-03:00",
+      "summary": "This document specifies the mandatory parameters and configuration requirements for listing or editing advertisements within the Commerce and Industry subcategory.",
+      "tags": [
+        "api-integration",
+        "property-listings",
+        "parameter-specification",
+        "json-payload",
+        "real-estate-api"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-real-estate-sub-commercial.md"
+    },
+    {
+      "file_path": "051-anuncio-api-real-estate-sub-land.md",
+      "title": "Terrenos, sítios e fazendas",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/sub_land.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:48.106637257-03:00",
+      "summary": "This document defines the mandatory and optional parameters required for creating or editing real estate listings within the Land, Farms, and Ranches subcategory.",
+      "tags": [
+        "real-estate-api",
+        "ad-listing",
+        "parameter-specification",
+        "json-payload",
+        "property-metadata"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-real-estate-sub-land.md"
+    },
+    {
+      "file_path": "052-anuncio-api-real-estate-sub-roomrent.md",
+      "title": "Aluguel de quartos",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/sub_roomrent.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:50.168896482-03:00",
+      "summary": "This document defines the specific configuration parameters and valid values required to create or edit advertisements within the Room Rent subcategory.",
+      "tags": [
+        "aluguel-de-quartos",
+        "api-parameters",
+        "room-rent-features",
+        "json-payload",
+        "ad-listing"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-real-estate-sub-roomrent.md"
+    },
+    {
+      "file_path": "053-anuncio-api-real-estate-sub-season.md",
+      "title": "Temporada",
+      "url": "https://developers.olx.com.br/anuncio/api/real_estate/sub_season.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:48.8887604-03:00",
+      "summary": "This document specifies the mandatory and optional parameters required for creating or editing advertisements in the 'Season Rental' subcategory. It provides technical details on field values, types, and the expected JSON payload structure.",
+      "tags": [
+        "season-rental",
+        "api-integration",
+        "json-schema",
+        "listing-parameters",
+        "property-listings"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-real-estate-sub-season.md"
+    },
+    {
+      "file_path": "054-anuncio-xml-real-estate-sub-apartment.md",
+      "title": "Apartamentos",
+      "url": "https://developers.olx.com.br/anuncio/xml/real_estate/sub_apartment.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:36.111107064-03:00",
+      "summary": "This document specifies the XML parameters and mapping required to correctly list properties in the Apartamentos subcategory. It details mandatory fields, property subtypes, and specific attributes like the number of rooms and amenities.",
+      "tags": [
+        "xml-integration",
+        "real-estate",
+        "olx-api",
+        "data-mapping",
+        "property-listing"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-xml-real-estate-sub-apartment.md"
+    },
+    {
+      "file_path": "055-anuncio-xml-real-estate-sub-house.md",
+      "title": "Casas",
+      "url": "https://developers.olx.com.br/anuncio/xml/real_estate/sub_house.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:37.121942929-03:00",
+      "summary": "This document provides technical specifications and XML requirements for listing properties in the Casas subcategory, including mandatory parameters and valid attribute values.",
+      "tags": [
+        "real-estate-integration",
+        "xml-schema",
+        "olx-api",
+        "property-listings",
+        "metadata-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-xml-real-estate-sub-house.md"
+    },
+    {
+      "file_path": "056-anuncio-xml-real-estate-sub-commercial.md",
+      "title": "Comércio e indústria",
+      "url": "https://developers.olx.com.br/anuncio/xml/real_estate/sub_commercial.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:36.143862046-03:00",
+      "summary": "This document provides technical specifications and mapping rules for listing commercial and industrial properties via XML on the OLX platform.",
+      "tags": [
+        "xml-integration",
+        "olx-platform",
+        "real-estate-api",
+        "data-mapping",
+        "commercial-property",
+        "property-listings"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-xml-real-estate-sub-commercial.md"
+    },
+    {
+      "file_path": "057-anuncio-xml-real-estate-sub-land.md",
+      "title": "Terrenos, sítios e fazendas",
+      "url": "https://developers.olx.com.br/anuncio/xml/real_estate/sub_land.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:37.25725863-03:00",
+      "summary": "This document outlines the specific parameter requirements and XML structure for listing properties in the land, ranches, and farms subcategory. It provides a mapping of property subtypes and instructions for automatic title generation based on provided attributes.",
+      "tags": [
+        "xml-integration",
+        "property-listings",
+        "data-mapping",
+        "real-estate-metadata",
+        "listing-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-xml-real-estate-sub-land.md"
+    },
+    {
+      "file_path": "058-anuncio-json-autos-home.md",
+      "title": "JSON para Veículos na OLX",
+      "url": "https://developers.olx.com.br/anuncio/json/autos/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:12.366418602-03:00",
+      "summary": "This documentation provides instructions for importing vehicle advertisements to the OLX platform using JSON format, detailing subcategory codes and specific parameters.",
+      "tags": [
+        "olx-api",
+        "json-import",
+        "vehicle-listings",
+        "data-integration",
+        "ads-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-json-autos-home.md"
+    },
+    {
+      "file_path": "059-anuncio-json-autos.md",
+      "title": "Automóveis",
+      "url": "https://developers.olx.com.br/anuncio/json/autos.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:52.064230873-03:00",
+      "summary": "This manual provides technical guidelines and category codes for importing vehicle advertisements into the OLX platform via JSON integration.",
+      "tags": [
+        "olx-integration",
+        "json-import",
+        "vehicle-ads",
+        "category-mapping",
+        "api-documentation"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autos.md"
+    },
+    {
+      "file_path": "060-anuncio-json-autoparts-home.md",
+      "title": "JSON para Autopeças na OLX",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:14.251242916-03:00",
+      "summary": "This document provides technical guidelines and category codes for importing auto parts advertisements into the OLX platform using JSON format.",
+      "tags": [
+        "olx-integration",
+        "json-import",
+        "auto-parts",
+        "category-mapping",
+        "ad-insertion"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autoparts-home.md"
+    },
+    {
+      "file_path": "061-anuncio-json-autoparts.md",
+      "title": "Peças e acessórios",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:52.186831266-03:00",
+      "summary": "This document provides technical instructions for importing auto parts advertisements into various OLX subcategories using JSON, including specific category mappings and parameter requirements.",
+      "tags": [
+        "json-import",
+        "olx-api",
+        "auto-parts",
+        "ad-integration",
+        "category-mapping"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-json-autoparts.md"
+    },
+    {
+      "file_path": "062-anuncio-json-autoparts-sub-autos.md",
+      "title": "Carros, vans e utilitários",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts/sub_autos.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:54.422993984-03:00",
+      "summary": "This document defines the specific parameters, category codes, and data requirements for listing products within the Cars, Vans, and Utility Vehicles subcategory.",
+      "tags": [
+        "api-reference",
+        "automotive-category",
+        "metadata-schema",
+        "listing-parameters",
+        "data-validation"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autoparts-sub-autos.md"
+    },
+    {
+      "file_path": "063-anuncio-json-autoparts-sub-motorcycle.md",
+      "title": "Motos",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts/sub_motorcycle.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:54.308470196-03:00",
+      "summary": "This document outlines the required parameters and valid value mappings for listing motorcycle parts and accessories using the specific category ID 2103.",
+      "tags": [
+        "api-reference",
+        "motorcycle-category",
+        "data-specification",
+        "json-payload",
+        "listing-configuration",
+        "parameter-mapping"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autoparts-sub-motorcycle.md"
+    },
+    {
+      "file_path": "064-anuncio-json-autoparts-sub-truck.md",
+      "title": "Caminhões",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts/sub_truck.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:54.691311151-03:00",
+      "summary": "This document provides technical specifications and parameter requirements for integrating listings into the Trucks subcategory, including mandatory fields and value mappings.",
+      "tags": [
+        "trucks",
+        "api-reference",
+        "metadata-parameters",
+        "automotive",
+        "json-payload",
+        "data-validation"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autoparts-sub-truck.md"
+    },
+    {
+      "file_path": "065-anuncio-json-autoparts-sub-bus.md",
+      "title": "Ônibus",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts/sub_bus.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:55.442646172-03:00",
+      "summary": "This document specifies the mandatory and optional parameters required for listing items within the Bus subcategory, detailing specific category codes and data types for API integration.",
+      "tags": [
+        "bus-subcategory",
+        "api-parameters",
+        "vehicle-parts",
+        "technical-specification",
+        "data-mapping"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autoparts-sub-bus.md"
+    },
+    {
+      "file_path": "066-anuncio-json-autoparts-sub-boat-plane.md",
+      "title": "Barcos e aeronaves",
+      "url": "https://developers.olx.com.br/anuncio/json/autoparts/sub_boat_plane.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:55.915611465-03:00",
+      "summary": "This document outlines the technical specifications and parameter requirements for listing items in the Boats and Aircraft subcategory of an advertising API.",
+      "tags": [
+        "boats-and-aircraft",
+        "api-parameters",
+        "listing-metadata",
+        "integration-reference",
+        "vehicle-attributes"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-autoparts-sub-boat-plane.md"
+    },
+    {
+      "file_path": "067-anuncio-api-autos-home.md",
+      "title": "Categoria de Autos",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:13.99120076-03:00",
+      "summary": "This document explains how to correctly categorize and import automobile advertisements on the OLX platform, detailing subcategory codes and specific parameter requirements.",
+      "tags": [
+        "olx-api",
+        "advertisement-import",
+        "autos-category",
+        "vehicle-listings",
+        "api-documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-api-autos-home.md"
+    },
+    {
+      "file_path": "068-anuncio-api-autos-car-models.md",
+      "title": "Listagem de Marcas e Modelos de Automóveis e Motos na OLX",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/car_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:34.74233505-03:00",
+      "summary": "This document provides instructions and API endpoints for retrieving standardized IDs for vehicle brands, models, and versions on the OLX platform. It outlines the POST request structures and response formats necessary to ensure vehicle advertisements are correctly categorized and accepted.",
+      "tags": [
+        "olx-api",
+        "vehicle-listing",
+        "api-reference",
+        "car-data",
+        "motorcycle-data",
+        "json-integration"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-autos-car-models.md"
+    },
+    {
+      "file_path": "069-anuncio-api-autos-sub-auto.md",
+      "title": "Carros, vans e utilitários",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/sub_auto.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:30.603156714-03:00",
+      "summary": "This document specifies the technical parameters and data requirements for creating or editing vehicle advertisements in the cars and vans subcategory via API.",
+      "tags": [
+        "olx-api",
+        "automotive-ads",
+        "api-parameters",
+        "vehicle-listings",
+        "data-schema",
+        "technical-reference"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-autos-sub-auto.md"
+    },
+    {
+      "file_path": "070-anuncio-api-autos-sub-motorcycle.md",
+      "title": "Subcategoria Motos",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/sub_motorcycle.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:32.329906624-03:00",
+      "summary": "This document provides the technical specifications and parameter requirements for listing or editing motorcycle advertisements via API. It details mandatory and optional fields, data types, and accepted values for attributes such as brand, model, mileage, and fuel type.",
+      "tags": [
+        "olx-api",
+        "motorcycle-ads",
+        "api-parameters",
+        "vehicle-listings",
+        "data-validation"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-autos-sub-motorcycle.md"
+    },
+    {
+      "file_path": "071-anuncio-api-autos-sub-truck.md",
+      "title": "Subcategoria Caminhões",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/sub_truck.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:33.746612233-03:00",
+      "summary": "This document defines the technical parameters and mandatory values required for creating or editing truck advertisements via API.",
+      "tags": [
+        "api-integration",
+        "truck-category",
+        "ad-listing",
+        "parameter-specification",
+        "data-mapping",
+        "payload-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-autos-sub-truck.md"
+    },
+    {
+      "file_path": "072-anuncio-api-autos-sub-bus.md",
+      "title": "Subcategoria Ônibus",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/sub_bus.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:32.278321354-03:00",
+      "summary": "This document specifies the mandatory and optional API parameters required for listing or editing advertisements in the Bus (Ônibus) subcategory.",
+      "tags": [
+        "api-integration",
+        "bus-listings",
+        "metadata-parameters",
+        "json-schema",
+        "classifieds-api"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-autos-sub-bus.md"
+    },
+    {
+      "file_path": "073-anuncio-api-autos-sub-boat-plane.md",
+      "title": "Barcos e Aeronaves",
+      "url": "https://developers.olx.com.br/anuncio/api/autos/sub_boat_plane.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:32.431368259-03:00",
+      "summary": "This document details the specific parameters and configuration requirements for listing items under the Boats and Aircraft subcategory. It defines the mandatory fields, allowed values, and data types necessary for successful API integration within this category.",
+      "tags": [
+        "api-integration",
+        "parameter-definitions",
+        "boats-and-aircraft",
+        "data-schema",
+        "listing-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-autos-sub-boat-plane.md"
+    },
+    {
+      "file_path": "074-anuncio-api-autoparts-home.md",
+      "title": "Categoria de Autopeças",
+      "url": "https://developers.olx.com.br/anuncio/api/autoparts/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:13.784772706-03:00",
+      "summary": "This document outlines the category IDs and subcategory parameters required for importing listings into the Auto Parts section of the OLX platform.",
+      "tags": [
+        "auto-parts",
+        "category-mapping",
+        "olx-api",
+        "listing-import",
+        "vehicle-subcategories"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-autoparts-home.md"
+    },
+    {
+      "file_path": "075-lead-descriptions-autos-sub-auto.md",
+      "title": "Carros, vans e utilitários",
+      "url": "https://developers.olx.com.br/lead/descriptions/autos/sub_auto.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:18:05.345344311-03:00",
+      "summary": "This document defines the schema and allowed values for the adsInfo object fields specifically for vehicle advertisements on the OLX platform.",
+      "tags": [
+        "olx-api",
+        "ads-info",
+        "vehicle-data",
+        "field-definitions",
+        "api-reference",
+        "data-schema"
+      ],
+      "category": "reference",
+      "original_file_path": "lead-descriptions-autos-sub-auto.md"
+    },
+    {
+      "file_path": "076-lead-descriptions-autos-sub-motorcycle.md",
+      "title": "Motos",
+      "url": "https://developers.olx.com.br/lead/descriptions/autos/sub_motorcycle.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:18:05.631766018-03:00",
+      "summary": "This document defines the schema and valid values for the adsInfo object when processing motorcycle advertisements. It details technical specifications, categorization values, and financial attributes required for the Motos subcategory.",
+      "tags": [
+        "olx-api",
+        "motorcycle-listings",
+        "api-reference",
+        "adsinfo-schema",
+        "data-types"
+      ],
+      "category": "reference",
+      "original_file_path": "lead-descriptions-autos-sub-motorcycle.md"
+    },
+    {
+      "file_path": "077-lead-descriptions-autos-sub-truck.md",
+      "title": "Caminhões",
+      "url": "https://developers.olx.com.br/lead/descriptions/autos/sub_truck.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:18:05.725423338-03:00",
+      "summary": "This document specifies the schema and value mappings for the adsInfo field within the trucks subcategory, detailing parameters for vehicle advertisements.",
+      "tags": [
+        "api-reference",
+        "truck-listings",
+        "metadata-fields",
+        "data-specification",
+        "lead-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "lead-descriptions-autos-sub-truck.md"
+    },
+    {
+      "file_path": "078-anuncio-json-agro-home.md",
+      "title": "Agro e Indústria",
+      "url": "https://developers.olx.com.br/anuncio/json/agro/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:14.938706599-03:00",
+      "summary": "This technical manual provides instructions and category codes for importing advertisements into the Agro and Industry sections of OLX using JSON.",
+      "tags": [
+        "olx-api",
+        "json-import",
+        "advertisement-mapping",
+        "agro-industry",
+        "integration-guide",
+        "category-codes"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-json-agro-home.md"
+    },
+    {
+      "file_path": "079-anuncio-api-agro-home.md",
+      "title": "Categoria de Agro e Indústria",
+      "url": "https://developers.olx.com.br/anuncio/api/agro/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:14.576031318-03:00",
+      "summary": "This document provides the specific subcategory IDs and parameter requirements for importing listings into the Agriculture and Industry category on the OLX platform.",
+      "tags": [
+        "olx-api",
+        "category-mapping",
+        "agriculture-industry",
+        "listing-import",
+        "subcategory-ids"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-api-agro-home.md"
+    },
+    {
+      "file_path": "080-anuncio-json-agro.md",
+      "title": "Agro e Indústria",
+      "url": "https://developers.olx.com.br/anuncio/json/agro.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:51.012777235-03:00",
+      "summary": "This document provides technical instructions and category codes for importing advertisements into the Agro and Industry sections of OLX using JSON format.",
+      "tags": [
+        "olx-api",
+        "json-import",
+        "agro-industry",
+        "ad-integration",
+        "category-codes"
+      ],
+      "category": "reference",
+      "original_file_path": "anuncio-json-agro.md"
+    },
+    {
+      "file_path": "081-anuncio-api-agro-industrial-production.md",
+      "title": "Subcategoria Máquinas para produção industrial",
+      "url": "https://developers.olx.com.br/anuncio/api/agro/industrial_production.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:18:30.764804711-03:00",
+      "summary": "This document outlines the required parameters and category codes for listing items in the Industrial Production Machinery subcategory via API.",
+      "tags": [
+        "api-integration",
+        "industrial-machinery",
+        "category-parameters",
+        "json-payload",
+        "listing-configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "anuncio-api-agro-industrial-production.md"
+    },
+    {
+      "file_path": "082-anuncio-api-electronics-home.md",
+      "title": "Categoria de Celulares e Telefonia",
+      "url": "https://developers.olx.com.br/anuncio/api/electronics/home.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:15.733691045-03:00",
+      "summary": "This document provides technical instructions for importing advertisements into the Mobile Phones and Telephony category on OLX, detailing subcategory codes and parameter requirements.",
+      "tags": [
+        "olx-api",
+        "advertisement-import",
+        "mobile-phones",
+        "category-mapping",
+        "listing-parameters"
+      ],
+      "category": "guide",
+      "original_file_path": "anuncio-api-electronics-home.md"
+    },
+    {
+      "file_path": "083-anuncio-api-electronics-cellphone-models.md",
+      "title": "Listagem de Marcas e Modelos de Celulares e Smartphones na OLX",
+      "url": "https://developers.olx.com.br/anuncio/api/electronics/cellphone_models.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:18:32.573495564-03:00",
+      "summary": "This document outlines the API endpoints and request formats for retrieving lists of mobile phone brands and models available on the OLX platform.",
+      "tags": [
+        "olx-api",
+        "mobile-phones",
+        "smartphones",
+        "api-documentation",
+        "brand-models",
+        "json-api"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-electronics-cellphone-models.md"
+    },
+    {
+      "file_path": "084-renewals-renewals-deprecated.md",
+      "title": "Renovação de Anúncios",
+      "url": "https://developers.olx.com.br/renewals/renewals_deprecated.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:22.966064785-03:00",
+      "summary": "This document describes the API endpoint for programmatically renewing expired advertisements, detailing request parameters, response structures, and error handling.",
+      "tags": [
+        "olx-api",
+        "ad-renewal",
+        "patch-request",
+        "ads-management",
+        "integration",
+        "error-handling"
+      ],
+      "category": "api",
+      "original_file_path": "renewals-renewals-deprecated.md"
+    },
+    {
+      "file_path": "085-destaque-bumps-get-deprecated.md",
+      "title": "Consulta de anúncios destacados (deprecated)",
+      "url": "https://developers.olx.com.br/destaque/bumps_get_deprecated.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:25.466225203-03:00",
+      "summary": "This document describes the legacy API endpoint for querying advertisement highlights (bumps), detailing request parameters, authentication requirements, and response structures.",
+      "tags": [
+        "olx-api",
+        "ad-highlights",
+        "bumps-api",
+        "legacy-version",
+        "endpoint-reference",
+        "api-integration"
+      ],
+      "category": "api",
+      "original_file_path": "destaque-bumps-get-deprecated.md"
+    },
+    {
+      "file_path": "086-destaque-bumps-put-deprecated.md",
+      "title": "Aplicação de destaque em anúncio (deprecated)",
+      "url": "https://developers.olx.com.br/destaque/bumps_put_deprecated.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:24.707045386-03:00",
+      "summary": "This document describes the deprecated API endpoint for applying highlights to advertisements, which moves ads to the top of search listings.",
+      "tags": [
+        "olx-api",
+        "ad-highlighting",
+        "bump-feature",
+        "http-put",
+        "error-handling",
+        "deprecated-api"
+      ],
+      "category": "api",
+      "original_file_path": "destaque-bumps-put-deprecated.md"
+    },
+    {
+      "file_path": "087-anuncio-api-published-ads-deprecated.md",
+      "title": "Listagem de Publicação",
+      "url": "https://developers.olx.com.br/anuncio/api/published_ads_deprecated.html",
+      "source": "crawler",
+      "fetched_at": "2026-02-07T15:17:21.255616585-03:00",
+      "summary": "This document describes a deprecated API endpoint for retrieving a list of active and processed advertisements associated with an OLX user account.",
+      "tags": [
+        "olx-ads",
+        "api-endpoint",
+        "deprecated-api",
+        "published-ads",
+        "ad-retrieval"
+      ],
+      "category": "api",
+      "original_file_path": "anuncio-api-published-ads-deprecated.md"
+    }
+  ]
+}

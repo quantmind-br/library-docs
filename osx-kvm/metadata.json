@@ -1,0 +1,241 @@
+{
+  "generated_at": "2026-02-04T11:39:15.887551719-03:00",
+  "source_url": "https://github.com/kholia/OSX-KVM",
+  "strategy": "git",
+  "total_documents": 11,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-04T12:10:56Z",
+    "total_files": 11,
+    "categories": [
+      "Introduction & Overview",
+      "Installation Guides",
+      "Configuration & Tutorials",
+      "Advanced Topics",
+      "Reference & Meta"
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "001-README.md",
+      "original_file_path": "README.md",
+      "title": "README",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:38:53.495565364-03:00",
+      "summary": "This document provides a comprehensive guide for running macOS as a virtual machine on Linux using QEMU and KVM. It covers hardware requirements, host preparation, installation procedures, and advanced configurations like GPU passthrough.",
+      "tags": [
+        "macos-virtualization",
+        "qemu-kvm",
+        "hackintosh-setup",
+        "linux-host",
+        "opencore-boot",
+        "virtual-machine"
+      ],
+      "category": "guide",
+      "sequence": 1,
+      "category_group": "Introduction & Overview"
+    },
+    {
+      "file_path": "002-OpenCore-README.md",
+      "original_file_path": "OpenCore-README.md",
+      "title": "README",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/OpenCore/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:38:48.979382269-03:00",
+      "summary": "This document provides technical notes and resource links for installing macOS versions like Catalina and Big Sur on a Linux host using OpenCore. It includes instructions for generating boot images and references for further configuration and troubleshooting.",
+      "tags": [
+        "macos-virtualization",
+        "opencore",
+        "kvm",
+        "hackintosh",
+        "ubuntu",
+        "qemu-config"
+      ],
+      "category": "guide",
+      "sequence": 2,
+      "category_group": "Introduction & Overview"
+    },
+    {
+      "file_path": "003-run-offline.md",
+      "original_file_path": "run-offline.md",
+      "title": "Run offline",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/run_offline.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:39:11.966399334-03:00",
+      "summary": "This document provides step-by-step instructions for performing an offline installation of macOS Ventura without a macOS host by using OpenCore and a custom ISO image.",
+      "tags": [
+        "macos-installation",
+        "opencore",
+        "offline-install",
+        "ventura",
+        "virtualization",
+        "iso-creation"
+      ],
+      "category": "guide",
+      "sequence": 3,
+      "category_group": "Installation Guides"
+    },
+    {
+      "file_path": "004-UNRAID.md",
+      "original_file_path": "UNRAID.md",
+      "title": "UNRAID",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/UNRAID.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:38:57.379331877-03:00",
+      "summary": "This document provides a step-by-step walkthrough for manually configuring a macOS virtual machine on Unraid using the OSX-KVM repository resources. It covers file preparation, XML configuration, and post-installation adjustments such as EFI partitioning and hardware passthrough.",
+      "tags": [
+        "unraid",
+        "osx-kvm",
+        "macos-virtualization",
+        "opencore",
+        "qemu-kvm",
+        "hackintosh",
+        "vm-configuration"
+      ],
+      "category": "guide",
+      "sequence": 4,
+      "category_group": "Installation Guides"
+    },
+    {
+      "file_path": "005-Xcode-Tutorial.md",
+      "original_file_path": "Xcode-Tutorial.md",
+      "title": "Xcode Tutorial",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/Xcode-Tutorial.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:38:59.409844499-03:00",
+      "summary": "This document provides instructions for connecting physical iOS devices to a virtualized macOS environment for development and testing using Xcode. It covers methods for hardware redirection, including USB passthrough and network-based sharing via a Raspberry Pi.",
+      "tags": [
+        "macos-virtualization",
+        "xcode-development",
+        "usb-passthrough",
+        "ios-testing",
+        "raspberry-pi",
+        "usb-redirection"
+      ],
+      "category": "guide",
+      "sequence": 5,
+      "category_group": "Configuration & Tutorials"
+    },
+    {
+      "file_path": "006-notes.md",
+      "original_file_path": "notes.md",
+      "title": "Notes",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/notes.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:39:05.553181805-03:00",
+      "summary": "This document provides comprehensive instructions for troubleshooting and configuring macOS virtual machines, covering App Store connectivity, screen resolution adjustments, and hardware acceleration via GPU passthrough.",
+      "tags": [
+        "macos-virtualization",
+        "opencore-config",
+        "gpu-passthrough",
+        "troubleshooting",
+        "kvm-qemu",
+        "vfio-setup",
+        "system-configuration"
+      ],
+      "category": "guide",
+      "sequence": 6,
+      "category_group": "Configuration & Tutorials"
+    },
+    {
+      "file_path": "007-resources-README.md",
+      "original_file_path": "resources-README.md",
+      "title": "README",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/resources/README.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:39:06.253040654-03:00",
+      "summary": "This document provides instructions for using the idadif.py script to apply a differential patch file to the macOS kernel binary.",
+      "tags": [
+        "macos-kernel",
+        "binary-patching",
+        "idadif-py",
+        "kernel-patching",
+        "system-modification"
+      ],
+      "category": "guide",
+      "sequence": 7,
+      "category_group": "Configuration & Tutorials"
+    },
+    {
+      "file_path": "008-reversing-notes.md",
+      "original_file_path": "reversing-notes.md",
+      "title": "Reversing notes",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/reversing-notes.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:39:10.83583109-03:00",
+      "summary": "Explains how to enable the macOS Content Caching feature on a virtual machine by bypassing VMM detection through kernel patching or hypervisor configuration changes.",
+      "tags": [
+        "macos",
+        "virtual-machine",
+        "content-caching",
+        "kernel-patching",
+        "qemu",
+        "vmm-detection",
+        "hypervisor-configuration"
+      ],
+      "category": "guide",
+      "sequence": 8,
+      "category_group": "Advanced Topics"
+    },
+    {
+      "file_path": "009-References.md",
+      "original_file_path": "References.md",
+      "title": "References",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/References.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:38:53.928706671-03:00",
+      "summary": "This document provides a list of external resources and links for installing, configuring, and troubleshooting macOS as a guest operating system in KVM and QEMU environments.",
+      "tags": [
+        "macos",
+        "kvm",
+        "qemu",
+        "virtualization",
+        "opencore",
+        "pci-passthrough",
+        "virtual-machines"
+      ],
+      "category": "reference",
+      "sequence": 9,
+      "category_group": "Reference & Meta"
+    },
+    {
+      "file_path": "010-macOS-Cloud.md",
+      "original_file_path": "macOS-Cloud.md",
+      "title": "MacOS Cloud",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/macOS-Cloud.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:39:01.940973887-03:00",
+      "summary": "This document contains notes regarding activities that violate the hardware-related terms of the macOS End User License Agreement (EULA).",
+      "tags": [
+        "macos-eula",
+        "hardware-compliance",
+        "licensing-agreement",
+        "legal-restrictions"
+      ],
+      "category": "other",
+      "sequence": 10,
+      "category_group": "Reference & Meta"
+    },
+    {
+      "file_path": "011-CREDITS.md",
+      "original_file_path": "CREDITS.md",
+      "title": "CREDITS",
+      "url": "https://github.com/kholia/OSX-KVM/blob/master/CREDITS.md",
+      "source": "git",
+      "fetched_at": "2026-02-04T11:38:48.979341834-03:00",
+      "summary": "This document provides a comprehensive list of contributors and external resources that have supported the development of the project. It acknowledges individual contributions including documentation improvements, technical fixes, and core script development for macOS virtualization.",
+      "tags": [
+        "credits",
+        "contributors",
+        "open-source",
+        "project-acknowledgments",
+        "virtualization",
+        "macos-kvm"
+      ],
+      "category": "other",
+      "sequence": 11,
+      "category_group": "Reference & Meta"
+    }
+  ]
+}

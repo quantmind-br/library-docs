@@ -1,0 +1,258 @@
+---
+title: Development Guide for JIT Kernels — SGLang
+url: https://docs.sglang.io/developer_guide/development_jit_kernel_guide.html
+source: crawler
+fetched_at: 2026-02-04T08:47:14.636992267-03:00
+rendered_js: false
+word_count: 550
+summary: This document provides a comprehensive guide for developing Just-In-Time (JIT) kernels within the SGLang framework, covering environment setup, C++ and Python integration, and specialized utility libraries.
+tags:
+    - sglang
+    - jit-kernels
+    - cuda-programming
+    - cpp-api
+    - python-bindings
+    - tvm-ffi
+    - kernel-development
+category: guide
+---
+
+## Contents
+
+## Development Guide for JIT Kernels[#](#development-guide-for-jit-kernels "Link to this heading")
+
+## Environment Setup[#](#environment-setup "Link to this heading")
+
+We strongly recommend using `clangd` as the language server for JIT kernel development. For Ubuntu/Debian, you can download clangd from [apt.llvm.org](https://apt.llvm.org/). If you are using VS Code, we recommend installing the `clangd` extension for better IDE integration.
+
+All JIT-related files are located in `python/sglang/jit_kernel`. Unlike `sgl-kernel`, which compiles CUDA/C++ binaries ahead of time (AOT), just-in-time (JIT) kernels are compiled at runtime. Consequently, a static `compile_commands.json` cannot be generated. To enable code completion with `clangd`, run `python -m sglang.jit_kernel` to generate a `.clangd` configuration file in your current directory. After generating the file, restart the clangd language server. It should now recognize all JIT kernel files.
+
+## Code Structure[#](#code-structure "Link to this heading")
+
+### C++ Implementation[#](#c-implementation "Link to this heading")
+
+C++ source code is located in `python/sglang/jit_kernel/csrc`. Reusable functions should be placed in `python/sglang/jit_kernel/include`.
+
+We use [tvm-ffi](https://github.com/apache/tvm-ffi) for efficient foreign language bindings. Refer to the [documentation](https://tvm.apache.org/ffi/) for advanced usage, such as exporting C++ objects. Typically, `tvm::ffi::TensorView` is sufficient for passing PyTorch Tensors from Python.
+
+### Python Interface[#](#python-interface "Link to this heading")
+
+Python interfaces are defined in `python/sglang/jit_kernel`. The `load_jit` utility function in `python/sglang/jit_kernel/utils.py` loads and returns the compiled module. To export a C++ function (e.g., `cpp_func`), pass `cuda_wrappers=[("func", "cpp_func")]` to `load_jit`. The function can then be called in Python as `module.func`.
+
+For caching compiled modules, prefer `sglang.jit_kernel.utils.cache_once` over `functools.lru_cache`. `functools.lru_cache` is not compatible with `torch.compile`.
+
+### C++ Utilities[#](#c-utilities "Link to this heading")
+
+The following C++ utilities are available:
+
+#### Integer Range[#](#integer-range "Link to this heading")
+
+Similar to PyTorch, we provide an `irange` function to represent an integer range.
+
+```
+#include<sgl_kernel/utils.h>
+
+voidtest(){
+for(autoi:host::irange(100)){// [0, 100)
+// do something
+}
+for(autoi:host::irange(0,100)){// [0, 100)
+// do something
+}
+}
+```
+
+#### Runtime Checking[#](#runtime-checking "Link to this heading")
+
+`RuntimeCheck` validates conditions at runtime. It accepts optional arguments for error reporting. If the check fails, these arguments are output to aid debugging. `RuntimeDeviceCheck` verifies the status of the last kernel launch.
+
+```
+#include<sgl_kernel/utils.h>
+#include<sgl_kernel/utils.cuh>
+
+voidtest(){
+host::RuntimeCheck(1+1==2,1+1," != ",2);
+host::RuntimeDeviceCheck();
+// check the provided `cudaError_t`
+host::RuntimeDeviceCheck(cudaGetLastError());
+}
+```
+
+#### Tensor Checking[#](#tensor-checking "Link to this heading")
+
+`TensorMatcher` provides a readable way to validate and extract tensor shape information.
+
+```
+#include<sgl_kernel/tensor.h>
+
+voidtest(consttvm::ffi::TensorViewk_cache,consttvm::ffi::TensorViewv_cache){
+usingnamespacehost;
+
+autoD=SymbolicSize{"D"};// cache dimension
+autoN=SymbolicSize{"N"};// kvcache stride
+autodtype=SymbolicDType{};
+autodevice=SymbolicDevice{};
+
+TensorMatcher({-1,D})//
+.with_strides({N,1})
+.with_dtype<int32_t,int64_t>(dtype)
+.with_device<kDLCUDA,kDLCPU>(device)
+.verify(k_cache)
+.verify(v_cache);
+}
+```
+
+Configure the `TensorMatcher` with expected stride, dtype, and device properties before verification.
+
+- If `with_strides` is omitted, the tensor is expected to be contiguous.
+- Template arguments in `with_dtype` restrict the allowed data types.
+- Template arguments in `with_device` restrict the allowed devices.
+- Values passed to `with_xxx` methods enforce equality checks.
+- Passing `-1` for size or stride allows matching any value.
+
+A `Symbolic` variable must resolve to the same value across all verifications. Use `.unwrap()` to retrieve the matched value after verification.
+
+> Note: `TensorMatcher` is a temporary expression and should not be stored in a variable.
+
+> Tip: Add `//` at the end of the `TensorMatcher` chain to enforce proper indentation.
+
+#### Kernel Launching[#](#kernel-launching "Link to this heading")
+
+`LaunchKernel::resolve_device` retrieves the current `cudaStream` from PyTorch. Kernels can also be launched directly using `LaunchKernel`.
+
+```
+#include<sgl_kernel/utils.cuh>
+
+#include<dlpack/dlpack.h>
+
+__global__voidkernel(){}
+
+voidtest(){
+constautonum_blocks=1;
+constautonum_threads=32;
+constautodynamic_smem=0;
+
+DLDevicedev;// suppose this is initialized properly
+host::LaunchKernel(num_blocks,num_threads,dev)(kernel);
+
+cudaStream_tstream=host::LaunchKernel::resolve_device(dev);
+host::LaunchKernel(num_blocks,num_threads,stream,dynamic_smem)(kernel);
+}
+```
+
+## Add new kernels[#](#add-new-kernels "Link to this heading")
+
+This section walks through a complete, end-to-end example of adding a new JIT kernel to the system. We use a simple add\_constant kernel as a running example, which adds a constant integer value to every element of an input tensor.
+
+Conceptually, the Python interface looks like this:
+
+```
+defadd_constant(src: torch.Tensor, c: int):
+    return src + c
+```
+
+### STEP 1: Write the C++ kernel[#](#step-1-write-the-c-kernel "Link to this heading")
+
+Write your CUDA kernel in [jit\_kernel/csrc/add\_constant.cuh](https://docs.sglang.io/_downloads/b634fa594537474007c7d23a11f14144/add_constant.cuh). For demonstration purposes, we pass the constant value as a template parameter.
+
+```
+#include<sgl_kernel/tensor.h>   // For TensorMatcher, SymbolicSize, SymbolicDevice
+#include<sgl_kernel/utils.cuh>  // For LaunchKernel
+#include<sgl_kernel/utils.h>    // For div_ceil, RuntimeCheck
+
+#include<dlpack/dlpack.h>
+#include<tvm/ffi/container/tensor.h>
+
+#include<cstddef>
+#include<cstdint>
+
+namespace{
+
+template<int32_tkConstant>
+__global__voidadd_constant_kernel(int32_t*dst,constint32_t*src,size_tlength){
+size_tidx=blockIdx.x*blockDim.x+threadIdx.x;
+if(idx<length){
+dst[idx]=src[idx]+kConstant;
+}
+}
+
+constexprsize_tkBlockSize=256;
+
+// You can also use struct with static method as an alternative
+template<int32_tkConstant>
+voidadd_constant(tvm::ffi::TensorViewdst,tvm::ffi::TensorViewsrc){
+usingnamespacehost;
+
+// 1. Validate input tensors
+SymbolicSizeN={"num_elements"};
+SymbolicDevicedevice_;
+TensorMatcher({N})// 1D tensor, must be contiguous
+.with_dtype<int32_t>()// must be int32
+.with_device<kDLCUDA>(device_)// must be on CUDA device
+.verify(dst)// check tensor dst
+.verify(src);// check tensor src
+
+// 2. Extract required parameters, prepare for kernel launch
+constsize_tnum_elements=N.unwrap();
+constsize_tgrid_size=div_ceil(num_elements,kBlockSize);
+constDLDevicedevice=device_.unwrap();
+// some extra runtime checks using host::RuntimeCheck
+RuntimeCheck(num_elements>0,"We only support non-empty tensors, got num_elements = ",num_elements);
+
+// 3. Launch the kernel. Error code will be automatically checked.
+LaunchKernel(grid_size,kBlockSize,device/*, dynamic_smem*/)(
+// kernel function
+add_constant_kernel<kConstant>,
+// kernel arguments
+static_cast<int32_t*>(dst.data_ptr()),
+static_cast<int32_t*>(src.data_ptr()),
+num_elements);
+}
+
+}// namespace
+```
+
+### STEP 2: Create Python Interfaces[#](#step-2-create-python-interfaces "Link to this heading")
+
+Next, expose the kernel through a Python wrapper. Create a new file at [jit\_kernel/add\_constant.py](https://docs.sglang.io/_downloads/79b814f8a8949cb9b0717311f546695e/add_constant.py) and expose the needed interfaces.
+
+```
+from__future__import annotations
+fromtypingimport TYPE_CHECKING
+
+importtorch
+
+fromsglang.jit_kernel.utilsimport cache_once, load_jit, make_cpp_args
+
+if TYPE_CHECKING:
+    fromtvm_ffi.moduleimport Module
+
+
+@cache_once
+def_jit_add_constant_module(constant: int) -> Module:
+    args = make_cpp_args(constant)  # pass all the template argument
+    return load_jit(
+        "add_constant",
+        *args,
+        cuda_files=["add_constant.cuh"],
+        cuda_wrappers=[("add_constant", f"add_constant<{args}>")],
+    )
+
+
+defadd_constant(src: torch.Tensor, constant: int) -> torch.Tensor:
+    dst = torch.empty_like(src)
+    module = _jit_add_constant_module(constant)
+    module.add_constant(dst, src)
+    return dst
+
+```
+
+### STEP 3: Use your kernel[#](#step-3-use-your-kernel "Link to this heading")
+
+Finally, import and use the kernel like a regular Python function:
+
+```
+fromsglang.jit_kernel.add_constantimport add_constant
+```
+
+For a complete, runnable example, refer to [test\_add\_constant.py](https://docs.sglang.io/_downloads/46847f40d77a31c086f9198e3959b87f/test_add_constant.py).

@@ -1,0 +1,54 @@
+---
+title: Approvals - OpenClaw
+url: https://docs.openclaw.ai/cli/approvals
+source: sitemap
+fetched_at: 2026-01-30T20:35:50.203271527-03:00
+rendered_js: false
+word_count: 96
+summary: Provides instructions for managing execution approvals on local, gateway, or node hosts, including commands for retrieving, setting, and modifying allowlists.
+tags:
+    - exec-approvals
+    - node-management
+    - gateway
+    - allowlist
+    - command-line-tool
+category: reference
+---
+
+Manage exec approvals for the **local host**, **gateway host**, or a **node host**. By default, commands target the local approvals file on disk. Use `--gateway` to target the gateway, or `--node` to target a specific node. Related:
+
+- Exec approvals: [Exec approvals](https://docs.openclaw.ai/tools/exec-approvals)
+- Nodes: [Nodes](https://docs.openclaw.ai/nodes)
+
+## Common commands
+
+```
+openclaw approvals get
+openclaw approvals get --node <id|name|ip>
+openclaw approvals get --gateway
+```
+
+## Replace approvals from a file
+
+```
+openclaw approvals set --file ./exec-approvals.json
+openclaw approvals set --node <id|name|ip> --file ./exec-approvals.json
+openclaw approvals set --gateway --file ./exec-approvals.json
+```
+
+## Allowlist helpers
+
+```
+openclaw approvals allowlist add "~/Projects/**/bin/rg"
+openclaw approvals allowlist add --agent main --node <id|name|ip> "/usr/bin/uptime"
+openclaw approvals allowlist add --agent "*" "/usr/bin/uname"
+
+openclaw approvals allowlist remove "~/Projects/**/bin/rg"
+```
+
+## Notes
+
+- `--node` uses the same resolver as `openclaw nodes` (id, name, ip, or id prefix).
+- `--agent` defaults to `"*"`, which applies to all agents.
+- The node host must advertise `system.execApprovals.get/set` (macOS app or headless node host).
+- Approvals files are stored per host at `~/.openclaw/exec-approvals.json`.

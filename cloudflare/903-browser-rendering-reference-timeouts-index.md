@@ -1,0 +1,53 @@
+---
+title: REST API timeouts · Cloudflare Browser Rendering docs
+url: https://developers.cloudflare.com/browser-rendering/reference/timeouts/index.md
+source: llms
+fetched_at: 2026-01-24T15:08:48.329504132-03:00
+rendered_js: false
+word_count: 426
+summary: This document outlines the various timeout parameters and navigation completion options used to manage the browser rendering lifecycle and handle request limits.
+tags:
+    - browser-rendering
+    - timeouts
+    - navigation-options
+    - waituntil
+    - performance-tuning
+    - configuration
+category: reference
+---
+
+Browser Rendering uses several independent timers to manage how long different parts of a request can take. If any of these timers exceed their limit, the request returns a timeout error.
+
+Each timer controls a specific part of the rendering lifecycle — from page load, to selector load, to action.
+
+| Timer | Scope | Default | Max |
+| - | - | - | - |
+| `goToOptions.timeout` | Time to wait for the page to load before timeout. | 30 s | 60 s |
+| `goToOptions.waitUntil` | Determines when page load is considered complete. Refer to [`waitUntil` options](#waituntil-options) for details. | `domcontentloaded` | — |
+| `waitForSelector` | Time to wait for a specific element (any CSS selector) to appear on the page. | null | 60 s |
+| `waitForTimeout` | Additional amount of time to wait after the page has loaded to proceed with actions. | null | 60 s |
+| `actionTimeout` | Time to wait for the action itself (for example: a screenshot, PDF, or scrape) to complete after the page has loaded. | null | 5 min |
+| `PDFOptions.timeout` | Same as `actionTimeout`, but only applies to the [/pdf endpoint](https://developers.cloudflare.com/browser-rendering/rest-api/pdf-endpoint/). | 30 s | 5 min |
+
+### `waitUntil` options
+
+The `goToOptions.waitUntil` parameter controls when the browser considers page navigation complete. This is important for JavaScript-heavy pages where content is rendered dynamically after the initial page load.
+
+| Value | Behavior |
+| - | - |
+| `load` | Waits for the `load` event, including all resources like images and stylesheets |
+| `domcontentloaded` | Waits until the DOM content has been fully loaded, which fires before the `load` event (default) |
+| `networkidle0` | Waits until there are no network connections for at least 500 ms |
+| `networkidle2` | Waits until there are no more than two network connections for at least 500 ms |
+
+For pages that rely on JavaScript to render content, use `networkidle0` or `networkidle2` to ensure the page is fully rendered before extraction.
+
+## Notes and recommendations
+
+You can set multiple timers — as long as one is complete, the request will fire.
+
+If you are not getting the expected output:
+
+* Try increasing `goToOptions.timeout` (up to 60 s).
+* If waiting for a specific element, use `waitForSelector`. Otherwise, use `goToOptions.waitUntil` set to `networkidle2` to ensure the page has finished loading dynamic content.
+* If you are getting a `422`, it may be the action itself (ex: taking a screenshot, extracting the html content) that takes a long time. Try increasing the `actionTimeout` instead.

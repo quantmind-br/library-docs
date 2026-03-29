@@ -1,0 +1,22 @@
+---
+title: Lists
+url: https://docs.docker.com/contribute/components/lists/
+source: llms
+fetched_at: 2026-01-24T14:06:44.839134327-03:00
+rendered_js: false
+word_count: 23
+summary: This document introduces an interactive Docker help interface designed to provide users with instant answers regarding commands, concepts, and troubleshooting.
+tags:
+    - docker
+    - containerization
+    - troubleshooting
+    - devops-tools
+    - interactive-help
+category: other
+---
+
+### Ask me about Docker
+
+Get instant answers to your Docker questions. I can help with commands, concepts, troubleshooting, and best practices.
+
+Try asking:

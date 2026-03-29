@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-02-01T13:48:49.675309979-03:00",
+  "source_url": "https://benz.gitbook.io/walker/sitemap-pages.xml",
+  "strategy": "sitemap",
+  "total_documents": 10,
+  "documents": [
+    {
+      "file_path": "001-walker.md",
+      "original_file_path": "walker.md",
+      "title": "Walker - Multi-Purpose Launcher | Walker",
+      "url": "https://benz.gitbook.io/walker",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:48.214710432-03:00",
+      "summary": "This document introduces Walker as a launcher frontend for the Elephant application and provides information about its relationship with NextWalker.",
+      "tags": [
+        "launcher",
+        "frontend",
+        "elephant",
+        "nextwalker",
+        "application"
+      ],
+      "category": "reference",
+      "logical_category": "Introduction & Overview"
+    },
+    {
+      "file_path": "002-walker-installation-and-launching.md",
+      "original_file_path": "walker-installation-and-launching.md",
+      "title": "Installation and Launching | Walker",
+      "url": "https://benz.gitbook.io/walker/installation-and-launching",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:37.208383263-03:00",
+      "summary": "This document provides instructions for installing and configuring the Walker and Elephant desktop applications, including package manager installation methods, manual compilation steps, and optimization techniques for faster startup times.",
+      "tags": [
+        "walker",
+        "elephant",
+        "installation",
+        "desktop-applications",
+        "gtk4",
+        "optimization",
+        "systemd",
+        "package-manager"
+      ],
+      "category": "guide",
+      "logical_category": "Quick Start & Installation"
+    },
+    {
+      "file_path": "003-walker-walker-and-elephant.md",
+      "original_file_path": "walker-walker-and-elephant.md",
+      "title": "Walker and Elephant | Walker",
+      "url": "https://benz.gitbook.io/walker/walker-and-elephant",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:44.648412875-03:00",
+      "summary": "This document explains the relationship between Walker and Elephant, describing their separate responsibilities in the system and how they work together. It also lists the default providers implemented by Walker.",
+      "tags": [
+        "frontend-backend",
+        "walker",
+        "elephant",
+        "default-providers",
+        "system-architecture"
+      ],
+      "category": "reference",
+      "logical_category": "Concepts & Fundamentals"
+    },
+    {
+      "file_path": "004-walker-providers.md",
+      "original_file_path": "walker-providers.md",
+      "title": "Providers | Walker",
+      "url": "https://benz.gitbook.io/walker/providers",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:36.762235482-03:00",
+      "summary": "Explains Elephant's modular architecture and how to configure data providers for Walker using Elephant-Providers.",
+      "tags": [
+        "elephant",
+        "walker",
+        "providers",
+        "modular-design",
+        "configuration"
+      ],
+      "category": "guide",
+      "logical_category": "Features & Capabilities"
+    },
+    {
+      "file_path": "005-walker-customization-general-config.md",
+      "original_file_path": "walker-customization-general-config.md",
+      "title": "General Config | Walker",
+      "url": "https://benz.gitbook.io/walker/customization/general-config",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:31.877968163-03:00",
+      "summary": "This document explains how to configure and customize the behavior of Walker, including its configuration file location, various settings options, provider configurations, and emergency entry definitions.",
+      "tags": [
+        "configuration",
+        "customization",
+        "walker",
+        "settings",
+        "providers",
+        "keybinds",
+        "emergency-entries"
+      ],
+      "category": "configuration",
+      "logical_category": "Configuration & Settings"
+    },
+    {
+      "file_path": "006-walker-customization-theme.md",
+      "original_file_path": "walker-customization-theme.md",
+      "title": "Theme | Walker",
+      "url": "https://benz.gitbook.io/walker/customization/theme",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:43.733225508-03:00",
+      "summary": "This document explains how to customize and create themes for the Walker application, detailing the required files and configuration methods.",
+      "tags": [
+        "theme",
+        "customization",
+        "gtk4",
+        "configuration",
+        "walker"
+      ],
+      "category": "guide",
+      "logical_category": "Customization & Features"
+    },
+    {
+      "file_path": "007-walker-customization-custom-menus.md",
+      "original_file_path": "walker-customization-custom-menus.md",
+      "title": "Custom Menus | Walker",
+      "url": "https://benz.gitbook.io/walker/customization/custom-menus",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:31.528275747-03:00",
+      "summary": "This document explains how to configure custom menus using the Elephant menu provider, including syntax for entries, actions, and Lua script integration.",
+      "tags": [
+        "menu-provider",
+        "custom-menus",
+        "elephant",
+        "lua-scripts",
+        "configuration",
+        "walker"
+      ],
+      "category": "guide",
+      "logical_category": "Customization & Features"
+    },
+    {
+      "file_path": "008-walker-customization-provider-actions.md",
+      "original_file_path": "walker-customization-provider-actions.md",
+      "title": "Provider Actions | Walker",
+      "url": "https://benz.gitbook.io/walker/customization/provider-actions",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:47.353422496-03:00",
+      "summary": "This document explains how to configure multiple actions and keybindings for list items in Walker, including default behaviors, fallback configurations, and after-action triggers.",
+      "tags": [
+        "actions",
+        "keybinds",
+        "configuration",
+        "walker",
+        "providers",
+        "fallbacks",
+        "default-behavior"
+      ],
+      "category": "reference",
+      "logical_category": "Configuration & Settings"
+    },
+    {
+      "file_path": "009-walker-dmenu.md",
+      "original_file_path": "walker-dmenu.md",
+      "title": "Dmenu | Walker",
+      "url": "https://benz.gitbook.io/walker/dmenu",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:40.438505009-03:00",
+      "summary": "This document explains how to use Walker as a dmenu replacement with various command-line flags for customization and behavior control.",
+      "tags": [
+        "dmenu",
+        "command-line",
+        "terminal",
+        "cli-tool",
+        "interface"
+      ],
+      "category": "guide",
+      "logical_category": "Operations & Usage"
+    },
+    {
+      "file_path": "010-walker-faq.md",
+      "original_file_path": "walker-faq.md",
+      "title": "FAQ | Walker",
+      "url": "https://benz.gitbook.io/walker/faq",
+      "source": "sitemap",
+      "fetched_at": "2026-02-01T13:48:40.754473188-03:00",
+      "summary": "This document explains common performance issues with the Walker GTK4 application and provides troubleshooting steps including background service configuration and environment variable adjustments for NVIDIA GPUs.",
+      "tags": [
+        "walker",
+        "gtk4",
+        "performance",
+        "troubleshooting",
+        "nvidia",
+        "gpu",
+        "service"
+      ],
+      "category": "guide",
+      "logical_category": "Troubleshooting & Support"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-02-01T13:52:00.000000000-03:00",
+    "total_files": 10,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Concepts & Fundamentals",
+      "Features & Capabilities",
+      "Configuration & Settings",
+      "Customization & Features",
+      "Operations & Usage",
+      "Troubleshooting & Support"
+    ]
+  }
+}

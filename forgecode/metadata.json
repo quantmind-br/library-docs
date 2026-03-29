@@ -1,0 +1,2953 @@
+{
+  "generated_at": "2026-03-29T14:53:09.599663063-03:00",
+  "source_url": "https://forgecode.dev/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 157,
+  "documents": [
+    {
+      "file_path": "064-blog-archive.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/archive/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:03.118835902-03:00",
+      "description": "Archive",
+      "summary": "This document provides information about ForgeCode's ranking and accuracy metrics on TermBench.",
+      "tags": [
+        "forgecode",
+        "termbench",
+        "accuracy",
+        "ranking",
+        "metrics"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-archive.md"
+    },
+    {
+      "file_path": "063-blog.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:03.12337954-03:00",
+      "description": "List of blog posts on ForgeCode blog",
+      "summary": "This document contains a collection of blog posts from ForgeCode covering AI coding agents, model comparisons, benchmarks, and product updates.",
+      "tags": [
+        "ai-coding-agents",
+        "model-comparison",
+        "benchmarks",
+        "forgecode",
+        "development-workflow",
+        "api-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "blog.md"
+    },
+    {
+      "file_path": "065-blog-authors.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/authors/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:03.135288253-03:00",
+      "summary": "This document appears to be a placeholder or template for cookie settings management, likely related to user privacy and consent configuration.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "consent",
+        "user-preferences",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "blog-authors.md"
+    },
+    {
+      "file_path": "055-blog-benchmarks-dont-matter.md",
+      "title": "Benchmarks Don't Matter \u2014 Until They Do (Part 1)",
+      "url": "https://forgecode.dev/blog/benchmarks-dont-matter/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:03.127495701-03:00",
+      "description": "ForgeCode hit 78.4% SOTA on TermBench 2.0 with gemini-3.1-pro-preview. This is the technical account of how we got there: seven failure modes, their fixes, and why the benchmark work generalized across models rather than overfitting to one run.",
+      "summary": "This document explains how to optimize AI coding agents for benchmark performance by identifying and fixing seven distinct failure modes, including non-interactive mode configuration, tool usage errors, and timing constraints.",
+      "tags": [
+        "ai-coding-agent",
+        "benchmark-optimization",
+        "tool-usage",
+        "non-interactive-mode",
+        "error-diagnosis",
+        "performance-tuning",
+        "term-bench"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-benchmarks-dont-matter.md"
+    },
+    {
+      "file_path": "040-blog-ai-agent-best-practices.md",
+      "title": "AI Agent Best Practices: 12 Lessons from AI Pair Programming for Developers",
+      "url": "https://forgecode.dev/blog/ai-agent-best-practices/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:03.132506701-03:00",
+      "description": "Discover field-tested best practices for productive AI-assisted development. Learn 12 crucial lessons from 6 months of daily AI pair programming, covering effective planning, prompt engineering, context management, and common pitfalls to avoid for maximizing developer efficiency.",
+      "summary": "A practical guide to effective AI pair programming workflows based on 6 months of real-world experience, covering planning strategies, prompt engineering, context management, and best practices for code review and testing.",
+      "tags": [
+        "ai-pair-programming",
+        "prompt-engineering",
+        "code-review",
+        "tdd-ai",
+        "context-management",
+        "workflow-optimization",
+        "code-quality"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-ai-agent-best-practices.md"
+    },
+    {
+      "file_path": "043-blog-claude-4-initial-impressions-anthropic-ai-coding-breakthrough.md",
+      "title": "Claude 4 Initial Impressions: A Developer's Review of Anthropic's AI Coding Breakthrough",
+      "url": "https://forgecode.dev/blog/claude-4-initial-impressions-anthropic-ai-coding-breakthrough/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:06.303413925-03:00",
+      "description": "First impressions and in-depth review of Claude 4, highlighting its groundbreaking 72.7% SWE-bench Verified score, real-world coding capabilities, and what this means for the future of AI-assisted software development.",
+      "summary": "This document analyzes Claude 4's performance on coding benchmarks and real-world development tasks, comparing it to other AI models and demonstrating its capabilities through practical testing scenarios.",
+      "tags": [
+        "claude-4",
+        "ai-coding",
+        "benchmarking",
+        "software-engineering",
+        "model-comparison",
+        "real-world-testing"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-claude-4-initial-impressions-anthropic-ai-coding-breakthrough.md"
+    },
+    {
+      "file_path": "044-blog-claude-4-opus-vs-grok-4-comparison-full.md",
+      "title": "Claude 4 Opus vs Grok 4: Which Model Dominates Complex Coding Tasks?",
+      "url": "https://forgecode.dev/blog/claude-4-opus-vs-grok-4-comparison-full/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:06.831188023-03:00",
+      "description": "I pitted Claude 4 Opus against Grok 4 in a series of challenging coding tasks. The results highlight trade-offs in speed, cost, accuracy, and frustration factors that every dev should know.",
+      "summary": "This document provides a detailed comparison between Grok 4 and Claude 4 Opus AI models, focusing on their performance for complex coding tasks in Rust including bug detection, code refactoring, and tool usage.",
+      "tags": [
+        "ai-model-comparison",
+        "grok-4",
+        "claude-4-opus",
+        "rust-coding",
+        "bug-detection",
+        "code-refactoring",
+        "performance-testing"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-claude-4-opus-vs-grok-4-comparison-full.md"
+    },
+    {
+      "file_path": "046-blog-deepseek-r1-0528-coding-experience-review.md",
+      "title": "DeepSeek-R1-0528: A Detailed Review of its AI Coding Performance & Latency",
+      "url": "https://forgecode.dev/blog/deepseek-r1-0528-coding-experience-review/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:07.513299388-03:00",
+      "description": "A comprehensive review of DeepSeek-R1-0528's AI coding capabilities, architectural innovations, and significant latency challenges via OpenRouter API. Is this open-source LLM ready for your real-time development workflow?",
+      "summary": "This document provides a comprehensive review of the DeepSeek-R1-0528 open source reasoning model, analyzing its technical capabilities, performance benchmarks, and practical usability challenges, particularly focusing on latency issues that impact real-world development workflows.",
+      "tags": [
+        "deepseek-r1",
+        "reasoning-model",
+        "open-source",
+        "benchmark-performance",
+        "latency-issues",
+        "code-reasoning",
+        "mixture-of-experts",
+        "architectural-planning"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-deepseek-r1-0528-coding-experience-review.md"
+    },
+    {
+      "file_path": "057-blog-forge-v0.98.0-release-article.md",
+      "title": "ForgeCode v0.98.0: Integrated Authentication and Developer Experience Improvements",
+      "url": "https://forgecode.dev/blog/forge-v0.98.0-release-article/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:10.22538677-03:00",
+      "description": "ForgeCode v0.98.0 release brings browser-based authentication, AI safety limits, and enhanced file operations for AI coding assistants. Streamline your terminal development workflow with improved reliability and developer experience.",
+      "summary": "This document explains the new features and changes in ForgeCode v0.98.0, including browser-based authentication, safety limits for tool failures, and enhanced file operations like replace-all functionality.",
+      "tags": [
+        "browser-authentication",
+        "safety-limits",
+        "file-operations",
+        "tool-failures",
+        "replace-all",
+        "api-keys",
+        "automation",
+        "error-handling"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-forge-v0.98.0-release-article.md"
+    },
+    {
+      "file_path": "060-blog-forge-incident-12-july-2025-rca-2.md",
+      "title": "ForgeCode Performance RCA: Root Cause Analysis of Quality Degradation on July 12, 2025",
+      "url": "https://forgecode.dev/blog/forge-incident-12-july-2025-rca-2/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:09.235383967-03:00",
+      "description": "A detailed root cause analysis of the ForgeCode AI coding assistant's quality degradation incident on July 12, 2025, including the impact of aggressive conversation compaction and steps taken for future prevention and stability improvements.",
+      "summary": "This document explains how a cost optimization feature that compacted conversation context caused quality degradation in the ForgeCode AI agent, leading to a rollback and plans for improved multi-turn evaluation testing.",
+      "tags": [
+        "ai-agent",
+        "quality-control",
+        "conversation-context",
+        "cost-optimization",
+        "feature-rollback",
+        "multi-turn-evaluation",
+        "llm-costs"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-forge-incident-12-july-2025-rca-2.md"
+    },
+    {
+      "file_path": "061-blog-gcp-cloudflare-anthropic-outage.md",
+      "title": "When Google Sneezes, the Whole World Catches a Cold",
+      "url": "https://forgecode.dev/blog/gcp-cloudflare-anthropic-outage/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:14.084970516-03:00",
+      "description": "Deep dive into the IAM failure that took down Google Cloud, cascaded into Cloudflare and Anthropic, and rippled across dozens of internet services.",
+      "summary": "This document analyzes a major Google Cloud outage caused by IAM authentication failures that cascaded across multiple services including Cloudflare and Anthropic, detailing the timeline, impact, and lessons learned from the incident.",
+      "tags": [
+        "cloud-outage",
+        "google-cloud",
+        "iam-authentication",
+        "service-failure",
+        "incident-analysis",
+        "recovery-timeline",
+        "dependency-cascade"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-gcp-cloudflare-anthropic-outage.md"
+    },
+    {
+      "file_path": "056-blog-gpt-5-4-agent-improvements.md",
+      "title": "Benchmarks Don't Matter \u2014 Until They Do (Part 2)",
+      "url": "https://forgecode.dev/blog/gpt-5-4-agent-improvements/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:16.231411924-03:00",
+      "description": "ForgeCode now reaches 81.8% on TermBench 2.0 with both GPT 5.4 and Opus 4.6. The interesting part is not the score. It is what we had to change in the agent to make GPT 5.4 behave as reliably as Opus 4.6.",
+      "summary": "This document explains how ForgeCode improved their agent runtime to achieve 81.8% on TermBench 2.0 by addressing model-specific failure modes and implementing schema optimizations, field ordering changes, and verification enforcement.",
+      "tags": [
+        "agent-runtime",
+        "model-failure-modes",
+        "schema-optimization",
+        "benchmarking",
+        "verification-enforcement",
+        "field-ordering",
+        "truncation-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-gpt-5-4-agent-improvements.md"
+    },
+    {
+      "file_path": "059-blog-graduating-from-early-access-new-pricing-tiers-available.md",
+      "title": "Graduating from Early Access: New Pricing Tiers Now Available",
+      "url": "https://forgecode.dev/blog/graduating-from-early-access-new-pricing-tiers-available/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:18.512882665-03:00",
+      "description": "How our explosive early access growth shaped our pricing strategy and what's now available for developers at every scale.",
+      "summary": "This document announces new pricing tiers for ForgeCode's AI-powered development tools based on early access results and user demand patterns. It explains the free, Pro, and Max plans designed for different types of developer usage.",
+      "tags": [
+        "ai-development-tools",
+        "pricing-structure",
+        "early-access",
+        "developer-tools",
+        "api-usage",
+        "subscription-tiers"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-graduating-from-early-access-new-pricing-tiers-available.md"
+    },
+    {
+      "file_path": "042-blog-coding-agents-showdown.md",
+      "title": "Coding Agents Showdown: VSCode Forks vs. IDE Extensions vs. CLI Agents",
+      "url": "https://forgecode.dev/blog/coding-agents-showdown/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:07.328562818-03:00",
+      "description": "The AI coding assistant landscape is fragmenting into three distinct ways to integrate AI into your development workflow. Here's an objective analysis of what each approach reveals about the future of software development.",
+      "summary": "This document analyzes the three distinct approaches for integrating AI into development workflows: VSCode forks, IDE extensions, and CLI agents, comparing their technical architectures, strengths, limitations, and use cases.",
+      "tags": [
+        "ai-coding-assistant",
+        "vscode-forks",
+        "ide-extensions",
+        "cli-agents",
+        "development-workflows",
+        "integration-patterns",
+        "security-models"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-coding-agents-showdown.md"
+    },
+    {
+      "file_path": "051-blog-index-vs-no-index-ai-code-agents.md",
+      "title": "AI Code Agents: Indexed vs. Non-Indexed Performance for Real-Time Development",
+      "url": "https://forgecode.dev/blog/index-vs-no-index-ai-code-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:22.091508044-03:00",
+      "description": "Explore a benchmark comparison of indexed vs. non-indexed AI coding agents using Apollo 11's guidance computer code. Uncover critical insights into speed, accuracy, and the hidden costs of synchronization in AI-assisted development.",
+      "summary": "This document presents an experiment comparing AI agent performance on code analysis tasks, testing whether code indexing improves efficiency when analyzing the Apollo Guidance Computer codebase.",
+      "tags": [
+        "code-indexing",
+        "ai-agents",
+        "performance-testing",
+        "legacy-code",
+        "apollo-guidance-computer",
+        "vector-search",
+        "code-analysis"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-index-vs-no-index-ai-code-agents.md"
+    },
+    {
+      "file_path": "048-blog-kimi-k2-vs-grok-4-comparison-full.md",
+      "title": "Kimi K2 vs Grok 4: Which AI Model Codes Better?",
+      "url": "https://forgecode.dev/blog/kimi-k2-vs-grok-4-comparison-full/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:24.207943752-03:00",
+      "description": "A deep dive into Kimi K2 and Grok 4 for real-world coding, comparing their performance across bug fixing, feature implementation, tool use, and cost efficiency. See which model stands out and when to choose each for your dev workflow.",
+      "summary": "This document presents a real-world coding performance comparison between Kimi K2 and Grok 4 AI models, testing their abilities to fix bugs, implement features, and refactor code in a Next.js application.",
+      "tags": [
+        "ai-models",
+        "coding-performance",
+        "nextjs",
+        "real-world-testing",
+        "code-quality",
+        "tool-calling",
+        "model-comparison"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-kimi-k2-vs-grok-4-comparison-full.md"
+    },
+    {
+      "file_path": "049-blog-kimi-k2-vs-qwen-3-coder-coding-comparison.md",
+      "title": "Kimi K2 vs Qwen-3 Coder: Testing Two AI Models on Coding Tasks",
+      "url": "https://forgecode.dev/blog/kimi-k2-vs-qwen-3-coder-coding-comparison/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:26.324222871-03:00",
+      "description": "I tested Kimi K2 and Qwen-3 Coder on 13 Rust development tasks across a 38k-line codebase and 2 Frontend refactor tasks. The results reveal differences in code quality, instruction following, and development capabilities.",
+      "summary": "This document presents a detailed comparison of Kimi K2 and Qwen-3 Coder AI models based on real-world development tasks in Rust and React, showing performance differences across various coding scenarios.",
+      "tags": [
+        "ai-model-comparison",
+        "rust-development",
+        "react-frontend",
+        "code-generation",
+        "benchmark-testing",
+        "development-tasks",
+        "model-performance"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-kimi-k2-vs-qwen-3-coder-coding-comparison.md"
+    },
+    {
+      "file_path": "050-blog-kimi-k2-vs-sonnet-4-vs-gemini-2.5-pro.md",
+      "title": "Claude Sonnet 4 vs Kimi K2 vs Gemini 2.5 Pro: Which AI actually ships production code?",
+      "url": "https://forgecode.dev/blog/kimi-k2-vs-sonnet-4-vs-gemini-2.5-pro/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:28.498802285-03:00",
+      "description": "I ran Claude Sonnet 4, Kimi K2, and Gemini 2.5 Pro on the same Next.js app and measured cost, speed, and whether the code actually shipped without follow-ups.",
+      "summary": "A comparison of three AI models (Claude Sonnet 4, Kimi K2, and Gemini 2.5 Pro) tested on the same Next.js codebase to evaluate their performance on bug fixes and feature implementations with real-time collaboration using Velt SDK.",
+      "tags": [
+        "ai-models",
+        "nextjs",
+        "typescript",
+        "velt-sdk",
+        "real-time-collaboration",
+        "code-review",
+        "performance-comparison",
+        "bug-fixing"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-kimi-k2-vs-sonnet-4-vs-gemini-2.5-pro.md"
+    },
+    {
+      "file_path": "052-blog-mcp-spec-updates.md",
+      "title": "MCP 2025-06-18 Spec Update: AI Security, Structured Output, and User Elicitation for LLMs",
+      "url": "https://forgecode.dev/blog/mcp-spec-updates/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:30.374604931-03:00",
+      "description": "Real talk about MCP Spec update (v2025-06-18), including important changes, security implications and what developers should actually care about.",
+      "summary": "This document explains the new MCP (Model Context Protocol) v2025-06-18 specification update, focusing on security improvements including OAuth 2.0 integration, token binding, and authentication requirements for AI model context protocols.",
+      "tags": [
+        "mcp",
+        "model-context-protocol",
+        "oauth2",
+        "security",
+        "authentication",
+        "token-binding",
+        "ai-integration",
+        "api-specification"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-mcp-spec-updates.md"
+    },
+    {
+      "file_path": "054-blog-prevent-attacks-on-mcp-part2.md",
+      "title": "MCP Security Prevention: Practical Strategies for AI Development - Part 2",
+      "url": "https://forgecode.dev/blog/prevent-attacks-on-mcp-part2/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:32.315489824-03:00",
+      "description": "Dive into real-world MCP security vulnerabilities and discover actionable prevention strategies for AI development, focusing on prompt injection, cost-based attacks, and secure credential handling.",
+      "summary": "This document provides security guidance for protecting AI systems and MCP servers from prompt injection attacks, credential theft, and resource exploitation based on OWASP and NIST frameworks.",
+      "tags": [
+        "ai-security",
+        "prompt-injection",
+        "mcp-servers",
+        "owasp-top-10",
+        "nist-framework",
+        "credential-security",
+        "resource-limiting",
+        "semantic-validation"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-prevent-attacks-on-mcp-part2.md"
+    },
+    {
+      "file_path": "058-blog-forge-v0106-release.md",
+      "title": "ForgeCode v0.106.0 Release: Plan Progress Tracking and Reliability Improvements",
+      "url": "https://forgecode.dev/blog/forge-v0106-release/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:12.371962876-03:00",
+      "description": "ForgeCode v0.106.0 introduces plan progress tracking for better task management and reliability improvements to enhance your development workflow.",
+      "summary": "This document explains the new features and improvements in ForgeCode version 0.106.0, including real-time plan progress tracking, VS Code extension functionality, and enhanced reliability features.",
+      "tags": [
+        "version-update",
+        "progress-tracking",
+        "vs-code-extension",
+        "reliability",
+        "error-handling",
+        "api-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-forge-v0106-release.md"
+    },
+    {
+      "file_path": "045-blog-claude-sonnet-4-vs-gemini-2-5-pro-preview-coding-comparison.md",
+      "title": "Claude Sonnet 4 vs Gemini 2.5 Pro Preview: AI Coding Assistant Comparison",
+      "url": "https://forgecode.dev/blog/claude-sonnet-4-vs-gemini-2-5-pro-preview-coding-comparison/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:06.8312541-03:00",
+      "description": "An in-depth comparison of Claude Sonnet 4 and Gemini 2.5 Pro Preview for AI-assisted coding, evaluating their efficiency, cost-effectiveness, and critical instruction adherence in real-world development workflows.",
+      "summary": "This document provides a detailed performance comparison between Claude Sonnet 4 and Gemini 2.5 Pro Preview AI models, focusing on execution speed, cost efficiency, and instruction adherence for coding tasks.",
+      "tags": [
+        "ai-model-comparison",
+        "performance-testing",
+        "coding-tasks",
+        "claude-sonnet",
+        "gemini-pro",
+        "cost-efficiency",
+        "execution-speed",
+        "instruction-adherence"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-claude-sonnet-4-vs-gemini-2-5-pro-preview-coding-comparison.md"
+    },
+    {
+      "file_path": "041-blog-simple-is-not-easy.md",
+      "title": "Simple Over Easy: Architectural Constraints for Maintainable AI-Generated Code",
+      "url": "https://forgecode.dev/blog/simple-is-not-easy/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:36.00291288-03:00",
+      "description": "Discover how applying Rich Hickey's 'Simple Made Easy' principles can solve the 'AI 90/10 problem', leading to more maintainable and reviewable AI-generated code by constraining architectural choices.",
+      "summary": "This document explains how to apply Rich Hickey's 'Simple Made Easy' principles to constrain AI code generation, creating architectural patterns that force maintainable code by design.",
+      "tags": [
+        "ai-code-generation",
+        "simple-made-easy",
+        "architectural-constraints",
+        "code-maintenance",
+        "rich-hickey",
+        "software-design",
+        "principles"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-simple-is-not-easy.md"
+    },
+    {
+      "file_path": "066-blog-tags.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:37.647835235-03:00",
+      "summary": "This document provides information about ForgeCode's ranking and accuracy metrics on TermBench, with a link to learn more about agent improvements.",
+      "tags": [
+        "forgecode",
+        "termbench",
+        "accuracy",
+        "ranking",
+        "gpt-5",
+        "agent-improvements"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags.md"
+    },
+    {
+      "file_path": "067-blog-tags-ai-agent.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-agent/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:42.087726401-03:00",
+      "summary": "This document provides best practices and lessons for developers on effective AI-assisted development, covering planning, prompt engineering, and context management techniques.",
+      "tags": [
+        "ai-pair-programming",
+        "developer-productivity",
+        "prompt-engineering",
+        "context-management",
+        "ai-best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-ai-agent.md"
+    },
+    {
+      "file_path": "075-blog-tags-agent-harness.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/agent-harness/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:40.271139294-03:00",
+      "summary": "This document discusses how ForgeCode achieved 81.8% on TermBench 2.0 with GPT 5.4 and Opus 4.6, focusing on the agent modifications needed to make GPT 5.4 perform as reliably as Opus 4.6.",
+      "tags": [
+        "benchmarking",
+        "ai-agent",
+        "gpt-5-4",
+        "opus-4-6",
+        "performance-optimization",
+        "reliability"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-agent-harness.md"
+    },
+    {
+      "file_path": "069-blog-tags-ai-coding-assistant.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-coding-assistant/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:45.734768335-03:00",
+      "summary": "A root cause analysis document detailing the quality degradation incident of the ForgeCode AI coding assistant on July 12, 2025, including impact assessment and prevention measures.",
+      "tags": [
+        "root-cause-analysis",
+        "quality-degradation",
+        "ai-coding-assistant",
+        "performance-incident",
+        "forgecode",
+        "stability-improvements"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-ai-coding-assistant.md"
+    },
+    {
+      "file_path": "070-blog-tags-ai-coding-tools.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-coding-tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:48.133771581-03:00",
+      "summary": "This document analyzes three different approaches for integrating AI coding assistants into development workflows: VSCode forks, IDE extensions, and CLI agents.",
+      "tags": [
+        "ai-coding-assistants",
+        "development-workflow",
+        "vscode-extensions",
+        "cli-tools",
+        "ide-integration"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-tags-ai-coding-tools.md"
+    },
+    {
+      "file_path": "068-blog-tags-ai-agents.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:43.710773038-03:00",
+      "summary": "This document presents a benchmark comparison analyzing the performance differences between indexed and non-indexed AI coding agents for real-time development, using Apollo 11's guidance computer code as a test case.",
+      "tags": [
+        "ai-code-agents",
+        "performance-benchmark",
+        "indexed-search",
+        "real-time-development",
+        "ai-assisted-coding"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-ai-agents.md"
+    },
+    {
+      "file_path": "072-blog-tags-ai-models.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-models/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:51.729588148-03:00",
+      "summary": "A developer's review of Claude 4 AI model, analyzing its coding capabilities and performance metrics including its 72.7% SWE-bench Verified score.",
+      "tags": [
+        "ai-coding",
+        "claude-4",
+        "swe-bench",
+        "developer-review",
+        "artificial-intelligence",
+        "software-development"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-ai-models.md"
+    },
+    {
+      "file_path": "053-blog-prevent-attacks-on-mcp.md",
+      "title": "MCP Security Crisis: Uncovering Vulnerabilities and Attack Vectors - Part 1",
+      "url": "https://forgecode.dev/blog/prevent-attacks-on-mcp/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:34.21764959-03:00",
+      "description": "A deep dive into critical security vulnerabilities found in Model Context Protocol (MCP) implementations, including tool description injection, authentication weaknesses, and supply chain risks, highlighting why these issues demand immediate attention in AI development.",
+      "summary": "This document analyzes security vulnerabilities in Model Context Protocol (MCP) implementations, focusing on tool description injection, authentication weaknesses, and supply chain risks that could allow malicious AI behavior and unauthorized access.",
+      "tags": [
+        "mcp-security",
+        "ai-security",
+        "prompt-injection",
+        "supply-chain-attacks",
+        "tool-description-injection",
+        "authentication-bypass",
+        "model-context-protocol"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-prevent-attacks-on-mcp.md"
+    },
+    {
+      "file_path": "074-blog-tags-ai.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:55.695513504-03:00",
+      "summary": "Analysis and evaluation of Grok 4, xAI's latest large language model, examining its architecture, benchmarks, and potential for integration into AI development workflows.",
+      "tags": [
+        "grok-4",
+        "large-language-model",
+        "ai-development",
+        "machine-learning",
+        "artificial-intelligence",
+        "model-evaluation",
+        "ai-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-ai.md"
+    },
+    {
+      "file_path": "076-blog-tags-anthropic.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/anthropic/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:58.208510089-03:00",
+      "summary": "A developer's review of Claude 4 AI model, analyzing its coding capabilities and performance metrics including the SWE-bench Verified score.",
+      "tags": [
+        "claude-4",
+        "ai-coding",
+        "developer-review",
+        "swe-bench",
+        "software-development"
+      ],
+      "category": "review",
+      "original_file_path": "blog-tags-anthropic.md"
+    },
+    {
+      "file_path": "077-blog-tags-apollo-11.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/apollo-11/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:00.177265762-03:00",
+      "summary": "This document presents a benchmark comparison analyzing the performance differences between indexed and non-indexed AI coding agents for real-time development, using Apollo 11's guidance computer code as a test case.",
+      "tags": [
+        "ai-code-agents",
+        "performance-benchmark",
+        "real-time-development",
+        "indexed-search",
+        "ai-assisted-development"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-apollo-11.md"
+    },
+    {
+      "file_path": "078-blog-tags-architecture.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/architecture/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:02.198274894-03:00",
+      "summary": "This document explains how to apply Rich Hickey's 'Simple Made Easy' principles to create architectural constraints that solve the AI code generation problem and improve maintainability of AI-generated code.",
+      "tags": [
+        "simple-made-easy",
+        "architectural-constraints",
+        "ai-generated-code",
+        "maintainability",
+        "code-review",
+        "rich-hickey"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-tags-architecture.md"
+    },
+    {
+      "file_path": "079-blog-tags-authentication.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/authentication/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:03.75488116-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol implementations, focusing on attack vectors like tool description injection and authentication weaknesses that require urgent attention in AI development.",
+      "tags": [
+        "mcp-security",
+        "vulnerability-analysis",
+        "ai-security",
+        "authentication-weaknesses",
+        "tool-description-injection",
+        "supply-chain-risks"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-authentication.md"
+    },
+    {
+      "file_path": "080-blog-tags-best-practices.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/best-practices/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:06.145112851-03:00",
+      "summary": "This document provides an update on the MCP specification version 2025-06-18, focusing on AI security enhancements, structured output capabilities, and user elicitation features for large language models.",
+      "tags": [
+        "mcp-spec",
+        "ai-security",
+        "structured-output",
+        "user-elicitation",
+        "llms",
+        "api-specification"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-best-practices.md"
+    },
+    {
+      "file_path": "081-blog-tags-bug-fixing.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/bug-fixing/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:07.590718171-03:00",
+      "summary": "This document compares the performance of three AI models (Claude Sonnet 4, Kimi K2, and Gemini 2.5 Pro) on production code generation tasks using a Next.js application, measuring cost, speed, and code quality.",
+      "tags": [
+        "ai-models",
+        "code-generation",
+        "nextjs",
+        "performance-comparison",
+        "production-deployment"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-bug-fixing.md"
+    },
+    {
+      "file_path": "071-blog-tags-ai-coding.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-coding/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:49.957455331-03:00",
+      "summary": "This document provides a collection of articles comparing different AI coding tools and models, offering guidance on their usage, performance, and best practices for developer workflows.",
+      "tags": [
+        "ai-coding",
+        "model-comparison",
+        "developer-tools",
+        "coding-assistants",
+        "ai-pair-programming",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-ai-coding.md"
+    },
+    {
+      "file_path": "073-blog-tags-ai-safety.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ai-safety/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:53.705465368-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol (MCP) implementations, covering attack vectors like tool description injection, authentication issues, and supply chain risks.",
+      "tags": [
+        "mcp-security",
+        "vulnerability-analysis",
+        "tool-description-injection",
+        "authentication-weaknesses",
+        "supply-chain-security",
+        "ai-security",
+        "attack-vectors"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-ai-safety.md"
+    },
+    {
+      "file_path": "083-blog-tags-claude-4.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/claude-4/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:11.908524092-03:00",
+      "summary": "A developer's review analyzing Claude 4's AI coding capabilities, performance metrics, and implications for AI-assisted software development.",
+      "tags": [
+        "claude-4",
+        "ai-coding",
+        "developer-review",
+        "swe-bench",
+        "software-development",
+        "anthropic"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-claude-4.md"
+    },
+    {
+      "file_path": "085-blog-tags-cli-agents.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/cli-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:15.84676139-03:00",
+      "summary": "This document analyzes three different approaches for integrating AI coding assistants into development workflows: VSCode forks, IDE extensions, and CLI agents.",
+      "tags": [
+        "ai-coding-assistants",
+        "development-tools",
+        "vscode",
+        "ide-integration",
+        "cli-tools",
+        "software-development"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-tags-cli-agents.md"
+    },
+    {
+      "file_path": "086-blog-tags-cloud-security.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/cloud-security/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:17.474697074-03:00",
+      "summary": "This document provides practical strategies for preventing security vulnerabilities in AI development, focusing on prompt injection, cost-based attacks, and secure credential handling in MCP systems.",
+      "tags": [
+        "mcp-security",
+        "ai-development",
+        "prompt-injection",
+        "cost-based-attacks",
+        "credential-handling",
+        "security-prevention"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-cloud-security.md"
+    },
+    {
+      "file_path": "087-blog-tags-cloud.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/cloud/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:19.56401715-03:00",
+      "summary": "Analysis of a major IAM failure that caused widespread outages across Google Cloud, Cloudflare, Anthropic, and other internet services.",
+      "tags": [
+        "google-cloud",
+        "iam-failure",
+        "cloudflare",
+        "anthropic",
+        "outage",
+        "infrastructure",
+        "cascading-failure"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-cloud.md"
+    },
+    {
+      "file_path": "088-blog-tags-coding-benchmarks.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/coding-benchmarks/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:21.364690793-03:00",
+      "summary": "This document explains how ForgeCode achieved 78.4% SOTA on TermBench 2.0, detailing seven failure modes, their fixes, and how the benchmark work generalized across models rather than overfitting to one run.",
+      "tags": [
+        "benchmark-optimization",
+        "model-performance",
+        "failure-modes",
+        "generalization",
+        "sota-achievement"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-coding-benchmarks.md"
+    },
+    {
+      "file_path": "089-blog-tags-coding-experience.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/coding-experience/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:23.410372895-03:00",
+      "summary": "A comprehensive review of DeepSeek-R1-0528's AI coding performance, architectural features, and latency issues when used through OpenRouter API for real-time development workflows.",
+      "tags": [
+        "ai-coding",
+        "llm-performance",
+        "latency-testing",
+        "openrouter-api",
+        "deepseek-r1",
+        "code-review"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-coding-experience.md"
+    },
+    {
+      "file_path": "082-blog-tags-claude-4-opus.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/claude-4-opus/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:09.64181757-03:00",
+      "summary": "This document compares Claude 4 Opus and Grok 4 models in complex coding tasks, analyzing trade-offs in speed, cost, accuracy, and developer experience.",
+      "tags": [
+        "ai-models",
+        "coding-tasks",
+        "performance-comparison",
+        "claude-4",
+        "grok-4",
+        "developer-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-claude-4-opus.md"
+    },
+    {
+      "file_path": "091-blog-tags-cost-analysis.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/cost-analysis/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:27.548555958-03:00",
+      "summary": "This document provides an in-depth comparison of Claude Sonnet 4 and Gemini 2.5 Pro Preview for AI-assisted coding, evaluating their performance in real-world development workflows.",
+      "tags": [
+        "ai-coding-assistants",
+        "claude-sonnet-4",
+        "gemini-2.5-pro",
+        "coding-comparison",
+        "development-workflows",
+        "ai-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-cost-analysis.md"
+    },
+    {
+      "file_path": "092-blog-tags-deep-seek.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/deep-seek/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:29.74150138-03:00",
+      "summary": "A comprehensive review analyzing DeepSeek-R1-0528's AI coding capabilities, architectural features, and performance challenges when integrated through OpenRouter API for real-time development workflows.",
+      "tags": [
+        "ai-coding",
+        "llm-performance",
+        "latency-testing",
+        "openrouter-api",
+        "deepseek-r1",
+        "development-workflow"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-deep-seek.md"
+    },
+    {
+      "file_path": "093-blog-tags-defense.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/defense/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:31.907015114-03:00",
+      "summary": "This document provides practical security strategies for AI development, focusing on preventing MCP vulnerabilities including prompt injection, cost-based attacks, and secure credential handling.",
+      "tags": [
+        "mcp-security",
+        "ai-development",
+        "prompt-injection",
+        "cost-based-attacks",
+        "credential-security",
+        "vulnerability-prevention"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-defense.md"
+    },
+    {
+      "file_path": "094-blog-tags-dev-ops.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/dev-ops/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:33.736598613-03:00",
+      "summary": "Analyzes the IAM failure that caused widespread outages across Google Cloud, Cloudflare, Anthropic, and other internet services, examining the cascading impact of the incident.",
+      "tags": [
+        "google-cloud",
+        "iam-failure",
+        "cloudflare-outage",
+        "anthropic-outage",
+        "cascading-failure",
+        "incident-analysis"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-dev-ops.md"
+    },
+    {
+      "file_path": "095-blog-tags-developer-best-practices.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/developer-best-practices/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:35.476200655-03:00",
+      "summary": "Provides best practices and lessons for productive AI-assisted development based on real-world pair programming experience.",
+      "tags": [
+        "ai-pair-programming",
+        "developer-productivity",
+        "prompt-engineering",
+        "ai-agents",
+        "software-development",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-developer-best-practices.md"
+    },
+    {
+      "file_path": "096-blog-tags-developer-experience.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/developer-experience/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:37.958529545-03:00",
+      "summary": "This document compares the performance of Claude Sonnet 4, Kimi K2, and Gemini 2.5 Pro AI models in generating production-ready Next.js application code, measuring cost, speed, and code quality.",
+      "tags": [
+        "ai-comparison",
+        "nextjs",
+        "production-code",
+        "claude-sonnet",
+        "kimi-k2",
+        "gemini-25-pro",
+        "code-generation"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-developer-experience.md"
+    },
+    {
+      "file_path": "097-blog-tags-developer-productivity.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/developer-productivity/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:39.521277629-03:00",
+      "summary": "This document analyzes three different approaches for integrating AI coding assistants into development workflows: VSCode forks, IDE extensions, and CLI agents.",
+      "tags": [
+        "ai-coding-assistants",
+        "development-tools",
+        "vscode",
+        "ide-extensions",
+        "cli-tools",
+        "software-development"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-tags-developer-productivity.md"
+    },
+    {
+      "file_path": "098-blog-tags-developer-tools.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/developer-tools/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:41.991187998-03:00",
+      "summary": "This document contains a collection of blog posts about AI coding tools, comparing different AI models for development tasks and discussing pricing strategies for developer tools.",
+      "tags": [
+        "ai-coding",
+        "model-comparison",
+        "developer-tools",
+        "pricing",
+        "coding-assistants",
+        "swe-bench"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-developer-tools.md"
+    },
+    {
+      "file_path": "099-blog-tags-evaluation.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/evaluation/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:43.742118271-03:00",
+      "summary": "This document explains how ForgeCode achieved 78.4% SOTA on TermBench 2.0, detailing seven failure modes, their fixes, and how the benchmark work generalized across models rather than overfitting to specific runs.",
+      "tags": [
+        "benchmark-optimization",
+        "model-performance",
+        "failure-modes",
+        "generalization",
+        "technical-achievements"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-evaluation.md"
+    },
+    {
+      "file_path": "100-blog-tags-forge-code.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/forge-code/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:45.889021984-03:00",
+      "summary": "A root cause analysis document detailing the quality degradation incident of the ForgeCode AI coding assistant on July 12, 2025, including impact assessment and preventive measures.",
+      "tags": [
+        "root-cause-analysis",
+        "quality-degradation",
+        "ai-coding-assistant",
+        "incident-report",
+        "performance-issues"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-forge-code.md"
+    },
+    {
+      "file_path": "101-blog-tags-gemini-2-5-pro.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/gemini-2-5-pro/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:48.094767328-03:00",
+      "summary": "A comparison analysis of three AI models (Claude Sonnet 4, Kimi K2, and Gemini 2.5 Pro) evaluating their performance in generating production-ready Next.js code based on cost, speed, and shipping capability.",
+      "tags": [
+        "ai-comparison",
+        "nextjs",
+        "production-code",
+        "claud-sonnet",
+        "kimi-k2",
+        "gemini-pro",
+        "code-generation"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-gemini-2-5-pro.md"
+    },
+    {
+      "file_path": "102-blog-tags-gemini.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/gemini/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:49.790959516-03:00",
+      "summary": "This document discusses how ForgeCode achieved 81.8% on TermBench 2.0 and the changes made to make GPT 5.4 behave as reliably as Opus 4.6.",
+      "tags": [
+        "benchmarking",
+        "ai-agent",
+        "gpt-5-4",
+        "opus-4-6",
+        "performance-optimization"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-gemini.md"
+    },
+    {
+      "file_path": "090-blog-tags-coding.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/coding/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:26.196850876-03:00",
+      "summary": "A benchmark comparison analyzing the performance differences between indexed and non-indexed AI coding agents for real-time development, using Apollo 11's guidance computer code as a test case.",
+      "tags": [
+        "ai-code-agents",
+        "performance-benchmark",
+        "indexed-search",
+        "real-time-development",
+        "coding-assistants"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-coding.md"
+    },
+    {
+      "file_path": "047-blog-grok-4-initial-impression.md",
+      "title": "Grok 4 Initial Impressions: Is xAI's New LLM the Most Intelligent AI Model Yet?",
+      "url": "https://forgecode.dev/blog/grok-4-initial-impression/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:48:20.315734631-03:00",
+      "description": "A deep dive into Grok 4's benchmarks, architecture, and community impressions. Is xAI's latest LLM a breakthrough towards AGI, and is it worth integrating into your AI development workflow?",
+      "summary": "This document provides a comprehensive analysis of Grok 4, an AI model from xAI, covering its technical specifications, performance benchmarks, pricing, and capabilities compared to other AI models.",
+      "tags": [
+        "ai-model",
+        "grok-4",
+        "benchmarking",
+        "artificial-intelligence",
+        "llm",
+        "xai",
+        "elon-musk"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-grok-4-initial-impression.md"
+    },
+    {
+      "file_path": "105-blog-tags-growth.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/growth/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:55.684885743-03:00",
+      "summary": "This document appears to be a placeholder or template for cookie settings, likely related to website privacy controls.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "website-security",
+        "user-preferences"
+      ],
+      "category": "configuration",
+      "original_file_path": "blog-tags-growth.md"
+    },
+    {
+      "file_path": "106-blog-tags-ide-extensions.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/ide-extensions/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:57.78307025-03:00",
+      "summary": "This document analyzes three different approaches for integrating AI coding assistants into development workflows: VSCode forks, IDE extensions, and CLI agents.",
+      "tags": [
+        "ai-coding-assistants",
+        "development-workflow",
+        "vscode",
+        "ide-extensions",
+        "cli-tools",
+        "software-development"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-ide-extensions.md"
+    },
+    {
+      "file_path": "107-blog-tags-incident-analysis.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/incident-analysis/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:00.052085794-03:00",
+      "summary": "Analysis of a major IAM failure that caused widespread outages across Google Cloud, Cloudflare, Anthropic, and other internet services.",
+      "tags": [
+        "google-cloud",
+        "iam-failure",
+        "cloudflare",
+        "anthropic",
+        "outage",
+        "cascading-failure",
+        "infrastructure"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-incident-analysis.md"
+    },
+    {
+      "file_path": "108-blog-tags-incident.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/incident/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:01.730292752-03:00",
+      "summary": "A root cause analysis report examining the quality degradation incident of the ForgeCode AI coding assistant on July 12, 2025, including impact assessment and preventive measures.",
+      "tags": [
+        "root-cause-analysis",
+        "quality-degradation",
+        "ai-coding-assistant",
+        "incident-report",
+        "performance-issues",
+        "conversation-compaction"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-incident.md"
+    },
+    {
+      "file_path": "109-blog-tags-instruction-adherence.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/instruction-adherence/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:03.909669102-03:00",
+      "summary": "This document provides an in-depth comparison of Claude Sonnet 4 and Gemini 2.5 Pro Preview as AI coding assistants, evaluating their performance in real-world development workflows.",
+      "tags": [
+        "ai-coding-assistants",
+        "claude-sonnet-4",
+        "gemini-2-5-pro",
+        "coding-comparison",
+        "development-workflows",
+        "ai-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-instruction-adherence.md"
+    },
+    {
+      "file_path": "110-blog-tags-kimi-k-2-5.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/kimi-k-2-5/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:06.057569346-03:00",
+      "summary": "This document provides a quick guide on how to integrate and use Novita AI within ForgeCode, including API key creation and getting started with coding.",
+      "tags": [
+        "novita-ai",
+        "forgecode",
+        "api-integration",
+        "quick-guide",
+        "coding-tutorial"
+      ],
+      "category": "tutorial",
+      "original_file_path": "blog-tags-kimi-k-2-5.md"
+    },
+    {
+      "file_path": "111-blog-tags-kimi-k-2.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/kimi-k-2/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:07.944242814-03:00",
+      "summary": "A comparison analysis of Kimi K2 and Grok 4 AI models for coding tasks, evaluating their performance in bug fixing, feature implementation, and cost efficiency.",
+      "tags": [
+        "ai-models",
+        "coding-performance",
+        "comparison",
+        "bug-fixing",
+        "feature-implementation",
+        "cost-efficiency"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-kimi-k-2.md"
+    },
+    {
+      "file_path": "112-blog-tags-launch.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/launch/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:09.666420992-03:00",
+      "summary": "This document appears to be a placeholder or header for cookie settings, likely related to website privacy and cookie management configuration.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "configuration",
+        "website-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "blog-tags-launch.md"
+    },
+    {
+      "file_path": "113-blog-tags-llm-provider.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/llm-provider/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:12.009183143-03:00",
+      "summary": "This document provides a guide on how to integrate and use Novita AI within ForgeCode, including API key creation and getting started with coding.",
+      "tags": [
+        "novita-ai",
+        "forgecode",
+        "api-integration",
+        "coding-guide",
+        "quick-start"
+      ],
+      "category": "tutorial",
+      "original_file_path": "blog-tags-llm-provider.md"
+    },
+    {
+      "file_path": "084-blog-tags-claude-sonnet-4.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/claude-sonnet-4/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:13.67942619-03:00",
+      "summary": "A comparative analysis of AI models (Claude Sonnet 4, Kimi K2, Gemini 2.5 Pro) evaluating their effectiveness in generating production-ready Next.js code based on cost, speed, and code quality metrics.",
+      "tags": [
+        "ai-models",
+        "nextjs",
+        "production-code",
+        "code-generation",
+        "performance-comparison",
+        "web-development"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-claude-sonnet-4.md"
+    },
+    {
+      "file_path": "115-blog-tags-mcp-spec-updates.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/mcp-spec-updates/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:15.720366545-03:00",
+      "summary": "This document explains updates to the MCP specification version 2025-06-18, focusing on AI security, structured output, and user elicitation features for LLMs, along with their security implications and developer considerations.",
+      "tags": [
+        "mcp-spec",
+        "ai-security",
+        "structured-output",
+        "user-elicitation",
+        "llms",
+        "developer-guide",
+        "security-implications"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-mcp-spec-updates.md"
+    },
+    {
+      "file_path": "116-blog-tags-mcp.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/mcp/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:18.101090813-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol (MCP) implementations, covering attack vectors like tool description injection, authentication weaknesses, and supply chain risks.",
+      "tags": [
+        "mcp-security",
+        "vulnerability-assessment",
+        "tool-description-injection",
+        "authentication-weaknesses",
+        "supply-chain-risks",
+        "ai-security"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-tags-mcp.md"
+    },
+    {
+      "file_path": "114-blog-tags-llm.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/llm/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:13.443086831-03:00",
+      "summary": "This document provides an analysis of Grok 4, xAI's latest large language model, examining its benchmarks, architecture, and community reception to evaluate its potential as an advanced AI system.",
+      "tags": [
+        "grok-4",
+        "large-language-model",
+        "ai-benchmarks",
+        "machine-learning",
+        "artificial-intelligence"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-llm.md"
+    },
+    {
+      "file_path": "118-blog-tags-model-review.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/model-review/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:21.66162365-03:00",
+      "summary": "Analysis and evaluation of Grok 4, xAI's latest large language model, examining its benchmarks, architecture, and potential for artificial general intelligence.",
+      "tags": [
+        "grok-4",
+        "large-language-model",
+        "artificial-intelligence",
+        "benchmark-analysis",
+        "ai-development"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-model-review.md"
+    },
+    {
+      "file_path": "119-blog-tags-novita-ai.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/novita-ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:23.96348288-03:00",
+      "summary": "This document provides instructions on integrating Novita AI into ForgeCode, including API key setup and basic implementation steps.",
+      "tags": [
+        "novita-ai",
+        "forgecode",
+        "api-integration",
+        "api-key",
+        "coding-tutorial"
+      ],
+      "category": "tutorial",
+      "original_file_path": "blog-tags-novita-ai.md"
+    },
+    {
+      "file_path": "120-blog-tags-opus-4-6.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/opus-4-6/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:25.686965551-03:00",
+      "summary": "Discusses how ForgeCode achieved 81.8% on TermBench 2.0 and the changes made to make GPT 5.4 behave as reliably as Opus 4.6.",
+      "tags": [
+        "benchmarking",
+        "gpt-5-4",
+        "agent-improvements",
+        "reliability",
+        "performance-tuning"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-opus-4-6.md"
+    },
+    {
+      "file_path": "121-blog-tags-pair-programming.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/pair-programming/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:27.656088114-03:00",
+      "summary": "This document provides best practices for AI-assisted development based on real-world experience, covering effective planning, prompt engineering, and context management strategies for developers.",
+      "tags": [
+        "ai-development",
+        "pair-programming",
+        "best-practices",
+        "prompt-engineering",
+        "context-management",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-pair-programming.md"
+    },
+    {
+      "file_path": "122-blog-tags-performance.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/performance/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:30.007334177-03:00",
+      "summary": "A root cause analysis document detailing the quality degradation incident of the ForgeCode AI coding assistant on July 12, 2025, including impact assessment and prevention measures.",
+      "tags": [
+        "root-cause-analysis",
+        "quality-degradation",
+        "ai-coding-assistant",
+        "incident-report",
+        "performance-issues",
+        "stability-improvements"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-performance.md"
+    },
+    {
+      "file_path": "123-blog-tags-product-update.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/product-update/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:32.514269997-03:00",
+      "summary": "Document appears to be a placeholder or header for cookie settings configuration page.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "configuration",
+        "user-preferences"
+      ],
+      "category": "configuration",
+      "original_file_path": "blog-tags-product-update.md"
+    },
+    {
+      "file_path": "124-blog-tags-productivity.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/productivity/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:34.194540317-03:00",
+      "summary": "This document provides best practices and lessons learned from AI-assisted development based on 6 months of daily AI pair programming experience.",
+      "tags": [
+        "ai-pair-programming",
+        "developer-productivity",
+        "prompt-engineering",
+        "ai-agent",
+        "best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-productivity.md"
+    },
+    {
+      "file_path": "104-blog-tags-grok-4.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/grok-4/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:53.839122866-03:00",
+      "summary": "This document compares Kimi K2 and Grok 4 AI models for coding tasks, evaluating their performance in bug fixing, feature implementation, tool usage, and cost efficiency.",
+      "tags": [
+        "ai-models",
+        "coding-performance",
+        "comparative-analysis",
+        "development-tools",
+        "machine-learning"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-grok-4.md"
+    },
+    {
+      "file_path": "126-blog-tags-quality-degradation.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/quality-degradation/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:37.648185383-03:00",
+      "summary": "Root cause analysis document detailing the quality degradation incident of ForgeCode AI coding assistant on July 12, 2025, including impact assessment and prevention measures.",
+      "tags": [
+        "root-cause-analysis",
+        "quality-degradation",
+        "ai-coding-assistant",
+        "incident-report",
+        "performance-issues",
+        "stability-improvements"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-quality-degradation.md"
+    },
+    {
+      "file_path": "127-blog-tags-qwen-3-coder.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/qwen-3-coder/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:40.737117502-03:00",
+      "summary": "A comparison test between Kimi K2 and Qwen-3 Coder AI models on coding tasks including Rust development and frontend refactoring.",
+      "tags": [
+        "ai-models",
+        "coding-comparison",
+        "rust-development",
+        "frontend-refactoring",
+        "kimi-k2",
+        "qwen-3-coder"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-qwen-3-coder.md"
+    },
+    {
+      "file_path": "128-blog-tags-rca.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/rca/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:42.892207594-03:00",
+      "summary": "A root cause analysis document detailing the quality degradation incident of the ForgeCode AI coding assistant on July 12, 2025, including impact assessment and preventive measures.",
+      "tags": [
+        "root-cause-analysis",
+        "quality-degradation",
+        "ai-coding-assistant",
+        "incident-report",
+        "performance-issues",
+        "error-handling"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-rca.md"
+    },
+    {
+      "file_path": "129-blog-tags-release.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/release/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:44.032262019-03:00",
+      "summary": "This document announces the ForgeCode v0.98.0 release featuring browser-based authentication, AI safety limits, and enhanced file operations for AI coding assistants.",
+      "tags": [
+        "forgecode",
+        "release-notes",
+        "authentication",
+        "ai-coding",
+        "developer-experience",
+        "file-operations"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-release.md"
+    },
+    {
+      "file_path": "130-blog-tags-rust-development.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/rust-development/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:46.234055129-03:00",
+      "summary": "This document compares the performance of two AI coding models, Kimi K2 and Qwen-3 Coder, on Rust development and frontend refactoring tasks.",
+      "tags": [
+        "ai-coding-models",
+        "coding-comparison",
+        "rust-development",
+        "frontend-refactoring",
+        "model-testing"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-rust-development.md"
+    },
+    {
+      "file_path": "131-blog-tags-scaling.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/scaling/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:47.820433972-03:00",
+      "summary": "Document outlines cookie settings for the Tailcall website, including copyright information and user privacy controls.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "user-preferences",
+        "website-config"
+      ],
+      "category": "configuration",
+      "original_file_path": "blog-tags-scaling.md"
+    },
+    {
+      "file_path": "132-blog-tags-security.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/security/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:49.903186022-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol (MCP) implementations, covering attack vectors like tool description injection, authentication weaknesses, and supply chain risks.",
+      "tags": [
+        "mcp-security",
+        "vulnerability-analysis",
+        "tool-injection",
+        "authentication-weaknesses",
+        "supply-chain-risks",
+        "ai-security"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-security.md"
+    },
+    {
+      "file_path": "133-blog-tags-software-engineering.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/software-engineering/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:51.184605819-03:00",
+      "summary": "A guide to best practices for AI-assisted development based on real-world experience, covering effective planning, prompt engineering, and context management techniques.",
+      "tags": [
+        "ai-pair-programming",
+        "developer-productivity",
+        "prompt-engineering",
+        "best-practices",
+        "ai-assisted-development",
+        "context-management"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-software-engineering.md"
+    },
+    {
+      "file_path": "134-blog-tags-sre.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/sre/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:53.639277648-03:00",
+      "summary": "Analysis of a major IAM failure that caused widespread outages across Google Cloud, Cloudflare, Anthropic, and other internet services.",
+      "tags": [
+        "iam-failure",
+        "google-cloud",
+        "cloudflare",
+        "anthropic",
+        "outage",
+        "cascading-failure",
+        "cloud-services"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-sre.md"
+    },
+    {
+      "file_path": "135-blog-tags-supply-chain-security.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/supply-chain-security/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:56.008070893-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol (MCP) implementations, covering attack vectors like tool description injection, authentication weaknesses, and supply chain risks that require immediate attention in AI development.",
+      "tags": [
+        "mcp-security",
+        "vulnerabilities",
+        "attack-vectors",
+        "tool-injection",
+        "authentication-weaknesses",
+        "supply-chain-risks",
+        "ai-security"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-supply-chain-security.md"
+    },
+    {
+      "file_path": "136-blog-tags-swe-bench.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/swe-bench/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:58.289071486-03:00",
+      "summary": "A developer's review of Claude 4 AI model, analyzing its coding capabilities and performance metrics including the SWE-bench Verified score and implications for AI-assisted software development.",
+      "tags": [
+        "claude-4",
+        "ai-coding",
+        "swe-bench",
+        "anthropic",
+        "developer-review",
+        "ai-assisted-development"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-swe-bench.md"
+    },
+    {
+      "file_path": "137-blog-tags-term-bench.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/term-bench/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:59.8206478-03:00",
+      "summary": "This document explains how ForgeCode achieved 78.4% SOTA on TermBench 2.0, detailing seven failure modes, their fixes, and how the benchmark work generalized across models rather than overfitting to one run.",
+      "tags": [
+        "benchmarking",
+        "performance-optimization",
+        "machine-learning",
+        "model-evaluation",
+        "technical-implementation"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-term-bench.md"
+    },
+    {
+      "file_path": "138-blog-tags-tool-calling.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/tool-calling/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:01.943793062-03:00",
+      "summary": "Benchmarking analysis comparing AI models Claude Sonnet 4, Kimi K2, and Gemini 2.5 Pro for their ability to generate production-ready Next.js code based on cost, speed, and code quality metrics.",
+      "tags": [
+        "ai-benchmarking",
+        "nextjs",
+        "production-code",
+        "model-comparison",
+        "code-generation"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-tool-calling.md"
+    },
+    {
+      "file_path": "139-blog-tags-vector-search.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/vector-search/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:04.040827944-03:00",
+      "summary": "This document compares the performance of indexed versus non-indexed AI coding agents, analyzing speed, accuracy, and synchronization costs using Apollo 11's guidance computer code as a benchmark example.",
+      "tags": [
+        "ai-code-agents",
+        "performance-benchmark",
+        "indexed-search",
+        "real-time-development",
+        "code-completion",
+        "synchronization-costs"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-vector-search.md"
+    },
+    {
+      "file_path": "140-blog-tags-vs-code-forks.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/vs-code-forks/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:05.711128443-03:00",
+      "summary": "This document analyzes three different approaches for integrating AI coding assistants into development workflows: VSCode forks, IDE extensions, and CLI agents.",
+      "tags": [
+        "ai-coding-assistants",
+        "development-workflow",
+        "vscode",
+        "ide-extensions",
+        "cli-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-vs-code-forks.md"
+    },
+    {
+      "file_path": "103-blog-tags-gpt-5-4.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/gpt-5-4/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:49:52.203330888-03:00",
+      "summary": "Discusses agent reliability improvements needed to make GPT 5.4 perform as consistently as Opus 4.6 on TermBench 2.0, despite both achieving 81.8% scores.",
+      "tags": [
+        "benchmarking",
+        "ai-agents",
+        "gpt-5-4",
+        "opus-4-6",
+        "reliability",
+        "performance"
+      ],
+      "category": "concept",
+      "original_file_path": "blog-tags-gpt-5-4.md"
+    },
+    {
+      "file_path": "142-blog-tags-workflow-optimization.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/workflow-optimization/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:09.660741369-03:00",
+      "summary": "This document provides best practices for AI-assisted development based on real-world experience, covering effective planning, prompt engineering, and context management techniques for developers.",
+      "tags": [
+        "ai-development",
+        "best-practices",
+        "prompt-engineering",
+        "developer-productivity",
+        "ai-pair-programming"
+      ],
+      "category": "guide",
+      "original_file_path": "blog-tags-workflow-optimization.md"
+    },
+    {
+      "file_path": "141-blog-tags-vulnerabilities.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/vulnerabilities/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:07.802007766-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol (MCP) implementations, covering attack vectors like tool description injection and authentication weaknesses that require immediate attention in AI development.",
+      "tags": [
+        "mcp-security",
+        "vulnerabilities",
+        "attack-vectors",
+        "ai-security",
+        "tool-injection",
+        "authentication-weaknesses",
+        "supply-chain-risks"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-vulnerabilities.md"
+    },
+    {
+      "file_path": "062-blog-use-novita-ai-api-in-forgecode.md",
+      "title": "How to Use Novita AI in ForgeCode: Quick Guide",
+      "url": "https://forgecode.dev/blog/use-novita-ai-api-in-forgecode/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:13.742540387-03:00",
+      "description": "What Novita AI is, why it fits ForgeCode, how to create your API key, and how to start coding with Novita in minutes.",
+      "summary": "This document explains how to integrate Novita as an AI provider in ForgeCode, covering the setup process and benefits of using Novita's coding models through the terminal workflow.",
+      "tags": [
+        "novita-ai",
+        "forgecode",
+        "api-integration",
+        "coding-models",
+        "terminal-workflow",
+        "model-comparison"
+      ],
+      "category": "tutorial",
+      "original_file_path": "blog-use-novita-ai-api-in-forgecode.md"
+    },
+    {
+      "file_path": "157-search.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/search/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:16.36904797-03:00",
+      "summary": "This document provides information about ForgeCode's ranking and accuracy metrics on TermBench platform.",
+      "tags": [
+        "forgecode",
+        "termbench",
+        "accuracy",
+        "ranking",
+        "metrics"
+      ],
+      "category": "reference",
+      "original_file_path": "search.md"
+    },
+    {
+      "file_path": "156-terms.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/terms/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:18.314647939-03:00",
+      "description": "Terms and Conditions and Fair Usage Policy for ForgeCode",
+      "summary": "This document outlines the fair usage policy and terms of service for ForgeCode, detailing API usage restrictions, account sharing limitations, and acceptable use guidelines for users.",
+      "tags": [
+        "fair-usage-policy",
+        "api-restrictions",
+        "account-sharing",
+        "terms-of-service",
+        "accepting-use",
+        "usage-monitoring",
+        "account-violations"
+      ],
+      "category": "reference",
+      "original_file_path": "terms.md"
+    },
+    {
+      "file_path": "002-docs.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:19.389269825-03:00",
+      "description": "ForgeCode is the world's #1 coding harness \u2014 ranked #1 on TermBench 2.0. Autonomously write, refactor, debug, and ship code from your terminal.",
+      "summary": "This document provides a step-by-step installation and setup guide for ForgeCode, a CLI-based coding harness that integrates with AI providers and Zsh shell for AI-assisted coding.",
+      "tags": [
+        "cli-tool",
+        "ai-integration",
+        "zsh-plugin",
+        "terminal-setup",
+        "ai-coding",
+        "forgecode",
+        "shell-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs.md"
+    },
+    {
+      "file_path": "012-docs-agent-configuration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/agent-configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:22.187237301-03:00",
+      "description": "Comprehensive guide for configuring AI agents in ForgeCode",
+      "summary": "This document provides comprehensive guidance on configuring AI agents in ForgeCode, covering parameters like temperature, context compaction, and visibility settings with troubleshooting advice and best practices.",
+      "tags": [
+        "agent-configuration",
+        "temperature-settings",
+        "context-compaction",
+        "system-prompts",
+        "custom-rules",
+        "ai-agents",
+        "forge-yaml"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-agent-configuration.md"
+    },
+    {
+      "file_path": "013-docs-agent-definition-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/agent-definition-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:24.774467804-03:00",
+      "description": "Need an agent that specializes in React development? Or one focused on security auditing? You can create custom agents tailored to your specific needs using simple markdown files.",
+      "summary": "This document provides a comprehensive guide for creating custom AI agents with specific expertise using markdown files, covering everything from basic setup to advanced configuration options and tool integration.",
+      "tags": [
+        "ai-agents",
+        "custom-agents",
+        "forgecode",
+        "yaml-configuration",
+        "react-development",
+        "security-auditing",
+        "tool-integration",
+        "agent-definition"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-agent-definition-guide.md"
+    },
+    {
+      "file_path": "014-docs-agent-delegation.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/agent-delegation/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:26.090615566-03:00",
+      "description": "Learn how agents can use other agents as tools for specialized workflows",
+      "summary": "This document explains how to configure and use agent delegation, where orchestrator agents can call specialist agents as tools through automatic discovery and tool conversion.",
+      "tags": [
+        "agent-delegation",
+        "tool-usage",
+        "orchestrator",
+        "specialist-agents",
+        "agent-discovery",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-agent-delegation.md"
+    },
+    {
+      "file_path": "015-docs-agent-selection-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/agent-selection-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:28.162796327-03:00",
+      "description": "Learn how to switch between different agents in ForgeCode and choose the right one for your specific development tasks",
+      "summary": "This document explains how to select and use different agents in ForgeCode, including built-in agents like Forge, Muse, and Sage, each optimized for different development tasks and workflows.",
+      "tags": [
+        "agent-selection",
+        "forgecode",
+        "workflow-optimization",
+        "built-in-agents",
+        "development-tools",
+        "ai-assistants"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-agent-selection-guide.md"
+    },
+    {
+      "file_path": "019-docs-auto-complete.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/auto-complete/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:29.688395566-03:00",
+      "description": "Learn about ForgeCode's auto-complete features including intelligent command completion and file path completion.",
+      "summary": "This document explains ForgeCode's auto-complete features including file completion, command history, and shell navigation capabilities to enhance user productivity.",
+      "tags": [
+        "autocomplete",
+        "file-completion",
+        "command-history",
+        "shell-navigation",
+        "keyboard-shortcuts",
+        "wysiwyg-shell"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-auto-complete.md"
+    },
+    {
+      "file_path": "143-blog-tags-x-ai.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/x-ai/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:12.701783791-03:00",
+      "summary": "Document analyzes Grok 4's capabilities, architecture, and benchmarks to evaluate xAI's latest language model for potential integration in AI development workflows.",
+      "tags": [
+        "grok-4",
+        "language-model",
+        "ai-benchmarks",
+        "machine-learning",
+        "nlp",
+        "artificial-intelligence"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-x-ai.md"
+    },
+    {
+      "file_path": "125-blog-tags-prompt-injection.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/prompt-injection/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:35.487171007-03:00",
+      "summary": "This document analyzes critical security vulnerabilities in Model Context Protocol (MCP) implementations, covering attack vectors like tool description injection, authentication weaknesses, and supply chain risks.",
+      "tags": [
+        "mcp-security",
+        "vulnerability-analysis",
+        "tool-description-injection",
+        "authentication-weaknesses",
+        "supply-chain-security",
+        "ai-security"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-prompt-injection.md"
+    },
+    {
+      "file_path": "031-docs-commands.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/commands/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:33.480549757-03:00",
+      "description": "Explore ForgeCode's built-in commands and when to use them.",
+      "summary": "This document provides comprehensive documentation for ForgeCode CLI commands, explaining their usage, parameters, and when to use each command for optimal workflow.",
+      "tags": [
+        "cli-commands",
+        "forgecode",
+        "command-reference",
+        "ai-tools",
+        "developer-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-commands.md"
+    },
+    {
+      "file_path": "117-blog-tags-model-comparison.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/blog/tags/model-comparison/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:50:20.052834184-03:00",
+      "summary": "This document contains a collection of AI model comparison articles that evaluate different large language models for coding tasks, measuring performance across cost, speed, code quality, and production readiness.",
+      "tags": [
+        "ai-models",
+        "coding-comparison",
+        "llm-evaluation",
+        "development-tools",
+        "model-benchmarking",
+        "code-generation"
+      ],
+      "category": "reference",
+      "original_file_path": "blog-tags-model-comparison.md"
+    },
+    {
+      "file_path": "030-docs-cli-reference.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/cli-reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:32.26856926-03:00",
+      "description": "Complete reference for ForgeCode command-line interface, including commands and flags.",
+      "summary": "Complete reference documentation for the ForgeCode command-line interface, covering all commands, flags, and usage patterns for interacting with the tool interactively and programmatically.",
+      "tags": [
+        "cli-reference",
+        "command-line",
+        "forgecode",
+        "interactive-mode",
+        "configuration",
+        "conversations",
+        "workflows"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-reference.md"
+    },
+    {
+      "file_path": "011-docs-custom-rules-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-rules-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:41.839336458-03:00",
+      "description": "Every development team has its own way of doing things. Code style preferences, testing patterns, error handling approaches, naming conventions - the list goes on. The problem? A coding harness doesn't know your team's specific practices unless you tell them.",
+      "summary": "This document explains how to create and use project-specific guidelines through an AGENTS.md file to customize AI coding standards and practices for development teams.",
+      "tags": [
+        "ai-coding",
+        "project-guidelines",
+        "development-standards",
+        "team-configuration",
+        "custom-rules",
+        "code-quality"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-custom-rules-guide.md"
+    },
+    {
+      "file_path": "024-docs-custom-commands.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-commands/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:38.219712686-03:00",
+      "description": "Create and configure your own custom commands in ForgeCode to streamline workflows",
+      "summary": "This document explains how to create and use custom commands in ForgeCode through Markdown files with YAML frontmatter, enabling users to extend functionality and streamline workflows.",
+      "tags": [
+        "custom-commands",
+        "forgecode",
+        "cli",
+        "workflow-automation",
+        "markdown",
+        "yaml-frontmatter",
+        "command-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-custom-commands.md"
+    },
+    {
+      "file_path": "006-docs-environment-configuration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/environment-configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:46.640211047-03:00",
+      "description": "Learn about environment variables and configuration options for ForgeCode.",
+      "summary": "This document explains how to configure ForgeCode through environment variables and .env files, covering API keys, retry settings, HTTP configuration, tool behavior, and system-level options.",
+      "tags": [
+        "environment-variables",
+        "configuration",
+        "api-keys",
+        "http-settings",
+        "retry-configuration",
+        "tool-configuration",
+        "zsh-plugin"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-environment-configuration.md"
+    },
+    {
+      "file_path": "004-docs-fd-fzf-installation.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/fd-fzf-installation/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:49.942679175-03:00",
+      "description": "Platform-specific installation instructions for fd, fzf, and zsh-syntax-highlighting dependencies required by ZSH Support.",
+      "summary": "This document provides installation instructions for zsh dependencies required by ForgeCode, including zsh-syntax-highlighting, fd, and fzf, with platform-specific guidance for macOS, Linux, and WSL.",
+      "tags": [
+        "zsh",
+        "installation",
+        "dependencies",
+        "syntax-highlighting",
+        "fd",
+        "fzf",
+        "platform-specific",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-fd-fzf-installation.md"
+    },
+    {
+      "file_path": "009-docs-error-handling.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/error-handling/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:47.835190733-03:00",
+      "description": "Configure robust error handling with automatic retries for improved resilience",
+      "summary": "This document explains ForgeCode's error handling capabilities, specifically how to configure automatic retry mechanisms with exponential backoff for tool call parsing errors during agent interactions.",
+      "tags": [
+        "error-handling",
+        "retry-mechanism",
+        "exponential-backoff",
+        "tool-call-parsing",
+        "agent-interactions",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-error-handling.md"
+    },
+    {
+      "file_path": "010-docs-custom-rules.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-rules/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:43.678311991-03:00",
+      "description": "Learn how to define project-specific guidelines and development standards using AGENTS.md",
+      "summary": "This document explains how to configure project guidelines for AI agents using an AGENTS.md file in the project root directory.",
+      "tags": [
+        "project-guidelines",
+        "ai-agents",
+        "configuration",
+        "markdown",
+        "development-standards"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-custom-rules.md"
+    },
+    {
+      "file_path": "007-docs-custom-providers.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-providers/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:39.60980352-03:00",
+      "description": "Configure ForgeCode to work with your preferred AI provider and understand provider priority.",
+      "summary": "This document provides instructions for configuring AI providers with ForgeCode, including setup, credential management, and switching between different AI services like OpenAI, Anthropic, and OpenRouter.",
+      "tags": [
+        "ai-provider-configuration",
+        "credential-management",
+        "forgecode-setup",
+        "provider-login",
+        "api-keys",
+        "model-selection"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-custom-providers.md"
+    },
+    {
+      "file_path": "021-docs-context-compaction.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/context-compaction/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:40.013411643-03:00",
+      "description": "Optimize AI conversations with automatic context management",
+      "summary": "This document explains ForgeCode's automatic context compaction feature, which summarizes older conversation parts to extend AI interactions beyond token limits while preserving important information and maintaining reasoning chains.",
+      "tags": [
+        "context-compaction",
+        "ai-conversation",
+        "token-management",
+        "automatic-summation",
+        "configuration",
+        "performance-optimization",
+        "reasoning-preservation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-context-compaction.md"
+    },
+    {
+      "file_path": "025-docs-ignoring-files.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/ignoring-files/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:58.205856471-03:00",
+      "description": "Control what ForgeCode can index and reference by managing .gitignore and .ignore rules for safer, cleaner context.",
+      "summary": "This document explains how ForgeCode handles file ignoring using .gitignore and .ignore patterns, including precedence rules and troubleshooting steps for visibility issues.",
+      "tags": [
+        "file-ignoring",
+        "gitignore",
+        "ignore-patterns",
+        "file-visibility",
+        "troubleshooting",
+        "binary-files",
+        "hidden-files"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-ignoring-files.md"
+    },
+    {
+      "file_path": "038-docs-logging.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/logging/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:00.249578755-03:00",
+      "description": "Learn about ForgeCode's logging features and how to use logs for troubleshooting.",
+      "summary": "This document explains how to work with ForgeCode's JSON-formatted logging system, including how to locate, view, filter, and analyze logs for troubleshooting and system monitoring purposes.",
+      "tags": [
+        "json-logs",
+        "troubleshooting",
+        "log-analysis",
+        "error-handling",
+        "api-interactions",
+        "log-filtering",
+        "jq-parsing",
+        "log-rotation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-logging.md"
+    },
+    {
+      "file_path": "026-docs-mcp-integration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/mcp-integration/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:02.614124712-03:00",
+      "description": "Learn how to configure and use MCP servers to extend ForgeCode with external tools and services.",
+      "summary": "This document provides comprehensive documentation for MCP (Model Context Protocol) integration in ForgeCode, covering how to connect agents to external tools, APIs, and services through command-line interface operations.",
+      "tags": [
+        "mcp",
+        "forgecode",
+        "api-integration",
+        "external-tools",
+        "command-line",
+        "agent-configuration",
+        "tool-connectivity"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-mcp-integration.md"
+    },
+    {
+      "file_path": "018-docs-forge-services.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forge-services/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:55.493445318-03:00",
+      "description": "Enable ForgeCode Services to keep models on track with a high-performance context engine, tool guardrails, and a skill engine.",
+      "summary": "This document explains how to set up and use ForgeCode Services, a runtime layer that provides context engine, tool-call guardrails, and skill engine capabilities to help AI models stay on trajectory during exploration and execution.",
+      "tags": [
+        "forgecode-services",
+        "runtime-layer",
+        "context-engine",
+        "tool-call-guardrails",
+        "skill-engine",
+        "ai-models",
+        "retrieval-benchmarks"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-forge-services.md"
+    },
+    {
+      "file_path": "036-docs-npm-troubleshooting.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/npm-troubleshooting/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:06.130448211-03:00",
+      "description": "Resolve common Node.js and npm installation issues when setting up ForgeCode.",
+      "summary": "This document provides troubleshooting guidance for common Node.js and npm issues, including permission errors, PATH problems, and installation difficulties across different operating systems.",
+      "tags": [
+        "nodejs",
+        "npm",
+        "troubleshooting",
+        "installation",
+        "permission-errors",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-npm-troubleshooting.md"
+    },
+    {
+      "file_path": "016-docs-operating-agents.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/operating-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:08.304449675-03:00",
+      "description": "Understanding the different specialized agents in ForgeCode and when to use each.",
+      "summary": "This document explains how to select and use different AI agents in ForgeCode, detailing their capabilities and appropriate use cases for development workflows.",
+      "tags": [
+        "agent-selection",
+        "ai-development",
+        "workflow",
+        "code-assistance",
+        "development-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-operating-agents.md"
+    },
+    {
+      "file_path": "029-docs-piping-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/piping-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:10.093363162-03:00",
+      "description": "Learn how to pipe command output and file content directly to ForgeCode for seamless workflow integration.",
+      "summary": "This document explains how to use ForgeCode with piped input from stdin, detailing the automatic detection of piped content and providing best practices for working with standard input.",
+      "tags": [
+        "stdin",
+        "piping",
+        "input-methods",
+        "command-line",
+        "forgecode",
+        "standard-input",
+        "data-pipeline"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-piping-guide.md"
+    },
+    {
+      "file_path": "017-docs-plan-and-act-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/plan-and-act-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:11.743629286-03:00",
+      "description": "Learn a multi-agent AI development workflow with strategic planning and execution using Muse for analysis and ForgeCode for implementation.",
+      "summary": "This document explains how to use the Muse and ForgeCode AI agents together in a planning-first workflow for safer and more effective AI-assisted development.",
+      "tags": [
+        "ai-coding-tools",
+        "development-workflow",
+        "muse-agent",
+        "forgecode-agent",
+        "planning-first",
+        "code-implementation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-plan-and-act-guide.md"
+    },
+    {
+      "file_path": "008-docs-model-selection-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/model-selection-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:04.135480614-03:00",
+      "description": "How to Change Models in ForgeCode",
+      "summary": "This document explains how to switch between AI models in ForgeCode, including the model selection process, trade-offs between different model types, and best practices for choosing the right model for development tasks.",
+      "tags": [
+        "model-switching",
+        "ai-development",
+        "code-editing",
+        "model-selection",
+        "forgecode",
+        "development-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-model-selection-guide.md"
+    },
+    {
+      "file_path": "022-docs-sandbox-feature.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/sandbox-feature/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:16.39015138-03:00",
+      "description": "Create isolated development environments using Git worktrees for parallel agent work without conflicts",
+      "summary": "This document explains how ForgeCode's Sandbox feature creates isolated development environments using Git worktrees, allowing agents to work on parallel tasks without interfering with each other or the main codebase.",
+      "tags": [
+        "forgecode",
+        "sandbox",
+        "git-worktrees",
+        "isolation",
+        "parallel-development",
+        "agent-workflow",
+        "version-control"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-sandbox-feature.md"
+    },
+    {
+      "file_path": "035-docs-security-features.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/security-features/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:18.696158778-03:00",
+      "description": "Learn about ForgeCode's security features and how to use them effectively.",
+      "summary": "This document explains the security model and protective mechanisms implemented in ForgeCode, including restricted shell mode and operational safeguards.",
+      "tags": [
+        "security-model",
+        "restricted-shell",
+        "system-protection",
+        "rbash",
+        "operational-security"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-security-features.md"
+    },
+    {
+      "file_path": "034-docs-shell-commands.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/shell-commands/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:20.12961672-03:00",
+      "description": "Execute native shell commands directly from ForgeCode CLI.",
+      "summary": "This document explains how to execute native shell commands in ForgeCode using the ! prefix, including execution behavior, shell compatibility, and limitations around state persistence.",
+      "tags": [
+        "shell-commands",
+        "command-execution",
+        "forgecode-cli",
+        "shell-compatibility",
+        "state-management",
+        "directory-navigation"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-shell-commands.md"
+    },
+    {
+      "file_path": "033-docs-shortcuts.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/shortcuts/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:22.449903316-03:00",
+      "description": "ZSH keyboard shortcuts available in your terminal session.",
+      "summary": "This document provides a reference guide for ZSH keyboard shortcuts and line editing commands, including movement, deletion, history, and utility shortcuts available in any ZSH session.",
+      "tags": [
+        "zsh",
+        "keyboard-shortcuts",
+        "line-editor",
+        "command-line",
+        "terminal",
+        "emac keybindings",
+        "history-search"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-shortcuts.md"
+    },
+    {
+      "file_path": "023-docs-skills.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/skills/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:24.14323419-03:00",
+      "description": "Teach ForgeCode reusable workflows and domain-specific knowledge using SKILL.md files in the .forge/skills directory.",
+      "summary": "This document explains how to create and use reusable workflow skills in ForgeCode by writing SKILL.md files that are automatically loaded and applied based on tasks.",
+      "tags": [
+        "skills",
+        "workflows",
+        "reusable-tasks",
+        "skill-md",
+        "forgecode",
+        "claude-code",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-skills.md"
+    },
+    {
+      "file_path": "003-docs-quickstart.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/quickstart/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:13.813362351-03:00",
+      "description": "Get started with ForgeCode in minutes. Learn the essential workflows and commands to enhance your development process with AI assistance.",
+      "summary": "This document provides a quickstart guide for setting up and using ForgeCode, an AI-powered coding assistance tool, covering authentication, project analysis, code generation, Git operations, and debugging capabilities.",
+      "tags": [
+        "ai-coding-assistance",
+        "quickstart",
+        "project-analysis",
+        "code-generation",
+        "git-integration",
+        "debugging",
+        "terminal-workflow"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-quickstart.md"
+    },
+    {
+      "file_path": "039-docs-uninstallation.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/uninstallation/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:28.28189884-03:00",
+      "description": "Complete guide to uninstalling ForgeCode from your system.",
+      "summary": "This document provides instructions for completely uninstalling ForgeCode from your system, including removing the application, configuration files, and project-specific settings.",
+      "tags": [
+        "uninstall",
+        "forgecode",
+        "configuration",
+        "removal",
+        "cleanup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-uninstallation.md"
+    },
+    {
+      "file_path": "027-docs-vscode-extension.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/vscode-extension/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:29.885243142-03:00",
+      "description": "Learn how to install and use the ForgeCode VS Code extension to copy file references directly into ForgeCode CLI.",
+      "summary": "Documentation for a VS Code extension that integrates with ForgeCode CLI to enable quick code referencing and direct session launching from the editor.",
+      "tags": [
+        "vscode-extension",
+        "forgecode",
+        "code-reference",
+        "keyboard-shortcuts",
+        "terminal-integration",
+        "file-paths",
+        "code-snippets"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-vscode-extension.md"
+    },
+    {
+      "file_path": "037-docs-windows-troubleshooting.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/windows-troubleshooting/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:32.343682992-03:00",
+      "description": "Resolve common Windows runtime errors, like a missing vcruntime140.dll or other issues, by installing the Microsoft Visual C++ Redistributable.",
+      "summary": "This document provides a step-by-step guide to resolve vcruntime140.dll missing errors when running the forge command on Windows systems by installing the appropriate Microsoft Visual C++ Redistributable package.",
+      "tags": [
+        "windows",
+        "dll-error",
+        "vcruntime140",
+        "visual-cpp",
+        "redistributable",
+        "forge",
+        "installation",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-windows-troubleshooting.md"
+    },
+    {
+      "file_path": "028-docs-zsh-support.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/zsh-support/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:34.591742608-03:00",
+      "description": "Use ForgeCode AI from your native ZSH session \u2014 aliases, functions, and all.",
+      "summary": "This document explains how to use ForgeCode's interactive mode in ZSH, including the colon sentinel command syntax for AI prompts, agent selection, conversation management, and file tagging features.",
+      "tags": [
+        "zsh-integration",
+        "ai-prompts",
+        "command-sentinel",
+        "agent-selection",
+        "conversation-management",
+        "file-tagging",
+        "multiline-input"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-zsh-support.md"
+    },
+    {
+      "file_path": "155-privacy.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/privacy/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:36.157159731-03:00",
+      "description": "ForgeCode Privacy Policy",
+      "summary": "This document outlines ForgeCode's privacy policy, explaining how they collect, process, and protect user personal data from their website, CLI tool, and related services.",
+      "tags": [
+        "privacy-policy",
+        "data-collection",
+        "personal-information",
+        "cli-usage",
+        "user-data",
+        "gdpr-compliance",
+        "california-privacy",
+        "cookies"
+      ],
+      "category": "reference",
+      "original_file_path": "privacy.md"
+    },
+    {
+      "file_path": "020-docs-file-tagging.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/file-tagging/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:53.988620369-03:00",
+      "description": "Tag files, directories, and images in ForgeCode chats to attach context automatically.",
+      "summary": "This document explains how to use file tagging in ForgeCode to attach project context directly in prompts using @ references, with support for files, directories, and images.",
+      "tags": [
+        "file-tagging",
+        "prompt-context",
+        "code-reference",
+        "file-attachments",
+        "visual-context"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-file-tagging.md"
+    },
+    {
+      "file_path": "148-releases-2025-April.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/April/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:41.024015284-03:00",
+      "description": "v0.79.3",
+      "summary": "This document contains release notes for ForgeCode showing recent bug fixes, feature additions, and maintenance updates across various components including UI, model selection, file handling, and agent functionality.",
+      "tags": [
+        "changelog",
+        "bug-fixes",
+        "feature-updates",
+        "maintenance",
+        "release-notes"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-April.md"
+    },
+    {
+      "file_path": "152-releases-2025-August.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/August/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:42.442031435-03:00",
+      "description": "v0.112.0",
+      "summary": "This document contains release notes detailing features, bug fixes, and maintenance updates for the ForgeCode platform, including AI agent improvements, provider support additions, and various system optimizations.",
+      "tags": [
+        "release-notes",
+        "bug-fixes",
+        "feature-updates",
+        "ai-agents",
+        "provider-integration",
+        "system-optimization"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-August.md"
+    },
+    {
+      "file_path": "146-releases-2025-February.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/February/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:44.097316797-03:00",
+      "description": "v0.25.3",
+      "summary": "This document appears to be a placeholder or template for cookie settings documentation, likely related to privacy and consent management.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "consent",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "releases-2025-February.md"
+    },
+    {
+      "file_path": "005-docs-forge-configuration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forge-configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:51:54.922695866-03:00",
+      "description": "Configure settings for your ForgeCode instance",
+      "summary": "This document explains the root-level configuration options available in the forge.yaml file for controlling ForgeCode instance behavior, including request management, model parameters, and system settings.",
+      "tags": [
+        "configuration",
+        "forge-yaml",
+        "model-parameters",
+        "request-management",
+        "system-behavior",
+        "api-reference"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-forge-configuration.md"
+    },
+    {
+      "file_path": "151-releases-2025-July.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/July/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:47.490173052-03:00",
+      "description": "v0.104.2",
+      "summary": "This document contains release notes and changelog entries for the ForgeCode project, detailing bug fixes, new features, maintenance updates, and documentation improvements across multiple releases.",
+      "tags": [
+        "changelog",
+        "bug-fixes",
+        "features",
+        "maintenance",
+        "documentation",
+        "releases"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-July.md"
+    },
+    {
+      "file_path": "150-releases-2025-June.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/June/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:49.896771978-03:00",
+      "description": "v0.97.1",
+      "summary": "This document contains release notes and changelog entries for the ForgeCode project, detailing bug fixes, new features, and maintenance updates across multiple versions.",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "bug-fixes",
+        "features",
+        "maintenance"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-June.md"
+    },
+    {
+      "file_path": "147-releases-2025-March.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/March/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:52.047529788-03:00",
+      "description": "v0.53.3",
+      "summary": "Document appears to be a placeholder or header for cookie settings page from Tailcall, Inc.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "tailcall"
+      ],
+      "category": "other",
+      "original_file_path": "releases-2025-March.md"
+    },
+    {
+      "file_path": "149-releases-2025-May.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/May/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:53.680564168-03:00",
+      "description": "v0.94.5",
+      "summary": "This document appears to be a placeholder or template for cookie settings documentation from Tailcall, Inc.",
+      "tags": [
+        "cookie-settings",
+        "privacy",
+        "settings",
+        "template"
+      ],
+      "category": "configuration",
+      "original_file_path": "releases-2025-May.md"
+    },
+    {
+      "file_path": "144-releases.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:39.616952937-03:00",
+      "description": "v1.4.0",
+      "summary": "This document contains release notes for ForgeCode, detailing new features, bug fixes, and maintenance updates across multiple releases including CLI enhancements, provider management, and performance improvements.",
+      "tags": [
+        "release-notes",
+        "changelog",
+        "cli-tools",
+        "bug-fixes",
+        "feature-updates",
+        "maintenance"
+      ],
+      "category": "reference",
+      "original_file_path": "releases.md"
+    },
+    {
+      "file_path": "153-releases-2025-September.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/September/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:57.533278743-03:00",
+      "description": "v0.121.1",
+      "summary": "This document contains release notes detailing bug fixes, feature updates, and maintenance improvements for the ForgeCode CLI tool, including support for new AI models, ZSH integration, database enhancements, and various UI/UX improvements.",
+      "tags": [
+        "bug-fixes",
+        "feature-updates",
+        "cli-tool",
+        "ai-integration",
+        "zsh-support",
+        "database-improvements",
+        "user-interface",
+        "maintenance-updates"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-September.md"
+    },
+    {
+      "file_path": "001-index.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:53:00.931060908-03:00",
+      "description": "ForgeCode is the world's top-ranked open-source coding harness, leading TermBench 2.0 and setting a new state of the art.",
+      "summary": "This document describes ForgeCode, a terminal-based coding harness that integrates AI models and services for codebase understanding, multi-agent architecture, and model selection capabilities.",
+      "tags": [
+        "terminal-integration",
+        "ai-coding",
+        "codebase-understanding",
+        "multi-agent-architecture",
+        "model-selection",
+        "zsh-support"
+      ],
+      "category": "reference",
+      "original_file_path": "index.md"
+    },
+    {
+      "file_path": "154-releases-2025-October.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/October/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:55.340728881-03:00",
+      "description": "v1.2.0",
+      "summary": "This document contains changelog entries for ForgeCode, detailing features, bug fixes, and maintenance updates across multiple versions with focus on agent functionality, provider support, and performance improvements.",
+      "tags": [
+        "changelog",
+        "forgecode",
+        "agent-features",
+        "bug-fixes",
+        "performance",
+        "provider-integration",
+        "cli-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-October.md"
+    },
+    {
+      "file_path": "145-releases-2025-January.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/releases/2025/January/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:45.934292492-03:00",
+      "description": "v0.1.2",
+      "summary": "This document contains a changelog with release notes detailing new features, bug fixes, and improvements to a software project, including CI/CD workflow updates, database handling changes, and tool call enhancements.",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "ci-cd",
+        "bug-fixes",
+        "feature-updates",
+        "workflow",
+        "database"
+      ],
+      "category": "reference",
+      "original_file_path": "releases-2025-January.md"
+    },
+    {
+      "file_path": "032-docs-tools-reference.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/tools-reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-03-29T14:52:25.789657183-03:00",
+      "description": "Complete reference for all built-in tools available in ForgeCode's AI agents",
+      "summary": "This document provides a comprehensive reference for built-in tools that enable AI agents to interact with the system, including file operations, data processing, and communication capabilities.",
+      "tags": [
+        "ai-agents",
+        "file-operations",
+        "data-processing",
+        "tool-reference",
+        "api-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-tools-reference.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-03-29T15:00:00Z",
+    "total_files": 157,
+    "categories": [
+      "Introduction & Overview",
+      "Getting Started",
+      "Configuration",
+      "Agent System",
+      "Features & Capabilities",
+      "Integrations",
+      "Reference",
+      "Security",
+      "Troubleshooting",
+      "Blog - Guides & Best Practices",
+      "Blog - Model Comparisons",
+      "Blog - MCP & Security",
+      "Blog - Benchmarks & Performance",
+      "Blog - Product & Company",
+      "Blog - Index & Meta",
+      "Blog Tags",
+      "Releases & Changelog",
+      "Legal & Meta"
+    ]
+  }
+}

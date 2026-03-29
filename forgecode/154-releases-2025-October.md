@@ -1,0 +1,275 @@
+---
+title: ForgeCode
+url: https://forgecode.dev/releases/2025/October/
+source: sitemap
+fetched_at: 2026-03-29T14:52:55.340728881-03:00
+rendered_js: false
+word_count: 1038
+summary: This document contains changelog entries for ForgeCode, detailing features, bug fixes, and maintenance updates across multiple versions with focus on agent functionality, provider support, and performance improvements.
+tags:
+    - changelog
+    - forgecode
+    - agent-features
+    - bug-fixes
+    - performance
+    - provider-integration
+    - cli-tools
+category: reference
+---
+
+ForgeCode ranks #1 on TermBench with 81.8% accuracy.[Learn more →](https://forgecode.dev/blog/gpt-5-4-agent-improvements)
+
+Update to latest version !!Get the instructions from the docs
+
+[Get Started](https://forgecode.dev/docs/)
+
+### 🚀 Features[​](#-features "Direct link to 🚀 Features")
+
+- feat: maintain session based isolation for agents [@tusharmath](https://github.com/tusharmath) ([#1799](https://github.com/antinomyhq/forge/pull/1799))
+- feat: ability to define provider per agent [@ssddOnTop](https://github.com/ssddOnTop) ([#1705](https://github.com/antinomyhq/forge/pull/1705))
+- feat: show conversation preview in ZSH [@tusharmath](https://github.com/tusharmath) ([#1787](https://github.com/antinomyhq/forge/pull/1787))
+
+### 🐛 Bug Fixes[​](#-bug-fixes "Direct link to 🐛 Bug Fixes")
+
+- fix(zsh): model and provider selection [@amitksingh1490](https://github.com/amitksingh1490) ([#1806](https://github.com/antinomyhq/forge/pull/1806))
+- fix: ensure deterministic first provider selection [@amitksingh1490](https://github.com/amitksingh1490) ([#1805](https://github.com/antinomyhq/forge/pull/1805))
+- fix: allow empty json object in mcp json file [@laststylebender14](https://github.com/laststylebender14) ([#1804](https://github.com/antinomyhq/forge/pull/1804))
+- refactor: global agent config fixed [@tusharmath](https://github.com/tusharmath) ([#1795](https://github.com/antinomyhq/forge/pull/1795))
+- fix: sub-agent calls [@tusharmath](https://github.com/tusharmath) ([#1796](https://github.com/antinomyhq/forge/pull/1796))
+
+### 🧰 Maintenance[​](#-maintenance "Direct link to 🧰 Maintenance")
+
+- refactor: simplify config set command handling by consolidating field updates [@tusharmath](https://github.com/tusharmath) ([#1798](https://github.com/antinomyhq/forge/pull/1798))
+- refactor: global agent config fixed [@tusharmath](https://github.com/tusharmath) ([#1795](https://github.com/antinomyhq/forge/pull/1795))
+- refactor: remove subscription from agents [@tusharmath](https://github.com/tusharmath) ([#1794](https://github.com/antinomyhq/forge/pull/1794))
+- chore: improve conversation switching message [@tusharmath](https://github.com/tusharmath) ([#1791](https://github.com/antinomyhq/forge/pull/1791))
+
+* * *
+
+### 🚀 Features[​](#-features-1 "Direct link to 🚀 Features")
+
+- feat: show user feedback and task in summary [@tusharmath](https://github.com/tusharmath) ([#1786](https://github.com/antinomyhq/forge/pull/1786))
+- fix: make info key col fixed width [@tusharmath](https://github.com/tusharmath) ([#1784](https://github.com/antinomyhq/forge/pull/1784))
+- feat: support custom providers and models [@tusharmath](https://github.com/tusharmath) ([#1777](https://github.com/antinomyhq/forge/pull/1777))
+- feat: show user task [@tusharmath](https://github.com/tusharmath) ([#1781](https://github.com/antinomyhq/forge/pull/1781))
+- feat: add completion prompt toggle via environment variable [@laststylebender14](https://github.com/laststylebender14) ([#1733](https://github.com/antinomyhq/forge/pull/1733))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-1 "Direct link to 🐛 Bug Fixes")
+
+- fix: show correct title for write tool operations [@laststylebender14](https://github.com/laststylebender14) ([#1783](https://github.com/antinomyhq/forge/pull/1783))
+- fix: make info key col fixed width [@tusharmath](https://github.com/tusharmath) ([#1784](https://github.com/antinomyhq/forge/pull/1784))
+- fix: mcp import accepts JSON in invalid format [@ssddOnTop](https://github.com/ssddOnTop) ([#1779](https://github.com/antinomyhq/forge/pull/1779))
+
+### 🚀 Performance[​](#-performance "Direct link to 🚀 Performance")
+
+- perf: make read operation output consistent across tools [@laststylebender14](https://github.com/laststylebender14) ([#1790](https://github.com/antinomyhq/forge/pull/1790))
+
+### 🧰 Maintenance[​](#-maintenance-1 "Direct link to 🧰 Maintenance")
+
+- feat: support custom providers and models [@tusharmath](https://github.com/tusharmath) ([#1777](https://github.com/antinomyhq/forge/pull/1777))
+
+* * *
+
+### 🚀 Features[​](#-features-2 "Direct link to 🚀 Features")
+
+- feat: ability to define commands in MD [@ssddOnTop](https://github.com/ssddOnTop) ([#1708](https://github.com/antinomyhq/forge/pull/1708))
+- feat: ability to read images via tools [@ssddOnTop](https://github.com/ssddOnTop) ([#1710](https://github.com/antinomyhq/forge/pull/1710))
+- feat: ability to disable mcp servers [@ssddOnTop](https://github.com/ssddOnTop) ([#1748](https://github.com/antinomyhq/forge/pull/1748))
+- feat: update CLI commands [@amitksingh1490](https://github.com/amitksingh1490) ([#1669](https://github.com/antinomyhq/forge/pull/1669))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-2 "Direct link to 🐛 Bug Fixes")
+
+- fix: adjust porcelain display to skip two entries [@amitksingh1490](https://github.com/amitksingh1490) ([#1773](https://github.com/antinomyhq/forge/pull/1773))
+- fix: porcelain mode display errors [@amitksingh1490](https://github.com/amitksingh1490) ([#1769](https://github.com/antinomyhq/forge/pull/1769))
+- fix: `/compact` command [@laststylebender14](https://github.com/laststylebender14) ([#1744](https://github.com/antinomyhq/forge/pull/1744))
+- fix: allow reasoning even after compaction [@laststylebender14](https://github.com/laststylebender14) ([#1749](https://github.com/antinomyhq/forge/pull/1749))
+- fix: exit condition for agentic loop [@laststylebender14](https://github.com/laststylebender14) ([#1770](https://github.com/antinomyhq/forge/pull/1770))
+- fix: normalize image path [@laststylebender14](https://github.com/laststylebender14) ([#1766](https://github.com/antinomyhq/forge/pull/1766))
+- fix: handle varying row length in porcelain format [@tusharmath](https://github.com/tusharmath) ([#1764](https://github.com/antinomyhq/forge/pull/1764))
+- fix: improve fs patch performance [@laststylebender14](https://github.com/laststylebender14) ([#1759](https://github.com/antinomyhq/forge/pull/1759))
+- fix: handle relative paths for all tools [@laststylebender14](https://github.com/laststylebender14) ([#1758](https://github.com/antinomyhq/forge/pull/1758))
+- fix: reorder key-value pairs in conversation info display [@amitksingh1490](https://github.com/amitksingh1490) ([#1747](https://github.com/antinomyhq/forge/pull/1747))
+- fix: improve model information [@amitksingh1490](https://github.com/amitksingh1490) ([#1746](https://github.com/antinomyhq/forge/pull/1746))
+- fix: tool calls to agent [@laststylebender14](https://github.com/laststylebender14) ([#1742](https://github.com/antinomyhq/forge/pull/1742))
+- fix: persist metrics tracking [@tusharmath](https://github.com/tusharmath) ([#1739](https://github.com/antinomyhq/forge/pull/1739))
+- fix: Handle invalid JSON in tool calls for anthropic provider [@tusharmath](https://github.com/tusharmath) ([#1741](https://github.com/antinomyhq/forge/pull/1741))
+- fix: allow support for reading multiline env vars [@laststylebender14](https://github.com/laststylebender14) ([#1738](https://github.com/antinomyhq/forge/pull/1738))
+
+### 🚀 Performance[​](#-performance-1 "Direct link to 🚀 Performance")
+
+- fix: improve fs patch performance [@laststylebender14](https://github.com/laststylebender14) ([#1759](https://github.com/antinomyhq/forge/pull/1759))
+
+### 🧰 Maintenance[​](#-maintenance-2 "Direct link to 🧰 Maintenance")
+
+- chore: simplify config command handling [@amitksingh1490](https://github.com/amitksingh1490) ([#1772](https://github.com/antinomyhq/forge/pull/1772))
+- refactor: use `faker` to generate env in tests [@tusharmath](https://github.com/tusharmath) ([#1767](https://github.com/antinomyhq/forge/pull/1767))
+- chore: refactor config field handling to use enum for better type safety [@tusharmath](https://github.com/tusharmath) ([#1771](https://github.com/antinomyhq/forge/pull/1771))
+- chore: update clippy targets [@ssddOnTop](https://github.com/ssddOnTop) ([#1765](https://github.com/antinomyhq/forge/pull/1765))
+- chore: update container image [@tusharmath](https://github.com/tusharmath) ([#1760](https://github.com/antinomyhq/forge/pull/1760))
+
+### 💥 Breaking Changes[​](#-breaking-changes "Direct link to 💥 Breaking Changes")
+
+- feat: update CLI commands [@amitksingh1490](https://github.com/amitksingh1490) ([#1669](https://github.com/antinomyhq/forge/pull/1669))
+
+* * *
+
+### 🚀 Features[​](#-features-3 "Direct link to 🚀 Features")
+
+- feat: add `FORGE_MAX_CONVERSATIONS` env variable [@tusharmath](https://github.com/tusharmath) ([#1726](https://github.com/antinomyhq/forge/pull/1726))
+- feat: make banner configurable via env variable [@laststylebender14](https://github.com/laststylebender14) ([#1723](https://github.com/antinomyhq/forge/pull/1723))
+- feat: add `delete` option in patch [@tusharmath](https://github.com/tusharmath) ([#1713](https://github.com/antinomyhq/forge/pull/1713))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-3 "Direct link to 🐛 Bug Fixes")
+
+- fix: silence MCP logs by redirecting stderr to null [@amitksingh1490](https://github.com/amitksingh1490) ([#1732](https://github.com/antinomyhq/forge/pull/1732))
+- fix: use compatible provider for OpenAI and Anthropic urls [@tusharmath](https://github.com/tusharmath) ([#1731](https://github.com/antinomyhq/forge/pull/1731))
+- fix: handle conversation loading in headless mode [@laststylebender14](https://github.com/laststylebender14) ([#1724](https://github.com/antinomyhq/forge/pull/1724))
+- fix: make title generation async [@tusharmath](https://github.com/tusharmath) ([#1719](https://github.com/antinomyhq/forge/pull/1719))
+- fix: improve OpenAI and Anthropic compatible provider types [@manthanabc](https://github.com/manthanabc) ([#1718](https://github.com/antinomyhq/forge/pull/1718))
+- fix: handle newlines better with delete operation in patch [@tusharmath](https://github.com/tusharmath) ([#1714](https://github.com/antinomyhq/forge/pull/1714))
+
+### 🧰 Maintenance[​](#-maintenance-3 "Direct link to 🧰 Maintenance")
+
+- fix: use compatible provider for OpenAI and Anthropic urls [@tusharmath](https://github.com/tusharmath) ([#1731](https://github.com/antinomyhq/forge/pull/1731))
+- chore: clean up ui [@laststylebender14](https://github.com/laststylebender14) ([#1722](https://github.com/antinomyhq/forge/pull/1722))
+- chore: trace file reading errors [@ssddOnTop](https://github.com/ssddOnTop) ([#1717](https://github.com/antinomyhq/forge/pull/1717))
+
+* * *
+
+### 🐛 Bug Fixes[​](#-bug-fixes-4 "Direct link to 🐛 Bug Fixes")
+
+- fix: Update `compact.rs` and `forge.default.yaml` [@amitksingh1490](https://github.com/amitksingh1490) ([#1701](https://github.com/antinomyhq/forge/pull/1701))
+- fix: show output of overwrite [@tusharmath](https://github.com/tusharmath) ([#1700](https://github.com/antinomyhq/forge/pull/1700))
+- fix: handle invalid app config gracefully [@amitksingh1490](https://github.com/amitksingh1490) ([#1699](https://github.com/antinomyhq/forge/pull/1699))
+- fix: add more non\_negotiable\_rules [@laststylebender14](https://github.com/laststylebender14) ([#1694](https://github.com/antinomyhq/forge/pull/1694))
+- fix: dedupe tool definition sent to upstream [@laststylebender14](https://github.com/laststylebender14) ([#1693](https://github.com/antinomyhq/forge/pull/1693))
+
+### 🧰 Maintenance[​](#-maintenance-4 "Direct link to 🧰 Maintenance")
+
+- refactor: drop attempt-completion [@tusharmath](https://github.com/tusharmath) ([#1696](https://github.com/antinomyhq/forge/pull/1696))
+- chore: update rmcp version [@amitksingh1490](https://github.com/amitksingh1490) ([#1690](https://github.com/antinomyhq/forge/pull/1690))
+
+* * *
+
+### 🚀 Features[​](#-features-4 "Direct link to 🚀 Features")
+
+- Revert "feat: add Github provider" [@amitksingh1490](https://github.com/amitksingh1490) ([#1695](https://github.com/antinomyhq/forge/pull/1695))
+
+* * *
+
+### 🚀 Features[​](#-features-5 "Direct link to 🚀 Features")
+
+- feat: add Github provider [@tusharmath](https://github.com/tusharmath) ([#1689](https://github.com/antinomyhq/forge/pull/1689))
+- feat: add Azure provider support with URL construction and configuration [@amitksingh1490](https://github.com/amitksingh1490) ([#1679](https://github.com/antinomyhq/forge/pull/1679))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-5 "Direct link to 🐛 Bug Fixes")
+
+- fix: enhance MCP server handling with failure tracking [@amitksingh1490](https://github.com/amitksingh1490) ([#1684](https://github.com/antinomyhq/forge/pull/1684))
+
+### 🚀 Performance[​](#-performance-2 "Direct link to 🚀 Performance")
+
+- perf: make zsh lazily initialized [@tusharmath](https://github.com/tusharmath) ([#1692](https://github.com/antinomyhq/forge/pull/1692))
+
+* * *
+
+### 🐛 Bug Fixes[​](#-bug-fixes-6 "Direct link to 🐛 Bug Fixes")
+
+- fix: accumulate usage from summarization in context [@amitksingh1490](https://github.com/amitksingh1490) ([#1666](https://github.com/antinomyhq/forge/pull/1666))
+- fix: remove unnecessary search output from CLI [@tusharmath](https://github.com/tusharmath) ([#1678](https://github.com/antinomyhq/forge/pull/1678))
+- fix: skip empty messages from user logs [@tusharmath](https://github.com/tusharmath) ([#1676](https://github.com/antinomyhq/forge/pull/1676))
+- fix: agent ID retrieval in tools command [@amitksingh1490](https://github.com/amitksingh1490) ([#1677](https://github.com/antinomyhq/forge/pull/1677))
+
+* * *
+
+### 🐛 Bug Fixes[​](#-bug-fixes-7 "Direct link to 🐛 Bug Fixes")
+
+- fix: revert `FORGE_BIN` to default 'forge' for consistency [@amitksingh1490](https://github.com/amitksingh1490) ([#1672](https://github.com/antinomyhq/forge/pull/1672))
+- fix: add Z.ai thinking transformation [@amitksingh1490](https://github.com/amitksingh1490) ([#1673](https://github.com/antinomyhq/forge/pull/1673))
+- fix: add reasoning configuration and styles to conversation rendering [@amitksingh1490](https://github.com/amitksingh1490) ([#1667](https://github.com/antinomyhq/forge/pull/1667))
+
+* * *
+
+### 🐛 Bug Fixes[​](#-bug-fixes-8 "Direct link to 🐛 Bug Fixes")
+
+- fix: improve ZSH experience [@tusharmath](https://github.com/tusharmath) ([#1660](https://github.com/antinomyhq/forge/pull/1660))
+- fix: improve reliability of mcp on ZSH [@amitksingh1490](https://github.com/amitksingh1490) ([#1661](https://github.com/antinomyhq/forge/pull/1661))
+- fix: tool validation to support glob patterns [@amitksingh1490](https://github.com/amitksingh1490) ([#1663](https://github.com/antinomyhq/forge/pull/1663))
+- fix: order of conversation by `updated_at` [@tusharmath](https://github.com/tusharmath) ([#1662](https://github.com/antinomyhq/forge/pull/1662))
+
+* * *
+
+- feat: persist provider specific model [@tusharmath](https://github.com/tusharmath) ([#1647](https://github.com/antinomyhq/forge/pull/1647))
+
+### 🚀 Features[​](#-features-6 "Direct link to 🚀 Features")
+
+- feat: add BigModel provider [@ssddOnTop](https://github.com/ssddOnTop) ([#1658](https://github.com/antinomyhq/forge/pull/1658))
+- feat: support glob patterns for MCP tool access [@tusharmath](https://github.com/tusharmath) ([#1652](https://github.com/antinomyhq/forge/pull/1652))
+- feat: add 'show-tools' command and update zsh plugin [@amitksingh1490](https://github.com/amitksingh1490) ([#1651](https://github.com/antinomyhq/forge/pull/1651))
+- feat: add session management commands for handling conversations [@amitksingh1490](https://github.com/amitksingh1490) ([#1643](https://github.com/antinomyhq/forge/pull/1643))
+- feat: implement configuration management commands [@amitksingh1490](https://github.com/amitksingh1490) ([#1623](https://github.com/antinomyhq/forge/pull/1623))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-9 "Direct link to 🐛 Bug Fixes")
+
+- fix: empty app config [@ssddOnTop](https://github.com/ssddOnTop) ([#1659](https://github.com/antinomyhq/forge/pull/1659))
+- fix: correct command references from "/conversations" to "/conversation" [@amitksingh1490](https://github.com/amitksingh1490) ([#1653](https://github.com/antinomyhq/forge/pull/1653))
+- fix: derive cost from cost\_details [@laststylebender14](https://github.com/laststylebender14) ([#1646](https://github.com/antinomyhq/forge/pull/1646))
+- fix: raise an error if no provider is configured. [@laststylebender14](https://github.com/laststylebender14) ([#1645](https://github.com/antinomyhq/forge/pull/1645))
+
+### 🧰 Maintenance[​](#-maintenance-5 "Direct link to 🧰 Maintenance")
+
+- chore: rename .json file [@tusharmath](https://github.com/tusharmath) ([#1655](https://github.com/antinomyhq/forge/pull/1655))
+- refactor: move model configuration into a JSON file [@tusharmath](https://github.com/tusharmath) ([#1650](https://github.com/antinomyhq/forge/pull/1650))
+- chore: update dependencies and features for multiple crates [@amitksingh1490](https://github.com/amitksingh1490) ([#1627](https://github.com/antinomyhq/forge/pull/1627))
+
+* * *
+
+### 🐛 Bug Fixes[​](#-bug-fixes-10 "Direct link to 🐛 Bug Fixes")
+
+- fix: ensure tool\_supported is explicitly set in configuration [@tusharmath](https://github.com/tusharmath) ([#1639](https://github.com/antinomyhq/forge/pull/1639))
+
+### 🧰 Maintenance[​](#-maintenance-6 "Direct link to 🧰 Maintenance")
+
+- refactor: improve title formatting in conversation initialization [@tusharmath](https://github.com/tusharmath) ([#1637](https://github.com/antinomyhq/forge/pull/1637))
+- chore: update action trigger [@tusharmath](https://github.com/tusharmath) ([#1638](https://github.com/antinomyhq/forge/pull/1638))
+- refactor: have single source of truth [@tusharmath](https://github.com/tusharmath) ([#1630](https://github.com/antinomyhq/forge/pull/1630))
+- refactor: remove redundant explanation fields from tool input structs [@tusharmath](https://github.com/tusharmath) ([#1636](https://github.com/antinomyhq/forge/pull/1636))
+
+* * *
+
+- revert: 1597 [@amitksingh1490](https://github.com/amitksingh1490) ([#1624](https://github.com/antinomyhq/forge/pull/1624))
+
+### 🧰 Maintenance[​](#-maintenance-7 "Direct link to 🧰 Maintenance")
+
+- chore(deps): bump the actions group with 2 updates @[dependabot\[bot\]](https://github.com/apps/dependabot) (#1610)
+
+* * *
+
+### 🚀 Features[​](#-features-7 "Direct link to 🚀 Features")
+
+- feat: add `:info` command in zsh [@tusharmath](https://github.com/tusharmath) ([#1614](https://github.com/antinomyhq/forge/pull/1614))
+- feat: support for provider selection [@tusharmath](https://github.com/tusharmath) ([#1603](https://github.com/antinomyhq/forge/pull/1603))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-11 "Direct link to 🐛 Bug Fixes")
+
+- fix: handle diff for large file formats [@tusharmath](https://github.com/tusharmath) ([#1621](https://github.com/antinomyhq/forge/pull/1621))
+- fix: enhance token calculation in Usage struct to include cache read [@amitksingh1490](https://github.com/amitksingh1490) ([#1622](https://github.com/antinomyhq/forge/pull/1622))
+- fix: use configurable fd command for file searching in completion [@tusharmath](https://github.com/tusharmath) ([#1618](https://github.com/antinomyhq/forge/pull/1618))
+- fix: make client cache provider specific [@tusharmath](https://github.com/tusharmath) ([#1617](https://github.com/antinomyhq/forge/pull/1617))
+- fix(zsh): empty prompts will set the agent [@tusharmath](https://github.com/tusharmath) ([#1613](https://github.com/antinomyhq/forge/pull/1613))
+
+<!--THE END-->
+
+- [v1.2.0](#v120)
+- [v1.1.0](#v110)
+- [v1.0.0](#v100)
+- [v0.126.0](#v01260)
+- [v0.125.1](#v01251)
+- [v0.125.0](#v01250)
+- [v0.124.0](#v01240)
+- [v0.123.3](#v01233)
+- [v0.123.2](#v01232)
+- [v0.123.1](#v01231)
+- [v0.123.0](#v01230)
+- [v0.122.2](#v01222)
+- [v0.122.1](#v01221)
+- [v0.122.0](#v01220)

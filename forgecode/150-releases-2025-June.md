@@ -1,0 +1,194 @@
+---
+title: ForgeCode
+url: https://forgecode.dev/releases/2025/June/
+source: sitemap
+fetched_at: 2026-03-29T14:52:49.896771978-03:00
+rendered_js: false
+word_count: 1122
+summary: This document contains release notes and changelog entries for the ForgeCode project, detailing bug fixes, new features, and maintenance updates across multiple versions.
+tags:
+    - changelog
+    - release-notes
+    - bug-fixes
+    - features
+    - maintenance
+category: reference
+---
+
+ForgeCode ranks #1 on TermBench with 81.8% accuracy.[Learn more →](https://forgecode.dev/blog/gpt-5-4-agent-improvements)
+
+Update to latest version !!Get the instructions from the docs
+
+[Get Started](https://forgecode.dev/docs/)
+
+- Update README.md [@amitksingh1490](https://github.com/amitksingh1490) ([#1002](https://github.com/antinomyhq/forge/pull/1002))
+
+### 🐛 Bug Fixes[​](#-bug-fixes "Direct link to 🐛 Bug Fixes")
+
+- fix: update README to correct JSON key for MCP servers [@ssddOnTop](https://github.com/ssddOnTop) ([#1007](https://github.com/antinomyhq/forge/pull/1007))
+- fix: utilise the `total_tokens` in compaction [@laststylebender14](https://github.com/laststylebender14) ([#1005](https://github.com/antinomyhq/forge/pull/1005))
+- fix: sanitize headers before logging [@laststylebender14](https://github.com/laststylebender14) ([#1006](https://github.com/antinomyhq/forge/pull/1006))
+- fix: show upstream error message on ui [@laststylebender14](https://github.com/laststylebender14) ([#1000](https://github.com/antinomyhq/forge/pull/1000))
+- fix(ui): update init\_state to handle API recreation flag [@ssddOnTop](https://github.com/ssddOnTop) ([#1003](https://github.com/antinomyhq/forge/pull/1003))
+- fix: update the npm update command [@laststylebender14](https://github.com/laststylebender14) ([#1001](https://github.com/antinomyhq/forge/pull/1001))
+
+* * *
+
+### 🚀 Features[​](#-features "Direct link to 🚀 Features")
+
+- feat: implement task list management tool with CRUD operations [@ssddOnTop](https://github.com/ssddOnTop) ([#991](https://github.com/antinomyhq/forge/pull/991))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-1 "Direct link to 🐛 Bug Fixes")
+
+- fix(walker): handle large directories [@tusharmath](https://github.com/tusharmath) ([#995](https://github.com/antinomyhq/forge/pull/995))
+
+### 🧰 Maintenance[​](#-maintenance "Direct link to 🧰 Maintenance")
+
+- refactor: migrate walker functionality to forge\_infra with new abstractions [@tusharmath](https://github.com/tusharmath) ([#994](https://github.com/antinomyhq/forge/pull/994))
+
+* * *
+
+- test: add unit test for call ID extraction from XML [@tusharmath](https://github.com/tusharmath) ([#989](https://github.com/antinomyhq/forge/pull/989))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-2 "Direct link to 🐛 Bug Fixes")
+
+- fix: improve function call schema to work with open-ai [@laststylebender14](https://github.com/laststylebender14) ([#972](https://github.com/antinomyhq/forge/pull/972))
+- fix: generate unique call ID for tool calls when parsing from XML [@tusharmath](https://github.com/tusharmath) ([#988](https://github.com/antinomyhq/forge/pull/988))
+
+### 🧰 Maintenance[​](#-maintenance-1 "Direct link to 🧰 Maintenance")
+
+- chore: add more tests for can\_track [@tusharmath](https://github.com/tusharmath) ([#992](https://github.com/antinomyhq/forge/pull/992))
+
+* * *
+
+- ci: implement matrix strategy for multiple NPM repositories [@amitksingh1490](https://github.com/amitksingh1490) ([#983](https://github.com/antinomyhq/forge/pull/983))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-3 "Direct link to 🐛 Bug Fixes")
+
+- fix(ui): improve model list display with context length and tool support [@tusharmath](https://github.com/tusharmath) ([#986](https://github.com/antinomyhq/forge/pull/986))
+- fix(compaction): handle parallel tool calls in context compaction [@laststylebender14](https://github.com/laststylebender14) ([#984](https://github.com/antinomyhq/forge/pull/984))
+- fix: ask for update only on 1st init [@laststylebender14](https://github.com/laststylebender14) ([#985](https://github.com/antinomyhq/forge/pull/985))
+- fix: improve auto compaction strategy [@laststylebender14](https://github.com/laststylebender14) ([#937](https://github.com/antinomyhq/forge/pull/937))
+- fix: log request headers for debugging purposes [@tusharmath](https://github.com/tusharmath) ([#977](https://github.com/antinomyhq/forge/pull/977))
+
+### 🧰 Maintenance[​](#-maintenance-2 "Direct link to 🧰 Maintenance")
+
+- refactor: update trait usage in services [@ssddOnTop](https://github.com/ssddOnTop) ([#980](https://github.com/antinomyhq/forge/pull/980))
+- refactor: update UI initialization to use a function for API creation [@tusharmath](https://github.com/tusharmath) ([#982](https://github.com/antinomyhq/forge/pull/982))
+- refactor: drop infrastructure trait [@ssddOnTop](https://github.com/ssddOnTop) ([#979](https://github.com/antinomyhq/forge/pull/979))
+- chore: add logging for request headers in chat and model fetching [@tusharmath](https://github.com/tusharmath) ([#978](https://github.com/antinomyhq/forge/pull/978))
+- refactor: update ExecutionResult to use structured input and output types [@ssddOnTop](https://github.com/ssddOnTop) ([#975](https://github.com/antinomyhq/forge/pull/975))
+
+* * *
+
+### 🚀 Features[​](#-features-1 "Direct link to 🚀 Features")
+
+- refactor: ensure completion tool is available to all agents [@tusharmath](https://github.com/tusharmath) ([#968](https://github.com/antinomyhq/forge/pull/968))
+- feat: add support to configure `max_tokens` [@tusharmath](https://github.com/tusharmath) ([#969](https://github.com/antinomyhq/forge/pull/969))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-4 "Direct link to 🐛 Bug Fixes")
+
+- refactor: add automatic subscription for agents [@tusharmath](https://github.com/tusharmath) ([#971](https://github.com/antinomyhq/forge/pull/971))
+- fix: update agents on model change [@laststylebender14](https://github.com/laststylebender14) ([#970](https://github.com/antinomyhq/forge/pull/970))
+
+### 🧰 Maintenance[​](#-maintenance-3 "Direct link to 🧰 Maintenance")
+
+- refactor: ensure completion tool is available to all agents [@tusharmath](https://github.com/tusharmath) ([#968](https://github.com/antinomyhq/forge/pull/968))
+
+* * *
+
+- fix: input title format to handle summaries differently [@tusharmath](https://github.com/tusharmath) ([#957](https://github.com/antinomyhq/forge/pull/957))
+- refactor(ui): implement InputTitle trait and enhance tool formatting display [@tusharmath](https://github.com/tusharmath) ([#955](https://github.com/antinomyhq/forge/pull/955))
+
+### 🚀 Features[​](#-features-2 "Direct link to 🚀 Features")
+
+- feat: implement file size limit for read operations [@ssddOnTop](https://github.com/ssddOnTop) ([#954](https://github.com/antinomyhq/forge/pull/954))
+- fix: file read range limits [@tusharmath](https://github.com/tusharmath) ([#963](https://github.com/antinomyhq/forge/pull/963))
+- feat: implement FormatOutput trait and enhance logging for tool execution [@tusharmath](https://github.com/tusharmath) ([#960](https://github.com/antinomyhq/forge/pull/960))
+- feat: ability to define timeout config in Env [@ssddOnTop](https://github.com/ssddOnTop) ([#958](https://github.com/antinomyhq/forge/pull/958))
+- fix: implement retryable error handling for tool call parse failures [@ssddOnTop](https://github.com/ssddOnTop) ([#942](https://github.com/antinomyhq/forge/pull/942))
+- feat: allow agents to be tools [@laststylebender14](https://github.com/laststylebender14) ([#927](https://github.com/antinomyhq/forge/pull/927))
+- feat: load user specified templates [@laststylebender14](https://github.com/laststylebender14) ([#939](https://github.com/antinomyhq/forge/pull/939))
+- fix: add `max_read_size` configuration to env [@ssddOnTop](https://github.com/ssddOnTop) ([#943](https://github.com/antinomyhq/forge/pull/943))
+- feat: add support for skipping lines in fs\_search [@ssddOnTop](https://github.com/ssddOnTop) ([#925](https://github.com/antinomyhq/forge/pull/925))
+- refactor: use registry v2 instead of tool service [@ssddOnTop](https://github.com/ssddOnTop) ([#933](https://github.com/antinomyhq/forge/pull/933))
+- refactor: update agent names to Forge and Fuse [@laststylebender14](https://github.com/laststylebender14) ([#930](https://github.com/antinomyhq/forge/pull/930))
+- feat: add title and desc to agent [@laststylebender14](https://github.com/laststylebender14) ([#929](https://github.com/antinomyhq/forge/pull/929))
+- feat: allow user to select agents interactively [@laststylebender14](https://github.com/laststylebender14) ([#919](https://github.com/antinomyhq/forge/pull/919))
+- refactor: drop Tool dependency from MCP [@ssddOnTop](https://github.com/ssddOnTop) ([#926](https://github.com/antinomyhq/forge/pull/926))
+- chore: add tests for `ToolOutput` creation [@ssddOnTop](https://github.com/ssddOnTop) ([#922](https://github.com/antinomyhq/forge/pull/922))
+- refactor: add agent validation for available tools [@ssddOnTop](https://github.com/ssddOnTop) ([#921](https://github.com/antinomyhq/forge/pull/921))
+- feat: add cached tokens stats in info command [@laststylebender14](https://github.com/laststylebender14) ([#896](https://github.com/antinomyhq/forge/pull/896))
+- refactor: add `McpService` integration to `ForgeServices` and `ToolRegistry` [@ssddOnTop](https://github.com/ssddOnTop) ([#916](https://github.com/antinomyhq/forge/pull/916))
+- feat: add support for parallel tool calls for sonnet-4 [@laststylebender14](https://github.com/laststylebender14) ([#884](https://github.com/antinomyhq/forge/pull/884))
+- fix(domain): improve compaction for models that don't support tool calls [@tusharmath](https://github.com/tusharmath) ([#908](https://github.com/antinomyhq/forge/pull/908))
+- feat(fs): enhance file removal UX with improved path formatting and visual feedback [@tusharmath](https://github.com/tusharmath) ([#903](https://github.com/antinomyhq/forge/pull/903))
+
+### 🐛 Bug Fixes[​](#-bug-fixes-5 "Direct link to 🐛 Bug Fixes")
+
+- fix: correct displayed lines count in execution result [@ssddOnTop](https://github.com/ssddOnTop) ([#962](https://github.com/antinomyhq/forge/pull/962))
+- fix: file read range limits [@tusharmath](https://github.com/tusharmath) ([#963](https://github.com/antinomyhq/forge/pull/963))
+- fix: undo operation [@tusharmath](https://github.com/tusharmath) ([#959](https://github.com/antinomyhq/forge/pull/959))
+- fix: write an error on fs create failure [@ssddOnTop](https://github.com/ssddOnTop) ([#951](https://github.com/antinomyhq/forge/pull/951))
+- fix: shell output truncation [@ssddOnTop](https://github.com/ssddOnTop) ([#936](https://github.com/antinomyhq/forge/pull/936))
+- fix: implement retryable error handling for tool call parse failures [@ssddOnTop](https://github.com/ssddOnTop) ([#942](https://github.com/antinomyhq/forge/pull/942))
+- fix: interrupt for xml only when tool call is not supported [@laststylebender14](https://github.com/laststylebender14) ([#949](https://github.com/antinomyhq/forge/pull/949))
+- fix: update conversation on each turn [@laststylebender14](https://github.com/laststylebender14) ([#947](https://github.com/antinomyhq/forge/pull/947))
+- fix: update error handling to use XML formatting for ToolOutput [@ssddOnTop](https://github.com/ssddOnTop) ([#940](https://github.com/antinomyhq/forge/pull/940))
+- fix: update command aliases to use intuitive names for forge and muse agents [@tusharmath](https://github.com/tusharmath) ([#935](https://github.com/antinomyhq/forge/pull/935))
+- refactor: add XML formatting and truncation [@ssddOnTop](https://github.com/ssddOnTop) ([#923](https://github.com/antinomyhq/forge/pull/923))
+- fix: use XML based format for attachments [@tusharmath](https://github.com/tusharmath) ([#928](https://github.com/antinomyhq/forge/pull/928))
+- fix: autocompletion for empty string input [@ssddOnTop](https://github.com/ssddOnTop) ([#918](https://github.com/antinomyhq/forge/pull/918))
+- fix(domain): improve compaction for models that don't support tool calls [@tusharmath](https://github.com/tusharmath) ([#908](https://github.com/antinomyhq/forge/pull/908))
+- refactor: extract application layer into forge\_app crate and improve reliability [@tusharmath](https://github.com/tusharmath) ([#902](https://github.com/antinomyhq/forge/pull/902))
+- fix: handle UTF-8 character boundaries in SearchTerm processing (#888) [@echozyr2001](https://github.com/echozyr2001) ([#891](https://github.com/antinomyhq/forge/pull/891))
+- refactor(retry): consolidate retry logic and improve error handling system [@tusharmath](https://github.com/tusharmath) ([#901](https://github.com/antinomyhq/forge/pull/901))
+- fix: apply middle out transform [@laststylebender14](https://github.com/laststylebender14) ([#895](https://github.com/antinomyhq/forge/pull/895))
+- fix: improve conversation context compaction by including user messages in sequence detection [@tusharmath](https://github.com/tusharmath) ([#885](https://github.com/antinomyhq/forge/pull/885))
+- fix: make name and command\_or\_url required in McpAddArgs [@amitksingh1490](https://github.com/amitksingh1490) ([#883](https://github.com/antinomyhq/forge/pull/883))
+- fix(doc): improve documentation for file reading functionality and clarify usage [@tusharmath](https://github.com/tusharmath) ([#881](https://github.com/antinomyhq/forge/pull/881))
+- fix(retry): enhance error detection with recursive checking and comprehensive tests [@tusharmath](https://github.com/tusharmath) ([#880](https://github.com/antinomyhq/forge/pull/880))
+
+### 🧰 Maintenance[​](#-maintenance-4 "Direct link to 🧰 Maintenance")
+
+- chore: upgrade shell truncated output formatting [@ssddOnTop](https://github.com/ssddOnTop) ([#966](https://github.com/antinomyhq/forge/pull/966))
+- chore: rename tools module in services [@tusharmath](https://github.com/tusharmath) ([#964](https://github.com/antinomyhq/forge/pull/964))
+- fix: undo operation [@tusharmath](https://github.com/tusharmath) ([#959](https://github.com/antinomyhq/forge/pull/959))
+- feat: implement FormatOutput trait and enhance logging for tool execution [@tusharmath](https://github.com/tusharmath) ([#960](https://github.com/antinomyhq/forge/pull/960))
+- refactor: implement executor pattern for tool call handling and enhance input title formatting [@tusharmath](https://github.com/tusharmath) ([#956](https://github.com/antinomyhq/forge/pull/956))
+- refactor: remove unused Tool references and commented-out find method [@tusharmath](https://github.com/tusharmath) ([#953](https://github.com/antinomyhq/forge/pull/953))
+- refactor: remove old tools [@tusharmath](https://github.com/tusharmath) ([#952](https://github.com/antinomyhq/forge/pull/952))
+- chore: avoid sending file content back to LLM while creating file [@ssddOnTop](https://github.com/ssddOnTop) ([#950](https://github.com/antinomyhq/forge/pull/950))
+- chore: drop tool based events from chat response [@laststylebender14](https://github.com/laststylebender14) ([#945](https://github.com/antinomyhq/forge/pull/945))
+- refactor: move retry logic from domain to app layer for better separation of concerns [@tusharmath](https://github.com/tusharmath) ([#948](https://github.com/antinomyhq/forge/pull/948))
+- refactor: format HTML output for better readability in Element rendering [@tusharmath](https://github.com/tusharmath) ([#944](https://github.com/antinomyhq/forge/pull/944))
+- refactor: improve tool call context message [@ssddOnTop](https://github.com/ssddOnTop) ([#941](https://github.com/antinomyhq/forge/pull/941))
+- refactor: update merge strategies for tools and subscribe fields in Agent struct [@tusharmath](https://github.com/tusharmath) ([#934](https://github.com/antinomyhq/forge/pull/934))
+- chore: drop display path from services [@ssddOnTop](https://github.com/ssddOnTop) ([#932](https://github.com/antinomyhq/forge/pull/932))
+- refactor: add XML formatting and truncation [@ssddOnTop](https://github.com/ssddOnTop) ([#923](https://github.com/antinomyhq/forge/pull/923))
+- refactor: update agent names to Forge and Fuse [@laststylebender14](https://github.com/laststylebender14) ([#930](https://github.com/antinomyhq/forge/pull/930))
+- refactor: use XML to format tool output [@tusharmath](https://github.com/tusharmath) ([#924](https://github.com/antinomyhq/forge/pull/924))
+- chore: add tests for `ToolOutput` creation [@ssddOnTop](https://github.com/ssddOnTop) ([#922](https://github.com/antinomyhq/forge/pull/922))
+- refactor: add agent validation for available tools [@ssddOnTop](https://github.com/ssddOnTop) ([#921](https://github.com/antinomyhq/forge/pull/921))
+- refactor: swap tool call implementation to forge\_app [@ssddOnTop](https://github.com/ssddOnTop) ([#920](https://github.com/antinomyhq/forge/pull/920))
+- refactor: add `tool_definition` to `forge_domain::tools` [@ssddOnTop](https://github.com/ssddOnTop) ([#915](https://github.com/antinomyhq/forge/pull/915))
+- refactor: Implement services for each tool [@ssddOnTop](https://github.com/ssddOnTop) ([#913](https://github.com/antinomyhq/forge/pull/913))
+- chore: implement ToolRegistry and integrate into ForgeApp [@ssddOnTop](https://github.com/ssddOnTop) ([#911](https://github.com/antinomyhq/forge/pull/911))
+- refactor(fs): migrate file reading from character-based to line-based indexing [@tusharmath](https://github.com/tusharmath) ([#907](https://github.com/antinomyhq/forge/pull/907))
+- refactor: extract application layer into forge\_app crate and improve reliability [@tusharmath](https://github.com/tusharmath) ([#902](https://github.com/antinomyhq/forge/pull/902))
+- chore: send conversation id to forge provider [@laststylebender14](https://github.com/laststylebender14) ([#904](https://github.com/antinomyhq/forge/pull/904))
+- feat(fs): enhance file removal UX with improved path formatting and visual feedback [@tusharmath](https://github.com/tusharmath) ([#903](https://github.com/antinomyhq/forge/pull/903))
+- refactor(agent): remove unused fields and improve context compaction with template system [@tusharmath](https://github.com/tusharmath) ([#899](https://github.com/antinomyhq/forge/pull/899))
+- fix: apply middle out transform [@laststylebender14](https://github.com/laststylebender14) ([#895](https://github.com/antinomyhq/forge/pull/895))
+- refactor(agent): simplify context initialization and remove ephemeral field [@tusharmath](https://github.com/tusharmath) ([#893](https://github.com/antinomyhq/forge/pull/893))
+- refactor(orchestrator): major rewrite with template system and integrated context compaction [@tusharmath](https://github.com/tusharmath) ([#886](https://github.com/antinomyhq/forge/pull/886))
+- refactor(tests): streamline sequence finding tests and improve coverage [@tusharmath](https://github.com/tusharmath) ([#882](https://github.com/antinomyhq/forge/pull/882))
+
+<!--THE END-->
+
+- [v0.97.1](#v0971)
+- [v0.97.0](#v0970)
+- [v0.96.2](#v0962)
+- [v0.96.1](#v0961)
+- [v0.96.0](#v0960)
+- [v0.95.0](#v0950)

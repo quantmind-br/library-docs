@@ -1,0 +1,189 @@
+---
+title: ForgeCode
+url: https://forgecode.dev/docs/commands/
+source: sitemap
+fetched_at: 2026-03-29T16:30:33.987462-03:00
+rendered_js: false
+word_count: 1187
+summary: This document provides a comprehensive reference for the built-in command-line interface commands available in ForgeCode to manage conversations, system environment, AI models, and agent behavior.
+tags:
+    - cli-commands
+    - forgecode
+    - developer-tools
+    - command-reference
+    - conversation-management
+    - system-configuration
+category: reference
+---
+
+ForgeCode offers several built-in commands to enhance your interaction. These commands can be entered directly in the ForgeCode CLI by typing the command name preceded by a forward slash.
+
+Start a new conversation while preserving history.
+
+The `/new` command clears the current conversation context and starts a fresh task. This is useful when you've completed your current task and want to begin something entirely different.
+
+**When to use:** Use this when switching between unrelated tasks to ensure a clean context.
+
+Browse and select from your recent conversations.
+
+The `/conversation` command displays your last 20 conversations with timestamps and titles, allowing you to interactively select one to resume.
+
+**Example output:**
+
+**When to use:** When you want to return to a previous conversation.
+
+**Usage:**
+
+- Navigate with arrow keys or type to search
+- Press Enter to select a conversation
+- The `>` indicator shows your current selection
+- Each entry shows conversation title and relative time
+
+Display comprehensive system environment and status information.
+
+The `/info` command provides a detailed overview of your current ForgeCode environment, including paths, configuration, model settings, token usage, and conversation details.
+
+**Example output:**
+
+**Output sections explained:**
+
+- **PATHS**: File system locations for ForgeCode components
+  
+  - `Logs`: Where system and error logs are stored
+  - `Agents`: Directory containing agent configurations
+  - `History`: Command history file for session recall
+  - `Checkpoints`: Saved conversation snapshots and state
+  - `Policies`: Permission and access control configuration file
+- **ENVIRONMENT**: Current system and project context
+  
+  - `Version`: ForgeCode application version number
+  - `Working Directory`: Current project/working directory path
+  - `Shell`: Command shell being used (bash, zsh, etc.)
+  - `Git Branch`: Active git branch in the working directory (if applicable)
+- **MODEL**: AI model configuration and credentials
+  
+  - `Current`: Active AI model being used for conversations
+  - `Provider (URL)`: API endpoint URL for the model provider
+  - `API Key`: Masked API key for security (shows first/last characters only)
+- **TOKEN USAGE**: Resource consumption and costs accumulated for the entire conversation
+  
+  - `Input Tokens`: Total tokens consumed by user input and context across all messages
+  - `Cached Tokens`: Previously processed tokens reused for efficiency (percentage shown)
+  - `Output Tokens`: Total tokens generated in AI responses throughout the conversation
+  - `Cost`: Total estimated monetary cost based on accumulated token usage
+- **CONVERSATION**: Current chat session details
+  
+  - `ID`: Unique identifier for the current conversation
+  - `Title`: Human-readable name or high level description of the conversation
+
+**When to use:** Use this when you need to troubleshoot, find configuration files, check token usage, verify your current model setup, or get an overview of your ForgeCode environment.
+
+Retry the last message in the conversation.
+
+The `/retry` command re-executes the most recent message in the conversation. This is useful when a command failed due to temporary issues or when you want to run the same operation again.
+
+**When to use:** Use this when you want to re-run the last command that failed due to network issues, temporary errors, or when you need to execute the same operation multiple times.
+
+Switch to a different AI provider.
+
+The `/provider` command displays an interactive list of all available AI providers supported by ForgeCode. The list shows both configured and unconfigured providers with different visual indicators.
+
+**Display format:**
+
+- **Configured providers**: Shows a ✓ checkmark, provider name, and domain
+- **Unconfigured providers**: Shows provider name with `[unavailable]` indicator
+
+**Example output:**
+
+**What happens after selection:**
+
+- ForgeCode switches to the selected provider
+- You'll be prompted to select a compatible model
+- The conversation continues with the new provider/model
+
+**When to use:** Use this when you want to change which AI provider ForgeCode uses for processing your requests, or to see which providers are available and configured.
+
+Provider Setup
+
+To configure an unconfigured provider, set its API key environment variable. See the [Provider Setup Guide](https://forgecode.dev/docs/custom-providers/) for details.
+
+Switch to a different model.
+
+The `/model` command allows you to interactively select from available AI models and set your preferred model in the project's forge.yaml configuration file.
+
+This will:
+
+1. Display an interactive selection menu with all available models
+2. Update the standard\_model anchor in your forge.yaml file with your selection
+3. Confirm the change with a success message
+
+The model choice will persist between sessions as it's stored in your configuration file.
+
+**When to use:** Use this when you want to change which AI model ForgeCode uses for processing your requests.
+
+Switch between different AI agents.
+
+The `/agent` command provides an interactive interface to select and switch between different specialized agents in ForgeCode. Use this command to change which agent handles your requests and see available options.
+
+This will:
+
+1. Display an interactive selection menu with available agents:
+   
+   - **ForgeCode Agent**: Full execution capabilities with read-write access
+   - **Muse Agent**: Read-only analysis and planning mode
+2. Switch to the selected agent for the current session
+
+**When to use:** Use this when you want to switch between agents or when you're unsure which agent is currently active. This is an alternative to using the specific `/forge` or `/muse` commands.
+
+Save conversation as JSON or HTML.
+
+The `/dump` command saves the current conversation to a file for future reference. By default, it saves in JSON format, but you can specify HTML format using `/dump html`.
+
+**Usage:**
+
+- `/dump` - Saves as JSON format
+- `/dump html` - Saves as HTML format
+
+**When to use:** Use this when you need to debug issues, inspect the conversation context, or report problems to the development team.
+
+Enable implementation mode with code changes.
+
+The `/forge` command (also available as `/act`) switches to ForgeCode Agent, where it can execute commands and implement changes.
+
+**When to use:** This is the default agent. Use this command to switch back to the ForgeCode Agent if you were previously using the Muse Agent.
+
+Enable planning mode without code changes.
+
+The `/muse` command (also available as `/plan`) switches to the Muse Agent, where it analyzes and suggests changes without modifying files.
+
+**When to use:** Use this when you want to analyze your codebase and suggest changes without actually implementing them. This is useful for understanding what would happen before making changes.
+
+Compact the conversation context.
+
+The `/compact` command reduces the conversation context by summarizing or removing older messages to optimize memory usage and performance.
+
+**When to use:** Use this when you have a long conversation and want to reduce context size while preserving important information.
+
+Display all available commands.
+
+The `/help` command prints a list of all available ForgeCode commands with their descriptions, providing a quick reference for command usage.
+
+**When to use:** Use this when you need to see what commands are available or want a quick reference of ForgeCode's built-in functionality.
+
+List all available tools with their descriptions and schema.
+
+The `/tools` command displays a comprehensive list of all available tools, including their descriptions and schema information.
+
+**When to use:** Use this when you want to see what tools are available or need to understand tool capabilities and parameters.
+
+Updates to the latest compatible version of ForgeCode.
+
+The `/update` command updates ForgeCode to the latest compatible version available.
+
+**When to use:** Use this when you want to update to the newest version of ForgeCode with the latest features and bug fixes.
+
+Exit the application.
+
+The `/exit` command terminates the ForgeCode application. You can also use `Ctrl+D` as a keyboard shortcut to exit.
+
+**When to use:** Use this when you want to quit ForgeCode completely.

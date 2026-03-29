@@ -2,17 +2,17 @@
 title: ForgeCode
 url: https://forgecode.dev/docs/plan-and-act-guide/
 source: sitemap
-fetched_at: 2026-03-29T14:52:11.743629286-03:00
+fetched_at: 2026-03-29T16:30:45.160289-03:00
 rendered_js: false
 word_count: 431
-summary: This document explains how to use the Muse and ForgeCode AI agents together in a planning-first workflow for safer and more effective AI-assisted development.
+summary: This document outlines a recommended workflow for using ForgeCode's dual-agent system, which separates strategic planning tasks from code implementation to improve development efficiency.
 tags:
-    - ai-coding-tools
-    - development-workflow
-    - muse-agent
-    - forgecode-agent
-    - planning-first
-    - code-implementation
+    - ai-assisted-development
+    - workflow-optimization
+    - forgecode
+    - agent-collaboration
+    - strategic-planning
+    - software-engineering
 category: guide
 ---
 

@@ -2,19 +2,17 @@
 title: ForgeCode
 url: https://forgecode.dev/docs/agent-definition-guide/
 source: sitemap
-fetched_at: 2026-03-29T14:51:24.774467804-03:00
+fetched_at: 2026-03-29T16:30:30.781671-03:00
 rendered_js: false
 word_count: 1503
-summary: This document provides a comprehensive guide for creating custom AI agents with specific expertise using markdown files, covering everything from basic setup to advanced configuration options and tool integration.
+summary: This document explains how to create and configure custom AI agents within the ForgeCode environment using markdown definition files and YAML configuration.
 tags:
     - ai-agents
-    - custom-agents
     - forgecode
     - yaml-configuration
-    - react-development
-    - security-auditing
-    - tool-integration
-    - agent-definition
+    - agent-development
+    - mcp-tools
+    - custom-prompts
 category: guide
 ---
 

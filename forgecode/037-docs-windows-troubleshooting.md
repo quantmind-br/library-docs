@@ -2,19 +2,16 @@
 title: ForgeCode
 url: https://forgecode.dev/docs/windows-troubleshooting/
 source: sitemap
-fetched_at: 2026-03-29T14:52:32.343682992-03:00
+fetched_at: 2026-03-29T16:30:50.19259-03:00
 rendered_js: false
 word_count: 338
-summary: This document provides a step-by-step guide to resolve vcruntime140.dll missing errors when running the forge command on Windows systems by installing the appropriate Microsoft Visual C++ Redistributable package.
+summary: This document provides troubleshooting steps to resolve vcruntime140.dll errors on Windows by installing the required Microsoft Visual C++ Redistributable packages.
 tags:
-    - windows
-    - dll-error
-    - vcruntime140
+    - windows-troubleshooting
+    - dll-errors
     - visual-cpp
-    - redistributable
-    - forge
-    - installation
-    - troubleshooting
+    - system-configuration
+    - software-installation
 category: guide
 ---
 

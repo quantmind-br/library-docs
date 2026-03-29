@@ -2,19 +2,17 @@
 title: ForgeCode
 url: https://forgecode.dev/docs/npm-troubleshooting/
 source: sitemap
-fetched_at: 2026-03-29T14:52:06.130448211-03:00
+fetched_at: 2026-03-29T16:30:43.387923-03:00
 rendered_js: false
 word_count: 401
-summary: This document provides troubleshooting guidance for common Node.js and npm issues, including permission errors, PATH problems, and installation difficulties across different operating systems.
+summary: This document provides troubleshooting steps for common Node.js and npm installation issues, including guidance on managing permissions, PATH variables, and version requirements.
 tags:
+    - troubleshooting
     - nodejs
     - npm
-    - troubleshooting
-    - installation
-    - permission-errors
-    - windows
-    - macos
-    - linux
+    - package-management
+    - developer-environment
+    - installation-help
 category: guide
 ---
 

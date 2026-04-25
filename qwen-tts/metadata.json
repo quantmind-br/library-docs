@@ -1,0 +1,104 @@
+{
+  "generated_at": "2026-04-20T07:40:05.479693268-03:00",
+  "source_url": "https://github.com/QwenLM/Qwen3-TTS",
+  "strategy": "git",
+  "total_documents": 7,
+  "organization": {
+    "version": "1.0.0",
+    "organized_at": "2026-04-20",
+    "notes": "Sequentially numbered for logical reading order"
+  },
+  "documents": [
+    {
+      "original_file_path": "README.md",
+      "file_path": "001-README.md",
+      "title": "README",
+      "summary": "Main documentation for Qwen3-TTS series - powerful speech generation capabilities with voice clone, voice design, and natural language control. Covers 10 languages with multilingual support.",
+      "category": "Introduction & Overview",
+      "category_priority": 1,
+      "sequence": 1,
+      "tags": ["introduction", "overview", "quickstart", "features", "models", "evaluation"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/README.md",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:03.795540025-03:00"
+    },
+    {
+      "original_file_path": "finetuning-README.md",
+      "file_path": "002-finetuning-README.md",
+      "title": "Fine-Tuning Guide",
+      "summary": "Step-by-step guide for fine-tuning Qwen3-TTS-12Hz-1.7B/0.6B-Base models. Covers JSONL data preparation, audio code extraction, SFT training, and inference testing.",
+      "category": "Tutorial & How-To",
+      "category_priority": 3,
+      "sequence": 2,
+      "tags": ["fine-tuning", "training", "sft", "customization"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/finetuning/README.md",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:05.47902796-03:00"
+    },
+    {
+      "original_file_path": "pyproject.toml",
+      "file_path": "003-pyproject.toml",
+      "title": "Python Package Configuration",
+      "summary": "Python package configuration for qwen-tts (v0.1.1). Defines dependencies, scripts, and package metadata for the Qwen-TTS Python library.",
+      "category": "Configuration & Settings",
+      "category_priority": 5,
+      "sequence": 3,
+      "tags": ["python", "package", "dependencies", "configuration"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/pyproject.toml",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:05.479061183-03:00"
+    },
+    {
+      "original_file_path": ".github-ISSUE-TEMPLATE-config.yml",
+      "file_path": "004-.github-ISSUE-TEMPLATE-config.yml",
+      "title": "GitHub Issue Configuration",
+      "summary": "GitHub issue template configuration providing links to feature requests, Q&A discussions, and general discussion categories.",
+      "category": "Meta & Resources",
+      "category_priority": 16,
+      "sequence": 4,
+      "tags": ["github", "issues", "templates", "community"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/.github/ISSUE_TEMPLATE/config.yml",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:03.79545805-03:00"
+    },
+    {
+      "original_file_path": ".github-ISSUE-TEMPLATE-bug-report.yml",
+      "file_path": "005-.github-ISSUE-TEMPLATE-bug-report.yml",
+      "title": "Bug Report Template",
+      "summary": "Structured bug report template for reporting issues with reproducible steps, logs, and environment information.",
+      "category": "Troubleshooting & Support",
+      "category_priority": 13,
+      "sequence": 5,
+      "tags": ["bug", "report", "issues", "troubleshooting"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/.github/ISSUE_TEMPLATE/bug_report.yml",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:03.795462659-03:00"
+    },
+    {
+      "original_file_path": ".github-workflows-translate.yaml",
+      "file_path": "006-.github-workflows-translate.yaml",
+      "title": "Translation Workflow",
+      "summary": "GitHub Actions workflow for automatic translation of issues, comments, and discussions using github-translate-action.",
+      "category": "Automation & Workflow",
+      "category_priority": 11,
+      "sequence": 6,
+      "tags": ["github", "workflow", "automation", "translation", "ci"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/.github/workflows/translate.yaml",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:03.795559532-03:00"
+    },
+    {
+      "original_file_path": ".github-workflows-inactive.yaml",
+      "file_path": "007-.github-workflows-inactive.yaml",
+      "title": "Inactive Thread Management",
+      "summary": "GitHub Actions workflow that automatically closes and locks inactive issues and PRs after 45 days stale, 30 days to close.",
+      "category": "Operations & Deployment",
+      "category_priority": 10,
+      "sequence": 7,
+      "tags": ["github", "workflow", "operations", "maintenance", "ci"],
+      "url": "https://github.com/QwenLM/Qwen3-TTS/blob/main/.github/workflows/inactive.yaml",
+      "source": "git",
+      "fetched_at": "2026-04-20T07:40:03.795507764-03:00"
+    }
+  ]
+}

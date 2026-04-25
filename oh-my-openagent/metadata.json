@@ -1,0 +1,231 @@
+{
+  "generated_at": "2026-04-01T11:22:37.345258459-03:00",
+  "source_url": "https://github.com/code-yeongyu/oh-my-openagent",
+  "strategy": "git",
+  "total_documents": 12,
+  "documents": [
+    {
+      "file_path": "001-docs-manifesto.md",
+      "original_file_path": "docs-manifesto.md",
+      "title": "Manifesto",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/manifesto.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:10.50601344-03:00",
+      "summary": "A document titled Manifesto that appears to be a guide or statement of principles",
+      "tags": [
+        "manifesto",
+        "guide",
+        "principles"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "002-docs-guide-overview.md",
+      "original_file_path": "docs-guide-overview.md",
+      "title": "Overview",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/guide/overview.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:10.50601831-03:00",
+      "summary": "This document explains Oh My OpenAgent, a multi-model AI agent orchestration system that coordinates different specialized agents to work together on code development tasks, automatically routing work to different models based on task type and agent capabilities.",
+      "tags": [
+        "ai-agents",
+        "code-orchestration",
+        "multi-model",
+        "agent-architecture",
+        "development-workflow",
+        "model-routing",
+        "ai-configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-docs-guide-installation.md",
+      "original_file_path": "docs-guide-installation.md",
+      "title": "Installation",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/guide/installation.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:10.506023279-03:00",
+      "summary": "This document provides installation instructions for the oh-my-opencode tool, including setup steps for both human users and LLM agents, with detailed configuration options for various AI model subscriptions.",
+      "tags": [
+        "installation",
+        "llm-agents",
+        "ai-subscriptions",
+        "opencode",
+        "cli-setup",
+        "configuration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-docs-guide-orchestration.md",
+      "original_file_path": "docs-guide-orchestration.md",
+      "title": "Orchestration",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/guide/orchestration.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:10.506011186-03:00",
+      "summary": "A guide about orchestration, which involves coordinating and managing multiple services, processes, or systems to work together efficiently",
+      "tags": [
+        "orchestration",
+        "system management",
+        "process coordination"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "005-docs-guide-agent-model-matching.md",
+      "original_file_path": "docs-guide-agent-model-matching.md",
+      "title": "Agent model matching",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/guide/agent-model-matching.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:10.50601334-03:00",
+      "summary": "This document explains how to match AI agents with appropriate models based on their cognitive styles and functional requirements, detailing why different agents work better with specific model types.",
+      "tags": [
+        "agent-model-matching",
+        "ai-cognition",
+        "model-selection",
+        "agent-configuration",
+        "cognitive-styles",
+        "model-compatibility"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "006-docs-reference-features.md",
+      "original_file_path": "docs-reference-features.md",
+      "title": "Features",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/reference/features.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:19.247559235-03:00",
+      "summary": "This document provides a comprehensive reference guide for Oh-My-OpenAgent's specialized AI agents, detailing their capabilities, models, purposes, and tool restrictions.",
+      "tags": [
+        "ai-agents",
+        "agent-configuration",
+        "model-specifications",
+        "tool-restrictions",
+        "agent-orchestration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "007-docs-reference-configuration.md",
+      "original_file_path": "docs-reference-configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/reference/configuration.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:18.875946469-03:00",
+      "summary": "Complete configuration reference for Oh My OpenCode plugin settings, including file locations, agent configuration, categories, and advanced features with schema support.",
+      "tags": [
+        "configuration-reference",
+        "oh-my-opencode",
+        "plugin-setup",
+        "agent-configuration",
+        "model-selection",
+        "file-locations",
+        "schema-support",
+        "runtime-fallback"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "008-docs-reference-cli.md",
+      "original_file_path": "docs-reference-cli.md",
+      "title": "Cli",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/reference/cli.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:15.142617995-03:00",
+      "summary": "Brief description of command line interface documentation",
+      "tags": [
+        "cli",
+        "command line",
+        "interface"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "009-docs-model-capabilities-maintenance.md",
+      "original_file_path": "docs-model-capabilities-maintenance.md",
+      "title": "Model capabilities maintenance",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/model-capabilities-maintenance.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:14.924303375-03:00",
+      "summary": "This document explains the layered system for model capability resolution and internal policies for maintaining model aliases and canonical IDs in the project.",
+      "tags": [
+        "model-capabilities",
+        "alias-management",
+        "canonical-ids",
+        "runtime-metadata",
+        "model-resolution"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "010-docs-superpowers-specs-2026-03-17-model-settings-compatibility-design.md",
+      "original_file_path": "docs-superpowers-specs-2026-03-17-model-settings-compatibility-design.md",
+      "title": "2026 03 17 model settings compatibility design",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/superpowers/specs/2026-03-17-model-settings-compatibility-design.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:22.012439439-03:00",
+      "summary": "This document describes a design for a central resolver that ensures model settings compatibility by taking a selected model and desired settings, then returning the best compatible configuration for that model while maintaining consistent behavior across different code paths.",
+      "tags": [
+        "model-settings",
+        "compatibility-resolver",
+        "api-design",
+        "configuration",
+        "model-variant",
+        "reasoning-effort",
+        "fallback-logic"
+      ],
+      "category": "design"
+    },
+    {
+      "file_path": "011-docs-superpowers-plans-2026-03-17-model-settings-compatibility-resolver.md",
+      "original_file_path": "docs-superpowers-plans-2026-03-17-model-settings-compatibility-resolver.md",
+      "title": "2026 03 17 model settings compatibility resolver",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/superpowers/plans/2026-03-17-model-settings-compatibility-resolver.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:21.39347772-03:00",
+      "summary": "Implementation plan for creating a centralized model settings compatibility resolver that handles variant and reasoning effort settings for different AI models, with integration into existing chat parameters and testing workflows.",
+      "tags": [
+        "model-settings",
+        "compatibility-resolver",
+        "typescript",
+        "testing",
+        "ai-models",
+        "configuration-management"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "012-docs-troubleshooting-ollama.md",
+      "original_file_path": "docs-troubleshooting-ollama.md",
+      "title": "Ollama",
+      "url": "https://github.com/code-yeongyu/oh-my-openagent/blob/dev/docs/troubleshooting/ollama.md",
+      "source": "git",
+      "fetched_at": "2026-04-01T11:22:23.21427126-03:00",
+      "summary": "This document provides troubleshooting guidance for handling Ollama streaming API responses that cause JSON parse errors when used with oh-my-openagent agents, specifically addressing NDJSON format incompatibility issues.",
+      "tags": [
+        "ollama",
+        "troubleshooting",
+        "json-parse-error",
+        "streaming",
+        "ndjson",
+        "api-integration",
+        "tool-calls"
+      ],
+      "category": "guide"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-07T12:00:00Z",
+    "total_files": 12,
+    "categories": [
+      "Introduction & Overview",
+      "Getting Started",
+      "Guides & Concepts",
+      "Configuration & Reference",
+      "Design & Planning",
+      "Troubleshooting"
+    ]
+  }
+}

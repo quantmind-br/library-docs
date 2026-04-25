@@ -1,0 +1,48 @@
+---
+title: Introduction
+url: https://lmstudio.ai/docs/typescript/plugins/custom-configuration
+source: sitemap
+fetched_at: 2026-04-07T21:32:32.718925162-03:00
+rendered_js: false
+word_count: 217
+summary: This document explains that LM Studio plugins can support custom configurations by defining a schema, allowing users to configure the plugin through a UI without code changes. It details the types of configurations available (per-chat vs. global) and the supported TypeScript field types.
+tags:
+    - plugin-development
+    - custom-configuration
+    - lmstudio-sdk
+    - typescript
+    - user-interface
+category: guide
+---
+
+LM Studio plugins support custom configurations. That is, you can define a configuration schema and LM Studio will present a UI to the user so they can configure your plugin without having to edit any code.
+
+There are two types of configurations:
+
+- **Per-chat configuration**: tied to a specific chat. Different chats can have different configurations. Most configurations that affects the behavior of the plugin should be of this type.
+- **Global configuration**: apply to *all* chats and are shared across the application. This is useful for global settings such as API keys.
+
+## Types of Configurations[](#types-of-configurations "Link to 'Types of Configurations'")
+
+You can define configurations in TypeScript using the `createConfigSchematics` function from the `@lmstudio/sdk` package. This function allows you to define fields with various types and options.
+
+Supported types include:
+
+- `string`: A text input field.
+- `numeric`: A number input field with optional validation and slider UI.
+- `boolean`: A checkbox or toggle input field.
+- `stringArray`: An array of string values with configurable constraints.
+- `select`: A dropdown selection field with predefined options.
+
+See the [Defining New Fields](https://lmstudio.ai/docs/typescript/plugins/custom-configuration/defining-new-fields) section for more details on how to define these fields.
+
+## Examples[](#examples "Link to 'Examples'")
+
+The following are some plugins that make use of custom configurations
+
+- [lmstudio/wikipedia](https://lmstudio.ai/lmstudio/wikipedia)
+  
+  Gives the LLM tools to search and read Wikipedia articles.
+- [lmstudio/openai-compat-endpoint](https://lmstudio.ai/lmstudio/openai-compat-endpoint)
+  
+  Use any OpenAI-compatible API in LM Studio.

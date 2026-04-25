@@ -1,0 +1,356 @@
+{
+  "generated_at": "2026-04-08T11:34:17.509665273-03:00",
+  "source_url": "https://cis-docs.bmad-method.org/sitemap-0.xml",
+  "strategy": "sitemap",
+  "total_documents": 18,
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-08T14:00:00Z",
+    "total_files": 18,
+    "categories": [
+      "Introduction & Overview",
+      "Concepts & Fundamentals",
+      "Tutorials & Getting Started",
+      "How-To Guides",
+      "Reference"
+    ]
+  },
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Welcome",
+      "url": "https://cis-docs.bmad-method.org/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:48.025129074-03:00",
+      "description": "Creative Intelligence Suite - Innovation, brainstorming, and problem-solving",
+      "summary": "This document introduces the Creative Intelligence Suite (CIS), which is a set of tools designed to support innovation, brainstorming, and creative problem-solving by extending the BMad Method.",
+      "tags": [
+        "creative-intelligence-suite",
+        "innovation",
+        "design-thinking",
+        "problem-solving",
+        "agent-workflows"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "002-explanation.md",
+      "original_file_path": "explanation.md",
+      "title": "Explanation",
+      "url": "https://cis-docs.bmad-method.org/explanation/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:48.021949904-03:00",
+      "description": "Learn how CIS works",
+      "summary": "This document provides an overview of core concepts within the Creative Intelligence Suite, covering structured creativity, brainstorming techniques, design thinking phases, and various innovation frameworks.",
+      "tags": [
+        "creative-intelligence",
+        "innovation-frameworks",
+        "design-thinking",
+        "problem-solving",
+        "brainstorming"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-explanation-creative-intelligence.md",
+      "original_file_path": "explanation-creative-intelligence.md",
+      "title": "Understanding Creative Intelligence",
+      "url": "https://cis-docs.bmad-method.org/explanation/creative-intelligence/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:48.039469757-03:00",
+      "description": "How CIS applies structured creativity to innovation and problem-solving",
+      "summary": "This document explains Creative Intelligence as a learnable, structured skill that combines multiple thinking processes. It details the CIS approach, which utilizes specialized agents, curated techniques, and guided workflows following a diverge-converge structure to help users generate breakthrough ideas for complex problems.",
+      "tags": [
+        "creative-intelligence",
+        "structured-thinking",
+        "design-process",
+        "idea-generation",
+        "systematic-approach",
+        "workflow"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-explanation-brainstorming-techniques.md",
+      "original_file_path": "explanation-brainstorming-techniques.md",
+      "title": "Brainstorming Techniques",
+      "url": "https://cis-docs.bmad-method.org/explanation/brainstorming-techniques/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:48.030787067-03:00",
+      "description": "Overview of the 36 brainstorming techniques in CIS",
+      "summary": "This document outlines a comprehensive workflow featuring 36 brainstorming techniques organized into seven categories—Collaborative, Structured, Creative, Theatrical, Introspective, and others. It guides users on choosing techniques based on their goal, context, and energy level for optimal ideation.",
+      "tags": [
+        "brainstorming-techniques",
+        "ideation-workflow",
+        "creativity-methods",
+        "problem-solving",
+        "group-facilitation",
+        "thinking-models"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "005-explanation-design-thinking-phases.md",
+      "original_file_path": "explanation-design-thinking-phases.md",
+      "title": "Design Thinking Phases",
+      "url": "https://cis-docs.bmad-method.org/explanation/design-thinking-phases/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:48.029933768-03:00",
+      "description": "The five phases of human-centered design",
+      "summary": "This document outlines the iterative, human-centered process of design thinking through its five core phases: empathize, define, ideate, prototype, and test. It details activities, goals, and techniques for each phase to guide creative problem-solving.",
+      "tags": [
+        "design-thinking",
+        "problem-solving",
+        "user-experience",
+        "iterative-process",
+        "empathy",
+        "prototyping"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "006-explanation-innovation-frameworks.md",
+      "original_file_path": "explanation-innovation-frameworks.md",
+      "title": "Innovation Frameworks",
+      "url": "https://cis-docs.bmad-method.org/explanation/innovation-frameworks/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:50.340276222-03:00",
+      "description": "Strategic frameworks for finding and capturing new value",
+      "summary": "This document outlines several proven business and innovation frameworks, including Jobs-to-be-Done, Blue Ocean Strategy, Disruptive Innovation, and the Business Model Canvas. It teaches how to apply these structured approaches to identify new value, avoid competition in saturated markets, and design sustainable competitive advantages.",
+      "tags": [
+        "innovation-frameworks",
+        "business-strategy",
+        "blue-ocean",
+        "jobs-to-be-done",
+        "market-analysis",
+        "value-proposition"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-tutorials.md",
+      "original_file_path": "tutorials.md",
+      "title": "Tutorials",
+      "url": "https://cis-docs.bmad-method.org/tutorials/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:08.094279913-03:00",
+      "description": "Step-by-step tutorials for Creative Intelligence Suite",
+      "summary": "This page serves as a hub for learning about the Creative Intelligence Suite, providing links to step-by-step guides for initial setup and information on advanced workflow capabilities.",
+      "tags": [
+        "tutorials",
+        "getting-started",
+        "creative-intelligence-suite",
+        "workflows",
+        "innovation-strategy"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "008-tutorials-getting-started.md",
+      "original_file_path": "tutorials-getting-started.md",
+      "title": "Getting Started with CIS",
+      "url": "https://cis-docs.bmad-method.org/tutorials/getting-started/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:08.78476542-03:00",
+      "description": "Learn to brainstorm, innovate, and solve problems with Creative Intelligence Suite",
+      "summary": "This document serves as a comprehensive guide detailing how to use the Creative Intelligence Suite (CIS) by walking through five specialized AI agents—including brainstorming, design thinking, innovation strategy, problem-solving, and storytelling—to facilitate structured creative workflows.",
+      "tags": [
+        "ai-workflow",
+        "creative-intelligence",
+        "design-thinking",
+        "problem-solving",
+        "innovation-strategy",
+        "guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "009-how-to.md",
+      "original_file_path": "how-to.md",
+      "title": "How-To Guides",
+      "url": "https://cis-docs.bmad-method.org/how-to/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:50.350420144-03:00",
+      "description": "Practical guides for CIS tasks",
+      "summary": "This document serves as a collection of step-by-step guides detailing how to utilize various powerful techniques within the Creative Intelligence Suite.",
+      "tags": [
+        "creative-intelligence",
+        "workflow-guides",
+        "problem-solving",
+        "innovation-strategy",
+        "design-thinking"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "010-how-to-brainstorm.md",
+      "original_file_path": "how-to-brainstorm.md",
+      "title": "Run a Brainstorming Session",
+      "url": "https://cis-docs.bmad-method.org/how-to/brainstorm/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:51.547826857-03:00",
+      "description": "Use the brainstorming workflow to generate diverse ideas with Carson",
+      "summary": "This document outlines a structured workflow for generating diverse and creative ideas using 36 proven brainstorming techniques across seven distinct categories. It guides the user through defining a topic, selecting an appropriate approach (user-selected, AI-recommended, random, or progressive), exploring techniques, and finally capturing and refining the generated concepts.",
+      "tags": [
+        "brainstorming-workflow",
+        "ideation-techniques",
+        "creative-thinking",
+        "problem-solving",
+        "idea-generation",
+        "process-guide"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "011-how-to-design-thinking.md",
+      "original_file_path": "how-to-design-thinking.md",
+      "title": "Apply Design Thinking",
+      "url": "https://cis-docs.bmad-method.org/how-to/design-thinking/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:51.785856299-03:00",
+      "description": "Use the design thinking workflow to create human-centered solutions",
+      "summary": "This document outlines the design thinking workflow, guiding users through its five core phases—Empathize, Define, Ideate, Prototype, and Test—to create user-centered solutions for defined problems.",
+      "tags": [
+        "design-thinking",
+        "user-experience",
+        "problem-solving",
+        "prototyping",
+        "user-research",
+        "empathy"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "012-how-to-innovation-strategy.md",
+      "original_file_path": "how-to-innovation-strategy.md",
+      "title": "Develop an Innovation Strategy",
+      "url": "https://cis-docs.bmad-method.org/how-to/innovation-strategy/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:53.140726701-03:00",
+      "description": "Use the innovation strategy workflow to find disruption opportunities",
+      "summary": "This document outlines a systematic workflow, using various strategic frameworks like Blue Ocean Strategy and JTBD, designed to help users identify significant business disruption opportunities rather than mere feature improvements.",
+      "tags": [
+        "innovation-strategy",
+        "business-modeling",
+        "market-analysis",
+        "strategic-frameworks",
+        "disruption-opportunities",
+        "competitive-advantage"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "013-how-to-problem-solving.md",
+      "original_file_path": "how-to-problem-solving.md",
+      "title": "Solve Complex Problems",
+      "url": "https://cis-docs.bmad-method.org/how-to/problem-solving/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:53.336514386-03:00",
+      "description": "Use the problem-solving workflow to diagnose root causes and find solutions",
+      "summary": "This document outlines a structured, five-step workflow using an assistant persona (Dr. Quinn) to systematically diagnose complex problems, identify root causes through analytical frameworks, and generate actionable, evaluated solutions.",
+      "tags": [
+        "problem-solving",
+        "root-cause-analysis",
+        "diagnostic-workflow",
+        "analytical-frameworks",
+        "troubleshooting"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "014-how-to-storytelling.md",
+      "original_file_path": "how-to-storytelling.md",
+      "title": "Craft a Compelling Story",
+      "url": "https://cis-docs.bmad-method.org/how-to/storytelling/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:53.698440476-03:00",
+      "description": "Use the storytelling workflow to create narratives that persuade and inspire",
+      "summary": "This document outlines a structured storytelling workflow designed to help users craft compelling narratives for various purposes, from pitch decks to marketing content. It guides the user through defining purpose, understanding their audience, selecting an appropriate narrative framework, crafting story elements, and adapting the final output for a specific platform.",
+      "tags": [
+        "storytelling",
+        "narrative-crafting",
+        "communication-strategy",
+        "audience-analysis",
+        "content-development",
+        "pitch-decks"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "015-reference.md",
+      "original_file_path": "reference.md",
+      "title": "Reference",
+      "url": "https://cis-docs.bmad-method.org/reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:55.546376044-03:00",
+      "description": "Technical reference for CIS",
+      "summary": "This document serves as a technical reference guide detailing the configuration options and components of the Creative Intelligence Suite.",
+      "tags": [
+        "reference",
+        "cis-suite",
+        "agents",
+        "workflows",
+        "configuration"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "016-reference-agents.md",
+      "original_file_path": "reference-agents.md",
+      "title": "CIS Agents",
+      "url": "https://cis-docs.bmad-method.org/reference/agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:56.714190295-03:00",
+      "description": "Reference for all Creative Intelligence Suite agents",
+      "summary": "This document serves as a comprehensive catalog detailing various AI agents, such as brainstorming coaches and strategists, outlining their specific purposes, primary commands, key capabilities, and unique communication styles.",
+      "tags": [
+        "cis-agents",
+        "ai-tools",
+        "creative-workflows",
+        "agent-catalog",
+        "problem-solving",
+        "design-thinking"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "017-reference-configuration.md",
+      "original_file_path": "reference-configuration.md",
+      "title": "CIS Configuration",
+      "url": "https://cis-docs.bmad-method.org/reference/configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:59.251601578-03:00",
+      "description": "Configure CIS workflows, output locations, and agent behavior",
+      "summary": "This document provides a comprehensive guide on configuring the Creative Intelligence Suite (CIS), detailing how to set up configuration files, understand various options like output folders and agent names, and manage environment variable overrides.",
+      "tags": [
+        "configuration",
+        "cis-setup",
+        "workflow-management",
+        "agent-preferences",
+        "environment-variables",
+        "output-settings"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "018-reference-workflows.md",
+      "original_file_path": "reference-workflows.md",
+      "title": "CIS Workflows",
+      "url": "https://cis-docs.bmad-method.org/reference/workflows/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:00.861730667-03:00",
+      "description": "Reference for all Creative Intelligence Suite workflows",
+      "summary": "This document serves as a technical reference guide detailing five structured creative workflows—brainstorming, design thinking, innovation strategy, problem solving, and storytelling. It outlines the purpose, required inputs, invocation methods (CLI commands), and expected contents for each process.",
+      "tags": [
+        "workflow-reference",
+        "creative-process",
+        "ai-workflows",
+        "technical-guide",
+        "methodology",
+        "structured-output"
+      ],
+      "category": "reference"
+    }
+  ]
+}

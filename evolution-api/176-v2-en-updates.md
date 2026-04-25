@@ -1,0 +1,114 @@
+---
+title: Update - Evolution API Documentation
+url: https://doc.evolution-api.com/v2/en/updates
+source: sitemap
+fetched_at: 2026-04-12T18:46:05.704352509-03:00
+rendered_js: false
+word_count: 424
+summary: 'This guide provides detailed, multi-platform instructions on how to update an installed Evolution API instance using three different methods: Docker Compose CLI, Portainer, and NPM.'
+tags:
+    - api-update
+    - docker-compose
+    - portainer
+    - npm
+    - deployment-guide
+    - technical-steps
+category: guide
+---
+
+Keeping your Evolution API instance updated is crucial for security, performance, and access to new features. The update method depends on how you initially installed the API. This guide covers the steps to update your Evolution API using Docker Compose and NPM.
+
+## Updating with Docker
+
+If you initially set up your Evolution API using Docker, follow these steps to update:
+
+### Updating with Docker CLI
+
+If your Evolution API was initially installed using Docker Compose via the command-line interface (CLI), and not through Portainer or any other container management tool, follow these steps to update it:
+
+1. **Navigate to the Docker Compose Directory**: Open a terminal and go to the directory where your Docker Compose file (`docker-compose.yml`) is located.
+2. **Pull the Latest Image**: Update the Evolution API image to the latest version by running the following command:
+
+```
+docker compose pull atendai/evolution-api:v2.1.1
+```
+
+3. **Stop and Restart the Containers**: After pulling the latest image, stop the current containers and restart them. This can be done using the following command:
+
+```
+docker compose down && docker compose up -d
+```
+
+## Updating with Portainer
+
+If you are using Portainer for container management, follow these steps to update your Evolution API:
+
+1. **Access the Portainer Dashboard**: Open the Portainer dashboard in a web browser.
+2. **Navigate to Your Containers**: Go to the ‘Stacks’ section where your Evolution API container is listed.
+3. **Update the Compose**:
+   
+   - Locate the `image` field in your Docker Compose configuration.
+
+```
+# ... (other services and configurations)
+  evolution_api:
+    # Update the Evolution API image version here
+    # Use 'atendai/evolution-api:latest' for the latest version
+    # Or specify a specific version like 'atendai/evolutionapi:v2.1.1'
+    image: atendai/evolution-api:v2.x.x
+    networks:
+      - your_network
+```
+
+- Update the value to `atendai/evolution-api:v2.1.1` for the latest version, or use `atendai/evolutionapi:v2.x.x` for a specific version.
+- After making the changes, click the ‘Deploy’ button at the end of the compose editing window.
+
+<!--THE END-->
+
+4. **Verify the Update**: After recreating the container, verify that the Evolution API is running the latest version. This can typically be checked through the API version endpoint or the logs.
+
+By following these steps, you can ensure that your Evolution API is always up to date using Portainer.
+
+## Updating with NPM
+
+Updating your Evolution API installation via NPM involves several steps to ensure a smooth transition to the new version. Here’s a step-by-step guide:
+
+1. **Clean and Stop**: Clear all PM2 logs, which is useful for troubleshooting after the update, and temporarily stop the Evolution API to apply updates safely.
+
+```
+# Clear all PM2 logs
+pm2 flush
+
+# Stop the current Evolution API process
+pm2 stop ApiEvolution
+```
+
+2. **Reset the Local Repository and Pull the Latest Updates**: Ensure that your local code is in sync with the latest commit and pull the latest updates from the repository. Optionally, switch to a specific version if you are not using the latest one. This is recommended for production environments.
+
+```
+# Reset your local repository to the latest commit
+git reset --hard HEAD
+
+# Pull the latest updates from the repository
+git pull
+
+# For a specific version, use 'git checkout main' for the latest,
+# or 'git checkout 1.x.x' for a specific version. Example:
+git checkout 1.x.x
+```
+
+3. **Clean Installation**: Remove the existing `node_modules` to avoid potential conflicts with new dependencies and install the necessary Node.js dependencies for the updated version.
+
+```
+# Remove the current node_modules directory to ensure a clean installation
+rm -rf node_modules
+
+# Install dependencies with NPM
+npm i
+
+# Restart the Evolution API with the updated version
+pm2 start ApiEvolution
+
+# Optionally, view the PM2 logs for the Evolution API
+pm2 log ApiEvolution
+```

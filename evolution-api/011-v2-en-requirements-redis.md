@@ -1,0 +1,83 @@
+---
+title: Redis - Evolution API Documentation
+url: https://doc.evolution-api.com/v2/en/requirements/redis
+source: sitemap
+fetched_at: 2026-04-12T18:45:56.624834245-03:00
+rendered_js: false
+word_count: 221
+summary: This document provides comprehensive instructions on setting up and configuring Redis as a caching system for Evolution API v2, detailing methods using Docker Compose, defining necessary environment variables, and outlining local installation steps.
+tags:
+    - redis-caching
+    - evolution-api-v2
+    - docker-setup
+    - environment-variables
+    - performance-optimization
+category: guide
+---
+
+Redis is used by Evolution API v2 as a caching system to optimize the application’s performance and speed. It can be configured to store temporary information and improve operational efficiency.
+
+## Installation and Configuration
+
+### Using Docker
+
+The easiest and fastest way to set up Redis for Evolution API v2 is through Docker. Below are the instructions to configure Redis using Docker Compose.
+
+#### Redis
+
+To set up Redis via Docker, follow these steps:
+
+1. Download the `docker-compose.yaml` file for Redis available [here](https://github.com/EvolutionAPI/evolution-api/blob/v2.0.0/Docker/redis/docker-compose.yaml).
+2. Navigate to the directory where the file was downloaded and run the command:
+
+<!--THE END-->
+
+3. The Redis instance will be available at `localhost` on port `6379`.
+
+### Environment Variables Configuration
+
+After setting up Redis, define the following environment variables in your `.env` file:
+
+```
+# Enable Redis cache
+CACHE_REDIS_ENABLED=true
+
+# Redis connection URI
+CACHE_REDIS_URI=redis://localhost:6379/6
+
+# Prefix to differentiate data from different installations using the same Redis
+CACHE_REDIS_PREFIX_KEY=evolution
+
+# Enable to save connection information in Redis instead of the database
+CACHE_REDIS_SAVE_INSTANCES=false
+
+# Enable local cache
+CACHE_LOCAL_ENABLED=false
+```
+
+### Local Installation
+
+If you prefer to set up Redis locally without using Docker, follow the instructions below:
+
+#### Redis
+
+1. Install Redis on your machine. On Ubuntu-based systems, for example, you can use:
+
+```
+sudo apt-get update
+sudo apt-get install redis-server
+```
+
+2. Start the Redis service:
+
+```
+sudo service redis-server start
+```
+
+3. Verify that Redis is running correctly with the command:
+
+If everything is working correctly, you will see the response `PONG`.
+
+### Cache Configuration in Evolution API v2
+
+After installing and configuring Redis, the next step is to configure caching in Evolution API v2 using environment variables. This will enable the API to use Redis to cache important data and improve the overall performance of the application.

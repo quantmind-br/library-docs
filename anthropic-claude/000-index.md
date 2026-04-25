@@ -1,0 +1,1093 @@
+# Claude Platform Documentation Index
+
+## Metadata Summary
+
+- **Total Documents**: 1137
+- **Source**: platform.claude.com
+- **Generated**: Auto-organized with sequential numbering
+
+## Document Index
+
+### Tutorial
+
+- **014** [Get started with Agent Skills in the API](014-docs-en-agents-and-tools-agent-skills-quickstart.md) — claude-api, agent-skills, document-generation
+- **018** [Get started with Claude](018-docs-en-get-started.md) — claude-api, getting-started, anthropic
+- **1123** [Streaming Messages](1123-docs-en-build-with-claude-streaming.md) — streaming, sdks, server-sent-events
+
+### Guide
+
+- **004** [Admin API overview](004-docs-en-build-with-claude-administration-api.md) — admin-api, organization-management, user-onboarding
+- **005** [Guides to common use cases](005-docs-en-about-claude-use-case-guides-overview.md) — claude-use-cases, production-guides, ai-implementation
+- **006** [Models overview](006-docs-en-about-claude-models-overview.md) — claude-models, llm-comparison, anthropic
+- **007** [Prompt engineering overview](007-docs-en-build-with-claude-prompt-engineering-overview.md) — prompt-engineering, claude-llm, best-practices
+- **008** [Tool use with Claude](008-docs-en-agents-and-tools-tool-use-overview.md) — claude-api, tool-use, agentic-loop
+- **013** [Get started with Claude Managed Agents](013-docs-en-managed-agents-quickstart.md) — anthropic-cli, autonomous-agents, sdks
+- **016** [Cloud environment setup](016-docs-en-managed-agents-environments.md) — cloud-environments, container-configuration, managed-agents
+- **017** [Define your agent](017-docs-en-managed-agents-agent-setup.md) — managed-agents, api-reference, claude-ai
+- **019** [Embeddings](019-docs-en-build-with-claude-embeddings.md) — embeddings, voyage-ai, semantic-search
+- **022** [Adaptive thinking](022-docs-en-build-with-claude-adaptive-thinking.md) — claude-api, adaptive-thinking, extended-thinking
+- **023** [CLI](023-docs-en-api-sdks-cli.md) — claude-api, cli-tool, terminal-automation
+- **024** [Claude in Amazon Bedrock (research preview)](024-docs-en-build-with-claude-claude-in-amazon-bedrock-research-preview.md) — amazon-bedrock, claude-ai, aws-authentication
+- **025** [Client SDKs](025-docs-en-api-client-sdks.md) — anthropic-api, client-sdks, developer-guide
+- **026** [Code execution tool](026-docs-en-agents-and-tools-tool-use-code-execution-tool.md) — claude-api, code-execution, sandboxed-environment
+- **027** [Content moderation](027-docs-en-about-claude-use-case-guides-content-moderation.md) — content-moderation, claude-ai, llm-implementation
+- **028** [Customer support agent](028-docs-en-about-claude-use-case-guides-customer-support-chat.md) — customer-support, claude-ai, workflow-design
+- **029** [Files API](029-docs-en-build-with-claude-files.md) — anthropic-api, file-management, beta-feature
+- **030** [Legal summarization](030-docs-en-about-claude-use-case-guides-legal-summarization.md) — legal-tech, llm-implementation, document-summarization
+- **031** [Migration](031-docs-en-managed-agents-migration.md) — migration-guide, claude-managed-agents, api-transition
+- **032** [Migration guide](032-docs-en-about-claude-models-migration-guide.md) — claude-opus, model-migration, api-reference
+- **033** [Model deprecations](033-docs-en-about-claude-model-deprecations.md) — model-lifecycle, api-deprecation, migration-guide
+- **034** [OpenAI SDK compatibility](034-docs-en-api-openai-sdk.md) — anthropic-claude, openai-sdk, api-compatibility
+- **035** [Prompt caching](035-docs-en-build-with-claude-prompt-caching.md) — prompt-caching, api-optimization, latency-reduction
+- **036** [Remote MCP servers](036-docs-en-agents-and-tools-remote-mcp-servers.md) — mcp-servers, remote-access, anthropic-api
+- **037** [Streaming refusals](037-docs-en-test-and-evaluate-strengthen-guardrails-handle-streaming-refusals.md) — claude-api, streaming-responses, error-handling
+- **038** [Ticket routing](038-docs-en-about-claude-use-case-guides-ticket-routing.md) — customer-support, llm-implementation, ticket-routing
+- **039** [Using Agent Skills with the API](039-docs-en-build-with-claude-skills-guide.md) — agent-skills, claude-api, code-execution
+- **040** [Using the Messages API](040-docs-en-build-with-claude-working-with-messages.md) — anthropic, messages-api, claude
+- **041** [Workspaces](041-docs-en-build-with-claude-workspaces.md) — api-management, access-control, resource-scoping
+- **081** [Accessing GitHub](081-docs-en-managed-agents-github.md) — github, mcp-server, agent-configuration
+- **082** [Java SDK](082-docs-en-api-sdks-java.md) — java-sdk, anthropic-api, build-tools
+- **083** [PHP SDK](083-docs-en-api-sdks-php.md) — php, anthropic-api, sdk-documentation
+- **084** [Permission policies](084-docs-en-managed-agents-permission-policies.md) — permission-policies, mcp-servers, agent-toolset
+- **085** [Ruby SDK](085-docs-en-api-sdks-ruby.md) — ruby, sdk-reference, anthropic-api
+- **086** [Tools](086-docs-en-managed-agents-tools.md) — claude-agents, tool-use, api-configuration
+- **391** [Beta headers](391-docs-en-api-beta-headers.md) — anthropic-api, beta-features, api-reference
+- **392** [Compaction](392-docs-en-build-with-claude-compaction.md) — context-management, ai-agents, api-reference
+- **393** [Fast mode (beta: research preview)](393-docs-en-build-with-claude-fast-mode.md) — claude-opus, api-usage, inference-speed
+- **394** [MCP connector](394-docs-en-agents-and-tools-mcp-connector.md) — mcp, api-integration, claude-api
+- **395** [Multiagent sessions](395-docs-en-managed-agents-multi-agent.md) — multi-agent-orchestration, agent-delegation, sdks
+- **396** [Task budgets](396-docs-en-build-with-claude-task-budgets.md) — claude, agentic-workflows, token-management
+- **493** [MCP connector](493-docs-en-managed-agents-mcp-connector.md) — mcp, claude-managed-agents, api-integration
+- **513** [Authenticate with vaults](513-docs-en-managed-agents-vaults.md) — authentication, vaults, mcp-server
+- **514** [Skill authoring best practices](514-docs-en-agents-and-tools-agent-skills-best-practices.md) — skill-authoring, claude-ai, prompt-engineering
+- **515** [Start a session](515-docs-en-managed-agents-sessions.md) — managed-agents, api-reference, session-management
+- **524** [API and data retention](524-docs-en-build-with-claude-api-and-data-retention.md) — data-retention, hipaa-compliance, zero-data-retention
+- **525** [Computer use tool](525-docs-en-agents-and-tools-tool-use-computer-use-tool.md) — claude-ai, computer-use, automation-tools
+- **526** [Mitigate jailbreaks and prompt injections](526-docs-en-test-and-evaluate-strengthen-guardrails-mitigate-jailbreaks.md) — prompt-engineering, ai-safety, jailbreak-mitigation
+- **527** [Reduce prompt leak](527-docs-en-test-and-evaluate-strengthen-guardrails-reduce-prompt-leak.md) — prompt-engineering, llm-security, data-privacy
+- **528** [Skills for enterprise](528-docs-en-agents-and-tools-agent-skills-enterprise.md) — enterprise-governance, security-review, agent-skills
+- **821** [Adding files](821-docs-en-managed-agents-files.md) — file-upload, agent-sessions, resource-mounting
+- **822** [Advisor tool](822-docs-en-agents-and-tools-tool-use-advisor-tool.md) — anthropic, agentic-workflows, model-pairing
+- **823** [Batch processing](823-docs-en-build-with-claude-batch-processing.md) — anthropic-api, batch-processing, asynchronous-requests
+- **824** [Building with extended thinking](824-docs-en-build-with-claude-extended-thinking.md) — claude-api, extended-thinking, adaptive-thinking
+- **825** [C# SDK](825-docs-en-api-sdks-csharp.md) — csharp, dotnet, anthropic-sdk
+- **826** [Citations](826-docs-en-build-with-claude-citations.md) — anthropic-api, citations, document-processing
+- **827** [Claude in Microsoft Foundry](827-docs-en-build-with-claude-claude-in-microsoft-foundry.md) — claude, microsoft-foundry, azure
+- **828** [Claude on Vertex AI](828-docs-en-build-with-claude-claude-on-vertex-ai.md) — anthropic-claude, vertex-ai, google-cloud
+- **829** [Context editing](829-docs-en-build-with-claude-context-editing.md) — context-management, api-usage, token-optimization
+- **830** [Data residency](830-docs-en-build-with-claude-data-residency.md) — data-residency, api-parameters, infrastructure-management
+- **831** [Define outcomes](831-docs-en-managed-agents-define-outcomes.md) — managed-agents, rubric-design, automated-evaluation
+- **832** [Effort](832-docs-en-build-with-claude-effort.md) — anthropic-api, token-optimization, model-parameters
+- **833** [Fine-grained tool streaming](833-docs-en-agents-and-tools-tool-use-fine-grained-tool-streaming.md) — llm-streaming, tool-use, api-optimization
+- **834** [Go SDK](834-docs-en-api-sdks-go.md) — go-lang, anthropic-sdk, api-integration
+- **835** [Handling stop reasons](835-docs-en-build-with-claude-handling-stop-reasons.md) — api-handling, claude-messages, stop-reasons
+- **836** [PDF support](836-docs-en-build-with-claude-pdf-support.md) — pdf-processing, claude-api, data-extraction
+- **837** [Programmatic tool calling](837-docs-en-agents-and-tools-tool-use-programmatic-tool-calling.md) — claude-api, tool-use, code-execution
+- **838** [Prototype in Console](838-docs-en-managed-agents-onboarding.md) — agent-prototyping, anthropic-console, workflow-automation
+- **839** [Python SDK](839-docs-en-api-sdks-python.md) — python-sdk, anthropic-api, asyncio
+- **840** [Search results](840-docs-en-build-with-claude-search-results.md) — rag-applications, source-attribution, claude-api
+- **841** [Service tiers](841-docs-en-api-service-tiers.md) — api-usage, priority-tier, token-management
+- **842** [Session tracing](842-docs-en-managed-agents-observability.md) — observability, debugging, agent-sessions
+- **843** [Skills](843-docs-en-managed-agents-skills.md) — agent-skills, api-reference, workflow-automation
+- **844** [Structured outputs](844-docs-en-build-with-claude-structured-outputs.md) — claude-api, json-schema, structured-outputs
+- **845** [Text editor tool](845-docs-en-agents-and-tools-tool-use-text-editor-tool.md) — claude-api, text-editor-tool, file-manipulation
+- **846** [Tool search tool](846-docs-en-agents-and-tools-tool-use-tool-search-tool.md) — claude-api, tool-use, context-management
+- **847** [TypeScript SDK](847-docs-en-api-sdks-typescript.md) — typescript, anthropic-sdk, node-js
+- **848** [Usage and Cost API](848-docs-en-build-with-claude-usage-cost-api.md) — api-usage, cost-analysis, admin-api
+- **849** [Using agent memory](849-docs-en-managed-agents-memory.md) — agent-memory, managed-agents, api-integration
+- **850** [Vision](850-docs-en-build-with-claude-vision.md) — vision-capabilities, multimodal-ai, api-integration
+- **851** [Web fetch tool](851-docs-en-agents-and-tools-tool-use-web-fetch-tool.md) — web-fetch, claude-api, dynamic-filtering
+- **852** [Web search tool](852-docs-en-agents-and-tools-tool-use-web-search-tool.md) — claude-api, web-search, dynamic-filtering
+- **853** [What's new in Claude Opus 4.7](853-docs-en-about-claude-models-whats-new-claude-4-7.md) — claude-opus, api-release, vision-capabilities
+- **1125** [Claude on Amazon Bedrock](1125-docs-en-build-with-claude-claude-on-amazon-bedrock.md) — amazon-bedrock, anthropic-claude, aws-cli
+- **1126** [Context windows](1126-docs-en-build-with-claude-context-windows.md) — context-window, token-management, llm-architecture
+- **1127** [Memory tool](1127-docs-en-agents-and-tools-tool-use-memory-tool.md) — claude-ai, memory-tool, context-management
+- **1128** [Bash tool](1128-docs-en-agents-and-tools-tool-use-bash-tool.md) — bash-tool, shell-execution, automation
+- **1129** [Console prompting tools](1129-docs-en-build-with-claude-prompt-engineering-prompting-tools.md) — claude-console, prompt-engineering, ai-workflows
+- **1130** [Reducing latency](1130-docs-en-test-and-evaluate-strengthen-guardrails-reduce-latency.md) — latency-reduction, prompt-engineering, llm-optimization
+- **1132** [Choosing the right model](1132-docs-en-about-claude-models-choosing-a-model.md) — claude-models, model-selection, llm-strategy
+- **1133** [Define success criteria and build evaluations](1133-docs-en-test-and-evaluate-develop-tests.md) — llm-evaluation, prompt-engineering, success-criteria
+- **1134** [Increase output consistency](1134-docs-en-test-and-evaluate-strengthen-guardrails-increase-consistency.md) — prompt-engineering, llm-optimization, structured-outputs
+- **1135** [Prompting best practices](1135-docs-en-build-with-claude-prompt-engineering-claude-prompting-best-practices.md) — prompt-engineering, claude-opus, llm-optimization
+- **1136** [Reduce hallucinations](1136-docs-en-test-and-evaluate-strengthen-guardrails-reduce-hallucinations.md) — prompt-engineering, hallucination-reduction, ai-reliability
+- **1137** [Using the Evaluation Tool](1137-docs-en-test-and-evaluate-eval-tool.md) — claude-console, prompt-engineering, testing-framework
+
+### Concept
+
+- **001** [Intro to Claude](001-docs-en-intro.md) — anthropic-claude, ai-models, developer-onboarding
+- **002** [Agent Skills](002-docs-en-agents-and-tools-agent-skills-overview.md) — agent-skills, claude-api, knowledge-management
+- **003** [Claude Managed Agents overview](003-docs-en-managed-agents-overview.md) — claude-managed-agents, autonomous-agents, cloud-infrastructure
+- **044** [How tool use works](044-docs-en-agents-and-tools-tool-use-how-tool-use-works.md) — agentic-loop, tool-use, llm-integration
+- **097** [API Reference - Claude API Docs](097-docs-en-api-terraform-beta-agents-delete.md) — cookie-policy, data-usage, user-experience
+- **814** [API Reference - Claude API Docs](814-docs-en-api-beta-agents-delete.md) — cookie-usage, privacy-policy, user-experience
+- **815** [API Reference - Claude API Docs](815-docs-en-api-cli-beta-agents-delete.md) — cookie-usage, privacy-policy, user-experience
+- **816** [API Reference - Claude API Docs](816-docs-en-api-csharp-beta-agents-delete.md) — cookie-policy, user-experience, data-usage
+- **817** [API Reference - Claude API Docs](817-docs-en-api-java-beta-agents-delete.md) — privacy-policy, cookie-usage, user-experience
+- **818** [API Reference - Claude API Docs](818-docs-en-api-php-beta-agents-delete.md) — cookie-usage, privacy-policy, user-experience
+- **819** [API Reference - Claude API Docs](819-docs-en-api-python-beta-agents-delete.md) — cookie-policy, user-experience, site-usage
+- **000** [Anthropic Developer Documentation - Full Content](llms-full.txt.md) — anthropic, claude-managed-agents, ai-agents
+
+### Api
+
+- **015** [Update Environment (Beta)](015-docs-en-api-beta-environments-update.md) — api-reference, environment-management, cloud-configuration
+- **020** [Batches](020-docs-en-api-ruby-beta-messages-batches.md) — api-reference, batch-processing, llm-parameters
+- **021** [Batches](021-docs-en-api-typescript-beta-messages-batches.md) — api-reference, batch-processing, message-generation
+- **046** [Agents](046-docs-en-api-cli-beta-agents.md) — api-reference, agent-creation, claude-models
+- **047** [Agents](047-docs-en-api-csharp-beta-agents.md) — api-reference, agent-creation, claude-models
+- **048** [Agents](048-docs-en-api-go-beta-agents.md) — api-reference, agents, claude-models
+- **049** [Archive Session (Beta)](049-docs-en-api-beta-sessions-archive.md) — api-reference, anthropic-beta, session-management
+- **050** [Archive Session (Beta) (Python)](050-docs-en-api-python-beta-sessions-archive.md) — api-reference, session-management, beta-features
+- **051** [Archive Session (Beta) (cli)](051-docs-en-api-cli-beta-sessions-archive.md) — api-reference, session-management, anthropic-beta
+- **052** [Create Agent (Beta)](052-docs-en-api-beta-agents-create.md) — api-reference, agent-creation, anthropic-beta
+- **053** [Create Agent (Beta) (Go)](053-docs-en-api-go-beta-agents-create.md) — api-reference, agent-creation, claude-models
+- **054** [Create Agent (Beta) (Python)](054-docs-en-api-python-beta-agents-create.md) — api-reference, claude-models, agent-configuration
+- **055** [Create Agent (Beta) (Ruby)](055-docs-en-api-ruby-beta-agents-create.md) — api-reference, agent-configuration, claude-models
+- **056** [Create Agent (Beta) (cli)](056-docs-en-api-cli-beta-agents-create.md) — api-reference, agent-creation, claude-models
+- **057** [Create Agent (Beta) (csharp)](057-docs-en-api-csharp-beta-agents-create.md) — api-reference, agent-configuration, claude-models
+- **058** [Create Environment (Beta)](058-docs-en-api-beta-environments-create.md) — api-reference, environment-management, cloud-configuration
+- **059** [Create Environment (Beta) (Java)](059-docs-en-api-java-beta-environments-create.md) — api-reference, environment-management, beta-features
+- **060** [Create Environment (Beta) (Python)](060-docs-en-api-python-beta-environments-create.md) — api-reference, beta-features, environment-provisioning
+- **061** [Create Environment (Beta) (Ruby)](061-docs-en-api-ruby-beta-environments-create.md) — api-reference, beta-features, environment-management
+- **062** [Create Environment (Beta) (TypeScript)](062-docs-en-api-typescript-beta-environments-create.md) — api-reference, environment-management, cloud-configuration
+- **063** [Create Environment (Beta) (cli)](063-docs-en-api-cli-beta-environments-create.md) — api-reference, environment-management, cloud-configuration
+- **064** [Create Environment (Beta) (csharp)](064-docs-en-api-csharp-beta-environments-create.md) — api-reference, environment-management, beta-features
+- **065** [Create Session (Beta)](065-docs-en-api-beta-sessions-create.md) — api-reference, anthropic-beta, agent-configuration
+- **066** [Create Session (Beta) (csharp)](066-docs-en-api-csharp-beta-sessions-create.md) — api-reference, beta-agents, session-management
+- **067** [Environments](067-docs-en-api-cli-beta-environments.md) — api-reference, environment-management, cli-commands
+- **068** [Environments](068-docs-en-api-csharp-beta-environments.md) — beta-api, environment-management, cloud-config
+- **069** [Environments](069-docs-en-api-python-beta-environments.md) — api-reference, beta-features, cloud-environments
+- **070** [Environments](070-docs-en-api-typescript-beta-environments.md) — api-reference, beta-features, environment-management
+- **071** [Get Agent (Beta) (Ruby)](071-docs-en-api-ruby-beta-agents-retrieve.md) — api-reference, agent-retrieval, anthropic-beta
+- **072** [Get Environment (Beta) (cli)](072-docs-en-api-cli-beta-environments-retrieve.md) — cli-reference, environment-management, api-documentation
+- **073** [Get Environment (Beta) (csharp)](073-docs-en-api-csharp-beta-environments-retrieve.md) — api-reference, environment-retrieval, beta-features
+- **074** [Get Session (Beta) (Java)](074-docs-en-api-java-beta-sessions-retrieve.md) — api-reference, beta-agents, session-retrieval
+- **075** [Sessions](075-docs-en-api-beta-sessions.md) — api-reference, anthropic-beta, agent-configuration
+- **076** [Update Environment (Beta) (Java)](076-docs-en-api-java-beta-environments-update.md) — api-reference, environment-management, beta-features
+- **077** [Update Environment (Beta) (Python)](077-docs-en-api-python-beta-environments-update.md) — api-reference, environment-management, cloud-configuration
+- **078** [Update Environment (Beta) (TypeScript)](078-docs-en-api-typescript-beta-environments-update.md) — api-reference, environment-management, beta-features
+- **079** [Update Environment (Beta) (csharp)](079-docs-en-api-csharp-beta-environments-update.md) — api-reference, environment-management, beta-features
+- **080** [Versions](080-docs-en-api-cli-beta-agents-versions.md) — api-reference, agent-versions, anthropic-beta
+- **098** [Add Session Resource (Beta)](098-docs-en-api-beta-sessions-resources-add.md) — anthropic-api, session-management, file-resource
+- **099** [Add Session Resource (Beta) (Go)](099-docs-en-api-go-beta-sessions-resources-add.md) — api-reference, beta-features, session-management
+- **100** [Add Session Resource (Beta) (Java)](100-docs-en-api-java-beta-sessions-resources-add.md) — api-reference, beta-features, file-management
+- **101** [Add Session Resource (Beta) (Python)](101-docs-en-api-python-beta-sessions-resources-add.md) — anthropic-api, session-management, file-resources
+- **102** [Add Session Resource (Beta) (Ruby)](102-docs-en-api-ruby-beta-sessions-resources-add.md) — api-reference, session-management, file-resources
+- **103** [Add Session Resource (Beta) (TypeScript)](103-docs-en-api-typescript-beta-sessions-resources-add.md) — api-reference, file-management, beta-features
+- **104** [Add Session Resource (Beta) (cli)](104-docs-en-api-cli-beta-sessions-resources-add.md) — api-reference, file-management, beta-features
+- **105** [Add Session Resource (Beta) (csharp)](105-docs-en-api-csharp-beta-sessions-resources-add.md) — api-reference, beta-features, file-management
+- **106** [Archive Agent (Beta) (Java)](106-docs-en-api-java-beta-agents-archive.md) — api-reference, beta-features, agent-management
+- **107** [Archive Agent (Beta) (TypeScript)](107-docs-en-api-typescript-beta-agents-archive.md) — api-reference, agent-management, beta-features
+- **108** [Archive Agent (Beta) (csharp)](108-docs-en-api-csharp-beta-agents-archive.md) — api-reference, agent-management, beta-features
+- **109** [Archive Credential (Beta) (Go)](109-docs-en-api-go-beta-vaults-credentials-archive.md) — api-reference, vaults, credentials
+- **110** [Archive Credential (Beta) (Python)](110-docs-en-api-python-beta-vaults-credentials-archive.md) — api-reference, vaults, credential-management
+- **111** [Archive Credential (Beta) (Ruby)](111-docs-en-api-ruby-beta-vaults-credentials-archive.md) — api-reference, vaults, credential-management
+- **112** [Archive Credential (Beta) (TypeScript)](112-docs-en-api-typescript-beta-vaults-credentials-archive.md) — api-reference, credential-management, vaults
+- **113** [Archive Credential (Beta) (csharp)](113-docs-en-api-csharp-beta-vaults-credentials-archive.md) — api-reference, credential-management, vault-operations
+- **114** [Archive Environment (Beta) (Python)](114-docs-en-api-python-beta-environments-archive.md) — api-reference, environment-management, beta-features
+- **115** [Archive Environment (Beta) (Ruby)](115-docs-en-api-ruby-beta-environments-archive.md) — api-reference, environment-management, beta-features
+- **116** [Archive Environment (Beta) (TypeScript)](116-docs-en-api-typescript-beta-environments-archive.md) — api-reference, environment-management, beta-features
+- **117** [Archive Environment (Beta) (csharp)](117-docs-en-api-csharp-beta-environments-archive.md) — api-reference, environment-management, beta-features
+- **118** [Archive Session (Beta) (Java)](118-docs-en-api-java-beta-sessions-archive.md) — api-reference, agent-management, beta-features
+- **119** [Archive Vault (Beta) (Go)](119-docs-en-api-go-beta-vaults-archive.md) — api-reference, vaults, beta-features
+- **120** [Archive Vault (Beta) (Python)](120-docs-en-api-python-beta-vaults-archive.md) — api-reference, vault-management, beta-features
+- **121** [Archive Vault (Beta) (Ruby)](121-docs-en-api-ruby-beta-vaults-archive.md) — api-reference, vault-management, beta-features
+- **122** [Archive Vault (Beta) (TypeScript)](122-docs-en-api-typescript-beta-vaults-archive.md) — api-reference, vault-management, beta-features
+- **123** [Archive Vault (Beta) (csharp)](123-docs-en-api-csharp-beta-vaults-archive.md) — api-reference, vault-management, beta-features
+- **124** [Cancel a Message Batch (Beta) (csharp)](124-docs-en-api-csharp-beta-messages-batches-cancel.md) — api-reference, message-batches, cancellation-logic
+- **125** [Count tokens in a Message (Beta) (cli)](125-docs-en-api-cli-beta-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **126** [Count tokens in a Message (Beta) (csharp)](126-docs-en-api-csharp-beta-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **127** [Create Agent (Beta) (TypeScript)](127-docs-en-api-typescript-beta-agents-create.md) — api-reference, claude-agents, beta-features
+- **128** [Create Credential (Beta) (Java)](128-docs-en-api-java-beta-vaults-credentials-create.md) — api-reference, credential-management, oauth
+- **129** [Create Credential (Beta) (TypeScript)](129-docs-en-api-typescript-beta-vaults-credentials-create.md) — api-reference, vault-credentials, mcp-server
+- **130** [Create Enrollment URL (Beta) (Go)](130-docs-en-api-go-beta-user-profiles-create-enrollment-url.md) — api-reference, user-profiles, beta-features
+- **131** [Create Enrollment URL (Beta) (Java)](131-docs-en-api-java-beta-user-profiles-create-enrollment-url.md) — api-reference, user-profiles, beta-features
+- **132** [Create Enrollment URL (Beta) (Python)](132-docs-en-api-python-beta-user-profiles-create-enrollment-url.md) — api-reference, user-profiles, enrollment-url
+- **133** [Create Enrollment URL (Beta) (Ruby)](133-docs-en-api-ruby-beta-user-profiles-create-enrollment-url.md) — api-reference, beta-features, user-profiles
+- **134** [Create Enrollment URL (Beta) (TypeScript)](134-docs-en-api-typescript-beta-user-profiles-create-enrollment-url.md) — anthropic-api, user-profiles, beta-features
+- **135** [Create Enrollment URL (Beta) (cli)](135-docs-en-api-cli-beta-user-profiles-create-enrollment-url.md) — api-reference, user-profiles, enrollment-url
+- **136** [Create Enrollment URL (Beta) (csharp)](136-docs-en-api-csharp-beta-user-profiles-create-enrollment-url.md) — api-reference, user-profiles, beta-features
+- **137** [Create Environment (Beta) (Go)](137-docs-en-api-go-beta-environments-create.md) — api-reference, beta-features, environment-management
+- **138** [Create Session (Beta) (Go)](138-docs-en-api-go-beta-sessions-create.md) — api-reference, managed-agents, session-management
+- **139** [Create Session (Beta) (Python)](139-docs-en-api-python-beta-sessions-create.md) — api-reference, agent-management, beta-features
+- **140** [Create Session (Beta) (Ruby)](140-docs-en-api-ruby-beta-sessions-create.md) — api-reference, agent-management, session-creation
+- **141** [Create Session (Beta) (TypeScript)](141-docs-en-api-typescript-beta-sessions-create.md) — api-reference, managed-agents, session-creation
+- **142** [Create Skill (Beta) (Go)](142-docs-en-api-go-beta-skills-create.md) — api-reference, anthropic-sdk, beta-features
+- **143** [Create Skill (Beta) (Java)](143-docs-en-api-java-beta-skills-create.md) — api-reference, anthropic-sdk, skill-creation
+- **144** [Create Skill (Beta) (Python)](144-docs-en-api-python-beta-skills-create.md) — anthropic-api, skill-creation, beta-features
+- **145** [Create Skill (Beta) (TypeScript)](145-docs-en-api-typescript-beta-skills-create.md) — anthropic-api, beta-features, skill-creation
+- **146** [Create Skill (Beta) (csharp)](146-docs-en-api-csharp-beta-skills-create.md) — api-reference, skills-creation, beta-features
+- **147** [Create Skill Version (Beta) (Go)](147-docs-en-api-go-beta-skills-versions-create.md) — api-reference, skill-management, beta-features
+- **148** [Create Skill Version (Beta) (Java)](148-docs-en-api-java-beta-skills-versions-create.md) — api-reference, beta-features, skill-management
+- **149** [Create Skill Version (Beta) (TypeScript)](149-docs-en-api-typescript-beta-skills-versions-create.md) — api-reference, skill-management, versioning
+- **150** [Create Skill Version (Beta) (cli)](150-docs-en-api-cli-beta-skills-versions-create.md) — api-reference, skill-management, version-control
+- **151** [Create Skill Version (Beta) (csharp)](151-docs-en-api-csharp-beta-skills-versions-create.md) — api-reference, skill-management, versioning
+- **152** [Create User Profile (Beta) (Go)](152-docs-en-api-go-beta-user-profiles-create.md) — api-reference, user-profiles, beta-features
+- **153** [Create User Profile (Beta) (Java)](153-docs-en-api-java-beta-user-profiles-create.md) — api-reference, user-profiles, beta-features
+- **154** [Create User Profile (Beta) (Python)](154-docs-en-api-python-beta-user-profiles-create.md) — api-reference, user-profiles, beta-features
+- **155** [Create User Profile (Beta) (Ruby)](155-docs-en-api-ruby-beta-user-profiles-create.md) — api-reference, user-profiles, beta-features
+- **156** [Create User Profile (Beta) (TypeScript)](156-docs-en-api-typescript-beta-user-profiles-create.md) — api-reference, user-profiles, beta-features
+- **157** [Create User Profile (Beta) (cli)](157-docs-en-api-cli-beta-user-profiles-create.md) — user-profiles, api-reference, cli-command
+- **158** [Create User Profile (Beta) (csharp)](158-docs-en-api-csharp-beta-user-profiles-create.md) — api-reference, user-profiles, beta-features
+- **159** [Create Vault (Beta) (Go)](159-docs-en-api-go-beta-vaults-create.md) — api-reference, vault-creation, beta-features
+- **160** [Create Vault (Beta) (Java)](160-docs-en-api-java-beta-vaults-create.md) — api-reference, beta-features, vault-management
+- **161** [Create Vault (Beta) (Python)](161-docs-en-api-python-beta-vaults-create.md) — api-reference, beta-features, vault-management
+- **162** [Create Vault (Beta) (Ruby)](162-docs-en-api-ruby-beta-vaults-create.md) — anthropic-api, vault-creation, beta-features
+- **163** [Create Vault (Beta) (TypeScript)](163-docs-en-api-typescript-beta-vaults-create.md) — api-reference, beta-features, vault-management
+- **164** [Create Vault (Beta) (csharp)](164-docs-en-api-csharp-beta-vaults-create.md) — api-reference, beta-features, vault-management
+- **165** [Delete Credential (Beta) (Go)](165-docs-en-api-go-beta-vaults-credentials-delete.md) — api-reference, credential-management, vaults
+- **166** [Delete Credential (Beta) (Ruby)](166-docs-en-api-ruby-beta-vaults-credentials-delete.md) — api-reference, vault-management, credential-deletion
+- **167** [Delete Credential (Beta) (TypeScript)](167-docs-en-api-typescript-beta-vaults-credentials-delete.md) — api-reference, credential-management, vaults
+- **168** [Delete Credential (Beta) (csharp)](168-docs-en-api-csharp-beta-vaults-credentials-delete.md) — api-reference, credential-management, vault-api
+- **169** [Delete Environment (Beta) (Go)](169-docs-en-api-go-beta-environments-delete.md) — api-reference, environment-management, beta-features
+- **170** [Delete Environment (Beta) (Python)](170-docs-en-api-python-beta-environments-delete.md) — api-reference, environment-management, beta-features
+- **171** [Delete Environment (Beta) (Ruby)](171-docs-en-api-ruby-beta-environments-delete.md) — api-reference, beta-features, environment-management
+- **172** [Delete Environment (Beta) (TypeScript)](172-docs-en-api-typescript-beta-environments-delete.md) — api-reference, environment-management, beta-features
+- **173** [Delete Environment (Beta) (csharp)](173-docs-en-api-csharp-beta-environments-delete.md) — api-reference, environment-management, beta-features
+- **174** [Delete File (Beta) (Go)](174-docs-en-api-go-beta-files-delete.md) — api-reference, file-management, beta-features
+- **175** [Delete File (Beta) (Java)](175-docs-en-api-java-beta-files-delete.md) — api-reference, file-management, beta-features
+- **176** [Delete File (Beta) (Ruby)](176-docs-en-api-ruby-beta-files-delete.md) — api-reference, file-management, beta-features
+- **177** [Delete File (Beta) (TypeScript)](177-docs-en-api-typescript-beta-files-delete.md) — anthropic-api, file-management, beta-features
+- **178** [Delete File (Beta) (csharp)](178-docs-en-api-csharp-beta-files-delete.md) — file-management, api-reference, beta-features
+- **179** [Delete Session (Beta) (Go)](179-docs-en-api-go-beta-sessions-delete.md) — api-reference, session-management, beta-features
+- **180** [Delete Session (Beta) (Java)](180-docs-en-api-java-beta-sessions-delete.md) — api-reference, session-management, beta-features
+- **181** [Delete Session (Beta) (Python)](181-docs-en-api-python-beta-sessions-delete.md) — api-reference, session-management, beta-features
+- **182** [Delete Session (Beta) (Ruby)](182-docs-en-api-ruby-beta-sessions-delete.md) — api-reference, session-management, beta-features
+- **183** [Delete Session (Beta) (TypeScript)](183-docs-en-api-typescript-beta-sessions-delete.md) — api-reference, session-management, beta-features
+- **184** [Delete Session (Beta) (csharp)](184-docs-en-api-csharp-beta-sessions-delete.md) — api-reference, session-management, beta-features
+- **185** [Delete Session Resource (Beta) (Go)](185-docs-en-api-go-beta-sessions-resources-delete.md) — api-reference, beta-features, resource-management
+- **186** [Delete Session Resource (Beta) (Java)](186-docs-en-api-java-beta-sessions-resources-delete.md) — api-reference, resource-deletion, beta-features
+- **187** [Delete Session Resource (Beta) (Python)](187-docs-en-api-python-beta-sessions-resources-delete.md) — api-reference, resource-management, beta-features
+- **188** [Delete Session Resource (Beta) (Ruby)](188-docs-en-api-ruby-beta-sessions-resources-delete.md) — api-reference, session-management, resource-deletion
+- **189** [Delete Session Resource (Beta) (TypeScript)](189-docs-en-api-typescript-beta-sessions-resources-delete.md) — api-reference, resource-deletion, beta-features
+- **190** [Delete Session Resource (Beta) (csharp)](190-docs-en-api-csharp-beta-sessions-resources-delete.md) — api-reference, resource-deletion, beta-features
+- **191** [Delete Skill (Beta) (Go)](191-docs-en-api-go-beta-skills-delete.md) — api-reference, beta-features, skill-management
+- **192** [Delete Skill (Beta) (Java)](192-docs-en-api-java-beta-skills-delete.md) — api-reference, beta-features, skill-management
+- **193** [Delete Skill (Beta) (Ruby)](193-docs-en-api-ruby-beta-skills-delete.md) — api-reference, skill-management, beta-features
+- **194** [Delete Skill (Beta) (TypeScript)](194-docs-en-api-typescript-beta-skills-delete.md) — api-reference, anthropic-sdk, skill-management
+- **195** [Delete Skill (Beta) (cli)](195-docs-en-api-cli-beta-skills-delete.md) — cli-command, api-reference, resource-deletion
+- **196** [Delete Skill (Beta) (csharp)](196-docs-en-api-csharp-beta-skills-delete.md) — api-reference, resource-deletion, beta-features
+- **197** [Delete Skill Version (Beta) (Go)](197-docs-en-api-go-beta-skills-versions-delete.md) — api-reference, beta-features, skill-management
+- **198** [Delete Skill Version (Beta) (Java)](198-docs-en-api-java-beta-skills-versions-delete.md) — api-reference, skill-management, versioning
+- **199** [Delete Skill Version (Beta) (Ruby)](199-docs-en-api-ruby-beta-skills-versions-delete.md) — api-reference, skill-management, version-control
+- **200** [Delete Skill Version (Beta) (TypeScript)](200-docs-en-api-typescript-beta-skills-versions-delete.md) — api-reference, skill-management, versioning
+- **201** [Delete Skill Version (Beta) (csharp)](201-docs-en-api-csharp-beta-skills-versions-delete.md) — api-reference, skill-management, version-control
+- **202** [Delete Vault (Beta) (Go)](202-docs-en-api-go-beta-vaults-delete.md) — api-reference, vault-management, beta-features
+- **203** [Delete Vault (Beta) (Java)](203-docs-en-api-java-beta-vaults-delete.md) — api-reference, vault-deletion, beta-features
+- **204** [Delete Vault (Beta) (Ruby)](204-docs-en-api-ruby-beta-vaults-delete.md) — anthropic-api, vault-deletion, beta-features
+- **205** [Delete Vault (Beta) (TypeScript)](205-docs-en-api-typescript-beta-vaults-delete.md) — anthropic-api, vault-management, beta-features
+- **206** [Delete Vault (Beta) (csharp)](206-docs-en-api-csharp-beta-vaults-delete.md) — api-reference, vault-deletion, beta-features
+- **207** [Delete a Message Batch (Beta) (Java)](207-docs-en-api-java-beta-messages-batches-delete.md) — api-reference, message-batches, beta-features
+- **208** [Delete a Message Batch (Beta) (Python)](208-docs-en-api-python-beta-messages-batches-delete.md) — api-reference, beta-features, message-batches
+- **209** [Delete a Message Batch (Beta) (csharp)](209-docs-en-api-csharp-beta-messages-batches-delete.md) — api-reference, message-batches, beta-features
+- **210** [Download File (Beta) (Go)](210-docs-en-api-go-beta-files-download.md) — api-reference, file-download, beta-features
+- **211** [Download File (Beta) (Java)](211-docs-en-api-java-beta-files-download.md) — api-reference, file-download, beta-features
+- **212** [Download File (Beta) (Python)](212-docs-en-api-python-beta-files-download.md) — file-download, beta-features, api-reference
+- **213** [Download File (Beta) (Ruby)](213-docs-en-api-ruby-beta-files-download.md) — api-reference, file-download, beta-features
+- **214** [Download File (Beta) (TypeScript)](214-docs-en-api-typescript-beta-files-download.md) — anthropic-api, file-management, beta-features
+- **215** [Download File (Beta) (csharp)](215-docs-en-api-csharp-beta-files-download.md) — file-download, api-reference, beta-features
+- **216** [Environments](216-docs-en-api-go-beta-environments.md) — api-reference, beta-features, environment-management
+- **217** [Events](217-docs-en-api-java-beta-sessions-events.md) — api-reference, session-management, event-logs
+- **218** [Files](218-docs-en-api-java-beta-files.md) — api-reference, file-management, beta-features
+- **219** [Get Agent (Beta) (Python)](219-docs-en-api-python-beta-agents-retrieve.md) — api-reference, agent-retrieval, beta-features
+- **220** [Get Credential (Beta) (Go)](220-docs-en-api-go-beta-vaults-credentials-retrieve.md) — api-reference, vault-credentials, auth-management
+- **221** [Get Credential (Beta) (Java)](221-docs-en-api-java-beta-vaults-credentials-retrieve.md) — api-reference, vault-management, credential-retrieval
+- **222** [Get Credential (Beta) (Python)](222-docs-en-api-python-beta-vaults-credentials-retrieve.md) — api-reference, vaults, credentials
+- **223** [Get Credential (Beta) (Ruby)](223-docs-en-api-ruby-beta-vaults-credentials-retrieve.md) — api-reference, vaults, credentials
+- **224** [Get Credential (Beta) (TypeScript)](224-docs-en-api-typescript-beta-vaults-credentials-retrieve.md) — api-reference, vault-credentials, authentication
+- **225** [Get Credential (Beta) (csharp)](225-docs-en-api-csharp-beta-vaults-credentials-retrieve.md) — api-reference, credential-management, vaults
+- **226** [Get Environment (Beta) (Python)](226-docs-en-api-python-beta-environments-retrieve.md) — api-reference, environment-management, beta-features
+- **227** [Get Environment (Beta) (TypeScript)](227-docs-en-api-typescript-beta-environments-retrieve.md) — api-reference, environment-retrieval, beta-features
+- **228** [Get File Metadata (Beta) (Go)](228-docs-en-api-go-beta-files-retrieve-metadata.md) — api-reference, file-management, metadata-retrieval
+- **229** [Get File Metadata (Beta) (Java)](229-docs-en-api-java-beta-files-retrieve-metadata.md) — api-reference, file-metadata, beta-features
+- **230** [Get File Metadata (Beta) (Python)](230-docs-en-api-python-beta-files-retrieve-metadata.md) — api-reference, file-management, metadata-retrieval
+- **231** [Get File Metadata (Beta) (Ruby)](231-docs-en-api-ruby-beta-files-retrieve-metadata.md) — api-reference, file-management, beta-features
+- **232** [Get File Metadata (Beta) (TypeScript)](232-docs-en-api-typescript-beta-files-retrieve-metadata.md) — api-reference, file-management, metadata-retrieval
+- **233** [Get File Metadata (Beta) (csharp)](233-docs-en-api-csharp-beta-files-retrieve-metadata.md) — api-reference, file-management, beta-features
+- **234** [Get Session (Beta) (Ruby)](234-docs-en-api-ruby-beta-sessions-retrieve.md) — api-reference, beta-features, agent-orchestration
+- **235** [Get Session Resource (Beta) (Java)](235-docs-en-api-java-beta-sessions-resources-retrieve.md) — api-reference, beta-features, resource-retrieval
+- **236** [Get Session Resource (Beta) (Python)](236-docs-en-api-python-beta-sessions-resources-retrieve.md) — api-reference, session-management, resource-retrieval
+- **237** [Get Session Resource (Beta) (Ruby)](237-docs-en-api-ruby-beta-sessions-resources-retrieve.md) — api-reference, session-management, resource-retrieval
+- **238** [Get Session Resource (Beta) (TypeScript)](238-docs-en-api-typescript-beta-sessions-resources-retrieve.md) — api-reference, session-management, resource-retrieval
+- **239** [Get Session Resource (Beta) (cli)](239-docs-en-api-cli-beta-sessions-resources-retrieve.md) — api-reference, session-management, resource-retrieval
+- **240** [Get Session Resource (Beta) (csharp)](240-docs-en-api-csharp-beta-sessions-resources-retrieve.md) — api-reference, session-management, resource-retrieval
+- **241** [Get Skill (Beta) (Go)](241-docs-en-api-go-beta-skills-retrieve.md) — api-reference, anthropic-sdk, skill-retrieval
+- **242** [Get Skill (Beta) (Java)](242-docs-en-api-java-beta-skills-retrieve.md) — api-reference, beta-features, skill-management
+- **243** [Get Skill (Beta) (Python)](243-docs-en-api-python-beta-skills-retrieve.md) — api-reference, beta-features, skill-management
+- **244** [Get Skill (Beta) (Ruby)](244-docs-en-api-ruby-beta-skills-retrieve.md) — api-reference, skill-retrieval, beta-features
+- **245** [Get Skill (Beta) (TypeScript)](245-docs-en-api-typescript-beta-skills-retrieve.md) — api-reference, skill-retrieval, anthropic-sdk
+- **246** [Get Skill (Beta) (csharp)](246-docs-en-api-csharp-beta-skills-retrieve.md) — api-reference, beta-features, skill-retrieval
+- **247** [Get Skill Version (Beta) (Go)](247-docs-en-api-go-beta-skills-versions-retrieve.md) — api-reference, skill-management, version-control
+- **248** [Get Skill Version (Beta) (Java)](248-docs-en-api-java-beta-skills-versions-retrieve.md) — api-reference, skills-management, version-control
+- **249** [Get Skill Version (Beta) (Ruby)](249-docs-en-api-ruby-beta-skills-versions-retrieve.md) — api-reference, skill-management, version-retrieval
+- **250** [Get Skill Version (Beta) (csharp)](250-docs-en-api-csharp-beta-skills-versions-retrieve.md) — api-reference, skill-management, version-control
+- **251** [Get User Profile (Beta) (Go)](251-docs-en-api-go-beta-user-profiles-retrieve.md) — api-reference, user-profiles, beta-features
+- **252** [Get User Profile (Beta) (Java)](252-docs-en-api-java-beta-user-profiles-retrieve.md) — api-reference, user-profiles, beta-features
+- **253** [Get User Profile (Beta) (Python)](253-docs-en-api-python-beta-user-profiles-retrieve.md) — api-reference, user-profiles, beta-features
+- **254** [Get User Profile (Beta) (Ruby)](254-docs-en-api-ruby-beta-user-profiles-retrieve.md) — api-reference, user-profiles, beta-features
+- **255** [Get User Profile (Beta) (TypeScript)](255-docs-en-api-typescript-beta-user-profiles-retrieve.md) — api-reference, user-profiles, beta-features
+- **256** [Get User Profile (Beta) (cli)](256-docs-en-api-cli-beta-user-profiles-retrieve.md) — api-reference, user-profiles, cli-command
+- **257** [Get User Profile (Beta) (csharp)](257-docs-en-api-csharp-beta-user-profiles-retrieve.md) — api-reference, user-profiles, beta-features
+- **258** [Get Vault (Beta) (Go)](258-docs-en-api-go-beta-vaults-retrieve.md) — api-reference, vaults-retrieval, beta-features
+- **259** [Get Vault (Beta) (Java)](259-docs-en-api-java-beta-vaults-retrieve.md) — api-reference, beta-features, vault-management
+- **260** [Get Vault (Beta) (Python)](260-docs-en-api-python-beta-vaults-retrieve.md) — api-reference, vault-retrieval, beta-features
+- **261** [Get Vault (Beta) (TypeScript)](261-docs-en-api-typescript-beta-vaults-retrieve.md) — api-reference, vault-retrieval, beta-features
+- **262** [Get Vault (Beta) (csharp)](262-docs-en-api-csharp-beta-vaults-retrieve.md) — api-reference, vaults, beta-features
+- **263** [Get a Model (Beta) (Java)](263-docs-en-api-java-beta-models-retrieve.md) — api-reference, model-retrieval, beta-features
+- **264** [Get a Model (Beta) (Python)](264-docs-en-api-python-beta-models-retrieve.md) — api-reference, model-retrieval, beta-features
+- **265** [Get a Model (Beta) (Ruby)](265-docs-en-api-ruby-beta-models-retrieve.md) — api-reference, model-retrieval, beta-features
+- **266** [Get a Model (Beta) (TypeScript)](266-docs-en-api-typescript-beta-models-retrieve.md) — api-reference, model-retrieval, beta-features
+- **267** [Get a Model (Beta) (csharp)](267-docs-en-api-csharp-beta-models-retrieve.md) — api-reference, model-retrieval, beta-features
+- **268** [List Agent Versions (Beta) (Go)](268-docs-en-api-go-beta-agents-versions-list.md) — api-reference, agent-versions, beta-features
+- **269** [List Agent Versions (Beta) (Java)](269-docs-en-api-java-beta-agents-versions-list.md) — api-reference, agent-management, beta-features
+- **270** [List Agents (Beta) (TypeScript)](270-docs-en-api-typescript-beta-agents-list.md) — api-reference, agent-management, beta-features
+- **271** [List Credentials (Beta) (Java)](271-docs-en-api-java-beta-vaults-credentials-list.md) — api-reference, vaults, credentials
+- **272** [List Credentials (Beta) (Python)](272-docs-en-api-python-beta-vaults-credentials-list.md) — api-reference, vault-credentials, pagination
+- **273** [List Credentials (Beta) (csharp)](273-docs-en-api-csharp-beta-vaults-credentials-list.md) — api-reference, vaults-management, credential-listing
+- **274** [List Environments (Beta) (Go)](274-docs-en-api-go-beta-environments-list.md) — api-reference, pagination, beta-features
+- **275** [List Environments (Beta) (Java)](275-docs-en-api-java-beta-environments-list.md) — api-reference, beta-features, pagination
+- **276** [List Environments (Beta) (Python)](276-docs-en-api-python-beta-environments-list.md) — api-reference, pagination, beta-features
+- **277** [List Environments (Beta) (csharp)](277-docs-en-api-csharp-beta-environments-list.md) — api-reference, pagination, environment-management
+- **278** [List Files (Beta) (Go)](278-docs-en-api-go-beta-files-list.md) — api-reference, file-management, pagination
+- **279** [List Files (Beta) (Java)](279-docs-en-api-java-beta-files-list.md) — api-reference, file-management, pagination
+- **280** [List Files (Beta) (Python)](280-docs-en-api-python-beta-files-list.md) — api-reference, file-management, pagination
+- **281** [List Files (Beta) (Ruby)](281-docs-en-api-ruby-beta-files-list.md) — api-reference, file-management, pagination
+- **282** [List Files (Beta) (TypeScript)](282-docs-en-api-typescript-beta-files-list.md) — api-reference, file-management, pagination
+- **283** [List Files (Beta) (cli)](283-docs-en-api-cli-beta-files-list.md) — file-management, api-reference, pagination
+- **284** [List Files (Beta) (csharp)](284-docs-en-api-csharp-beta-files-list.md) — api-reference, file-management, pagination
+- **285** [List Message Batches (Beta) (Python)](285-docs-en-api-python-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **286** [List Message Batches (Beta) (Ruby)](286-docs-en-api-ruby-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **287** [List Message Batches (Beta) (csharp)](287-docs-en-api-csharp-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **288** [List Models (Beta) (Go)](288-docs-en-api-go-beta-models-list.md) — api-reference, pagination, model-management
+- **289** [List Models (Beta) (Java)](289-docs-en-api-java-beta-models-list.md) — api-reference, model-management, pagination
+- **290** [List Models (Beta) (Python)](290-docs-en-api-python-beta-models-list.md) — api-reference, model-listing, pagination
+- **291** [List Models (Beta) (Ruby)](291-docs-en-api-ruby-beta-models-list.md) — api-reference, model-listing, pagination
+- **292** [List Models (Beta) (TypeScript)](292-docs-en-api-typescript-beta-models-list.md) — api-reference, model-listing, pagination
+- **293** [List Models (Beta) (csharp)](293-docs-en-api-csharp-beta-models-list.md) — api-reference, pagination, beta-features
+- **294** [List Session Resources (Beta)](294-docs-en-api-beta-sessions-resources-list.md) — api-reference, session-management, resource-retrieval
+- **295** [List Session Resources (Beta) (Python)](295-docs-en-api-python-beta-sessions-resources-list.md) — api-reference, session-management, beta-features
+- **296** [List Session Resources (Beta) (csharp)](296-docs-en-api-csharp-beta-sessions-resources-list.md) — api-reference, session-management, pagination
+- **297** [List Sessions (Beta) (TypeScript)](297-docs-en-api-typescript-beta-sessions-list.md) — api-reference, beta-features, agent-management
+- **298** [List Skill Versions (Beta) (Java)](298-docs-en-api-java-beta-skills-versions-list.md) — api-reference, beta-features, skills-management
+- **299** [List Skill Versions (Beta) (Python)](299-docs-en-api-python-beta-skills-versions-list.md) — api-reference, skill-management, versioning
+- **300** [List Skill Versions (Beta) (Ruby)](300-docs-en-api-ruby-beta-skills-versions-list.md) — api-reference, skill-management, versioning
+- **301** [List Skill Versions (Beta) (TypeScript)](301-docs-en-api-typescript-beta-skills-versions-list.md) — api-reference, skill-versions, pagination
+- **302** [List Skill Versions (Beta) (csharp)](302-docs-en-api-csharp-beta-skills-versions-list.md) — api-reference, skill-versions, pagination
+- **303** [List Skills (Beta) (Go)](303-docs-en-api-go-beta-skills-list.md) — api-reference, pagination, beta-features
+- **304** [List Skills (Beta) (Java)](304-docs-en-api-java-beta-skills-list.md) — api-reference, skills-management, pagination
+- **305** [List Skills (Beta) (Python)](305-docs-en-api-python-beta-skills-list.md) — api-reference, pagination, filtering
+- **306** [List Skills (Beta) (Ruby)](306-docs-en-api-ruby-beta-skills-list.md) — anthropic-api, skills-management, beta-features
+- **307** [List Skills (Beta) (cli)](307-docs-en-api-cli-beta-skills-list.md) — api-reference, pagination-logic, beta-features
+- **308** [List Skills (Beta) (csharp)](308-docs-en-api-csharp-beta-skills-list.md) — api-reference, pagination, beta-features
+- **309** [List User Profiles (Beta) (Go)](309-docs-en-api-go-beta-user-profiles-list.md) — api-reference, user-profiles, beta-features
+- **310** [List User Profiles (Beta) (Java)](310-docs-en-api-java-beta-user-profiles-list.md) — api-reference, user-profiles, beta-features
+- **311** [List User Profiles (Beta) (Python)](311-docs-en-api-python-beta-user-profiles-list.md) — api-reference, user-profiles, beta-features
+- **312** [List User Profiles (Beta) (Ruby)](312-docs-en-api-ruby-beta-user-profiles-list.md) — api-reference, user-profiles, beta-features
+- **313** [List User Profiles (Beta) (TypeScript)](313-docs-en-api-typescript-beta-user-profiles-list.md) — api-reference, user-profiles, beta-features
+- **314** [List User Profiles (Beta) (cli)](314-docs-en-api-cli-beta-user-profiles-list.md) — api-reference, user-profiles, pagination
+- **315** [List User Profiles (Beta) (csharp)](315-docs-en-api-csharp-beta-user-profiles-list.md) — api-reference, user-profiles, pagination
+- **316** [List Vaults (Beta) (Go)](316-docs-en-api-go-beta-vaults-list.md) — api-reference, vaults-management, beta-features
+- **317** [List Vaults (Beta) (Java)](317-docs-en-api-java-beta-vaults-list.md) — api-reference, vaults, pagination
+- **318** [List Vaults (Beta) (Python)](318-docs-en-api-python-beta-vaults-list.md) — api-reference, beta-features, pagination
+- **319** [List Vaults (Beta) (Ruby)](319-docs-en-api-ruby-beta-vaults-list.md) — api-reference, vaults-management, pagination
+- **320** [List Vaults (Beta) (TypeScript)](320-docs-en-api-typescript-beta-vaults-list.md) — api-reference, beta-features, vaults
+- **321** [List Vaults (Beta) (cli)](321-docs-en-api-cli-beta-vaults-list.md) — api-reference, vaults, pagination
+- **322** [List Vaults (Beta) (csharp)](322-docs-en-api-csharp-beta-vaults-list.md) — api-reference, vault-management, pagination-logic
+- **323** [Models](323-docs-en-api-csharp-beta-models.md) — api-reference, model-management, pagination
+- **324** [Models](324-docs-en-api-ruby-beta-models.md) — api-reference, beta-features, models-management
+- **325** [Models](325-docs-en-api-typescript-beta-models.md) — api-reference, model-management, beta-features
+- **326** [Resources](326-docs-en-api-python-beta-sessions-resources.md) — anthropic-api, beta-features, session-management
+- **327** [Resources](327-docs-en-api-csharp-beta-sessions-resources.md) — api-reference, session-management, resource-handling
+- **328** [Resources](328-docs-en-api-ruby-beta-sessions-resources.md) — anthropic-api, beta-features, session-management
+- **329** [Retrieve Message Batch results (Beta) (Go)](329-docs-en-api-go-beta-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **330** [Retrieve Message Batch results (Beta) (Ruby)](330-docs-en-api-ruby-beta-messages-batches-results.md) — api-reference, message-batches, jsonl-parsing
+- **331** [Retrieve a Message Batch (Beta) (Java)](331-docs-en-api-java-beta-messages-batches-retrieve.md) — api-reference, message-batches, beta-features
+- **332** [Retrieve a Message Batch (Beta) (Python)](332-docs-en-api-python-beta-messages-batches-retrieve.md) — anthropic-api, message-batches, api-reference
+- **333** [Retrieve a Message Batch (Beta) (csharp)](333-docs-en-api-csharp-beta-messages-batches-retrieve.md) — api-reference, message-batches, batch-processing
+- **334** [Send Events (Beta) (TypeScript)](334-docs-en-api-typescript-beta-sessions-events-send.md) — api-reference, beta-features, session-management
+- **335** [Send Events (Beta) (cli)](335-docs-en-api-cli-beta-sessions-events-send.md) — api-reference, beta-features, session-management
+- **336** [Sessions](336-docs-en-api-go-beta-sessions.md) — api-reference, beta-features, agent-management
+- **337** [Sessions](337-docs-en-api-csharp-beta-sessions.md) — api-reference, managed-agents, beta-features
+- **338** [Sessions](338-docs-en-api-java-beta-sessions.md) — api-reference, beta-features, agentic-workflows
+- **339** [Sessions](339-docs-en-api-typescript-beta-sessions.md) — api-reference, agent-management, beta-features
+- **340** [Skills](340-docs-en-api-go-beta-skills.md) — api-reference, anthropic-sdk, beta-features
+- **341** [Skills](341-docs-en-api-typescript-beta-skills.md) — anthropic-api, beta-features, skills-management
+- **342** [Stream Events (Beta) (TypeScript)](342-docs-en-api-typescript-beta-sessions-events-stream.md) — api-reference, streaming-data, beta-features
+- **343** [Update Agent (Beta) (Ruby)](343-docs-en-api-ruby-beta-agents-update.md) — api-reference, agent-management, parameter-specification
+- **344** [Update Credential (Beta) (Java)](344-docs-en-api-java-beta-vaults-credentials-update.md) — api-reference, vault-management, authentication
+- **345** [Update Credential (Beta) (csharp)](345-docs-en-api-csharp-beta-vaults-credentials-update.md) — api-reference, vault-management, mcp-credentials
+- **346** [Update Environment (Beta) (Go)](346-docs-en-api-go-beta-environments-update.md) — api-reference, environment-management, beta-features
+- **347** [Update Session (Beta) (Java)](347-docs-en-api-java-beta-sessions-update.md) — api-reference, agent-management, beta-features
+- **348** [Update Session (Beta) (Python)](348-docs-en-api-python-beta-sessions-update.md) — api-reference, beta-features, agent-management
+- **349** [Update Session (Beta) (Ruby)](349-docs-en-api-ruby-beta-sessions-update.md) — api-reference, beta-features, agent-management
+- **350** [Update Session (Beta) (csharp)](350-docs-en-api-csharp-beta-sessions-update.md) — api-reference, beta-features, managed-agents
+- **351** [Update Session Resource (Beta)](351-docs-en-api-beta-sessions-resources-update.md) — api-reference, session-management, resource-update
+- **352** [Update Session Resource (Beta) (Go)](352-docs-en-api-go-beta-sessions-resources-update.md) — api-reference, beta-features, session-management
+- **353** [Update Session Resource (Beta) (Java)](353-docs-en-api-java-beta-sessions-resources-update.md) — api-reference, resource-management, beta-features
+- **354** [Update Session Resource (Beta) (Python)](354-docs-en-api-python-beta-sessions-resources-update.md) — api-reference, beta-features, resource-management
+- **355** [Update Session Resource (Beta) (Ruby)](355-docs-en-api-ruby-beta-sessions-resources-update.md) — api-reference, session-management, resource-update
+- **356** [Update Session Resource (Beta) (csharp)](356-docs-en-api-csharp-beta-sessions-resources-update.md) — api-reference, resource-management, beta-features
+- **357** [Update User Profile (Beta) (Python)](357-docs-en-api-python-beta-user-profiles-update.md) — api-reference, user-profiles, beta-features
+- **358** [Update User Profile (Beta) (Ruby)](358-docs-en-api-ruby-beta-user-profiles-update.md) — api-reference, user-profiles, beta-features
+- **359** [Update User Profile (Beta) (TypeScript)](359-docs-en-api-typescript-beta-user-profiles-update.md) — api-reference, user-profiles, beta-features
+- **360** [Update User Profile (Beta) (csharp)](360-docs-en-api-csharp-beta-user-profiles-update.md) — api-reference, user-profile, beta-features
+- **361** [Update Vault (Beta) (Go)](361-docs-en-api-go-beta-vaults-update.md) — api-reference, vault-management, beta-features
+- **362** [Update Vault (Beta) (Java)](362-docs-en-api-java-beta-vaults-update.md) — api-reference, beta-features, vault-management
+- **363** [Update Vault (Beta) (Python)](363-docs-en-api-python-beta-vaults-update.md) — api-reference, vault-management, beta-features
+- **364** [Update Vault (Beta) (Ruby)](364-docs-en-api-ruby-beta-vaults-update.md) — api-reference, vault-management, beta-features
+- **365** [Update Vault (Beta) (TypeScript)](365-docs-en-api-typescript-beta-vaults-update.md) — api-reference, vault-management, beta-features
+- **366** [Update Vault (Beta) (cli)](366-docs-en-api-cli-beta-vaults-update.md) — api-reference, vault-management, cli-commands
+- **367** [Update Vault (Beta) (csharp)](367-docs-en-api-csharp-beta-vaults-update.md) — api-reference, vault-management, beta-features
+- **368** [Upload File (Beta)](368-docs-en-api-beta-files-upload.md) — api-reference, file-upload, anthropic-api
+- **369** [Upload File (Beta) (Go)](369-docs-en-api-go-beta-files-upload.md) — api-reference, file-upload, beta-features
+- **370** [Upload File (Beta) (Python)](370-docs-en-api-python-beta-files-upload.md) — api-reference, file-upload, beta-features
+- **371** [Upload File (Beta) (Ruby)](371-docs-en-api-ruby-beta-files-upload.md) — api-reference, file-upload, beta-features
+- **372** [Upload File (Beta) (TypeScript)](372-docs-en-api-typescript-beta-files-upload.md) — api-reference, file-upload, beta-features
+- **373** [Upload File (Beta) (cli)](373-docs-en-api-cli-beta-files-upload.md) — cli-command, file-upload, api-reference
+- **374** [Upload File (Beta) (csharp)](374-docs-en-api-csharp-beta-files-upload.md) — api-reference, file-upload, beta-features
+- **375** [User Profiles](375-docs-en-api-cli-beta-user-profiles.md) — api-reference, user-profiles, beta-features
+- **376** [User Profiles](376-docs-en-api-csharp-beta-user-profiles.md) — api-reference, user-profiles, beta-features
+- **377** [User Profiles](377-docs-en-api-java-beta-user-profiles.md) — api-reference, user-profiles, beta-features
+- **378** [User Profiles](378-docs-en-api-typescript-beta-user-profiles.md) — anthropic-sdk, user-profiles, api-reference
+- **379** [User Profiles](379-docs-en-api-ruby-beta-user-profiles.md) — api-reference, user-profiles, beta-features
+- **380** [Vaults](380-docs-en-api-cli-beta-vaults.md) — api-reference, cli-commands, vault-management
+- **381** [Vaults](381-docs-en-api-go-beta-vaults.md) — api-reference, beta-features, credential-management
+- **382** [Vaults](382-docs-en-api-csharp-beta-vaults.md) — api-reference, vaults-management, beta-features
+- **383** [Vaults](383-docs-en-api-java-beta-vaults.md) — api-reference, beta-features, java-sdk
+- **384** [Vaults](384-docs-en-api-python-beta-vaults.md) — api-reference, beta-features, credential-management
+- **385** [Versions](385-docs-en-api-cli-beta-skills-versions.md) — cli-commands, api-reference, skill-management
+- **386** [Versions](386-docs-en-api-csharp-beta-skills-versions.md) — api-reference, skill-management, version-control
+- **387** [Versions](387-docs-en-api-go-beta-agents-versions.md) — api-reference, agent-versions, beta-features
+- **388** [Versions](388-docs-en-api-go-beta-skills-versions.md) — api-reference, beta-features, skill-management
+- **389** [Versions](389-docs-en-api-java-beta-skills-versions.md) — api-reference, java-sdk, skills-management
+- **390** [Versions](390-docs-en-api-typescript-beta-skills-versions.md) — anthropic-api, skill-versions, beta-features
+- **485** [Get a Model (Ruby)](485-docs-en-api-ruby-models-retrieve.md) — api-reference, model-retrieval, anthropic-sdk
+- **486** [Get a Model (cli)](486-docs-en-api-cli-models-retrieve.md) — api-reference, models-api, cli-commands
+- **487** [List Models (Beta) (cli)](487-docs-en-api-cli-beta-models-list.md) — api-reference, model-management, pagination-logic
+- **488** [List Models (Ruby)](488-docs-en-api-ruby-models-list.md) — api-reference, model-management, pagination
+- **489** [Models](489-docs-en-api-go-models.md) — api-reference, models-api, pagination-logic
+- **494** [API Keys](494-docs-en-api-admin-api-keys.md) — api-reference, authentication, organization-management
+- **495** [Create Credential (Beta)](495-docs-en-api-beta-vaults-credentials-create.md) — api-reference, authentication, mcp-server
+- **496** [Create Credential (Beta) (Python)](496-docs-en-api-python-beta-vaults-credentials-create.md) — api-reference, vault-credentials, mcp-server
+- **497** [Create Credential (Beta) (Ruby)](497-docs-en-api-ruby-beta-vaults-credentials-create.md) — api-reference, authentication, mcp-server
+- **498** [Create Credential (Beta) (cli)](498-docs-en-api-cli-beta-vaults-credentials-create.md) — api-reference, vault-management, credential-creation
+- **499** [Create Credential (Beta) (csharp)](499-docs-en-api-csharp-beta-vaults-credentials-create.md) — api-reference, authentication, mcp-server
+- **500** [Credentials](500-docs-en-api-cli-beta-vaults-credentials.md) — api-reference, vaults, credentials
+- **501** [Credentials](501-docs-en-api-csharp-beta-vaults-credentials.md) — api-reference, vault-management, mcp-authentication
+- **502** [Credentials](502-docs-en-api-go-beta-vaults-credentials.md) — api-reference, authentication, oauth
+- **503** [Credentials](503-docs-en-api-typescript-beta-vaults-credentials.md) — api-reference, authentication, mcp-server
+- **504** [Get API Key](504-docs-en-api-admin-api-keys-retrieve.md) — api-reference, authentication-management, endpoint-specification
+- **505** [Get Current Organization](505-docs-en-api-admin-organizations-me.md) — api-endpoint, organizations, authentication-context
+- **506** [List API Keys](506-docs-en-api-admin-api-keys-list.md) — api-reference, pagination-logic, authentication-keys
+- **507** [List Credentials (Beta)](507-docs-en-api-beta-vaults-credentials-list.md) — api-reference, credential-management, vault-api
+- **508** [List Credentials (Beta) (Ruby)](508-docs-en-api-ruby-beta-vaults-credentials-list.md) — api-reference, credential-management, vaults-beta
+- **509** [Update API Key](509-docs-en-api-admin-api-keys-update.md) — api-reference, authentication-management, endpoint-specification
+- **510** [Update Credential (Beta)](510-docs-en-api-beta-vaults-credentials-update.md) — api-reference, vault-management, credential-update
+- **511** [Update Credential (Beta) (Python)](511-docs-en-api-python-beta-vaults-credentials-update.md) — api-reference, vaults, authentication
+- **512** [Update Credential (Beta) (TypeScript)](512-docs-en-api-typescript-beta-vaults-credentials-update.md) — api-reference, vaults, credential-management
+- **529** [Agents](529-docs-en-api-beta-agents.md) — api-reference, agent-creation, anthropic-claude
+- **530** [Agents](530-docs-en-api-java-beta-agents.md) — api-reference, agents, claude-models
+- **531** [Agents](531-docs-en-api-python-beta-agents.md) — api-reference, agent-creation, claude-models
+- **532** [Agents](532-docs-en-api-ruby-beta-agents.md) — api-reference, agent-orchestration, claude-models
+- **533** [Archive Agent (Beta) (Ruby)](533-docs-en-api-ruby-beta-agents-archive.md) — api-reference, agent-management, anthropic-beta
+- **534** [Archive Agent (Beta) (cli)](534-docs-en-api-cli-beta-agents-archive.md) — api-reference, agent-management, anthropic-beta
+- **535** [Archive Credential (Beta)](535-docs-en-api-beta-vaults-credentials-archive.md) — api-reference, vault-management, credential-archiving
+- **536** [Archive Credential (Beta) (cli)](536-docs-en-api-cli-beta-vaults-credentials-archive.md) — api-reference, credential-management, vault-operations
+- **537** [Archive Environment (Beta)](537-docs-en-api-beta-environments-archive.md) — api-reference, environment-management, anthropic-beta
+- **538** [Archive Environment (Beta) (Go)](538-docs-en-api-go-beta-environments-archive.md) — api-reference, beta-environments, anthropic-sdk
+- **539** [Archive Environment (Beta) (Java)](539-docs-en-api-java-beta-environments-archive.md) — beta-environment, api-reference, archive-operation
+- **540** [Archive Environment (Beta) (cli)](540-docs-en-api-cli-beta-environments-archive.md) — environment-management, api-reference, cli-commands
+- **541** [Archive Vault (Beta)](541-docs-en-api-beta-vaults-archive.md) — api-reference, vault-management, anthropic-beta
+- **542** [Archive Vault (Beta) (cli)](542-docs-en-api-cli-beta-vaults-archive.md) — api-reference, vault-management, cli-commands
+- **543** [Archive Workspace](543-docs-en-api-admin-workspaces-archive.md) — api-reference, workspace-management, rest-endpoint
+- **544** [Batches](544-docs-en-api-messages-batches.md) — api-reference, batch-processing, llm-parameters
+- **545** [Batches](545-docs-en-api-cli-beta-messages-batches.md) — api-reference, batch-processing, anthropic-beta
+- **546** [Batches](546-docs-en-api-beta-messages-batches.md) — api-reference, batch-processing, anthropic-api
+- **547** [Batches](547-docs-en-api-csharp-beta-messages-batches.md) — api-reference, batch-processing, messages-api
+- **548** [Batches](548-docs-en-api-go-beta-messages-batches.md) — api-reference, batch-processing, messages-api
+- **549** [Batches](549-docs-en-api-java-beta-messages-batches.md) — api-reference, batch-processing, anthropic-claude
+- **550** [Batches](550-docs-en-api-cli-messages-batches.md) — api-reference, batch-processing, cli-commands
+- **551** [Batches](551-docs-en-api-csharp-messages-batches.md) — api-reference, batch-processing, message-generation
+- **552** [Batches](552-docs-en-api-java-messages-batches.md) — api-reference, batch-processing, messages-api
+- **553** [Batches](553-docs-en-api-ruby-messages-batches.md) — api-reference, batch-processing, message-requests
+- **554** [Batches](554-docs-en-api-python-messages-batches.md) — api-reference, batch-processing, message-requests
+- **555** [Batches](555-docs-en-api-typescript-messages-batches.md) — api-reference, batch-processing, message-creation
+- **556** [Cancel a Message Batch](556-docs-en-api-messages-batches-cancel.md) — api-reference, batch-processing, request-cancellation
+- **557** [Cancel a Message Batch (Beta)](557-docs-en-api-beta-messages-batches-cancel.md) — api-reference, message-batches, request-cancellation
+- **558** [Cancel a Message Batch (Beta) (Go)](558-docs-en-api-go-beta-messages-batches-cancel.md) — api-reference, batch-processing, anthropic-beta
+- **559** [Cancel a Message Batch (Beta) (Java)](559-docs-en-api-java-beta-messages-batches-cancel.md) — api-reference, batch-processing, request-cancellation
+- **560** [Cancel a Message Batch (Beta) (Python)](560-docs-en-api-python-beta-messages-batches-cancel.md) — anthropic-api, message-batches, api-reference
+- **561** [Cancel a Message Batch (Beta) (Ruby)](561-docs-en-api-ruby-beta-messages-batches-cancel.md) — api-reference, message-batches, cancellation-logic
+- **562** [Cancel a Message Batch (Beta) (TypeScript)](562-docs-en-api-typescript-beta-messages-batches-cancel.md) — api-reference, batch-processing, anthropic-beta
+- **563** [Cancel a Message Batch (Beta) (cli)](563-docs-en-api-cli-beta-messages-batches-cancel.md) — api-reference, message-batches, request-cancellation
+- **564** [Cancel a Message Batch (Go)](564-docs-en-api-go-messages-batches-cancel.md) — api-reference, message-batch, cancellation-logic
+- **565** [Cancel a Message Batch (Java)](565-docs-en-api-java-messages-batches-cancel.md) — message-batch, api-reference, request-cancellation
+- **566** [Cancel a Message Batch (Python)](566-docs-en-api-python-messages-batches-cancel.md) — api-reference, batch-processing, request-cancellation
+- **567** [Cancel a Message Batch (Ruby)](567-docs-en-api-ruby-messages-batches-cancel.md) — api-reference, batch-processing, request-cancellation
+- **568** [Cancel a Message Batch (TypeScript)](568-docs-en-api-typescript-messages-batches-cancel.md) — api-reference, batch-processing, request-cancellation
+- **569** [Cancel a Message Batch (cli)](569-docs-en-api-cli-messages-batches-cancel.md) — api-reference, message-batches, request-cancellation
+- **570** [Cancel a Message Batch (csharp)](570-docs-en-api-csharp-messages-batches-cancel.md) — api-reference, message-batches, cancellation-logic
+- **571** [Claude Code Analytics API](571-docs-en-build-with-claude-claude-code-analytics-api.md) — api-reference, analytics, productivity-metrics
+- **572** [Completions](572-docs-en-api-completions.md) — anthropic-api, text-completions, parameter-reference
+- **573** [Completions](573-docs-en-api-csharp-completions.md) — completions, language-models, text-generation
+- **574** [Completions](574-docs-en-api-typescript-completions.md) — api-reference, text-completion, claude-models
+- **575** [Cost Report](575-docs-en-api-admin-cost-report.md) — api-reference, usage-billing, endpoint-specification
+- **576** [Count tokens in a Message](576-docs-en-api-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **577** [Count tokens in a Message (Beta)](577-docs-en-api-beta-messages-count-tokens.md) — anthropic-api, token-counting, api-reference
+- **578** [Count tokens in a Message (Beta) (Go)](578-docs-en-api-go-beta-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **579** [Count tokens in a Message (Beta) (Java)](579-docs-en-api-java-beta-messages-count-tokens.md) — token-counting, api-reference, anthropic-beta
+- **580** [Count tokens in a Message (Beta) (Python)](580-docs-en-api-python-beta-messages-count-tokens.md) — api-reference, token-counting, llm-parameters
+- **581** [Count tokens in a Message (Beta) (Ruby)](581-docs-en-api-ruby-beta-messages-count-tokens.md) — api-reference, token-counting, llm-parameters
+- **582** [Count tokens in a Message (Beta) (TypeScript)](582-docs-en-api-typescript-beta-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **583** [Count tokens in a Message (Go)](583-docs-en-api-go-messages-count-tokens.md) — token-counting, api-reference, llm
+- **584** [Count tokens in a Message (Java)](584-docs-en-api-java-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **585** [Count tokens in a Message (Python)](585-docs-en-api-python-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **586** [Count tokens in a Message (Ruby)](586-docs-en-api-ruby-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **587** [Count tokens in a Message (TypeScript)](587-docs-en-api-typescript-messages-count-tokens.md) — api-reference, token-counting, llm-parameters
+- **588** [Count tokens in a Message (cli)](588-docs-en-api-cli-messages-count-tokens.md) — token-counting, api-reference, llm-parameters
+- **589** [Count tokens in a Message (csharp)](589-docs-en-api-csharp-messages-count-tokens.md) — api-reference, token-counting, llm-parameters
+- **590** [Create Agent (Beta) (Java)](590-docs-en-api-java-beta-agents-create.md) — api-reference, anthropic-claude, agent-management
+- **591** [Create Enrollment URL (Beta)](591-docs-en-api-beta-user-profiles-create-enrollment-url.md) — api-reference, user-profiles, endpoint-specification
+- **592** [Create Invite](592-docs-en-api-admin-invites-create.md) — api-reference, organizations, invitation-management
+- **593** [Create Session (Beta) (Java)](593-docs-en-api-java-beta-sessions-create.md) — api-reference, beta-agents, anthropic-api
+- **594** [Create Session (Beta) (cli)](594-docs-en-api-cli-beta-sessions-create.md) — api-reference, beta-agents, session-management
+- **595** [Create Skill (Beta)](595-docs-en-api-beta-skills-create.md) — api-reference, anthropic-beta, endpoint-specification
+- **596** [Create Skill (Beta) (Ruby)](596-docs-en-api-ruby-beta-skills-create.md) — api-reference, anthropic-beta, skill-creation
+- **597** [Create Skill (Beta) (cli)](597-docs-en-api-cli-beta-skills-create.md) — cli-command, api-reference, skill-creation
+- **598** [Create Skill Version (Beta)](598-docs-en-api-beta-skills-versions-create.md) — api-reference, anthropic-api, skill-management
+- **599** [Create Skill Version (Beta) (Python)](599-docs-en-api-python-beta-skills-versions-create.md) — api-reference, skill-management, versioning
+- **600** [Create Skill Version (Beta) (Ruby)](600-docs-en-api-ruby-beta-skills-versions-create.md) — api-reference, skill-versioning, anthropic-beta
+- **601** [Create User Profile (Beta)](601-docs-en-api-beta-user-profiles-create.md) — api-reference, user-profiles, anthropic-beta
+- **602** [Create Vault (Beta)](602-docs-en-api-beta-vaults-create.md) — api-reference, vault-creation, anthropic-beta
+- **603** [Create Vault (Beta) (cli)](603-docs-en-api-cli-beta-vaults-create.md) — api-reference, vault-management, credential-storage
+- **604** [Create Workspace](604-docs-en-api-admin-workspaces-create.md) — api-reference, workspace-management, data-residency
+- **605** [Create Workspace Member](605-docs-en-api-admin-workspaces-members-create.md) — api-reference, workspace-management, user-roles
+- **606** [Create a Message](606-docs-en-api-messages-create.md) — api-reference, llm-integration, json-schema
+- **607** [Create a Message (Beta)](607-docs-en-api-beta-messages-create.md) — api-reference, llm-interaction, json-schema
+- **608** [Create a Message (Beta) (Go)](608-docs-en-api-go-beta-messages-create.md) — api-reference, chat-completion, message-structure
+- **609** [Create a Message (Beta) (Java)](609-docs-en-api-java-beta-messages-create.md) — api-reference, messages-api, developer-documentation
+- **610** [Create a Message (Beta) (Ruby)](610-docs-en-api-ruby-beta-messages-create.md) — api-reference, messages-api, llm-parameters
+- **611** [Create a Message (Beta) (csharp)](611-docs-en-api-csharp-beta-messages-create.md) — api-reference, messages-endpoint, chat-conversations
+- **612** [Create a Message (Go)](612-docs-en-api-go-messages-create.md) — api-reference, llm-integration, message-generation
+- **613** [Create a Message (Java)](613-docs-en-api-java-messages-create.md) — api-reference, messages-api, chat-conversations
+- **614** [Create a Message (Python)](614-docs-en-api-python-messages-create.md) — api-reference, llm-interface, message-generation
+- **615** [Create a Message (Ruby)](615-docs-en-api-ruby-messages-create.md) — api-reference, messages-api, llm-parameters
+- **616** [Create a Message (TypeScript)](616-docs-en-api-typescript-messages-create.md) — api-reference, llm-integration, message-parameters
+- **617** [Create a Message (cli)](617-docs-en-api-cli-messages-create.md) — messages-api, parameter-reference, llm-interaction
+- **618** [Create a Message (csharp)](618-docs-en-api-csharp-messages-create.md) — api-reference, llm-interaction, message-generation
+- **619** [Create a Message Batch](619-docs-en-api-messages-batches-create.md) — api-reference, batch-processing, message-creation
+- **620** [Create a Message Batch (Beta)](620-docs-en-api-beta-messages-batches-create.md) — api-reference, batch-processing, anthropic-claude
+- **621** [Create a Message Batch (Beta) (Go)](621-docs-en-api-go-beta-messages-batches-create.md) — api-reference, batch-processing, llm-requests
+- **622** [Create a Message Batch (Beta) (Java)](622-docs-en-api-java-beta-messages-batches-create.md) — api-reference, batch-processing, message-api
+- **623** [Create a Message Batch (Beta) (Python)](623-docs-en-api-python-beta-messages-batches-create.md) — api-reference, batch-processing, message-api
+- **624** [Create a Message Batch (Beta) (Ruby)](624-docs-en-api-ruby-beta-messages-batches-create.md) — api-reference, batch-processing, message-api
+- **625** [Create a Message Batch (Beta) (TypeScript)](625-docs-en-api-typescript-beta-messages-batches-create.md) — api-reference, batch-processing, message-api
+- **626** [Create a Message Batch (Beta) (cli)](626-docs-en-api-cli-beta-messages-batches-create.md) — api-reference, batch-processing, message-creation
+- **627** [Create a Message Batch (Beta) (csharp)](627-docs-en-api-csharp-beta-messages-batches-create.md) — api-reference, batch-processing, message-creation
+- **628** [Create a Message Batch (Go)](628-docs-en-api-go-messages-batches-create.md) — api-reference, batch-processing, message-creation
+- **629** [Create a Message Batch (Python)](629-docs-en-api-python-messages-batches-create.md) — api-reference, batch-processing, messages-api
+- **630** [Create a Message Batch (Ruby)](630-docs-en-api-ruby-messages-batches-create.md) — api-reference, batch-processing, llm-parameters
+- **631** [Create a Message Batch (TypeScript)](631-docs-en-api-typescript-messages-batches-create.md) — api-reference, batch-processing, message-creation
+- **632** [Create a Message Batch (cli)](632-docs-en-api-cli-messages-batches-create.md) — message-batches, api-reference, batch-processing
+- **633** [Create a Message Batch (csharp)](633-docs-en-api-csharp-messages-batches-create.md) — api-reference, batch-processing, message-generation
+- **634** [Create a Text Completion](634-docs-en-api-completions-create.md) — anthropic-api, text-completion, legacy-endpoint
+- **635** [Create a Text Completion (Java)](635-docs-en-api-java-completions-create.md) — anthropic-api, text-completions, java-sdk
+- **636** [Create a Text Completion (TypeScript)](636-docs-en-api-typescript-completions-create.md) — anthropic-api, text-completions, parameter-reference
+- **637** [Create a Text Completion (cli)](637-docs-en-api-cli-completions-create.md) — api-reference, claude-models, text-completion
+- **638** [Delete Credential (Beta)](638-docs-en-api-beta-vaults-credentials-delete.md) — api-reference, credential-management, vault-deletion
+- **639** [Delete Credential (Beta) (Python)](639-docs-en-api-python-beta-vaults-credentials-delete.md) — api-reference, credential-management, vaults
+- **640** [Delete Credential (Beta) (cli)](640-docs-en-api-cli-beta-vaults-credentials-delete.md) — api-reference, vaults, credential-management
+- **641** [Delete Environment (Beta)](641-docs-en-api-beta-environments-delete.md) — api-reference, environment-management, http-delete
+- **642** [Delete Environment (Beta) (Java)](642-docs-en-api-java-beta-environments-delete.md) — api-reference, beta-environments, resource-management
+- **643** [Delete Environment (Beta) (cli)](643-docs-en-api-cli-beta-environments-delete.md) — cli-command, environment-management, api-reference
+- **644** [Delete File (Beta)](644-docs-en-api-beta-files-delete.md) — api-reference, file-management, http-delete
+- **645** [Delete File (Beta) (Python)](645-docs-en-api-python-beta-files-delete.md) — api-reference, file-management, anthropic-beta
+- **646** [Delete File (Beta) (cli)](646-docs-en-api-cli-beta-files-delete.md) — api-reference, file-management, cli-command
+- **647** [Delete Invite](647-docs-en-api-admin-invites-delete.md) — api-reference, organization-management, http-delete
+- **648** [Delete Session (Beta)](648-docs-en-api-beta-sessions-delete.md) — api-reference, session-management, http-delete
+- **649** [Delete Session (Beta) (cli)](649-docs-en-api-cli-beta-sessions-delete.md) — api-reference, session-management, cli-command
+- **650** [Delete Session Resource (Beta)](650-docs-en-api-beta-sessions-resources-delete.md) — api-reference, resource-management, http-delete
+- **651** [Delete Session Resource (Beta) (cli)](651-docs-en-api-cli-beta-sessions-resources-delete.md) — api-reference, cli-command, resource-management
+- **652** [Delete Skill (Beta)](652-docs-en-api-beta-skills-delete.md) — api-reference, skill-management, http-delete
+- **653** [Delete Skill (Beta) (Python)](653-docs-en-api-python-beta-skills-delete.md) — api-reference, skill-management, beta-parameters
+- **654** [Delete Skill Version (Beta)](654-docs-en-api-beta-skills-versions-delete.md) — api-reference, skill-management, http-delete
+- **655** [Delete Skill Version (Beta) (Python)](655-docs-en-api-python-beta-skills-versions-delete.md) — api-reference, skill-management, version-control
+- **656** [Delete Skill Version (Beta) (cli)](656-docs-en-api-cli-beta-skills-versions-delete.md) — cli-command, api-reference, skill-management
+- **657** [Delete Vault (Beta)](657-docs-en-api-beta-vaults-delete.md) — api-reference, vault-deletion, anthropic-api
+- **658** [Delete Vault (Beta) (Python)](658-docs-en-api-python-beta-vaults-delete.md) — api-reference, anthropic-beta, vault-management
+- **659** [Delete Vault (Beta) (cli)](659-docs-en-api-cli-beta-vaults-delete.md) — cli-command, vault-management, api-endpoint
+- **660** [Delete Workspace Member](660-docs-en-api-admin-workspaces-members-delete.md) — api-reference, workspace-management, user-deletion
+- **661** [Delete a Message Batch](661-docs-en-api-messages-batches-delete.md) — api-reference, batch-processing, http-delete
+- **662** [Delete a Message Batch (Beta)](662-docs-en-api-beta-messages-batches-delete.md) — api-reference, message-batches, http-delete
+- **663** [Delete a Message Batch (Beta) (Go)](663-docs-en-api-go-beta-messages-batches-delete.md) — api-reference, message-batches, sdk-usage
+- **664** [Delete a Message Batch (Beta) (Ruby)](664-docs-en-api-ruby-beta-messages-batches-delete.md) — api-reference, message-batches, anthropic-beta
+- **665** [Delete a Message Batch (Beta) (TypeScript)](665-docs-en-api-typescript-beta-messages-batches-delete.md) — api-reference, message-batches, anthropic-sdk
+- **666** [Delete a Message Batch (Beta) (cli)](666-docs-en-api-cli-beta-messages-batches-delete.md) — api-reference, message-batches, deletion-process
+- **667** [Delete a Message Batch (Go)](667-docs-en-api-go-messages-batches-delete.md) — api-reference, message-batch, deletion-process
+- **668** [Delete a Message Batch (Java)](668-docs-en-api-java-messages-batches-delete.md) — api-reference, message-batches, delete-operation
+- **669** [Delete a Message Batch (Python)](669-docs-en-api-python-messages-batches-delete.md) — api-reference, message-batches, deletion-endpoint
+- **670** [Delete a Message Batch (Ruby)](670-docs-en-api-ruby-messages-batches-delete.md) — api-reference, message-batches, deletion
+- **671** [Delete a Message Batch (TypeScript)](671-docs-en-api-typescript-messages-batches-delete.md) — api-reference, message-batches, endpoint-documentation
+- **672** [Delete a Message Batch (cli)](672-docs-en-api-cli-messages-batches-delete.md) — cli-command, message-batches, api-reference
+- **673** [Delete a Message Batch (csharp)](673-docs-en-api-csharp-messages-batches-delete.md) — api-reference, message-batches, delete-operation
+- **674** [Download File (Beta)](674-docs-en-api-beta-files-download.md) — file-download, api-endpoint, path-parameters
+- **675** [Download File (Beta) (cli)](675-docs-en-api-cli-beta-files-download.md) — cli-command, api-reference, file-management
+- **676** [Events](676-docs-en-api-beta-sessions-events.md) — api-reference, session-events, endpoint-specification
+- **677** [Get Agent (Beta)](677-docs-en-api-beta-agents-retrieve.md) — api-reference, agent-retrieval, json-schema
+- **678** [Get Claude Code Usage Report](678-docs-en-api-admin-usage-report-retrieve-claude-code.md) — claude-code, usage-reporting, api-reference
+- **679** [Get Cost Report](679-docs-en-api-admin-cost-report-retrieve.md) — api-reference, cost-reporting, usage-analytics
+- **680** [Get Environment (Beta)](680-docs-en-api-beta-environments-retrieve.md) — api-reference, environment-management, endpoint-specification
+- **681** [Get Environment (Beta) (Java)](681-docs-en-api-java-beta-environments-retrieve.md) — api-reference, beta-environments, client-sdk
+- **682** [Get File Metadata (Beta)](682-docs-en-api-beta-files-retrieve-metadata.md) — api-reference, file-metadata, anthropic-api
+- **683** [Get File Metadata (Beta) (cli)](683-docs-en-api-cli-beta-files-retrieve-metadata.md) — api-reference, file-management, metadata-retrieval
+- **684** [Get Invite](684-docs-en-api-admin-invites-retrieve.md) — api-reference, organizations, invitation-management
+- **685** [Get Messages Usage Report](685-docs-en-api-admin-usage-report-retrieve-messages.md) — api-reference, usage-reporting, endpoint-documentation
+- **686** [Get Session Resource (Beta)](686-docs-en-api-beta-sessions-resources-retrieve.md) — api-reference, anthropic-beta, session-management
+- **687** [Get Skill (Beta)](687-docs-en-api-beta-skills-retrieve.md) — api-reference, skill-retrieval, anthropic-beta
+- **688** [Get Skill (Beta) (cli)](688-docs-en-api-cli-beta-skills-retrieve.md) — api-reference, skill-retrieval, anthropic-beta
+- **689** [Get Skill Version (Beta)](689-docs-en-api-beta-skills-versions-retrieve.md) — api-reference, skill-management, endpoint-documentation
+- **690** [Get Skill Version (Beta) (Python)](690-docs-en-api-python-beta-skills-versions-retrieve.md) — api-reference, skill-management, version-control
+- **691** [Get Skill Version (Beta) (TypeScript)](691-docs-en-api-typescript-beta-skills-versions-retrieve.md) — api-reference, skill-management, versioning
+- **692** [Get Skill Version (Beta) (cli)](692-docs-en-api-cli-beta-skills-versions-retrieve.md) — cli-command, api-reference, skill-management
+- **693** [Get User](693-docs-en-api-admin-users-retrieve.md) — api-reference, user-management, organization-data
+- **694** [Get User Profile (Beta)](694-docs-en-api-beta-user-profiles-retrieve.md) — api-reference, user-profiles, endpoint-specification
+- **695** [Get Vault (Beta)](695-docs-en-api-beta-vaults-retrieve.md) — api-reference, vault-retrieval, anthropic-beta
+- **696** [Get Vault (Beta) (Ruby)](696-docs-en-api-ruby-beta-vaults-retrieve.md) — api-reference, vaults, anthropic-beta
+- **697** [Get Vault (Beta) (cli)](697-docs-en-api-cli-beta-vaults-retrieve.md) — api-reference, vault-retrieval, cli-command
+- **698** [Get Workspace](698-docs-en-api-admin-workspaces-retrieve.md) — api-reference, workspace-management, endpoint-specification
+- **699** [Get Workspace Member](699-docs-en-api-admin-workspaces-members-retrieve.md) — api-reference, workspace-management, user-retrieval
+- **700** [Get a Model](700-docs-en-api-models-retrieve.md) — api-reference, model-retrieval, endpoint-specification
+- **701** [Get a Model (Beta)](701-docs-en-api-beta-models-retrieve.md) — api-reference, model-management, anthropic-api
+- **702** [Get a Model (Beta) (Go)](702-docs-en-api-go-beta-models-retrieve.md) — api-reference, model-retrieval, anthropic-sdk
+- **703** [Get a Model (Go)](703-docs-en-api-go-models-retrieve.md) — api-reference, model-retrieval, anthropic-sdk
+- **704** [Get a Model (Java)](704-docs-en-api-java-models-retrieve.md) — api-reference, model-retrieval, anthropic-sdk
+- **705** [Get a Model (Python)](705-docs-en-api-python-models-retrieve.md) — api-reference, model-retrieval, anthropic-api
+- **706** [Get a Model (TypeScript)](706-docs-en-api-typescript-models-retrieve.md) — api-reference, model-retrieval, anthropic-sdk
+- **707** [Get a Model (csharp)](707-docs-en-api-csharp-models-retrieve.md) — api-reference, model-retrieval, parameter-definitions
+- **708** [Invites](708-docs-en-api-admin-invites.md) — api-reference, user-management, organization-invites
+- **709** [List Agent Versions (Beta) (cli)](709-docs-en-api-cli-beta-agents-versions-list.md) — api-reference, agent-management, pagination
+- **710** [List Agents (Beta) (Python)](710-docs-en-api-python-beta-agents-list.md) — api-reference, agent-management, anthropic-beta
+- **711** [List Agents (Beta) (cli)](711-docs-en-api-cli-beta-agents-list.md) — api-reference, agents-management, anthropic-beta
+- **712** [List Environments (Beta)](712-docs-en-api-beta-environments-list.md) — api-reference, pagination, environment-management
+- **713** [List Environments (Beta) (Ruby)](713-docs-en-api-ruby-beta-environments-list.md) — api-reference, beta-environments, pagination
+- **714** [List Environments (Beta) (cli)](714-docs-en-api-cli-beta-environments-list.md) — api-reference, environment-management, pagination
+- **715** [List Events (Beta) (csharp)](715-docs-en-api-csharp-beta-sessions-events-list.md) — api-reference, session-management, event-history
+- **716** [List Files (Beta)](716-docs-en-api-beta-files-list.md) — api-reference, file-management, pagination-logic
+- **717** [List Invites](717-docs-en-api-admin-invites-list.md) — api-reference, pagination, organization-management
+- **718** [List Message Batches](718-docs-en-api-messages-batches-list.md) — api-reference, message-batches, pagination
+- **719** [List Message Batches (Beta)](719-docs-en-api-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **720** [List Message Batches (Beta) (cli)](720-docs-en-api-cli-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **721** [List Message Batches (Go)](721-docs-en-api-go-messages-batches-list.md) — api-reference, message-batches, pagination
+- **722** [List Message Batches (Java)](722-docs-en-api-java-messages-batches-list.md) — api-reference, batch-processing, pagination
+- **723** [List Message Batches (Python)](723-docs-en-api-python-messages-batches-list.md) — api-reference, batch-processing, pagination
+- **724** [List Message Batches (Ruby)](724-docs-en-api-ruby-messages-batches-list.md) — api-reference, batch-processing, pagination
+- **725** [List Message Batches (TypeScript)](725-docs-en-api-typescript-messages-batches-list.md) — api-reference, message-batches, pagination
+- **726** [List Message Batches (cli)](726-docs-en-api-cli-messages-batches-list.md) — api-reference, batch-processing, pagination
+- **727** [List Message Batches (csharp)](727-docs-en-api-csharp-messages-batches-list.md) — api-reference, batch-processing, pagination
+- **728** [List Models (Beta)](728-docs-en-api-beta-models-list.md) — api-reference, model-management, pagination
+- **729** [List Models (Go)](729-docs-en-api-go-models-list.md) — api-reference, model-management, pagination
+- **730** [List Models (Python)](730-docs-en-api-python-models-list.md) — api-reference, model-management, pagination
+- **731** [List Models (TypeScript)](731-docs-en-api-typescript-models-list.md) — api-reference, model-management, pagination
+- **732** [List Models (cli)](732-docs-en-api-cli-models-list.md) — api-reference, model-management, pagination
+- **733** [List Session Resources (Beta) (cli)](733-docs-en-api-cli-beta-sessions-resources-list.md) — api-reference, session-management, resource-listing
+- **734** [List Sessions (Beta) (Java)](734-docs-en-api-java-beta-sessions-list.md) — api-reference, agent-sessions, parameter-definitions
+- **735** [List Sessions (Beta) (csharp)](735-docs-en-api-csharp-beta-sessions-list.md) — api-reference, session-management, agent-automation
+- **736** [List Skill Versions (Beta)](736-docs-en-api-beta-skills-versions-list.md) — api-reference, skill-management, pagination
+- **737** [List Skill Versions (Beta) (cli)](737-docs-en-api-cli-beta-skills-versions-list.md) — api-reference, skill-management, version-control
+- **738** [List Skills (Beta)](738-docs-en-api-beta-skills-list.md) — api-reference, anthropic-skills, pagination
+- **739** [List User Profiles (Beta)](739-docs-en-api-beta-user-profiles-list.md) — api-reference, user-profiles, endpoint-specification
+- **740** [List Users](740-docs-en-api-admin-users-list.md) — api-reference, user-management, pagination
+- **741** [List Vaults (Beta)](741-docs-en-api-beta-vaults-list.md) — api-reference, vaults-management, pagination
+- **742** [List Workspace Members](742-docs-en-api-admin-workspaces-members-list.md) — api-reference, workspace-management, pagination-logic
+- **743** [List Workspaces](743-docs-en-api-admin-workspaces-list.md) — api-reference, pagination-logic, workspace-management
+- **744** [Members](744-docs-en-api-admin-workspaces-members.md) — api-reference, workspace-management, user-roles
+- **745** [Messages](745-docs-en-api-beta-messages.md) — api-reference, llm-interactions, chat-interface
+- **746** [Messages](746-docs-en-api-messages.md) — api-reference, messages-api, llm-integration
+- **747** [Messages](747-docs-en-api-cli-beta-messages.md) — api-reference, llm-interaction, chat-completions
+- **748** [Messages](748-docs-en-api-csharp-beta-messages.md) — api-reference, llm-interaction, message-parameters
+- **749** [Messages](749-docs-en-api-python-beta-messages.md) — api-reference, llm-interaction, messages-api
+- **750** [Messages](750-docs-en-api-typescript-beta-messages.md) — api-reference, llm-interaction, message-parameters
+- **751** [Messages](751-docs-en-api-csharp-messages.md) — api-reference, llm-interaction, message-parameters
+- **752** [Messages](752-docs-en-api-go-messages.md) — api-reference, llm-interaction, message-generation
+- **753** [Messages](753-docs-en-api-java-messages.md) — api-reference, llm-interaction, multimodal-input
+- **754** [Messages](754-docs-en-api-typescript-messages.md) — api-reference, llm-interface, message-generation
+- **755** [Messages](755-docs-en-api-python-messages.md) — api-reference, llm-interaction, parameter-definitions
+- **756** [Models](756-docs-en-api-cli-beta-models.md) — api-reference, model-management, cli-commands
+- **757** [Models](757-docs-en-api-csharp-models.md) — api-reference, model-management, pagination
+- **758** [Organizations](758-docs-en-api-admin-organizations.md) — api-reference, organizations, endpoint-specification
+- **759** [Remove User](759-docs-en-api-admin-users-delete.md) — api-reference, user-management, http-delete
+- **760** [Resources](760-docs-en-api-beta-sessions-resources.md) — api-reference, anthropic-api, session-management
+- **761** [Resources](761-docs-en-api-cli-beta-sessions-resources.md) — api-reference, session-management, file-resources
+- **762** [Resources](762-docs-en-api-typescript-beta-sessions-resources.md) — api-reference, anthropic-beta, session-management
+- **763** [Retrieve Message Batch results](763-docs-en-api-messages-batches-results.md) — api-reference, message-batching, jsonl-format
+- **764** [Retrieve Message Batch results (Beta)](764-docs-en-api-beta-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **765** [Retrieve Message Batch results (Beta) (Python)](765-docs-en-api-python-beta-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **766** [Retrieve Message Batch results (Java)](766-docs-en-api-java-messages-batches-results.md) — api-reference, batch-processing, jsonl-streaming
+- **767** [Retrieve Message Batch results (Ruby)](767-docs-en-api-ruby-messages-batches-results.md) — api-reference, batch-processing, jsonl-output
+- **768** [Retrieve Message Batch results (cli)](768-docs-en-api-cli-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **769** [Retrieve a Message Batch](769-docs-en-api-messages-batches-retrieve.md) — api-reference, message-batches, polling
+- **770** [Retrieve a Message Batch (Beta)](770-docs-en-api-beta-messages-batches-retrieve.md) — anthropic-api, message-batches, api-reference
+- **771** [Retrieve a Message Batch (Beta) (Go)](771-docs-en-api-go-beta-messages-batches-retrieve.md) — api-reference, message-batches, anthropic-sdk
+- **772** [Retrieve a Message Batch (Beta) (Ruby)](772-docs-en-api-ruby-beta-messages-batches-retrieve.md) — api-reference, message-batches, anthropic-beta
+- **773** [Retrieve a Message Batch (Beta) (TypeScript)](773-docs-en-api-typescript-beta-messages-batches-retrieve.md) — api-reference, message-batches, anthropic-sdk
+- **774** [Retrieve a Message Batch (Beta) (cli)](774-docs-en-api-cli-beta-messages-batches-retrieve.md) — api-reference, message-batches, polling-mechanics
+- **775** [Retrieve a Message Batch (Go)](775-docs-en-api-go-messages-batches-retrieve.md) — api-reference, message-batch, polling
+- **776** [Retrieve a Message Batch (Java)](776-docs-en-api-java-messages-batches-retrieve.md) — api-reference, message-batch, polling
+- **777** [Retrieve a Message Batch (Python)](777-docs-en-api-python-messages-batches-retrieve.md) — api-reference, message-batch, status-polling
+- **778** [Retrieve a Message Batch (Ruby)](778-docs-en-api-ruby-messages-batches-retrieve.md) — api-reference, message-batches, batch-processing
+- **779** [Retrieve a Message Batch (TypeScript)](779-docs-en-api-typescript-messages-batches-retrieve.md) — api-reference, batch-processing, message-batches
+- **780** [Retrieve a Message Batch (cli)](780-docs-en-api-cli-messages-batches-retrieve.md) — message-batches, api-reference, polling
+- **781** [Retrieve a Message Batch (csharp)](781-docs-en-api-csharp-messages-batches-retrieve.md) — api-reference, message-batch, polling
+- **782** [Send Events (Beta)](782-docs-en-api-beta-sessions-events-send.md) — api-reference, anthropic-beta, session-management
+- **783** [Send Events (Beta) (Go)](783-docs-en-api-go-beta-sessions-events-send.md) — api-reference, session-management, user-interaction
+- **784** [Send Events (Beta) (Java)](784-docs-en-api-java-beta-sessions-events-send.md) — api-reference, beta-managed-agents, session-events
+- **785** [Sessions](785-docs-en-api-ruby-beta-sessions.md) — api-reference, beta-agents, session-management
+- **786** [Skills](786-docs-en-api-beta-skills.md) — api-reference, anthropic, skills-management
+- **787** [Skills](787-docs-en-api-java-beta-skills.md) — api-reference, anthropic-beta, java-sdk
+- **788** [Skills](788-docs-en-api-ruby-beta-skills.md) — api-reference, anthropic-beta, skills-management
+- **789** [Skills](789-docs-en-api-python-beta-skills.md) — api-reference, anthropic-beta, skills-management
+- **790** [Stream Events (Beta)](790-docs-en-api-beta-sessions-events-stream.md) — api-reference, streaming-data, anthropic-beta
+- **791** [Token counting](791-docs-en-build-with-claude-token-counting.md) — token-counting, api-reference, anthropic-claude
+- **792** [Trigger a routine via API](792-docs-en-api-claude-code-routines-fire.md) — claude-code, api-reference, automation
+- **793** [Update Agent (Beta)](793-docs-en-api-beta-agents-update.md) — api-reference, agent-management, anthropic-beta
+- **794** [Update Agent (Beta) (Java)](794-docs-en-api-java-beta-agents-update.md) — api-reference, agent-management, anthropic-beta
+- **795** [Update Agent (Beta) (Python)](795-docs-en-api-python-beta-agents-update.md) — api-reference, agent-management, claude-models
+- **796** [Update Credential (Beta) (cli)](796-docs-en-api-cli-beta-vaults-credentials-update.md) — api-reference, credential-management, vault-operations
+- **797** [Update Environment (Beta) (cli)](797-docs-en-api-cli-beta-environments-update.md) — api-reference, environment-management, cli-command
+- **798** [Update Session Resource (Beta) (TypeScript)](798-docs-en-api-typescript-beta-sessions-resources-update.md) — api-reference, session-management, resource-update
+- **799** [Update Session Resource (Beta) (cli)](799-docs-en-api-cli-beta-sessions-resources-update.md) — api-reference, session-management, resource-update
+- **800** [Update User](800-docs-en-api-admin-users-update.md) — api-reference, user-management, endpoint-specification
+- **801** [Update User Profile (Beta)](801-docs-en-api-beta-user-profiles-update.md) — api-reference, user-profiles, anthropic-beta
+- **802** [Update User Profile (Beta) (Java)](802-docs-en-api-java-beta-user-profiles-update.md) — beta-profiles, api-reference, user-management
+- **803** [Update User Profile (Beta) (cli)](803-docs-en-api-cli-beta-user-profiles-update.md) — api-reference, user-profiles, cli-command
+- **804** [Update Vault (Beta)](804-docs-en-api-beta-vaults-update.md) — api-reference, vault-management, endpoint-definition
+- **805** [Update Workspace](805-docs-en-api-admin-workspaces-update.md) — api-reference, workspace-management, data-residency
+- **806** [Update Workspace Member](806-docs-en-api-admin-workspaces-members-update.md) — api-reference, user-management, workspace-roles
+- **807** [User Profiles](807-docs-en-api-beta-user-profiles.md) — api-reference, user-profiles, anthropic-beta
+- **808** [Users](808-docs-en-api-admin-users.md) — api-reference, user-management, organizations
+- **809** [Vaults](809-docs-en-api-beta-vaults.md) — api-reference, anthropic-api, vault-management
+- **810** [Versions](810-docs-en-api-beta-skills-versions.md) — api-reference, anthropic-api, skill-management
+- **811** [Versions](811-docs-en-api-python-beta-skills-versions.md) — anthropic-api, skill-management, version-control
+- **812** [Versions](812-docs-en-api-ruby-beta-skills-versions.md) — api-reference, anthropic-beta, skill-management
+- **813** [Workspaces](813-docs-en-api-admin-workspaces.md) — api-reference, workspace-management, data-residency
+
+### Reference
+
+- **009** [API Overview](009-docs-en-api-overview.md) — anthropic-api, api-overview, documentation
+- **010** [Claude Platform](010-docs-en-release-notes-overview.md) — claude-api, changelog, model-updates
+- **011** [Features overview](011-docs-en-build-with-claude-overview.md) — claude-api, feature-overview, ai-capabilities
+- **012** [Model cards](012-docs-en-resources-overview.md) — anthropic-claude, resource-index, ai-documentation
+- **042** [Environments](042-docs-en-api-java-beta-environments.md) — api-reference, beta-features, environment-management
+- **043** [System Prompts](043-docs-en-release-notes-system-prompts.md) — claude-ai, system-prompts, anthropic
+- **045** [Glossary](045-docs-en-about-claude-glossary.md) — ai-terminology, glossary, llm-concepts
+- **087** [Agents](087-docs-en-api-typescript-beta-agents.md) — api-reference, agent-creation, claude-models
+- **088** [Archive Session (Beta) (Go)](088-docs-en-api-go-beta-sessions-archive.md) — api-reference, session-management, beta-features
+- **089** [Archive Session (Beta) (Ruby)](089-docs-en-api-ruby-beta-sessions-archive.md) — api-reference, anthropic-beta, session-management
+- **090** [Environments](090-docs-en-api-ruby-beta-environments.md) — api-reference, cloud-environments, beta-features
+- **091** [List Agent Versions (Beta) (Python)](091-docs-en-api-python-beta-agents-versions-list.md) — api-reference, agent-versions, pagination
+- **092** [Update Agent (Beta) (Go)](092-docs-en-api-go-beta-agents-update.md) — api-reference, agent-configuration, model-parameters
+- **093** [Update Agent (Beta) (TypeScript)](093-docs-en-api-typescript-beta-agents-update.md) — api-reference, agent-management, claude-models
+- **094** [Update Environment (Beta) (Ruby)](094-docs-en-api-ruby-beta-environments-update.md) — api-reference, cloud-environments, configuration-management
+- **095** [Update Session (Beta)](095-docs-en-api-beta-sessions-update.md) — api-reference, session-management, anthropic-beta
+- **096** [Versions](096-docs-en-api-python-beta-agents-versions.md) — api-reference, agent-versions, beta-features
+- **397** [Archive Agent (Beta) (Python)](397-docs-en-api-python-beta-agents-archive.md) — api-reference, agent-management, beta-features
+- **398** [Archive Credential (Beta) (Java)](398-docs-en-api-java-beta-vaults-credentials-archive.md) — api-reference, credential-management, vaults
+- **399** [Archive Session (Beta) (TypeScript)](399-docs-en-api-typescript-beta-sessions-archive.md) — api-reference, agent-management, beta-features
+- **400** [Archive Session (Beta) (csharp)](400-docs-en-api-csharp-beta-sessions-archive.md) — api-reference, beta-features, agent-management
+- **401** [Archive Vault (Beta) (Java)](401-docs-en-api-java-beta-vaults-archive.md) — api-reference, beta-features, vault-management
+- **402** [Beta](402-docs-en-api-beta.md) — api-reference, beta-features, error-handling
+- **403** [Beta](403-docs-en-api-cli-beta.md) — api-reference, beta-features, error-handling
+- **404** [Beta](404-docs-en-api-csharp-beta.md) — api-reference, beta-features, error-handling
+- **405** [Beta](405-docs-en-api-go-beta.md) — api-reference, error-handling, type-definitions
+- **406** [Beta](406-docs-en-api-python-beta.md) — anthropic-api, beta-features, api-reference
+- **407** [Beta](407-docs-en-api-ruby-beta.md) — api-reference, beta-features, error-handling
+- **408** [Beta](408-docs-en-api-typescript-beta.md) — api-reference, beta-features, type-definitions
+- **409** [Credentials](409-docs-en-api-java-beta-vaults-credentials.md) — api-reference, credential-management, auth-protocols
+- **410** [Delete Credential (Beta) (Java)](410-docs-en-api-java-beta-vaults-credentials-delete.md) — api-reference, credential-management, beta-features
+- **411** [Events](411-docs-en-api-csharp-beta-sessions-events.md) — api-reference, session-events, pagination
+- **412** [Events](412-docs-en-api-cli-beta-sessions-events.md) — api-reference, session-management, event-handling
+- **413** [Events](413-docs-en-api-go-beta-sessions-events.md) — api-reference, session-events, beta-features
+- **414** [Events](414-docs-en-api-python-beta-sessions-events.md) — api-reference, session-management, event-streaming
+- **415** [Events](415-docs-en-api-ruby-beta-sessions-events.md) — api-reference, session-events, beta-features
+- **416** [Events](416-docs-en-api-typescript-beta-sessions-events.md) — api-reference, beta-features, session-events
+- **417** [Files](417-docs-en-api-cli-beta-files.md) — cli-commands, file-management, api-reference
+- **418** [Files](418-docs-en-api-csharp-beta-files.md) — api-reference, file-management, beta-features
+- **419** [Files](419-docs-en-api-go-beta-files.md) — api-reference, file-management, beta-features
+- **420** [Files](420-docs-en-api-python-beta-files.md) — api-reference, file-management, beta-features
+- **421** [Files](421-docs-en-api-ruby-beta-files.md) — anthropic-api, file-management, beta-features
+- **422** [Files](422-docs-en-api-typescript-beta-files.md) — api-reference, file-management, beta-features
+- **423** [Get Agent (Beta) (TypeScript)](423-docs-en-api-typescript-beta-agents-retrieve.md) — api-reference, agent-retrieval, beta-features
+- **424** [Get Agent (Beta) (csharp)](424-docs-en-api-csharp-beta-agents-retrieve.md) — api-reference, agent-management, beta-features
+- **425** [Get Environment (Beta) (Go)](425-docs-en-api-go-beta-environments-retrieve.md) — api-reference, environment-management, beta-features
+- **426** [Get Session (Beta) (Go)](426-docs-en-api-go-beta-sessions-retrieve.md) — api-reference, beta-features, agent-management
+- **427** [Get Session (Beta) (Python)](427-docs-en-api-python-beta-sessions-retrieve.md) — api-reference, managed-agents, beta-features
+- **428** [Get Session (Beta) (TypeScript)](428-docs-en-api-typescript-beta-sessions-retrieve.md) — api-reference, beta-features, agent-sessions
+- **429** [Get Session Resource (Beta) (Go)](429-docs-en-api-go-beta-sessions-resources-retrieve.md) — api-reference, session-management, resource-retrieval
+- **430** [List Agent Versions (Beta) (Ruby)](430-docs-en-api-ruby-beta-agents-versions-list.md) — api-reference, beta-features, agent-management
+- **431** [List Agent Versions (Beta) (TypeScript)](431-docs-en-api-typescript-beta-agents-versions-list.md) — api-reference, beta-features, agent-management
+- **432** [List Agent Versions (Beta) (csharp)](432-docs-en-api-csharp-beta-agents-versions-list.md) — api-reference, agent-management, pagination
+- **433** [List Agents (Beta) (Go)](433-docs-en-api-go-beta-agents-list.md) — api-reference, agent-management, beta-features
+- **434** [List Agents (Beta) (Java)](434-docs-en-api-java-beta-agents-list.md) — api-reference, agent-management, beta-features
+- **435** [List Agents (Beta) (Ruby)](435-docs-en-api-ruby-beta-agents-list.md) — api-reference, beta-features, agent-orchestration
+- **436** [List Credentials (Beta) (Go)](436-docs-en-api-go-beta-vaults-credentials-list.md) — api-reference, vault-credentials, pagination
+- **437** [List Credentials (Beta) (TypeScript)](437-docs-en-api-typescript-beta-vaults-credentials-list.md) — api-reference, vault-credentials, auth-management
+- **438** [List Environments (Beta) (TypeScript)](438-docs-en-api-typescript-beta-environments-list.md) — api-reference, pagination, beta-features
+- **439** [List Events (Beta) (Go)](439-docs-en-api-go-beta-sessions-events-list.md) — api-reference, session-events, beta-features
+- **440** [List Events (Beta) (Java)](440-docs-en-api-java-beta-sessions-events-list.md) — api-reference, session-management, event-logging
+- **441** [List Events (Beta) (Python)](441-docs-en-api-python-beta-sessions-events-list.md) — api-reference, session-management, event-logs
+- **442** [List Events (Beta) (Ruby)](442-docs-en-api-ruby-beta-sessions-events-list.md) — api-reference, beta-features, session-events
+- **443** [List Events (Beta) (TypeScript)](443-docs-en-api-typescript-beta-sessions-events-list.md) — api-reference, beta-features, session-management
+- **444** [List Events (Beta) (cli)](444-docs-en-api-cli-beta-sessions-events-list.md) — api-reference, session-management, event-tracking
+- **445** [List Message Batches (Beta) (Go)](445-docs-en-api-go-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **446** [List Message Batches (Beta) (Java)](446-docs-en-api-java-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **447** [List Message Batches (Beta) (TypeScript)](447-docs-en-api-typescript-beta-messages-batches-list.md) — api-reference, message-batches, pagination
+- **448** [List Session Resources (Beta) (Go)](448-docs-en-api-go-beta-sessions-resources-list.md) — api-reference, beta-features, session-management
+- **449** [List Session Resources (Beta) (Java)](449-docs-en-api-java-beta-sessions-resources-list.md) — api-reference, resource-management, beta-features
+- **450** [List Session Resources (Beta) (Ruby)](450-docs-en-api-ruby-beta-sessions-resources-list.md) — api-reference, session-management, resource-retrieval
+- **451** [List Session Resources (Beta) (TypeScript)](451-docs-en-api-typescript-beta-sessions-resources-list.md) — api-reference, beta-features, resource-management
+- **452** [List Sessions (Beta) (Go)](452-docs-en-api-go-beta-sessions-list.md) — api-reference, session-management, beta-features
+- **453** [List Sessions (Beta) (Python)](453-docs-en-api-python-beta-sessions-list.md) — api-reference, agent-sessions, beta-features
+- **454** [List Sessions (Beta) (Ruby)](454-docs-en-api-ruby-beta-sessions-list.md) — api-reference, agent-sessions, beta-features
+- **455** [List Skill Versions (Beta) (Go)](455-docs-en-api-go-beta-skills-versions-list.md) — api-reference, skill-versions, pagination
+- **456** [List Skills (Beta) (TypeScript)](456-docs-en-api-typescript-beta-skills-list.md) — api-reference, beta-features, pagination
+- **457** [Messages](457-docs-en-api-java-beta-messages.md) — api-reference, message-generation, chat-conversations
+- **458** [Models](458-docs-en-api-go-beta-models.md) — api-reference, model-management, pagination
+- **459** [Models](459-docs-en-api-python-beta-models.md) — api-reference, model-management, beta-features
+- **460** [Resources](460-docs-en-api-java-beta-sessions-resources.md) — api-reference, beta-features, session-management
+- **461** [Resources](461-docs-en-api-go-beta-sessions-resources.md) — api-reference, beta-features, session-management
+- **462** [Retrieve Message Batch results (Beta) (Java)](462-docs-en-api-java-beta-messages-batches-results.md) — api-reference, batch-processing, jsonl-streaming
+- **463** [Retrieve Message Batch results (Beta) (csharp)](463-docs-en-api-csharp-beta-messages-batches-results.md) — api-reference, batch-processing, jsonl-streaming
+- **464** [Send Events (Beta) (Python)](464-docs-en-api-python-beta-sessions-events-send.md) — api-reference, beta-features, session-management
+- **465** [Sessions](465-docs-en-api-python-beta-sessions.md) — api-reference, beta-features, agent-management
+- **466** [Skills](466-docs-en-api-cli-beta-skills.md) — api-reference, cli-commands, beta-features
+- **467** [Stream Events (Beta) (Go)](467-docs-en-api-go-beta-sessions-events-stream.md) — api-reference, streaming-data, beta-features
+- **468** [Stream Events (Beta) (Java)](468-docs-en-api-java-beta-sessions-events-stream.md) — api-reference, streaming-events, beta-features
+- **469** [Stream Events (Beta) (Python)](469-docs-en-api-python-beta-sessions-events-stream.md) — api-reference, real-time-streaming, agent-sessions
+- **470** [Stream Events (Beta) (Ruby)](470-docs-en-api-ruby-beta-sessions-events-stream.md) — api-reference, streaming-events, beta-features
+- **471** [Stream Events (Beta) (cli)](471-docs-en-api-cli-beta-sessions-events-stream.md) — api-reference, server-sent-events, beta-features
+- **472** [Stream Events (Beta) (csharp)](472-docs-en-api-csharp-beta-sessions-events-stream.md) — api-reference, beta-features, streaming-events
+- **473** [Update Session (Beta) (Go)](473-docs-en-api-go-beta-sessions-update.md) — api-reference, beta-features, agent-management
+- **474** [Update Session (Beta) (TypeScript)](474-docs-en-api-typescript-beta-sessions-update.md) — api-reference, beta-features, session-management
+- **475** [Update User Profile (Beta) (Go)](475-docs-en-api-go-beta-user-profiles-update.md) — api-reference, user-profiles, beta-features
+- **476** [Upload File (Beta) (Java)](476-docs-en-api-java-beta-files-upload.md) — file-upload, api-reference, beta-features
+- **477** [User Profiles](477-docs-en-api-python-beta-user-profiles.md) — anthropic-api, user-profiles, beta-features
+- **478** [User Profiles](478-docs-en-api-go-beta-user-profiles.md) — api-reference, user-profiles, beta-features
+- **479** [Vaults](479-docs-en-api-ruby-beta-vaults.md) — anthropic-api, beta-features, credential-management
+- **480** [Vaults](480-docs-en-api-typescript-beta-vaults.md) — api-reference, beta-features, vault-management
+- **481** [Versions](481-docs-en-api-csharp-beta-agents-versions.md) — api-reference, agent-versions, beta-features
+- **482** [Versions](482-docs-en-api-java-beta-agents-versions.md) — api-reference, agent-versions, beta-features
+- **483** [Versions](483-docs-en-api-ruby-beta-agents-versions.md) — api-reference, agent-versions, beta-features
+- **484** [Versions](484-docs-en-api-typescript-beta-agents-versions.md) — api-reference, beta-features, agent-management
+- **490** [Models](490-docs-en-api-java-beta-models.md) — api-reference, model-management, pagination
+- **491** [Models](491-docs-en-api-cli-models.md) — api-reference, models-management, cli-commands
+- **492** [Models](492-docs-en-api-typescript-models.md) — api-reference, anthropic-sdk, models-management
+- **516** [Create Credential (Beta) (Go)](516-docs-en-api-go-beta-vaults-credentials-create.md) — api-reference, credential-management, oauth-authentication
+- **517** [Credentials](517-docs-en-api-beta-vaults-credentials.md) — api-reference, authentication, mcp-server
+- **518** [Credentials](518-docs-en-api-python-beta-vaults-credentials.md) — api-reference, auth-management, vaults
+- **519** [Credentials](519-docs-en-api-ruby-beta-vaults-credentials.md) — api-reference, auth-management, vaults
+- **520** [Get Credential (Beta)](520-docs-en-api-beta-vaults-credentials-retrieve.md) — api-reference, vault-management, authentication
+- **521** [Get Credential (Beta) (cli)](521-docs-en-api-cli-beta-vaults-credentials-retrieve.md) — api-reference, credential-management, vault-retrieval
+- **522** [Update Credential (Beta) (Go)](522-docs-en-api-go-beta-vaults-credentials-update.md) — api-reference, authentication, vaults
+- **523** [Update Credential (Beta) (Ruby)](523-docs-en-api-ruby-beta-vaults-credentials-update.md) — api-reference, vaults, authentication
+- **1051** [Admin](1051-docs-en-api-admin.md) — api-reference, organization-management, user-administration
+- **1052** [Archive Agent (Beta)](1052-docs-en-api-beta-agents-archive.md) — api-reference, agent-management, anthropic-beta
+- **1053** [Archive Agent (Beta) (Go)](1053-docs-en-api-go-beta-agents-archive.md) — api-reference, agent-management, anthropic-beta
+- **1054** [Batches](1054-docs-en-api-python-beta-messages-batches.md) — api-reference, batch-processing, messages-api
+- **1055** [Batches](1055-docs-en-api-go-messages-batches.md) — api-reference, batch-processing, messages-api
+- **1056** [Beta](1056-docs-en-api-java-beta.md) — api-reference, anthropic-beta, error-handling
+- **1057** [Claude API skill](1057-docs-en-agents-and-tools-agent-skills-claude-api-skill.md) — anthropic, claude-api, agent-skills
+- **1058** [Completions](1058-docs-en-api-cli-completions.md) — api-reference, text-completions, claude-models
+- **1059** [Completions](1059-docs-en-api-go-completions.md) — api-reference, text-generation, legacy-api
+- **1060** [Completions](1060-docs-en-api-java-completions.md) — api-reference, text-completions, claude-models
+- **1061** [Completions](1061-docs-en-api-python-completions.md) — api-reference, text-completion, claude-models
+- **1062** [Completions](1062-docs-en-api-ruby-completions.md) — api-reference, text-completions, llm-parameters
+- **1063** [Create a Message (Beta) (Python)](1063-docs-en-api-python-beta-messages-create.md) — api-reference, llm-interaction, messages-api
+- **1064** [Create a Message (Beta) (TypeScript)](1064-docs-en-api-typescript-beta-messages-create.md) — api-reference, chat-completions, llm-parameters
+- **1065** [Create a Message (Beta) (cli)](1065-docs-en-api-cli-beta-messages-create.md) — api-reference, messages-api, parameter-definitions
+- **1066** [Create a Message Batch (Java)](1066-docs-en-api-java-messages-batches-create.md) — api-reference, batch-processing, message-api
+- **1067** [Create a Text Completion (Go)](1067-docs-en-api-go-completions-create.md) — api-reference, text-completion, claude-models
+- **1068** [Create a Text Completion (Python)](1068-docs-en-api-python-completions-create.md) — api-reference, text-completion, anthropic-claude
+- **1069** [Create a Text Completion (Ruby)](1069-docs-en-api-ruby-completions-create.md) — api-reference, text-generation, legacy-api
+- **1070** [Create a Text Completion (csharp)](1070-docs-en-api-csharp-completions-create.md) — method-availability, language-constraints, error-message
+- **1071** [Environments](1071-docs-en-api-beta-environments.md) — api-reference, environment-management, cloud-computing
+- **1072** [Errors](1072-docs-en-api-errors.md) — api-reference, error-handling, troubleshooting
+- **1073** [Files](1073-docs-en-api-beta-files.md) — api-reference, file-management, anthropic-api
+- **1074** [Get Agent (Beta) (Go)](1074-docs-en-api-go-beta-agents-retrieve.md) — api-reference, agents-api, anthropic-beta
+- **1075** [Get Agent (Beta) (Java)](1075-docs-en-api-java-beta-agents-retrieve.md) — api-reference, managed-agents, anthropic-beta
+- **1076** [Get Agent (Beta) (cli)](1076-docs-en-api-cli-beta-agents-retrieve.md) — api-reference, anthropic-beta, agent-retrieval
+- **1077** [Get Environment (Beta) (Ruby)](1077-docs-en-api-ruby-beta-environments-retrieve.md) — api-reference, beta-environments, resource-retrieval
+- **1078** [Get Session (Beta)](1078-docs-en-api-beta-sessions-retrieve.md) — api-reference, anthropic-beta, agent-management
+- **1079** [Get Session (Beta) (cli)](1079-docs-en-api-cli-beta-sessions-retrieve.md) — api-reference, managed-agents, session-retrieval
+- **1080** [Get Session (Beta) (csharp)](1080-docs-en-api-csharp-beta-sessions-retrieve.md) — api-reference, managed-agents, session-management
+- **1081** [Get a Model (Beta) (cli)](1081-docs-en-api-cli-beta-models-retrieve.md) — api-reference, anthropic-beta, model-retrieval
+- **1082** [IP addresses](1082-docs-en-api-ip-addresses.md) — anthropic-api, ip-addresses, networking
+- **1083** [List Agent Versions (Beta)](1083-docs-en-api-beta-agents-versions-list.md) — api-reference, agent-management, pagination
+- **1084** [List Agents (Beta)](1084-docs-en-api-beta-agents-list.md) — api-reference, agent-management, anthropic-beta
+- **1085** [List Agents (Beta) (csharp)](1085-docs-en-api-csharp-beta-agents-list.md) — api-reference, agent-management, pagination
+- **1086** [List Credentials (Beta) (cli)](1086-docs-en-api-cli-beta-vaults-credentials-list.md) — api-reference, vault-management, credential-retrieval
+- **1087** [List Events (Beta)](1087-docs-en-api-beta-sessions-events-list.md) — api-reference, session-events, anthropic-beta
+- **1088** [List Models](1088-docs-en-api-models-list.md) — api-reference, pagination, model-management
+- **1089** [List Models (Java)](1089-docs-en-api-java-models-list.md) — api-reference, anthropic-sdk, pagination
+- **1090** [List Models (csharp)](1090-docs-en-api-csharp-models-list.md) — api-reference, model-management, pagination
+- **1091** [List Sessions (Beta)](1091-docs-en-api-beta-sessions-list.md) — api-reference, agent-sessions, anthropic-beta
+- **1092** [List Sessions (Beta) (cli)](1092-docs-en-api-cli-beta-sessions-list.md) — api-reference, session-management, endpoint-specification
+- **1093** [Messages](1093-docs-en-api-go-beta-messages.md) — api-reference, llm-interaction, message-parameters
+- **1094** [Messages](1094-docs-en-api-ruby-beta-messages.md) — api-reference, messages-api, llm-interaction
+- **1095** [Messages](1095-docs-en-api-cli-messages.md) — api-reference, llm-interaction, parameter-specification
+- **1096** [Messages](1096-docs-en-api-ruby-messages.md) — messages-api, llm-parameters, api-reference
+- **1097** [Models](1097-docs-en-api-models.md) — api-reference, anthropic-api, model-management
+- **1098** [Models](1098-docs-en-api-beta-models.md) — api-reference, anthropic-api, models-endpoint
+- **1099** [Models](1099-docs-en-api-java-models.md) — api-reference, model-management, anthropic-api
+- **1100** [Models](1100-docs-en-api-python-models.md) — api-reference, model-management, pagination
+- **1101** [Models](1101-docs-en-api-ruby-models.md) — api-reference, model-management, anthropic-api
+- **1102** [Pricing](1102-docs-en-about-claude-pricing.md) — anthropic-pricing, claude-models, prompt-caching
+- **1103** [Rate limits](1103-docs-en-api-rate-limits.md) — api-usage, rate-limits, spend-limits
+- **1104** [Retrieve Message Batch results (Beta) (TypeScript)](1104-docs-en-api-typescript-beta-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **1105** [Retrieve Message Batch results (Beta) (cli)](1105-docs-en-api-cli-beta-messages-batches-results.md) — api-reference, anthropic-beta, message-batches
+- **1106** [Retrieve Message Batch results (Go)](1106-docs-en-api-go-messages-batches-results.md) — api-reference, batch-processing, jsonl-streaming
+- **1107** [Retrieve Message Batch results (Python)](1107-docs-en-api-python-messages-batches-results.md) — api-reference, message-batches, jsonl-format
+- **1108** [Retrieve Message Batch results (TypeScript)](1108-docs-en-api-typescript-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **1109** [Retrieve Message Batch results (csharp)](1109-docs-en-api-csharp-messages-batches-results.md) — api-reference, message-batches, jsonl-streaming
+- **1110** [Send Events (Beta) (Ruby)](1110-docs-en-api-ruby-beta-sessions-events-send.md) — api-reference, session-management, agent-interaction
+- **1111** [Send Events (Beta) (csharp)](1111-docs-en-api-csharp-beta-sessions-events-send.md) — api-reference, beta-agents, session-events
+- **1112** [Session event stream](1112-docs-en-managed-agents-events-and-streaming.md) — managed-agents, event-streams, api-reference
+- **1113** [Sessions](1113-docs-en-api-cli-beta-sessions.md) — api-reference, managed-agents, session-management
+- **1114** [Skills](1114-docs-en-api-csharp-beta-skills.md) — api-reference, anthropic-beta, skills-management
+- **1115** [Supported regions](1115-docs-en-api-supported-regions.md) — geography-support, regional-availability, access-locations
+- **1116** [Tool reference](1116-docs-en-agents-and-tools-tool-use-tool-reference.md) — anthropic, tool-use, api-reference
+- **1117** [Update Agent (Beta) (cli)](1117-docs-en-api-cli-beta-agents-update.md) — api-reference, agent-management, endpoint-specification
+- **1118** [Update Agent (Beta) (csharp)](1118-docs-en-api-csharp-beta-agents-update.md) — api-reference, agent-management, parameter-specification
+- **1119** [Update Session (Beta) (cli)](1119-docs-en-api-cli-beta-sessions-update.md) — api-reference, managed-agents, cli-command
+- **1120** [Usage Report](1120-docs-en-api-admin-usage-report.md) — usage-reports, api-reference, analytics-metrics
+- **1121** [Versions](1121-docs-en-api-beta-agents-versions.md) — api-reference, agent-versions, endpoint-specification
+- **1122** [Versions](1122-docs-en-api-versioning.md) — api-versioning, backward-compatibility, request-headers
+- **1124** [Container reference](1124-docs-en-managed-agents-cloud-containers.md) — cloud-containers, environment-specs, software-stack
+- **1131** [Multilingual support](1131-docs-en-build-with-claude-multilingual-support.md) — multilingual-support, language-performance, prompt-engineering
+
+## Quick Search by Topics
+
+### Claude Api
+
+- [Agent Skills](002-docs-en-agents-and-tools-agent-skills-overview.md)
+- [Tool use with Claude](008-docs-en-agents-and-tools-tool-use-overview.md)
+- [Claude Platform](010-docs-en-release-notes-overview.md)
+- [Features overview](011-docs-en-build-with-claude-overview.md)
+- [Get started with Agent Skills in the API](014-docs-en-agents-and-tools-agent-skills-quickstart.md)
+- [Get started with Claude](018-docs-en-get-started.md)
+- [Adaptive thinking](022-docs-en-build-with-claude-adaptive-thinking.md)
+- [CLI](023-docs-en-api-sdks-cli.md)
+- [Code execution tool](026-docs-en-agents-and-tools-tool-use-code-execution-tool.md)
+- [Streaming refusals](037-docs-en-test-and-evaluate-strengthen-guardrails-handle-streaming-refusals.md)
+- *... and 205 more*
+
+### Agent
+
+- [Anthropic Developer Documentation - Full Content](llms-full.txt.md)
+- [Agent Skills](002-docs-en-agents-and-tools-agent-skills-overview.md)
+- [Claude Managed Agents overview](003-docs-en-managed-agents-overview.md)
+- [Tool use with Claude](008-docs-en-agents-and-tools-tool-use-overview.md)
+- [Get started with Claude Managed Agents](013-docs-en-managed-agents-quickstart.md)
+- [Get started with Agent Skills in the API](014-docs-en-agents-and-tools-agent-skills-quickstart.md)
+- [Cloud environment setup](016-docs-en-managed-agents-environments.md)
+- [Define your agent](017-docs-en-managed-agents-agent-setup.md)
+- [Code execution tool](026-docs-en-agents-and-tools-tool-use-code-execution-tool.md)
+- [Migration](031-docs-en-managed-agents-migration.md)
+- *... and 147 more*
+
+### Tool Use
+
+- [Tool use with Claude](008-docs-en-agents-and-tools-tool-use-overview.md)
+- [How tool use works](044-docs-en-agents-and-tools-tool-use-how-tool-use-works.md)
+- [Tools](086-docs-en-managed-agents-tools.md)
+- [Send Events (Beta) (TypeScript)](334-docs-en-api-typescript-beta-sessions-events-send.md)
+- [Agents](529-docs-en-api-beta-agents.md)
+- [Agents](530-docs-en-api-java-beta-agents.md)
+- [Agents](531-docs-en-api-python-beta-agents.md)
+- [Agents](532-docs-en-api-ruby-beta-agents.md)
+- [Create a Message (cli)](617-docs-en-api-cli-messages-create.md)
+- [Fine-grained tool streaming](833-docs-en-agents-and-tools-tool-use-fine-grained-tool-streaming.md)
+- *... and 8 more*
+
+### Managed Agents
+
+- [Anthropic Developer Documentation - Full Content](llms-full.txt.md)
+- [Claude Managed Agents overview](003-docs-en-managed-agents-overview.md)
+- [Cloud environment setup](016-docs-en-managed-agents-environments.md)
+- [Define your agent](017-docs-en-managed-agents-agent-setup.md)
+- [Migration](031-docs-en-managed-agents-migration.md)
+- [Create Session (Beta) (Go)](138-docs-en-api-go-beta-sessions-create.md)
+- [Create Session (Beta) (TypeScript)](141-docs-en-api-typescript-beta-sessions-create.md)
+- [Sessions](337-docs-en-api-csharp-beta-sessions.md)
+- [Update Session (Beta) (csharp)](350-docs-en-api-csharp-beta-sessions-update.md)
+- [Get Session (Beta) (Python)](427-docs-en-api-python-beta-sessions-retrieve.md)
+- *... and 12 more*
+
+### Prompt Engineering
+
+- [Prompt engineering overview](007-docs-en-build-with-claude-prompt-engineering-overview.md)
+- [Migration guide](032-docs-en-about-claude-models-migration-guide.md)
+- [Skill authoring best practices](514-docs-en-agents-and-tools-agent-skills-best-practices.md)
+- [Mitigate jailbreaks and prompt injections](526-docs-en-test-and-evaluate-strengthen-guardrails-mitigate-jailbreaks.md)
+- [Reduce prompt leak](527-docs-en-test-and-evaluate-strengthen-guardrails-reduce-prompt-leak.md)
+- [Console prompting tools](1129-docs-en-build-with-claude-prompt-engineering-prompting-tools.md)
+- [Reducing latency](1130-docs-en-test-and-evaluate-strengthen-guardrails-reduce-latency.md)
+- [Multilingual support](1131-docs-en-build-with-claude-multilingual-support.md)
+- [Define success criteria and build evaluations](1133-docs-en-test-and-evaluate-develop-tests.md)
+- [Increase output consistency](1134-docs-en-test-and-evaluate-strengthen-guardrails-increase-consistency.md)
+- *... and 3 more*
+
+### Sdks
+
+- [Get started with Claude Managed Agents](013-docs-en-managed-agents-quickstart.md)
+- [Get started with Claude](018-docs-en-get-started.md)
+- [Client SDKs](025-docs-en-api-client-sdks.md)
+- [Create User Profile (Beta) (Java)](153-docs-en-api-java-beta-user-profiles-create.md)
+- [Download File (Beta) (Java)](211-docs-en-api-java-beta-files-download.md)
+- [Beta headers](391-docs-en-api-beta-headers.md)
+- [Multiagent sessions](395-docs-en-managed-agents-multi-agent.md)
+- [Claude on Vertex AI](828-docs-en-build-with-claude-claude-on-vertex-ai.md)
+- [Streaming Messages](1123-docs-en-build-with-claude-streaming.md)
+- [Claude on Amazon Bedrock](1125-docs-en-build-with-claude-claude-on-amazon-bedrock.md)
+
+### Security
+
+- [API and data retention](524-docs-en-build-with-claude-api-and-data-retention.md)
+- [Computer use tool](525-docs-en-agents-and-tools-tool-use-computer-use-tool.md)
+- [Mitigate jailbreaks and prompt injections](526-docs-en-test-and-evaluate-strengthen-guardrails-mitigate-jailbreaks.md)
+- [Reduce prompt leak](527-docs-en-test-and-evaluate-strengthen-guardrails-reduce-prompt-leak.md)
+- [Skills for enterprise](528-docs-en-agents-and-tools-agent-skills-enterprise.md)
+
+### Batch
+
+- [Batches](020-docs-en-api-ruby-beta-messages-batches.md)
+- [Batches](021-docs-en-api-typescript-beta-messages-batches.md)
+- [Cancel a Message Batch (Beta) (csharp)](124-docs-en-api-csharp-beta-messages-batches-cancel.md)
+- [Delete a Message Batch (Beta) (Java)](207-docs-en-api-java-beta-messages-batches-delete.md)
+- [Delete a Message Batch (Beta) (Python)](208-docs-en-api-python-beta-messages-batches-delete.md)
+- [Delete a Message Batch (Beta) (csharp)](209-docs-en-api-csharp-beta-messages-batches-delete.md)
+- [List Message Batches (Beta) (Python)](285-docs-en-api-python-beta-messages-batches-list.md)
+- [List Message Batches (Beta) (Ruby)](286-docs-en-api-ruby-beta-messages-batches-list.md)
+- [List Message Batches (Beta) (csharp)](287-docs-en-api-csharp-beta-messages-batches-list.md)
+- [Retrieve Message Batch results (Beta) (Go)](329-docs-en-api-go-beta-messages-batches-results.md)
+- *... and 104 more*
+
+## Learning Path
+
+### Foundation
+- Start with [Intro to Claude](001-docs-en-intro.md)
+- Follow the [Get started with Claude](002-docs-en-get-started.md) guide
+- Explore [Features overview](003-docs-en-build-with-claude-overview.md)
+
+### Core Development
+- Learn [Tool use with Claude](004-docs-en-agents-and-tools-tool-use-overview.md)
+- Master [Agent Skills](005-docs-en-agents-and-tools-agent-skills-overview.md)
+- Understand [Prompt engineering](006-docs-en-build-with-claude-prompt-engineering-overview.md)
+
+### Practical Guides
+- Build with [Structured outputs](007-docs-en-build-with-claude-structured-outputs.md)
+- Implement [Streaming](008-docs-en-build-with-claude-streaming.md)
+- Use [Files API](009-docs-en-build-with-claude-files.md)
+
+### Advanced Topics
+- Explore [Extended thinking](010-docs-en-build-with-claude-extended-thinking.md)
+- Configure [Context windows](011-docs-en-build-with-claude-context-windows.md)
+- Optimize with [Prompt caching](012-docs-en-build-with-claude-prompt-caching.md)

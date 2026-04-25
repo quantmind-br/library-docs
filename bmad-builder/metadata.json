@@ -1,0 +1,356 @@
+{
+  "generated_at": "2026-04-08T11:33:30.842170608-03:00",
+  "source_url": "https://bmad-builder-docs.bmad-method.org/sitemap-0.xml",
+  "strategy": "sitemap",
+  "total_documents": 18,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Welcome",
+      "url": "https://bmad-builder-docs.bmad-method.org/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:02.019950608-03:00",
+      "description": "BMad Builder - Build More, Architect Dreams",
+      "summary": "This document introduces BMad Builder, a system designed for creating advanced AI modules with features like persistent memory and composability. It guides users through the process of registering, building, and deploying custom skills or agents within the broader BMad ecosystem.",
+      "tags": [
+        "ai-companion",
+        "module-development",
+        "workflow-automation",
+        "agent-building",
+        "skill-creation",
+        "bmad-ecosystem"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "002-explanation-what-are-skills.md",
+      "original_file_path": "explanation-what-are-skills.md",
+      "title": "What Are Skills?",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/what-are-skills/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:11.448318492-03:00",
+      "description": "The universal building block underneath agents, workflows, and utilities in the BMad ecosystem",
+      "summary": "This document explains that Skills serve as the universal packaging format for all outputs from the BMad Builder, adhering to the Agent Skills open standard and detailing the components required within a skill folder.",
+      "tags": [
+        "bmad-builder",
+        "skill-format",
+        "agent-skills-standard",
+        "workflow-structure",
+        "component-guide"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "003-explanation-what-are-workflows.md",
+      "original_file_path": "explanation-what-are-workflows.md",
+      "title": "What Are BMad Workflows?",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/what-are-workflows/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:14.076772892-03:00",
+      "description": "How workflows guide users through structured processes, how they differ from agents and simple skills, and when to build one",
+      "summary": "This document explains what BMad Workflows are—structured processes designed to achieve a specific, cohesive outcome by guiding users through sequential steps. It details workflow types, interaction modes like progressive disclosure and headless operation, and advises when to use a workflow versus an agent.",
+      "tags": [
+        "bmad-workflows",
+        "process-design",
+        "workflow-automation",
+        "agent-comparison",
+        "progressive-disclosure",
+        "headless-mode"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-explanation-what-are-modules.md",
+      "original_file_path": "explanation-what-are-modules.md",
+      "title": "What Are BMad Modules?",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/what-are-modules/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:09.215409701-03:00",
+      "description": "How agents and workflows combine into installable, configurable modules within the BMad ecosystem",
+      "summary": "This document details the structure, components, and best practices for building BMad modules, covering topics from distribution formats (plugins) to architectural choices like agent types and memory management.",
+      "tags": [
+        "module-structure",
+        "bmad-api",
+        "plugin-development",
+        "agent-design",
+        "workflow-patterns",
+        "skill-registration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "005-explanation-what-are-bmad-agents.md",
+      "original_file_path": "explanation-what-are-bmad-agents.md",
+      "title": "What Are BMad Agents?",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/what-are-bmad-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:07.210816537-03:00",
+      "description": "How agents differ from workflows, what the three agent types are, and when to build each one",
+      "summary": "This document explains BMad Agents, which are advanced conversational AI skills combining a persona, defined capabilities, and optional memory to create specialized partners. It details three agent types—Stateless, Memory, and Autonomous—and outlines the architecture of persistent state management using a 'sanctum'.",
+      "tags": [
+        "bmad-agents",
+        "ai-persona",
+        "agent-types",
+        "conversational-ai",
+        "persistent-memory",
+        "skill-design"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "006-explanation-agent-memory-and-personalization.md",
+      "original_file_path": "explanation-agent-memory-and-personalization.md",
+      "title": "Agent Memory and Personalization",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/agent-memory-and-personalization/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:02.013845106-03:00",
+      "description": "How the sanctum architecture, First Breath, two-tier memory, PULSE, and evolvable capabilities work together to create agents that grow with their owners",
+      "summary": "This document details the architecture and operational lifecycle of memory agents, explaining how persistent identity is maintained across stateless sessions using a structured 'sanctum' folder. It covers initialization ('First Breath'), ongoing maintenance through session logging and knowledge curation into MEMORY.md, autonomous operation via PULSE, and methods for evolving agent capabilities.",
+      "tags": [
+        "memory-agents",
+        "agent-architecture",
+        "session-persistence",
+        "knowledge-curation",
+        "sanctum-structure",
+        "autonomous-operation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-explanation-progressive-disclosure.md",
+      "original_file_path": "explanation-progressive-disclosure.md",
+      "title": "Progressive Disclosure in Skills",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/progressive-disclosure/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:02.051841471-03:00",
+      "description": "How to structure skills so they load only the context needed at each moment, from frontmatter through dynamic routing to step files",
+      "summary": "This document explains progressive disclosure techniques for designing agent skills by introducing four layers of context loading (Frontmatter/Body, On-Demand Resources, Dynamic Routing, and Step Files). It also details the 'document-as-cache' pattern for maintaining state in long workflows.",
+      "tags": [
+        "agent-skill-design",
+        "progressive-disclosure",
+        "llm-context-management",
+        "workflow-structuring",
+        "layering-system"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "008-explanation-scripts-in-skills.md",
+      "original_file_path": "explanation-scripts-in-skills.md",
+      "title": "Scripts in Skills",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/scripts-in-skills/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:05.383575207-03:00",
+      "description": "Why deterministic scripts make skills faster, cheaper, and more reliable, and the technical choices behind portable script design",
+      "summary": "This document outlines the best practice of using external scripts for deterministic tasks within AI skills, allowing Large Language Models (LLMs) to focus on judgment and creativity. It details when to use scripting over LLM prompting, emphasizes Python's benefits over Bash, and describes modern dependency management via PEP 723.",
+      "tags": [
+        "scripting-vs-llm",
+        "determinism",
+        "python-best-practices",
+        "dependency-management",
+        "ai-skill-design"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "009-explanation-subagent-patterns.md",
+      "original_file_path": "explanation-subagent-patterns.md",
+      "title": "Subagent Orchestration Patterns",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/subagent-patterns/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:06.489339549-03:00",
+      "description": "Six patterns for using subagents effectively, from simple data delegation through persona-driven parallel reasoning to evolutionary systems",
+      "summary": "This document details advanced patterns for orchestrating LLM work using isolated 'subagents' that communicate via a shared filesystem blackboard, emphasizing techniques to prevent the parent context from bloating and maintain efficiency.",
+      "tags": [
+        "llm-orchestration",
+        "subagent-patterns",
+        "filesystem-blackboard",
+        "context-management",
+        "ai-architecture"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "010-explanation-skill-authoring-best-practices.md",
+      "original_file_path": "explanation-skill-authoring-best-practices.md",
+      "title": "Skill Authoring Best Practices",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/skill-authoring-best-practices/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:05.706220734-03:00",
+      "description": "Core principles, common patterns, quality dimensions, and anti-patterns for writing effective BMad skills",
+      "summary": "This document provides detailed best practices for writing robust and adaptable AI agent instructions, covering core principles like informed autonomy, structuring workflows with soft gates, managing context flow, and designing multi-faceted outputs.",
+      "tags": [
+        "ai-agent-design",
+        "prompt-engineering",
+        "workflow-guidelines",
+        "llm-best-practices",
+        "context-management",
+        "system-architecture"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "011-explanation-module-configuration.md",
+      "original_file_path": "explanation-module-configuration.md",
+      "title": "Module Configuration and the Setup Skill",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/module-configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:02.021780238-03:00",
+      "description": "How BMad modules handle user configuration through a setup skill, when to use configuration vs. alternatives, and how to register with the help system",
+      "summary": "This document explains the methods for module registration within a system, detailing when to use configuration skills versus self-registration, and outlining the structure and purpose of required files like `module-help.csv` and `assets/module.yaml`. It details how registration allows users to discover and manage module capabilities through a help system.",
+      "tags": [
+        "module-registration",
+        "configuration-skills",
+        "help-system",
+        "metadata-management",
+        "setup-skill",
+        "workflow-automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "012-explanation.md",
+      "original_file_path": "explanation.md",
+      "title": "BMad Builder (BMB)",
+      "url": "https://bmad-builder-docs.bmad-method.org/explanation/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:02.021182154-03:00",
+      "description": "Create custom agents, workflows, and skills with BMad",
+      "summary": "This document serves as a comprehensive reference guide explaining the core building blocks—including skills, agents, workflows, and modules—required to create advanced AI systems using the BMad Builder. It covers various architectural patterns and best practices for developing robust, configurable AI workflows.",
+      "tags": [
+        "ai-agents",
+        "workflow-design",
+        "bmad-builder",
+        "skills",
+        "module-development",
+        "architectural-patterns"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "013-reference.md",
+      "original_file_path": "reference.md",
+      "title": "Reference",
+      "url": "https://bmad-builder-docs.bmad-method.org/reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:16.578228031-03:00",
+      "description": "Technical reference for BMad Builder",
+      "summary": "This document serves as a technical reference providing documentation for the BMad Builder's configuration settings, schemas, builder skills, commands, and workflow patterns.",
+      "tags": [
+        "technical-reference",
+        "builder-skills",
+        "workflow-patterns",
+        "schema",
+        "bmad-builder"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "014-reference-builder-commands.md",
+      "original_file_path": "reference-builder-commands.md",
+      "title": "Builder Commands Reference",
+      "url": "https://bmad-builder-docs.bmad-method.org/reference/builder-commands/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:17.394843546-03:00",
+      "description": "Complete reference for all capabilities, modes, and paths available in the Agent Builder, Workflow Builder, and Module Builder",
+      "summary": "This document serves as a comprehensive reference for the three BMad Builder skills—Agent, Workflow, and Module Builders—detailing their core capabilities, multi-phase development processes, and specific requirements at each stage of building sophisticated AI agents and workflows.",
+      "tags": [
+        "bmad-builder",
+        "agent-builder",
+        "workflow-builder",
+        "ai-development",
+        "skill-design",
+        "headless-mode"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "015-reference-workflow-patterns.md",
+      "original_file_path": "reference-workflow-patterns.md",
+      "title": "Workflow & Skill Patterns",
+      "url": "https://bmad-builder-docs.bmad-method.org/reference/workflow-patterns/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:20.151386747-03:00",
+      "description": "Reference for the three skill types, their structure patterns, decision criteria, and execution models",
+      "summary": "This document serves as a taxonomy and reference guide detailing how the BMad Builder classifies skills into three types: Simple Utility, Simple Workflow, and Complex Workflow. It outlines the structural patterns, defining signals, and applicable use cases for each skill type.",
+      "tags": [
+        "skill-taxonomy",
+        "bmad-builder",
+        "workflow-types",
+        "skill-structure",
+        "headless-mode",
+        "simple-utility"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "016-how-to-distribute-your-module.md",
+      "original_file_path": "how-to-distribute-your-module.md",
+      "title": "Distribute Your Module",
+      "url": "https://bmad-builder-docs.bmad-method.org/how-to/distribute-your-module/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:14.666342459-03:00",
+      "description": "Set up a GitHub repository to share your BMad module so others can install it",
+      "summary": "This guide details the comprehensive process of packaging and publishing a BMad module to GitHub, covering manifest configuration, repository structuring for single or multiple modules, verification steps, and finally, how users will install the published content.",
+      "tags": [
+        "bmad-module",
+        "plugin-manifest",
+        "github-publishing",
+        "repository-structure",
+        "skill-development",
+        "marketplace-submission"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "017-tutorials.md",
+      "original_file_path": "tutorials.md",
+      "title": "Tutorials",
+      "url": "https://bmad-builder-docs.bmad-method.org/tutorials/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:21.858349738-03:00",
+      "description": "Learn BMad Builder through hands-on examples",
+      "summary": "This section provides hands-on tutorials designed to help users learn how to build modules using the BMad Builder.",
+      "tags": [
+        "tutorial",
+        "bmad-builder",
+        "module-building",
+        "hands-on"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "018-tutorials-build-your-first-module.md",
+      "original_file_path": "tutorials-build-your-first-module.md",
+      "title": "Build Your First Module",
+      "url": "https://bmad-builder-docs.bmad-method.org/tutorials/build-your-first-module/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:33:23.756783606-03:00",
+      "description": "Create a complete BMad module from idea to installable package using the Module Builder",
+      "summary": "This tutorial comprehensively guides users through the process of developing a BMad module, covering everything from initial concept ideation and skill building to final scaffolding, validation, and distribution.",
+      "tags": [
+        "bmad-module",
+        "skill-building",
+        "developer-guide",
+        "module-lifecycle",
+        "agent-workflows"
+      ],
+      "category": "tutorial"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-08T14:40:00Z",
+    "total_files": 18,
+    "categories": [
+      "Introduction & Overview",
+      "What Are... Concepts",
+      "Advanced Concepts & Patterns",
+      "Module Configuration",
+      "Reference",
+      "How-To Guides",
+      "Tutorials"
+    ]
+  }
+}

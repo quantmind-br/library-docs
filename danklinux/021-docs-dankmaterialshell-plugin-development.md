@@ -1,0 +1,1583 @@
+---
+title: Development | Dank Linux
+url: https://danklinux.com/docs/dankmaterialshell/plugin-development
+source: sitemap
+fetched_at: 2026-04-07T21:33:13.70919655-03:00
+rendered_js: false
+word_count: 1486
+summary: This guide provides a comprehensive tutorial on building and shipping plugins for DankMaterialShell, detailing everything from setting up the development environment to creating fully functional widgets with settings and popout menus.
+tags:
+    - plugin-development
+    - qml-components
+    - dankmaterialshell
+    - widget-creation
+    - vscode-setup
+    - live-testing
+category: tutorial
+---
+
+```
+██████╗ ███████╗██╗   ██╗
+██╔══██╗██╔════╝██║   ██║
+██║  ██║█████╗  ██║   ██║
+██║  ██║██╔══╝  ╚██╗ ██╔╝
+██████╔╝███████╗ ╚████╔╝
+╚═════╝ ╚══════╝  ╚═══╝  
+```
+
+Build and ship plugins for DankMaterialShell. This guide covers the actual patterns and components you'll use, with real working examples from the plugin library.
+
+## Development Environment[​](#development-environment "Direct link to Development Environment")
+
+For IDE support (autocomplete, type checking, etc.), clone the DMS repo and develop plugins there:
+
+```bash
+mkdir-p ~/repos &&cd ~/repos
+git clone https://github.com/AvengeMedia/DankMaterialShell.git
+cd DankMaterialShell/quickshell
+
+# Generate QML language server config
+touch .qmlls.ini
+qs -p.# Press Ctrl+C after it starts
+
+# Create your plugins here
+mkdir-p dms-plugins/MyPlugin
+```
+
+### VSCode Setup[​](#vscode-setup "Direct link to VSCode Setup")
+
+1. Install the [QML Extension](https://marketplace.visualstudio.com/items?itemName=TheQtCompany.qt-qml)
+2. Configure qmlls path via `Ctrl+Shift+P` → "Preferences: Open User Settings (JSON)":
+
+```json
+{
+"qt-qml.doNotAskForQmllsDownload":true,
+"qt-qml.qmlls.customExePath":"/usr/lib/qt6/bin/qmlls"
+}
+```
+
+3. Open VSCode in the `~/repos/DankMaterialShell/quickshell` directory
+
+### Live Development[​](#live-development "Direct link to Live Development")
+
+Symlink your plugin to the DMS plugins directory for live testing:
+
+```bash
+ln-sf ~/repos/DankMaterialShell/quickshell/dms-plugins/MyPlugin \
+       ~/.config/DankMaterialShell/plugins/MyPlugin
+```
+
+Reload your plugin at runtime without restarting DMS:
+
+```bash
+dms ipc call plugins reload myPlugin
+```
+
+List all plugins and their status:
+
+```bash
+dms ipc call plugins list
+```
+
+tip
+
+Use [Run on Save](https://marketplace.visualstudio.com/items?itemName=emeraldwalk.RunOnSave) to auto-reload your plugin during development. The reload command uses the plugin `id` from your `plugin.json`.
+
+## Quick Start[​](#quick-start "Direct link to Quick Start")
+
+### 1. Create Plugin Directory[​](#1-create-plugin-directory "Direct link to 1. Create Plugin Directory")
+
+```bash
+mkdir-p ~/.config/DankMaterialShell/plugins/MyPlugin
+cd ~/.config/DankMaterialShell/plugins/MyPlugin
+```
+
+### 2. Create Manifest[​](#2-create-manifest "Direct link to 2. Create Manifest")
+
+Save this as `plugin.json`:
+
+```json
+{
+"id":"myPlugin",
+"name":"My Plugin",
+"description":"What this plugin does",
+"version":"1.0.0",
+"author":"Your Name",
+"icon":"widgets",
+"type":"widget",
+"component":"./MyWidget.qml",
+"settings":"./MySettings.qml",
+"permissions":["settings_read","settings_write"]
+}
+```
+
+### 3. Create Widget Component[​](#3-create-widget-component "Direct link to 3. Create Widget Component")
+
+Save this as `MyWidget.qml`:
+
+```qml
+import QtQuick
+import qs.Common
+import qs.Services
+import qs.Widgets
+import qs.Modules.Plugins
+
+PluginComponent{
+id:root
+
+propertystringdisplayText:pluginData.displayText ||"Hello"
+
+horizontalBarPill:Component{
+Row{
+spacing:Theme.spacingS
+
+DankIcon{
+name:"widgets"
+size:Theme.iconSize
+color:Theme.primary
+anchors.verticalCenter:parent.verticalCenter
+}
+
+StyledText{
+text:root.displayText
+font.pixelSize:Theme.fontSizeMedium
+color:Theme.surfaceText
+anchors.verticalCenter:parent.verticalCenter
+}
+}
+}
+
+verticalBarPill:Component{
+Column{
+spacing:Theme.spacingXS
+
+DankIcon{
+name:"widgets"
+size:Theme.iconSize
+color:Theme.primary
+anchors.horizontalCenter:parent.horizontalCenter
+}
+
+StyledText{
+text:root.displayText
+font.pixelSize:Theme.fontSizeSmall
+color:Theme.surfaceText
+anchors.horizontalCenter:parent.horizontalCenter
+}
+}
+}
+}
+```
+
+### 4. Create Settings Component[​](#4-create-settings-component "Direct link to 4. Create Settings Component")
+
+Save this as `MySettings.qml`:
+
+```qml
+import QtQuick
+import qs.Common
+import qs.Modules.Plugins
+import qs.Widgets
+
+PluginSettings{
+id:root
+pluginId:"myPlugin"
+
+StyledText{
+width:parent.width
+text:"My Plugin Settings"
+font.pixelSize:Theme.fontSizeLarge
+font.weight:Font.Bold
+color:Theme.surfaceText
+}
+
+StyledText{
+width:parent.width
+text:"Configure your plugin here"
+font.pixelSize:Theme.fontSizeSmall
+color:Theme.surfaceVariantText
+wrapMode:Text.WordWrap
+}
+
+StringSetting{
+settingKey:"displayText"
+label:"Display Text"
+description:"Text shown in the bar"
+placeholder:"Enter text"
+defaultValue:"Hello"
+}
+}
+```
+
+### 5. Load It[​](#5-load-it "Direct link to 5. Load It")
+
+1. Open DMS Settings → Plugins
+2. Click "Scan for Plugins"
+3. Toggle your plugin on
+4. Add to DankBar widget list
+5. Restart shell: `dms restart`
+
+You now have a working plugin.
+
+Widget plugins show up in DankBar or the Control Center. They use `PluginComponent` as the base.
+
+### DankBar Widget[​](#dankbar-widget "Direct link to DankBar Widget")
+
+Here's a real color display widget:
+
+```qml
+import QtQuick
+import qs.Common
+import qs.Services
+import qs.Widgets
+import qs.Modules.Plugins
+
+PluginComponent{
+id:root
+
+propertycolorcustomColor:pluginData.customColor || Theme.primary
+
+horizontalBarPill:Component{
+Row{
+spacing:Theme.spacingS
+
+Rectangle{
+width:20
+height:20
+radius:4
+color:root.customColor
+border.color:Theme.outlineStrong
+border.width:1
+anchors.verticalCenter:parent.verticalCenter
+}
+
+StyledText{
+text:root.customColor.toString()
+font.pixelSize:Theme.fontSizeSmall
+color:Theme.surfaceText
+anchors.verticalCenter:parent.verticalCenter
+}
+}
+}
+
+verticalBarPill:Component{
+Column{
+spacing:Theme.spacingXS
+
+Rectangle{
+width:20
+height:20
+radius:4
+color:root.customColor
+border.color:Theme.outlineStrong
+border.width:1
+anchors.horizontalCenter:parent.horizontalCenter
+}
+
+StyledText{
+text:root.customColor.toString()
+font.pixelSize:Theme.fontSizeSmall
+color:Theme.surfaceText
+anchors.horizontalCenter:parent.horizontalCenter
+}
+}
+}
+}
+```
+
+The widget pulls `customColor` from `pluginData`, which automatically syncs with your settings. No manual loading needed.
+
+### Widget with Popout[​](#widget-with-popout "Direct link to Widget with Popout")
+
+Add a popout menu that opens when you click the widget.
+
+To add a layer namespace to your plugin, just add `layerNamespacePlugin: "<namespace for your plugin>"` like below. Make sure to only type what you want the namespace to be and to not add a prefix (like `dms:` or `dms:plugins:` for example) since the shell will add `dms:plugins:` as a prefix automatically. For example, the namespace of the plugin below will be `dms:plugins:emoji-launcher`.
+
+While you don't have to add a layer namespace to you widget (it will fallback to `dms:plugins:plugin`), it's prefered to do so.
+
+warning
+
+As of right now, layer namespace only work with popout widget plugins.
+
+```qml
+PluginComponent{
+id:root
+
+layerNamespacePlugin:"emoji-launcher"
+
+propertyvardisplayedEmojis:["😊","😢","❤️"]
+
+horizontalBarPill:Component{
+Row{
+spacing:Theme.spacingXS
+Repeater{
+model:root.displayedEmojis
+StyledText{
+text:modelData
+font.pixelSize:Theme.fontSizeLarge
+}
+}
+}
+}
+
+verticalBarPill:Component{
+Column{
+spacing:Theme.spacingXS
+Repeater{
+model:root.displayedEmojis
+StyledText{
+text:modelData
+font.pixelSize:Theme.fontSizeMedium
+anchors.horizontalCenter:parent.horizontalCenter
+}
+}
+}
+}
+
+popoutContent:Component{
+PopoutComponent{
+id:popoutColumn
+
+headerText:"Emoji Picker"
+detailsText:"Click an emoji to copy it"
+showCloseButton:true
+
+propertyvarallEmojis:[
+"😀","😃","😄","😁","😆","🤣",
+"❤️","🧡","💛","💚","💙","💜"
+]
+
+Item{
+width:parent.width
+implicitHeight:root.popoutHeight - popoutColumn.headerHeight -
+                               popoutColumn.detailsHeight - Theme.spacingXL
+
+DankGridView{
+anchors.fill:parent
+cellWidth:50
+cellHeight:50
+model:popoutColumn.allEmojis
+
+delegate:StyledRect{
+width:45
+height:45
+radius:Theme.cornerRadius
+color:emojiMouse.containsMouse ?
+Theme.surfaceContainerHighest:
+                               Theme.surfaceContainerHigh
+
+StyledText{
+anchors.centerIn:parent
+text:modelData
+font.pixelSize:Theme.fontSizeXLarge
+}
+
+MouseArea{
+id:emojiMouse
+anchors.fill:parent
+hoverEnabled:true
+cursorShape:Qt.PointingHandCursor
+
+onClicked:{
+                                Quickshell.execDetached(["sh","-c",
+"echo -n '"+ modelData +"' | wl-copy"])
+                                ToastService.showInfo("Copied "+ modelData)
+                                popoutColumn.closePopout()
+}
+}
+}
+}
+}
+}
+}
+
+popoutWidth:400
+popoutHeight:500
+}
+```
+
+The `PopoutComponent` helper gives you consistent header/footer and a `closePopout()` function.
+
+### Control Center Widget[​](#control-center-widget "Direct link to Control Center Widget")
+
+Add a toggle to the Control Center:
+
+```qml
+PluginComponent{
+id:root
+
+propertyboolisEnabled:pluginData.isEnabled ||false
+propertyintclickCount:pluginData.clickCount ||0
+
+ccWidgetIcon:isEnabled ?"toggle_on":"toggle_off"
+ccWidgetPrimaryText:"Example Toggle"
+ccWidgetSecondaryText:isEnabled ?`Active • ${clickCount} clicks`:"Inactive"
+ccWidgetIsActive:isEnabled
+
+onCcWidgetToggled:{
+        isEnabled =!isEnabled
+        clickCount +=1
+if(pluginService){
+            pluginService.savePluginData(pluginId,"isEnabled", isEnabled)
+            pluginService.savePluginData(pluginId,"clickCount", clickCount)
+}
+        ToastService.showInfo(isEnabled ?"Enabled":"Disabled")
+}
+
+horizontalBarPill:Component{
+Row{
+DankIcon{
+name:root.isEnabled ?"toggle_on":"toggle_off"
+color:root.isEnabled ? Theme.primary : Theme.surfaceVariantText
+}
+StyledText{
+text:`${root.clickCount} clicks`
+color:Theme.surfaceText
+}
+}
+}
+
+verticalBarPill:Component{
+Column{
+DankIcon{
+name:root.isEnabled ?"toggle_on":"toggle_off"
+color:root.isEnabled ? Theme.primary : Theme.surfaceVariantText
+anchors.horizontalCenter:parent.horizontalCenter
+}
+StyledText{
+text:`${root.clickCount}`
+color:Theme.surfaceText
+anchors.horizontalCenter:parent.horizontalCenter
+}
+}
+}
+}
+```
+
+Set `ccWidgetIcon`, `ccWidgetPrimaryText`, `ccWidgetSecondaryText`, and `ccWidgetIsActive`. Handle `onCcWidgetToggled` for toggle clicks.
+
+## Daemon Plugins[​](#daemon-plugins "Direct link to Daemon Plugins")
+
+Daemon plugins run in the background without UI. They monitor events, automate tasks, or provide services.
+
+Here's a daemon that runs a script whenever the wallpaper changes:
+
+```qml
+import QtQuick
+import Quickshell
+import Quickshell.Io
+import qs.Common
+import qs.Services
+import qs.Modules.Plugins
+
+PluginComponent{
+id:root
+
+propertystringscriptPath:pluginData.scriptPath ||""
+
+Connections{
+target:SessionData
+functiononWallpaperPathChanged(){
+if(scriptPath && scriptPath !==""){
+var process = scriptProcessComponent.createObject(root,{
+wallpaperPath: SessionData.wallpaperPath
+})
+                process.running =true
+}
+}
+}
+
+Component{
+id:scriptProcessComponent
+
+Process{
+propertystringwallpaperPath:""
+command:[scriptPath, wallpaperPath]
+
+stdout:SplitParser{
+onRead:line=> console.log("Script:", line)
+}
+
+stderr:SplitParser{
+onRead:line=>{
+if(line.trim()){
+                        ToastService.showError("Script error", line)
+}
+}
+}
+
+onExited:(exitCode)=>{
+if(exitCode !==0){
+                    ToastService.showError("Script failed","Exit code: "+ exitCode)
+}
+destroy()
+}
+}
+}
+
+Component.onCompleted:{
+        console.info("Wallpaper watcher daemon started")
+}
+}
+```
+
+Daemon manifest uses `"type": "daemon"`:
+
+```json
+{
+"id":"wallpaperWatcher",
+"type":"daemon",
+"component":"./WallpaperWatcher.qml"
+}
+```
+
+## Desktop Plugins[​](#desktop-plugins "Direct link to Desktop Plugins")
+
+Desktop plugins render directly on the desktop background layer using Wayland's wlr-layer-shell protocol. Users can freely position and resize them.
+
+### Basic Desktop Widget[​](#basic-desktop-widget "Direct link to Basic Desktop Widget")
+
+```qml
+import QtQuick
+import Quickshell
+import qs.Common
+import qs.Modules.Plugins
+
+DesktopPluginComponent{
+id:root
+
+// Size constraints
+minWidth:150
+minHeight:100
+
+// Access saved settings via pluginData
+propertystringdisplayText:pluginData.displayText ??"Hello"
+propertyrealbgOpacity:(pluginData.backgroundOpacity ??80)/100
+
+Rectangle{
+anchors.fill:parent
+radius:Theme.cornerRadius
+color:Theme.withAlpha(Theme.surfaceContainer, root.bgOpacity)
+
+Text{
+anchors.centerIn:parent
+text:root.displayText
+color:Theme.surfaceText
+font.pixelSize:Theme.fontSizeLarge
+}
+}
+}
+```
+
+Desktop manifest uses `"type": "desktop"`:
+
+```json
+{
+"id":"myDesktopWidget",
+"name":"My Desktop Widget",
+"description":"A custom desktop widget",
+"version":"1.0.0",
+"author":"Your Name",
+"type":"desktop",
+"capabilities":["desktop-widget"],
+"component":"./MyWidget.qml",
+"icon":"widgets",
+"settings":"./MySettings.qml",
+"requires_dms":">=1.2.0",
+"permissions":["settings_read","settings_write"]
+}
+```
+
+### DesktopPluginComponent Properties[​](#desktopplugincomponent-properties "Direct link to DesktopPluginComponent Properties")
+
+**Auto-injected** (don't declare these):
+
+PropertyTypeDescription`pluginService`varReference to PluginService for data persistence`pluginId`stringYour plugin's unique identifier`widgetWidth`realCurrent widget width`widgetHeight`realCurrent widget height`pluginData`varObject containing all saved plugin settings
+
+**Optional** (define on your component):
+
+PropertyTypeDefaultDescription`minWidth`real100Minimum allowed width`minHeight`real100Minimum allowed height`defaultWidth`real200Initial width for new widgets`defaultHeight`real200Initial height for new widgets`forceSquare`boolfalseConstrain to square aspect ratio
+
+**Helper functions:**
+
+```qml
+// Read a specific setting with default value
+function getData(key, defaultValue)
+
+// Write a setting (triggers pluginDataChanged signal)
+function setData(key, value)
+```
+
+### User Interaction[​](#user-interaction "Direct link to User Interaction")
+
+Desktop widgets support:
+
+ActionTriggerDescriptionMoveRight-click + drag anywhereRepositions the widgetResizeRight-click + drag bottom-right cornerResizes within min/max bounds
+
+### Responsive Layout[​](#responsive-layout "Direct link to Responsive Layout")
+
+Adapt to widget dimensions:
+
+```qml
+GridLayout{
+columns:{
+if(root.widgetWidth <200)return1
+if(root.widgetWidth <400)return2
+return3
+}
+}
+```
+
+### Dynamic Size Constraints[​](#dynamic-size-constraints "Direct link to Dynamic Size Constraints")
+
+```qml
+DesktopPluginComponent{
+id:root
+
+propertyboolshowAllTiles:pluginData.showAllTiles ??true
+
+minWidth:showAllTiles ?200:100
+minHeight:{
+if(tileCount ===0)return60
+if(tileCount ===1)return80
+return120+(tileCount -2)*40
+}
+}
+```
+
+### Time-Based Updates[​](#time-based-updates "Direct link to Time-Based Updates")
+
+Use `SystemClock` for efficient time updates:
+
+```qml
+import Quickshell
+
+DesktopPluginComponent{
+id:root
+
+SystemClock{
+id:clock
+precision:SystemClock.Seconds  // or Minutes
+
+onDateChanged:updateDisplay()
+}
+
+functionupdateDisplay(){
+// Update widget content
+}
+}
+```
+
+### Canvas/Graph Performance[​](#canvasgraph-performance "Direct link to Canvas/Graph Performance")
+
+For graphing widgets:
+
+```qml
+Canvas{
+id:graph
+renderStrategy:Canvas.Cooperative
+
+propertyvarhistory:[]
+
+onHistoryChanged:requestPaint()
+
+onPaint:{
+var ctx =getContext("2d")
+        ctx.reset()
+// Draw graph...
+}
+}
+```
+
+### Complete Example: Desktop Clock[​](#complete-example-desktop-clock "Direct link to Complete Example: Desktop Clock")
+
+A clock widget with analog and digital modes, demonstrating dynamic component loading and responsive sizing.
+
+```qml
+// DesktopClock.qml
+import QtQuick
+import Quickshell
+import qs.Common
+import qs.Modules.Plugins
+
+DesktopPluginComponent{
+id:root
+
+minWidth:120
+minHeight:120
+
+propertyboolshowSeconds:pluginData.showSeconds ??true
+propertyboolshowDate:pluginData.showDate ??true
+propertystringclockStyle:pluginData.clockStyle ??"analog"
+propertyrealbackgroundOpacity:(pluginData.backgroundOpacity ??50)/100
+
+SystemClock{
+id:systemClock
+precision:root.showSeconds ? SystemClock.Seconds : SystemClock.Minutes
+}
+
+Rectangle{
+id:background
+anchors.fill:parent
+radius:Theme.cornerRadius
+color:Theme.surfaceContainer
+opacity:root.backgroundOpacity
+}
+
+Loader{
+anchors.fill:parent
+anchors.margins:Theme.spacingM
+sourceComponent:root.clockStyle ==="digital"? digitalClock : analogClock
+}
+
+Component{
+id:analogClock
+
+Item{
+id:analogClockRoot
+
+propertyrealclockSize:Math.min(width, height)-(root.showDate ?30:0)
+
+Item{
+id:clockFace
+width:analogClockRoot.clockSize
+height:analogClockRoot.clockSize
+anchors.horizontalCenter:parent.horizontalCenter
+anchors.top:parent.top
+anchors.topMargin:Theme.spacingS
+
+// Hour markers
+Repeater{
+model:12
+
+Rectangle{
+                        required property int index
+propertyrealmarkAngle:index *30
+propertyrealmarkRadius:clockFace.width /2-8
+
+x:clockFace.width /2+ markRadius * Math.sin(markAngle * Math.PI/180)- width /2
+y:clockFace.height /2- markRadius * Math.cos(markAngle * Math.PI/180)- height /2
+width:index %3===0?8:4
+height:width
+radius:width /2
+color:index %3===0? Theme.primary : Theme.outlineVariant
+}
+}
+
+// Hour hand
+Rectangle{
+id:hourHand
+propertyinthours:systemClock.date?.getHours()%12??0
+propertyintminutes:systemClock.date?.getMinutes()??0
+
+x:clockFace.width /2- width /2
+y:clockFace.height /2- height +4
+width:6
+height:clockFace.height *0.25
+radius:3
+color:Theme.primary
+antialiasing:true
+transformOrigin:Item.Bottom
+rotation:(hours + minutes /60)*30
+}
+
+// Minute hand
+Rectangle{
+id:minuteHand
+propertyintminutes:systemClock.date?.getMinutes()??0
+propertyintseconds:systemClock.date?.getSeconds()??0
+
+x:clockFace.width /2- width /2
+y:clockFace.height /2- height +4
+width:4
+height:clockFace.height *0.35
+radius:2
+color:Theme.onSurface
+antialiasing:true
+transformOrigin:Item.Bottom
+rotation:(minutes + seconds /60)*6
+}
+
+// Second hand
+Rectangle{
+id:secondHand
+visible:root.showSeconds
+propertyintseconds:systemClock.date?.getSeconds()??0
+
+x:clockFace.width /2- width /2
+y:clockFace.height /2- height +4
+width:2
+height:clockFace.height *0.4
+radius:1
+color:Theme.error
+antialiasing:true
+transformOrigin:Item.Bottom
+rotation:seconds *6
+}
+
+// Center dot
+Rectangle{
+anchors.centerIn:parent
+width:10
+height:10
+radius:5
+color:Theme.primary
+}
+}
+
+Text{
+visible:root.showDate
+anchors.horizontalCenter:parent.horizontalCenter
+anchors.bottom:parent.bottom
+anchors.bottomMargin:Theme.spacingXS
+text:systemClock.date?.toLocaleDateString(Qt.locale(),"ddd, MMM d")??""
+font.pixelSize:Theme.fontSizeSmall
+font.weight:Font.Medium
+color:Theme.surfaceText
+}
+}
+}
+
+Component{
+id:digitalClock
+
+Item{
+id:digitalRoot
+
+propertyrealtimeFontSize:Math.min(width *0.16, height *(root.showDate ?0.4:0.5))
+propertyrealdateFontSize:Math.max(Theme.fontSizeSmall, timeFontSize *0.35)
+
+Text{
+id:timeText
+anchors.horizontalCenter:parent.horizontalCenter
+anchors.verticalCenter:parent.verticalCenter
+anchors.verticalCenterOffset:root.showDate ?-digitalRoot.dateFontSize *0.8:0
+text:systemClock.date?.toLocaleTimeString(Qt.locale(), root.showSeconds ?"hh:mm:ss":"hh:mm")??""
+font.pixelSize:digitalRoot.timeFontSize
+font.weight:Font.Bold
+font.family:"monospace"
+color:Theme.primary
+}
+
+Text{
+id:dateText
+visible:root.showDate
+anchors.horizontalCenter:parent.horizontalCenter
+anchors.top:timeText.bottom
+anchors.topMargin:Theme.spacingXS
+text:systemClock.date?.toLocaleDateString(Qt.locale(),"ddd, MMM d")??""
+font.pixelSize:digitalRoot.dateFontSize
+color:Theme.surfaceText
+}
+}
+}
+}
+```
+
+```qml
+// DesktopClockSettings.qml
+import QtQuick
+import qs.Common
+import qs.Modules.Plugins
+
+PluginSettings{
+id:root
+pluginId:"exampleDesktopClock"
+
+SelectionSetting{
+settingKey:"clockStyle"
+label:I18n.tr("Clock Style")
+options:[
+{label:I18n.tr("Analog"),value:"analog"},
+{label:I18n.tr("Digital"),value:"digital"}
+]
+defaultValue:"analog"
+}
+
+ToggleSetting{
+settingKey:"showSeconds"
+label:I18n.tr("Show Seconds")
+defaultValue:true
+}
+
+ToggleSetting{
+settingKey:"showDate"
+label:I18n.tr("Show Date")
+defaultValue:true
+}
+
+SliderSetting{
+settingKey:"backgroundOpacity"
+label:I18n.tr("Background Opacity")
+defaultValue:50
+minimum:0
+maximum:100
+unit:"%"
+}
+}
+```
+
+### Desktop Plugin Best Practices[​](#desktop-plugin-best-practices "Direct link to Desktop Plugin Best Practices")
+
+1. **Use Theme singleton** - Never hardcode colors, spacing, or font sizes
+2. **Set appropriate minWidth/minHeight** - Prevent unusable widget sizes
+3. **Handle null data** - Use `??` operator for all `pluginData` access
+4. **Optimize Canvas redraws** - Use `renderStrategy: Canvas.Cooperative`
+5. **Responsive layouts** - Adapt to widget dimensions dynamically
+6. **Transparency** - Provide opacity controls so wallpaper shows through
+
+## Launcher Plugins[​](#launcher-plugins "Direct link to Launcher Plugins")
+
+Launcher plugins integrate with DankLauncher to provide searchable results. They use `QtObject` as their root (not `Item` or `PluginComponent`) since they don't render any UI directly.
+
+### Basic Structure[​](#basic-structure "Direct link to Basic Structure")
+
+```qml
+import QtQuick
+import Quickshell
+import qs.Common
+import qs.Services
+
+QtObject{
+id:root
+
+propertyvarpluginService:null
+propertystringpluginId:"myPlugin"
+propertystringtrigger:""
+
+    signal itemsChanged
+
+// Required: Return search results
+functiongetItems(query){
+return[{
+name:"Item Name",
+icon:"material:icon_name",
+comment:"Description shown below name",
+action:"custom:data",
+categories:["My Plugin"],
+imageUrl:"https://...",// Optional: tile image
+animated:false,// Optional: for GIFs
+attribution:"/path/to/attribution.svg"// Optional
+}];
+}
+
+// Required: Handle item selection
+functionexecuteItem(item){
+if(!item?.action)return;
+const data = item.action.substring(7);// Remove "custom:" prefix
+// Do something with data
+}
+}
+```
+
+### Plugin Manifest[​](#plugin-manifest "Direct link to Plugin Manifest")
+
+```json
+{
+"id":"myPlugin",
+"name":"My Plugin",
+"description":"Plugin description",
+"version":"1.0.0",
+"author":"Your Name",
+"icon":"extension",
+"type":"launcher",
+"trigger":"!mp",
+"viewMode":"list",
+"viewModeEnforced":false,
+"component":"./MyPlugin.qml",
+"settings":"./MyPluginSettings.qml",
+"permissions":["settings_read","settings_write"]
+}
+```
+
+FieldDescription`trigger`Prefix that activates the plugin (e.g., `gif`, `:s`, `!calc`)`viewMode`Default view: `"list"`, `"grid"`, or `"tile"``viewModeEnforced`If `true`, user cannot change the view mode
+
+### Item Properties[​](#item-properties "Direct link to Item Properties")
+
+PropertyTypeDescription`name`stringDisplay name (required)`icon`string`"material:icon_name"` or `"unicode:🚀"``comment`stringSecondary text/description`action`stringAction identifier (e.g., `"copy:text"`, `"custom:data"`)`categories`arrayCategory strings for filtering`keywords`arrayAdditional search terms`imageUrl`stringURL for tile/grid image`animated`boolSet `true` for GIFs to enable animation`attribution`stringPath to attribution image (e.g., for API branding)
+
+Add right-click/Tab actions by implementing `getContextMenuActions(item)`:
+
+```qml
+function getContextMenuActions(item) {
+    if (!item) return [];
+
+    return [
+{
+icon:"content_copy",
+text:I18n.tr("Copy URL"),
+action:()=>{
+                Quickshell.execDetached(["dms","cl","copy", item.url]);
+                ToastService.showInfo(I18n.tr("Copied to clipboard"));
+}
+},
+{
+icon:"open_in_new",
+text:I18n.tr("Open in Browser"),
+action:()=> Qt.openUrlExternally(item.url)
+}
+];
+}
+```
+
+Each action object:
+
+FieldTypeDescription`icon`stringMaterial icon name`text`stringDisplay label`action`functionCallback executed when selected`closeLauncher`boolIf `true`, closes the launcher after action executes (default: `false`)
+
+Use `closeLauncher: true` for actions that need focus to return to the previous application, such as paste operations:
+
+```qml
+{
+icon:"content_paste",
+text:I18n.tr("Paste"),
+closeLauncher:true,
+action:()=>{
+        Quickshell.execDetached(["dms","cl","paste"]);
+}
+}
+```
+
+### Categories[​](#categories "Direct link to Categories")
+
+Allow users to filter results by category. Categories appear as a dropdown when the plugin is active.
+
+```qml
+propertystringcurrentCategory:""
+
+functiongetCategories(){
+return[
+{id:"",name: I18n.tr("All"),searchTerm:""},
+{id:"happy",name:"Happy",searchTerm:"happy"},
+{id:"sad",name:"Sad",searchTerm:"sad"}
+];
+}
+
+functionsetCategory(categoryId){
+if(currentCategory === categoryId)return;
+    currentCategory = categoryId;
+    searchDebounce.restart();
+}
+```
+
+FieldTypeDescription`id`stringUnique identifier (empty string for "All")`name`stringDisplay name in dropdown`searchTerm`stringOptional: search term to use for this category
+
+For dynamic categories fetched from an API, emit `itemsChanged` or call `pluginService.requestLauncherUpdate(pluginId)` when categories are ready.
+
+### Paste Support (Shift+Enter)[​](#paste-support-shiftenter "Direct link to Paste Support (Shift+Enter)")
+
+Launcher plugins can support Shift+Enter to paste content directly. Two optional functions control this:
+
+**`getPasteText(item)`** - Returns text to paste:
+
+```qml
+functiongetPasteText(item){
+if(!item?.action?.startsWith("copy:"))returnnull;
+return item.action.substring(5);// "copy:hello" -> "hello"
+}
+```
+
+**`getPasteArgs(item)`** - Returns a command array for custom clipboard operations:
+
+```qml
+functiongetPasteArgs(item){
+const text =getPasteText(item);
+if(!text)returnnull;
+// Download content to clipboard before pasting
+return["dms","cl","copy","--download", text];
+}
+```
+
+**Resolution order:**
+
+1. If `getPasteArgs` exists, use the returned command array
+2. Else if `getPasteText` exists, use `["dms", "cl", "copy", text]`
+3. Else paste is not supported for the item
+
+**Example - Image paste with URL fallback:**
+
+```qml
+propertyboolpasteUrlOnly:pluginData.pasteUrlOnly ??false
+
+functiongetPasteText(item){
+return item.imageUrl ||null;
+}
+
+functiongetPasteArgs(item){
+const url =getPasteText(item);
+if(!url)returnnull;
+if(pasteUrlOnly)
+return["dms","cl","copy", url];
+return["dms","cl","copy","--download", url];
+}
+```
+
+### Requesting Updates[​](#requesting-updates "Direct link to Requesting Updates")
+
+Notify the launcher to refresh results after async data loads:
+
+```qml
+propertyConnectionsserviceConn:Connections{
+target:MyService
+
+functiononResultsReady(){
+if(pluginService)
+            pluginService.requestLauncherUpdate(pluginId);
+}
+}
+```
+
+### Persisting Settings[​](#persisting-settings "Direct link to Persisting Settings")
+
+```qml
+Component.onCompleted:{
+if(!pluginService)return;
+    trigger = pluginService.loadPluginData(pluginId,"trigger","!default");
+}
+
+functionsaveSetting(key, value){
+if(pluginService)
+        pluginService.savePluginData(pluginId, key, value);
+}
+```
+
+### Example: Calculator Plugin[​](#example-calculator-plugin "Direct link to Example: Calculator Plugin")
+
+```qml
+import QtQuick
+import Quickshell
+import qs.Services
+import"calculator.js"as Calculator
+
+QtObject{
+id:root
+
+propertyvarpluginService:null
+propertystringtrigger:""
+
+    signal itemsChanged
+
+Component.onCompleted:{
+if(pluginService)
+            trigger = pluginService.loadPluginData("calculator","trigger","=");
+}
+
+functiongetItems(query){
+if(!query || query.trim().length ===0)
+return[];
+
+const trimmedQuery = query.trim();
+if(!Calculator.isMathExpression(trimmedQuery))
+return[];
+
+const result = Calculator.evaluate(trimmedQuery);
+if(!result.success)
+return[];
+
+return[{
+name: result.result.toString(),
+icon:"material:equal",
+comment: trimmedQuery +" = "+ result.result,
+action:"copy:"+ result.result,
+categories:["Calculator"]
+}];
+}
+
+functionexecuteItem(item){
+if(!item?.action)return;
+
+const actionParts = item.action.split(":");
+const actionType = actionParts[0];
+const actionData = actionParts.slice(1).join(":");
+
+if(actionType ==="copy"){
+            Quickshell.execDetached(["sh","-c","echo -n '"+ actionData +"' | wl-copy"]);
+            ToastService.showInfo("Calculator","Copied to clipboard: "+ actionData);
+}
+}
+}
+```
+
+### Launcher Settings[​](#launcher-settings "Direct link to Launcher Settings")
+
+Launcher plugins use `PluginSettings` just like widget plugins:
+
+```qml
+import QtQuick
+import qs.Common
+import qs.Widgets
+import qs.Modules.Plugins
+
+PluginSettings{
+id:root
+pluginId:"calculator"
+
+StyledText{
+width:parent.width
+text:"Calculator Plugin"
+font.pixelSize:Theme.fontSizeLarge
+font.weight:Font.Bold
+color:Theme.surfaceText
+}
+
+ToggleSetting{
+id:noTriggerToggle
+settingKey:"noTrigger"
+label:"Always Active"
+description:value ?"Type expressions directly":"Use trigger prefix"
+defaultValue:false
+onValueChanged:{
+if(value)
+                root.saveValue("trigger","");
+else
+                root.saveValue("trigger", triggerSetting.value ||"=");
+}
+}
+
+StringSetting{
+id:triggerSetting
+visible:!noTriggerToggle.value
+settingKey:"trigger"
+label:"Trigger"
+description:"Prefix to activate calculator (e.g., =, calc)"
+placeholder:"="
+defaultValue:"="
+}
+}
+```
+
+## Plugin Settings[​](#plugin-settings "Direct link to Plugin Settings")
+
+Use `PluginSettings` as the base and drop in setting components. They handle all the loading and saving automatically.
+
+```qml
+import QtQuick
+import qs.Common
+import qs.Modules.Plugins
+import qs.Widgets
+
+PluginSettings{
+id:root
+pluginId:"colorDemo"
+
+StyledText{
+width:parent.width
+text:"Color Demo Settings"
+font.pixelSize:Theme.fontSizeLarge
+font.weight:Font.Bold
+color:Theme.surfaceText
+}
+
+StyledText{
+width:parent.width
+text:"Pick colors for your widget"
+font.pixelSize:Theme.fontSizeSmall
+color:Theme.surfaceVariantText
+wrapMode:Text.WordWrap
+}
+
+ColorSetting{
+settingKey:"customColor"
+label:"Widget Color"
+description:"Color shown in the bar"
+defaultValue:Theme.primary
+}
+
+SliderSetting{
+settingKey:"updateInterval"
+label:"Update Speed"
+description:"How often to refresh"
+defaultValue:60
+minimum:10
+maximum:300
+unit:"sec"
+}
+
+ToggleSetting{
+settingKey:"showInBar"
+label:"Show in Bar"
+description:"Display widget in DankBar"
+defaultValue:true
+}
+
+StringSetting{
+settingKey:"apiKey"
+label:"API Key"
+description:"Your service API key"
+placeholder:"Enter key"
+defaultValue:""
+}
+
+SelectionSetting{
+settingKey:"theme"
+label:"Theme"
+description:"Widget appearance"
+options:[
+{label:"Light",value:"light"},
+{label:"Dark",value:"dark"},
+{label:"Auto",value:"auto"}
+]
+defaultValue:"dark"
+}
+}
+```
+
+The setting components available:
+
+- `ColorSetting` - Opens color picker modal
+- `SliderSetting` - Numeric slider
+- `ToggleSetting` - Boolean switch
+- `StringSetting` - Text input
+- `SelectionSetting` - Dropdown menu
+
+Access settings in your widget via `pluginData`:
+
+```qml
+propertycolorcustomColor:pluginData.customColor || Theme.primary
+propertyintupdateInterval:pluginData.updateInterval ||60
+propertyboolshowInBar:pluginData.showInBar !==undefined? pluginData.showInBar :true
+propertystringapiKey:pluginData.apiKey ||""
+propertystringtheme:pluginData.theme ||"dark"
+```
+
+## Plugin State[​](#plugin-state "Direct link to Plugin State")
+
+Settings are great for user preferences, but sometimes you need to persist runtime data — command history, recent items, counters, cached results. That's what the state API is for.
+
+State is stored per-plugin at `~/.local/state/DankMaterialShell/plugins/{pluginId}_state.json`, completely separate from the shared `plugin_settings.json`. No permissions required.
+
+### State vs Settings[​](#state-vs-settings "Direct link to State vs Settings")
+
+Use Settings (`savePluginData`)Use State (`savePluginState`)User-configured preferencesRuntime/transient dataTrigger character, themes, togglesCommand history, recent itemsStored in shared `plugin_settings.json`Stored in `{pluginId}_state.json`Shown/edited in settings UIAccumulated during usage
+
+### API[​](#api "Direct link to API")
+
+```qml
+// Save a value
+pluginService.savePluginState(pluginId, key, value)
+
+// Load a value (synchronous, returns defaultValue if key doesn't exist)
+pluginService.loadPluginState(pluginId, key, defaultValue)
+
+// Remove a key
+pluginService.removePluginStateKey(pluginId, key)
+
+// Wipe all state for a plugin
+pluginService.clearPluginState(pluginId)
+
+// Get the filesystem path to the state file
+pluginService.getPluginStatePath(pluginId)
+```
+
+A `pluginStateChanged(pluginId)` signal fires whenever any state key changes.
+
+### Usage[​](#usage "Direct link to Usage")
+
+Load state alongside settings on startup, then save as things change:
+
+```qml
+Component.onCompleted:{
+// Settings: user preferences (plugin_settings.json)
+    trigger = pluginService.loadPluginData("myPlugin","trigger","!");
+
+// State: runtime data (myPlugin_state.json)
+    history = pluginService.loadPluginState("myPlugin","history",[]);
+}
+
+functionaddToHistory(entry){
+    history.unshift(entry);
+if(history.length >50)
+        history = history.slice(0,50);
+    pluginService.savePluginState("myPlugin","history", history);
+}
+```
+
+### State in Settings Components[​](#state-in-settings-components "Direct link to State in Settings Components")
+
+`PluginSettings` provides convenience wrappers so you don't have to touch `pluginService` directly:
+
+```qml
+PluginSettings{
+id:settings
+pluginId:"myPlugin"
+
+// Settings helpers (plugin_settings.json)
+// settings.saveValue(key, value)
+// settings.loadValue(key, defaultValue)
+
+// State helpers (myPlugin_state.json)
+// settings.saveState(key, value)
+// settings.loadState(key, defaultValue)
+// settings.clearState()
+}
+```
+
+### How It Works Under the Hood[​](#how-it-works-under-the-hood "Direct link to How It Works Under the Hood")
+
+- **Reads are synchronous** — `loadPluginState()` returns the value immediately (backed by `FileView` with `blockLoading`)
+- **Writes are debounced** — rapid `savePluginState()` calls batch into a single disk write (150ms)
+- **Writes are atomic** — uses `FileView` with `atomicWrites` to prevent corruption
+- **Cleanup** — `FileView` instances are destroyed when a plugin is unloaded
+- **No permissions needed** — state operates on its own file, independent of `settings_write`
+
+See `PLUGINS/QuickNotesExample/` in the DMS repo for a complete launcher plugin using the state API.
+
+## Common Patterns[​](#common-patterns "Direct link to Common Patterns")
+
+### Auto-injected Properties[​](#auto-injected-properties "Direct link to Auto-injected Properties")
+
+`PluginComponent` automatically provides these properties - don't declare them yourself:
+
+- `pluginData` - Reactive settings object
+- `pluginService` - Service for manual data operations
+- `pluginId` - Your plugin's ID
+- `axis` - Bar axis info
+- `section` - "left", "center", or "right"
+- `parentScreen` - Screen reference
+- `widgetThickness` - Widget height/width
+- `barThickness` - Bar height/width
+- `iconSize` - Recommended icon size for the current bar context
+- `variants` - Variant instances
+
+Use `iconSize` for consistent icon sizing that adapts to bar orientation and user preferences:
+
+```qml
+DankIcon{
+name:"settings"
+size:root.iconSize
+}
+```
+
+### Saving Data Manually[​](#saving-data-manually "Direct link to Saving Data Manually")
+
+Most of the time `pluginData` handles everything, but if you need to save manually:
+
+```qml
+if (pluginService) {
+    pluginService.savePluginData(pluginId,"key", value)
+}
+```
+
+### Showing Notifications[​](#showing-notifications "Direct link to Showing Notifications")
+
+```qml
+ToastService.showInfo("Title","Message")
+ToastService.showError("Title","Error message")
+```
+
+### Copying to Clipboard[​](#copying-to-clipboard "Direct link to Copying to Clipboard")
+
+```qml
+Quickshell.execDetached(["sh","-c","echo -n 'text' | wl-copy"])
+```
+
+### Timers[​](#timers "Direct link to Timers")
+
+```qml
+PluginComponent{
+Timer{
+interval:1000
+running:true
+repeat:true
+onTriggered:{
+// Do something every second
+}
+}
+}
+```
+
+## Plugin Manifest Reference[​](#plugin-manifest-reference "Direct link to Plugin Manifest Reference")
+
+### Required Fields[​](#required-fields "Direct link to Required Fields")
+
+```json
+{
+"id":"pluginId",
+"name":"Plugin Name",
+"description":"What it does",
+"version":"1.0.0",
+"author":"Your Name",
+"type":"widget",
+"component":"./Widget.qml"
+}
+```
+
+### Optional Fields[​](#optional-fields "Direct link to Optional Fields")
+
+```json
+{
+"icon":"material_icon",
+"settings":"./Settings.qml",
+"trigger":"#",
+"permissions":["settings_read","settings_write"],
+"requires_dms":">=0.1.18",
+"requires":["tool1","tool2"]
+}
+```
+
+### Plugin Types[​](#plugin-types "Direct link to Plugin Types")
+
+- `"widget"` - DankBar or Control Center widget
+- `"daemon"` - Background service
+- `"launcher"` - Spotlight extension
+- `"desktop"` - Desktop layer widget
+
+### Permissions[​](#permissions "Direct link to Permissions")
+
+- `"settings_read"` - Read plugin settings
+- `"settings_write"` - Write plugin settings
+- `"process"` - Execute system commands
+- `"network"` - Network access
+
+## Testing[​](#testing "Direct link to Testing")
+
+1. Enable plugin: Settings → Plugins → Scan → Toggle on
+2. Add to bar: Settings → DankBar → Add widget
+3. Check console: Look for errors in shell output
+4. Hot-reload your plugin: `dms ipc call plugins reload myPlugin`
+5. Check settings file: `~/.config/DankMaterialShell/settings.json`
+
+### Hot Reloading[​](#hot-reloading "Direct link to Hot Reloading")
+
+During development you can reload plugins without restarting the shell:
+
+```bash
+# Reload your plugin after making changes
+dms ipc call plugins reload myPlugin
+
+# Check if it's running
+dms ipc call plugins status myPlugin
+
+# List all plugins and their state
+dms ipc call plugins list
+```
+
+This is way faster than `dms restart` when you're iterating on your code.
+
+## Publishing[​](#publishing "Direct link to Publishing")
+
+1. Create GitHub repo
+2. Include `plugin.json`, README, screenshots
+3. Tag releases: `git tag v1.0.0 && git push --tags`
+4. Submit to registry: [dms-plugin-registry](https://github.com/AvengeMedia/dms-plugin-registry)
+
+## Examples[​](#examples "Direct link to Examples")
+
+Check the `PLUGINS/` directory in the DMS repo for example plugins:
+
+- **ColorDemoPlugin** - Color picker integration
+- **ExampleEmojiPlugin** - Popout with grid view
+- **ControlCenterExample** - Control Center toggle
+- **LauncherExample** - Spotlight extension
+- **WallpaperWatcherDaemon** - Background event watcher
+
+**First-party plugins** (good references for real-world patterns):
+
+- [DankGifSearch](https://github.com/AvengeMedia/dms-plugins/tree/main/DankGifSearch) - Launcher with tile view and API integration
+- [DankStickerSearch](https://github.com/AvengeMedia/dms-plugins/tree/main/DankStickerSearch) - Launcher with dynamic categories
+
+**Desktop widgets:**
+
+- **DesktopClockWidget** - Digital/analog clock with date display and style options
+- **SystemMonitorWidget** - CPU, memory, network, disk, GPU tiles with real-time graphs
+
+Clone them and experiment.

@@ -1,0 +1,1417 @@
+{
+  "generated_at": "2026-04-09T09:06:03.029563076-03:00",
+  "source_url": "https://qwenlm.github.io/qwen-code-docs/en/users/overview/",
+  "strategy": "github_pages",
+  "total_documents": 74,
+  "documents": [
+    {
+      "file_path": "001-qwen-code-docs.md",
+      "title": "Qwen",
+      "url": "https://qwenlm.github.io/qwen-code-docs",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:44.583982684-03:00",
+      "description": "Qwen Studio offers comprehensive functionality spanning chatbot, image and video understanding, image generation, document processing, web search integration, tool utilization, and artifacts.",
+      "summary": "This document introduces Qwen Code, an open-source AI agent for the terminal designed to assist developers in understanding large codebases and automating tasks. It details its capabilities across various modes including interactive use, headless scripting, IDE integration, and providing a developer SDK.",
+      "tags": [
+        "ai-agent",
+        "terminal",
+        "developer-tools",
+        "open-source",
+        "coding-assistance",
+        "workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs.md"
+    },
+    {
+      "file_path": "002-qwen-code-docs-en-users-overview.md",
+      "title": "Qwen Code overview",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/overview",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:43.823879286-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document introduces Qwen Code, an agentic coding tool designed for the terminal that helps developers generate code and manage tasks faster. It covers installation instructions, basic usage with codebase analysis, and advanced capabilities like debugging, navigation across entire projects, and automating tedious development workflows.",
+      "tags": [
+        "agentic-coding",
+        "terminal-tool",
+        "developer-assistant",
+        "code-generation",
+        "installation-guide",
+        "command-line"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-users-overview.md"
+    },
+    {
+      "file_path": "003-qwen-code-docs-en-showcase.md",
+      "title": "Index",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/showcase",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:43.882145977-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive overview and demonstration of Qwen Code's capabilities across various tasks, showing how users can leverage natural language commands to automate coding, content creation, system management, and more.",
+      "tags": [
+        "quick-start",
+        "ai-coding-partner",
+        "video-creation",
+        "workflow-automation",
+        "pro-development",
+        "usage-guide"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-showcase.md"
+    },
+    {
+      "file_path": "004-qwen-code-docs-en-users-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/quickstart",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:48.440742575-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide provides a walkthrough of how to install, configure, and use Qwen Code, an AI-powered coding assistant that helps users with everything from basic code generation and debugging to complex Git operations.",
+      "tags": [
+        "quickstart",
+        "coding-assistant",
+        "ai-programming",
+        "cli-tool",
+        "development-workflow",
+        "installation"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-quickstart.md"
+    },
+    {
+      "file_path": "005-qwen-code-docs-en-users-common-workflow.md",
+      "title": "Common workflows",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/common-workflow",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:48.475593713-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a comprehensive guide detailing various workflows for using Qwen Code, covering tasks such as understanding new codebases, efficiently fixing bugs, refactoring outdated code, and creating pull requests.",
+      "tags": [
+        "qwen-code",
+        "workflow-guide",
+        "code-analysis",
+        "software-development",
+        "debugging",
+        "documentation"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-common-workflow.md"
+    },
+    {
+      "file_path": "006-qwen-code-docs-en-users-configuration-settings.md",
+      "title": "Qwen Code Configuration",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/settings",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:10.081665722-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details the comprehensive configuration system for Qwen Code, explaining how settings are prioritized across various layers—from default values to command-line arguments. It outlines file locations, migration rules, and available settings categories like general, output, and UI.",
+      "tags": [
+        "configuration",
+        "settings-file",
+        "api-key",
+        "environment-variables",
+        "qwen-code",
+        "setup-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-settings.md"
+    },
+    {
+      "file_path": "007-qwen-code-docs-en-users-configuration-auth.md",
+      "title": "Authentication",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/auth",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:11.660773929-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details the three authentication methods available for Qwen Code—OAuth, Alibaba Cloud Coding Plan, and generic API Key—and guides users on configuring their preferred setup via the settings file. It emphasizes how to connect to various AI model providers by defining model protocols in a central configuration file.",
+      "tags": [
+        "authentication",
+        "api-key",
+        "model-providers",
+        "settings-configuration",
+        "qwen-code",
+        "setup-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-auth.md"
+    },
+    {
+      "file_path": "008-qwen-code-docs-en-users-configuration-model-providers.md",
+      "title": "Model Providers",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/model-providers",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:14.440759179-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains how to configure multiple AI model providers within Qwen Code using the `settings.json` file's `modelProviders` setting. It details structure requirements for various authentication types (OpenAI, Anthropic, Gemini) and provides guidelines on connecting local self-hosted models.",
+      "tags": [
+        "qwen-code",
+        "model-providers",
+        "ai-configuration",
+        "api-setup",
+        "settings-json",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-model-providers.md"
+    },
+    {
+      "file_path": "009-qwen-code-docs-en-users-configuration-memory.md",
+      "title": "Memory",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/memory",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:50.014072958-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a user guide detailing configuration options for the system, specifically covering settings related to memory management and model providers.",
+      "tags": [
+        "user-guide",
+        "configuration",
+        "settings",
+        "memory",
+        "model-providers"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-memory.md"
+    },
+    {
+      "file_path": "010-qwen-code-docs-en-users-configuration-qwen-ignore.md",
+      "title": "Ignoring Files",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/qwen-ignore",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:16.100880981-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details the Qwen Ignore (`.qwenignore`) feature, which allows users to specify paths and files that should be excluded from operations within Qwen Code, similar to how `.gitignore` functions.",
+      "tags": [
+        "qwen-code",
+        "ignore-file",
+        "git-ignore",
+        "path-exclusion",
+        "glob-patterns"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-qwen-ignore.md"
+    },
+    {
+      "file_path": "011-qwen-code-docs-en-users-configuration-themes.md",
+      "title": "Themes",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/themes",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:19.948558456-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details how to customize the appearance of Qwen Code by utilizing its built-in themes or creating entirely custom color schemes via configuration files. It covers changing themes using a command, defining new themes in settings.json, and loading themes from external JSON files.",
+      "tags": [
+        "theme-customization",
+        "color-schemes",
+        "settings-configuration",
+        "cli-usage",
+        "qwen-code",
+        "json-structure"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-themes.md"
+    },
+    {
+      "file_path": "012-qwen-code-docs-en-users-configuration-trusted-folders.md",
+      "title": "Trusted Folders",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/configuration/trusted-folders",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:18.161030743-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the Trusted Folders security feature, detailing how enabling it via settings controls which project folders can use full Qwen Code capabilities by requiring explicit user trust approval.",
+      "tags": [
+        "security-feature",
+        "trusted-folders",
+        "code-safety",
+        "cli-settings",
+        "workspace-control"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-configuration-trusted-folders.md"
+    },
+    {
+      "file_path": "013-qwen-code-docs-en-users-features-approval-mode.md",
+      "title": "Approval Mode",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/approval-mode",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:57.954656681-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document outlines the four distinct permission modes available in Qwen Code—Plan, Default, Auto-Edit, and YOLO—to allow users to control the level of AI interaction with code and system resources based on task risk.",
+      "tags": [
+        "permission-modes",
+        "ai-coding-control",
+        "code-safety",
+        "development-workflow",
+        "command-line"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-approval-mode.md"
+    },
+    {
+      "file_path": "014-qwen-code-docs-en-users-features-checkpointing.md",
+      "title": "Checkpointing",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/checkpointing",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:49.675425323-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains Qwen Code's Checkpointing feature, which automatically saves project states before AI file modifications, allowing users to safely revert changes using the /restore command. It also details how to enable this safety feature via command-line flags or settings.",
+      "tags": [
+        "checkpointing",
+        "version-control",
+        "state-management",
+        "ai-safety",
+        "qwen-code",
+        "revert"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-checkpointing.md"
+    },
+    {
+      "file_path": "015-qwen-code-docs-en-users-features-commands.md",
+      "title": "Commands",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/commands",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:51.984074529-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive reference for all commands within Qwen Code, detailing how to manage sessions, customize the interface using slash commands, inject local files with @ commands, execute system shells with ! commands, and create custom shortcuts.",
+      "tags": [
+        "qwen-code",
+        "command-reference",
+        "slash-commands",
+        "file-injection",
+        "shell-execution",
+        "custom-shortcuts"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-users-features-commands.md"
+    },
+    {
+      "file_path": "016-qwen-code-docs-en-users-features-skills.md",
+      "title": "Agent Skills",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/skills",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:54.026842072-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide explains how to create, manage, and utilize Agent Skills within Qwen Code, detailing the structure required for a Skill directory, writing the necessary SKILL.md file, and best practices for ensuring model invocation.",
+      "tags": [
+        "qwen-code",
+        "agent-skills",
+        "skill-creation",
+        "model-extension",
+        "project-workflow",
+        "metadata-guidance"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-skills.md"
+    },
+    {
+      "file_path": "017-qwen-code-docs-en-users-features-sub-agents.md",
+      "title": "Subagents",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/sub-agents",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:52.331649321-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains Subagents, specialized AI assistants within Qwen Code that allow users to delegate focused tasks by configuring agents with specific prompts and tools. It details how these autonomous agents work, how to manage them via CLI, and provides guidelines for effective invocation.",
+      "tags": [
+        "subagents",
+        "ai-assistants",
+        "task-delegation",
+        "agent-configuration",
+        "qwen-code",
+        "development-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-sub-agents.md"
+    },
+    {
+      "file_path": "018-qwen-code-docs-en-users-features-mcp.md",
+      "title": "Connect Qwen Code to tools via MCP",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/mcp",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:00.20642831-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the Model Context Protocol (MCP), detailing how Qwen Code connects to external tools and data sources via MCP servers. It provides comprehensive guides on configuring these connections using both the `settings.json` file and the command-line interface, covering various transport types and advanced safety controls.",
+      "tags": [
+        "mcp",
+        "qwen-code",
+        "tool-integration",
+        "configuration",
+        "api-connection",
+        "developer-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-mcp.md"
+    },
+    {
+      "file_path": "019-qwen-code-docs-en-users-features-lsp.md",
+      "title": "Language Server Protocol (LSP) Support",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/lsp",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:01.93625143-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details Qwen Code's implementation of Language Server Protocol (LSP) support, explaining how it provides advanced code intelligence features like finding references and diagnostics across various supported languages. It covers setup from prerequisites to detailed configuration options and available LSP operations.",
+      "tags": [
+        "lsp-support",
+        "code-intelligence",
+        "language-server",
+        "developer-tools",
+        "configuration-guide",
+        "api-operations"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-users-features-lsp.md"
+    },
+    {
+      "file_path": "020-qwen-code-docs-en-users-features-headless.md",
+      "title": "Headless Mode",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/headless",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:55.523245352-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains how to use Qwen Code in headless mode for scripting and automation, detailing various input methods, output formats (text, JSON, stream-JSON), and available command-line configuration options.",
+      "tags": [
+        "headless-mode",
+        "command-line",
+        "automation",
+        "output-formats",
+        "scripting",
+        "api-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-headless.md"
+    },
+    {
+      "file_path": "021-qwen-code-docs-en-users-features-sandbox.md",
+      "title": "Sandbox",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/sandbox",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:06.115864562-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive guide on implementing and configuring sandboxing features for Qwen Code, detailing methods like macOS Seatbelt and containerization (Docker/Podman) to enhance security and isolation when executing code.",
+      "tags": [
+        "sandboxing",
+        "security",
+        "macos-seatbelt",
+        "docker",
+        "podman",
+        "configuration",
+        "cli-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-sandbox.md"
+    },
+    {
+      "file_path": "022-qwen-code-docs-en-users-features-language.md",
+      "title": "Internationalization (i18n) & Language",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/language",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:08.175661003-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the multilingual capabilities of Qwen Code, detailing how to manage both the user interface (UI) language and the desired response language from the AI model.",
+      "tags": [
+        "i18n",
+        "l10n",
+        "language-settings",
+        "ui-localization",
+        "llm-output",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-language.md"
+    },
+    {
+      "file_path": "023-qwen-code-docs-en-users-features-token-caching.md",
+      "title": "Token Caching and Cost Optimization",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/features/token-caching",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:04.332405111-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains that Qwen Code automatically optimizes API costs through token caching when using API key authentication by storing frequently used content, which leads to cost reduction and faster responses without requiring manual configuration.",
+      "tags": [
+        "api-cost-optimization",
+        "token-caching",
+        "api-key-authentication",
+        "qwen-code",
+        "usage-stats"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-features-token-caching.md"
+    },
+    {
+      "file_path": "024-qwen-code-docs-en-users-ide-integration-ide-integration.md",
+      "title": "IDE Integration",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/ide-integration/ide-integration",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:52.010644817-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details how to integrate and use Qwen Code with an Integrated Development Environment (IDE), primarily focusing on Visual Studio Code, to enable context-aware features like viewing changes via native diffing. It provides instructions for setup, usage commands, and troubleshooting common connection errors.",
+      "tags": [
+        "ide-integration",
+        "vscode-setup",
+        "code-assistance",
+        "workspace-context",
+        "diffing",
+        "command-palette"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-ide-integration-ide-integration.md"
+    },
+    {
+      "file_path": "025-qwen-code-docs-en-users-ide-integration-ide-companion-spec.md",
+      "title": "Qwen Code Companion Plugin: Interface Specification",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/ide-integration/ide-companion-spec",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:57.916065411-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a technical specification detailing the required contracts for building companion plugins that integrate Qwen Code's IDE mode functionality into editors beyond VS Code. It specifies protocols for communication, context sharing, and proposing code diffs.",
+      "tags": [
+        "plugin-development",
+        "ide-integration",
+        "mcp-protocol",
+        "local-server",
+        "context-awareness"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-users-ide-integration-ide-companion-spec.md"
+    },
+    {
+      "file_path": "026-qwen-code-docs-en-users-integration-vscode.md",
+      "title": "Visual Studio Code",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/integration-vscode",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:49.177695349-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This user guide explains how to use the Qwen Code VS Code extension, detailing its features like a native sidebar and auto-accept edits mode, alongside instructions for installation and troubleshooting common issues.",
+      "tags": [
+        "vscode",
+        "qwen-code",
+        "extension-guide",
+        "ide-integration",
+        "installation",
+        "troubleshooting"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-integration-vscode.md"
+    },
+    {
+      "file_path": "027-qwen-code-docs-en-users-integration-jetbrains.md",
+      "title": "JetBrains IDEs",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/integration-jetbrains",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:51.51070519-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains how to integrate and set up Qwen Code, an AI coding assistant, into various JetBrains IDEs using the Agent Client Protocol (ACP). It provides detailed steps for both recommended installation via the ACP Registry and a manual configuration method.",
+      "tags": [
+        "jetbrains-ide",
+        "ai-assistant",
+        "qwen-code",
+        "agent-client-protocol",
+        "installation-guide",
+        "coding-assistance"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-users-integration-jetbrains.md"
+    },
+    {
+      "file_path": "028-qwen-code-docs-en-users-integration-zed.md",
+      "title": "Zed Editor",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/integration-zed",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:49.128214991-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details how to natively integrate and use Qwen Code AI coding assistants within the Zed Editor using the Agent Client Protocol (ACP). It provides step-by-step instructions for both recommended registry installation and manual configuration, along with troubleshooting tips.",
+      "tags": [
+        "zed-editor",
+        "ai-assistant",
+        "qwen-code",
+        "agent-client-protocol",
+        "installation-guide",
+        "ide-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-integration-zed.md"
+    },
+    {
+      "file_path": "029-qwen-code-docs-en-users-integration-github-action.md",
+      "title": "Github Actions：qwen-code-action",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/integration-github-action",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:51.900612521-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the qwen-code-action, a GitHub Action that integrates Qwen Code to automate tasks like PR reviews and issue triage. It details setup steps, available features such as on-demand collaboration and tool extensibility, and various configuration inputs for customization.",
+      "tags": [
+        "github-actions",
+        "ai-integration",
+        "coding-assistance",
+        "automation-workflow",
+        "qwen-code",
+        "api-key"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-integration-github-action.md"
+    },
+    {
+      "file_path": "030-qwen-code-docs-en-users-extension-introduction.md",
+      "title": "Qwen Code Extensions",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/extension/introduction",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:21.516082464-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a comprehensive guide on managing and utilizing extensions within Qwen Code, detailing methods for installation from various sources like Gemini CLI and Claude Code Marketplaces, alongside commands for management, enabling, disabling, and updating.",
+      "tags": [
+        "extension-management",
+        "cli-commands",
+        "cross-platform-compatibility",
+        "installation-guide",
+        "qwen-code",
+        "marketplace"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-extension-introduction.md"
+    },
+    {
+      "file_path": "032-qwen-code-docs-en-users-reference-keyboard-shortcuts.md",
+      "title": "Qwen Code Keyboard Shortcuts",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/reference/keyboard-shortcuts",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:23.955991068-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive reference guide detailing the keyboard shortcuts available within Qwen Code for various actions, including navigation, input manipulation, suggestion selection, and general application controls.",
+      "tags": [
+        "keyboard-shortcuts",
+        "qwen-code",
+        "user-guide",
+        "reference",
+        "input-manipulation",
+        "navigation"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-users-reference-keyboard-shortcuts.md"
+    },
+    {
+      "file_path": "033-qwen-code-docs-en-users-support-troubleshooting.md",
+      "title": "Troubleshooting",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/support/troubleshooting",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:25.549343288-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a comprehensive user guide providing troubleshooting solutions and debugging tips for common issues encountered while using Qwen Code. It covers topics ranging from authentication errors and configuration file management to handling various system error codes.",
+      "tags": [
+        "troubleshooting",
+        "debugging-tips",
+        "user-guide",
+        "authentication-errors",
+        "error-codes",
+        "configuration-settings"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-support-troubleshooting.md"
+    },
+    {
+      "file_path": "034-qwen-code-docs-en-users-support-Uninstall.md",
+      "title": "Uninstall",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/support/Uninstall",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:29.587002308-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides instructions on how to properly uninstall a CLI tool, differentiating the steps required based on whether it was initially run via npx or installed globally using npm.",
+      "tags": [
+        "uninstall",
+        "npm-cli",
+        "npx",
+        "global-installation",
+        "cleanup",
+        "command-line"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-support-Uninstall.md"
+    },
+    {
+      "file_path": "035-qwen-code-docs-en-users-support-tos-privacy.md",
+      "title": "Qwen Code: Terms of Service and Privacy Notice",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/users/support/tos-privacy",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:28.130353982-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the terms of service and privacy policies governing Qwen Code's use, which vary based on whether the user authenticates via Qwen OAuth, Alibaba Cloud Coding Plan, or a third-party API key. It also details data collection practices regarding usage statistics and telemetry.",
+      "tags": [
+        "terms-of-service",
+        "privacy-policy",
+        "authentication-methods",
+        "data-collection",
+        "ai-assistant",
+        "qwen-code"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-users-support-tos-privacy.md"
+    },
+    {
+      "file_path": "036-qwen-code-docs-en-developers-tools-introduction.md",
+      "title": "Qwen Code tools",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/introduction",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:40.039520097-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide explains that Qwen Code uses built-in tools to enhance its capabilities beyond simple text generation by allowing it to interact with local files, execute shell commands, and fetch web content. It details the process of tool use and emphasizes security confirmations.",
+      "tags": [
+        "qwen-code",
+        "developer-guide",
+        "tool-usage",
+        "local-environment",
+        "cli-interaction"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-introduction.md"
+    },
+    {
+      "file_path": "037-qwen-code-docs-en-developers-tools-file-system.md",
+      "title": "Qwen Code file system tools",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/file-system",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:42.030185874-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide details the various tools available for interacting with the local file system, allowing developers to list directories, read content from different file types, write new data to files, find specific files matching patterns, search content using regex, and modify existing text within files.",
+      "tags": [
+        "file-system",
+        "developer-guide",
+        "read-write",
+        "search-tools",
+        "local-operations"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-file-system.md"
+    },
+    {
+      "file_path": "038-qwen-code-docs-en-developers-tools-multi-file.md",
+      "title": "Multi File Read Tool (read_many_files)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/multi-file",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:43.645807802-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide details the usage of the `read_many_files` tool, explaining how it reads content from multiple files using paths or glob patterns. It specifies how text files are concatenated and how binary files like images and PDFs are returned as base64-encoded data.",
+      "tags": [
+        "file-reading",
+        "tool-usage",
+        "base64",
+        "glob-patterns",
+        "codebase-context"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-multi-file.md"
+    },
+    {
+      "file_path": "039-qwen-code-docs-en-developers-tools-shell.md",
+      "title": "Shell Tool (run_shell_command)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/shell",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:45.830365377-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document details the `run_shell_command` tool, explaining how to execute shell commands from within Qwen Code by managing critical parameters like foreground/background execution status and configuring interactive session capabilities.",
+      "tags": [
+        "run-shell-command",
+        "system-interaction",
+        "subprocess-execution",
+        "is-background",
+        "qwen-code",
+        "configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-developers-tools-shell.md"
+    },
+    {
+      "file_path": "040-qwen-code-docs-en-developers-tools-todo-write.md",
+      "title": "Todo Write Tool (todo_write)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/todo-write",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:47.714518013-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a developer guide detailing the `todo_write` tool, which helps manage and track structured task lists for complex coding sessions within Qwen Code.",
+      "tags": [
+        "developer-guide",
+        "tool-usage",
+        "task-management",
+        "coding-session",
+        "qwen-code"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-todo-write.md"
+    },
+    {
+      "file_path": "041-qwen-code-docs-en-developers-tools-task.md",
+      "title": "Task Tool (task)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/task",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:49.476821102-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the usage of the `task` tool in Qwen Code, which allows users to delegate complex, multi-step tasks autonomously to specialized, independent subagents for parallel execution.",
+      "tags": [
+        "qwen-code",
+        "task-tool",
+        "subagent",
+        "autonomous-execution",
+        "tool-delegation",
+        "parallel-tasks"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-task.md"
+    },
+    {
+      "file_path": "042-qwen-code-docs-en-developers-tools-exit-plan-mode.md",
+      "title": "Exit Plan Mode Tool (exit_plan_mode)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/exit-plan-mode",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:51.771269466-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a developer guide explaining the `exit_plan_mode` tool for Qwen Code, which must be used when an implementation plan is finalized to request user approval before transitioning from planning mode to active code implementation.",
+      "tags": [
+        "developer-guide",
+        "implementation-planning",
+        "tool-usage",
+        "code-workflow",
+        "user-approval"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-exit-plan-mode.md"
+    },
+    {
+      "file_path": "043-qwen-code-docs-en-developers-tools-web-fetch.md",
+      "title": "Web Fetch Tool (web_fetch)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/web-fetch",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:53.879976864-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document explains the `web_fetch` tool for Qwen Code, detailing its functionality to fetch content from a given URL, convert HTML to markdown, and process it using an AI model based on a user-provided prompt.",
+      "tags": [
+        "tool-usage",
+        "web-fetching",
+        "api-guide",
+        "url-processing",
+        "ai-model"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-developers-tools-web-fetch.md"
+    },
+    {
+      "file_path": "044-qwen-code-docs-en-developers-tools-web-search.md",
+      "title": "Web Search Tool (web_search)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/web-search",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:55.956924296-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide details the `web_search` tool, explaining how to use it to perform internet searches through multiple integrated providers like DashScope, Tavily, and Google. It provides detailed instructions on configuring these services via settings files, environment variables, or command line arguments.",
+      "tags": [
+        "web-search",
+        "tool-usage",
+        "api-integration",
+        "configuration-guide",
+        "provider-setup",
+        "developer-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-web-search.md"
+    },
+    {
+      "file_path": "045-qwen-code-docs-en-developers-tools-memory.md",
+      "title": "Memory Tool (save_memory)",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/memory",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:57.649841236-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide explains the `save_memory` tool for Qwen Code, which allows users to store and recall specific facts across different coding sessions by appending them to a designated context file.",
+      "tags": [
+        "qwen-code",
+        "memory-saving",
+        "tool-usage",
+        "context-management"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-memory.md"
+    },
+    {
+      "file_path": "046-qwen-code-docs-en-developers-tools-mcp-server.md",
+      "title": "MCP servers with Qwen Code",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/mcp-server",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:59.505113249-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a comprehensive guide detailing how to configure and utilize Model Context Protocol (MCP) servers with Qwen Code, explaining the architecture, transport mechanisms, and required settings in `settings.json` for successful integration.",
+      "tags": [
+        "mcp-protocol",
+        "qwen-code",
+        "configuration",
+        "cli-integration",
+        "tool-discovery",
+        "oauth-authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-mcp-server.md"
+    },
+    {
+      "file_path": "047-qwen-code-docs-en-developers-tools-sandbox.md",
+      "title": "Sandbox",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/tools/sandbox",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:01.881776422-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide details how developers can customize the sandboxing environment for a project by following steps to build custom Docker images and link local source code, while also providing instructions on how to revert these changes.",
+      "tags": [
+        "sandbox-customization",
+        "dockerfile",
+        "local-development",
+        "cli-setup",
+        "source-linking"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-tools-sandbox.md"
+    },
+    {
+      "file_path": "048-qwen-code-docs-en-developers-architecture.md",
+      "title": "Qwen Code Architecture Overview",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/architecture",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:43.843742275-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a developer guide detailing the high-level architecture of Qwen Code, which is split into a user-facing CLI package, a backend Core package for orchestration, and an extensible system of tools. It also explains the complete interaction flow from user input to final display, as well as configuration options.",
+      "tags": [
+        "architecture-overview",
+        "cli-design",
+        "core-backend",
+        "tool-system",
+        "interaction-flow",
+        "configuration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-architecture.md"
+    },
+    {
+      "file_path": "049-qwen-code-docs-en-developers-sdk-typescript.md",
+      "title": "Typescript SDK",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/sdk-typescript",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:36.248155576-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as an overview and reference for the @qwen-code/sdk, detailing its installation, usage with a quick start example, and comprehensive API documentation covering query parameters, timeouts, message handling, permission modes, and instance methods.",
+      "tags": [
+        "sdk-reference",
+        "typescript",
+        "programmatic-access",
+        "querying-interface",
+        "tool-control",
+        "qwen-code"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-developers-sdk-typescript.md"
+    },
+    {
+      "file_path": "050-qwen-code-docs-en-developers-sdk-java.md",
+      "title": "Qwen Code Java SDK",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/sdk-java",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:38.408832222-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides an overview and implementation guide for the Qwen Code Java SDK, detailing its setup via Maven/Gradle, basic usage examples, architectural layers, and advanced callback mechanisms for handling various session events and assistant content.",
+      "tags": [
+        "java-sdk",
+        "qwen-code",
+        "api-integration",
+        "development-guide",
+        "session-management",
+        "event-handling"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-developers-sdk-java.md"
+    },
+    {
+      "file_path": "051-qwen-code-docs-en-developers-extensions-getting-started-extensions.md",
+      "title": "Getting Started with Qwen Code Extensions",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/extensions/getting-started-extensions",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:15.800456399-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This guide provides a comprehensive walkthrough on developing a custom Qwen Code extension, covering setup from templates to advanced features like creating tools via MCP servers, defining custom commands, and setting persistent model context using a QWEN.md file.",
+      "tags": [
+        "qwen-code",
+        "extension-development",
+        "mcp-server",
+        "custom-commands",
+        "typescript",
+        "node-js"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-developers-extensions-getting-started-extensions.md"
+    },
+    {
+      "file_path": "052-qwen-code-docs-en-developers-extensions-extension.md",
+      "title": "Qwen Code Extensions",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/extensions/extension",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:11.786687586-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive guide on managing, creating, and understanding Qwen Code extensions, detailing installation, configuration structures like `qwen-extension.json`, command conflict resolution, and variable usage.",
+      "tags": [
+        "extension-management",
+        "qwen-code",
+        "cli-commands",
+        "configuration-guide",
+        "custom-commands"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-extensions-extension.md"
+    },
+    {
+      "file_path": "053-qwen-code-docs-en-developers-extensions-extension-releasing.md",
+      "title": "Extension Releasing",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/extensions/extension-releasing",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:13.917319471-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document compares and details two methods for distributing software extensions: via a general Git repository or through GitHub Releases, outlining the advantages, technical requirements, and best practices for each approach.",
+      "tags": [
+        "extension-release",
+        "git-repository",
+        "github-releases",
+        "distribution-methods",
+        "platform-specific-archives"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-extensions-extension-releasing.md"
+    },
+    {
+      "file_path": "054-qwen-code-docs-en-developers-contributing.md",
+      "title": "How to Contribute",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/contributing",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:33.495927371-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document serves as a comprehensive guide for contributors detailing required processes for submitting code patches, including strict guidelines on creating pull requests, and outlines the complete development workflow covering setup, building, testing, linting, and documentation updates.",
+      "tags": [
+        "contribution-process",
+        "pull-request-guidelines",
+        "development-workflow",
+        "testing-guide",
+        "coding-conventions",
+        "setup-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-contributing.md"
+    },
+    {
+      "file_path": "055-qwen-code-docs-en-developers-development-npm.md",
+      "title": "Package Overview",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/development/npm",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:04.019087159-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document outlines the architecture of a monorepo containing two packages, detailing their respective responsibilities, and provides an extensive guide on the structured release process for managing stable, preview, and nightly versions.",
+      "tags": [
+        "monorepo-architecture",
+        "release-workflow",
+        "cli-development",
+        "package-management",
+        "versioning-strategy",
+        "github-actions"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-development-npm.md"
+    },
+    {
+      "file_path": "056-qwen-code-docs-en-developers-development-telemetry.md",
+      "title": "Observability with OpenTelemetry",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/development/telemetry",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:05.911249955-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive guide on implementing and configuring OpenTelemetry for Qwen Code, detailing key benefits, setup methods like direct export to Aliyun or local file writing, and the structure of generated logs and metrics.",
+      "tags": [
+        "opentelemetry",
+        "qwen-code",
+        "observability",
+        "configuration",
+        "telemetry",
+        "logging",
+        "metrics"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-development-telemetry.md"
+    },
+    {
+      "file_path": "057-qwen-code-docs-en-developers-development-integration-tests.md",
+      "title": "Integration Tests",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/development/integration-tests",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:08.041366822-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a detailed guide on how to run, debug, and understand the structure of the integration testing framework for Qwen Code. It covers specific commands for running subsets of tests, utilizing environment variables for diagnostics, and understanding test output logging.",
+      "tags": [
+        "integration-testing",
+        "e2e-testing",
+        "test-runner",
+        "diagnostics",
+        "command-line",
+        "testing-framework"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-development-integration-tests.md"
+    },
+    {
+      "file_path": "058-qwen-code-docs-en-developers-development-issue-and-pr-automation.md",
+      "title": "Automation and Triage Processes",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/development/issue-and-pr-automation",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:10.101376771-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive guide to the automated workflows used for managing and triaging issues and pull requests within a repository, ensuring contributors know how their contributions will be processed.",
+      "tags": [
+        "automation-workflows",
+        "issue-triage",
+        "pull-request-lifecycle",
+        "github-actions",
+        "contribution-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-developers-development-issue-and-pr-automation.md"
+    },
+    {
+      "file_path": "059-qwen-code-docs-en-developers-roadmap.md",
+      "title": "Qwen Code RoadMap",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/developers/roadmap",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:04:32.063995835-03:00",
+      "description": "Multilingual documentation for Qwen Code: an open-source AI coding agent. Learn installation, IDE integration, MCP servers, workflows, automation, and best practices.",
+      "summary": "This document provides a comprehensive, phased overview of Claude Code's evolving product capabilities, detailing completed features, planned enhancements, and core functional areas from user experience to administrative tools.",
+      "tags": [
+        "product-roadmap",
+        "feature-tracking",
+        "ai-tooling",
+        "development-lifecycle",
+        "qwen-code",
+        "capability-matrix"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-developers-roadmap.md"
+    },
+    {
+      "file_path": "060-qwen-code-docs-en-blog.md",
+      "title": "Blog",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:03:43.867436045-03:00",
+      "description": "Insights into the Agentic Future",
+      "summary": "This document aggregates updates and guides related to Qwen Code, detailing feature releases, improvements across various dates, and providing tutorials on using the AI coding agent for tasks like knowledge management, video creation, and general programming assistance.",
+      "tags": [
+        "qwen-code",
+        "ai-coding-agent",
+        "product-updates",
+        "tutorials",
+        "development-log",
+        "workflow-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog.md"
+    },
+    {
+      "file_path": "061-qwen-code-docs-en-blog-thinks-like-a-programmer.md",
+      "title": "Announcing Qwen Code: An AI Coding Agent That Thinks Like a Programmer",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/thinks-like-a-programmer",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:31.766577782-03:00",
+      "description": "Introducing Qwen Code, an open-source AI coding tool powered by the Qwen3-Coder model, ushering in a new era of Agentic Workflow.",
+      "summary": "This document introduces Qwen Code, an open-source, autonomous AI programming companion powered by Qwen3-Coder. It explains that Qwen Code can perform advanced coding tasks like debugging and refactoring across multiple environments (terminal, IDE, CI/CD, browser) and operates with agentic capabilities.",
+      "tags": [
+        "ai-coding",
+        "programmer-companion",
+        "agentic-workflow",
+        "qwen3-coder",
+        "open-source",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-thinks-like-a-programmer.md"
+    },
+    {
+      "file_path": "062-qwen-code-docs-en-blog-feat-skills-oss-styles.md",
+      "title": "One Sentence: Create a Blockbuster Promotional Video for Your Open Source Project",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/feat-skills-oss-styles",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:20.020432893-03:00",
+      "description": "Introducing Qwen Code's oss-video skill: just provide a GitHub repository URL, and it automatically generates a high-quality promotional video for your open source project",
+      "summary": "This document introduces a new skill within Qwen Code that allows users to generate cinematic promotional demo videos for their open-source projects using only a single natural language prompt.\nIt details the process, use cases ranging from student assignments to corporate promotion, and emphasizes how this lowers the barrier for showcasing technical strength.",
+      "tags": [
+        "ai-video-generation",
+        "open-source-promotion",
+        "qwen-code",
+        "demo-video",
+        "developer-tools",
+        "tech-content"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-blog-feat-skills-oss-styles.md"
+    },
+    {
+      "file_path": "063-qwen-code-docs-en-blog-how-to-use-qwencode-cowork.md",
+      "title": "I Used AI to Clean Up My Chaotic Desktop: Complete Guide to Qwen Code Cowork Use Cases",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/how-to-use-qwencode-cowork",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:22.068303425-03:00",
+      "description": "A free and open-source AI work assistant that helps you organize files, batch rename, clean up storage space, and automate daily tasks.",
+      "summary": "This document introduces Qwen Code Cowork, a free and open-source desktop AI assistant capable of automating complex local tasks like file organization, batch renaming, managing disk space, and integrating diverse documents using natural language commands.",
+      "tags": [
+        "ai-assistant",
+        "file-management",
+        "automation",
+        "open-source",
+        "desktop-tools",
+        "productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-how-to-use-qwencode-cowork.md"
+    },
+    {
+      "file_path": "064-qwen-code-docs-en-blog-how-to-use-qwencode-insight.md",
+      "title": "Turns Out AI Knows Me Better Than I Know Myself—Experiencing Qwen Code Insight",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/how-to-use-qwencode-insight",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:24.548479095-03:00",
+      "description": "Sharing my experience with Qwen Code's new Insight feature, using data to show you how you use AI and how AI can guide you to use it better.",
+      "summary": "This document details the Qwen Code Insight feature, which analyzes a user's entire conversation history with the AI to generate personalized reports. These insights reveal usage patterns, pinpoint systematic pain points, and provide actionable recommendations for improvement.",
+      "tags": [
+        "qwen-code",
+        "ai-usage-review",
+        "personalization",
+        "productivity-enhancement",
+        "feedback-system",
+        "developer-tool"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-how-to-use-qwencode-insight.md"
+    },
+    {
+      "file_path": "065-qwen-code-docs-en-blog-channels-weixin-launch-announcement.md",
+      "title": "Qwen Code Beta: Use AI to Write Code in Your WeChat Channel!",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/channels-weixin-launch-announcement",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:17.973350101-03:00",
+      "description": "Attention, attention! This is not crayfish, this is Qwen Code's Channel feature! Fresh out of the oven",
+      "summary": "This document details how developers can utilize Qwen Code for coding assistance directly within WeChat channels, eliminating the need for traditional IDEs or terminals. It provides a comprehensive guide covering prerequisites, step-by-step configuration (connecting via QR code and editing settings), testing procedures, and advanced customization tips.",
+      "tags": [
+        "qwen-code",
+        "wechat-integration",
+        "ai-coding-assistant",
+        "development-workflow",
+        "configuration-guide",
+        "chatbot"
+      ],
+      "category": "tutorial",
+      "original_file_path": "qwen-code-docs-en-blog-channels-weixin-launch-announcement.md"
+    },
+    {
+      "file_path": "066-qwen-code-docs-en-blog-obsidian.md",
+      "title": "Qwen Code + Obsidian: Making Knowledge Management Accessible",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/obsidian",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:26.015132288-03:00",
+      "description": "Integrate Qwen Code into Obsidian to enhance knowledge management efficiency through plugin installation, authentication configuration, and multimodal capabilities like writing polish, image generation, and web scraping.",
+      "summary": "This document provides a comprehensive guide on setting up and using Qwen Code within Obsidian to transform a static note-taking system into an active workspace. It covers everything from initial environment setup (installing plugins) to advanced workflows like file referencing, language modification, writing polish, image generation, and accessing protected web content.",
+      "tags": [
+        "obsidian",
+        "qwen-code",
+        "ai-agent",
+        "knowledge-management",
+        "markdown",
+        "terminal"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-obsidian.md"
+    },
+    {
+      "file_path": "067-qwen-code-docs-en-blog-qwencode-coding-plan-guide-build-website.md",
+      "title": "Finish Homework, Portfolio, and Open Source Projects in 10 Minutes - Qwen Code + Coding Plan Practice",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/qwencode-coding-plan-guide-build-website",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:28.063684993-03:00",
+      "description": "Use Qwen Code to quickly build personal websites, participate in open source projects, and generate demo videos. Practical guide for AI programming tools.",
+      "summary": "This document provides a comprehensive guide on leveraging the Qwen Code tool across various development tasks, demonstrating how it can automate creating portfolio websites, contributing to open-source projects via PR submission, and generating professional demo videos using code.",
+      "tags": [
+        "qwen-code",
+        "ai-programming",
+        "portfolio-website",
+        "open-source-contribution",
+        "demo-video-generation",
+        "development-tooling"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-qwencode-coding-plan-guide-build-website.md"
+    },
+    {
+      "file_path": "068-qwen-code-docs-en-blog-qwencode-for-university-students.md",
+      "title": "A Letter to University Students: 10 Real Use Cases for Qwen Code",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/qwencode-for-university-students",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:29.82277499-03:00",
+      "description": "A guide for university students on using Qwen Code, from installation to practical applications, sharing 10 real-world scenarios.",
+      "summary": "This document provides a comprehensive overview and 10 practical use cases for Qwen Code, an AI coding assistant designed to help students manage academic tasks, career preparation, and routine technical workflows efficiently.",
+      "tags": [
+        "ai-coding-assistant",
+        "student-productivity",
+        "academic-tools",
+        "career-planning",
+        "workflow-automation",
+        "tutorial"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-qwencode-for-university-students.md"
+    },
+    {
+      "file_path": "069-qwen-code-docs-en-blog-weekly-update-2026-02-03.md",
+      "title": "Qwen Code Weekly: LSP Support, Batch Runner, New Languages",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-02-03",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:34.063124257-03:00",
+      "description": "This week we released v0.8.1, v0.8.2 stable versions and v0.9.0 preview, adding LSP support, batch-runner evaluation tool, unified UI architecture, and Japanese & Portuguese language support.",
+      "summary": "This weekly blog post details the latest updates to Qwen Code, highlighting major new features such as a comprehensive Extension System, native Language Server Protocol (LSP) support for advanced code intelligence, and a batch-runner tool for efficient testing. It also covers UI architecture unification and international language additions.",
+      "tags": [
+        "qwen-code",
+        "lsp-support",
+        "extension-system",
+        "batch-testing",
+        "ai-agent",
+        "software-update"
+      ],
+      "category": "blog",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-02-03.md"
+    },
+    {
+      "file_path": "070-qwen-code-docs-en-blog-weekly-update-2026-02-09.md",
+      "title": "Qwen Code Weekly: Agent Skills GA, One-Click Install, Session Export",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-02-09",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:36.257734375-03:00",
+      "description": "This week we released v0.9.0, v0.9.1 stable versions and v0.10.0 preview. Agent Skills removed experimental flag, added one-click install script and session history export feature.",
+      "summary": "This weekly blog post details updates for Qwen Code, announcing major stable feature releases like Agent Skills going General Availability and adding session history export capabilities across multiple formats. It also covers installation improvements, SDK optimizations, and numerous bug fixes.",
+      "tags": [
+        "weekly-update",
+        "feature-release",
+        "agent-skills",
+        "session-export",
+        "sdk-optimization",
+        "installation-guide",
+        "code-development"
+      ],
+      "category": "blog",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-02-09.md"
+    },
+    {
+      "file_path": "071-qwen-code-docs-en-blog-weekly-update-2026-03-03.md",
+      "title": "Qwen Code Weekly: Insight Analytics, Clipboard Images, Terminal Capture",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-03-03",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:37.978975928-03:00",
+      "description": "This week we released v0.10.0, v0.11.0 major feature versions and 5 bugfix versions, adding Insight analytics, clipboard image support, Terminal Capture and more.",
+      "summary": "This blog post details the latest updates and new features in Qwen Code, including built-in insight analytics, cross-platform clipboard image support, automated terminal screenshot generation, and various bug fixes across different versions.",
+      "tags": [
+        "qwen-code",
+        "feature-update",
+        "analytics",
+        "clipboard-images",
+        "terminal-capture",
+        "software-release"
+      ],
+      "category": "blog",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-03-03.md"
+    },
+    {
+      "file_path": "072-qwen-code-docs-en-blog-weekly-update-2026-03-06.md",
+      "title": "Qwen Code Weekly: HTML Export Enhancement, Terminal GIF Recording, GitHub Workflow Commands",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-03-06",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:39.994193916-03:00",
+      "description": "This week we released v0.11.1 and continued development on v0.12.0, adding an HTML export tool call viewer, terminal streaming GIF recording, built-in GitHub workflow commands, and more.",
+      "summary": "This blog post details the latest enhancements and stability fixes in a software release, highlighting new features like improved HTML exports, streaming terminal GIF generation, built-in GitHub workflow commands, and various quality-of-life improvements.",
+      "tags": [
+        "release-notes",
+        "software-updates",
+        "feature-enhancements",
+        "github-automation",
+        "terminal-recording"
+      ],
+      "category": "blog",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-03-06.md"
+    },
+    {
+      "file_path": "073-qwen-code-docs-en-blog-weekly-update-2026-03-13.md",
+      "title": "Qwen Code Weekly: Automated Workflows, Better Extension & MCP Management, VS Code Sidebar",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-03-13",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:41.819417967-03:00",
+      "description": "This week's update lets you automate script execution, manage MCP and extensions more easily, keep Qwen Code in VS Code sidebar, and generate GIFs from screen recordings with one click.",
+      "summary": "This release announcement details several major updates to Qwen Code v0.12.0, introducing features like an automated Hooks system, proactive AI questioning capabilities, and enhanced visual interfaces for extension and MCP management.",
+      "tags": [
+        "release-notes",
+        "qwen-code",
+        "new-features",
+        "workflow-enhancements",
+        "system-updates"
+      ],
+      "category": "reference",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-03-13.md"
+    },
+    {
+      "file_path": "074-qwen-code-docs-en-blog-weekly-update-2026-03-20.md",
+      "title": "Qwen Code Weekly: Token Limit Doubled, Real-time Usage Display, JetBrains Editor Support",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-03-20",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:43.979497215-03:00",
+      "description": "This week: Token limit increased from 8K to 16K, real-time token usage display, JetBrains/Zed editor integration, Plan Mode comparison view, plus Windows encoding fixes.",
+      "summary": "This blog post summarizes the latest features and bug fixes released for Qwen Code, highlighting key updates such as doubling the token limit to 16K, real-time token usage display, integration with JetBrains and Zed editors, and general stability improvements across various platforms.",
+      "tags": [
+        "qwen-code",
+        "ai-assistant",
+        "token-limit",
+        "editor-integration",
+        "software-updates",
+        "feature-release"
+      ],
+      "category": "blog",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-03-20.md"
+    },
+    {
+      "file_path": "075-qwen-code-docs-en-blog-weekly-update-2026-03-27.md",
+      "title": "Qwen Code Weekly: AI Code Review, Ask Questions Without Losing Context, Custom Workflow Automation",
+      "url": "https://qwenlm.github.io/qwen-code-docs/en/blog/weekly-update-2026-03-27",
+      "source": "github_pages",
+      "fetched_at": "2026-04-09T09:05:46.047431465-03:00",
+      "description": "This week: v0.13.0 released with /review for code review before commits, /btw for quick questions without losing context, Hooks for automated testing and formatting, Arena for multi-model comparison.",
+      "summary": "This release document details the new features in Qwen Code v0.13.0, focusing on making it more programmable through hooks, skills sharing, and enhanced workflow integrations like code review and side questioning.",
+      "tags": [
+        "qwen-code",
+        "ai-developer-tools",
+        "new-features",
+        "workflow-automation",
+        "programming-assistance",
+        "api-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "qwen-code-docs-en-blog-weekly-update-2026-03-27.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-09T09:10:00Z",
+    "total_files": 74,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Configuration & Settings",
+      "Features & Capabilities",
+      "IDE & Editor Integration",
+      "Extensions",
+      "Reference & Keyboard Shortcuts",
+      "Troubleshooting & Support",
+      "Developer Tools Reference",
+      "Developer SDK & Architecture",
+      "Extensions Development",
+      "Contributing & Development",
+      "Blog & Weekly Updates"
+    ]
+  }
+}

@@ -1,0 +1,270 @@
+{
+  "generated_at": "2026-04-16T16:22:05.856027867-03:00",
+  "source_url": "https://github.com/gsd-build/get-shit-done",
+  "strategy": "git",
+  "total_documents": 13,
+  "organization": {
+    "organized_at": "2026-04-16T16:24:00Z",
+    "schema": "sequential-numeric",
+    "prefix_format": "000",
+    "ordering": "logical-reading-order"
+  },
+  "documents": [
+    {
+      "file_path": "001-docs-README.md",
+      "original_file_path": "docs-README.md",
+      "title": "README",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/README.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:06.461283822-03:00",
+      "summary": "This document serves as the central hub for the Get Shit Done (GSD) framework, providing architectural, functional, and operational guidance for its meta-prompting and AI agent-based development system.",
+      "tags": [
+        "gsd-framework",
+        "ai-agents",
+        "meta-prompting",
+        "development-tools",
+        "spec-driven-development",
+        "coding-assistants"
+      ],
+      "category": "reference",
+      "order": 1,
+      "section": "Introduction & Overview"
+    },
+    {
+      "file_path": "002-docs-ARCHITECTURE.md",
+      "original_file_path": "docs-ARCHITECTURE.md",
+      "title": "ARCHITECTURE",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/ARCHITECTURE.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:04.615476267-03:00",
+      "summary": "This document outlines the architectural design, core components, and design principles of the GSD meta-prompting framework, which serves as an orchestration layer for AI coding agents.",
+      "tags": [
+        "architecture",
+        "meta-prompting",
+        "multi-agent-system",
+        "context-management",
+        "workflow-automation",
+        "system-design"
+      ],
+      "category": "concept",
+      "order": 2,
+      "section": "Concepts & Fundamentals"
+    },
+    {
+      "file_path": "003-docs-gsd-sdk-query-migration-blurb.md",
+      "original_file_path": "docs-gsd-sdk-query-migration-blurb.md",
+      "title": "Gsd sdk query migration blurb",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/gsd-sdk-query-migration-blurb.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:07.999943637-03:00",
+      "summary": "This document outlines the transition from the monolithic gsd-tools subprocess to the new gsd-sdk query system, highlighting improvements in type safety, error handling, and operational stability.",
+      "tags": [
+        "sdk-migration",
+        "gsd-sdk",
+        "query-system",
+        "api-refactoring",
+        "workflow-optimization",
+        "cli-replacement"
+      ],
+      "category": "concept",
+      "order": 3,
+      "section": "Concepts & Fundamentals"
+    },
+    {
+      "file_path": "004-docs-FEATURES.md",
+      "original_file_path": "docs-FEATURES.md",
+      "title": "FEATURES",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/FEATURES.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:06.436006827-03:00",
+      "summary": "This document serves as a comprehensive reference cataloging the features, commands, and requirements of the GSD (Get Stuff Done) framework across its various version iterations.",
+      "tags": [
+        "gsd-framework",
+        "feature-reference",
+        "project-management",
+        "development-workflow",
+        "automation",
+        "cli-tools"
+      ],
+      "category": "reference",
+      "order": 4,
+      "section": "Features & Capabilities"
+    },
+    {
+      "file_path": "005-docs-AGENTS.md",
+      "original_file_path": "docs-AGENTS.md",
+      "title": "AGENTS",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/AGENTS.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:04.615453534-03:00",
+      "summary": "This document provides a comprehensive reference for the GSD (Guided Software Development) multi-agent architecture, detailing the roles, tools, spawning logic, and operational behaviors of specialized autonomous agents.",
+      "tags": [
+        "multi-agent-system",
+        "ai-agents",
+        "software-architecture",
+        "workflow-automation",
+        "agentic-design",
+        "development-tools"
+      ],
+      "category": "reference",
+      "order": 5,
+      "section": "Features & Capabilities"
+    },
+    {
+      "file_path": "006-docs-CONFIGURATION.md",
+      "original_file_path": "docs-CONFIGURATION.md",
+      "title": "CONFIGURATION",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/CONFIGURATION.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:04.615479212-03:00",
+      "summary": "This document provides a comprehensive reference for the GSD project configuration, detailing the schema for settings, workflow toggles, and environment parameters.",
+      "tags": [
+        "configuration-schema",
+        "workflow-toggles",
+        "project-settings",
+        "gsd-reference",
+        "automation-config"
+      ],
+      "category": "reference",
+      "order": 6,
+      "section": "Configuration & Settings"
+    },
+    {
+      "file_path": "007-docs-context-monitor.md",
+      "original_file_path": "docs-context-monitor.md",
+      "title": "Context monitor",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/context-monitor.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:06.59048877-03:00",
+      "summary": "This document describes a context window monitoring system that injects usage warnings directly into an agent's conversation flow to prevent task failure due to memory exhaustion.",
+      "tags": [
+        "context-window",
+        "agent-monitoring",
+        "automation-hooks",
+        "tool-use",
+        "system-optimization",
+        "error-prevention"
+      ],
+      "category": "configuration",
+      "order": 7,
+      "section": "Configuration & Settings"
+    },
+    {
+      "file_path": "008-docs-workflow-discuss-mode.md",
+      "original_file_path": "docs-workflow-discuss-mode.md",
+      "title": "Workflow discuss mode",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/workflow-discuss-mode.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:21:26.074348638-03:00",
+      "summary": "This document explains the two operational modes for context gathering in GSD's discuss-phase: the interactive interview style and the automated codebase-first assumptions approach.",
+      "tags": [
+        "gsd-tools",
+        "context-gathering",
+        "workflow-configuration",
+        "codebase-analysis",
+        "project-planning"
+      ],
+      "category": "configuration",
+      "order": 8,
+      "section": "Configuration & Settings"
+    },
+    {
+      "file_path": "009-docs-USER-GUIDE.md",
+      "original_file_path": "docs-USER-GUIDE.md",
+      "title": "USER GUIDE",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/USER-GUIDE.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:06.513077891-03:00",
+      "summary": "This document serves as a comprehensive operational manual for the GSD system, covering project lifecycle workflows, automated planning procedures, and the Nyquist validation architecture.",
+      "tags": [
+        "project-management",
+        "workflow-automation",
+        "system-configuration",
+        "software-development",
+        "quality-assurance",
+        "technical-reference"
+      ],
+      "category": "guide",
+      "order": 9,
+      "section": "Tutorials & How-To"
+    },
+    {
+      "file_path": "010-docs-manual-update.md",
+      "original_file_path": "docs-manual-update.md",
+      "title": "Manual update",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/manual-update.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:55.753683866-03:00",
+      "summary": "This document provides instructions for manually updating the get-shit-done software from source when the standard npm installation method is unavailable.",
+      "tags": [
+        "manual-installation",
+        "cli-tools",
+        "software-update",
+        "source-code",
+        "runtime-configuration"
+      ],
+      "category": "guide",
+      "order": 10,
+      "section": "Tutorials & How-To"
+    },
+    {
+      "file_path": "011-docs-COMMANDS.md",
+      "original_file_path": "docs-COMMANDS.md",
+      "title": "COMMANDS",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/COMMANDS.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:04.615474974-03:00",
+      "summary": "This document serves as a comprehensive command reference for the GSD workflow, detailing syntax, flags, and usage for project initialization, workspace management, and phase-based development tasks.",
+      "tags": [
+        "gsd-workflow",
+        "cli-commands",
+        "project-management",
+        "workspace-automation",
+        "dev-ops",
+        "development-tools"
+      ],
+      "category": "reference",
+      "order": 11,
+      "section": "API & Reference"
+    },
+    {
+      "file_path": "012-docs-CLI-TOOLS.md",
+      "original_file_path": "docs-CLI-TOOLS.md",
+      "title": "CLI TOOLS",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/CLI-TOOLS.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:20:04.615462641-03:00",
+      "summary": "This document provides a reference for the gsd-tools.cjs Node.js CLI utility, which centralizes project state, configuration, roadmap, and phase management for the GSD system.",
+      "tags": [
+        "cli-tool",
+        "node-js",
+        "project-management",
+        "automation",
+        "workflow-orchestration",
+        "state-management"
+      ],
+      "category": "reference",
+      "order": 12,
+      "section": "API & Reference"
+    },
+    {
+      "file_path": "013-docs-skills-discovery-contract.md",
+      "original_file_path": "docs-skills-discovery-contract.md",
+      "title": "Discovery contract",
+      "url": "https://github.com/gsd-build/get-shit-done/blob/main/docs/skills/discovery-contract.md",
+      "source": "git",
+      "fetched_at": "2026-04-16T16:21:23.474317094-03:00",
+      "summary": "This document defines the canonical directory structure, scanning logic, and normalization rules for discovering and inventorying GSD skills within project and global environments.",
+      "tags": [
+        "skill-discovery",
+        "metadata-extraction",
+        "project-configuration",
+        "directory-structure",
+        "inventory-management"
+      ],
+      "category": "reference",
+      "order": 13,
+      "section": "API & Reference"
+    }
+  ]
+}

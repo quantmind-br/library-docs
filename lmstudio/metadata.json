@@ -1,0 +1,2872 @@
+{
+  "generated_at": "2026-04-07T21:32:41.129309761-03:00",
+  "source_url": "https://lmstudio.ai/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 157,
+  "documents": [
+    {
+      "file_path": "001-docs.md",
+      "title": "",
+      "url": "https://lmstudio.ai/docs",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:35.209297655-03:00",
+      "summary": "No content provided in the document to generate a summary.",
+      "tags": [
+        "empty-input",
+        "metadata-extraction"
+      ],
+      "category": "other",
+      "original_file_path": "docs.md"
+    },
+    {
+      "file_path": "113-docs-python-model-info-get-model-info.md",
+      "title": "Get Model Info",
+      "url": "https://lmstudio.ai/docs/python/model-info/get-model-info",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:37.516131262-03:00",
+      "description": "Get information about the model",
+      "summary": "This document explains how to access general information and metadata about a loaded language model instance using a dedicated function call.",
+      "tags": [
+        "model-metadata",
+        "instance-info",
+        "llm-reference",
+        "qwen2",
+        "embedding-model"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-python-model-info-get-model-info.md"
+    },
+    {
+      "file_path": "015-docs-app-system-requirements.md",
+      "title": "System Requirements",
+      "url": "https://lmstudio.ai/docs/app/system-requirements",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:37.639004765-03:00",
+      "description": "Supported CPU, GPU types for LM Studio on Mac (M1/M2/M3/M4), Windows (x64/ARM), and Linux (x64/ARM64)",
+      "summary": "This document provides a compatibility list detailing which CPU and GPU types are supported for running LM Studio across various operating systems, including Mac, Windows, and Linux.",
+      "tags": [
+        "cpu-support",
+        "gpu-compatibility",
+        "lm-studio",
+        "macos",
+        "windows",
+        "linux"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-app-system-requirements.md"
+    },
+    {
+      "file_path": "109-docs-python-tokenization.md",
+      "title": "Tokenization",
+      "url": "https://lmstudio.ai/docs/python/tokenization",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:37.521440704-03:00",
+      "description": "Tokenize text using a model's tokenizer",
+      "summary": "This document details how to use the LM Studio SDK's tokenizer functionality to convert text into token IDs and demonstrates methods for counting tokens or checking if a conversation fits within a model's context window.",
+      "tags": [
+        "tokenizer",
+        "tokenization",
+        "llm-sdk",
+        "counting-tokens",
+        "context-length"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-python-tokenization.md"
+    },
+    {
+      "file_path": "002-docs-app.md",
+      "title": "Welcome to LM Studio Docs!",
+      "url": "https://lmstudio.ai/docs/app",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:37.682306672-03:00",
+      "description": "Learn how to run Llama, DeepSeek, Qwen, Phi, and other LLMs locally with LM Studio.",
+      "summary": "This document serves as a comprehensive overview of LM Studio, detailing what it can do with local LLMs, its system requirements, how to run different types of models, and providing information on advanced features like RAG, headless operation, and accessing the built-in API.",
+      "tags": [
+        "local-llm",
+        "desktop-application",
+        "api-access",
+        "model-management",
+        "runnable-modes",
+        "huggingface"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app.md"
+    },
+    {
+      "file_path": "014-docs-app-offline.md",
+      "title": "Offline Operation",
+      "url": "https://lmstudio.ai/docs/app/offline",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:39.540570927-03:00",
+      "description": "LM Studio can operate entirely offline, just make sure to get some model files first.",
+      "summary": "This document explains which core functions within LM Studio can operate entirely offline using locally downloaded models, and conversely, details the specific operations that require an active internet connection.",
+      "tags": [
+        "offline-usage",
+        "local-inference",
+        "connectivity-requirements",
+        "llm-operation",
+        "rag",
+        "model-downloading"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-offline.md"
+    },
+    {
+      "file_path": "092-docs-lmlink-basics-faq.md",
+      "title": "Frequently Asked Questions",
+      "url": "https://lmstudio.ai/docs/lmlink/basics/faq",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:40.496564186-03:00",
+      "description": "Answers to common questions about LM Link.",
+      "summary": "This Q&A document addresses common questions about LM Link, explaining its secure operation via end-to-end encryption, compatibility with remote models and existing VPNs, and how to manage its settings and device connections.",
+      "tags": [
+        "lm-link",
+        "qa-session",
+        "tailscale",
+        "model-access",
+        "security",
+        "local-server"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-lmlink-basics-faq.md"
+    },
+    {
+      "file_path": "012-docs-app-basics-chat.md",
+      "title": "Manage chats",
+      "url": "https://lmstudio.ai/docs/app/basics/chat",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:41.1402379-03:00",
+      "description": "Manage conversation threads with LLMs",
+      "summary": "This document provides a guide to managing conversations within LM Studio, covering features like creating chats and folders, duplicating content, utilizing split view, and explaining where the chat data is stored.",
+      "tags": [
+        "lm-studio",
+        "chat-management",
+        "llm-interaction",
+        "conversation-features"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-basics-chat.md"
+    },
+    {
+      "file_path": "003-docs-app-basics.md",
+      "title": "Get started with LM Studio",
+      "url": "https://lmstudio.ai/docs/app/basics",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:40.881517814-03:00",
+      "description": "Download and run Large Language Models like Qwen, Mistral, Gemma, or gpt-oss in LM Studio.",
+      "summary": "This document provides a step-by-step guide on setting up and using a locally run Large Language Model (LLM) with LM Studio. It covers initial setup, downloading the model weights, loading the model into memory, and finally starting a chat session.",
+      "tags": [
+        "lm-studio",
+        "llm-setup",
+        "local-model",
+        "downloading-models",
+        "using-chat"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-app-basics.md"
+    },
+    {
+      "file_path": "088-docs-lmlink.md",
+      "title": "LM Link",
+      "url": "https://lmstudio.ai/docs/lmlink",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:43.706398746-03:00",
+      "description": "Use LM Link to access your local models wherever you are, over a secure and end-to-end encrypted connection.",
+      "summary": "This document introduces LM Link, a feature in LM Studio that establishes custom, end-to-end encrypted networks to allow users to access and serve local LLMs across multiple personal devices.",
+      "tags": [
+        "lm-link",
+        "local-models",
+        "device-sync",
+        "tailscale",
+        "llm-serving",
+        "encryption"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-lmlink.md"
+    },
+    {
+      "file_path": "090-docs-lmlink-basics-add-device.md",
+      "title": "Add a Device",
+      "url": "https://lmstudio.ai/docs/lmlink/basics/add-device",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:42.04815788-03:00",
+      "description": "Connect a new device to your LM Link.",
+      "summary": "This document explains how to connect and manage multiple AI devices using LM Link, detailing steps for both GUI-equipped and headless machines. It also covers loading models from remote devices via the model loader or API/SDK.",
+      "tags": [
+        "lmlink",
+        "device-setup",
+        "remote-model-loading",
+        "headless-machine",
+        "llmster",
+        "multi-device"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-lmlink-basics-add-device.md"
+    },
+    {
+      "file_path": "095-docs-integrations-claude-code.md",
+      "title": "Claude Code",
+      "url": "https://lmstudio.ai/docs/integrations/claude-code",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:47.886334989-03:00",
+      "description": "Use Claude Code with LM Studio",
+      "summary": "This guide explains how to configure Claude Code to interact with a local LLM server running in LM Studio using the Anthropic-compatible API endpoint.",
+      "tags": [
+        "claude-code",
+        "lm-studio",
+        "api-integration",
+        "environment-variables",
+        "local-llm"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-integrations-claude-code.md"
+    },
+    {
+      "file_path": "094-docs-integrations-lmlink.md",
+      "title": "Using LM Link with Integrations",
+      "url": "https://lmstudio.ai/docs/integrations/lmlink",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:49.938111153-03:00",
+      "description": "Use a remote device's model with coding tools like Claude Code and Codex via LM Link",
+      "summary": "This document explains how to use LM Link to allow coding tools on a local machine to run language models hosted on a remote device, detailing the necessary setup for API routing.",
+      "tags": [
+        "lmlink",
+        "remote-llm",
+        "api-connection",
+        "local-development",
+        "model-hosting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-integrations-lmlink.md"
+    },
+    {
+      "file_path": "093-docs-integrations.md",
+      "title": "Integrations",
+      "url": "https://lmstudio.ai/docs/integrations",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:51.93084783-03:00",
+      "description": "Use LM Studio with external tools and apps.",
+      "summary": "This document explains how to use LM Studio as a local, private backend for various development tools and integrations.",
+      "tags": [
+        "local-backend",
+        "llm-studio",
+        "api-integration",
+        "developer-tools",
+        "data-privacy"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-integrations.md"
+    },
+    {
+      "file_path": "096-docs-integrations-codex.md",
+      "title": "Codex",
+      "url": "https://lmstudio.ai/docs/integrations/codex",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:46.011478663-03:00",
+      "description": "Use Codex with LM Studio",
+      "summary": "This document explains how to connect the Codex tool to a local Large Language Model (LLM) instance running via LM Studio using its OpenAI-compatible API endpoint.",
+      "tags": [
+        "codex",
+        "lm-studio",
+        "openai-api",
+        "local-model",
+        "llm-integration",
+        "server-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-integrations-codex.md"
+    },
+    {
+      "file_path": "091-docs-lmlink-basics-preferred-device.md",
+      "title": "Set a preferred device",
+      "url": "https://lmstudio.ai/docs/lmlink/basics/preferred-device",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:41.548183084-03:00",
+      "description": "Choose a preferred device to load models via LM Link",
+      "summary": "This document explains how to set a preferred remote device for accessing models via LM Link, detailing separate procedures for GUI-based and terminal-based machines.",
+      "tags": [
+        "lm-link",
+        "preferred-device",
+        "remote-models",
+        "sdk-api",
+        "machine-settings"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-lmlink-basics-preferred-device.md"
+    },
+    {
+      "file_path": "049-docs-cli-develop-and-publish-push.md",
+      "title": "`lms push` (Beta)",
+      "url": "https://lmstudio.ai/docs/cli/develop-and-publish/push",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:57.744710152-03:00",
+      "description": "Upload the current folder's artifact to LM Studio Hub (beta).",
+      "summary": "This document explains the command-line process and various flags required to publish a new revision of a plugin, preset, or model configuration within the LMS ecosystem.",
+      "tags": [
+        "lms-publish",
+        "cli-command",
+        "plugin-deployment",
+        "model-yaml",
+        "revision-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-develop-and-publish-push.md"
+    },
+    {
+      "file_path": "046-docs-cli-develop-and-publish-login.md",
+      "title": "`lms login`",
+      "url": "https://lmstudio.ai/docs/cli/develop-and-publish/login",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:53.92625669-03:00",
+      "description": "Authenticate with LM Studio Hub (beta).",
+      "summary": "This document details the methods for authenticating a Command Line Interface (CLI) connection with the LM Studio Hub, providing options for both interactive browser sign-in and using pre-authenticated key pairs suitable for CI/CD environments.",
+      "tags": [
+        "lms-login",
+        "cli-authentication",
+        "key-management",
+        "ci-cd",
+        "command-line"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-develop-and-publish-login.md"
+    },
+    {
+      "file_path": "055-docs-cli-runtime-runtime.md",
+      "title": "`lms runtime`",
+      "url": "https://lmstudio.ai/docs/cli/runtime/runtime",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:01.759566009-03:00",
+      "description": "Manage LM Studio inference runtimes from the CLI.",
+      "summary": "This document provides a set of commands for using the `lms runtime` tool, detailing how to list, download, select, remove, and update inference runtimes.",
+      "tags": [
+        "runtime-management",
+        "command-line",
+        "inference-runtimes",
+        "lms-tool"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-runtime-runtime.md"
+    },
+    {
+      "file_path": "047-docs-cli-develop-and-publish-clone.md",
+      "title": "`lms clone`",
+      "url": "https://lmstudio.ai/docs/cli/develop-and-publish/clone",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:59.74716308-03:00",
+      "description": "Clone an artifact from LM Studio Hub to a local folder (beta).",
+      "summary": "This document explains the usage of the `lms clone` command, which is used to copy an artifact from LM Studio Hub to a local machine.",
+      "tags": [
+        "lms-clone",
+        "artifact-copying",
+        "command-line-tool",
+        "hub-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-develop-and-publish-clone.md"
+    },
+    {
+      "file_path": "053-docs-cli-link-link-set-device-name.md",
+      "title": "`lms link set-device-name`",
+      "url": "https://lmstudio.ai/docs/cli/link/link-set-device-name",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:05.740680487-03:00",
+      "description": "Rename this device on LM Link from the CLI.",
+      "summary": "This document explains how to use the `lms link set-device-name` command to change and set a visible display name for the current device within an LMS link.",
+      "tags": [
+        "lms-link",
+        "set-device-name",
+        "device-naming",
+        "cli-command",
+        "network-settings"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-link-link-set-device-name.md"
+    },
+    {
+      "file_path": "052-docs-cli-link-link-status.md",
+      "title": "`lms link status`",
+      "url": "https://lmstudio.ai/docs/cli/link/link-status",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:07.837061446-03:00",
+      "description": "Check LM Link connection status and see connected peers.",
+      "summary": "This document explains the functionality of the `lms link status` command, which reports the operational status of LM Link on a device, including connected peers and their loaded models.",
+      "tags": [
+        "lm-link",
+        "status-check",
+        "cli-command",
+        "device-connection",
+        "model-listing"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-link-link-status.md"
+    },
+    {
+      "file_path": "050-docs-cli-link-link-enable.md",
+      "title": "`lms link enable`",
+      "url": "https://lmstudio.ai/docs/cli/link/link-enable",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:11.399018232-03:00",
+      "description": "Enable LM Link on this device from the CLI.",
+      "summary": "This document explains how to manage the LM Link feature using its command-line interface (CLI), covering enabling, checking status, and disabling the connection.",
+      "tags": [
+        "lm-link",
+        "cli-command",
+        "device-connection",
+        "lms-login",
+        "status-checking"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-link-link-enable.md"
+    },
+    {
+      "file_path": "054-docs-cli-link-set-preferred-device.md",
+      "title": "`lms link set-preferred-device`",
+      "url": "https://lmstudio.ai/docs/cli/link/link-set-preferred-device",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:03.510303007-03:00",
+      "description": "Set the preferred device for model resolution on LM Link.",
+      "summary": "This document explains how to use the `lms link set-preferred-device` command to designate a specific device as the primary source when an AI model is accessible through multiple connected devices.",
+      "tags": [
+        "lms",
+        "link-management",
+        "device-selection",
+        "cli-command",
+        "model-routing"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-link-link-set-preferred-device.md"
+    },
+    {
+      "file_path": "041-docs-cli-daemon-daemon-update.md",
+      "title": "`lms daemon update`",
+      "url": "https://lmstudio.ai/docs/cli/daemon/daemon-update",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:13.701478108-03:00",
+      "description": "Update llmster to the latest version.",
+      "summary": "This document explains the procedure for updating the lms daemon to fetch and install either the latest stable or beta release of llmster.",
+      "tags": [
+        "lms-daemon",
+        "update-procedure",
+        "llmster",
+        "beta-release",
+        "command-line"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-daemon-daemon-update.md"
+    },
+    {
+      "file_path": "040-docs-cli-daemon-daemon-status.md",
+      "title": "`lms daemon status`",
+      "url": "https://lmstudio.ai/docs/cli/daemon/daemon-status",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:15.768525818-03:00",
+      "description": "Check whether llmster is running.",
+      "summary": "This document explains how to check the operational status of the lms daemon using the `lms daemon status` command, and details related commands for starting or stopping the service.",
+      "tags": [
+        "daemon-status",
+        "cli-command",
+        "llmster",
+        "system-management",
+        "json-output"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-daemon-daemon-status.md"
+    },
+    {
+      "file_path": "045-docs-cli-serve-log-stream.md",
+      "title": "`lms log stream`",
+      "url": "https://lmstudio.ai/docs/cli/serve/log-stream",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:19.442802561-03:00",
+      "description": "Stream logs from LM Studio. Useful for debugging prompts sent to the model.",
+      "summary": "This document explains how to use the `lms log stream` command to inspect the exact communication strings between LM Studio and language models, useful for debugging various operations.",
+      "tags": [
+        "logging",
+        "debugging",
+        "lm-studio",
+        "model-io",
+        "server-logs"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-serve-log-stream.md"
+    },
+    {
+      "file_path": "051-docs-cli-link-link-disable.md",
+      "title": "`lms link disable`",
+      "url": "https://lmstudio.ai/docs/cli/link/link-disable",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:09.902669394-03:00",
+      "description": "Disable LM Link on this device from the CLI.",
+      "summary": "This documentation provides a command-line interface (CLI) reference for managing various aspects of LM Studio, including local model operations, server management, daemon control, and the enabling or disabling of the LM Link feature.",
+      "tags": [
+        "cli",
+        "local-models",
+        "server",
+        "daemon",
+        "lm-link",
+        "documentation"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-link-link-disable.md"
+    },
+    {
+      "file_path": "043-docs-cli-serve-server-stop.md",
+      "title": "`lms server stop`",
+      "url": "https://lmstudio.ai/docs/cli/serve/server-stop",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:21.716753498-03:00",
+      "description": "Stop the running LM Studio server instance.",
+      "summary": "This document explains how to gracefully stop a running LM Studio server using the dedicated command.",
+      "tags": [
+        "server-control",
+        "stop-command",
+        "lms-studio",
+        "api-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-serve-server-stop.md"
+    },
+    {
+      "file_path": "048-docs-cli-develop-and-publish-dev.md",
+      "title": "`lms dev` (Beta)",
+      "url": "https://lmstudio.ai/docs/cli/develop-and-publish/dev",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:56.173952742-03:00",
+      "description": "Start a plugin dev server or install a local plugin (beta).",
+      "summary": "This document explains how to use the `lms dev` command within a plugin project to start a local development server that automatically rebuilds and reloads upon file changes for LM Studio plugins.",
+      "tags": [
+        "dev-server",
+        "plugin-development",
+        "local-testing",
+        "lm-studio",
+        "typescript",
+        "coding-guide"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-cli-develop-and-publish-dev.md"
+    },
+    {
+      "file_path": "037-docs-cli-local-models-import.md",
+      "title": "`lms import`",
+      "url": "https://lmstudio.ai/docs/cli/local-models/import",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:27.371524169-03:00",
+      "description": "Import a local model file into your LM Studio models directory.",
+      "summary": "This document explains the usage and various flags available for the `lms import` command, detailing how to bring an existing model file into LM Studio under different conditions.",
+      "tags": [
+        "lms-import",
+        "model-management",
+        "command-flags",
+        "file-operations"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-local-models-import.md"
+    },
+    {
+      "file_path": "044-docs-cli-serve-server-status.md",
+      "title": "`lms server status`",
+      "url": "https://lmstudio.ai/docs/cli/serve/server-status",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:24.090830064-03:00",
+      "description": "Check the status of your running LM Studio server instance.",
+      "summary": "This document explains the usage and available flags for the `lms server status` command, detailing how to check the local server's operational status in various formats.",
+      "tags": [
+        "server-status",
+        "command-line",
+        "logging",
+        "api-usage"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-serve-server-status.md"
+    },
+    {
+      "file_path": "036-docs-cli-local-models-ps.md",
+      "title": "`lms ps`",
+      "url": "https://lmstudio.ai/docs/cli/local-models/ps",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:29.703735138-03:00",
+      "description": "Show information about currently loaded models from the command line.",
+      "summary": "This document explains how the `lms ps` command can display detailed information about all locally loaded models or connect to and query a remote LM Studio instance.",
+      "tags": [
+        "command-line",
+        "model-management",
+        "loaded-models",
+        "remote-connection",
+        "llm-studio"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-local-models-ps.md"
+    },
+    {
+      "file_path": "089-docs-lmlink-basics.md",
+      "title": "Setup a link",
+      "url": "https://lmstudio.ai/docs/lmlink/basics",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:27:43.729614275-03:00",
+      "description": "Provision your first link",
+      "summary": "This document explains how to begin using LM Link, a feature designed to create a network connection between various user devices within the LM Studio application.",
+      "tags": [
+        "lm-link",
+        "device-association",
+        "network-connection",
+        "getting-started"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-lmlink-basics.md"
+    },
+    {
+      "file_path": "042-docs-cli-serve-server-start.md",
+      "title": "`lms server start`",
+      "url": "https://lmstudio.ai/docs/cli/serve/server-start",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:25.581426839-03:00",
+      "description": "Start the LM Studio local server with customizable port and logging options.",
+      "summary": "This document details how to use the `lms server start` command to launch a local model inference server, providing instructions on setting custom ports and enabling Cross-Origin Resource Sharing (CORS) support.",
+      "tags": [
+        "lms-server",
+        "start-command",
+        "http-api",
+        "cors-support",
+        "local-server",
+        "cli-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-serve-server-start.md"
+    },
+    {
+      "file_path": "033-docs-cli-local-models-ls.md",
+      "title": "`lms ls`",
+      "url": "https://lmstudio.ai/docs/cli/local-models/ls",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:31.724264883-03:00",
+      "description": "List all downloaded models in your LM Studio installation.",
+      "summary": "This document explains the usage of the `lms ls` command, detailing how it lists downloaded models along with various filtering options like model type and output format.",
+      "tags": [
+        "command-line",
+        "list-models",
+        "llm",
+        "embedding-models",
+        "flags",
+        "ls"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-local-models-ls.md"
+    },
+    {
+      "file_path": "035-docs-cli-local-models-chat.md",
+      "title": "`lms chat`",
+      "url": "https://lmstudio.ai/docs/cli/local-models/chat",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:38.165290064-03:00",
+      "description": "Start a chat session with a local model from the command line.",
+      "summary": "This document details the various command-line flags and subcommands available with `lms chat`, allowing users to interact with local language models for single prompts, interactive sessions, or piping input.",
+      "tags": [
+        "cli-tool",
+        "local-llm",
+        "command-flags",
+        "chat-interface",
+        "scripting"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-local-models-chat.md"
+    },
+    {
+      "file_path": "032-docs-cli-local-models-get.md",
+      "title": "`lms get`",
+      "url": "https://lmstudio.ai/docs/cli/local-models/get",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:35.382001265-03:00",
+      "description": "Search and download models from the command line.",
+      "summary": "This document explains how to use the `lms get` command to search for and download various language models from online repositories, detailing available flags and usage options.",
+      "tags": [
+        "command-line",
+        "model-download",
+        "repository-search",
+        "flags",
+        "quantization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-local-models-get.md"
+    },
+    {
+      "file_path": "133-docs-typescript-model-info-get-model-info.md",
+      "title": "Get Model Info",
+      "url": "https://lmstudio.ai/docs/typescript/model-info/get-model-info",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:43.267019851-03:00",
+      "description": "Get information about the model",
+      "summary": "This document demonstrates how to retrieve detailed information about a loaded local language model using the getInfo method from the LMStudio SDK.",
+      "tags": [
+        "lmstudio-sdk",
+        "model-info",
+        "api-usage",
+        "language-models",
+        "client-methods"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-model-info-get-model-info.md"
+    },
+    {
+      "file_path": "034-docs-cli-local-models-load.md",
+      "title": "`lms load`",
+      "url": "https://lmstudio.ai/docs/cli/local-models/load",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:33.842865105-03:00",
+      "description": "Load or unload models, set context length, GPU offload, TTL, or estimate memory usage without loading.",
+      "summary": "This document serves as a comprehensive guide detailing how to use the `lms load` command to manage model loading in memory, covering various optional parameters like context length and GPU offloading. It also explains how to unload models using `lms unload`.",
+      "tags": [
+        "model-management",
+        "cli-guide",
+        "loading-models",
+        "gpu-configuration",
+        "api-commands"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-local-models-load.md"
+    },
+    {
+      "file_path": "005-docs-cli.md",
+      "title": "`lms` \u2014 LM Studio's CLI",
+      "url": "https://lmstudio.ai/docs/cli",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:41.713604466-03:00",
+      "description": "Get starting with the lms command line utility.",
+      "summary": "This document serves as a guide for users on installing, verifying, and using the `lms` command-line interface to interact with local language models.",
+      "tags": [
+        "command-line",
+        "lms-usage",
+        "local-models",
+        "installation-guide",
+        "server-management"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-cli.md"
+    },
+    {
+      "file_path": "056-docs-cli-contributing.md",
+      "title": "Contributing",
+      "url": "https://lmstudio.ai/docs/cli/contributing",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:39.794351215-03:00",
+      "description": "Learn where to file issues and how to contribute to the lms CLI.",
+      "summary": "This document directs users on how to contribute to the open-source lms CLI by listing methods for reporting bugs, requesting features, or submitting code changes.",
+      "tags": [
+        "cli",
+        "contribution",
+        "github",
+        "bug-reporting",
+        "feature-request"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-contributing.md"
+    },
+    {
+      "file_path": "038-docs-cli-daemon-daemon-up.md",
+      "title": "`lms daemon up`",
+      "url": "https://lmstudio.ai/docs/cli/daemon/daemon-up",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:17.676311898-03:00",
+      "description": "Start llmster from the CLI.",
+      "summary": "This documentation explains the `lms daemon up` command, which is used to start the llmster daemon, reporting its status or process ID depending on whether it is already running.",
+      "tags": [
+        "daemon-management",
+        "llmster",
+        "command-line",
+        "api-status",
+        "service-control"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-cli-daemon-daemon-up.md"
+    },
+    {
+      "file_path": "130-docs-typescript-manage-models-loading.md",
+      "title": "Manage Models in Memory",
+      "url": "https://lmstudio.ai/docs/typescript/manage-models/loading",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:51.283137822-03:00",
+      "description": "APIs to load, access, and unload models from memory",
+      "summary": "This document details how to programmatically manage AI models using LM Studio's SDK, covering methods for retrieving currently loaded models, loading new instances, unloading models from memory, and setting load-time configuration parameters.",
+      "tags": [
+        "sdk",
+        "model-management",
+        "loading",
+        "unloading",
+        "llm-studio",
+        "api"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-manage-models-loading.md"
+    },
+    {
+      "file_path": "135-docs-typescript-api-reference-llm-load-model-config.md",
+      "title": "`LLMLoadModelConfig`",
+      "url": "https://lmstudio.ai/docs/typescript/api-reference/llm-load-model-config",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:49.720747026-03:00",
+      "description": "API Reference for LLMLoadModelConfig",
+      "summary": "This document details various optional configuration parameters for controlling model behavior during inference, covering topics like GPU usage, context window management, positional embedding adjustment, and memory optimization techniques.",
+      "tags": [
+        "inference-settings",
+        "llm-configuration",
+        "memory-optimization",
+        "context-management",
+        "hardware-tuning"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-api-reference-llm-load-model-config.md"
+    },
+    {
+      "file_path": "132-docs-typescript-manage-models-list-downloaded.md",
+      "title": "List Local Models",
+      "url": "https://lmstudio.ai/docs/typescript/manage-models/list-downloaded",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:55.754956239-03:00",
+      "description": "APIs to list the available models in a given local environment",
+      "summary": "This document explains how to use the `listLocalModels` method within the `LMStudioClient` object to programmatically list all models available on a local machine. The output format mimics the command-line tool's listing.",
+      "tags": [
+        "lmstudioclient",
+        "local-models",
+        "list-methods",
+        "model-listing"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-manage-models-list-downloaded.md"
+    },
+    {
+      "file_path": "128-docs-typescript-embedding.md",
+      "title": "Embedding",
+      "url": "https://lmstudio.ai/docs/typescript/embedding",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:59.387497091-03:00",
+      "description": "Generate text embeddings from input text",
+      "summary": "This document explains the concept of text embeddings, which are vector representations capturing semantic meaning, and outlines the necessary steps to acquire an embedding model and generate embeddings using a provided method.",
+      "tags": [
+        "embeddings",
+        "text-representation",
+        "rag",
+        "vectorization",
+        "nlp",
+        "embedding-model"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-typescript-embedding.md"
+    },
+    {
+      "file_path": "131-docs-typescript-manage-models-list-loaded.md",
+      "title": "List Loaded Models",
+      "url": "https://lmstudio.ai/docs/typescript/manage-models/list-loaded",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:53.672553956-03:00",
+      "description": "Query which models are currently loaded",
+      "summary": "This document demonstrates how to retrieve a list of models currently loaded in memory using the `listLoaded` method available within the `LMStudioClient` object for both LLM and embedding namespaces.",
+      "tags": [
+        "lmstudio-client",
+        "listloaded",
+        "llm-models",
+        "embedding-models",
+        "sdk-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-manage-models-list-loaded.md"
+    },
+    {
+      "file_path": "157-docs-typescript-plugins-publish-plugins.md",
+      "title": "Sharing Plugins",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/publish-plugins",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:01.62546327-03:00",
+      "description": "How to publish your LM Studio plugins so they can be used by others",
+      "summary": "This document explains the process of publishing a local LM Studio plugin to the LM Studio Hub, detailing commands for packaging and uploading, as well as instructions on how to rename plugins or publish them under an organization's ownership.",
+      "tags": [
+        "lms-plugin",
+        "publishing-guide",
+        "manifest-json",
+        "command-line",
+        "plugin-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-publish-plugins.md"
+    },
+    {
+      "file_path": "129-docs-typescript-tokenization.md",
+      "title": "Tokenization",
+      "url": "https://lmstudio.ai/docs/typescript/tokenization",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:58.003740605-03:00",
+      "description": "Tokenize text using a model's tokenizer",
+      "summary": "This document explains how to use an SDK to interact with a loaded LLM or embedding model for tokenization tasks. It provides methods for both getting the full list of tokens and simply counting the total number of tokens, including checking if a conversation fits within the model's context.",
+      "tags": [
+        "tokenization",
+        "llm-interaction",
+        "sdk-utility",
+        "context-length",
+        "token-counting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-tokenization.md"
+    },
+    {
+      "file_path": "153-docs-typescript-plugins-custom-configuration-config-ts.md",
+      "title": "`config.ts` File",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/custom-configuration/config-ts",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:07.511539745-03:00",
+      "summary": "This code demonstrates how to programmatically create and define custom configuration schematics using the createConfigSchematics function.",
+      "tags": [
+        "config-schematics",
+        "sdk-usage",
+        "field-definition",
+        "typescript",
+        "programming"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-custom-configuration-config-ts.md"
+    },
+    {
+      "file_path": "011-docs-app-basics-download-model.md",
+      "title": "Download an LLM",
+      "url": "https://lmstudio.ai/docs/app/basics/download-model",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:09.4851916-03:00",
+      "description": "Discover and download supported LLMs in LM Studio",
+      "summary": "This document guides users on how to discover, search for, and download various AI models within LM Studio from Hugging Face, explaining the concept of model quantization when selecting a file format.",
+      "tags": [
+        "lm-studio",
+        "model-downloading",
+        "huggingface",
+        "quantization",
+        "llms",
+        "discover"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-basics-download-model.md"
+    },
+    {
+      "file_path": "154-docs-typescript-plugins-custom-configuration-accessing-config.md",
+      "title": "Accessing Configuration",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/custom-configuration/accessing-config",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:05.699726219-03:00",
+      "summary": "This code demonstrates how to access both plugin-specific and global configurations using the PreprocessorController within a TypeScript environment.",
+      "tags": [
+        "configuration",
+        "typescript",
+        "plugin-config",
+        "global-settings",
+        "sdk-usage"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-custom-configuration-accessing-config.md"
+    },
+    {
+      "file_path": "028-docs-app-mcp.md",
+      "title": "Use MCP Servers",
+      "url": "https://lmstudio.ai/docs/app/mcp",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:13.505715015-03:00",
+      "description": "Connect MCP servers to LM Studio",
+      "summary": "This document explains that LM Studio now functions as a Model Context Protocol (MCP) Host, allowing users to connect local or remote MCP servers; however, it strongly cautions users about the security risks associated with installing untrusted servers.",
+      "tags": [
+        "mcp-host",
+        "server-installation",
+        "security-warning",
+        "config-file",
+        "lm-studio"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-mcp.md"
+    },
+    {
+      "file_path": "136-docs-typescript-api-reference-llm-prediction-config-input.md",
+      "title": "`LLMPredictionConfigInput`",
+      "url": "https://lmstudio.ai/docs/typescript/api-reference/llm-prediction-config-input",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:47.987332708-03:00",
+      "summary": "This document provides a detailed reference of various optional parameters used for controlling and tuning large language model generation, covering aspects like token limits, sampling diversity, context management, and structured output.",
+      "tags": [
+        "llm-parameters",
+        "generation-control",
+        "sampling-techniques",
+        "api-reference",
+        "model-tuning"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-api-reference-llm-prediction-config-input.md"
+    },
+    {
+      "file_path": "029-docs-app-mcp-deeplink.md",
+      "title": "`Add to LM Studio` Button",
+      "url": "https://lmstudio.ai/docs/app/mcp/deeplink",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:15.706023665-03:00",
+      "description": "Add MCP servers to LM Studio using a deeplink",
+      "summary": "This document explains how users can generate a deeplink to one-click install custom Model Control Panel (MCP) servers directly into LM Studio, detailing the required JSON format and URL parameters.",
+      "tags": [
+        "mcp-server",
+        "lm-studio",
+        "deeplink",
+        "installation",
+        "json-format",
+        "hosting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-mcp-deeplink.md"
+    },
+    {
+      "file_path": "030-docs-app-modelyaml.md",
+      "title": "Introduction to `model.yaml`",
+      "url": "https://lmstudio.ai/docs/app/modelyaml",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:17.889650237-03:00",
+      "description": "Describe models with the cross-platform model.yaml specification.",
+      "summary": "This document explains the structure and core fields of a model.yaml file, which serves as a standardized, portable format for describing AI models and their variants in LM Studio.",
+      "tags": [
+        "modelyaml",
+        "model-definition",
+        "metadata-handling",
+        "llm-models",
+        "config-schema",
+        "inference-options"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-modelyaml.md"
+    },
+    {
+      "file_path": "134-docs-typescript-model-info-get-context-length.md",
+      "title": "Get Context Length",
+      "url": "https://lmstudio.ai/docs/typescript/model-info/get-context-length",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:28:45.522536012-03:00",
+      "description": "API to get the maximum context length of a model.",
+      "summary": "This document explains the concept of maximum context length for LLMs and embedding models, detailing how checking this limit is crucial before submitting long inputs to prevent erratic behavior.",
+      "tags": [
+        "llm-context-length",
+        "embedding-models",
+        "token-limit",
+        "model-memory",
+        "input-checking"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-model-info-get-context-length.md"
+    },
+    {
+      "file_path": "021-docs-app-presets-import.md",
+      "title": "Importing and Sharing",
+      "url": "https://lmstudio.ai/docs/app/presets/import",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:23.274877746-03:00",
+      "description": "You can import preset files directly from disk, or pull presets made by others via URL.",
+      "summary": "This document explains various methods for importing presets into the application, detailing options to import from local files, external URLs, using the command line interface (CLI), and locating where shared presets are stored.",
+      "tags": [
+        "import-presets",
+        "preset-management",
+        "cli-usage",
+        "file-import",
+        "url-import"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-presets-import.md"
+    },
+    {
+      "file_path": "111-docs-python-manage-models-list-loaded.md",
+      "title": "List Loaded Models",
+      "url": "https://lmstudio.ai/docs/python/manage-models/list-loaded",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:11.761031953-03:00",
+      "description": "Query which models are currently loaded",
+      "summary": "This document demonstrates how to programmatically list models that are currently loaded into the system's memory using the SDK.",
+      "tags": [
+        "sdk",
+        "list-models",
+        "memory",
+        "llm"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-python-manage-models-list-loaded.md"
+    },
+    {
+      "file_path": "022-docs-app-presets-publish.md",
+      "title": "Publish Your Presets",
+      "url": "https://lmstudio.ai/docs/app/presets/publish",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:27.069116817-03:00",
+      "description": "Publish your Presets to the LM Studio Hub. Share your Presets with the community or with your colleagues.",
+      "summary": "This document guides users through the process of publishing their saved Presets from LM Studio to the community hub, allowing them to share models with other users.",
+      "tags": [
+        "preset-publishing",
+        "lm-studio",
+        "community-sharing",
+        "tutorial",
+        "feature-preview"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-presets-publish.md"
+    },
+    {
+      "file_path": "018-docs-app-presets.md",
+      "title": "Config Presets",
+      "url": "https://lmstudio.ai/docs/app/presets",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:22.25552949-03:00",
+      "description": "Save your system prompts and other parameters as Presets for easy reuse across chats.",
+      "summary": "This document explains what Presets are\u2014bundles of system prompts and parameters for reuse\u2014and details how to manage them, including importing from URLs or files, publishing them, and where they are stored on different operating systems.",
+      "tags": [
+        "presets",
+        "llm-parameters",
+        "reusable-settings",
+        "prompt-management",
+        "importing",
+        "sharing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-presets.md"
+    },
+    {
+      "file_path": "031-docs-app-modelyaml-publish.md",
+      "title": "Publish a `model.yaml`",
+      "url": "https://lmstudio.ai/docs/app/modelyaml/publish",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:19.672068813-03:00",
+      "description": "Upload your model definition to the LM Studio Hub.",
+      "summary": "This document guides users through the process of sharing portable language models by uploading a metadata file to the LM Studio Hub, detailing steps like cloning existing models, updating publisher information, authenticating via CLI, and finally publishing the model.",
+      "tags": [
+        "lm-studio-hub",
+        "model-publishing",
+        "metadata",
+        "command-line",
+        "model-sharing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-modelyaml-publish.md"
+    },
+    {
+      "file_path": "020-docs-app-presets-push.md",
+      "title": "Push New Revisions",
+      "url": "https://lmstudio.ai/docs/app/presets/push",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:31.621404787-03:00",
+      "description": "Publish new revisions of your Presets to the LM Studio Hub.",
+      "summary": "This document describes a preview feature that allows users to publish and share their custom Presets with the LM Studio community, detailing the steps necessary to update shared presets.",
+      "tags": [
+        "preset-sharing",
+        "community-feature",
+        "publishing-presets",
+        "lm-studio-hub"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-presets-push.md"
+    },
+    {
+      "file_path": "019-docs-app-presets-pull.md",
+      "title": "Pull Updates",
+      "url": "https://lmstudio.ai/docs/app/presets/pull",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:30.564772277-03:00",
+      "description": "How to pull the latest revisions of your Presets, or presets you have imported from others.",
+      "summary": "This document explains the process for updating locally stored or imported AI presets by pulling the latest revisions.",
+      "tags": [
+        "preset-management",
+        "update-process",
+        "ai-tools",
+        "revisions",
+        "importing"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-app-presets-pull.md"
+    },
+    {
+      "file_path": "024-docs-app-advanced-parallel-requests.md",
+      "title": "Parallel Requests",
+      "url": "https://lmstudio.ai/docs/app/advanced/parallel-requests",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:36.449764954-03:00",
+      "description": "Enable parallel requests via continuous batching",
+      "summary": "This document explains how to enable concurrent processing of multiple model requests using continuous batching, allowing for higher throughput when loading models with llama.cpp.",
+      "tags": [
+        "concurrent-requests",
+        "continuous-batching",
+        "llama-cpp",
+        "model-loading",
+        "throughput",
+        "lm-studio"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-advanced-parallel-requests.md"
+    },
+    {
+      "file_path": "155-docs-typescript-plugins-custom-configuration-defining-new-fields.md",
+      "title": "Defining New Fields",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/custom-configuration/defining-new-fields",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:03.588524192-03:00",
+      "summary": "This document outlines the structure and usage of various supported field types, including string, numeric, boolean, stringArray, and select, detailing their configuration options for form creation.",
+      "tags": [
+        "field-types",
+        "form-fields",
+        "data-validation",
+        "string",
+        "numeric",
+        "select"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-custom-configuration-defining-new-fields.md"
+    },
+    {
+      "file_path": "027-docs-app-advanced-speculative-decoding.md",
+      "title": "Speculative Decoding",
+      "url": "https://lmstudio.ai/docs/app/advanced/speculative-decoding",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:33.792543051-03:00",
+      "description": "Speed up generation with a draft model",
+      "summary": "This document explains speculative decoding, a technique that boosts LLM generation speed by using a smaller, faster draft model to quickly propose tokens which a larger main model then verifies for accuracy.",
+      "tags": [
+        "speculative-decoding",
+        "llm-optimization",
+        "draft-model",
+        "generation-speed",
+        "model-pairing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-advanced-speculative-decoding.md"
+    },
+    {
+      "file_path": "016-docs-app-user-interface-languages.md",
+      "title": "LM Studio in your language",
+      "url": "https://lmstudio.ai/docs/app/user-interface/languages",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:42.799962716-03:00",
+      "description": "LM Studio is available in English, Chinese, Spanish, French, German, Korean, Russian, and 26+ more languages.",
+      "summary": "This document informs the user about the extensive multilingual support available in LM Studio and provides detailed instructions on how to change the application's language within the Settings tab.",
+      "tags": [
+        "multilingual-support",
+        "language-selection",
+        "settings-guide",
+        "localization",
+        "lm-studio"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-app-user-interface-languages.md"
+    },
+    {
+      "file_path": "023-docs-app-advanced-import-model.md",
+      "title": "Import Models",
+      "url": "https://lmstudio.ai/docs/app/advanced/import-model",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:35.43971885-03:00",
+      "description": "Use model files you've downloaded outside of LM Studio",
+      "summary": "This document explains how to import external GGUF models into LM Studio using the experimental `lms import` command and details the required directory structure for managing downloaded models.",
+      "tags": [
+        "gguf-models",
+        "lm-studio",
+        "model-importing",
+        "directory-structure",
+        "command-line"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-advanced-import-model.md"
+    },
+    {
+      "file_path": "026-docs-app-advanced-prompt-template.md",
+      "title": "Prompt Template",
+      "url": "https://lmstudio.ai/docs/app/advanced/prompt-template",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:40.067038121-03:00",
+      "description": "Optionally set or modify the model's prompt template",
+      "summary": "This guide explains how users can override and customize the prompt template settings for any model within LM Studio, detailing options like using Jinja templating or manual configuration.",
+      "tags": [
+        "prompt-template",
+        "lm-studio",
+        "model-configuration",
+        "advanced-settings",
+        "jinja"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-advanced-prompt-template.md"
+    },
+    {
+      "file_path": "057-docs-developer.md",
+      "title": "LM Studio Developer Docs",
+      "url": "https://lmstudio.ai/docs/developer",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:49.137654383-03:00",
+      "description": "Build with LM Studio's local APIs and SDKs \u2014 TypeScript, Python, REST, and OpenAI and Anthropic-compatible endpoints.",
+      "summary": "This document provides a comprehensive overview of the various ways to interact with LM Studio, detailing SDKs for TypeScript and Python, REST API endpoints, and command-line tools. It also includes quick start examples for setting up connections.",
+      "tags": [
+        "sdk",
+        "rest-api",
+        "cli",
+        "developer-tools",
+        "typescript",
+        "python"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer.md"
+    },
+    {
+      "file_path": "058-docs-developer-api-changelog.md",
+      "title": "API Changelog",
+      "url": "https://lmstudio.ai/docs/developer/api-changelog",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:51.026136526-03:00",
+      "description": "Updates and changes to the LM Studio API.",
+      "summary": "This document provides a chronological log of updates for LM Studio, detailing new features, API endpoints (including Anthropic and native v1 REST APIs), and bug fixes related to model compatibility and tool-calling capabilities across various versions.",
+      "tags": [
+        "api-updates",
+        "rest-api",
+        "tool-calling",
+        "model-compatibility",
+        "version-history",
+        "streaming"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-api-changelog.md"
+    },
+    {
+      "file_path": "064-docs-developer-core-authentication.md",
+      "title": "Authentication",
+      "url": "https://lmstudio.ai/docs/developer/core/authentication",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:52.78398597-03:00",
+      "description": "Using API Tokens in LM Studio",
+      "summary": "This document explains how to enable and manage API Token authentication for the LM Studio server, detailing steps for creating tokens, configuring their permissions, and demonstrating usage across REST API, Python SDK, and TypeScript SDK.",
+      "tags": [
+        "api-token",
+        "authentication",
+        "lm-studio",
+        "rest-api",
+        "sdk-usage",
+        "server-settings"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-authentication.md"
+    },
+    {
+      "file_path": "017-docs-app-user-interface-themes.md",
+      "title": "Color Themes",
+      "url": "https://lmstudio.ai/docs/app/user-interface/themes",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:48.734616114-03:00",
+      "description": "Customize LM Studio's color theme",
+      "summary": "This document explains two ways to access and select a theme within the application, allowing users to choose an automatic switching option.",
+      "tags": [
+        "theme-selection",
+        "ui-settings",
+        "dark-light",
+        "apple-shortcut",
+        "windows-shortcut"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-user-interface-themes.md"
+    },
+    {
+      "file_path": "062-docs-developer-core-headless.md",
+      "title": "Run LM Studio as a service (headless)",
+      "url": "https://lmstudio.ai/docs/developer/core/headless",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:56.827700793-03:00",
+      "description": "GUI-less operation of LM Studio: run in the background, start on machine login, and load models on demand",
+      "summary": "This document explains two methods for running LM Studio as a background service\u2014the recommended standalone daemon, llmster, or using the desktop app in headless mode\u2014and details advanced features like Just-In-Time (JIT) model loading.",
+      "tags": [
+        "llmstudio",
+        "background-service",
+        "daemon",
+        "headless-mode",
+        "model-loading",
+        "api-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-headless.md"
+    },
+    {
+      "file_path": "065-docs-developer-core-lmlink.md",
+      "title": "Using LM Link",
+      "url": "https://lmstudio.ai/docs/developer/core/lmlink",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:58.728772554-03:00",
+      "description": "Use a remote device's model via the REST API with LM Link",
+      "summary": "This document explains how LM Link allows users to interact with remote models as if they were loaded locally via the REST API and SDK, maintaining normal local usage patterns.",
+      "tags": [
+        "lm-link",
+        "rest-api",
+        "remote-models",
+        "local-access",
+        "network-connection"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-lmlink.md"
+    },
+    {
+      "file_path": "025-docs-app-advanced-per-model.md",
+      "title": "Per-model Defaults",
+      "url": "https://lmstudio.ai/docs/app/advanced/per-model",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:38.412384394-03:00",
+      "description": "You can set default settings for each model in LM Studio",
+      "summary": "This document explains how to configure default loading parameters for specific models within LM Studio by accessing settings in the My Models tab or by making and saving changes during the model loading process.",
+      "tags": [
+        "lm-studio",
+        "model-settings",
+        "default-parameters",
+        "gpu-offload",
+        "advanced-topics"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-advanced-per-model.md"
+    },
+    {
+      "file_path": "063-docs-developer-core-headless-llmster.md",
+      "title": "Setup llmster as a Startup Task on Linux",
+      "url": "https://lmstudio.ai/docs/developer/core/headless_llmster",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:57.210688253-03:00",
+      "description": "Configure llmster to run on startup using systemctl on Linux",
+      "summary": "This guide details the process of setting up lmstudio's headless daemon, `llmster`, to run automatically on Linux systems using systemd for service management. It covers installation, model downloading, manual testing, and creating the necessary systemd service file.",
+      "tags": [
+        "linux-service",
+        "systemctl",
+        "headless-daemon",
+        "llmster",
+        "model-loading",
+        "api-server"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-headless-llmster.md"
+    },
+    {
+      "file_path": "066-docs-developer-core-mcp.md",
+      "title": "Using MCP via API",
+      "url": "https://lmstudio.ai/docs/developer/core/mcp",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:01.792978869-03:00",
+      "description": "Learn how to use Model Context Protocol (MCP) servers with LM Studio API.",
+      "summary": "This document details how LM Studio supports Model Context Protocol (MCP) for enabling models to interact with external tools via standardized servers. It compares and explains the use cases for defining these servers either ephemerally per request or pre-configuring them in an mcp.json file.",
+      "tags": [
+        "mcp-protocol",
+        "model-interaction",
+        "tool-calling",
+        "lm-studio",
+        "api-integration",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-mcp.md"
+    },
+    {
+      "file_path": "067-docs-developer-core-ttl-and-auto-evict.md",
+      "title": "Idle TTL and Auto-Evict",
+      "url": "https://lmstudio.ai/docs/developer/core/ttl-and-auto-evict",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:02.943205133-03:00",
+      "description": "Optionally auto-unload idle models after a certain amount of time (TTL)",
+      "summary": "This document explains the concepts and configurations for managing model memory using Just-In-Time (JIT) loading, detailing features like Idle TTL and Auto-Evict to automatically manage when models are kept or removed from memory.",
+      "tags": [
+        "jit-loading",
+        "idle-ttl",
+        "auto-evict",
+        "memory-management",
+        "model-lifecycle",
+        "api-settings"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-ttl-and-auto-evict.md"
+    },
+    {
+      "file_path": "061-docs-developer-core-server-serve-on-network.md",
+      "title": "Serve on Local Network",
+      "url": "https://lmstudio.ai/docs/developer/core/server/serve-on-network",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:08.929304677-03:00",
+      "description": "Allow other devices in your network use this LM Studio API server",
+      "summary": "This document explains how enabling the \"Serve on Local Network\" option makes the LM Studio API server accessible to other devices connected to the same local network.",
+      "tags": [
+        "lm-studio",
+        "local-network",
+        "api-server",
+        "llm-access",
+        "networking"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-server-serve-on-network.md"
+    },
+    {
+      "file_path": "059-docs-developer-core-server.md",
+      "title": "LM Studio as a Local LLM API Server",
+      "url": "https://lmstudio.ai/docs/developer/core/server",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:04.3001422-03:00",
+      "description": "Run an LLM API server on localhost with LM Studio",
+      "summary": "This document explains multiple methods for serving local Large Language Models (LLMs) from LM Studio, including using the Developer tab, the command line interface, and accessing various API formats.",
+      "tags": [
+        "llm-serving",
+        "local-models",
+        "rest-api",
+        "client-libraries",
+        "openai-compatibility"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-core-server.md"
+    },
+    {
+      "file_path": "068-docs-developer-rest.md",
+      "title": "LM Studio API",
+      "url": "https://lmstudio.ai/docs/developer/rest",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:11.63995991-03:00",
+      "description": "LM Studio's REST API for local inference and model management",
+      "summary": "This document details the REST API provided by LM Studio, highlighting the official v1 endpoints and its compatibility with OpenAI and Anthropic standards. It outlines key features like stateful chats and model management.",
+      "tags": [
+        "rest-api",
+        "local-inference",
+        "openai-compatibility",
+        "anthropic-compatibility",
+        "v1-api",
+        "model-management"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest.md"
+    },
+    {
+      "file_path": "077-docs-developer-rest-stateful-chats.md",
+      "title": "Stateful Chats",
+      "url": "https://lmstudio.ai/docs/developer/rest/stateful-chats",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:14.904733269-03:00",
+      "description": "Learn how to maintain conversation context across multiple requests",
+      "summary": "This document explains how the stateful nature of the /api/v1/chat endpoint works, detailing methods for continuing conversations using response IDs or disabling state storage entirely.",
+      "tags": [
+        "api-endpoint",
+        "chat-context",
+        "stateful-storage",
+        "response-id",
+        "conversation-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-rest-stateful-chats.md"
+    },
+    {
+      "file_path": "060-docs-developer-core-server-settings.md",
+      "title": "Server Settings",
+      "url": "https://lmstudio.ai/docs/developer/core/server/settings",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:06.983358235-03:00",
+      "description": "Configure server settings for LM Studio API Server",
+      "summary": "This document details various configurable server settings for an API, allowing users to manage networking parameters like port numbers, authentication requirements, and features such as CORS and dynamic model loading.",
+      "tags": [
+        "server-settings",
+        "api-configuration",
+        "network-access",
+        "authentication",
+        "mcp-protocol",
+        "cors"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-developer-core-server-settings.md"
+    },
+    {
+      "file_path": "004-docs-app-user-interface-modes.md",
+      "title": "User or Developer",
+      "url": "https://lmstudio.ai/docs/app/user-interface/modes",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:29:46.700979676-03:00",
+      "description": "Show more advanced settings and developer features",
+      "summary": "This document explains how to enable Developer Mode within the application settings and helps users decide which operational mode\u2014User, Developer, or Power User features\u2014best suits their technical needs.",
+      "tags": [
+        "developer-mode",
+        "app-settings",
+        "user-interface",
+        "advanced-features",
+        "mode-selection"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-user-interface-modes.md"
+    },
+    {
+      "file_path": "076-docs-developer-rest-streaming-events.md",
+      "title": "Streaming events",
+      "url": "https://lmstudio.ai/docs/developer/rest/streaming-events",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:16.932173578-03:00",
+      "description": "When you chat with a model with stream set to true, the response is sent as a stream of events using Server-Sent Events (SSE).",
+      "summary": "This document details the structure and various types of named events streamed via Server-Sent Events (SSE) when calling the `/api/v1/chat` endpoint for incremental chat response rendering. It covers lifecycle stages such as model loading, prompt processing, reasoning, tool calling, message streaming, and final error handling.",
+      "tags": [
+        "sse",
+        "streaming-events",
+        "chat-api",
+        "event-types",
+        "tool-calling",
+        "model-response"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-streaming-events.md"
+    },
+    {
+      "file_path": "071-docs-developer-rest-load.md",
+      "title": "Load a model",
+      "url": "https://lmstudio.ai/docs/developer/rest/load",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:21.997847077-03:00",
+      "description": "Load an LLM or Embedding model into memory with custom configuration for inference",
+      "summary": "This document provides a snapshot of the loading status and configuration details for an LLM instance identified as openai/gpt-oss-20b.",
+      "tags": [
+        "llm",
+        "loading-status",
+        "configuration",
+        "gpu-optimization"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-load.md"
+    },
+    {
+      "file_path": "072-docs-developer-rest-chat.md",
+      "title": "Chat with a model",
+      "url": "https://lmstudio.ai/docs/developer/rest/chat",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:18.643665645-03:00",
+      "description": "Send a message to a model and receive a response. Supports MCP integration.",
+      "summary": "This document details the structure and parameters for a POST request to the `/api/v1/chat` endpoint, which is used to communicate with a model for chat interactions. It covers the required request body fields, optional configuration parameters like temperature and context length, and describes the various possible structures found within the response payload.",
+      "tags": [
+        "api-endpoint",
+        "chat-completion",
+        "model-parameters",
+        "request-body",
+        "response-schema"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-chat.md"
+    },
+    {
+      "file_path": "073-docs-developer-rest-download.md",
+      "title": "Download a model",
+      "url": "https://lmstudio.ai/docs/developer/rest/download",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:25.576539552-03:00",
+      "description": "Download LLMs and embedding models",
+      "summary": "This document describes the API endpoint for initiating and checking the status of a model download, detailing required request body parameters and possible response fields.",
+      "tags": [
+        "api-endpoint",
+        "model-download",
+        "job-status",
+        "request-body",
+        "response-fields"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-download.md"
+    },
+    {
+      "file_path": "074-docs-developer-rest-download-status.md",
+      "title": "Get download status",
+      "url": "https://lmstudio.ai/docs/developer/rest/download-status",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:29.440009337-03:00",
+      "description": "Get the status of model downloads",
+      "summary": "This document details the structure and parameters for a GET request endpoint used to check the current status of a background download job.",
+      "tags": [
+        "api-endpoint",
+        "download-status",
+        "rest-api",
+        "job-tracking"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-download-status.md"
+    },
+    {
+      "file_path": "069-docs-developer-rest-endpoints.md",
+      "title": "REST API v0",
+      "url": "https://lmstudio.ai/docs/developer/rest/endpoints",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:30.697126773-03:00",
+      "description": "The REST API includes enhanced stats such as Token / Second and Time To First Token (TTFT), as well as rich information about models such as loaded vs unloaded, max context, quantization, and more.",
+      "summary": "This document details the structure and usage of LM Studio's v1 REST API, providing endpoints for listing models, getting model information, performing chat completions, text completions, and generating embeddings.",
+      "tags": [
+        "rest-api",
+        "llm",
+        "api-endpoints",
+        "completions",
+        "embeddings",
+        "model-management"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-endpoints.md"
+    },
+    {
+      "file_path": "078-docs-developer-openai-compat.md",
+      "title": "OpenAI Compatibility Endpoints",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:31.947456607-03:00",
+      "description": "Send requests to Responses, Chat Completions (text and images), Completions, and Embeddings endpoints.",
+      "summary": "This document explains how to connect existing OpenAI client libraries\u2014including Python, TypeScript, and cURL examples\u2014to use LM Studio by adjusting the 'base URL' to point locally instead of to OpenAI's servers.",
+      "tags": [
+        "openai-compatibility",
+        "base-url-setting",
+        "api-endpoints",
+        "local-server",
+        "client-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-openai-compat.md"
+    },
+    {
+      "file_path": "084-docs-developer-openai-compat-structured-output.md",
+      "title": "Structured Output",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/structured-output",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:35.266248677-03:00",
+      "description": "Enforce LLM response formats using JSON schemas.",
+      "summary": "This document explains how to programmatically enforce a specific JSON response format from an LLM by utilizing the structured output feature available via the /v1/chat/completions endpoint when running LM Studio as a local server.",
+      "tags": [
+        "structured-output",
+        "llm-api",
+        "json-schema",
+        "lm-studio",
+        "openai-client"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-openai-compat-structured-output.md"
+    },
+    {
+      "file_path": "085-docs-developer-openai-compat-tools.md",
+      "title": "Tool Use",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/tools",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:36.809553985-03:00",
+      "description": "Enable LLMs to interact with external functions and APIs.",
+      "summary": "This document explains how Large Language Models (LLMs) can be extended using 'tool use' by requesting calls to external functions and APIs via REST endpoints. It outlines the high-level flow, from setting up the server to programmatically passing tool definitions to the model and then feeding the results back into the conversation context.",
+      "tags": [
+        "llm",
+        "tool-use",
+        "api-integration",
+        "function-calling",
+        "rest-api",
+        "developer-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-openai-compat-tools.md"
+    },
+    {
+      "file_path": "082-docs-developer-openai-compat-models.md",
+      "title": "List Models",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/models",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:38.870945113-03:00",
+      "description": "List available models via the OpenAI-compatible endpoint.",
+      "summary": "This section explains how to list all available models using the OpenAI-compatible endpoint via a GET request.",
+      "tags": [
+        "openai-compatibility",
+        "list-models",
+        "endpoint",
+        "api-call",
+        "http-get"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-openai-compat-models.md"
+    },
+    {
+      "file_path": "006-docs-developer-rest-quickstart.md",
+      "title": "Get up and running with the LM Studio API",
+      "url": "https://lmstudio.ai/docs/developer/rest/quickstart",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:12.583994759-03:00",
+      "description": "Download a model and start a simple Chat session using the REST API",
+      "summary": "This document provides instructions on setting up the local server, managing API authentication, using the chat endpoint to interact with models, integrating MCP servers via API, and downloading necessary models.",
+      "tags": [
+        "server-setup",
+        "api-authentication",
+        "chat-endpoint",
+        "mcp-servers",
+        "model-downloading"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-rest-quickstart.md"
+    },
+    {
+      "file_path": "079-docs-developer-openai-compat-chat-completions.md",
+      "title": "Chat Completions",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/chat-completions",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:41.721920303-03:00",
+      "description": "Send a chat history and get the assistant's response.",
+      "summary": "This document illustrates how to make a chat completion request using the OpenAI Python library, providing code examples and listing supported payload parameters for generating model responses.",
+      "tags": [
+        "python-example",
+        "chat-completion",
+        "api-call",
+        "openai-sdk",
+        "inference-parameters"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-developer-openai-compat-chat-completions.md"
+    },
+    {
+      "file_path": "083-docs-developer-openai-compat-responses.md",
+      "title": "Responses",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/responses",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:41.084652699-03:00",
+      "description": "Create responses with support for streaming, reasoning, prior response state, and optional Remote MCP tools.",
+      "summary": "This document details the different methods for interacting with a response generation endpoint, including non-streaming calls, stateful follow-up using previous response IDs, streaming responses via SSE events, and advanced usage with external tools via Remote MCP.",
+      "tags": [
+        "api-endpoint",
+        "rest-request",
+        "openai-api",
+        "streaming",
+        "curl-example"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-openai-compat-responses.md"
+    },
+    {
+      "file_path": "080-docs-developer-openai-compat-completions.md",
+      "title": "Completions (Legacy)",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/completions",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:46.521682402-03:00",
+      "description": "Text completion for base models (legacy OpenAI endpoint).",
+      "summary": "This document provides compatibility information for two sets of endpoints: OpenAI compatible and Anthropic compatible endpoints, detailing specific functionalities like text completion.",
+      "tags": [
+        "openai",
+        "anthropic",
+        "endpoint-compatibility",
+        "text-completion",
+        "llm-models"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-openai-compat-completions.md"
+    },
+    {
+      "file_path": "086-docs-developer-anthropic-compat.md",
+      "title": "Anthropic Compatibility Endpoints",
+      "url": "https://lmstudio.ai/docs/developer/anthropic-compat",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:48.861204089-03:00",
+      "description": "Send Messages requests using the Anthropic-compatible API.",
+      "summary": "This document provides technical instructions and examples detailing how to configure API calls to point to a local LM Studio server when using Anthropic-compatible models. It shows necessary environment variable settings and working cURL and Python code snippets for interacting with the messaging endpoint.",
+      "tags": [
+        "api-integration",
+        "local-llm",
+        "anthropic-compatibility",
+        "base-url-setting",
+        "authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-developer-anthropic-compat.md"
+    },
+    {
+      "file_path": "081-docs-developer-openai-compat-embeddings.md",
+      "title": "Embeddings",
+      "url": "https://lmstudio.ai/docs/developer/openai-compat/embeddings",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:44.180509818-03:00",
+      "description": "Generate embedding vectors from input text.",
+      "summary": "This document demonstrates how to generate text embeddings using the OpenAI Python library by making a POST request.",
+      "tags": [
+        "openai-python",
+        "embeddings",
+        "api-call",
+        "text-embedding",
+        "http-post"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-developer-openai-compat-embeddings.md"
+    },
+    {
+      "file_path": "097-docs-python.md",
+      "title": "`lmstudio-python` (Python SDK)",
+      "url": "https://lmstudio.ai/docs/python",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:52.244256335-03:00",
+      "description": "Getting started with LM Studio's Python SDK",
+      "summary": "This document explains the `lmstudio-python` SDK, detailing its installation, key features like interacting with LLMs and creating agents, and describing different programming models for usage: interactive convenience, synchronous scoped resource, and asynchronous structured concurrency.",
+      "tags": [
+        "llm-interaction",
+        "python-sdk",
+        "model-management",
+        "asynchronous-api",
+        "local-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python.md"
+    },
+    {
+      "file_path": "070-docs-developer-rest-list.md",
+      "title": "List your models",
+      "url": "https://lmstudio.ai/docs/developer/rest/list",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:19.954331332-03:00",
+      "description": "Get a list of available models on your system, including both LLMs and embedding models.",
+      "summary": "This document details the structure and expected response fields when accessing the GET /api/v1/models endpoint, which lists all available language and embedding models.",
+      "tags": [
+        "api-endpoint",
+        "model-listing",
+        "response-schema",
+        "llm-models",
+        "embedding-models"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-list.md"
+    },
+    {
+      "file_path": "008-docs-python-getting-started-repl.md",
+      "title": "Using `lmstudio-python` in REPL",
+      "url": "https://lmstudio.ai/docs/python/getting-started/repl",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:56.844783164-03:00",
+      "description": "You can use lmstudio-python in REPL (Read-Eval-Print Loop) to interact with LLMs, manage models, and more.",
+      "summary": "This document describes the convenience API offered by lmstudio-python, which utilizes atexit hooks to manage resources for simplified interactive use across multiple commands.",
+      "tags": [
+        "lmstudio-python",
+        "convenience-api",
+        "interactive-use",
+        "atexit-hooks",
+        "client-session"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-getting-started-repl.md"
+    },
+    {
+      "file_path": "009-docs-python-getting-started-authentication.md",
+      "title": "Authentication",
+      "url": "https://lmstudio.ai/docs/python/getting-started/authentication",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:58.797197158-03:00",
+      "description": "Using API Tokens in LM Studio",
+      "summary": "This document explains how to secure access to the LM Studio API by implementing API Token authentication for use in production or shared environments.",
+      "tags": [
+        "api-token",
+        "lm-studio",
+        "authentication",
+        "environment-variable",
+        "secure-access"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-getting-started-authentication.md"
+    },
+    {
+      "file_path": "087-docs-developer-anthropic-compat-messages.md",
+      "title": "Messages",
+      "url": "https://lmstudio.ai/docs/developer/anthropic-compat/messages",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:50.245142623-03:00",
+      "description": "Send a Messages request and get the assistant's response.",
+      "summary": "This document provides examples demonstrating how to interact with the `/v1/messages` endpoint using cURL for different use cases, including standard requests, streaming responses, and tool calling.",
+      "tags": [
+        "api-endpoint",
+        "message-creation",
+        "curl-example",
+        "streaming",
+        "tool-calling"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-anthropic-compat-messages.md"
+    },
+    {
+      "file_path": "101-docs-python-llm-prediction-image-input.md",
+      "title": "Image Input",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/image-input",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:02.812304207-03:00",
+      "description": "API for passing images as input to the model",
+      "summary": "This guide details the process of using Vision-Language Models (VLMs) with an SDK, covering prerequisites like obtaining a VLM, preparing an image handle from various inputs, and finally passing the image to the model using the `.respond()` method.",
+      "tags": [
+        "vlm",
+        "image-input",
+        "model-interaction",
+        "python-sdk",
+        "api-usage",
+        "multimodal"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-llm-prediction-image-input.md"
+    },
+    {
+      "file_path": "099-docs-python-llm-prediction-chat-completion.md",
+      "title": "Chat Completions",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/chat-completion",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:00.529411867-03:00",
+      "description": "APIs for a multi-turn chat conversations with an LLM",
+      "summary": "This document provides various methods and concepts related to interacting with Language Models (LLMs), covering tasks such as generating standard or streamed chat responses, managing conversational context, obtaining model handles, and customizing inference parameters.",
+      "tags": [
+        "llm-interaction",
+        "chat-completion",
+        "inference-parameters",
+        "context-management",
+        "streaming-response"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-python-llm-prediction-chat-completion.md"
+    },
+    {
+      "file_path": "100-docs-python-llm-prediction-structured-response.md",
+      "title": "Structured Response",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/structured-response",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:06.938115266-03:00",
+      "description": "Enforce a structured response from the model using Pydantic models or JSON Schema",
+      "summary": "This document explains two primary methods for enforcing a structured output format from an LLM: using a class-based schema definition, ideally with libraries like Pydantic, or by providing a direct JSON schema.",
+      "tags": [
+        "llm-response",
+        "schema-enforcement",
+        "pydantic",
+        "json-schema",
+        "structured-output"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-llm-prediction-structured-response.md"
+    },
+    {
+      "file_path": "102-docs-python-llm-prediction-speculative-decoding.md",
+      "title": "Speculative Decoding",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/speculative-decoding",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:08.538368206-03:00",
+      "description": "API to use a draft model in speculative decoding in lmstudio-python",
+      "summary": "This document explains how to implement speculative decoding in the lmstudio-python SDK, a technique used to boost the generation speed of large language models.",
+      "tags": [
+        "speculative-decoding",
+        "llm",
+        "python-sdk",
+        "generation-speed",
+        "lmstudio"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-python-llm-prediction-speculative-decoding.md"
+    },
+    {
+      "file_path": "007-docs-python-getting-started-project-setup.md",
+      "title": "Project Setup",
+      "url": "https://lmstudio.ai/docs/python/getting-started/project-setup",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:53.948574004-03:00",
+      "description": "Set up your lmstudio-python app or script.",
+      "summary": "This document provides information on using the lmstudio-python library, detailing installation instructions via PyPI and demonstrating methods for customizing the connection to the server API host and port.",
+      "tags": [
+        "lmstudio",
+        "python-sdk",
+        "api-connection",
+        "installation",
+        "server-config"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-getting-started-project-setup.md"
+    },
+    {
+      "file_path": "104-docs-python-llm-prediction-parameters.md",
+      "title": "Configuring the Model",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/parameters",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:12.691871297-03:00",
+      "description": "APIs for setting inference-time and load-time parameters for your model",
+      "summary": "This document explains how to configure a model by detailing both inference-time parameters, which are set per request (like temperature and maxTokens), and load-time parameters, which are set when initializing the model instance.",
+      "tags": [
+        "inference-parameters",
+        "load-parameters",
+        "llm-configuration",
+        "model-setup"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-python-llm-prediction-parameters.md"
+    },
+    {
+      "file_path": "105-docs-python-llm-prediction-working-with-chats.md",
+      "title": "Working with Chats",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/working-with-chats",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:14.666321989-03:00",
+      "description": "APIs for representing a chat conversation with an LLM",
+      "summary": "This document explains the different methods for supplying chat input parameters to SDK methods like llm.respond(), detailing options including using a single string for simple chats, utilizing the recommended Chat helper class for complexity, and passing chat history data directly as a dictionary.",
+      "tags": [
+        "sdk-methods",
+        "chat-input",
+        "chat-history",
+        "string-array",
+        "helper-class"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-llm-prediction-working-with-chats.md"
+    },
+    {
+      "file_path": "106-docs-python-agent-act.md",
+      "title": "The `.act()` call",
+      "url": "https://lmstudio.ai/docs/python/agent/act",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:16.577725158-03:00",
+      "description": "How to use the .act() call to turn LLMs into autonomous agents that can perform tasks on your local machine.",
+      "summary": "This document explains the concept of 'execution rounds' in LLM tool use, detailing the cycle of running a tool, providing results to the model, and waiting for the next decision. It also covers advanced topics like parallel tool calls, model selection best practices, and various progress callbacks available during complex agent interactions.",
+      "tags": [
+        "execution-rounds",
+        "tool-calling",
+        "llm-agents",
+        "progress-callbacks",
+        "api-usage",
+        "model-selection"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-python-agent-act.md"
+    },
+    {
+      "file_path": "107-docs-python-agent-tools.md",
+      "title": "Tool Definition",
+      "url": "https://lmstudio.ai/docs/python/agent/tools",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:18.682218943-03:00",
+      "description": "Define tools to be called by the LLM, and pass them to the model in the act() call.",
+      "summary": "This document explains how to define and use tools with language models by passing Python functions or `ToolFunctionDef` objects. It also details how error handling for tool calls is managed by default and through custom callbacks.",
+      "tags": [
+        "tool-definition",
+        "llm-integration",
+        "agent-development",
+        "error-handling",
+        "python-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-agent-tools.md"
+    },
+    {
+      "file_path": "075-docs-developer-rest-unload.md",
+      "title": "Unload a model",
+      "url": "https://lmstudio.ai/docs/developer/rest/unload",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:30:26.795395472-03:00",
+      "description": "Unload a loaded model from memory",
+      "summary": "This documentation details the API endpoint used to programmatically unload a loaded model instance from memory.",
+      "tags": [
+        "api",
+        "model-management",
+        "rest-api",
+        "unload",
+        "lms-studio"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-developer-rest-unload.md"
+    },
+    {
+      "file_path": "013-docs-app-basics-rag.md",
+      "title": "Chat with Documents",
+      "url": "https://lmstudio.ai/docs/app/basics/rag",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:23.384133845-03:00",
+      "description": "How to provide local documents to an LLM as additional context",
+      "summary": "This document explains how attaching document files in LM Studio provides context to large language models, detailing when it uses full context versus Retrieval-Augmented Generation (RAG).",
+      "tags": [
+        "rag",
+        "llm-context",
+        "document-attachment",
+        "terminology",
+        "retrieval-augmented-generation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-app-basics-rag.md"
+    },
+    {
+      "file_path": "039-docs-cli-daemon-daemon-down.md",
+      "title": "`lms daemon down`",
+      "url": "https://lmstudio.ai/docs/cli/daemon/daemon-down",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:22.446828704-03:00",
+      "description": "Stop llmster from the CLI.",
+      "summary": "This document explains the purpose and usage of the `lms daemon down` command, specifying that it is used to stop a running llmster daemon but will not affect an actively running GUI instance.",
+      "tags": [
+        "daemon-control",
+        "llmster-management",
+        "stopping-service",
+        "command-line"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-cli-daemon-daemon-down.md"
+    },
+    {
+      "file_path": "110-docs-python-manage-models-loading.md",
+      "title": "Manage Models in Memory",
+      "url": "https://lmstudio.ai/docs/python/manage-models/loading",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:26.660730204-03:00",
+      "description": "APIs to load, access, and unload models from memory",
+      "summary": "This document details how to programmatically manage large AI models using LM Studio's SDK, covering methods for loading, accessing specific instances, managing namespaces, and safely unloading models from memory.",
+      "tags": [
+        "sdk-usage",
+        "model-management",
+        "llm-api",
+        "memory-control",
+        "namespaces"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-python-manage-models-loading.md"
+    },
+    {
+      "file_path": "114-docs-python-model-info-get-context-length.md",
+      "title": "Get Context Length",
+      "url": "https://lmstudio.ai/docs/python/model-info/get-context-length",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:28.535708518-03:00",
+      "description": "API to get the maximum context length of a model.",
+      "summary": "This document explains the concept of context length in LLMs and embedding models, detailing why adhering to this limit is crucial for stable operation.",
+      "tags": [
+        "context-length",
+        "llm-models",
+        "token-limit",
+        "model-architecture",
+        "text-generation"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-python-model-info-get-context-length.md"
+    },
+    {
+      "file_path": "115-docs-python-model-info-get-load-config.md",
+      "title": "Get Load Config",
+      "url": "https://lmstudio.ai/docs/python/model-info/get-load-config",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:30.977524762-03:00",
+      "description": "Get the load configuration of the model",
+      "summary": "This document explains how to retrieve the configuration parameters used when loading a specific model using the LM Studio Python SDK.",
+      "tags": [
+        "python-sdk",
+        "load-model",
+        "configuration",
+        "llm",
+        "api"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-python-model-info-get-load-config.md"
+    },
+    {
+      "file_path": "112-docs-python-manage-models-list-downloaded.md",
+      "title": "List Downloaded Models",
+      "url": "https://lmstudio.ai/docs/python/manage-models/list-downloaded",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:32.759323627-03:00",
+      "description": "APIs to list the available models in a given local environment",
+      "summary": "This document explains how to iterate through locally available models and use the provided listing results to obtain full SDK handles for loaded model instances.",
+      "tags": [
+        "local-models",
+        "llm-studio-server",
+        "model-listing",
+        "sdk-handle",
+        "model-iteration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-manage-models-list-downloaded.md"
+    },
+    {
+      "file_path": "108-docs-python-embedding.md",
+      "title": "Embedding",
+      "url": "https://lmstudio.ai/docs/python/embedding",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:20.896437305-03:00",
+      "description": "Generate text embeddings from input text",
+      "summary": "This document explains that embeddings are vector representations capturing semantic meaning, which serves as a foundational component for tasks like RAG and similarity searches, detailing how to obtain an embedding model and subsequently generate the required vectors.",
+      "tags": [
+        "embeddings",
+        "vector-representation",
+        "rag",
+        "semantic-meaning",
+        "nomic-embed-text-v1.5"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-embedding.md"
+    },
+    {
+      "file_path": "116-docs-typescript.md",
+      "title": "`lmstudio-js` (TypeScript SDK)",
+      "url": "https://lmstudio.ai/docs/typescript",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:34.088341423-03:00",
+      "description": "Getting started with LM Studio's Typescript / JavaScript SDK",
+      "summary": "This document introduces an SDK that provides programmatic tools for interacting with Large Language Models (LLMs), embeddings models, and agentic workflows, detailing installation instructions and key features.",
+      "tags": [
+        "sdk",
+        "llm-interaction",
+        "agentic-flows",
+        "model-management",
+        "embeddings"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript.md"
+    },
+    {
+      "file_path": "117-docs-typescript-authentication.md",
+      "title": "Authentication",
+      "url": "https://lmstudio.ai/docs/typescript/authentication",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:36.503243309-03:00",
+      "description": "Using API Tokens in LM Studio",
+      "summary": "This document explains how to securely authenticate access to the LM Studio API using API Tokens, detailing the recommended method of setting an environment variable or passing it as a function argument.",
+      "tags": [
+        "lm-studio",
+        "api-token",
+        "authentication",
+        "sdk-setup",
+        "environment-variable"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-authentication.md"
+    },
+    {
+      "file_path": "103-docs-python-llm-prediction-cancelling-predictions.md",
+      "title": "Cancelling Predictions",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/cancelling-predictions",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:05.026760417-03:00",
+      "description": "Stop an ongoing prediction in lmstudio-python",
+      "summary": "This document explains how using a streaming API allows developers to cancel a prediction request based on custom, application-specific conditions beyond standard configuration limits.",
+      "tags": [
+        "streaming-api",
+        "request-cancellation",
+        "prediction-control",
+        "llm-interaction"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-llm-prediction-cancelling-predictions.md"
+    },
+    {
+      "file_path": "119-docs-typescript-llm-prediction-chat-completion.md",
+      "title": "Chat Completions",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/chat-completion",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:40.504662641-03:00",
+      "description": "APIs for a multi-turn chat conversations with an LLM",
+      "summary": "This document details various methods for interacting with an LLM through the `llm` object, covering obtaining a model handle, managing conversation context, generating responses, customizing inference parameters, and printing prediction statistics.",
+      "tags": [
+        "llm-interaction",
+        "generate-response",
+        "chat-context",
+        "model-handling",
+        "inference-parameters"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-llm-prediction-chat-completion.md"
+    },
+    {
+      "file_path": "098-docs-python-llm-prediction-completion.md",
+      "title": "Text Completions",
+      "url": "https://lmstudio.ai/docs/python/llm-prediction/completion",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:10.427648798-03:00",
+      "description": "Provide a string input for the model to complete",
+      "summary": "This document details how to use the `llm.complete()` function to generate text completions from a loaded language model. It covers steps for instantiating the model, generating predictions, and accessing prediction metadata, including options for customizing parameters and implementing progress callbacks.",
+      "tags": [
+        "text-completion",
+        "language-model",
+        "api-usage",
+        "progress-callbacks",
+        "llm-api"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-python-llm-prediction-completion.md"
+    },
+    {
+      "file_path": "121-docs-typescript-llm-prediction-image-input.md",
+      "title": "Image Input",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/image-input",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:46.63819085-03:00",
+      "description": "API for passing images as input to the model",
+      "summary": "This document provides a step-by-step guide on how to use Vision-Language Models (VLMs) by first ensuring a VLM is available, then preparing an input image using specific client methods, and finally passing both the image and prompt to the model's respond method.",
+      "tags": [
+        "vlm",
+        "vision-language-models",
+        "image-input",
+        "api-usage",
+        "model-interaction",
+        "base64"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-typescript-llm-prediction-image-input.md"
+    },
+    {
+      "file_path": "120-docs-typescript-llm-prediction-structured-response.md",
+      "title": "Structured Response",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/structured-response",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:48.789919288-03:00",
+      "description": "Enforce a structured response from the model using Pydantic (Python), Zod (TypeScript), or JSON Schema",
+      "summary": "This document explains methods for forcing a language model to generate responses conforming to a specific structure, detailing the use of both Zod and standard JSON schemas.",
+      "tags": [
+        "structured-output",
+        "zod-schema",
+        "json-schema",
+        "llm-control",
+        "response-formatting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-llm-prediction-structured-response.md"
+    },
+    {
+      "file_path": "122-docs-typescript-llm-prediction-speculative-decoding.md",
+      "title": "Speculative Decoding",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/speculative-decoding",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:51.187074551-03:00",
+      "description": "API to use a draft model in speculative decoding in lmstudio-js",
+      "summary": "This document explains how to implement speculative decoding within the `lmstudio-js` library to boost LLM generation speed while maintaining response quality.",
+      "tags": [
+        "speculative-decoding",
+        "llms",
+        "javascript",
+        "prediction",
+        "generation-speed",
+        "client"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-typescript-llm-prediction-speculative-decoding.md"
+    },
+    {
+      "file_path": "010-docs-typescript-project-setup.md",
+      "title": "Project Setup",
+      "url": "https://lmstudio.ai/docs/typescript/project-setup",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:38.6248226-03:00",
+      "description": "Set up your lmstudio-js app or script.",
+      "summary": "This document provides instructions on how to integrate and set up the @lmstudio/sdk library into new or existing Node.js projects.",
+      "tags": [
+        "node-js",
+        "sdk",
+        "installation",
+        "npm",
+        "development-setup",
+        "library"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-project-setup.md"
+    },
+    {
+      "file_path": "125-docs-typescript-llm-prediction-working-with-chats.md",
+      "title": "Working with Chats",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/working-with-chats",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:42.558816752-03:00",
+      "description": "APIs for representing a chat conversation with an LLM",
+      "summary": "This document outlines three different methods for passing chat context when calling SDK methods, including using an array of messages, providing a single string, or employing the recommended `Chat` helper class.",
+      "tags": [
+        "sdk-methods",
+        "chat-context",
+        "message-history",
+        "api-input",
+        "programming-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-llm-prediction-working-with-chats.md"
+    },
+    {
+      "file_path": "118-docs-typescript-llm-prediction-completion.md",
+      "title": "Generate Completions",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/completion",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:52.494494314-03:00",
+      "description": "Provide a string input for the model to complete",
+      "summary": "This document explains the sequence of steps required to generate text completions using a loaded language model, covering model instantiation and prediction statistics retrieval.",
+      "tags": [
+        "llm-completion",
+        "text-generation",
+        "api-usage",
+        "language-model",
+        "prediction-stats"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-llm-prediction-completion.md"
+    },
+    {
+      "file_path": "126-docs-typescript-agent-act.md",
+      "title": "The `.act()` call",
+      "url": "https://lmstudio.ai/docs/typescript/agent/act",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:56.599278755-03:00",
+      "description": "How to use the .act() call to turn LLMs into autonomous agents that can perform tasks on your local machine.",
+      "summary": "This document introduces the concept of 'execution rounds' to describe the iterative process where an LLM runs tools, receives the output, and then decides on subsequent actions until a final result is achieved.",
+      "tags": [
+        "llm-tool-use",
+        "execution-rounds",
+        "multi-round-calling",
+        "agent-behavior",
+        "api-design"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-typescript-agent-act.md"
+    },
+    {
+      "file_path": "124-docs-typescript-llm-prediction-parameters.md",
+      "title": "Configuring the Model",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/parameters",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:54.449729615-03:00",
+      "description": "APIs for setting inference-time and load-time parameters for your model",
+      "summary": "This document explains how to customize model behavior by detailing two types of parameters: inference-time settings, which are set per request for controlling output generation, and load-time settings, which configure the model when it is initially loaded.",
+      "tags": [
+        "inference-parameters",
+        "load-parameters",
+        "model-configuration",
+        "llm-api",
+        "prompt-tuning"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-llm-prediction-parameters.md"
+    },
+    {
+      "file_path": "156-docs-typescript-plugins-dependencies.md",
+      "title": "Using `npm` Dependencies",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/dependencies",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:02.651841953-03:00",
+      "description": "How to use npm packages in LM Studio plugins",
+      "summary": "This document explains how to manage and install necessary npm dependencies for developing plugins compatible with LM Studio, advising developers to use 'npm' exclusively.",
+      "tags": [
+        "plugin-development",
+        "npm",
+        "dependencies",
+        "packagejson",
+        "lm-studio",
+        "installation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-dependencies.md"
+    },
+    {
+      "file_path": "123-docs-typescript-llm-prediction-cancelling-predictions.md",
+      "title": "Cancelling Predictions",
+      "url": "https://lmstudio.ai/docs/typescript/llm-prediction/cancelling-predictions",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:44.82699465-03:00",
+      "description": "Stop an ongoing prediction in lmstudio-js",
+      "summary": "This document explains two methods for halting a running text prediction process using lmstudio-js: calling `.cancel()` on the prediction object or utilizing an existing `AbortController` signal.",
+      "tags": [
+        "prediction-cancellation",
+        "lmstudio-js",
+        "abortcontroller",
+        "streaming-output",
+        "api-methods"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-llm-prediction-cancelling-predictions.md"
+    },
+    {
+      "file_path": "127-docs-typescript-agent-tools.md",
+      "title": "Tool Definition",
+      "url": "https://lmstudio.ai/docs/typescript/agent/tools",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:31:58.968305498-03:00",
+      "description": "Define tools with the tool() function and pass them to the model in the act() call.",
+      "summary": "This document explains how to define and pass tools to a model, detailing that these tools can execute external effects like file creation or API calls.",
+      "tags": [
+        "tool-definition",
+        "llm-agents",
+        "function-calling",
+        "api-tools",
+        "system-prompting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-agent-tools.md"
+    },
+    {
+      "file_path": "143-docs-typescript-plugins-tools-provider-multiple-tools.md",
+      "title": "Multiple Tools",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/tools-provider/multiple-tools",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:08.86437345-03:00",
+      "summary": "This code snippet demonstrates how to define and register custom, asynchronous tooling functions within a provided controller for an AI system.",
+      "tags": [
+        "tool-definition",
+        "sdk-usage",
+        "file-system-interaction",
+        "async-operations"
+      ],
+      "category": "api",
+      "original_file_path": "docs-typescript-plugins-tools-provider-multiple-tools.md"
+    },
+    {
+      "file_path": "141-docs-typescript-plugins-tools-provider.md",
+      "title": "Introduction to Tools Provider",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/tools-provider",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:03.958894566-03:00",
+      "description": "Writing tools providers for LM Studio plugins using TypeScript",
+      "summary": "This document explains the concept and purpose of writing tools providers for LM Studio plugins using TypeScript, detailing how these providers equip large language models with external functionalities.",
+      "tags": [
+        "lmstudio",
+        "tools-provider",
+        "typescript",
+        "plugin-development",
+        "llm-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-tools-provider.md"
+    },
+    {
+      "file_path": "145-docs-typescript-plugins-tools-provider-status-reports-and-warnings.md",
+      "title": "Status Reports & Warnings",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/tools-provider/status-reports-and-warnings",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:12.206207467-03:00",
+      "summary": "This document explains how to provide status updates and warnings during tool execution, and also details how to gracefully handle prediction aborts using the AbortSignal object.",
+      "tags": [
+        "tool-implementation",
+        "status-updates",
+        "user-warnings",
+        "abortsignal",
+        "asynchronous-operations"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-tools-provider-status-reports-and-warnings.md"
+    },
+    {
+      "file_path": "144-docs-typescript-plugins-tools-provider-custom-configuration.md",
+      "title": "Custom Configuration",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/tools-provider/custom-configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:10.350630621-03:00",
+      "description": "Add custom configuration options to your tools provider",
+      "summary": "This code provides a function to define and return an array of available tools for a controller, specifically demonstrating how to implement a file creation tool using local file system operations.",
+      "tags": [
+        "tool-implementation",
+        "file-system-operations",
+        "sdk-integration",
+        "async-functions"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-tools-provider-custom-configuration.md"
+    },
+    {
+      "file_path": "147-docs-typescript-plugins-prompt-preprocessor.md",
+      "title": "Introduction",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/prompt-preprocessor",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:16.404190409-03:00",
+      "description": "Writing prompt preprocessors for LM Studio plugins using TypeScript",
+      "summary": "This document explains the function and mechanism of Prompt Preprocessors, detailing how they intercept and modify user input before it reaches a language model, especially when multiple preprocessors are chained.",
+      "tags": [
+        "prompt-preprocessor",
+        "user-input-modification",
+        "chat-history",
+        "llm-interaction"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-typescript-plugins-prompt-preprocessor.md"
+    },
+    {
+      "file_path": "148-docs-typescript-plugins-prompt-preprocessor-examples.md",
+      "title": "Examples",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/prompt-preprocessor/examples",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:18.623824725-03:00",
+      "summary": "This document provides an example of a prompt preprocessor designed to manipulate incoming chat messages by replacing specific trigger words with custom instructional text.",
+      "tags": [
+        "prompt-preprocessor",
+        "message-manipulation",
+        "sdk-example",
+        "text-replacement"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-typescript-plugins-prompt-preprocessor-examples.md"
+    },
+    {
+      "file_path": "149-docs-typescript-plugins-prompt-preprocessor-custom-configuration.md",
+      "title": "Custom Configuration",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/prompt-preprocessor/custom-configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:19.994905972-03:00",
+      "summary": "This code snippet demonstrates how to define and build configuration schematics for an SDK, specifically adding fields for 'Special Instructions' and a 'Trigger Word'.",
+      "tags": [
+        "sdk-configuration",
+        "schema-definition",
+        "api-building",
+        "typescript"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-prompt-preprocessor-custom-configuration.md"
+    },
+    {
+      "file_path": "137-docs-typescript-plugins.md",
+      "title": "Introduction to Plugins",
+      "url": "https://lmstudio.ai/docs/typescript/plugins",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:00.110983042-03:00",
+      "description": "A brief introduction to making plugins for LM Studio using TypeScript.",
+      "summary": "This document guides developers on how to build and manage plugins for LM Studio, detailing the necessary setup, development workflow, and advanced features like tools providers and prompt preprocessors.",
+      "tags": [
+        "plugins",
+        "javascript",
+        "typescript",
+        "development-workflow",
+        "node-js",
+        "extension-building"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-typescript-plugins.md"
+    },
+    {
+      "file_path": "151-docs-typescript-plugins-prompt-preprocessor-handling-aborts.md",
+      "title": "Handling Aborts",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/prompt-preprocessor/handling-aborts",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:24.827708651-03:00",
+      "summary": "This document informs developers that they must gracefully handle an abortion event by checking for and responding to the `ctl.abortSignal` when a user cancels a running prediction generation.",
+      "tags": [
+        "prediction-generation",
+        "abort-signal",
+        "user-control",
+        "api-handling"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-prompt-preprocessor-handling-aborts.md"
+    },
+    {
+      "file_path": "150-docs-typescript-plugins-prompt-preprocessor-custom-status-report.md",
+      "title": "Custom Status Report",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/prompt-preprocessor/custom-status-report",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:22.06030964-03:00",
+      "summary": "This document demonstrates how to manage and report the processing status of a prompt preprocessor using `ctl.setStatus` and updating it with different states, including sub-statuses.",
+      "tags": [
+        "status-management",
+        "prompt-preprocessing",
+        "api-calls",
+        "state-updates"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-typescript-plugins-prompt-preprocessor-custom-status-report.md"
+    },
+    {
+      "file_path": "139-docs-typescript-plugins-generator-text-only-generators.md",
+      "title": "Text-only Generators",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/generator/text-only-generators",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:28.06430749-03:00",
+      "summary": "This document explains how generators function within a controller context, detailing methods for reporting generated text and covering specific operational aspects like accessing custom configurations and handling user abort signals.",
+      "tags": [
+        "generator-api",
+        "conversation-state",
+        "custom-configurations",
+        "abort-signal",
+        "plugin-config"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-generator-text-only-generators.md"
+    },
+    {
+      "file_path": "146-docs-typescript-plugins-tools-provider-handling-aborts.md",
+      "title": "Handling Aborts",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/tools-provider/handling-aborts",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:14.144671692-03:00",
+      "description": "Gracefully handle user-aborted tool executions in your tools provider",
+      "summary": "This code demonstrates how to define and register custom tools, specifically a 'fetch' tool, within an SDK controller.",
+      "tags": [
+        "sdk-implementation",
+        "tool-definition",
+        "async-function",
+        "api-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-typescript-plugins-tools-provider-handling-aborts.md"
+    },
+    {
+      "file_path": "152-docs-typescript-plugins-custom-configuration.md",
+      "title": "Introduction",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/custom-configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:32.718925162-03:00",
+      "description": "Add custom configurations to LM Studio plugins using TypeScript",
+      "summary": "This document explains that LM Studio plugins can support custom configurations by defining a schema, allowing users to configure the plugin through a UI without code changes. It details the types of configurations available (per-chat vs. global) and the supported TypeScript field types.",
+      "tags": [
+        "plugin-development",
+        "custom-configuration",
+        "lmstudio-sdk",
+        "typescript",
+        "user-interface"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-custom-configuration.md"
+    },
+    {
+      "file_path": "138-docs-typescript-plugins-generator.md",
+      "title": "Introduction",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/generator",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:26.472823808-03:00",
+      "description": "Writing generators for LM Studio plugins using TypeScript",
+      "summary": "This document explains that generators serve as substitutes for local LLMs, directing text generation through external or remote sources instead of the locally loaded model.",
+      "tags": [
+        "generators",
+        "llm-adapters",
+        "remote-models",
+        "api-integration",
+        "plugin-functionality"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-generator.md"
+    },
+    {
+      "file_path": "142-docs-typescript-plugins-tools-provider-single-tool.md",
+      "title": "Single Tool",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/tools-provider/single-tool",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:06.853906588-03:00",
+      "summary": "This document explains the necessary steps for setting up a tools provider within a plugin, detailing how to define a specific tool like 'create_file' and then register that provider in the plugin's main entry file.",
+      "tags": [
+        "tools-provider",
+        "plugin-development",
+        "tool-definition",
+        "typescript",
+        "llm-integration"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-typescript-plugins-tools-provider-single-tool.md"
+    },
+    {
+      "file_path": "140-docs-typescript-plugins-generator-tool-calling-generators.md",
+      "title": "Tool calling generators",
+      "url": "https://lmstudio.ai/docs/typescript/plugins/generator/tool-calling-generators",
+      "source": "sitemap",
+      "fetched_at": "2026-04-07T21:32:30.519400991-03:00",
+      "summary": "This document outlines the specific sequence of control methods (ctl) that a generator must call when handling tool use generation, detailing steps for reporting text fragments and managing both successful and failed tool call generations.",
+      "tags": [
+        "tool-use",
+        "generator-flow",
+        "api-calls",
+        "control-methods",
+        "model-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-typescript-plugins-generator-tool-calling-generators.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-08T00:42:23.020577+00:00",
+    "total_files": 157,
+    "categories": [
+      "Introduction & Overview",
+      "Getting Started & Quick Start",
+      "App Basics",
+      "App Presets",
+      "App Advanced Features",
+      "MCP & Model Configuration",
+      "CLI Reference - Local Models",
+      "CLI Reference - Daemon",
+      "CLI Reference - Server",
+      "CLI Reference - Develop & Publish",
+      "CLI Reference - Link",
+      "CLI Reference - Runtime",
+      "Developer Guide - Overview",
+      "Developer Guide - Core",
+      "Developer Guide - REST API",
+      "Developer Guide - OpenAI Compatibility",
+      "Developer Guide - Anthropic Compatibility",
+      "Integrations - LM Link",
+      "Integrations - Third Party",
+      "Python SDK",
+      "Python SDK - LLM Prediction",
+      "Python SDK - Agent & Tools",
+      "Python SDK - Embedding & Tokenization",
+      "Python SDK - Model Management",
+      "Python SDK - Model Info",
+      "TypeScript SDK",
+      "TypeScript SDK - LLM Prediction",
+      "TypeScript SDK - Agent",
+      "TypeScript SDK - Embedding & Tokenization",
+      "TypeScript SDK - Model Management",
+      "TypeScript SDK - Model Info",
+      "TypeScript SDK - API Reference",
+      "TypeScript SDK - Plugins"
+    ]
+  }
+}

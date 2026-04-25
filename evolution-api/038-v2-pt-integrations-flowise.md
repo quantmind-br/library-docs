@@ -1,0 +1,191 @@
+---
+title: Flowise - Evolution API Documentation
+url: https://doc.evolution-api.com/v2/pt/integrations/flowise
+source: sitemap
+fetched_at: 2026-04-12T18:45:42.389850487-03:00
+rendered_js: false
+word_count: 694
+summary: This document provides detailed instructions on how to use the Evolution API to create, configure, and manage bots within Flowise for advanced WhatsApp automation. It covers endpoints for bot creation, setting default configurations, managing chat sessions, and understanding automatic variables.
+tags:
+    - evolution-api
+    - flowise
+    - bot-automation
+    - api-configuration
+    - whatsapp-integration
+    - workflow-management
+category: guide
+---
+
+A Evolution API permite a criação e gerenciamento de bots utilizando a tecnologia Flowise, proporcionando automação e interatividade avançada através de diferentes tipos de interações. A seguir, você encontrará as instruções detalhadas sobre como configurar bots, gerenciar sessões e definir configurações padrão.
+
+## 1. Criação de Bots no Flowise
+
+Você pode configurar diversos bots no Flowise utilizando triggers para iniciar as interações. A configuração do bot pode ser feita através do endpoint `/flowise/create/{{instance}}`.
+
+### Endpoint para Criação de Bots
+
+#### Endpoint
+
+```
+POST {{baseUrl}}/flowise/create/{{instance}}
+```
+
+#### Corpo da Requisição
+
+Aqui está um exemplo de corpo JSON para configurar um bot no Flowise:
+
+```
+{
+    "enabled": true,
+    "apiUrl": "http://flowise.site.com/v1",
+    "apiKey": "app-123456", // optional
+    // opções
+    "triggerType": "keyword", /* all ou keyword */
+    "triggerOperator": "equals", /* contains, equals, startsWith, endsWith, regex, none */
+    "triggerValue": "teste",
+    "expire": 0,
+    "keywordFinish": "#SAIR",
+    "delayMessage": 1000,
+    "unknownMessage": "Mensagem não reconhecida",
+    "listeningFromMe": false,
+    "stopBotFromMe": false,
+    "keepOpen": false,
+    "debounceTime": 0,
+    "ignoreJids": []
+}
+```
+
+### Explicação dos Parâmetros
+
+- **`enabled`** : Ativa (`true`) ou desativa (`false`) o bot.
+- **`apiUrl`** : URL da API do Flowise (sem a `/` no final).
+- **`apiKey`** : Chave da API fornecida pelo Flowise (opcional).
+- **Opções**:
+  
+  - **`triggerType`** : Tipo de trigger para iniciar o bot (`all` ou `keyword`).
+  - **`triggerOperator`** : Operador utilizado para avaliar o trigger (`contains`, `equals`, `startsWith`, `endsWith`, `regex`, `none`).
+  - **`triggerValue`** : Valor utilizado no trigger (por exemplo, uma palavra-chave ou regex).
+  - **`expire`** : Tempo em minutos após o qual o bot expira, reiniciando se a sessão expirou.
+  - **`keywordFinish`** : Palavra-chave que encerra a sessão do bot.
+  - **`delayMessage`** : Delay (em milissegundos) para simular a digitação antes de enviar uma mensagem.
+  - **`unknownMessage`** : Mensagem enviada quando a entrada do usuário não é reconhecida.
+  - **`listeningFromMe`** : Define se o bot deve escutar as mensagens enviadas pelo próprio usuário (`true` ou `false`).
+  - **`stopBotFromMe`** : Define se o bot deve parar quando o próprio usuário envia uma mensagem (`true` ou `false`).
+  - **`keepOpen`** : Mantém a sessão aberta, evitando que o bot seja reiniciado para o mesmo contato.
+  - **`debounceTime`** : Tempo (em segundos) para juntar várias mensagens em uma só.
+  - **`ignoreJids`** : Lista de JIDs de contatos que não ativarão o bot.
+
+## 2. Configurações Padrão do Flowise
+
+Você pode definir configurações padrão que serão aplicadas caso os parâmetros não sejam passados durante a criação do bot.
+
+### Endpoint para Configurações Padrão
+
+#### Endpoint
+
+```
+POST {{baseUrl}}/flowise/settings/{{instance}}
+```
+
+#### Corpo da Requisição
+
+Aqui está um exemplo de configuração padrão:
+
+```
+{
+    "expire": 20,
+    "keywordFinish": "#SAIR",
+    "delayMessage": 1000,
+    "unknownMessage": "Mensagem não reconhecida",
+    "listeningFromMe": false,
+    "stopBotFromMe": false,
+    "keepOpen": false,
+    "debounceTime": 0,
+    "ignoreJids": [],
+    "flowiseIdFallback": "clyja4oys0a3uqpy7k3bd7swe"
+}
+```
+
+### Explicação dos Parâmetros
+
+- **`expire`** : Tempo em minutos após o qual o bot expira.
+- **`keywordFinish`** : Palavra-chave que encerra a sessão do bot.
+- **`delayMessage`** : Delay para simular a digitação antes de enviar uma mensagem.
+- **`unknownMessage`** : Mensagem enviada quando a entrada do usuário não é reconhecida.
+- **`listeningFromMe`** : Define se o bot deve escutar as mensagens enviadas pelo próprio usuário.
+- **`stopBotFromMe`** : Define se o bot deve parar quando o próprio usuário envia uma mensagem.
+- **`keepOpen`** : Mantém a sessão aberta, evitando que o bot seja reiniciado para o mesmo contato.
+- **`debounceTime`** : Tempo para juntar várias mensagens em uma só.
+- **`ignoreJids`** : Lista de JIDs de contatos que não ativarão o bot.
+- **`flowiseIdFallback`** : ID do bot de fallback que será utilizado caso nenhum trigger seja ativado.
+
+## 3. Gerenciamento de Sessões do Flowise
+
+Você pode gerenciar as sessões do bot, alterando o status entre aberta, pausada ou fechada para cada contato específico.
+
+### Endpoint para Gerenciamento de Sessões
+
+#### Endpoint
+
+```
+POST {{baseUrl}}/flowise/changeStatus/{{instance}}
+```
+
+#### Corpo da Requisição
+
+Aqui está um exemplo de como gerenciar o status da sessão:
+
+```
+{
+    "remoteJid": "5511912345678@s.whatsapp.net",
+    "status": "closed"
+}
+```
+
+### Explicação dos Parâmetros
+
+- **`remoteJid`** : JID (identificador) do contato no WhatsApp.
+- **`status`** : Status da sessão (`opened`, `paused`, `closed`).
+
+## 4. Variáveis Automáticas e Especiais no Flowise
+
+Quando uma sessão do Flowise é iniciada, algumas variáveis predefinidas são automaticamente enviadas:
+
+```
+inputs: {
+    remoteJid: "JID do contato",
+    pushName: "Nome do contato",
+    instanceName: "Nome da instância",
+    serverUrl: "URL do servidor da API",
+    apiKey: "Chave de API da Evolution"
+};
+```
+
+### Explicação das Variáveis Automáticas
+
+- **`remoteJid`** : JID do contato com quem o bot está interagindo.
+- **`pushName`** : Nome do contato no WhatsApp.
+- **`instanceName`** : Nome da instância que está executando o bot.
+- **`serverUrl`** : URL do servidor onde a Evolution API está hospedada.
+- **`apiKey`** : Chave de API usada para autenticar as requisições.
+
+### Variáveis Especiais para Workflows
+
+No caso de bots do tipo **workflow**, a mensagem recebida é enviada na variável `query` dentro dos inputs. Isso permite que o workflow processe a mensagem diretamente com base no conteúdo da variável `query`.
+
+### Exemplo de Variáveis para Workflow
+
+```
+inputs: {
+    remoteJid: "JID do contato",
+    pushName: "Nome do contato",
+    instanceName: "Nome da instância",
+    serverUrl: "URL do servidor da API",
+    apiKey: "Chave de API da Evolution",
+    query: "Conteúdo da mensagem recebida"
+}
+```
+
+## Considerações Finais
+
+A integração da Evolution API com o Flowise oferece uma maneira robusta de automatizar interações no WhatsApp, utilizando diferentes tipos de bots para atender às necessidades específicas do seu negócio. Com a capacidade de configurar triggers, gerenciar sessões e utilizar variáveis automáticas, você pode otimizar o fluxo de trabalho e melhorar a experiência do usuário final.

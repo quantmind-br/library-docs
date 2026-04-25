@@ -1,0 +1,324 @@
+{
+  "generated_at": "2026-04-08T11:34:24.349283992-03:00",
+  "source_url": "https://game-dev-studio-docs.bmad-method.org/sitemap-0.xml",
+  "strategy": "sitemap",
+  "total_documents": 16,
+  "documents": [
+    {
+      "file_path": "001-index.md",
+      "original_file_path": "index.md",
+      "title": "Welcome",
+      "url": "https://game-dev-studio-docs.bmad-method.org/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:00.731843978-03:00",
+      "description": "BMad Game Dev Studio - Game development workflows for Unity, Unreal, and Godot",
+      "summary": "This document introduces the BMad Game Dev Studio, a tool designed to help developers quickly create working game prototypes using popular engines like Unity, Unreal, and Godot, while also outlining related development methodologies.",
+      "tags": [
+        "game-development",
+        "prototyping",
+        "unity",
+        "unreal-engine",
+        "godot",
+        "game-design"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "002-tutorials.md",
+      "original_file_path": "tutorials.md",
+      "title": "BMGD - Getting Started",
+      "url": "https://game-dev-studio-docs.bmad-method.org/tutorials/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:16.009849873-03:00",
+      "description": "AI-powered workflows for game design and development with BMGD",
+      "summary": "This document provides a structured guide to learning and executing game development within the BMad Game Dev Studio framework, outlining sequential phases from ideation through full production.",
+      "tags": [
+        "game-development",
+        "bmgd",
+        "development-phases",
+        "prototyping",
+        "design-document",
+        "workflow"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "003-how-to.md",
+      "original_file_path": "how-to.md",
+      "title": "How-To Guides",
+      "url": "https://game-dev-studio-docs.bmad-method.org/how-to/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:03.251199147-03:00",
+      "description": "Practical guides for specific game development tasks",
+      "summary": "This document provides step-by-step guides for various game development tasks using the BMGD methodology, covering engine setup, rapid prototyping, and full production workflows like sprint planning and testing.",
+      "tags": [
+        "game-development",
+        "workflow-guides",
+        "engine-setup",
+        "prototyping",
+        "testing-strategy"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "004-how-to-setup-unity.md",
+      "original_file_path": "how-to-setup-unity.md",
+      "title": "Set up a Unity project with BMGD",
+      "url": "https://game-dev-studio-docs.bmad-method.org/how-to/setup-unity/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:04.599605319-03:00",
+      "description": "Configure a new Unity project for full production game development with BMGD",
+      "summary": "This guide provides a step-by-step walkthrough detailing how to set up a complete Unity game project workflow using the specialized BMad Game Development (BMGD) methodology. It covers everything from initial project creation and context generation to developing technical architecture, writing design documents (GDD), and planning sprints.",
+      "tags": [
+        "unity",
+        "game-development",
+        "workflow",
+        "gdd",
+        "bmgd",
+        "setup-guide"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "005-how-to-setup-unreal.md",
+      "original_file_path": "how-to-setup-unreal.md",
+      "title": "Set up an Unreal project with BMGD",
+      "url": "https://game-dev-studio-docs.bmad-method.org/how-to/setup-unreal/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:05.0604945-03:00",
+      "description": "Configure a new Unreal project for full production game development with BMGD",
+      "summary": "This guide details the comprehensive, multi-step process for setting up and structuring a full production game development workflow within Unreal Engine using the BMad Game Development (BMGD) system. It covers everything from initial project setup and context generation to designing mechanics, creating technical architectures, planning sprints, and finally implementing features.",
+      "tags": [
+        "unreal-engine",
+        "game-development-workflow",
+        "project-setup",
+        "gdd",
+        "architecture",
+        "bmgd"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "006-how-to-setup-godot.md",
+      "original_file_path": "how-to-setup-godot.md",
+      "title": "Set up a Godot project with BMGD",
+      "url": "https://game-dev-studio-docs.bmad-method.org/how-to/setup-godot/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:03.912013471-03:00",
+      "description": "Configure a new Godot project for full production game development with BMGD",
+      "summary": "This guide outlines the step-by-step process for setting up a professional Godot game project using the BMGD (BMad Game Development) workflow. It details everything from initial project configuration and generating core documentation like the GDD and architecture, through to planning sprints and implementing features.",
+      "tags": [
+        "godot",
+        "game-development",
+        "bmgd",
+        "project-setup",
+        "gdd",
+        "workflow"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "007-how-to-sprint-planning.md",
+      "original_file_path": "how-to-sprint-planning.md",
+      "title": "Run sprint planning with BMGD",
+      "url": "https://game-dev-studio-docs.bmad-method.org/how-to/sprint-planning/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:06.487092002-03:00",
+      "description": "Plan and track development sprints using BMGD's agile workflows",
+      "summary": "This guide explains a multi-step workflow for managing game development sprints using BMGD, detailing processes from generating initial sprint status to implementing, reviewing, and closing feature stories.",
+      "tags": [
+        "sprint-planning",
+        "game-development",
+        "agile-workflow",
+        "story-management",
+        "scrum-process",
+        "gdd",
+        "technical-guidance"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "008-tutorials-first-game-project.md",
+      "original_file_path": "tutorials-first-game-project.md",
+      "title": "Your first game project with BMGD",
+      "url": "https://game-dev-studio-docs.bmad-method.org/tutorials/first-game-project/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:18.042408122-03:00",
+      "description": "Create your first playable game prototype using BMGD's Quick Flow workflow",
+      "summary": "This tutorial guides users through creating their initial playable game prototype using BMad Game Dev Studio's Quick Flow workflow and Indie agent. It outlines the process from concept definition to iteration, emphasizing fast testing over perfect design.",
+      "tags": [
+        "game-development",
+        "quick-flow",
+        "prototyping",
+        "bmgd",
+        "game-design",
+        "tutorial",
+        "indie"
+      ],
+      "category": "tutorial"
+    },
+    {
+      "file_path": "009-explanation.md",
+      "original_file_path": "explanation.md",
+      "title": "Explanation",
+      "url": "https://game-dev-studio-docs.bmad-method.org/explanation/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:00.879756399-03:00",
+      "description": "Learn how BMGD works",
+      "summary": "This document outlines key conceptual areas within the BMad Game Dev Studio, helping users understand different development approaches and foundational concepts regarding game types and methodological differences.",
+      "tags": [
+        "game-development",
+        "studio-overview",
+        "development-approaches",
+        "bmad-method",
+        "framework-integration"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "010-explanation-quick-flow-vs-full.md",
+      "original_file_path": "explanation-quick-flow-vs-full.md",
+      "title": "Quick Flow vs Full Production",
+      "url": "https://game-dev-studio-docs.bmad-method.org/explanation/quick-flow-vs-full/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:00.881722198-03:00",
+      "description": "Choose the right development path for your game project",
+      "summary": "This document explains the difference between two development methodologies offered by BMad Game Dev Studio: Quick Flow for rapid prototyping and Full Production for structured, long-term team projects. It guides users on when to use each method and how they can transition between them.",
+      "tags": [
+        "game-development",
+        "quick-flow",
+        "full-production",
+        "prototyping",
+        "workflow",
+        "dev-methodology"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "011-explanation-bmgd-vs-bmm.md",
+      "original_file_path": "explanation-bmgd-vs-bmm.md",
+      "title": "BMGD vs BMM",
+      "url": "https://game-dev-studio-docs.bmad-method.org/explanation/bmgd-vs-bmm/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:00.878282804-03:00",
+      "description": "Understanding the differences between BMGD and BMM",
+      "summary": "This document compares BMMad Method (BMM) with BMGD (BMad Game Development), detailing the specific additions and differences for game development, covering topics like agent roles, planning documents (GDD vs. PRD), narrative support, specialized testing procedures, and production workflows.",
+      "tags": [
+        "bmgd-vs-bmm",
+        "game-development",
+        "methodology-comparison",
+        "gdd",
+        "agent-roles",
+        "testing-workflows"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "012-explanation-game-types.md",
+      "original_file_path": "explanation-game-types.md",
+      "title": "BMGD Game Types Guide",
+      "url": "https://game-dev-studio-docs.bmad-method.org/explanation/game-types/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:00.885712618-03:00",
+      "summary": "This document serves as a comprehensive reference guide detailing BMGD's 24 supported game type templates, explaining which genre sections are added to a Game Design Document (GDD) based on the chosen template.",
+      "tags": [
+        "game-design-document",
+        "gdd",
+        "genre-templates",
+        "game-development",
+        "game-types",
+        "reference"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "013-reference.md",
+      "original_file_path": "reference.md",
+      "title": "Reference",
+      "url": "https://game-dev-studio-docs.bmad-method.org/reference/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:07.358406881-03:00",
+      "description": "Technical reference for BMGD",
+      "summary": "This document serves as a technical reference guide for BMad Game Dev Studio, detailing available specialized agents, project workflows, and the specific commands provided for various roles.",
+      "tags": [
+        "game-dev-studio",
+        "bmgd-commands",
+        "workflow-reference",
+        "agent-catalog",
+        "gamedesign",
+        "technical-documentation"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "014-reference-agents.md",
+      "original_file_path": "reference-agents.md",
+      "title": "BMGD Agents Guide",
+      "url": "https://game-dev-studio-docs.bmad-method.org/reference/agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:10.613336458-03:00",
+      "summary": "This document serves as a comprehensive reference guide detailing six specialized agents for game development, outlining their specific roles, expertise, communication styles, and available commands.",
+      "tags": [
+        "game-development",
+        "agent-roles",
+        "dev-workflow",
+        "qa-testing",
+        "system-architecture",
+        "gdd"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "015-reference-game-types.md",
+      "original_file_path": "reference-game-types.md",
+      "title": "BMGD Game Types Reference",
+      "url": "https://game-dev-studio-docs.bmad-method.org/reference/game-types/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:12.333708797-03:00",
+      "description": "All 24 game type templates available in BMGD's Game Design Document workflow",
+      "summary": "This document serves as a comprehensive reference guide detailing 24 distinct game type templates used within the BMGD GDD workflow, outlining key elements for genres ranging from platformers and shooters to RPGs and simulation games. It also explains how the Game Designer agent helps users select primary and secondary types when designing complex hybrid games.",
+      "tags": [
+        "bmgd-workflow",
+        "game-design-reference",
+        "game-types",
+        "gdd-templates",
+        "genre-guide",
+        "gameplay-systems"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "016-reference-workflows.md",
+      "original_file_path": "reference-workflows.md",
+      "title": "BMGD Workflows Reference",
+      "url": "https://game-dev-studio-docs.bmad-method.org/reference/workflows/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-08T11:34:14.908984264-03:00",
+      "description": "Complete catalog of all BMad Game Dev Studio workflows",
+      "summary": "This document serves as a comprehensive reference guide detailing various BMad Game Dev Studio workflows, organized by the development phase—from initial concept to final testing. It outlines specific agents responsible for each task, ensuring developers know which workflow to use at every stage of game creation.",
+      "tags": [
+        "workflow-reference",
+        "game-development",
+        "bmgd",
+        "design-process",
+        "production-cycle",
+        "qa-testing",
+        "prototyping"
+      ],
+      "category": "reference"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-08T14:36:00Z",
+    "total_files": 16,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & How-To",
+      "Concepts & Fundamentals",
+      "Features & Capabilities",
+      "Reference & Appendix"
+    ]
+  }
+}

@@ -2,19 +2,19 @@
 title: Disabling System Integrity Protection
 url: https://github.com/asmvik/yabai/wiki/Disabling-System-Integrity-Protection
 source: wiki
-fetched_at: 2026-02-08T13:31:11.130039253-03:00
+fetched_at: 2026-04-25T15:22:41.333857-03:00
 rendered_js: false
 word_count: 490
-summary: This document explains why the yabai window manager requires System Integrity Protection (SIP) to be partially disabled on macOS and provides step-by-step instructions for configuring these security settings.
+summary: This document explains the necessity of partially disabling System Integrity Protection (SIP) on macOS to enable advanced window management features in yabai and provides step-by-step instructions for performing this configuration.
 tags:
     - macos
-    - yabai
     - system-integrity-protection
-    - sip-configuration
+    - sip
+    - yabai
+    - configuration
     - window-management
-    - apple-silicon
-    - csrutil
-category: guide
+    - security-settings
+category: configuration
 ---
 
 ### What is System Integrity Protection and why does it need to be disabled?
@@ -25,7 +25,7 @@ System Integrity Protection protects some files and directories from being modif
 
 The following features of yabai require System Integrity Protection to be (partially) disabled:
 
-* focus/move/swap/create/destroy space
+* move/swap/create/destroy space
 * remove window shadows
 * enable window transparency
 * enable window animations

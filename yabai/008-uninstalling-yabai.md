@@ -2,17 +2,17 @@
 title: Uninstalling Yabai
 url: https://github.com/asmvik/yabai/wiki/Uninstalling-yabai
 source: wiki
-fetched_at: 2026-02-11T07:34:00.184571-03:00
+fetched_at: 2026-04-25T15:22:46.090838-03:00
 rendered_js: false
 word_count: 89
-summary: This document provides a comprehensive set of commands and steps to completely uninstall the yabai window manager and remove all associated configuration, service, and temporary files from a macOS system.
+summary: This document provides a set of command-line instructions to completely remove the yabai window manager and its associated configuration and service files from a macOS system.
 tags:
-    - yabai
     - macos
+    - yabai
     - uninstallation
-    - tiling-window-manager
-    - homebrew
-    - cleanup
+    - system-cleanup
+    - command-line
+    - window-manager
 category: guide
 ---
 

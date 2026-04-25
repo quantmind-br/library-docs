@@ -2,17 +2,17 @@
 title: Tips And Tricks
 url: https://github.com/asmvik/yabai/wiki/Tips-and-tricks
 source: wiki
-fetched_at: 2026-02-11T07:33:54.886483-03:00
+fetched_at: 2026-04-25T15:22:45.259386-03:00
 rendered_js: false
 word_count: 1027
-summary: A collection of practical tips, scripts, and troubleshooting steps for optimizing the yabai tiling window manager on macOS. It explains how to handle configuration management, automate updates, and refine window behavior.
+summary: This document provides a collection of tips, scripts, and configurations to manage and optimize the yabai window tiling manager on macOS.
 tags:
     - yabai
     - macos
     - window-management
-    - shell-scripts
-    - configuration-management
     - automation
+    - scripting
+    - tiling-wm
 category: guide
 ---
 

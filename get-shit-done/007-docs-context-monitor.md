@@ -14,15 +14,16 @@ tags:
     - system-optimization
     - error-prevention
 category: configuration
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
 ---
 
 # Context Window Monitor
 
 A post-tool hook (`PostToolUse` for Claude Code, `AfterTool` for Gemini CLI) that warns the agent when context window usage is high.
 
-## Problem
-
-The statusline shows context usage to the **user**, but the **agent** has no awareness of context limits. When context runs low, the agent continues working until it hits the wall — potentially mid-task with no state saved.
+> [!problem]
+> The statusline shows context usage to the **user**, but the **agent** has no awareness of context limits. When context runs low, the agent continues working until it hits the wall — potentially mid-task with no state saved.
 
 ## How It Works
 
@@ -125,9 +126,11 @@ For Gemini CLI (`~/.gemini/settings.json`), use `AfterTool` instead of `PostTool
 }
 ```
 
-## Safety
+> [!warning]
+> **Safety:**
+> - The hook wraps everything in try/catch and exits silently on error
+> - It never blocks tool execution — a broken monitor should not break the agent's workflow
+> - Stale metrics (older than 60s) are ignored
+> - Missing bridge files are handled gracefully (subagents, fresh sessions)
 
-- The hook wraps everything in try/catch and exits silently on error
-- It never blocks tool execution — a broken monitor should not break the agent's workflow
-- Stale metrics (older than 60s) are ignored
-- Missing bridge files are handled gracefully (subagents, fresh sessions)
+#context-window #agent-monitoring #automation-hooks

@@ -5,7 +5,7 @@ source: git
 fetched_at: 2026-04-16T16:21:26.074348638-03:00
 rendered_js: false
 word_count: 377
-summary: 'This document explains the two operational modes for context gathering in GSD''s discuss-phase: the interactive interview style and the automated codebase-first assumptions approach.'
+summary: 'This document explains the two operational modes for context gathering in GSD'\''s discuss-phase: the interactive interview style and the automated codebase-first assumptions approach.'
 tags:
     - gsd-tools
     - context-gathering
@@ -13,6 +13,8 @@ tags:
     - codebase-analysis
     - project-planning
 category: configuration
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
 ---
 
 # Discuss Mode: Assumptions vs Interview
@@ -23,8 +25,7 @@ GSD's discuss-phase has two modes for gathering implementation context before pl
 
 ### `discuss` (default)
 
-The original interview-style flow. Claude identifies gray areas in the phase, presents them
-for selection, then asks ~4 questions per area. Good for:
+The original interview-style flow. Claude identifies gray areas in the phase, presents them for selection, then asks ~4 questions per area. Good for:
 
 - Early phases where the codebase is new
 - Phases where the user has strong opinions they want to express proactively
@@ -32,9 +33,7 @@ for selection, then asks ~4 questions per area. Good for:
 
 ### `assumptions`
 
-A codebase-first flow. Claude deeply analyzes the codebase via a subagent (reading 5-15
-relevant files), forms assumptions with evidence, and presents them for confirmation or
-correction. Good for:
+A codebase-first flow. Claude deeply analyzes the codebase via a subagent (reading 5-15 relevant files), forms assumptions with evidence, and presents them for confirmation or correction. Good for:
 
 - Established codebases with clear patterns
 - Users who find the interview questions obvious
@@ -75,11 +74,14 @@ The setting is per-project (stored in `.planning/config.json`).
 ## Output
 
 Both modes produce identical CONTEXT.md with the same 6 sections:
+
 - `<domain>` — Phase boundary
 - `<decisions>` — Locked implementation decisions
 - `<canonical_refs>` — Specs/docs downstream agents must read
-- `<code_context>` — Reusable assets, patterns, integration points
+- `<assets>` — Reusable assets, patterns, integration points
 - `<specifics>` — User references and preferences
 - `<deferred>` — Ideas noted for future phases
 
 Downstream agents (researcher, planner, checker) consume this identically regardless of mode.
+
+#gsd-tools #context-gathering #workflow-configuration #codebase-analysis

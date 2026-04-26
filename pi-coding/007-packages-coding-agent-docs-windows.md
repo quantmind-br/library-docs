@@ -2,23 +2,24 @@
 title: Windows
 url: https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/windows.md
 source: git
-fetched_at: 2026-03-23T14:25:51.303904-03:00
+fetched_at: 2026-04-26T05:48:43.538822697-03:00
 rendered_js: false
 word_count: 49
-summary: This document describes the process of configuring and locating the required bash shell environment for the Pi application on Windows systems.
+summary: Bash shell requirements and search order for running Pi on Windows, including custom shell path configuration.
 tags:
     - windows-setup
-    - shell-configuration
-    - environment-path
-    - git-bash
-    - wsl
-    - cygwin
+    - bash-shell
+    - configuration
+    - environment-setup
+    - path-settings
 category: configuration
+optimized: true
+optimized_at: 2026-04-26T09:00:00Z
 ---
 
 # Windows Setup
 
-Pi requires a bash shell on Windows. Checked locations (in order):
+Pi requires a bash shell on Windows. Search order:
 
 1. Custom path from `~/.pi/agent/settings.json`
 2. Git Bash (`C:\Program Files\Git\bin\bash.exe`)
@@ -33,3 +34,5 @@ For most users, [Git for Windows](https://git-scm.com/download/win) is sufficien
   "shellPath": "C:\\cygwin64\\bin\\bash.exe"
 }
 ```
+
+#windows-setup #bash-shell #configuration

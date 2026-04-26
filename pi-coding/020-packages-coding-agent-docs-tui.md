@@ -2,25 +2,25 @@
 title: Tui
 url: https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tui.md
 source: git
-fetched_at: 2026-03-23T14:25:51.018231-03:00
+fetched_at: 2026-04-26T05:48:41.637820934-03:00
 rendered_js: false
-word_count: 3238
-summary: This document provides a technical guide for building and rendering custom interactive TUI components using the @mariozechner/pi-tui framework, including interface requirements, IME support, and overlay management.
+word_count: 3338
+optimized: true
+optimized_at: 2026-04-26T09:00:00Z
+summary: This document describes the component system for building interactive text user interfaces (TUI), covering component interfaces, IME support, overlay management, and available built-in UI elements.
 tags:
     - tui
-    - terminal-user-interface
+    - cli-framework
+    - terminal-ui
     - typescript
-    - component-system
     - ime-support
-    - overlay-management
+    - component-based-architecture
 category: guide
 ---
 
-> pi can create TUI components. Ask it to build one for your use case.
-
 # TUI Components
 
-Extensions and custom tools can render custom TUI components for interactive user interfaces. This page covers the component system and available building blocks.
+Extensions and custom tools render custom TUI components for interactive user interfaces.
 
 **Source:** [`@mariozechner/pi-tui`](https://github.com/badlogic/pi-mono/tree/main/packages/tui)
 
@@ -44,11 +44,11 @@ interface Component {
 | `wantsKeyRelease?` | If true, component receives key release events (Kitty protocol). Default: false. |
 | `invalidate()` | Clear cached render state. Called on theme changes. |
 
-The TUI appends a full SGR reset and OSC 8 reset at the end of each rendered line. Styles do not carry across lines. If you emit multi-line text with styling, reapply styles per line or use `wrapTextWithAnsi()` so styles are preserved for each wrapped line.
+> [!warning] Line styles reset between lines. The TUI appends a full SGR reset and OSC 8 reset at the end of each rendered line. Reapply styles per line or use `wrapTextWithAnsi()`.
 
 ## Focusable Interface (IME Support)
 
-Components that display a text cursor and need IME (Input Method Editor) support should implement the `Focusable` interface:
+Components displaying a text cursor that need IME support should implement `Focusable`:
 
 ```typescript
 import { CURSOR_MARKER, type Component, type Focusable } from "@mariozechner/pi-tui";
@@ -58,23 +58,23 @@ class MyInput implements Component, Focusable {
   
   render(width: number): string[] {
     const marker = this.focused ? CURSOR_MARKER : "";
-    // Emit marker right before the fake cursor
     return [`> ${beforeCursor}${marker}\x1b[7m${atCursor}\x1b[27m${afterCursor}`];
   }
 }
 ```
 
 When a `Focusable` component has focus, TUI:
+
 1. Sets `focused = true` on the component
-2. Scans rendered output for `CURSOR_MARKER` (a zero-width APC escape sequence)
+2. Scans rendered output for `CURSOR_MARKER` (zero-width APC escape sequence)
 3. Positions the hardware terminal cursor at that location
 4. Shows the hardware cursor
 
-This enables IME candidate windows to appear at the correct position for CJK input methods. The `Editor` and `Input` built-in components already implement this interface.
+> [!tip] `Editor` and `Input` built-in components already implement `Focusable`.
 
 ### Container Components with Embedded Inputs
 
-When a container component (dialog, selector, etc.) contains an `Input` or `Editor` child, the container must implement `Focusable` and propagate the focus state to the child. Otherwise, the hardware cursor won't be positioned correctly for IME input.
+Containers holding an `Input` or `Editor` child must implement `Focusable` and propagate focus state to the child for correct IME cursor positioning.
 
 ```typescript
 import { Container, type Focusable, Input } from "@mariozechner/pi-tui";
@@ -82,11 +82,8 @@ import { Container, type Focusable, Input } from "@mariozechner/pi-tui";
 class SearchDialog extends Container implements Focusable {
   private searchInput: Input;
 
-  // Focusable implementation - propagate to child input for IME cursor positioning
   private _focused = false;
-  get focused(): boolean {
-    return this._focused;
-  }
+  get focused(): boolean { return this._focused; }
   set focused(value: boolean) {
     this._focused = value;
     this.searchInput.focused = value;
@@ -100,7 +97,7 @@ class SearchDialog extends Container implements Focusable {
 }
 ```
 
-Without this propagation, typing with an IME (Chinese, Japanese, Korean, etc.) will show the candidate window in the wrong position on screen.
+> [!warning] Without focus propagation, IME candidate windows (CJK input) appear in the wrong position.
 
 ## Using Components
 
@@ -126,7 +123,7 @@ async execute(toolCallId, params, onUpdate, ctx, signal) {
 
 ## Overlays
 
-Overlays render components on top of existing content without clearing the screen. Pass `{ overlay: true }` to `ctx.ui.custom()`:
+Overlays render on top of existing content without clearing the screen. Pass `{ overlay: true }` to `ctx.ui.custom()`:
 
 ```typescript
 const result = await ctx.ui.custom<string | null>(
@@ -150,7 +147,7 @@ const result = await ctx.ui.custom<string | null>(
 
       // Position: anchor-based (default: "center")
       anchor: "right-center", // 9 positions: center, top-left, top-center, etc.
-      offsetX: -2,            // offset from anchor
+      offsetX: -2,
       offsetY: 0,
 
       // Or percentage/absolute positioning
@@ -163,7 +160,6 @@ const result = await ctx.ui.custom<string | null>(
       // Responsive: hide on narrow terminals
       visible: (termWidth, termHeight) => termWidth >= 80,
     },
-    // Get handle for programmatic visibility control
     onHandle: (handle) => {
       // handle.setHidden(true/false) - toggle visibility
       // handle.hide() - permanently remove
@@ -174,7 +170,7 @@ const result = await ctx.ui.custom<string | null>(
 
 ### Overlay Lifecycle
 
-Overlay components are disposed when closed. Don't reuse references - create fresh instances:
+> [!warning] Overlay components are disposed when closed. Don't reuse references — create fresh instances.
 
 ```typescript
 // Wrong - stale reference
@@ -193,7 +189,7 @@ await showMenu();  // First show
 await showMenu();  // "Back" = just call again
 ```
 
-See [overlay-qa-tests.ts](../examples/extensions/overlay-qa-tests.ts) for comprehensive examples covering anchors, margins, stacking, responsive visibility, and animation.
+See [overlay-qa-tests.ts](../examples/extensions/overlay-qa-tests.ts) for comprehensive examples.
 
 ## Built-in Components
 
@@ -243,8 +239,6 @@ container.removeChild(component1);
 ```
 
 ### Spacer
-
-Empty vertical space.
 
 ```typescript
 const spacer = new Spacer(2);  // 2 empty lines
@@ -298,28 +292,29 @@ handleInput(data: string) {
 ```
 
 **Key identifiers** (use `Key.*` for autocomplete, or string literals):
-- Basic keys: `Key.enter`, `Key.escape`, `Key.tab`, `Key.space`, `Key.backspace`, `Key.delete`, `Key.home`, `Key.end`
-- Arrow keys: `Key.up`, `Key.down`, `Key.left`, `Key.right`
+
+- Basic: `Key.enter`, `Key.escape`, `Key.tab`, `Key.space`, `Key.backspace`, `Key.delete`, `Key.home`, `Key.end`
+- Arrow: `Key.up`, `Key.down`, `Key.left`, `Key.right`
 - With modifiers: `Key.ctrl("c")`, `Key.shift("tab")`, `Key.alt("left")`, `Key.ctrlShift("p")`
-- String format also works: `"enter"`, `"ctrl+c"`, `"shift+tab"`, `"ctrl+shift+p"`
+- String format: `"enter"`, `"ctrl+c"`, `"shift+tab"`, `"ctrl+shift+p"`
 
 ## Line Width
 
-**Critical:** Each line from `render()` must not exceed the `width` parameter.
+> [!danger] Each line from `render()` must not exceed the `width` parameter.
 
 ```typescript
 import { visibleWidth, truncateToWidth } from "@mariozechner/pi-tui";
 
 render(width: number): string[] {
-  // Truncate long lines
   return [truncateToWidth(this.text, width)];
 }
 ```
 
-Utilities:
-- `visibleWidth(str)` - Get display width (ignores ANSI codes)
-- `truncateToWidth(str, width, ellipsis?)` - Truncate with optional ellipsis
-- `wrapTextWithAnsi(str, width)` - Word wrap preserving ANSI codes
+| Utility | Description |
+|---------|-------------|
+| `visibleWidth(str)` | Display width (ignores ANSI codes) |
+| `truncateToWidth(str, width, ellipsis?)` | Truncate with optional ellipsis |
+| `wrapTextWithAnsi(str, width)` | Word wrap preserving ANSI codes |
 
 ## Creating Custom Components
 
@@ -407,21 +402,16 @@ pi.registerCommand("pick", {
 
 ## Theming
 
-Components accept theme objects for styling.
-
-**In `renderCall`/`renderResult`**, use the `theme` parameter:
+### Using Theme in renderCall/renderResult
 
 ```typescript
 renderResult(result, options, theme, context) {
-  // Use theme.fg() for foreground colors
   return new Text(theme.fg("success", "Done!"), 0, 0);
-  
-  // Use theme.bg() for background colors
-  const styled = theme.bg("toolPendingBg", theme.fg("accent", "text"));
+  // Background: theme.bg("toolPendingBg", theme.fg("accent", "text"))
 }
 ```
 
-**Foreground colors** (`theme.fg(color, text)`):
+### Foreground Colors (`theme.fg(color, text)`)
 
 | Category | Colors |
 |----------|--------|
@@ -436,11 +426,11 @@ renderResult(result, options, theme, context) {
 | Thinking | `thinkingOff`, `thinkingMinimal`, `thinkingLow`, `thinkingMedium`, `thinkingHigh`, `thinkingXhigh` |
 | Modes | `bashMode` |
 
-**Background colors** (`theme.bg(color, text)`):
+### Background Colors (`theme.bg(color, text)`)
 
 `selectedBg`, `userMessageBg`, `customMessageBg`, `toolPendingBg`, `toolSuccessBg`, `toolErrorBg`
 
-**For Markdown**, use `getMarkdownTheme()`:
+### Markdown Theme
 
 ```typescript
 import { getMarkdownTheme } from "@mariozechner/pi-coding-agent";
@@ -452,7 +442,7 @@ renderResult(result, options, theme, context) {
 }
 ```
 
-**For custom components**, define your own theme interface:
+### Custom Theme Interface
 
 ```typescript
 interface MyTheme {
@@ -461,9 +451,9 @@ interface MyTheme {
 }
 ```
 
-## Debug logging
+## Debug Logging
 
-Set `PI_TUI_WRITE_LOG` to capture the raw ANSI stream written to stdout.
+Set `PI_TUI_WRITE_LOG` to capture raw ANSI stream written to stdout:
 
 ```bash
 PI_TUI_WRITE_LOG=/tmp/tui-ansi.log npx tsx packages/tui/test/chat-simple.ts
@@ -471,7 +461,7 @@ PI_TUI_WRITE_LOG=/tmp/tui-ansi.log npx tsx packages/tui/test/chat-simple.ts
 
 ## Performance
 
-Cache rendered output when possible:
+Cache rendered output and call `invalidate()` on state changes, then `handle.requestRender()` to trigger re-render.
 
 ```typescript
 class CachedComponent {
@@ -495,17 +485,11 @@ class CachedComponent {
 }
 ```
 
-Call `invalidate()` when state changes, then `handle.requestRender()` to trigger re-render.
-
 ## Invalidation and Theme Changes
 
-When the theme changes, the TUI calls `invalidate()` on all components to clear their caches. Components must properly implement `invalidate()` to ensure theme changes take effect.
+The TUI calls `invalidate()` on all components when the theme changes. Components that pre-bake theme colors into cached strings must rebuild content when invalidated.
 
-### The Problem
-
-If a component pre-bakes theme colors into strings (via `theme.fg()`, `theme.bg()`, etc.) and caches them, the cached strings contain ANSI escape codes from the old theme. Simply clearing the render cache isn't enough if the component stores the themed content separately.
-
-**Wrong approach** (theme colors won't update):
+### Anti-pattern (theme colors won't update)
 
 ```typescript
 class BadComponent extends Container {
@@ -522,9 +506,7 @@ class BadComponent extends Container {
 }
 ```
 
-### The Solution
-
-Components that build content with theme colors must rebuild that content when `invalidate()` is called:
+### Correct pattern: rebuild on invalidate
 
 ```typescript
 class GoodComponent extends Container {
@@ -540,20 +522,17 @@ class GoodComponent extends Container {
   }
 
   private updateDisplay(): void {
-    // Rebuild content with current theme
     this.content.setText(theme.fg("accent", this.message));
   }
 
   override invalidate(): void {
-    super.invalidate();  // Clear child caches
-    this.updateDisplay(); // Rebuild with new theme
+    super.invalidate();
+    this.updateDisplay();
   }
 }
 ```
 
-### Pattern: Rebuild on Invalidate
-
-For components with complex content:
+### Complex component pattern
 
 ```typescript
 class ComplexComponent extends Container {
@@ -567,11 +546,8 @@ class ComplexComponent extends Container {
 
   private rebuild(): void {
     this.clear();  // Remove all children
-
-    // Build UI with current theme
     this.addChild(new Text(theme.fg("accent", theme.bold("Title")), 1, 0));
     this.addChild(new Spacer(1));
-
     for (const item of this.data.items) {
       const color = item.active ? "success" : "muted";
       this.addChild(new Text(theme.fg(color, item.label), 1, 0));
@@ -585,27 +561,21 @@ class ComplexComponent extends Container {
 }
 ```
 
-### When This Matters
+### When rebuild-on-invalidate is needed
 
-This pattern is needed when:
+- **Pre-baking theme colors** — using `theme.fg()`/`theme.bg()` to create styled strings stored in child components
+- **Syntax highlighting** — using `highlightCode()` which applies theme-based syntax colors
+- **Complex layouts** — building child component trees that embed theme colors
 
-1. **Pre-baking theme colors** - Using `theme.fg()` or `theme.bg()` to create styled strings stored in child components
-2. **Syntax highlighting** - Using `highlightCode()` which applies theme-based syntax colors
-3. **Complex layouts** - Building child component trees that embed theme colors
-
-This pattern is NOT needed when:
-
-1. **Using theme callbacks** - Passing functions like `(text) => theme.fg("accent", text)` that are called during render
-2. **Simple containers** - Just grouping other components without adding themed content
-3. **Stateless render** - Computing themed output fresh in every `render()` call (no caching)
+> [!tip] NOT needed when: using theme callbacks passed as functions, simple containers without themed content, or stateless `render()` that computes fresh every call.
 
 ## Common Patterns
 
-These patterns cover the most common UI needs in extensions. **Copy these patterns instead of building from scratch.**
+> [!tip] Copy these patterns instead of building from scratch. `SelectList`, `SettingsList`, `BorderedLoader` cover 90% of cases.
 
 ### Pattern 1: Selection Dialog (SelectList)
 
-For letting users pick from a list of options. Use `SelectList` from `@mariozechner/pi-tui` with `DynamicBorder` for framing.
+Let users pick from a list. Use `SelectList` from `@mariozechner/pi-tui` with `DynamicBorder` for framing.
 
 ```typescript
 import type { ExtensionAPI } from "@mariozechner/pi-coding-agent";
@@ -665,7 +635,7 @@ pi.registerCommand("pick", {
 
 ### Pattern 2: Async Operation with Cancel (BorderedLoader)
 
-For operations that take time and should be cancellable. `BorderedLoader` shows a spinner and handles escape to cancel.
+Cancellable operations with spinner. `BorderedLoader` handles escape to cancel.
 
 ```typescript
 import { BorderedLoader } from "@mariozechner/pi-coding-agent";
@@ -676,7 +646,6 @@ pi.registerCommand("fetch", {
       const loader = new BorderedLoader(tui, theme, "Fetching data...");
       loader.onAbort = () => done(null);
 
-      // Do async work
       fetchData(loader.signal)
         .then((data) => done(data))
         .catch(() => done(null));
@@ -697,7 +666,7 @@ pi.registerCommand("fetch", {
 
 ### Pattern 3: Settings/Toggles (SettingsList)
 
-For toggling multiple settings. Use `SettingsList` from `@mariozechner/pi-tui` with `getSettingsListTheme()`.
+Toggle multiple settings. Use `SettingsList` from `@mariozechner/pi-tui` with `getSettingsListTheme()`.
 
 ```typescript
 import { getSettingsListTheme } from "@mariozechner/pi-coding-agent";
@@ -719,10 +688,9 @@ pi.registerCommand("settings", {
         Math.min(items.length + 2, 15),
         getSettingsListTheme(),
         (id, newValue) => {
-          // Handle value change
           ctx.ui.notify(`${id} = ${newValue}`, "info");
         },
-        () => done(undefined),  // On close
+        () => done(undefined),
         { enableSearch: true }, // Optional: enable fuzzy search by label
       );
       container.addChild(settingsList);
@@ -741,7 +709,7 @@ pi.registerCommand("settings", {
 
 ### Pattern 4: Persistent Status Indicator
 
-Show status in the footer that persists across renders. Good for mode indicators.
+Show status in the footer that persists across renders.
 
 ```typescript
 // Set status (shown in footer)
@@ -753,9 +721,39 @@ ctx.ui.setStatus("my-ext", undefined);
 
 **Examples:** [status-line.ts](../examples/extensions/status-line.ts), [plan-mode.ts](../examples/extensions/plan-mode.ts), [preset.ts](../examples/extensions/preset.ts)
 
+### Pattern 4b: Working Indicator Customization
+
+Customize the inline working indicator shown while pi is streaming a response.
+
+```typescript
+// Static indicator
+ctx.ui.setWorkingIndicator({ frames: [ctx.ui.theme.fg("accent", "●")] });
+
+// Custom animated indicator
+ctx.ui.setWorkingIndicator({
+  frames: [
+    ctx.ui.theme.fg("dim", "·"),
+    ctx.ui.theme.fg("muted", "•"),
+    ctx.ui.theme.fg("accent", "●"),
+    ctx.ui.theme.fg("muted", "•"),
+  ],
+  intervalMs: 120,
+});
+
+// Hide the indicator entirely
+ctx.ui.setWorkingIndicator({ frames: [] });
+
+// Restore pi's default spinner
+ctx.ui.setWorkingIndicator();
+```
+
+> [!note] This only affects the normal streaming working indicator. Compaction and retry loaders keep their built-in styling. Custom frames render verbatim — extensions must add their own colors.
+
+**Examples:** [working-indicator.ts](../examples/extensions/working-indicator.ts)
+
 ### Pattern 5: Widgets Above/Below Editor
 
-Show persistent content above or below the input editor. Good for todo lists, progress.
+Show persistent content above or below the input editor.
 
 ```typescript
 // Simple string array (above editor by default)
@@ -807,7 +805,7 @@ Token stats available via `ctx.sessionManager.getBranch()` and `ctx.model`.
 
 ### Pattern 7: Custom Editor (vim mode, etc.)
 
-Replace the main input editor with a custom implementation. Useful for modal editing (vim), different keybindings (emacs), or specialized input handling.
+Replace the main input editor for modal editing (vim), different keybindings (emacs), or specialized input handling.
 
 ```typescript
 import { CustomEditor, type ExtensionAPI } from "@mariozechner/pi-coding-agent";
@@ -872,7 +870,7 @@ export default function (pi: ExtensionAPI) {
 }
 ```
 
-**Key points:**
+Key points:
 
 - **Extend `CustomEditor`** (not base `Editor`) to get app keybindings (escape to abort, ctrl+d to exit, model switching, etc.)
 - **Call `super.handleInput(data)`** for keys you don't handle
@@ -883,15 +881,11 @@ export default function (pi: ExtensionAPI) {
 
 ## Key Rules
 
-1. **Always use theme from callback** - Don't import theme directly. Use `theme` from the `ctx.ui.custom((tui, theme, keybindings, done) => ...)` callback.
-
-2. **Always type DynamicBorder color param** - Write `(s: string) => theme.fg("accent", s)`, not `(s) => theme.fg("accent", s)`.
-
-3. **Call tui.requestRender() after state changes** - In `handleInput`, call `tui.requestRender()` after updating state.
-
-4. **Return the three-method object** - Custom components need `{ render, invalidate, handleInput }`.
-
-5. **Use existing components** - `SelectList`, `SettingsList`, `BorderedLoader` cover 90% of cases. Don't rebuild them.
+1. **Always use theme from callback** — use `theme` from `ctx.ui.custom((tui, theme, keybindings, done) => ...)`, don't import directly.
+2. **Always type DynamicBorder color param** — write `(s: string) => theme.fg("accent", s)`, not `(s) => theme.fg("accent", s)`.
+3. **Call `tui.requestRender()` after state changes** — in `handleInput`, call after updating state.
+4. **Return the three-method object** — custom components need `{ render, invalidate, handleInput }`.
+5. **Use existing components** — `SelectList`, `SettingsList`, `BorderedLoader` cover 90% of cases.
 
 ## Examples
 
@@ -899,7 +893,10 @@ export default function (pi: ExtensionAPI) {
 - **Async with cancel**: [examples/extensions/qna.ts](../examples/extensions/qna.ts) - BorderedLoader for LLM calls
 - **Settings toggles**: [examples/extensions/tools.ts](../examples/extensions/tools.ts) - SettingsList for tool enable/disable
 - **Status indicators**: [examples/extensions/plan-mode.ts](../examples/extensions/plan-mode.ts) - setStatus and setWidget
+- **Working indicator**: [examples/extensions/working-indicator.ts](../examples/extensions/working-indicator.ts) - setWorkingIndicator
 - **Custom footer**: [examples/extensions/custom-footer.ts](../examples/extensions/custom-footer.ts) - setFooter with stats
 - **Custom editor**: [examples/extensions/modal-editor.ts](../examples/extensions/modal-editor.ts) - Vim-like modal editing
 - **Snake game**: [examples/extensions/snake.ts](../examples/extensions/snake.ts) - Full game with keyboard input, game loop
 - **Custom tool rendering**: [examples/extensions/todo.ts](../examples/extensions/todo.ts) - renderCall and renderResult
+
+#tui #component-based-architecture #ime-support #terminal-ui #typescript

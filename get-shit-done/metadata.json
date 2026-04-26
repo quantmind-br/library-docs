@@ -9,6 +9,29 @@
     "prefix_format": "000",
     "ordering": "logical-reading-order"
   },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-04-26T00:00:00Z",
+    "files_optimized": 13,
+    "files_deleted": 0,
+    "deleted_files": [],
+    "word_counts": {
+      "001": { "before": 267, "after": 182, "savings": -32 },
+      "002": { "before": 3344, "after": 2671, "savings": -20 },
+      "003": { "before": 238, "after": 196, "savings": -18 },
+      "004": { "before": 13762, "after": 5500, "savings": -60 },
+      "005": { "before": 2743, "after": 2187, "savings": -20 },
+      "006": { "before": 3379, "after": 2469, "savings": -27 },
+      "007": { "before": 415, "after": 388, "savings": -6 },
+      "008": { "before": 377, "after": 328, "savings": -13 },
+      "009": { "before": 6321, "after": 2400, "savings": -62 },
+      "010": { "before": 272, "after": 242, "savings": -11 },
+      "011": { "before": 5354, "after": 3968, "savings": -26 },
+      "012": { "before": 1485, "after": 1198, "savings": -19 },
+      "013": { "before": 361, "after": 312, "savings": -14 }
+    }
+  },
   "documents": [
     {
       "file_path": "001-docs-README.md",
@@ -28,7 +51,9 @@
       ],
       "category": "reference",
       "order": 1,
-      "section": "Introduction & Overview"
+      "section": "Introduction & Overview",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "002-docs-ARCHITECTURE.md",
@@ -48,7 +73,9 @@
       ],
       "category": "concept",
       "order": 2,
-      "section": "Concepts & Fundamentals"
+      "section": "Concepts & Fundamentals",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "003-docs-gsd-sdk-query-migration-blurb.md",
@@ -68,7 +95,9 @@
       ],
       "category": "concept",
       "order": 3,
-      "section": "Concepts & Fundamentals"
+      "section": "Concepts & Fundamentals",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "004-docs-FEATURES.md",
@@ -88,7 +117,9 @@
       ],
       "category": "reference",
       "order": 4,
-      "section": "Features & Capabilities"
+      "section": "Features & Capabilities",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "005-docs-AGENTS.md",
@@ -108,7 +139,9 @@
       ],
       "category": "reference",
       "order": 5,
-      "section": "Features & Capabilities"
+      "section": "Features & Capabilities",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "006-docs-CONFIGURATION.md",
@@ -127,7 +160,9 @@
       ],
       "category": "reference",
       "order": 6,
-      "section": "Configuration & Settings"
+      "section": "Configuration & Settings",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "007-docs-context-monitor.md",
@@ -147,7 +182,9 @@
       ],
       "category": "configuration",
       "order": 7,
-      "section": "Configuration & Settings"
+      "section": "Configuration & Settings",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "008-docs-workflow-discuss-mode.md",
@@ -166,7 +203,9 @@
       ],
       "category": "configuration",
       "order": 8,
-      "section": "Configuration & Settings"
+      "section": "Configuration & Settings",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "009-docs-USER-GUIDE.md",
@@ -186,7 +225,9 @@
       ],
       "category": "guide",
       "order": 9,
-      "section": "Tutorials & How-To"
+      "section": "Tutorials & How-To",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "010-docs-manual-update.md",
@@ -205,7 +246,9 @@
       ],
       "category": "guide",
       "order": 10,
-      "section": "Tutorials & How-To"
+      "section": "Tutorials & How-To",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "011-docs-COMMANDS.md",
@@ -225,7 +268,9 @@
       ],
       "category": "reference",
       "order": 11,
-      "section": "API & Reference"
+      "section": "API & Reference",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "012-docs-CLI-TOOLS.md",
@@ -245,7 +290,9 @@
       ],
       "category": "reference",
       "order": 12,
-      "section": "API & Reference"
+      "section": "API & Reference",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     },
     {
       "file_path": "013-docs-skills-discovery-contract.md",
@@ -264,7 +311,9 @@
       ],
       "category": "reference",
       "order": 13,
-      "section": "API & Reference"
+      "section": "API & Reference",
+      "optimized": true,
+      "optimized_at": "2026-04-26T00:00:00Z"
     }
   ]
 }

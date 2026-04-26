@@ -14,29 +14,30 @@ tags:
     - workflow-orchestration
     - state-management
 category: reference
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
 ---
 
 # GSD CLI Tools Reference
 
 > Programmatic API reference for `gsd-tools.cjs`. Used by workflows and agents internally. For user-facing commands, see [Command Reference](COMMANDS.md).
 
----
-
-## Overview
-
 `gsd-tools.cjs` is a Node.js CLI utility that replaces repetitive inline bash patterns across GSD's ~50 command, workflow, and agent files. It centralizes: config parsing, model resolution, phase lookup, git commits, summary verification, state management, and template operations.
 
-**Preferred for new orchestration:** Many of the same operations are available as `gsd-sdk query <command>` (see `sdk/src/query/index.ts` and `docs/QUERY-HANDLERS.md`). Use that in workflows and examples where the handler exists; keep `node … gsd-tools.cjs` for commands not yet in the registry (for example graphify) or when you need CJS-only flags.
+> [!tip]
+> Many operations are available as `gsd-sdk query <command>` (see `sdk/src/query/index.ts` and `docs/QUERY-HANDLERS.md`). Use that in workflows where the handler exists; keep `node … gsd-tools.cjs` for commands not yet in the registry (e.g., graphify) or when you need CJS-only flags.
 
 **Location:** `get-shit-done/bin/gsd-tools.cjs`
 **Modules:** 15 domain modules in `get-shit-done/bin/lib/`
 
-**Usage:**
+## Usage
+
 ```bash
 node gsd-tools.cjs <command> [args] [--raw] [--cwd <path>]
 ```
 
 **Global Flags:**
+
 | Flag | Description |
 |------|-------------|
 | `--raw` | Machine-readable output (JSON or plain text, no formatting) |
@@ -89,8 +90,6 @@ node gsd-tools.cjs state record-session --stopped-at "..." [--resume-file path]
 
 ### State Snapshot
 
-Structured parse of the full STATE.md:
-
 ```bash
 node gsd-tools.cjs state-snapshot
 ```
@@ -101,7 +100,7 @@ Returns JSON with: current position, phase, plan, status, decisions, blockers, m
 
 ## Phase Commands
 
-Manage phases — directories, numbering, and roadmap sync.
+Manage phases — directories, numbering, roadmap sync.
 
 ```bash
 # Find phase directory by number
@@ -182,7 +181,7 @@ Agent names: `gsd-planner`, `gsd-executor`, `gsd-phase-researcher`, `gsd-project
 
 ## Verification Commands
 
-Validate plans, phases, references, and commits.
+Validate plans, phases, references, commits.
 
 ```bash
 # Verify SUMMARY.md file
@@ -302,12 +301,12 @@ node gsd-tools.cjs init execute-phase <phase> --ws <name>
 node gsd-tools.cjs init plan-phase <phase> --ws <name>
 ```
 
-**Large payload handling:** When output exceeds ~50KB, the CLI writes to a temp file and returns `@file:/tmp/gsd-init-XXXXX.json`. Workflows check for the `@file:` prefix and read from disk:
-
-```bash
-INIT=$(node gsd-tools.cjs init execute-phase "1")
-if [[ "$INIT" == @file:* ]]; then INIT=$(cat "${INIT#@file:}"); fi
-```
+> [!warning]
+> When output exceeds ~50KB, the CLI writes to a temp file and returns `@file:/tmp/gsd-init-XXXXX.json`. Workflows check for the `@file:` prefix and read from disk:
+> ```bash
+> INIT=$(node gsd-tools.cjs init execute-phase "1")
+> if [[ "$INIT" == @file:* ]]; then INIT=$(cat "${INIT#@file:}"); fi
+> ```
 
 ---
 
@@ -336,7 +335,7 @@ node gsd-tools.cjs skill-manifest
 node gsd-tools.cjs skill-manifest --output <path>
 ```
 
-Returns JSON mapping of all available GSD skills with their metadata (name, description, file path, argument hints). Used by the installer and session-start hooks to avoid repeated filesystem scans.
+Returns JSON mapping of all available GSD skills with metadata (name, description, file path, argument hints). Used by installer and session-start hooks to avoid repeated filesystem scans.
 
 ---
 
@@ -376,13 +375,12 @@ node gsd-tools.cjs audit-uat
 
 # Git commit with config checks
 node gsd-tools.cjs commit <message> [--files f1 f2] [--amend] [--no-verify]
-```
-
-> **`--no-verify`**: Skips pre-commit hooks. Used by parallel executor agents during wave-based execution to avoid build lock contention (e.g., cargo lock fights in Rust projects). The orchestrator runs hooks once after each wave completes. Do not use `--no-verify` during sequential execution — let hooks run normally.
 
 # Web search (requires Brave API key)
 node gsd-tools.cjs websearch <query> [--limit N] [--freshness day|week|month]
 ```
+
+> **`--no-verify`**: Skips pre-commit hooks. Used by parallel executor agents during wave-based execution to avoid build lock contention (e.g., cargo lock fights in Rust projects). The orchestrator runs hooks once after each wave completes. Do not use `--no-verify` during sequential execution — let hooks run normally.
 
 ---
 
@@ -405,3 +403,5 @@ node gsd-tools.cjs websearch <query> [--limit N] [--freshness day|week|month]
 | UAT | `lib/uat.cjs` | Cross-phase UAT/verification audit |
 | Profile Output | `lib/profile-output.cjs` | Developer profile formatting |
 | Profile Pipeline | `lib/profile-pipeline.cjs` | Session analysis pipeline |
+
+#cli-tool #node-js #project-management #workflow-orchestration #state-management

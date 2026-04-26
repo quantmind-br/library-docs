@@ -14,37 +14,19 @@ tags:
     - workflow-automation
     - system-design
 category: concept
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
 ---
 
 # GSD Architecture
 
-> System architecture for contributors and advanced users. For user-facing documentation, see [Feature Reference](FEATURES.md) or [User Guide](USER-GUIDE.md).
-
----
-
-## Table of Contents
-
-- [System Overview](#system-overview)
-- [Design Principles](#design-principles)
-- [Component Architecture](#component-architecture)
-- [Agent Model](#agent-model)
-- [Data Flow](#data-flow)
-- [File System Layout](#file-system-layout)
-- [Installer Architecture](#installer-architecture)
-- [Hook System](#hook-system)
-- [CLI Tools Layer](#cli-tools-layer)
-- [Runtime Abstraction](#runtime-abstraction)
+> System architecture for contributors and advanced users. For user-facing documentation, see [[002-docs-FEATURES|Feature Reference]] or [[002-docs-USER-GUIDE|User Guide]].
 
 ---
 
 ## System Overview
 
-GSD is a **meta-prompting framework** that sits between the user and AI coding agents (Claude Code, Gemini CLI, OpenCode, Kilo, Codex, Copilot, Antigravity, Trae, Cline, Augment Code). It provides:
-
-1. **Context engineering** — Structured artifacts that give the AI everything it needs per task
-2. **Multi-agent orchestration** — Thin orchestrators that spawn specialized agents with fresh context windows
-3. **Spec-driven development** — Requirements → research → plans → execution → verification pipeline
-4. **State management** — Persistent project memory across sessions and context resets
+GSD is a **meta-prompting framework** that sits between the user and AI coding agents (Claude Code, Gemini CLI, OpenCode, Kilo, Codex, Copilot, Antigravity, Trae, Cline, Augment Code). It provides context engineering, multi-agent orchestration, spec-driven development, and persistent state management.
 
 ```
 ┌──────────────────────────────────────────────────────┐
@@ -87,33 +69,33 @@ GSD is a **meta-prompting framework** that sits between the user and AI coding a
 
 ## Design Principles
 
-### 1. Fresh Context Per Agent
+### Fresh Context Per Agent
 
-Every agent spawned by an orchestrator gets a clean context window (up to 200K tokens). This eliminates context rot — the quality degradation that happens as an AI fills its context window with accumulated conversation.
+Every agent spawned by an orchestrator gets a clean context window (up to 200K tokens), eliminating context rot — quality degradation from accumulated conversation.
 
-### 2. Thin Orchestrators
+### Thin Orchestrators
 
 Workflow files (`get-shit-done/workflows/*.md`) never do heavy lifting. They:
-- Load context via `gsd-sdk query init.<workflow>` (or legacy `gsd-tools.cjs init <workflow>`)
+- Load context via `gsd-sdk query init.<workflow>`
 - Spawn specialized agents with focused prompts
 - Collect results and route to the next step
 - Update state between steps
 
-### 3. File-Based State
+### File-Based State
 
-All state lives in `.planning/` as human-readable Markdown and JSON. No database, no server, no external dependencies. This means:
+All state lives in `.planning/` as human-readable Markdown and JSON. No database, no server, no external dependencies:
 - State survives context resets (`/clear`)
 - State is inspectable by both humans and agents
 - State can be committed to git for team visibility
 
-### 4. Absent = Enabled
+### Absent = Enabled
 
-Workflow feature flags follow the **absent = enabled** pattern. If a key is missing from `config.json`, it defaults to `true`. Users explicitly disable features; they don't need to enable defaults.
+Workflow feature flags follow the **absent = enabled** pattern. Missing keys in `config.json` default to `true`. Users explicitly disable features.
 
-### 5. Defense in Depth
+### Defense in Depth
 
 Multiple layers prevent common failure modes:
-- Plans are verified before execution (plan-checker agent)
+- Plans verified before execution (plan-checker agent)
 - Execution produces atomic commits per task
 - Post-execution verification checks against phase goals
 - UAT provides human verification as final gate
@@ -124,141 +106,134 @@ Multiple layers prevent common failure modes:
 
 ### Commands (`commands/gsd/*.md`)
 
-User-facing entry points. Each file contains YAML frontmatter (name, description, allowed-tools) and a prompt body that bootstraps the workflow. Commands are installed as:
-- **Claude Code:** Custom slash commands (`/gsd-command-name`)
-- **OpenCode / Kilo:** Slash commands (`/gsd-command-name`)
-- **Codex:** Skills (`$gsd-command-name`)
-- **Copilot:** Slash commands (`/gsd-command-name`)
-- **Antigravity:** Skills
+User-facing entry points with YAML frontmatter (name, description, allowed-tools) and prompt body. **Total commands:** 74.
 
-**Total commands:** 74
+| Runtime | Format |
+|---------|--------|
+| Claude Code | `/gsd-command-name` |
+| OpenCode / Kilo | `/gsd-command-name` |
+| Codex | `$gsd-command-name` |
+| Copilot | `/gsd-command-name` |
+| Antigravity | Skills |
 
 ### Workflows (`get-shit-done/workflows/*.md`)
 
-Orchestration logic that commands reference. Contains the step-by-step process including:
-- Context loading via `gsd-sdk query` init handlers (or legacy `gsd-tools.cjs init`)
+Orchestration logic containing:
+- Context loading via `gsd-sdk query` init handlers
 - Agent spawn instructions with model resolution
 - Gate/checkpoint definitions
 - State update patterns
 - Error handling and recovery
 
-**Total workflows:** 71
+**Total workflows:** 71.
 
 ### Agents (`agents/*.md`)
 
-Specialized agent definitions with frontmatter specifying:
+Specialized agent definitions with frontmatter:
 - `name` — Agent identifier
 - `description` — Role and purpose
-- `tools` — Allowed tool access (Read, Write, Edit, Bash, Grep, Glob, WebSearch, etc.)
-- `color` — Terminal output color for visual distinction
+- `tools` — Allowed tool access
+- `color` — Terminal output color
 
-**Total agents:** 31
+**Total agents:** 31.
 
 ### References (`get-shit-done/references/*.md`)
 
-Shared knowledge documents that workflows and agents `@-reference` (35 total):
+Shared knowledge documents that workflows and agents `@-reference` (35 total).
 
 **Core references:**
-- `checkpoints.md` — Checkpoint type definitions and interaction patterns
-- `gates.md` — 4 canonical gate types (Confirm, Quality, Safety, Transition) wired into plan-checker and verifier
+- `checkpoints.md` — Checkpoint type definitions
+- `gates.md` — 4 canonical gate types (Confirm, Quality, Safety, Transition)
 - `model-profiles.md` — Per-agent model tier assignments
-- `model-profile-resolution.md` — Model resolution algorithm documentation
-- `verification-patterns.md` — How to verify different artifact types
-- `verification-overrides.md` — Per-artifact verification override rules
-- `planning-config.md` — Full config schema and behavior
-- `git-integration.md` — Git commit, branching, and history patterns
+- `model-profile-resolution.md` — Model resolution algorithm
+- `verification-patterns.md` — Artifact verification methods
+- `verification-overrides.md` — Per-artifact verification overrides
+- `planning-config.md` — Config schema and behavior
+- `git-integration.md` — Git commit, branching, history patterns
 - `git-planning-commit.md` — Planning directory commit conventions
-- `questioning.md` — Dream extraction philosophy for project initialization
-- `tdd.md` — Test-driven development integration patterns
-- `ui-brand.md` — Visual output formatting patterns
-- `common-bug-patterns.md` — Common bug patterns for code review and verification
+- `questioning.md` — Dream extraction philosophy
+- `tdd.md` — TDD integration patterns
+- `ui-brand.md` — Visual output formatting
+- `common-bug-patterns.md` — Bug patterns for code review
 
 **Workflow references:**
-- `agent-contracts.md` — Formal interface between orchestrators and agents
-- `context-budget.md` — Context window budget allocation rules
-- `continuation-format.md` — Session continuation/resume format
-- `domain-probes.md` — Domain-specific probing questions for discuss-phase
-- `gate-prompts.md` — Gate/checkpoint prompt templates
-- `revision-loop.md` — Plan revision iteration patterns
-- `universal-anti-patterns.md` — Common anti-patterns to detect and avoid
-- `artifact-types.md` — Planning artifact type definitions
-- `phase-argument-parsing.md` — Phase argument parsing conventions
-- `decimal-phase-calculation.md` — Decimal sub-phase numbering rules
-- `workstream-flag.md` — Workstream active pointer conventions
-- `user-profiling.md` — User behavioral profiling methodology
-- `thinking-partner.md` — Conditional thinking partner activation at decision points
+- `agent-contracts.md` — Orchestrator/agent interface
+- `context-budget.md` — Context window allocation
+- `continuation-format.md` — Session continuation/resume
+- `domain-probes.md` — Domain-specific probing questions
+- `gate-prompts.md` — Gate/checkpoint templates
+- `revision-loop.md` — Plan revision iteration
+- `universal-anti-patterns.md` — Anti-patterns to detect
+- `artifact-types.md` — Planning artifact types
+- `phase-argument-parsing.md` — Phase argument parsing
+- `decimal-phase-calculation.md` — Decimal sub-phase numbering
+- `workstream-flag.md` — Workstream active pointer
+- `user-profiling.md` — User behavioral profiling
+- `thinking-partner.md` — Conditional thinking partner
 
 **Thinking model references:**
-
-References for integrating thinking-class models (o3, o4-mini, Gemini 2.5 Pro) into GSD workflows:
-
-- `thinking-models-debug.md` — Thinking model patterns for debugging workflows
-- `thinking-models-execution.md` — Thinking model patterns for execution agents
-- `thinking-models-planning.md` — Thinking model patterns for planning agents
-- `thinking-models-research.md` — Thinking model patterns for research agents
-- `thinking-models-verification.md` — Thinking model patterns for verification agents
+- `thinking-models-debug.md` — Debugging workflows
+- `thinking-models-execution.md` — Execution agents
+- `thinking-models-planning.md` — Planning agents
+- `thinking-models-research.md` — Research agents
+- `thinking-models-verification.md` — Verification agents
 
 **Modular planner decomposition:**
-
-The planner agent (`agents/gsd-planner.md`) was decomposed from a single monolithic file into a core agent plus reference modules to stay under the 50K character limit imposed by some runtimes:
-
-- `planner-gap-closure.md` — Gap closure mode behavior (reads VERIFICATION.md, targeted replanning)
-- `planner-reviews.md` — Cross-AI review integration (reads REVIEWS.md from `/gsd-review`)
-- `planner-revision.md` — Plan revision patterns for iterative refinement
+- `planner-gap-closure.md` — Gap closure mode
+- `planner-reviews.md` — Cross-AI review integration
+- `planner-revision.md` — Plan revision patterns
 
 ### Templates (`get-shit-done/templates/`)
 
-Markdown templates for all planning artifacts. Used by `gsd-tools.cjs template fill` and `scaffold` commands to create pre-structured files:
-- `project.md`, `requirements.md`, `roadmap.md`, `state.md` — Core project files
-- `phase-prompt.md` — Phase execution prompt template
-- `summary.md` (+ `summary-minimal.md`, `summary-standard.md`, `summary-complex.md`) — Granularity-aware summary templates
-- `DEBUG.md` — Debug session tracking template
-- `UI-SPEC.md`, `UAT.md`, `VALIDATION.md` — Specialized verification templates
-- `discussion-log.md` — Discussion audit trail template
-- `codebase/` — Brownfield mapping templates (stack, architecture, conventions, concerns, structure, testing, integrations)
-- `research-project/` — Research output templates (SUMMARY, STACK, FEATURES, ARCHITECTURE, PITFALLS)
+Markdown templates for all planning artifacts:
+- `project.md`, `requirements.md`, `roadmap.md`, `state.md` — Core files
+- `phase-prompt.md` — Phase execution template
+- `summary.md` (+ variants) — Summary templates
+- `DEBUG.md` — Debug session template
+- `UI-SPEC.md`, `UAT.md`, `VALIDATION.md` — Verification templates
+- `discussion-log.md` — Discussion audit trail
+- `codebase/` — Brownfield mapping templates
+- `research-project/` — Research output templates
 
 ### Hooks (`hooks/`)
 
-Runtime hooks that integrate with the host AI agent:
-
 | Hook | Event | Purpose |
 |------|-------|---------|
-| `gsd-statusline.js` | `statusLine` | Displays model, task, directory, and context usage bar |
-| `gsd-context-monitor.js` | `PostToolUse` / `AfterTool` | Injects agent-facing context warnings at 35%/25% remaining |
+| `gsd-statusline.js` | `statusLine` | Displays model, task, directory, context usage bar |
+| `gsd-context-monitor.js` | `PostToolUse` / `AfterTool` | Injects context warnings at 35%/25% remaining |
 | `gsd-check-update.js` | `SessionStart` | Background check for new GSD versions |
-| `gsd-prompt-guard.js` | `PreToolUse` | Scans `.planning/` writes for prompt injection patterns (advisory) |
-| `gsd-workflow-guard.js` | `PreToolUse` | Detects file edits outside GSD workflow context (advisory, opt-in via `hooks.workflow_guard`) |
-| `gsd-read-guard.js` | `PreToolUse` | Advisory guard preventing Edit/Write on files not yet read in the session |
-| `gsd-session-state.sh` | `PostToolUse` | Session state tracking for shell-based runtimes |
-| `gsd-validate-commit.sh` | `PostToolUse` | Commit validation for conventional commit enforcement |
-| `gsd-phase-boundary.sh` | `PostToolUse` | Phase boundary detection for workflow transitions |
+| `gsd-prompt-guard.js` | `PreToolUse` | Scans `.planning/` writes for prompt injection |
+| `gsd-workflow-guard.js` | `PreToolUse` | Detects edits outside GSD workflow context |
+| `gsd-read-guard.js` | `PreToolUse` | Prevents Edit/Write on unread files |
+| `gsd-session-state.sh` | `PostToolUse` | Session state tracking |
+| `gsd-validate-commit.sh` | `PostToolUse` | Commit validation |
+| `gsd-phase-boundary.sh` | `PostToolUse` | Phase boundary detection |
 
 ### CLI Tools (`get-shit-done/bin/`)
 
-Node.js CLI utility (`gsd-tools.cjs`) with 19 domain modules:
+Node.js CLI (`gsd-tools.cjs`) with 19 domain modules:
 
 | Module | Responsibility |
 |--------|---------------|
-| `core.cjs` | Error handling, output formatting, shared utilities |
-| `state.cjs` | STATE.md parsing, updating, progression, metrics |
-| `phase.cjs` | Phase directory operations, decimal numbering, plan indexing |
-| `roadmap.cjs` | ROADMAP.md parsing, phase extraction, plan progress |
-| `config.cjs` | config.json read/write, section initialization |
-| `verify.cjs` | Plan structure, phase completeness, reference, commit validation |
-| `template.cjs` | Template selection and filling with variable substitution |
-| `frontmatter.cjs` | YAML frontmatter CRUD operations |
-| `init.cjs` | Compound context loading for each workflow type |
-| `milestone.cjs` | Milestone archival, requirements marking |
-| `commands.cjs` | Misc commands (slug, timestamp, todos, scaffolding, stats) |
-| `model-profiles.cjs` | Model profile resolution table |
-| `security.cjs` | Path traversal prevention, prompt injection detection, safe JSON parsing, shell argument validation |
-| `uat.cjs` | UAT file parsing, verification debt tracking, audit-uat support |
-| `docs.cjs` | Docs-update workflow init, Markdown scanning, monorepo detection |
-| `workstream.cjs` | Workstream CRUD, migration, session-scoped active pointer |
-| `schema-detect.cjs` | Schema-drift detection for ORM patterns (Prisma, Drizzle, etc.) |
-| `profile-pipeline.cjs` | User behavioral profiling data pipeline, session file scanning |
-| `profile-output.cjs` | Profile rendering, USER-PROFILE.md and dev-preferences.md generation |
+| `core.cjs` | Error handling, output formatting |
+| `state.cjs` | STATE.md parsing, updating, progression |
+| `phase.cjs` | Phase directory operations, decimal numbering |
+| `roadmap.cjs` | ROADMAP.md parsing, phase extraction |
+| `config.cjs` | config.json read/write |
+| `verify.cjs` | Plan structure, phase completeness |
+| `template.cjs` | Template selection and filling |
+| `frontmatter.cjs` | YAML frontmatter CRUD |
+| `init.cjs` | Compound context loading |
+| `milestone.cjs` | Milestone archival |
+| `commands.cjs` | Misc commands |
+| `model-profiles.cjs` | Model profile resolution |
+| `security.cjs` | Path traversal prevention, prompt injection detection |
+| `uat.cjs` | UAT file parsing, verification debt |
+| `docs.cjs` | Docs-update workflow |
+| `workstream.cjs` | Workstream CRUD |
+| `schema-detect.cjs` | Schema-drift detection |
+| `profile-pipeline.cjs` | User profiling data pipeline |
+| `profile-output.cjs` | Profile rendering |
 
 ---
 
@@ -270,7 +245,7 @@ Node.js CLI utility (`gsd-tools.cjs`) with 19 domain modules:
 Orchestrator (workflow .md)
     │
     ├── Load context: gsd-tools.cjs init <workflow> <phase>
-    │   Returns JSON with: project info, config, state, phase details
+    │   Returns JSON: project info, config, state, phase details
     │
     ├── Resolve model: gsd-tools.cjs resolve-model <agent-name>
     │   Returns: opus | sonnet | haiku | inherit
@@ -290,22 +265,22 @@ Orchestrator (workflow .md)
 
 | Category | Agents | Parallelism |
 |----------|--------|-------------|
-| **Researchers** | gsd-project-researcher, gsd-phase-researcher, gsd-ui-researcher, gsd-advisor-researcher | 4 parallel (stack, features, architecture, pitfalls); advisor spawns during discuss-phase |
-| **Synthesizers** | gsd-research-synthesizer | Sequential (after researchers complete) |
+| **Researchers** | gsd-project-researcher, gsd-phase-researcher, gsd-ui-researcher, gsd-advisor-researcher | 4 parallel |
+| **Synthesizers** | gsd-research-synthesizer | Sequential |
 | **Planners** | gsd-planner, gsd-roadmapper | Sequential |
-| **Checkers** | gsd-plan-checker, gsd-integration-checker, gsd-ui-checker, gsd-nyquist-auditor | Sequential (verification loop, max 3 iterations) |
-| **Executors** | gsd-executor | Parallel within waves, sequential across waves |
-| **Verifiers** | gsd-verifier | Sequential (after all executors complete) |
-| **Mappers** | gsd-codebase-mapper | 4 parallel (tech, arch, quality, concerns) |
-| **Debuggers** | gsd-debugger | Sequential (interactive) |
+| **Checkers** | gsd-plan-checker, gsd-integration-checker, gsd-ui-checker, gsd-nyquist-auditor | Sequential |
+| **Executors** | gsd-executor | Parallel within waves |
+| **Verifiers** | gsd-verifier | Sequential |
+| **Mappers** | gsd-codebase-mapper | 4 parallel |
+| **Debuggers** | gsd-debugger | Sequential |
 | **Auditors** | gsd-ui-auditor, gsd-security-auditor | Sequential |
-| **Doc Writers** | gsd-doc-writer, gsd-doc-verifier | Sequential (writer then verifier) |
+| **Doc Writers** | gsd-doc-writer, gsd-doc-verifier | Sequential |
 | **Profilers** | gsd-user-profiler | Sequential |
-| **Analyzers** | gsd-assumptions-analyzer | Sequential (during discuss-phase) |
+| **Analyzers** | gsd-assumptions-analyzer | Sequential |
 
 ### Wave Execution Model
 
-During `execute-phase`, plans are grouped into dependency waves:
+Plans are grouped into dependency waves during `execute-phase`:
 
 ```
 Wave Analysis:
@@ -317,27 +292,25 @@ Wave Analysis:
 ```
 
 Each executor gets:
-- Fresh 200K context window (or up to 1M for models that support it)
+- Fresh 200K context window (or up to 1M for supported models)
 - The specific PLAN.md to execute
 - Project context (PROJECT.md, STATE.md)
 - Phase context (CONTEXT.md, RESEARCH.md if available)
 
 ### Adaptive Context Enrichment (1M Models)
 
-When the context window is 500K+ tokens (1M-class models like Opus 4.6, Sonnet 4.6), subagent prompts are automatically enriched with additional context that would not fit in standard 200K windows:
+When context window is 500K+ tokens, subagent prompts are enriched with additional context:
+- **Executor agents** receive prior wave SUMMARY.md files and phase CONTEXT.md/RESEARCH.md
+- **Verifier agents** receive all PLAN.md, SUMMARY.md, CONTEXT.md files plus REQUIREMENTS.md
 
-- **Executor agents** receive prior wave SUMMARY.md files and the phase CONTEXT.md/RESEARCH.md, enabling cross-plan awareness within a phase
-- **Verifier agents** receive all PLAN.md, SUMMARY.md, CONTEXT.md files plus REQUIREMENTS.md, enabling history-aware verification
-
-The orchestrator reads `context_window` from config (`gsd-tools.cjs config-get context_window`) and conditionally includes richer context when the value is >= 500,000. For standard 200K windows, prompts use truncated versions with cache-friendly ordering to maximize context efficiency.
+The orchestrator reads `context_window` from config and conditionally includes richer context when >= 500,000.
 
 #### Parallel Commit Safety
 
-When multiple executors run within the same wave, two mechanisms prevent conflicts:
+Two mechanisms prevent conflicts in parallel execution:
 
-1. **`--no-verify` commits** — Parallel agents skip pre-commit hooks (which can cause build lock contention, e.g., cargo lock fights in Rust projects). The orchestrator runs `git hook run pre-commit` once after each wave completes.
-
-2. **STATE.md file locking** — All `writeStateMd()` calls use lockfile-based mutual exclusion (`STATE.md.lock` with `O_EXCL` atomic creation). This prevents the read-modify-write race condition where two agents read STATE.md, modify different fields, and the last writer overwrites the other's changes. Includes stale lock detection (10s timeout) and spin-wait with jitter.
+1. **`--no-verify` commits** — Parallel agents skip pre-commit hooks. Orchestrator runs `git hook run pre-commit` once after each wave.
+2. **STATE.md file locking** — All `writeStateMd()` calls use lockfile-based mutual exclusion (`STATE.md.lock` with `O_EXCL`). Includes stale lock detection (10s timeout) and spin-wait with jitter.
 
 ---
 
@@ -390,7 +363,7 @@ plan-phase
 state planned-phase → STATE.md (Planned/Ready to execute)
     │
     ▼
-execute-phase (context reduction: truncated prompts, cache-friendly ordering)
+execute-phase
     ├── Wave analysis (dependency grouping)
     ├── Executor per plan → code + atomic commits
     ├── SUMMARY.md per plan
@@ -405,15 +378,13 @@ ui-review → UI-REVIEW.md (visual audit, optional)
 
 ### Context Propagation
 
-Each workflow stage produces artifacts that feed into subsequent stages:
-
 ```
 PROJECT.md ────────────────────────────────────────────► All agents
 REQUIREMENTS.md ───────────────────────────────────────► Planner, Verifier, Auditor
 ROADMAP.md ────────────────────────────────────────────► Orchestrators
 STATE.md ──────────────────────────────────────────────► All agents (decisions, blockers)
 CONTEXT.md (per phase) ────────────────────────────────► Researcher, Planner, Executor
-RESEARCH.md (per phase) ───────────────────────────────► Planner, Plan Checker
+RESEARCH.md (per phase) ─────────────────────────────► Planner, Plan Checker
 PLAN.md (per plan) ────────────────────────────────────► Executor, Plan Checker
 SUMMARY.md (per plan) ─────────────────────────────────► Verifier, State tracking
 UI-SPEC.md (per phase) ────────────────────────────────► Executor, UI Auditor
@@ -443,11 +414,11 @@ UI-SPEC.md (per phase) ───────────────────
 └── VERSION                         # Installed version number
 ```
 
-Equivalent paths for other runtimes:
+Other runtime paths:
 - **OpenCode:** `~/.config/opencode/` or `~/.opencode/`
 - **Kilo:** `~/.config/kilo/` or `~/.kilo/`
 - **Gemini CLI:** `~/.gemini/`
-- **Codex:** `~/.codex/` (uses skills instead of commands)
+- **Codex:** `~/.codex/`
 - **Copilot:** `~/.github/`
 - **Antigravity:** `~/.gemini/antigravity/` (global) or `./.agent/` (local)
 
@@ -455,10 +426,10 @@ Equivalent paths for other runtimes:
 
 ```
 .planning/
-├── PROJECT.md              # Project vision, constraints, decisions, evolution rules
+├── PROJECT.md              # Project vision, constraints, decisions
 ├── REQUIREMENTS.md         # Scoped requirements (v1/v2/out-of-scope)
 ├── ROADMAP.md              # Phase breakdown with status tracking
-├── STATE.md                # Living memory: position, decisions, blockers, metrics
+├── STATE.md                # Living memory: position, decisions, blockers
 ├── config.json             # Workflow configuration
 ├── MILESTONES.md           # Completed milestone archive
 ├── research/               # Domain research from /gsd-new-project
@@ -467,7 +438,7 @@ Equivalent paths for other runtimes:
 │   ├── FEATURES.md
 │   ├── ARCHITECTURE.md
 │   └── PITFALLS.md
-├── codebase/               # Brownfield mapping (from /gsd-map-codebase)
+├── codebase/               # Brownfield mapping
 │   ├── STACK.md
 │   ├── ARCHITECTURE.md
 │   ├── CONVENTIONS.md
@@ -477,14 +448,14 @@ Equivalent paths for other runtimes:
 │   └── INTEGRATIONS.md
 ├── phases/
 │   └── XX-phase-name/
-│       ├── XX-CONTEXT.md       # User preferences (from discuss-phase)
-│       ├── XX-RESEARCH.md      # Ecosystem research (from plan-phase)
+│       ├── XX-CONTEXT.md       # User preferences
+│       ├── XX-RESEARCH.md      # Ecosystem research
 │       ├── XX-YY-PLAN.md       # Execution plans
 │       ├── XX-YY-SUMMARY.md    # Execution outcomes
-│       ├── XX-VERIFICATION.md  # Post-execution verification
-│       ├── XX-VALIDATION.md    # Nyquist test coverage mapping
-│       ├── XX-UI-SPEC.md       # UI design contract (from ui-phase)
-│       ├── XX-UI-REVIEW.md     # Visual audit scores (from ui-review)
+│       ├── XX-VERIFICATION.md # Post-execution verification
+│       ├── XX-VALIDATION.md    # Nyquist test coverage
+│       ├── XX-UI-SPEC.md       # UI design contract
+│       ├── XX-UI-REVIEW.md     # Visual audit scores
 │       └── XX-UAT.md           # User acceptance test results
 ├── quick/                  # Quick task tracking
 │   └── YYMMDD-xxx-slug/
@@ -493,14 +464,14 @@ Equivalent paths for other runtimes:
 ├── todos/
 │   ├── pending/            # Captured ideas
 │   └── done/               # Completed todos
-├── threads/               # Persistent context threads (from /gsd-thread)
-├── seeds/                 # Forward-looking ideas (from /gsd-plant-seed)
+├── threads/               # Persistent context threads
+├── seeds/                 # Forward-looking ideas
 ├── debug/                  # Active debug sessions
 │   ├── *.md                # Active sessions
 │   ├── resolved/           # Archived sessions
 │   └── knowledge-base.md   # Persistent debug learnings
-├── ui-reviews/             # Screenshots from /gsd-ui-review (gitignored)
-└── continue-here.md        # Context handoff (from pause-work)
+├── ui-reviews/             # Screenshots (gitignored)
+└── continue-here.md        # Context handoff
 ```
 
 ---
@@ -514,26 +485,26 @@ The installer (`bin/install.js`, ~3,000 lines) handles:
 3. **File deployment** — Copies commands, workflows, references, templates, agents, hooks
 4. **Runtime adaptation** — Transforms file content per runtime:
    - Claude Code: Uses as-is
-   - OpenCode: Converts commands/agents to OpenCode-compatible flat command + subagent format
-   - Kilo: Reuses the OpenCode conversion pipeline with Kilo config paths
-   - Codex: Generates TOML config + skills from commands
+   - OpenCode: Converts to flat command + subagent format
+   - Kilo: Reuses OpenCode conversion pipeline
+   - Codex: Generates TOML config + skills
    - Copilot: Maps tool names (Read→read, Bash→execute, etc.)
    - Gemini: Adjusts hook event names (`AfterTool` instead of `PostToolUse`)
    - Antigravity: Skills-first with Google model equivalents
-   - Trae: Skills-first install to `~/.trae` / `./.trae` with no `settings.json` or hook integration
-   - Cline: Writes `.clinerules` for rule-based integration
-   - Augment Code: Skills-first with full skill conversion and config management
+   - Trae: Skills-first install to `~/.trae` / `./.trae`
+   - Cline: Writes `.clinerules`
+   - Augment Code: Skills-first with full skill conversion
 5. **Path normalization** — Replaces `~/.claude/` paths with runtime-specific paths
 6. **Settings integration** — Registers hooks in runtime's `settings.json`
-7. **Patch backup** — Since v1.17, backs up locally modified files to `gsd-local-patches/` for `/gsd-reapply-patches`
+7. **Patch backup** — Since v1.17, backs up locally modified files to `gsd-local-patches/`
 8. **Manifest tracking** — Writes `gsd-file-manifest.json` for clean uninstall
-9. **Uninstall mode** — `--uninstall` removes all GSD files, hooks, and settings
+9. **Uninstall mode** — `--uninstall` removes all GSD files, hooks, settings
 
 ### Platform Handling
 
-- **Windows:** `windowsHide` on child processes, EPERM/EACCES protection on protected directories, path separator normalization
-- **WSL:** Detects Windows Node.js running on WSL and warns about path mismatches
-- **Docker/CI:** Supports `CLAUDE_CONFIG_DIR` env var for custom config directory locations
+- **Windows:** `windowsHide` on child processes, EPERM/EACCES protection, path separator normalization
+- **WSL:** Detects Windows Node.js and warns about path mismatches
+- **Docker/CI:** Supports `CLAUDE_CONFIG_DIR` env var
 
 ---
 
@@ -546,15 +517,15 @@ Runtime Engine (Claude Code / Gemini CLI)
     │
     ├── statusLine event ──► gsd-statusline.js
     │   Reads: stdin (session JSON)
-    │   Writes: stdout (formatted status), /tmp/claude-ctx-{session}.json (bridge)
+    │   Writes: stdout (formatted status), /tmp/claude-ctx-{session}.json
     │
     ├── PostToolUse/AfterTool event ──► gsd-context-monitor.js
-    │   Reads: stdin (tool event JSON), /tmp/claude-ctx-{session}.json (bridge)
-    │   Writes: stdout (hookSpecificOutput with additionalContext warning)
+    │   Reads: stdin (tool event JSON), /tmp/claude-ctx-{session}.json
+    │   Writes: stdout (additionalContext warning)
     │
     └── SessionStart event ──► gsd-check-update.js
         Reads: VERSION file
-        Writes: ~/.claude/cache/gsd-update-check.json (spawns background process)
+        Writes: ~/.claude/cache/gsd-update-check.json
 ```
 
 ### Context Monitor Thresholds
@@ -565,29 +536,27 @@ Runtime Engine (Claude Code / Gemini CLI)
 | ≤ 35% | WARNING | "Avoid starting new complex work" |
 | ≤ 25% | CRITICAL | "Context nearly exhausted, inform user" |
 
-Debounce: 5 tool uses between repeated warnings. Severity escalation (WARNING→CRITICAL) bypasses debounce.
+Debounce: 5 tool uses between repeated warnings. Severity escalation bypasses debounce.
 
 ### Safety Properties
 
 - All hooks wrap in try/catch, exit silently on error
-- stdin timeout guard (3s) prevents hanging on pipe issues
+- stdin timeout guard (3s) prevents hanging
 - Stale metrics (>60s old) are ignored
-- Missing bridge files handled gracefully (subagents, fresh sessions)
-- Context monitor is advisory — never issues imperative commands that override user preferences
+- Missing bridge files handled gracefully
+- Context monitor is advisory only
 
 ### Security Hooks (v1.27)
 
 **Prompt Guard** (`gsd-prompt-guard.js`):
 - Triggers on Write/Edit to `.planning/` files
-- Scans content for prompt injection patterns (role override, instruction bypass, system tag injection)
+- Scans content for prompt injection patterns
 - Advisory-only — logs detection, does not block
-- Patterns are inlined (subset of `security.cjs`) for hook independence
 
 **Workflow Guard** (`gsd-workflow-guard.js`):
 - Triggers on Write/Edit to non-`.planning/` files
-- Detects edits outside GSD workflow context (no active `/gsd-` command or Task subagent)
-- Advises using `/gsd-quick` or `/gsd-fast` for state-tracked changes
-- Opt-in via `hooks.workflow_guard: true` (default: false)
+- Detects edits outside GSD workflow context
+- Opt-in via `hooks.workflow_guard: true`
 
 ---
 
@@ -610,10 +579,12 @@ GSD supports multiple AI coding runtimes through a unified command/workflow arch
 
 ### Abstraction Points
 
-1. **Tool name mapping** — Each runtime has its own tool names (e.g., Claude's `Bash` → Copilot's `execute`)
+1. **Tool name mapping** — Each runtime has its own tool names
 2. **Hook event names** — Claude uses `PostToolUse`, Gemini uses `AfterTool`
 3. **Agent frontmatter** — Each runtime has its own agent definition format
 4. **Path conventions** — Each runtime stores config in different directories
 5. **Model references** — `inherit` profile lets GSD defer to runtime's model selection
 
 The installer handles all translation at install time. Workflows and agents are written in Claude Code's native format and transformed during deployment.
+
+#architecture #meta-prompting #multi-agent-system #context-management #workflow-automation #system-design

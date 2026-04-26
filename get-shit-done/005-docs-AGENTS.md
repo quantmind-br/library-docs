@@ -14,19 +14,17 @@ tags:
     - agentic-design
     - development-tools
 category: reference
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
 ---
 
 # GSD Agent Reference
 
-> All 21 specialized agents — roles, tools, spawn patterns, and relationships. For architecture context, see [Architecture](ARCHITECTURE.md).
-
----
-
-## Overview
+> All 21 specialized agents — roles, tools, spawn patterns, relationships. For architecture context, see [Architecture](ARCHITECTURE.md).
 
 GSD uses a multi-agent architecture where thin orchestrators (workflow files) spawn specialized agents with fresh context windows. Each agent has a focused role, limited tool access, and produces specific artifacts.
 
-### Agent Categories
+## Agent Categories
 
 | Category | Count | Agents |
 |----------|-------|--------|
@@ -169,7 +167,7 @@ GSD uses a multi-agent architecture where thin orchestrators (workflow files) sp
 
 ### gsd-planner
 
-**Role:** Creates executable phase plans with task breakdown, dependency analysis, and goal-backward verification.
+**Role:** Creates executable phase plans with task breakdown, dependency analysis, goal-backward verification.
 
 | Property | Value |
 |----------|-------|
@@ -213,7 +211,7 @@ GSD uses a multi-agent architecture where thin orchestrators (workflow files) sp
 
 ### gsd-executor
 
-**Role:** Executes GSD plans with atomic commits, deviation handling, and checkpoint protocols.
+**Role:** Executes GSD plans with atomic commits, deviation handling, checkpoint protocols.
 
 | Property | Value |
 |----------|-------|
@@ -512,8 +510,11 @@ Communication style, decision patterns, debugging approach, UX preferences, vend
 | doc-verifier | ✓ | ✓ | | ✓ | ✓ | ✓ | | | |
 | security-auditor | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | | | |
 
-**Principle of Least Privilege:**
-- Checkers are read-only (no Write/Edit) — they evaluate, never modify
-- Researchers have web access — they need current ecosystem information
-- Executors have Edit — they modify code but not web access
-- Mappers have Write — they write analysis documents but not Edit (no code changes)
+> [!principle]
+> **Principle of Least Privilege:**
+> - Checkers are read-only (no Write/Edit) — they evaluate, never modify
+> - Researchers have web access — they need current ecosystem information
+> - Executors have Edit — they modify code but not web access
+> - Mappers have Write — they write analysis documents but not Edit (no code changes)
+
+#multi-agent-system #ai-agents #software-architecture #workflow-automation

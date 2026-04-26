@@ -13,6 +13,8 @@ tags:
     - directory-structure
     - inventory-management
 category: reference
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
 ---
 
 # Skill Discovery Contract
@@ -31,7 +33,7 @@ Scan these roots relative to the project root:
 - `.github/skills/`
 - `./.codex/skills/`
 
-These roots are used for project-specific skills and for the project `CLAUDE.md` skills section.
+Used for project-specific skills and for the project `CLAUDE.md` skills section.
 
 ### Managed Global Roots
 
@@ -40,19 +42,19 @@ Scan these roots relative to the user home directory:
 - `~/.claude/skills/`
 - `~/.codex/skills/`
 
-These roots are used for managed runtime installs and inventory reporting.
+Used for managed runtime installs and inventory reporting.
 
 ### Deprecated Import-Only Root
 
 - `~/.claude/get-shit-done/skills/`
 
-This root is kept for legacy migration only. Inventory code may report it, but new installs should not write here.
+Kept for legacy migration only. Inventory code may report it, but new installs should not write here.
 
 ### Legacy Claude Commands
 
 - `~/.claude/commands/gsd/`
 
-This is not a skills root. Discovery code only checks whether it exists so inventory can report legacy Claude installs.
+Not a skills root. Discovery code only checks whether it exists so inventory can report legacy Claude installs.
 
 ## Normalization Rules
 
@@ -68,23 +70,23 @@ This is not a skills root. Discovery code only checks whether it exists so inven
 
 ### `sdk/src/query/skills.ts`
 
-- Returns a de-duplicated list of discovered skill names.
-- Scans project roots plus managed global roots.
-- Does not scan the deprecated import-only root.
+- Returns a de-duplicated list of discovered skill names
+- Scans project roots plus managed global roots
+- Does not scan the deprecated import-only root
 
 ### `get-shit-done/bin/lib/profile-output.cjs`
 
-- Builds the project `CLAUDE.md` skills section.
-- Scans project roots only.
-- Skips `gsd-*` directories so the project section stays focused on user/project skills.
-- Adds `.codex/skills/` to the project discovery set.
+- Builds the project `CLAUDE.md` skills section
+- Scans project roots only
+- Skips `gsd-*` directories so the project section stays focused on user/project skills
+- Adds `.codex/skills/` to the project discovery set
 
 ### `get-shit-done/bin/lib/init.cjs`
 
-- Generates the skill inventory object for `skill-manifest`.
-- Reports `skills`, `roots`, `installation`, and `counts`.
-- Marks `gsd_skills_installed` when any discovered skill name starts with `gsd-`.
-- Marks `legacy_claude_commands_installed` when `~/.claude/commands/gsd/` contains `.md` command files.
+- Generates the skill inventory object for `skill-manifest`
+- Reports `skills`, `roots`, `installation`, and `counts`
+- Marks `gsd_skills_installed` when any discovered skill name starts with `gsd-`
+- Marks `legacy_claude_commands_installed` when `~/.claude/commands/gsd/` contains `.md` command files
 
 ## Inventory Shape
 
@@ -95,15 +97,6 @@ This is not a skills root. Discovery code only checks whether it exists so inven
 - `installation`: summary booleans for installed GSD skills and legacy Claude commands
 - `counts`: small inventory counts for downstream consumers
 
-Each skill entry includes:
+Each skill entry includes: `name`, `description`, `triggers`, `path`, `file_path`, `root`, `scope`, `installed`, `deprecated`
 
-- `name`
-- `description`
-- `triggers`
-- `path`
-- `file_path`
-- `root`
-- `scope`
-- `installed`
-- `deprecated`
-
+#skill-discovery #metadata-extraction #directory-structure

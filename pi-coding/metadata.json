@@ -1,489 +1,556 @@
 {
-  "generated_at": "2026-04-26T05:48:53.699401504-03:00",
+  "generated_at": "2026-04-29T12:03:23.205145271-03:00",
   "source_url": "https://github.com/badlogic/pi-mono",
   "strategy": "git",
-  "total_documents": 24,
+  "total_documents": 26,
   "documents": [
     {
-      "file_path": "002-packages-coding-agent-docs-docs.json",
-      "title": "Docs",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/docs.json",
+      "file_path": "001-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/quickstart.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:12.404907563-03:00",
-      "summary": "This document provides a structured navigation menu for a software platform, covering configuration, customization, programmatic interfaces, and environment-specific setup instructions.",
+      "fetched_at": "2026-04-29T12:03:00.673986581-03:00",
+      "summary": "This guide provides an introduction to the Pi coding agent, covering installation, authentication methods, project configuration, and essential commands for interactive and non-interactive usage.",
       "tags": [
-        "documentation-structure",
-        "platform-configuration",
-        "software-setup",
-        "api-integration",
-        "customization-guide"
+        "pi-agent",
+        "coding-assistant",
+        "cli-tool",
+        "getting-started",
+        "project-setup"
       ],
-      "category": "guide",
-      "detectedCategory": "Introduction & Overview",
-      "original_file_path": "packages-coding-agent-docs-docs.json"
+      "category": "tutorial",
+      "original_file_path": "packages-coding-agent-docs-quickstart.md",
+      "optimized": true,
+      "word_count": 344
     },
     {
-      "file_path": "003-packages-coding-agent-docs-development.md",
+      "file_path": "002-custom-provider.md",
+      "title": "Custom provider",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/custom-provider.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:02:55.407204872-03:00",
+      "summary": "This document explains how to register, override, and configure custom LLM model providers in the extension system using the pi.registerProvider method.",
+      "tags": [
+        "extension-api",
+        "model-providers",
+        "llm-integration",
+        "api-configuration",
+        "custom-endpoints",
+        "streaming-api"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-custom-provider.md",
+      "optimized": true,
+      "word_count": 766
+    },
+    {
+      "file_path": "003-development.md",
       "title": "Development",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/development.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:12.404890871-03:00",
-      "summary": "This document provides developer guidelines for setting up, reconfiguring, and maintaining the pi-mono repository.",
+      "fetched_at": "2026-04-29T12:02:55.407178462-03:00",
+      "summary": "Developer guidelines for setting up, configuring, and testing the pi-mono project.",
       "tags": [
-        "project-setup",
-        "forking",
+        "development-setup",
+        "configuration-guide",
         "path-resolution",
-        "debugging",
-        "testing",
-        "project-structure"
+        "testing-procedures",
+        "project-architecture"
       ],
       "category": "guide",
-      "detectedCategory": "Setup & Environment",
-      "original_file_path": "packages-coding-agent-docs-development.md"
+      "original_file_path": "packages-coding-agent-docs-development.md",
+      "optimized": true,
+      "word_count": 137
     },
     {
-      "file_path": "004-packages-coding-agent-docs-terminal-setup.md",
-      "title": "Terminal setup",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/terminal-setup.md",
+      "file_path": "004-extensions.md",
+      "title": "Extensions",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/extensions.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:31.297881912-03:00",
-      "summary": "This document provides instructions for configuring various terminal emulators to support the Kitty keyboard protocol and specific keybindings required for the Pi tool.",
+      "fetched_at": "2026-04-29T12:02:55.407350979-03:00",
+      "summary": "This document explains how to develop TypeScript-based extensions for the pi coding agent, covering event subscription, tool registration, custom UI creation, and state management.",
       "tags": [
-        "terminal-configuration",
-        "keyboard-protocol",
-        "keybindings",
-        "environment-setup",
-        "pi-tool"
+        "typescript",
+        "automation",
+        "extensibility",
+        "agent-development",
+        "cli-tools",
+        "event-driven"
       ],
-      "category": "configuration",
-      "detectedCategory": "Setup & Environment",
-      "original_file_path": "packages-coding-agent-docs-terminal-setup.md"
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-extensions.md",
+      "optimized": true,
+      "word_count": 3287
     },
     {
-      "file_path": "005-packages-coding-agent-docs-termux.md",
+      "file_path": "005-packages.md",
+      "title": "Packages",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/packages.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:02:58.688986182-03:00",
+      "summary": "This document explains how to create, install, and manage Pi packages, which are bundles of extensions, skills, prompts, and themes used to extend Pi functionality.",
+      "tags": [
+        "pi-packages",
+        "package-management",
+        "extension-development",
+        "npm",
+        "git-integration",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-packages.md",
+      "optimized": true,
+      "word_count": 574
+    },
+    {
+      "file_path": "006-prompt-templates.md",
+      "title": "Prompt templates",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/prompt-templates.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:02:58.733284829-03:00",
+      "summary": "Create and use Markdown-based prompt templates that expand into full prompts via slash commands.",
+      "tags": [
+        "prompt-templates",
+        "markdown-snippets",
+        "cli-tools",
+        "automation-workflows",
+        "template-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-prompt-templates.md",
+      "optimized": true,
+      "word_count": 198
+    },
+    {
+      "file_path": "007-sessions.md",
+      "title": "Sessions",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/sessions.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:03:04.652788582-03:00",
+      "summary": "This document explains how to manage, navigate, and branch conversation sessions in the Pi tool, including command-line flags and interactive tree management features.",
+      "tags": [
+        "session-management",
+        "conversation-history",
+        "command-line-interface",
+        "data-persistence",
+        "branching-logic",
+        "file-storage"
+      ],
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-sessions.md",
+      "optimized": true,
+      "word_count": 731
+    },
+    {
+      "file_path": "008-termux.md",
       "title": "Termux",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/termux.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:33.487255529-03:00",
-      "summary": "This document provides instructions for installing and configuring the Pi coding agent within the Termux terminal emulator on Android. It includes setup steps, environment configuration, and utility command references for device integration.",
+      "fetched_at": "2026-04-29T12:03:09.516222789-03:00",
+      "summary": "Install and configure Pi within the Termux Linux environment on Android.",
       "tags": [
         "termux",
         "android",
         "linux-environment",
         "setup-guide",
-        "mobile-development",
-        "cli-tools"
+        "cli-tools",
+        "environment-configuration"
       ],
       "category": "guide",
-      "detectedCategory": "Setup & Environment",
-      "original_file_path": "packages-coding-agent-docs-termux.md"
+      "original_file_path": "packages-coding-agent-docs-termux.md",
+      "optimized": true,
+      "word_count": 160
     },
     {
-      "file_path": "006-packages-coding-agent-docs-tmux.md",
-      "title": "Tmux",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tmux.md",
+      "file_path": "009-themes.md",
+      "title": "Themes",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/themes.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:37.2368685-03:00",
-      "summary": "This document provides configuration instructions for enabling extended key support in tmux to ensure that modified key combinations like Shift+Enter are correctly transmitted to applications.",
+      "fetched_at": "2026-04-29T12:03:10.542294921-03:00",
+      "summary": "This document explains how to create, configure, and customize themes for the Pi terminal user interface using JSON files.",
       "tags": [
-        "tmux",
-        "terminal-configuration",
-        "key-bindings",
-        "csi-u",
-        "extended-keys"
+        "cli-tool",
+        "theming",
+        "ui-customization",
+        "color-palette",
+        "json-configuration",
+        "terminal-styling"
       ],
-      "category": "configuration",
-      "detectedCategory": "Setup & Environment",
-      "original_file_path": "packages-coding-agent-docs-tmux.md"
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-themes.md",
+      "optimized": true,
+      "word_count": 792
     },
     {
-      "file_path": "007-packages-coding-agent-docs-windows.md",
-      "title": "Windows",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/windows.md",
+      "file_path": "010-usage.md",
+      "title": "Usage",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/usage.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:43.538822697-03:00",
-      "summary": "This document describes the bash shell requirements and search order for running Pi on Windows, including instructions for configuring a custom shell path.",
+      "fetched_at": "2026-04-29T12:03:15.36665905-03:00",
+      "summary": "This document provides a comprehensive guide to using the Pi CLI tool, covering interactive mode features, slash commands, session management, context configuration, and command-line options.",
       "tags": [
-        "windows-setup",
-        "bash-shell",
-        "configuration",
-        "environment-setup",
-        "path-settings"
+        "cli-tool",
+        "pi-assistant",
+        "terminal-productivity",
+        "session-management",
+        "interactive-mode",
+        "automation"
       ],
-      "category": "configuration",
-      "detectedCategory": "Setup & Environment",
-      "original_file_path": "packages-coding-agent-docs-windows.md"
+      "category": "guide",
+      "original_file_path": "packages-coding-agent-docs-usage.md",
+      "optimized": true,
+      "word_count": 1255
     },
     {
-      "file_path": "008-packages-coding-agent-docs-compaction.md",
+      "file_path": "011-compaction.md",
       "title": "Compaction",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/compaction.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:12.404757288-03:00",
-      "summary": "This document explains the compaction and branch summarization mechanisms used to manage LLM context windows by condensing older conversation history.",
+      "fetched_at": "2026-04-29T12:02:55.407158875-03:00",
+      "summary": "This document explains the compaction and branch summarization mechanisms used to manage LLM context windows by summarizing older conversation turns while preserving recent interactions.",
       "tags": [
-        "llm-context",
-        "context-window",
-        "compaction",
-        "summarization",
-        "session-management",
-        "token-optimization"
+        "llm-context-management",
+        "token-optimization",
+        "summarization-algorithms",
+        "session-state",
+        "context-window"
       ],
       "category": "concept",
-      "detectedCategory": "Concepts & Fundamentals",
-      "original_file_path": "packages-coding-agent-docs-compaction.md"
+      "original_file_path": "packages-coding-agent-docs-compaction.md",
+      "optimized": true,
+      "word_count": 686
     },
     {
-      "file_path": "009-packages-coding-agent-docs-skills.md",
+      "file_path": "012-skills.md",
       "title": "Skills",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/skills.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:30.536602205-03:00",
-      "summary": "This document explains how to create, structure, and manage modular skill packages that extend agent capabilities in Pi, including discovery rules and frontmatter requirements.",
+      "fetched_at": "2026-04-29T12:03:07.695551704-03:00",
+      "summary": "This document outlines the structure, discovery process, and configuration requirements for creating and managing self-contained agent capability packages known as skills.",
       "tags": [
         "agent-skills",
         "automation",
-        "cli-tools",
         "configuration",
-        "developer-workflow",
-        "extensibility"
+        "system-integration",
+        "workflow-management"
       ],
       "category": "concept",
-      "detectedCategory": "Concepts & Fundamentals",
-      "original_file_path": "packages-coding-agent-docs-skills.md"
+      "original_file_path": "packages-coding-agent-docs-skills.md",
+      "optimized": true,
+      "word_count": 586
     },
     {
-      "file_path": "010-packages-coding-agent-docs-keybindings.md",
-      "title": "Keybindings",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/keybindings.md",
+      "file_path": "013-terminal-setup.md",
+      "title": "Terminal setup",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/terminal-setup.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:14.120494283-03:00",
-      "summary": "This document provides a comprehensive list of default keyboard shortcuts for the pi agent and explains how to customize them using a configuration file.",
+      "fetched_at": "2026-04-29T12:03:08.773205822-03:00",
+      "summary": "Configure terminal emulators for Kitty keyboard protocol compatibility and proper modifier key handling.",
       "tags": [
-        "keybindings",
-        "configuration",
-        "shortcuts",
-        "tui",
-        "customization"
+        "terminal-setup",
+        "kitty-keyboard-protocol",
+        "keyboard-shortcuts",
+        "configuration-guide",
+        "cli-tools"
       ],
       "category": "configuration",
-      "detectedCategory": "Configuration & Settings",
-      "original_file_path": "packages-coding-agent-docs-keybindings.md"
+      "original_file_path": "packages-coding-agent-docs-terminal-setup.md",
+      "optimized": true,
+      "word_count": 242
     },
     {
-      "file_path": "011-packages-coding-agent-docs-models.md",
+      "file_path": "014-models.md",
       "title": "Models",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/models.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:14.154721504-03:00",
-      "summary": "This document explains how to configure custom AI models and providers for the pi agent by modifying the models.json configuration file.",
+      "fetched_at": "2026-04-29T12:02:57.840655071-03:00",
+      "summary": "This document explains how to configure custom AI models and providers for the system using the models.json configuration file, including support for local and remote API endpoints.",
       "tags": [
         "configuration",
-        "custom-models",
+        "llm",
         "api-integration",
-        "local-llm",
-        "proxy-settings"
+        "custom-models",
+        "json-schema"
       ],
       "category": "configuration",
-      "detectedCategory": "Configuration & Settings",
-      "original_file_path": "packages-coding-agent-docs-models.md"
+      "original_file_path": "packages-coding-agent-docs-models.md",
+      "optimized": true,
+      "word_count": 976
     },
     {
-      "file_path": "012-packages-coding-agent-docs-providers.md",
+      "file_path": "015-providers.md",
       "title": "Providers",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/providers.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:17.33220982-03:00",
-      "summary": "This document details how to configure subscription-based providers and API keys for Pi, including authentication methods, environment variable setup, and credential resolution order.",
+      "fetched_at": "2026-04-29T12:03:00.497834635-03:00",
+      "summary": "This document outlines how to configure and authenticate various AI providers in Pi, covering subscription management, API key storage, cloud service integration, and credential resolution order.",
       "tags": [
         "authentication",
         "api-keys",
         "oauth",
         "environment-variables",
         "configuration",
-        "pi-cli",
-        "cloud-providers"
+        "pi-agent"
       ],
       "category": "configuration",
-      "detectedCategory": "Configuration & Settings",
-      "original_file_path": "packages-coding-agent-docs-providers.md"
+      "original_file_path": "packages-coding-agent-docs-providers.md",
+      "optimized": true,
+      "word_count": 591
     },
     {
-      "file_path": "013-packages-coding-agent-docs-settings.md",
+      "file_path": "016-settings.md",
       "title": "Settings",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/settings.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:26.358184341-03:00",
-      "summary": "This document provides a comprehensive reference for the JSON-based configuration system used in Pi, covering settings for models, UI, memory compaction, retries, terminal behavior, and resource management.",
+      "fetched_at": "2026-04-29T12:03:05.442346503-03:00",
+      "summary": "This document provides a comprehensive reference for configuring the Pi agent through global and project-specific JSON settings files, covering model behavior, UI preferences, resource paths, and system-level operations.",
       "tags": [
         "configuration",
-        "json-settings",
         "pi-agent",
-        "environment-variables",
-        "cli-tools"
+        "json-settings",
+        "project-settings",
+        "reference"
       ],
-      "category": "reference",
-      "detectedCategory": "Configuration & Settings",
-      "original_file_path": "packages-coding-agent-docs-settings.md"
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-docs-settings.md",
+      "optimized": true,
+      "word_count": 1033
     },
     {
-      "file_path": "014-packages-coding-agent-docs-shell-aliases.md",
+      "file_path": "017-shell-aliases.md",
       "title": "Shell aliases",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/shell-aliases.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:28.064875896-03:00",
-      "summary": "This document explains how to enable shell aliases in non-interactive bash sessions within the Pi agent by configuring the shell command prefix.",
+      "fetched_at": "2026-04-29T12:03:06.786357934-03:00",
+      "summary": "Enable shell aliases in Pi's non-interactive bash environment.",
       "tags": [
         "shell-aliases",
         "bash-configuration",
-        "environment-settings",
-        "automation",
-        "command-line"
+        "pi-agent",
+        "environment-variables",
+        "terminal-settings"
       ],
       "category": "configuration",
-      "detectedCategory": "Configuration & Settings",
-      "original_file_path": "packages-coding-agent-docs-shell-aliases.md"
+      "original_file_path": "packages-coding-agent-docs-shell-aliases.md",
+      "optimized": true,
+      "word_count": 31
     },
     {
-      "file_path": "015-packages-coding-agent-docs-extensions.md",
-      "title": "Extensions",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/extensions.md",
+      "file_path": "018-tmux.md",
+      "title": "Tmux",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tmux.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:12.405436395-03:00",
-      "summary": "This document describes the structure, capabilities, and lifecycle of extensions for the pi coding agent, which are TypeScript modules that allow users to customize behavior through custom tools, commands, UI components, and event listeners.",
+      "fetched_at": "2026-04-29T12:03:11.539825023-03:00",
+      "summary": "Configure tmux for extended key support so Shift+Enter and Ctrl+Enter are correctly interpreted.",
       "tags": [
-        "typescript",
-        "automation",
-        "extensibility",
-        "coding-agent",
-        "plugin-development",
-        "event-driven"
+        "tmux",
+        "terminal-configuration",
+        "extended-keys",
+        "keyboard-mapping",
+        "csi-u"
       ],
-      "category": "guide",
-      "detectedCategory": "Features & Guides",
-      "original_file_path": "packages-coding-agent-docs-extensions.md"
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-docs-tmux.md",
+      "optimized": true,
+      "word_count": 190
     },
     {
-      "file_path": "016-packages-coding-agent-docs-packages.md",
-      "title": "Packages",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/packages.md",
+      "file_path": "019-windows.md",
+      "title": "Windows",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/windows.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:14.185491339-03:00",
-      "summary": "This document provides a comprehensive guide on creating, installing, and managing Pi packages, which bundle extensions, skills, prompt templates, and themes for the Pi platform.",
+      "fetched_at": "2026-04-29T12:03:15.59277295-03:00",
+      "summary": "Configure bash shell and custom shell paths for Pi on Windows.",
       "tags": [
-        "pi-packages",
-        "package-management",
-        "npm-integration",
-        "git-integration",
-        "configuration",
-        "extensions",
-        "skills"
+        "windows-setup",
+        "bash-shell",
+        "configuration-settings",
+        "environment-path"
       ],
-      "category": "guide",
-      "detectedCategory": "Features & Guides",
-      "original_file_path": "packages-coding-agent-docs-packages.md"
+      "category": "configuration",
+      "original_file_path": "packages-coding-agent-docs-windows.md",
+      "optimized": true,
+      "word_count": 43
     },
     {
-      "file_path": "017-packages-coding-agent-docs-prompt-templates.md",
-      "title": "Prompt templates",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/prompt-templates.md",
-      "source": "git",
-      "fetched_at": "2026-04-26T05:48:15.349873764-03:00",
-      "summary": "This document explains how to create, configure, and use Markdown-based prompt templates within the Pi environment to automate and streamline user workflows.",
-      "tags": [
-        "prompt-templates",
-        "markdown-snippets",
-        "cli-tools",
-        "automation",
-        "configuration",
-        "template-discovery"
-      ],
-      "category": "guide",
-      "detectedCategory": "Features & Guides",
-      "original_file_path": "packages-coding-agent-docs-prompt-templates.md"
-    },
-    {
-      "file_path": "018-packages-coding-agent-docs-themes.md",
-      "title": "Themes",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/themes.md",
-      "source": "git",
-      "fetched_at": "2026-04-26T05:48:35.304852309-03:00",
-      "summary": "This document explains how to create, configure, and customize themes for the Pi TUI using JSON files that define color palettes and token mappings.",
-      "tags": [
-        "theming",
-        "json-configuration",
-        "ui-customization",
-        "color-palette",
-        "terminal-interface"
-      ],
-      "category": "guide",
-      "detectedCategory": "Features & Guides",
-      "original_file_path": "packages-coding-agent-docs-themes.md"
-    },
-    {
-      "file_path": "019-packages-coding-agent-docs-tree.md",
-      "title": "Tree",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tree.md",
-      "source": "git",
-      "fetched_at": "2026-04-26T05:48:39.762689236-03:00",
-      "summary": "This document explains the functionality of the tree-based session navigation system, including UI controls for branch traversal, branch summarization logic, and the technical implementation of session navigation hooks.",
-      "tags": [
-        "session-management",
-        "tree-navigation",
-        "branching",
-        "summarization",
-        "user-interface",
-        "hook-events",
-        "development-guide"
-      ],
-      "category": "guide",
-      "detectedCategory": "Features & Guides",
-      "original_file_path": "packages-coding-agent-docs-tree.md"
-    },
-    {
-      "file_path": "020-packages-coding-agent-docs-tui.md",
-      "title": "Tui",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tui.md",
-      "source": "git",
-      "fetched_at": "2026-04-26T05:48:41.637820934-03:00",
-      "summary": "This document describes the component system for building interactive text user interfaces (TUI), covering component interfaces, IME support, overlay management, and available built-in UI elements.",
-      "tags": [
-        "tui",
-        "cli-framework",
-        "terminal-ui",
-        "typescript",
-        "ime-support",
-        "component-based-architecture"
-      ],
-      "category": "guide",
-      "detectedCategory": "Features & Guides",
-      "original_file_path": "packages-coding-agent-docs-tui.md"
-    },
-    {
-      "file_path": "021-packages-coding-agent-docs-custom-provider.md",
-      "title": "Custom provider",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/custom-provider.md",
-      "source": "git",
-      "fetched_at": "2026-04-26T05:48:12.4048853-03:00",
-      "summary": "This document explains how to register, override, and configure custom model providers within the pi-coding-agent framework using the extension API.",
-      "tags": [
-        "extension-api",
-        "model-provider",
-        "custom-api",
-        "llm-configuration",
-        "api-integration"
-      ],
-      "category": "guide",
-      "detectedCategory": "Integration & Advanced",
-      "original_file_path": "packages-coding-agent-docs-custom-provider.md"
-    },
-    {
-      "file_path": "022-packages-coding-agent-docs-json.md",
+      "file_path": "020-json.md",
       "title": "Json",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/json.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:14.108953489-03:00",
-      "summary": "This document explains how to utilize the JSON event stream mode in the pi CLI to output session events as line-delimited JSON objects for integration into external tools.",
+      "fetched_at": "2026-04-29T12:02:57.245811132-03:00",
+      "summary": "Output session events as newline-delimited JSON for integration into external tools and UIs.",
       "tags": [
-        "pi-cli",
-        "json-output",
-        "event-stream",
-        "integration",
-        "cli-reference",
-        "data-processing"
+        "json-stream",
+        "cli-tool",
+        "event-logging",
+        "agent-integration",
+        "data-format",
+        "system-output"
       ],
       "category": "reference",
-      "detectedCategory": "Integration & Advanced",
-      "original_file_path": "packages-coding-agent-docs-json.md"
+      "original_file_path": "packages-coding-agent-docs-json.md",
+      "optimized": true,
+      "word_count": 118
     },
     {
-      "file_path": "023-packages-coding-agent-docs-rpc.md",
+      "file_path": "021-keybindings.md",
+      "title": "Keybindings",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/keybindings.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:02:57.296773648-03:00",
+      "summary": "This document provides a comprehensive list of default keyboard shortcuts for the pi agent and explains how to customize them via a configuration file.",
+      "tags": [
+        "keyboard-shortcuts",
+        "configuration",
+        "keybindings",
+        "tui",
+        "editor",
+        "customization"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-docs-keybindings.md",
+      "optimized": true,
+      "word_count": 1142
+    },
+    {
+      "file_path": "022-pi-documentation.md",
+      "title": "Index",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/index.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:02:56.682203093-03:00",
+      "summary": "Central hub for Pi terminal coding harness—setup, configuration, guides, and reference documentation.",
+      "tags": [
+        "coding-agent",
+        "terminal-tool",
+        "cli-utility",
+        "typescript-extensions",
+        "ai-development",
+        "developer-productivity"
+      ],
+      "category": "reference",
+      "original_file_path": "packages-coding-agent-docs-index.md",
+      "rename_history": [
+        {
+          "from": "index.md",
+          "to": "pi-documentation.md",
+          "reason": "phase 1.3 index rename"
+        }
+      ],
+      "optimized": true,
+      "word_count": 326
+    },
+    {
+      "file_path": "023-rpc.md",
       "title": "Rpc",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/rpc.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:19.293501324-03:00",
-      "summary": "This document describes the RPC mode for the coding agent, which enables headless operation via a JSON-over-stdio protocol for integration with external applications and IDEs.",
+      "fetched_at": "2026-04-29T12:03:01.761037723-03:00",
+      "summary": "This document describes the RPC mode for the coding agent, which allows external applications to interface with the agent using a JSON-based protocol over stdin/stdout.",
       "tags": [
         "rpc",
-        "headless",
         "jsonl",
-        "ipc",
-        "automation",
-        "integration",
-        "protocol-specification"
+        "headless-operation",
+        "api-protocol",
+        "agent-automation",
+        "integration"
       ],
       "category": "reference",
-      "detectedCategory": "API & Reference",
-      "original_file_path": "packages-coding-agent-docs-rpc.md"
+      "original_file_path": "packages-coding-agent-docs-rpc.md",
+      "optimized": true,
+      "word_count": 1706
     },
     {
-      "file_path": "024-packages-coding-agent-docs-sdk.md",
+      "file_path": "024-sdk.md",
       "title": "Sdk",
       "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/sdk.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:22.352821971-03:00",
-      "summary": "This document provides an overview and technical reference for the pi SDK, enabling developers to integrate agent capabilities, build custom interfaces, and manage agent session lifecycles programmatically.",
+      "fetched_at": "2026-04-29T12:03:02.655185871-03:00",
+      "summary": "This document provides an overview and API reference for the pi SDK, enabling developers to integrate agent capabilities, build custom interfaces, and manage agent session lifecycles programmatically.",
       "tags": [
-        "sdk-reference",
-        "agent-framework",
+        "sdk-documentation",
+        "agent-integration",
         "typescript-api",
         "session-management",
-        "llm-integration",
-        "event-streaming"
+        "ai-automation",
+        "prompt-engineering"
       ],
       "category": "api",
-      "detectedCategory": "API & Reference",
-      "original_file_path": "packages-coding-agent-docs-sdk.md"
+      "original_file_path": "packages-coding-agent-docs-sdk.md",
+      "optimized": true,
+      "word_count": 981
     },
     {
-      "file_path": "025-packages-coding-agent-docs-session.md",
-      "title": "Session",
-      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/session.md",
+      "file_path": "025-session-format.md",
+      "title": "Session format",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/session-format.md",
       "source": "git",
-      "fetched_at": "2026-04-26T05:48:24.300920446-03:00",
-      "summary": "This document defines the JSONL-based session file format for the Pi coding agent, including structure, versioning, message types, and entry schema specifications.",
+      "fetched_at": "2026-04-29T12:03:03.532661679-03:00",
+      "summary": "This document defines the JSONL-based file format, structure, and message types used to store session data in the Pi coding agent. It provides technical specifications for handling branching, message serialization, and schema definitions for various session entries.",
       "tags": [
-        "session-format",
         "jsonl",
+        "file-format",
         "data-schema",
-        "agent-architecture",
-        "message-types",
-        "file-structure"
+        "coding-agent",
+        "session-management",
+        "message-types"
       ],
       "category": "reference",
-      "detectedCategory": "API & Reference",
-      "original_file_path": "packages-coding-agent-docs-session.md"
+      "original_file_path": "packages-coding-agent-docs-session-format.md",
+      "optimized": true,
+      "word_count": 926
+    },
+    {
+      "file_path": "026-tui.md",
+      "title": "Tui",
+      "url": "https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tui.md",
+      "source": "git",
+      "fetched_at": "2026-04-29T12:03:12.479852615-03:00",
+      "summary": "Component-based system for building interactive text user interfaces (TUI) for pi extensions, including interfaces for rendering, focus management, and overlay positioning.",
+      "tags": [
+        "tui",
+        "terminal-user-interface",
+        "typescript",
+        "component-architecture",
+        "ime-support",
+        "overlay-system",
+        "cli-development"
+      ],
+      "category": "api",
+      "original_file_path": "packages-coding-agent-docs-tui.md",
+      "optimized": true,
+      "word_count": 1066
     }
   ],
   "organization": {
     "method": "sequential-numbering",
-    "organized_at": "2026-04-26T08:51:12.438Z",
-    "total_files": 25,
+    "organized_at": "2026-04-29T15:05:29.527536+00:00",
+    "total_files": 26,
     "categories": [
-      "Introduction & Overview",
-      "Setup & Environment",
+      "Quick Start & Installation",
+      "Tutorials & Guides",
       "Concepts & Fundamentals",
-      "Configuration & Settings",
-      "Features & Guides",
-      "Integration & Advanced",
-      "API & Reference"
+      "Configuration",
+      "API Reference"
+    ],
+    "dropped": [
+      {
+        "path": "docs.json",
+        "in_favor_of": "pi-documentation.md",
+        "reason": "json-navigation-file-not-markdown-doc"
+      },
+      {
+        "path": "packages-coding-agent-docs-docs.json",
+        "in_favor_of": "pi-documentation.md",
+        "reason": "json-navigation-file-not-markdown-doc"
+      }
     ]
   },
   "optimization": {
     "method": "ai-consumption-optimized",
     "format": "obsidian",
-    "optimized_at": "2026-04-26T09:00:00Z",
-    "files_optimized": 24,
-    "files_deleted": 1,
-    "files_skipped": 1,
-    "deleted_files": [
-      "001-packages-coding-agent-docs-index.md"
-    ],
-    "skipped_files": [
-      "002-packages-coding-agent-docs-docs.json"
-    ],
-    "skip_reasons": {
-      "002-packages-coding-agent-docs-docs.json": "non-markdown (JSON navigation file)"
-    }
+    "optimized_at": "2026-04-29T15:22:48.847953+00:00",
+    "files_optimized": 26,
+    "files_deleted": 0,
+    "deleted_files": []
   }
 }

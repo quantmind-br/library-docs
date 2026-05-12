@@ -1,0 +1,105 @@
+---
+title: Calendar Integration | Dank Linux
+url: https://danklinux.com/docs/dankmaterialshell/calendar-integration
+source: sitemap
+fetched_at: 2026-04-26T08:38:35.619217352-03:00
+rendered_js: false
+word_count: 133
+summary: This document provides instructions for integrating CalDAV-compatible calendars into a dashboard using khal and vdirsyncer.
+tags:
+    - calendar-sync
+    - caldav
+    - vdirsyncer
+    - khal
+    - dashboard-integration
+    - system-configuration
+category: guide
+optimized: true
+optimized_at: 2026-04-26T00:00:00Z
+---
+
+Version: 1.4
+
+Sync CalDAV-compatible calendars (Google Calendar, Office365) for dashboard integration.
+
+> [!warning]
+> Setting up khal and vdirsyncer is convoluted; a future release replaces this with DankCalendar.
+
+> [!tip]
+> DMS automatically picks up khal events once configured. For details, see the [khal documentation](https://khal.readthedocs.io/en/latest/).
+
+## Installation
+
+Install calendar synchronization dependencies:
+
+### Arch & Derivatives
+
+```bash
+sudo pacman -S vdirsyncer khal python-aiohttp-oauthlib
+```
+
+### Fedora & Derivatives
+
+```bash
+sudo dnf install python3-vdirsyncer khal python3-aiohttp-oauthlib
+```
+
+## Configuration
+
+### 1. Configure vdirsyncer
+
+Create `~/.vdirsyncer/config`:
+
+```ini
+[general]
+status_path = "~/.calendars/status"
+[pair personal_sync]
+a = "personal"
+b = "personallocal"
+collections = ["from a", "from b"]
+conflict_resolution = "a wins"
+metadata = ["color"]
+[storage personal]
+type = "google_calendar"
+token_file = "~/.vdirsyncer/google_calendar_token"
+client_id = "your_client_id"
+client_secret = "your_client_secret"
+[storage personallocal]
+type = "filesystem"
+path = "~/.calendars/Personal"
+fileext = ".ics"
+```
+
+### 2. Initial Sync
+
+```bash
+vdirsyncer sync
+khal configure
+```
+
+### 3. Auto-sync (Optional)
+
+Set up automatic synchronization every 5 minutes via cron:
+
+```cron
+*/5 * * * * /usr/bin/vdirsyncer sync
+```
+
+## Troubleshooting
+
+### Calendar not syncing
+
+Check vdirsyncer credentials and network connectivity.
+
+### Missing calendar events
+
+Verify khal is configured correctly.
+
+### Authentication issues
+
+For Google Calendar, ensure OAuth client ID and secret are correct. Re-authenticate:
+
+```bash
+rm ~/.vdirsyncer/google_calendar_token
+vdirsyncer sync
+```

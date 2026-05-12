@@ -1,0 +1,1 @@
+Directory check: /home/diogo/dev/library-docs/zeroclaw exists and is accessible

@@ -1,0 +1,903 @@
+{
+  "generated_at": "2026-04-28T09:49:50.774796177-03:00",
+  "source_url": "https://github.com/ggml-org/llama.cpp/",
+  "strategy": "git",
+  "total_documents": 43,
+  "documents": [
+    {
+      "file_path": "001-backend-snapdragon-readme.md",
+      "title": "README",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/snapdragon/README.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:15.928729845-03:00",
+      "summary": "This document provides instructions for building, installing, and running llama.cpp on Snapdragon-based devices, including support for CPU, OpenCL, and Hexagon NPU backends.",
+      "tags": [
+        "snapdragon",
+        "android",
+        "windows",
+        "llama-cpp",
+        "hexagon",
+        "opencl",
+        "build-instructions"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-snapdragon-readme.md",
+      "optimized": true,
+      "word_count": 428
+    },
+    {
+      "file_path": "002-install.md",
+      "title": "Install",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/install.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:29.614061938-03:00",
+      "summary": "This document provides instructions for installing pre-built versions of llama.cpp across various operating systems using different package managers.",
+      "tags": [
+        "llama-cpp",
+        "installation-guide",
+        "package-management",
+        "winget",
+        "homebrew",
+        "macports",
+        "nix"
+      ],
+      "category": "guide",
+      "original_file_path": "install.md",
+      "optimized": true,
+      "word_count": 79
+    },
+    {
+      "file_path": "003-multimodal-minicpmv4.5.md",
+      "title": "Minicpmv4.5",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/minicpmv4.5.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:42.976557189-03:00",
+      "summary": "This document provides instructions for building llama.cpp, converting MiniCPM-V 4.5 PyTorch models to GGUF format, and performing model inference.",
+      "tags": [
+        "minicpm-v",
+        "llama-cpp",
+        "gguf-conversion",
+        "model-quantization",
+        "inference",
+        "multimodal-models"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-minicpmv4.5.md",
+      "optimized": true,
+      "word_count": 59
+    },
+    {
+      "file_path": "004-multimodal-minicpmv4.0.md",
+      "title": "Minicpmv4.0",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/minicpmv4.0.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:42.065426699-03:00",
+      "summary": "This document provides instructions for building llama.cpp and converting the MiniCPM-V 4 model into the GGUF format for local inference.",
+      "tags": [
+        "minicpm-v-4",
+        "llama-cpp",
+        "gguf-conversion",
+        "machine-learning",
+        "model-quantization",
+        "local-inference"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-minicpmv4.0.md",
+      "optimized": true,
+      "word_count": 59
+    },
+    {
+      "file_path": "005-multimodal-minicpmv2.6.md",
+      "title": "Minicpmv2.6",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/minicpmv2.6.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:40.941019833-03:00",
+      "summary": "This document provides instructions for setting up, converting, and running the MiniCPM-V 2.6 vision model using the llama.cpp framework.",
+      "tags": [
+        "minicpm-v",
+        "llama-cpp",
+        "gguf",
+        "model-conversion",
+        "quantization",
+        "multimodal-ai"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-minicpmv2.6.md",
+      "optimized": true,
+      "word_count": 59
+    },
+    {
+      "file_path": "006-multimodal-minicpmv2.5.md",
+      "title": "Minicpmv2.5",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/minicpmv2.5.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:38.933691373-03:00",
+      "summary": "This document provides instructions for building llama.cpp and converting, quantizing, and running inference with the MiniCPM-Llama3-V 2.5 multimodal model.",
+      "tags": [
+        "minicpm",
+        "llama-cpp",
+        "model-conversion",
+        "quantization",
+        "gguf",
+        "multimodal-ai",
+        "inference"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-minicpmv2.5.md",
+      "optimized": true,
+      "word_count": 59
+    },
+    {
+      "file_path": "007-multimodal-gemma3.md",
+      "title": "Gemma3",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/gemma3.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:32.6417814-03:00",
+      "summary": "This document provides instructions on how to build and execute the Gemma 3 vision model using the llama.cpp framework, including steps for model conversion and CLI usage.",
+      "tags": [
+        "gemma-3",
+        "vision-model",
+        "gguf",
+        "llama-cpp",
+        "model-conversion",
+        "multimodal"
+      ],
+      "category": "tutorial",
+      "original_file_path": "multimodal-gemma3.md",
+      "optimized": true,
+      "word_count": 61
+    },
+    {
+      "file_path": "008-multimodal-glmedge.md",
+      "title": "Glmedge",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/glmedge.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:33.068380139-03:00",
+      "summary": "This document provides instructions for building the llama-mtmd-cli binary and converting GLMV-EDGE models from Hugging Face format into GGUF format for use.",
+      "tags": [
+        "glmv-edge",
+        "gguf-conversion",
+        "machine-learning",
+        "model-inference",
+        "llm",
+        "cli-usage"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-glmedge.md",
+      "optimized": true,
+      "word_count": 76
+    },
+    {
+      "file_path": "009-multimodal-granitevision.md",
+      "title": "Granitevision",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/granitevision.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:33.968368172-03:00",
+      "summary": "This guide details the process of converting Granite Vision models into the GGUF format for use with llama.cpp, including visual encoder extraction, LLM export, and model quantization.",
+      "tags": [
+        "granite-vision",
+        "gguf",
+        "llama-cpp",
+        "model-conversion",
+        "quantization",
+        "multimodal",
+        "siglip"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-granitevision.md",
+      "optimized": true,
+      "word_count": 190
+    },
+    {
+      "file_path": "010-multimodal-llava.md",
+      "title": "Llava",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/llava.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:36.528511741-03:00",
+      "summary": "This document provides instructions on how to convert, configure, and run LLaVA multimodal models within a GGUF-compatible environment.",
+      "tags": [
+        "llava",
+        "gguf",
+        "model-conversion",
+        "multimodal",
+        "llm",
+        "llama-cpp",
+        "image-encoder"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-llava.md",
+      "optimized": true,
+      "word_count": 276
+    },
+    {
+      "file_path": "011-multimodal-minicpmo2.6.md",
+      "title": "Minicpmo2.6",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/minicpmo2.6.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:36.955793731-03:00",
+      "summary": "This document provides instructions for setting up, converting, and running the MiniCPM-o 2.6 multimodal model using the llama.cpp framework.",
+      "tags": [
+        "minicpm-o",
+        "llama-cpp",
+        "gguf-conversion",
+        "multimodal-inference",
+        "model-quantization",
+        "pytorch"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-minicpmo2.6.md",
+      "optimized": true,
+      "word_count": 69
+    },
+    {
+      "file_path": "012-multimodal-minicpmo4.0.md",
+      "title": "Minicpmo4.0",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/minicpmo4.0.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:38.602345782-03:00",
+      "summary": "This document provides instructions on building the llama.cpp environment, converting MiniCPM-o 4 PyTorch models to GGUF format, and performing inference.",
+      "tags": [
+        "minicpm-o",
+        "llama-cpp",
+        "gguf-conversion",
+        "llm-quantization",
+        "model-inference"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-minicpmo4.0.md",
+      "optimized": true,
+      "word_count": 59
+    },
+    {
+      "file_path": "013-multimodal-mobilevlm.md",
+      "title": "MobileVLM",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal/MobileVLM.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:31.766386182-03:00",
+      "summary": "This document provides instructions for converting, building, and running MobileVLM models on Android devices using the llama-mtmd-cli implementation.",
+      "tags": [
+        "mobilevlm",
+        "android",
+        "model-conversion",
+        "gguf",
+        "inference",
+        "llava",
+        "machine-learning"
+      ],
+      "category": "guide",
+      "original_file_path": "multimodal-mobilevlm.md",
+      "optimized": true,
+      "word_count": 318
+    },
+    {
+      "file_path": "014-backend-blis.md",
+      "title": "BLIS",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/BLIS.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:08.915748088-03:00",
+      "summary": "This document provides instructions for compiling, installing, and configuring the BLIS high-performance linear algebra framework for use with projects like llama.cpp.",
+      "tags": [
+        "blis-installation",
+        "linear-algebra",
+        "high-performance-computing",
+        "compilation-guide",
+        "multithreading",
+        "software-framework"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-blis.md",
+      "optimized": true,
+      "word_count": 102
+    },
+    {
+      "file_path": "015-backend-cuda-fedora.md",
+      "title": "CUDA FEDORA",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/CUDA-FEDORA.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:08.915771312-03:00",
+      "summary": "This document provides a step-by-step guide for installing and configuring the Nvidia CUDA toolkit within a Fedora toolbox container to avoid system conflicts.",
+      "tags": [
+        "cuda",
+        "fedora",
+        "toolbox",
+        "nvidia",
+        "containerization",
+        "development-environment"
+      ],
+      "category": "tutorial",
+      "original_file_path": "backend-cuda-fedora.md",
+      "optimized": true,
+      "word_count": 451
+    },
+    {
+      "file_path": "016-backend-opencl.md",
+      "title": "OPENCL",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/OPENCL.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:10.075226565-03:00",
+      "summary": "This document provides a guide for setting up and building the OpenCL backend for llama.cpp, focusing on hardware support, model quantization requirements, and compilation instructions for Android and Windows Arm64 platforms.",
+      "tags": [
+        "llama-cpp",
+        "opencl",
+        "gpu-acceleration",
+        "adreno",
+        "model-quantization",
+        "cross-compilation"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-opencl.md",
+      "optimized": true,
+      "word_count": 546
+    },
+    {
+      "file_path": "017-backend-openvino.md",
+      "title": "OPENVINO",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/OPENVINO.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:11.139272638-03:00",
+      "summary": "This document explains how to integrate the OpenVINO backend into llama.cpp to enable hardware-accelerated AI inference on Intel CPUs, GPUs, and NPUs.",
+      "tags": [
+        "openvino",
+        "llama-cpp",
+        "intel-hardware",
+        "ai-inference",
+        "gguf",
+        "model-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-openvino.md",
+      "optimized": true,
+      "word_count": 979
+    },
+    {
+      "file_path": "018-backend-snapdragon-linux.md",
+      "title": "Linux",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/snapdragon/linux.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:17.155324368-03:00",
+      "summary": "This document provides instructions for cross-compiling, building, and deploying the llama.cpp project for Qualcomm Snapdragon-based Linux devices using a specialized Docker toolchain.",
+      "tags": [
+        "snapdragon",
+        "llama-cpp",
+        "cross-compilation",
+        "docker",
+        "hexagon-sdk",
+        "arm64-linux",
+        "opencl"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-snapdragon-linux.md",
+      "optimized": true,
+      "word_count": 134
+    },
+    {
+      "file_path": "019-backend-snapdragon-windows.md",
+      "title": "Windows",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/snapdragon/windows.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:18.194640091-03:00",
+      "summary": "This document provides instructions for setting up the development environment on Snapdragon Windows devices, including driver installation, SDK configuration, and the process for test-signing HTP ops libraries.",
+      "tags": [
+        "snapdragon",
+        "windows-driver",
+        "npu-setup",
+        "hexagon-sdk",
+        "adreno-sdk",
+        "test-signing",
+        "driver-installation"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-snapdragon-windows.md",
+      "optimized": true,
+      "word_count": 309
+    },
+    {
+      "file_path": "020-backend-sycl.md",
+      "title": "SYCL",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/SYCL.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:11.153445232-03:00",
+      "summary": "This document provides an overview and technical guidelines for using the SYCL backend in llama.cpp, focusing on hardware support and setup requirements for Intel GPUs.",
+      "tags": [
+        "sycl",
+        "intel-gpu",
+        "llama-cpp",
+        "oneapi",
+        "heterogeneous-computing",
+        "hardware-acceleration"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-sycl.md",
+      "optimized": true,
+      "word_count": 1911
+    },
+    {
+      "file_path": "021-backend-virtgpu-development.md",
+      "title": "Development",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/VirtGPU/development.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:12.285081728-03:00",
+      "summary": "This document outlines the development workflow and build procedures for the GGML-VirtGPU backend, including environment configuration for macOS and testing within containerized environments.",
+      "tags": [
+        "ggml-virtgpu",
+        "mac-os-development",
+        "virglrenderer",
+        "containerization",
+        "backend-integration",
+        "llama-cpp"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-virtgpu-development.md",
+      "optimized": true,
+      "word_count": 180
+    },
+    {
+      "file_path": "022-backend-zdnn.md",
+      "title": "ZDNN",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/zDNN.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:19.909763044-03:00",
+      "summary": "This document provides instructions for compiling and configuring the llama.cpp project to utilize the IBM zDNN hardware acceleration library on supported IBM Z mainframe systems.",
+      "tags": [
+        "ibm-zdnn",
+        "llama-cpp",
+        "hardware-acceleration",
+        "mainframe-optimization",
+        "neural-network-inference",
+        "build-instructions"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-zdnn.md",
+      "optimized": true,
+      "word_count": 236
+    },
+    {
+      "file_path": "023-backend-zendnn.md",
+      "title": "ZenDNN",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/ZenDNN.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:12.918471226-03:00",
+      "summary": "This document provides instructions on using AMD's ZenDNN library to accelerate inference performance in llama.cpp on AMD EPYC and Ryzen processors through optimized matrix multiplication operations.",
+      "tags": [
+        "zendnn",
+        "amd-epyc",
+        "llama-cpp",
+        "inference-acceleration",
+        "matrix-multiplication",
+        "cpu-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "backend-zendnn.md",
+      "optimized": true,
+      "word_count": 704
+    },
+    {
+      "file_path": "024-build-riscv64-spacemit.md",
+      "title": "Build riscv64 spacemit",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/build-riscv64-spacemit.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:20.262717178-03:00",
+      "summary": "This document provides instructions for building and simulating llama.cpp specifically for RISC-V SpacemiT SoC architectures, including build configuration requirements and performance benchmarking results.",
+      "tags": [
+        "risc-v",
+        "spacemit",
+        "llama-cpp",
+        "cross-compilation",
+        "qemu",
+        "soc-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "build-riscv64-spacemit.md",
+      "optimized": true,
+      "word_count": 487
+    },
+    {
+      "file_path": "025-android.md",
+      "title": "Android",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/android.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:08.915697723-03:00",
+      "summary": "This document provides instructions for deploying and building llama.cpp on Android devices using three different methods: Android Studio integration, Termux terminal emulation, and Android NDK cross-compilation.",
+      "tags": [
+        "android-development",
+        "llama-cpp",
+        "cross-compilation",
+        "mobile-inference",
+        "termux",
+        "ndk",
+        "gguf"
+      ],
+      "category": "guide",
+      "original_file_path": "android.md",
+      "optimized": true,
+      "word_count": 404
+    },
+    {
+      "file_path": "026-build-s390x.md",
+      "title": "Build s390x",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/build-s390x.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:21.242413789-03:00",
+      "summary": "This guide provides instructions for building llama.cpp on IBM Z and LinuxONE mainframes, including configuration for BLAS, hardware accelerators, and required model conversion for big-endian architecture.",
+      "tags": [
+        "s390x",
+        "llama-cpp",
+        "ibm-z",
+        "linuxone",
+        "model-conversion",
+        "cmake",
+        "zdnn"
+      ],
+      "category": "guide",
+      "original_file_path": "build-s390x.md",
+      "optimized": true,
+      "word_count": 820
+    },
+    {
+      "file_path": "027-build.md",
+      "title": "Build",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/build.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:22.034382563-03:00",
+      "summary": "This document provides comprehensive instructions for compiling and building the llama.cpp project from source across various operating systems and hardware backends.",
+      "tags": [
+        "llama-cpp",
+        "build-instructions",
+        "cmake",
+        "gpu-acceleration",
+        "compiler-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "build.md",
+      "optimized": true,
+      "word_count": 1458
+    },
+    {
+      "file_path": "028-development-debugging-tests.md",
+      "title": "Debugging tests",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/development/debugging-tests.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:23.987599099-03:00",
+      "summary": "This document describes how to efficiently run and debug specific project tests using a dedicated shell script and standard command-line tools like GDB.",
+      "tags": [
+        "debugging",
+        "testing",
+        "gdb",
+        "shell-scripts",
+        "build-automation",
+        "development-workflow"
+      ],
+      "category": "guide",
+      "original_file_path": "development-debugging-tests.md",
+      "optimized": true,
+      "word_count": 180
+    },
+    {
+      "file_path": "029-development-howto-add-model.md",
+      "title": "HOWTO add model",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/development/HOWTO-add-model.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:22.86636652-03:00",
+      "summary": "This document provides a comprehensive guide for developers on how to implement support for new machine learning model architectures within the llama.cpp framework.",
+      "tags": [
+        "llama-cpp",
+        "gguf",
+        "model-conversion",
+        "ggml",
+        "machine-learning",
+        "inference",
+        "multimodal"
+      ],
+      "category": "guide",
+      "original_file_path": "development-howto-add-model.md",
+      "optimized": true,
+      "word_count": 750
+    },
+    {
+      "file_path": "030-development-token-generation-performance-tips.md",
+      "title": "Token generation performance tips",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/development/token_generation_performance_tips.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:25.977674464-03:00",
+      "summary": "This document provides troubleshooting steps to improve token generation performance by verifying GPU offloading via CUDA and optimizing CPU thread count settings.",
+      "tags": [
+        "performance-tuning",
+        "gpu-acceleration",
+        "cuda-offloading",
+        "token-generation",
+        "inference-speed",
+        "llama-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "development-token-generation-performance-tips.md",
+      "optimized": true,
+      "word_count": 224
+    },
+    {
+      "file_path": "031-docker.md",
+      "title": "Docker",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/docker.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:27.293470443-03:00",
+      "summary": "This document outlines the available Docker images for llama.cpp, providing instructions on how to run model conversion, inference, and server deployment using different hardware acceleration configurations.",
+      "tags": [
+        "docker",
+        "llama-cpp",
+        "containerization",
+        "machine-learning",
+        "gpu-acceleration",
+        "inference"
+      ],
+      "category": "guide",
+      "original_file_path": "docker.md",
+      "optimized": true,
+      "word_count": 284
+    },
+    {
+      "file_path": "032-preset.md",
+      "title": "Preset",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/preset.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:45.267596353-03:00",
+      "summary": "This document explains how to use INI preset files to manage and share reusable parameter configurations for llama.cpp models, including local and remote Hugging Face implementations.",
+      "tags": [
+        "llama-cpp",
+        "ini-presets",
+        "configuration-management",
+        "hugging-face",
+        "model-parameters",
+        "cli-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "preset.md",
+      "optimized": true,
+      "word_count": 176
+    },
+    {
+      "file_path": "033-autoparser.md",
+      "title": "Autoparser",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/autoparser.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:08.915774398-03:00",
+      "summary": "Differential compositional system that auto-analyzes chat templates to construct PEG parsers for reasoning, content, and tool call extraction.",
+      "tags": [
+        "chat-templates",
+        "peg-parser",
+        "tool-calling",
+        "model-output",
+        "template-analysis",
+        "differential-parsing"
+      ],
+      "category": "concept",
+      "original_file_path": "autoparser.md",
+      "word_count": 3055,
+      "optimized": true
+    },
+    {
+      "file_path": "034-backend-snapdragon-developer.md",
+      "title": "Developer",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/snapdragon/developer.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:16.992150903-03:00",
+      "summary": "This document provides a technical overview of the Hexagon NPU backend in llama.cpp, detailing library components, memory management, and techniques for handling models exceeding device memory limits.",
+      "tags": [
+        "hexagon",
+        "npu",
+        "llama-cpp",
+        "backend",
+        "memory-management",
+        "snapdragon",
+        "model-offloading"
+      ],
+      "category": "concept",
+      "original_file_path": "backend-snapdragon-developer.md",
+      "optimized": true,
+      "word_count": 211
+    },
+    {
+      "file_path": "035-backend-virtgpu.md",
+      "title": "VirtGPU",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/VirtGPU.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:12.299789816-03:00",
+      "summary": "Describes the architecture and implementation of the GGML-VirtGPU backend, which enables virtual machine applications to offload machine learning computations to host hardware via virtio-gpu shared memory.",
+      "tags": [
+        "ggml",
+        "virtio-gpu",
+        "machine-learning",
+        "virtual-machine",
+        "shared-memory",
+        "hardware-acceleration",
+        "remoting"
+      ],
+      "category": "concept",
+      "original_file_path": "backend-virtgpu.md",
+      "optimized": true,
+      "word_count": 612
+    },
+    {
+      "file_path": "036-function-calling.md",
+      "title": "Function calling",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/function-calling.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:28.142398047-03:00",
+      "summary": "This document explains the implementation of OpenAI-style function calling within the llama.cpp framework, detailing support for native and generic tool-calling formats across various models.",
+      "tags": [
+        "llama-cpp",
+        "function-calling",
+        "tool-use",
+        "llm-inference",
+        "jinja-templates",
+        "ai-api"
+      ],
+      "category": "concept",
+      "original_file_path": "function-calling.md",
+      "optimized": true,
+      "word_count": 1705
+    },
+    {
+      "file_path": "037-llguidance.md",
+      "title": "Llguidance",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/llguidance.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:30.834634122-03:00",
+      "summary": "This document explains how to integrate and use the LLGuidance library within llama.cpp to enable high-performance constrained decoding and structured output generation.",
+      "tags": [
+        "llguidance",
+        "llama-cpp",
+        "constrained-decoding",
+        "json-schema",
+        "structured-outputs",
+        "grammar-parsing",
+        "lexer"
+      ],
+      "category": "configuration",
+      "original_file_path": "llguidance.md",
+      "optimized": true,
+      "word_count": 312
+    },
+    {
+      "file_path": "038-multimodal.md",
+      "title": "Multimodal",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/multimodal.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:43.645302009-03:00",
+      "summary": "This document explains how to configure and run multimodal models, including image and audio support, using llama.cpp's CLI and server tools.",
+      "tags": [
+        "multimodal",
+        "llama-cpp",
+        "computer-vision",
+        "audio-processing",
+        "gguf",
+        "cli-tools",
+        "machine-learning"
+      ],
+      "category": "configuration",
+      "original_file_path": "multimodal.md",
+      "optimized": true,
+      "word_count": 155
+    },
+    {
+      "file_path": "039-backend-cann.md",
+      "title": "CANN",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/CANN.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:08.915765911-03:00",
+      "summary": "This document provides an overview of the CANN backend for llama.cpp, detailing hardware support for Ascend NPUs, compatible AI models, and setup requirements for running the environment in Linux or Docker.",
+      "tags": [
+        "llama-cpp",
+        "ascend-npu",
+        "cann",
+        "ai-inference",
+        "hardware-acceleration",
+        "docker"
+      ],
+      "category": "reference",
+      "original_file_path": "backend-cann.md",
+      "optimized": true,
+      "word_count": 1298
+    },
+    {
+      "file_path": "040-backend-virtgpu-configuration.md",
+      "title": "Configuration",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/backend/VirtGPU/configuration.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:11.396077135-03:00",
+      "summary": "This document provides a comprehensive reference for the environment variables used to configure the ggml-virtgpu backend system across guest, hypervisor, and host components.",
+      "tags": [
+        "ggml",
+        "virtgpu",
+        "configuration",
+        "environment-variables",
+        "virglrenderer",
+        "backend-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "backend-virtgpu-configuration.md",
+      "optimized": true,
+      "word_count": 454
+    },
+    {
+      "file_path": "041-development-parsing.md",
+      "title": "Parsing",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/development/parsing.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:25.0433362-03:00",
+      "summary": "PEG parser library for model output — streaming, JSON, AST, GBNF grammar generation.",
+      "tags": [
+        "peg-parser",
+        "model-output",
+        "c-plus-plus",
+        "gbnf-grammar",
+        "json-parsing",
+        "ast-generation",
+        "tool-calling"
+      ],
+      "category": "reference",
+      "original_file_path": "development-parsing.md",
+      "word_count": 1058,
+      "optimized": true
+    },
+    {
+      "file_path": "042-ops.md",
+      "title": "Ops",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/ops.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:43.994978247-03:00",
+      "summary": "This document provides a comprehensive compatibility matrix detailing the support status of various GGML tensor operations across different computational backends.",
+      "tags": [
+        "ggml",
+        "tensor-operations",
+        "backend-support",
+        "compatibility-matrix",
+        "compute-kernels"
+      ],
+      "category": "reference",
+      "original_file_path": "ops.md",
+      "optimized": true,
+      "word_count": 2699
+    },
+    {
+      "file_path": "043-speculative.md",
+      "title": "Speculative",
+      "url": "https://github.com/ggml-org/llama.cpp/blob/master/docs/speculative.md",
+      "source": "git",
+      "fetched_at": "2026-04-28T09:49:46.374054321-03:00",
+      "summary": "This document explains the speculative decoding feature in llama.cpp, detailing how various implementations, including draft models and n-gram based strategies, can be used to accelerate token generation.",
+      "tags": [
+        "speculative-decoding",
+        "llama-cpp",
+        "llm-inference",
+        "performance-optimization",
+        "ngram-modeling",
+        "token-generation"
+      ],
+      "category": "reference",
+      "original_file_path": "speculative.md",
+      "optimized": true,
+      "word_count": 642
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-28T21:26:05.171189+00:00",
+    "total_files": 43,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & Guides",
+      "Concepts & Fundamentals",
+      "Configuration",
+      "API Reference"
+    ],
+    "dropped": []
+  },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-04-28T22:40:47.715946+00:00",
+    "files_optimized": 43,
+    "files_deleted": 0,
+    "deleted_files": []
+  }
+}

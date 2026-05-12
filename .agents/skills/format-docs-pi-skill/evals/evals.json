@@ -1,0 +1,66 @@
+{
+  "skill": "format-docs-skill",
+  "version": 1,
+  "cases": [
+    {
+      "id": "trigger.format-docs-keyword",
+      "input": "format the docs in /home/diogo/dev/library-docs/docs_unslothai for AI consumption",
+      "expect_skill_invoked": true,
+      "rationale": "Direct phrasing — 'format', 'docs', 'AI consumption'."
+    },
+    {
+      "id": "trigger.optimize-for-agents",
+      "input": "optimize this library-docs folder for agent reading, obsidian style",
+      "expect_skill_invoked": true,
+      "rationale": "Synonym phrasing with explicit 'obsidian' marker."
+    },
+    {
+      "id": "trigger.token-dense",
+      "input": "compress these docs to be token dense without losing info",
+      "expect_skill_invoked": true,
+      "rationale": "'compress' + 'token dense' + 'without losing info' = the skill's core promise."
+    },
+    {
+      "id": "negative.organize-only",
+      "input": "organize the docs in this folder by category",
+      "expect_skill_invoked": false,
+      "rationale": "No format/optimize/compress signal — this belongs to organize-docs-skill."
+    },
+    {
+      "id": "negative.single-file-rewrite",
+      "input": "rewrite this single README to be shorter",
+      "expect_skill_invoked": false,
+      "rationale": "No folder / metadata.json context — single-file rewrite doesn't need batching."
+    },
+    {
+      "id": "phase0.missing-metadata-aborts",
+      "scenario": "Folder exists but has no metadata.json",
+      "expected_behavior": "setup.sh exits non-zero with clear message; skill tells user to run organize-docs-skill first."
+    },
+    {
+      "id": "phase1.numbered-files-not-deleted",
+      "scenario": "Folder has nnn-readme.md that looks like an index (lots of links to siblings)",
+      "expected_behavior": "triage.py keeps it; optimization pass compresses it instead."
+    },
+    {
+      "id": "phase1.duplicate-readme-deleted",
+      "scenario": "Folder has README.md whose body is dominated by links to numbered siblings",
+      "expected_behavior": "triage.py flags it as duplicate-index; --apply removes file + metadata entry."
+    },
+    {
+      "id": "phase2.idempotent-rerun",
+      "scenario": "Re-run skill on a folder where every file has 'optimized: true'",
+      "expected_behavior": "plan_batches.py returns total_pending: 0; Phase 2 skipped; Phase 3 + 4 + 5 still run cleanly."
+    },
+    {
+      "id": "phase4.empty-category-dropped",
+      "scenario": "All files in 'Changelog & Releases' deleted by triage",
+      "expected_behavior": "regenerate_index.py omits the empty H3 section; categories count in frontmatter decremented."
+    },
+    {
+      "id": "phase5.broken-wikilink-detected",
+      "scenario": "Agent writes [[004-deleted-file|text]] in 005-foo.md, then 004 is removed",
+      "expected_behavior": "verify.sh reports BROKEN-WIKILINK; dispatcher reverts the wikilink in 005-foo.md."
+    }
+  ]
+}

@@ -1,0 +1,281 @@
+---
+title: Wan2.1 - SGLang Documentation
+url: https://docs.sglang.io/cookbook/diffusion/Wan/Wan2.1
+source: sitemap
+fetched_at: 2026-05-11T05:49:54.561547625-03:00
+rendered_js: false
+word_count: 602
+summary: This document provides a guide for deploying and using the Wan2.1 video generative models within the SGLang framework, covering installation, configuration options, API invocation, and performance benchmarking.
+tags:
+    - wan2-1
+    - sglang
+    - video-generation
+    - model-deployment
+    - diffusion-models
+    - gpu-optimization
+    - inference-acceleration
+category: guide
+---
+
+> ## Documentation Index
+> 
+> Fetch the complete documentation index at: [https://docs.sglang.io/llms.txt](https://docs.sglang.io/llms.txt)
+> 
+> Use this file to discover all available pages before exploring further.
+
+## 1. Model Introduction
+
+[Wan2.1 series](https://github.com/Wan-Video/Wan2.1) is an open and advanced suite of large-scale video generative models from Wan-AI. Key characteristics:
+
+- **State-of-the-art video quality**: Consistently outperforms many open-source and commercial video models on internal and public benchmarks, especially for motion richness and temporal consistency.
+- **Consumer GPU friendly**: The T2V-1.3B variant can generate 5-second 480P videos on consumer GPUs with modest VRAM requirements.
+- **Multi-capability suite**: Supports Text-to-Video (T2V), Image-to-Video (I2V), video editing, text-to-image, and video-to-audio generation.
+- **Robust text rendering**: First-generation Wan model capable of generating both Chinese and English text in videos with strong readability.
+- **Powerful Wan-VAE**: A 3D causal VAE that encodes/decodes long 1080P videos while preserving temporal information, enabling efficient high-resolution video generation.
+
+For more details, refer to the official Wan2.1 resources:
+
+- **GitHub**: [Wan-Video/Wan2.1](https://github.com/Wan-Video/Wan2.1)
+- **Hugging Face collection**: [Wan-AI Wan2.1](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B)
+
+## 2. SGLang-diffusion Installation
+
+SGLang-diffusion offers multiple installation methods. You can choose the most suitable installation method based on your hardware platform and requirements. Please refer to the [official SGLang-diffusion installation guide](https://docs.sglang.io/docs/sglang-diffusion/installation) for installation instructions.
+
+## 3. Model Deployment
+
+This section provides deployment configurations optimized for different hardware platforms and use cases.
+
+### 3.1 Basic Configuration
+
+The Wan2.1 series offers models in multiple sizes and resolutions, optimized for different hardware platforms. The recommended launch configurations vary by hardware and model size. **Interactive Command Generator**: Use the configuration selector below to automatically generate an appropriate deployment command for your model variant and options.
+
+Hardware Platform
+
+MI300X/MI325X/MI355X
+
+Task Type
+
+Text-to-Video (T2V)Image-to-Video (I2V)
+
+Model Variant
+
+14BHigh-quality, 480P/720P1.3BLightweight, 480P
+
+Sequence Parallelism
+
+StandardBest Practice (4 GPUs)
+
+Select LoRA Model (Only some of the supported LoRAs are listed here)
+
+General Wan2.1 LoRANIVEDAN/wan2.1-lora
+
+Run this Command:
+
+```
+sglang serve \
+  --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers \
+  --dit-layerwise-offload true \
+  --lora-path NIVEDAN/wan2.1-lora
+```
+
+### 3.2 Configuration Tips
+
+Current supported optimization options are listed in the [SGLang diffusion support matrix](https://docs.sglang.io/docs/sglang-diffusion/attention_backends#platform-support-matrix).
+
+- `--vae-path`: Path to a custom VAE model or HuggingFace model ID. If not specified, the VAE will be loaded from the main model path.
+- `--num-gpus {NUM_GPUS}`: Number of GPUs to use.
+- `--tp-size {TP_SIZE}`: Tensor parallelism size (for the encoder/DiT; keep (\\leq 1) if relying heavily on CPU offload).
+- `--sp-degree {SP_SIZE}`: Sequence parallelism degree.
+- `--ulysses-degree {ULYSSES_DEGREE}`: Degree of DeepSpeed-Ulysses-style SP in USP.
+- `--ring-degree {RING_DEGREE}`: Degree of ring attention-style SP in USP.
+- `--text-encoder-cpu-offload`, `--dit-cpu-offload`, `--vae-cpu-offload`: Use CPU offload to reduce peak GPU memory when needed.
+
+## 4. Model Invocation
+
+### 4.1 Basic Usage
+
+For more API usage and request examples, please refer to: [SGLang Diffusion OpenAI API](https://docs.sglang.io/docs/sglang-diffusion/api/openai_api)
+
+#### 4.1.1 Launch a server and then send requests
+
+```
+sglang serve --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers --port 30000
+
+curl http://127.0.0.1:30000/v1/images/generations \
+  -o >(jq -r '.data[0].b64_json' | base64 --decode > example.png) \
+  -H "Content-Type: application/json" \
+  -H "Authorization: Bearer $OPENAI_API_KEY" \
+  -d '{
+    "model": "Wan-AI/Wan2.1-T2V-14B-Diffusers",
+    "prompt": "A cute baby sea otter",
+    "n": 1,
+    "size": "1024x1024",
+    "response_format": "b64_json"
+  }'
+```
+
+#### 4.1.2 Generate a video without launching a server
+
+```
+SERVER_ARGS=(
+  --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers
+  --text-encoder-cpu-offload
+  --pin-cpu-memory
+  --num-gpus 4
+  --ulysses-degree=2
+  --enable-cfg-parallel
+)
+
+SAMPLING_ARGS=(
+  --prompt "A curious raccoon"
+  --save-output
+  --output-path outputs
+  --output-file-name "A curious raccoon.mp4"
+)
+
+sglang generate "${SERVER_ARGS[@]}" "${SAMPLING_ARGS[@]}"
+```
+
+### 4.2 Advanced Usage
+
+#### 4.2.1 Cache-DiT Acceleration
+
+SGLang integrates [Cache-DiT](https://github.com/vipshop/cache-dit), a caching acceleration engine for Diffusion Transformers (DiT), to achieve significant inference speedups with minimal quality loss. You can set `SGLANG_CACHE_DIT_ENABLED=True` to enable it. For more details, please refer to the SGLang Cache-DiT [documentation](https://docs.sglang.io/docs/sglang-diffusion/cache_dit). **Basic Usage**
+
+```
+SGLANG_CACHE_DIT_ENABLED=true sglang serve --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers
+```
+
+**Advanced Usage** Combined Configuration Example:
+
+```
+SGLANG_CACHE_DIT_ENABLED=true \
+SGLANG_CACHE_DIT_FN=2 \
+SGLANG_CACHE_DIT_BN=1 \
+SGLANG_CACHE_DIT_WARMUP=4 \
+SGLANG_CACHE_DIT_RDT=0.4 \
+SGLANG_CACHE_DIT_MC=4 \
+SGLANG_CACHE_DIT_TAYLORSEER=true \
+SGLANG_CACHE_DIT_TS_ORDER=2 \
+sglang serve --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers
+```
+
+#### 4.2.2 GPU Optimization
+
+- `--dit-cpu-offload`: Use CPU offload for DiT inference. Enable if you run out of memory with FSDP.
+- `--text-encoder-cpu-offload`: Use CPU offload for text encoder inference.
+- `--image-encoder-cpu-offload`: Use CPU offload for image encoder inference.
+- `--vae-cpu-offload`: Use CPU offload for VAE.
+- `--pin-cpu-memory`: Pin memory for CPU offload. Use as a workaround if you see “CUDA error: invalid argument”.
+
+#### 4.2.3 Supported LoRA Registry
+
+SGLang supports applying Wan2.1 LoRA adapters on top of base models:
+
+origin modelsupported LoRA[Wan-AI/Wan2.1-T2V-14B](https://huggingface.co/Wan-AI/Wan2.1-T2V-14B)[NIVEDAN/wan2.1-lora](https://huggingface.co/NIVEDAN/wan2.1-lora)[Wan-AI/Wan2.1-I2V-14B-720P](https://huggingface.co/Wan-AI/Wan2.1-I2V-14B-720P)[valiantcat/Wan2.1-Fight-LoRA](https://huggingface.co/valiantcat/Wan2.1-Fight-LoRA)
+
+**Example**:
+
+```
+sglang serve --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers --port 30000 \
+    --lora-path NIVEDAN/wan2.1-lora
+```
+
+## 5. Benchmark
+
+Test Environment:
+
+- Hardware: AMD MI300X GPU (1x)
+- Model: Wan-AI/Wan2.1-T2V-14B-Diffusers
+- SGLang Docker Image Version: 0.5.9
+
+### 5.1 How to Run Benchmarks with SGLang
+
+You can use the built-in SGLang diffusion benchmark script to evaluate Wan2.1 performance on your hardware.
+
+#### 5.1.1 Generate a single video
+
+**Server Command**:
+
+```
+sglang serve --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers
+```
+
+**Benchmark Command**:
+
+```
+python3 -m sglang.multimodal_gen.benchmarks.bench_serving \
+    --backend sglang-video --dataset vbench --task text-to-video --num-prompts 1 --max-concurrency 1
+```
+
+**Result**:
+
+```
+================= Serving Benchmark Result =================
+Task:                                    text-to-video
+Model:                                   Wan-AI/Wan2.1-T2V-14B-Diffusers
+Dataset:                                 vbench
+--------------------------------------------------
+Benchmark duration (s):                  1958.41
+Request rate:                            inf
+Max request concurrency:                 1
+Successful requests:                     1/1
+--------------------------------------------------
+Request throughput (req/s):              0.00
+Latency Mean (s):                        1958.4059
+Latency Median (s):                      1958.4059
+Latency P99 (s):                         1958.4059
+--------------------------------------------------
+Peak Memory Max (MB):                    59662.00
+Peak Memory Mean (MB):                   59662.00
+Peak Memory Median (MB):                 59662.00
+============================================================
+```
+
+#### 5.1.2 Generate videos with Cache-DiT acceleration
+
+**Server Command**:
+
+```
+SGLANG_CACHE_DIT_ENABLED=true \
+SGLANG_CACHE_DIT_FN=2 \
+SGLANG_CACHE_DIT_BN=1 \
+SGLANG_CACHE_DIT_WARMUP=4 \
+SGLANG_CACHE_DIT_RDT=0.4 \
+SGLANG_CACHE_DIT_MC=4 \
+SGLANG_CACHE_DIT_TAYLORSEER=true \
+SGLANG_CACHE_DIT_TS_ORDER=2 \
+sglang serve --model-path Wan-AI/Wan2.1-T2V-14B-Diffusers
+```
+
+**Benchmark Command**:
+
+```
+python3 -m sglang.multimodal_gen.benchmarks.bench_serving \
+    --backend sglang-video --dataset vbench --task text-to-video --num-prompts 1 --max-concurrency 1
+```
+
+**Result**:
+
+```
+================= Serving Benchmark Result =================
+Task:                                    text-to-video
+Model:                                   Wan-AI/Wan2.1-T2V-14B-Diffusers
+Dataset:                                 vbench
+--------------------------------------------------
+Benchmark duration (s):                  556.99
+Request rate:                            inf
+Max request concurrency:                 1
+Successful requests:                     1/1
+--------------------------------------------------
+Request throughput (req/s):              0.00
+Latency Mean (s):                        556.9885
+Latency Median (s):                      556.9885
+Latency P99 (s):                         556.9885
+--------------------------------------------------
+Peak Memory Max (MB):                    69306.00
+Peak Memory Mean (MB):                   69306.00
+Peak Memory Median (MB):                 69306.00
+============================================================
+```

@@ -1,0 +1,1257 @@
+{
+  "generated_at": "2026-05-04T15:58:39.645402503-03:00",
+  "source_url": "https://github.com/kovidgoyal/kitty",
+  "strategy": "git",
+  "total_documents": 62,
+  "documents": [
+    {
+      "file_path": "001-intro-vid.rst.md",
+      "title": "Intro vid",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/intro_vid.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:46.460366365-03:00",
+      "summary": "Video timestamps for a kitty terminal feature tour covering kittens, window navigation, remote control, graphics, and theming.",
+      "tags": [
+        "kitty-terminal",
+        "terminal-emulator",
+        "productivity",
+        "shell-integration",
+        "terminal-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-intro-vid.rst.md",
+      "word_count": 275,
+      "optimized": true
+    },
+    {
+      "file_path": "003-quickstart.rst.md",
+      "title": "Quickstart",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/quickstart.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:25.531631187-03:00",
+      "summary": "Instructions for installing kitty via binaries, source, or package managers, with links to configuration and invocation docs.",
+      "tags": [
+        "kitty-terminal",
+        "installation-guide",
+        "binary-install",
+        "software-setup",
+        "package-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-quickstart.rst.md",
+      "word_count": 78,
+      "optimized": true
+    },
+    {
+      "file_path": "004-kittens-broadcast.rst.md",
+      "title": "Broadcast",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/broadcast.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:49.42567045-03:00",
+      "summary": "Send keystrokes to all kitty windows simultaneously using the broadcast kitten.",
+      "tags": [
+        "kitty-terminal",
+        "keyboard-shortcuts",
+        "automation",
+        "window-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-broadcast.rst.md",
+      "word_count": 97,
+      "optimized": true
+    },
+    {
+      "file_path": "005-kittens-choose-files.rst.md",
+      "title": "Choose files",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/choose-files.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:50.414512937-03:00",
+      "summary": "This document explains how to use and configure the choose-files kitten, a high-performance fuzzy file selector for the terminal that serves as a keyboard-friendly alternative to GUI file dialogs.",
+      "tags": [
+        "kitty-terminal",
+        "file-selector",
+        "fuzzy-finder",
+        "terminal-utilities",
+        "keyboard-navigation",
+        "cli-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-choose-files.rst.md",
+      "word_count": 317,
+      "optimized": true
+    },
+    {
+      "file_path": "006-kittens-clipboard.rst.md",
+      "title": "Clipboard",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/clipboard.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:52.503207256-03:00",
+      "summary": "Copy/paste to system clipboard from shell scripts, with support for files, STDIN/STDOUT, images, and arbitrary MIME types. Works over SSH.",
+      "tags": [
+        "clipboard-management",
+        "shell-utilities",
+        "data-transfer",
+        "ssh-clipboard",
+        "mime-types"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-clipboard.rst.md",
+      "word_count": 88,
+      "optimized": true
+    },
+    {
+      "file_path": "007-kittens-command-palette.rst.md",
+      "title": "Command palette",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/command-palette.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:53.666793021-03:00",
+      "summary": "This document explains how to use the kitty command palette to search, filter, and trigger both mapped and unmapped keyboard actions.",
+      "tags": [
+        "kitty-terminal",
+        "command-palette",
+        "keyboard-shortcuts",
+        "ui-navigation",
+        "productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-command-palette.rst.md",
+      "word_count": 296,
+      "optimized": true
+    },
+    {
+      "file_path": "008-kittens-custom.rst.md",
+      "title": "Custom",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/custom.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:55.415993162-03:00",
+      "summary": "This document explains how to create and configure custom kittens to extend the functionality of the kitty terminal emulator using Python.",
+      "tags": [
+        "kitty",
+        "terminal",
+        "python",
+        "automation",
+        "scripting",
+        "customization"
+      ],
+      "category": "tutorial",
+      "original_file_path": "docs-kittens-custom.rst.md",
+      "word_count": 411,
+      "optimized": true
+    },
+    {
+      "file_path": "009-kittens-desktop-ui.rst.md",
+      "title": "Desktop ui",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/desktop-ui.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:56.498080438-03:00",
+      "summary": "This document explains how to use the kitty desktop-ui kitten to integrate terminal-based components into a Linux desktop environment using XDG portals.",
+      "tags": [
+        "linux",
+        "terminal",
+        "desktop-integration",
+        "xdg-portal",
+        "kitty",
+        "window-manager",
+        "ui-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-desktop-ui.rst.md",
+      "word_count": 299,
+      "optimized": true
+    },
+    {
+      "file_path": "010-kittens-developing-builtin-kittens.rst.md",
+      "title": "Developing builtin kittens",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/developing-builtin-kittens.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:56.717404322-03:00",
+      "summary": "Guide to creating builtin kittens for kitty: Go main logic + Python CLI wrappers, with file templates and integration steps.",
+      "tags": [
+        "kitty-terminal",
+        "go-development",
+        "cli-tools",
+        "plugin-development",
+        "python-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-developing-builtin-kittens.rst.md",
+      "word_count": 67,
+      "optimized": true
+    },
+    {
+      "file_path": "011-kittens-diff.rst.md",
+      "title": "Diff",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/diff.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:57.46225501-03:00",
+      "summary": "Fast side-by-side diff tool with syntax highlighting, images, keyboard navigation, and git integration.",
+      "tags": [
+        "kitty-terminal",
+        "diff-tool",
+        "version-control",
+        "git-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-diff.rst.md",
+      "word_count": 247,
+      "optimized": true
+    },
+    {
+      "file_path": "012-kittens-hints.rst.md",
+      "title": "Hints",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/hints.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:58.524731508-03:00",
+      "summary": "This document explains how to use and customize the kitty terminal's 'hints' feature to select, process, and perform actions on visible text snippets like URLs, file paths, and custom patterns.",
+      "tags": [
+        "kitty-terminal",
+        "hints-mode",
+        "automation",
+        "terminal-productivity",
+        "customization",
+        "python-scripting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-hints.rst.md",
+      "word_count": 197,
+      "optimized": true
+    },
+    {
+      "file_path": "013-kittens-hyperlinked-grep.rst.md",
+      "title": "Hyperlinked grep",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/hyperlinked_grep.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:59.477208007-03:00",
+      "summary": "Search files with ripgrep and click results to open directly in your editor at the matching line.",
+      "tags": [
+        "kitty-terminal",
+        "ripgrep",
+        "text-editor-integration",
+        "command-line-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-hyperlinked-grep.rst.md",
+      "word_count": 158,
+      "optimized": true
+    },
+    {
+      "file_path": "014-kittens-icat.rst.md",
+      "title": "Icat",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/icat.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:00.304909758-03:00",
+      "summary": "Display images directly in the kitty terminal using the icat kitten, with support for ImageMagick, over SSH, and programmatic integration.",
+      "tags": [
+        "kitty-terminal",
+        "image-display",
+        "terminal-graphics",
+        "image-processing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-icat.rst.md",
+      "word_count": 183,
+      "optimized": true
+    },
+    {
+      "file_path": "015-kittens-notify.rst.md",
+      "title": "Notify",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/notify.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:01.434630989-03:00",
+      "summary": "Show pop-up system notifications from the shell with icons, buttons, and wait-for-completion support. Works over SSH.",
+      "tags": [
+        "system-notifications",
+        "shell-utilities",
+        "desktop-notifications"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-notify.rst.md",
+      "word_count": 60,
+      "optimized": true
+    },
+    {
+      "file_path": "016-kittens-panel.rst.md",
+      "title": "Panel",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/panel.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:02.425754408-03:00",
+      "summary": "This document explains how to use the kitty terminal emulator's panel kitten to render terminal applications directly onto the desktop as backgrounds, docks, or floating panels.",
+      "tags": [
+        "kitty-terminal",
+        "gpu-acceleration",
+        "desktop-customization",
+        "panel-kitten",
+        "wayland",
+        "remote-control"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-panel.rst.md",
+      "word_count": 411,
+      "optimized": true
+    },
+    {
+      "file_path": "017-kittens-quick-access-terminal.rst.md",
+      "title": "Quick access terminal",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/quick-access-terminal.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:04.412305139-03:00",
+      "summary": "This document explains how to set up and configure a Quake-style quick access terminal window using the kitty terminal emulator's kitten utility.",
+      "tags": [
+        "kitty-terminal",
+        "quick-access",
+        "terminal-emulator",
+        "command-line-tools",
+        "configuration-management",
+        "productivity-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-quick-access-terminal.rst.md",
+      "word_count": 198,
+      "optimized": true
+    },
+    {
+      "file_path": "018-kittens-remote-file.rst.md",
+      "title": "Remote file",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/remote_file.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:05.594419283-03:00",
+      "summary": "This document explains how to use the kitty terminal emulator to interact with, edit, and transfer files over an existing SSH connection.",
+      "tags": [
+        "kitty-terminal",
+        "remote-file-management",
+        "ssh-integration",
+        "file-transfer",
+        "terminal-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-remote-file.rst.md",
+      "word_count": 265,
+      "optimized": true
+    },
+    {
+      "file_path": "019-kittens-ssh.rst.md",
+      "title": "Ssh",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/ssh.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:06.626572571-03:00",
+      "summary": "Describes how to use the kitty ssh kitten to automate remote host configuration, synchronization of shell environments, and terminal feature integration.",
+      "tags": [
+        "ssh",
+        "terminal-emulator",
+        "remote-access",
+        "shell-integration",
+        "configuration-management",
+        "kitty-terminal"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-ssh.rst.md",
+      "word_count": 349,
+      "optimized": true
+    },
+    {
+      "file_path": "020-kittens-themes.rst.md",
+      "title": "Themes",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/themes.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:07.414981288-03:00",
+      "summary": "This document explains how to use the themes kitten to manage, customize, and automate color theme switching in the kitty terminal emulator.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "color-themes",
+        "configuration",
+        "automation",
+        "ui-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-themes.rst.md",
+      "word_count": 300,
+      "optimized": true
+    },
+    {
+      "file_path": "021-kittens-transfer.rst.md",
+      "title": "Transfer",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/transfer.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:08.677903955-03:00",
+      "summary": "This document explains how to use the kitty transfer kitten to move files and directory trees between local and remote machines over terminal sessions.",
+      "tags": [
+        "file-transfer",
+        "terminal-utility",
+        "remote-access",
+        "rsync-protocol",
+        "command-line-interface",
+        "ssh-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-transfer.rst.md",
+      "word_count": 429,
+      "optimized": true
+    },
+    {
+      "file_path": "022-kittens-unicode-input.rst.md",
+      "title": "Unicode input",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/unicode_input.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:09.480159957-03:00",
+      "summary": "This document explains how to use the Unicode input kitten tool to insert special characters using hex codes, names, or recently used lists.",
+      "tags": [
+        "unicode-input",
+        "character-entry",
+        "hex-codes",
+        "keyboard-shortcuts",
+        "text-editing"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-kittens-unicode-input.rst.md",
+      "word_count": 195,
+      "optimized": true
+    },
+    {
+      "file_path": "023-binary.rst.md",
+      "title": "Binary",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/binary.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:36.512938542-03:00",
+      "summary": "This document provides comprehensive instructions for installing, configuring, and uninstalling the kitty terminal emulator on macOS and Linux systems.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "software-installation",
+        "linux-desktop",
+        "macos-installation",
+        "binary-installation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-binary.rst.md",
+      "word_count": 224,
+      "optimized": true
+    },
+    {
+      "file_path": "024-build.rst.md",
+      "title": "Build",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/build.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:36.513010007-03:00",
+      "summary": "This document provides instructions for building the kitty terminal emulator from source code, including dependency requirements, build script usage, and distribution packaging guidelines.",
+      "tags": [
+        "kitty",
+        "source-code",
+        "build-instructions",
+        "terminal-emulator",
+        "developer-tools",
+        "compilation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-build.rst.md",
+      "word_count": 366,
+      "optimized": true
+    },
+    {
+      "file_path": "025-mapping.rst.md",
+      "title": "Mapping",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/mapping.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:13.446780114-03:00",
+      "summary": "This document explains how to configure and customize keyboard mappings in the kitty terminal emulator, including actions, macros, remote control, and conditional logic.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "keyboard-shortcuts",
+        "configuration",
+        "automation",
+        "key-bindings"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-mapping.rst.md",
+      "word_count": 1975,
+      "optimized": true
+    },
+    {
+      "file_path": "026-marks.rst.md",
+      "title": "Marks",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/marks.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:14.490421894-03:00",
+      "summary": "This document explains how to configure and use marker functionality in the kitty terminal emulator to highlight text patterns using regular expressions, custom functions, or simple substrings.",
+      "tags": [
+        "kitty-terminal",
+        "text-highlighting",
+        "regex-matching",
+        "configuration",
+        "terminal-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-marks.rst.md",
+      "word_count": 195,
+      "optimized": true
+    },
+    {
+      "file_path": "027-pipe.rst.md",
+      "title": "Pipe",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/pipe.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:20.747765499-03:00",
+      "summary": "This document explains how to use the pipe function in kitty to transmit terminal screen and history buffer contents to external programs or system clipboards.",
+      "tags": [
+        "terminal-emulator",
+        "pipe-function",
+        "scrollback-buffer",
+        "kitty-config",
+        "process-integration",
+        "input-placeholders"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-pipe.rst.md",
+      "word_count": 390,
+      "optimized": true
+    },
+    {
+      "file_path": "028-remote-control.rst.md",
+      "title": "Remote control",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/remote-control.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:27.442591183-03:00",
+      "summary": "Control kitty programmatically via the kitten @ messaging system — remote control via sockets, password-based authentication, fine-grained permissions, and key mappings.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "remote-control",
+        "automation",
+        "scripting",
+        "cli-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-remote-control.rst.md",
+      "word_count": 421,
+      "optimized": true
+    },
+    {
+      "file_path": "029-sessions.rst.md",
+      "title": "Sessions",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/sessions.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:28.392658299-03:00",
+      "summary": "Configure and manage kitty sessions — window layouts, startup programs, keybindings to switch between projects, and the save_as_session action.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "session-management",
+        "window-layout",
+        "productivity",
+        "terminal-automation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-sessions.rst.md",
+      "word_count": 543,
+      "optimized": true
+    },
+    {
+      "file_path": "030-kittens-intro.rst.md",
+      "title": "Kittens intro",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens_intro.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:11.061902095-03:00",
+      "summary": "This document provides an overview of 'kittens', a framework within the kitty terminal emulator for creating and using specialized programs to enhance terminal functionality.",
+      "tags": [
+        "kitty-terminal",
+        "terminal-utilities",
+        "extensibility",
+        "cli-tools",
+        "custom-scripts"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-kittens-intro.rst.md",
+      "word_count": 333,
+      "optimized": true
+    },
+    {
+      "file_path": "031-overview.rst.md",
+      "title": "Overview",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/overview.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:18.394785602-03:00",
+      "summary": "Overview of the kitty terminal emulator — design philosophy, configuration, layouts, kittens, remote control, sessions, and key features.",
+      "tags": [
+        "terminal-emulator",
+        "window-management",
+        "keyboard-shortcuts",
+        "scripting",
+        "configuration",
+        "remote-control"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-overview.rst.md",
+      "word_count": 599,
+      "optimized": true
+    },
+    {
+      "file_path": "032-dnd-protocol.rst.md",
+      "title": "Dnd protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/dnd-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:39.570879462-03:00",
+      "summary": "This document defines a terminal escape code protocol for implementing drag-and-drop functionality, enabling terminal-based programs to interact with OS-level drag-and-drop events.",
+      "tags": [
+        "terminal-emulator",
+        "drag-and-drop",
+        "escape-codes",
+        "osc",
+        "cross-platform",
+        "data-transfer",
+        "mime-types"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-dnd-protocol.rst.md",
+      "word_count": 3805,
+      "optimized": true
+    },
+    {
+      "file_path": "033-keyboard-protocol.rst.md",
+      "title": "Keyboard protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/keyboard-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:49.015952942-03:00",
+      "summary": "This document introduces the kitty keyboard protocol, a comprehensive and backward-compatible specification designed to resolve ambiguity and limitations in traditional terminal keyboard event handling.",
+      "tags": [
+        "terminal-emulation",
+        "keyboard-handling",
+        "input-protocol",
+        "escape-codes",
+        "software-development"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-keyboard-protocol.rst.md",
+      "word_count": 4182,
+      "optimized": true
+    },
+    {
+      "file_path": "034-performance.rst.md",
+      "title": "Performance",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/performance.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:19.440689016-03:00",
+      "summary": "kitty's performance architecture — glyph caching, threaded rendering, SIMD parsing, GPU-accelerated screen updates, and benchmarks against other terminal emulators.",
+      "tags": [
+        "terminal-emulator",
+        "performance-optimization",
+        "latency-benchmarking",
+        "system-resource-usage",
+        "rendering-optimization"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-performance.rst.md",
+      "word_count": 410,
+      "optimized": true
+    },
+    {
+      "file_path": "035-unscroll.rst.md",
+      "title": "Unscroll",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/unscroll.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:34.238755392-03:00",
+      "summary": "This document defines an extension to the standard VT-420 scroll-down escape sequence that populates scrolled-in lines from the terminal scrollback buffer instead of leaving them blank.",
+      "tags": [
+        "terminal-emulation",
+        "escape-codes",
+        "scrolling",
+        "vt420",
+        "terminal-specification",
+        "buffer-management"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-unscroll.rst.md",
+      "word_count": 242,
+      "optimized": true
+    },
+    {
+      "file_path": "036-wide-gamut-colors.rst.md",
+      "title": "Wide gamut colors",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/wide-gamut-colors.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:34.465389661-03:00",
+      "summary": "This document explains how to utilize modern wide gamut color spaces, specifically OKLCH and CIE LAB, within kitty configurations, and details the automatic gamut mapping process for display compatibility.",
+      "tags": [
+        "wide-gamut",
+        "oklch",
+        "cie-lab",
+        "color-spaces",
+        "configuration",
+        "color-management"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-wide-gamut-colors.rst.md",
+      "word_count": 319,
+      "optimized": true
+    },
+    {
+      "file_path": "037-conf.rst.md",
+      "title": "Conf",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/conf.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:38.34481118-03:00",
+      "summary": "Structure, location, and syntax rules for the kitty terminal configuration file, including methods for reloading and modularizing settings.",
+      "tags": [
+        "kitty-terminal",
+        "configuration-file",
+        "system-customization",
+        "environment-variables",
+        "terminal-settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-conf.rst.md",
+      "optimized": true,
+      "word_count": 193
+    },
+    {
+      "file_path": "038-kittens-choose-fonts.rst.md",
+      "title": "Choose fonts",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/choose-fonts.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:51.470508789-03:00",
+      "summary": "Configure font rendering in kitty — the choose-fonts kitten for interactive selection, OpenType features, variable fonts, and the font specification syntax for kitty.conf.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "font-configuration",
+        "typography",
+        "opentype",
+        "variable-fonts"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-kittens-choose-fonts.rst.md",
+      "word_count": 263,
+      "optimized": true
+    },
+    {
+      "file_path": "039-layouts.rst.md",
+      "title": "Layouts",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/layouts.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:12.532434055-03:00",
+      "summary": "Configure and manage tiled window layouts in kitty, including Stack, Tall, Fat, Grid, Splits, Horizontal, and Vertical layouts with their options and keyboard controls.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "window-management",
+        "tiling-layouts",
+        "keyboard-shortcuts",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-layouts.rst.md",
+      "word_count": 307,
+      "optimized": true
+    },
+    {
+      "file_path": "040-open-actions.rst.md",
+      "title": "Open actions",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/open_actions.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:17.414054219-03:00",
+      "summary": "Customize terminal hyperlink behaviors and external file opening actions in kitty using open-actions.conf matching criteria and action definitions.",
+      "tags": [
+        "kitty-terminal",
+        "terminal-emulator",
+        "hyperlinks",
+        "configuration",
+        "automation",
+        "workflow-customization"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-open-actions.rst.md",
+      "word_count": 382,
+      "optimized": true
+    },
+    {
+      "file_path": "041-shell-integration.rst.md",
+      "title": "Shell integration",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/shell-integration.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:29.484923324-03:00",
+      "summary": "This document explains how to configure and use kitty's shell integration to enable advanced features like prompt navigation, command output browsing, and terminal state synchronization.",
+      "tags": [
+        "kitty-terminal",
+        "shell-integration",
+        "terminal-emulator",
+        "bash",
+        "zsh",
+        "fish",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-shell-integration.rst.md",
+      "word_count": 2137,
+      "optimized": true
+    },
+    {
+      "file_path": "042-actions.rst.md",
+      "title": "Actions",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/actions.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:36.512827011-03:00",
+      "summary": "Available actions that can be bound to keyboard and mouse inputs within the kitty terminal emulator configuration.",
+      "tags": [
+        "terminal-emulator",
+        "key-mapping",
+        "mouse-configuration",
+        "kitty-config",
+        "input-shortcuts"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-actions.rst.md",
+      "optimized": true,
+      "word_count": 55
+    },
+    {
+      "file_path": "043-basic.rst.md",
+      "title": "Basic",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/basic.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:36.512934524-03:00",
+      "summary": "Keyboard shortcuts and organizational hierarchy for managing windows, tabs, and OS windows in kitty terminal emulator.",
+      "tags": [
+        "kitty",
+        "terminal-emulator",
+        "keyboard-shortcuts",
+        "window-management",
+        "tab-management",
+        "configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-basic.rst.md",
+      "word_count": 635,
+      "optimized": true
+    },
+    {
+      "file_path": "044-clipboard.rst.md",
+      "title": "Clipboard",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/clipboard.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:37.767548696-03:00",
+      "summary": "OSC 5522 clipboard protocol for terminal emulators supporting arbitrary data types, MIME type handling, permission management, and multiplexed clipboard access.",
+      "tags": [
+        "osc-5522",
+        "clipboard",
+        "terminal-protocol",
+        "data-transfer",
+        "mime-types",
+        "escape-codes"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-clipboard.rst.md",
+      "word_count": 519,
+      "optimized": true
+    },
+    {
+      "file_path": "045-color-stack.rst.md",
+      "title": "Color stack",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/color-stack.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:38.343651685-03:00",
+      "summary": "Terminal color management protocol using OSC 30001/30101 for push/pop stack operations and OSC 21 for querying and setting colors with string keys.",
+      "tags": [
+        "terminal-emulation",
+        "escape-sequences",
+        "color-management",
+        "ansi-colors",
+        "protocol-specification",
+        "kitty-terminal"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-color-stack.rst.md",
+      "word_count": 376,
+      "optimized": true
+    },
+    {
+      "file_path": "046-deccara.rst.md",
+      "title": "Deccara",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/deccara.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:38.371098772-03:00",
+      "summary": "Extension to the DECCARA escape sequence that allows applying all SGR text attributes to arbitrary rectangular regions of the screen in the kitty terminal emulator.",
+      "tags": [
+        "terminal-emulation",
+        "escape-codes",
+        "sgr-attributes",
+        "kitty-terminal",
+        "deccara",
+        "screen-rendering"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-deccara.rst.md",
+      "optimized": true,
+      "word_count": 129
+    },
+    {
+      "file_path": "047-desktop-notifications.rst.md",
+      "title": "Desktop notifications",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/desktop-notifications.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:39.458198869-03:00",
+      "summary": "This document describes the OSC 99 escape sequence protocol used by the kitty terminal to display, manage, and interact with desktop notifications.",
+      "tags": [
+        "terminal-emulators",
+        "osc-99",
+        "desktop-notifications",
+        "escape-codes",
+        "cli-protocol",
+        "interprocess-communication"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-desktop-notifications.rst.md",
+      "word_count": 843,
+      "optimized": true
+    },
+    {
+      "file_path": "048-file-transfer-protocol.rst.md",
+      "title": "File transfer protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/file-transfer-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:41.488105665-03:00",
+      "summary": "This document outlines a protocol for transferring files, directories, and links over a TTY interface, including security requirements for session authorization and bidirectional data flow handling.",
+      "tags": [
+        "tty",
+        "file-transfer",
+        "protocol-design",
+        "terminal-emulator",
+        "data-transmission",
+        "metadata-preservation"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-file-transfer-protocol.rst.md",
+      "word_count": 548,
+      "optimized": true
+    },
+    {
+      "file_path": "049-graphics-protocol.rst.md",
+      "title": "Graphics protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/graphics-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:43.552963654-03:00",
+      "summary": "This document defines the technical specification for the kitty graphics protocol, a standard for rendering raster graphics directly within a terminal emulator using pixel-based data.",
+      "tags": [
+        "terminal-emulator",
+        "graphics-protocol",
+        "pixel-rendering",
+        "cli-tools",
+        "escape-codes",
+        "image-processing"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-graphics-protocol.rst.md",
+      "word_count": 7793,
+      "optimized": true
+    },
+    {
+      "file_path": "050-integrations.rst.md",
+      "title": "Integrations",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/integrations.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:45.53381719-03:00",
+      "summary": "Curated list of third-party tools integrating with kitty via graphics and remote-control protocols.",
+      "tags": [
+        "kitty-terminal",
+        "terminal-emulation",
+        "graphics-protocol",
+        "remote-control",
+        "cli-tools",
+        "tui-applications",
+        "software-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-integrations.rst.md",
+      "word_count": 644,
+      "optimized": true
+    },
+    {
+      "file_path": "052-kittens-query-terminal.rst.md",
+      "title": "Query terminal",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/kittens/query_terminal.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:03.584580761-03:00",
+      "summary": "Query runtime options and configuration values from the kitty terminal emulator using XTGETTCAP escape sequences.",
+      "tags": [
+        "terminal-emulator",
+        "query-tool",
+        "escape-sequences",
+        "xtgetcap",
+        "kitty-terminal",
+        "command-line-utilities"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-kittens-query-terminal.rst.md",
+      "optimized": true,
+      "word_count": 182
+    },
+    {
+      "file_path": "053-launch.rst.md",
+      "title": "Launch",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/launch.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:11.381135432-03:00",
+      "summary": "kitty's launch action for running programs in new windows/tabs with powerful options for stdin, cwd, and watchers.",
+      "tags": [
+        "kitty-terminal",
+        "terminal-emulator",
+        "command-line-automation",
+        "window-management",
+        "python-scripting",
+        "configuration-management"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-launch.rst.md",
+      "word_count": 284,
+      "optimized": true
+    },
+    {
+      "file_path": "054-misc-protocol.rst.md",
+      "title": "Misc protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/misc-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:15.431586246-03:00",
+      "summary": "Custom protocol extensions in the kitty terminal emulator: state management, attribute control, event reporting, and escape code families.",
+      "tags": [
+        "terminal-emulator",
+        "escape-codes",
+        "protocol-extension",
+        "kitty-terminal",
+        "sgr-sequences",
+        "mouse-reporting"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-misc-protocol.rst.md",
+      "optimized": true,
+      "word_count": 277
+    },
+    {
+      "file_path": "055-multiple-cursors-protocol.rst.md",
+      "title": "Multiple cursors protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/multiple-cursors-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:16.596012018-03:00",
+      "summary": "Terminal escape code protocol for displaying and managing multiple cursors at specific screen locations with custom shapes and colors.",
+      "tags": [
+        "terminal-emulation",
+        "escape-codes",
+        "ansi-sequences",
+        "multi-cursor-protocol",
+        "ui-development"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-multiple-cursors-protocol.rst.md",
+      "word_count": 461,
+      "optimized": true
+    },
+    {
+      "file_path": "056-pointer-shapes.rst.md",
+      "title": "Pointer shapes",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/pointer-shapes.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:21.573867771-03:00",
+      "summary": "Escape code protocol for programmatically changing, querying, and managing mouse pointer shapes with stack-based push/pop.",
+      "tags": [
+        "terminal-emulator",
+        "escape-codes",
+        "mouse-pointer",
+        "protocol-specification",
+        "cursor-shapes",
+        "xterm-compatibility"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-pointer-shapes.rst.md",
+      "word_count": 305,
+      "optimized": true
+    },
+    {
+      "file_path": "057-protocol-extensions.rst.md",
+      "title": "Protocol extensions",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/protocol-extensions.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:23.387775757-03:00",
+      "summary": "Custom extensions to the terminal protocol enabling advanced features while maintaining compatibility with standard TTY byte stream processing.",
+      "tags": [
+        "terminal-emulator",
+        "protocol-extensions",
+        "tty",
+        "escape-codes",
+        "kitty-terminal",
+        "terminal-specification"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-protocol-extensions.rst.md",
+      "optimized": true,
+      "word_count": 195
+    },
+    {
+      "file_path": "058-rc-protocol.rst.md",
+      "title": "Rc protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/rc_protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:26.470209553-03:00",
+      "summary": "JSON-based remote control protocol for kitty with encrypted communication and async/streaming request support.",
+      "tags": [
+        "kitty-terminal",
+        "remote-control",
+        "protocol-specification",
+        "json-api",
+        "terminal-emulation",
+        "encryption"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-rc-protocol.rst.md",
+      "word_count": 272,
+      "optimized": true
+    },
+    {
+      "file_path": "059-text-sizing-protocol.rst.md",
+      "title": "Text sizing protocol",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/text-sizing-protocol.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:31.354118648-03:00",
+      "summary": "This document defines a terminal escape code protocol that allows applications to render text at varying sizes and precisely control character cell dimensions for improved typography and layout.",
+      "tags": [
+        "terminal",
+        "escape-codes",
+        "typography",
+        "text-rendering",
+        "cli-protocol",
+        "ansi-sequences"
+      ],
+      "category": "api",
+      "original_file_path": "docs-text-sizing-protocol.rst.md",
+      "word_count": 3733,
+      "optimized": true
+    },
+    {
+      "file_path": "060-underlines.rst.md",
+      "title": "Underlines",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/underlines.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:32.435882715-03:00",
+      "summary": "ANSI escape codes for implementing and customizing colored, wavy, or styled underlines within the kitty terminal emulator.",
+      "tags": [
+        "ansi-escape-codes",
+        "terminal-emulator",
+        "kitty",
+        "text-formatting",
+        "terminfo",
+        "cli-styling"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-underlines.rst.md",
+      "optimized": true,
+      "word_count": 84
+    },
+    {
+      "file_path": "061-faq.rst.md",
+      "title": "Faq",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/faq.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:41.232475523-03:00",
+      "summary": "This document provides troubleshooting and configuration guidance for common issues encountered when using the kitty terminal emulator, including character rendering, remote connectivity, key bindings, and theme management.",
+      "tags": [
+        "kitty-terminal",
+        "troubleshooting",
+        "faq",
+        "terminfo",
+        "terminal-configuration",
+        "key-bindings",
+        "unicode-rendering"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-faq.rst.md",
+      "word_count": 3038,
+      "optimized": true
+    },
+    {
+      "file_path": "063-changelog.rst.md",
+      "title": "Changelog",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/changelog.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:57:36.513337587-03:00",
+      "summary": "This document provides a detailed list of new features, performance improvements, and functionality updates for the kitty terminal emulator.",
+      "tags": [
+        "terminal-emulator",
+        "changelog",
+        "gpu-acceleration",
+        "wayland",
+        "linux",
+        "software-update"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-changelog.rst.md",
+      "word_count": 31700,
+      "optimized": true
+    },
+    {
+      "file_path": "064-press-mentions.rst.md",
+      "title": "Press mentions",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/press-mentions.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:22.412761841-03:00",
+      "summary": "External media mentions, interviews, and video reviews of the kitty terminal emulator.",
+      "tags": [
+        "kitty-terminal",
+        "media-coverage",
+        "podcasts",
+        "video-reviews",
+        "terminal-emulator"
+      ],
+      "category": "other",
+      "original_file_path": "docs-press-mentions.rst.md",
+      "optimized": true,
+      "word_count": 54
+    },
+    {
+      "file_path": "066-support.rst.md",
+      "title": "Support",
+      "url": "https://github.com/kovidgoyal/kitty/blob/master/docs/support.rst",
+      "source": "git",
+      "fetched_at": "2026-05-04T15:58:30.501550097-03:00",
+      "summary": "Development goals of the kitty terminal emulator and options to support the project through donations or patronage.",
+      "tags": [
+        "kitty-terminal",
+        "open-source",
+        "software-development",
+        "project-funding",
+        "terminal-emulator"
+      ],
+      "category": "other",
+      "original_file_path": "docs-support.rst.md",
+      "optimized": true,
+      "word_count": 97
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-05-04T20:10:24.520180+00:00",
+    "total_files": 66,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & Guides",
+      "Concepts & Fundamentals",
+      "Configuration",
+      "API Reference",
+      "Troubleshooting",
+      "Glossary & Appendix",
+      "Changelog & Releases",
+      "Meta & Resources"
+    ],
+    "dropped": []
+  },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-05-04T20:47:27.679337+00:00",
+    "files_optimized": 62,
+    "files_deleted": 4,
+    "deleted_files": [
+      "002-introduction.rst.md",
+      "051-invocation.rst.md",
+      "062-glossary.rst.md",
+      "065-quake-screenshots.rst.md"
+    ]
+  }
+}

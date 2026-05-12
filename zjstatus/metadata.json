@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-04-30T12:58:32.850427812-03:00",
+  "source_url": "https://github.com/dj95/zjstatus/wiki/3-%E2%80%90-Configuration",
+  "strategy": "wiki",
+  "total_documents": 7,
+  "documents": [
+    {
+      "file_path": "001-welcome.md",
+      "title": "Home",
+      "url": "https://github.com/dj95/zjstatus/wiki",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:24.010626709-03:00",
+      "summary": "This document introduces zjstatus, a configurable statusbar plugin for the terminal multiplexer zellij, and outlines the purpose of its wiki documentation.",
+      "tags": [
+        "zellij",
+        "terminal-multiplexer",
+        "statusbar-plugin",
+        "wasm-plugin",
+        "customization"
+      ],
+      "category": "guide",
+      "original_file_path": "index.md",
+      "rename_history": [
+        {
+          "from": "index.md",
+          "to": "000-welcome.md",
+          "reason": "phase 1.3 index rename (wiki home page)"
+        }
+      ]
+    },
+    {
+      "file_path": "002-1-‐-installation.md",
+      "title": "1 ��� Installation",
+      "url": "https://github.com/dj95/zjstatus/wiki/1-‐-Installation",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:25.404717926-03:00",
+      "summary": "This document provides instructions for installing the zjstatus plugin for Zellij, covering manual, automated, and Nix Flakes installation methods along with troubleshooting tips.",
+      "tags": [
+        "zellij",
+        "zjstatus",
+        "terminal-plugins",
+        "installation-guide",
+        "nix-flakes",
+        "layout-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "1-‐-installation.md"
+    },
+    {
+      "file_path": "003-2-‐-permissions.md",
+      "title": "2 ��� Permissions",
+      "url": "https://github.com/dj95/zjstatus/wiki/2-‐-Permissions",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:26.424411883-03:00",
+      "summary": "This document explains the permission requirements for the zjstatus plugin in Zellij, detailing how to grant, revoke, and manage specific access rights for plugin functionality.",
+      "tags": [
+        "zellij",
+        "zjstatus",
+        "plugin-permissions",
+        "terminal-emulator",
+        "access-control",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "2-‐-permissions.md"
+    },
+    {
+      "file_path": "004-3-‐-configuration.md",
+      "title": "3 ��� Configuration",
+      "url": "https://github.com/dj95/zjstatus/wiki/3-‐-Configuration",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:27.573857874-03:00",
+      "summary": "This document provides a comprehensive guide for configuring the zjstatus plugin for Zellij, covering layout integration, widget customization, border management, and styling directives.",
+      "tags": [
+        "zellij",
+        "zjstatus",
+        "terminal-emulator",
+        "plugin-configuration",
+        "theming",
+        "bar-layout"
+      ],
+      "category": "configuration",
+      "original_file_path": "3-‐-configuration.md"
+    },
+    {
+      "file_path": "006-4-‐-widgets.md",
+      "title": "4 ��� Widgets",
+      "url": "https://github.com/dj95/zjstatus/wiki/4-‐-Widgets",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:28.809413518-03:00",
+      "summary": "This document provides a configuration reference for the various widgets available in zjstatus, a status bar plugin for the Zellij terminal multiplexer.",
+      "tags": [
+        "zellij",
+        "zjstatus",
+        "terminal-emulator",
+        "configuration",
+        "widgets",
+        "plugin-settings"
+      ],
+      "category": "reference",
+      "original_file_path": "4-‐-widgets.md"
+    },
+    {
+      "file_path": "007-5-‐-pipes.md",
+      "title": "5 ��� Pipes",
+      "url": "https://github.com/dj95/zjstatus/wiki/5-‐-Pipes",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:29.949472374-03:00",
+      "summary": "This document outlines the protocol for using Zellij plugin pipes to remotely control the zjstatus plugin by sending structured command messages.",
+      "tags": [
+        "zellij",
+        "zjstatus",
+        "plugin-pipes",
+        "remote-control",
+        "command-line",
+        "terminal-tools"
+      ],
+      "category": "api",
+      "original_file_path": "5-‐-pipes.md"
+    },
+    {
+      "file_path": "005-6-zjframes.md",
+      "title": "6 Zjframes",
+      "url": "https://github.com/dj95/zjstatus/wiki/6---zjframes",
+      "source": "wiki",
+      "fetched_at": "2026-04-30T12:58:31.423229696-03:00",
+      "summary": "This document describes the installation and configuration of the zjframes plugin for Zellij, which allows users to dynamically manage and toggle pane frame visibility based on specific conditions.",
+      "tags": [
+        "zellij",
+        "plugin",
+        "terminal-emulator",
+        "pane-management",
+        "configuration",
+        "window-manager"
+      ],
+      "category": "configuration",
+      "original_file_path": "6-zjframes.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-30T16:00:36.589635+00:00",
+    "total_files": 7,
+    "categories": [
+      "Introduction & Overview",
+      "Tutorials & Guides",
+      "Configuration",
+      "API Reference"
+    ],
+    "dropped": []
+  }
+}

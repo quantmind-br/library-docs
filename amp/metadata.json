@@ -5,7 +5,7 @@
   "total_documents": 194,
   "documents": [
     {
-      "file_path": "001-index.md",
+      "file_path": "152-amp-product-overview.md",
       "title": "Amp",
       "url": "https://ampcode.com/",
       "source": "crawler",
@@ -21,11 +21,18 @@
         "ai-models"
       ],
       "category": "other",
-      "original_file_path": "index.md"
+      "original_file_path": "index.md",
+      "rename_history": [
+        {
+          "from": "001-index.md",
+          "to": "amp-product-overview.md",
+          "reason": "phase 1.3 index rename"
+        }
+      ]
     },
     {
-      "file_path": "004-manual.md",
-      "title": "Amp Owner\u2019s Manual",
+      "file_path": "059-manual.md",
+      "title": "Amp Owner’s Manual",
       "url": "https://ampcode.com/manual",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:07:29.896618339-03:00",
@@ -42,7 +49,7 @@
       "original_file_path": "manual.md"
     },
     {
-      "file_path": "060-models.md",
+      "file_path": "103-models.md",
       "title": "Models",
       "url": "https://ampcode.com/models",
       "source": "crawler",
@@ -61,12 +68,12 @@
       "original_file_path": "models.md"
     },
     {
-      "file_path": "002-free.md",
+      "file_path": "153-free.md",
       "title": "Amp Free",
       "url": "https://ampcode.com/free",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:07:32.544485292-03:00",
-      "description": "Free Usage, Built for Real Work. Amp gives you a $10 daily grant for all modes and models\u2014funded by relevant dev and infra sponsors.",
+      "description": "Free Usage, Built for Real Work. Amp gives you a $10 daily grant for all modes and models—funded by relevant dev and infra sponsors.",
       "summary": "This document describes Amp Free, an ad-supported pricing tier that provides access to premium AI models and features through non-intrusive partnerships with developer tool companies.",
       "tags": [
         "pricing-plans",
@@ -79,7 +86,7 @@
       "original_file_path": "free.md"
     },
     {
-      "file_path": "106-chronicle.md",
+      "file_path": "157-chronicle.md",
       "title": "Chronicle",
       "url": "https://ampcode.com/chronicle",
       "source": "crawler",
@@ -96,7 +103,7 @@
       "original_file_path": "chronicle.md"
     },
     {
-      "file_path": "100-threads-T-d372dd3f-ca0f-43bf-9214-2a23c148f578.md",
+      "file_path": "115-threads-t-d372dd3f-ca0f-43bf-9214-2a23c148f578.md",
       "title": "React server actions RCE reproduction case",
       "url": "https://ampcode.com/threads/T-d372dd3f-ca0f-43bf-9214-2a23c148f578",
       "source": "crawler",
@@ -114,7 +121,7 @@
       "original_file_path": "threads-T-d372dd3f-ca0f-43bf-9214-2a23c148f578.md"
     },
     {
-      "file_path": "103-threads-T-f2b1040a-daa2-4589-a78d-891d9e9d31e4.md",
+      "file_path": "051-threads-t-f2b1040a-daa2-4589-a78d-891d9e9d31e4.md",
       "title": "Cool effect build review and files changed",
       "url": "https://ampcode.com/threads/T-f2b1040a-daa2-4589-a78d-891d9e9d31e4",
       "source": "crawler",
@@ -131,7 +138,7 @@
       "original_file_path": "threads-T-f2b1040a-daa2-4589-a78d-891d9e9d31e4.md"
     },
     {
-      "file_path": "085-threads-T-02bda434-0e58-425a-be98-7baaf505cae5.md",
+      "file_path": "078-threads-t-02bda434-0e58-425a-be98-7baaf505cae5.md",
       "title": "Lua TUI framework design and widget sizing",
       "url": "https://ampcode.com/threads/T-02bda434-0e58-425a-be98-7baaf505cae5",
       "source": "crawler",
@@ -149,7 +156,7 @@
       "original_file_path": "threads-T-02bda434-0e58-425a-be98-7baaf505cae5.md"
     },
     {
-      "file_path": "095-threads-T-6ff966b8-2a71-4002-a348-1bd8eecf1754.md",
+      "file_path": "080-threads-t-6ff966b8-2a71-4002-a348-1bd8eecf1754.md",
       "title": "Add parallel course correction agent with forced tool call",
       "url": "https://ampcode.com/threads/T-6ff966b8-2a71-4002-a348-1bd8eecf1754",
       "source": "crawler",
@@ -167,7 +174,7 @@
       "original_file_path": "threads-T-6ff966b8-2a71-4002-a348-1bd8eecf1754.md"
     },
     {
-      "file_path": "091-threads-T-3da3f7ab-1f40-460d-87cb-156a36ab8ad2.md",
+      "file_path": "147-threads-t-3da3f7ab-1f40-460d-87cb-156a36ab8ad2.md",
       "title": "Migrate Vegeta plot from Dygraphs to uPlot",
       "url": "https://ampcode.com/threads/T-3da3f7ab-1f40-460d-87cb-156a36ab8ad2",
       "source": "crawler",
@@ -186,7 +193,7 @@
       "original_file_path": "threads-T-3da3f7ab-1f40-460d-87cb-156a36ab8ad2.md"
     },
     {
-      "file_path": "101-threads-T-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9.md",
+      "file_path": "049-threads-t-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9.md",
       "title": "Refactor video detail component architecture",
       "url": "https://ampcode.com/threads/T-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9",
       "source": "crawler",
@@ -204,7 +211,7 @@
       "original_file_path": "threads-T-e35a3ea8-4925-4037-bfb3-5e08f5cd29c9.md"
     },
     {
-      "file_path": "087-threads-T-032d7c90-3b8c-49f8-9909-2fa325fddacc.md",
+      "file_path": "079-threads-t-032d7c90-3b8c-49f8-9909-2fa325fddacc.md",
       "title": "Implement eval collection and filtering mechanism",
       "url": "https://ampcode.com/threads/T-032d7c90-3b8c-49f8-9909-2fa325fddacc",
       "source": "crawler",
@@ -222,7 +229,7 @@
       "original_file_path": "threads-T-032d7c90-3b8c-49f8-9909-2fa325fddacc.md"
     },
     {
-      "file_path": "137-news-slashing-custom-commands.md",
+      "file_path": "042-news-slashing-custom-commands.md",
       "title": "Slashing Custom Commands",
       "url": "https://ampcode.com/news/slashing-custom-commands",
       "source": "crawler",
@@ -240,7 +247,7 @@
       "original_file_path": "news-slashing-custom-commands.md"
     },
     {
-      "file_path": "088-threads-T-0aeaa561-662a-466f-8a32-935b83ef961e.md",
+      "file_path": "112-threads-t-0aeaa561-662a-466f-8a32-935b83ef961e.md",
       "title": "GitHub repository ui-dojo exploration",
       "url": "https://ampcode.com/threads/T-0aeaa561-662a-466f-8a32-935b83ef961e",
       "source": "crawler",
@@ -259,7 +266,7 @@
       "original_file_path": "threads-T-0aeaa561-662a-466f-8a32-935b83ef961e.md"
     },
     {
-      "file_path": "034-news-liberating-code-review.md",
+      "file_path": "006-news-liberating-code-review.md",
       "title": "Liberating Code Review",
       "url": "https://ampcode.com/news/liberating-code-review",
       "source": "crawler",
@@ -278,7 +285,7 @@
       "original_file_path": "news-liberating-code-review.md"
     },
     {
-      "file_path": "035-news-painter.md",
+      "file_path": "007-news-painter.md",
       "title": "Painter",
       "url": "https://ampcode.com/news/painter",
       "source": "crawler",
@@ -296,7 +303,7 @@
       "original_file_path": "news-painter.md"
     },
     {
-      "file_path": "018-news-deep-mode.md",
+      "file_path": "069-news-deep-mode.md",
       "title": "Go Deep",
       "url": "https://ampcode.com/news/deep-mode",
       "source": "crawler",
@@ -315,7 +322,7 @@
       "original_file_path": "news-deep-mode.md"
     },
     {
-      "file_path": "036-news-walkthrough.md",
+      "file_path": "008-news-walkthrough.md",
       "title": "Shareable Walkthroughs",
       "url": "https://ampcode.com/news/walkthrough",
       "source": "crawler",
@@ -352,7 +359,7 @@
       "original_file_path": "news-tab-tab-dead.md"
     },
     {
-      "file_path": "156-podcast.md",
+      "file_path": "158-podcast.md",
       "title": "Raising an Agent",
       "url": "https://ampcode.com/podcast",
       "source": "crawler",
@@ -369,7 +376,7 @@
       "original_file_path": "podcast.md"
     },
     {
-      "file_path": "008-notes-how-to-build-an-agent.md",
+      "file_path": "053-notes-how-to-build-an-agent.md",
       "title": "How to Build an Agent",
       "url": "https://ampcode.com/notes/how-to-build-an-agent",
       "source": "crawler",
@@ -388,7 +395,7 @@
       "original_file_path": "notes-how-to-build-an-agent.md"
     },
     {
-      "file_path": "062-terms.md",
+      "file_path": "154-terms.md",
       "title": "Amp Terms",
       "url": "https://ampcode.com/terms",
       "source": "crawler",
@@ -407,7 +414,7 @@
       "original_file_path": "terms.md"
     },
     {
-      "file_path": "007-manual-appendix.md",
+      "file_path": "101-manual-appendix.md",
       "title": "Appendix",
       "url": "https://ampcode.com/manual/appendix",
       "source": "crawler",
@@ -425,7 +432,7 @@
       "original_file_path": "manual-appendix.md"
     },
     {
-      "file_path": "005-manual-switch-from.md",
+      "file_path": "060-manual-switch-from.md",
       "title": "Switch to Amp",
       "url": "https://ampcode.com/manual/switch-from#claude-code",
       "source": "crawler",
@@ -443,7 +450,7 @@
       "original_file_path": "manual-switch-from.md"
     },
     {
-      "file_path": "003-press-kit.md",
+      "file_path": "064-press-kit.md",
       "title": "Amp Press Kit",
       "url": "https://ampcode.com/press-kit",
       "source": "crawler",
@@ -461,7 +468,7 @@
       "original_file_path": "press-kit.md"
     },
     {
-      "file_path": "038-news-handoff.md",
+      "file_path": "010-news-handoff.md",
       "title": "Handoff (No More Compaction)",
       "url": "https://ampcode.com/news/handoff",
       "source": "crawler",
@@ -480,7 +487,7 @@
       "original_file_path": "news-handoff.md"
     },
     {
-      "file_path": "045-news-rush-mode.md",
+      "file_path": "016-news-rush-mode.md",
       "title": "Rush Mode",
       "url": "https://ampcode.com/news/rush-mode",
       "source": "crawler",
@@ -498,7 +505,7 @@
       "original_file_path": "news-rush-mode.md"
     },
     {
-      "file_path": "090-threads-T-39dc399d-08cc-4b10-ab17-e6bac8badea7.md",
+      "file_path": "146-threads-t-39dc399d-08cc-4b10-ab17-e6bac8badea7.md",
       "title": "Debugging thread edit tool JSON implementation",
       "url": "https://ampcode.com/threads/T-39dc399d-08cc-4b10-ab17-e6bac8badea7",
       "source": "crawler",
@@ -516,7 +523,7 @@
       "original_file_path": "threads-T-39dc399d-08cc-4b10-ab17-e6bac8badea7.md"
     },
     {
-      "file_path": "096-threads-T-9219191b-346b-418a-b521-7dc54fcf7f56.md",
+      "file_path": "149-threads-t-9219191b-346b-418a-b521-7dc54fcf7f56.md",
       "title": "Optimize observeThreadGuidanceFiles return type",
       "url": "https://ampcode.com/threads/T-9219191b-346b-418a-b521-7dc54fcf7f56",
       "source": "crawler",
@@ -534,7 +541,7 @@
       "original_file_path": "threads-T-9219191b-346b-418a-b521-7dc54fcf7f56.md"
     },
     {
-      "file_path": "046-news-large-mode.md",
+      "file_path": "017-news-large-mode.md",
       "title": "Large Mode",
       "url": "https://ampcode.com/news/large-mode",
       "source": "crawler",
@@ -552,7 +559,7 @@
       "original_file_path": "news-large-mode.md"
     },
     {
-      "file_path": "006-manual-sdk.md",
+      "file_path": "100-manual-sdk.md",
       "title": "SDK",
       "url": "https://ampcode.com/manual/sdk",
       "source": "crawler",
@@ -571,7 +578,7 @@
       "original_file_path": "manual-sdk.md"
     },
     {
-      "file_path": "012-guides-context-management.md",
+      "file_path": "065-guides-context-management.md",
       "title": "Context Management in Amp",
       "url": "https://ampcode.com/guides/context-management",
       "source": "crawler",
@@ -590,7 +597,7 @@
       "original_file_path": "guides-context-management.md"
     },
     {
-      "file_path": "030-news-librarian.md",
+      "file_path": "002-news-librarian.md",
       "title": "The Librarian",
       "url": "https://ampcode.com/news/librarian",
       "source": "crawler",
@@ -608,7 +615,7 @@
       "original_file_path": "news-librarian.md"
     },
     {
-      "file_path": "125-news-gemini-3-flash-search.md",
+      "file_path": "131-news-gemini-3-flash-search.md",
       "title": "Gemini 3 Flash in the Search Subagent",
       "url": "https://ampcode.com/news/gemini-3-flash-search",
       "source": "crawler",
@@ -626,7 +633,7 @@
       "original_file_path": "news-gemini-3-flash-search.md"
     },
     {
-      "file_path": "015-notes-feedback-loopable.md",
+      "file_path": "067-notes-feedback-loopable.md",
       "title": "Feedback Loopable",
       "url": "https://ampcode.com/notes/feedback-loopable",
       "source": "crawler",
@@ -644,7 +651,7 @@
       "original_file_path": "notes-feedback-loopable.md"
     },
     {
-      "file_path": "115-news-amp-free.md",
+      "file_path": "123-news-amp-free.md",
       "title": "Amp Free",
       "url": "https://ampcode.com/news/amp-free",
       "source": "crawler",
@@ -681,7 +688,7 @@
       "original_file_path": "security.md"
     },
     {
-      "file_path": "141-news-todos-are-done.md",
+      "file_path": "140-news-todos-are-done.md",
       "title": "TODOs Are Done",
       "url": "https://ampcode.com/news/todos-are-done",
       "source": "crawler",
@@ -699,7 +706,7 @@
       "original_file_path": "news-todos-are-done.md"
     },
     {
-      "file_path": "104-threads-T-f810ef79-ba0e-4338-87c6-dbbb9085400a.md",
+      "file_path": "151-threads-t-f810ef79-ba0e-4338-87c6-dbbb9085400a.md",
       "title": "Reassign database threads to Thorsten's user",
       "url": "https://ampcode.com/threads/T-f810ef79-ba0e-4338-87c6-dbbb9085400a",
       "source": "crawler",
@@ -716,7 +723,7 @@
       "original_file_path": "threads-T-f810ef79-ba0e-4338-87c6-dbbb9085400a.md"
     },
     {
-      "file_path": "068-news-user-invokable-skills.md",
+      "file_path": "033-news-user-invokable-skills.md",
       "title": "User Invokable Skills",
       "url": "https://ampcode.com/news/user-invokable-skills",
       "source": "crawler",
@@ -734,7 +741,7 @@
       "original_file_path": "news-user-invokable-skills.md"
     },
     {
-      "file_path": "113-news-amp-free-frontier.md",
+      "file_path": "037-news-amp-free-frontier.md",
       "title": "The Frontier Is Now Free",
       "url": "https://ampcode.com/news/amp-free-frontier",
       "source": "crawler",
@@ -753,7 +760,7 @@
       "original_file_path": "news-amp-free-frontier.md"
     },
     {
-      "file_path": "040-news-thread-map.md",
+      "file_path": "075-news-thread-map.md",
       "title": "Thread Map",
       "url": "https://ampcode.com/news/thread-map",
       "source": "crawler",
@@ -772,7 +779,7 @@
       "original_file_path": "news-thread-map.md"
     },
     {
-      "file_path": "037-news-ask-to-handoff.md",
+      "file_path": "009-news-ask-to-handoff.md",
       "title": "Handoff, Please",
       "url": "https://ampcode.com/news/ask-to-handoff",
       "source": "crawler",
@@ -790,7 +797,7 @@
       "original_file_path": "news-ask-to-handoff.md"
     },
     {
-      "file_path": "039-news-stick-a-fork-in-it.md",
+      "file_path": "011-news-stick-a-fork-in-it.md",
       "title": "Stick a Fork in It, It's Done",
       "url": "https://ampcode.com/news/stick-a-fork-in-it",
       "source": "crawler",
@@ -809,7 +816,7 @@
       "original_file_path": "news-stick-a-fork-in-it.md"
     },
     {
-      "file_path": "072-free-ad-partners-apply.md",
+      "file_path": "155-free-ad-partners-apply.md",
       "title": "Amp",
       "url": "https://ampcode.com/free/ad-partners/apply",
       "source": "crawler",
@@ -826,7 +833,7 @@
       "original_file_path": "free-ad-partners-apply.md"
     },
     {
-      "file_path": "032-news-review.md",
+      "file_path": "004-news-review.md",
       "title": "Review",
       "url": "https://ampcode.com/news/review",
       "source": "crawler",
@@ -845,7 +852,7 @@
       "original_file_path": "news-review.md"
     },
     {
-      "file_path": "050-news-python-sdk.md",
+      "file_path": "021-news-python-sdk.md",
       "title": "Amp Python SDK",
       "url": "https://ampcode.com/news/python-sdk",
       "source": "crawler",
@@ -863,7 +870,7 @@
       "original_file_path": "news-python-sdk.md"
     },
     {
-      "file_path": "042-news-thread-labels.md",
+      "file_path": "013-news-thread-labels.md",
       "title": "Thread Labels",
       "url": "https://ampcode.com/news/thread-labels",
       "source": "crawler",
@@ -882,7 +889,7 @@
       "original_file_path": "news-thread-labels.md"
     },
     {
-      "file_path": "122-news-clickable-diagrams.md",
+      "file_path": "128-news-clickable-diagrams.md",
       "title": "Clickable Diagrams",
       "url": "https://ampcode.com/news/clickable-diagrams",
       "source": "crawler",
@@ -899,7 +906,7 @@
       "original_file_path": "news-clickable-diagrams.md"
     },
     {
-      "file_path": "026-news-cli-workspace-settings.md",
+      "file_path": "095-news-cli-workspace-settings.md",
       "title": "Workspace Settings",
       "url": "https://ampcode.com/news/cli-workspace-settings",
       "source": "crawler",
@@ -917,7 +924,7 @@
       "original_file_path": "news-cli-workspace-settings.md"
     },
     {
-      "file_path": "126-news-gemini-3.md",
+      "file_path": "132-news-gemini-3.md",
       "title": "Gemini 3 Pro",
       "url": "https://ampcode.com/news/gemini-3",
       "source": "crawler",
@@ -936,7 +943,7 @@
       "original_file_path": "news-gemini-3.md"
     },
     {
-      "file_path": "145-news-workspace-entitlements.md",
+      "file_path": "044-news-workspace-entitlements.md",
       "title": "Workspace Entitlements",
       "url": "https://ampcode.com/news/workspace-entitlements",
       "source": "crawler",
@@ -973,7 +980,7 @@
       "original_file_path": "news-social-coding.md"
     },
     {
-      "file_path": "033-news-agentic-code-review.md",
+      "file_path": "005-news-agentic-code-review.md",
       "title": "Agentic Review",
       "url": "https://ampcode.com/news/agentic-code-review",
       "source": "crawler",
@@ -992,7 +999,7 @@
       "original_file_path": "news-agentic-code-review.md"
     },
     {
-      "file_path": "128-news-gpt-5-oracle.md",
+      "file_path": "133-news-gpt-5-oracle.md",
       "title": "GPT-5 Oracle",
       "url": "https://ampcode.com/news/gpt-5-oracle",
       "source": "crawler",
@@ -1012,7 +1019,7 @@
       "original_file_path": "news-gpt-5-oracle.md"
     },
     {
-      "file_path": "132-news-monthly-automatic-top-ups.md",
+      "file_path": "041-news-monthly-automatic-top-ups.md",
       "title": "Monthly Automatic Top Ups",
       "url": "https://ampcode.com/news/monthly-automatic-top-ups",
       "source": "crawler",
@@ -1030,7 +1037,7 @@
       "original_file_path": "news-monthly-automatic-top-ups.md"
     },
     {
-      "file_path": "019-news-look-at.md",
+      "file_path": "070-news-look-at.md",
       "title": "Look At This",
       "url": "https://ampcode.com/news/look-at",
       "source": "crawler",
@@ -1049,7 +1056,7 @@
       "original_file_path": "news-look-at.md"
     },
     {
-      "file_path": "025-news-enterprise-managed-settings.md",
+      "file_path": "094-news-enterprise-managed-settings.md",
       "title": "Enterprise Managed Settings",
       "url": "https://ampcode.com/news/enterprise-managed-settings",
       "source": "crawler",
@@ -1067,7 +1074,7 @@
       "original_file_path": "news-enterprise-managed-settings.md"
     },
     {
-      "file_path": "136-news-opus-4.5.md",
+      "file_path": "118-news-opus-4.5.md",
       "title": "Opus 4.5: Better, Faster, Often Cheaper",
       "url": "https://ampcode.com/news/opus-4.5",
       "source": "crawler",
@@ -1086,7 +1093,7 @@
       "original_file_path": "news-opus-4.5.md"
     },
     {
-      "file_path": "043-news-find-threads.md",
+      "file_path": "014-news-find-threads.md",
       "title": "Find Threads",
       "url": "https://ampcode.com/news/find-threads",
       "source": "crawler",
@@ -1104,7 +1111,7 @@
       "original_file_path": "news-find-threads.md"
     },
     {
-      "file_path": "140-news-through-the-agent-into-the-shell.md",
+      "file_path": "043-news-through-the-agent-into-the-shell.md",
       "title": "Through the Agent, Into the Shell",
       "url": "https://ampcode.com/news/through-the-agent-into-the-shell",
       "source": "crawler",
@@ -1122,7 +1129,7 @@
       "original_file_path": "news-through-the-agent-into-the-shell.md"
     },
     {
-      "file_path": "111-news-AGENTS.md",
+      "file_path": "121-news-agents.md",
       "title": "",
       "url": "https://ampcode.com/news/AGENTS.md",
       "source": "crawler",
@@ -1140,7 +1147,7 @@
       "original_file_path": "news-AGENTS.md"
     },
     {
-      "file_path": "107-news-1m-tokens.md",
+      "file_path": "035-news-1m-tokens.md",
       "title": "1,000,000 Tokens",
       "url": "https://ampcode.com/news/1m-tokens",
       "source": "crawler",
@@ -1158,7 +1165,7 @@
       "original_file_path": "news-1m-tokens.md"
     },
     {
-      "file_path": "064-news-jetbrains-diagnostics.md",
+      "file_path": "030-news-jetbrains-diagnostics.md",
       "title": "JetBrains Diagnostics for Java, Kotlin, and Scala",
       "url": "https://ampcode.com/news/jetbrains-diagnostics",
       "source": "crawler",
@@ -1178,7 +1185,7 @@
       "original_file_path": "news-jetbrains-diagnostics.md"
     },
     {
-      "file_path": "029-news-agent-skills.md",
+      "file_path": "074-news-agent-skills.md",
       "title": "Agent Skills",
       "url": "https://ampcode.com/news/agent-skills",
       "source": "crawler",
@@ -1196,7 +1203,7 @@
       "original_file_path": "news-agent-skills.md"
     },
     {
-      "file_path": "044-news-read-threads.md",
+      "file_path": "015-news-read-threads.md",
       "title": "Amp Now Reads Threads",
       "url": "https://ampcode.com/news/read-threads",
       "source": "crawler",
@@ -1214,7 +1221,7 @@
       "original_file_path": "news-read-threads.md"
     },
     {
-      "file_path": "073-news-command-palette.md",
+      "file_path": "034-news-command-palette.md",
       "title": "Command Palette, Not Slash Commands",
       "url": "https://ampcode.com/news/command-palette",
       "source": "crawler",
@@ -1232,7 +1239,7 @@
       "original_file_path": "news-command-palette.md"
     },
     {
-      "file_path": "131-news-model-evaluation.md",
+      "file_path": "135-news-model-evaluation.md",
       "title": "Model Evaluation",
       "url": "https://ampcode.com/news/model-evaluation",
       "source": "crawler",
@@ -1251,7 +1258,7 @@
       "original_file_path": "news-model-evaluation.md"
     },
     {
-      "file_path": "117-news-amp-tab-30-percent-faster.md",
+      "file_path": "125-news-amp-tab-30-percent-faster.md",
       "title": "Amp Tab 30% Faster",
       "url": "https://ampcode.com/news/amp-tab-30-percent-faster",
       "source": "crawler",
@@ -1270,7 +1277,7 @@
       "original_file_path": "news-amp-tab-30-percent-faster.md"
     },
     {
-      "file_path": "041-news-thread-forking.md",
+      "file_path": "012-news-thread-forking.md",
       "title": "Thread Forking in VS Code",
       "url": "https://ampcode.com/news/thread-forking",
       "source": "crawler",
@@ -1288,7 +1295,7 @@
       "original_file_path": "news-thread-forking.md"
     },
     {
-      "file_path": "116-news-amp-inc.md",
+      "file_path": "124-news-amp-inc.md",
       "title": "Amp, Inc.",
       "url": "https://ampcode.com/news/amp-inc",
       "source": "crawler",
@@ -1307,7 +1314,7 @@
       "original_file_path": "news-amp-inc.md"
     },
     {
-      "file_path": "051-news-typescript-sdk.md",
+      "file_path": "022-news-typescript-sdk.md",
       "title": "Amp TypeScript SDK",
       "url": "https://ampcode.com/news/typescript-sdk",
       "source": "crawler",
@@ -1324,12 +1331,12 @@
       "original_file_path": "news-typescript-sdk.md"
     },
     {
-      "file_path": "114-news-amp-free-no-training.md",
+      "file_path": "122-news-amp-free-no-training.md",
       "title": "Use Amp Free at Work",
       "url": "https://ampcode.com/news/amp-free-no-training",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:08:28.100243967-03:00",
-      "description": "The Internet\u2019s best business model (advertising) delivers once again: a $0 coding agent that meets the same stringent infosec standards of Amp\u2019s paid smart mode.",
+      "description": "The Internet’s best business model (advertising) delivers once again: a $0 coding agent that meets the same stringent infosec standards of Amp’s paid smart mode.",
       "summary": "This document announces that Amp Free no longer requires model training and now adheres to the same security standards as the paid version. It provides instructions for users and administrators on how to enable and manage free mode in the CLI, editor, and workspace settings.",
       "tags": [
         "amp-free",
@@ -1344,7 +1351,7 @@
       "original_file_path": "news-amp-free-no-training.md"
     },
     {
-      "file_path": "023-news-mcp-permissions.md",
+      "file_path": "092-news-mcp-permissions.md",
       "title": "MCP Permissions",
       "url": "https://ampcode.com/news/mcp-permissions",
       "source": "crawler",
@@ -1362,7 +1369,7 @@
       "original_file_path": "news-mcp-permissions.md"
     },
     {
-      "file_path": "027-news-gpt-5.md",
+      "file_path": "096-news-gpt-5.md",
       "title": "Try GPT-5 With Us",
       "url": "https://ampcode.com/news/gpt-5",
       "source": "crawler",
@@ -1380,7 +1387,7 @@
       "original_file_path": "news-gpt-5.md"
     },
     {
-      "file_path": "134-news-multiple-AGENT.md-files.md",
+      "file_path": "099-news-multiple-agent.md-files.md",
       "title": "Multiple AGENT.md Files",
       "url": "https://ampcode.com/news/multiple-AGENT.md-files",
       "source": "crawler",
@@ -1398,7 +1405,7 @@
       "original_file_path": "news-multiple-AGENT.md-files.md"
     },
     {
-      "file_path": "020-news-diagnostic-driven-completions.md",
+      "file_path": "071-news-diagnostic-driven-completions.md",
       "title": "Diagnostic-Driven Completions",
       "url": "https://ampcode.com/news/diagnostic-driven-completions",
       "source": "crawler",
@@ -1417,7 +1424,7 @@
       "original_file_path": "news-diagnostic-driven-completions.md"
     },
     {
-      "file_path": "065-news-terminal.md",
+      "file_path": "105-news-terminal.md",
       "title": "Terminal Improvements",
       "url": "https://ampcode.com/news/terminal",
       "source": "crawler",
@@ -1436,7 +1443,7 @@
       "original_file_path": "news-terminal.md"
     },
     {
-      "file_path": "143-news-towards-a-new-cli.md",
+      "file_path": "142-news-towards-a-new-cli.md",
       "title": "Towards a New CLI",
       "url": "https://ampcode.com/news/towards-a-new-cli",
       "source": "crawler",
@@ -1455,12 +1462,12 @@
       "original_file_path": "news-towards-a-new-cli.md"
     },
     {
-      "file_path": "135-news-no-more-byok.md",
+      "file_path": "137-news-no-more-byok.md",
       "title": "No More BYOK",
       "url": "https://ampcode.com/news/no-more-byok",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:08:52.000629716-03:00",
-      "description": "The best product is built by iterating fast at the model\u2194product frontier, so we removed Isolated Mode",
+      "description": "The best product is built by iterating fast at the model↔product frontier, so we removed Isolated Mode",
       "summary": "This document explains the decision to remove Isolated Mode in Amp, detailing the technical challenges regarding API rate limits, connectivity, and model parity that led to the change.",
       "tags": [
         "amp",
@@ -1475,7 +1482,7 @@
       "original_file_path": "news-no-more-byok.md"
     },
     {
-      "file_path": "120-news-cli-tab-navigation.md",
+      "file_path": "038-news-cli-tab-navigation.md",
       "title": "Edit, Restore and Fork in the CLI",
       "url": "https://ampcode.com/news/cli-tab-navigation",
       "source": "crawler",
@@ -1494,7 +1501,7 @@
       "original_file_path": "news-cli-tab-navigation.md"
     },
     {
-      "file_path": "110-news-AGENT.md",
+      "file_path": "097-news-agent.md",
       "title": "",
       "url": "https://ampcode.com/news/AGENT.md",
       "source": "crawler",
@@ -1513,7 +1520,7 @@
       "original_file_path": "news-AGENT.md"
     },
     {
-      "file_path": "017-notes-200k-tokens-is-plenty.md",
+      "file_path": "057-notes-200k-tokens-is-plenty.md",
       "title": "200k Tokens Is Plenty",
       "url": "https://ampcode.com/notes/200k-tokens-is-plenty",
       "source": "crawler",
@@ -1532,7 +1539,7 @@
       "original_file_path": "notes-200k-tokens-is-plenty.md"
     },
     {
-      "file_path": "121-news-cli-vscode-neovim.md",
+      "file_path": "039-news-cli-vscode-neovim.md",
       "title": "Amp CLI connects to VS Code and Neovim",
       "url": "https://ampcode.com/news/cli-vscode-neovim",
       "source": "crawler",
@@ -1551,7 +1558,7 @@
       "original_file_path": "news-cli-vscode-neovim.md"
     },
     {
-      "file_path": "067-news-lazy-load-mcp-with-skills.md",
+      "file_path": "032-news-lazy-load-mcp-with-skills.md",
       "title": "Efficient MCP Tool Loading",
       "url": "https://ampcode.com/news/lazy-load-mcp-with-skills",
       "source": "crawler",
@@ -1569,7 +1576,7 @@
       "original_file_path": "news-lazy-load-mcp-with-skills.md"
     },
     {
-      "file_path": "127-news-globs-in-AGENTS.md",
+      "file_path": "098-news-globs-in-agents.md",
       "title": "",
       "url": "https://ampcode.com/news/globs-in-AGENTS.md",
       "source": "crawler",
@@ -1587,7 +1594,7 @@
       "original_file_path": "news-globs-in-AGENTS.md"
     },
     {
-      "file_path": "066-news-toolboxes.md",
+      "file_path": "031-news-toolboxes.md",
       "title": "Bring Your Own Tools",
       "url": "https://ampcode.com/news/toolboxes",
       "source": "crawler",
@@ -1605,7 +1612,7 @@
       "original_file_path": "news-toolboxes.md"
     },
     {
-      "file_path": "123-news-default-claude-sonnet-4.md",
+      "file_path": "129-news-default-claude-sonnet-4.md",
       "title": "Amp Now Uses Claude Sonnet 4",
       "url": "https://ampcode.com/news/default-claude-sonnet-4",
       "source": "crawler",
@@ -1624,7 +1631,7 @@
       "original_file_path": "news-default-claude-sonnet-4.md"
     },
     {
-      "file_path": "133-news-multi-root-workspaces.md",
+      "file_path": "136-news-multi-root-workspaces.md",
       "title": "Multi-Root Workspaces",
       "url": "https://ampcode.com/news/multi-root-workspaces",
       "source": "crawler",
@@ -1642,7 +1649,7 @@
       "original_file_path": "news-multi-root-workspaces.md"
     },
     {
-      "file_path": "112-news-agents-panel.md",
+      "file_path": "036-news-agents-panel.md",
       "title": "Agents Panel",
       "url": "https://ampcode.com/news/agents-panel",
       "source": "crawler",
@@ -1660,7 +1667,7 @@
       "original_file_path": "news-agents-panel.md"
     },
     {
-      "file_path": "154-podcast-episode-8.md",
+      "file_path": "090-podcast-episode-8.md",
       "title": "Episode 8",
       "url": "https://ampcode.com/podcast/episode-8",
       "source": "crawler",
@@ -1680,7 +1687,7 @@
       "original_file_path": "podcast-episode-8.md"
     },
     {
-      "file_path": "054-news-queue-messages-in-the-cli.md",
+      "file_path": "024-news-queue-messages-in-the-cli.md",
       "title": "Queue Messages in the CLI",
       "url": "https://ampcode.com/news/queue-messages-in-the-cli",
       "source": "crawler",
@@ -1697,7 +1704,7 @@
       "original_file_path": "news-queue-messages-in-the-cli.md"
     },
     {
-      "file_path": "010-notes-how-i-use-amp.md",
+      "file_path": "055-notes-how-i-use-amp.md",
       "title": "Amp is now available. Here's how I use it.",
       "url": "https://ampcode.com/notes/how-i-use-amp",
       "source": "crawler",
@@ -1716,7 +1723,7 @@
       "original_file_path": "notes-how-i-use-amp.md"
     },
     {
-      "file_path": "011-notes-how-we-build.md",
+      "file_path": "056-notes-how-we-build.md",
       "title": "How We Build",
       "url": "https://ampcode.com/notes/how-we-build",
       "source": "crawler",
@@ -1735,7 +1742,7 @@
       "original_file_path": "notes-how-we-build.md"
     },
     {
-      "file_path": "031-news-oracle.md",
+      "file_path": "003-news-oracle.md",
       "title": "Oracle",
       "url": "https://ampcode.com/news/oracle",
       "source": "crawler",
@@ -1754,7 +1761,7 @@
       "original_file_path": "news-oracle.md"
     },
     {
-      "file_path": "028-notes-permissions.md",
+      "file_path": "058-notes-permissions.md",
       "title": "How We Think about Permissions",
       "url": "https://ampcode.com/notes/permissions",
       "source": "crawler",
@@ -1772,7 +1779,7 @@
       "original_file_path": "notes-permissions.md"
     },
     {
-      "file_path": "074-notes-fif.md",
+      "file_path": "156-notes-fif.md",
       "title": "Frequently Ignored Feedback (FIF)",
       "url": "https://ampcode.com/notes/fif",
       "source": "crawler",
@@ -1791,7 +1798,7 @@
       "original_file_path": "notes-fif.md"
     },
     {
-      "file_path": "142-news-todos.md",
+      "file_path": "141-news-todos.md",
       "title": "TODOs for the Agent",
       "url": "https://ampcode.com/news/todos",
       "source": "crawler",
@@ -1808,12 +1815,12 @@
       "original_file_path": "news-todos.md"
     },
     {
-      "file_path": "155-podcast-episode-9.md",
+      "file_path": "091-podcast-episode-9.md",
       "title": "Episode 9",
       "url": "https://ampcode.com/podcast/episode-9",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:08:58.523413664-03:00",
-      "description": "In this episode, Quinn and Thorsten discuss how everything seems to have changed again with Gemini 3 and Opus 4.5 and what comes after \u2014 the assistant is dead, long live the factory.",
+      "description": "In this episode, Quinn and Thorsten discuss how everything seems to have changed again with Gemini 3 and Opus 4.5 and what comes after — the assistant is dead, long live the factory.",
       "summary": "This document explores the evolution of AI development from simple coding assistants to autonomous agent-driven factories capable of managing entire codebases independently. It analyzes how recent advancements in frontier models are shifting the industry toward a future where agents perform the majority of software engineering tasks.",
       "tags": [
         "ai-agents",
@@ -1827,7 +1834,7 @@
       "original_file_path": "podcast-episode-9.md"
     },
     {
-      "file_path": "161-@cje.md",
+      "file_path": "163-@cje.md",
       "title": "cje's Profile",
       "url": "https://ampcode.com/@cje",
       "source": "crawler",
@@ -1844,7 +1851,7 @@
       "original_file_path": "@cje.md"
     },
     {
-      "file_path": "119-news-claude-sonnet-4-5.md",
+      "file_path": "127-news-claude-sonnet-4-5.md",
       "title": "Now Using Claude Sonnet 4.5",
       "url": "https://ampcode.com/news/claude-sonnet-4-5",
       "source": "crawler",
@@ -1863,7 +1870,7 @@
       "original_file_path": "news-claude-sonnet-4-5.md"
     },
     {
-      "file_path": "174-@mitsuhiko.md",
+      "file_path": "117-@mitsuhiko.md",
       "title": "mitsuhiko's Profile",
       "url": "https://ampcode.com/@mitsuhiko",
       "source": "crawler",
@@ -1880,7 +1887,7 @@
       "original_file_path": "@mitsuhiko.md"
     },
     {
-      "file_path": "048-news-amp-tab-for-all.md",
+      "file_path": "019-news-amp-tab-for-all.md",
       "title": "Amp Tab for All",
       "url": "https://ampcode.com/news/amp-tab-for-all",
       "source": "crawler",
@@ -1899,7 +1906,7 @@
       "original_file_path": "news-amp-tab-for-all.md"
     },
     {
-      "file_path": "014-notes-agents-for-the-agent.md",
+      "file_path": "066-notes-agents-for-the-agent.md",
       "title": "Agents for the Agent",
       "url": "https://ampcode.com/notes/agents-for-the-agent",
       "source": "crawler",
@@ -1918,7 +1925,7 @@
       "original_file_path": "notes-agents-for-the-agent.md"
     },
     {
-      "file_path": "079-threads-T-019bb785-2fd8-758f-abd4-617e8974e0ab.md",
+      "file_path": "145-threads-t-019bb785-2fd8-758f-abd4-617e8974e0ab.md",
       "title": "Update search agent eval dashboard reporting",
       "url": "https://ampcode.com/threads/T-019bb785-2fd8-758f-abd4-617e8974e0ab",
       "source": "crawler",
@@ -1933,7 +1940,7 @@
       "original_file_path": "threads-T-019bb785-2fd8-758f-abd4-617e8974e0ab.md"
     },
     {
-      "file_path": "056-news-cli-image-support.md",
+      "file_path": "026-news-cli-image-support.md",
       "title": "Image Support in CLI",
       "url": "https://ampcode.com/news/cli-image-support",
       "source": "crawler",
@@ -1951,7 +1958,7 @@
       "original_file_path": "news-cli-image-support.md"
     },
     {
-      "file_path": "149-podcast-episode-3.md",
+      "file_path": "085-podcast-episode-3.md",
       "title": "Episode 3",
       "url": "https://ampcode.com/podcast/episode-3",
       "source": "crawler",
@@ -1970,7 +1977,7 @@
       "original_file_path": "podcast-episode-3.md"
     },
     {
-      "file_path": "053-news-amp-x.md",
+      "file_path": "102-news-amp-x.md",
       "title": "amp dash x",
       "url": "https://ampcode.com/news/amp-x",
       "source": "crawler",
@@ -1993,7 +2000,7 @@
       "url": "https://ampcode.com/@tsenart",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:09:11.500916561-03:00",
-      "summary": "This document displays a user profile for Tom\u00e1s Senart on the ampcode platform, detailing developer activity metrics such as messages, threads, and code contributions.",
+      "summary": "This document displays a user profile for Tomás Senart on the ampcode platform, detailing developer activity metrics such as messages, threads, and code contributions.",
       "tags": [
         "user-profile",
         "developer-statistics",
@@ -2005,7 +2012,7 @@
       "original_file_path": "@tsenart.md"
     },
     {
-      "file_path": "052-news-streaming-json.md",
+      "file_path": "023-news-streaming-json.md",
       "title": "Streaming JSON",
       "url": "https://ampcode.com/news/streaming-json",
       "source": "crawler",
@@ -2024,7 +2031,7 @@
       "original_file_path": "news-streaming-json.md"
     },
     {
-      "file_path": "170-@marcel.md",
+      "file_path": "171-@marcel.md",
       "title": "marcel's Profile",
       "url": "https://ampcode.com/@marcel",
       "source": "crawler",
@@ -2042,7 +2049,7 @@
       "original_file_path": "@marcel.md"
     },
     {
-      "file_path": "070-docs-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md",
+      "file_path": "107-docs-t-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md",
       "title": "PostHog invitation entity ER diagram walkthrough",
       "url": "https://ampcode.com/docs/T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20",
       "source": "crawler",
@@ -2060,7 +2067,7 @@
       "original_file_path": "docs-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md"
     },
     {
-      "file_path": "151-podcast-episode-5.md",
+      "file_path": "087-podcast-episode-5.md",
       "title": "Episode 5",
       "url": "https://ampcode.com/podcast/episode-5",
       "source": "crawler",
@@ -2079,7 +2086,7 @@
       "original_file_path": "podcast-episode-5.md"
     },
     {
-      "file_path": "069-docs-T-019ba592-ddac-77c8-8d37-3f15223761e4.md",
+      "file_path": "106-docs-t-019ba592-ddac-77c8-8d37-3f15223761e4.md",
       "title": "Svelte 5 event handling improvements vs version 4",
       "url": "https://ampcode.com/docs/T-019ba592-ddac-77c8-8d37-3f15223761e4",
       "source": "crawler",
@@ -2097,7 +2104,7 @@
       "original_file_path": "docs-T-019ba592-ddac-77c8-8d37-3f15223761e4.md"
     },
     {
-      "file_path": "129-news-jetbrains-in-the-cli.md",
+      "file_path": "040-news-jetbrains-in-the-cli.md",
       "title": "JetBrains in the CLI",
       "url": "https://ampcode.com/news/jetbrains-in-the-cli",
       "source": "crawler",
@@ -2115,7 +2122,7 @@
       "original_file_path": "news-jetbrains-in-the-cli.md"
     },
     {
-      "file_path": "124-news-faster-search-agent.md",
+      "file_path": "130-news-faster-search-agent.md",
       "title": "50% Faster Search Agent",
       "url": "https://ampcode.com/news/faster-search-agent",
       "source": "crawler",
@@ -2133,7 +2140,7 @@
       "original_file_path": "news-faster-search-agent.md"
     },
     {
-      "file_path": "071-docs-T-019baa18-8416-71e8-8602-196914e94941.md",
+      "file_path": "062-docs-t-019baa18-8416-71e8-8602-196914e94941.md",
       "title": "Email invite acceptance process walkthrough",
       "url": "https://ampcode.com/docs/T-019baa18-8416-71e8-8602-196914e94941",
       "source": "crawler",
@@ -2151,7 +2158,7 @@
       "original_file_path": "docs-T-019baa18-8416-71e8-8602-196914e94941.md"
     },
     {
-      "file_path": "150-podcast-episode-4.md",
+      "file_path": "086-podcast-episode-4.md",
       "title": "Episode 4",
       "url": "https://ampcode.com/podcast/episode-4",
       "source": "crawler",
@@ -2170,7 +2177,7 @@
       "original_file_path": "podcast-episode-4.md"
     },
     {
-      "file_path": "148-podcast-episode-2.md",
+      "file_path": "084-podcast-episode-2.md",
       "title": "Episode 2",
       "url": "https://ampcode.com/podcast/episode-2",
       "source": "crawler",
@@ -2188,7 +2195,7 @@
       "original_file_path": "podcast-episode-2.md"
     },
     {
-      "file_path": "153-podcast-episode-7.md",
+      "file_path": "089-podcast-episode-7.md",
       "title": "Episode 7",
       "url": "https://ampcode.com/podcast/episode-7",
       "source": "crawler",
@@ -2207,7 +2214,7 @@
       "original_file_path": "podcast-episode-7.md"
     },
     {
-      "file_path": "024-news-tool-level-permissions.md",
+      "file_path": "093-news-tool-level-permissions.md",
       "title": "Tool-Level Permissions",
       "url": "https://ampcode.com/news/tool-level-permissions",
       "source": "crawler",
@@ -2225,7 +2232,7 @@
       "original_file_path": "news-tool-level-permissions.md"
     },
     {
-      "file_path": "086-threads-T-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720.md",
+      "file_path": "063-threads-t-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720.md",
       "title": "Add visual effect to splash screen welcome message",
       "url": "https://ampcode.com/threads/T-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720",
       "source": "crawler",
@@ -2243,7 +2250,7 @@
       "original_file_path": "threads-T-02e2922e-f149-4d8a-b2c1-bb2ef7e0b720.md"
     },
     {
-      "file_path": "152-podcast-episode-6.md",
+      "file_path": "088-podcast-episode-6.md",
       "title": "Episode 6",
       "url": "https://ampcode.com/podcast/episode-6",
       "source": "crawler",
@@ -2297,7 +2304,7 @@
       "original_file_path": "@rockorager.md"
     },
     {
-      "file_path": "109-news-500k.md",
+      "file_path": "120-news-500k.md",
       "title": "The First 500,000 Messages",
       "url": "https://ampcode.com/news/500k",
       "source": "crawler",
@@ -2313,7 +2320,7 @@
       "original_file_path": "news-500k.md"
     },
     {
-      "file_path": "057-news-cli-file-mentions.md",
+      "file_path": "027-news-cli-file-mentions.md",
       "title": "File Mentions in CLI",
       "url": "https://ampcode.com/news/cli-file-mentions",
       "source": "crawler",
@@ -2331,7 +2338,7 @@
       "original_file_path": "news-cli-file-mentions.md"
     },
     {
-      "file_path": "022-news-new-model-for-amp-tab.md",
+      "file_path": "073-news-new-model-for-amp-tab.md",
       "title": "A New Model for Amp Tab",
       "url": "https://ampcode.com/news/new-model-for-amp-tab",
       "source": "crawler",
@@ -2350,7 +2357,7 @@
       "original_file_path": "news-new-model-for-amp-tab.md"
     },
     {
-      "file_path": "078-threads-T-019bb777-afe9-74ba-aacd-1dc6ec9017ad.md",
+      "file_path": "144-threads-t-019bb777-afe9-74ba-aacd-1dc6ec9017ad.md",
       "title": "Redesign task view with planning and kanban features",
       "url": "https://ampcode.com/threads/T-019bb777-afe9-74ba-aacd-1dc6ec9017ad",
       "source": "crawler",
@@ -2364,7 +2371,7 @@
       "original_file_path": "threads-T-019bb777-afe9-74ba-aacd-1dc6ec9017ad.md"
     },
     {
-      "file_path": "144-news-try-opus.md",
+      "file_path": "143-news-try-opus.md",
       "title": "Try Claude Opus 4.5 With Us",
       "url": "https://ampcode.com/news/try-opus",
       "source": "crawler",
@@ -2382,7 +2389,7 @@
       "original_file_path": "news-try-opus.md"
     },
     {
-      "file_path": "047-news-amp-tab.md",
+      "file_path": "018-news-amp-tab.md",
       "title": "Amp Tab",
       "url": "https://ampcode.com/news/amp-tab",
       "source": "crawler",
@@ -2401,7 +2408,7 @@
       "original_file_path": "news-amp-tab.md"
     },
     {
-      "file_path": "083-threads-T-019c0416-78f2-7298-8926-369b325f7188.md",
+      "file_path": "076-threads-t-019c0416-78f2-7298-8926-369b325f7188.md",
       "title": "MCP tool registration conflict with multiple skills",
       "url": "https://ampcode.com/threads/T-019c0416-78f2-7298-8926-369b325f7188",
       "source": "crawler",
@@ -2435,7 +2442,7 @@
       "original_file_path": "@mrnugget.md"
     },
     {
-      "file_path": "081-threads-T-019bbd1e-33ea-705d-b03b-5084ca3532ce.md",
+      "file_path": "046-threads-t-019bbd1e-33ea-705d-b03b-5084ca3532ce.md",
       "title": "Incorrect bounce angle against wall",
       "url": "https://ampcode.com/threads/T-019bbd1e-33ea-705d-b03b-5084ca3532ce",
       "source": "crawler",
@@ -2470,7 +2477,7 @@
       "original_file_path": "@sqs.md"
     },
     {
-      "file_path": "118-news-better-faster-cheaper-summaries.md",
+      "file_path": "126-news-better-faster-cheaper-summaries.md",
       "title": "Better, Faster, Cheaper Summaries",
       "url": "https://ampcode.com/news/better-faster-cheaper-summaries",
       "source": "crawler",
@@ -2487,7 +2494,7 @@
       "original_file_path": "news-better-faster-cheaper-summaries.md"
     },
     {
-      "file_path": "080-threads-T-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1.md",
+      "file_path": "110-threads-t-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1.md",
       "title": "Build static physics playground for gap collision debugging",
       "url": "https://ampcode.com/threads/T-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1",
       "source": "crawler",
@@ -2505,7 +2512,7 @@
       "original_file_path": "threads-T-019bbcd0-1ffa-72fa-957b-91f0d01bdaa1.md"
     },
     {
-      "file_path": "021-news-streamable-mcp.md",
+      "file_path": "072-news-streamable-mcp.md",
       "title": "Streamable Transport for MCP",
       "url": "https://ampcode.com/news/streamable-mcp",
       "source": "crawler",
@@ -2524,12 +2531,12 @@
       "original_file_path": "news-streamable-mcp.md"
     },
     {
-      "file_path": "130-news-look-ma-no-flicker.md",
+      "file_path": "134-news-look-ma-no-flicker.md",
       "title": "Look Ma, No Flicker",
       "url": "https://ampcode.com/news/look-ma-no-flicker",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:08:32.721419078-03:00",
-      "description": "Today the Amp CLI reached the next stage in its evolution. It\u2019s no longer just a command-line tool, but a proper terminal user interface.",
+      "description": "Today the Amp CLI reached the next stage in its evolution. It’s no longer just a command-line tool, but a proper terminal user interface.",
       "summary": "This document announces the evolution of the Amp CLI into a feature-rich terminal user interface built on a custom framework designed for smooth interactions and high-performance rendering.",
       "tags": [
         "amp-cli",
@@ -2542,7 +2549,7 @@
       "original_file_path": "news-look-ma-no-flicker.md"
     },
     {
-      "file_path": "147-podcast-episode-10.md",
+      "file_path": "083-podcast-episode-10.md",
       "title": "Episode 10",
       "url": "https://ampcode.com/podcast/episode-10",
       "source": "crawler",
@@ -2562,7 +2569,7 @@
       "original_file_path": "podcast-episode-10.md"
     },
     {
-      "file_path": "167-@kevin.md",
+      "file_path": "168-@kevin.md",
       "title": "kevin's Profile",
       "url": "https://ampcode.com/@kevin",
       "source": "crawler",
@@ -2579,7 +2586,7 @@
       "original_file_path": "@kevin.md"
     },
     {
-      "file_path": "084-threads-T-019c1e28-a4de-74a9-bb60-4f2baf888e8e.md",
+      "file_path": "077-threads-t-019c1e28-a4de-74a9-bb60-4f2baf888e8e.md",
       "title": "Unnatural bounce angle in feedback-loopable",
       "url": "https://ampcode.com/threads/T-019c1e28-a4de-74a9-bb60-4f2baf888e8e",
       "source": "crawler",
@@ -2596,7 +2603,7 @@
       "original_file_path": "threads-T-019c1e28-a4de-74a9-bb60-4f2baf888e8e.md"
     },
     {
-      "file_path": "163-@hamel.md",
+      "file_path": "165-@hamel.md",
       "title": "hamel's Profile",
       "url": "https://ampcode.com/@hamel",
       "source": "crawler",
@@ -2613,7 +2620,7 @@
       "original_file_path": "@hamel.md"
     },
     {
-      "file_path": "162-@erock.md",
+      "file_path": "164-@erock.md",
       "title": "erock's Profile",
       "url": "https://ampcode.com/@erock",
       "source": "crawler",
@@ -2630,7 +2637,7 @@
       "original_file_path": "@erock.md"
     },
     {
-      "file_path": "009-notes-how-to-pair-with-an-agent.md",
+      "file_path": "054-notes-how-to-pair-with-an-agent.md",
       "title": "How to Pair With an Agent",
       "url": "https://ampcode.com/notes/how-to-pair-with-an-agent",
       "source": "crawler",
@@ -2649,7 +2656,7 @@
       "original_file_path": "notes-how-to-pair-with-an-agent.md"
     },
     {
-      "file_path": "108-news-432k-tokens.md",
+      "file_path": "119-news-432k-tokens.md",
       "title": "432,000 Tokens",
       "url": "https://ampcode.com/news/432k-tokens",
       "source": "crawler",
@@ -2667,7 +2674,7 @@
       "original_file_path": "news-432k-tokens.md"
     },
     {
-      "file_path": "164-@ivanleomk.md",
+      "file_path": "116-@ivanleomk.md",
       "title": "ivanleomk's Profile",
       "url": "https://ampcode.com/@ivanleomk",
       "source": "crawler",
@@ -2684,7 +2691,7 @@
       "original_file_path": "@ivanleomk.md"
     },
     {
-      "file_path": "055-news-queued-messages.md",
+      "file_path": "025-news-queued-messages.md",
       "title": "Queued Messages",
       "url": "https://ampcode.com/news/queued-messages",
       "source": "crawler",
@@ -2701,7 +2708,7 @@
       "original_file_path": "news-queued-messages.md"
     },
     {
-      "file_path": "165-@jasonhawkharris.md",
+      "file_path": "166-@jasonhawkharris.md",
       "title": "jasonhawkharris's Profile",
       "url": "https://ampcode.com/@jasonhawkharris",
       "source": "crawler",
@@ -2718,7 +2725,7 @@
       "original_file_path": "@jasonhawkharris.md"
     },
     {
-      "file_path": "146-podcast-episode-1.md",
+      "file_path": "082-podcast-episode-1.md",
       "title": "Episode 1",
       "url": "https://ampcode.com/podcast/episode-1",
       "source": "crawler",
@@ -2737,7 +2744,7 @@
       "original_file_path": "podcast-episode-1.md"
     },
     {
-      "file_path": "016-notes-by-an-agent-for-an-agent.md",
+      "file_path": "068-notes-by-an-agent-for-an-agent.md",
       "title": "A Codebase by an Agent for an Agent",
       "url": "https://ampcode.com/notes/by-an-agent-for-an-agent",
       "source": "crawler",
@@ -2755,7 +2762,7 @@
       "original_file_path": "notes-by-an-agent-for-an-agent.md"
     },
     {
-      "file_path": "158-@beyang.md",
+      "file_path": "160-@beyang.md",
       "title": "beyang's Profile",
       "url": "https://ampcode.com/@beyang",
       "source": "crawler",
@@ -2789,7 +2796,7 @@
       "original_file_path": "@ridgetopai.md"
     },
     {
-      "file_path": "059-news-cli-history.md",
+      "file_path": "029-news-cli-history.md",
       "title": "History in CLI",
       "url": "https://ampcode.com/news/cli-history",
       "source": "crawler",
@@ -2807,7 +2814,7 @@
       "original_file_path": "news-cli-history.md"
     },
     {
-      "file_path": "049-news-multi-file-tab.md",
+      "file_path": "020-news-multi-file-tab.md",
       "title": "Multi-File Tab",
       "url": "https://ampcode.com/news/multi-file-tab",
       "source": "crawler",
@@ -2825,7 +2832,7 @@
       "original_file_path": "news-multi-file-tab.md"
     },
     {
-      "file_path": "102-threads-T-e7ea6537-b3c6-4833-919c-45aa0af2d52f.md",
+      "file_path": "050-threads-t-e7ea6537-b3c6-4833-919c-45aa0af2d52f.md",
       "title": "Create permanent cache helper function",
       "url": "https://ampcode.com/threads/T-e7ea6537-b3c6-4833-919c-45aa0af2d52f",
       "source": "crawler",
@@ -2842,7 +2849,7 @@
       "original_file_path": "threads-T-e7ea6537-b3c6-4833-919c-45aa0af2d52f.md"
     },
     {
-      "file_path": "094-threads-T-66beb0de-7f02-4241-a25e-50c0dc811788.md",
+      "file_path": "113-threads-t-66beb0de-7f02-4241-a25e-50c0dc811788.md",
       "title": "Remove debug statements from staged changes",
       "url": "https://ampcode.com/threads/T-66beb0de-7f02-4241-a25e-50c0dc811788",
       "source": "crawler",
@@ -2860,7 +2867,7 @@
       "original_file_path": "threads-T-66beb0de-7f02-4241-a25e-50c0dc811788.md"
     },
     {
-      "file_path": "089-threads-T-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9.md",
+      "file_path": "047-threads-t-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9.md",
       "title": "Designing advanced Slack workflow for legal tasks",
       "url": "https://ampcode.com/threads/T-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9",
       "source": "crawler",
@@ -2878,7 +2885,7 @@
       "original_file_path": "threads-T-330bd49a-2402-453c-bbf4-0c2f2ce7f2b9.md"
     },
     {
-      "file_path": "171-@mitchellh.md",
+      "file_path": "172-@mitchellh.md",
       "title": "mitchellh's Profile",
       "url": "https://ampcode.com/@mitchellh",
       "source": "crawler",
@@ -2895,7 +2902,7 @@
       "original_file_path": "@mitchellh.md"
     },
     {
-      "file_path": "013-news-more-tools-for-the-agent.md",
+      "file_path": "001-news-more-tools-for-the-agent.md",
       "title": "More Tools for the Agent",
       "url": "https://ampcode.com/news/more-tools-for-the-agent",
       "source": "crawler",
@@ -2914,7 +2921,7 @@
       "original_file_path": "news-more-tools-for-the-agent.md"
     },
     {
-      "file_path": "092-threads-T-3f1beb2b-bded-4fda-96cc-1af7192f24b6.md",
+      "file_path": "048-threads-t-3f1beb2b-bded-4fda-96cc-1af7192f24b6.md",
       "title": "Plan implementation for showing cursor beam",
       "url": "https://ampcode.com/threads/T-3f1beb2b-bded-4fda-96cc-1af7192f24b6",
       "source": "crawler",
@@ -2931,7 +2938,7 @@
       "original_file_path": "threads-T-3f1beb2b-bded-4fda-96cc-1af7192f24b6.md"
     },
     {
-      "file_path": "097-threads-T-95e73a95-f4fe-4f22-8d5c-6297467c97a5.md",
+      "file_path": "114-threads-t-95e73a95-f4fe-4f22-8d5c-6297467c97a5.md",
       "title": "Analyze thread stars in psql database",
       "url": "https://ampcode.com/threads/T-95e73a95-f4fe-4f22-8d5c-6297467c97a5",
       "source": "crawler",
@@ -2948,7 +2955,7 @@
       "original_file_path": "threads-T-95e73a95-f4fe-4f22-8d5c-6297467c97a5.md"
     },
     {
-      "file_path": "063-news-secret-redaction.md",
+      "file_path": "104-news-secret-redaction.md",
       "title": "Secret Redaction",
       "url": "https://ampcode.com/news/secret-redaction",
       "source": "crawler",
@@ -2966,7 +2973,7 @@
       "original_file_path": "news-secret-redaction.md"
     },
     {
-      "file_path": "098-threads-T-a7300c6a-82e4-4a62-868f-9c43038c5074.md",
+      "file_path": "081-threads-t-a7300c6a-82e4-4a62-868f-9c43038c5074.md",
       "title": "DWARF5 parser implementation example",
       "url": "https://ampcode.com/threads/T-a7300c6a-82e4-4a62-868f-9c43038c5074",
       "source": "crawler",
@@ -2983,7 +2990,7 @@
       "original_file_path": "threads-T-a7300c6a-82e4-4a62-868f-9c43038c5074.md"
     },
     {
-      "file_path": "105-threads-T-f916b832-c070-4853-8ab8-5e7596953bec.md",
+      "file_path": "052-threads-t-f916b832-c070-4853-8ab8-5e7596953bec.md",
       "title": "Create storybook for web components",
       "url": "https://ampcode.com/threads/T-f916b832-c070-4853-8ab8-5e7596953bec",
       "source": "crawler",
@@ -3000,7 +3007,7 @@
       "original_file_path": "threads-T-f916b832-c070-4853-8ab8-5e7596953bec.md"
     },
     {
-      "file_path": "058-news-new-threads-without-leaving-the-cli.md",
+      "file_path": "028-news-new-threads-without-leaving-the-cli.md",
       "title": "New Threads without Leaving the CLI",
       "url": "https://ampcode.com/news/new-threads-without-leaving-the-cli",
       "source": "crawler",
@@ -3017,7 +3024,7 @@
       "original_file_path": "news-new-threads-without-leaving-the-cli.md"
     },
     {
-      "file_path": "099-threads-T-aae44811-8790-4ea5-9841-ad85014db950.md",
+      "file_path": "150-threads-t-aae44811-8790-4ea5-9841-ad85014db950.md",
       "title": "Centralize agent mode colors in constant",
       "url": "https://ampcode.com/threads/T-aae44811-8790-4ea5-9841-ad85014db950",
       "source": "crawler",
@@ -3051,7 +3058,7 @@
       "original_file_path": "@nicolaygerold.md"
     },
     {
-      "file_path": "166-@justinechang.md",
+      "file_path": "167-@justinechang.md",
       "title": "justinechang's Profile",
       "url": "https://ampcode.com/@justinechang",
       "source": "crawler",
@@ -3069,7 +3076,7 @@
       "original_file_path": "@justinechang.md"
     },
     {
-      "file_path": "160-@cje-following.md",
+      "file_path": "162-@cje-following.md",
       "title": "People cje is following",
       "url": "https://ampcode.com/@cje/following",
       "source": "crawler",
@@ -3085,7 +3092,7 @@
       "original_file_path": "@cje-following.md"
     },
     {
-      "file_path": "157-@ari.md",
+      "file_path": "159-@ari.md",
       "title": "ari's Profile",
       "url": "https://ampcode.com/@ari",
       "source": "crawler",
@@ -3120,7 +3127,7 @@
       "original_file_path": "@ryan0x44.md"
     },
     {
-      "file_path": "082-threads-T-019bfa3e-6b60-706f-880f-75c7fdb82ef7.md",
+      "file_path": "111-threads-t-019bfa3e-6b60-706f-880f-75c7fdb82ef7.md",
       "title": "Selected message color mismatch in CLI themes",
       "url": "https://ampcode.com/threads/T-019bfa3e-6b60-706f-880f-75c7fdb82ef7",
       "source": "crawler",
@@ -3137,7 +3144,7 @@
       "original_file_path": "threads-T-019bfa3e-6b60-706f-880f-75c7fdb82ef7.md"
     },
     {
-      "file_path": "173-@mitsuhiko-following.md",
+      "file_path": "174-@mitsuhiko-following.md",
       "title": "People mitsuhiko is following",
       "url": "https://ampcode.com/@mitsuhiko/following",
       "source": "crawler",
@@ -3153,7 +3160,7 @@
       "original_file_path": "@mitsuhiko-following.md"
     },
     {
-      "file_path": "172-@mitsuhiko-followers.md",
+      "file_path": "173-@mitsuhiko-followers.md",
       "title": "People following mitsuhiko",
       "url": "https://ampcode.com/@mitsuhiko/followers",
       "source": "crawler",
@@ -3185,7 +3192,7 @@
       "original_file_path": "@sagtanih.md"
     },
     {
-      "file_path": "159-@cje-followers.md",
+      "file_path": "161-@cje-followers.md",
       "title": "People following cje",
       "url": "https://ampcode.com/@cje/followers",
       "source": "crawler",
@@ -3206,7 +3213,7 @@
       "url": "https://ampcode.com/@tsenart/followers",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:10:32.023253087-03:00",
-      "summary": "This document displays a user profile page for Tom\u00e1s Senart on the Ampcode platform, showing his username and unique identifier.",
+      "summary": "This document displays a user profile page for Tomás Senart on the Ampcode platform, showing his username and unique identifier.",
       "tags": [
         "user-profile",
         "ampcode",
@@ -3223,7 +3230,7 @@
       "url": "https://ampcode.com/@tsenart/following",
       "source": "crawler",
       "fetched_at": "2026-02-06T02:10:32.05773045-03:00",
-      "summary": "This document presents the user profile information for Tom\u00e1s Senart on the Ampcode platform.",
+      "summary": "This document presents the user profile information for Tomás Senart on the Ampcode platform.",
       "tags": [
         "user-profile",
         "ampcode",
@@ -3235,7 +3242,7 @@
       "original_file_path": "@tsenart-following.md"
     },
     {
-      "file_path": "093-threads-T-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a.md",
+      "file_path": "148-threads-t-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a.md",
       "title": "Warn user about excessive non-builtin tools",
       "url": "https://ampcode.com/threads/T-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a",
       "source": "crawler",
@@ -3252,7 +3259,7 @@
       "original_file_path": "threads-T-62d6f9c3-4859-4dbe-a0ec-0460e2a3707a.md"
     },
     {
-      "file_path": "169-@marcel-following.md",
+      "file_path": "170-@marcel-following.md",
       "title": "People marcel is following",
       "url": "https://ampcode.com/@marcel/following",
       "source": "crawler",
@@ -3267,7 +3274,7 @@
       "original_file_path": "@marcel-following.md"
     },
     {
-      "file_path": "075-threads-T-019ba592-ddac-77c8-8d37-3f15223761e4.md",
+      "file_path": "045-threads-t-019ba592-ddac-77c8-8d37-3f15223761e4.md",
       "title": "Svelte 5 event handling improvements vs version 4",
       "url": "https://ampcode.com/threads/T-019ba592-ddac-77c8-8d37-3f15223761e4",
       "source": "crawler",
@@ -3285,7 +3292,7 @@
       "original_file_path": "threads-T-019ba592-ddac-77c8-8d37-3f15223761e4.md"
     },
     {
-      "file_path": "168-@marcel-followers.md",
+      "file_path": "169-@marcel-followers.md",
       "title": "People following marcel",
       "url": "https://ampcode.com/@marcel/followers",
       "source": "crawler",
@@ -3301,7 +3308,7 @@
       "original_file_path": "@marcel-followers.md"
     },
     {
-      "file_path": "076-threads-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md",
+      "file_path": "108-threads-t-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md",
       "title": "PostHog invitation entity ER diagram walkthrough",
       "url": "https://ampcode.com/threads/T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20",
       "source": "crawler",
@@ -3319,7 +3326,7 @@
       "original_file_path": "threads-T-019ba5d4-4d79-74eb-a5b6-99bce84f2c20.md"
     },
     {
-      "file_path": "077-threads-T-019baa18-8416-71e8-8602-196914e94941.md",
+      "file_path": "109-threads-t-019baa18-8416-71e8-8602-196914e94941.md",
       "title": "Email invite acceptance process walkthrough",
       "url": "https://ampcode.com/threads/T-019baa18-8416-71e8-8602-196914e94941",
       "source": "crawler",
@@ -3482,21 +3489,15 @@
   ],
   "organization": {
     "method": "sequential-numbering",
-    "organized_at": "2026-02-06T02:22:15.376474",
+    "organized_at": "2026-04-26T12:37:40.364298+00:00",
     "total_files": 194,
     "categories": [
-      "Introduction & Overview",
-      "Getting Started & Installation",
-      "Tutorials & How-To Guides",
+      "Tutorials & Guides",
       "Concepts & Fundamentals",
-      "Configuration & Settings",
-      "Features & Capabilities",
-      "SDK & API Reference",
-      "Reference & Documentation",
-      "Examples & Case Studies",
-      "News & Updates",
-      "Podcast Episodes",
-      "User Profiles & Social"
-    ]
+      "Configuration",
+      "API Reference",
+      "Meta & Resources"
+    ],
+    "dropped": []
   }
 }

@@ -1,0 +1,447 @@
+---
+title: DeepSeek-V4 - SGLang Documentation
+url: https://docs.sglang.io/cookbook/autoregressive/DeepSeek/DeepSeek-V4
+source: sitemap
+fetched_at: 2026-05-11T05:51:00.677970585-03:00
+rendered_js: false
+word_count: 1141
+summary: This document provides technical specifications and deployment instructions for the DeepSeek-V4 model family using the SGLang inference framework, covering hardware requirements, Docker installation, and serving configuration recipes.
+tags:
+    - deepseek-v4
+    - sglang
+    - llm-serving
+    - model-deployment
+    - moe-models
+    - gpu-optimization
+category: guide
+---
+
+> ## Documentation Index
+> 
+> Fetch the complete documentation index at: [https://docs.sglang.io/llms.txt](https://docs.sglang.io/llms.txt)
+> 
+> Use this file to discover all available pages before exploring further.
+
+## 1. Model Introduction
+
+**DeepSeek-V4** is the next-generation Mixture-of-Experts model from DeepSeek, released 2026-04-24 under an **MIT License**. It ships as two Instruct repos (one per variant) plus matching Base repos:
+
+VariantTotal paramsActive (MoE)Use[**DeepSeek-V4-Flash**](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)**284B**13Bsingle-node serving: B200 / GB200 / GB300 / H200 on 4 GPUs[**DeepSeek-V4-Pro**](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)**1.6T**49Bhigh-capacity: B200 8 GPU / GB200 8 GPU (2 nodes) / GB300 4 GPU / H200 8 GPU(fp4)/16 GPU(fp8)
+
+The Instruct repos ship **FP4 MoE experts + FP8 attention / dense** (one mixed-precision checkpoint covers all GPUs that support FP4). The Base (pre-trained only) variants — `DeepSeek-V4-Flash-Base`, `DeepSeek-V4-Pro-Base` — ship pure FP8 mixed and are **not** for chat / tool calling. **Key Features** (per the official model card):
+
+- **Hybrid Attention Architecture** — combines Compressed Sparse Attention (CSA) and Heavily Compressed Attention (HCA) for long-context efficiency. At 1M-token context, DeepSeek-V4-Pro uses only ~27% of per-token inference FLOPs and ~10% of KV cache compared with DeepSeek-V3.2.
+- **Manifold-Constrained Hyper-Connections (mHC)** — strengthens residual connections, improving signal-propagation stability across layers while preserving expressivity.
+- **Muon optimizer** — faster convergence and greater training stability.
+- **Context length: 1M tokens**; pre-trained on 32T+ diverse, high-quality tokens.
+- **Three reasoning modes**: *Non-think* (fast, intuitive responses), *Think High* (conscious logical analysis, slower but more accurate), *Think Max* (push reasoning to its fullest extent). Recommend a ≥ 384K context window when running Think Max.
+- Ships with a dedicated `encoding_dsv4.encode_messages` Python encoder + DSML tool-call grammar (`<｜DSML｜tool_calls>` / `<｜DSML｜invoke>` / `<｜DSML｜parameter>`).
+
+**Recommended Generation Parameters:** `temperature=1.0`, `top_p=1.0` (per the official model card). **License:** MIT. **Resources:**
+
+- HuggingFace: [DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash), [DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)
+- ModelScope: [DeepSeek-V4-Flash](https://modelscope.cn/models/deepseek-ai/DeepSeek-V4-Flash), [DeepSeek-V4-Pro](https://modelscope.cn/models/deepseek-ai/DeepSeek-V4-Pro)
+
+## 2. SGLang Installation
+
+SGLang offers multiple installation methods. Choose based on your hardware platform. Please refer to the [official SGLang installation guide](https://docs.sglang.io/docs/get-started/install) for installation instructions. **Docker Images by Hardware Platform:**
+
+Hardware PlatformDocker ImageNVIDIA B300`lmsysorg/sglang:deepseek-v4-b300`NVIDIA B200`lmsysorg/sglang:deepseek-v4-blackwell`NVIDIA GB200`lmsysorg/sglang:deepseek-v4-grace-blackwell`NVIDIA GB300`lmsysorg/sglang:deepseek-v4-grace-blackwell`NVIDIA H200`lmsysorg/sglang:deepseek-v4-hopper`
+
+For how to actually launch one of these images, see [Install → Method 3: Using Docker](https://docs.sglang.io/docs/get-started/install#method-3-using-docker). A minimal example (substitute the image tag for your platform and the inner `sglang serve ...` with whatever the [command generator](#3-model-deployment) below produces):
+
+```
+docker run --gpus all \
+    --shm-size 32g \
+    -p 30000:30000 \
+    -v ~/.cache/huggingface:/root/.cache/huggingface \
+    --env "HF_TOKEN=<your-hf-token>" \
+    --ipc=host \
+    lmsysorg/sglang:deepseek-v4-blackwell \
+    sglang serve <use args below>
+```
+
+## 3. Model Deployment
+
+SGLang supports three main serving recipes for DeepSeek-V4 with different latency/throughput trade-offs (`low-latency`, `balanced`, `max-throughput`), plus specialized recipes for long-context (`cp`, prefill context-parallel) and prefill/decode disaggregation (`pd-disagg`). The interactive generator below emits the exact launch command for any `(hardware, variant, recipe)` combination.
+
+### 3.1 Basic Configuration
+
+**Interactive Command Generator**: Use the selector below to generate the deployment command for your hardware + recipe combination.
+
+Hardware Platform
+
+B200 (FP4)B300 (FP4)GB200 (FP4)GB300 (FP4)H200 (FP8)H200 (FP4)
+
+Model Variant
+
+Flash285BPro1.6T
+
+Recipe
+
+Low-LatencyBalancedMax-ThroughputContext-ParallelPD-Disagg
+
+Reasoning Parser
+
+DisabledEnableddeepseek-v4
+
+Tool Call Parser
+
+DisabledEnableddeepseekv4
+
+Run this Command:
+
+```
+sglang serve \
+  --trust-remote-code \
+  --model-path deepseek-ai/DeepSeek-V4-Flash \
+  --tp 4 \
+  --moe-runner-backend flashinfer_mxfp4 \
+  --speculative-algo EAGLE \
+  --speculative-num-steps 3 \
+  --speculative-eagle-topk 1 \
+  --speculative-num-draft-tokens 4 \
+  --chunked-prefill-size 4096 \
+  --disable-flashinfer-autotune \
+  --swa-full-tokens-ratio 0.1 \
+  --host 0.0.0.0 \
+  --port 30000
+```
+
+**Enabling MegaMoE**MegaMoE fuses expert dispatch + GEMM into a single kernel for higher throughput on MoE layers. It is currently verified on B200/B300 Pro (balanced & max-throughput recipes above). We have not yet tested the full hardware/recipe matrix, but it should work on other platforms (GB200, GB300, Flash). To enable it, add the flag and env vars:
+
+```
+# Add this flag to the sglang serve command:
+--moe-a2a-backend deepep
+
+# And set these env vars:
+SGLANG_OPT_USE_DEEPGEMM_MEGA_MOE=1
+SGLANG_OPT_FIX_MEGA_MOE_MEMORY=1
+SGLANG_OPT_FIX_NEXTN_MEGA_MOE=1
+SGLANG_OPT_DEEPGEMM_MEGA_MOE_NUM_MAX_TOKENS_PER_RANK=8320
+SGLANG_DEEPEP_NUM_MAX_DISPATCH_TOKENS_PER_RANK=0
+```
+
+Adjust `SGLANG_OPT_DEEPGEMM_MEGA_MOE_NUM_MAX_TOKENS_PER_RANK` based on your chunked prefill size (e.g. 4096 for balanced, 8320 for max-throughput).  
+`SGLANG_DEEPEP_NUM_MAX_DISPATCH_TOKENS_PER_RANK=0` — if your config mentions DeepEP dispatch buffer constraints, they do not apply when this is set to 0.  
+These flags are expected to be simplified in a future release.
+
+### 3.2 Configuration Tips
+
+**Concurrency & DeepEP dispatch buffer** Must hold: `max-running-requests × MTP_draft_tokens ≤ SGLANG_DEEPEP_NUM_MAX_DISPATCH_TOKENS_PER_RANK`. Violating it blows DeepEP’s dispatch buffer at steady-state load (`deep_ep.cpp:1105`). When tuning, move `--cuda-graph-max-bs`, `--max-running-requests`, and the env together. The generator currently picks values on the **conservative** side (mirroring an internal stress-test matrix). They run safely out of the box but likely leave throughput on the table — please tune them up toward your actual workload’s peak concurrency and report findings back so the defaults can be revised. **MTP (Multi-Token Prediction, EAGLE)**
+
+- `low-latency`: steps=3, draft-tokens=4 → largest win at bs=1.
+- `balanced`: steps=1, draft-tokens=2 → gentler MTP, reduces throughput hit at higher batch.
+- `max-throughput`: MTP disabled — at saturation the verify step costs more than it saves.
+- MTP currently requires `SGLANG_ENABLE_SPEC_V2=1`.
+
+[]()**Hopper (H200) note** We provide two different options for running DeepSeek-V4 models on Hopper devices (H200)
+
+- Original FP4 checkpoints: To run original FP4 checkpoints, apply the w4a16 MoE kernels (marlin) as in interactive command generator. For this option we only support TP method. Complete Pro model can be run on a single H200 node with this option.
+- Converted FP8 checkpoints: We also provide pre-converted FP8 checkpoints (`sgl-project/DeepSeek-V4-Flash-FP8`, `sgl-project/DeepSeek-V4-Pro-FP8`), which support more parallelism and features.
+
+PD-Disagg recipes on H200 may require `docker run --privileged --ulimit memlock=-1` (or `--device /dev/infiniband:/dev/infiniband --cap-add IPC_LOCK`) so mooncake can discover the IB HCAs; without IB exposure mooncake silently falls back to TCP, which can lead to garbled KV transfer on large checkpoints. **GB300 PD-Disagg cross-pod MNNVL** On some GB300 clusters with cross-pod KV transfer over NVLink, mooncake may fail with `nvlink_transport.cpp:497 Requested address ... not found!`. If this happens, prepend `MC_FORCE_MNNVL=1 NCCL_MNNVL_ENABLE=1 NCCL_CUMEM_ENABLE=1` to both prefill and decode `sglang serve` commands.
+
+## 4. Model Invocation
+
+### 4.1 Basic Usage
+
+For basic API usage and request examples, see:
+
+- [Basic API Usage](https://docs.sglang.io/docs/basic_usage/send_request)
+
+Once the server is running (for example via the command generator above), send a request:
+
+```
+curl http://localhost:30000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "deepseek-ai/DeepSeek-V4-Flash",
+    "messages": [{"role": "user", "content": "What is 15% of 240?"}]
+  }'
+```
+
+> **PD-Disagg note**: if you deployed with the `pd-disagg` recipe from the generator above, the prefill server is on port `30000`, the decode server on `30001`, and the **router** on port `8000` — client traffic should target `http://localhost:8000`, not `:30000`.
+
+### 4.2 Advanced Usage
+
+#### 4.2.1 Reasoning Parser
+
+Enable the `deepseek-v4` reasoning parser (check the box in the [command panel above](#3-model-deployment)) to separate thinking from the final answer into `reasoning_content` vs `content`. **Streaming with Thinking Process:**
+
+```
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://localhost:30000/v1",
+    api_key="EMPTY"
+)
+
+response = client.chat.completions.create(
+    model="deepseek-ai/DeepSeek-V4-Flash",
+    messages=[
+        {"role": "user", "content": "Solve this problem step by step: What is 15% of 240?"}
+    ],
+    max_tokens=2048,
+    extra_body={"chat_template_kwargs": {"thinking": True}},
+    stream=True,
+)
+
+thinking_started = False
+has_thinking = False
+has_answer = False
+
+for chunk in response:
+    if not chunk.choices:
+        continue
+    delta = chunk.choices[0].delta
+
+    if getattr(delta, "reasoning_content", None):
+        if not thinking_started:
+            print("=============== Thinking =================", flush=True)
+            thinking_started = True
+        has_thinking = True
+        print(delta.reasoning_content, end="", flush=True)
+
+    if delta.content:
+        if has_thinking and not has_answer:
+            print("\n=============== Content =================", flush=True)
+            has_answer = True
+        print(delta.content, end="", flush=True)
+
+print()
+```
+
+**Output Example:**
+
+```
+Pending update — replace with real server output after deployment.
+```
+
+#### 4.2.2 Tool Calling
+
+Enable the `deepseekv4` tool-call parser (check the box in the [command panel above](#3-model-deployment)) to surface structured tool calls via `message.tool_calls`. **Python Example (with Thinking Process):**
+
+```
+from openai import OpenAI
+
+client = OpenAI(
+    base_url="http://localhost:30000/v1",
+    api_key="EMPTY"
+)
+
+tools = [
+    {
+        "type": "function",
+        "function": {
+            "name": "get_weather",
+            "description": "Get the current weather for a location",
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "location": {"type": "string", "description": "The city name"},
+                    "unit": {"type": "string", "enum": ["celsius", "fahrenheit"]},
+                },
+                "required": ["location"],
+            },
+        },
+    }
+]
+
+response = client.chat.completions.create(
+    model="deepseek-ai/DeepSeek-V4-Flash",
+    messages=[{"role": "user", "content": "What's the weather in Beijing?"}],
+    tools=tools,
+    extra_body={"chat_template_kwargs": {"thinking": True}},
+    stream=True,
+)
+
+thinking_started = False
+has_thinking = False
+tool_calls_accumulator = {}
+
+for chunk in response:
+    if not chunk.choices:
+        continue
+    delta = chunk.choices[0].delta
+
+    if getattr(delta, "reasoning_content", None):
+        if not thinking_started:
+            print("=============== Thinking =================", flush=True)
+            thinking_started = True
+        has_thinking = True
+        print(delta.reasoning_content, end="", flush=True)
+
+    if getattr(delta, "tool_calls", None):
+        if has_thinking and thinking_started:
+            print("\n=============== Content =================\n", flush=True)
+            thinking_started = False
+        for tool_call in delta.tool_calls:
+            index = tool_call.index
+            if index not in tool_calls_accumulator:
+                tool_calls_accumulator[index] = {"name": None, "arguments": ""}
+            if tool_call.function:
+                if tool_call.function.name:
+                    tool_calls_accumulator[index]["name"] = tool_call.function.name
+                if tool_call.function.arguments:
+                    tool_calls_accumulator[index]["arguments"] += tool_call.function.arguments
+
+    if delta.content:
+        print(delta.content, end="", flush=True)
+
+for index, tool_call in sorted(tool_calls_accumulator.items()):
+    print(f"Tool Call: {tool_call['name']}")
+    print(f"   Arguments: {tool_call['arguments']}")
+
+print()
+```
+
+**Output Example:**
+
+```
+Pending update — replace with real server output after deployment.
+```
+
+## 5. Benchmark
+
+### 5.1 Speed Benchmark on Blackwell
+
+**Test Environment:**
+
+- Hardware: NVIDIA B200 GPU (4x)
+- Model: DeepSeek-V4-Flash (FP4)
+- Tensor Parallelism: 4
+- sglang version: Pending update
+
+We use SGLang’s built-in benchmarking tool to conduct performance evaluation on the [ShareGPT\_Vicuna\_unfiltered](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered) dataset. This dataset contains real conversation data and can better reflect performance in actual use scenarios. To simulate real-world usage patterns, we configure each request with 1024 input tokens and 1024 output tokens, representing typical medium-length conversations with detailed responses.
+
+#### 5.1.1 Latency-Sensitive Benchmark
+
+- **Model Deployment Command:** see the [command panel above](#3-model-deployment).
+- Benchmark Command:
+
+```
+python3 -m sglang.bench_serving \
+  --backend sglang \
+  --host 127.0.0.1 \
+  --port 30000 \
+  --model deepseek-ai/DeepSeek-V4-Flash \
+  --random-input-len 1024 \
+  --random-output-len 1024 \
+  --num-prompts 10 \
+  --max-concurrency 1
+```
+
+- **Test Results:**
+
+```
+Pending update — replace with real bench_serving output after the latency run.
+```
+
+#### 5.1.2 Throughput-Sensitive Benchmark
+
+- **Model Deployment Command:** see the [command panel above](#3-model-deployment).
+- Benchmark Command:
+
+```
+python3 -m sglang.bench_serving \
+  --backend sglang \
+  --host 127.0.0.1 \
+  --port 30000 \
+  --model deepseek-ai/DeepSeek-V4-Flash \
+  --random-input-len 1024 \
+  --random-output-len 1024 \
+  --num-prompts 1000 \
+  --max-concurrency 100
+```
+
+- **Test Results:**
+
+```
+Pending update — replace with real bench_serving output after the throughput run.
+```
+
+### 5.2 Accuracy Benchmark
+
+#### 5.2.1 GSM8K Benchmark
+
+- **Benchmark Command:**
+
+```
+python3 -m sglang.test.few_shot_gsm8k --num-questions 200 --port 30000
+```
+
+- **Test Results:**
+  
+  - DeepSeek-V4-Flash (FP4, Blackwell)
+  - DeepSeek-V4-Flash (FP8, Hopper)
+
+#### 5.2.2 MMLU Benchmark
+
+- **Benchmark Command:**
+
+```
+cd sglang
+bash benchmark/mmlu/download_data.sh
+python3 benchmark/mmlu/bench_sglang.py --nsub 10 --port 30000
+```
+
+- **Test Results:**
+  
+  - DeepSeek-V4-Flash (FP4, Blackwell)
+  - DeepSeek-V4-Flash (FP8, Hopper)
+
+### 5.3 Speed Benchmark on Hopper
+
+**Test Environment:**
+
+- Hardware: NVIDIA H200 GPU (4x)
+- Model: DeepSeek-V4-Flash (FP8)
+- Tensor Parallelism: 4
+- sglang version: Pending update
+
+#### 5.3.1 Latency-Sensitive Benchmark
+
+- **Model Deployment Command:** see the [command panel above](#3-model-deployment).
+- Benchmark Command:
+
+```
+python3 -m sglang.bench_serving \
+  --backend sglang \
+  --host 127.0.0.1 \
+  --port 30000 \
+  --model deepseek-ai/DeepSeek-V4-Flash \
+  --random-input-len 1024 \
+  --random-output-len 1024 \
+  --num-prompts 10 \
+  --max-concurrency 1
+```
+
+- **Test Results:**
+
+```
+Pending update — replace with real bench_serving output after the latency run.
+```
+
+#### 5.3.2 Throughput-Sensitive Benchmark
+
+- **Model Deployment Command:** see the [command panel above](#3-model-deployment).
+- Benchmark Command:
+
+```
+python3 -m sglang.bench_serving \
+  --backend sglang \
+  --host 127.0.0.1 \
+  --port 30000 \
+  --model deepseek-ai/DeepSeek-V4-Flash \
+  --random-input-len 1024 \
+  --random-output-len 1024 \
+  --num-prompts 1000 \
+  --max-concurrency 100
+```
+
+- **Test Results:**
+
+```
+Pending update — replace with real bench_serving output after the throughput run.
+```

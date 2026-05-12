@@ -2,24 +2,30 @@
 title: Implement
 url: https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/examples/extensions/subagent/prompts/implement.md
 source: git
-fetched_at: 2026-03-03T03:42:53.483203-03:00
+fetched_at: 2026-05-03T09:31:51.171398026-03:00
 rendered_js: false
-word_count: 91
-summary: Explains implementation basics for development or deployment tasks, including process steps and best practices.
+word_count: 83
+summary: Full implementation workflow — scout gathers context, planner creates plan, worker implements.
 tags:
-    - development
-    - implementation
-    - guides
+    - agentic-workflow
+    - subagent-tool
+    - code-implementation
+    - automation-pipeline
+    - agent-orchestration
 category: guide
+optimized: true
+optimized_at: 2026-05-03T12:31:00Z
+---
+---
+description: Full implementation workflow — scout gathers context, planner creates plan, worker implements
 ---
 
----
-description: Full implementation workflow - scout gathers context, planner creates plan, worker implements
----
-Use the subagent tool with the chain parameter to execute this workflow:
+Use the subagent tool with the `chain` parameter:
 
-1. First, use the "scout" agent to find all code relevant to: $@
-2. Then, use the "planner" agent to create an implementation plan for "$@" using the context from the previous step (use {previous} placeholder)
-3. Finally, use the "worker" agent to implement the plan from the previous step (use {previous} placeholder)
+1. Use the **"scout"** agent to find all code relevant to: `$@`
+2. Use the **"planner"** agent to create an implementation plan for `"$@"` using context from step 1 (use `{previous}` placeholder)
+3. Use the **"worker"** agent to implement the plan from step 2 (use `{previous}` placeholder)
 
-Execute this as a chain, passing output between steps via {previous}.
+Execute as a chain, passing output between steps via `{previous}`.
+
+#agentic-workflow #subagent-tool #automation-pipeline

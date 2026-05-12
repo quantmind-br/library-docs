@@ -1,0 +1,110 @@
+{
+  "/home/diogo/dev/library-docs/pi-coding/001-quickstart.md": {
+    "mtime": 1777476168.8666058,
+    "hash": "c72576b25f66e9092af8cfc8afa39028"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/002-custom-provider.md": {
+    "mtime": 1777476168.8667955,
+    "hash": "ebfe47f0c5b66c7f1f530397fd2dfd62"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/003-development.md": {
+    "mtime": 1777476168.8669648,
+    "hash": "06e3de19146fabea2c93e86c7fa0358d"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/004-extensions.md": {
+    "mtime": 1777476168.8677204,
+    "hash": "2848f0e0f52337d0454adc22f34daed4"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/005-packages.md": {
+    "mtime": 1777476168.8681145,
+    "hash": "0312bf1ec751f57bec97ab8d4726b95d"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/006-prompt-templates.md": {
+    "mtime": 1777476168.868243,
+    "hash": "f368783c4e09f0aa2f7b74b64bc04ae0"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/007-sessions.md": {
+    "mtime": 1777476168.868335,
+    "hash": "7df3146860a8299a1e5691fa825b9e76"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/008-termux.md": {
+    "mtime": 1777476168.8684282,
+    "hash": "344958289318912792e3713e0a7faa8a"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/009-themes.md": {
+    "mtime": 1777476168.8685277,
+    "hash": "3319fd087cb8db163a7ad21c811094af"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/010-usage.md": {
+    "mtime": 1777476168.8686888,
+    "hash": "d21aeedc727d5c6014ddb3cc5d26d0fc"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/011-compaction.md": {
+    "mtime": 1777476168.8688712,
+    "hash": "51c0b478bbf181e7649e3a9c115f7ed0"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/012-skills.md": {
+    "mtime": 1777476168.8690283,
+    "hash": "cb4665172360eeab9de82b8e8951f21e"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/013-terminal-setup.md": {
+    "mtime": 1777476168.86912,
+    "hash": "5df57c631b02f0b5239b21a1a9ae0b15"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/014-models.md": {
+    "mtime": 1777476168.8692436,
+    "hash": "09680a8bd651bc4a9e4b08bcf7d3e344"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/015-providers.md": {
+    "mtime": 1777476168.8693955,
+    "hash": "fb23900beacb1aaabd125e8101875c6d"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/016-settings.md": {
+    "mtime": 1777476168.8695354,
+    "hash": "2c01d076b4ac0f25ff7b302de04eb70d"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/017-shell-aliases.md": {
+    "mtime": 1777476168.8696163,
+    "hash": "f066f2a9d2f52cc1645e54d11e30890d"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/018-tmux.md": {
+    "mtime": 1777476168.8696563,
+    "hash": "f32eac9092b167d81f7546cab0eec6c1"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/019-windows.md": {
+    "mtime": 1777476168.8696864,
+    "hash": "d9a08f6cd1aef011bde0caf53c7e042a"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/020-json.md": {
+    "mtime": 1777476168.8697262,
+    "hash": "48de36e4107e5424a7f1e0205e9fbe73"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/021-keybindings.md": {
+    "mtime": 1777476168.8698065,
+    "hash": "9cd9732facfbe1e1d75c91074bd6318c"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/022-pi-documentation.md": {
+    "mtime": 1777476168.8699074,
+    "hash": "fc61daca77782ec9bde70cb3fea7d5f3"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/023-rpc.md": {
+    "mtime": 1777476168.8701127,
+    "hash": "be7208f45b510a6cf751a18ea40e43fc"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/024-sdk.md": {
+    "mtime": 1777476168.8703701,
+    "hash": "b96c82016ddc3bb13a7491a687f6689b"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/025-session-format.md": {
+    "mtime": 1777476168.870598,
+    "hash": "6b5b5cd773dbb98bcc536ae5f8169a9d"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/026-tui.md": {
+    "mtime": 1777476168.8708537,
+    "hash": "520fa9b00a55856750cc0761962d1d89"
+  },
+  "/home/diogo/dev/library-docs/pi-coding/000-index.md": {
+    "mtime": 1777476168.8882685,
+    "hash": "075defc50916efaaa5de118ff2fc81c6"
+  }
+}

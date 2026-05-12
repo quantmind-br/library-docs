@@ -1,0 +1,2131 @@
+---
+title: f64 - Rust
+url: https://doc.rust-lang.org/std/primitive.f64.html
+source: crawler
+fetched_at: 2026-05-06T21:30:11.034407761-03:00
+rendered_js: false
+word_count: 6639
+summary: This document provides the API reference for various mathematical methods available for the f64 floating-point primitive type in Rust, including rounding, arithmetic, and power operations.
+tags:
+    - rust
+    - f64
+    - math
+    - floating-point
+    - api-reference
+    - standard-library
+category: reference
+---
+
+Expand description
+
+[Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#28-1276)[§](#impl-f64)
+
+1.0.0 (const: 1.90.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#49-51)
+
+Returns the largest integer less than or equal to `self`.
+
+This function always returns the precise result.
+
+##### [§](#examples)Examples
+
+```rust
+let f = 3.7_f64;
+let g = 3.0_f64;
+let h = -3.7_f64;
+
+assert_eq!(f.floor(), 3.0);
+assert_eq!(g.floor(), 3.0);
+assert_eq!(h.floor(), -4.0);
+```
+
+1.0.0 (const: 1.90.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#72-74)
+
+Returns the smallest integer greater than or equal to `self`.
+
+This function always returns the precise result.
+
+##### [§](#examples-1)Examples
+
+```rust
+let f = 3.01_f64;
+let g = 4.0_f64;
+
+assert_eq!(f.ceil(), 4.0);
+assert_eq!(g.ceil(), 4.0);
+```
+
+1.0.0 (const: 1.90.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#101-103)
+
+Returns the nearest integer to `self`. If a value is half-way between two integers, round away from `0.0`.
+
+This function always returns the precise result.
+
+##### [§](#examples-2)Examples
+
+```rust
+let f = 3.3_f64;
+let g = -3.3_f64;
+let h = -3.7_f64;
+let i = 3.5_f64;
+let j = 4.5_f64;
+
+assert_eq!(f.round(), 3.0);
+assert_eq!(g.round(), -3.0);
+assert_eq!(h.round(), -4.0);
+assert_eq!(i.round(), 4.0);
+assert_eq!(j.round(), 5.0);
+```
+
+1.77.0 (const: 1.90.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#128-130)
+
+Returns the nearest integer to a number. Rounds half-way cases to the number with an even least significant digit.
+
+This function always returns the precise result.
+
+##### [§](#examples-3)Examples
+
+```rust
+let f = 3.3_f64;
+let g = -3.3_f64;
+let h = 3.5_f64;
+let i = 4.5_f64;
+
+assert_eq!(f.round_ties_even(), 3.0);
+assert_eq!(g.round_ties_even(), -3.0);
+assert_eq!(h.round_ties_even(), 4.0);
+assert_eq!(i.round_ties_even(), 4.0);
+```
+
+1.0.0 (const: 1.90.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#154-156)
+
+Returns the integer part of `self`. This means that non-integer numbers are always truncated towards zero.
+
+This function always returns the precise result.
+
+##### [§](#examples-4)Examples
+
+```rust
+let f = 3.7_f64;
+let g = 3.0_f64;
+let h = -3.7_f64;
+
+assert_eq!(f.trunc(), 3.0);
+assert_eq!(g.trunc(), 3.0);
+assert_eq!(h.trunc(), -3.0);
+```
+
+1.0.0 (const: 1.90.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#178-180)
+
+Returns the fractional part of `self`.
+
+This function always returns the precise result.
+
+##### [§](#examples-5)Examples
+
+```rust
+let x = 3.6_f64;
+let y = -3.6_f64;
+let abs_difference_x = (x.fract() - 0.6).abs();
+let abs_difference_y = (y.fract() - (-0.6)).abs();
+
+assert!(abs_difference_x < 1e-10);
+assert!(abs_difference_y < 1e-10);
+```
+
+1.0.0 (const: 1.94.0) · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#221-223)
+
+Fused multiply-add. Computes `(self * a) + b` with only one rounding error, yielding a more accurate result than an unfused multiply-add.
+
+Using `mul_add` *may* be more performant than an unfused multiply-add if the target architecture has a dedicated `fma` CPU instruction. However, this is not always true, and will be heavily dependant on designing algorithms with specific target hardware in mind.
+
+##### [§](#precision)Precision
+
+The result of this operation is guaranteed to be the rounded infinite-precision result. It is specified by IEEE 754 as `fusedMultiplyAdd` and guaranteed not to change.
+
+##### [§](#examples-6)Examples
+
+```rust
+let m = 10.0_f64;
+let x = 4.0_f64;
+let b = 60.0_f64;
+
+assert_eq!(m.mul_add(x, b), 100.0);
+assert_eq!(m * x + b, 100.0);
+
+let one_plus_eps = 1.0_f64 + f64::EPSILON;
+let one_minus_eps = 1.0_f64 - f64::EPSILON;
+let minus_one = -1.0_f64;
+
+// The exact result (1 + eps) * (1 - eps) = 1 - eps * eps.
+assert_eq!(one_plus_eps.mul_add(one_minus_eps, minus_one), -f64::EPSILON * f64::EPSILON);
+// Different rounding with the non-fused multiply and add.
+assert_eq!(one_plus_eps * one_minus_eps + minus_one, 0.0);
+```
+
+1.38.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#251-253)
+
+Calculates Euclidean division, the matching method for `rem_euclid`.
+
+This computes the integer `n` such that `self = n * rhs + self.rem_euclid(rhs)`. In other words, the result is `self / rhs` rounded to the integer `n` such that `self >= n * rhs`.
+
+##### [§](#precision-1)Precision
+
+The result of this operation is guaranteed to be the rounded infinite-precision result.
+
+##### [§](#examples-7)Examples
+
+```rust
+let a: f64 = 7.0;
+let b = 4.0;
+assert_eq!(a.div_euclid(b), 1.0); // 7.0 > 4.0 * 1.0
+assert_eq!((-a).div_euclid(b), -2.0); // -7.0 >= 4.0 * -2.0
+assert_eq!(a.div_euclid(-b), -1.0); // 7.0 >= -4.0 * -1.0
+assert_eq!((-a).div_euclid(-b), 2.0); // -7.0 >= -4.0 * 2.0
+```
+
+1.38.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#289-291)
+
+Calculates the least nonnegative remainder of `self` when divided by `rhs`.
+
+In particular, the return value `r` satisfies `0.0 <= r < rhs.abs()` in most cases. However, due to a floating point round-off error it can result in `r == rhs.abs()`, violating the mathematical definition, if `self` is much smaller than `rhs.abs()` in magnitude and `self < 0.0`. This result is not an element of the function’s codomain, but it is the closest floating point number in the real numbers and thus fulfills the property `self == self.div_euclid(rhs) * rhs + self.rem_euclid(rhs)` approximately.
+
+##### [§](#precision-2)Precision
+
+The result of this operation is guaranteed to be the rounded infinite-precision result.
+
+##### [§](#examples-8)Examples
+
+```rust
+let a: f64 = 7.0;
+let b = 4.0;
+assert_eq!(a.rem_euclid(b), 3.0);
+assert_eq!((-a).rem_euclid(b), 1.0);
+assert_eq!(a.rem_euclid(-b), 3.0);
+assert_eq!((-a).rem_euclid(-b), 1.0);
+// limitation due to round-off error
+assert!((-f64::EPSILON).rem_euclid(3.0) != 0.0);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#323-325)
+
+Raises a number to an integer power.
+
+Using this function is generally faster than using `powf`. It might have a different sequence of rounding operations than `powf`, so the results are not guaranteed to agree.
+
+Note that this function is special in that it can return non-NaN results for NaN inputs. For example, `f64::powi(f64::NAN, 0)` returns `1.0`. However, if an input is a *signaling* NaN, then the result is non-deterministically either a NaN or the result that the corresponding quiet NaN would produce.
+
+##### [§](#unspecified-precision)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-9)Examples
+
+```rust
+let x = 2.0_f64;
+let abs_difference = (x.powi(2) - (x * x)).abs();
+assert!(abs_difference <= 1e-14);
+
+assert_eq!(f64::powi(f64::NAN, 0), 1.0);
+assert_eq!(f64::powi(0.0, 0), 1.0);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#354-356)
+
+Raises a number to a floating point power.
+
+Note that this function is special in that it can return non-NaN results for NaN inputs. For example, `f64::powf(f64::NAN, 0.0)` returns `1.0`. However, if an input is a *signaling* NaN, then the result is non-deterministically either a NaN or the result that the corresponding quiet NaN would produce.
+
+##### [§](#unspecified-precision-1)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-10)Examples
+
+```rust
+let x = 2.0_f64;
+let abs_difference = (x.powf(2.0) - (x * x)).abs();
+assert!(abs_difference <= 1e-14);
+
+assert_eq!(f64::powf(1.0, f64::NAN), 1.0);
+assert_eq!(f64::powf(f64::NAN, 0.0), 1.0);
+assert_eq!(f64::powf(0.0, 0.0), 1.0);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#384-386)
+
+Returns the square root of a number.
+
+Returns NaN if `self` is a negative number other than `-0.0`.
+
+##### [§](#precision-3)Precision
+
+The result of this operation is guaranteed to be the rounded infinite-precision result. It is specified by IEEE 754 as `squareRoot` and guaranteed not to change.
+
+##### [§](#examples-11)Examples
+
+```rust
+let positive = 4.0_f64;
+let negative = -4.0_f64;
+let negative_zero = -0.0_f64;
+
+assert_eq!(positive.sqrt(), 2.0);
+assert!(negative.sqrt().is_nan());
+assert!(negative_zero.sqrt() == negative_zero);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#411-413)
+
+Returns `e^(self)`, (the exponential function).
+
+##### [§](#unspecified-precision-2)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-12)Examples
+
+```rust
+let one = 1.0_f64;
+// e^1
+let e = one.exp();
+
+// ln(e) - 1 == 0
+let abs_difference = (e.ln() - 1.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#436-438)
+
+Returns `2^(self)`.
+
+##### [§](#unspecified-precision-3)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-13)Examples
+
+```rust
+let f = 2.0_f64;
+
+// 2^2 - 4 == 0
+let abs_difference = (f.exp2() - 4.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#471-473)
+
+Returns the natural logarithm of the number.
+
+This returns NaN when the number is negative, and negative infinity when number is zero.
+
+##### [§](#unspecified-precision-4)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-14)Examples
+
+```rust
+let one = 1.0_f64;
+// e^1
+let e = one.exp();
+
+// ln(e) - 1 == 0
+let abs_difference = (e.ln() - 1.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+Non-positive values:
+
+```rust
+assert_eq!(0_f64.ln(), f64::NEG_INFINITY);
+assert!((-42_f64).ln().is_nan());
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#508-510)
+
+Returns the logarithm of the number with respect to an arbitrary base.
+
+This returns NaN when the number is negative, and negative infinity when number is zero.
+
+The result might not be correctly rounded owing to implementation details; `self.log2()` can produce more accurate results for base 2, and `self.log10()` can produce more accurate results for base 10.
+
+##### [§](#unspecified-precision-5)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-15)Examples
+
+```rust
+let twenty_five = 25.0_f64;
+
+// log5(25) - 2 == 0
+let abs_difference = (twenty_five.log(5.0) - 2.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+Non-positive values:
+
+```rust
+assert_eq!(0_f64.log(10.0), f64::NEG_INFINITY);
+assert!((-42_f64).log(10.0).is_nan());
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#541-543)
+
+Returns the base 2 logarithm of the number.
+
+This returns NaN when the number is negative, and negative infinity when number is zero.
+
+##### [§](#unspecified-precision-6)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-16)Examples
+
+```rust
+let four = 4.0_f64;
+
+// log2(4) - 2 == 0
+let abs_difference = (four.log2() - 2.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+Non-positive values:
+
+```rust
+assert_eq!(0_f64.log2(), f64::NEG_INFINITY);
+assert!((-42_f64).log2().is_nan());
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#574-576)
+
+Returns the base 10 logarithm of the number.
+
+This returns NaN when the number is negative, and negative infinity when number is zero.
+
+##### [§](#unspecified-precision-7)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-17)Examples
+
+```rust
+let hundred = 100.0_f64;
+
+// log10(100) - 2 == 0
+let abs_difference = (hundred.log10() - 2.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+Non-positive values:
+
+```rust
+assert_eq!(0_f64.log10(), f64::NEG_INFINITY);
+assert!((-42_f64).log10().is_nan());
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#616-619)
+
+👎Deprecated since 1.10.0: you probably meant `(self - other).abs()`: this operation is `(self - other).max(0.0)` except that `abs_sub` also propagates NaNs (also known as `fdim` in C). If you truly need the positive difference, consider using that expression or the C function `fdim`, depending on how you wish to handle NaN (please consider filing an issue describing your use-case too).
+
+The positive difference of two numbers.
+
+- If `self <= other`: `0.0`
+- Else: `self - other`
+
+##### [§](#unspecified-precision-8)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `fdim` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-18)Examples
+
+```rust
+let x = 3.0_f64;
+let y = -3.0_f64;
+
+let abs_difference_x = (x.abs_sub(1.0) - 2.0).abs();
+let abs_difference_y = (y.abs_sub(1.0) - 0.0).abs();
+
+assert!(abs_difference_x < 1e-10);
+assert!(abs_difference_y < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#644-646)
+
+Returns the cube root of a number.
+
+##### [§](#unspecified-precision-9)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `cbrt` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-19)Examples
+
+```rust
+let x = 8.0_f64;
+
+// x^(1/3) - 2 == 0
+let abs_difference = (x.cbrt() - 2.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#675-677)
+
+Compute the distance between the origin and a point (`x`, `y`) on the Euclidean plane. Equivalently, compute the length of the hypotenuse of a right-angle triangle with other sides having length `x.abs()` and `y.abs()`.
+
+##### [§](#unspecified-precision-10)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `hypot` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-20)Examples
+
+```rust
+let x = 2.0_f64;
+let y = 3.0_f64;
+
+// sqrt(x^2 + y^2)
+let abs_difference = (x.hypot(y) - (x.powi(2) + y.powi(2)).sqrt()).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#699-701)
+
+Computes the sine of a number (in radians).
+
+##### [§](#unspecified-precision-11)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-21)Examples
+
+```rust
+let x = std::f64::consts::FRAC_PI_2;
+
+let abs_difference = (x.sin() - 1.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#723-725)
+
+Computes the cosine of a number (in radians).
+
+##### [§](#unspecified-precision-12)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-22)Examples
+
+```rust
+let x = 2.0 * std::f64::consts::PI;
+
+let abs_difference = (x.cos() - 1.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#748-750)
+
+Computes the tangent of a number (in radians).
+
+##### [§](#unspecified-precision-13)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `tan` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-23)Examples
+
+```rust
+let x = std::f64::consts::FRAC_PI_4;
+let abs_difference = (x.tan() - 1.0).abs();
+
+assert!(abs_difference < 1e-14);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#778-780)
+
+Computes the arcsine of a number. Return value is in radians in the range \[-pi/2, pi/2] or NaN if the number is outside the range \[-1, 1].
+
+##### [§](#unspecified-precision-14)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `asin` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-24)Examples
+
+```rust
+let f = std::f64::consts::FRAC_PI_4;
+
+// asin(sin(pi/2))
+let abs_difference = (f.sin().asin() - f).abs();
+
+assert!(abs_difference < 1e-14);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#808-810)
+
+Computes the arccosine of a number. Return value is in radians in the range \[0, pi] or NaN if the number is outside the range \[-1, 1].
+
+##### [§](#unspecified-precision-15)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `acos` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-25)Examples
+
+```rust
+let f = std::f64::consts::FRAC_PI_4;
+
+// acos(cos(pi/4))
+let abs_difference = (f.cos().acos() - std::f64::consts::FRAC_PI_4).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#837-839)
+
+Computes the arctangent of a number. Return value is in radians in the range \[-pi/2, pi/2];
+
+##### [§](#unspecified-precision-16)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `atan` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-26)Examples
+
+```rust
+let f = 1.0_f64;
+
+// atan(tan(1))
+let abs_difference = (f.tan().atan() - 1.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#880-882)
+
+Computes the four quadrant arctangent of `self` (`y`) and `other` (`x`) in radians.
+
+`x``y`Piecewise DefinitionRange `>= +0``>= +0``arctan(y/x)``[+0, +pi/2]` `>= +0``<= -0``arctan(y/x)``[-pi/2, -0]` `<= -0``>= +0``arctan(y/x) + pi``[+pi/2, +pi]` `<= -0``<= -0``arctan(y/x) - pi``[-pi, -pi/2]`
+
+##### [§](#unspecified-precision-17)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `atan2` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-27)Examples
+
+```rust
+// Positive angles measured counter-clockwise
+// from positive x axis
+// -pi/4 radians (45 deg clockwise)
+let x1 = 3.0_f64;
+let y1 = -3.0_f64;
+
+// 3pi/4 radians (135 deg counter-clockwise)
+let x2 = -3.0_f64;
+let y2 = 3.0_f64;
+
+let abs_difference_1 = (y1.atan2(x1) - (-std::f64::consts::FRAC_PI_4)).abs();
+let abs_difference_2 = (y2.atan2(x2) - (3.0 * std::f64::consts::FRAC_PI_4)).abs();
+
+assert!(abs_difference_1 < 1e-10);
+assert!(abs_difference_2 < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#910-912)
+
+Simultaneously computes the sine and cosine of the number, `x`. Returns `(sin(x), cos(x))`.
+
+##### [§](#unspecified-precision-18)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `(f64::sin(x), f64::cos(x))`. Note that this might change in the future.
+
+##### [§](#examples-28)Examples
+
+```rust
+let x = std::f64::consts::FRAC_PI_4;
+let f = x.sin_cos();
+
+let abs_difference_0 = (f.0 - x.sin()).abs();
+let abs_difference_1 = (f.1 - x.cos()).abs();
+
+assert!(abs_difference_0 < 1e-10);
+assert!(abs_difference_1 < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#939-941)
+
+Returns `e^(self) - 1` in a way that is accurate even if the number is close to zero.
+
+##### [§](#unspecified-precision-19)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `expm1` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-29)Examples
+
+```rust
+let x = 1e-16_f64;
+
+// for very small x, e^x is approximately 1 + x + x^2 / 2
+let approx = x + x * x / 2.0;
+let abs_difference = (x.exp_m1() - approx).abs();
+
+assert!(abs_difference < 1e-20);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#977-979)
+
+Returns `ln(1+n)` (natural logarithm) more accurately than if the operations were performed separately.
+
+This returns NaN when `n < -1.0`, and negative infinity when `n == -1.0`.
+
+##### [§](#unspecified-precision-20)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `log1p` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-30)Examples
+
+```rust
+let x = 1e-16_f64;
+
+// for very small x, ln(1 + x) is approximately x - x^2 / 2
+let approx = x - x * x / 2.0;
+let abs_difference = (x.ln_1p() - approx).abs();
+
+assert!(abs_difference < 1e-20);
+```
+
+Out-of-range values:
+
+```rust
+assert_eq!((-1.0_f64).ln_1p(), f64::NEG_INFINITY);
+assert!((-2.0_f64).ln_1p().is_nan());
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1007-1009)
+
+Hyperbolic sine function.
+
+##### [§](#unspecified-precision-21)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `sinh` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-31)Examples
+
+```rust
+let e = std::f64::consts::E;
+let x = 1.0_f64;
+
+let f = x.sinh();
+// Solving sinh() at 1 gives `(e^2-1)/(2e)`
+let g = ((e * e) - 1.0) / (2.0 * e);
+let abs_difference = (f - g).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1037-1039)
+
+Hyperbolic cosine function.
+
+##### [§](#unspecified-precision-22)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `cosh` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-32)Examples
+
+```rust
+let e = std::f64::consts::E;
+let x = 1.0_f64;
+let f = x.cosh();
+// Solving cosh() at 1 gives this result
+let g = ((e * e) + 1.0) / (2.0 * e);
+let abs_difference = (f - g).abs();
+
+// Same result
+assert!(abs_difference < 1.0e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1067-1069)
+
+Hyperbolic tangent function.
+
+##### [§](#unspecified-precision-23)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `tanh` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-33)Examples
+
+```rust
+let e = std::f64::consts::E;
+let x = 1.0_f64;
+
+let f = x.tanh();
+// Solving tanh() at 1 gives `(1 - e^(-2))/(1 + e^(-2))`
+let g = (1.0 - e.powi(-2)) / (1.0 + e.powi(-2));
+let abs_difference = (f - g).abs();
+
+assert!(abs_difference < 1.0e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1093-1097)
+
+Inverse hyperbolic sine function.
+
+##### [§](#unspecified-precision-24)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-34)Examples
+
+```rust
+let x = 1.0_f64;
+let f = x.sinh().asinh();
+
+let abs_difference = (f - x).abs();
+
+assert!(abs_difference < 1.0e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1121-1127)
+
+Inverse hyperbolic cosine function.
+
+##### [§](#unspecified-precision-25)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-35)Examples
+
+```rust
+let x = 1.0_f64;
+let f = x.cosh().acosh();
+
+let abs_difference = (f - x).abs();
+
+assert!(abs_difference < 1.0e-10);
+```
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1151-1153)
+
+Inverse hyperbolic tangent function.
+
+##### [§](#unspecified-precision-26)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-36)Examples
+
+```rust
+let x = std::f64::consts::FRAC_PI_6;
+let f = x.tanh().atanh();
+
+let abs_difference = (f - x).abs();
+
+assert!(abs_difference < 1.0e-10);
+```
+
+[Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1178-1180)
+
+🔬This is a nightly-only experimental API. (`float_gamma` [#99842](https://github.com/rust-lang/rust/issues/99842))
+
+Gamma function.
+
+##### [§](#unspecified-precision-27)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `tgamma` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-37)Examples
+
+```rust
+#![feature(float_gamma)]
+let x = 5.0f64;
+
+let abs_difference = (x.gamma() - 24.0).abs();
+
+assert!(abs_difference <= 1e-10);
+```
+
+[Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1207-1211)
+
+🔬This is a nightly-only experimental API. (`float_gamma` [#99842](https://github.com/rust-lang/rust/issues/99842))
+
+Natural logarithm of the absolute value of the gamma function
+
+The integer part of the tuple indicates the sign of the gamma function.
+
+##### [§](#unspecified-precision-28)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next. This function currently corresponds to the `lgamma_r` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-38)Examples
+
+```rust
+#![feature(float_gamma)]
+let x = 2.0f64;
+
+let abs_difference = (x.ln_gamma().0 - 0.0).abs();
+
+assert!(abs_difference <= f64::EPSILON);
+```
+
+[Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1244-1246)
+
+🔬This is a nightly-only experimental API. (`float_erf` [#136321](https://github.com/rust-lang/rust/issues/136321))
+
+Error function.
+
+##### [§](#unspecified-precision-29)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+This function currently corresponds to the `erf` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-39)Examples
+
+```rust
+#![feature(float_erf)]
+/// The error function relates what percent of a normal distribution lies
+/// within `x` standard deviations (scaled by `1/sqrt(2)`).
+fn within_standard_deviations(x: f64) -> f64 {
+    (x * std::f64::consts::FRAC_1_SQRT_2).erf() * 100.0
+}
+
+// 68% of a normal distribution is within one standard deviation
+assert!((within_standard_deviations(1.0) - 68.269).abs() < 0.01);
+// 95% of a normal distribution is within two standard deviations
+assert!((within_standard_deviations(2.0) - 95.450).abs() < 0.01);
+// 99.7% of a normal distribution is within three standard deviations
+assert!((within_standard_deviations(3.0) - 99.730).abs() < 0.01);
+```
+
+[Source](https://doc.rust-lang.org/src/std/num/f64.rs.html#1273-1275)
+
+🔬This is a nightly-only experimental API. (`float_erf` [#136321](https://github.com/rust-lang/rust/issues/136321))
+
+Complementary error function.
+
+##### [§](#unspecified-precision-30)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+This function currently corresponds to the `erfc` from libc on Unix and Windows. Note that this might change in the future.
+
+##### [§](#examples-40)Examples
+
+```rust
+#![feature(float_erf)]
+let x: f64 = 0.123;
+
+let one = x.erf() + x.erfc();
+let abs_difference = (one - 1.0).abs();
+
+assert!(abs_difference <= 1e-10);
+```
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#396)[§](#impl-f64-1)
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#399)
+
+The radix or base of the internal representation of `f64`.
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#403)
+
+🔬This is a nightly-only experimental API. (`float_bits_const` [#151073](https://github.com/rust-lang/rust/issues/151073))
+
+The size of this float type in bits.
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#410)
+
+Number of significant digits in base 2.
+
+Note that the size of the mantissa in the bitwise representation is one smaller than this since the leading 1 is not stored explicitly.
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#420)
+
+Approximate number of significant digits in base 10.
+
+This is the maximum *x* such that any decimal number with *x* significant digits can be converted to `f64` and back without loss.
+
+Equal to floor(log10 2[`MANTISSA_DIGITS`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MANTISSA_DIGITS "associated constant f64::MANTISSA_DIGITS") − 1).
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#432)
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#440)
+
+Smallest finite `f64` value.
+
+Equal to −[`MAX`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MAX "associated constant f64::MAX").
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#447)
+
+Smallest positive normal `f64` value.
+
+Equal to 2[`MIN_EXP`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MIN_EXP "associated constant f64::MIN_EXP") − 1.
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#456)
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#466)
+
+One greater than the minimum possible *normal* power of 2 exponent for a significand bounded by 1 ≤ x &lt; 2 (i.e. the IEEE definition).
+
+This corresponds to the exact minimum possible *normal* power of 2 exponent for a significand bounded by 0.5 ≤ x &lt; 1 (i.e. the C definition). In other words, all normal numbers representable by this type are greater than or equal to 0.5 × 2*MIN\_EXP*.
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#475)
+
+One greater than the maximum possible power of 2 exponent for a significand bounded by 1 ≤ x &lt; 2 (i.e. the IEEE definition).
+
+This corresponds to the exact maximum possible power of 2 exponent for a significand bounded by 0.5 ≤ x &lt; 1 (i.e. the C definition). In other words, all numbers representable by this type are strictly less than 2*MAX\_EXP*.
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#483)
+
+Minimum *x* for which 10*x* is normal.
+
+Equal to ceil(log10 [`MIN_POSITIVE`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MIN_POSITIVE "associated constant f64::MIN_POSITIVE")).
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#490)
+
+Maximum *x* for which 10*x* is normal.
+
+Equal to floor(log10 [`MAX`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MAX "associated constant f64::MAX")).
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#507)
+
+Not a Number (NaN).
+
+Note that IEEE 754 doesn’t define just a single NaN value; a plethora of bit patterns are considered to be NaN. Furthermore, the standard makes a difference between a “signaling” and a “quiet” NaN, and allows inspecting its “payload” (the unspecified bits in the bit pattern) and its sign. See the [specification of NaN bit patterns](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32") for more info.
+
+This constant is guaranteed to be a quiet NaN (on targets that follow the Rust assumptions that the quiet/signaling bit being set to 1 indicates a quiet NaN). Beyond that, nothing is guaranteed about the specific bit pattern chosen here: both payload and sign are arbitrary. The concrete bit pattern may change across Rust versions and target platforms.
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#510)
+
+Infinity (∞).
+
+1.43.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#513)
+
+Negative infinity (−∞).
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#541)
+
+🔬This is a nightly-only experimental API. (`float_exact_integer_constants` [#152466](https://github.com/rust-lang/rust/issues/152466))
+
+Maximum integer that can be represented exactly in an [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") value, with no other integer converting to the same floating point value.
+
+For an integer `x` which satisfies `MIN_EXACT_INTEGER <= x <= MAX_EXACT_INTEGER`, there is a “one-to-one” mapping between [`i64`](https://doc.rust-lang.org/std/primitive.i64.html "primitive i64") and [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") values. `MAX_EXACT_INTEGER + 1` also converts losslessly to [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") and back to [`i64`](https://doc.rust-lang.org/std/primitive.i64.html "primitive i64"), but `MAX_EXACT_INTEGER + 2` converts to the same [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") value (and back to `MAX_EXACT_INTEGER + 1` as an integer) so there is not a “one-to-one” mapping.
+
+```rust
+#![feature(float_exact_integer_constants)]
+let max_exact_int = f64::MAX_EXACT_INTEGER;
+assert_eq!(max_exact_int, max_exact_int as f64 as i64);
+assert_eq!(max_exact_int + 1, (max_exact_int + 1) as f64 as i64);
+assert_ne!(max_exact_int + 2, (max_exact_int + 2) as f64 as i64);
+
+// Beyond `f64::MAX_EXACT_INTEGER`, multiple integers can map to one float value
+assert_eq!((max_exact_int + 1) as f64, (max_exact_int + 2) as f64);
+```
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#571)
+
+🔬This is a nightly-only experimental API. (`float_exact_integer_constants` [#152466](https://github.com/rust-lang/rust/issues/152466))
+
+Minimum integer that can be represented exactly in an [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") value, with no other integer converting to the same floating point value.
+
+For an integer `x` which satisfies `MIN_EXACT_INTEGER <= x <= MAX_EXACT_INTEGER`, there is a “one-to-one” mapping between [`i64`](https://doc.rust-lang.org/std/primitive.i64.html "primitive i64") and [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") values. `MAX_EXACT_INTEGER + 1` also converts losslessly to [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") and back to [`i64`](https://doc.rust-lang.org/std/primitive.i64.html "primitive i64"), but `MAX_EXACT_INTEGER + 2` converts to the same [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") value (and back to `MAX_EXACT_INTEGER + 1` as an integer) so there is not a “one-to-one” mapping.
+
+This constant is equivalent to `-MAX_EXACT_INTEGER`.
+
+```rust
+#![feature(float_exact_integer_constants)]
+let min_exact_int = f64::MIN_EXACT_INTEGER;
+assert_eq!(min_exact_int, min_exact_int as f64 as i64);
+assert_eq!(min_exact_int - 1, (min_exact_int - 1) as f64 as i64);
+assert_ne!(min_exact_int - 2, (min_exact_int - 2) as f64 as i64);
+
+// Below `f64::MIN_EXACT_INTEGER`, multiple integers can map to one float value
+assert_eq!((min_exact_int - 1) as f64, (min_exact_int - 2) as f64);
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#602)
+
+Returns `true` if this value is NaN.
+
+```rust
+let nan = f64::NAN;
+let f = 7.0_f64;
+
+assert!(nan.is_nan());
+assert!(!f.is_nan());
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#625)
+
+Returns `true` if this value is positive infinity or negative infinity, and `false` otherwise.
+
+```rust
+let f = 7.0f64;
+let inf = f64::INFINITY;
+let neg_inf = f64::NEG_INFINITY;
+let nan = f64::NAN;
+
+assert!(!f.is_infinite());
+assert!(!nan.is_infinite());
+
+assert!(inf.is_infinite());
+assert!(neg_inf.is_infinite());
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#650)
+
+Returns `true` if this number is neither infinite nor NaN.
+
+```rust
+let f = 7.0f64;
+let inf: f64 = f64::INFINITY;
+let neg_inf: f64 = f64::NEG_INFINITY;
+let nan: f64 = f64::NAN;
+
+assert!(f.is_finite());
+
+assert!(!nan.is_finite());
+assert!(!inf.is_finite());
+assert!(!neg_inf.is_finite());
+```
+
+1.53.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#678)
+
+Returns `true` if the number is [subnormal](https://en.wikipedia.org/wiki/Denormal_number).
+
+```rust
+let min = f64::MIN_POSITIVE; // 2.2250738585072014e-308_f64
+let max = f64::MAX;
+let lower_than_min = 1.0e-308_f64;
+let zero = 0.0_f64;
+
+assert!(!min.is_subnormal());
+assert!(!max.is_subnormal());
+
+assert!(!zero.is_subnormal());
+assert!(!f64::NAN.is_subnormal());
+assert!(!f64::INFINITY.is_subnormal());
+// Values between `0` and `min` are Subnormal.
+assert!(lower_than_min.is_subnormal());
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#705)
+
+Returns `true` if the number is neither zero, infinite, [subnormal](https://en.wikipedia.org/wiki/Denormal_number), or NaN.
+
+```rust
+let min = f64::MIN_POSITIVE; // 2.2250738585072014e-308f64
+let max = f64::MAX;
+let lower_than_min = 1.0e-308_f64;
+let zero = 0.0f64;
+
+assert!(min.is_normal());
+assert!(max.is_normal());
+
+assert!(!zero.is_normal());
+assert!(!f64::NAN.is_normal());
+assert!(!f64::INFINITY.is_normal());
+// Values between `0` and `min` are Subnormal.
+assert!(!lower_than_min.is_normal());
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#724)
+
+Returns the floating point category of the number. If only one property is going to be tested, it is generally faster to use the specific predicate instead.
+
+```rust
+use std::num::FpCategory;
+
+let num = 12.4_f64;
+let inf = f64::INFINITY;
+
+assert_eq!(num.classify(), FpCategory::Normal);
+assert_eq!(inf.classify(), FpCategory::Infinite);
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#761)
+
+Returns `true` if `self` has a positive sign, including `+0.0`, NaNs with positive sign bit and positive infinity.
+
+Note that IEEE 754 doesn’t assign any meaning to the sign bit in case of a NaN, and as Rust doesn’t guarantee that the bit pattern of NaNs are conserved over arithmetic operations, the result of `is_sign_positive` on a NaN might produce an unexpected or non-portable result. See the [specification of NaN bit patterns](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32") for more info. Use `self.signum() == 1.0` if you need fully portable behavior (will return `false` for all NaNs).
+
+```rust
+let f = 7.0_f64;
+let g = -7.0_f64;
+
+assert!(f.is_sign_positive());
+assert!(!g.is_sign_positive());
+```
+
+1.0.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#795)
+
+Returns `true` if `self` has a negative sign, including `-0.0`, NaNs with negative sign bit and negative infinity.
+
+Note that IEEE 754 doesn’t assign any meaning to the sign bit in case of a NaN, and as Rust doesn’t guarantee that the bit pattern of NaNs are conserved over arithmetic operations, the result of `is_sign_negative` on a NaN might produce an unexpected or non-portable result. See the [specification of NaN bit patterns](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32") for more info. Use `self.signum() == -1.0` if you need fully portable behavior (will return `false` for all NaNs).
+
+```rust
+let f = 7.0_f64;
+let g = -7.0_f64;
+
+assert!(!f.is_sign_negative());
+assert!(g.is_sign_negative());
+```
+
+1.86.0 (const: 1.86.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#841)
+
+Returns the least number greater than `self`.
+
+Let `TINY` be the smallest representable positive `f64`. Then,
+
+- if `self.is_nan()`, this returns `self`;
+- if `self` is [`NEG_INFINITY`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.NEG_INFINITY "associated constant f64::NEG_INFINITY"), this returns [`MIN`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MIN "associated constant f64::MIN");
+- if `self` is `-TINY`, this returns -0.0;
+- if `self` is -0.0 or +0.0, this returns `TINY`;
+- if `self` is [`MAX`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MAX "associated constant f64::MAX") or [`INFINITY`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.INFINITY "associated constant f64::INFINITY"), this returns [`INFINITY`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.INFINITY "associated constant f64::INFINITY");
+- otherwise the unique least value greater than `self` is returned.
+
+The identity `x.next_up() == -(-x).next_down()` holds for all non-NaN `x`. When `x` is finite `x == x.next_up().next_down()` also holds.
+
+```rust
+// f64::EPSILON is the difference between 1.0 and the next number up.
+assert_eq!(1.0f64.next_up(), 1.0 + f64::EPSILON);
+// But not for most numbers.
+assert!(0.1f64.next_up() < 0.1 + f64::EPSILON);
+assert_eq!(9007199254740992f64.next_up(), 9007199254740994.0);
+```
+
+This operation corresponds to IEEE-754 `nextUp`.
+
+1.86.0 (const: 1.86.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#892)
+
+Returns the greatest number less than `self`.
+
+Let `TINY` be the smallest representable positive `f64`. Then,
+
+- if `self.is_nan()`, this returns `self`;
+- if `self` is [`INFINITY`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.INFINITY "associated constant f64::INFINITY"), this returns [`MAX`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MAX "associated constant f64::MAX");
+- if `self` is `TINY`, this returns 0.0;
+- if `self` is -0.0 or +0.0, this returns `-TINY`;
+- if `self` is [`MIN`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.MIN "associated constant f64::MIN") or [`NEG_INFINITY`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.NEG_INFINITY "associated constant f64::NEG_INFINITY"), this returns [`NEG_INFINITY`](https://doc.rust-lang.org/std/primitive.f64.html#associatedconstant.NEG_INFINITY "associated constant f64::NEG_INFINITY");
+- otherwise the unique greatest value less than `self` is returned.
+
+The identity `x.next_down() == -(-x).next_up()` holds for all non-NaN `x`. When `x` is finite `x == x.next_down().next_up()` also holds.
+
+```rust
+let x = 1.0f64;
+// Clamp value into range [0, 1).
+let clamped = x.clamp(0.0, 1.0f64.next_down());
+assert!(clamped < 1.0);
+assert_eq!(clamped.next_up(), 1.0);
+```
+
+This operation corresponds to IEEE-754 `nextDown`.
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#924)
+
+Takes the reciprocal (inverse) of a number, `1/x`.
+
+```rust
+let x = 2.0_f64;
+let abs_difference = (x.recip() - (1.0 / x)).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#949)
+
+Converts radians to degrees.
+
+##### [§](#unspecified-precision-31)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-41)Examples
+
+```rust
+let angle = std::f64::consts::PI;
+
+let abs_difference = (angle.to_degrees() - 180.0).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#978)
+
+Converts degrees to radians.
+
+##### [§](#unspecified-precision-32)Unspecified precision
+
+The precision of this function is non-deterministic. This means it varies by platform, Rust version, and can even differ within the same execution from one invocation to the next.
+
+##### [§](#examples-42)Examples
+
+```rust
+let angle = 180.0_f64;
+
+let abs_difference = (angle.to_radians() - std::f64::consts::PI).abs();
+
+assert!(abs_difference < 1e-10);
+```
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1009)
+
+Returns the maximum of the two numbers, ignoring NaN.
+
+If exactly one of the arguments is NaN (quiet or signaling), then the other argument is returned. If both arguments are NaN, the return value is NaN, with the bit pattern picked using the usual [rules for arithmetic operations](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32"). If the inputs compare equal (such as for the case of `+0.0` and `-0.0`), either input may be returned non-deterministically.
+
+The handling of NaNs follows the IEEE 754-2019 semantics for `maximumNumber`, treating all NaNs the same way to ensure the operation is associative. The handling of signed zeros follows the IEEE 754-2008 semantics for `maxNum`.
+
+```rust
+let x = 1.0_f64;
+let y = 2.0_f64;
+
+assert_eq!(x.max(y), y);
+assert_eq!(x.max(f64::NAN), x);
+```
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1036)
+
+Returns the minimum of the two numbers, ignoring NaN.
+
+If exactly one of the arguments is NaN (quiet or signaling), then the other argument is returned. If both arguments are NaN, the return value is NaN, with the bit pattern picked using the usual [rules for arithmetic operations](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32"). If the inputs compare equal (such as for the case of `+0.0` and `-0.0`), either input may be returned non-deterministically.
+
+The handling of NaNs follows the IEEE 754-2019 semantics for `minimumNumber`, treating all NaNs the same way to ensure the operation is associative. The handling of signed zeros follows the IEEE 754-2008 semantics for `minNum`.
+
+```rust
+let x = 1.0_f64;
+let y = 2.0_f64;
+
+assert_eq!(x.min(y), x);
+assert_eq!(x.min(f64::NAN), x);
+```
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1063)
+
+🔬This is a nightly-only experimental API. (`float_minimum_maximum` [#91079](https://github.com/rust-lang/rust/issues/91079))
+
+Returns the maximum of the two numbers, propagating NaN.
+
+If at least one of the arguments is NaN, the return value is NaN, with the bit pattern picked using the usual [rules for arithmetic operations](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32"). Furthermore, `-0.0` is considered to be less than `+0.0`, making this function fully deterministic for non-NaN inputs.
+
+This is in contrast to [`f64::max`](https://doc.rust-lang.org/std/primitive.f64.html#method.max "method f64::max") which only returns NaN when *both* arguments are NaN, and which does not reliably order `-0.0` and `+0.0`.
+
+This follows the IEEE 754-2019 semantics for `maximum`.
+
+```rust
+#![feature(float_minimum_maximum)]
+let x = 1.0_f64;
+let y = 2.0_f64;
+
+assert_eq!(x.maximum(y), y);
+assert!(x.maximum(f64::NAN).is_nan());
+```
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1090)
+
+🔬This is a nightly-only experimental API. (`float_minimum_maximum` [#91079](https://github.com/rust-lang/rust/issues/91079))
+
+Returns the minimum of the two numbers, propagating NaN.
+
+If at least one of the arguments is NaN, the return value is NaN, with the bit pattern picked using the usual [rules for arithmetic operations](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32"). Furthermore, `-0.0` is considered to be less than `+0.0`, making this function fully deterministic for non-NaN inputs.
+
+This is in contrast to [`f64::min`](https://doc.rust-lang.org/std/primitive.f64.html#method.min "method f64::min") which only returns NaN when *both* arguments are NaN, and which does not reliably order `-0.0` and `+0.0`.
+
+This follows the IEEE 754-2019 semantics for `minimum`.
+
+```rust
+#![feature(float_minimum_maximum)]
+let x = 1.0_f64;
+let y = 2.0_f64;
+
+assert_eq!(x.minimum(y), x);
+assert!(x.minimum(f64::NAN).is_nan());
+```
+
+1.85.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1109)
+
+Calculates the midpoint (average) between `self` and `rhs`.
+
+This returns NaN when *either* argument is NaN or if a combination of +inf and -inf is provided as arguments.
+
+##### [§](#examples-43)Examples
+
+```rust
+assert_eq!(1f64.midpoint(4.0), 2.5);
+assert_eq!((-5.5f64).midpoint(8.0), 1.25);
+```
+
+1.44.0 · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1148-1150)
+
+Rounds toward zero and converts to any primitive integer type, assuming that the value is finite and fits in that type.
+
+```rust
+let value = 4.6_f64;
+let rounded = unsafe { value.to_int_unchecked::<u16>() };
+assert_eq!(rounded, 4);
+
+let value = -128.9_f64;
+let rounded = unsafe { value.to_int_unchecked::<i8>() };
+assert_eq!(rounded, i8::MIN);
+```
+
+##### [§](#safety)Safety
+
+The value must:
+
+- Not be `NaN`
+- Not be infinite
+- Be representable in the return type `Int`, after truncating off its fractional part
+
+1.20.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1179)
+
+Raw transmutation to `u64`.
+
+This is currently identical to `transmute::<f64, u64>(self)` on all platforms.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+Note that this function is distinct from `as` casting, which attempts to preserve the *numeric* value, and not the bitwise value.
+
+##### [§](#examples-44)Examples
+
+```rust
+assert!((1f64).to_bits() != 1f64 as u64); // to_bits() is not casting!
+assert_eq!((12.5f64).to_bits(), 0x4029000000000000);
+```
+
+1.20.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1225)
+
+Raw transmutation from `u64`.
+
+This is currently identical to `transmute::<u64, f64>(v)` on all platforms. It turns out this is incredibly portable, for two reasons:
+
+- Floats and Ints have the same endianness on all supported platforms.
+- IEEE 754 very precisely specifies the bit layout of floats.
+
+However there is one caveat: prior to the 2008 version of IEEE 754, how to interpret the NaN signaling bit wasn’t actually specified. Most platforms (notably x86 and ARM) picked the interpretation that was ultimately standardized in 2008, but some didn’t (notably MIPS). As a result, all signaling NaNs on MIPS are quiet NaNs on x86, and vice-versa.
+
+Rather than trying to preserve signaling-ness cross-platform, this implementation favors preserving the exact bits. This means that any payloads encoded in NaNs will be preserved even if the result of this method is sent over the network from an x86 machine to a MIPS one.
+
+If the results of this method are only manipulated by the same architecture that produced them, then there is no portability concern.
+
+If the input isn’t NaN, then there is no portability concern.
+
+If you don’t care about signaling-ness (very likely), then there is no portability concern.
+
+Note that this function is distinct from `as` casting, which attempts to preserve the *numeric* value, and not the bitwise value.
+
+##### [§](#examples-45)Examples
+
+```rust
+let v = f64::from_bits(0x4029000000000000);
+assert_eq!(v, 12.5);
+```
+
+1.40.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1248)
+
+Returns the memory representation of this floating point number as a byte array in big-endian (network) byte order.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+##### [§](#examples-46)Examples
+
+```rust
+let bytes = 12.5f64.to_be_bytes();
+assert_eq!(bytes, [0x40, 0x29, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]);
+```
+
+1.40.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1269)
+
+Returns the memory representation of this floating point number as a byte array in little-endian byte order.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+##### [§](#examples-47)Examples
+
+```rust
+let bytes = 12.5f64.to_le_bytes();
+assert_eq!(bytes, [0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x40]);
+```
+
+1.40.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1303)
+
+Returns the memory representation of this floating point number as a byte array in native byte order.
+
+As the target platform’s native endianness is used, portable code should use [`to_be_bytes`](https://doc.rust-lang.org/std/primitive.f64.html#method.to_be_bytes "method f64::to_be_bytes") or [`to_le_bytes`](https://doc.rust-lang.org/std/primitive.f64.html#method.to_le_bytes "method f64::to_le_bytes"), as appropriate, instead.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+##### [§](#examples-48)Examples
+
+```rust
+let bytes = 12.5f64.to_ne_bytes();
+assert_eq!(
+    bytes,
+    if cfg!(target_endian = "big") {
+        [0x40, 0x29, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+    } else {
+        [0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x40]
+    }
+);
+```
+
+1.40.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1322)
+
+Creates a floating point value from its representation as a byte array in big endian.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+##### [§](#examples-49)Examples
+
+```rust
+let value = f64::from_be_bytes([0x40, 0x29, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]);
+assert_eq!(value, 12.5);
+```
+
+1.40.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1341)
+
+Creates a floating point value from its representation as a byte array in little endian.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+##### [§](#examples-50)Examples
+
+```rust
+let value = f64::from_le_bytes([0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x40]);
+assert_eq!(value, 12.5);
+```
+
+1.40.0 (const: 1.83.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1371)
+
+Creates a floating point value from its representation as a byte array in native endian.
+
+As the target platform’s native endianness is used, portable code likely wants to use [`from_be_bytes`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_be_bytes "associated function f64::from_be_bytes") or [`from_le_bytes`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_le_bytes "associated function f64::from_le_bytes"), as appropriate instead.
+
+See [`from_bits`](https://doc.rust-lang.org/std/primitive.f64.html#method.from_bits "associated function f64::from_bits") for some discussion of the portability of this operation (there are almost no issues).
+
+##### [§](#examples-51)Examples
+
+```rust
+let value = f64::from_ne_bytes(if cfg!(target_endian = "big") {
+    [0x40, 0x29, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00]
+} else {
+    [0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x29, 0x40]
+});
+assert_eq!(value, 12.5);
+```
+
+1.62.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143800 "Tracking issue for const_cmp")) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1438)
+
+Returns the ordering between `self` and `other`.
+
+Unlike the standard partial comparison between floating point numbers, this comparison always produces an ordering in accordance to the `totalOrder` predicate as defined in the IEEE 754 (2008 revision) floating point standard. The values are ordered in the following sequence:
+
+- negative quiet NaN
+- negative signaling NaN
+- negative infinity
+- negative numbers
+- negative subnormal numbers
+- negative zero
+- positive zero
+- positive subnormal numbers
+- positive numbers
+- positive infinity
+- positive signaling NaN
+- positive quiet NaN.
+
+The ordering established by this function does not always agree with the [`PartialOrd`](https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html "trait std::cmp::PartialOrd") and [`PartialEq`](https://doc.rust-lang.org/std/cmp/trait.PartialEq.html "trait std::cmp::PartialEq") implementations of `f64`. For example, they consider negative and positive zero equal, while `total_cmp` doesn’t.
+
+The interpretation of the signaling NaN bit follows the definition in the IEEE 754 standard, which may not match the interpretation by some of the older, non-conformant (e.g. MIPS) hardware implementations.
+
+##### [§](#example)Example
+
+```rust
+struct GoodBoy {
+    name: String,
+    weight: f64,
+}
+
+let mut bois = vec![
+    GoodBoy { name: "Pucci".to_owned(), weight: 0.1 },
+    GoodBoy { name: "Woofer".to_owned(), weight: 99.0 },
+    GoodBoy { name: "Yapper".to_owned(), weight: 10.0 },
+    GoodBoy { name: "Chonk".to_owned(), weight: f64::INFINITY },
+    GoodBoy { name: "Abs. Unit".to_owned(), weight: f64::NAN },
+    GoodBoy { name: "Floaty".to_owned(), weight: -5.0 },
+];
+
+bois.sort_by(|a, b| a.weight.total_cmp(&b.weight));
+
+// `f64::NAN` could be positive or negative, which will affect the sort order.
+if f64::NAN.is_sign_negative() {
+    assert!(bois.into_iter().map(|b| b.weight)
+        .zip([f64::NAN, -5.0, 0.1, 10.0, 99.0, f64::INFINITY].iter())
+        .all(|(a, b)| a.to_bits() == b.to_bits()))
+} else {
+    assert!(bois.into_iter().map(|b| b.weight)
+        .zip([-5.0, 0.1, 10.0, 99.0, f64::INFINITY, f64::NAN].iter())
+        .all(|(a, b)| a.to_bits() == b.to_bits()))
+}
+```
+
+1.50.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1501)
+
+Restrict a value to a certain interval unless it is NaN.
+
+Returns `max` if `self` is greater than `max`, and `min` if `self` is less than `min`. Otherwise this returns `self`.
+
+Note that this function returns NaN if the initial value was NaN as well. If the result is zero and among the three inputs `self`, `min`, and `max` there are zeros with different sign, either `0.0` or `-0.0` is returned non-deterministically.
+
+##### [§](#panics)Panics
+
+Panics if `min > max`, `min` is NaN, or `max` is NaN.
+
+##### [§](#examples-52)Examples
+
+```rust
+assert!((-3.0f64).clamp(-2.0, 1.0) == -2.0);
+assert!((0.0f64).clamp(-2.0, 1.0) == 0.0);
+assert!((2.0f64).clamp(-2.0, 1.0) == 1.0);
+assert!((f64::NAN).clamp(-2.0, 1.0).is_nan());
+
+// These always returns zero, but the sign (which is ignored by `==`) is non-deterministic.
+assert!((0.0f64).clamp(-0.0, -0.0) == 0.0);
+assert!((1.0f64).clamp(-0.0, 0.0) == 0.0);
+// This is definitely a negative zero.
+assert!((-1.0f64).clamp(-0.0, 1.0).is_sign_negative());
+```
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1542)
+
+🔬This is a nightly-only experimental API. (`clamp_magnitude` [#148519](https://github.com/rust-lang/rust/issues/148519))
+
+Clamps this number to a symmetric range centered around zero.
+
+The method clamps the number’s magnitude (absolute value) to be at most `limit`.
+
+This is functionally equivalent to `self.clamp(-limit, limit)`, but is more explicit about the intent.
+
+##### [§](#panics-1)Panics
+
+Panics if `limit` is negative or NaN, as this indicates a logic error.
+
+##### [§](#examples-53)Examples
+
+```rust
+#![feature(clamp_magnitude)]
+assert_eq!(5.0f64.clamp_magnitude(3.0), 3.0);
+assert_eq!((-5.0f64).clamp_magnitude(3.0), -3.0);
+assert_eq!(2.0f64.clamp_magnitude(3.0), 2.0);
+assert_eq!((-2.0f64).clamp_magnitude(3.0), -2.0);
+```
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1567)
+
+Computes the absolute value of `self`.
+
+This function always returns the precise result.
+
+##### [§](#examples-54)Examples
+
+```rust
+let x = 3.5_f64;
+let y = -3.5_f64;
+
+assert_eq!(x.abs(), x);
+assert_eq!(y.abs(), -y);
+
+assert!(f64::NAN.abs().is_nan());
+```
+
+1.0.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1591)
+
+Returns a number that represents the sign of `self`.
+
+- `1.0` if the number is positive, `+0.0` or `INFINITY`
+- `-1.0` if the number is negative, `-0.0` or `NEG_INFINITY`
+- NaN if the number is NaN
+
+##### [§](#examples-55)Examples
+
+```rust
+let f = 3.5_f64;
+
+assert_eq!(f.signum(), 1.0);
+assert_eq!(f64::NEG_INFINITY.signum(), -1.0);
+
+assert!(f64::NAN.signum().is_nan());
+```
+
+1.35.0 (const: 1.85.0) · [Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1625)
+
+Returns a number composed of the magnitude of `self` and the sign of `sign`.
+
+Equal to `self` if the sign of `self` and `sign` are the same, otherwise equal to `-self`. If `self` is a NaN, then a NaN with the same payload as `self` and the sign bit of `sign` is returned.
+
+If `sign` is a NaN, then this operation will still carry over its sign into the result. Note that IEEE 754 doesn’t assign any meaning to the sign bit in case of a NaN, and as Rust doesn’t guarantee that the bit pattern of NaNs are conserved over arithmetic operations, the result of `copysign` with `sign` being a NaN might produce an unexpected or non-portable result. See the [specification of NaN bit patterns](https://doc.rust-lang.org/std/primitive.f32.html#nan-bit-patterns "primitive f32") for more info.
+
+##### [§](#examples-56)Examples
+
+```rust
+let f = 3.5_f64;
+
+assert_eq!(f.copysign(0.42), 3.5_f64);
+assert_eq!(f.copysign(-0.42), -3.5_f64);
+assert_eq!((-f).copysign(0.42), 3.5_f64);
+assert_eq!((-f).copysign(-0.42), -3.5_f64);
+
+assert!(f64::NAN.copysign(1.0).is_nan());
+```
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1636)
+
+🔬This is a nightly-only experimental API. (`float_algebraic` [#136469](https://github.com/rust-lang/rust/issues/136469))
+
+Float addition that allows optimizations based on algebraic rules.
+
+See [algebraic operators](https://doc.rust-lang.org/std/primitive.f32.html#algebraic-operators "primitive f32") for more info.
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1647)
+
+🔬This is a nightly-only experimental API. (`float_algebraic` [#136469](https://github.com/rust-lang/rust/issues/136469))
+
+Float subtraction that allows optimizations based on algebraic rules.
+
+See [algebraic operators](https://doc.rust-lang.org/std/primitive.f32.html#algebraic-operators "primitive f32") for more info.
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1658)
+
+🔬This is a nightly-only experimental API. (`float_algebraic` [#136469](https://github.com/rust-lang/rust/issues/136469))
+
+Float multiplication that allows optimizations based on algebraic rules.
+
+See [algebraic operators](https://doc.rust-lang.org/std/primitive.f32.html#algebraic-operators "primitive f32") for more info.
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1669)
+
+🔬This is a nightly-only experimental API. (`float_algebraic` [#136469](https://github.com/rust-lang/rust/issues/136469))
+
+Float division that allows optimizations based on algebraic rules.
+
+See [algebraic operators](https://doc.rust-lang.org/std/primitive.f32.html#algebraic-operators "primitive f32") for more info.
+
+[Source](https://doc.rust-lang.org/src/core/num/f64.rs.html#1680)
+
+🔬This is a nightly-only experimental API. (`float_algebraic` [#136469](https://github.com/rust-lang/rust/issues/136469))
+
+Float remainder that allows optimizations based on algebraic rules.
+
+See [algebraic operators](https://doc.rust-lang.org/std/primitive.f32.html#algebraic-operators "primitive f32") for more info.
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#impl-Add%3C%26f64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#associatedtype.Output-13)
+
+The resulting type after applying the `+` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#method.add-3)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#impl-Add%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#associatedtype.Output-12)
+
+The resulting type after applying the `+` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#method.add-2)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#impl-Add%3Cf64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#associatedtype.Output-11)
+
+The resulting type after applying the `+` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#method.add-1)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#impl-Add-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#associatedtype.Output-10)
+
+The resulting type after applying the `+` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#114)[§](#method.add)
+
+1.22.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#800)[§](#impl-AddAssign%3C%26f64%3E-for-f64)
+
+1.8.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#800)[§](#impl-AddAssign-for-f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/142757 "Tracking issue for const_clone")) · [Source](https://doc.rust-lang.org/src/core/clone.rs.html#627-632)[§](#impl-Clone-for-f64)
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/core/fmt/float.rs.html#240)[§](#impl-Debug-for-f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143894 "Tracking issue for const_default")) · [Source](https://doc.rust-lang.org/src/core/default.rs.html#185)[§](#impl-Default-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/default.rs.html#185)[§](#method.default)
+
+Returns the default value of `0.0`
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/core/fmt/float.rs.html#240)[§](#impl-Display-for-f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#impl-Div%3C%26f64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#associatedtype.Output-3)
+
+The resulting type after applying the `/` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#method.div-3)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#impl-Div%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#associatedtype.Output-2)
+
+The resulting type after applying the `/` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#method.div-2)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#impl-Div%3Cf64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#associatedtype.Output-1)
+
+The resulting type after applying the `/` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#method.div-1)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#impl-Div-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#associatedtype.Output)
+
+The resulting type after applying the `/` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#526)[§](#method.div)
+
+1.22.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#994)[§](#impl-DivAssign%3C%26f64%3E-for-f64)
+
+1.8.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#994)[§](#impl-DivAssign-for-f64)
+
+1.68.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#230)[§](#impl-From%3Cbool%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#230)[§](#method.from-9)
+
+Converts a [`bool`](https://doc.rust-lang.org/std/primitive.bool.html "primitive bool") to [`f64`](https://doc.rust-lang.org/std/primitive.f64.html "primitive f64") losslessly. The resulting value is positive `0.0` for `false` and `1.0` for `true` values.
+
+##### [§](#examples-57)Examples
+
+```rust
+let x: f64 = false.into();
+assert_eq!(x, 0.0);
+assert!(x.is_sign_positive());
+
+let y: f64 = true.into();
+assert_eq!(y, 1.0);
+```
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#179)[§](#impl-From%3Cf16%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#181)[§](#impl-From%3Cf32%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#183)[§](#impl-From%3Cf64%3E-for-f128)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#156)[§](#impl-From%3Ci16%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#158)[§](#impl-From%3Ci32%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#153)[§](#impl-From%3Ci8%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#169)[§](#impl-From%3Cu16%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#171)[§](#impl-From%3Cu32%3E-for-f64)
+
+1.6.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143773 "Tracking issue for const_convert")) · [Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#166)[§](#impl-From%3Cu8%3E-for-f64)
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/core/num/dec2flt/mod.rs.html#180)[§](#impl-FromStr-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/num/dec2flt/mod.rs.html#180)[§](#method.from_str)
+
+Converts a string in base 10 to a float. Accepts an optional decimal exponent.
+
+This function accepts strings such as
+
+- ‘3.14’
+- ‘-3.14’
+- ‘2.5E10’, or equivalently, ‘2.5e10’
+- ‘2.5E-10’
+- ‘5.’
+- ‘.5’, or, equivalently, ‘0.5’
+- ‘7’
+- ‘007’
+- ‘inf’, ‘-inf’, ‘+infinity’, ‘NaN’
+
+Note that alphabetical characters are not case-sensitive.
+
+Leading and trailing whitespace represent an error.
+
+##### [§](#grammar)Grammar
+
+All strings that adhere to the following [EBNF](https://www.w3.org/TR/REC-xml/#sec-notation) grammar when lowercased will result in an [`Ok`](https://doc.rust-lang.org/std/result/enum.Result.html#variant.Ok "variant std::result::Result::Ok") being returned:
+
+```txt
+Float  ::= Sign? ( 'inf' | 'infinity' | 'nan' | Number )
+Number ::= ( Digit+ |
+             Digit+ '.' Digit* |
+             Digit* '.' Digit+ ) Exp?
+Exp    ::= 'e' Sign? Digit+
+Sign   ::= [+-]
+Digit  ::= [0-9]
+```
+
+##### [§](#arguments)Arguments
+
+- src - A string
+
+##### [§](#return-value)Return value
+
+`Err(ParseFloatError)` if the string did not represent a valid number. Otherwise, `Ok(n)` where `n` is the closest representable floating-point number to the number represented by `src` (following the same rules for rounding as for the results of primitive operations).
+
+[Source](https://doc.rust-lang.org/src/core/num/dec2flt/mod.rs.html#180)[§](#associatedtype.Err)
+
+The associated error which can be returned from parsing.
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/core/fmt/float.rs.html#240)[§](#impl-LowerExp-for-f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#impl-Mul%3C%26f64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#associatedtype.Output-21)
+
+The resulting type after applying the `*` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#method.mul-3)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#impl-Mul%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#associatedtype.Output-20)
+
+The resulting type after applying the `*` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#method.mul-2)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#impl-Mul%3Cf64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#associatedtype.Output-19)
+
+The resulting type after applying the `*` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#method.mul-1)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#impl-Mul-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#associatedtype.Output-18)
+
+The resulting type after applying the `*` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#361)[§](#method.mul)
+
+1.22.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#933)[§](#impl-MulAssign%3C%26f64%3E-for-f64)
+
+1.8.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#933)[§](#impl-MulAssign-for-f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#729)[§](#impl-Neg-for-%26f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#729)[§](#impl-Neg-for-f64)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143800 "Tracking issue for const_cmp")) · [Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1898-1900)[§](#impl-PartialEq-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1898-1900)[§](#method.eq)
+
+Tests for `self` and `other` values to be equal, and is used by `==`.
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1898-1900)[§](#method.ne)
+
+Tests for `!=`. The default implementation is almost always sufficient, and should not be overridden without very good reason.
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143800 "Tracking issue for const_cmp")) · [Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1991)[§](#impl-PartialOrd-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1991)[§](#method.partial_cmp)
+
+This method returns an ordering between `self` and `other` values if one exists. [Read more](https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html#tymethod.partial_cmp)
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1991)[§](#method.lt)
+
+Tests less than (for `self` and `other`) and is used by the `<` operator. [Read more](https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html#method.lt)
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1991)[§](#method.le)
+
+Tests less than or equal to (for `self` and `other`) and is used by the `<=` operator. [Read more](https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html#method.le)
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1991)[§](#method.gt)
+
+Tests greater than (for `self` and `other`) and is used by the `>` operator. [Read more](https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html#method.gt)
+
+[Source](https://doc.rust-lang.org/src/core/cmp.rs.html#1991)[§](#method.ge)
+
+Tests greater than or equal to (for `self` and `other`) and is used by the `>=` operator. [Read more](https://doc.rust-lang.org/std/cmp/trait.PartialOrd.html#method.ge)
+
+1.12.0 · [Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#impl-Product%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#method.product-1)
+
+Takes an iterator and generates `Self` from the elements by multiplying the items.
+
+1.12.0 · [Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#impl-Product-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#method.product)
+
+Takes an iterator and generates `Self` from the elements by multiplying the items.
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#impl-Rem%3C%26f64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#associatedtype.Output-7)
+
+The resulting type after applying the `%` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#method.rem-3)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#impl-Rem%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#associatedtype.Output-6)
+
+The resulting type after applying the `%` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#method.rem-2)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#impl-Rem%3Cf64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#associatedtype.Output-5)
+
+The resulting type after applying the `%` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#method.rem-1)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#impl-Rem-for-f64)
+
+The remainder from the division of two floats.
+
+The remainder has the same sign as the dividend and is computed as: `x - (x / y).trunc() * y`.
+
+#### [§](#examples-58)Examples
+
+```rust
+let x: f32 = 50.50;
+let y: f32 = 8.125;
+let remainder = x - (x / y).trunc() * y;
+
+// The answer to both operations is 1.75
+assert_eq!(x % y, remainder);
+```
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#associatedtype.Output-4)
+
+The resulting type after applying the `%` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#650)[§](#method.rem)
+
+1.22.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#1059)[§](#impl-RemAssign%3C%26f64%3E-for-f64)
+
+1.8.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#1059)[§](#impl-RemAssign-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/portable-simd/crates/core_simd/src/vector.rs.html#1160)[§](#impl-SimdElement-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/portable-simd/crates/core_simd/src/vector.rs.html#1161)[§](#associatedtype.Mask)
+
+🔬This is a nightly-only experimental API. (`portable_simd` [#86656](https://github.com/rust-lang/rust/issues/86656))
+
+The mask element type corresponding to this element type.
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#impl-Sub%3C%26f64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#associatedtype.Output-17)
+
+The resulting type after applying the `-` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#method.sub-3)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#impl-Sub%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#associatedtype.Output-16)
+
+The resulting type after applying the `-` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#method.sub-2)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#impl-Sub%3Cf64%3E-for-%26f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#associatedtype.Output-15)
+
+The resulting type after applying the `-` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#method.sub-1)
+
+1.0.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#impl-Sub-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#associatedtype.Output-14)
+
+The resulting type after applying the `-` operator.
+
+[Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#227)[§](#method.sub)
+
+1.22.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#871)[§](#impl-SubAssign%3C%26f64%3E-for-f64)
+
+1.8.0 (const: [unstable](https://github.com/rust-lang/rust/issues/143802 "Tracking issue for const_ops")) · [Source](https://doc.rust-lang.org/src/core/ops/arith.rs.html#871)[§](#impl-SubAssign-for-f64)
+
+1.12.0 · [Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#impl-Sum%3C%26f64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#method.sum-1)
+
+Takes an iterator and generates `Self` from the elements by “summing up” the items.
+
+1.12.0 · [Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#impl-Sum-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/iter/traits/accum.rs.html#206)[§](#method.sum)
+
+Takes an iterator and generates `Self` from the elements by “summing up” the items.
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/core/fmt/float.rs.html#240)[§](#impl-UpperExp-for-f64)
+
+1.0.0 · [Source](https://doc.rust-lang.org/src/core/marker.rs.html#474-484)[§](#impl-Copy-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Ci128%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Ci16%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Ci32%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Ci64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Ci8%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cisize%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cu128%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cu16%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cu32%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cu64%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cu8%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/convert/num.rs.html#39)[§](#impl-FloatToInt%3Cusize%3E-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/portable-simd/crates/core_simd/src/cast.rs.html#51)[§](#impl-SimdCast-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/clone.rs.html#339-344)[§](#impl-UseCloned-for-f64)
+
+[Source](https://doc.rust-lang.org/src/core/ffi/va_list.rs.html#312)[§](#impl-VaArgSafe-for-f64)
+
+[§](#impl-Freeze-for-f64)
+
+[§](#impl-RefUnwindSafe-for-f64)
+
+[§](#impl-Send-for-f64)
+
+[§](#impl-Sync-for-f64)
+
+[§](#impl-Unpin-for-f64)
+
+[§](#impl-UnsafeUnpin-for-f64)
+
+[§](#impl-UnwindSafe-for-f64)

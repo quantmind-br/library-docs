@@ -1,0 +1,247 @@
+{
+  "generated_at": "2026-05-05T14:08:27.531480415-03:00",
+  "source_url": "https://github.com/theroyallab/tabbyAPI",
+  "strategy": "git",
+  "total_documents": 11,
+  "documents": [
+    {
+      "file_path": "001-docs-home.md",
+      "title": "Home",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/Home.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:22.873049376-03:00",
+      "summary": "This document serves as the central documentation portal for TabbyAPI, providing links to installation, developer usage, and troubleshooting resources.",
+      "tags": [
+        "tabbyapi",
+        "documentation-portal",
+        "project-wiki",
+        "getting-started",
+        "developer-resources"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-Home.md",
+      "optimized": true,
+      "word_count": 45
+    },
+    {
+      "file_path": "002-docs-01.-getting-started.md",
+      "title": "01. Getting Started",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/01.-Getting-Started.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:19.583277185-03:00",
+      "summary": "This document provides comprehensive instructions for installing, configuring, updating, and managing the TabbyAPI software, including model downloading and environment setup for various user skill levels.",
+      "tags": [
+        "installation",
+        "setup",
+        "configuration",
+        "ai-api",
+        "python",
+        "model-management",
+        "gpu-acceleration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-01.-Getting-Started.md",
+      "optimized": true,
+      "word_count": 914
+    },
+    {
+      "file_path": "003-docs-03.-usage.md",
+      "title": "03. Usage",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/03.-Usage.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:19.583261696-03:00",
+      "summary": "This document provides an overview of the TabbyAPI server, detailing its API compatibility, authentication procedures, and methods for managing model loading and configuration.",
+      "tags": [
+        "api-server",
+        "exllamav2",
+        "model-loading",
+        "authentication",
+        "configuration",
+        "llm-inference"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-03.-Usage.md",
+      "optimized": true,
+      "word_count": 430
+    },
+    {
+      "file_path": "004-docs-06.-sharing.md",
+      "title": "06. Sharing",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/06.-Sharing.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:21.370583955-03:00",
+      "summary": "This document outlines various methods for exposing a local TabbyAPI instance to external users or remote devices without requiring a custom domain or complex reverse proxy setup.",
+      "tags": [
+        "local-hosting",
+        "remote-access",
+        "ngrok",
+        "cloudflared",
+        "tailscale",
+        "tunneling",
+        "networking"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-06.-Sharing.md",
+      "optimized": true,
+      "word_count": 216
+    },
+    {
+      "file_path": "005-docs-07.-ai-horde.md",
+      "title": "07. AI Horde",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/07.-AI-Horde.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:21.403820696-03:00",
+      "summary": "This document provides instructions for configuring TabbyAPI to function as a backend for the AI Horde crowdsourced compute pool and setting up the required worker interface.",
+      "tags": [
+        "ai-horde",
+        "tabbyapi",
+        "llm-serving",
+        "crowdsourced-compute",
+        "koboldai-api",
+        "worker-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-07.-AI-Horde.md",
+      "optimized": true,
+      "word_count": 192
+    },
+    {
+      "file_path": "006-docs-02.-server-options.md",
+      "title": "02. Server options",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/02.-Server-options.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:19.583180572-03:00",
+      "summary": "This document outlines the configuration options available for TabbyAPI, explaining how to manage settings through the config.yml file and CLI arguments to control server, logging, model, and developer parameters.",
+      "tags": [
+        "configuration",
+        "tabbyapi",
+        "server-settings",
+        "cli-arguments",
+        "model-loading",
+        "logging-options"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-02.-Server-options.md",
+      "optimized": true,
+      "word_count": 1116
+    },
+    {
+      "file_path": "007-docs-04.-chat-completions.md",
+      "title": "04. Chat Completions",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/04.-Chat-Completions.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:19.583324384-03:00",
+      "summary": "This document explains how to configure and customize chat completion templates using HuggingFace jinja2 standards and custom template variables within TabbyAPI.",
+      "tags": [
+        "chat-completions",
+        "jinja2-templates",
+        "tabbyapi",
+        "llm-configuration",
+        "prompt-engineering",
+        "huggingface-templates"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-04.-Chat-Completions.md",
+      "optimized": true,
+      "word_count": 169
+    },
+    {
+      "file_path": "008-docs-08.-sampler-overrides.md",
+      "title": "08. Sampler Overrides",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/08.-Sampler-Overrides.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:21.437921207-03:00",
+      "summary": "This document explains how to configure sampler overrides in tabbyAPI to set default values, force specific parameters, or append values to client requests.",
+      "tags": [
+        "sampler-overrides",
+        "tabbyapi",
+        "configuration",
+        "sampling-parameters",
+        "preset-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-08.-Sampler-Overrides.md",
+      "optimized": true,
+      "word_count": 142
+    },
+    {
+      "file_path": "009-docs-10.-tool-calling.md",
+      "title": "10. Tool Calling",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/10.-Tool-Calling.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:21.574444032-03:00",
+      "summary": "This document outlines how to configure and enable tool-calling capabilities in TabbyAPI, including model-specific formats and client-side integration adjustments.",
+      "tags": [
+        "tabbyapi",
+        "tool-calling",
+        "llm-configuration",
+        "model-formats",
+        "api-integration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-10.-Tool-Calling.md",
+      "optimized": true,
+      "word_count": 224
+    },
+    {
+      "file_path": "010-docs-05.-faq.md",
+      "title": "05. FAQ",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/05.-FAQ.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:19.583294207-03:00",
+      "summary": "This document provides frequently asked questions regarding TabbyAPI, covering platform support, usage guidance, model compatibility, and troubleshooting steps for installation errors.",
+      "tags": [
+        "api-faq",
+        "exllamav2",
+        "model-inference",
+        "troubleshooting",
+        "installation-guide"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-05.-FAQ.md",
+      "optimized": true,
+      "word_count": 142
+    },
+    {
+      "file_path": "011-docs-09.-community-projects.md",
+      "title": "09. Community Projects",
+      "url": "https://github.com/theroyallab/tabbyAPI/blob/main/docs/09.-Community-Projects.md",
+      "source": "git",
+      "fetched_at": "2026-05-05T14:08:21.439171138-03:00",
+      "summary": "This document provides a directory of third-party community projects and frontends that integrate with and support the TabbyAPI backend.",
+      "tags": [
+        "community-projects",
+        "integration",
+        "frontend",
+        "tabbyapi",
+        "llm-tools"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-09.-Community-Projects.md",
+      "optimized": true,
+      "word_count": 131
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-05-05T17:11:27.016528+00:00",
+    "total_files": 11,
+    "categories": [
+      "Introduction & Overview",
+      "Quick Start & Installation",
+      "Tutorials & Guides",
+      "Configuration",
+      "Troubleshooting",
+      "Resources & Ecosystem"
+    ],
+    "dropped": []
+  },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-05-05T17:29:38.239934+00:00",
+    "files_optimized": 11,
+    "files_deleted": 0,
+    "deleted_files": []
+  }
+}

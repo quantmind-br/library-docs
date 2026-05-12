@@ -1,0 +1,132 @@
+---
+title: Installation | Dank Linux
+url: https://danklinux.com/docs/danksearch/installation
+source: sitemap
+fetched_at: 2026-04-26T08:39:25.447337288-03:00
+rendered_js: false
+word_count: 200
+summary: This document provides instructions for installing and setting up the dsearch utility across various operating systems, including NixOS, Linux distributions, and from source code.
+tags:
+    - installation
+    - setup
+    - dsearch
+    - linux
+    - nixos
+    - cli-tool
+    - systemd
+category: guide
+optimized: true
+optimized_at: 2026-04-26T12:00:00Z
+---
+
+Version: 1.4
+
+```
+██████╗ ███████╗███████╗ █████╗ ██████╗  ██████╗██╗  ██╗
+██╔══██╗██╔════╝██╔════╝██╔══██╗██╔══██╗██╔════╝██║  ██║
+██║  ██║███████╗█████╗  ███████║██████╔╝██║     ███████║
+██║  ██║╚════██║██╔══╝  ██╔══██║██╔══██╗██║     ██╔══██║
+██████╔╝███████║███████╗██║  ██║██║  ██║╚██████╗██║  ██║
+╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
+
+```
+
+`dsearch` has zero dependencies and compiles to a single static binary.
+
+> [!tip]
+> NixOS users should use the dedicated [[024-docs-danksearch-nixos-flake|NixOS Installation guides]] for declarative installation with flakes or native nixpkgs modules.
+
+## Installation Methods
+
+Choose the installation method that best fits your system.
+
+### NixOS
+
+For NixOS users, we recommend using the declarative installation methods:
+
+- [[024-docs-danksearch-nixos-flake|Flake Installation (home-manager)]] - Recommended for most users, provides per-user installation with home-manager
+- [[025-docs-danksearch-nixos|NixOS Module]] - System-wide installation using native nixpkgs (when available)
+
+### Distribution Packages
+
+#### Arch Linux (AUR)
+
+```bash
+paru -S dsearch-bin
+# Development version
+paru -S dsearch-git
+```
+
+#### Fedora
+
+```bash
+sudo dnf copr enable avengemedia/danklinux
+sudo dnf install dsearch
+```
+
+Distribution packages include the systemd user service. Enable it for automatic index updates:
+
+```bash
+systemctl --user enable --now dsearch
+```
+
+### Pre-built Binaries
+
+Download the latest release for your architecture:
+
+```bash
+# Download and install
+wget https://github.com/AvengeMedia/danksearch/releases/latest/download/dsearch-linux-amd64.gz
+gunzip dsearch-linux-amd64.gz
+chmod +x dsearch-linux-amd64
+sudo mv dsearch-linux-amd64 /usr/local/bin/dsearch
+```
+
+Install and enable the systemd user service for automatic index updates:
+
+```bash
+mkdir -p ~/.config/systemd/user
+wget https://raw.githubusercontent.com/AvengeMedia/danksearch/refs/heads/master/assets/dsearch.service -O ~/.config/systemd/user/dsearch.service
+systemctl --user enable --now dsearch
+```
+
+The service runs the API server with file watching, automatically updating the index when files change.
+
+### From Source
+
+Requirements: Go 1.24+
+
+```bash
+git clone https://github.com/AvengeMedia/danksearch
+cd danksearch
+make
+sudo make install
+make install-service
+systemctl --user enable --now dsearch
+```
+
+## Verification
+
+Test the installation:
+
+```bash
+# Check version
+dsearch version
+# Build initial index
+dsearch index generate
+```
+
+## System Requirements
+
+- **Operating System**: Unix-based (Linux, MacOS, BSD)
+- **Go Version**: 1.24+ (for building from source)
+
+## Integration with DMS
+
+> [!tip]
+> DankMaterialShell users can initiate filesystem search by typing `/` in the launcher when dsearch is installed.
+
+## Next Steps
+
+- [[065-docs-danksearch-configuration|Configuration]] - Configure dsearch
+- [[026-docs-danksearch-usage|Usage]] - Learn CLI commands and API usage

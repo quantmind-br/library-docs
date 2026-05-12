@@ -1,0 +1,59 @@
+{
+  "generated_at": "2026-05-06T21:07:04.232699506-03:00",
+  "source_url": "https://doc.rust-lang.org/sitemap.txt",
+  "strategy": "sitemap",
+  "total_documents": 3,
+  "documents": [
+    {
+      "file_path": "stable.md",
+      "title": "Rust Documentation",
+      "url": "https://doc.rust-lang.org/stable/",
+      "source": "sitemap",
+      "fetched_at": "2026-05-06T21:07:02.061599779-03:00",
+      "summary": "This document provides a comprehensive directory of official and community-managed learning resources, manuals, and technical references for the Rust programming language and its ecosystem.",
+      "tags": [
+        "rust-programming",
+        "documentation-resources",
+        "language-reference",
+        "cargo-tooling",
+        "compiler-guide",
+        "developer-tools"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "nightly.md",
+      "title": "Rust Documentation",
+      "url": "https://doc.rust-lang.org/nightly/",
+      "source": "sitemap",
+      "fetched_at": "2026-05-06T21:07:02.466213744-03:00",
+      "summary": "This document provides a comprehensive directory of the official Rust documentation ecosystem, including language learning materials, toolchain references, and specialized guides.",
+      "tags": [
+        "rust-programming",
+        "language-reference",
+        "developer-tools",
+        "documentation-resources",
+        "programming-tutorials",
+        "rust-ecosystem"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "beta.md",
+      "title": "Rust Documentation",
+      "url": "https://doc.rust-lang.org/beta/",
+      "source": "sitemap",
+      "fetched_at": "2026-05-06T21:07:02.473094845-03:00",
+      "summary": "This document serves as a central directory for the Rust programming language's official learning resources, tools, and technical documentation.",
+      "tags": [
+        "rust",
+        "programming-language",
+        "documentation",
+        "developer-tools",
+        "software-development",
+        "technical-reference"
+      ],
+      "category": "guide"
+    }
+  ]
+}

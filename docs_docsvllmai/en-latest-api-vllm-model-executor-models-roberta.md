@@ -1,0 +1,294 @@
+---
+title: roberta - vLLM
+url: https://docs.vllm.ai/en/latest/api/vllm/model_executor/models/roberta/
+source: sitemap
+fetched_at: 2026-05-07T21:33:12.149037917-03:00
+rendered_js: false
+word_count: 139
+summary: This document provides the API reference for RoBERTa-based embedding and sequence classification models within the vLLM framework, including specialized implementations like BgeM3.
+tags:
+    - roberta
+    - embedding-models
+    - vllm
+    - sequence-classification
+    - model-architecture
+    - machine-learning
+category: reference
+---
+
+## BgeM3EmbeddingModel [¶](#vllm.model_executor.models.roberta.BgeM3EmbeddingModel "Permanent link")
+
+Bases: `RobertaEmbeddingModel`
+
+A model that extends RobertaEmbeddingModel with sparse embeddings.
+
+This class supports loading an additional sparse\_linear.pt file to create sparse embeddings as described in https://arxiv.org/abs/2402.03216
+
+Source code in `vllm/model_executor/models/roberta.py`
+
+```
+classBgeM3EmbeddingModel(RobertaEmbeddingModel):
+"""A model that extends RobertaEmbeddingModel with sparse embeddings.
+
+    This class supports loading an additional sparse_linear.pt file
+    to create sparse embeddings as described in https://arxiv.org/abs/2402.03216
+    """
+
+    def__init__(self, *, vllm_config: VllmConfig, prefix: str = ""):
+        self.hidden_size = vllm_config.model_config.hf_config.hidden_size
+
+        model_config = vllm_config.model_config
+        self.head_dtype = model_config.head_dtype
+        self.bos_token_id = model_config.hf_config.bos_token_id
+        self.eos_token_id = model_config.hf_config.eos_token_id
+
+        super().__init__(vllm_config=vllm_config, prefix=prefix)
+        self.secondary_weight_prefixes = ["sparse_linear.", "colbert_linear."]
+        self.secondary_weight_files = [
+            prefix + "pt" for prefix in self.secondary_weight_prefixes
+        ]
+
+        self.secondary_weights = [
+            DefaultModelLoader.Source(
+                model_or_path=vllm_config.model_config.model,
+                revision=None,
+                prefix=prefix,
+                allow_patterns_overrides=[filename],
+            )
+            for filename, prefix in zip(
+                self.secondary_weight_files, self.secondary_weight_prefixes
+            )
+        ]
+
+    def_build_pooler(self, pooler_config: PoolerConfig) -> Pooler:
+        self.sparse_linear = nn.Linear(self.hidden_size, 1, dtype=self.head_dtype)
+        self.colbert_linear = nn.Linear(
+            self.hidden_size, self.hidden_size, dtype=self.head_dtype
+        )
+        embed_pooler = pooler_for_embed(pooler_config)
+        token_classify_pooler = BOSEOSFilter(
+            pooler_for_token_classify(
+                pooler_config,
+                pooling=AllPool(),
+                classifier=self.sparse_linear,
+                act_fn=torch.relu,
+            ),
+            self.bos_token_id,
+            self.eos_token_id,
+        )
+
+        return DispatchPooler(
+            {
+                "embed": embed_pooler,
+                "token_embed": BOSEOSFilter(
+                    pooler_for_token_embed(pooler_config, self.colbert_linear),
+                    self.bos_token_id,
+                    # for some reason m3 only filters the bos for colbert vectors
+                ),
+                "token_classify": token_classify_pooler,
+                "embed&token_classify": BgeM3Pooler(
+                    token_classify_pooler, embed_pooler
+                ),
+            }
+        )
+
+    defload_weights(self, all_weights: Iterable[tuple[str, torch.Tensor]]):
+        secondary, weights = filter_secondary_weights(
+            all_weights, self.secondary_weight_prefixes
+        )
+
+        super().load_weights(weights)
+
+        params_dict = dict(self.named_parameters())
+
+        for name, loaded_weight in secondary:
+            if any(
+                name.startswith(prefix) for prefix in self.secondary_weight_prefixes
+            ):
+                param = params_dict[name]
+                weight_loader = getattr(param, "weight_loader", default_weight_loader)
+                weight_loader(param, loaded_weight)
+```
+
+## RobertaClassificationHead [¶](#vllm.model_executor.models.roberta.RobertaClassificationHead "Permanent link")
+
+Bases: `Module`
+
+Head for sentence-level classification tasks.
+
+Source code in `vllm/model_executor/models/roberta.py`
+
+```
+classRobertaClassificationHead(nn.Module):
+"""Head for sentence-level classification tasks."""
+
+    def__init__(self, model_config: "ModelConfig"):
+        super().__init__()
+        config = model_config.hf_config
+        head_dtype = model_config.head_dtype
+        self.dense = nn.Linear(config.hidden_size, config.hidden_size, dtype=head_dtype)
+        self.out_proj = nn.Linear(
+            config.hidden_size, config.num_labels, dtype=head_dtype
+        )
+
+    defforward(self, x: torch.Tensor) -> torch.Tensor:
+        # Token extraction has already been applied in `pooler.pooling`
+        x = self.dense(x)
+        x = torch.tanh(x)
+        x = self.out_proj(x)
+        return x
+```
+
+## RobertaEmbeddingModel [¶](#vllm.model_executor.models.roberta.RobertaEmbeddingModel "Permanent link")
+
+Bases: `BertEmbeddingModel`
+
+A model that uses Roberta to provide embedding functionalities.
+
+Source code in `vllm/model_executor/models/roberta.py`
+
+```
+@default_pooling_type(seq_pooling_type="CLS")
+classRobertaEmbeddingModel(BertEmbeddingModel):
+"""A model that uses Roberta to provide embedding functionalities."""
+
+    def__init__(self, *, vllm_config: VllmConfig, prefix: str = ""):
+        super().__init__(vllm_config=vllm_config, prefix=prefix)
+        self.padding_idx: int = vllm_config.model_config.hf_config.pad_token_id
+
+    defforward(
+        self,
+        input_ids: torch.Tensor,
+        positions: torch.Tensor,
+        intermediate_tensors: IntermediateTensors | None = None,
+        inputs_embeds: torch.Tensor | None = None,
+    ) -> torch.Tensor:
+        return self.model(
+            input_ids=input_ids,
+            positions=positions,
+            inputs_embeds=inputs_embeds,
+            intermediate_tensors=intermediate_tensors,
+        )
+
+    def_build_model(
+        self, vllm_config: VllmConfig, prefix: str = ""
+    ) -> BertModel | BertWithRope:
+        hf_config = vllm_config.model_config.hf_config
+        kwargs = dict(vllm_config=vllm_config, prefix=prefix)
+        if getattr(hf_config, "position_embedding_type", "absolute") == "absolute":
+            return BertModel(**kwargs, embedding_class=RobertaEmbedding)
+        else:
+            return JinaRobertaModel(**kwargs)
+
+    defload_weights(self, weights: Iterable[tuple[str, torch.Tensor]]):
+        weights_list = list(weights)
+        has_roberta_prefix = any(
+            name.startswith("roberta.") for name, _ in weights_list
+        )
+        if has_roberta_prefix:
+            # For models with the `roberta.` prefix e.g.
+            # `FacebookAI/roberta-base`
+            mapper = WeightsMapper(orig_to_new_prefix={"roberta.": "model."})
+        else:
+            # For models without the `roberta.` prefix e.g.
+            # `sentence-transformers/stsb-roberta-base-v2`
+            mapper = WeightsMapper(orig_to_new_prefix={"": "model."})
+
+        loader = AutoWeightsLoader(self, skip_prefixes=["lm_head."])
+        return loader.load_weights(weights_list, mapper=mapper)
+```
+
+## RobertaForSequenceClassification [¶](#vllm.model_executor.models.roberta.RobertaForSequenceClassification "Permanent link")
+
+Bases: `Module`, `SupportsCrossEncoding`
+
+A model that uses Roberta to provide embedding functionalities.
+
+This class encapsulates the BertModel and provides an interface for embedding operations and customized pooling functions.
+
+Attributes:
+
+Name Type Description `roberta`
+
+An instance of BertModel used for forward operations.
+
+`_pooler`
+
+An instance of Pooler used for pooling operations.
+
+Source code in `vllm/model_executor/models/roberta.py`
+
+```
+@default_pooling_type(seq_pooling_type="CLS")
+classRobertaForSequenceClassification(nn.Module, SupportsCrossEncoding):
+"""A model that uses Roberta to provide embedding functionalities.
+
+    This class encapsulates the BertModel and provides an interface for
+    embedding operations and customized pooling functions.
+
+    Attributes:
+        roberta: An instance of BertModel used for forward operations.
+        _pooler: An instance of Pooler used for pooling operations.
+    """
+
+    is_pooling_model = True
+    jina_to_vllm_mapper = WeightsMapper(
+        orig_to_new_substr={
+            "emb_ln": "embeddings.LayerNorm",
+            "layers": "layer",
+            "mixer.Wqkv": "attention.self.qkv_proj",
+            "mixer.out_proj": "attention.output.dense",
+            "norm1": "attention.output.LayerNorm",
+            "mlp.fc1": "intermediate.dense",
+            "mlp.fc2": "output.dense",
+            "norm2": "output.LayerNorm",
+        }
+    )
+
+    def__init__(self, *, vllm_config: VllmConfig, prefix: str = ""):
+        super().__init__()
+        config = vllm_config.model_config.hf_config
+        self.padding_idx: int = vllm_config.model_config.hf_config.pad_token_id
+
+        self.num_labels = config.num_labels
+        self.roberta = BertModel(
+            vllm_config=vllm_config,
+            prefix=maybe_prefix(prefix, "bert"),
+            embedding_class=RobertaEmbedding,
+        )
+        self.classifier = RobertaClassificationHead(vllm_config.model_config)
+
+        pooler_config = vllm_config.model_config.pooler_config
+        assert pooler_config is not None
+
+        self.pooler = DispatchPooler.for_seq_cls(
+            pooler_config,
+            classifier=self.classifier,
+        )
+
+    defload_weights(self, weights: Iterable[tuple[str, torch.Tensor]]):
+        loader = AutoWeightsLoader(self)
+        return loader.load_weights(weights, mapper=self.jina_to_vllm_mapper)
+
+    defembed_input_ids(self, input_ids: torch.Tensor) -> torch.Tensor:
+        return self.roberta.embed_input_ids(input_ids)
+
+    defforward(
+        self,
+        input_ids: torch.Tensor | None,
+        positions: torch.Tensor,
+        intermediate_tensors: IntermediateTensors | None = None,
+        inputs_embeds: torch.Tensor | None = None,
+        token_type_ids: torch.Tensor | None = None,
+    ) -> torch.Tensor:
+        if token_type_ids is not None:
+            assert self.roberta.config.vocab_size < (1 << TOKEN_TYPE_SHIFT)
+            assert input_ids is not None
+            _encode_token_type_ids(input_ids, token_type_ids)
+        return self.roberta(
+            input_ids=input_ids,
+            positions=positions,
+            inputs_embeds=inputs_embeds,
+            intermediate_tensors=intermediate_tensors,
+        )
+```

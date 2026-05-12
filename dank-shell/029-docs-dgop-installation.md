@@ -1,0 +1,100 @@
+---
+title: Installation | Dank Linux
+url: https://danklinux.com/docs/dgop/installation
+source: sitemap
+fetched_at: 2026-04-26T08:39:38.729962373-03:00
+rendered_js: false
+word_count: 99
+summary: This document provides installation instructions, system requirements, and verification steps for the dgop command-line tool, which provides system monitoring and API functionality.
+tags:
+    - cli-tool
+    - system-monitoring
+    - linux-utilities
+    - binary-installation
+    - software-deployment
+category: guide
+optimized: true
+optimized_at: 2026-04-26T12:00:00Z
+---
+
+```
+██████╗  ██████╗  ██████╗ ██████╗
+██╔══██╗██╔════╝ ██╔═══██╗██╔══██╗
+██║  ██║██║  ███╗██║   ██║██████╔╝
+██║  ██║██║   ██║██║   ██║██╔═══╝
+██████╔╝╚██████╔╝╚██████╔╝██║
+╚═════╝  ╚═════╝  ╚═════╝ ╚═╝
+
+```
+
+`dgop` has zero dependencies and compiles to a single static binary.
+
+### Distribution Packages
+
+#### Arch Linux
+
+#### Fedora
+
+```bash
+sudo dnf copr enable avengemedia/danklinux
+sudo dnf install dgop
+```
+
+### Pre-built Binaries
+
+Download the latest release for your architecture:
+
+```bash
+# Download and install
+wget https://github.com/AvengeMedia/dgop/releases/latest/download/dgop-linux-amd64.gz
+gunzip dgop-linux-amd64.gz
+chmod +x dgop-linux-amd64
+sudo mv dgop-linux-amd64 /usr/local/bin/dgop
+```
+
+### From Source
+
+Requirements: Go 1.24+
+
+```bash
+git clone https://github.com/AvengeMedia/dgop
+cd dgop
+make
+sudo make install
+```
+
+## Verification
+
+Test the installation:
+
+```bash
+# Check version
+dgop version
+# Get system metrics
+dgop system
+# Run API server
+dgop server
+# See available commands
+dgop --help
+```
+
+## System Requirements
+
+- **Operating System**: Linux (uses `/proc` and `/sys` filesystems)
+- **Go Version**: 1.24+ (for building from source)
+
+### Optional Dependencies
+
+For enhanced functionality:
+
+- `nvidia-smi` - NVIDIA GPU monitoring
+
+## Integration with DMS
+
+> [!tip]
+> DankMaterialShell users gain access to system widgets (CPU, RAM, GPU, Disk, Network) and process monitoring when dgop is installed.
+
+## Next Steps
+
+- [[066-docs-dgop-configuration|Configuration]] - Configure dgop
+- [[030-docs-dgop-usage|Usage]] - Learn CLI commands and API usage

@@ -1,0 +1,2154 @@
+{
+  "generated_at": "2026-04-26T08:39:55.482238096-03:00",
+  "source_url": "https://danklinux.com/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 99,
+  "documents": [
+    {
+      "file_path": "047-blog.md",
+      "title": "Dank Linux Blog | Dank Linux",
+      "url": "https://danklinux.com/blog",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:00.616136539-03:00",
+      "description": "News, releases, and updates from the Dank Linux project.",
+      "summary": "This document provides an overview of the DankMaterialShell (DMS) desktop environment project, highlighting its evolution, core plugin ecosystem, and compatibility with various Wayland compositors.",
+      "tags": [
+        "desktop-shell",
+        "wayland-compositor",
+        "plugin-system",
+        "linux-desktop",
+        "software-release"
+      ],
+      "category": "concept",
+      "original_file_path": "blog.md"
+    },
+    {
+      "file_path": "040-blog-desktop-widgets-1-2.md",
+      "title": "New Desktop Widgets & Plugins Coming in DMS 1.2",
+      "url": "https://danklinux.com/blog/desktop-widgets-1-2",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:00.452301245-03:00",
+      "description": "A sneak peek at desktop widgets landing in DMS 1.2 - and why you should build one.",
+      "summary": "This document introduces Desktop Widgets for the Dank Material Shell (DMS) 1.2 release and provides a technical walkthrough for developers on how to create, configure, and install custom desktop plugins.",
+      "tags": [
+        "dms",
+        "desktop-widgets",
+        "plugin-development",
+        "qml-development",
+        "custom-ui",
+        "software-release"
+      ],
+      "category": "tutorial",
+      "original_file_path": "blog-desktop-widgets-1-2.md"
+    },
+    {
+      "file_path": "100-blog-tags-announcement.md",
+      "title": "4 posts tagged with \"Announcement\" | Dank Linux",
+      "url": "https://danklinux.com/blog/tags/announcement",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:02.267651765-03:00",
+      "description": "Project announcements and news",
+      "summary": "This document provides a historical overview of DankMaterialShell (DMS) release notes, highlighting key feature additions and the evolution of its plugin architecture.",
+      "tags": [
+        "dms",
+        "wayland",
+        "desktop-shell",
+        "release-notes",
+        "plugin-system",
+        "software-history"
+      ],
+      "category": "other",
+      "original_file_path": "blog-tags-announcement.md"
+    },
+    {
+      "file_path": "101-blog-tags-release.md",
+      "title": "3 posts tagged with \"Release\" | Dank Linux",
+      "url": "https://danklinux.com/blog/tags/release",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:02.488612272-03:00",
+      "description": "Major version releases and updates",
+      "summary": "This document provides a version history and project overview for DankMaterialShell (DMS), a desktop shell built for Wayland compositors using Quickshell and Go.",
+      "tags": [
+        "desktop-shell",
+        "wayland",
+        "dms",
+        "software-release",
+        "linux-desktop",
+        "open-source"
+      ],
+      "category": "other",
+      "original_file_path": "blog-tags-release.md"
+    },
+    {
+      "file_path": "090-blog-v1-release.md",
+      "title": "DMS 1.0 \"The Dark Knight\" Released",
+      "url": "https://danklinux.com/blog/v1-release",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:04.060164744-03:00",
+      "description": "DMS 1.0 is here! Read about the first major release of DankMaterialShell!",
+      "summary": "This document announces the 1.0 release of DankMaterialShell (DMS), a Wayland desktop shell, highlighting its new features such as customizable bars, integrated tools, and expanded package support across major Linux distributions.",
+      "tags": [
+        "wayland",
+        "desktop-shell",
+        "linux",
+        "quickshell",
+        "software-release",
+        "dms"
+      ],
+      "category": "other",
+      "original_file_path": "blog-v1-release.md"
+    },
+    {
+      "file_path": "088-blog-v1-4-release.md",
+      "title": "DMS 1.4 \"Saffron Bloom\" Released",
+      "url": "https://danklinux.com/blog/v1-4-release",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:09.742517794-03:00",
+      "description": "The third major release of DMS",
+      "summary": "This document details the features and improvements introduced in DankMaterialShell version 1.4, including a new launcher, enhanced plugin support via DBus, system monitoring, and refined desktop management tools.",
+      "tags": [
+        "release-notes",
+        "linux-desktop",
+        "software-update",
+        "plugin-system",
+        "ui-customization",
+        "system-utilities"
+      ],
+      "category": "other",
+      "original_file_path": "blog-v1-4-release.md"
+    },
+    {
+      "file_path": "096-docs-1.2-dankgreeter.md",
+      "title": "DankGreeter | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankgreeter/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:13.550249871-03:00",
+      "description": "Dank greeter for greetd",
+      "summary": "dms-greeter is a greeter implementation for the greetd display manager, designed to provide a consistent visual style with the DankMaterialShell lock screen.",
+      "tags": [
+        "greeter",
+        "greetd",
+        "dank-material-shell",
+        "linux-desktop",
+        "display-manager"
+      ],
+      "category": "other",
+      "original_file_path": "docs-1.2-dankgreeter.md"
+    },
+    {
+      "file_path": "033-docs-1.2-dankgreeter-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankgreeter/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:17.557727272-03:00",
+      "description": "Install DankGreeter display manager",
+      "summary": "This document provides instructions for installing and configuring the DMS (DankMaterialShell) greeter across various Linux distributions, including automated setup commands and manual configuration steps.",
+      "tags": [
+        "linux",
+        "installation",
+        "greeter",
+        "display-manager",
+        "dms-greeter",
+        "system-configuration",
+        "greetd"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankgreeter-installation.md"
+    },
+    {
+      "file_path": "034-docs-1.2-dankinstall.md",
+      "title": "DankInstall | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankinstall",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:23.633717563-03:00",
+      "description": "Interactive installer for the full Dank Linux suite",
+      "summary": "This document provides an installation guide and overview for DankMaterialShell, a desktop environment for Linux that includes automated configuration for compositors, terminal emulators, and desktop utilities.",
+      "tags": [
+        "linux",
+        "desktop-environment",
+        "hyprland",
+        "niri",
+        "shell-customization",
+        "automation",
+        "wayland"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankinstall.md"
+    },
+    {
+      "file_path": "039-docs-1.2-danklinux.md",
+      "title": "DankLinux Repository | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/danklinux/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:25.755432605-03:00",
+      "description": "Pre-built packages for Fedora, CentOS, Debian, Ubuntu, and OpenSUSE",
+      "summary": "This document provides an overview and installation instructions for the DankLinux repository, which offers pre-built packages for the DankMaterialShell, niri compositor, and various desktop utilities across multiple Linux distributions.",
+      "tags": [
+        "linux",
+        "danklinux",
+        "package-repository",
+        "wayland",
+        "niri",
+        "desktop-shell",
+        "linux-installation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-danklinux.md"
+    },
+    {
+      "file_path": "058-docs-1.2-dankmaterialshell-advanced-configuration.md",
+      "title": "Advanced Configuration | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/advanced-configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:27.738804555-03:00",
+      "description": "Advanced settings and customization options",
+      "summary": "This document lists the available environment variables for configuring DankMaterialShell, covering system integration, display rendering, and print server settings.",
+      "tags": [
+        "dankmaterialshell",
+        "environment-variables",
+        "configuration",
+        "wayland",
+        "linux-desktop",
+        "system-tuning"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-advanced-configuration.md"
+    },
+    {
+      "file_path": "089-blog-v1-2-release.md",
+      "title": "DMS 1.2 \"Spicy Miso\" Released",
+      "url": "https://danklinux.com/blog/v1-2-release",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:03.39641168-03:00",
+      "description": "The second major release of DMS",
+      "summary": "This document outlines the major new features and improvements introduced in DankMaterialShell (DMS) version 1.2, including desktop widgets, theme management, clipboard history, and expanded compositor support.",
+      "tags": [
+        "dms",
+        "linux",
+        "desktop-environment",
+        "wayland",
+        "release-notes",
+        "software-update"
+      ],
+      "category": "other",
+      "original_file_path": "blog-v1-2-release.md"
+    },
+    {
+      "file_path": "095-docs-1.2-contributing.md",
+      "title": "Contributing | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/contributing",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:09.528385236-03:00",
+      "description": "Contribute to Dank Linux development",
+      "summary": "This document outlines the contribution guidelines, communication expectations, and licensing terms for projects within the Dank Linux ecosystem.",
+      "tags": [
+        "contribution-guidelines",
+        "open-source",
+        "mit-license",
+        "community-standards",
+        "project-governance"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-contributing.md"
+    },
+    {
+      "file_path": "072-docs-1.2-dankmaterialshell-cli-color-picker.md",
+      "title": "Color Picker | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-color-picker",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:37.525717024-03:00",
+      "description": "Pick colors from anywhere on your Wayland screen with multiple output formats",
+      "summary": "This document describes the dms color pick command, a Wayland-based utility for capturing pixel colors with support for custom output formatting.",
+      "tags": [
+        "wayland",
+        "color-picker",
+        "cli-tool",
+        "color-formats",
+        "pixel-capture",
+        "linux-utility"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-color-picker.md"
+    },
+    {
+      "file_path": "071-docs-1.2-dankmaterialshell-cli-clipboard.md",
+      "title": "Clipboard Manager | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-clipboard",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:35.712334068-03:00",
+      "description": "Wayland clipboard manager with history, search, and persistence",
+      "summary": "This document serves as a command-line reference for the dms cl clipboard manager, detailing its usage for Wayland clipboard operations, history management, and configuration.",
+      "tags": [
+        "wayland",
+        "clipboard-manager",
+        "command-line-interface",
+        "dms-cl",
+        "ipc",
+        "history-management",
+        "configuration-file"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-clipboard.md"
+    },
+    {
+      "file_path": "050-docs-1.2-dankmaterialshell-compositors.md",
+      "title": "Compositor Setup | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/compositors",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:49.457629161-03:00",
+      "description": "<Hero",
+      "summary": "This document provides technical configuration instructions for integrating DankMaterialShell (DMS) with various Wayland compositors, specifically niri and Hyprland.",
+      "tags": [
+        "wayland",
+        "niri",
+        "hyprland",
+        "linux-desktop",
+        "compositor-config",
+        "dankmaterialshell"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-compositors.md"
+    },
+    {
+      "file_path": "074-docs-1.2-dankmaterialshell-cli-screenshot.md",
+      "title": "Screenshot | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-screenshot",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:47.625716969-03:00",
+      "description": "Capture screenshots from Wayland displays with multiple modes and formats",
+      "summary": "This document describes the usage and options for the dms screenshot command, which is used to capture screen images on Wayland displays.",
+      "tags": [
+        "dms",
+        "screenshot",
+        "wayland",
+        "command-line",
+        "clipboard-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-screenshot.md"
+    },
+    {
+      "file_path": "006-docs-1.2-dankmaterialshell-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:55.648787608-03:00",
+      "description": "Install DankMaterialShell on your system",
+      "summary": "This document provides instructions for installing the DankMaterialShell (DMS) across various Linux distributions including Arch, Fedora, CentOS, Debian, and Ubuntu.",
+      "tags": [
+        "linux-installation",
+        "dankmaterialshell",
+        "desktop-shell",
+        "package-management",
+        "wayland",
+        "linux-distro"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-installation.md"
+    },
+    {
+      "file_path": "073-docs-1.2-dankmaterialshell-cli-doctor.md",
+      "title": "System Diagnostics (doctor) | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/cli-doctor",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:41.63069468-03:00",
+      "description": "Diagnose DMS installation, dependencies, and system configuration",
+      "summary": "This document explains the dms doctor command, which is used to verify the installation, dependencies, and system configuration of the Dank Material Shell.",
+      "tags": [
+        "dms",
+        "cli-tools",
+        "troubleshooting",
+        "system-diagnostics",
+        "configuration-check",
+        "linux-utilities"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-cli-doctor.md"
+    },
+    {
+      "file_path": "075-docs-1.2-dankmaterialshell-keybinds-ipc.md",
+      "title": "Keybinds & IPC | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/keybinds-ipc",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:57.817520683-03:00",
+      "description": "Comprehensive IPC functionality for external control of DankMaterialShell",
+      "summary": "This document provides a comprehensive reference for the DankMaterialShell IPC interface, detailing the command-line syntax and functions available for managing system hardware, desktop appearance, and media playback.",
+      "tags": [
+        "ipc",
+        "command-line",
+        "shell-configuration",
+        "system-control",
+        "dankmaterialshell",
+        "desktop-management"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.2-dankmaterialshell-keybinds-ipc.md"
+    },
+    {
+      "file_path": "059-docs-1.2-dankmaterialshell-layers.md",
+      "title": "Layer Namespaces | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/layers",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:35:59.609241491-03:00",
+      "description": "Layer namespaces DMS components",
+      "summary": "This document outlines how to apply compositor-specific layer rules to DMS UI components by utilizing their assigned Wayland namespaces for effects like blur, dimming, and animations.",
+      "tags": [
+        "wayland",
+        "compositor",
+        "layer-shell",
+        "hyprland",
+        "niri",
+        "ui-configuration",
+        "namespace"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-1.2-dankmaterialshell-layers.md"
+    },
+    {
+      "file_path": "008-docs-1.2-dankmaterialshell-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:03.669557431-03:00",
+      "description": "Install and configure DankMaterialShell on NixOS using native nixpkgs",
+      "summary": "This document provides instructions for installing and configuring the DankMaterialShell (DMS) using NixOS modules, including methods for handling flakes, plugins, and custom packages.",
+      "tags": [
+        "nixos",
+        "dankmaterialshell",
+        "linux-configuration",
+        "quickshell",
+        "flake",
+        "system-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-nixos.md"
+    },
+    {
+      "file_path": "043-docs-1.2-dankmaterialshell-overview.md",
+      "title": "Overview & Architecture | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:07.551290444-03:00",
+      "description": "Modern Wayland desktop shell",
+      "summary": "DankMaterialShell is a Wayland desktop shell that provides a unified interface for system management using a Go backend and a Quickshell-based UI.",
+      "tags": [
+        "wayland",
+        "desktop-shell",
+        "quickshell",
+        "linux-desktop",
+        "xdg-mime",
+        "client-server-architecture"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-1.2-dankmaterialshell-overview.md"
+    },
+    {
+      "file_path": "076-docs-1.2-danksearch.md",
+      "title": "DankSearch | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/danksearch/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:13.429257345-03:00",
+      "description": "Native file system search with fuzzy search capabilities",
+      "summary": "Dsearch is a file system search utility that provides both a command-line interface and a REST API for indexing and querying file data.",
+      "tags": [
+        "file-system",
+        "search-tool",
+        "cli",
+        "rest-api",
+        "indexing",
+        "dank-material-shell"
+      ],
+      "category": "api",
+      "original_file_path": "docs-1.2-danksearch.md"
+    },
+    {
+      "file_path": "007-docs-1.2-dankmaterialshell-managing.md",
+      "title": "Managing Your Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/managing",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:01.506356761-03:00",
+      "description": "Update, configure, and manage DankMaterialShell",
+      "summary": "This guide provides instructions for managing, configuring, updating, and troubleshooting the DankMaterialShell environment, covering systemd service integration, environment variable setup, and maintenance tasks.",
+      "tags": [
+        "dankmaterialshell",
+        "linux-desktop",
+        "systemd",
+        "wayland",
+        "service-management",
+        "environment-variables"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-managing.md"
+    },
+    {
+      "file_path": "022-docs-1.2-danksearch-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/danksearch/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:19.574226264-03:00",
+      "description": "Install and configure DankSearch on NixOS using native nixpkgs",
+      "summary": "This document provides instructions for installing and configuring the DankSearch application on NixOS using the native module system.",
+      "tags": [
+        "nixos",
+        "danksearch",
+        "linux-installation",
+        "system-configuration",
+        "nixpkgs",
+        "systemd-service"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-danksearch-nixos.md"
+    },
+    {
+      "file_path": "046-docs-1.2-dgop.md",
+      "title": "DGOP | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dgop/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:25.673577457-03:00",
+      "description": "Graphical power management tool for Wayland",
+      "summary": "dgop is a stateless system and process monitoring tool that provides a TUI, CLI, and REST API for sampling various hardware and software metrics.",
+      "tags": [
+        "system-monitoring",
+        "process-manager",
+        "tui-tool",
+        "rest-api",
+        "performance-metrics",
+        "linux-utilities"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-1.2-dgop.md"
+    },
+    {
+      "file_path": "028-docs-1.2-dgop-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dgop/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:29.542491405-03:00",
+      "description": "Install DGOP power menu",
+      "summary": "This document provides installation instructions and system requirements for dgop, a dependency-free command-line tool for system monitoring and API integration.",
+      "tags": [
+        "installation",
+        "linux",
+        "system-monitoring",
+        "cli-tool",
+        "dank-material-shell",
+        "go-development"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dgop-installation.md"
+    },
+    {
+      "file_path": "002-docs-1.2-getting-started.md",
+      "title": "Getting Started | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/getting-started",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:33.547437268-03:00",
+      "description": "Get started with Dank Linux installation and configuration",
+      "summary": "This document provides an overview of the installation and configuration process for the Dank Linux suite and its associated components.",
+      "tags": [
+        "linux-installation",
+        "dank-linux",
+        "system-configuration",
+        "package-management",
+        "desktop-compositors"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-getting-started.md"
+    },
+    {
+      "file_path": "097-docs-1.2-support.md",
+      "title": "Support | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/support",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:35.543295884-03:00",
+      "description": "Get help and support for Dank Linux",
+      "summary": "This document provides community guidelines for DankMaterialShell discussion channels and information on how to support the development of the Dank Linux project.",
+      "tags": [
+        "dank-linux",
+        "dankmaterial-shell",
+        "community-guidelines",
+        "project-support",
+        "open-source-development"
+      ],
+      "category": "other",
+      "original_file_path": "docs-1.2-support.md"
+    },
+    {
+      "file_path": "092-docs-1.5-contributing.md",
+      "title": "Contributing | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/contributing",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:39.523748164-03:00",
+      "description": "Contribute to Dank Linux development",
+      "summary": "This document outlines the contribution guidelines, communication expectations, and licensing terms for the Dank Linux project.",
+      "tags": [
+        "contribution-guidelines",
+        "open-source",
+        "mit-license",
+        "project-governance",
+        "community-standards"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-contributing.md"
+    },
+    {
+      "file_path": "091-docs-1.5-contributing-registry.md",
+      "title": "Contributing to the Registry | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/contributing-registry",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:41.403140366-03:00",
+      "description": "How to contribute plugins and themes to the DankMaterialShell registry",
+      "summary": "This document provides instructions and schema requirements for contributing plugins and themes to the DankMaterialShell registry repository.",
+      "tags": [
+        "plugin-registry",
+        "contribution-guide",
+        "dankmaterialshell",
+        "json-schema",
+        "theme-development",
+        "plugin-submission"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-contributing-registry.md"
+    },
+    {
+      "file_path": "093-docs-1.5-dankgreeter.md",
+      "title": "DankGreeter | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankgreeter/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:43.478949573-03:00",
+      "description": "Dank greeter for greetd",
+      "summary": "dms-greeter is a greeter implementation for the greetd login daemon that matches the aesthetic of the DankMaterialShell lock screen.",
+      "tags": [
+        "dms-greeter",
+        "greetd",
+        "login-manager",
+        "wayland",
+        "linux-desktop"
+      ],
+      "category": "other",
+      "original_file_path": "docs-1.5-dankgreeter.md"
+    },
+    {
+      "file_path": "032-docs-1.5-dankinstall.md",
+      "title": "DankInstall | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankinstall",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:53.561241955-03:00",
+      "description": "Interactive installer for the full Dank Linux suite",
+      "summary": "This document provides instructions for using the dankinstall script to set up the DankMaterialShell desktop environment, including supported Linux distributions and configuration options for automated or manual installations.",
+      "tags": [
+        "danklinux",
+        "dankmaterialshell",
+        "desktop-environment",
+        "linux-installation",
+        "wayland",
+        "shell-scripting"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankinstall.md"
+    },
+    {
+      "file_path": "038-docs-1.5-danklinux.md",
+      "title": "DankLinux Repository | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/danklinux/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:55.504475813-03:00",
+      "description": "Pre-built packages for Fedora, CentOS, Debian, Ubuntu, and OpenSUSE",
+      "summary": "This document provides an overview and installation instructions for the DankLinux software repository, which offers pre-built packages for the DankMaterialShell, the niri compositor, and associated utility tools across multiple Linux distributions.",
+      "tags": [
+        "linux",
+        "repository",
+        "wayland",
+        "niri",
+        "desktop-environment",
+        "package-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-danklinux.md"
+    },
+    {
+      "file_path": "056-docs-1.5-dankmaterialshell-advanced-configuration.md",
+      "title": "Advanced Configuration | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/advanced-configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:57.459125782-03:00",
+      "description": "Advanced settings and customization options",
+      "summary": "This document lists the available environment variables for configuring DankMaterialShell (DMS), covering core settings, display rendering, system integration, and printing options. It also provides instructions for applying these configurations across various desktop environments and systemd-managed setups.",
+      "tags": [
+        "dankmaterialshell",
+        "environment-variables",
+        "wayland",
+        "configuration",
+        "shell-customization",
+        "linux"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-advanced-configuration.md"
+    },
+    {
+      "file_path": "011-docs-1.2-dankmaterialshell-plugin-development.md",
+      "title": "Development | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/dankmaterialshell/plugin-development",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:09.800020102-03:00",
+      "description": "Build plugins for DankMaterialShell",
+      "summary": "This document provides a comprehensive guide for developers to create, configure, and test custom plugins for the DankMaterialShell environment.",
+      "tags": [
+        "dankmaterialshell",
+        "plugin-development",
+        "qml",
+        "qt-quick",
+        "dms-plugins",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-dankmaterialshell-plugin-development.md"
+    },
+    {
+      "file_path": "067-docs-1.5-dankmaterialshell-cli-color-picker.md",
+      "title": "Color Picker | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-color-picker",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:07.577526838-03:00",
+      "description": "Pick colors from anywhere on your Wayland screen with multiple output formats",
+      "summary": "This document describes the dms color pick command for Wayland, which allows users to capture pixel colors and export them in various customizable formats.",
+      "tags": [
+        "wayland",
+        "color-picker",
+        "cli-tool",
+        "color-formats",
+        "pixel-selection",
+        "terminal-utilities"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-color-picker.md"
+    },
+    {
+      "file_path": "021-docs-1.2-danksearch-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.2/danksearch/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:36:17.511753326-03:00",
+      "description": "Install DankSearch application launcher",
+      "summary": "This document provides instructions for installing the dsearch software across various Linux distributions and Unix-based systems.",
+      "tags": [
+        "dsearch",
+        "linux-installation",
+        "systemd",
+        "cli-tools",
+        "nixos",
+        "package-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.2-danksearch-installation.md"
+    },
+    {
+      "file_path": "068-docs-1.5-dankmaterialshell-cli-screenshot.md",
+      "title": "Screenshot | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-screenshot",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:17.854011513-03:00",
+      "description": "Capture screenshots from Wayland displays with multiple modes and formats",
+      "summary": "This document describes the usage and configuration options for the dms screenshot command, which is used to capture Wayland display screenshots with optional clipboard integration.",
+      "tags": [
+        "dms",
+        "screenshot",
+        "wayland",
+        "cli-tools",
+        "command-line",
+        "linux"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-screenshot.md"
+    },
+    {
+      "file_path": "057-docs-1.5-dankmaterialshell-compositor-blur.md",
+      "title": "Compositor Blur | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/compositor-blur",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:21.502172707-03:00",
+      "description": "Enable background blur on compositors supporting ext-bg-effect-v1",
+      "summary": "This document explains how to configure and enable background blur effects for DMS surfaces on supported compositors.",
+      "tags": [
+        "background-blur",
+        "dms-configuration",
+        "compositor-protocol",
+        "ui-customization",
+        "personalization"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-compositor-blur.md"
+    },
+    {
+      "file_path": "005-docs-1.5-dankmaterialshell-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:37.647374914-03:00",
+      "description": "Install and configure DankMaterialShell on NixOS using native nixpkgs",
+      "summary": "This document provides a comprehensive guide for installing and configuring the DankMaterialShell using the NixOS module, including setup instructions, feature toggles, plugin management, and advanced configuration options.",
+      "tags": [
+        "nixos",
+        "dankmaterialshell",
+        "shell-configuration",
+        "linux-customization",
+        "flake-modules",
+        "nixpkgs"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-dankmaterialshell-nixos.md"
+    },
+    {
+      "file_path": "049-docs-1.5-dankmaterialshell-cli-setup.md",
+      "title": "Setup | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/cli-setup",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:19.426059849-03:00",
+      "description": "Deploy default DMS configuration files for your compositor",
+      "summary": "This document explains the usage of the dms setup command to generate and manage default configuration files for niri and Hyprland compositors.",
+      "tags": [
+        "dms",
+        "configuration",
+        "niri",
+        "hyprland",
+        "setup-command",
+        "home-manager"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-1.5-dankmaterialshell-cli-setup.md"
+    },
+    {
+      "file_path": "019-docs-1.5-danksearch-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/danksearch/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:51.557591883-03:00",
+      "description": "Install DankSearch application launcher",
+      "summary": "This document provides comprehensive installation instructions for dsearch across various Unix-based operating systems, including package managers, pre-built binaries, and building from source.",
+      "tags": [
+        "dsearch",
+        "installation",
+        "linux-packages",
+        "systemd",
+        "binary-installation",
+        "nixos",
+        "source-compilation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-danksearch-installation.md"
+    },
+    {
+      "file_path": "020-docs-1.5-danksearch-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/danksearch/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:53.535165714-03:00",
+      "description": "Install and configure DankSearch on NixOS using native nixpkgs",
+      "summary": "This document provides instructions for installing and configuring the DankSearch application on NixOS using the native module and systemd services.",
+      "tags": [
+        "nixos",
+        "danksearch",
+        "linux-installation",
+        "systemd",
+        "nix-configuration",
+        "package-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-danksearch-nixos.md"
+    },
+    {
+      "file_path": "045-docs-1.5-dgop.md",
+      "title": "DGOP | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dgop/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:59.654813423-03:00",
+      "description": "Graphical power management tool for Wayland",
+      "summary": "dgop is a stateless system and process monitoring tool that offers a terminal-based interface, command-line utility, and REST API for gathering comprehensive hardware and process metrics.",
+      "tags": [
+        "system-monitoring",
+        "process-viewer",
+        "tui",
+        "rest-api",
+        "linux-tools",
+        "performance-metrics"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-1.5-dgop.md"
+    },
+    {
+      "file_path": "027-docs-1.5-dgop-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dgop/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:03.728267217-03:00",
+      "description": "Install DGOP power menu",
+      "summary": "This document provides instructions for installing and verifying the dgop system utility on Linux systems using pre-built binaries or source code.",
+      "tags": [
+        "linux-utility",
+        "system-monitoring",
+        "software-installation",
+        "cli-tools",
+        "dank-material-shell"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-dgop-installation.md"
+    },
+    {
+      "file_path": "001-docs-1.5-getting-started.md",
+      "title": "Getting Started | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/getting-started",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:07.618749307-03:00",
+      "description": "Get started with Dank Linux installation and configuration",
+      "summary": "This document provides an overview of the installation process and configuration options for the Dank Linux software suite, including package management and setup commands for various window managers.",
+      "tags": [
+        "dank-linux",
+        "linux-installation",
+        "configuration-guide",
+        "package-management",
+        "window-manager",
+        "cli-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-1.5-getting-started.md"
+    },
+    {
+      "file_path": "094-docs-1.5-support.md",
+      "title": "Support | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/support",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:09.534942465-03:00",
+      "description": "Get help and support for Dank Linux",
+      "summary": "This document provides community communication guidelines and donation information for the Dank Linux and DankMaterialShell project.",
+      "tags": [
+        "dank-linux",
+        "dank-material-shell",
+        "community-guidelines",
+        "project-support",
+        "open-source"
+      ],
+      "category": "other",
+      "original_file_path": "docs-1.5-support.md"
+    },
+    {
+      "file_path": "031-docs.md",
+      "title": "Welcome | Dank Linux",
+      "url": "https://danklinux.com/docs/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:11.511741309-03:00",
+      "description": "Welcome to Dank Linux",
+      "summary": "This document provides an introduction to Dank Linux, an integrated desktop environment and toolkit designed to replace fragmented Wayland utility ecosystems with a cohesive, unified experience.",
+      "tags": [
+        "desktop-environment",
+        "wayland",
+        "linux-distribution",
+        "system-automation",
+        "desktop-shell",
+        "software-suite"
+      ],
+      "category": "guide",
+      "original_file_path": "docs.md"
+    },
+    {
+      "file_path": "103-docs-contributing.md",
+      "title": "Contributing | Dank Linux",
+      "url": "https://danklinux.com/docs/contributing",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:13.606760618-03:00",
+      "description": "Contribute to Dank Linux development",
+      "summary": "This document outlines the contribution guidelines, communication expectations, and licensing terms for the Dank Linux project ecosystem.",
+      "tags": [
+        "contribution-guidelines",
+        "open-source",
+        "mit-license",
+        "project-governance",
+        "community-standards"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-contributing.md"
+    },
+    {
+      "file_path": "102-docs-contributing-registry.md",
+      "title": "Contributing to the Registry | Dank Linux",
+      "url": "https://danklinux.com/docs/contributing-registry",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:15.614248412-03:00",
+      "description": "How to contribute plugins and themes to the DankMaterialShell registry",
+      "summary": "This document provides instructions and schema requirements for contributing plugins and themes to the DankMaterialShell registry.",
+      "tags": [
+        "plugin-contribution",
+        "theme-submission",
+        "registry-guide",
+        "dankmaterialshell",
+        "json-schema",
+        "open-source-contribution"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-contributing-registry.md"
+    },
+    {
+      "file_path": "104-docs-dankgreeter.md",
+      "title": "DankGreeter | Dank Linux",
+      "url": "https://danklinux.com/docs/dankgreeter/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:17.479225208-03:00",
+      "description": "Dank greeter for greetd",
+      "summary": "dms-greeter is a greeter implementation for the greetd login daemon that matches the visual style of the DankMaterialShell lock screen.",
+      "tags": [
+        "dms-greeter",
+        "greetd",
+        "login-manager",
+        "display-manager",
+        "linux-desktop",
+        "customization"
+      ],
+      "category": "other",
+      "original_file_path": "docs-dankgreeter.md"
+    },
+    {
+      "file_path": "060-docs-dankgreeter-configuration.md",
+      "title": "Configuration | Dank Linux",
+      "url": "https://danklinux.com/docs/dankgreeter/configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:19.629388828-03:00",
+      "description": "Configure DankGreeter login screen appearance",
+      "summary": "This document provides instructions for configuring custom compositors for the DMS greeter and explains how to synchronize greeter themes, wallpapers, and settings with a user's environment.",
+      "tags": [
+        "dms-greeter",
+        "compositor-configuration",
+        "theme-sync",
+        "system-administration",
+        "linux-login",
+        "display-manager"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankgreeter-configuration.md"
+    },
+    {
+      "file_path": "035-docs-dankgreeter-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/dankgreeter/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:21.720572688-03:00",
+      "description": "Install DankGreeter display manager",
+      "summary": "This document provides instructions for installing the dms-greeter display manager component across various Linux distributions including Arch, Fedora, Debian, Ubuntu, openSUSE, and others.",
+      "tags": [
+        "linux",
+        "display-manager",
+        "dms-greeter",
+        "installation",
+        "greetd",
+        "danklinux"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankgreeter-installation.md"
+    },
+    {
+      "file_path": "051-docs-dankgreeter-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/dankgreeter/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:23.527884148-03:00",
+      "description": "Install and configure DankGreeter on NixOS using native nixpkgs",
+      "summary": "This document provides instructions for installing and configuring the DankGreeter display manager module on NixOS systems, including setup via nixpkgs and flake-based configurations.",
+      "tags": [
+        "nixos",
+        "dankgreeter",
+        "display-manager",
+        "linux-configuration",
+        "nix-flakes",
+        "system-administration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankgreeter-nixos.md"
+    },
+    {
+      "file_path": "036-docs-dankgreeter-nixos-flake.md",
+      "title": "NixOS Installation (Flake) | Dank Linux",
+      "url": "https://danklinux.com/docs/dankgreeter/nixos-flake",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:25.572840742-03:00",
+      "description": "Install and configure DankGreeter on NixOS using flakes",
+      "summary": "This document provides instructions for installing and configuring the DankGreeter login manager on NixOS using a flake-based approach.",
+      "tags": [
+        "nixos",
+        "dankgreeter",
+        "flake",
+        "linux",
+        "system-configuration",
+        "login-manager"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankgreeter-nixos-flake.md"
+    },
+    {
+      "file_path": "037-docs-dankinstall.md",
+      "title": "DankInstall | Dank Linux",
+      "url": "https://danklinux.com/docs/dankinstall",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:27.471587106-03:00",
+      "description": "Interactive installer for the full Dank Linux suite",
+      "summary": "This document provides an overview and installation guide for dankinstall, a tool designed to set up the DankMaterialShell desktop environment across various Linux distributions.",
+      "tags": [
+        "linux",
+        "desktop-environment",
+        "wayland",
+        "danklinux",
+        "installation",
+        "shell",
+        "compositor"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankinstall.md"
+    },
+    {
+      "file_path": "041-docs-danklinux.md",
+      "title": "DankLinux Repository | Dank Linux",
+      "url": "https://danklinux.com/docs/danklinux/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:29.548890362-03:00",
+      "description": "Pre-built packages for Fedora, CentOS, Debian, Ubuntu, and OpenSUSE",
+      "summary": "This document provides an overview of the DankLinux repository and instructions for installing pre-built packages for DankMaterialShell, niri, and related utilities across multiple Linux distributions.",
+      "tags": [
+        "linux",
+        "danklinux",
+        "package-management",
+        "wayland",
+        "niri",
+        "desktop-environment",
+        "repository-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-danklinux.md"
+    },
+    {
+      "file_path": "061-docs-dankmaterialshell-advanced-configuration.md",
+      "title": "Advanced Configuration | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/advanced-configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:31.472268-03:00",
+      "description": "Advanced settings and customization options",
+      "summary": "This document lists the available environment variables and configuration options used to customize the behavior, display, and system integration of the DankMaterialShell.",
+      "tags": [
+        "dankmaterialshell",
+        "environment-variables",
+        "wayland",
+        "linux-configuration",
+        "shell-customization"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-advanced-configuration.md"
+    },
+    {
+      "file_path": "062-docs-dankmaterialshell-application-themes.md",
+      "title": "Application Theming | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/application-themes",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:33.81530567-03:00",
+      "description": "Theme GTK and Qt applications to match your desktop",
+      "summary": "This document explains how to configure and customize DankMaterialShell's automatic theme generation for native applications using the matugen engine, including instructions for custom templates and integration with GTK and Qt applications.",
+      "tags": [
+        "dankmaterialshell",
+        "matugen",
+        "theming",
+        "linux-customization",
+        "gtk-integration",
+        "qt-integration",
+        "configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-application-themes.md"
+    },
+    {
+      "file_path": "012-docs-dankmaterialshell-calendar-integration.md",
+      "title": "Calendar Integration | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/calendar-integration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:35.619217352-03:00",
+      "description": "Sync CalDAV calendars for dashboard integration",
+      "summary": "This document provides instructions for integrating CalDAV-compatible calendars into a dashboard using khal and vdirsyncer.",
+      "tags": [
+        "calendar-sync",
+        "caldav",
+        "vdirsyncer",
+        "khal",
+        "dashboard-integration",
+        "system-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-calendar-integration.md"
+    },
+    {
+      "file_path": "079-docs-dankmaterialshell-cli-brightness.md",
+      "title": "Brightness Control | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-brightness",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:37.536265016-03:00",
+      "description": "Control backlight, LED, and DDC/I2C monitor brightness",
+      "summary": "This document provides a reference for the dms brightness command, a unified tool used to manage screen backlight, LED indicators, and external DDC/I2C monitors.",
+      "tags": [
+        "dms",
+        "brightness",
+        "backlight",
+        "ddc-ci",
+        "led-control",
+        "cli-reference",
+        "hardware-management"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-brightness.md"
+    },
+    {
+      "file_path": "080-docs-dankmaterialshell-cli-clipboard.md",
+      "title": "Clipboard Manager | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-clipboard",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:39.543137404-03:00",
+      "description": "Wayland clipboard manager with history, search, and persistence",
+      "summary": "This document provides a reference for the `dms cl` command-line utility, which functions as a Wayland clipboard manager featuring history tracking, search capabilities, and configurable settings.",
+      "tags": [
+        "wayland",
+        "clipboard-manager",
+        "cli-tools",
+        "linux-desktop",
+        "data-control"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-clipboard.md"
+    },
+    {
+      "file_path": "069-docs-1.5-danksearch.md",
+      "title": "DankSearch | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/danksearch/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:47.688121196-03:00",
+      "description": "Native file system search with fuzzy search capabilities",
+      "summary": "DankSearch is a native file system search tool that provides both a command-line interface and a REST API for indexing and retrieving file information.",
+      "tags": [
+        "file-system",
+        "search-tool",
+        "cli-tool",
+        "rest-api",
+        "indexing",
+        "dankmaterialshell"
+      ],
+      "category": "api",
+      "original_file_path": "docs-1.5-danksearch.md"
+    },
+    {
+      "file_path": "013-docs-dankmaterialshell-cli-dank16.md",
+      "title": "Dank16 | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-dank16",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:43.406865056-03:00",
+      "description": "Generate Base16 color palettes from a single color with intelligent contrast handling",
+      "summary": "Dank16 is a command-line tool that generates complete, accessible 16-color Base16 terminal palettes from a single hex color using advanced contrast algorithms.",
+      "tags": [
+        "cli-tool",
+        "base16",
+        "color-palette",
+        "terminal-theme",
+        "accessibility",
+        "contrast-algorithm"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-cli-dank16.md"
+    },
+    {
+      "file_path": "082-docs-dankmaterialshell-cli-doctor.md",
+      "title": "System Diagnostics (doctor) | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-doctor",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:45.875635508-03:00",
+      "description": "Diagnose DMS installation, dependencies, and system configuration",
+      "summary": "This document explains the functionality of the dms doctor command, which is used to diagnose system configurations, verify dependencies, and troubleshoot the Dank Material Shell installation.",
+      "tags": [
+        "dms",
+        "troubleshooting",
+        "cli-tools",
+        "system-diagnostics",
+        "dank-material-shell",
+        "linux-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-doctor.md"
+    },
+    {
+      "file_path": "014-docs-dankmaterialshell-cli-keybinds-cheatsheets.md",
+      "title": "Keybinds & Cheatsheets | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-keybinds-cheatsheets",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:47.495473899-03:00",
+      "description": "Manage and display keybinds and cheatsheets for various applications",
+      "summary": "This document explains the dms keybinds utility, which provides a centralized interface for viewing and managing keyboard shortcuts across various window managers and applications.",
+      "tags": [
+        "keybinds",
+        "dms",
+        "hyprland",
+        "sway",
+        "linux-configuration",
+        "hotkeys",
+        "window-manager"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-cli-keybinds-cheatsheets.md"
+    },
+    {
+      "file_path": "042-docs-1.5-dankmaterialshell-overview.md",
+      "title": "Overview & Architecture | Dank Linux",
+      "url": "https://danklinux.com/docs/1.5/dankmaterialshell/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:37:41.596906863-03:00",
+      "description": "Modern Wayland desktop shell",
+      "summary": "DankMaterialShell is a modular Wayland desktop shell that utilizes a Go backend and Quickshell interface to manage system operations, application launching, and URI handling.",
+      "tags": [
+        "wayland",
+        "desktop-shell",
+        "quickshell",
+        "golang",
+        "linux-desktop",
+        "xdg-mime"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-1.5-dankmaterialshell-overview.md"
+    },
+    {
+      "file_path": "052-docs-dankmaterialshell-cli-setup.md",
+      "title": "Setup | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-setup",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:53.512199646-03:00",
+      "description": "Deploy default DMS configuration files for your compositor",
+      "summary": "This document explains how to use the dms setup command to generate default configuration files for niri and Hyprland compositors while avoiding overwriting existing user customizations.",
+      "tags": [
+        "dms-setup",
+        "config-management",
+        "niri",
+        "hyprland",
+        "compositor-configuration",
+        "home-manager"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-cli-setup.md"
+    },
+    {
+      "file_path": "063-docs-dankmaterialshell-compositor-blur.md",
+      "title": "Compositor Blur | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/compositor-blur",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:55.465122767-03:00",
+      "description": "Enable background blur on compositors supporting ext-bg-effect-v1",
+      "summary": "This document explains how to configure and enable background blur effects for DMS surfaces, including requirements for compositor protocol support and visual adjustments for transparency and edge smoothing.",
+      "tags": [
+        "background-blur",
+        "dms-configuration",
+        "ui-customization",
+        "wayland-compositor",
+        "visual-styling",
+        "personalization"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-compositor-blur.md"
+    },
+    {
+      "file_path": "053-docs-dankmaterialshell-compositors.md",
+      "title": "Compositor Setup | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/compositors",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:57.524018676-03:00",
+      "description": "<Hero",
+      "summary": "This document provides technical instructions for integrating the DankMaterialShell with various Wayland compositors, specifically detailing configuration files, keybindings, environment variables, and window rules for niri and Hyprland.",
+      "tags": [
+        "wayland",
+        "linux",
+        "compositor",
+        "niri",
+        "hyprland",
+        "shell-customization",
+        "dms"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-compositors.md"
+    },
+    {
+      "file_path": "016-docs-dankmaterialshell-custom-themes.md",
+      "title": "Custom Themes | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/custom-themes",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:59.739880445-03:00",
+      "description": "Create custom color themes for DankMaterialShell",
+      "summary": "This document explains how to create and apply custom JSON-based color themes for DankMaterialShell, detailing the required color properties and theme configuration options.",
+      "tags": [
+        "dankmaterialshell",
+        "theming",
+        "json-configuration",
+        "ui-customization",
+        "color-schemes",
+        "matugen"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-custom-themes.md"
+    },
+    {
+      "file_path": "017-docs-dankmaterialshell-icon-theming.md",
+      "title": "Icon Theming | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/icon-theming",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:01.622330631-03:00",
+      "description": "Configure icon themes for Qt and GTK applications in DMS",
+      "summary": "This guide explains how to configure and manage icon themes for DankMaterialShell applications by integrating with Qt6 platform themes like GTK, qt6ct, and KDE.",
+      "tags": [
+        "dankmaterialshell",
+        "qt6",
+        "icon-themes",
+        "theming",
+        "linux-desktop",
+        "customization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-icon-theming.md"
+    },
+    {
+      "file_path": "009-docs-dankmaterialshell-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:03.693231211-03:00",
+      "description": "Install DankMaterialShell on your system",
+      "summary": "This guide provides instructions for installing the DankMaterialShell (DMS) on various Linux distributions including Arch, Fedora, Debian, Ubuntu, and OpenSUSE, along with its required and optional dependencies.",
+      "tags": [
+        "linux",
+        "installation",
+        "desktop-shell",
+        "dankmaterialshell",
+        "package-management",
+        "wayland"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-installation.md"
+    },
+    {
+      "file_path": "084-docs-dankmaterialshell-keybinds-ipc.md",
+      "title": "Keybinds & IPC | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/keybinds-ipc",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:05.79637657-03:00",
+      "description": "Comprehensive IPC functionality for external control of DankMaterialShell",
+      "summary": "This document provides a comprehensive reference for the IPC command-line interface of DankMaterialShell, enabling external control over system settings such as audio, display, themes, and peripheral management.",
+      "tags": [
+        "dankmaterialshell",
+        "ipc-commands",
+        "shell-control",
+        "system-configuration",
+        "linux-automation"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-keybinds-ipc.md"
+    },
+    {
+      "file_path": "081-docs-dankmaterialshell-cli-color-picker.md",
+      "title": "Color Picker | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-color-picker",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:41.740933878-03:00",
+      "description": "Pick colors from anywhere on your Wayland screen with multiple output formats",
+      "summary": "This document describes the dms color pick command-line utility for Wayland, which allows users to capture pixel colors and export them in various customizable formats.",
+      "tags": [
+        "cli-tool",
+        "color-picker",
+        "wayland",
+        "command-line",
+        "color-formats",
+        "scripting"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-color-picker.md"
+    },
+    {
+      "file_path": "054-docs-dankmaterialshell-managing.md",
+      "title": "Managing Your Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/managing",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:09.545791888-03:00",
+      "description": "Update, configure, and manage DankMaterialShell",
+      "summary": "This guide provides instructions for managing, configuring, updating, and troubleshooting the DankMaterialShell (DMS) desktop environment component.",
+      "tags": [
+        "dms",
+        "linux",
+        "systemd",
+        "compositor",
+        "configuration",
+        "shell-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-managing.md"
+    },
+    {
+      "file_path": "055-docs-dankmaterialshell-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:11.671740891-03:00",
+      "description": "Install and configure DankMaterialShell on NixOS using native nixpkgs",
+      "summary": "This guide details the installation and configuration of DankMaterialShell on NixOS using native nixpkgs modules and flakes, including plugin management and feature toggles.",
+      "tags": [
+        "nixos",
+        "dankmaterialshell",
+        "linux-configuration",
+        "shell-customization",
+        "flake-modules"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-nixos.md"
+    },
+    {
+      "file_path": "010-docs-dankmaterialshell-nixos-flake.md",
+      "title": "NixOS Installation (Flake) | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/nixos-flake",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:13.952276863-03:00",
+      "description": "Install and configure DankMaterialShell on NixOS using flakes",
+      "summary": "This guide details the installation and configuration of DankMaterialShell on NixOS using flakes for both system-wide NixOS modules and per-user home-manager setups, including integration instructions for the niri compositor.",
+      "tags": [
+        "nixos",
+        "home-manager",
+        "flakes",
+        "dankmaterialshell",
+        "niri",
+        "configuration",
+        "linux-customization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-nixos-flake.md"
+    },
+    {
+      "file_path": "044-docs-dankmaterialshell-overview.md",
+      "title": "Overview & Architecture | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/overview",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:15.619528095-03:00",
+      "description": "Modern Wayland desktop shell",
+      "summary": "DankMaterialShell is a Wayland desktop shell built with Quickshell and Go that provides a modular environment for window and application management.",
+      "tags": [
+        "wayland",
+        "desktop-shell",
+        "quickshell",
+        "linux-desktop",
+        "xdg-mime",
+        "window-manager"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-dankmaterialshell-overview.md"
+    },
+    {
+      "file_path": "018-docs-dankmaterialshell-plugin-development.md",
+      "title": "Development | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/plugin-development",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:17.885361582-03:00",
+      "description": "Build plugins for DankMaterialShell",
+      "summary": "This document provides a comprehensive guide for developers on how to create, configure, and debug plugins for the DankMaterialShell environment using QML.",
+      "tags": [
+        "dankmaterialshell",
+        "qml",
+        "plugin-development",
+        "widget-creation",
+        "development-environment",
+        "qt-quick"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-plugin-development.md"
+    },
+    {
+      "file_path": "085-docs-danksearch.md",
+      "title": "DankSearch | Dank Linux",
+      "url": "https://danklinux.com/docs/danksearch/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:21.718920507-03:00",
+      "description": "Native file system search with fuzzy search capabilities",
+      "summary": "Dsearch is a file system search utility that provides both a command-line interface and a REST API for indexing and querying file data.",
+      "tags": [
+        "file-system",
+        "search-tool",
+        "cli-tool",
+        "rest-api",
+        "indexing",
+        "danksearch"
+      ],
+      "category": "api",
+      "original_file_path": "docs-danksearch.md"
+    },
+    {
+      "file_path": "083-docs-dankmaterialshell-cli-screenshot.md",
+      "title": "Screenshot | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-screenshot",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:51.651988111-03:00",
+      "description": "Capture screenshots from Wayland displays with multiple modes and formats",
+      "summary": "This document provides usage instructions for the dms screenshot command, explaining how to capture Wayland display screenshots with options for output formats and clipboard integration.",
+      "tags": [
+        "wayland",
+        "screenshot",
+        "cli-tool",
+        "image-capture",
+        "clipboard-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dankmaterialshell-cli-screenshot.md"
+    },
+    {
+      "file_path": "023-docs-danksearch-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/danksearch/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:25.447337288-03:00",
+      "description": "Install DankSearch application launcher",
+      "summary": "This document provides instructions for installing and setting up the dsearch utility across various operating systems, including NixOS, Linux distributions, and from source code.",
+      "tags": [
+        "installation",
+        "setup",
+        "dsearch",
+        "linux",
+        "nixos",
+        "cli-tool",
+        "systemd"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-danksearch-installation.md"
+    },
+    {
+      "file_path": "025-docs-danksearch-nixos.md",
+      "title": "NixOS Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/danksearch/nixos",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:27.609867765-03:00",
+      "description": "Install and configure DankSearch on NixOS using native nixpkgs",
+      "summary": "This document provides instructions on how to install and configure DankSearch on the NixOS operating system using the native nixpkgs module. It covers channel setup, configuration options, systemd integration, and troubleshooting common deployment issues.",
+      "tags": [
+        "nixos",
+        "nixpkgs",
+        "danksearch",
+        "systemd",
+        "linux-configuration",
+        "package-management",
+        "installation-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-danksearch-nixos.md"
+    },
+    {
+      "file_path": "024-docs-danksearch-nixos-flake.md",
+      "title": "NixOS Installation (Flake) | Dank Linux",
+      "url": "https://danklinux.com/docs/danksearch/nixos-flake",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:29.568335468-03:00",
+      "description": "Install and configure DankSearch on NixOS using flakes with home-manager",
+      "summary": "This document provides instructions for installing and configuring DankSearch on NixOS systems using home-manager and Nix flakes.",
+      "tags": [
+        "nixos",
+        "home-manager",
+        "nix-flakes",
+        "danksearch",
+        "systemd",
+        "configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-danksearch-nixos-flake.md"
+    },
+    {
+      "file_path": "026-docs-danksearch-usage.md",
+      "title": "Usage | Dank Linux",
+      "url": "https://danklinux.com/docs/danksearch/usage",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:31.684461968-03:00",
+      "description": "Launch and search applications with DankSearch",
+      "summary": "This document provides a comprehensive guide on utilizing the dsearch CLI and HTTP API for filesystem indexing, searching, and metadata retrieval.",
+      "tags": [
+        "cli-tool",
+        "file-search",
+        "index-management",
+        "api-documentation",
+        "filesystem-utilities",
+        "fuzzy-search",
+        "exif-metadata"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-danksearch-usage.md"
+    },
+    {
+      "file_path": "086-docs-dgop.md",
+      "title": "DGOP | Dank Linux",
+      "url": "https://danklinux.com/docs/dgop/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:33.524497163-03:00",
+      "description": "Graphical power management tool for Wayland",
+      "summary": "dgop is a stateless system monitoring tool that provides a top-like terminal interface, command-line utility, and REST API for tracking hardware and process metrics.",
+      "tags": [
+        "system-monitoring",
+        "linux-tools",
+        "tui",
+        "performance-metrics",
+        "rest-api",
+        "process-management"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-dgop.md"
+    },
+    {
+      "file_path": "066-docs-dgop-configuration.md",
+      "title": "Configuration | Dank Linux",
+      "url": "https://danklinux.com/docs/dgop/configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:35.456384091-03:00",
+      "description": "Configure DGOP appearance and commands",
+      "summary": "This document provides configuration details for the dgop application, including API environment variables, custom color scheme definitions, and basic troubleshooting steps.",
+      "tags": [
+        "dgop",
+        "api-configuration",
+        "color-theme",
+        "json-schema",
+        "troubleshooting"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dgop-configuration.md"
+    },
+    {
+      "file_path": "004-docs-dankmaterialshell-plugins-overview.md",
+      "title": "Overview | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/plugins-overview",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:19.605232169-03:00",
+      "description": "Create and install plugins for DankMaterialShell",
+      "summary": "This document provides an overview of the DankMaterialShell plugin system, including supported plugin types, installation methods, development guidelines, and troubleshooting steps.",
+      "tags": [
+        "dankmaterialshell",
+        "desktop-customization",
+        "qml-components",
+        "plugin-system",
+        "linux-desktop",
+        "wayland"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-plugins-overview.md"
+    },
+    {
+      "file_path": "030-docs-dgop-usage.md",
+      "title": "Usage | Dank Linux",
+      "url": "https://danklinux.com/docs/dgop/usage",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:39.951840479-03:00",
+      "description": "Launch DGOP and manage system power",
+      "summary": "This document provides an overview of the dgop system monitoring tool, detailing its command-line interface, API server capabilities, and cursor-based sampling methods for accurate metric collection.",
+      "tags": [
+        "system-monitoring",
+        "cli-tools",
+        "api-documentation",
+        "performance-metrics",
+        "process-management",
+        "json-output"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dgop-usage.md"
+    },
+    {
+      "file_path": "003-docs-getting-started.md",
+      "title": "Getting Started | Dank Linux",
+      "url": "https://danklinux.com/docs/getting-started",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:41.824888772-03:00",
+      "description": "Get started with Dank Linux installation and configuration",
+      "summary": "This document provides an overview for installing and configuring the Dank Linux suite and its associated materials shell, including package management and setup commands.",
+      "tags": [
+        "dank-linux",
+        "linux-installation",
+        "system-configuration",
+        "package-management",
+        "compositor-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-getting-started.md"
+    },
+    {
+      "file_path": "065-docs-danksearch-configuration.md",
+      "title": "Configuration | Dank Linux",
+      "url": "https://danklinux.com/docs/danksearch/configuration",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:23.479874093-03:00",
+      "description": "Configure DankSearch appearance and behavior",
+      "summary": "This document provides a comprehensive guide to configuring DankSearch, explaining how to manage index paths, performance settings, and directory exclusions using a TOML configuration file.",
+      "tags": [
+        "dsearch",
+        "configuration",
+        "indexing",
+        "toml",
+        "search-engine",
+        "system-settings"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-danksearch-configuration.md"
+    },
+    {
+      "file_path": "029-docs-dgop-installation.md",
+      "title": "Installation | Dank Linux",
+      "url": "https://danklinux.com/docs/dgop/installation",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:38.729962373-03:00",
+      "description": "Install DGOP power menu",
+      "summary": "This document provides installation instructions, system requirements, and verification steps for the dgop command-line tool, which provides system monitoring and API functionality.",
+      "tags": [
+        "cli-tool",
+        "system-monitoring",
+        "linux-utilities",
+        "binary-installation",
+        "software-deployment"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dgop-installation.md"
+    },
+    {
+      "file_path": "105-docs-support.md",
+      "title": "Support | Dank Linux",
+      "url": "https://danklinux.com/docs/support",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:43.535152643-03:00",
+      "description": "Get help and support for Dank Linux",
+      "summary": "This document provides community guidelines for DankMaterialShell discussion channels and information on how to support the development of the Dank Linux project.",
+      "tags": [
+        "dank-linux",
+        "dank-material-shell",
+        "community-guidelines",
+        "project-support",
+        "open-source"
+      ],
+      "category": "other",
+      "original_file_path": "docs-support.md"
+    },
+    {
+      "file_path": "048-homepage.md",
+      "title": "Modern Desktop Suite | Dank Linux",
+      "url": "https://danklinux.com/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:45.44898795-03:00",
+      "description": "A modern Linux desktop suite with beautiful widgets and powerful monitoring - optimized for niri, Hyprland, MangoWC, Sway, and Miracle WM.",
+      "summary": "This document introduces DankMaterialShell, a modern, highly customizable desktop environment for Linux featuring dynamic theming, smooth animations, and an integrated suite of system utilities.",
+      "tags": [
+        "linux-desktop",
+        "wayland",
+        "material-design",
+        "system-customization",
+        "desktop-shell",
+        "dynamic-theming"
+      ],
+      "category": "concept",
+      "original_file_path": "index.md",
+      "rename_history": [
+        {
+          "from": "index.md",
+          "to": "homepage.md",
+          "reason": "phase 1.3 index rename"
+        }
+      ]
+    },
+    {
+      "file_path": "015-docs-dankmaterialshell-cli-process-management.md",
+      "title": "Process Management | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/cli-process-management",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:38:49.572366455-03:00",
+      "description": "Manage DankMaterialShell processes with run, restart, and kill commands",
+      "summary": "This document explains the dms command-line interface used for managing DankMaterialShell backend processes, Quickshell UI instances, and their associated inter-process communication.",
+      "tags": [
+        "process-management",
+        "shell-configuration",
+        "wayland",
+        "ipc",
+        "systemd",
+        "cli-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-dankmaterialshell-cli-process-management.md"
+    },
+    {
+      "file_path": "064-docs-dankmaterialshell-layers.md",
+      "title": "Layer Namespaces | Dank Linux",
+      "url": "https://danklinux.com/docs/dankmaterialshell/layers",
+      "source": "sitemap",
+      "fetched_at": "2026-04-26T08:39:07.643094789-03:00",
+      "description": "Layer namespaces DMS components",
+      "summary": "This document provides a comprehensive list of layer shell namespaces for Dank Material Shell (DMS) components and instructions for applying compositor-specific blur and layer rules in Wayland environments like Hyprland and Niri.",
+      "tags": [
+        "wayland",
+        "layer-shell",
+        "dms",
+        "compositor-config",
+        "blur-effects",
+        "hyprland",
+        "niri"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-dankmaterialshell-layers.md"
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-26T13:04:30.808954+00:00",
+    "total_files": 106,
+    "categories": [
+      "Quick Start & Installation",
+      "Tutorials & Guides",
+      "Concepts & Fundamentals",
+      "Configuration",
+      "API Reference",
+      "Changelog & Releases",
+      "Meta & Resources"
+    ],
+    "dropped": [
+      {
+        "path": "docs-1.5-dankmaterialshell-plugin-development.md",
+        "in_favor_of": "docs-dankmaterialshell-plugin-development.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-cli-dank16.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-cli-dank16.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-cli-keybinds-cheatsheets.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-cli-keybinds-cheatsheets.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-cli-dank16.md",
+        "in_favor_of": "docs-dankmaterialshell-cli-dank16.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-cli-keybinds-cheatsheets.md",
+        "in_favor_of": "docs-dankmaterialshell-cli-keybinds-cheatsheets.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-cli-process-management.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-cli-process-management.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-danksearch-usage.md",
+        "in_favor_of": "docs-1.5-danksearch-usage.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-cli-brightness.md",
+        "in_favor_of": "docs-dankmaterialshell-cli-brightness.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-custom-themes.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-custom-themes.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankgreeter-configuration.md",
+        "in_favor_of": "docs-dankgreeter-configuration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankgreeter-installation.md",
+        "in_favor_of": "docs-dankgreeter-installation.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-cli-clipboard.md",
+        "in_favor_of": "docs-dankmaterialshell-cli-clipboard.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-cli-process-management.md",
+        "in_favor_of": "docs-dankmaterialshell-cli-process-management.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-custom-themes.md",
+        "in_favor_of": "docs-dankmaterialshell-custom-themes.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-keybinds-ipc.md",
+        "in_favor_of": "docs-dankmaterialshell-keybinds-ipc.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-danksearch-configuration.md",
+        "in_favor_of": "docs-danksearch-configuration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-cli-brightness.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-cli-brightness.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dgop-configuration.md",
+        "in_favor_of": "docs-1.5-dgop-configuration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-application-themes.md",
+        "in_favor_of": "docs-dankmaterialshell-application-themes.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-icon-theming.md",
+        "in_favor_of": "docs-dankmaterialshell-icon-theming.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-managing.md",
+        "in_favor_of": "docs-dankmaterialshell-managing.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-danksearch-usage.md",
+        "in_favor_of": "docs-danksearch-usage.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-nixos-flake.md",
+        "in_favor_of": "docs-dankmaterialshell-nixos-flake.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-installation.md",
+        "in_favor_of": "docs-dankmaterialshell-installation.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dgop-usage.md",
+        "in_favor_of": "docs-dgop-usage.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-icon-theming.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-icon-theming.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-danksearch-configuration.md",
+        "in_favor_of": "docs-1.5-danksearch-configuration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dgop-usage.md",
+        "in_favor_of": "docs-1.5-dgop-usage.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-layers.md",
+        "in_favor_of": "docs-dankmaterialshell-layers.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-danksearch-nixos-flake.md",
+        "in_favor_of": "docs-1.5-danksearch-nixos-flake.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankgreeter-nixos-flake.md",
+        "in_favor_of": "docs-dankgreeter-nixos-flake.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-cli-doctor.md",
+        "in_favor_of": "docs-dankmaterialshell-cli-doctor.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-nixos-flake.md",
+        "in_favor_of": "docs-dankmaterialshell-nixos-flake.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-danksearch-nixos-flake.md",
+        "in_favor_of": "docs-danksearch-nixos-flake.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dgop-configuration.md",
+        "in_favor_of": "docs-dgop-configuration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-application-themes.md",
+        "in_favor_of": "docs-dankmaterialshell-application-themes.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-calendar-integration.md",
+        "in_favor_of": "docs-1.5-dankmaterialshell-calendar-integration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-compositors.md",
+        "in_favor_of": "docs-dankmaterialshell-compositors.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-plugins-overview.md",
+        "in_favor_of": "docs-dankmaterialshell-plugins-overview.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-contributing-registry.md",
+        "in_favor_of": "docs-contributing-registry.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankgreeter-configuration.md",
+        "in_favor_of": "docs-1.5-dankgreeter-configuration.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankgreeter-nixos-flake.md",
+        "in_favor_of": "docs-dankgreeter-nixos-flake.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankmaterialshell-plugins-overview.md",
+        "in_favor_of": "docs-dankmaterialshell-plugins-overview.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.2-dankgreeter-nixos.md",
+        "in_favor_of": "docs-1.5-dankgreeter-nixos.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankgreeter-nixos.md",
+        "in_favor_of": "docs-dankgreeter-nixos.md",
+        "reason": "parcial-version-mirror"
+      },
+      {
+        "path": "docs-1.5-dankmaterialshell-calendar-integration.md",
+        "in_favor_of": "docs-dankmaterialshell-calendar-integration.md",
+        "reason": "parcial-version-mirror"
+      }
+    ]
+  },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-04-26T11:40:00Z",
+    "files_optimized": 99,
+    "files_deleted": 7,
+    "deleted_files": [
+      "087-plugins.md",
+      "099-blog-authors.md",
+      "106-search.md",
+      "098-blog-archive.md",
+      "078-blog-tags.md",
+      "070-docs-1.5.md",
+      "077-docs-1.2.md"
+    ]
+  }
+}

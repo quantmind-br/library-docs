@@ -1,0 +1,515 @@
+{
+  "generated_at": "2026-04-30T14:09:25.409451158-03:00",
+  "source_url": "https://forgecode.dev/sitemap.xml",
+  "strategy": "sitemap",
+  "total_documents": 24,
+  "documents": [
+    {
+      "file_path": "001-docs-creating-agents.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/creating-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:04.332547064-03:00",
+      "description": "Build custom ForgeCode agents with specialized expertise, tools, and behavior for your team or project.",
+      "summary": "Learn how to define, configure, and manage custom AI agents in ForgeCode using YAML frontmatter and system prompts.",
+      "tags": [
+        "custom-agents",
+        "forgecode",
+        "yaml-configuration",
+        "system-prompt",
+        "agent-orchestration",
+        "mcp-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-creating-agents.md",
+      "optimized": true,
+      "word_count": 309
+    },
+    {
+      "file_path": "002-docs-editor-configuration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/editor-configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:06.345177969-03:00",
+      "description": "Configure an external editor for composing prompts with the :edit command in ForgeCode.",
+      "summary": "Use the `:edit` command to compose complex prompts in your preferred editor before sending them to ForgeCode.",
+      "tags": [
+        "forgecode",
+        "cli-tools",
+        "editor-configuration",
+        "environment-variables",
+        "productivity-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-editor-configuration.md",
+      "optimized": true,
+      "word_count": 270
+    },
+    {
+      "file_path": "003-docs-file-tagging.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/file-tagging/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:06.635345177-03:00",
+      "description": "Tag files, directories, and images in ForgeCode chats to attach context automatically.",
+      "summary": "Attach project context directly in prompts using `@` references for files, directories, and images.",
+      "tags": [
+        "file-tagging",
+        "context-management",
+        "ide-integration",
+        "prompt-engineering",
+        "developer-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-file-tagging.md",
+      "optimized": true,
+      "word_count": 151
+    },
+    {
+      "file_path": "004-docs-forge-services.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forge-services/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:07.674858535-03:00",
+      "description": "Enable ForgeCode Services to keep models on track with a high-performance context engine, tool guardrails, and a skill engine.",
+      "summary": "ForgeCode Services provides runtime capabilities like context management, tool-call guardrails, and skill selection.",
+      "tags": [
+        "runtime-layer",
+        "context-engine",
+        "tool-call-guardrails",
+        "project-indexing",
+        "agent-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-forge-services.md",
+      "optimized": true,
+      "word_count": 152
+    },
+    {
+      "file_path": "005-docs-ignoring-files.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/ignoring-files/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:11.675907014-03:00",
+      "description": "Control what ForgeCode can index and reference by managing .gitignore and .ignore rules for safer, cleaner context.",
+      "summary": "Control file visibility in ForgeCode using `.gitignore` and `.ignore` rules, with troubleshooting for common issues.",
+      "tags": [
+        "file-exclusion",
+        "configuration",
+        "troubleshooting",
+        "ignore-patterns",
+        "version-control"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-ignoring-files.md",
+      "optimized": true,
+      "word_count": 243
+    },
+    {
+      "file_path": "006-docs-model-selection-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/model-selection-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:12.688182615-03:00",
+      "description": "How to Change Models in ForgeCode",
+      "summary": "Switch between AI models in ForgeCode based on task requirements: speed for edits, reasoning for complex problems.",
+      "tags": [
+        "model-switching",
+        "forgecode",
+        "ai-development",
+        "model-selection",
+        "workflow-optimization",
+        "productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-model-selection-guide.md",
+      "optimized": true,
+      "word_count": 188
+    },
+    {
+      "file_path": "007-docs-operating-agents.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/operating-agents/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:13.677005273-03:00",
+      "description": "Understanding the different specialized agents in ForgeCode and when to use each.",
+      "summary": "Choose the right ForgeCode agent for your task: muse (planning), forge (implementation), or sage (research).",
+      "tags": [
+        "forgecode",
+        "agent-management",
+        "workflow-optimization",
+        "software-development",
+        "ai-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-operating-agents.md",
+      "optimized": true,
+      "word_count": 217
+    },
+    {
+      "file_path": "008-docs-plan-and-act-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/plan-and-act-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:15.476687648-03:00",
+      "description": "Learn a multi-agent AI development workflow with strategic planning and execution using Muse for analysis and ForgeCode for implementation.",
+      "summary": "Use ForgeCode's dual-agent system: muse for planning, forge for implementation, to improve efficiency and safety.",
+      "tags": [
+        "ai-assisted-development",
+        "workflow-optimization",
+        "agent-collaboration",
+        "software-architecture",
+        "coding-best-practices"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-plan-and-act-guide.md",
+      "optimized": true,
+      "word_count": 222
+    },
+    {
+      "file_path": "009-docs-skills.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/skills/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:18.794992314-03:00",
+      "description": "Teach ForgeCode reusable workflows and domain-specific knowledge using SKILL.md files in the .forge/skills directory.",
+      "summary": "Define reusable workflows as skills in ForgeCode to automate repetitive tasks.",
+      "tags": [
+        "workflow-automation",
+        "forgecode",
+        "skill-management",
+        "task-automation",
+        "configuration-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-skills.md",
+      "optimized": true,
+      "word_count": 139
+    },
+    {
+      "file_path": "010-docs-vscode-extension.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/vscode-extension/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:19.635442685-03:00",
+      "description": "Learn how to install and use the ForgeCode VS Code extension to copy file references directly into ForgeCode CLI.",
+      "summary": "Reference code snippets and manage ForgeCode sessions directly from VS Code with precise file references.",
+      "tags": [
+        "vscode-extension",
+        "developer-tools",
+        "code-referencing",
+        "workflow-automation",
+        "productivity",
+        "ide-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-vscode-extension.md",
+      "optimized": true,
+      "word_count": 376
+    },
+    {
+      "file_path": "011-docs-zsh-support.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/zsh-support/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:20.619412117-03:00",
+      "description": "Use ForgeCode AI from your native ZSH session — aliases, functions, and all.",
+      "summary": "Use ForgeCode directly from your ZSH shell with sentinel commands, file tagging, and multiline prompts.",
+      "tags": [
+        "forgecode",
+        "terminal-integration",
+        "shell-workflow",
+        "ai-assistance",
+        "cli-commands",
+        "productivity-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-zsh-support.md",
+      "optimized": true,
+      "word_count": 287
+    },
+    {
+      "file_path": "012-docs.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:04.331123435-03:00",
+      "description": "ForgeCode is the world's #1 coding harness — ranked #1 on TermBench 2.0. Autonomously write, refactor, debug, and ship code from your terminal.",
+      "summary": "Step-by-step guide to install, configure, and authenticate the ForgeCode CLI for AI-powered coding in Zsh.",
+      "tags": [
+        "cli-tool",
+        "zsh-integration",
+        "ai-coding-assistant",
+        "shell-configuration",
+        "llm-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs.md",
+      "optimized": true,
+      "word_count": 116
+    },
+    {
+      "file_path": "013-docs-commands.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/commands/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:04.328457862-03:00",
+      "description": "Create reusable slash commands with .md files in .forge/commands to automate repetitive workflows in ForgeCode.",
+      "summary": "Automate repeatable workflows with custom slash commands in ForgeCode using Markdown files.",
+      "tags": [
+        "workflow-automation",
+        "developer-tools",
+        "cli-commands",
+        "custom-scripts",
+        "forgecode",
+        "productivity"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-commands.md",
+      "optimized": true,
+      "word_count": 175
+    },
+    {
+      "file_path": "014-docs-custom-providers.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-providers/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:04.319602625-03:00",
+      "description": "Connect ForgeCode to any OpenAI-compatible endpoint — self-hosted models, enterprise gateways, or regional deployments — using forge.toml.",
+      "summary": "Configure custom LLM providers in ForgeCode via `.forge.toml` for self-hosted models, gateways, or regional endpoints.",
+      "tags": [
+        "forgecode",
+        "llm-provider",
+        "configuration",
+        "api-integration",
+        "custom-endpoints"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-custom-providers.md",
+      "optimized": true,
+      "word_count": 267
+    },
+    {
+      "file_path": "015-docs-custom-rules-guide.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-rules-guide/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:04.335012338-03:00",
+      "description": "Every development team has its own way of doing things. Code style preferences, testing patterns, error handling approaches, naming conventions - the list goes on. The problem? A coding harness doesn't know your team's specific practices unless you tell them.",
+      "summary": "Standardize AI coding behavior in ForgeCode by defining project-specific rules in an `AGENTS.md` file.",
+      "tags": [
+        "ai-agents",
+        "coding-standards",
+        "developer-productivity",
+        "system-prompts",
+        "project-configuration",
+        "markdown-guidelines"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-custom-rules-guide.md",
+      "optimized": true,
+      "word_count": 365
+    },
+    {
+      "file_path": "016-docs-custom-rules.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/custom-rules/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:06.319312454-03:00",
+      "description": "Learn how to define project-specific guidelines and development standards using AGENTS.md",
+      "summary": "Define persistent AI agent instructions for your project using an `AGENTS.md` file.",
+      "tags": [
+        "project-guidelines",
+        "ai-agents",
+        "markdown-configuration",
+        "development-standards",
+        "instruction-injection"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-custom-rules.md",
+      "optimized": true,
+      "word_count": 70
+    },
+    {
+      "file_path": "017-docs-forge-bin.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forge-bin/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:06.666464803-03:00",
+      "description": "Point the ForgeCode ZSH plugin at a custom binary — a local build, a specific path, or an alternative installation.",
+      "summary": "Use the `FORGE_BIN` environment variable to point the ForgeCode ZSH plugin at a custom binary.",
+      "tags": [
+        "zsh-plugin",
+        "binary-path",
+        "environment-variables",
+        "forgecode-configuration",
+        "shell-integration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-forge-bin.md",
+      "optimized": true,
+      "word_count": 90
+    },
+    {
+      "file_path": "018-docs-forge-config.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forge-config/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:07.640682395-03:00",
+      "description": "Change where ForgeCode stores its configuration directory — move ~/.forge to any path you choose.",
+      "summary": "Use the `FORGE_CONFIG` environment variable to relocate the ForgeCode configuration directory.",
+      "tags": [
+        "forgecode",
+        "configuration-file",
+        "environment-variables",
+        "dotfiles",
+        "directory-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-forge-config.md",
+      "optimized": true,
+      "word_count": 95
+    },
+    {
+      "file_path": "019-docs-forge-term.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forge-term/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:09.5536454-03:00",
+      "description": "Enable terminal context capture so ForgeCode knows what commands you recently ran when you invoke it from your zsh session.",
+      "summary": "Use `FORGE_TERM` to automatically provide terminal command history and execution status to ForgeCode.",
+      "tags": [
+        "zsh-plugin",
+        "terminal-integration",
+        "context-capture",
+        "command-history",
+        "forgecode-configuration"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-forge-term.md",
+      "optimized": true,
+      "word_count": 132
+    },
+    {
+      "file_path": "020-docs-forgecode-config.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/forgecode-config/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:10.698595253-03:00",
+      "description": "ForgeCode's global configuration lives at ~/.forge/.forge.toml. This file controls limits, model sampling parameters, retry behaviour, HTTP settings, context compaction, and automatic updates.",
+      "summary": "Configuration parameters for ForgeCode, covering resource limits, networking, retry logic, and context compaction.",
+      "tags": [
+        "configuration-file",
+        "application-settings",
+        "resource-limits",
+        "http-settings",
+        "retry-strategy",
+        "context-management"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-forgecode-config.md",
+      "optimized": true,
+      "word_count": 238
+    },
+    {
+      "file_path": "021-docs-permissions.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/permissions/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:14.607232927-03:00",
+      "description": "Control what ForgeCode can read, write, run, and fetch when restricted mode is enabled.",
+      "summary": "Configure `permissions.yaml` to restrict built-in tool operations in ForgeCode's restricted mode.",
+      "tags": [
+        "security-policy",
+        "access-control",
+        "restricted-mode",
+        "forgecode-configuration",
+        "tool-permissions"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-permissions.md",
+      "optimized": true,
+      "word_count": 270
+    },
+    {
+      "file_path": "022-docs-proxy-configuration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/proxy-configuration/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:16.814649196-03:00",
+      "description": "Configure ForgeCode to route API traffic through an HTTP or HTTPS proxy server.",
+      "summary": "Configure ForgeCode to route API traffic through HTTP/HTTPS proxies, including authentication and certificate management.",
+      "tags": [
+        "proxy-configuration",
+        "network-settings",
+        "environment-variables",
+        "tls-certificates",
+        "security",
+        "firewall-setup"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-proxy-configuration.md",
+      "optimized": true,
+      "word_count": 213
+    },
+    {
+      "file_path": "023-docs-mcp-integration.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/mcp-integration/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:12.662968235-03:00",
+      "description": "Learn how to configure and use MCP servers to extend ForgeCode with external tools and services.",
+      "summary": "Manage MCP servers in ForgeCode for external tool/API integration, browser automation, and development workflows.",
+      "tags": [
+        "mcp",
+        "forgecode",
+        "cli-reference",
+        "agent-integration",
+        "server-configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-mcp-integration.md",
+      "optimized": true,
+      "word_count": 248
+    },
+    {
+      "file_path": "024-docs-shortcuts.md",
+      "title": "ForgeCode",
+      "url": "https://forgecode.dev/docs/shortcuts/",
+      "source": "sitemap",
+      "fetched_at": "2026-04-30T14:09:17.382339107-03:00",
+      "description": "ZSH keyboard shortcuts available in your terminal session.",
+      "summary": "Common ZSH shell keyboard shortcuts for line editing, history navigation, and terminal control.",
+      "tags": [
+        "zsh",
+        "command-line",
+        "keyboard-shortcuts",
+        "shell-navigation",
+        "terminal-productivity"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-shortcuts.md",
+      "optimized": true,
+      "word_count": 262
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-04-30T17:13:43.579010+00:00",
+    "total_files": 24,
+    "categories": [
+      "Tutorials & Guides",
+      "Configuration",
+      "API Reference"
+    ],
+    "dropped": []
+  },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-04-30T17:20:38.994275+00:00",
+    "files_optimized": 24,
+    "files_deleted": 0,
+    "deleted_files": []
+  }
+}

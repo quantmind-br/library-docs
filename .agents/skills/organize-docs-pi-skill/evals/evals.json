@@ -1,0 +1,26 @@
+{
+  "skill_name": "organize-docs-skill",
+  "evals": [
+    {
+      "id": 1,
+      "name": "fresh-folder-with-prefix-and-index",
+      "prompt": "Organize the documentation folder at /home/diogo/dev/library-docs/claude-code. Apply the full pipeline (Phase 1 through Phase 7) and report the verification verdict. The folder shares a common filename prefix and may contain at least one file with the substring 'index' in its name. Work on a copy at /tmp/eval-claude-code so the original stays intact.",
+      "expected_output": "All files renamed to nnn-<lowercase>.md (001-117 contiguous). 000-index.md generated with bucket sections and learning path. metadata.json mutated to add original_file_path + organization{}. verify.sh exits 0 with PASS message.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "mixed-prefix-folder",
+      "prompt": "Organize /home/diogo/dev/library-docs/crawl4ai. Files use varied category prefixes (core-, api-, advanced-, blog-) so the common-prefix strip should NOT fire. Apply Phases 1-7 on a copy at /tmp/eval-crawl4ai. Report which buckets were used, whether any files needed semantic rename for 'index' substring, and the verification verdict.",
+      "expected_output": "normalize.py reports prefix_stripped: null. Sequential numbering applied across detected categories. 000-index.md generated. verify.sh PASS.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "idempotent-rerun",
+      "prompt": "Run organize-docs-skill on /tmp/eval-claude-code-rerun (a copy of /home/diogo/dev/library-docs/claude-code which is ALREADY organized — files already have nnn- prefix and 000-index.md exists). Confirm the skill is idempotent: re-running produces the same valid state without corruption. Report any drift between first and second runs.",
+      "expected_output": "Second run completes without errors. File count unchanged. Numbering unchanged or only minimally re-shuffled. verify.sh PASS both times. No file lost or duplicated.",
+      "files": []
+    }
+  ]
+}

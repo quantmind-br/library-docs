@@ -1,0 +1,309 @@
+{
+  "generated_at": "2026-04-27T21:18:14.97241531-03:00",
+  "source_url": "https://github.com/nicobailon/pi-subagents",
+  "strategy": "git",
+  "total_documents": 18,
+  "documents": [
+    {
+      "file_path": ".github-workflows-test.yml",
+      "title": "Test",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/.github/workflows/test.yml",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:17:59.384253561-03:00",
+      "summary": "This configuration defines a GitHub Actions workflow that triggers on pushes or pull requests to the main branch, executing multiple testing jobs across different operating systems.",
+      "tags": [
+        "github-actions",
+        "workflow",
+        "testing",
+        "ci-cd",
+        "node-js",
+        "builds"
+      ],
+      "category": "configuration"
+    },
+    {
+      "file_path": "agents-context-builder.md",
+      "title": "Context builder",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/context-builder.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:17:59.384253461-03:00",
+      "summary": "This document defines the 'context-builder' subagent, which analyzes user requirements against an existing codebase to generate structured context and meta-prompt files for downstream planning.",
+      "tags": [
+        "requirements-analysis",
+        "context-building",
+        "meta-prompting",
+        "codebase-review",
+        "handover-material"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "README.md",
+      "title": "README",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/README.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:17:59.384278659-03:00",
+      "summary": "This document describes pi-subagents, a feature that allows Pi to delegate tasks to specialized, focused child agents for various functions like code review, planning, and research. It details installation, usage prompts, built-in agents, configuration options, and workflows.",
+      "tags": [
+        "agent-delegation",
+        "ai-workflow",
+        "code-review",
+        "pi-subagents",
+        "tooling",
+        "automation"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "agents-delegate.md",
+      "title": "Delegate",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/delegate.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:17:59.384251688-03:00",
+      "summary": "This document defines the configuration for a lightweight subagent that inherits from a parent model but specifically omits default read capabilities. It sets system behavior to be directive, efficient, and task-focused.",
+      "tags": [
+        "delegate",
+        "subagent",
+        "lightweight",
+        "inheritance",
+        "system-prompt",
+        "task-execution"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "CHANGELOG.md",
+      "title": "CHANGELOG",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/CHANGELOG.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:17:59.384290582-03:00",
+      "summary": "This document serves as a changelog detailing recent updates, additions, changes, and fixes across various features of the system, primarily focusing on prompt templates, agent roles, subagent workflows, parallel task management, and improved result delivery mechanisms.",
+      "tags": [
+        "changelog-updates",
+        "agent-workflows",
+        "prompt-templates",
+        "subagent-management",
+        "parallel-tasks",
+        "api-changes"
+      ],
+      "category": "reference"
+    },
+    {
+      "file_path": "agents-reviewer.md",
+      "title": "Reviewer",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/reviewer.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:03.194403566-03:00",
+      "summary": "This document defines the persona, tools, and operational rules for a 'reviewer' subagent tasked with validating code implementation against a plan and fixing any identified issues.",
+      "tags": [
+        "code-review",
+        "agent-persona",
+        "implementation-validation",
+        "working-rules",
+        "subagent"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "agents-planner.md",
+      "title": "Planner",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/planner.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:02.080886609-03:00",
+      "summary": "This document defines the blueprint and operational rules for a 'planner' subagent whose primary purpose is to translate high-level requirements and existing code context into a detailed, concrete implementation plan.",
+      "tags": [
+        "planning-subagent",
+        "implementation-guide",
+        "ai-workflow",
+        "task-generation",
+        "system-prompting"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "agents-oracle.md",
+      "title": "Oracle",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/oracle.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:01.435760045-03:00",
+      "summary": "This document outlines the operational contract and responsibilities of a high-context decision-consistency subagent named 'the oracle'. Its purpose is to maintain consistency within an agent's context by reconstructing past decisions, identifying deviations (drift), surfacing contradictions, and recommending corrective actions.",
+      "tags": [
+        "decision-making",
+        "consistency-checking",
+        "context-management",
+        "agent-subsystem",
+        "oracle-role",
+        "state-protection"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "agents-researcher.md",
+      "title": "Researcher",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/researcher.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:02.721825946-03:00",
+      "summary": "This document defines the 'researcher' subagent, an autonomous agent designed to conduct focused web research and synthesize a concise brief answering a given question or topic. It outlines specific workflow rules, such as breaking problems into angles and prioritizing primary sources, along with the required output structure in research.md.",
+      "tags": [
+        "autonomous-researcher",
+        "web-search",
+        "agent-workflow",
+        "brief-synthesis",
+        "research-brief",
+        "openai-codex"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "package.json",
+      "title": "Package",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/package.json",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:05.148575065-03:00",
+      "summary": "This document describes the pi-subagents module, a Pi extension designed for delegating tasks to subagents through features like chains, parallel execution, and TUI clarification.",
+      "tags": [
+        "pi-extension",
+        "subagents",
+        "task-delegation",
+        "ai-agent",
+        "parallel-execution",
+        "cli"
+      ],
+      "category": "module"
+    },
+    {
+      "file_path": "agents-worker.md",
+      "title": "Worker",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/worker.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:04.895011943-03:00",
+      "summary": "This document defines the role and responsibilities of the 'worker' subagent, detailing how it should execute assigned tasks by implementing narrow, coherent code edits while adhering to strict validation and reporting protocols.",
+      "tags": [
+        "implementation-agent",
+        "subagent",
+        "execution-logic",
+        "coding-rules",
+        "task-handling"
+      ],
+      "category": "concept"
+    },
+    {
+      "file_path": "prompts-parallel-cleanup.md",
+      "title": "Parallel cleanup",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/prompts/parallel-cleanup.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:06.651497532-03:00",
+      "summary": "This document outlines the process for conducting an adversarial cleanup review by deploying two specialized subagents: one focused on 'slop' patterns and another on needless verbosity. It details the scope, required focus areas, and expected output format for these reviewers.",
+      "tags": [
+        "code-review",
+        "cleanup-process",
+        "ai-reviewer",
+        "adversarial-testing",
+        "verbosity-check",
+        "slop-detection"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "prompts-parallel-research.md",
+      "title": "Parallel research",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/prompts/parallel-research.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:07.613270503-03:00",
+      "summary": "This document outlines a methodology for launching parallel research subagents to generate comprehensive, grounded answers to complex questions or decisions. It details how to utilize 'researcher' and 'scout' agents with specific angles to gather evidence from external sources and the local codebase before synthesizing the final findings.",
+      "tags": [
+        "parallel-subagents",
+        "grounded-answer",
+        "research-workflow",
+        "researcher-agent",
+        "scout-agent",
+        "evidence-gathering"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "prompts-parallel-review.md",
+      "title": "Parallel review",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/prompts/parallel-review.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:08.633546421-03:00",
+      "summary": "This document describes the process for launching parallel subagents to conduct an adversarial review of a piece of work by inspecting the repository, instructions, and current diff directly. It details how to select review angles, which must be distinct, and specifies formatting guidelines for the resulting feedback.",
+      "tags": [
+        "parallel-review",
+        "adversarial-review",
+        "subagents",
+        "code-inspection",
+        "reviewer-angles",
+        "feedback-synthesis"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "agents-scout.md",
+      "title": "Scout",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/agents/scout.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:04.395982309-03:00",
+      "summary": "This document defines the operating parameters and workflow for a 'scout' subagent, which is designed to perform rapid codebase reconnaissance by collecting essential context for another acting agent.",
+      "tags": [
+        "codebase-recon",
+        "subagent-workflow",
+        "context-generation",
+        "tool-usage",
+        "fast-search"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "skills-pi-subagents-SKILL.md",
+      "title": "SKILL",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/skills/pi-subagents/SKILL.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:10.229334702-03:00",
+      "summary": "This document details the concept and usage of Pi Subagents, which allows users to delegate specialized tasks to individual or orchestrated workflows involving multiple agents. It explains when and how to use subagents for review, planning, implementation handoffs, and concurrent execution.",
+      "tags": [
+        "agent-workflow",
+        "subagent-delegation",
+        "pipeline-management",
+        "task-orchestration",
+        "pi-system",
+        "multi-agent"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "prompts-gather-context-and-clarify.md",
+      "title": "Gather context and clarify",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/prompts/gather-context-and-clarify.md",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:06.320659763-03:00",
+      "summary": "This document describes a workflow methodology where context-gathering subagents are launched prior to planning or implementation to gather necessary information.",
+      "tags": [
+        "subagent-workflow",
+        "context-gathering",
+        "scout-researcher",
+        "meta-prompting",
+        "clarification-questions",
+        "interview-tool"
+      ],
+      "category": "guide"
+    },
+    {
+      "file_path": "package-lock.json",
+      "title": "Package lock",
+      "url": "https://github.com/nicobailon/pi-subagents/blob/main/package-lock.json",
+      "source": "git",
+      "fetched_at": "2026-04-27T21:18:05.088323623-03:00",
+      "summary": "This document provides a package manifest detailing the dependencies and metadata for 'pi-subagents' version 0.20.1. It lists required, development, and peer dependencies, along with specific versions for various related packages like @anthropic-ai/sdk and AWS crypto utilities.",
+      "tags": [
+        "package-manifest",
+        "dependency-list",
+        "npm-metadata",
+        "pi-subagents",
+        "aws-crypto",
+        "node-modules"
+      ],
+      "category": "reference"
+    }
+  ]
+}

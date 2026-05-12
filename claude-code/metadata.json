@@ -1,1063 +1,2236 @@
 {
-  "generated_at": "2026-01-28T02:26:06.433657892-03:00",
+  "generated_at": "2026-04-26T08:05:01.98088403-03:00",
   "source_url": "https://code.claude.com/docs/llms.txt",
   "strategy": "llms",
-  "total_documents": 52,
+  "total_documents": 117,
   "documents": [
     {
-      "file_path": "001-docs-en-overview.md",
-      "title": "Claude Code overview",
-      "url": "https://code.claude.com/docs/en/overview.md",
+      "file_path": "001-agent-sdk-quickstart.md",
+      "title": "Quickstart",
+      "url": "https://code.claude.com/docs/en/agent-sdk/quickstart.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:41.029227827-03:00",
+      "fetched_at": "2026-04-26T08:01:32.224036522-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides an introduction to Claude Code, an agentic coding tool for the terminal that assists with building features, debugging, and navigating codebases. It details installation procedures for various platforms and outlines integrations with IDEs, CI/CD pipelines, and cloud environments.",
+      "summary": "This document provides a foundational guide for developers to install and use the Claude Agent SDK to build autonomous agents capable of performing file operations and code remediation.",
       "tags": [
-        "claude-code",
-        "cli-tool",
-        "ai-coding",
-        "agentic-ai",
-        "installation",
-        "developer-tools"
+        "agent-sdk",
+        "python",
+        "typescript",
+        "code-remediation",
+        "automation",
+        "api-integration"
       ],
-      "category": "guide",
-      "original_file_path": "docs-en-overview.md",
-      "_assigned_category": "Introduction & Overview"
+      "category": "tutorial",
+      "original_file_path": "docs-en-agent-sdk-quickstart.md"
     },
     {
-      "file_path": "002-docs-en-features-overview.md",
-      "title": "Extend Claude Code",
-      "url": "https://code.claude.com/docs/en/features-overview.md",
+      "file_path": "002-desktop-quickstart.md",
+      "title": "Get started with the desktop app",
+      "url": "https://code.claude.com/docs/en/desktop-quickstart.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:19.325721747-03:00",
+      "fetched_at": "2026-04-26T08:02:46.169295997-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This guide explains the different ways to extend Claude Code using skills, MCP, subagents, hooks, and plugins. It provides a framework for choosing the right extension type based on project goals and automation needs.",
+      "summary": "This document provides instructions for installing the Claude Code desktop application and initiating your first coding session, including how to configure environments, review code changes, and utilize interactive features.",
       "tags": [
         "claude-code",
-        "mcp-protocol",
-        "workflow-automation",
-        "subagents",
-        "skills",
-        "extension-guide"
+        "desktop-app",
+        "installation-guide",
+        "coding-assistant",
+        "getting-started",
+        "software-development"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-features-overview.md",
-      "_assigned_category": "Introduction & Overview"
+      "original_file_path": "docs-en-desktop-quickstart.md"
     },
     {
-      "file_path": "003-docs-en-quickstart.md",
+      "file_path": "003-quickstart.md",
       "title": "Quickstart",
       "url": "https://code.claude.com/docs/en/quickstart.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:45.698890124-03:00",
+      "fetched_at": "2026-04-26T08:04:00.049690696-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This guide provides step-by-step instructions for installing, authenticating, and using the Claude Code CLI to perform common development tasks like code analysis, editing, and Git integration.",
+      "summary": "This document provides an interactive setup guide for installing Claude Code across various platforms, including terminal environments and IDE plugins.",
       "tags": [
-        "installation",
         "claude-code",
-        "cli-tools",
-        "getting-started",
-        "terminal",
-        "workflow"
+        "installation",
+        "quickstart",
+        "developer-tools",
+        "cli",
+        "ide-plugins"
       ],
       "category": "tutorial",
-      "original_file_path": "docs-en-quickstart.md",
-      "_assigned_category": "Introduction & Overview"
+      "original_file_path": "docs-en-quickstart.md"
     },
     {
-      "file_path": "004-docs-en-third-party-integrations.md",
-      "title": "Enterprise deployment overview",
-      "url": "https://code.claude.com/docs/en/third-party-integrations.md",
+      "file_path": "004-web-quickstart.md",
+      "title": "Get started with Claude Code on the web",
+      "url": "https://code.claude.com/docs/en/web-quickstart.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:56.397813116-03:00",
+      "fetched_at": "2026-04-26T08:04:42.226667887-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides an overview of enterprise deployment options for Claude Code, comparing Anthropic's native plans with various cloud provider integrations and detailing network configurations for proxies and gateways.",
+      "summary": "This document provides an overview of Claude Code on the web, explaining how to run coding tasks in browser-based cloud environments, connect GitHub repositories, and configure session settings.",
       "tags": [
         "claude-code",
-        "enterprise-deployment",
-        "cloud-infrastructure",
-        "network-configuration",
-        "proxy-settings",
-        "llm-gateway"
+        "cloud-development",
+        "github-integration",
+        "web-interface",
+        "remote-development",
+        "environment-configuration"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-third-party-integrations.md",
-      "_assigned_category": "Introduction & Overview"
+      "original_file_path": "docs-en-web-quickstart.md"
     },
     {
-      "file_path": "005-docs-en-hooks-guide.md",
-      "title": "Get started with Claude Code hooks",
-      "url": "https://code.claude.com/docs/en/hooks-guide.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:25.669207847-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to customize and extend Claude Code's behavior using shell command hooks that execute during various lifecycle events like tool use or session starts.",
-      "tags": [
-        "claude-code",
-        "hooks",
-        "automation",
-        "shell-scripts",
-        "workflow-customization",
-        "cli-tools"
-      ],
-      "category": "tutorial",
-      "original_file_path": "docs-en-hooks-guide.md",
-      "_assigned_category": "Introduction & Overview"
-    },
-    {
-      "file_path": "006-docs-en-setup.md",
-      "title": "Set up Claude Code",
-      "url": "https://code.claude.com/docs/en/setup.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:48.958639084-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides comprehensive instructions for installing, authenticating, and configuring Claude Code on various operating systems and development environments.",
-      "tags": [
-        "installation",
-        "authentication",
-        "claude-code",
-        "configuration",
-        "system-requirements",
-        "windows-setup"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-setup.md",
-      "_assigned_category": "Quick Start & Installation"
-    },
-    {
-      "file_path": "007-docs-en-discover-plugins.md",
+      "file_path": "005-discover-plugins.md",
       "title": "Discover and install prebuilt plugins through marketplaces",
       "url": "https://code.claude.com/docs/en/discover-plugins.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:19.31125957-03:00",
+      "fetched_at": "2026-04-26T08:02:52.065372137-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to discover and install prebuilt plugins from marketplaces to extend Claude Code with new commands, agents, and capabilities. It covers the official Anthropic marketplace, code intelligence plugins, and the process for adding third-party catalogs.",
+      "summary": "This document explains how to discover, manage, and install plugins for Claude Code using marketplace catalogs, including details on official repositories, code intelligence integration, and external service connectors.",
       "tags": [
         "claude-code",
-        "plugins",
+        "plugin-management",
         "marketplaces",
-        "lsp-servers",
+        "code-intelligence",
         "mcp-servers",
-        "extension-management"
+        "developer-tools"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-discover-plugins.md",
-      "_assigned_category": "Quick Start & Installation"
+      "original_file_path": "docs-en-discover-plugins.md"
     },
     {
-      "file_path": "008-docs-en-terminal-config.md",
-      "title": "Optimize your terminal setup",
-      "url": "https://code.claude.com/docs/en/terminal-config.md",
+      "file_path": "006-agent-sdk-overview.md",
+      "title": "Agent SDK overview",
+      "url": "https://code.claude.com/docs/en/agent-sdk/overview.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:55.776153345-03:00",
+      "fetched_at": "2026-04-26T08:01:24.645478525-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides configuration steps and best practices for optimizing terminal environments for Claude Code, covering appearance, keyboard shortcuts, and vim mode.",
+      "summary": "This document provides an overview and installation guide for the Claude Agent SDK, enabling developers to build autonomous AI agents using Python or TypeScript. It covers setting up API authentication and leveraging built-in tools for tasks like file management, code editing, and command execution.",
+      "tags": [
+        "claude-agent-sdk",
+        "ai-agents",
+        "python",
+        "typescript",
+        "autonomous-agents",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-overview.md"
+    },
+    {
+      "file_path": "007-features-overview.md",
+      "title": "Extend Claude Code",
+      "url": "https://code.claude.com/docs/en/features-overview.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:00.049108635-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide provides an overview of the extension features available in Claude Code, including skills, subagents, hooks, MCP, and plugins, to help developers customize and automate their coding workflows.",
       "tags": [
         "claude-code",
-        "terminal-setup",
-        "vim-mode",
-        "keyboard-shortcuts",
-        "iterm2",
-        "notification-configuration"
+        "extensibility",
+        "developer-tools",
+        "agentic-workflow",
+        "automation",
+        "configuration"
       ],
-      "category": "configuration",
-      "original_file_path": "docs-en-terminal-config.md",
-      "_assigned_category": "Quick Start & Installation"
+      "category": "guide",
+      "original_file_path": "docs-en-features-overview.md"
     },
     {
-      "file_path": "009-docs-en-best-practices.md",
+      "file_path": "008-admin-setup.md",
+      "title": "Set up Claude Code for your organization",
+      "url": "https://code.claude.com/docs/en/admin-setup.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:17.126132073-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a decision framework for administrators to deploy Claude Code, detailing how to manage organizational policies, API provider selection, settings distribution, and usage enforcement.",
+      "tags": [
+        "claude-code",
+        "enterprise-deployment",
+        "policy-management",
+        "api-integration",
+        "admin-guide",
+        "security-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-admin-setup.md"
+    },
+    {
+      "file_path": "009-agent-sdk-cost-tracking.md",
+      "title": "Track cost and usage",
+      "url": "https://code.claude.com/docs/en/agent-sdk/cost-tracking.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:17.122446101-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to track token usage, estimate costs, and monitor per-step performance using the Claude Agent SDK for both TypeScript and Python.",
+      "tags": [
+        "token-usage",
+        "cost-tracking",
+        "sdk-development",
+        "performance-monitoring",
+        "claude-agent-sdk"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-cost-tracking.md"
+    },
+    {
+      "file_path": "010-agent-sdk-custom-tools.md",
+      "title": "Give Claude custom tools",
+      "url": "https://code.claude.com/docs/en/agent-sdk/custom-tools.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:17.132696798-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to define and register custom tools using the Claude Agent SDK and in-process MCP servers, enabling the model to interface with external APIs and databases.",
+      "tags": [
+        "claude-agent-sdk",
+        "mcp-server",
+        "custom-tools",
+        "api-integration",
+        "python",
+        "typescript",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-custom-tools.md"
+    },
+    {
+      "file_path": "011-agent-sdk-file-checkpointing.md",
+      "title": "Rewind file changes with checkpointing",
+      "url": "https://code.claude.com/docs/en/agent-sdk/file-checkpointing.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:18.989765507-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to utilize file checkpointing in the Claude Agent SDK to track file modifications and revert them to previous states during agent sessions.",
+      "tags": [
+        "file-checkpointing",
+        "sdk-guide",
+        "version-control",
+        "file-management",
+        "agent-development",
+        "state-recovery"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-file-checkpointing.md"
+    },
+    {
+      "file_path": "012-agent-sdk-hooks.md",
+      "title": "Intercept and control agent behavior with hooks",
+      "url": "https://code.claude.com/docs/en/agent-sdk/hooks.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:19.158984868-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use hooks to intercept, monitor, and control agent behavior at various stages of the execution lifecycle, including security and logging.",
+      "tags": [
+        "agent-sdk",
+        "event-hooks",
+        "tool-control",
+        "security-compliance",
+        "callback-functions",
+        "event-driven-architecture"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-hooks.md"
+    },
+    {
+      "file_path": "013-agent-sdk-hosting.md",
+      "title": "Hosting the Agent SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/hosting.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:19.168511453-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide outlines the architectural requirements, infrastructure needs, and deployment patterns for hosting Claude Agent SDK applications in production environments.",
+      "tags": [
+        "agent-sdk",
+        "production-deployment",
+        "sandboxing",
+        "containerization",
+        "infrastructure",
+        "system-requirements"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-hosting.md"
+    },
+    {
+      "file_path": "014-agent-sdk-mcp.md",
+      "title": "Connect to external tools with MCP",
+      "url": "https://code.claude.com/docs/en/agent-sdk/mcp.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:19.218246062-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and integrate Model Context Protocol (MCP) servers with AI agents to access external tools, data sources, and services. It covers server configuration methods, tool permission management, and supported transport protocols.",
+      "tags": [
+        "mcp",
+        "ai-agents",
+        "tool-integration",
+        "sdk-configuration",
+        "security-permissions",
+        "server-transport"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-mcp.md"
+    },
+    {
+      "file_path": "015-agent-sdk-modifying-system-prompts.md",
+      "title": "Modifying system prompts",
+      "url": "https://code.claude.com/docs/en/agent-sdk/modifying-system-prompts.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:20.557338963-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to customize the behavior of Claude using the Agent SDK through three primary methods: CLAUDE.md files, persistent output styles, and custom system prompt appending.",
+      "tags": [
+        "claude-sdk",
+        "system-prompts",
+        "configuration",
+        "agent-behavior",
+        "claude-md",
+        "customization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-modifying-system-prompts.md"
+    },
+    {
+      "file_path": "016-agent-sdk-observability.md",
+      "title": "Observability with OpenTelemetry",
+      "url": "https://code.claude.com/docs/en/agent-sdk/observability.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:22.846485483-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to configure the Agent SDK to export telemetry data, including traces, metrics, and logs, to observability backends using the OpenTelemetry Protocol.",
+      "tags": [
+        "opentelemetry",
+        "observability",
+        "agent-sdk",
+        "telemetry-export",
+        "monitoring"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-observability.md"
+    },
+    {
+      "file_path": "017-agent-sdk-plugins.md",
+      "title": "Plugins in the SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/plugins.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:28.313528096-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to extend Claude Code by loading and using local plugins via the Agent SDK to add custom skills, subagents, and tool integrations.",
+      "tags": [
+        "claude-code",
+        "agent-sdk",
+        "plugins",
+        "skills",
+        "mcp-servers",
+        "custom-commands"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-plugins.md"
+    },
+    {
+      "file_path": "018-agent-sdk-secure-deployment.md",
+      "title": "Securely deploying AI agents",
+      "url": "https://code.claude.com/docs/en/agent-sdk/secure-deployment.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:34.195481817-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines best practices and technical strategies for securely deploying AI agents, focusing on isolation techniques, least privilege principles, and built-in security features to mitigate risks like prompt injection.",
+      "tags": [
+        "ai-security",
+        "agent-deployment",
+        "threat-modeling",
+        "sandbox-isolation",
+        "least-privilege",
+        "network-security",
+        "defense-in-depth"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-secure-deployment.md"
+    },
+    {
+      "file_path": "019-agent-sdk-sessions.md",
+      "title": "Work with sessions",
+      "url": "https://code.claude.com/docs/en/agent-sdk/sessions.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:36.544600613-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to manage conversation history using sessions, detailing methods for continuing, resuming, and forking agent workflows.",
+      "tags": [
+        "conversation-history",
+        "session-management",
+        "agent-sdk",
+        "persistence",
+        "context-tracking"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-sessions.md"
+    },
+    {
+      "file_path": "020-agent-sdk-skills.md",
+      "title": "Agent Skills in the SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/skills.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:38.402039506-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and use Agent Skills within the Claude Agent SDK to provide Claude with specialized, filesystem-based capabilities.",
+      "tags": [
+        "agent-sdk",
+        "claude-skills",
+        "filesystem-discovery",
+        "tool-configuration",
+        "sdk-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-skills.md"
+    },
+    {
+      "file_path": "021-agent-sdk-slash-commands.md",
+      "title": "Slash Commands in the SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/slash-commands.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:40.006890715-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to interact with and extend Claude Code sessions using slash commands within the Agent SDK, including discovering available commands, executing them, and creating custom command definitions.",
+      "tags": [
+        "slash-commands",
+        "claude-sdk",
+        "agent-automation",
+        "context-management",
+        "custom-skills"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-slash-commands.md"
+    },
+    {
+      "file_path": "022-agent-sdk-streaming-output.md",
+      "title": "Stream responses in real-time",
+      "url": "https://code.claude.com/docs/en/agent-sdk/streaming-output.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:42.292533035-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to enable and process real-time streaming of text and tool calls using the Agent SDK by configuring partial message options.",
+      "tags": [
+        "sdk-streaming",
+        "real-time-responses",
+        "partial-messages",
+        "event-handling",
+        "content-block-delta"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-streaming-output.md"
+    },
+    {
+      "file_path": "023-agent-sdk-streaming-vs-single-mode.md",
+      "title": "Streaming Input",
+      "url": "https://code.claude.com/docs/en/agent-sdk/streaming-vs-single-mode.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:44.180927657-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide details the two input modes available in the Claude Agent SDK, comparing the persistent, feature-rich streaming input mode against the simpler, stateless single message input mode.",
+      "tags": [
+        "claude-agent-sdk",
+        "streaming-input",
+        "single-message-input",
+        "agent-development",
+        "session-management",
+        "api-guide"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-streaming-vs-single-mode.md"
+    },
+    {
+      "file_path": "024-agent-sdk-structured-outputs.md",
+      "title": "Get structured output from agents",
+      "url": "https://code.claude.com/docs/en/agent-sdk/structured-outputs.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:46.141984099-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure agent workflows to return validated, type-safe JSON data using JSON Schema, Zod, or Pydantic.",
+      "tags": [
+        "structured-output",
+        "json-schema",
+        "type-safety",
+        "zod",
+        "pydantic",
+        "agent-workflows",
+        "data-validation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-structured-outputs.md"
+    },
+    {
+      "file_path": "025-agent-sdk-subagents.md",
+      "title": "Subagents in the SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/subagents.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:48.385484689-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to define and utilize subagents within the Claude Agent SDK to isolate context, enable parallel task execution, and apply specialized instructions.",
+      "tags": [
+        "claude-sdk",
+        "subagents",
+        "agent-orchestration",
+        "context-isolation",
+        "parallel-processing",
+        "sdk-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-subagents.md"
+    },
+    {
+      "file_path": "026-agent-sdk-todo-tracking.md",
+      "title": "Todo Lists",
+      "url": "https://code.claude.com/docs/en/agent-sdk/todo-tracking.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:50.145600106-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to utilize the Claude Agent SDK's built-in todo functionality to track, monitor, and display the progress of multi-step tasks within an agent workflow.",
+      "tags": [
+        "claude-agent-sdk",
+        "task-management",
+        "todo-tracking",
+        "workflow-automation",
+        "sdk-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-todo-tracking.md"
+    },
+    {
+      "file_path": "027-agent-sdk-tool-search.md",
+      "title": "Scale to many tools with tool search",
+      "url": "https://code.claude.com/docs/en/agent-sdk/tool-search.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:52.095694014-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to implement and configure tool search in the Claude SDK, allowing agents to dynamically discover and load relevant tools from large catalogs to optimize context usage.",
+      "tags": [
+        "tool-search",
+        "agent-development",
+        "context-optimization",
+        "mcp-servers",
+        "sdk-configuration",
+        "ai-agents"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-tool-search.md"
+    },
+    {
+      "file_path": "028-agent-sdk-user-input.md",
+      "title": "Handle approvals and user input",
+      "url": "https://code.claude.com/docs/en/agent-sdk/user-input.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:58.065402661-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to implement the canUseTool callback in the Claude SDK to intercept and handle requests for user permission and clarifying questions during agent execution.",
+      "tags": [
+        "claude-sdk",
+        "user-input",
+        "tool-approval",
+        "callback-handlers",
+        "agent-development",
+        "permission-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-user-input.md"
+    },
+    {
+      "file_path": "029-agent-teams.md",
+      "title": "Orchestrate teams of Claude Code sessions",
+      "url": "https://code.claude.com/docs/en/agent-teams.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:00.079505119-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and coordinate multiple Claude Code instances as an agent team for collaborative task execution and parallel development.",
+      "tags": [
+        "agent-teams",
+        "multi-agent-orchestration",
+        "parallel-processing",
+        "workflow-automation",
+        "claude-code",
+        "experimental-features"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-teams.md"
+    },
+    {
+      "file_path": "030-amazon-bedrock.md",
+      "title": "Claude Code on Amazon Bedrock",
+      "url": "https://code.claude.com/docs/en/amazon-bedrock.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:02.13096398-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for configuring Claude Code to work with Amazon Bedrock, covering prerequisites, AWS IAM setup, and model access.",
+      "tags": [
+        "amazon-bedrock",
+        "claude-code",
+        "aws-configuration",
+        "iam-permissions",
+        "model-setup"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-amazon-bedrock.md"
+    },
+    {
+      "file_path": "031-analytics.md",
+      "title": "Track team usage with analytics",
+      "url": "https://code.claude.com/docs/en/analytics.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:04.375599396-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to access and configure analytics dashboards for Claude Code to track usage patterns, developer productivity, and GitHub contribution metrics.",
+      "tags": [
+        "analytics",
+        "usage-metrics",
+        "github-integration",
+        "contribution-tracking",
+        "developer-productivity",
+        "dashboard"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-analytics.md"
+    },
+    {
+      "file_path": "032-authentication.md",
+      "title": "Authentication",
+      "url": "https://code.claude.com/docs/en/authentication.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:06.081723148-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for authenticating with Claude Code using various methods, including individual accounts, team/enterprise subscriptions, cloud providers, and credential management configuration.",
+      "tags": [
+        "authentication",
+        "claude-code",
+        "login",
+        "cloud-providers",
+        "credential-management",
+        "sso"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-authentication.md"
+    },
+    {
+      "file_path": "033-best-practices.md",
       "title": "Best Practices for Claude Code",
       "url": "https://code.claude.com/docs/en/best-practices.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:05.445711008-03:00",
+      "fetched_at": "2026-04-26T08:02:10.325192271-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document outlines recommended patterns and strategies for using Claude Code effectively, focusing on context management, verification techniques, and structured development workflows.",
+      "summary": "This guide outlines effective patterns and best practices for working with the Claude Code agentic environment, focusing on context management, verification strategies, and structured workflows.",
       "tags": [
-        "best-practices",
-        "agentic-coding",
-        "workflow-design",
-        "context-window",
-        "test-driven-development",
+        "claude-code",
+        "agentic-workflow",
+        "prompt-engineering",
+        "context-management",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-best-practices.md"
+    },
+    {
+      "file_path": "034-channels.md",
+      "title": "Push events into a running session with channels",
+      "url": "https://code.claude.com/docs/en/channels.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:14.105042178-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and use channels in Claude Code to push external messages, alerts, and webhooks into a running session.",
+      "tags": [
+        "claude-code",
+        "mcp-servers",
+        "channels",
+        "automation",
+        "event-driven",
+        "plugins",
+        "integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-channels.md"
+    },
+    {
+      "file_path": "035-chrome.md",
+      "title": "Use Claude Code with Chrome (beta)",
+      "url": "https://code.claude.com/docs/en/chrome.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:20.275404011-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to integrate Claude Code with the Chrome browser to automate web tasks, perform live debugging, and interact with authenticated web applications directly from the terminal.",
+      "tags": [
+        "browser-automation",
+        "claude-code",
+        "web-testing",
+        "cli-tools",
+        "workflow-automation",
+        "debugging"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-chrome.md"
+    },
+    {
+      "file_path": "036-claude-code-on-the-web.md",
+      "title": "Use Claude Code on the web",
+      "url": "https://code.claude.com/docs/en/claude-code-on-the-web.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:21.986097979-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of using Claude Code in cloud-based environments, covering setup, GitHub authentication, environment configuration, and session management.",
+      "tags": [
+        "claude-code",
+        "cloud-environment",
+        "github-integration",
+        "session-management",
+        "setup-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-claude-code-on-the-web.md"
+    },
+    {
+      "file_path": "037-code-review.md",
+      "title": "Code Review",
+      "url": "https://code.claude.com/docs/en/code-review.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:28.223615194-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and use the Claude automated code review service, which utilizes multi-agent analysis to identify logic errors and security vulnerabilities in GitHub pull requests.",
+      "tags": [
+        "automated-code-review",
+        "github-integration",
+        "pull-request-analysis",
+        "static-analysis",
+        "ci-cd-workflow",
+        "code-quality"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-code-review.md"
+    },
+    {
+      "file_path": "038-common-workflows.md",
+      "title": "Common workflows",
+      "url": "https://code.claude.com/docs/en/common-workflows.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:32.176208212-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides practical workflows and guidance for using Claude Code to perform common development tasks such as codebase exploration, bug fixing, refactoring, and using specialized AI subagents.",
+      "tags": [
+        "claude-code",
+        "workflow-automation",
+        "code-refactoring",
+        "debugging-guide",
+        "ai-subagents",
+        "development-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-common-workflows.md"
+    },
+    {
+      "file_path": "039-computer-use.md",
+      "title": "Let Claude use your computer from the CLI",
+      "url": "https://code.claude.com/docs/en/computer-use.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:34.514727428-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to configure and use the computer-use feature in the Claude Code CLI, allowing Claude to interact with macOS applications, perform UI testing, and automate GUI-based workflows.",
+      "tags": [
+        "claude-code",
+        "computer-use",
+        "cli-automation",
+        "macos-gui",
+        "ui-testing",
+        "mcp-server"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-computer-use.md"
+    },
+    {
+      "file_path": "040-costs.md",
+      "title": "Manage costs effectively",
+      "url": "https://code.claude.com/docs/en/costs.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:38.242786816-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides guidance on monitoring, managing, and optimizing token consumption and costs associated with using Claude Code in individual and team environments.",
+      "tags": [
+        "cost-management",
+        "token-usage",
+        "billing",
+        "rate-limits",
+        "context-optimization",
         "claude-code"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-best-practices.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-costs.md"
     },
     {
-      "file_path": "010-docs-en-checkpointing.md",
-      "title": "Checkpointing",
-      "url": "https://code.claude.com/docs/en/checkpointing.md",
+      "file_path": "041-debug-your-config.md",
+      "title": "Debug your configuration",
+      "url": "https://code.claude.com/docs/en/debug-your-config.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:05.446654056-03:00",
+      "fetched_at": "2026-04-26T08:02:41.997314069-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains Claude Code's checkpointing feature, which automatically tracks file edits and enables users to revert code or conversation history to previous states.",
+      "summary": "This guide provides instructions for diagnosing and troubleshooting issues where Claude Code configurations, such as CLAUDE.md files, hooks, or MCP servers, fail to load or behave as expected.",
       "tags": [
-        "claude-code",
-        "checkpointing",
-        "file-tracking",
-        "undo-changes",
-        "version-control",
-        "rewind"
+        "configuration",
+        "debugging",
+        "troubleshooting",
+        "cli-commands",
+        "mcp-servers",
+        "settings-management"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-checkpointing.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-debug-your-config.md"
     },
     {
-      "file_path": "011-docs-en-github-actions.md",
+      "file_path": "042-desktop-scheduled-tasks.md",
+      "title": "Schedule recurring tasks in Claude Code Desktop",
+      "url": "https://code.claude.com/docs/en/desktop-scheduled-tasks.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:48.041715665-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and manage local recurring tasks within Claude Code Desktop to automate workflows like code reviews and audits.",
+      "tags": [
+        "claude-code",
+        "automation",
+        "desktop-app",
+        "scheduled-tasks",
+        "workflow-optimization",
+        "routines"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-desktop-scheduled-tasks.md"
+    },
+    {
+      "file_path": "043-desktop.md",
+      "title": "Use Claude Code Desktop",
+      "url": "https://code.claude.com/docs/en/desktop.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:44.109918887-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive guide to using the Claude Code Desktop application, covering installation, session management, configuration of development environments, and permission modes for autonomous coding tasks.",
+      "tags": [
+        "claude-desktop",
+        "software-development",
+        "agentic-workflow",
+        "permission-modes",
+        "session-management",
+        "ide-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-desktop.md"
+    },
+    {
+      "file_path": "044-devcontainer.md",
+      "title": "Development containers",
+      "url": "https://code.claude.com/docs/en/devcontainer.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:50.140059538-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of the Claude Code development container, explaining how to set up, configure, and secure a consistent, isolated environment for development workflows.",
+      "tags": [
+        "development-containers",
+        "claude-code",
+        "security-isolation",
+        "vs-code",
+        "environment-setup",
+        "network-firewall"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-devcontainer.md"
+    },
+    {
+      "file_path": "045-fast-mode.md",
+      "title": "Speed up responses with fast mode",
+      "url": "https://code.claude.com/docs/en/fast-mode.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:58.013682248-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use fast mode in Claude Code to optimize Opus 4.6 for lower latency, including configuration options, cost implications, and administrative requirements.",
+      "tags": [
+        "claude-code",
+        "fast-mode",
+        "opus-4.6",
+        "latency-optimization",
+        "configuration",
+        "cost-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-fast-mode.md"
+    },
+    {
+      "file_path": "046-github-actions.md",
       "title": "Claude Code GitHub Actions",
       "url": "https://code.claude.com/docs/en/github-actions.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:20.252157291-03:00",
+      "fetched_at": "2026-04-26T08:03:04.180480698-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides instructions for integrating Claude Code into GitHub Actions workflows to automate development tasks such as code analysis, PR creation, and bug fixing. It details setup methods, migration steps for upgrading from beta to version 1.0, and practical configuration examples.",
+      "summary": "This document provides a guide for integrating Claude Code into GitHub workflows using GitHub Actions to automate code reviews, issue resolution, and feature implementation. It covers setup instructions, configuration options, and the migration process from the beta version to v1.0.",
       "tags": [
         "github-actions",
-        "claude-code",
         "automation",
-        "ci-cd",
-        "ai-coding-assistant",
-        "workflow-integration"
+        "workflow-integration",
+        "claude-code",
+        "devops",
+        "ci-cd"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-github-actions.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-github-actions.md"
     },
     {
-      "file_path": "012-docs-en-gitlab-ci-cd.md",
+      "file_path": "047-gitlab-ci-cd.md",
       "title": "Claude Code GitLab CI/CD",
       "url": "https://code.claude.com/docs/en/gitlab-ci-cd.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:21.265493-03:00",
+      "fetched_at": "2026-04-26T08:03:08.154817889-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to integrate Claude Code into GitLab CI/CD pipelines to automate software development tasks like creating merge requests and fixing bugs. It details configuration for various AI providers including Anthropic, AWS Bedrock, and Google Vertex AI.",
+      "summary": "This document provides a guide for integrating Claude Code into GitLab CI/CD pipelines to automate development tasks such as MR creation, bug fixes, and feature implementation.",
       "tags": [
         "gitlab",
         "ci-cd",
         "claude-code",
-        "ai-automation",
+        "automation",
         "devops",
-        "aws-bedrock",
-        "vertex-ai",
-        "workflow-integration"
+        "enterprise-ai"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-gitlab-ci-cd.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-gitlab-ci-cd.md"
     },
     {
-      "file_path": "013-docs-en-slack.md",
-      "title": "Claude Code in Slack",
-      "url": "https://code.claude.com/docs/en/slack.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:52.540339633-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to set up and use the Claude Code integration for Slack to automate coding tasks and manage development sessions directly within workspace conversations.",
-      "tags": [
-        "claude-code",
-        "slack-integration",
-        "github-connection",
-        "automated-coding",
-        "workspace-collaboration"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-slack.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "014-docs-en-desktop.md",
-      "title": "Claude Code on desktop",
-      "url": "https://code.claude.com/docs/en/desktop.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:16.189353606-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides an overview and setup guide for the desktop version of Claude Code, covering installation, permission modes, and session management for AI-assisted coding.",
-      "tags": [
-        "claude-code",
-        "desktop-app",
-        "ai-coding-assistant",
-        "installation",
-        "session-management",
-        "remote-execution",
-        "local-development"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-desktop.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "015-docs-en-google-vertex-ai.md",
+      "file_path": "048-google-vertex-ai.md",
       "title": "Claude Code on Google Vertex AI",
       "url": "https://code.claude.com/docs/en/google-vertex-ai.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:24.086936867-03:00",
+      "fetched_at": "2026-04-26T08:03:10.226732856-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides comprehensive instructions for configuring Claude Code to work with Google Vertex AI, covering prerequisites, API setup, IAM permissions, and environment variable configuration.",
+      "summary": "This guide provides instructions for configuring and authenticating Claude Code to run on Google Cloud Platform using Vertex AI.",
       "tags": [
         "claude-code",
-        "google-vertex-ai",
-        "gcp",
-        "iam-permissions",
-        "vertex-ai-api",
-        "environment-variables",
-        "troubleshooting"
+        "google-cloud-platform",
+        "vertex-ai",
+        "setup-guide",
+        "cloud-configuration"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-google-vertex-ai.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-google-vertex-ai.md"
     },
     {
-      "file_path": "016-docs-en-microsoft-foundry.md",
-      "title": "Claude Code on Microsoft Foundry",
-      "url": "https://code.claude.com/docs/en/microsoft-foundry.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:36.036155276-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides instructions for configuring Claude Code to work with Microsoft Foundry, covering resource provisioning, authentication methods, and environment variable setup.",
-      "tags": [
-        "microsoft-foundry",
-        "azure-integration",
-        "claude-code",
-        "authentication",
-        "environment-variables",
-        "rbac"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-microsoft-foundry.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "017-docs-en-claude-code-on-the-web.md",
-      "title": "Claude Code on the web",
-      "url": "https://code.claude.com/docs/en/claude-code-on-the-web.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:10.574578004-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to use Claude Code on the web to run coding tasks asynchronously in a secure cloud environment. it covers key features like session handoff between terminal and web interfaces, task monitoring, and code review using the integrated diff viewer.",
-      "tags": [
-        "claude-code",
-        "cloud-development",
-        "git-integration",
-        "remote-execution",
-        "cli-tools",
-        "session-handoff"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-claude-code-on-the-web.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "018-docs-en-common-workflows.md",
-      "title": "Common workflows",
-      "url": "https://code.claude.com/docs/en/common-workflows.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:11.238351645-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides step-by-step instructions and example prompts for executing common software development tasks using Claude Code, including debugging, refactoring, and codebase exploration.",
-      "tags": [
-        "claude-code",
-        "developer-workflows",
-        "debugging",
-        "refactoring",
-        "code-analysis",
-        "plan-mode"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-common-workflows.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "019-docs-en-mcp.md",
-      "title": "Connect Claude Code to tools via MCP",
-      "url": "https://code.claude.com/docs/en/mcp.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:33.65788795-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to integrate Claude Code with external tools and data sources using the Model Context Protocol (MCP) to extend its functional capabilities.",
-      "tags": [
-        "claude-code",
-        "mcp",
-        "model-context-protocol",
-        "tool-integration",
-        "api-connectivity",
-        "mcp-servers"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-mcp.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "020-docs-en-plugin-marketplaces.md",
-      "title": "Create and distribute a plugin marketplace",
-      "url": "https://code.claude.com/docs/en/plugin-marketplaces.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:42.274475913-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This guide explains how to create and host a custom plugin marketplace for Claude Code to distribute extensions across teams. It covers the required directory structure, plugin manifests, marketplace configuration files, and hosting options.",
-      "tags": [
-        "claude-code",
-        "plugin-marketplace",
-        "distribution",
-        "json-schema",
-        "plugin-development"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-plugin-marketplaces.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "021-docs-en-sub-agents.md",
-      "title": "Create custom subagents",
-      "url": "https://code.claude.com/docs/en/sub-agents.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:53.232633854-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to create and configure specialized AI subagents in Claude Code to handle task-specific workflows and improve context management. It details the use of built-in agents and the process for creating custom subagents with specific tool permissions and models.",
-      "tags": [
-        "claude-code",
-        "ai-subagents",
-        "custom-agents",
-        "context-management",
-        "workflow-automation",
-        "configuration"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-sub-agents.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "022-docs-en-plugins.md",
-      "title": "Create plugins",
-      "url": "https://code.claude.com/docs/en/plugins.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:42.652663058-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "A comprehensive guide on how to develop and implement plugins to extend the functionality of a software system.",
-      "tags": [
-        "plugin development",
-        "software architecture",
-        "extensibility"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-plugins.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "023-docs-en-data-usage.md",
-      "title": "Data usage",
-      "url": "https://code.claude.com/docs/en/data-usage.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:15.470239834-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document outlines Anthropic's policies regarding data training, retention, and access for Claude Code users across consumer and commercial plans.",
-      "tags": [
-        "data-privacy",
-        "data-retention",
-        "model-training",
-        "claude-code",
-        "telemetry",
-        "security-policy"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-data-usage.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "024-docs-en-devcontainer.md",
-      "title": "Development containers",
-      "url": "https://code.claude.com/docs/en/devcontainer.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:16.881132426-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides an overview of the Claude Code development container, explaining how to set up a secure and consistent preconfigured environment for team development. It details the security measures, configuration files, and installation steps required for integration with Visual Studio Code.",
-      "tags": [
-        "devcontainers",
-        "docker",
-        "vscode",
-        "security",
-        "environment-setup",
-        "claude-code"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-devcontainer.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "025-docs-en-skills.md",
-      "title": "Extend Claude with skills",
-      "url": "https://code.claude.com/docs/en/skills.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:51.907684675-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "Explains how to create and manage skills in Claude Code to extend AI capabilities through custom instructions, slash commands, and YAML configuration.",
-      "tags": [
-        "claude-code",
-        "agent-skills",
-        "slash-commands",
-        "automation",
-        "configuration",
-        "custom-skills"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-skills.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "026-docs-en-iam.md",
-      "title": "Identity and Access Management",
-      "url": "https://code.claude.com/docs/en/iam.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:28.44040918-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to configure user authentication and manage fine-grained tool permissions for Claude Code across various team structures and cloud environments. It details the tiered permission system, available authentication methods, and specific controls for file access and command execution.",
-      "tags": [
-        "authentication",
-        "access-control",
-        "permissions",
-        "iam",
-        "claude-code",
-        "security-configuration"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-iam.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "027-docs-en-jetbrains.md",
-      "title": "JetBrains IDEs",
-      "url": "https://code.claude.com/docs/en/jetbrains.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:30.775110585-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to integrate Claude Code with JetBrains IDEs, covering installation, core features, configuration settings, and troubleshooting steps.",
-      "tags": [
-        "jetbrains",
-        "intellij",
-        "claude-code",
-        "ide-integration",
-        "plugin-configuration",
-        "troubleshooting"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-jetbrains.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "028-docs-en-memory.md",
-      "title": "Manage Claude's memory",
-      "url": "https://code.claude.com/docs/en/memory.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:35.04415012-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This guide explains how to manage Claude Code's memory and persistent instructions through hierarchical CLAUDE.md files, modular rules, and project-specific configurations. It details the various memory locations, loading precedence, and best practices for maintaining workflow preferences across sessions.",
-      "tags": [
-        "claude-code",
-        "memory-management",
-        "configuration",
-        "claude-md",
-        "project-rules",
-        "developer-workflow"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-memory.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "029-docs-en-costs.md",
-      "title": "Manage costs effectively",
-      "url": "https://code.claude.com/docs/en/costs.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:14.985092541-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "Explains how to track and reduce costs in Claude Code through token management, team spend limits, and technical optimization strategies like context clearing and model selection.",
-      "tags": [
-        "cost-management",
-        "claude-code",
-        "token-usage",
-        "rate-limiting",
-        "context-optimization",
-        "team-management"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-costs.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "030-docs-en-output-styles.md",
-      "title": "Output styles",
-      "url": "https://code.claude.com/docs/en/output-styles.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:40.653077092-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to use and configure output styles in Claude Code to modify the agent's system prompt and behavior for different tasks.",
-      "tags": [
-        "claude-code",
-        "output-styles",
-        "configuration",
-        "system-prompt",
-        "customization",
-        "cli-tools"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-output-styles.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "031-docs-en-headless.md",
+      "file_path": "049-headless.md",
       "title": "Run Claude Code programmatically",
       "url": "https://code.claude.com/docs/en/headless.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:24.625567861-03:00",
+      "fetched_at": "2026-04-26T08:03:12.414134948-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to run Claude Code programmatically using the Agent SDK CLI, detailing non-interactive usage, structured JSON outputs, and tool automation.",
+      "summary": "This document explains how to use the Claude Code CLI and Agent SDK to execute tasks programmatically, including options for bare mode, structured output, and streaming responses for integration into scripts and CI/CD pipelines.",
       "tags": [
-        "agent-sdk",
-        "claude-code",
         "cli",
         "automation",
-        "structured-output",
-        "tool-use"
+        "agent-sdk",
+        "scripting",
+        "ci-cd",
+        "structured-output"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-headless.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-headless.md"
     },
     {
-      "file_path": "032-docs-en-sandboxing.md",
-      "title": "Sandboxing",
-      "url": "https://code.claude.com/docs/en/sandboxing.md",
+      "file_path": "050-hooks-guide.md",
+      "title": "Automate workflows with hooks",
+      "url": "https://code.claude.com/docs/en/hooks-guide.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:46.973974207-03:00",
+      "fetched_at": "2026-04-26T08:03:16.048656999-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how Claude Code utilizes OS-level sandboxing to isolate filesystem and network activity for secure, autonomous command execution. It covers configuration, installation of dependencies, and security benefits across different operating systems.",
+      "summary": "This document explains how to configure and use lifecycle hooks in Claude Code to automatically execute shell commands based on specific events. It provides instructions on setting up event-driven automation for tasks like notifications, code formatting, and workflow enforcement.",
       "tags": [
-        "sandboxing",
-        "claude-code",
-        "security",
-        "filesystem-isolation",
-        "network-security",
-        "bash-tool"
+        "automation",
+        "cli-tools",
+        "workflow-optimization",
+        "shell-scripts",
+        "configuration",
+        "development-tools"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-sandboxing.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-hooks-guide.md"
     },
     {
-      "file_path": "033-docs-en-security.md",
-      "title": "Security",
-      "url": "https://code.claude.com/docs/en/security.md",
+      "file_path": "051-jetbrains.md",
+      "title": "JetBrains IDEs",
+      "url": "https://code.claude.com/docs/en/jetbrains.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:47.75574988-03:00",
+      "fetched_at": "2026-04-26T08:03:22.10152965-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document outlines the security architecture and built-in safeguards of Claude Code, detailing its permission-based system, sandboxing capabilities, and protections against prompt injection.",
+      "summary": "This document provides instructions for installing, configuring, and using the Claude Code plugin within JetBrains IDEs to enable features like interactive diffs and file context sharing.",
       "tags": [
-        "security",
-        "permissions",
-        "sandboxing",
-        "prompt-injection",
+        "jetbrains",
+        "ide-integration",
+        "plugin-setup",
         "claude-code",
-        "data-privacy",
-        "access-control"
+        "developer-tools",
+        "remote-development"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-security.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-jetbrains.md"
     },
     {
-      "file_path": "034-docs-en-troubleshooting.md",
-      "title": "Troubleshooting",
-      "url": "https://code.claude.com/docs/en/troubleshooting.md",
+      "file_path": "052-mcp.md",
+      "title": "Connect Claude Code to tools via MCP",
+      "url": "https://code.claude.com/docs/en/mcp.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:57.513736682-03:00",
+      "fetched_at": "2026-04-26T08:03:30.14016764-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides solutions for common installation and usage issues with Claude Code across different operating systems and environments. It includes instructions for resolving platform-specific errors, authentication problems, and managing configuration files.",
+      "summary": "This document describes how to integrate external tools, databases, and APIs with Claude Code using the Model Context Protocol (MCP) and provides a programmatic approach for listing and configuring available MCP servers.",
       "tags": [
-        "troubleshooting",
+        "mcp",
         "claude-code",
-        "installation",
-        "wsl",
-        "node-js",
+        "tool-integration",
+        "api-registry",
+        "model-context-protocol"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-mcp.md"
+    },
+    {
+      "file_path": "053-memory.md",
+      "title": "How Claude remembers your project",
+      "url": "https://code.claude.com/docs/en/memory.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:32.088931482-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to maintain persistent project context and agent knowledge using CLAUDE.md instruction files and the auto-memory system.",
+      "tags": [
+        "claude-code",
+        "persistent-memory",
+        "configuration-management",
+        "project-setup",
+        "context-window",
+        "developer-productivity"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-memory.md"
+    },
+    {
+      "file_path": "054-microsoft-foundry.md",
+      "title": "Claude Code on Microsoft Foundry",
+      "url": "https://code.claude.com/docs/en/microsoft-foundry.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:34.05101768-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for setting up and configuring Claude Code to run on Microsoft Foundry, including resource provisioning and authentication methods.",
+      "tags": [
+        "claude-code",
+        "microsoft-foundry",
+        "azure",
+        "configuration",
+        "deployment",
         "authentication",
-        "environment-variables"
+        "enterprise-setup"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-troubleshooting.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-microsoft-foundry.md"
     },
     {
-      "file_path": "035-docs-en-vs-code.md",
-      "title": "Use Claude Code in VS Code",
-      "url": "https://code.claude.com/docs/en/vs-code.md",
+      "file_path": "055-permission-modes.md",
+      "title": "Choose a permission mode",
+      "url": "https://code.claude.com/docs/en/permission-modes.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:59.857945454-03:00",
+      "fetched_at": "2026-04-26T08:03:45.940598371-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides instructions for installing, configuring, and using the Claude Code extension for VS Code to enable AI-powered coding assistance. It covers setup prerequisites, installation steps, and core features like inline diffs and @-mentions.",
+      "summary": "This document explains how to configure and use permission modes to control the frequency and scope of interaction prompts when Claude performs file edits or command executions.",
       "tags": [
-        "vs-code",
-        "claude-code",
-        "ide-extension",
-        "ai-coding-assistant",
-        "installation-guide",
-        "extension-configuration"
-      ],
-      "category": "guide",
-      "original_file_path": "docs-en-vs-code.md",
-      "_assigned_category": "Tutorials & How-To"
-    },
-    {
-      "file_path": "036-docs-en-chrome.md",
-      "title": "Use Claude Code with Chrome (beta)",
-      "url": "https://code.claude.com/docs/en/chrome.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:10.269706149-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This guide explains how to integrate Claude Code with the Google Chrome browser to enable browser automation, web testing, and live debugging directly from the terminal.",
-      "tags": [
-        "claude-code",
-        "chrome-extension",
-        "browser-automation",
-        "web-testing",
-        "live-debugging",
+        "permission-management",
+        "cli-configuration",
+        "security-settings",
+        "auto-approval",
+        "user-controls",
         "workflow-automation"
       ],
       "category": "guide",
-      "original_file_path": "docs-en-chrome.md",
-      "_assigned_category": "Tutorials & How-To"
+      "original_file_path": "docs-en-permission-modes.md"
     },
     {
-      "file_path": "037-docs-en-how-claude-code-works.md",
+      "file_path": "056-platforms.md",
+      "title": "Platforms and integrations",
+      "url": "https://code.claude.com/docs/en/platforms.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:50.250788893-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of the various platforms, IDE integrations, and connectivity options available for Claude Code to help users choose the best environment for their development workflow.",
+      "tags": [
+        "claude-code",
+        "development-environment",
+        "ide-integration",
+        "cli-tools",
+        "automation",
+        "workflow-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-platforms.md"
+    },
+    {
+      "file_path": "057-plugin-dependencies.md",
+      "title": "Constrain plugin dependency versions",
+      "url": "https://code.claude.com/docs/en/plugin-dependencies.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:52.17383307-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to define and constrain version dependencies for Claude Code plugins to ensure stability against upstream breaking changes.",
+      "tags": [
+        "plugin-development",
+        "dependency-management",
+        "version-constraints",
+        "semver",
+        "claude-code",
+        "marketplace"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-plugin-dependencies.md"
+    },
+    {
+      "file_path": "058-plugin-marketplaces.md",
+      "title": "Create and distribute a plugin marketplace",
+      "url": "https://code.claude.com/docs/en/plugin-marketplaces.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:53.94867836-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to create, host, and manage a plugin marketplace to distribute Claude Code extensions, including how to define the marketplace structure and register plugins.",
+      "tags": [
+        "plugin-development",
+        "marketplace-distribution",
+        "claude-code",
+        "plugin-manifest",
+        "git-hosting",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-plugin-marketplaces.md"
+    },
+    {
+      "file_path": "059-plugins.md",
+      "title": "Create plugins",
+      "url": "https://code.claude.com/docs/en/plugins.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:56.001345938-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to develop, structure, and test custom plugins for Claude Code to extend functionality through skills, agents, and hooks.",
+      "tags": [
+        "claude-code",
+        "plugin-development",
+        "custom-skills",
+        "extensibility",
+        "software-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-plugins.md"
+    },
+    {
+      "file_path": "060-remote-control.md",
+      "title": "Continue local sessions from any device with Remote Control",
+      "url": "https://code.claude.com/docs/en/remote-control.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:02.09987049-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and use Claude Code Remote Control to access and manage local coding sessions from secondary devices like phones or web browsers.",
+      "tags": [
+        "remote-control",
+        "claude-code",
+        "session-management",
+        "cross-device",
+        "local-development",
+        "server-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-remote-control.md"
+    },
+    {
+      "file_path": "061-routines.md",
+      "title": "Automate work with routines",
+      "url": "https://code.claude.com/docs/en/routines.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:04.044791145-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and manage automated routines in Claude Code, which allow tasks to run autonomously on Anthropic-managed cloud infrastructure using scheduled, API, or GitHub triggers.",
+      "tags": [
+        "automation",
+        "claude-code",
+        "cloud-computing",
+        "routines",
+        "workflow-integration",
+        "mcp-connectors"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-routines.md"
+    },
+    {
+      "file_path": "062-scheduled-tasks.md",
+      "title": "Run prompts on a schedule",
+      "url": "https://code.claude.com/docs/en/scheduled-tasks.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:08.132870588-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use the /loop command in Claude Code to execute prompts on a repeating schedule for tasks like polling, monitoring, and automated maintenance.",
+      "tags": [
+        "claude-code",
+        "task-scheduling",
+        "automation",
+        "cli-tools",
+        "cron",
+        "workflow-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-scheduled-tasks.md"
+    },
+    {
+      "file_path": "063-setup.md",
+      "title": "Advanced setup",
+      "url": "https://code.claude.com/docs/en/setup.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:16.112862403-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides system requirements, installation methods for various platforms, and initial configuration steps for setting up Claude Code.",
+      "tags": [
+        "installation",
+        "setup",
+        "system-requirements",
+        "claude-code",
+        "configuration",
+        "authentication"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-setup.md"
+    },
+    {
+      "file_path": "064-skills.md",
+      "title": "Extend Claude with skills",
+      "url": "https://code.claude.com/docs/en/skills.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:17.973390604-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to extend Claude Code's functionality by creating and managing custom skills, which are structured instruction sets used to automate tasks or improve Claude's responses.",
+      "tags": [
+        "claude-code",
+        "automation",
+        "agent-skills",
+        "custom-commands",
+        "developer-tools",
+        "workflow-optimization"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-skills.md"
+    },
+    {
+      "file_path": "065-slack.md",
+      "title": "Claude Code in Slack",
+      "url": "https://code.claude.com/docs/en/slack.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:20.132543354-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to set up and use Claude Code within Slack to delegate coding tasks, manage repositories, and facilitate collaborative development through intelligent intent routing.",
+      "tags": [
+        "claude-code",
+        "slack-integration",
+        "development-workflow",
+        "collaboration",
+        "automation",
+        "repository-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-slack.md"
+    },
+    {
+      "file_path": "066-statusline.md",
+      "title": "Customize your status line",
+      "url": "https://code.claude.com/docs/en/statusline.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:22.190435519-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and customize the persistent status line in Claude Code by writing shell scripts that process JSON session data.",
+      "tags": [
+        "claude-code",
+        "configuration",
+        "status-bar",
+        "automation",
+        "shell-scripting",
+        "terminal"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-statusline.md"
+    },
+    {
+      "file_path": "067-sub-agents.md",
+      "title": "Create custom subagents",
+      "url": "https://code.claude.com/docs/en/sub-agents.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:24.147176795-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to create and manage specialized subagents in Claude Code to handle specific tasks, preserve context, and delegate operations to independent AI agents.",
+      "tags": [
+        "claude-code",
+        "subagents",
+        "ai-delegation",
+        "context-management",
+        "workflow-automation",
+        "agent-configuration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-sub-agents.md"
+    },
+    {
+      "file_path": "068-third-party-integrations.md",
+      "title": "Enterprise deployment overview",
+      "url": "https://code.claude.com/docs/en/third-party-integrations.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:28.196420119-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of enterprise deployment options for Claude Code, highlighting the differences between Claude for Teams and Claude for Enterprise to help organizations select the appropriate subscription model.",
+      "tags": [
+        "enterprise-deployment",
+        "claude-teams",
+        "claude-enterprise",
+        "deployment-options",
+        "subscription-management"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-third-party-integrations.md"
+    },
+    {
+      "file_path": "069-ultraplan.md",
+      "title": "Plan in the cloud with ultraplan",
+      "url": "https://code.claude.com/docs/en/ultraplan.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:34.319912424-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "Ultraplan is a feature for Claude Code that allows users to offload task planning from their local CLI to a web-based interface for collaborative drafting, review, and flexible execution.",
+      "tags": [
+        "claude-code",
+        "ultraplan",
+        "cloud-planning",
+        "cli-tools",
+        "workflow-automation",
+        "remote-execution"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-ultraplan.md"
+    },
+    {
+      "file_path": "070-ultrareview.md",
+      "title": "Find bugs with ultrareview",
+      "url": "https://code.claude.com/docs/en/ultrareview.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:36.08986337-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the ultrareview feature in Claude Code, which utilizes a multi-agent cloud-based sandbox to perform deep, verified code reviews for bug detection before merging.",
+      "tags": [
+        "code-review",
+        "claude-code",
+        "bug-detection",
+        "cli-tools",
+        "software-quality",
+        "remote-sandbox"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-ultrareview.md"
+    },
+    {
+      "file_path": "071-voice-dictation.md",
+      "title": "Voice dictation",
+      "url": "https://code.claude.com/docs/en/voice-dictation.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:38.112652448-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to use and configure voice dictation in the Claude Code CLI, including mode switching, language settings, and keybinding customizations.",
+      "tags": [
+        "voice-dictation",
+        "cli-tools",
+        "speech-to-text",
+        "configuration",
+        "keyboard-shortcuts",
+        "claude-code"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-voice-dictation.md"
+    },
+    {
+      "file_path": "072-vs-code.md",
+      "title": "Use Claude Code in VS Code",
+      "url": "https://code.claude.com/docs/en/vs-code.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:39.983071676-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This guide explains how to install, configure, and use the Claude Code extension for VS Code to access AI-powered coding assistance, including features like inline diff reviews, file context management, and interactive chat.",
+      "tags": [
+        "claude-code",
+        "vs-code",
+        "extension",
+        "ai-coding",
+        "developer-tools",
+        "editor-integration"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-vs-code.md"
+    },
+    {
+      "file_path": "073-agent-sdk-agent-loop.md",
+      "title": "How the agent loop works",
+      "url": "https://code.claude.com/docs/en/agent-sdk/agent-loop.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:17.127885143-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the architecture and lifecycle of the agent loop within the Claude Agent SDK, detailing how prompts are processed, tools are executed, and messages are streamed.",
+      "tags": [
+        "agent-sdk",
+        "agentic-loop",
+        "message-lifecycle",
+        "tool-execution",
+        "sdk-architecture"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-en-agent-sdk-agent-loop.md"
+    },
+    {
+      "file_path": "074-checkpointing.md",
+      "title": "Checkpointing",
+      "url": "https://code.claude.com/docs/en/checkpointing.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:18.275832585-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how the checkpointing feature automatically tracks file edits and conversation states, allowing users to revert changes or summarize context to manage long-running tasks.",
+      "tags": [
+        "checkpointing",
+        "session-management",
+        "version-recovery",
+        "context-window",
+        "undo-operations",
+        "code-workflow"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-en-checkpointing.md"
+    },
+    {
+      "file_path": "075-context-window.md",
+      "title": "Explore the context window",
+      "url": "https://code.claude.com/docs/en/context-window.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:36.116366107-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains the lifecycle of Claude Code's context window by simulating how system prompts, files, memory, and automated hooks consume tokens during a development session.",
+      "tags": [
+        "context-window",
+        "token-usage",
+        "claude-code",
+        "system-prompts",
+        "mcp-tools",
+        "hooks"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-en-context-window.md"
+    },
+    {
+      "file_path": "076-data-usage.md",
+      "title": "Data usage",
+      "url": "https://code.claude.com/docs/en/data-usage.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:40.182763198-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines Anthropic's data usage, training policies, retention practices, and security measures for Claude Code across consumer and commercial tiers.",
+      "tags": [
+        "data-privacy",
+        "security-compliance",
+        "model-training",
+        "data-retention",
+        "encryption",
+        "claude-code"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-en-data-usage.md"
+    },
+    {
+      "file_path": "077-how-claude-code-works.md",
       "title": "How Claude Code works",
       "url": "https://code.claude.com/docs/en/how-claude-code-works.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:28.421372139-03:00",
+      "fetched_at": "2026-04-26T08:03:18.102496809-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains the core architecture and operational mechanisms of Claude Code, focusing on its agentic loop, tool integration, and model-driven reasoning.",
+      "summary": "This document outlines the architecture of Claude Code, explaining its agentic loop, core toolset, and the operational capabilities that enable it to perform complex autonomous tasks within a terminal environment.",
       "tags": [
-        "claude-code",
         "agentic-loop",
+        "claude-code",
+        "terminal-assistant",
+        "automation",
         "ai-tools",
-        "architecture",
-        "terminal-interface",
-        "automation"
+        "architecture-overview"
       ],
       "category": "concept",
-      "original_file_path": "docs-en-how-claude-code-works.md",
-      "_assigned_category": "Concepts & Fundamentals"
+      "original_file_path": "docs-en-how-claude-code-works.md"
     },
     {
-      "file_path": "038-docs-en-changelog.md",
-      "title": "Changelog",
-      "url": "https://code.claude.com/docs/en/changelog.md",
+      "file_path": "078-sandboxing.md",
+      "title": "Sandboxing",
+      "url": "https://code.claude.com/docs/en/sandboxing.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:05.999524376-03:00",
-      "description": "<!DOCTYPE html> <html lang=\"en\"",
-      "summary": "This document defines the client-side environment settings and feature flag configurations for a GitHub web application session.",
-      "tags": [
-        "github",
-        "configuration",
-        "feature-flags",
-        "web-development",
-        "environment-variables"
-      ],
-      "category": "configuration",
-      "original_file_path": "docs-en-changelog.md",
-      "_assigned_category": "Configuration & Settings"
-    },
-    {
-      "file_path": "039-docs-en-amazon-bedrock.md",
-      "title": "Claude Code on Amazon Bedrock",
-      "url": "https://code.claude.com/docs/en/amazon-bedrock.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:05.429037719-03:00",
+      "fetched_at": "2026-04-26T08:04:06.056536897-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This guide provides instructions for configuring Claude Code to use Amazon Bedrock, including AWS credential setup, IAM policy requirements, and model environment variables.",
+      "summary": "This document explains how Claude Code uses OS-level sandboxing to provide secure, isolated environments for bash command execution, balancing agent autonomy with filesystem and network security.",
       "tags": [
-        "amazon-bedrock",
+        "sandboxing",
+        "security-isolation",
+        "bash-execution",
+        "filesystem-security",
+        "network-isolation",
+        "autonomous-agents",
+        "bubblewrap",
+        "seatbelt"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-en-sandboxing.md"
+    },
+    {
+      "file_path": "079-security.md",
+      "title": "Security",
+      "url": "https://code.claude.com/docs/en/security.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:10.076755899-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the security architecture, built-in protection mechanisms, and best practices for using Claude Code securely, including permission management and threat mitigation strategies.",
+      "tags": [
+        "security-best-practices",
+        "permission-management",
+        "threat-mitigation",
+        "data-privacy",
+        "mcp-security",
+        "cloud-execution",
+        "sandboxing"
+      ],
+      "category": "concept",
+      "original_file_path": "docs-en-security.md"
+    },
+    {
+      "file_path": "080-zero-data-retention.md",
+      "title": "Zero data retention",
+      "url": "https://code.claude.com/docs/en/zero-data-retention.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:52.044487572-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the Zero Data Retention (ZDR) policy for Claude Code on Claude for Enterprise, detailing its scope, coverage, limitations, and the process for enablement.",
+      "tags": [
+        "zero-data-retention",
         "claude-code",
-        "aws-iam",
-        "model-configuration",
-        "authentication",
-        "environment-variables"
+        "enterprise-security",
+        "data-privacy",
+        "compliance",
+        "policy-management"
       ],
-      "category": "configuration",
-      "original_file_path": "docs-en-amazon-bedrock.md",
-      "_assigned_category": "Configuration & Settings"
+      "category": "concept",
+      "original_file_path": "docs-en-zero-data-retention.md"
     },
     {
-      "file_path": "040-docs-en-settings.md",
-      "title": "Claude Code settings",
-      "url": "https://code.claude.com/docs/en/settings.md",
+      "file_path": "081-overview.md",
+      "title": "Claude Code overview",
+      "url": "https://code.claude.com/docs/en/overview.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:48.054987441-03:00",
+      "fetched_at": "2026-04-26T08:03:44.082886303-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to configure Claude Code through its hierarchical scope system, detailing the precedence and locations of managed, user, project, and local settings. It provides a reference for available configuration options in settings.json to customize behavior for individuals and teams.",
+      "summary": "This document provides an installation and configuration guide for Claude Code, an agentic coding tool that integrates with terminal environments and IDEs.",
       "tags": [
         "claude-code",
-        "configuration",
-        "settings-management",
-        "scope-precedence",
-        "environment-variables",
-        "project-configuration"
+        "agentic-coding",
+        "installation-guide",
+        "cli-tools",
+        "ide-integration"
       ],
       "category": "configuration",
-      "original_file_path": "docs-en-settings.md",
-      "_assigned_category": "Configuration & Settings"
+      "original_file_path": "docs-en-overview.md"
     },
     {
-      "file_path": "041-docs-en-network-config.md",
-      "title": "Enterprise network configuration",
-      "url": "https://code.claude.com/docs/en/network-config.md",
+      "file_path": "082-agent-sdk-claude-code-features.md",
+      "title": "Use Claude Code features in the SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/claude-code-features.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:38.572247079-03:00",
+      "fetched_at": "2026-04-26T08:01:17.134236685-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides instructions for configuring Claude Code within enterprise network environments, covering proxy settings, custom CA certificates, and mTLS authentication.",
+      "summary": "This document explains how to configure filesystem-based settings and project instructions for agents using the Claude SDK, specifically through the settingSources option.",
       "tags": [
-        "enterprise-configuration",
-        "proxy-settings",
-        "mtls-authentication",
-        "ca-certificates",
-        "network-security",
-        "environment-variables"
+        "agent-sdk",
+        "claude-code",
+        "filesystem-settings",
+        "project-configuration",
+        "claude-md",
+        "sdk-configuration"
       ],
       "category": "configuration",
-      "original_file_path": "docs-en-network-config.md",
-      "_assigned_category": "Configuration & Settings"
+      "original_file_path": "docs-en-agent-sdk-claude-code-features.md"
     },
     {
-      "file_path": "042-docs-en-llm-gateway.md",
+      "file_path": "083-agent-sdk-permissions.md",
+      "title": "Configure permissions",
+      "url": "https://code.claude.com/docs/en/agent-sdk/permissions.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:26.384860536-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure tool permissions in the Claude Agent SDK, detailing the evaluation hierarchy of rules, permission modes, and methods for controlling agent access to system tools.",
+      "tags": [
+        "agent-sdk",
+        "permission-control",
+        "tool-access",
+        "security-configuration",
+        "access-management",
+        "development-guide"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-agent-sdk-permissions.md"
+    },
+    {
+      "file_path": "084-auto-mode-config.md",
+      "title": "Configure auto mode",
+      "url": "https://code.claude.com/docs/en/auto-mode-config.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:08.091078172-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides configuration instructions for the auto-mode classifier, enabling users to define trusted infrastructure and override permission rules for automated tool execution.",
+      "tags": [
+        "configuration",
+        "auto-mode",
+        "security-policy",
+        "infrastructure-trust",
+        "permission-management",
+        "claude-code"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-auto-mode-config.md"
+    },
+    {
+      "file_path": "085-fullscreen.md",
+      "title": "Fullscreen rendering",
+      "url": "https://code.claude.com/docs/en/fullscreen.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:02.145581476-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to enable and use the fullscreen rendering mode in the Claude Code CLI, which optimizes terminal performance, memory management, and interface interactivity.",
+      "tags": [
+        "claude-code",
+        "terminal-interface",
+        "rendering-mode",
+        "cli-configuration",
+        "user-experience",
+        "mouse-support",
+        "performance-optimization"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-fullscreen.md"
+    },
+    {
+      "file_path": "086-github-enterprise-server.md",
+      "title": "Claude Code with GitHub Enterprise Server",
+      "url": "https://code.claude.com/docs/en/github-enterprise-server.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:06.020613036-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for administrators to integrate Claude Code with self-hosted GitHub Enterprise Server instances and outlines the subsequent developer workflow for using remote features.",
+      "tags": [
+        "github-enterprise",
+        "claude-code",
+        "admin-setup",
+        "integration",
+        "web-sessions",
+        "code-review",
+        "ghes"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-github-enterprise-server.md"
+    },
+    {
+      "file_path": "087-keybindings.md",
+      "title": "Customize keyboard shortcuts",
+      "url": "https://code.claude.com/docs/en/keybindings.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:24.128740981-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to customize keyboard shortcuts in Claude Code by defining custom keybindings within a configuration file categorized by application context.",
+      "tags": [
+        "claude-code",
+        "keyboard-shortcuts",
+        "configuration",
+        "keybindings",
+        "user-interface",
+        "cli-tools"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-keybindings.md"
+    },
+    {
+      "file_path": "088-llm-gateway.md",
       "title": "LLM gateway configuration",
       "url": "https://code.claude.com/docs/en/llm-gateway.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:32.797795012-03:00",
+      "fetched_at": "2026-04-26T08:03:27.974965682-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to configure Claude Code to work with LLM gateway solutions, covering API requirements, authentication methods, and provider-specific setup for LiteLLM.",
+      "summary": "This document provides technical instructions for configuring Claude Code to connect with LLM gateway services, detailing API requirements, authentication methods, and endpoint setup for proxy-based interactions.",
       "tags": [
         "llm-gateway",
-        "claude-code",
+        "proxy-configuration",
+        "api-authentication",
         "litellm",
-        "authentication",
-        "api-configuration",
-        "proxy-setup",
-        "bedrock",
-        "vertex-ai"
+        "model-routing",
+        "environment-variables"
       ],
       "category": "configuration",
-      "original_file_path": "docs-en-llm-gateway.md",
-      "_assigned_category": "Configuration & Settings"
+      "original_file_path": "docs-en-llm-gateway.md"
     },
     {
-      "file_path": "043-docs-en-model-config.md",
+      "file_path": "089-model-config.md",
       "title": "Model configuration",
       "url": "https://code.claude.com/docs/en/model-config.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:37.584378518-03:00",
+      "fetched_at": "2026-04-26T08:03:36.362811654-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to configure model settings in Claude Code, covering model aliases, configuration methods, and advanced features like hybrid planning modes and prompt caching.",
+      "summary": "This document explains how to configure and manage model selection in Claude Code, including the use of model aliases, environment variables, settings files, and administrative restrictions.",
       "tags": [
         "claude-code",
         "model-configuration",
         "model-aliases",
-        "prompt-caching",
+        "enterprise-settings",
         "environment-variables",
-        "opusplan"
+        "api-integration"
       ],
       "category": "configuration",
-      "original_file_path": "docs-en-model-config.md",
-      "_assigned_category": "Configuration & Settings"
+      "original_file_path": "docs-en-model-config.md"
     },
     {
-      "file_path": "044-docs-en-monitoring-usage.md",
+      "file_path": "090-monitoring-usage.md",
       "title": "Monitoring",
       "url": "https://code.claude.com/docs/en/monitoring-usage.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:38.484690369-03:00",
+      "fetched_at": "2026-04-26T08:03:38.07502196-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to enable and configure OpenTelemetry for Claude Code to monitor metrics and events using environment variables and managed settings.",
+      "summary": "This document provides instructions on how to enable and configure OpenTelemetry for tracking usage and performance metrics, logs, and traces in Claude Code.",
       "tags": [
-        "claude-code",
         "opentelemetry",
         "monitoring",
-        "observability",
-        "metrics",
-        "configuration"
+        "telemetry-configuration",
+        "claude-code",
+        "otlp",
+        "system-administration"
       ],
       "category": "configuration",
-      "original_file_path": "docs-en-monitoring-usage.md",
-      "_assigned_category": "Configuration & Settings"
+      "original_file_path": "docs-en-monitoring-usage.md"
     },
     {
-      "file_path": "045-docs-en-statusline.md",
-      "title": "Status line configuration",
-      "url": "https://code.claude.com/docs/en/statusline.md",
+      "file_path": "091-network-config.md",
+      "title": "Enterprise network configuration",
+      "url": "https://code.claude.com/docs/en/network-config.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:53.033114328-03:00",
+      "fetched_at": "2026-04-26T08:03:40.237266891-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to configure and script a custom status line for the Claude Code interface to display real-time session metadata and contextual information.",
+      "summary": "This document provides instructions for configuring Claude Code in enterprise network environments, including support for proxy servers, custom CA certificates, mTLS authentication, and firewall allowlisting.",
+      "tags": [
+        "enterprise-network",
+        "proxy-configuration",
+        "tls-authentication",
+        "certificate-authority",
+        "mtls",
+        "network-security",
+        "environment-variables"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-network-config.md"
+    },
+    {
+      "file_path": "092-output-styles.md",
+      "title": "Output styles",
+      "url": "https://code.claude.com/docs/en/output-styles.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:42.188043387-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how to configure and customize output styles in Claude Code to modify the assistant's persona, tone, and formatting. It details the use of built-in styles and the creation of custom style files to adapt the system prompt for specific needs.",
       "tags": [
         "claude-code",
+        "output-styles",
+        "system-prompt",
         "configuration",
-        "status-line",
-        "cli-customization",
-        "json-api",
-        "bash-scripting"
+        "personalization",
+        "customization"
       ],
       "category": "configuration",
-      "original_file_path": "docs-en-statusline.md",
-      "_assigned_category": "Configuration & Settings"
+      "original_file_path": "docs-en-output-styles.md"
     },
     {
-      "file_path": "046-docs-en-interactive-mode.md",
-      "title": "Interactive mode",
-      "url": "https://code.claude.com/docs/en/interactive-mode.md",
+      "file_path": "093-permissions.md",
+      "title": "Configure permissions",
+      "url": "https://code.claude.com/docs/en/permissions.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:29.624079151-03:00",
+      "fetched_at": "2026-04-26T08:03:48.158078581-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides a comprehensive reference of keyboard shortcuts, input methods, and built-in commands for navigating and controlling interactive Claude Code sessions.",
+      "summary": "This document explains how to configure fine-grained permissions and security modes in Claude Code to control agent access to tools and filesystem actions.",
+      "tags": [
+        "security-configuration",
+        "permission-management",
+        "access-control",
+        "claude-code",
+        "shell-security",
+        "policy-enforcement"
+      ],
+      "category": "configuration",
+      "original_file_path": "docs-en-permissions.md"
+    },
+    {
+      "file_path": "094-server-managed-settings.md",
+      "title": "Configure server-managed settings",
+      "url": "https://code.claude.com/docs/en/server-managed-settings.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:12.165770838-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document explains how administrators can centrally configure Claude Code settings via the web-based admin console for organization-wide deployment.",
       "tags": [
         "claude-code",
-        "keyboard-shortcuts",
-        "cli-tools",
-        "interactive-mode",
-        "terminal-commands",
-        "input-modes"
+        "server-managed-settings",
+        "administration",
+        "configuration",
+        "access-control",
+        "centralized-management"
       ],
-      "category": "reference",
-      "original_file_path": "docs-en-interactive-mode.md",
-      "_assigned_category": "Features & Capabilities"
+      "category": "configuration",
+      "original_file_path": "docs-en-server-managed-settings.md"
     },
     {
-      "file_path": "047-docs-en-plugins-reference.md",
-      "title": "Plugins reference",
-      "url": "https://code.claude.com/docs/en/plugins-reference.md",
+      "file_path": "095-settings.md",
+      "title": "Claude Code settings",
+      "url": "https://code.claude.com/docs/en/settings.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:43.416022099-03:00",
+      "fetched_at": "2026-04-26T08:04:14.044715729-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides comprehensive technical specifications for the Claude Code plugin system, covering schemas and integration details for skills, agents, hooks, and external servers.",
+      "summary": "This document explains the hierarchical configuration system for Claude Code, detailing how settings are applied across different scopes, including managed, user, project, and local levels.",
       "tags": [
+        "configuration",
         "claude-code",
-        "plugin-development",
-        "hooks",
-        "mcp-servers",
-        "lsp-protocol",
-        "technical-reference"
+        "settings-management",
+        "scope-precedence",
+        "system-administration",
+        "deployment"
       ],
-      "category": "reference",
-      "original_file_path": "docs-en-plugins-reference.md",
-      "_assigned_category": "Integration & Connection"
+      "category": "configuration",
+      "original_file_path": "docs-en-settings.md"
     },
     {
-      "file_path": "048-docs-en-analytics.md",
-      "title": "Analytics",
-      "url": "https://code.claude.com/docs/en/analytics.md",
+      "file_path": "096-terminal-config.md",
+      "title": "Configure your terminal for Claude Code",
+      "url": "https://code.claude.com/docs/en/terminal-config.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:05.438491021-03:00",
+      "fetched_at": "2026-04-26T08:04:25.98798212-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document explains how to access and use the Claude Code analytics dashboard to track developer productivity, usage metrics, and organizational spend.",
+      "summary": "This guide provides instructions for configuring various terminal emulators and environment tools to ensure optimal functionality, keyboard compatibility, and notification support when using the Claude Code CLI.",
       "tags": [
-        "claude-code",
-        "analytics",
-        "usage-metrics",
-        "productivity-tracking",
-        "cost-monitoring",
-        "organization-management"
-      ],
-      "category": "reference",
-      "original_file_path": "docs-en-analytics.md",
-      "_assigned_category": "API & Reference"
-    },
-    {
-      "file_path": "049-docs-en-cli-reference.md",
-      "title": "CLI reference",
-      "url": "https://code.claude.com/docs/en/cli-reference.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:10.808553622-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides a comprehensive technical reference for the Claude Code command-line interface, detailing all available commands and customization flags for terminal interaction.",
-      "tags": [
-        "cli-reference",
+        "terminal-configuration",
         "claude-code",
         "command-line-interface",
-        "terminal-commands",
-        "cli-flags",
-        "configuration"
+        "keyboard-shortcuts",
+        "terminal-emulators",
+        "tmux"
       ],
-      "category": "reference",
-      "original_file_path": "docs-en-cli-reference.md",
-      "_assigned_category": "API & Reference"
+      "category": "configuration",
+      "original_file_path": "docs-en-terminal-config.md"
     },
     {
-      "file_path": "050-docs-en-hooks.md",
-      "title": "Hooks reference",
-      "url": "https://code.claude.com/docs/en/hooks.md",
+      "file_path": "097-agent-sdk-python.md",
+      "title": "Agent SDK reference - Python",
+      "url": "https://code.claude.com/docs/en/agent-sdk/python.md",
       "source": "llms",
-      "fetched_at": "2026-01-28T02:25:25.158925838-03:00",
+      "fetched_at": "2026-04-26T08:01:30.740655883-03:00",
       "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document provides a detailed reference for implementing and configuring hooks in Claude Code, covering the execution lifecycle, configuration structures, and integration with plugins and skills.",
+      "summary": "This document provides a technical reference for the Python Agent SDK, outlining how to interact with Claude Code using session-based clients or one-off queries, and how to define custom tools.",
       "tags": [
-        "claude-code",
-        "hooks",
-        "automation",
-        "configuration",
-        "plugins",
-        "tool-execution"
-      ],
-      "category": "reference",
-      "original_file_path": "docs-en-hooks.md",
-      "_assigned_category": "API & Reference"
-    },
-    {
-      "file_path": "051-docs-en-legal-and-compliance.md",
-      "title": "Legal and compliance",
-      "url": "https://code.claude.com/docs/en/legal-and-compliance.md",
-      "source": "llms",
-      "fetched_at": "2026-01-28T02:25:31.940985048-03:00",
-      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
-      "summary": "This document outlines the legal agreements, healthcare compliance certifications, and security reporting procedures applicable to Claude Code users.",
-      "tags": [
-        "legal-agreements",
-        "compliance",
-        "healthcare-baa",
-        "security-policy",
-        "claude-code",
-        "vulnerability-reporting"
-      ],
-      "category": "reference",
-      "original_file_path": "docs-en-legal-and-compliance.md",
-      "_assigned_category": "API & Reference"
-    },
-    {
-      "file_path": "052-claude-code-env-vars.md",
-      "title": "Claude Code Environment Variables Reference",
-      "url": "",
-      "source": "local-analysis",
-      "fetched_at": "2026-01-28T02:26:06.433657892-03:00",
-      "description": "Comprehensive reference of all environment variables accepted by Claude Code.",
-      "summary": "Comprehensive reference of all environment variables accepted by Claude Code, organized by category (Authentication, Cloud Providers, Telemetry, etc.).",
-      "tags": [
-        "environment-variables",
-        "configuration",
-        "reference",
+        "python-sdk",
+        "api-reference",
+        "agent-development",
+        "mcp-tools",
         "claude-code"
       ],
       "category": "reference",
-      "original_file_path": "CLAUDE_CODE_ENV_VARS.md",
-      "_assigned_category": "API & Reference"
+      "original_file_path": "docs-en-agent-sdk-python.md"
+    },
+    {
+      "file_path": "098-agent-sdk-typescript-v2-preview.md",
+      "title": "TypeScript SDK V2 interface (preview)",
+      "url": "https://code.claude.com/docs/en/agent-sdk/typescript-v2-preview.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:56.140165758-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "Introduces the V2 TypeScript Agent SDK, which simplifies multi-turn conversations by replacing async generators with distinct session-based send and stream methods.",
+      "tags": [
+        "typescript",
+        "sdk",
+        "claude-agent",
+        "api-interface",
+        "multi-turn",
+        "session-management"
+      ],
+      "category": "api",
+      "original_file_path": "docs-en-agent-sdk-typescript-v2-preview.md"
+    },
+    {
+      "file_path": "099-agent-sdk-typescript.md",
+      "title": "Agent SDK reference - TypeScript",
+      "url": "https://code.claude.com/docs/en/agent-sdk/typescript.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:54.1096168-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the API reference for the TypeScript Agent SDK, detailing functions for interacting with Claude, managing process startup, and defining type-safe MCP tools.",
+      "tags": [
+        "typescript",
+        "sdk-reference",
+        "agent-sdk",
+        "mcp-tools",
+        "api-documentation",
+        "claude-code"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-agent-sdk-typescript.md"
+    },
+    {
+      "file_path": "100-channels-reference.md",
+      "title": "Channels reference",
+      "url": "https://code.claude.com/docs/en/channels-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:16.044657451-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This reference provides instructions on building custom MCP-based channel servers to push external events, such as webhooks and alerts, into a Claude Code session.",
+      "tags": [
+        "mcp-server",
+        "claude-code",
+        "webhook-integration",
+        "event-driven-architecture",
+        "node-js",
+        "stdio-transport"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-channels-reference.md"
+    },
+    {
+      "file_path": "101-claude-directory.md",
+      "title": "Explore the .claude directory",
+      "url": "https://code.claude.com/docs/en/claude-directory.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:24.070935041-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document describes the structure, purpose, and configuration files used by Claude Code to manage project-specific settings, instructions, and environmental tool integrations.",
+      "tags": [
+        "configuration",
+        "project-setup",
+        "mcp",
+        "workflow-automation",
+        "claude-code"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-claude-directory.md"
+    },
+    {
+      "file_path": "102-cli-reference.md",
+      "title": "CLI reference",
+      "url": "https://code.claude.com/docs/en/cli-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:26.014708154-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive reference for the Claude Code command-line interface, detailing available commands, subcommands, and flags for managing sessions, authentication, and configuration.",
+      "tags": [
+        "claude-code",
+        "cli-reference",
+        "command-line",
+        "developer-tools",
+        "authentication",
+        "session-management",
+        "mcp"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-cli-reference.md"
+    },
+    {
+      "file_path": "103-commands.md",
+      "title": "Commands",
+      "url": "https://code.claude.com/docs/en/commands.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:30.216441178-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive reference guide to the built-in commands and bundled skills available for interacting with Claude Code in a terminal session.",
+      "tags": [
+        "cli-commands",
+        "claude-code",
+        "terminal-tooling",
+        "developer-productivity",
+        "command-reference"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-commands.md"
+    },
+    {
+      "file_path": "104-env-vars.md",
+      "title": "Environment variables",
+      "url": "https://code.claude.com/docs/en/env-vars.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:54.027875889-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive reference for the environment variables used to configure and control the behavior of Claude Code.",
+      "tags": [
+        "environment-variables",
+        "configuration",
+        "claude-code",
+        "api-settings",
+        "authentication",
+        "proxy-settings"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-env-vars.md"
+    },
+    {
+      "file_path": "105-errors.md",
+      "title": "Error reference",
+      "url": "https://code.claude.com/docs/en/errors.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:56.110348076-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive lookup table for common runtime error messages encountered in Claude Code, offering explanations and recovery steps for each.",
+      "tags": [
+        "error-handling",
+        "troubleshooting",
+        "claude-code",
+        "runtime-errors",
+        "cli-reference",
+        "api-errors"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-errors.md"
+    },
+    {
+      "file_path": "106-hooks.md",
+      "title": "Hooks reference",
+      "url": "https://code.claude.com/docs/en/hooks.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:14.156095028-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a technical reference for Claude Code hooks, detailing event lifecycles, configuration schemas, and JSON input/output formats for extending agentic behavior.",
+      "tags": [
+        "claude-code",
+        "automation-hooks",
+        "event-driven-architecture",
+        "configuration-schema",
+        "lifecycle-events",
+        "agentic-workflow"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-hooks.md"
+    },
+    {
+      "file_path": "107-interactive-mode.md",
+      "title": "Interactive mode",
+      "url": "https://code.claude.com/docs/en/interactive-mode.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:20.200192998-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive reference for the keyboard shortcuts, input controls, and terminal navigation commands used within Claude Code interactive sessions.",
+      "tags": [
+        "keyboard-shortcuts",
+        "terminal-commands",
+        "claude-code",
+        "user-interface",
+        "navigation",
+        "configuration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-interactive-mode.md"
+    },
+    {
+      "file_path": "108-legal-and-compliance.md",
+      "title": "Legal and compliance",
+      "url": "https://code.claude.com/docs/en/legal-and-compliance.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:26.163707641-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the legal, compliance, and security requirements for using Claude Code, including licensing agreements, healthcare compliance, and authentication policies.",
+      "tags": [
+        "legal-agreements",
+        "compliance",
+        "security-policy",
+        "authentication",
+        "baa",
+        "usage-policy"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-legal-and-compliance.md"
+    },
+    {
+      "file_path": "109-plugins-reference.md",
+      "title": "Plugins reference",
+      "url": "https://code.claude.com/docs/en/plugins-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:03:58.04389348-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document serves as a technical reference for the Claude Code plugin system, outlining the specifications for creating skills, subagents, and event hooks.",
+      "tags": [
+        "plugin-system",
+        "technical-reference",
+        "cli-commands",
+        "event-hooks",
+        "subagents",
+        "schema-definition"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-plugins-reference.md"
+    },
+    {
+      "file_path": "110-tools-reference.md",
+      "title": "Tools reference",
+      "url": "https://code.claude.com/docs/en/tools-reference.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:29.986391306-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive reference for the built-in tools available to Claude Code, detailing their functionality and permission requirements. It also explains how to manage tool access and integrate custom tools via MCP servers or skills.",
+      "tags": [
+        "claude-code",
+        "tool-reference",
+        "automation",
+        "permissions-management",
+        "mcp-integration"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-tools-reference.md"
+    },
+    {
+      "file_path": "111-troubleshooting.md",
+      "title": "Troubleshooting",
+      "url": "https://code.claude.com/docs/en/troubleshooting.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:32.345847549-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides a comprehensive troubleshooting guide for resolving common installation and configuration errors encountered when setting up Claude Code.",
+      "tags": [
+        "troubleshooting",
+        "installation-guide",
+        "cli-tools",
+        "path-configuration",
+        "network-connectivity",
+        "error-resolution"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-troubleshooting.md"
+    },
+    {
+      "file_path": "112-whats-new-2026-w15.md",
+      "title": "Week 15 \u00b7 April 6\u201310, 2026",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w15.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:48.078868578-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of the April 2026 feature releases for Claude Code, introducing tools for cloud planning, event monitoring, automated PR fixes, and team onboarding.",
+      "tags": [
+        "claude-code",
+        "developer-tools",
+        "automation",
+        "cli-commands",
+        "cloud-planning",
+        "release-notes"
+      ],
+      "category": "other",
+      "original_file_path": "docs-en-whats-new-2026-w15.md"
+    },
+    {
+      "file_path": "113-whats-new-2026-w14.md",
+      "title": "Week 14 \u00b7 March 30 \u2013 April 3, 2026",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w14.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:46.105791627-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document outlines the software updates for Claude Code versions 2.1.86 through 2.1.91, introducing features like CLI-based computer use, interactive terminal lessons, and improved tool execution capabilities.",
+      "tags": [
+        "cli",
+        "mcp",
+        "computer-use",
+        "terminal-tools",
+        "software-release",
+        "plugin-development"
+      ],
+      "category": "other",
+      "original_file_path": "docs-en-whats-new-2026-w14.md"
+    },
+    {
+      "file_path": "114-whats-new-2026-w13.md",
+      "title": "Week 13 \u00b7 March 23\u201327, 2026",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w13.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:44.363050871-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides an overview of new features and improvements released in Claude Code versions 2.1.83 through 2.1.85, including auto-mode permissions, computer-use capabilities, and automated CI fixes.",
+      "tags": [
+        "release-notes",
+        "claude-code",
+        "automation",
+        "computer-use",
+        "cli-tools",
+        "productivity-features"
+      ],
+      "category": "other",
+      "original_file_path": "docs-en-whats-new-2026-w13.md"
+    },
+    {
+      "file_path": "115-release-notes-overview.md",
+      "title": "What's new",
+      "url": "https://code.claude.com/docs/en/whats-new/index.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:04:50.149317832-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document serves as a weekly digest archive for Claude Code, highlighting new features, tool updates, and system improvements introduced in recent versions.",
+      "tags": [
+        "release-notes",
+        "weekly-digest",
+        "claude-code",
+        "feature-updates",
+        "product-changelog"
+      ],
+      "category": "other",
+      "original_file_path": "docs-en-whats-new-index.md"
+    },
+    {
+      "file_path": "116-changelog.md",
+      "title": "Changelog",
+      "url": "https://code.claude.com/docs/en/changelog.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:02:12.108571718-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides the release notes for Claude Code, detailing recent feature additions, improvements, configuration updates, and bug fixes across multiple versions.",
+      "tags": [
+        "changelog",
+        "release-notes",
+        "claude-code",
+        "software-updates",
+        "version-history"
+      ],
+      "category": "reference",
+      "original_file_path": "docs-en-changelog.md"
+    },
+    {
+      "file_path": "117-agent-sdk-migration-guide.md",
+      "title": "Migrate to Claude Agent SDK",
+      "url": "https://code.claude.com/docs/en/agent-sdk/migration-guide.md",
+      "source": "llms",
+      "fetched_at": "2026-04-26T08:01:19.732564369-03:00",
+      "description": "> ## Documentation Index > Fetch the complete documentation index at: https://code.claude.com/docs/llms.txt > Use this file to discover all available pages before exploring further.",
+      "summary": "This document provides instructions for migrating from the deprecated Claude Code SDK to the Claude Agent SDK, including installation updates, import changes, and necessary handling of breaking changes.",
+      "tags": [
+        "migration-guide",
+        "sdk-update",
+        "claude-agent-sdk",
+        "typescript",
+        "python",
+        "breaking-changes"
+      ],
+      "category": "guide",
+      "original_file_path": "docs-en-agent-sdk-migration-guide.md"
     }
   ],
   "organization": {
     "method": "sequential-numbering",
-    "organized_at": "2026-01-28T05:28:18.518Z",
-    "total_files": 52,
+    "organized_at": "2026-04-26T11:13:44.175286+00:00",
+    "total_files": 117,
     "categories": [
-      "Introduction & Overview",
       "Quick Start & Installation",
-      "Tutorials & How-To",
+      "Tutorials & Guides",
       "Concepts & Fundamentals",
-      "Configuration & Settings",
-      "Features & Capabilities",
-      "Integration & Connection",
-      "API & Reference"
-    ]
+      "Configuration",
+      "API Reference",
+      "Troubleshooting",
+      "Changelog & Releases"
+    ],
+    "dropped": []
   }
 }

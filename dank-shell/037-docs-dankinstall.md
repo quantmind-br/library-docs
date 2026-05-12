@@ -1,0 +1,168 @@
+---
+title: DankInstall | Dank Linux
+url: https://danklinux.com/docs/dankinstall
+source: sitemap
+fetched_at: 2026-04-26T08:38:27.471587106-03:00
+rendered_js: false
+word_count: 799
+summary: This document provides an overview and installation guide for dankinstall, a tool designed to set up the DankMaterialShell desktop environment across various Linux distributions.
+tags:
+    - linux
+    - desktop-environment
+    - wayland
+    - danklinux
+    - installation
+    - shell
+    - compositor
+category: guide
+optimized: true
+optimized_at: 2026-04-26T12:00:00Z
+---
+
+Version: 1.4
+
+`dankinstall` sets up the full [[044-docs-dankmaterialshell-overview|DankMaterialShell]] desktop experience — wallpapers, auto-theming, notifications, lock screen, and everything else expected from a modern desktop. It installs packages and configures user-level settings for your compositor and terminal. If you already have niri or Hyprland set up, dankinstall works around your existing config (always backs things up before making changes).
+
+## Quickstart
+
+```bash
+curl -fsSL https://install.danklinux.com | sh
+```
+
+> [!tip]
+> The installer is interactive. You can also download the [[https://github.com/AvengeMedia/DankMaterialShell/releases|latest release]] manually.
+
+## What Gets Installed
+
+### Core Components
+
+- [[044-docs-dankmaterialshell-overview|DankMaterialShell]] — Desktop shell built with quickshell & Go
+- **Compositor** — [niri](https://github.com/niri-wm/niri) or [Hyprland](https://hypr.land)
+- **Terminal** — Ghostty, with Kitty and Alacritty as alternatives
+- **dms CLI** — Backend service providing dbus APIs, plugin management, and wayland protocol implementations
+
+### Desktop Utilities
+
+- **quickshell** — QML-based shell framework powering DMS
+- **matugen** — Auto-theming engine generating color schemes from wallpapers
+- **dgop** — System resource monitoring (CPU, RAM, GPU, temperatures)
+- **dsearch** — Blazingly fast filesystem search
+- **cliphist** — Clipboard history manager
+- **wl-clipboard** — Clipboard utilities for Wayland
+
+### System Packages
+
+Build dependencies: git, jq, curl, wget, go, cmake, rustup. Exact package list varies by distribution.
+
+## Supported Distributions
+
+### Arch Linux & Derivatives
+
+**Supported:** Arch, ArchARM, Archcraft, CachyOS, EndeavourOS, Manjaro
+
+Uses `pacman` for system packages from official repos, including `dms-shell` from extra. Builds quickshell, matugen (pre-compiled binary), and dgop from AUR using `makepkg` — no AUR helper needed. niri and hyprland are in official repos.
+
+For archinstall, the `minimal` profile with `NetworkManager` for networking is a good starting point.
+
+### Fedora & Derivatives
+
+**Supported:** Fedora, Nobara, Fedora Asahi Remix
+
+Almost everything comes from official repos or COPR repositories (`avengemedia/danklinux`, `avengemedia/dms`, `solopasha/hyprland`, `niri-wm/niri`). Only dgop needs building from source with Go.
+
+dankinstall is tested on Workstation Edition but works fine on any Fedora flavor.
+
+### Ubuntu
+
+**Supported:** Ubuntu 25.04+
+
+Packages come from the [[041-docs-danklinux#ubuntu|DankLinux PPA]] (`ppa:avengemedia/danklinux`). Hyprland comes from `ppa:cppiber/hyprland`.
+
+### Debian
+
+**Supported:** Debian 13+ (Trixie), Debian Testing, Debian Sid
+
+Packages come from the [[041-docs-danklinux#debian|DankLinux OBS repository]]. **niri only** — Debian doesn't have Hyprland packages yet.
+
+### openSUSE Tumbleweed
+
+Good package availability out of the box. niri, hyprland, ghostty, and most tools are in standard repos. Additional packages come from the [[041-docs-danklinux#opensuse|DankLinux OBS repository]].
+
+### Gentoo
+
+> [!warning]
+> Gentoo requires a **systemd** installation. OpenRC is not supported.
+
+- Gentoo installs are **highly variable** and user-specific, success is not guaranteed
+  - `dankinstall` most likely succeeds on a fresh stage3/systemd system
+- Uses Portage package manager with GURU overlay for additional packages
+- Automatically configures global USE flags in `/etc/portage/make.conf`
+- Automatically configures package-specific USE flags in `/etc/portage/package.use/danklinux`
+- Unmasks packages as-needed with architecture keywords in `/etc/portage/package.accept_keywords/danklinux`
+- Supports both `amd64` and `arm64` architectures dynamically
+- If not using bin packages, prepare for long compilation times
+- **Ghostty** is removed from the options due to extremely long compilation time
+
+**Package Sources:**
+
+| Package | Source | Notes |
+|---------|--------|-------|
+| System packages (git, etc.) | Official repos | Via `emerge` |
+| niri | GURU overlay | With dbus and screencast USE flags |
+| hyprland | Official repos (GURU for -git) | Depends on variant selection, with X USE flag |
+| quickshell | GURU overlay | Always uses live ebuild (`**` keywords), full feature set |
+| matugen | GURU overlay | Color generation tool |
+| cliphist | GURU overlay | Clipboard manager |
+| xdg-desktop-portal-gtk | Official repos | With wayland and X USE flags |
+| mate-polkit | Official repos | PolicyKit authentication agent |
+| accountsservice | Official repos | User account management |
+| dgop | Manual | Built from source with Go |
+| xwayland-satellite | Manual | For niri X11 app support |
+| DankMaterialShell | Manual | Git clone to `~/.config/quickshell/dms` |
+
+**Global USE Flags:** `dbus udev alsa policykit jpeg png webp gif tiff svg brotli gdbm accessibility gtk qt6 egl gbm`
+
+**Package-Specific USE Flags:**
+
+- `sys-apps/xdg-desktop-portal-gtk`: `wayland X`
+- `gui-wm/niri`: `dbus screencast`
+- `gui-wm/hyprland`: `X`
+- `dev-qt/qtbase`: `wayland opengl vulkan widgets`
+- `dev-qt/qtdeclarative`: `opengl vulkan`
+- `media-libs/mesa`: `opengl vulkan`
+- `gui-apps/quickshell`: `breakpad jemalloc sockets wayland layer-shell session-lock toplevel-management screencopy X pipewire tray mpris pam hyprland hyprland-global-shortcuts hyprland-focus-grab i3 i3-ipc bluetooth`
+
+## Manual Building
+
+Most distros have pre-built packages via the [[041-docs-danklinux|DankLinux Repository]]. The installer handles remaining builds automatically:
+
+- **dgop** — Built from Go source on distros without packages. Installs to `/usr/local/bin`.
+- **Gentoo** — Still builds most packages from source via Portage.
+
+## Managing Your Setup
+
+dankinstall configures DMS as a **systemd user service** by default. The shell starts automatically when you log in — no compositor config changes needed.
+
+```bash
+# Restart the shell (works with both systemd and manual setups)
+dms restart
+# Check service status
+systemctl --user status dms
+# View logs
+journalctl --user -u dms -f
+# Interactive management TUI
+dms
+# Send IPC commands to running shell
+dms ipc <command>
+```
+
+> [!tip]
+> See [[054-docs-dankmaterialshell-managing|Managing Your Installation]] for switching between systemd and manual startup, environment variable configuration, and more.
+
+### Environment Variables
+
+dankinstall creates `~/.config/environment.d/90-dms.conf` with environment variables for Qt/GTK theming and Wayland compatibility. To change Qt platform theming (e.g., switching from `gtk3` to `qt6ct`), edit this file and log out/in for changes to take effect.
+
+You can also run `systemctl --user edit dms` and add `Environment=VAR=Value` lines under `[Service]`. This only affects DMS and apps it launches, whereas `90-dms.conf` applies to all user sessions.
+
+#dankinstall #dankmaterialshell #installation #wayland

@@ -1,0 +1,237 @@
+---
+title: cuda_graph - vLLM
+url: https://docs.vllm.ai/en/latest/api/vllm/compilation/cuda_graph/
+source: sitemap
+fetched_at: 2026-05-07T21:16:16.498503438-03:00
+rendered_js: false
+word_count: 22
+summary: This document defines the CUDAGraphWrapper class, which facilitates the capture and replay of CUDA graphs for specific runtime tasks in a GPU-accelerated execution environment.
+tags:
+    - cuda
+    - cuda-graphs
+    - pytorch
+    - performance-optimization
+    - gpu-acceleration
+    - wrapper-pattern
+category: concept
+---
+
+```
+classCUDAGraphWrapper:
+"""Wraps a runnable to add CUDA graph capturing and replaying ability. And
+    provide attribute access to the underlying `runnable` via `__getattr__`.
+
+    The workflow of this wrapper in the cudagraph dispatching is as follows:
+    1. At initialization, a runtime mode is assigned to the wrapper (FULL or
+    PIECEWISE).
+    2. At runtime, the wrapper receives a runtime_mode and a
+    batch_descriptor(key) from the forward context and blindly trust them
+    for cudagraph dispatching.
+    3. If runtime_mode is NONE or runtime_mode does not match the mode of the
+    wrapper, just call the runnable directly.
+    4. Otherwise, i.e., the runtime_mode matches the mode of the wrapper,
+    the wrapper will perform cudagraph capture(if key does not exist, create
+    a new entry and cache it) or replay (if key exists in the cache).
+
+    Note: CUDAGraphWrapper does not store persistent buffers or copy any
+    runtime inputs into that buffers for replay. We assume implementing them
+    is done outside of the wrapper. That is because we do not make any
+    assumption on the dynamic shape (batch size) of the runtime inputs, as a
+    trade-off for staying orthogonal to compilation logic. Nevertheless,
+    tracing and checking the input addresses to be consistent during replay is
+    guaranteed when VLLM_LOGGING_LEVEL == "DEBUG".
+    """
+
+    _all_instances: ClassVar[weakref.WeakSet["CUDAGraphWrapper"]] = weakref.WeakSet()
+
+    @classmethod
+    defclear_all_graphs(cls) -> None:
+"""Clear captured graphs from all CUDAGraphWrapper instances."""
+        for instance in list(cls._all_instances):
+            instance.clear_graphs()
+
+    def__init__(
+        self,
+        runnable: Callable[..., Any],
+        vllm_config: VllmConfig,
+        runtime_mode: CUDAGraphMode,
+        cudagraph_options: CUDAGraphOptions | None = None,
+    ) -> None:
+        self.runnable = runnable
+        self.vllm_config = vllm_config
+        self.runtime_mode = runtime_mode
+        self.compilation_config = vllm_config.compilation_config
+
+        self.first_run_finished = False
+        self.is_debugging_mode = envs.VLLM_LOGGING_LEVEL == "DEBUG"
+        self._runnable_str = str(runnable) if self.is_debugging_mode else None
+
+        # assert runtime_mode is not NONE(no cudagraph), otherwise, we don't
+        # need to initialize a CUDAGraphWrapper.
+        assert self.runtime_mode != CUDAGraphMode.NONE
+        # TODO: in the future, if we want to use multiple
+        # streams, it might not be safe to share a global pool.
+        # only investigate this when we use multiple streams
+        self.graph_pool = current_platform.get_global_graph_pool()
+
+        if cudagraph_options is None:
+            cudagraph_options = CUDAGraphOptions()
+        self.cudagraph_options = cudagraph_options
+        # the entries for different batch descriptors that we need to capture
+        # cudagraphs for.
+        self.concrete_cudagraph_entries: dict[BatchDescriptor, CUDAGraphEntry] = {}
+
+        CUDAGraphWrapper._all_instances.add(self)
+
+    def__getattr__(self, key: str) -> Any:
+        # allow accessing the attributes of the runnable.
+        if hasattr(self.runnable, key):
+            return getattr(self.runnable, key)
+        if self.is_debugging_mode:
+            raise AttributeError(
+                f"Attribute {key} not exists in the runnable of "
+                f"cudagraph wrapper: {self._runnable_str}"
+            )
+        raise AttributeError
+
+    defunwrap(self) -> Callable[..., Any]:
+        # in case we need to access the original runnable.
+        return self.runnable
+
+    @property
+    defcudagraph_wrapper(self) -> "CUDAGraphWrapper":
+        return self
+
+    defclear_graphs(self) -> None:
+        self.concrete_cudagraph_entries.clear()
+
+    def__call__(self, *args: Any, **kwargs: Any) -> Any | None:
+        if not is_forward_context_available():
+            # No forward context means we are outside the normal
+            # inference path (e.g. a vision encoder forward pass).
+            # Just run the underlying function without cudagraphs.
+            return self.runnable(*args, **kwargs)
+
+        forward_context = get_forward_context()
+        batch_descriptor = forward_context.batch_descriptor
+        cudagraph_runtime_mode = forward_context.cudagraph_runtime_mode
+
+        if (
+            cudagraph_runtime_mode == CUDAGraphMode.NONE
+            or cudagraph_runtime_mode != self.runtime_mode
+        ):
+            # CUDAGraphMode.NONE could mean the profile run, a warmup run, or
+            # running without cudagraphs.
+            # We do not trigger capture/replay if the runtime mode is not
+            # matches. This enables properly dispatching to the correct
+            # CUDAGraphWrapper when nesting multiple instances with different
+            # runtime modes.
+            return self.runnable(*args, **kwargs)
+
+        assert batch_descriptor is not None
+        if batch_descriptor not in self.concrete_cudagraph_entries:
+            # create a new entry for this batch descriptor
+            self.concrete_cudagraph_entries[batch_descriptor] = CUDAGraphEntry(
+                batch_descriptor=batch_descriptor
+            )
+
+        entry = self.concrete_cudagraph_entries[batch_descriptor]
+
+        if entry.cudagraph is None:
+            if self.cudagraph_options.debug_log_enable:
+                # Since we capture cudagraph for many different shapes and
+                # capturing is fast, we don't need to log it for every
+                # shape. E.g. we only log it for the first subgraph in
+                # piecewise mode.
+                logger.debug(
+                    "Capturing a cudagraph on (%s,%s)",
+                    self.runtime_mode.name,
+                    entry.batch_descriptor,
+                )
+            # validate that cudagraph capturing is legal at this point.
+            validate_cudagraph_capturing_enabled()
+
+            input_addresses = [
+                x.data_ptr() for x in args if isinstance(x, torch.Tensor)
+            ]
+            entry.input_addresses = input_addresses
+            cudagraph = torch.cuda.CUDAGraph()
+
+            with ExitStack() as stack:
+                if self.cudagraph_options.gc_disable:
+                    # during every model forward for piecewise cudagraph
+                    # mode, we will capture many pieces of cudagraphs
+                    # (roughly one per layer). running gc again and again
+                    # across layers will make the cudagraph capture very slow.
+                    # therefore, we only run gc for the first graph,
+                    # and disable gc for the rest of the graphs.
+                    stack.enter_context(
+                        patch("gc.collect", lambda *args, **kwargs: None)
+                    )
+                    stack.enter_context(
+                        patch(
+                            "torch.accelerator.empty_cache",
+                            lambda *args, **kwargs: None,
+                        )
+                    )
+
+                if self.graph_pool is not None:
+                    set_graph_pool_id(self.graph_pool)
+                else:
+                    set_graph_pool_id(current_platform.graph_pool_handle())
+
+                # Sync offloader's copy stream before capture.
+                # Ensure any pre-capture prefetches from offloader are complete.
+                get_offloader().sync_prev_onload()
+
+                # mind-exploding: carefully manage the reference and memory.
+                with torch.cuda.graph(
+                    cudagraph,
+                    pool=self.graph_pool,
+                    stream=current_stream(),
+                ):
+                    # `output` is managed by pytorch's cudagraph pool
+                    output = self.runnable(*args, **kwargs)
+                    # Join offloader's copy stream after forward to avoid
+                    # unjoined stream error. The last layer's start_prefetch
+                    # forks copy_stream, but wait_prefetch only happens in
+                    # the next forward pass.
+                    get_offloader().join_after_forward()
+                    if self.cudagraph_options.weak_ref_output:
+                        # by converting it to weak ref,
+                        # the original `output` will immediately be released
+                        # to save memory. It is only safe to do this for
+                        # the last graph in piecewise cuadgraph mode, because
+                        # the output of the last graph will not be used by
+                        # any other cuda graph.
+                        output = weak_ref_tensors(output)
+
+            # here we always use weak ref for the output
+            # to save memory
+            entry.output = weak_ref_tensors(output)
+            entry.cudagraph = cudagraph
+
+            compilation_counter.num_cudagraph_captured += 1
+
+            # important: we need to return the output, rather than
+            # the weak ref of the output, so that pytorch can correctly
+            # manage the memory during cuda graph capture
+            return output
+
+        if self.is_debugging_mode:
+            # check if the input addresses are the same
+            new_input_addresses = [
+                x.data_ptr() for x in args if isinstance(x, torch.Tensor)
+            ]
+            assert new_input_addresses == entry.input_addresses, (
+                f"Input addresses for cudagraphs are different "
+                f"during replay. Expected {entry.input_addresses}, "
+                f"got {new_input_addresses}"
+            )
+
+        # Sync offloader before replay - ensures any external dependencies
+        # from pre-capture prefetches are satisfied.
+        get_offloader().sync_prev_onload()
+        entry.cudagraph.replay()
+        return entry.output
+```

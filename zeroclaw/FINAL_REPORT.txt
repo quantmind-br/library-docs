@@ -1,0 +1,5 @@
+OK: /home/diogo/dev/library-docs/zeroclaw/041-i18n-vi-operations-runbook.md — 474w → 470w (-1%)
+OK: /home/diogo/dev/library-docs/zeroclaw/042-i18n-vi-pr-workflow.md — 2766w → 2684w (-3%)
+OK: /home/diogo/dev/library-docs/zeroclaw/043-i18n-vi-proxy-agent-playbook.md — 828w → 828w (0%)
+OK: /home/diogo/dev/library-docs/zeroclaw/044-i18n-vi-release-process.md — 666w → 666w (0%)
+OK: /home/diogo/dev/library-docs/zeroclaw/045-i18n-vi-reviewer-playbook.md — 1366w → 1366w (0%)

@@ -2,19 +2,22 @@
 title: Tui
 url: https://github.com/badlogic/pi-mono/blob/main/packages/coding-agent/docs/tui.md
 source: git
-fetched_at: 2026-03-03T03:41:30.260336-03:00
+fetched_at: 2026-05-03T09:31:29.584281767-03:00
 rendered_js: false
-word_count: 3236
-summary: Document explains building and using TUI (Terminal User Interface) components in the `pi` framework, including design interfaces, focus management, overlay support, and built-in components like Text, Box, Container, and Spacer.
+word_count: 1362
+summary: This document describes the component system for building interactive text-based user interfaces (TUI) using the pi framework, including interface requirements, IME support, overlay management, and built-in UI components.
 tags:
-    - tui-components
+    - tui
     - terminal-ui
-    - terminal-rendering
-    - custom-components
-    - keyboard-input-handling
-category: guide
+    - typescript
+    - component-library
+    - ime-support
+    - overlay
+    - user-interface
+category: reference
+optimized: true
+optimized_at: 2026-05-03T12:31:00Z
 ---
-
 > pi can create TUI components. Ask it to build one for your use case.
 
 # TUI Components
@@ -411,7 +414,7 @@ Components accept theme objects for styling.
 **In `renderCall`/`renderResult`**, use the `theme` parameter:
 
 ```typescript
-renderResult(result, options, theme) {
+renderResult(result, options, theme, context) {
   // Use theme.fg() for foreground colors
   return new Text(theme.fg("success", "Done!"), 0, 0);
   
@@ -445,7 +448,7 @@ renderResult(result, options, theme) {
 import { getMarkdownTheme } from "@mariozechner/pi-coding-agent";
 import { Markdown } from "@mariozechner/pi-tui";
 
-renderResult(result, options, theme) {
+renderResult(result, options, theme, context) {
   const mdTheme = getMarkdownTheme();
   return new Markdown(result.details.markdown, 0, 0, mdTheme);
 }
@@ -752,6 +755,36 @@ ctx.ui.setStatus("my-ext", undefined);
 
 **Examples:** [status-line.ts](../examples/extensions/status-line.ts), [plan-mode.ts](../examples/extensions/plan-mode.ts), [preset.ts](../examples/extensions/preset.ts)
 
+### Pattern 4b: Working Indicator Customization
+
+Customize the inline working indicator shown while pi is streaming a response.
+
+```typescript
+// Static indicator
+ctx.ui.setWorkingIndicator({ frames: [ctx.ui.theme.fg("accent", "●")] });
+
+// Custom animated indicator
+ctx.ui.setWorkingIndicator({
+  frames: [
+    ctx.ui.theme.fg("dim", "·"),
+    ctx.ui.theme.fg("muted", "•"),
+    ctx.ui.theme.fg("accent", "●"),
+    ctx.ui.theme.fg("muted", "•"),
+  ],
+  intervalMs: 120,
+});
+
+// Hide the indicator entirely
+ctx.ui.setWorkingIndicator({ frames: [] });
+
+// Restore pi's default spinner
+ctx.ui.setWorkingIndicator();
+```
+
+This only affects the normal streaming working indicator. Compaction and retry loaders keep their built-in styling. Custom frames are rendered verbatim, so extensions must add their own colors when needed.
+
+**Examples:** [working-indicator.ts](../examples/extensions/working-indicator.ts)
+
 ### Pattern 5: Widgets Above/Below Editor
 
 Show persistent content above or below the input editor. Good for todo lists, progress.
@@ -898,6 +931,7 @@ export default function (pi: ExtensionAPI) {
 - **Async with cancel**: [examples/extensions/qna.ts](../examples/extensions/qna.ts) - BorderedLoader for LLM calls
 - **Settings toggles**: [examples/extensions/tools.ts](../examples/extensions/tools.ts) - SettingsList for tool enable/disable
 - **Status indicators**: [examples/extensions/plan-mode.ts](../examples/extensions/plan-mode.ts) - setStatus and setWidget
+- **Working indicator**: [examples/extensions/working-indicator.ts](../examples/extensions/working-indicator.ts) - setWorkingIndicator
 - **Custom footer**: [examples/extensions/custom-footer.ts](../examples/extensions/custom-footer.ts) - setFooter with stats
 - **Custom editor**: [examples/extensions/modal-editor.ts](../examples/extensions/modal-editor.ts) - Vim-like modal editing
 - **Snake game**: [examples/extensions/snake.ts](../examples/extensions/snake.ts) - Full game with keyboard input, game loop

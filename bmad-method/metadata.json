@@ -1,0 +1,265 @@
+{
+  "generated_at": "2026-05-19T08:33:06.705927821-03:00",
+  "source_url": "https://docs.bmad-method.org/llms.txt",
+  "strategy": "llms",
+  "total_documents": 12,
+  "documents": [
+    {
+      "file_path": "001-tutorials-getting-started.md",
+      "title": "Getting Started",
+      "url": "https://docs.bmad-method.org//tutorials/getting-started/",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:03.552062073-03:00",
+      "description": "Install BMad and build your first project",
+      "summary": "This document provides a comprehensive guide to using the BMad Method, an AI-powered framework that utilizes specialized agents to assist in software project planning, architecture design, and iterative implementation.",
+      "tags": [
+        "ai-agents",
+        "software-development",
+        "workflow-automation",
+        "project-management",
+        "bmad-method",
+        "ai-development-tools"
+      ],
+      "category": "guide",
+      "original_file_path": "tutorials-getting-started.md",
+      "optimized": true,
+      "word_count": 1031
+    },
+    {
+      "file_path": "002-how-to-install-bmad.md",
+      "title": "How to Install BMad",
+      "url": "https://docs.bmad-method.org//how-to/install-bmad/",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:03.5681753-03:00",
+      "description": "Install, update, and pin BMad for local development, teams, and CI",
+      "summary": "This document details the usage of the bmad-method command-line tool for installing, upgrading, and managing project modules, including headless configurations for CI environments.",
+      "tags": [
+        "bmad",
+        "cli",
+        "package-management",
+        "ci-cd",
+        "configuration",
+        "automation"
+      ],
+      "category": "guide",
+      "original_file_path": "how-to-install-bmad.md",
+      "optimized": true,
+      "word_count": 1271
+    },
+    {
+      "file_path": "003-bmad-overview.md",
+      "title": "BMAD Method Overview",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Overview of the BMad Method framework, documentation structure, requirements, and community resources.",
+      "summary": "Overview of the BMad Method framework, documentation structure, requirements, and community resources.",
+      "tags": [
+        "bmad-method",
+        "overview",
+        "getting-started"
+      ],
+      "category": "guide",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 299
+    },
+    {
+      "file_path": "004-reference-workflow-map.md",
+      "title": "Workflow Map",
+      "url": "https://docs.bmad-method.org//reference/workflow-map/",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:03.54626913-03:00",
+      "description": "Visual reference for BMad Method workflow phases and outputs",
+      "summary": "The BMad Method is a structured, multi-phase framework designed to improve AI agent performance by providing systematic context engineering and progressive planning workflows.",
+      "tags": [
+        "ai-agents",
+        "context-engineering",
+        "agile-methodology",
+        "project-management",
+        "workflow-automation",
+        "software-development"
+      ],
+      "category": "guide",
+      "original_file_path": "reference-workflow-map.md",
+      "optimized": true,
+      "word_count": 493
+    },
+    {
+      "file_path": "005-explanation-party-mode.md",
+      "title": "Party Mode",
+      "url": "https://docs.bmad-method.org//explanation/party-mode/",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:03.551712169-03:00",
+      "description": "Multi-agent collaboration - get all your AI agents in one conversation",
+      "summary": "This document introduces Party Mode, a feature that allows users to collaborate with multiple AI agents simultaneously within a single conversation for brainstorming, decision-making, and project planning.",
+      "tags": [
+        "ai-collaboration",
+        "multi-agent-system",
+        "project-management",
+        "brainstorming",
+        "team-workflow"
+      ],
+      "category": "concept",
+      "original_file_path": "explanation-party-mode.md",
+      "optimized": true,
+      "word_count": 296
+    },
+    {
+      "file_path": "006-reference-modules.md",
+      "title": "Official Modules",
+      "url": "https://docs.bmad-method.org//reference/modules/",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:03.555165572-03:00",
+      "description": "Add-on modules for building custom agents, creative intelligence, game development, and testing",
+      "summary": "This document provides an overview of available BMad framework modules, detailing the functionality of tools for agent construction, creative intelligence, game development, and enterprise-grade testing.",
+      "tags": [
+        "bmad-framework",
+        "modular-architecture",
+        "software-development",
+        "ai-agents",
+        "workflow-automation",
+        "game-design",
+        "qa-automation"
+      ],
+      "category": "reference",
+      "original_file_path": "reference-modules.md",
+      "optimized": true,
+      "word_count": 335
+    },
+    {
+      "file_path": "007-how-to-customize.md",
+      "title": "How to Customize BMad",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Tailor agent personas, inject domain context, add capabilities, and customize workflows in BMad.",
+      "summary": "Tailor agent personas, inject domain context, add capabilities, and customize workflows in BMad.",
+      "tags": [
+        "bmad-method",
+        "customization",
+        "agents",
+        "workflows"
+      ],
+      "category": "guide",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 1280
+    },
+    {
+      "file_path": "008-how-to-expand-org.md",
+      "title": "How to Expand BMad for Your Organization",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Customize BMad behavior org-wide using the three-layer mental model and advanced integration patterns.",
+      "summary": "Customize BMad behavior org-wide using the three-layer mental model and advanced integration patterns.",
+      "tags": [
+        "bmad-method",
+        "organization",
+        "customization",
+        "enterprise"
+      ],
+      "category": "guide",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 1547
+    },
+    {
+      "file_path": "009-how-to-install-advanced.md",
+      "title": "How to Install Custom Modules and Upgrade",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Install community and custom modules, and upgrade from v4 to v6.",
+      "summary": "Install community and custom modules, and upgrade from v4 to v6.",
+      "tags": [
+        "bmad-method",
+        "installation",
+        "modules",
+        "upgrading"
+      ],
+      "category": "guide",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 656
+    },
+    {
+      "file_path": "010-how-to-project-workflow.md",
+      "title": "Project Workflow Guides",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Guides for working with established projects, creating project context, quick fixes, and document sharding.",
+      "summary": "Guides for working with established projects, creating project context, quick fixes, and document sharding.",
+      "tags": [
+        "bmad-method",
+        "project-management",
+        "existing-projects",
+        "quick-fixes"
+      ],
+      "category": "guide",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 909
+    },
+    {
+      "file_path": "011-how-to-get-help.md",
+      "title": "How to Get Answers About BMad",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Use BMad's built-in help, source docs, or community to get answers.",
+      "summary": "Use BMad's built-in help, source docs, or community to get answers.",
+      "tags": [
+        "bmad-method",
+        "help",
+        "support",
+        "community"
+      ],
+      "category": "guide",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 328
+    },
+    {
+      "file_path": "012-explanation-concepts.md",
+      "title": "Advanced Concepts and Techniques",
+      "url": "https://docs.bmad-method.org//llms-full.txt",
+      "source": "llms",
+      "fetched_at": "2026-05-19T08:33:05.038451722-03:00",
+      "description": "Advanced reasoning techniques including elicitation, adversarial review, and analysis-phase tools.",
+      "summary": "Advanced reasoning techniques including elicitation, adversarial review, and analysis-phase tools.",
+      "tags": [
+        "bmad-method",
+        "advanced-elicitation",
+        "adversarial-review",
+        "analysis"
+      ],
+      "category": "concept",
+      "original_file_path": "003-llms-full.txt.md",
+      "optimized": true,
+      "word_count": 598
+    }
+  ],
+  "organization": {
+    "method": "sequential-numbering",
+    "organized_at": "2026-05-19T11:36:46.220691+00:00",
+    "total_files": 12,
+    "categories": [
+      "Quick Start & Installation",
+      "Tutorials & Guides",
+      "Concepts & Fundamentals",
+      "API Reference"
+    ],
+    "dropped": []
+  },
+  "optimization": {
+    "method": "ai-consumption-optimized",
+    "format": "obsidian",
+    "optimized_at": "2026-05-19T12:29:22.353955+00:00",
+    "files_optimized": 12,
+    "files_deleted": 0,
+    "deleted_files": []
+  }
+}
